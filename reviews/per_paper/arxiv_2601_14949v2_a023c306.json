@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.14949v2",
+  "title": "What Should I Cite? A RAG Benchmark for Academic Citation Prediction",
+  "authors": "Leqi Zheng; Jiajun Zhang; Canzhi Chen; Chaokun Wang; Hongwei Li; Yuying Li; Yaoxin Mao; Shannan Yan; Zixin Song; Zhiyuan Feng; Zhaolu Kang; Zirong Chen; Hang Zhang; Qiang Liu; Liang Wang; Ziyang Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.14949v2",
+  "local_pdf": "pdfs/2026_leqi_zheng_what_should_i_cite_a_rag_benchmark_for_academic_citation_prediction_a023c306.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "A RAG benchmark for academic citation prediction; does not address robustness, noise, conflict, adversarial, or calibration concerns.",
+  "why_not_or_caveat": "Application-focused benchmark, outside the survey's scope on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:37.762741+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.14949v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"A RAG benchmark for academic citation prediction; does not address robustness, noise, conflict, adversarial, or calibration concerns.\",\"why_not_or_caveat\":\"Application-focused benchmark, outside the survey's scope on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

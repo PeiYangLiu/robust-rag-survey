@@ -1,0 +1,48 @@
+Strict-auditing 33 citation occurrences with claude-opus-4.7, workers=4
+[1/33] 012_01_ragComprehensive2025: fully_supported action=keep
+[2/33] 012_01_ragSurvey2024: fully_supported action=keep
+[3/33] 012_02_ragEvaluationSurvey2024: fully_supported action=keep
+[4/33] 010_01_lewis2020rag: fully_supported action=keep
+[5/33] 012_03_trustworthyRAGSurvey2025: fully_supported action=keep
+[6/33] 012_03_securityRAGSurvey2026: fully_supported action=keep
+[7/33] 025_01_irrelevantContext2023: fully_supported action=keep
+[8/33] 012_03_trustRAGCompass2024: fully_supported action=keep
+[9/33] 027_01_chainOfNote2023: fully_supported action=keep
+[10/33] 027_02_sufficientContext2024: fully_supported action=keep
+[11/33] 025_03_rgb2023: fully_supported action=keep
+[12/33] 025_02_raat2024: fully_supported action=keep
+[13/33] 030_02_faithfulRAG2025: fully_supported action=keep
+[14/33] 030_01_tugOfWar2024: fully_supported action=keep
+[15/33] 030_03_astuteRAG2025: fully_supported action=keep
+[16/33] 033_01_poisoningRetrievalCorpora2023: fully_supported action=keep
+[17/33] 033_03_badRAG2024: fully_supported action=keep
+[18/33] 033_02_poisonedRAG2024: fully_supported action=keep
+[19/33] 033_04_trojanRAG2024: fully_supported action=keep
+[20/33] 033_04_phantom2024: fully_supported action=keep
+[21/33] 035_01_certifiedRAG2024: fully_supported action=keep
+[22/33] 037_01_rgb2023: fully_supported action=keep
+[23/33] 033_05_aip2025: partially_supported action=narrow_claim
+[24/33] 037_02_sufficientContext2024: fully_supported action=keep
+[25/33] 038_01_whenToRetrieve2024: fully_supported action=keep
+[26/33] 038_02_crag2024: fully_supported action=keep
+[27/33] 038_01_selfRAG2023: fully_supported action=keep
+[28/33] 038_01_ctrla2025: fully_supported action=keep
+[29/33] 043_01_rgb2023: fully_supported action=keep
+[30/33] 043_01_ragTruth2024: fully_supported action=keep
+[31/33] 039_02_uncertaintyRAG2024: fully_supported action=keep
+[32/33] 039_01_calibRAG2025: fully_supported action=keep
+[33/33] 043_01_queryRobustness2025: fully_supported action=keep
+{
+  "status": "strict_full_text_claim_audit",
+  "audited_occurrences": 33,
+  "failures": [],
+  "support_counts": {
+    "fully_supported": 32,
+    "partially_supported": 1
+  },
+  "recommended_action_counts": {
+    "keep": 32,
+    "narrow_claim": 1
+  },
+  "notes": "Each audit sent the manuscript paragraph/claim and the full extracted cited-paper text to Claude Opus 4.7."
+}

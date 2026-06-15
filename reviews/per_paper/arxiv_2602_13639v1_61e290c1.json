@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.13639v1",
+  "title": "Guided Collaboration in Heterogeneous LLM-Based Multi-Agent Systems via Entropy-Based Understanding Assessment and Experience Retrieval",
+  "authors": "Linlin Wang; Tianqing Zhu; Laiqiao Qin; Longxiang Gao; Wanlei Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.13639v1",
+  "local_pdf": "pdfs/2026_linlin_wang_guided_collaboration_in_heterogeneous_llm_based_multi_agent_systems_via_entropy_based_un_61e290c1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper focuses on heterogeneous multi-agent collaboration with entropy-based guidance; RAG is only used to store collaboration experiences, not addressing robustness under unreliable evidence.",
+  "why_not_or_caveat": "Does not study retrieval noise, conflict, attacks, calibration, or RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.295897+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.13639v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper focuses on heterogeneous multi-agent collaboration with entropy-based guidance; RAG is only used to store collaboration experiences, not addressing robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Does not study retrieval noise, conflict, attacks, calibration, or RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

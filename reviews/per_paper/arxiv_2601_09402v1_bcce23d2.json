@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.09402v1",
+  "title": "Structured Knowledge Representation through Contextual Pages for Retrieval-Augmented Generation",
+  "authors": "Xinze Li; Zhenghao Liu; Haidong Xin; Yukun Yan; Shuo Wang; Zheni Zeng; Sen Mei; Ge Yu; Maosong Sun",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.09402v1",
+  "local_pdf": "pdfs/2026_xinze_li_structured_knowledge_representation_through_contextual_pages_for_retrieval_augmented_gen_bcce23d2.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a structured page-based RAG knowledge representation method and claims to mitigate knowledge conflicts, tangentially relevant to the conflict subsection.",
+  "why_not_or_caveat": "Primary focus is on knowledge organization/refinement for QA performance, not a direct study of robustness, conflict resolution, or unreliable evidence handling.",
+  "recommended_use": "background_only",
+  "suggested_section": "Knowledge conflict mitigation",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.139330+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.09402v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"knowledge_conflict\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a structured page-based RAG knowledge representation method and claims to mitigate knowledge conflicts, tangentially relevant to the conflict subsection.\", \"why_not_or_caveat\": \"Primary focus is on knowledge organization/refinement for QA performance, not a direct study of robustness, conflict resolution, or unreliable evidence handling.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Knowledge conflict mitigation\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

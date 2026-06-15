@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2404.19232v7",
+  "title": "GRAMMAR: Grounded and Modular Methodology for Assessment of Closed-Domain Retrieval-Augmented Language Model",
+  "authors": "Xinzhe Li; Ming Liu; Shang Gao",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.19232v7",
+  "local_pdf": "pdfs/2024_xinzhe_li_grammar_grounded_and_modular_methodology_for_assessment_of_closed_domain_retrieval_augme_d4a471c2.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a modular evaluation framework for closed-domain RAG that diagnoses whether failures stem from retrieval or LM, including robustness to query form variations. Relevant to evaluation methodology for unreliable RAG.",
+  "why_not_or_caveat": "Focuses on closed-domain evaluation and diagnostic protocol rather than directly studying noise, conflict, or adversarial attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.378381+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2404.19232v7\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a modular evaluation framework for closed-domain RAG that diagnoses whether failures stem from retrieval or LM, including robustness to query form variations. Relevant to evaluation methodology for unreliable RAG.\",\n  \"why_not_or_caveat\": \"Focuses on closed-domain evaluation and diagnostic protocol rather than directly studying noise, conflict, or adversarial attacks.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

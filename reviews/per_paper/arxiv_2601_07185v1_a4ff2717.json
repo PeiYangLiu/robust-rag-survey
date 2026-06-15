@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.07185v1",
+  "title": "Defenses Against Prompt Attacks Learn Surface Heuristics",
+  "authors": "Shawn Li; Chenxiao Yu; Zhiyu Ni; Hao Li; Charith Peris; Chaowei Xiao; Yue Zhao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.07185v1",
+  "local_pdf": "pdfs/2026_shawn_li_defenses_against_prompt_attacks_learn_surface_heuristics_a4ff2717.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes failure modes of supervised fine-tuning defenses against prompt injection, including indirect injection via retrieved content relevant to RAG. Identifies shortcut biases (position, token trigger, topic) that cause over-rejection, informing defense design for RAG.",
+  "why_not_or_caveat": "Focus is on prompt-injection defenses generally rather than RAG-specific pipelines; RAG is one motivating application.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:41.731324+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.07185v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Analyzes failure modes of supervised fine-tuning defenses against prompt injection, including indirect injection via retrieved content relevant to RAG. Identifies shortcut biases (position, token trigger, topic) that cause over-rejection, informing defense design for RAG.\", \"why_not_or_caveat\": \"Focus is on prompt-injection defenses generally rather than RAG-specific pipelines; RAG is one motivating application.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial corruption and defenses\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

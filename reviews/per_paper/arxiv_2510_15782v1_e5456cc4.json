@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.15782v1",
+  "title": "Demo: Guide-RAG: Evidence-Driven Corpus Curation for Retrieval-Augmented Generation in Long COVID",
+  "authors": "Philip DiGiacomo; Haoyang Wang; Jinrui Fang; Yan Leng; W Michael Brode; Ying Ding",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.15782v1",
+  "local_pdf": "pdfs/2025_philip_digiacomo_demo_guide_rag_evidence_driven_corpus_curation_for_retrieval_augmented_generation_in_lon_e5456cc4.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to Long COVID clinical QA, comparing corpus curation strategies. Touches on noise from unfiltered literature but is primarily a domain application.",
+  "why_not_or_caveat": "Does not directly study robustness, conflicts, attacks, calibration, or uncertainty methods.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:48.698272+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.15782v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to Long COVID clinical QA, comparing corpus curation strategies. Touches on noise from unfiltered literature but is primarily a domain application.\",\"why_not_or_caveat\":\"Does not directly study robustness, conflicts, attacks, calibration, or uncertainty methods.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

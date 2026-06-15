@@ -1,0 +1,15 @@
+paper_id,title,field,source_01_label,source_02_label,url
+certifiedRAG2024,Certifiably Robust RAG against Retrieval Corruption,evaluation_type,attack_success,defense_bypass,https://arxiv.org/abs/2405.15556
+rrag032,CUB: Benchmarking Context Utilisation Techniques for Language Models,evaluation_type,benchmark_only,qa_accuracy,https://arxiv.org/abs/2505.16518v3
+trustRAGCompass2024,Trustworthiness in Retrieval-Augmented Generation Systems: A Survey,evaluation_type,not_applicable,benchmark_only,https://arxiv.org/abs/2409.10102
+rrag070,The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents,evaluation_type,qa_accuracy,attack_success,https://arxiv.org/abs/2603.00801v1
+rrag073,LLM-Oriented Information Retrieval: A Denoising-First Perspective,evaluation_type,not_applicable,qa_accuracy,https://arxiv.org/abs/2605.00505v2
+rrag132,Whose Facts Win? LLM Source Preferences under Knowledge Conflicts,evaluation_type,other,qa_accuracy,https://arxiv.org/abs/2601.03746v3
+rrag133,Towards Unsupervised Adversarial Document Detection in Retrieval Augmented Generation Systems,evaluation_type,defense_bypass,attack_success,https://arxiv.org/abs/2603.17176v1
+rrag136,The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF,evaluation_type,benchmark_only,qa_accuracy,https://arxiv.org/abs/2605.29491v1
+rrag193,"Investigating Retrieval-Augmented Generation Systems on Unanswerable, Uncheatable, Realistic, Multi-hop Queries",evaluation_type,benchmark_only,qa_accuracy,https://arxiv.org/abs/2510.11956v3
+rrag217,Get my drift? Catching LLM Task Drift with Activation Deltas,evaluation_type,attack_success,defense_bypass,https://arxiv.org/abs/2406.00799v6
+venue012,{BERGEN}: A Benchmarking Library for Retrieval-Augmented Generation,evaluation_type,benchmark_only,qa_accuracy,https://aclanthology.org/2024.findings-emnlp.449/
+venue019,Evaluation of Attribution Bias in Generator-Aware Retrieval-Augmented Large Language Models,evaluation_type,other,faithfulness_hallucination,https://aclanthology.org/2025.findings-acl.1087/
+venue028,Controlled Retrieval-augmented Context Evaluation for Long-form {RAG},evaluation_type,other,benchmark_only,https://aclanthology.org/2025.findings-emnlp.1151/
+venue051,When to Trust: A Causality-Aware Calibration Framework for Accurate Knowledge Graph Retrieval-Augmented Generation.,evaluation_type,calibration_selective_risk,qa_accuracy,https://doi.org/10.1145/3774904.3792358

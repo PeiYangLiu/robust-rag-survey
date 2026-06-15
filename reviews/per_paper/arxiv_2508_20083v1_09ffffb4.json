@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.20083v1",
+  "title": "Disabling Self-Correction in Retrieval-Augmented Generation via Stealthy Retriever Poisoning",
+  "authors": "Yanbo Dai; Zhenlan Ji; Zongjie Li; Kuan Li; Shuai Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.20083v1",
+  "local_pdf": "pdfs/2025_yanbo_dai_disabling_self_correction_in_retrieval_augmented_generation_via_stealthy_retriever_poiso_09ffffb4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a novel retriever-poisoning attack that suppresses LLM self-correction ability, directly relevant to adversarial corruption and context-vs-parametric conflict robustness in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption: retriever poisoning",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.954709+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.20083v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"knowledge_conflict\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces a novel retriever-poisoning attack that suppresses LLM self-correction ability, directly relevant to adversarial corruption and context-vs-parametric conflict robustness in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial corruption: retriever poisoning\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

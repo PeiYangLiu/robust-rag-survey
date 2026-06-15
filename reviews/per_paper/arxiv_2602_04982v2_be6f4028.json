@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.04982v2",
+  "title": "BioACE: An Automated Framework for Biomedical Answer and Citation Evaluations",
+  "authors": "Deepak Gupta; Davis Bartels; Dina Demner-Fushman",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.04982v2",
+  "local_pdf": "pdfs/2026_deepak_gupta_bioace_an_automated_framework_for_biomedical_answer_and_citation_evaluations_be6f4028.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes an automated evaluation framework for biomedical QA answers and citation support, tangentially related to RAG citation/attribution evaluation.",
+  "why_not_or_caveat": "Focuses on answer quality and citation evaluation in biomedical QA, not on robustness, noise, conflict, adversaries, or calibration of RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:55.042000+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.04982v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes an automated evaluation framework for biomedical QA answers and citation support, tangentially related to RAG citation/attribution evaluation.\",\n  \"why_not_or_caveat\": \"Focuses on answer quality and citation evaluation in biomedical QA, not on robustness, noise, conflict, adversaries, or calibration of RAG.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and metrics\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

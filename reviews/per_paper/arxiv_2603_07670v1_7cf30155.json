@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.07670v1",
+  "title": "Memory for Autonomous LLM Agents:Mechanisms, Evaluation, and Emerging Frontiers",
+  "authors": "Pengfei Du",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07670v1",
+  "local_pdf": "pdfs/2026_pengfei_du_memory_for_autonomous_llm_agents_mechanisms_evaluation_and_emerging_frontiers_7cf30155.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on LLM agent memory; touches retrieval-augmented stores and contradiction handling but is not focused on robustness, conflict, or adversarial issues in RAG.",
+  "why_not_or_caveat": "Scope is agent memory mechanisms broadly, not robust RAG under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:00.384033+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.07670v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"survey_related\"], \"paper_role\": \"survey\", \"why_relevant\": \"Survey on LLM agent memory; touches retrieval-augmented stores and contradiction handling but is not focused on robustness, conflict, or adversarial issues in RAG.\", \"why_not_or_caveat\": \"Scope is agent memory mechanisms broadly, not robust RAG under unreliable evidence.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Related surveys\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

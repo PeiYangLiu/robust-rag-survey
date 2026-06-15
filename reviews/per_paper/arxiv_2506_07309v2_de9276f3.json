@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.07309v2",
+  "title": "ConfRAG: Confidence-Guided Retrieval-Augmenting Generation",
+  "authors": "Yin Huang; Yifan Ethan Xu; Kai Sun; Vera Yan; Alicia Sun; Haidar Khan; Jimmy Nguyen; Jingxiang Chen; Mohammad Kachuee; Zhaojiang Lin; Yue Liu; Aaron Colak; Anuj Kumar; Wen-tau Yih; Xin Luna Dong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.07309v2",
+  "local_pdf": "pdfs/2025_yin_huang_confrag_confidence_guided_retrieval_augmenting_generation_de9276f3.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes confidence-calibrated fine-tuning (ConfQA) to abstain with 'I am unsure' and use this signal to trigger RAG only when needed, directly addressing when-to-retrieve and abstention/calibration.",
+  "why_not_or_caveat": "Focuses on triggering and hallucination suppression; does not address adversarial or conflict robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve and Abstain",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.024380+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.07309v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes confidence-calibrated fine-tuning (ConfQA) to abstain with 'I am unsure' and use this signal to trigger RAG only when needed, directly addressing when-to-retrieve and abstention/calibration.\",\"why_not_or_caveat\":\"Focuses on triggering and hallucination suppression; does not address adversarial or conflict robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve and Abstain\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

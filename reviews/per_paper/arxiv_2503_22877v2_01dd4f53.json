@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.22877v2",
+  "title": "Understanding Inequality of LLM Fact-Checking over Geographic Regions with Agent and Retrieval models",
+  "authors": "Bruno Coelho; Shujaat Mirza; Yuyuan Cui; Christina Pöpper; Damon McCoy",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.22877v2",
+  "local_pdf": "pdfs/2025_bruno_coelho_understanding_inequality_of_llm_fact_checking_over_geographic_regions_with_agent_and_ret_01dd4f53.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates LLM fact-checking accuracy across regions with RAG and agent-based retrieval, touching on retrieval limitations for region-specific knowledge.",
+  "why_not_or_caveat": "Focus is on geographic bias in fact-checking, not on robustness of RAG to unreliable evidence, conflict, or adversarial inputs.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:24.049543+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.22877v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_search\":false,\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Evaluates LLM fact-checking accuracy across regions with RAG and agent-based retrieval, touching on retrieval limitations for region-specific knowledge.\",\"why_not_or_caveat\":\"Focus is on geographic bias in fact-checking, not on robustness of RAG to unreliable evidence, conflict, or adversarial inputs.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

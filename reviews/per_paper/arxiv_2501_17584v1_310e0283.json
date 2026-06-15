@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2501.17584v1",
+  "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+  "authors": "Mohamed Abdelaal; Samuel Lokadjaja; Gilbert Engert",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.17584v1",
+  "local_pdf": "pdfs/2025_mohamed_abdelaal_gllm_self_corrective_g_code_generation_using_large_language_models_with_user_feedback_310e0283.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to G-code generation; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Pure application paper.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:45.894383+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.17584v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to G-code generation; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Pure application paper.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

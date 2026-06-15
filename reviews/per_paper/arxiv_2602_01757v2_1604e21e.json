@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.01757v2",
+  "title": "Zero2Text: Zero-Training Cross-Domain Inversion Attacks on Textual Embeddings",
+  "authors": "Doohyun Kim; Donghwa Kang; Kyungjae Lee; Hyeongboo Baek; Brent Byunghoon Kang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.01757v2",
+  "local_pdf": "pdfs/2026_doohyun_kim_zero2text_zero_training_cross_domain_inversion_attacks_on_textual_embeddings_1604e21e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes an embedding inversion attack against vector databases used in RAG, touching on privacy risks of RAG infrastructure.",
+  "why_not_or_caveat": "Focuses on privacy/inversion attacks rather than robustness of RAG generation under unreliable evidence; out of scope for noise/conflict/calibration themes.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial threats to RAG infrastructure",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:55.105179+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.01757v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes an embedding inversion attack against vector databases used in RAG, touching on privacy risks of RAG infrastructure.\",\"why_not_or_caveat\":\"Focuses on privacy/inversion attacks rather than robustness of RAG generation under unreliable evidence; out of scope for noise/conflict/calibration themes.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial threats to RAG infrastructure\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

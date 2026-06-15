@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.18293v1",
+  "title": "Fact-checking AI-generated news reports: Can LLMs catch their own lies?",
+  "authors": "Jiayi Yao; Haibo Sun; Nianwen Xue",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.18293v1",
+  "local_pdf": "pdfs/2025_jiayi_yao_fact_checking_ai_generated_news_reports_can_llms_catch_their_own_lies_98621402.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Observes that RAG with search results reduces non-assessments but increases incorrect ones due to irrelevant/low-quality retrieval, touching on noisy retrieval effects in fact-checking.",
+  "why_not_or_caveat": "Primary focus is fact-checking LLM-generated news, not robust RAG methodology; RAG analysis is incidental.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval impacts",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.305417+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.18293v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\",\"noisy_retrieval\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Observes that RAG with search results reduces non-assessments but increases incorrect ones due to irrelevant/low-quality retrieval, touching on noisy retrieval effects in fact-checking.\",\"why_not_or_caveat\":\"Primary focus is fact-checking LLM-generated news, not robust RAG methodology; RAG analysis is incidental.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval impacts\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

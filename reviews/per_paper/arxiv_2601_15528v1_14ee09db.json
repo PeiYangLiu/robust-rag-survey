@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.15528v1",
+  "title": "Securing LLM-as-a-Service for Small Businesses: An Industry Case Study of a Distributed Chatbot Deployment Platform",
+  "authors": "Jiazhu Xie; Bowen Li; Heyu Fu; Chong Gao; Ziqi Xu; Fengling Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15528v1",
+  "local_pdf": "pdfs/2026_jiazhu_xie_securing_llm_as_a_service_for_small_businesses_an_industry_case_study_of_a_distributed_c_14ee09db.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions platform-level defenses against prompt injection in RAG chatbots, but focus is on deployment infrastructure for small businesses rather than robustness research.",
+  "why_not_or_caveat": "Industry case study of deployment platform; not a substantive contribution to robust RAG methods, attacks, or evaluation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:25.820725+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.15528v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"application\",\"why_relevant\":\"Mentions platform-level defenses against prompt injection in RAG chatbots, but focus is on deployment infrastructure for small businesses rather than robustness research.\",\"why_not_or_caveat\":\"Industry case study of deployment platform; not a substantive contribution to robust RAG methods, attacks, or evaluation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2404.10496v4",
+  "title": "Spiral of Silence: How is Large Language Model Killing Information Retrieval? -- A Case Study on Open Domain Question Answering",
+  "authors": "Xiaoyang Chen; Ben He; Hongyu Lin; Xianpei Han; Tianshu Wang; Boxi Cao; Le Sun; Yingfei Sun",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.10496v4",
+  "local_pdf": "pdfs/2024_xiaoyang_chen_spiral_of_silence_how_is_large_language_model_killing_information_retrieval_a_case_study_ee1e1991.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes long-term effects of LLM-generated content polluting retrieval corpora in RAG, relevant to corpus contamination and reliability of evidence over time.",
+  "why_not_or_caveat": "Focus is on ecosystem-level 'Spiral of Silence' rather than direct robustness mechanisms, attacks/defenses, or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and corpus contamination",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:28.292932+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2404.10496v4\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes long-term effects of LLM-generated content polluting retrieval corpora in RAG, relevant to corpus contamination and reliability of evidence over time.\",\n  \"why_not_or_caveat\": \"Focus is on ecosystem-level 'Spiral of Silence' rather than direct robustness mechanisms, attacks/defenses, or calibration.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and corpus contamination\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

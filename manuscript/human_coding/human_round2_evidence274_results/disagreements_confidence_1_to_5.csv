@@ -1,0 +1,33 @@
+paper_id,title,field,source_01_label,source_02_label,url
+rrag001,URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models,confidence_1_to_5,5,4,https://arxiv.org/abs/2603.19281v1
+rrag010,AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning,confidence_1_to_5,4,5,https://arxiv.org/abs/2604.12201v1
+rrag011,Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention,confidence_1_to_5,4,5,https://arxiv.org/abs/2602.04711v2
+rrag012,Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis,confidence_1_to_5,5,4,https://arxiv.org/abs/2505.07459v2
+rrag020,Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems,confidence_1_to_5,4,5,https://arxiv.org/abs/2511.01268v1
+rrag025,PR-Attack: Coordinated Prompt-RAG Attacks on Retrieval-Augmented Generation in Large Language Models via Bilevel Optimization,confidence_1_to_5,5,4,https://arxiv.org/abs/2504.07717v3
+rrag030,Do Retrieval Augmented Language Models Know When They Don't Know?,confidence_1_to_5,5,4,https://arxiv.org/abs/2509.01476v3
+rrag034,Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home,confidence_1_to_5,5,4,https://arxiv.org/abs/2501.12835v2
+rrag037,Toward Robust RALMs: Revealing the Impact of Imperfect Retrieval on Retrieval-Augmented Language Models,confidence_1_to_5,4,5,https://arxiv.org/abs/2410.15107v1
+rrag039,Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG,confidence_1_to_5,5,4,https://arxiv.org/abs/2410.05983v1
+rrag043,Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise,confidence_1_to_5,5,4,https://arxiv.org/abs/2305.01579v3
+rrag049,UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation,confidence_1_to_5,5,4,https://arxiv.org/abs/2508.18652
+trustRAGCompass2024,Trustworthiness in Retrieval-Augmented Generation Systems: A Survey,confidence_1_to_5,5,4,https://arxiv.org/abs/2409.10102
+trustworthyRAGSurvey2025,Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey,confidence_1_to_5,5,4,https://arxiv.org/abs/2502.06872
+rrag051,GraphRAG under Fire,confidence_1_to_5,5,4,https://arxiv.org/abs/2501.14050
+rrag054,ADMIT: Few-shot Knowledge Poisoning Attacks on RAG-based Fact Checking,confidence_1_to_5,5,4,https://arxiv.org/abs/2510.13842
+rrag056,TrustRAG: Enhancing Robustness and Trustworthiness in RAG,confidence_1_to_5,4,5,https://arxiv.org/abs/2501.00879
+securityRAGSurvey2026,"Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions",confidence_1_to_5,5,4,https://arxiv.org/abs/2604.08304v2
+rrag062,Confundo: Learning to Generate Robust Poison for Practical RAG Systems,confidence_1_to_5,5,4,https://arxiv.org/abs/2602.06616v1
+rrag067,ATM: Adversarial Tuning Multi-agent System Makes a Robust Retrieval-Augmented Generator,confidence_1_to_5,5,4,https://aclanthology.org/2024.emnlp-main.610/
+rrag074,Is Conformal Factuality for RAG-based LLMs Robust? Novel Metrics and Systematic Insights,confidence_1_to_5,4,5,https://arxiv.org/abs/2603.16817v1
+rrag080,Architecture Matters: Comparing RAG Systems under Knowledge Base Poisoning,confidence_1_to_5,5,4,https://arxiv.org/abs/2605.05632v1
+rrag083,EcoSafeRAG: Efficient Security through Context Analysis in Retrieval-Augmented Generation,confidence_1_to_5,5,4,https://arxiv.org/abs/2505.13506v1
+rrag085,CtrlRAG: Black-box Document Poisoning Attacks for Retrieval-Augmented Generation of Large Language Models,confidence_1_to_5,4,5,https://arxiv.org/abs/2503.06950v2
+rrag086,Conflict-Aware Soft Prompting for Retrieval-Augmented Generation,confidence_1_to_5,5,4,https://arxiv.org/abs/2508.15253v2
+rrag099,Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models,confidence_1_to_5,5,4,https://arxiv.org/abs/2502.01386v3
+rrag103,One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Image,confidence_1_to_5,5,4,https://arxiv.org/abs/2504.02132v4
+rrag104,FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models,confidence_1_to_5,5,4,https://arxiv.org/abs/2501.02968v6
+rrag130,Resolving Knowledge Conflicts in Large Language Models,confidence_1_to_5,5,4,https://arxiv.org/abs/2310.00935
+rrag133,Towards Unsupervised Adversarial Document Detection in Retrieval Augmented Generation Systems,confidence_1_to_5,3,4,https://arxiv.org/abs/2603.17176v1
+rrag148,Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG,confidence_1_to_5,3,4,https://arxiv.org/abs/2601.10923v2
+rrag175,Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space,confidence_1_to_5,3,4,https://arxiv.org/abs/2512.14448v1

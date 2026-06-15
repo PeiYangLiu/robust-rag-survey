@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.07249v1",
+  "title": "MLAIRE: Multilingual Language-Aware Information Retrieval Evaluation Protocal",
+  "authors": "Youngjoon Jang; Seongtae Hong; Hyeonseok Moon; Heuiseok Lim",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.07249v1",
+  "local_pdf": "pdfs/2026_youngjoon_jang_mlaire_multilingual_language_aware_information_retrieval_evaluation_protocal_744d0676.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a multilingual IR evaluation protocol measuring query-language preference, noting that query–context language mismatch can degrade RAG answer correctness.",
+  "why_not_or_caveat": "Focused on multilingual retrieval evaluation rather than robustness to noise, conflict, adversaries, or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:07.191183+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.07249v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a multilingual IR evaluation protocol measuring query-language preference, noting that query–context language mismatch can degrade RAG answer correctness.\",\n  \"why_not_or_caveat\": \"Focused on multilingual retrieval evaluation rather than robustness to noise, conflict, adversaries, or calibration in RAG.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

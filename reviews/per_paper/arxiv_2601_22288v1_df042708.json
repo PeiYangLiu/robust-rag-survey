@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.22288v1",
+  "title": "PersonaCite: VoC-Grounded Interviewable Agentic Synthetic AI Personas for Verifiable User and Design Research",
+  "authors": "Mario Truss",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.22288v1",
+  "local_pdf": "pdfs/2026_mario_truss_personacite_voc_grounded_interviewable_agentic_synthetic_ai_personas_for_verifiable_user_df042708.pdf",
+  "metadata_topics": "calibration-control",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG with explicit abstention when evidence is insufficient and source attribution, touching on grounding/abstention themes.",
+  "why_not_or_caveat": "Application-focused HCI prototype for synthetic personas with formative qualitative evaluation; does not study robustness, calibration, or unreliable evidence in a generalizable way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:05.806361+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.22288v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG with explicit abstention when evidence is insufficient and source attribution, touching on grounding/abstention themes.\",\"why_not_or_caveat\":\"Application-focused HCI prototype for synthetic personas with formative qualitative evaluation; does not study robustness, calibration, or unreliable evidence in a generalizable way.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

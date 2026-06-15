@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.01394v1",
+  "title": "UniD$^3$: A Knowledge Graph-Enhanced RAG Framework for Drug-Disease Discovery and Reasoning",
+  "authors": "Qing Wang; Tianshi Liu; Minghao Zhou; Jialu Liang; Sen Guo; Guangyu Wang; Jing Su; Qianqian Song",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.01394v1",
+  "local_pdf": "pdfs/2026_qing_wang_unid_3_a_knowledge_graph_enhanced_rag_framework_for_drug_disease_discovery_and_reasoning_509d22bf.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain application of KG-RAG for drug-disease dataset construction; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:39.581313+00:00",
+  "raw_response": "{\"key\":\"arxiv-2606.01394v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain application of KG-RAG for drug-disease dataset construction; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

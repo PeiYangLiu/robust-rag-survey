@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.16155v2",
+  "title": "A Troublemaker with Contagious Jailbreak Makes Chaos in Honest Towns",
+  "authors": "Tianyi Men; Pengfei Cao; Zhuoran Jin; Yubo Chen; Kang Liu; Jun Zhao",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.16155v2",
+  "local_pdf": "pdfs/2024_tianyi_men_a_troublemaker_with_contagious_jailbreak_makes_chaos_in_honest_towns_53bba292.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a retrieval-suffix-based poisoning/jailbreak attack on agent memory (RAG) that propagates across multi-agent systems, relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Focus is multi-agent contagion rather than standard RAG robustness; tangential to core single-system RAG attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Propagation in Agentic RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:41.784367+00:00",
+  "raw_response": "{\"key\": \"arxiv-2410.16155v2\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"], \"paper_role\": \"attack\", \"why_relevant\": \"Proposes a retrieval-suffix-based poisoning/jailbreak attack on agent memory (RAG) that propagates across multi-agent systems, relevant to adversarial corruption of retrieval.\", \"why_not_or_caveat\": \"Focus is multi-agent contagion rather than standard RAG robustness; tangential to core single-system RAG attacks.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption: Poisoning and Propagation in Agentic RAG\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

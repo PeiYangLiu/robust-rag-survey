@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.05698v2",
+  "title": "Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis",
+  "authors": "Hazem Amamou; Stéphane Gagnon; Alan Davoust; Anderson R. Avila",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.05698v2",
+  "local_pdf": "pdfs/2026_hazem_amamou_towards_robust_retrieval_augmented_generation_based_on_knowledge_graph_a_comparative_ana_29fc0760.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates RAG robustness across noise, integration, negative rejection, and counterfactual scenarios using RGB, comparing GraphRAG variants as a defense strategy.",
+  "why_not_or_caveat": "Limited novelty; mainly a comparative analysis with prompt/KG customizations on an existing benchmark.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge-graph-based robust RAG",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:41.888426+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.05698v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Evaluates RAG robustness across noise, integration, negative rejection, and counterfactual scenarios using RGB, comparing GraphRAG variants as a defense strategy.\",\n  \"why_not_or_caveat\": \"Limited novelty; mainly a comparative analysis with prompt/KG customizations on an existing benchmark.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge-graph-based robust RAG\",\n  \"confidence\": 0.75\n}",
+  "skipped_existing": false
+}

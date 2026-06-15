@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2411.00300v2",
+  "title": "Rationale-Guided Retrieval Augmented Generation for Medical Question Answering",
+  "authors": "Jiwoong Sohn; Yein Park; Chanwoong Yoon; Sihyeon Park; Hyeon Hwang; Mujeen Sung; Hyunjae Kim; Jaewoo Kang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.00300v2",
+  "local_pdf": "pdfs/2024_jiwoong_sohn_rationale_guided_retrieval_augmented_generation_for_medical_question_answering_936db1c3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a rationale-guided filtering method using perplexity-based labels to filter distractor snippets and mitigate retriever bias in medical RAG, addressing noisy retrieval and selective augmentation.",
+  "why_not_or_caveat": "Domain-specific to biomedical QA; not a general robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:40.213712+00:00",
+  "raw_response": "{\"key\":\"arxiv-2411.00300v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a rationale-guided filtering method using perplexity-based labels to filter distractor snippets and mitigate retriever bias in medical RAG, addressing noisy retrieval and selective augmentation.\",\"why_not_or_caveat\":\"Domain-specific to biomedical QA; not a general robustness study.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval / Filtering\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

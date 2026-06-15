@@ -1,0 +1,35 @@
+{
+  "version": "venue_expanded_2026_06_06",
+  "rows": 416,
+  "old_rows": 268,
+  "human_recommended_unique_titles": 168,
+  "new_rows_added": 148,
+  "original_rows_enriched": 20,
+  "source_strata": {
+    "venue_or_proceedings_linked": 194,
+    "arxiv_or_preprint": 207,
+    "other_or_unclear": 4,
+    "workshop_or_challenge": 11
+  },
+  "citation_decisions": {
+    "no_human_annotation": 248,
+    "main_cite": 86,
+    "appendix_cite": 68,
+    "case_study": 14
+  },
+  "perspectives": {
+    "no_human_annotation": 248,
+    "model_evidence_use": 29,
+    "security_integrity": 8,
+    "evidence_construction": 33,
+    "modality_scenario_core": 50,
+    "evaluation": 20,
+    "action_control": 25,
+    "foundation": 2,
+    "boundary": 1
+  },
+  "core_reading_set": {
+    "true": 100,
+    "false": 316
+  }
+}

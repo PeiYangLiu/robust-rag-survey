@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.26\linewidth}>{\raggedright\arraybackslash}p{0.22\linewidth}X}
+\toprule
+\textbf{Audit quantity} & \textbf{Observed distribution} & \textbf{Agreement / change} & \textbf{Interpretation} \\
+\midrule
+Sampling frame & 60 unseen paper pairs: 32 within-family pairs and 28 cross-family stress pairs. & 13 strata spanning adversarial, calibration, distraction, evaluation, conflict, modality, noise, survey/background, and cross-family contrasts. & Extends the five illustrative re-analyses into a stratified pair-comparison audit. \\
+Panel-gold verdicts & 36 partial, 24 invalid, 0 valid, 0 under-specified. & Gold Fleiss $\kappa=0.772$; 50/60 unanimous pairs. & The audit tests hard partial/invalid triage, not all possible verdict categories. \\
+Condition-level accuracy & Control 0.567; protocol 0.883. & Protocol--control = +0.317, clustered bootstrap 95\% CI [0.192, 0.439]. & Tuple-guided annotators are closer to panel gold on this hard-pair sample. \\
+Pair-level recommendation changes & Protocol corrects control on 19 pairs; control corrects protocol on 1; both correct on 34; both wrong same on 6. & 53/60 pair-level majority verdicts are correct under protocol vs. 35/60 under control. & The tuple changes many survey-style pair judgments from over-broad invalid/partial choices to panel-consistent verdicts. \\
+Coordinate error profile & Protocol wrong verdicts 21/180; control wrong verdicts 78/180. & Protocol misses fewer failure, assumption, intervention, and action coordinates; it sometimes over-tags assumptions. & The protocol improves traceability and reduces coordinate omissions, not just verdict agreement. \\
+\bottomrule
+\end{tabularx}
+\caption{Systematic 60-pair comparison audit. The sample is stratified over Map-B comparison families and adjacent-survey-style grouping risks. It supports claims about hard partial/invalid pair triage, not field-level rates over all robust-RAG papers.}
+\label{tab:systematic-pair-audit-summary}
+\end{table*}
+

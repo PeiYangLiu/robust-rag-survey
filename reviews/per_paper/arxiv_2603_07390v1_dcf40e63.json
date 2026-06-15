@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.07390v1",
+  "title": "Deterministic Fuzzy Triage for Legal Compliance Classification and Evidence Retrieval",
+  "authors": "Rian Atri",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07390v1",
+  "local_pdf": "pdfs/2026_rian_atri_deterministic_fuzzy_triage_for_legal_compliance_classification_and_evidence_retrieval_dcf40e63.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a deterministic dual-encoder with fuzzy triage bands for legal compliance, touching on abstention/coverage-error tradeoffs.",
+  "why_not_or_caveat": "Domain-specific legal classification/retrieval system, not about robust RAG under unreliable evidence; abstention mechanism is generic and not focused on noisy/conflicting/adversarial contexts.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.881805+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.07390v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a deterministic dual-encoder with fuzzy triage bands for legal compliance, touching on abstention/coverage-error tradeoffs.\",\"why_not_or_caveat\":\"Domain-specific legal classification/retrieval system, not about robust RAG under unreliable evidence; abstention mechanism is generic and not focused on noisy/conflicting/adversarial contexts.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

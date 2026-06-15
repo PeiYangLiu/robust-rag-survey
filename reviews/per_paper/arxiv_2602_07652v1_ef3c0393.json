@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.07652v1",
+  "title": "Agent-Fence: Mapping Security Vulnerabilities Across Deep Research Agents",
+  "authors": "Sai Puppala; Ismail Hossain; Md Jahangir Alam; Yoonpyo Lee; Jay Yoo; Tanzim Ahad; Syed Bahauddin Alam; Sajedul Talukder",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.07652v1",
+  "local_pdf": "pdfs/2026_sai_puppala_agent_fence_mapping_security_vulnerabilities_across_deep_research_agents_ef3c0393.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Includes retrieval poisoning as one of 14 attack classes in an agent security benchmark, touching on adversarial corruption of retrieved content.",
+  "why_not_or_caveat": "Focus is broader agent architecture security (tool use, delegation, denial-of-wallet), not RAG robustness specifically.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption in agentic RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:55.564842+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.07652v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Includes retrieval poisoning as one of 14 attack classes in an agent security benchmark, touching on adversarial corruption of retrieved content.\",\"why_not_or_caveat\":\"Focus is broader agent architecture security (tool use, delegation, denial-of-wallet), not RAG robustness specifically.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption in agentic RAG\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.09891v1",
+  "title": "Overview of the TREC 2025 Retrieval Augmented Generation (RAG) Track",
+  "authors": "Shivani Upadhyay; Nandan Thakur; Ronak Pradeep; Nick Craswell; Daniel Campos; Jimmy Lin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.09891v1",
+  "local_pdf": "pdfs/2026_shivani_upadhyay_overview_of_the_trec_2025_retrieval_augmented_generation_rag_track_edba49de.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "TREC 2025 RAG Track evaluates retrieval-augmented generation with attribution/support verification and relevance assessment, touching on factual grounding which is tangentially related to robustness.",
+  "why_not_or_caveat": "Not focused on noise, conflict, adversaries, or calibration; it is a general RAG evaluation track.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:39.463460+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.09891v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"TREC 2025 RAG Track evaluates retrieval-augmented generation with attribution/support verification and relevance assessment, touching on factual grounding which is tangentially related to robustness.\",\n  \"why_not_or_caveat\": \"Not focused on noise, conflict, adversaries, or calibration; it is a general RAG evaluation track.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

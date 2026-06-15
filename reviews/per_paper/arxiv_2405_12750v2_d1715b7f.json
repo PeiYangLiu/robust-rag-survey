@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2405.12750v2",
+  "title": "Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities",
+  "authors": "Mohamed Amine Ferrag; Fatima Alwahedi; Ammar Battah; Bilel Cherif; Abdechakour Mechri; Norbert Tihanyi; Tamas Bisztray; Merouane Debbah",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.12750v2",
+  "local_pdf": "pdfs/2024_mohamed_amine_ferrag_generative_ai_in_cybersecurity_a_comprehensive_review_of_llm_applications_and_vulnerabil_d1715b7f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on LLMs in cybersecurity briefly mentions RAG and LLM vulnerabilities like prompt injection and data poisoning, but not focused on RAG robustness.",
+  "why_not_or_caveat": "Not centered on RAG robustness or unreliable evidence; broad cybersecurity scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:20.843136+00:00",
+  "raw_response": "{\"key\":\"arxiv-2405.12750v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"Survey on LLMs in cybersecurity briefly mentions RAG and LLM vulnerabilities like prompt injection and data poisoning, but not focused on RAG robustness.\",\"why_not_or_caveat\":\"Not centered on RAG robustness or unreliable evidence; broad cybersecurity scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

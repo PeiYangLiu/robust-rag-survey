@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.02458v1",
+  "title": "Retrieval-Augmented Purifier for Robust LLM-Empowered Recommendation",
+  "authors": "Liangbo Ning; Wenqi Fan; Qing Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.02458v1",
+  "local_pdf": "pdfs/2025_liangbo_ning_retrieval_augmented_purifier_for_robust_llm_empowered_recommendation_21504fb5.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "other"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Uses RAG-style retrieval of collaborative signals to purify poisoned user profiles in LLM-based recommenders, touching on adversarial robustness via retrieval augmentation.",
+  "why_not_or_caveat": "Domain is recommender systems, not general RAG QA; not about robustness of RAG itself to unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / RAG defenses (application domain)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.979553+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.02458v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\", \"other\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Uses RAG-style retrieval of collaborative signals to purify poisoned user profiles in LLM-based recommenders, touching on adversarial robustness via retrieval augmentation.\",\n  \"why_not_or_caveat\": \"Domain is recommender systems, not general RAG QA; not about robustness of RAG itself to unreliable evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial corruption / RAG defenses (application domain)\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

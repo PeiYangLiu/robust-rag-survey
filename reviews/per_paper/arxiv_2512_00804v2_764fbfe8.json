@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.00804v2",
+  "title": "Epistemic Bias Injection: Biasing LLMs via Selective Context Retrieval",
+  "authors": "Hao Wu; Prateek Saxena",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.00804v2",
+  "local_pdf": "pdfs/2025_hao_wu_epistemic_bias_injection_biasing_llms_via_selective_context_retrieval_764fbfe8.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a novel RAG poisoning attack (Epistemic Bias Injection) using factually correct but biased passages, proposes a defense (BiasDef), and evaluates on a benchmark—directly relevant to adversarial corruption and defenses in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.93,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:51.034631+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.00804v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces a novel RAG poisoning attack (Epistemic Bias Injection) using factually correct but biased passages, proposes a defense (BiasDef), and evaluates on a benchmark—directly relevant to adversarial corruption and defenses in RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.93}",
+  "skipped_existing": false
+}

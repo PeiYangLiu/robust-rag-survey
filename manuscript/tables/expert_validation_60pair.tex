@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.15\linewidth}>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}p{0.19\linewidth}X}
+\toprule
+\textbf{Quantity} & \textbf{Control} & \textbf{Protocol} & \textbf{Gold / model} & \textbf{Interpretation} \\
+\midrule
+Annotators / judgments & 3 / 180 & 3 / 180 & 3 gold adjudicators / 180 gold votes & Expanded validation uses unseen pairs and multiple gold adjudicators. \\
+Agreement with panel gold & 0.567 & 0.883 & Panel consensus over 60 pairs & The tuple protocol improves verdict agreement on the blinded re-annotation. \\
+Mean confidence & 4.07 & 3.83 & -- & Protocol users are slightly less confident but substantially more aligned with panel gold. \\
+Protocol minus control & \multicolumn{2}{c}{+0.317, clustered bootstrap 95\% CI [0.192, 0.439]} & Direction only & The agreement gain is robust in direction; we omit a point odds-ratio estimate, which is unstable with only six annotators. \\
+Gold inter-agreement & \multicolumn{2}{c}{--} & Fleiss $\kappa=0.772$; 50/60 unanimous & Gold construction is stable for this hard-pair set; valid and under-specified labels are not represented. \\
+\bottomrule
+\end{tabularx}
+\caption{Expanded 60-pair expert validation (blind re-annotation). The five-coordinate protocol improves verdict agreement with panel gold on unseen hard pairs while retaining coordinate-level error auditability. The result validates protocol-assisted triage for this hard-pair setting, not all possible comparison categories.}
+\label{tab:expert-validation-60pair}
+\end{table*}

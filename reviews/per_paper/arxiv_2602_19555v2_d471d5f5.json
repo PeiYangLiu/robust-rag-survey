@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.19555v2",
+  "title": "SOK: A Taxonomy of Attack Vectors and Defense Strategies for Agentic Supply Chain Runtime",
+  "authors": "Xiaochong Jiang; Shiqi Yang; Wenting Yang; Yichen Liu; Cheng Ji",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.19555v2",
+  "local_pdf": "pdfs/2026_xiaochong_jiang_sok_a_taxonomy_of_attack_vectors_and_defense_strategies_for_agentic_supply_chain_runtime_d471d5f5.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Systematizes agentic runtime attacks including indirect prompt injection and memory/data poisoning relevant to RAG adversarial corruption.",
+  "why_not_or_caveat": "Focus is on agentic supply-chain security broadly, not RAG robustness specifically; limited treatment of retrieval reliability, calibration, or evaluation.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and prompt injection",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:04.259179+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.19555v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Systematizes agentic runtime attacks including indirect prompt injection and memory/data poisoning relevant to RAG adversarial corruption.\",\n  \"why_not_or_caveat\": \"Focus is on agentic supply-chain security broadly, not RAG robustness specifically; limited treatment of retrieval reliability, calibration, or evaluation.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial corruption and prompt injection\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

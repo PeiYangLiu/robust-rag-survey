@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.27051v1",
+  "title": "Adaptive Data Flywheel: Applying MAPE Control Loops to AI Agent Improvement",
+  "authors": "Aaditya Shukla; Sidney Knowles; Meenakshi Madugula; Dave Farris; Ryan Angilly; Santiago Pombo; Anbang Xu; Lu An; Abhinav Balasubramanian; Tan Yu; Jiaxiang Ren; Rama Akkiraju",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.27051v1",
+  "local_pdf": "pdfs/2025_aaditya_shukla_adaptive_data_flywheel_applying_mape_control_loops_to_ai_agent_improvement_0f6f6794.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Describes an enterprise RAG deployment with feedback-driven fine-tuning loop, not a study of robustness, conflict, or calibration under unreliable evidence.",
+  "why_not_or_caveat": "Focuses on MAPE control loop for continuous improvement and latency, not on noise, attacks, conflict, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:10.898033+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.27051v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Describes an enterprise RAG deployment with feedback-driven fine-tuning loop, not a study of robustness, conflict, or calibration under unreliable evidence.\",\"why_not_or_caveat\":\"Focuses on MAPE control loop for continuous improvement and latency, not on noise, attacks, conflict, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

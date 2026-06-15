@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.04406v1",
+  "title": "CTRL-RAG: Contrastive Likelihood Reward Based Reinforcement Learning for Context-Faithful RAG Models",
+  "authors": "Zhehao Tan; Yihan Jiao; Dan Yang; Junjie Wang; Duolin Sun; Jie Feng; Xidong Wang; Lei Liu; Yue Shen; Jian Wang; Jinjie Gu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.04406v1",
+  "local_pdf": "pdfs/2026_zhehao_tan_ctrl_rag_contrastive_likelihood_reward_based_reinforcement_learning_for_context_faithful_a2a35f72.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an RL training method with contrastive likelihood reward to enforce context faithfulness in RAG, helping models filter noisy documents and ground answers in supporting evidence—directly relevant to knowledge conflict (parametric vs retrieved) and control over context use.",
+  "why_not_or_caveat": "Focus is on training/reward design rather than systematic robustness analysis or benchmarking.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and context faithfulness",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:46.689449+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.04406v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an RL training method with contrastive likelihood reward to enforce context faithfulness in RAG, helping models filter noisy documents and ground answers in supporting evidence—directly relevant to knowledge conflict (parametric vs retrieved) and control over context use.\",\n  \"why_not_or_caveat\": \"Focus is on training/reward design rather than systematic robustness analysis or benchmarking.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and context faithfulness\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

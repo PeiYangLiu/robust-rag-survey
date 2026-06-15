@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2409.09916v1",
+  "title": "SFR-RAG: Towards Contextually Faithful LLMs",
+  "authors": "Xuan-Phi Nguyen; Shrey Pandit; Senthil Purushwalkam; Austin Xu; Hailin Chen; Yifei Ming; Zixuan Ke; Silvio Savarese; Caiming Xong; Shafiq Joty",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.09916v1",
+  "local_pdf": "pdfs/2024_xuan_phi_nguyen_sfr_rag_towards_contextually_faithful_llms_470156e2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark",
+    "calibration_control",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Introduces an instruction-tuned RAG LLM emphasizing contextual faithfulness, resilience to counterfactual/altered contexts, unanswerability handling, and distractor robustness, plus ContextualBench evaluation suite.",
+  "why_not_or_caveat": "Primarily a model/benchmark release rather than focused robustness analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Contextual Faithfulness",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.481764+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.09916v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\",\"calibration_control\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"Introduces an instruction-tuned RAG LLM emphasizing contextual faithfulness, resilience to counterfactual/altered contexts, unanswerability handling, and distractor robustness, plus ContextualBench evaluation suite.\",\"why_not_or_caveat\":\"Primarily a model/benchmark release rather than focused robustness analysis.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control / Contextual Faithfulness\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

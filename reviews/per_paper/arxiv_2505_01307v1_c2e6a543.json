@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.01307v1",
+  "title": "Document Retrieval Augmented Fine-Tuning (DRAFT) for safety-critical software assessments",
+  "authors": "Regan Bolton; Mohammadreza Sheikhfathollahi; Simon Parkinson; Vanessa Vulovic; Gary Bamford; Dan Basher; Howard Parkinson",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.01307v1",
+  "local_pdf": "pdfs/2025_regan_bolton_document_retrieval_augmented_fine_tuning_draft_for_safety_critical_software_assessments_c2e6a543.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAFT-style fine-tuning with distractor documents for safety-critical compliance assessment, touching on distraction robustness but primarily a domain application.",
+  "why_not_or_caveat": "Domain-specific application paper, not a methodological/benchmark contribution to robust RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "distraction",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.099747+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.01307v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"distraction\",\"noisy_retrieval\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAFT-style fine-tuning with distractor documents for safety-critical compliance assessment, touching on distraction robustness but primarily a domain application.\",\"why_not_or_caveat\":\"Domain-specific application paper, not a methodological/benchmark contribution to robust RAG.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"distraction\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

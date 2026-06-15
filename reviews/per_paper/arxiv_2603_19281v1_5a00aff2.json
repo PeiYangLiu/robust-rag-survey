@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2603.19281v1",
+  "title": "URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models",
+  "authors": "Vinh Nguyen; Cuong Dang; Jiahao Zhang; Hoa Tran; Minh Tran; Trinh Chau; Thai Le; Lu Cheng; Suhang Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19281v1",
+  "local_pdf": "pdfs/2026_vinh_nguyen_urag_a_benchmark_for_uncertainty_quantification_in_retrieval_augmented_large_language_mo_5a00aff2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control",
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "URAG is a benchmark explicitly evaluating uncertainty quantification and calibration in RAG systems via conformal prediction, analyzing how retrieval noise, parametric knowledge dependence, and retrieval depth affect confidence and hallucinations.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation and Benchmarks / Calibration and Uncertainty",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.878156+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.19281v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"ood_uncertainty\",\"calibration_control\",\"evaluation_benchmark\",\"noisy_retrieval\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"URAG is a benchmark explicitly evaluating uncertainty quantification and calibration in RAG systems via conformal prediction, analyzing how retrieval noise, parametric knowledge dependence, and retrieval depth affect confidence and hallucinations.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Evaluation and Benchmarks / Calibration and Uncertainty\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

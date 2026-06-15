@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.19777v1",
+  "title": "Self-Describing Structured Data with Dual-Layer Guidance: A Lightweight Alternative to RAG for Precision Retrieval in Large-Scale LLM Knowledge Navigation",
+  "authors": "Hung Ming Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.19777v1",
+  "local_pdf": "pdfs/2026_hung_ming_liu_self_describing_structured_data_with_dual_layer_guidance_a_lightweight_alternative_to_ra_25171f2c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an alternative to RAG using primacy-position metadata for structured knowledge navigation, with some adversarial distractor injection in benchmarks.",
+  "why_not_or_caveat": "Focus is on positional bias and lightweight retrieval alternative, not on robust RAG under noise/conflict/adversaries in the survey's sense.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:23.132549+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.19777v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes an alternative to RAG using primacy-position metadata for structured knowledge navigation, with some adversarial distractor injection in benchmarks.\", \"why_not_or_caveat\": \"Focus is on positional bias and lightweight retrieval alternative, not on robust RAG under noise/conflict/adversaries in the survey's sense.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.12201v1",
+  "title": "AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning",
+  "authors": "Hongru Song; Yu-An Liu; Ruqing Zhang; Jiafeng Guo; Maarten de Rijke; Yixing Fan; Xueqi Cheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.12201v1",
+  "local_pdf": "pdfs/2026_hongru_song_adversarialcot_single_document_retrieval_poisoning_for_llm_reasoning_bd9574be.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a single-document corpus poisoning attack against RAG that targets reasoning LLMs via adversarial CoT, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Corpus Poisoning",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:24.729740+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.12201v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a single-document corpus poisoning attack against RAG that targets reasoning LLMs via adversarial CoT, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Corpus Poisoning\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

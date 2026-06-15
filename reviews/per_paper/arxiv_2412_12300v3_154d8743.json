@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2412.12300v3",
+  "title": "Unanswerability Evaluation for Retrieval Augmented Generation",
+  "authors": "Xiangyu Peng; Prafulla Kumar Choubey; Caiming Xiong; Chien-Sheng Wu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.12300v3",
+  "local_pdf": "pdfs/2024_xiangyu_peng_unanswerability_evaluation_for_retrieval_augmented_generation_154d8743.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces UAEval4RAG, a benchmark for evaluating RAG systems' ability to reject six categories of unanswerable queries (underspecified, false-presupposition, nonsensical, modality-limited, safety, OOD), directly relevant to abstention, OOD, and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation benchmarks for abstention and unanswerability",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.281720+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.12300v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces UAEval4RAG, a benchmark for evaluating RAG systems' ability to reject six categories of unanswerable queries (underspecified, false-presupposition, nonsensical, modality-limited, safety, OOD), directly relevant to abstention, OOD, and evaluation under unreliable evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation benchmarks for abstention and unanswerability\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

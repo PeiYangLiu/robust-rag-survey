@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.15549v1",
+  "title": "VIOLA: Towards Video In-Context Learning with Minimal Annotations",
+  "authors": "Ryo Fujii; Hideo Saito; Ryo Hachiuma",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15549v1",
+  "local_pdf": "pdfs/2026_ryo_fujii_viola_towards_video_in_context_learning_with_minimal_annotations_262292ac.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Uses confidence-aware retrieval and prompting for video ICL with noisy pseudo-labels, tangentially touching label reliability in retrieval-based demonstration selection.",
+  "why_not_or_caveat": "Focuses on video in-context learning with MLLMs, not RAG for question answering under unreliable evidence; outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:26.973635+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.15549v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Uses confidence-aware retrieval and prompting for video ICL with noisy pseudo-labels, tangentially touching label reliability in retrieval-based demonstration selection.\",\n  \"why_not_or_caveat\": \"Focuses on video in-context learning with MLLMs, not RAG for question answering under unreliable evidence; outside survey scope.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

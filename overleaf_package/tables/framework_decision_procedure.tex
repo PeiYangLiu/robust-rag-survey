@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}p{0.30\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
+\toprule
+\textbf{Step} & \textbf{Question to ask} & \textbf{Decision rule} & \textbf{Common boundary case} \\
+\midrule
+1. Evidence state & What is unreliable: relevance, sufficiency, consistency, provenance/freshness, or integrity? & Code the failure by the evidence property being tested, not by the paper's broad motivation. & A hard negative is noisy retrieval until the paper measures how it changes generation, then distraction becomes relevant. \\
+2. Source of failure & Is the failure benign, naturally occurring, benchmark-constructed, or attacker-created? & Natural contradiction is knowledge conflict; attacker-created contradiction is adversarial corruption. & Poisoned facts and conflicting facts can look identical in context but require different evaluation assumptions. \\
+3. Intervention point & Where does the method first change system behavior? & Corpus, retriever, context assembly, generator, system control, or evaluation. & Context filtering and generator prompting may both improve robustness but are not direct competitors. \\
+4. Metric target & What is being optimized or measured? & Separate answer accuracy, evidence support, citation faithfulness, attack success, calibration, selective risk, and cost. & A method can improve EM while worsening citation support or increasing unsafe coverage. \\
+5. Action policy & What should the system do when evidence is unreliable? & Answer, abstain, re-retrieve, filter, verify, expose conflict, ask clarification, or escalate. & Abstention after one weak retrieval may be premature if re-retrieval is cheap. \\
+6. Comparability test & Are all five fields aligned across papers? & Compare only if failure state, assumptions, intervention point, metric, and action policy match. & Otherwise report complementary operating regions rather than a single ranking. \\
+\bottomrule
+\end{tabularx}
+\caption{Decision procedure for applying the evidence-reliability/action-control framework to a paper or benchmark.}
+\label{tab:framework-decision-procedure}
+\end{table*}
+

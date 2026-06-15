@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.18122",
+  "title": "\\[[arxiv](https://arxiv.org/html/2406.18122v1)\\] Poisoned LangChain: Jailbreak LLMs by LangChain",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.18122",
+  "local_pdf": "pdfs/na_arxiv_2406_18122_arxiv_https_arxiv_org_html_2406_18122v1_poisoned_langchain_jailbreak_llms_by_lan_065558be.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes Poisoned-LangChain, an indirect jailbreak attack via poisoned RAG knowledge bases, directly relevant to adversarial corruption of retrieved evidence.",
+  "why_not_or_caveat": "Focused on Chinese LLMs and jailbreak scenario; limited defense analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning and Indirect Prompt Injection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:37.469247+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.18122\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes Poisoned-LangChain, an indirect jailbreak attack via poisoned RAG knowledge bases, directly relevant to adversarial corruption of retrieved evidence.\",\"why_not_or_caveat\":\"Focused on Chinese LLMs and jailbreak scenario; limited defense analysis.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning and Indirect Prompt Injection\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

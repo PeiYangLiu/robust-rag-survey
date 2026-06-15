@@ -1,0 +1,269 @@
+[1/23] arXiv query: all:"retrieval augmented generation" (max 320)
+  -> 320 results
+[2/23] arXiv query: all:"retrieval-augmented generation" (max 320)
+  -> 320 results
+[3/23] arXiv query: all:"retrieval augmented" AND all:"large language model" (max 220)
+  -> 220 results
+[4/23] arXiv query: all:"retrieval-augmented" AND all:"large language models" (max 220)
+  -> 220 results
+[5/23] arXiv query: all:"retrieval augmented" AND all:robustness (max 120)
+  -> 120 results
+[6/23] arXiv query: all:"retrieval augmented" AND all:noisy (max 100)
+  -> 100 results
+[7/23] arXiv query: all:"retrieval augmented" AND all:irrelevant (max 100)
+  -> 100 results
+[8/23] arXiv query: all:"retrieval augmented" AND all:distractor (max 80)
+  -> 42 results
+[9/23] arXiv query: all:"retrieval augmented" AND all:"knowledge conflict" (max 80)
+  -> 50 results
+[10/23] arXiv query: all:"retrieval augmented" AND all:"parametric knowledge" (max 80)
+  -> 80 results
+[11/23] arXiv query: all:"retrieval augmented" AND all:adversarial (max 100)
+  -> 100 results
+[12/23] arXiv query: all:"retrieval augmented" AND all:poisoning (max 100)
+  -> 100 results
+[13/23] arXiv query: all:"retrieval augmented" AND all:"prompt injection" (max 80)
+  -> 45 results
+[14/23] arXiv query: all:"retrieval augmented" AND all:uncertainty (max 100)
+  -> 100 results
+[15/23] arXiv query: all:"retrieval augmented" AND all:calibration (max 100)
+  -> 100 results
+[16/23] arXiv query: all:"retrieval augmented" AND all:abstain (max 80)
+  -> 21 results
+[17/23] arXiv query: all:"retrieval augmented" AND all:"adaptive retrieval" (max 100)
+  -> 100 results
+[18/23] arXiv query: all:"retrieval augmented" AND all:faithfulness (max 100)
+  -> 100 results
+[19/23] arXiv query: all:"retrieval augmented" AND all:hallucination (max 160)
+  -> 160 results
+[20/23] arXiv query: all:"retrieval augmented" AND all:trustworthy (max 120)
+  -> 120 results
+[21/23] arXiv query: all:"retrieval augmented" AND all:security (max 120)
+  -> 120 results
+[22/23] arXiv query: all:"retrieval augmented" AND all:privacy (max 100)
+  -> 100 results
+[23/23] arXiv query: all:"open-domain question answering" AND all:"retrieval augmented" (max 120)
+  -> 80 results
+Selected 700 candidates; target 220 PDFs.
+[1/700] downloading (30) Know When You're Wrong: Aligning Confidence with Correctness for LLM Error Detection
+[2/700] downloading (29) Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustnes
+[3/700] downloading (29) Rethinking All Evidence: Enhancing Trustworthy Retrieval-Augmented Generation via Conflict-Driven Su
+[4/700] downloading (28) RAG Safety: Exploring Knowledge Poisoning Attacks to Retrieval-Augmented Generation
+[5/700] downloading (27) URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models
+[6/700] downloading (27) Trust or Abstain? A Self-Aware RAG Approach
+[7/700] downloading (27) Towards Secure Retrieval-Augmented Generation: A Comprehensive Review of Threats, Defenses and Bench
+[8/700] downloading (27) Is Conformal Factuality for RAG-based LLMs Robust? Novel Metrics and Systematic Insights
+[9/700] downloading (27) Does RAG Know When Retrieval Is Wrong? Diagnosing Context Compliance under Knowledge Conflict
+[10/700] downloading (26) PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented Gener
+[11/700] downloading (26) NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems
+[12/700] downloading (26) Exploring Knowledge Conflicts for Faithful LLM Reasoning: Benchmark and Method
+[13/700] downloading (26) ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation
+[14/700] downloading (26) AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning
+[15/700] downloading (26) Towards Copyright Protection for Knowledge Bases of Retrieval-augmented Language Models via Reasonin
+[16/700] downloading (26) RAG-targeted Adversarial Attack on LLM-based Threat Detection and Mitigation Framework
+[17/700] downloading (26) RaCoT: Plug-and-Play Contrastive Example Generation Mechanism for Enhanced LLM Reasoning Reliability
+[18/700] downloading (26) PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generat
+[19/700] downloading (26) Hybrid Retrieval-Augmented Generation for Robust Multilingual Document Question Answering
+[20/700] downloading (26) Design and Implementation of a Secure RAG-Enhanced AI Chatbot for Smart Tourism Customer Service: De
+[21/700] downloading (26) ControlNET: A Firewall for RAG-based LLM System
+[22/700] downloading (25) SOMA: Strategic Orchestration and Memory-Augmented System for Vision-Language-Action Model Robustnes
+[23/700] downloading (25) RAG-3DSG: Enhancing 3D Scene Graphs with Re-Shot Guided Retrieval-Augmented Generation
+[24/700] downloading (25) ORACAL: A Robust and Explainable Multimodal Framework for Smart Contract Vulnerability Detection wit
+[25/700] downloading (25) How Confident Is the First Token? An Uncertainty-Calibrated Prompt Optimization Framework for Large 
+[26/700] downloading (25) From Transcripts to AI Agents: Knowledge Extraction, RAG Integration, and Robust Evaluation of Conve
+[27/700] downloading (25) Faithfulness-QA: A Counterfactual Entity Substitution Dataset for Training Context-Faithful RAG Mode
+[28/700] downloading (25) BiRD: A Bidirectional Ranking Defense Mechanism for Retrieval Augmented Generation
+[29/700] downloading (25) Adversarial Hubness Detector: Detecting Hubness Poisoning in Retrieval-Augmented Generation Systems
+[30/700] downloading (25) Adaptive Guidance for Retrieval-Augmented Masked Diffusion Models
+[31/700] downloading (25) Adaptive Defense Orchestration for RAG: A Sentinel-Strategist Architecture against Multi-Vector Atta
+[32/700] downloading (25) "I Don't Know" -- Towards Appropriate Trust with Certainty-Aware Retrieval Augmented Generation
+[33/700] downloading (25) Understanding Parametric Knowledge Injection in Retrieval-Augmented Generation
+[34/700] downloading (25) ReGAIN: Retrieval-Grounded AI Framework for Network Traffic Analysis
+[35/700] downloading (25) QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Gener
+[36/700] downloading (25) Quantifying Document Impact in RAG-LLMs
+[37/700] downloading (25) Provably Secure Retrieval-Augmented Generation
+[38/700] downloading (25) PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation
+[39/700] downloading (25) ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
+[40/700] downloading (25) MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval
+[41/700] downloading (25) ImportSnare: Directed "Code Manual" Hijacking in Retrieval-Augmented Code Generation
+[42/700] downloading (25) Fairness Testing in Retrieval-Augmented Generation: How Small Perturbations Reveal Bias in Small Lan
+[43/700] downloading (25) Energy Landscapes Enable Reliable Abstention in Retrieval-Augmented Large Language Models for Health
+[44/700] downloading (25) Agentic AI with Orchestrator-Agent Trust: A Modular Visual Classification Framework with Trust-Aware
+[45/700] downloading (25) RAG-RewardBench: Benchmarking Reward Models in Retrieval Augmented Generation for Preference Alignme
+[46/700] downloading (25) Rag and Roll: An End-to-End Evaluation of Indirect Prompt Manipulations in LLM-based Application Fra
+[47/700] downloading (24) Unlocking Biological Workflows for Robust Protein-Text Question Answering: A Dual-Dimensional RAG Fr
+[48/700] downloading (24) Tackling the Inherent Difficulty of Noise Filtering in RAG
+[49/700] downloading (24) SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented 
+[50/700] downloading (24) StatePlane: A Cognitive State Plane for Long-Horizon AI Systems Under Bounded Context
+[51/700] downloading (24) SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research
+[52/700] downloading (24) Semantic Chameleon: Corpus-Dependent Poisoning Attacks and Defenses in RAG Systems
+[53/700] downloading (24) Selective Memory for Artificial Intelligence: Write-Time Gating with Hierarchical Archiving
+[54/700] downloading (24) SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Gener
+[55/700] downloading (24) Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detect
+[56/700] downloading (24) Needle-in-RAG: Prompt-Conditioned Character-Level Traceback of Poisoned Spans in Retrieved Evidence
+[57/700] downloading (24) MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs
+[58/700] downloading (24) LogicPoison: Logical Attacks on Graph Retrieval-Augmented Generation
+[59/700] downloading (24) LeakDojo: Decoding the Leakage Threats of RAG Systems
+[60/700] downloading (24) Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG
+[61/700] downloading (24) Fighting Numerical Hallucinations via Data-centric Compilation for Online Financial QA
+[62/700] downloading (24) Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework
+[63/700] downloading (24) Courtroom-Style Multi-Agent Debate with Progressive RAG and Role-Switching for Controversial Claim V
+[64/700] downloading (24) Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generatio
+[65/700] downloading (24) Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empiri
+[66/700] downloading (24) Benchmarking Large Language Models for Quebec Insurance: From Closed-Book to Retrieval-Augmented Gen
+[67/700] downloading (24) BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation
+[68/700] downloading (24) ArbGraph: Conflict-Aware Evidence Arbitration for Reliable Long-Form Retrieval-Augmented Generation
+[69/700] downloading (24) A Wolf in Sheep's Clothing: Targeted Routing Hijacking in Federated RAG
+[70/700] downloading (24) Silent Leaks: Implicit Knowledge Extraction Attack on RAG Systems through Benign Queries
+[71/700] downloading (24) SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG
+[72/700] downloading (24) RoseRAG: Robust Retrieval-augmented Generation with Small-scale LLMs via Margin-aware Preference Opt
+[73/700] downloading (24) Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems
+[74/700] downloading (24) RAG-PRISM: A Personalized, Rapid, and Immersive Skill Mastery Framework with Adaptive Retrieval-Augm
+[75/700] downloading (24) Query-Level Uncertainty in Large Language Models
+[76/700] downloading (24) OntoLogX: Ontology-Guided Knowledge Graph Extraction from Cybersecurity Logs with Large Language Mod
+[77/700] downloading (24) LeakSealer: A Semisupervised Defense for LLMs Against Prompt Injection and Leakage Attacks
+[78/700] downloading (24) Know3-RAG: A Knowledge-aware RAG Framework with Adaptive Retrieval, Generation, and Filtering
+[79/700] downloading (24) How to make Medical AI Systems safer? Simulating Vulnerabilities, and Threats in Multimodal Medical 
+[80/700] downloading (24) GraphRAG under Fire
+[81/700] downloading (24) FARSIQA: Faithful and Advanced RAG System for Islamic Question Answering
+[82/700] downloading (24) Fact or Facsimile? Evaluating the Factual Robustness of Modern Retrievers
+[83/700] downloading (24) Disabling Self-Correction in Retrieval-Augmented Generation via Stealthy Retriever Poisoning
+[84/700] downloading (24) DICE: Discrete Interpretable Comparative Evaluation with Probabilistic Scoring for Retrieval-Augment
+[85/700] downloading (24) DeRAG: Black-box Adversarial Attacks on Multiple Retrieval-Augmented Generation Applications via Pro
+[86/700] downloading (24) Defending Against Knowledge Poisoning Attacks During Retrieval-Augmented Generation
+[87/700] downloading (24) Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation
+[88/700] downloading (24) Benchmarking Poisoning Attacks against Retrieval-Augmented Generation
+[89/700] downloading (24) ADMIT: Few-shot Knowledge Poisoning Attacks on RAG-based Fact Checking
+[90/700] downloading (24) Towards Action Hijacking of Large Language Model-based Agent
+[91/700] downloading (24) Rationale-Guided Retrieval Augmented Generation for Medical Question Answering
+[92/700] downloading (24) Controlling Risk of Retrieval-augmented Generation: A Counterfactual Prompting Framework
+[93/700] downloading (24) Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language M
+[94/700] downloading (23) When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in Scientific Multi-hop Question Answeri
+[95/700] downloading (23) Towards Robust Retrieval-Augmented Generation Based on Knowledge Graph: A Comparative Analysis
+[96/700] downloading (23) The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Langu
+[97/700] downloading (23) Stateful Evidence-Driven Retrieval-Augmented Generation with Iterative Reasoning
+[98/700] downloading (23) SoK: The Attack Surface of Agentic AI -- Tools, and Autonomy
+[99/700] downloading (23) SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Da
+[100/700] downloading (23) Self-Aware Vector Embeddings for Retrieval-Augmented Generation: A Neuroscience-Inspired Framework f
+[101/700] downloading (23) Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generati
+[102/700] downloading (23) Rethinking the Reranker: Boundary-Aware Evidence Selection for Robust Retrieval-Augmented Generation
+[103/700] downloading (23) Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG
+[104/700] downloading (23) Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and Knowle
+[105/700] downloading (23) RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora
+[106/700] downloading (23) Privacy Policy Enforcement Guardrails for Data-Sensitive Retrieval-Augmented Generation
+[107/700] downloading (23) Precision Tracked Transformer via Kalman Filtering, Kriging and Process Noise
+[108/700] downloading (23) Persistent and Conversational Multi-Method Explainability for Trustworthy Financial AI
+[109/700] downloading (23) Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-tr
+[110/700] downloading (23) MiRAGE: A Multiagent Framework for Generating Multimodal Multihop Question-Answer Dataset for RAG Ev
+[111/700] downloading (23) MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation
+[112/700] downloading (23) MATRAG: Multi-Agent Transparent Retrieval-Augmented Generation for Explainable Recommendations
+[113/700] downloading (23) LCC-LLM: Leveraging Code-Centric Large Language Models for Malware Attribution
+[114/700] downloading (23) LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Ver
+[115/700] downloading (23) Hit-RAG: Learning to Reason with Long Contexts via Preference Alignment
+[116/700] downloading (23) Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal Retrieval-Augmented Generation
+[117/700] downloading (23) GraphRAG on Consumer Hardware: Benchmarking Local LLMs for Healthcare EHR Schema Retrieval
+[118/700] downloading (23) GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matchi
+[119/700] downloading (23) Facet-Level Tracing of Evidence Uncertainty and Hallucination in RAG
+[120/700] downloading (23) DynaRAG: Bridging Static and Dynamic Knowledge in Retrieval-Augmented Generation
+[121/700] downloading (23) DeepEra: A Deep Evidence Reranking Agent for Scientific Retrieval-Augmented Generated Question Answe
+[122/700] downloading (23) CTRL-RAG: Contrastive Likelihood Reward Based Reinforcement Learning for Context-Faithful RAG Models
+[123/700] downloading (23) CoRect: Context-Aware Logit Contrast for Hidden State Rectification to Resolve Knowledge Conflicts
+[124/700] downloading (23) Context-Length Robustness in Question Answering Models: A Comparative Empirical Study
+[125/700] downloading (23) Confundo: Learning to Generate Robust Poison for Practical RAG Systems
+[126/700] downloading (23) ConflictRAG: Detecting and Resolving Knowledge Conflicts in Retrieval Augmented Generation
+[127/700] downloading (23) Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation
+[128/700] downloading (23) Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention
+[129/700] downloading (23) AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Gene
+[130/700] downloading (23) Uncertainty Quantification for Retrieval-Augmented Reasoning
+[131/700] downloading (23) Trustworthy Medical Question Answering: An Evaluation-Centric Survey
+[132/700] downloading (23) TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation
+[133/700] downloading (23) Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack
+[134/700] downloading (23) Traceback of Poisoning Attacks to Retrieval-Augmented Generation
+[135/700] downloading (23) Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG
+[136/700] downloading (23) T-CPDL: A Temporal Causal Probabilistic Description Logic for Developing Logic-RAG Agent
+[137/700] downloading (23) SmartChunk Retrieval: Query-Aware Chunk Compression with Planning for Efficient Document RAG
+[138/700] downloading (23) Securing AI Agents Against Prompt Injection Attacks
+[139/700] downloading (23) ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search
+[140/700] downloading (23) RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning in Retrieval-Augmented Generati
+[141/700] downloading (23) RAG Security and Privacy: Formalizing the Threat Model and Attack Surface
+[142/700] downloading (23) Privacy-Aware Decoding: Mitigating Privacy Leakage of Large Language Models in Retrieval-Augmented G
+[143/700] downloading (23) Open-Source Agentic Hybrid RAG Framework for Scientific Literature Review
+[144/700] downloading (23) One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Imag
+[145/700] downloading (23) MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks
+[146/700] downloading (23) Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Gener
+[147/700] downloading (23) Less is More: Denoising Knowledge Graphs For Retrieval Augmented Generation
+[148/700] downloading (23) Learning to Trust: Dynamic Utilization of Retrieval-Augmented Generation for E-commerce Search Relev
+[149/700] downloading (23) Know Or Not: a library for evaluating out-of-knowledge base robustness
+[150/700] downloading (23) HV-Attack: Hierarchical Visual Attack for Multimodal Retrieval Augmented Generation
+[151/700] downloading (23) EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes
+[152/700] downloading (23) Epistemic Bias Injection: Biasing LLMs via Selective Context Retrieval
+[153/700] downloading (23) ELAIPBench: A Benchmark for Expert-Level Artificial Intelligence Paper Understanding
+[154/700] downloading (23) CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG
+[155/700] downloading (23) Contradictions in Context: Challenges for Retrieval-Augmented Generation in Healthcare
+[156/700] downloading (23) Conflict-Aware Soft Prompting for Retrieval-Augmented Generation
+[157/700] downloading (23) Confidence-Aware Routing for Large Language Model Reliability Enhancement: A Multi-Signal Approach t
+[158/700] downloading (23) CLaw: Benchmarking Chinese Legal Knowledge in Large Language Models - A Fine-grained Corpus and Reas
+[159/700] downloading (23) Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)
+[160/700] downloading (23) Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models
+[161/700] downloading (23) AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption
+[162/700] downloading (23) Abductive Inference in Retrieval-Augmented Language Models: Generating and Validating Missing Premis
+[163/700] downloading (23) A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future 
+[164/700] downloading (23) To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Context
+[165/700] downloading (23) RetrievalQA: Assessing Adaptive Retrieval-Augmented Generation for Short-form Open-Domain Question A
+[166/700] downloading (23) LLM Robustness Against Misinformation in Biomedical Question Answering
+[167/700] downloading (23) Context-DPO: Aligning Language Models for Context-Faithfulness
+[168/700] downloading (23) Certifiably Robust RAG against Retrieval Corruption
+[169/700] downloading (22) Zero2Text: Zero-Training Cross-Domain Inversion Attacks on Textual Embeddings
+[170/700] downloading (22) With Argus Eyes: Assessing Retrieval Gaps via Uncertainty Scoring to Detect and Remedy Retrieval Bli
+[171/700] downloading (22) Why Neighborhoods Matter: Traversal Context and Provenance in Agentic GraphRAG
+[172/700] downloading (22) When to Retrieve During Reasoning: Adaptive Retrieval for Large Reasoning Models
+[173/700] downloading (22) VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving
+[174/700] downloading (22) VectorSmuggle: Steganographic Exfiltration in Embedding Stores and a Cryptographic Provenance Defens
+[175/700] downloading (22) The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via Distracti
+[176/700] downloading (22) The Cost of Context: Mitigating Textual Bias in Multimodal Retrieval-Augmented Generation
+[177/700] downloading (22) TCAR-Gen: Temporal Graph Retrieval with Evidence Fusion for Knowledge-Grounded Generation
+[178/700] downloading (22) TailNLG: A Multilingual Benchmark Addressing Verbalization of Long-Tail Entities
+[179/700] downloading (22) Structure-Aware RAG: Structured Retrieval Augmented Generation from Noisy Data for Conversational Ag
+[180/700] downloading (22) STREAM: A Data-Centric Framework for Mining High-Value Task-Oriented Dialogues from Streaming Media
+[181/700] downloading (22) StratRAG: A Multi-Hop Retrieval Evaluation Dataset for Retrieval-Augmented Generation Systems
+[182/700] downloading (22) SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems
+[183/700] downloading (22) Skill-RAG: Failure-State-Aware Retrieval Augmentation via Hidden-State Probing and Skill Routing
+[184/700] downloading (22) Shattering the Shortcut: A Topology-Regularized Benchmark for Multi-hop Medical Reasoning in LLMs
+[185/700] downloading (22) SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulne
+[186/700] downloading (22) S-Path-RAG: Semantic-Aware Shortest-Path Retrieval Augmented Generation for Multi-Hop Knowledge Grap
+[187/700] downloading (22) RefineRAG: Word-Level Poisoning Attacks via Retriever-Guided Text Refinement
+[188/700] downloading (22) RADIANT-LLM: an Agentic Retrieval Augmented Generation Framework for Reliable Decision Support in Sa
+[189/700] downloading (22) Prompt Control-Flow Integrity: A Priority-Aware Runtime Defense Against Prompt Injection in LLM Syst
+[190/700] downloading (22) Panini: Continual Learning in Token Space via Structured Memory
+[191/700] downloading (22) OpenDecoder: Open Large Language Model Decoding to Incorporate Document Quality in RAG
+[192/700] downloading (22) Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowled
+[193/700] downloading (22) MOOSEnger -- a Domain-Specific AI Agent for the MOOSE Ecosystem
+[194/700] downloading (22) Mixture of Demonstrations for Textual Graph Understanding and Question Answering
+[195/700] downloading (22) Mask-to-Correct$^+$: Leveraging Retriever Diversity for Masking-guided Faithful Fact Correction
+[196/700] downloading (22) LIT-RAGBench: Benchmarking Generator Capabilities of Large Language Models in Retrieval-Augmented Ge
+[197/700] downloading (22) LexPath: A domain-oriented multi-path framework for legal article retrieval
+[198/700] downloading (22) Less is More: Adapting Text Embeddings for Low-Resource Languages with Small Scale Noisy Synthetic D
+[199/700] downloading (22) Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation
+[200/700] downloading (22) KNIGHT: Knowledge Graph-Driven Multiple-Choice Question Generation with Adaptive Hardness Calibratio
+[201/700] downloading (22) INTRYGUE: Induction-Aware Entropy Gating for Reliable RAG Uncertainty Estimation
+[202/700] downloading (22) Inference-Time Safety For Code LLMs Via Retrieval-Augmented Revision
+[203/700] downloading (22) Illocutionary Explanation Planning for Source-Faithful Explanations in Retrieval-Augmented Language 
+[204/700] downloading (22) HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation
+[205/700] downloading (22) How You Ask Matters! Adaptive RAG Robustness to Query Variations
+[206/700] downloading (22) GRACE: Reinforcement Learning for Grounded Response and Abstention under Contextual Evidence
+[207/700] downloading (22) Generating Leakage-Free Benchmarks for Robust RAG Evaluation
+[208/700] downloading (22) From Surface Learning to Deep Understanding: A Grounded AI Tutoring System for Moodle
+[209/700] downloading (22) FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge
+[210/700] downloading (22) Fast and Faithful: Real-Time Verification for Long-Document Retrieval-Augmented Generation Systems
+[211/700] downloading (22) Detecting RAG Extraction Attack via Dual-Path Runtime Integrity Game
+[212/700] downloading (22) Decide Then Retrieve: A Training-Free Framework with Uncertainty-Guided Triggering and Dual-Path Ret
+[213/700] downloading (22) CyberCane: Neuro-Symbolic RAG for Privacy-Preserving Phishing Detection with Formal Ontology Reasoni
+[214/700] downloading (22) CUE-R: Beyond the Final Answer in Retrieval-Augmented Generation
+[215/700] downloading (22) CRITIC-R1: Learning Structured Critics for Retrieval-Augmented Generation
+[216/700] downloading (22) Contextual Agentic Memory is a Memo, Not True Memory
+[217/700] downloading (22) Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents
+[218/700] downloading (22) CiMRAG: CiM-Aware Domain-Adaptive and Noise-Resilient Retrieval-Augmented Generation for Edge-Based 
+[219/700] downloading (22) CBR-to-SQL: Rethinking Retrieval-based Text-to-SQL using Case-based Reasoning in the Healthcare Doma
+[220/700] downloading (22) Byte-Exact Deduplication in Retrieval-Augmented Generation: A Three-Regime Empirical Analysis Across
+Done. Downloaded/available PDFs: 220
+Metadata written to /home/v-peiyangliu/robust-rag-survey/metadata

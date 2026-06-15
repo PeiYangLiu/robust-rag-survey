@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.14773",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2406.14773)\\] Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.14773",
+  "local_pdf": "pdfs/na_arxiv_2406_14773_arxiv_https_arxiv_org_abs_2406_14773_mitigating_the_privacy_issues_in_retrieval__b42d7d98.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Addresses privacy leakage in RAG via synthetic retrieval data, tangentially related to robustness against data exposure but not core robustness topics (noise, conflict, adversarial attacks on outputs, calibration).",
+  "why_not_or_caveat": "Focuses on privacy preservation rather than reliability under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.176677+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.14773\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"defense\",\"why_relevant\":\"Addresses privacy leakage in RAG via synthetic retrieval data, tangentially related to robustness against data exposure but not core robustness topics (noise, conflict, adversarial attacks on outputs, calibration).\",\"why_not_or_caveat\":\"Focuses on privacy preservation rather than reliability under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,43 @@
+{
+  "protocol": {
+    "n": 180,
+    "gold_agreement": 0.8833333333333333,
+    "verdict_counts": {
+      "partial": 93,
+      "invalid": 87
+    },
+    "error_taxonomy": {
+      "assumption;intervention;metric;action": 2,
+      "failure;assumption;intervention;metric;action": 13,
+      "failure;intervention;metric;action": 5,
+      "failure;assumption;metric;action": 1
+    }
+  },
+  "control": {
+    "n": 180,
+    "gold_agreement": 0.5666666666666667,
+    "verdict_counts": {
+      "invalid": 150,
+      "partial": 30
+    },
+    "error_taxonomy": {
+      "failure;assumption;intervention;metric": 8,
+      "failure;intervention;metric;action": 12,
+      "assumption;intervention;metric;action": 5,
+      "failure;assumption;metric": 3,
+      "intervention;metric;assumption": 2,
+      "metric;intervention;assumption": 1,
+      "failure;intervention;metric": 20,
+      "failure;metric;action": 5,
+      "intervention;metric;action": 6,
+      "assumption;intervention;metric": 8,
+      "assumption;metric;action": 1,
+      "metric;assumption;action": 1,
+      "failure;metric;intervention": 1,
+      "failure;intervention;metric;assumption": 1,
+      "failure;assumption;metric;action": 2,
+      "intervention;action;metric": 1,
+      "failure;assumption;intervention;metric;action": 1
+    }
+  }
+}

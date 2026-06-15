@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.17862v1",
+  "title": "Retrieval Feedback Memory Enhancement Large Model Retrieval Generation Method",
+  "authors": "Leqian Li; Dianxi Shi; Jialu Zhou; Xinyu Wei; Mingyue Yang; Songchang Jin; Shaowu Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.17862v1",
+  "local_pdf": "pdfs/2025_leqian_li_retrieval_feedback_memory_enhancement_large_model_retrieval_generation_method_d7ed375b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes iterative RAG with evidence sufficiency feedback model to terminate retrieval and filter noisy passages, tangentially related to control/when-to-stop retrieval.",
+  "why_not_or_caveat": "Primary focus is multi-hop QA accuracy via memory pool, not robustness, conflict, adversaries, or calibration evaluation.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration_control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:41.610130+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.17862v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes iterative RAG with evidence sufficiency feedback model to terminate retrieval and filter noisy passages, tangentially related to control/when-to-stop retrieval.\",\"why_not_or_caveat\":\"Primary focus is multi-hop QA accuracy via memory pool, not robustness, conflict, adversaries, or calibration evaluation.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"calibration_control\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

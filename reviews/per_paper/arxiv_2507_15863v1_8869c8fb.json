@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.15863v1",
+  "title": "eSapiens's DEREK Module: Deep Extraction & Reasoning Engine for Knowledge with LLMs",
+  "authors": "Isaac Shi; Zeyuan Li; Fan Liu; Wenli Wang; Lewei He; Yang Yang; Tianyu Shi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.15863v1",
+  "local_pdf": "pdfs/2025_isaac_shi_esapiens_s_derek_module_deep_extraction_reasoning_engine_for_knowledge_with_llms_8869c8fb.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Describes an enterprise RAG pipeline with a citation verifier to reduce unsupported claims, tangentially touching grounding/faithfulness.",
+  "why_not_or_caveat": "System/product report without rigorous study of robustness, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:21.575771+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.15863v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Describes an enterprise RAG pipeline with a citation verifier to reduce unsupported claims, tangentially touching grounding/faithfulness.\",\"why_not_or_caveat\":\"System/product report without rigorous study of robustness, conflict, adversaries, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

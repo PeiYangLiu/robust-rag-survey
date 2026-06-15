@@ -1,0 +1,284 @@
+{
+  "n_items": 274,
+  "source_files": [
+    "source_01_annotations.csv",
+    "source_02_annotations.csv"
+  ],
+  "nominal": {
+    "full_text_checked": {
+      "n": 274,
+      "agreement": 1.0,
+      "kappa": 1.0
+    },
+    "screen_in_scope": {
+      "n": 274,
+      "agreement": 0.9963503649635036,
+      "kappa": 0.9212190914318564
+    },
+    "primary_failure_type": {
+      "n": 274,
+      "agreement": 0.9708029197080292,
+      "kappa": 0.9610802365014827
+    },
+    "method_family": {
+      "n": 274,
+      "agreement": 0.8941605839416058,
+      "kappa": 0.8621060669165624
+    },
+    "intervention_point": {
+      "n": 274,
+      "agreement": 0.9343065693430657,
+      "kappa": 0.9208181482492334
+    },
+    "evaluation_type": {
+      "n": 274,
+      "agreement": 0.948905109489051,
+      "kappa": 0.9287465636377145
+    },
+    "evidence_strength": {
+      "n": 274,
+      "agreement": 0.9781021897810219,
+      "kappa": 0.948449405788467
+    },
+    "is_core_candidate": {
+      "n": 274,
+      "agreement": 0.916058394160584,
+      "kappa": 0.8033697347893917
+    },
+    "include_in_evidence_map": {
+      "n": 274,
+      "agreement": 0.9927007299270073,
+      "kappa": 0.8533975387907975
+    }
+  },
+  "ordinal": {
+    "relevance_level": {
+      "n": 274,
+      "linear_weighted_kappa": 0.8015598885793872,
+      "mean_abs_disagreement": 0.0948905109489051
+    },
+    "confidence_1_to_5": {
+      "n": 274,
+      "linear_weighted_kappa": 0.8293233668146072,
+      "mean_abs_disagreement": 0.11678832116788321
+    }
+  },
+  "multilabel": {
+    "secondary_failure_types": {
+      "n": 274,
+      "exact_match": 0.791970802919708,
+      "mean_jaccard": 0.8318126520681265
+    },
+    "reproducibility_evidence": {
+      "n": 274,
+      "exact_match": 0.10583941605839416,
+      "mean_jaccard": 0.2027068126520681
+    }
+  },
+  "conditional": {
+    "exclusion_reason": {
+      "n": 7,
+      "agreement": 0.0,
+      "kappa": 0.0
+    }
+  },
+  "disagreement_counts": {
+    "full_text_checked": 0,
+    "screen_in_scope": 1,
+    "primary_failure_type": 8,
+    "method_family": 29,
+    "intervention_point": 18,
+    "evaluation_type": 14,
+    "evidence_strength": 6,
+    "is_core_candidate": 23,
+    "include_in_evidence_map": 2,
+    "relevance_level": 26,
+    "confidence_1_to_5": 32,
+    "secondary_failure_types": 57,
+    "reproducibility_evidence": 245,
+    "exclusion_reason": 8
+  },
+  "confusion_matrices": {
+    "primary_failure_type": {
+      "adversarial_corruption": {
+        "adversarial_corruption": 116,
+        "multimodal_agentic_code": 1
+      },
+      "calibration_control": {
+        "calibration_control": 39,
+        "evaluation_benchmark": 1
+      },
+      "distraction": {
+        "distraction": 11,
+        "noisy_retrieval": 2
+      },
+      "evaluation_benchmark": {
+        "evaluation_benchmark": 26,
+        "noisy_retrieval": 1,
+        "adversarial_corruption": 1,
+        "ood_uncertainty": 1,
+        "distraction": 1
+      },
+      "knowledge_conflict": {
+        "knowledge_conflict": 46
+      },
+      "multimodal_agentic_code": {
+        "multimodal_agentic_code": 2
+      },
+      "noisy_retrieval": {
+        "noisy_retrieval": 18
+      },
+      "other": {
+        "other": 2
+      },
+      "survey_related": {
+        "survey_related": 6
+      }
+    },
+    "method_family": {
+      "analysis": {
+        "analysis": 14,
+        "control_calibration": 1,
+        "benchmark_evaluation": 1
+      },
+      "attack": {
+        "attack": 74
+      },
+      "benchmark_evaluation": {
+        "benchmark_evaluation": 55,
+        "analysis": 1
+      },
+      "conflict_modeling": {
+        "defense_mitigation": 3
+      },
+      "control_calibration": {
+        "control_calibration": 12,
+        "defense_mitigation": 2
+      },
+      "defense_mitigation": {
+        "defense_mitigation": 80
+      },
+      "method": {
+        "defense_mitigation": 18,
+        "control_calibration": 3,
+        "method": 4
+      },
+      "survey_background": {
+        "survey_background": 6
+      }
+    },
+    "intervention_point": {
+      "context_assembly": {
+        "context_assembly": 34,
+        "generator": 2,
+        "mixed": 1
+      },
+      "corpus_kb": {
+        "corpus_kb": 65
+      },
+      "evaluation": {
+        "evaluation": 34,
+        "corpus_kb": 1,
+        "mixed": 1,
+        "retriever": 1,
+        "context_assembly": 1
+      },
+      "generator": {
+        "generator": 59,
+        "mixed": 1,
+        "system_control": 1,
+        "context_assembly": 1,
+        "evaluation": 1
+      },
+      "mixed": {
+        "mixed": 25,
+        "not_applicable": 1
+      },
+      "retriever": {
+        "retriever": 16,
+        "corpus_kb": 2,
+        "mixed": 1
+      },
+      "system_control": {
+        "system_control": 23,
+        "generator": 2,
+        "context_assembly": 1
+      }
+    },
+    "evaluation_type": {
+      "attack_success": {
+        "attack_success": 106,
+        "defense_bypass": 2
+      },
+      "benchmark_only": {
+        "benchmark_only": 10,
+        "qa_accuracy": 4
+      },
+      "calibration_selective_risk": {
+        "calibration_selective_risk": 31,
+        "qa_accuracy": 1
+      },
+      "defense_bypass": {
+        "defense_bypass": 6,
+        "attack_success": 1
+      },
+      "faithfulness_hallucination": {
+        "faithfulness_hallucination": 15
+      },
+      "not_applicable": {
+        "benchmark_only": 1,
+        "not_applicable": 4,
+        "qa_accuracy": 1
+      },
+      "other": {
+        "qa_accuracy": 1,
+        "faithfulness_hallucination": 1,
+        "other": 1,
+        "benchmark_only": 1
+      },
+      "qa_accuracy": {
+        "qa_accuracy": 86,
+        "attack_success": 1
+      },
+      "retrieval_metric": {
+        "retrieval_metric": 1
+      }
+    },
+    "evidence_strength": {
+      "arxiv_only_preprint": {
+        "arxiv_only_preprint": 196,
+        "venue_linked_preprint": 2,
+        "peer_reviewed_proceedings": 1
+      },
+      "peer_reviewed_proceedings": {
+        "peer_reviewed_proceedings": 59
+      },
+      "unclear": {
+        "unclear": 1
+      },
+      "venue_linked_preprint": {
+        "venue_linked_preprint": 11,
+        "peer_reviewed_proceedings": 1,
+        "arxiv_only_preprint": 2
+      },
+      "workshop_or_challenge": {
+        "workshop_or_challenge": 1
+      }
+    }
+  },
+  "optional_field_fill_rates": {
+    "attacker_capability": {
+      "source_01": 0.8832116788321168,
+      "source_02": 0.9343065693430657
+    },
+    "retriever_generator_setup": {
+      "source_01": 0.948905109489051,
+      "source_02": 0.9452554744525548
+    },
+    "metrics_reported": {
+      "source_01": 0.9416058394160584,
+      "source_02": 0.9416058394160584
+    }
+  },
+  "adjudication_template_rows": 469
+}

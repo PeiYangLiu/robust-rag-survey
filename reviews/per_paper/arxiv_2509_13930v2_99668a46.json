@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.13930v2",
+  "title": "Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG",
+  "authors": "Dayeon Ki; Marine Carpuat; Paul McNamee; Daniel Khashabi; Eugene Yang; Dawn Lawrie; Kevin Duh",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.13930v2",
+  "local_pdf": "pdfs/2025_dayeon_ki_linguistic_nepotism_trading_off_quality_for_language_preference_in_multilingual_rag_99668a46.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes language preference bias in multilingual RAG citation behavior, showing models trade off relevance for language—tangentially related to RAG reliability and citation faithfulness.",
+  "why_not_or_caveat": "Focus is on multilingual citation bias, not on robustness against noise, conflict, adversaries, or calibration as defined in the survey scope.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:25.075073+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.13930v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes language preference bias in multilingual RAG citation behavior, showing models trade off relevance for language—tangentially related to RAG reliability and citation faithfulness.\",\n  \"why_not_or_caveat\": \"Focus is on multilingual citation bias, not on robustness against noise, conflict, adversaries, or calibration as defined in the survey scope.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

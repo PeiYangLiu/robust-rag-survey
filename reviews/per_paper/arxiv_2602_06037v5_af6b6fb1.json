@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.06037v5",
+  "title": "Thinking with Geometry: Active Geometry Integration for Spatial Reasoning",
+  "authors": "Haoyuan Li; Qihang Cao; Tao Tang; Kun Xiang; Zihan Guo; Jianhua Han; JiaWang Bian; Hang Xu; Xiaodan Liang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.06037v5",
+  "local_pdf": "pdfs/2026_haoyuan_li_thinking_with_geometry_active_geometry_integration_for_spatial_reasoning_af6b6fb1.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns geometry integration for spatial reasoning in MLLMs, unrelated to RAG robustness.",
+  "why_not_or_caveat": "No connection to retrieval-augmented generation, unreliable evidence, or any robustness topic in the survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:03.843984+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.06037v5\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns geometry integration for spatial reasoning in MLLMs, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"No connection to retrieval-augmented generation, unreliable evidence, or any robustness topic in the survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

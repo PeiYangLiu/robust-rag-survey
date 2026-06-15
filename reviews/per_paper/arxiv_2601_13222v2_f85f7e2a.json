@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.13222v2",
+  "title": "Incorporating Q&A Nuggets into Retrieval-Augmented Generation",
+  "authors": "Laura Dietz; Bryan Li; Gabrielle Liu; Jia-Huei Ju; Eugene Yang; Dawn Lawrie; William Walden; James Mayfield",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.13222v2",
+  "local_pdf": "pdfs/2026_laura_dietz_incorporating_q_a_nuggets_into_retrieval_augmented_generation_f85f7e2a.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Presents a nugget-based RAG generation system with citation grounding evaluated on TREC NeuCLIR 2024; not focused on robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Concerns generation quality and citation provenance rather than robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:52.558765+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.13222v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Presents a nugget-based RAG generation system with citation grounding evaluated on TREC NeuCLIR 2024; not focused on robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Concerns generation quality and citation provenance rather than robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

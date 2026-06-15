@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.24816v1",
+  "title": "KnowGuard: Knowledge-Driven Abstention for Multi-Round Clinical Reasoning",
+  "authors": "Xilin Dang; Kexin Chen; Xiaorui Su; Ayush Noori; Iñaki Arango; Lucas Vittor; Xinyi Long; Yuyang Du; Marinka Zitnik; Pheng Ann Heng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.24816v1",
+  "local_pdf": "pdfs/2025_xilin_dang_knowguard_knowledge_driven_abstention_for_multi_round_clinical_reasoning_69158750.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a knowledge-graph-grounded abstention method for multi-round clinical QA, addressing when LLMs should refrain from answering under insufficient evidence—directly relevant to abstention and calibration control under uncertainty.",
+  "why_not_or_caveat": "Domain-specific (clinical) and focused on KG exploration rather than general RAG robustness; abstention is the main contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:59.074234+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.24816v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a knowledge-graph-grounded abstention method for multi-round clinical QA, addressing when LLMs should refrain from answering under insufficient evidence—directly relevant to abstention and calibration control under uncertainty.\",\n  \"why_not_or_caveat\": \"Domain-specific (clinical) and focused on KG exploration rather than general RAG robustness; abstention is the main contribution.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

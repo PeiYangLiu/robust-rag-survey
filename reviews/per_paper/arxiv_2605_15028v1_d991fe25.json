@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.15028v1",
+  "title": "Multi-Agentic Approach for History Matching of Oil Reservoirs",
+  "authors": "Linar Samigullin; Sergei Shumilin; Evgeny Burnaev",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.15028v1",
+  "local_pdf": "pdfs/2026_linar_samigullin_multi_agentic_approach_for_history_matching_of_oil_reservoirs_d991fe25.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of multi-agent LLMs with RAG to reservoir history matching; no study of RAG robustness.",
+  "why_not_or_caveat": "Out of scope domain application.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:30.891492+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.15028v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of multi-agent LLMs with RAG to reservoir history matching; no study of RAG robustness.\",\"why_not_or_caveat\":\"Out of scope domain application.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

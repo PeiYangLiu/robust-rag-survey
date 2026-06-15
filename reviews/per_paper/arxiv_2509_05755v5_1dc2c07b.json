@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.05755v5",
+  "title": "Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment",
+  "authors": "Yuchong Xie; Mingyu Luo; Zesen Liu; Zhixiang Zhang; Kaikai Zhang; Yu Liu; Zongjie Li; Ping Chen; Shuai Wang; Dongdong She",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.05755v5",
+  "local_pdf": "pdfs/2025_yuchong_xie_red_teaming_coding_agents_from_a_tool_invocation_perspective_an_empirical_security_asses_1dc2c07b.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies prompt injection attacks on coding agents' tool invocation, tangentially related to adversarial threats against LLM-based systems.",
+  "why_not_or_caveat": "Focuses on coding agent tool-invocation security, not RAG retrieval pipelines or evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:23.261258+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.05755v5\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Studies prompt injection attacks on coding agents' tool invocation, tangentially related to adversarial threats against LLM-based systems.\",\"why_not_or_caveat\":\"Focuses on coding agent tool-invocation security, not RAG retrieval pipelines or evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

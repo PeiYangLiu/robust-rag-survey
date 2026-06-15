@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.21654v1",
+  "title": "Towards Secure Retrieval-Augmented Generation: A Comprehensive Review of Threats, Defenses and Benchmarks",
+  "authors": "Yanming Mu; Hao Hu; Feiyang Li; Qiao Yuan; Jiang Wu; Zichuan Liu; Pengcheng Liu; Mei Wang; Hongwei Zhou; Yuling Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.21654v1",
+  "local_pdf": "pdfs/2026_yanming_mu_towards_secure_retrieval_augmented_generation_a_comprehensive_review_of_threats_defenses_caa65bd0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "survey_related",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "End-to-end survey of RAG security threats (poisoning, adversarial, membership inference), defenses, and benchmarks, directly overlapping with the adversarial corruption and evaluation sections of the target survey.",
+  "why_not_or_caveat": "Focused on security/privacy rather than broader robustness aspects like distraction, calibration, or knowledge conflict.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Related Surveys",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.489942+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.21654v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"survey_related\",\"evaluation_benchmark\"],\"paper_role\":\"survey\",\"why_relevant\":\"End-to-end survey of RAG security threats (poisoning, adversarial, membership inference), defenses, and benchmarks, directly overlapping with the adversarial corruption and evaluation sections of the target survey.\",\"why_not_or_caveat\":\"Focused on security/privacy rather than broader robustness aspects like distraction, calibration, or knowledge conflict.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Related Surveys\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

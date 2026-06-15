@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.04583v1",
+  "title": "SUCEA: Reasoning-Intensive Retrieval for Adversarial Fact-checking through Claim Decomposition and Editing",
+  "authors": "Hongjun Liu; Yilun Zhao; Arman Cohan; Chen Zhao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.04583v1",
+  "local_pdf": "pdfs/2025_hongjun_liu_sucea_reasoning_intensive_retrieval_for_adversarial_fact_checking_through_claim_decompos_14ff8d2c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "adversarial_corruption"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses adversarially crafted claims that break retrieval in RAG-based fact-checking, proposing claim decomposition and iterative editing to improve evidence retrieval under reasoning-intensive adversarial conditions.",
+  "why_not_or_caveat": "Adversarial setting concerns adversarial claims rather than corpus poisoning or prompt injection; narrower fact-checking scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial inputs and reasoning-intensive retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:58.545919+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.04583v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"adversarial_corruption\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses adversarially crafted claims that break retrieval in RAG-based fact-checking, proposing claim decomposition and iterative editing to improve evidence retrieval under reasoning-intensive adversarial conditions.\",\n  \"why_not_or_caveat\": \"Adversarial setting concerns adversarial claims rather than corpus poisoning or prompt injection; narrower fact-checking scope.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial inputs and reasoning-intensive retrieval\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

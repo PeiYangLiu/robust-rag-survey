@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.28837v1",
+  "title": "SERC: LDPC-Inspired Semantic Error Correction for Retrieval-Augmented Generation",
+  "authors": "Gyumin Kim; Juhwan Park; Jaeha Kim; Seunggyun Han; Kyungrak Son; Ikbeom Jang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28837v1",
+  "local_pdf": "pdfs/2026_gyumin_kim_serc_ldpc_inspired_semantic_error_correction_for_retrieval_augmented_generation_c0fb1c00.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a verification/error-correction framework over RAG outputs to detect and fix hallucinations using sparse verification queries against retrieved evidence, relevant to control mechanisms for unreliable generation.",
+  "why_not_or_caveat": "Focuses on post-hoc hallucination correction rather than directly addressing noisy/adversarial retrieval or calibration in a principled way.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Self-correction",
+  "confidence": 0.55,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:23.157131+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.28837v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a verification/error-correction framework over RAG outputs to detect and fix hallucinations using sparse verification queries against retrieved evidence, relevant to control mechanisms for unreliable generation.\", \"why_not_or_caveat\": \"Focuses on post-hoc hallucination correction rather than directly addressing noisy/adversarial retrieval or calibration in a principled way.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control / Self-correction\", \"confidence\": 0.55}",
+  "skipped_existing": false
+}

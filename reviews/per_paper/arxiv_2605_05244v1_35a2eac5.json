@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.05244v1",
+  "title": "Towards Dependable Retrieval-Augmented Generation Using Factual Confidence Prediction",
+  "authors": "Florian Geissler; Francesco Carella; Laura Fieback; Jakob Spiegelberg",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05244v1",
+  "local_pdf": "pdfs/2026_florian_geissler_towards_dependable_retrieval_augmented_generation_using_factual_confidence_prediction_35a2eac5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes conformal prediction-based retrieval filtering and attention-based hallucination/factuality classification to certify RAG outputs, directly addressing calibration, retrieval trust, and detecting unsupported answers.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.409733+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.05244v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes conformal prediction-based retrieval filtering and attention-based hallucination/factuality classification to certify RAG outputs, directly addressing calibration, retrieval trust, and detecting unsupported answers.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.15577v2",
+  "title": "Relevance to Utility: Process-Supervised Rewrite for RAG",
+  "authors": "Jaeyoung Kim; Jongho Kim; Seung-won Hwang; Seoho Song; Young-In Song",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.15577v2",
+  "local_pdf": "pdfs/2025_jaeyoung_kim_relevance_to_utility_process_supervised_rewrite_for_rag_3454baae.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a rewriting bridge module to improve document utility in RAG, indirectly addressing low-utility/noisy retrieved evidence, but not focused on robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Primary focus is improving generation quality via process-supervised rewriting, not robustness under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / bridging modules",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:44.234356+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.15577v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a rewriting bridge module to improve document utility in RAG, indirectly addressing low-utility/noisy retrieved evidence, but not focused on robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Primary focus is improving generation quality via process-supervised rewriting, not robustness under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval / bridging modules\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

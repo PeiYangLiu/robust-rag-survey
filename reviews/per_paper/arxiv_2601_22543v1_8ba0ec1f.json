@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.22543v1",
+  "title": "SCaLRec: Semantic Calibration for LLM-enabled Cloud-Device Sequential Recommendation",
+  "authors": "Ruiqi Zheng; Jinli Cao; Jiao Yin; Hongzhi Yin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.22543v1",
+  "local_pdf": "pdfs/2026_ruiqi_zheng_scalrec_semantic_calibration_for_llm_enabled_cloud_device_sequential_recommendation_8ba0ec1f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper concerns cloud-device sequential recommendation with stale cached LLM embeddings; not about RAG robustness.",
+  "why_not_or_caveat": "Out of scope: recommender systems, no retrieval-augmented generation robustness focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.498729+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.22543v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper concerns cloud-device sequential recommendation with stale cached LLM embeddings; not about RAG robustness.\",\"why_not_or_caveat\":\"Out of scope: recommender systems, no retrieval-augmented generation robustness focus.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.05265v1",
+  "title": "Cross-Document Topic-Aligned Chunking for Retrieval-Augmented Generation",
+  "authors": "Mile Stankovic",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05265v1",
+  "local_pdf": "pdfs/2025_mile_stankovic_cross_document_topic_aligned_chunking_for_retrieval_augmented_generation_15821bf5.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a cross-document chunking method to improve faithfulness in RAG, tangentially related to retrieval quality.",
+  "why_not_or_caveat": "Focuses on chunking/indexing rather than robustness to noise, conflict, attacks, or calibration; does not directly address unreliable evidence concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:09.114214+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.05265v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a cross-document chunking method to improve faithfulness in RAG, tangentially related to retrieval quality.\", \"why_not_or_caveat\": \"Focuses on chunking/indexing rather than robustness to noise, conflict, attacks, or calibration; does not directly address unreliable evidence concerns.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

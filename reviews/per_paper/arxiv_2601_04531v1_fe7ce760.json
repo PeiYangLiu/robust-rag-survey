@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.04531v1",
+  "title": "Self-MedRAG: a Self-Reflective Hybrid Retrieval-Augmented Generation Framework for Reliable Medical Question Answering",
+  "authors": "Jessica Ryan; Alexander I. Gumilang; Robert Wiliam; Derwin Suhartono",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.04531v1",
+  "local_pdf": "pdfs/2026_jessica_ryan_self_medrag_a_self_reflective_hybrid_retrieval_augmented_generation_framework_for_reliab_fe7ce760.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a self-reflective iterative RAG for medical QA with hybrid retrieval and NLI-based verification, touching on evidence sufficiency and re-retrieval control.",
+  "why_not_or_caveat": "Domain-specific application focused on medical QA accuracy rather than systematic study of robustness, noise, conflict, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.998524+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.04531v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a self-reflective iterative RAG for medical QA with hybrid retrieval and NLI-based verification, touching on evidence sufficiency and re-retrieval control.\",\n  \"why_not_or_caveat\": \"Domain-specific application focused on medical QA accuracy rather than systematic study of robustness, noise, conflict, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

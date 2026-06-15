@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.15338v2",
+  "title": "Hidden in Memory: Sleeper Memory Poisoning in LLM Agents",
+  "authors": "Sidharth Pulipaka; Stanislau Hlebik; Leonidas Raghav; Sahar Abdelnabi; Vyas Raina; Ivaxi Sheth; Mario Fritz",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.15338v2",
+  "local_pdf": "pdfs/2026_sidharth_pulipaka_hidden_in_memory_sleeper_memory_poisoning_in_llm_agents_dc117a0c.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies indirect prompt injection that poisons persistent memory of LLM agents, causing delayed retrieval-driven malicious behavior. Relevant to adversarial corruption of retrieval/memory stores in RAG-like pipelines.",
+  "why_not_or_caveat": "Focus is on agent memory rather than classic RAG corpora; relevance is via analogy to retrieval poisoning and indirect injection.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Indirect Prompt Injection",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:32.934001+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.15338v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Studies indirect prompt injection that poisons persistent memory of LLM agents, causing delayed retrieval-driven malicious behavior. Relevant to adversarial corruption of retrieval/memory stores in RAG-like pipelines.\",\n  \"why_not_or_caveat\": \"Focus is on agent memory rather than classic RAG corpora; relevance is via analogy to retrieval poisoning and indirect injection.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning and Indirect Prompt Injection\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

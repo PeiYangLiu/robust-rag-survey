@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.08479v3",
+  "title": "Efficient Context Selection for Long-Context QA: No Tuning, No Iteration, Just Adaptive-$k$",
+  "authors": "Chihiro Taguchi; Seiji Maekawa; Nikita Bhutani",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.08479v3",
+  "local_pdf": "pdfs/2025_chihiro_taguchi_efficient_context_selection_for_long_context_qa_no_tuning_no_iteration_just_adaptive_k_9cbb3845.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an adaptive method to dynamically decide how many passages to retrieve based on similarity score distributions, addressing the control problem of when/how much to retrieve and reducing noisy/irrelevant context.",
+  "why_not_or_caveat": "Focus is on efficiency and accuracy rather than robustness per se; touches calibration-of-retrieval-size only indirectly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Adaptive Retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:48.511836+00:00",
+  "raw_response": "{\"key\": \"arxiv-2506.08479v3\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes an adaptive method to dynamically decide how many passages to retrieve based on similarity score distributions, addressing the control problem of when/how much to retrieve and reducing noisy/irrelevant context.\", \"why_not_or_caveat\": \"Focus is on efficiency and accuracy rather than robustness per se; touches calibration-of-retrieval-size only indirectly.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: Adaptive Retrieval\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

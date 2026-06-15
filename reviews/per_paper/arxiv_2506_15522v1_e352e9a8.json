@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.15522v1",
+  "title": "Lessons from Training Grounded LLMs with Verifiable Rewards",
+  "authors": "Shang Hong Sim; Tej Deep Pala; Vernon Toh; Hai Leong Chieu; Amir Zadeh; Chuan Li; Navonil Majumder; Soujanya Poria",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.15522v1",
+  "local_pdf": "pdfs/2025_shang_hong_sim_lessons_from_training_grounded_llms_with_verifiable_rewards_e352e9a8.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Trains RAG LLMs with verifiable rewards for citation grounding and refusal on unanswerable queries, directly addressing abstention and grounded generation under unreliable/insufficient evidence.",
+  "why_not_or_caveat": "Focus on training method rather than benchmarking robustness; doesn't address adversarial or conflict scenarios.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (abstention/refusal)",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:38.075415+00:00",
+  "raw_response": "{\"key\": \"arxiv-2506.15522v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"Trains RAG LLMs with verifiable rewards for citation grounding and refusal on unanswerable queries, directly addressing abstention and grounded generation under unreliable/insufficient evidence.\", \"why_not_or_caveat\": \"Focus on training method rather than benchmarking robustness; doesn't address adversarial or conflict scenarios.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control (abstention/refusal)\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

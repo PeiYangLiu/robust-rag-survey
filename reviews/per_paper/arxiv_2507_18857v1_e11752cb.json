@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.18857v1",
+  "title": "PrismRAG: Boosting RAG Factuality with Distractor Resilience and Strategized Reasoning",
+  "authors": "Mohammad Kachuee; Teja Gollapudi; Minseok Kim; Yin Huang; Kai Sun; Xiao Yang; Jiaqi Wang; Nirav Shah; Yue Liu; Aaron Colak; Anuj Kumar; Wen-tau Yih; Xin Luna Dong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.18857v1",
+  "local_pdf": "pdfs/2025_mohammad_kachuee_prismrag_boosting_rag_factuality_with_distractor_resilience_and_strategized_reasoning_e11752cb.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "PrismRAG fine-tunes LLMs for distractor resilience by training on QA pairs with synthetically generated semi-relevant distractors, directly addressing distraction and noisy retrieval robustness in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval mitigation",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:14.538148+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.18857v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"PrismRAG fine-tunes LLMs for distractor resilience by training on QA pairs with synthetically generated semi-relevant distractors, directly addressing distraction and noisy retrieval robustness in RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and noisy retrieval mitigation\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

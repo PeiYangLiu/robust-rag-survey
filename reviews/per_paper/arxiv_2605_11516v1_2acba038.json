@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.11516v1",
+  "title": "Agents Should Replace Narrow Predictive AI as the Orchestrator in 6G AI-RAN",
+  "authors": "Pranshav Gajjar; Vijay K Shah",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.11516v1",
+  "local_pdf": "pdfs/2026_pranshav_gajjar_agents_should_replace_narrow_predictive_ai_as_the_orchestrator_in_6g_ai_ran_2acba038.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Position paper on LLM agents for 6G AI-RAN orchestration; mentions RAG only as a tool.",
+  "why_not_or_caveat": "Does not study RAG robustness, conflict, calibration, or adversarial evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:33.127019+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.11516v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Position paper on LLM agents for 6G AI-RAN orchestration; mentions RAG only as a tool.\",\"why_not_or_caveat\":\"Does not study RAG robustness, conflict, calibration, or adversarial evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

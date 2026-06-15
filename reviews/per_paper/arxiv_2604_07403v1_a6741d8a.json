@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.07403v1",
+  "title": "RefineRAG: Word-Level Poisoning Attacks via Retriever-Guided Text Refinement",
+  "authors": "Ziye Wang; Guanyu Wang; Kailong Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.07403v1",
+  "local_pdf": "pdfs/2026_ziye_wang_refinerag_word_level_poisoning_attacks_via_retriever_guided_text_refinement_a6741d8a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a stealthy word-level poisoning attack against RAG retrievers, directly relevant to the adversarial corruption section of the survey.",
+  "why_not_or_caveat": "Attack-only; no defense or calibration contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:57.956546+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.07403v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a stealthy word-level poisoning attack against RAG retrievers, directly relevant to the adversarial corruption section of the survey.\",\n  \"why_not_or_caveat\": \"Attack-only; no defense or calibration contribution.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

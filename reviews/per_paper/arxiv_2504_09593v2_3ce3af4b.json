@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.09593v2",
+  "title": "ControlNET: A Firewall for RAG-based LLM System",
+  "authors": "Hongwei Yao; Haoran Shi; Yidou Chen; Yixin Jiang; Cong Wang; Zhan Qin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.09593v2",
+  "local_pdf": "pdfs/2025_hongwei_yao_controlnet_a_firewall_for_rag_based_llm_system_3ce3af4b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a firewall defense for RAG against poisoning, prompt injection, and data exfiltration attacks, directly addressing adversarial corruption and query flow control.",
+  "why_not_or_caveat": "Also covers privacy/access-control aspects beyond the survey's core focus on evidence reliability.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: defenses",
+  "confidence": 0.78,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:27.761419+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.09593v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"calibration_control\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a firewall defense for RAG against poisoning, prompt injection, and data exfiltration attacks, directly addressing adversarial corruption and query flow control.\",\n  \"why_not_or_caveat\": \"Also covers privacy/access-control aspects beyond the survey's core focus on evidence reliability.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: defenses\",\n  \"confidence\": 0.78\n}",
+  "skipped_existing": false
+}

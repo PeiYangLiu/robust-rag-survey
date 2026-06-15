@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.04253v1",
+  "title": "LLM-Independent Adaptive RAG: Let the Question Speak for Itself",
+  "authors": "Maria Marina; Nikolay Ivanov; Sergey Pletenev; Mikhail Salnikov; Daria Galimzianova; Nikita Krayko; Vasily Konovalov; Alexander Panchenko; Viktor Moskvoretskii",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.04253v1",
+  "local_pdf": "pdfs/2025_maria_marina_llm_independent_adaptive_rag_let_the_question_speak_for_itself_fcdae4b1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes LLM-independent adaptive retrieval using external features to decide when to retrieve, directly addressing the calibration/control axis of robust RAG.",
+  "why_not_or_caveat": "Focuses on efficiency of retrieval-trigger decisions rather than robustness to noisy or adversarial evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.363721+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.04253v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes LLM-independent adaptive retrieval using external features to decide when to retrieve, directly addressing the calibration/control axis of robust RAG.\",\"why_not_or_caveat\":\"Focuses on efficiency of retrieval-trigger decisions rather than robustness to noisy or adversarial evidence.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

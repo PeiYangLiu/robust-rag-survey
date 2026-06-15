@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.10297v2",
+  "title": "Local Hybrid Retrieval-Augmented Document QA",
+  "authors": "Paolo Astrino",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.10297v2",
+  "local_pdf": "pdfs/2025_paolo_astrino_local_hybrid_retrieval_augmented_document_qa_ba980bf2.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Builds a local hybrid RAG system with hallucination measurement via LLM-as-Judge, but focuses on privacy and deployment rather than robustness, conflict, or adversarial issues.",
+  "why_not_or_caveat": "Application-oriented system paper; hallucination evaluation is incidental and not a robustness contribution.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:44.641288+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.10297v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Builds a local hybrid RAG system with hallucination measurement via LLM-as-Judge, but focuses on privacy and deployment rather than robustness, conflict, or adversarial issues.\",\"why_not_or_caveat\":\"Application-oriented system paper; hallucination evaluation is incidental and not a robustness contribution.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

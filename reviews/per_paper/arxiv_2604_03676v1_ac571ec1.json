@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.03676v1",
+  "title": "Are LLM-Based Retrievers Worth Their Cost? An Empirical Study of Efficiency, Robustness, and Reasoning Overhead",
+  "authors": "Abdelrahman Abdallah; Jamie Holdcroft; Mohammed Ali; Adam Jatowt",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.03676v1",
+  "local_pdf": "pdfs/2026_abdelrahman_abdallah_are_llm_based_retrievers_worth_their_cost_an_empirical_study_of_efficiency_robustness_an_ac571ec1.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies retriever robustness to query perturbations and confidence calibration (AUROC) for retrieval scores, touching on calibration/control aspects relevant to robust RAG.",
+  "why_not_or_caveat": "Focuses on retriever-side efficiency/effectiveness trade-offs rather than RAG pipeline robustness to unreliable evidence; calibration analysis is limited to raw retrieval scores.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control",
+  "confidence": 0.55,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:42.524210+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.03676v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"calibration_control\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies retriever robustness to query perturbations and confidence calibration (AUROC) for retrieval scores, touching on calibration/control aspects relevant to robust RAG.\",\n  \"why_not_or_caveat\": \"Focuses on retriever-side efficiency/effectiveness trade-offs rather than RAG pipeline robustness to unreliable evidence; calibration analysis is limited to raw retrieval scores.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and control\",\n  \"confidence\": 0.55\n}",
+  "skipped_existing": false
+}

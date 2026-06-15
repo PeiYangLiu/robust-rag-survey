@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.15859v1",
+  "title": "From Transcripts to AI Agents: Knowledge Extraction, RAG Integration, and Robust Evaluation of Conversational AI Assistants",
+  "authors": "Krittin Pachtrachai; Petmongkon Pornpichitsuwan; Wachiravit Modecrua; Touchapon Kraisingkorn",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.15859v1",
+  "local_pdf": "pdfs/2026_krittin_pachtrachai_from_transcripts_to_ai_agents_knowledge_extraction_rag_integration_and_robust_evaluation_2c2195c8.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "application"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Includes red teaming against prompt injection and out-of-scope queries in a RAG-based voice assistant, touching on robustness evaluation.",
+  "why_not_or_caveat": "Primarily an applied system paper for call center automation; robustness aspects are minor and domain-specific rather than offering generalizable methods or benchmarks.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.397649+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.15859v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"application\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Includes red teaming against prompt injection and out-of-scope queries in a RAG-based voice assistant, touching on robustness evaluation.\",\n  \"why_not_or_caveat\": \"Primarily an applied system paper for call center automation; robustness aspects are minor and domain-specific rather than offering generalizable methods or benchmarks.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

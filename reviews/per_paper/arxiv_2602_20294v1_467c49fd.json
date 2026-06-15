@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.20294v1",
+  "title": "InterviewSim: A Scalable Framework for Interview-Grounded Personality Simulation",
+  "authors": "Yu Li; Pranav Narayanan Venkit; Yada Pruksachatkun; Chien-Sheng Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.20294v1",
+  "local_pdf": "pdfs/2026_yu_li_interviewsim_a_scalable_framework_for_interview_grounded_personality_simulation_467c49fd.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper concerns interview-grounded personality simulation, not RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Uses RAG as one method but does not study unreliable evidence, noise, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:28.180266+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.20294v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper concerns interview-grounded personality simulation, not RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Uses RAG as one method but does not study unreliable evidence, noise, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

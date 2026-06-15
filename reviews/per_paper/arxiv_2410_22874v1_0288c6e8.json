@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.22874v1",
+  "title": "Eliciting Critical Reasoning in Retrieval-Augmented Language Models via Contrastive Explanations",
+  "authors": "Leonardo Ranaldi; Marco Valentino; Andrè Freitas",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.22874v1",
+  "local_pdf": "pdfs/2024_leonardo_ranaldi_eliciting_critical_reasoning_in_retrieval_augmented_language_models_via_contrastive_expl_0288c6e8.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes Contrastive-RAG to elicit critical reasoning over retrieved passages, explicitly evaluating robustness to noisy/shuffled documents and discriminating relevant vs irrelevant evidence.",
+  "why_not_or_caveat": "Focuses on prompting/distillation method rather than systematic robustness analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and distraction mitigation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:12.369289+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.22874v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes Contrastive-RAG to elicit critical reasoning over retrieved passages, explicitly evaluating robustness to noisy/shuffled documents and discriminating relevant vs irrelevant evidence.\",\n  \"why_not_or_caveat\": \"Focuses on prompting/distillation method rather than systematic robustness analysis.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and distraction mitigation\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

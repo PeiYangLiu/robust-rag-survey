@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2407.17023v2",
+  "title": "DYNAMICQA: Tracing Internal Knowledge Conflicts in Language Models",
+  "authors": "Sara Vera Marjanović; Haeun Yu; Pepa Atanasova; Maria Maistro; Christina Lioma; Isabelle Augenstein",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2407.17023v2",
+  "local_pdf": "pdfs/2024_sara_vera_marjanovi_dynamicqa_tracing_internal_knowledge_conflicts_in_language_models_78c9de7c.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces DynamicQA, a benchmark for studying intra-memory and context-memory knowledge conflicts with realistic temporal/disputable facts, directly relevant to RAG's struggle with conflicting evidence and parametric vs. contextual knowledge.",
+  "why_not_or_caveat": "Focus is more on intra-memory conflict and semantic entropy than on retrieval pipeline robustness per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:25.652548+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2407.17023v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\", \"ood_uncertainty\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces DynamicQA, a benchmark for studying intra-memory and context-memory knowledge conflicts with realistic temporal/disputable facts, directly relevant to RAG's struggle with conflicting evidence and parametric vs. contextual knowledge.\",\n  \"why_not_or_caveat\": \"Focus is more on intra-memory conflict and semantic entropy than on retrieval pipeline robustness per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

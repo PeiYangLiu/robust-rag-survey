@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2406.06458v1",
+  "title": "Evaluating the Retrieval Component in LLM-Based Question Answering Systems",
+  "authors": "Ashkan Alinejad; Krtin Kumar; Ali Vahdat",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.06458v1",
+  "local_pdf": "pdfs/2024_ashkan_alinejad_evaluating_the_retrieval_component_in_llm_based_question_answering_systems_b36550a9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Proposes an LLM-based framework for evaluating retriever quality in RAG that accounts for LLMs' ability to ignore irrelevant contexts, addressing limitations of conventional IR metrics. Relevant to evaluation of retrieval reliability under noisy/imperfect retrieval.",
+  "why_not_or_caveat": "Focused on evaluation methodology rather than directly on robustness, conflict, or adversarial issues.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:25.050073+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2406.06458v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Proposes an LLM-based framework for evaluating retriever quality in RAG that accounts for LLMs' ability to ignore irrelevant contexts, addressing limitations of conventional IR metrics. Relevant to evaluation of retrieval reliability under noisy/imperfect retrieval.\",\n  \"why_not_or_caveat\": \"Focused on evaluation methodology rather than directly on robustness, conflict, or adversarial issues.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Metrics\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

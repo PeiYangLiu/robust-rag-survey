@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2501.18636v2",
+  "title": "SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model",
+  "authors": "Xun Liang; Simin Niu; Zhiyu Li; Sensen Zhang; Hanyu Wang; Feiyu Xiong; Jason Zhaoxin Fan; Bo Tang; Shichao Song; Mengwei Wang; Jiawei Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.18636v2",
+  "local_pdf": "pdfs/2025_xun_liang_saferag_benchmarking_security_in_retrieval_augmented_generation_of_large_language_model_4cd7ed5b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "SafeRAG is a benchmark specifically evaluating RAG vulnerabilities across noise, inter-context conflict, toxicity (soft ad), and DoS attacks, directly aligning with multiple survey axes including adversarial corruption, noisy retrieval, conflict, and evaluation.",
+  "why_not_or_caveat": "Chinese-language benchmark; scope limited to news Q&A.",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Benchmarks for Robust/Safe RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.025941+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2501.18636v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"noisy_retrieval\", \"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"SafeRAG is a benchmark specifically evaluating RAG vulnerabilities across noise, inter-context conflict, toxicity (soft ad), and DoS attacks, directly aligning with multiple survey axes including adversarial corruption, noisy retrieval, conflict, and evaluation.\",\n  \"why_not_or_caveat\": \"Chinese-language benchmark; scope limited to news Q&A.\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Benchmarks for Robust/Safe RAG\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

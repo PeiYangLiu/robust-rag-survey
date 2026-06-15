@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.16113v1",
+  "title": "Tools in the Loop: Quantifying Uncertainty of LLM Question Answering Systems That Use Tools",
+  "authors": "Panagiotis Lymperopoulos; Vasanth Sarathy",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.16113v1",
+  "local_pdf": "pdfs/2025_panagiotis_lymperopoulos_tools_in_the_loop_quantifying_uncertainty_of_llm_question_answering_systems_that_use_too_363262f6.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes uncertainty quantification framework jointly modeling LLM and external tool/retriever uncertainty, with a RAG proof-of-concept on BoolQ. Relevant to calibration and uncertainty in RAG systems.",
+  "why_not_or_caveat": "RAG is only a small proof-of-concept; primary focus is tool-calling broadly, not retrieval robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty in RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.127391+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.16113v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes uncertainty quantification framework jointly modeling LLM and external tool/retriever uncertainty, with a RAG proof-of-concept on BoolQ. Relevant to calibration and uncertainty in RAG systems.\",\n  \"why_not_or_caveat\": \"RAG is only a small proof-of-concept; primary focus is tool-calling broadly, not retrieval robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Uncertainty in RAG\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

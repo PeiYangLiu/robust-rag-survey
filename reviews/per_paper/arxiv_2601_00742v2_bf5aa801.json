@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.00742v2",
+  "title": "Materials Informatics: Emergence To Autonomous Discovery In The Age Of AI",
+  "authors": "Turab Lookman; YuJie Liu; Zhibin Gao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.00742v2",
+  "local_pdf": "pdfs/2026_turab_lookman_materials_informatics_emergence_to_autonomous_discovery_in_the_age_of_ai_bf5aa801.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Materials informatics perspective that only briefly mentions RAG as a future direction.",
+  "why_not_or_caveat": "Not about RAG robustness, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:18.219797+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.00742v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"survey\",\"why_relevant\":\"Materials informatics perspective that only briefly mentions RAG as a future direction.\",\"why_not_or_caveat\":\"Not about RAG robustness, conflict, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

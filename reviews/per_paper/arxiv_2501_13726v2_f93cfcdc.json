@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2501.13726v2",
+  "title": "RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation",
+  "authors": "Shi-Qi Yan; Quan Liu; Zhen-Hua Ling",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.13726v2",
+  "local_pdf": "pdfs/2025_shi_qi_yan_rpo_retrieval_preference_optimization_for_robust_retrieval_augmented_generation_f93cfcdc.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a preference-optimization alignment method to handle knowledge conflict between parametric and retrieved knowledge, adaptively trusting retrieval based on relevance, directly relevant to conflict resolution and control.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and adaptive control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.483502+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.13726v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a preference-optimization alignment method to handle knowledge conflict between parametric and retrieved knowledge, adaptively trusting retrieval based on relevance, directly relevant to conflict resolution and control.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge conflict and adaptive control\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

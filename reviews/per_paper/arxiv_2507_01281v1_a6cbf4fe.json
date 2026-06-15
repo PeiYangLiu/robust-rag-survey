@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.01281v1",
+  "title": "Rethinking All Evidence: Enhancing Trustworthy Retrieval-Augmented Generation via Conflict-Driven Summarization",
+  "authors": "Juan Chen; Baolong Bi; Wei Zhang; Jingyan Sui; Xiaofei Zhu; Yuanzhuo Wang; Lingrui Mei; Shenghua Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.01281v1",
+  "local_pdf": "pdfs/2025_juan_chen_rethinking_all_evidence_enhancing_trustworthy_retrieval_augmented_generation_via_conflic_a6cbf4fe.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes CARE-RAG, a framework explicitly addressing knowledge conflicts between parametric and retrieved evidence and refining noisy retrieved content via conflict-driven summarization, directly relevant to conflict and noise robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:26.063361+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.01281v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes CARE-RAG, a framework explicitly addressing knowledge conflicts between parametric and retrieved evidence and refining noisy retrieved content via conflict-driven summarization, directly relevant to conflict and noise robustness.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

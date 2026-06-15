@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2501.00879v3",
+  "title": "TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation",
+  "authors": "Huichi Zhou; Kin-Hei Lee; Zhonghao Zhan; Yue Chen; Zhenhao Li; Zhaoyang Wang; Hamed Haddadi; Emine Yilmaz",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.00879v3",
+  "local_pdf": "pdfs/2025_huichi_zhou_trustrag_enhancing_robustness_and_trustworthiness_in_retrieval_augmented_generation_3e5e7eeb.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "TrustRAG is a defense framework against corpus poisoning in RAG, using clustering-based filtering and LLM self-assessment to resolve conflicts between internal and external knowledge.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Defenses against adversarial corruption",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:48.091923+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.00879v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\",\"noisy_retrieval\"],\"paper_role\":\"defense\",\"why_relevant\":\"TrustRAG is a defense framework against corpus poisoning in RAG, using clustering-based filtering and LLM self-assessment to resolve conflicts between internal and external knowledge.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Defenses against adversarial corruption\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

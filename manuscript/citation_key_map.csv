@@ -1,0 +1,251 @@
+cite_key,title,decision,categories,source_key,is_core100
+poisonedRAG2024,PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models,core,adversarial_corruption,arxiv-2402.07867,True
+certifiedRAG2024,Certifiably Robust RAG against Retrieval Corruption,core,adversarial_corruption,arxiv-2405.15556,True
+irrelevantContext2023,Making Retrieval-Augmented Language Models Robust to Irrelevant Context,core,noisy_retrieval; distraction; calibration_control,arxiv-2310.01558v2,True
+raat2024,Enhancing Noise Robustness of Retrieval-Augmented Language Models with Adaptive Adversarial Training,core,noisy_retrieval; evaluation_benchmark,arxiv-2405.20978,True
+phantom2024,Phantom: General Backdoor Attacks on Retrieval Augmented Language Generation,core,adversarial_corruption,arxiv-2405.20485,True
+rrag001,URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models,core,ood_uncertainty; calibration_control; evaluation_benchmark; noisy_retrieval,arxiv-2603.19281v1,True
+rrag002,Trust or Abstain? A Self-Aware RAG Approach,core,knowledge_conflict; calibration_control; evaluation_benchmark,arxiv-2605.18792v1,True
+rrag003,The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning,core,distraction; noisy_retrieval,arxiv-2605.10828v1,True
+rrag004,ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning,core,adversarial_corruption,arxiv-2603.22934v2,True
+rrag005,Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems,core,adversarial_corruption; evaluation_benchmark,arxiv-2601.07072v1,True
+rrag006,Over-Searching in Search-Augmented Large Language Models,core,calibration_control; evaluation_benchmark; ood_uncertainty,arxiv-2601.05503v2,True
+rrag007,NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems,core,calibration_control; noisy_retrieval; knowledge_conflict,arxiv-2601.11004v2,True
+rrag008,CoRect: Context-Aware Logit Contrast for Hidden State Rectification to Resolve Knowledge Conflicts,core,knowledge_conflict,arxiv-2602.08221v1,True
+rrag009,CleanBase: Detecting Malicious Documents in RAG Knowledge Databases,core,adversarial_corruption,arxiv-2605.00460v1,True
+rrag010,AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning,core,adversarial_corruption,arxiv-2604.12201v1,True
+rrag011,Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention,core,adversarial_corruption,arxiv-2602.04711v2,True
+aip2025,AIP: Subverting Retrieval-Augmented Generation via Adversarial Instructional Prompt,core,adversarial_corruption,acl-2025.emnlp-main.801,True
+rrag012,Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis,core,calibration_control; ood_uncertainty,arxiv-2505.07459v2,True
+rrag013,TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation,core,adversarial_corruption; knowledge_conflict,arxiv-2501.00879v3,True
+rrag014,Traceback of Poisoning Attacks to Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2504.21668v2,True
+rrag015,Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG,core,adversarial_corruption; evaluation_benchmark,arxiv-2506.04390v2,True
+rrag016,Secure Retrieval-Augmented Generation against Poisoning Attacks,core,adversarial_corruption,arxiv-2510.25025v2,True
+rrag017,SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG,core,adversarial_corruption; knowledge_conflict; calibration_control,arxiv-2510.09710v2,True
+rrag018,Safeguarding RAG Pipelines with GMTP: A Gradient-based Masked Token Probability Method for Poisoned Document Detection,core,adversarial_corruption,arxiv-2507.18202v1,True
+rrag019,SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model,core,adversarial_corruption; evaluation_benchmark,arxiv-2501.18636v2,True
+rrag020,Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems,core,adversarial_corruption,arxiv-2511.01268v1,True
+rrag021,ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search,core,adversarial_corruption,arxiv-2509.23519v2,True
+rrag022,RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning in Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2512.24268v1,True
+rrag023,PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation,core,adversarial_corruption; evaluation_benchmark,arxiv-2505.12574v4,True
+rrag024,ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation,core,knowledge_conflict; evaluation_benchmark,arxiv-2502.15543v3,True
+rrag025,PR-Attack: Coordinated Prompt-RAG Attacks on Retrieval-Augmented Generation in Large Language Models via Bilevel Optimization,core,adversarial_corruption,arxiv-2504.07717v3,True
+rrag026,POISONCRAFT: Practical Poisoning of Retrieval-Augmented Generation for Large Language Models,core,adversarial_corruption,arxiv-2505.06579v1,True
+rrag027,Magic Mushroom: A Customizable Benchmark for Fine-grained Analysis of Retrieval Noise Erosion in RAG Systems,core,noisy_retrieval; evaluation_benchmark; distraction,arxiv-2506.03901v2,True
+rrag028,MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks,core,adversarial_corruption; evaluation_benchmark,arxiv-2512.08289v2,True
+rrag029,MAGIC: A Multi-Hop and Graph-Based Benchmark for Inter-Context Conflicts in Retrieval-Augmented Generation,core,knowledge_conflict; evaluation_benchmark,arxiv-2507.21544v3,True
+faithfulRAG2025,FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation,core,knowledge_conflict,arxiv-2506.08938v2,True
+rrag030,Do Retrieval Augmented Language Models Know When They Don't Know?,core,calibration_control; ood_uncertainty; noisy_retrieval,arxiv-2509.01476v3,True
+rrag031,DRAGged into Conflicts: Detecting and Addressing Conflicting Sources in Search-Augmented LLMs,core,knowledge_conflict; evaluation_benchmark,arxiv-2506.08500v2,True
+rrag032,CUB: Benchmarking Context Utilisation Techniques for Language Models,core,knowledge_conflict; distraction; noisy_retrieval; evaluation_benchmark,arxiv-2505.16518v3,True
+rrag033,Benchmarking Poisoning Attacks against Retrieval-Augmented Generation,core,adversarial_corruption; evaluation_benchmark,arxiv-2505.18543v1,True
+rrag034,Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home,core,calibration_control; ood_uncertainty; evaluation_benchmark,arxiv-2501.12835v2,True
+rrag035,Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models,core,adversarial_corruption,acl-2024.emnlp-main.96,True
+rrag036,WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia,core,knowledge_conflict; evaluation_benchmark,arxiv-2406.13805v1,True
+rrag037,Toward Robust RALMs: Revealing the Impact of Imperfect Retrieval on Retrieval-Augmented Language Models,core,noisy_retrieval; distraction; knowledge_conflict; adversarial_corruption; ood_uncertainty; evaluation_benchmark,arxiv-2410.15107v1,True
+rrag038,To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts,core,knowledge_conflict; calibration_control; evaluation_benchmark,arxiv-2410.14675v2,True
+sufficientContext2024,Sufficient Context: A New Lens on Retrieval Augmented Generation Systems,core,calibration_control; noisy_retrieval; ood_uncertainty,arxiv-2411.06037v3,True
+rrag039,Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG,core,noisy_retrieval; distraction,arxiv-2410.05983v1,True
+rrag040,"FaithEval: Can Your Language Model Stay Faithful to Context, Even If ""The Moon is Made of Marshmallows""",core,knowledge_conflict; ood_uncertainty; evaluation_benchmark,arxiv-2410.03727v3,True
+rrag041,Controlling Risk of Retrieval-augmented Generation: A Counterfactual Prompting Framework,core,calibration_control; ood_uncertainty; evaluation_benchmark,arxiv-2409.16146v2,True
+rrag042,Context-DPO: Aligning Language Models for Context-Faithfulness,core,knowledge_conflict; evaluation_benchmark,arxiv-2412.15280v1,True
+rrag043,Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise,core,knowledge_conflict; noisy_retrieval; evaluation_benchmark,arxiv-2305.01579v3,True
+rrag044,Learning to Filter Context for Retrieval-Augmented Generation,core,noisy_retrieval; distraction,arxiv-2311.08377v1,True
+rrag045,Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation,core,knowledge_conflict; calibration_control; ood_uncertainty,arxiv-2307.11019v3,True
+chainOfNote2023,Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models,core,noisy_retrieval; ood_uncertainty; calibration_control,arxiv-2311.09210v2,True
+rgb2023,Benchmarking Large Language Models in Retrieval-Augmented Generation,core,noisy_retrieval; knowledge_conflict; ood_uncertainty; evaluation_benchmark,arxiv-2309.01431v2,True
+rrag046,Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts,core,knowledge_conflict; analysis,arxiv-2305.13300v4,True
+rrag047,CPA-RAG: Covert Poisoning Attacks on Retrieval-Augmented Generation in Large Language Models,core,adversarial_corruption,arxiv-2505.19864,True
+poisoningRetrievalCorpora2023,Poisoning Retrieval Corpora by Injecting Adversarial Passages,core,adversarial_corruption,arxiv-2310.19156,True
+rrag048,] Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations,core,adversarial_corruption; noisy_retrieval,arxiv-2404.13948,True
+rrag049,UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2508.18652,True
+trustRAGCompass2024,Trustworthiness in Retrieval-Augmented Generation Systems: A Survey,core,survey_related; evaluation_benchmark,arxiv-2409.10102,True
+trojanRAG2024,TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models,core,adversarial_corruption,arxiv-2405.13401,True
+trustworthyRAGSurvey2025,Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey,core,survey_related; adversarial_corruption; ood_uncertainty; calibration_control; evaluation_benchmark,arxiv-2502.06872,True
+rrag050,Joint-GCG: Unified Gradient-Based Poisoning Attacks on Retrieval-Augmented Generation Systems,core,adversarial_corruption,arxiv-2506.06151,True
+rrag051,GraphRAG under Fire,core,adversarial_corruption,arxiv-2501.14050,True
+rrag052,Eyes-on-Me: Scalable RAG Poisoning through Transferable Attention-Steering Attractors,core,adversarial_corruption,arxiv-2510.00586,True
+badRAG2024,BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models,core,adversarial_corruption,arxiv-2406.00083,True
+rrag053,AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases,core,adversarial_corruption,openreview-Y841BRW9rY,True
+rrag054,ADMIT: Few-shot Knowledge Poisoning Attacks on RAG-based Fact Checking,core,adversarial_corruption,arxiv-2510.13842,True
+rrag055,Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals,core,knowledge_conflict; noisy_retrieval; evaluation_benchmark,arxiv-2502.16101,True
+tugOfWar2024,Tug-of-War Between Knowledge: Exploring and Resolving Knowledge Conflicts in Retrieval-Augmented Language Models,core,knowledge_conflict; calibration_control; evaluation_benchmark,arxiv-2402.14409,True
+rrag056,TrustRAG: Enhancing Robustness and Trustworthiness in RAG,core,adversarial_corruption,arxiv-2501.00879,True
+ragTruth2024,RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models,core,evaluation_benchmark,arxiv-2401.00396,True
+rrag057,Practical Poisoning Attacks against Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2504.03957,True
+astuteRAG2025,Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models,core,noisy_retrieval; knowledge_conflict; calibration_control,arxiv-2410.07176,True
+rrag058,Redefining Retrieval Evaluation in the Era of LLMs,core,evaluation_benchmark; distraction; noisy_retrieval,arxiv-2510.21440v1,True
+rrag059,Epistemic Bias Injection: Biasing LLMs via Selective Context Retrieval,core,adversarial_corruption; evaluation_benchmark,arxiv-2512.00804v2,True
+rrag060,When Safety Becomes a Vulnerability: Exploiting LLM Alignment Homogeneity for Transferable Blocking in RAG,core,adversarial_corruption,arxiv-2603.03919v1,True
+securityRAGSurvey2026,"Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions",core,adversarial_corruption; survey_related; evaluation_benchmark,arxiv-2604.08304v2,True
+rrag061,DiscourseFlip: An Oblique Discourse-Level Opinion Manipulation Attack against Black-box Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2606.01212v1,True
+rrag062,Confundo: Learning to Generate Robust Poison for Practical RAG Systems,core,adversarial_corruption,arxiv-2602.06616v1,True
+rrag063,BiRD: A Bidirectional Ranking Defense Mechanism for Retrieval Augmented Generation,core,adversarial_corruption,arxiv-2605.20123v1,True
+rrag064,Uncertainty Quantification for Retrieval-Augmented Reasoning,core,ood_uncertainty; calibration_control,arxiv-2510.11483v3,True
+rrag065,Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language Models,core,knowledge_conflict; calibration_control,arxiv-2503.15888v1,True
+rrag066,Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG,core,calibration_control; ood_uncertainty,arxiv-2505.20871v1,True
+rrag067,ATM: Adversarial Tuning Multi-agent System Makes a Robust Retrieval-Augmented Generator,core,adversarial_corruption; noisy_retrieval,acl-2024.emnlp-main.610,True
+rrag068,Understanding Data Poisoning Attacks for RAG: Insights and Algorithms,core,adversarial_corruption,openreview-2aL6gcFX7q,True
+rrag069,When Evidence Conflicts: Uncertainty and Order Effects in Retrieval-Augmented Biomedical Question Answering,core,knowledge_conflict; calibration_control; evaluation_benchmark,arxiv-2605.14115v1,True
+rrag070,The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents,core,adversarial_corruption; evaluation_benchmark; calibration_control,arxiv-2603.00801v1,True
+rrag071,Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation,core,knowledge_conflict; calibration_control,arxiv-2601.06842v1,True
+rrag072,MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents,core,adversarial_corruption; calibration_control,arxiv-2605.03482v2,True
+rrag073,LLM-Oriented Information Retrieval: A Denoising-First Perspective,core,noisy_retrieval; distraction; adversarial_corruption; survey_related,arxiv-2605.00505v2,True
+rrag074,Is Conformal Factuality for RAG-based LLMs Robust? Novel Metrics and Systematic Insights,core,calibration_control; evaluation_benchmark,arxiv-2603.16817v1,True
+rrag075,GRACE: Reinforcement Learning for Grounded Response and Abstention under Contextual Evidence,core,calibration_control,arxiv-2601.04525v1,True
+rrag076,Exploring Knowledge Conflicts for Faithful LLM Reasoning: Benchmark and Method,core,knowledge_conflict; evaluation_benchmark,arxiv-2604.11209v1,True
+rrag077,ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation,core,knowledge_conflict; calibration_control; ood_uncertainty,arxiv-2604.20854v1,True
+rrag078,Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control,core,adversarial_corruption,arxiv-2605.26754v1,True
+rrag079,Beyond Explicit Refusals: Soft-Failure Attacks on Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2604.18663v1,True
+rrag080,Architecture Matters: Comparing RAG Systems under Knowledge Base Poisoning,core,adversarial_corruption; evaluation_benchmark,arxiv-2605.05632v1,True
+rrag081,ArbGraph: Conflict-Aware Evidence Arbitration for Reliable Long-Form Retrieval-Augmented Generation,core,knowledge_conflict; noisy_retrieval,arxiv-2604.18362v1,True
+rrag082,Resisting Contextual Interference in RAG via Parametric-Knowledge Reinforcement,core,knowledge_conflict; calibration_control,arxiv-2506.05154v4,False
+rrag083,EcoSafeRAG: Efficient Security through Context Analysis in Retrieval-Augmented Generation,core,adversarial_corruption,arxiv-2505.13506v1,False
+rrag084,Disabling Self-Correction in Retrieval-Augmented Generation via Stealthy Retriever Poisoning,core,adversarial_corruption,arxiv-2508.20083v1,False
+rrag085,CtrlRAG: Black-box Document Poisoning Attacks for Retrieval-Augmented Generation of Large Language Models,core,adversarial_corruption,arxiv-2503.06950v2,False
+rrag086,Conflict-Aware Soft Prompting for Retrieval-Augmented Generation,core,knowledge_conflict; calibration_control,arxiv-2508.15253v2,False
+rrag087,Bounding Hallucinations: Information-Theoretic Guarantees for RAG Systems via Merlin-Arthur Protocols,core,calibration_control; abstention_unanswerable,arxiv-2512.11614v2,False
+rrag088,Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation,core,noisy_retrieval; knowledge_conflict; calibration_control,arxiv-2510.12460v3,False
+rrag089,Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation,core,calibration_control; knowledge_conflict; evaluation_benchmark,arxiv-2406.13692v2,False
+rrag090,On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains,core,adversarial_corruption,arxiv-2409.17275,False
+rrag091,Revisiting Robust RAG: Do We Still Need Complex Robust Training in the Era of Powerful LLMs?,core,noisy_retrieval; calibration_control; analysis,arxiv-2502.11400,False
+rrag092,"After Retrieval, Before Generation: Enhancing the Trustworthiness of Large Language Models in RAG",core,knowledge_conflict; calibration_control; evaluation_benchmark; ood_uncertainty,arxiv-2505.17118,False
+rrag093,SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation,core,calibration_control; evaluation_benchmark,arxiv-2605.03534v1,False
+rrag094,Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2605.10253v1,False
+rrag095,BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation,include,calibration_control; ood_uncertainty,arxiv-2605.20084v1,False
+rrag096,The Silent Saboteur: Imperceptible Adversarial Attacks against Black-Box Retrieval-Augmented Generation Systems,include,adversarial_corruption,acl-2025.findings-acl.717,False
+rrag097,The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems,include,adversarial_corruption,acl-2025.findings-emnlp.1291,False
+rrag098,Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2509.13772v2,False
+rrag099,Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models,include,adversarial_corruption,arxiv-2502.01386v3,False
+rrag100,Resolving Conflicting Evidence in Automated Fact-Checking: A Study on Retrieval-Augmented LLMs,include,knowledge_conflict; evaluation_benchmark,arxiv-2505.17762v1,False
+rrag101,RAG-Pull: Turning Retrieval into a Code-Injection Channel via Invisible Unicode Perturbations,include,adversarial_corruption,arxiv-2510.11195v2,False
+rrag102,Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation,include,adversarial_corruption,arxiv-2503.06254v2,False
+rrag103,One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Image,include,adversarial_corruption,arxiv-2504.02132v4,False
+rrag104,FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models,include,adversarial_corruption,arxiv-2501.02968v6,False
+rrag105,Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval Augmented Generation,include,calibration_control; ood_uncertainty; evaluation_benchmark,arxiv-2505.21072v5,False
+rrag106,Defending against Indirect Prompt Injection by Instruction Detection,include,adversarial_corruption,arxiv-2505.06311v2,False
+rrag107,DeRAG: Black-box Adversarial Attacks on Multiple Retrieval-Augmented Generation Applications via Prompt Injection,include,adversarial_corruption,arxiv-2507.15042v1,False
+ctrla2025,CtrlA: Adaptive Retrieval-Augmented Generation via Inherent Control,include,calibration_control,acl-2025-ctrla,False
+rrag108,ConfRAG: Confidence-Guided Retrieval-Augmenting Generation,include,calibration_control,arxiv-2506.07309v2,False
+rrag109,Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems,include,adversarial_corruption,arxiv-2505.16367v1,False
+rrag110,Who's Who: Large Language Models Meet Knowledge Conflicts in Practice,include,knowledge_conflict; evaluation_benchmark,arxiv-2410.15737v1,False
+rrag111,Unanswerability Evaluation for Retrieval Augmented Generation,include,ood_uncertainty; calibration_control; evaluation_benchmark,arxiv-2412.12300v3,False
+rrag112,Studying Large Language Model Behaviors Under Context-Memory Conflicts With Real Documents,include,knowledge_conflict,arxiv-2404.16032v2,False
+rrag113,RetrievalQA: Assessing Adaptive Retrieval-Augmented Generation for Short-form Open-Domain Question Answering,include,calibration_control; evaluation_benchmark,arxiv-2402.16457v2,False
+rrag114,Rag and Roll: An End-to-End Evaluation of Indirect Prompt Manipulations in LLM-based Application Frameworks,include,adversarial_corruption; evaluation_benchmark,arxiv-2408.05025v2,False
+rrag115,RAFT: Adapting Language Model to Domain Specific RAG,include,distraction; noisy_retrieval,arxiv-2403.10131v2,False
+rrag116,Poisoned LangChain: Jailbreak LLMs by LangChain,include,adversarial_corruption,arxiv-2406.18122v1,False
+rrag117,Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks,include,adversarial_corruption,arxiv-2403.03792v2,False
+rrag118,Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models,include,knowledge_conflict,arxiv-2402.18154v1,False
+rrag119,Backdoored Retrievers for Prompt Injection Attacks on Retrieval Augmented Generation of Large Language Models,include,adversarial_corruption,arxiv-2410.14479v1,False
+rrag120,Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack,include,adversarial_corruption,arxiv-2503.21315,False
+rrag121,Token-Level Precise Attack on RAG: Searching for the Best Alternatives to Mislead Generation,include,adversarial_corruption,arxiv-2508.03110,False
+rrag122,RIPRAG: Hack a Black-box Retrieval-Augmented Generation Question-Answering System with Reinforcement Learning,include,adversarial_corruption,arxiv-2510.10008,False
+rrag123,RAG Safety: Exploring Knowledge Poisoning Attacks to Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2507.08862,False
+rrag124,One shot dominance: Knowledge poisoning attack on retrieval-augmented generation systems,include,adversarial_corruption,arxiv-2505.11548,False
+rrag125,MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks,include,adversarial_corruption,arxiv-2502.17832,False
+rrag126,Hoist with His Own Petard: Inducing Guardrails to Facilitate Denial-of-Service Attacks on Retrieval-Augmented Generation of LLMs,include,adversarial_corruption,arxiv-2504.21680,False
+rrag127,A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models,include,adversarial_corruption,arxiv-2508.04276,False
+rrag128,Traceback of Poisoned Texts in Poisoning Attacks to Retrieval-Augmented Generation,include,adversarial_corruption,openreview-bwnWs4us0x,False
+rrag129,RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis,include,adversarial_corruption,arxiv-2411.18948,False
+rrag130,Resolving Knowledge Conflicts in Large Language Models,include,knowledge_conflict; evaluation_benchmark,arxiv-2310.00935,False
+rrag131,Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding,include,distraction; noisy_retrieval,arxiv-2509.21865v2,False
+rrag132,Whose Facts Win? LLM Source Preferences under Knowledge Conflicts,include,knowledge_conflict; evaluation_benchmark,arxiv-2601.03746v3,False
+rrag133,Towards Unsupervised Adversarial Document Detection in Retrieval Augmented Generation Systems,include,adversarial_corruption; ood_uncertainty,arxiv-2603.17176v1,False
+rrag134,"Towards Secure Retrieval-Augmented Generation: A Comprehensive Review of Threats, Defenses and Benchmarks",include,adversarial_corruption; survey_related; evaluation_benchmark,arxiv-2603.21654v1,False
+rrag135,Towards Dependable Retrieval-Augmented Generation Using Factual Confidence Prediction,include,calibration_control,arxiv-2605.05244v1,False
+rrag136,The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF,include,distraction; evaluation_benchmark,arxiv-2605.29491v1,False
+rrag137,RefineRAG: Word-Level Poisoning Attacks via Retriever-Guided Text Refinement,include,adversarial_corruption,arxiv-2604.07403v1,False
+rrag138,RedVisor: Reasoning-Aware Prompt Injection Defense via Zero-Copy KV Cache Reuse,include,adversarial_corruption,arxiv-2602.01795v1,False
+rrag139,PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented Generation Systems,include,adversarial_corruption,arxiv-2603.25164v1,False
+rrag140,Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model,include,noisy_retrieval,arxiv-2604.02194v1,False
+rrag141,MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations,include,evaluation_benchmark; abstention_unanswerable,arxiv-2602.23184v1,False
+rrag142,MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs,include,adversarial_corruption; evaluation_benchmark,arxiv-2602.06268v1,False
+rrag143,Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG,include,noisy_retrieval; distraction; evaluation_benchmark,arxiv-2605.27105v2,False
+rrag144,LogicPoison: Logical Attacks on Graph Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2604.02954v1,False
+rrag145,KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2603.11501v2,False
+rrag146,INTRYGUE: Induction-Aware Entropy Gating for Reliable RAG Uncertainty Estimation,include,ood_uncertainty; calibration_control,arxiv-2603.21607v1,False
+rrag147,How Large Language Models Balance Internal Knowledge with User and Document Assertions,include,knowledge_conflict; evaluation_benchmark,arxiv-2604.22193v1,False
+rrag148,Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG,include,adversarial_corruption; evaluation_benchmark,arxiv-2601.10923v2,False
+rrag149,Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2603.00172v1,False
+rrag150,Grounded Decoding: Retrieval-Anchored Probability Fusion for Faithful RAG,include,knowledge_conflict; calibration_control,arxiv-2606.00432v1,False
+rrag151,Generating Leakage-Free Benchmarks for Robust RAG Evaluation,include,evaluation_benchmark,arxiv-2605.08838v1,False
+rrag152,Faithfulness-QA: A Counterfactual Entity Substitution Dataset for Training Context-Faithful RAG Models,include,knowledge_conflict; evaluation_benchmark,arxiv-2604.25313v2,False
+rrag153,Decide Then Retrieve: A Training-Free Framework with Uncertainty-Guided Triggering and Dual-Path Retrieval,include,calibration_control; adaptive_retrieval,arxiv-2601.03908v1,False
+rrag154,Can Small Language Models Use What They Retrieve? An Empirical Study of Retrieval Utilization Across Model Scale,include,distraction; evaluation_benchmark,arxiv-2603.11513v1,False
+rrag155,CODE: A Contradiction-Based Deliberation Extension Framework for Overthinking Attacks on Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2601.13112v1,False
+rrag156,Bypassing Prompt Injection Detectors through Evasive Injections,include,adversarial_corruption,arxiv-2602.00750v2,False
+rrag157,Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation,include,adversarial_corruption; evaluation_benchmark,arxiv-2602.09319v2,False
+rrag158,Adversarial Hubness Detector: Detecting Hubness Poisoning in Retrieval-Augmented Generation Systems,include,adversarial_corruption,arxiv-2602.22427v2,False
+rrag159,Adaptive Stopping for Multi-Turn LLM Reasoning,include,calibration_control; ood_uncertainty,arxiv-2604.01413v2,False
+rrag160,ALDEN: Boosting Private Data Extraction from Retrieval-Augmented Generation Systems via Active Learning and Distribution Estimation,include,adversarial_corruption,arxiv-2605.18762v1,False
+rrag161,A Sentence Relation-Based Approach to Sanitizing Malicious Instructions,include,adversarial_corruption,arxiv-2605.01078v1,False
+rrag162,Your RAG is Unfair: Exposing Fairness Vulnerabilities in Retrieval-Augmented Generation via Backdoor Attacks,include,adversarial_corruption,acl-2025.emnlp-main.804,False
+rrag163,TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation with Knowledge Graphs,include,knowledge_conflict,arxiv-2511.10375v1,False
+rrag164,The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems,include,calibration_control; evaluation_benchmark,arxiv-2512.15068v2,False
+rrag165,The Hidden Threat in Plain Text: Attacking RAG Data Loaders,include,adversarial_corruption,arxiv-2507.05093v1,False
+rrag166,Separate the Wheat from the Chaff: Winnowing Down Divergent Views in Retrieval Augmented Generation,include,noisy_retrieval,arxiv-2511.04700v1,False
+rrag167,Search Wisely: Mitigating Sub-optimal Agentic Searches By Reducing Uncertainty,include,calibration_control; ood_uncertainty,arxiv-2505.17281v2,False
+rrag168,SciRerankBench: Benchmarking Rerankers Towards Scientific Retrieval-Augmented Generated LLMs,include,noisy_retrieval; knowledge_conflict; evaluation_benchmark,arxiv-2508.08742v2,False
+rrag169,SUGAR: Leveraging Contextual Confidence for Smarter Retrieval,include,calibration_control; ood_uncertainty,arxiv-2501.04899v1,False
+rrag170,RoseRAG: Robust Retrieval-augmented Generation with Small-scale LLMs via Margin-aware Preference Optimization,include,noisy_retrieval,arxiv-2502.10993v1,False
+rrag171,Robustness via Referencing: Defending against Prompt Injection Attacks by Referencing the Executed Instruction,include,adversarial_corruption,arxiv-2504.20472v2,False
+rrag172,RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking,include,adversarial_corruption,arxiv-2512.23307v1,False
+ragComprehensive2025,"Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers",include,survey_related,arxiv-2506.00054v1,False
+rrag173,Retrieval as a Decision: Training-Free Adaptive Gating for Efficient RAG,include,calibration_control; ood_uncertainty,arxiv-2511.09803v2,False
+rrag174,Rethinking All Evidence: Enhancing Trustworthy Retrieval-Augmented Generation via Conflict-Driven Summarization,include,knowledge_conflict; noisy_retrieval,arxiv-2507.01281v1,False
+rrag175,Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space,include,adversarial_corruption; calibration_control,arxiv-2512.14448v1,False
+rrag176,RPO: Retrieval Preference Optimization for Robust Retrieval-Augmented Generation,include,knowledge_conflict; calibration_control,arxiv-2501.13726v2,False
+rrag177,RAGRank: Using PageRank to Counter Poisoning in CTI LLM Pipelines,include,adversarial_corruption,arxiv-2510.20768v2,False
+rrag178,Query-Level Uncertainty in Large Language Models,include,calibration_control; ood_uncertainty,arxiv-2506.09669v4,False
+rrag179,Quantifying and Improving the Robustness of Retrieval-Augmented Language Models Against Spurious Features in Grounding Data,include,noisy_retrieval; evaluation_benchmark,arxiv-2503.05587v3,False
+rrag180,PrismRAG: Boosting RAG Factuality with Distractor Resilience and Strategized Reasoning,include,distraction; noisy_retrieval,arxiv-2507.18857v1,False
+rrag181,Principled Context Engineering for RAG: Statistical Guarantees via Conformal Prediction,include,noisy_retrieval; calibration_control,arxiv-2511.17908v2,False
+rrag182,Parallel Key-Value Cache Fusion for Position Invariant RAG,include,noisy_retrieval; distraction,arxiv-2501.07523v2,False
+rrag183,PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation,include,evaluation_benchmark; noisy_retrieval; knowledge_conflict,arxiv-2507.22927v1,False
+rrag184,Noise-Robust Abstractive Compression in Retrieval-Augmented Language Models,include,noisy_retrieval,arxiv-2512.08943v1,False
+rrag185,NeuroGenPoisoning: Neuron-Guided Attacks on Retrieval-Augmented Generation of LLM via Genetic Optimization of External Knowledge,include,adversarial_corruption,arxiv-2510.21144v2,False
+rrag186,Modeling Uncertainty Trends for Timely Retrieval in Dynamic RAG,include,calibration_control; ood_uncertainty,arxiv-2511.09980v1,False
+rrag187,Micro-Act: Mitigating Knowledge Conflict in LLM-based RAG via Actionable Self-Reasoning,include,knowledge_conflict,arxiv-2506.05278v2,False
+rrag188,MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval,include,adversarial_corruption,arxiv-2512.16962v1,False
+rrag189,Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2511.19257v1,False
+rrag190,LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge,include,adversarial_corruption; evaluation_benchmark,arxiv-2506.09956v1,False
+rrag191,LLM-Independent Adaptive RAG: Let the Question Speak for Itself,include,calibration_control; ood_uncertainty,arxiv-2505.04253v1,False
+rrag192,Know Or Not: a library for evaluating out-of-knowledge base robustness,include,ood_uncertainty; calibration_control; evaluation_benchmark,arxiv-2505.13545v2,False
+rrag193,"Investigating Retrieval-Augmented Generation Systems on Unanswerable, Uncheatable, Realistic, Multi-hop Queries",include,evaluation_benchmark; abstention_unanswerable,arxiv-2510.11956v3,False
+rrag194,"ImportSnare: Directed ""Code Manual"" Hijacking in Retrieval-Augmented Code Generation",include,adversarial_corruption; evaluation_benchmark,arxiv-2509.07941v1,False
+rrag195,"How to make Medical AI Systems safer? Simulating Vulnerabilities, and Threats in Multimodal Medical RAG System",include,adversarial_corruption; evaluation_benchmark,arxiv-2508.17215v2,False
+rrag196,Exploring the Security Threats of Retriever Backdoors in Retrieval-Augmented Code Generation,include,adversarial_corruption,arxiv-2512.21681v1,False
+rrag197,Exploring the Security Threats of Knowledge Base Poisoning in Retrieval-Augmented Code Generation,include,adversarial_corruption,arxiv-2502.03233v1,False
+rrag198,Energy Landscapes Enable Reliable Abstention in Retrieval-Augmented Large Language Models for Healthcare,include,calibration_control; ood_uncertainty,arxiv-2509.04482v2,False
+rrag199,EmoRAG: Evaluating RAG Robustness to Symbolic Perturbations,include,adversarial_corruption; evaluation_benchmark,arxiv-2512.01335v1,False
+rrag200,END: Early Noise Dropping for Efficient and Effective Context Denoising,include,noisy_retrieval; distraction,arxiv-2502.18915v3,False
+rrag201,Dynamic Context Selection for Retrieval-Augmented Generation: Mitigating Distractors and Positional Bias,include,distraction; noisy_retrieval; calibration_control,arxiv-2512.14313v1,False
+rrag202,Do Retrieval-Augmented Language Models Adapt to Varying User Needs?,include,knowledge_conflict; evaluation_benchmark; calibration_control,arxiv-2502.19779v2,False
+rrag203,Defending Against Knowledge Poisoning Attacks During Retrieval-Augmented Generation,include,adversarial_corruption,arxiv-2508.02835v2,False
+rrag204,Copy-Paste to Mitigate Large Language Model Hallucinations,include,knowledge_conflict,arxiv-2510.00508v2,False
+rrag205,Confidence-Based Response Abstinence: Improving LLM Trustworthiness via Activation-Based Uncertainty Estimation,include,calibration_control; ood_uncertainty,arxiv-2510.13750v2,False
+rrag206,Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge,include,knowledge_conflict; noisy_retrieval; calibration_control,arxiv-2506.06240v2,False
+rrag207,Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models,include,knowledge_conflict; evaluation_benchmark,arxiv-2505.19509v1,False
+rrag208,AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption,include,adversarial_corruption,arxiv-2508.03793v3,False
+rrag209,Accommodate Knowledge Conflicts in Retrieval-augmented LLMs: Towards Robust Response Generation in the Wild,include,knowledge_conflict; ood_uncertainty,arxiv-2504.12982v2,False
+rrag210,Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling,include,noisy_retrieval,arxiv-2406.08116v2,False
+rrag211,SecAlign: Defending Against Prompt Injection with Preference Optimization,include,adversarial_corruption,arxiv-2410.05451v3,False
+rrag212,REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering,include,noisy_retrieval; calibration_control,arxiv-2402.17497v2,False
+rrag213,Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models,include,adversarial_corruption,arxiv-2402.07179v3,False
+rrag214,Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning,include,knowledge_conflict; calibration_control,arxiv-2410.10360v3,False
+rrag215,KnowPO: Knowledge-aware Preference Optimization for Controllable Knowledge Selection in Retrieval-Augmented Language Models,include,knowledge_conflict; noisy_retrieval,arxiv-2408.03297v2,False
+rrag216,Investigating Context-Faithfulness in Large Language Models: The Roles of Memory Strength and Evidence Style,include,knowledge_conflict,arxiv-2409.10955v2,False
+rrag217,Get my drift? Catching LLM Task Drift with Activation Deltas,include,adversarial_corruption,arxiv-2406.00799v6,False
+rrag218,Entropy-Based Decoding for Retrieval-Augmented Large Language Models,include,distraction; knowledge_conflict; noisy_retrieval,arxiv-2406.17519v2,False
+rrag219,Enhancing Robustness of Retrieval-Augmented Language Models with In-Context Learning,include,noisy_retrieval; knowledge_conflict,arxiv-2408.04414v1,False
+rrag220,Dialectical Alignment: Resolving the Tension of 3H and Security Threats of LLMs,include,knowledge_conflict; adversarial_corruption,arxiv-2404.00486v1,False
+rrag221,Defense Against Prompt Injection Attack by Leveraging Attack Techniques,include,adversarial_corruption,arxiv-2411.00459v6,False
+rrag222,DYNAMICQA: Tracing Internal Knowledge Conflicts in Language Models,include,knowledge_conflict; evaluation_benchmark; ood_uncertainty,arxiv-2407.17023v2,False
+rrag223,Blinded by Generated Contexts: How Language Models Merge Generated and Retrieved Contexts When Knowledge Conflicts?,include,knowledge_conflict,arxiv-2401.11911v6,False
+rrag224,Answerability in Retrieval-Augmented Open-Domain Question Answering,include,noisy_retrieval; ood_uncertainty; calibration_control,arxiv-2403.01461v1,False
+rrag225,Adaptive Contrastive Decoding in Retrieval-Augmented Generation for Handling Noisy Contexts,include,noisy_retrieval; knowledge_conflict; calibration_control,arxiv-2408.01084v2,False
+rrag226,RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation,include,noisy_retrieval; context_compression_selective_augmentation,arxiv-2310.04408v1,False
+rrag227,Merging Generated and Retrieved Knowledge for Open-Domain QA,include,knowledge_conflict,arxiv-2310.14393v1,False
+rrag228,QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation,include,calibration_control; ood_uncertainty,arxiv-2512.19134,False
+rrag229,Spa-VLM: Stealthy Poisoning Attacks on RAG-based VLM,include,adversarial_corruption,arxiv-2505.23828,False

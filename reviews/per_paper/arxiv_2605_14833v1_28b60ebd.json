@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.14833v1",
+  "title": "Emotion-Attended Stateful Memory (EASM):The Architecture for Hyper-Personalization at Scale",
+  "authors": "Vineet Kotecha; Vansh Gupta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14833v1",
+  "local_pdf": "pdfs/2026_vineet_kotecha_emotion_attended_stateful_memory_easm_the_architecture_for_hyper_personalization_at_scal_28b60ebd.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper proposes emotion-attended memory architecture for personalization; not about RAG robustness, conflict, noise, or calibration.",
+  "why_not_or_caveat": "Out of scope; focuses on stateful memory for personalization, not unreliable evidence in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:05.808388+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.14833v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper proposes emotion-attended memory architecture for personalization; not about RAG robustness, conflict, noise, or calibration.\",\"why_not_or_caveat\":\"Out of scope; focuses on stateful memory for personalization, not unreliable evidence in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

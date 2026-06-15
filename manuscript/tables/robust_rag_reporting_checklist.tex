@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.30\linewidth}>{\raggedright\arraybackslash}p{0.22\linewidth}X}
+\toprule
+\textbf{Required field} & \textbf{What to report} & \textbf{If omitted} & \textbf{Example consequence} \\
+\midrule
+Failure definition & Noise, distraction, conflict, adversarial corruption, uncertainty/OOD, calibration/control, or evaluation target. & Papers with the same robustness label may address different failures. & Noise training is ranked against sufficiency prediction. \\
+Evidence assumption & Gold support availability, distractor hardness/rank, stale/conflicting sources, typed evidence, or attacker capability. & Stressors are not portable. & Natural conflict is compared with poisoning. \\
+Intervention boundary & Corpus/KB, retriever/context, context assembly, generator, system control, or evaluation artifact. & Pipeline modules are treated as substitutable. & A benchmark is ranked against a mitigation method. \\
+Retrieval setting & Corpus snapshot, retriever, top-$k$, chunking, reranking/compression, and index drift controls. & Results cannot be reproduced or normalized. & A filter looks better because its retriever retrieved easier negatives. \\
+Metric target & Answer correctness, support, faithfulness, attack success, selective risk, calibration, cost, or action utility. & Different objectives collapse into one score. & Lower attack success hides clean-utility loss. \\
+Action policy & answer, abstain, retrieve again, filter, verify, expose conflict, clarify, quarantine, trace, recover. & Accuracy and confidence are over-interpreted. & A calibrated answerer still answers from insufficient evidence. \\
+Uncertainty / abstention handling & Coverage, selective risk, confidence target, abstention reward, and re-retrieval cost. & Abstention can hide retrieval failure. & Refusal is rewarded when re-retrieval should be the correct action. \\
+Security threat model & Attacker access, query control, retriever visibility, insertion budget, objective, and adaptive-defense assumptions. & Security numbers are not comparable. & Prompt injection defenses are claimed to protect against corpus poisoning. \\
+\bottomrule
+\end{tabularx}
+\caption{Reporting checklist for robust RAG under unreliable evidence. The checklist turns the comparability framework's diagnosis into a concrete reporting norm for future papers and benchmarks.}
+\label{tab:robust-rag-reporting-checklist}
+\end{table*}
+

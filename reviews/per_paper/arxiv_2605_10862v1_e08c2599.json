@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.10862v1",
+  "title": "RUBEN: Rule-Based Explanations for Retrieval-Augmented LLM Systems",
+  "authors": "Joel Rorseth; Parke Godfrey; Lukasz Golab; Divesh Srivastava; Jarek Szlichta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.10862v1",
+  "local_pdf": "pdfs/2026_joel_rorseth_ruben_rule_based_explanations_for_retrieval_augmented_llm_systems_e08c2599.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "RUBEN mines rule-based explanations that identify which RAG sources cause unsafe outputs, applied to testing adversarial prompt injection and data poisoning resilience in RAG systems.",
+  "why_not_or_caveat": "Primarily an explainability/demo tool rather than a robustness method or benchmark; coverage of attacks/defenses is illustrative.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: analysis and explanation tools",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:38.989440+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.10862v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"RUBEN mines rule-based explanations that identify which RAG sources cause unsafe outputs, applied to testing adversarial prompt injection and data poisoning resilience in RAG systems.\",\n  \"why_not_or_caveat\": \"Primarily an explainability/demo tool rather than a robustness method or benchmark; coverage of attacks/defenses is illustrative.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: analysis and explanation tools\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

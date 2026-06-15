@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.04853v1",
+  "title": "Decomposed Prompting Does Not Fix Knowledge Gaps, But Helps Models Say \"I Don't Know\"",
+  "authors": "Dhruv Madhwal; Lyuxin David Zhang; Dan Roth; Tomer Wolfson; Vivek Gupta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.04853v1",
+  "local_pdf": "pdfs/2026_dhruv_madhwal_decomposed_prompting_does_not_fix_knowledge_gaps_but_helps_models_say_i_don_t_know_985c8e47.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a disagreement-based abstention method for closed-book QA, related to uncertainty/abstention themes in calibration and control.",
+  "why_not_or_caveat": "Explicitly closed-book QA without retrieval; does not study RAG robustness, noisy/conflicting evidence, or retrieval-related issues.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and Abstention",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:53.945830+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.04853v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a disagreement-based abstention method for closed-book QA, related to uncertainty/abstention themes in calibration and control.\",\"why_not_or_caveat\":\"Explicitly closed-book QA without retrieval; does not study RAG robustness, noisy/conflicting evidence, or retrieval-related issues.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and Abstention\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

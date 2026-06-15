@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.17569v1",
+  "title": "Improving User Privacy in Personalized Generation: Client-Side Retrieval-Augmented Modification of Server-Side Generated Speculations",
+  "authors": "Alireza Salemi; Hamed Zamani",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.17569v1",
+  "local_pdf": "pdfs/2026_alireza_salemi_improving_user_privacy_in_personalized_generation_client_side_retrieval_augmented_modifi_0661d19c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper addresses privacy-preserving personalized RAG, not robustness against noise, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Out of scope: focuses on user privacy in personalization, not unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:03.259399+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.17569v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper addresses privacy-preserving personalized RAG, not robustness against noise, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Out of scope: focuses on user privacy in personalization, not unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.13578v1",
+  "title": "Enhancing Distractor Generation for Multiple-Choice Questions with Retrieval Augmented Pretraining and Knowledge Graph Integration",
+  "authors": "Han-Cheng Yu; Yu-An Shih; Kin-Man Law; Kai-Yu Hsieh; Yu-Chen Cheng; Hsin-Chih Ho; Zih-An Lin; Wen-Chuan Hsu; Yao-Chung Fan",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.13578v1",
+  "local_pdf": "pdfs/2024_han_cheng_yu_enhancing_distractor_generation_for_multiple_choice_questions_with_retrieval_augmented_p_4799967c.pdf",
+  "metadata_topics": "noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper uses retrieval-augmented pretraining for distractor generation in MCQs; unrelated to RAG robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Out of scope: it's about MCQ distractor generation, not RAG reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:36.399543+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.13578v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper uses retrieval-augmented pretraining for distractor generation in MCQs; unrelated to RAG robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Out of scope: it's about MCQ distractor generation, not RAG reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

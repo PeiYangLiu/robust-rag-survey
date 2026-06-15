@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.21753v1",
+  "title": "Towards a rigorous evaluation of RAG systems: the challenge of due diligence",
+  "authors": "Grégoire Martinon; Alexandra Lorenzo de Brionne; Jérôme Bohard; Antoine Lojou; Damien Hervault; Nicolas J-B. Brunel",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.21753v1",
+  "local_pdf": "pdfs/2025_gr_goire_martinon_towards_a_rigorous_evaluation_of_rag_systems_the_challenge_of_due_diligence_76ae7f21.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a rigorous hybrid human/LLM-judge evaluation protocol (inspired by PPI) for industrial RAG, quantifying hallucinations, off-topic, citation failures, and abstentions—relevant to evaluation of RAG reliability.",
+  "why_not_or_caveat": "Domain-specific (due diligence) and focused on evaluation methodology rather than robustness mechanisms; in French.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:42.286625+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.21753v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Proposes a rigorous hybrid human/LLM-judge evaluation protocol (inspired by PPI) for industrial RAG, quantifying hallucinations, off-topic, citation failures, and abstentions—relevant to evaluation of RAG reliability.\",\"why_not_or_caveat\":\"Domain-specific (due diligence) and focused on evaluation methodology rather than robustness mechanisms; in French.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

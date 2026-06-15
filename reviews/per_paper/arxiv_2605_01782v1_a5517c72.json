@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.01782v1",
+  "title": "Needle-in-RAG: Prompt-Conditioned Character-Level Traceback of Poisoned Spans in Retrieved Evidence",
+  "authors": "Huining Cui; Wei Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01782v1",
+  "local_pdf": "pdfs/2026_huining_cui_needle_in_rag_prompt_conditioned_character_level_traceback_of_poisoned_spans_in_retrieve_a5517c72.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a forensic traceback framework for character-level localization of poisoned spans in RAG retrieved evidence, with an evaluation protocol across five poisoning attack families and six LLMs.",
+  "why_not_or_caveat": "Focuses on post-hoc forensic attribution rather than prevention; suspicious arXiv ID (2605) suggests possibly unverified preprint.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses and Forensics",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:34.510157+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.01782v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a forensic traceback framework for character-level localization of poisoned spans in RAG retrieved evidence, with an evaluation protocol across five poisoning attack families and six LLMs.\",\"why_not_or_caveat\":\"Focuses on post-hoc forensic attribution rather than prevention; suspicious arXiv ID (2605) suggests possibly unverified preprint.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Defenses and Forensics\",\"confidence\":0.75}",
+  "skipped_existing": false
+}

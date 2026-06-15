@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2408.01084v2",
+  "title": "Adaptive Contrastive Decoding in Retrieval-Augmented Generation for Handling Noisy Contexts",
+  "authors": "Youna Kim; Hyuhng Joon Kim; Cheonbok Park; Choonghyun Park; Hyunsoo Cho; Junyeob Kim; Kang Min Yoo; Sang-goo Lee; Taeuk Kim",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2408.01084v2",
+  "local_pdf": "pdfs/2024_youna_kim_adaptive_contrastive_decoding_in_retrieval_augmented_generation_for_handling_noisy_conte_768c40f0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an entropy-based adaptive contrastive decoding method to control reliance on retrieved context vs parametric knowledge, specifically targeting robustness to noisy retrieved contexts in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Decoding-time methods",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:00.773035+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2408.01084v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an entropy-based adaptive contrastive decoding method to control reliance on retrieved context vs parametric knowledge, specifically targeting robustness to noisy retrieved contexts in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Decoding-time methods\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

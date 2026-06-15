@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.26205v2",
+  "title": "Towards Global Retrieval Augmented Generation: A Benchmark for Corpus-Level Reasoning",
+  "authors": "Qi Luo; Xiaonan Li; Tingshuo Fan; Xinchi Chen; Xipeng Qiu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.26205v2",
+  "local_pdf": "pdfs/2025_qi_luo_towards_global_retrieval_augmented_generation_a_benchmark_for_corpus_level_reasoning_856c6817.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark for corpus-level/global RAG and proposes filtering noisy documents, tangentially touching noisy retrieval issues.",
+  "why_not_or_caveat": "Primary focus is on aggregation/corpus-level reasoning rather than robustness under unreliable evidence; noise filtering is a side component.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.850758+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.26205v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a benchmark for corpus-level/global RAG and proposes filtering noisy documents, tangentially touching noisy retrieval issues.\",\n  \"why_not_or_caveat\": \"Primary focus is on aggregation/corpus-level reasoning rather than robustness under unreliable evidence; noise filtering is a side component.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

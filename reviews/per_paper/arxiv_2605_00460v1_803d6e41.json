@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.00460v1",
+  "title": "CleanBase: Detecting Malicious Documents in RAG Knowledge Databases",
+  "authors": "Weifei Jin; Xilong Wang; Wei Zou; Jinyuan Jia; Neil Gong",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00460v1",
+  "local_pdf": "pdfs/2026_weifei_jin_cleanbase_detecting_malicious_documents_in_rag_knowledge_databases_803d6e41.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense to detect malicious documents in RAG knowledge bases against prompt injection/poisoning attacks, directly addressing adversarial corruption of evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:31.455716+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.00460v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a defense to detect malicious documents in RAG knowledge bases against prompt injection/poisoning attacks, directly addressing adversarial corruption of evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

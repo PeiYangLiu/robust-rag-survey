@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2501.09940v1",
+  "title": "Passage Segmentation of Documents for Extractive Question Answering",
+  "authors": "Zuhong Liu; Charles-Elie Simon; Fabien Caspani",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.09940v1",
+  "local_pdf": "pdfs/2025_zuhong_liu_passage_segmentation_of_documents_for_extractive_question_answering_848ffebe.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a chunking method to improve retrieval and RAG QA performance, not directly addressing robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focuses on document segmentation for general RAG quality, not unreliable evidence scenarios.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:58.077166+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.09940v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a chunking method to improve retrieval and RAG QA performance, not directly addressing robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Focuses on document segmentation for general RAG quality, not unreliable evidence scenarios.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

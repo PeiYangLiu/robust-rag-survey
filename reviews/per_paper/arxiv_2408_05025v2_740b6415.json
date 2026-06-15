@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2408.05025v2",
+  "title": "Rag and Roll: An End-to-End Evaluation of Indirect Prompt Manipulations in LLM-based Application Frameworks",
+  "authors": "Gianluca De Stefano; Lea Schönherr; Giancarlo Pellegrino",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2408.05025v2",
+  "local_pdf": "pdfs/2024_gianluca_de_stefano_rag_and_roll_an_end_to_end_evaluation_of_indirect_prompt_manipulations_in_llm_based_appl_740b6415.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "End-to-end evaluation of indirect prompt injection attacks against RAG pipelines, examining how configuration choices affect attack success—directly relevant to adversarial corruption and robustness evaluation.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / indirect prompt injection",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.383740+00:00",
+  "raw_response": "{\"key\":\"arxiv-2408.05025v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"End-to-end evaluation of indirect prompt injection attacks against RAG pipelines, examining how configuration choices affect attack success—directly relevant to adversarial corruption and robustness evaluation.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption / indirect prompt injection\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

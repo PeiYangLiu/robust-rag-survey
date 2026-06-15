@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.27283v1",
+  "title": "Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding Agents",
+  "authors": "Mehmet Iscan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.27283v1",
+  "local_pdf": "pdfs/2026_mehmet_iscan_learning_when_to_remember_risk_sensitive_contextual_bandits_for_abstention_aware_memory_8c8a57d9.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a risk-sensitive contextual bandit controller that decides whether to inject retrieved memory, abstain, ask for feedback, or skip retrieval, with explicit false-positive penalties. Directly addresses when-to-retrieve/trust and abstention in an agentic RAG-like memory setting.",
+  "why_not_or_caveat": "Domain is narrow (coding-agent issue memory) and evaluation is small-scale, deterministic proxy rather than full RAG benchmarks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: when to retrieve and abstain",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:23.194937+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.27283v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a risk-sensitive contextual bandit controller that decides whether to inject retrieved memory, abstain, ask for feedback, or skip retrieval, with explicit false-positive penalties. Directly addresses when-to-retrieve/trust and abstention in an agentic RAG-like memory setting.\",\n  \"why_not_or_caveat\": \"Domain is narrow (coding-agent issue memory) and evaluation is small-scale, deterministic proxy rather than full RAG benchmarks.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: when to retrieve and abstain\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

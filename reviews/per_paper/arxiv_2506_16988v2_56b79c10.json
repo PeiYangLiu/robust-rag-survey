@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.16988v2",
+  "title": "RAGentA: Multi-Agent Retrieval-Augmented Generation for Attributed Question Answering",
+  "authors": "Ines Besrour; Jingbo He; Tobias Schreieder; Michael Färber",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.16988v2",
+  "local_pdf": "pdfs/2025_ines_besrour_ragenta_multi_agent_retrieval_augmented_generation_for_attributed_question_answering_56b79c10.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-agent RAG framework for attributed QA with filtering and faithfulness improvements, tangentially related to grounding/trustworthiness.",
+  "why_not_or_caveat": "Focus is on attribution/citation in a challenge system, not robustness under noise, conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.687414+00:00",
+  "raw_response": "{\"key\": \"arxiv-2506.16988v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a multi-agent RAG framework for attributed QA with filtering and faithfulness improvements, tangentially related to grounding/trustworthiness.\", \"why_not_or_caveat\": \"Focus is on attribution/citation in a challenge system, not robustness under noise, conflict, adversaries, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

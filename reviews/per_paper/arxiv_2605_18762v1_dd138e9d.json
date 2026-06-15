@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.18762v1",
+  "title": "ALDEN: Boosting Private Data Extraction from Retrieval-Augmented Generation Systems via Active Learning and Distribution Estimation",
+  "authors": "Xingyu Lyu; Jianfeng He; Ning Wang; Yidan Hu; Tao Li; Danjue Chen; Shixiong Li; Yimin Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18762v1",
+  "local_pdf": "pdfs/2026_xingyu_lyu_alden_boosting_private_data_extraction_from_retrieval_augmented_generation_systems_via_a_dd138e9d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel data extraction attack against RAG knowledge bases via prompt injection, active learning, and distribution estimation, directly relevant to adversarial corruption/privacy threats in RAG.",
+  "why_not_or_caveat": "Focuses on privacy extraction rather than retrieval-integrity attacks; no defense contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Attacks on RAG",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.745804+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.18762v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a novel data extraction attack against RAG knowledge bases via prompt injection, active learning, and distribution estimation, directly relevant to adversarial corruption/privacy threats in RAG.\",\"why_not_or_caveat\":\"Focuses on privacy extraction rather than retrieval-integrity attacks; no defense contribution.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Attacks on RAG\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

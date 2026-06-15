@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.30289v1",
+  "title": "Statistical Embeddings for Similarity, Retrieval, and Interpretable Alignment of Numeric Tabular Datasets",
+  "authors": "M. Ross Kunz; John Merickel; Keith Wilson",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.30289v1",
+  "local_pdf": "pdfs/2026_m_ross_kunz_statistical_embeddings_for_similarity_retrieval_and_interpretable_alignment_of_numeric_t_f34408ac.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes statistical embeddings for tabular dataset similarity and retrieval; mentions RAG integration but does not study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope: focuses on tabular dataset embedding/alignment, not robustness of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.029903+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.30289v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes statistical embeddings for tabular dataset similarity and retrieval; mentions RAG integration but does not study robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope: focuses on tabular dataset embedding/alignment, not robustness of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2310.00935",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2310.00935)\\] Resolving Knowledge Conflicts in Large Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.00935",
+  "local_pdf": "pdfs/na_arxiv_2310_00935_arxiv_https_arxiv_org_abs_2310_00935_resolving_knowledge_conflicts_in_large_lang_1c71df66.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes an evaluation framework and instruction-based methods for LLMs to detect, localize, and respond to parametric-vs-contextual knowledge conflicts, directly relevant to the conflict and calibration sections.",
+  "why_not_or_caveat": "Uses synthetic conflicts rather than real retrieval pipelines.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:36.219042+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2310.00935\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes an evaluation framework and instruction-based methods for LLMs to detect, localize, and respond to parametric-vs-contextual knowledge conflicts, directly relevant to the conflict and calibration sections.\",\n  \"why_not_or_caveat\": \"Uses synthetic conflicts rather than real retrieval pipelines.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

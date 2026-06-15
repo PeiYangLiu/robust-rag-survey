@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.05866v4",
+  "title": "FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG",
+  "authors": "Maxime Dassen; Rebecca Kotula; Kenton Murray; Andrew Yates; Dawn Lawrie; Efsun Kayi; James Mayfield; Kevin Duh",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05866v4",
+  "local_pdf": "pdfs/2026_maxime_dassen_factum_mechanistic_detection_of_citation_hallucination_in_long_form_rag_67179ea1.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a mechanistic detector for citation hallucination in long-form RAG by decoupling attention (context) vs FFN (parametric) pathways, directly relevant to parametric-vs-retrieved conflict and reliability/calibration of RAG outputs.",
+  "why_not_or_caveat": "Focused narrowly on citation attribution hallucination detection via interpretability, not broader robustness; somewhat tangential to noise/attack/OOD topics.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and hallucination detection",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.970542+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.05866v4\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a mechanistic detector for citation hallucination in long-form RAG by decoupling attention (context) vs FFN (parametric) pathways, directly relevant to parametric-vs-retrieved conflict and reliability/calibration of RAG outputs.\",\n  \"why_not_or_caveat\": \"Focused narrowly on citation attribution hallucination detection via interpretability, not broader robustness; somewhat tangential to noise/attack/OOD topics.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and hallucination detection\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

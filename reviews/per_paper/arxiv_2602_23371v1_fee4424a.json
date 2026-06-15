@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.23371v1",
+  "title": "Domain-Partitioned Hybrid RAG for Legal Reasoning: Toward Modular and Explainable Legal AI for India",
+  "authors": "Rakshita Goel; S Pranav Kumar; Anmol Agrawal; Divyan Poddar; Pratik Narang; Dhruv Kumar",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.23371v1",
+  "local_pdf": "pdfs/2025_rakshita_goel_domain_partitioned_hybrid_rag_for_legal_reasoning_toward_modular_and_explainable_legal_a_fee4424a.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of hybrid RAG+KG to Indian legal research; does not study robustness, noise, conflict, adversarial, or calibration aspects.",
+  "why_not_or_caveat": "Purely a domain application of RAG with no focus on robustness or unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:58.669152+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.23371v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of hybrid RAG+KG to Indian legal research; does not study robustness, noise, conflict, adversarial, or calibration aspects.\",\"why_not_or_caveat\":\"Purely a domain application of RAG with no focus on robustness or unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

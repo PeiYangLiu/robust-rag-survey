@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.03138v4",
+  "title": "DeepKnown-Guard: A Proprietary Model-Based Safety Response Framework for AI Agents",
+  "authors": "Qi Li; Jianjun Xu; Pingtao Wei; Jiu Li; Peiqiang Zhao; Jiwei Shi; Xuan Zhang; Yanhui Yang; Xiaodong Hui; Peng Xu; Wenqin Shao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.03138v4",
+  "local_pdf": "pdfs/2025_qi_li_deepknown_guard_a_proprietary_model_based_safety_response_framework_for_ai_agents_289ca1c9.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a safety framework combining input classification and RAG-based grounded generation, touching on hallucination reduction via traceable retrieval.",
+  "why_not_or_caveat": "Focused on safety/value alignment for LLM agents rather than robustness of RAG under noisy, conflicting, or adversarial evidence; engineering-oriented with limited methodological contribution to the survey themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:18.902262+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.03138v4\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a safety framework combining input classification and RAG-based grounded generation, touching on hallucination reduction via traceable retrieval.\",\"why_not_or_caveat\":\"Focused on safety/value alignment for LLM agents rather than robustness of RAG under noisy, conflicting, or adversarial evidence; engineering-oriented with limited methodological contribution to the survey themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.20854v1",
+  "title": "ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation",
+  "authors": "Sunguk Shin; Meeyoung Cha; Byung-Jun Lee; Sungwon Park",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20854v1",
+  "local_pdf": "pdfs/2026_sunguk_shin_era_evidence_based_reliability_alignment_for_honest_retrieval_augmented_generation_ca27f6eb.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "ERA directly addresses knowledge conflict between parametric and retrieved evidence, uses evidential deep learning and Dempster-Shafer theory to calibrate confidence, and enables abstention under unsupported queries — central themes of the survey.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention under Knowledge Conflict",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.171043+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.20854v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"ERA directly addresses knowledge conflict between parametric and retrieved evidence, uses evidential deep learning and Dempster-Shafer theory to calibrate confidence, and enables abstention under unsupported queries — central themes of the survey.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention under Knowledge Conflict\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

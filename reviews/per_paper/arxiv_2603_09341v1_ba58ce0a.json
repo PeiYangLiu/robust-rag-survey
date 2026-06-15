@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.09341v1",
+  "title": "TaSR-RAG: Taxonomy-guided Structured Reasoning for Retrieval-Augmented Generation",
+  "authors": "Jiashuo Sun; Yixuan Xie; Jimeng Shi; Shaowen Wang; Jiawei Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.09341v1",
+  "local_pdf": "pdfs/2026_jiashuo_sun_tasr_rag_taxonomy_guided_structured_reasoning_for_retrieval_augmented_generation_ba58ce0a.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a structured reasoning RAG method for multi-hop QA, with incidental claims about reducing distraction via typed triples, but does not directly study robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Focus is accuracy on multi-hop QA, not unreliable-evidence robustness.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.008683+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.09341v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a structured reasoning RAG method for multi-hop QA, with incidental claims about reducing distraction via typed triples, but does not directly study robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Focus is accuracy on multi-hop QA, not unreliable-evidence robustness.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

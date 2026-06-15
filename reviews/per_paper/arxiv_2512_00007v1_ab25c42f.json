@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.00007v1",
+  "title": "Use of Retrieval-Augmented Large Language Model Agent for Long-Form COVID-19 Fact-Checking",
+  "authors": "Jingyi Huang; Yuyi Yang; Mengmeng Ji; Charles Alba; Sheng Zhang; Ruopeng An",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.00007v1",
+  "local_pdf": "pdfs/2025_jingyi_huang_use_of_retrieval_augmented_large_language_model_agent_for_long_form_covid_19_fact_checki_ab25c42f.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to COVID-19 fact-checking but does not directly study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application paper; robustness aspects only incidental.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:39.997187+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.00007v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to COVID-19 fact-checking but does not directly study robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application paper; robustness aspects only incidental.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

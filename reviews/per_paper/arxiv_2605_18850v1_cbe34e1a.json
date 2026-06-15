@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.18850v1",
+  "title": "KadiAssistant: A conversational AI Agent for information retrieval in Kadi4Mat",
+  "authors": "Adrian Cierpka; Mohammad Shafiqul Islam; Johannes Steinhülb; Eric Dietriche Sesso Domtchoueng; Michael Selzer; Arnd Koeppe",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18850v1",
+  "local_pdf": "pdfs/2026_adrian_cierpka_kadiassistant_a_conversational_ai_agent_for_information_retrieval_in_kadi4mat_cbe34e1a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application paper describing a domain-specific RAG assistant for research data; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "No robustness, adversarial, or calibration analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:27.960706+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.18850v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application paper describing a domain-specific RAG assistant for research data; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"No robustness, adversarial, or calibration analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

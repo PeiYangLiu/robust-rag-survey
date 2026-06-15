@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.01142v2",
+  "title": "DeepRAG: Thinking to Retrieve Step by Step for Large Language Models",
+  "authors": "Xinyan Guan; Jiali Zeng; Fandong Meng; Chunlei Xin; Yaojie Lu; Hongyu Lin; Xianpei Han; Le Sun; Jie Zhou",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.01142v2",
+  "local_pdf": "pdfs/2025_xinyan_guan_deeprag_thinking_to_retrieve_step_by_step_for_large_language_models_a3eda4f4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "DeepRAG addresses adaptive retrieval decisions—when to retrieve vs. trust parametric knowledge—via MDP-based step-by-step reasoning, directly relevant to calibration/control of retrieval and knowledge boundary awareness.",
+  "why_not_or_caveat": "Focus is on efficiency and reasoning rather than robustness to noisy/adversarial evidence per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:40.325914+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.01142v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"DeepRAG addresses adaptive retrieval decisions—when to retrieve vs. trust parametric knowledge—via MDP-based step-by-step reasoning, directly relevant to calibration/control of retrieval and knowledge boundary awareness.\",\"why_not_or_caveat\":\"Focus is on efficiency and reasoning rather than robustness to noisy/adversarial evidence per se.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

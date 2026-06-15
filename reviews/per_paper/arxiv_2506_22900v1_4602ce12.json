@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.22900v1",
+  "title": "MOTOR: Multimodal Optimal Transport via Grounded Retrieval in Medical Visual Question Answering",
+  "authors": "Mai A. Shaaban; Tausifa Jan Saleem; Vijay Ram Papineni; Mohammad Yaqub",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.22900v1",
+  "local_pdf": "pdfs/2025_mai_a_shaaban_motor_multimodal_optimal_transport_via_grounded_retrieval_in_medical_visual_question_ans_4602ce12.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multimodal re-ranking method to filter irrelevant retrieved contexts in medical VQA RAG, touching on noisy-retrieval mitigation.",
+  "why_not_or_caveat": "Domain-specific application (MedVQA) focused on retrieval relevance rather than systematic study of robustness, calibration, or unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / re-ranking",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.704690+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.22900v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a multimodal re-ranking method to filter irrelevant retrieved contexts in medical VQA RAG, touching on noisy-retrieval mitigation.\",\n  \"why_not_or_caveat\": \"Domain-specific application (MedVQA) focused on retrieval relevance rather than systematic study of robustness, calibration, or unreliable evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / re-ranking\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

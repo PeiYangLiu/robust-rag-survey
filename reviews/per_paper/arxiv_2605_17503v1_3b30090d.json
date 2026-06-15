@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.17503v1",
+  "title": "RAG-based EEG-to-Text Translation Using Deep Learning and LLMs",
+  "authors": "Enrico Collautti; Xiaopeng Mao; Luca Tonin; Stefano Tortora; Sadasivan Puthusserypady",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17503v1",
+  "local_pdf": "pdfs/2026_enrico_collautti_rag_based_eeg_to_text_translation_using_deep_learning_and_llms_3b30090d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to EEG-to-text decoding; does not study robustness, noise in retrieval, conflicts, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope application paper.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:00.456528+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.17503v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to EEG-to-text decoding; does not study robustness, noise in retrieval, conflicts, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope application paper.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

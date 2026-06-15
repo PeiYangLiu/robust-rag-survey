@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.11548v4",
+  "title": "One Shot Dominance: Knowledge Poisoning Attack on Retrieval-Augmented Generation Systems",
+  "authors": "Zhiyuan Chang; Mingyang Li; Xiaojun Jia; Junjie Wang; Yuekai Huang; Ziyou Jiang; Yang Liu; Qing Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.11548v4",
+  "local_pdf": "pdfs/2025_zhiyuan_chang_one_shot_dominance_knowledge_poisoning_attack_on_retrieval_augmented_generation_systems_f287e696.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a single-document knowledge poisoning attack (AuthChain) on RAG that overcomes LLMs' internal knowledge bias via authority signals, directly relevant to adversarial corruption and parametric-vs-retrieved conflict.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:16.218313+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.11548v4\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a single-document knowledge poisoning attack (AuthChain) on RAG that overcomes LLMs' internal knowledge bias via authority signals, directly relevant to adversarial corruption and parametric-vs-retrieved conflict.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

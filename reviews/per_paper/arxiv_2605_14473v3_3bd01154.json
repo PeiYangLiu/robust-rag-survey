@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.14473v3",
+  "title": "Does RAG Know When Retrieval Is Wrong? Diagnosing Context Compliance under Knowledge Conflict",
+  "authors": "Yihang Chen; Pin Qian; Su Wang; Sipeng Zhang; Huan Xu; Shuhuai Lin; Xinpeng Wei",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14473v3",
+  "local_pdf": "pdfs/2026_yihang_chen_does_rag_know_when_retrieval_is_wrong_diagnosing_context_compliance_under_knowledge_conf_3bd01154.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Proposes a diagnostic (CDD) and benchmark (Epi-Scale) for context-compliance under context-memory knowledge conflict, including temporal drift and distractor evidence, directly relevant to conflict and distraction subtopics.",
+  "why_not_or_caveat": "Suspicious arXiv ID (2605.xxxx) and 2026 date suggest possible preprint anomaly; authors not claiming a deployment method.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:26.694759+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.14473v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"distraction\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Proposes a diagnostic (CDD) and benchmark (Epi-Scale) for context-compliance under context-memory knowledge conflict, including temporal drift and distractor evidence, directly relevant to conflict and distraction subtopics.\",\n  \"why_not_or_caveat\": \"Suspicious arXiv ID (2605.xxxx) and 2026 date suggest possible preprint anomaly; authors not claiming a deployment method.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

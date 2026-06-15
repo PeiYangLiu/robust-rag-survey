@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.22694v1",
+  "title": "Windsock is Dancing: Adaptive Multimodal Retrieval-Augmented Generation",
+  "authors": "Shu Zhao; Tianyi Shen; Nilesh Ahuja; Omesh Tickoo; Vijaykrishnan Narayanan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.22694v1",
+  "local_pdf": "pdfs/2025_shu_zhao_windsock_is_dancing_adaptive_multimodal_retrieval_augmented_generation_085ca8e9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive decision module for when/what to retrieve and noise-resistant instruction tuning for MRAG, addressing retrieval necessity and robustness to irrelevant retrieved documents.",
+  "why_not_or_caveat": "Multimodal focus; not centrally about adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:11.194509+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.22694v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive decision module for when/what to retrieve and noise-resistant instruction tuning for MRAG, addressing retrieval necessity and robustness to irrelevant retrieved documents.\",\"why_not_or_caveat\":\"Multimodal focus; not centrally about adversarial or conflict settings.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

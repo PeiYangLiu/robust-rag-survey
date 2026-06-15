@@ -1,0 +1,29 @@
+responses: 360
+participants: 30
+reference_verdict_column: rulebook_expected_verdict
+WARNING: using rulebook_expected_verdict; this is not external expert validity.
+
+condition: control
+  responses: 180
+  participants: 15
+  reference_accuracy: 0.728
+  fleiss_kappa: 0.589
+  mean_decision_time_seconds: 126.1
+  mean_confidence_1_5: 3.69
+  mean_usefulness_1_5: 3.51
+  mean_rationale_quality_1_5: 4.08
+  verdict_counts: {'partial': 144, 'valid': 18, 'invalid': 18}
+  error_type_counts: {'objective_mismatch': 83, 'metric_mismatch': 37, 'intervention_mismatch': 15, 'evidence_assumption_mismatch': 22, 'action_policy_missing': 1}
+
+condition: protocol
+  responses: 180
+  participants: 15
+  reference_accuracy: 0.894
+  fleiss_kappa: 0.846
+  mean_decision_time_seconds: 121.8
+  mean_confidence_1_5: 3.92
+  mean_usefulness_1_5: 4.06
+  mean_rationale_quality_1_5: 4.13
+  verdict_counts: {'partial': 150, 'invalid': 30}
+  error_type_counts: {'intervention_mismatch': 100, 'evidence_assumption_mismatch': 29, 'action_policy_missing': 8, 'metric_mismatch': 31, 'action_policy_mismatch': 1, 'objective_mismatch': 11}
+

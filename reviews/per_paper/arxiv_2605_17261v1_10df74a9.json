@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.17261v1",
+  "title": "Unlocking Biological Workflows for Robust Protein-Text Question Answering: A Dual-Dimensional RAG Framework",
+  "authors": "Li Ding; Duanyu Feng; Chen Huang; Yangshuai Wang; Yang Li; Wenqiang Lei; See-Kiong Ng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17261v1",
+  "local_pdf": "pdfs/2026_li_ding_unlocking_biological_workflows_for_robust_protein_text_question_answering_a_dual_dimensi_10df74a9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a domain-specific RAG framework for protein-text QA with filtering to mitigate retrieval noise and handle OOD proteins.",
+  "why_not_or_caveat": "Application-specific (biological/protein) RAG; robustness contributions are domain-bound and not generalizable to the survey's core robustness taxonomy.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.504083+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.17261v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\", \"ood_uncertainty\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a domain-specific RAG framework for protein-text QA with filtering to mitigate retrieval noise and handle OOD proteins.\",\n  \"why_not_or_caveat\": \"Application-specific (biological/protein) RAG; robustness contributions are domain-bound and not generalizable to the survey's core robustness taxonomy.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

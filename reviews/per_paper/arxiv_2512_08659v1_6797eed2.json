@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.08659v1",
+  "title": "An Agentic AI System for Multi-Framework Communication Coding",
+  "authors": "Bohao Yang; Rui Yang; Joshua M. Biro; Haoyuan Wang; Jessica L. Handley; Brianna Richardson; Sophia Bessias; Nicoleta Economou-Zavlanos; Armando D. Bedoya; Monica Agrawal; Michael M. Zavlanos; Anand Chowdhury; Raj M. Ratwani; Kai Sun; Kathryn I. Pollak; Michael J. Pencina; Chuan Hong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.08659v1",
+  "local_pdf": "pdfs/2025_bohao_yang_an_agentic_ai_system_for_multi_framework_communication_coding_6797eed2.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG within a clinical communication coding agent system; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Application paper; no contribution to robust RAG topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:45.650518+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.08659v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG within a clinical communication coding agent system; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Application paper; no contribution to robust RAG topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

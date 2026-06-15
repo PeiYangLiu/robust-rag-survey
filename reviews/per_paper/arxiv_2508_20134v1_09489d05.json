@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.20134v1",
+  "title": "QAgent: An LLM-based Multi-Agent System for Autonomous OpenQASM programming",
+  "authors": "Zhenxiao Fu; Fan Chen; Lei Jiang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.20134v1",
+  "local_pdf": "pdfs/2025_zhenxiao_fu_qagent_an_llm_based_multi_agent_system_for_autonomous_openqasm_programming_09489d05.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG as a component in a quantum programming agent but does not study robustness, reliability, or unreliable evidence.",
+  "why_not_or_caveat": "Application of RAG, no analysis of noise/conflict/attacks/calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.793168+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.20134v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG as a component in a quantum programming agent but does not study robustness, reliability, or unreliable evidence.\",\"why_not_or_caveat\":\"Application of RAG, no analysis of noise/conflict/attacks/calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

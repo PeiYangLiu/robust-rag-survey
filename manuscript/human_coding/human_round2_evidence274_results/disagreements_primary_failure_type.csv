@@ -1,0 +1,9 @@
+paper_id,title,field,source_01_label,source_02_label,url
+rrag037,Toward Robust RALMs: Revealing the Impact of Imperfect Retrieval on Retrieval-Augmented Language Models,primary_failure_type,evaluation_benchmark,noisy_retrieval,https://arxiv.org/abs/2410.15107v1
+rrag044,Learning to Filter Context for Retrieval-Augmented Generation,primary_failure_type,distraction,noisy_retrieval,https://arxiv.org/abs/2311.08377v1
+rrag070,The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents,primary_failure_type,evaluation_benchmark,adversarial_corruption,https://arxiv.org/abs/2603.00801v1
+rrag111,Unanswerability Evaluation for Retrieval Augmented Generation,primary_failure_type,evaluation_benchmark,ood_uncertainty,https://arxiv.org/abs/2412.12300v3
+rrag113,RetrievalQA: Assessing Adaptive Retrieval-Augmented Generation for Short-form Open-Domain Question Answering,primary_failure_type,calibration_control,evaluation_benchmark,https://arxiv.org/abs/2402.16457v2
+rrag143,Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG,primary_failure_type,evaluation_benchmark,distraction,https://arxiv.org/abs/2605.27105v2
+rrag189,Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation,primary_failure_type,adversarial_corruption,multimodal_agentic_code,https://arxiv.org/abs/2511.19257v1
+rrag200,END: Early Noise Dropping for Efficient and Effective Context Denoising,primary_failure_type,distraction,noisy_retrieval,https://arxiv.org/abs/2502.18915v3

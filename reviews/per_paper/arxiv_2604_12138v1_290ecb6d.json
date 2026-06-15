@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.12138v1",
+  "title": "Beyond Factual Grounding: The Case for Opinion-Aware Retrieval-Augmented Generation",
+  "authors": "Aditya Agrawal; Alwarappan Nakkiran; Darshan Fofadiya; Alex Karlsson; Harsha Aduri",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.12138v1",
+  "local_pdf": "pdfs/2026_aditya_agrawal_beyond_factual_grounding_the_case_for_opinion_aware_retrieval_augmented_generation_290ecb6d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Frames opinion vs factual queries through epistemic/aleatoric uncertainty and notes how RAG treats opinions as noise, tangentially relating to uncertainty and diversity in retrieval.",
+  "why_not_or_caveat": "Focus is on opinion synthesis architecture, not robustness, calibration, conflicts, or adversarial issues central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "OOD and uncertainty",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.702420+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.12138v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"ood_uncertainty\",\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Frames opinion vs factual queries through epistemic/aleatoric uncertainty and notes how RAG treats opinions as noise, tangentially relating to uncertainty and diversity in retrieval.\",\"why_not_or_caveat\":\"Focus is on opinion synthesis architecture, not robustness, calibration, conflicts, or adversarial issues central to the survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"OOD and uncertainty\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

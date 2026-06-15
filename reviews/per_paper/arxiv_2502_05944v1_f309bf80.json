@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.05944v1",
+  "title": "Multi-granular Training Strategies for Robust Multi-hop Reasoning Over Noisy and Heterogeneous Knowledge Sources",
+  "authors": "Jackson Coleman; Isaiah Lawrence; Benjamin Turner",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.05944v1",
+  "local_pdf": "pdfs/2025_jackson_coleman_multi_granular_training_strategies_for_robust_multi_hop_reasoning_over_noisy_and_heterog_f309bf80.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-hop QA framework that fuses parametric and retrieved knowledge with attention to knowledge conflicts and noisy sources, touching on robustness aspects of RAG.",
+  "why_not_or_caveat": "Focus is primarily on multi-hop reasoning accuracy rather than systematic robustness/conflict analysis; authors and venue look low-quality, robustness claims are limited.",
+  "recommended_use": "background_only",
+  "suggested_section": "Knowledge conflict and multi-source fusion",
+  "confidence": 0.5,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:58.466229+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.05944v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a multi-hop QA framework that fuses parametric and retrieved knowledge with attention to knowledge conflicts and noisy sources, touching on robustness aspects of RAG.\",\n  \"why_not_or_caveat\": \"Focus is primarily on multi-hop reasoning accuracy rather than systematic robustness/conflict analysis; authors and venue look low-quality, robustness claims are limited.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Knowledge conflict and multi-source fusion\",\n  \"confidence\": 0.5\n}",
+  "skipped_existing": false
+}

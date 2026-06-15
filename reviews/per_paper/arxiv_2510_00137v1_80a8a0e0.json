@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.00137v1",
+  "title": "Optimizing What Matters: AUC-Driven Learning for Robust Neural Retrieval",
+  "authors": "Nima Sheikholeslami; Erfan Hosseini; Patrice Bechard; Srivatsava Daruru; Sai Rajeswar",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.00137v1",
+  "local_pdf": "pdfs/2025_nima_sheikholeslami_optimizing_what_matters_auc_driven_learning_for_robust_neural_retrieval_80a8a0e0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an AUC-aligned retriever training loss aimed at better global score calibration, enabling thresholding to filter irrelevant passages in RAG—relevant to calibration/control and noisy retrieval filtering.",
+  "why_not_or_caveat": "Focus is on retriever training loss rather than end-to-end RAG robustness; calibration claims limited to retriever score separation.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:16.719128+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.00137v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an AUC-aligned retriever training loss aimed at better global score calibration, enabling thresholding to filter irrelevant passages in RAG—relevant to calibration/control and noisy retrieval filtering.\",\"why_not_or_caveat\":\"Focus is on retriever training loss rather than end-to-end RAG robustness; calibration claims limited to retriever score separation.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

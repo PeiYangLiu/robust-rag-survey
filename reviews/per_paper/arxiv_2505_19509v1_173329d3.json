@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.19509v1",
+  "title": "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models",
+  "authors": "Yifan Jia; Kailin Jiang; Yuyang Liang; Qihan Ren; Yi Xin; Rui Yang; Fenze Feng; Mingcai Chen; Hengyang Lu; Haozhe Wang; Xiaoye Qu; Dongrui Liu; Lizhen Cui; Yuntao Du",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.19509v1",
+  "local_pdf": "pdfs/2025_yifan_jia_benchmarking_multimodal_knowledge_conflict_for_large_multimodal_models_173329d3.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces MMKC-Bench for evaluating context-memory and inter-context knowledge conflicts in multimodal RAG, finding LMMs over-rely on parametric knowledge.",
+  "why_not_or_caveat": "Multimodal focus; may be tangential to text-centric RAG sections.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:53.302424+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.19509v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces MMKC-Bench for evaluating context-memory and inter-context knowledge conflicts in multimodal RAG, finding LMMs over-rely on parametric knowledge.\",\"why_not_or_caveat\":\"Multimodal focus; may be tangential to text-centric RAG sections.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict Benchmarks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.06212v1",
+  "title": "RAG-targeted Adversarial Attack on LLM-based Threat Detection and Mitigation Framework",
+  "authors": "Seif Ikbarieh; Kshitiz Aryal; Maanak Gupta",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.06212v1",
+  "local_pdf": "pdfs/2025_seif_ikbarieh_rag_targeted_adversarial_attack_on_llm_based_threat_detection_and_mitigation_framework_b4bec714.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Demonstrates a word-level RAG knowledge-base poisoning attack on an LLM-based IoT threat-detection framework, relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Narrow IoT/NIDS application domain with small dataset; contribution is largely an applied case study using existing attack techniques (Textfooler, PoisonedRAG-style).",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: RAG poisoning",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.737342+00:00",
+  "raw_response": "{\"key\": \"arxiv-2511.06212v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"Demonstrates a word-level RAG knowledge-base poisoning attack on an LLM-based IoT threat-detection framework, relevant to adversarial corruption of retrieval.\", \"why_not_or_caveat\": \"Narrow IoT/NIDS application domain with small dataset; contribution is largely an applied case study using existing attack techniques (Textfooler, PoisonedRAG-style).\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial corruption: RAG poisoning\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.09902v1",
+  "title": "Conversational Gold: Evaluating Personalized Conversational Search System using Gold Nuggets",
+  "authors": "Zahra Abbasiantaeb; Simon Lupart; Leif Azzopardi; Jeffery Dalton; Mohammad Aliannejadi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.09902v1",
+  "local_pdf": "pdfs/2025_zahra_abbasiantaeb_conversational_gold_evaluating_personalized_conversational_search_system_using_gold_nugg_4b4678c9.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a nugget-based RAG evaluation framework for conversational search including unanswerable questions to test hallucination, tangentially relevant to RAG evaluation under uncertainty.",
+  "why_not_or_caveat": "Focus is personalized conversational search evaluation, not robustness to noise, conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:20.928831+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.09902v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a nugget-based RAG evaluation framework for conversational search including unanswerable questions to test hallucination, tangentially relevant to RAG evaluation under uncertainty.\",\n  \"why_not_or_caveat\": \"Focus is personalized conversational search evaluation, not robustness to noise, conflict, adversaries, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

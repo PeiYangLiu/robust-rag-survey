@@ -1,0 +1,2 @@
+annotator_id,collection,paper_id,title,citation_decision,primary_perspective,scenario_type,relevance,evidence_strength,suggested_location,artifact_availability,supports_claims,rationale,caveat,confidence_1_5,needs_bibtex,notes
+A01,venue200_published,1,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,,,,,,,,,,,,,,

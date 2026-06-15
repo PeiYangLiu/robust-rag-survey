@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.22829v1",
+  "title": "LFRAG: Layout-oriented Fine-grained Retrieval-Augmented Generation on Multimodal Document Understanding",
+  "authors": "Yifan Zhu; Yu Mi; Yue Lu; Yanchu Guan; Zhixuan Chu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.22829v1",
+  "local_pdf": "pdfs/2026_yifan_zhu_lfrag_layout_oriented_fine_grained_retrieval_augmented_generation_on_multimodal_document_88858976.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes fine-grained block-level multimodal RAG to reduce irrelevant context, tangentially related to noisy retrieval/distraction but focused on retrieval granularity rather than robustness.",
+  "why_not_or_caveat": "Does not directly study robustness, noise injection, conflict, attacks, or calibration; primarily an efficiency/accuracy method for multimodal document RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.360049+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.22829v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes fine-grained block-level multimodal RAG to reduce irrelevant context, tangentially related to noisy retrieval/distraction but focused on retrieval granularity rather than robustness.\",\"why_not_or_caveat\":\"Does not directly study robustness, noise injection, conflict, attacks, or calibration; primarily an efficiency/accuracy method for multimodal document RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.08862",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2507.08862)] RAG Safety: Exploring Knowledge Poisoning Attacks to Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.08862",
+  "local_pdf": "pdfs/na_arxiv_2507_08862_ins_arxiv_ins_https_arxiv_org_abs_2507_08862_rag_safety_exploring_knowledge_pois_fee0cf2d.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "First systematic study of data poisoning attacks against KG-based RAG, injecting perturbation triples to mislead multi-hop reasoning; analyzes retrieval vs generation stage vulnerabilities and LLM robustness.",
+  "why_not_or_caveat": "Focuses specifically on KG-RAG rather than text-based RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:27.122395+00:00",
+  "raw_response": "{\"key\": \"arxiv-2507.08862\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"First systematic study of data poisoning attacks against KG-based RAG, injecting perturbation triples to mislead multi-hop reasoning; analyzes retrieval vs generation stage vulnerabilities and LLM robustness.\", \"why_not_or_caveat\": \"Focuses specifically on KG-RAG rather than text-based RAG.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption / Poisoning Attacks\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.12483v1",
+  "title": "MALM: A Multi-Information Adapter for Large Language Models to Mitigate Hallucination",
+  "authors": "Ao Jia; Haiming Wu; Guohui Yao; Dawei Song; Songkun Ji; Yazhou Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.12483v1",
+  "local_pdf": "pdfs/2025_ao_jia_malm_a_multi_information_adapter_for_large_language_models_to_mitigate_hallucination_045cb8da.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an adapter to mitigate input-, context-, and fact-conflicting hallucinations, including in RAG settings with noisy retrieved documents.",
+  "why_not_or_caveat": "Focus is broader hallucination mitigation via graph adapter; RAG robustness is secondary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict mitigation",
+  "confidence": 0.55,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:43.808956+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.12483v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an adapter to mitigate input-, context-, and fact-conflicting hallucinations, including in RAG settings with noisy retrieved documents.\",\"why_not_or_caveat\":\"Focus is broader hallucination mitigation via graph adapter; RAG robustness is secondary.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge conflict mitigation\",\"confidence\":0.55}",
+  "skipped_existing": false
+}

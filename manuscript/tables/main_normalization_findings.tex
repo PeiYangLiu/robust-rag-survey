@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.82}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
+\toprule
+\textbf{Case} & \textbf{Naive reading} & \textbf{Normalization coordinate that changes it} & \textbf{Revised conclusion} \\
+\midrule
+IrrelCtx \citep{irrelevantContext2023} vs. RAAT \citep{raat2024} & Both are ``noise-robust RAG'' methods. & IrrelCtx targets naturally retrieved irrelevant context and filtering/back-off; RAAT trains on constructed relevant/irrelevant/counterfactual mixtures. & They are complementary context-filtering vs. noise-training regimes, not one leaderboard. \\
+IrrelCtx \citep{irrelevantContext2023} vs. Chain-of-Note \citep{chainOfNote2023} & Both reduce distractor harm. & Intervention point differs: context filtering/fine-tuning vs. generator-side document reading. & A valid comparison must hold context state fixed and report whether the action is filter, answer, or unknown. \\
+Sufficient Context \citep{sufficientContext2024} vs. Self-RAG \citep{selfRAG2023} & Both decide when retrieval is useful. & Evidence-sufficiency labeling vs. retrieve/generate/critique action policy. & Sufficiency prediction is an evidence-state signal; adaptive retrieval is a policy over actions and costs. \\
+RAGTruth \citep{ragTruth2024} vs. FaithfulRAG/AstuteRAG \citep{faithfulRAG2025,astuteRAG2025} & All are faithfulness/conflict papers. & Unit of support differs: generated span support vs. fact/source conflict resolution. & Detector F1 and conflict-resolution accuracy should not be pooled as one faithfulness score. \\
+Tug-of-War \citep{tugOfWar2024} vs. ParamMute \citep{rrag024} & Both study parametric-vs-contextual knowledge. & Source-preference analysis vs. parametric-knowledge suppression/intervention. & The conclusion shifts from ``trust context or model'' to reporting source reliability and update policy. \\
+Poisoning corpora \citep{poisoningRetrievalCorpora2023} vs. PoisonedRAG \citep{poisonedRAG2024} & Both are RAG poisoning attacks. & Corpus-write access, query control, retriever visibility, and target objective differ. & Attack success rates transfer only inside a shared capability envelope. \\
+PoisonedRAG \citep{poisonedRAG2024} vs. CertifiedRAG \citep{certifiedRAG2024} & Attack and defense appear directly comparable. & Defense guarantee assumes bounded retrieved corruption and an aggregation/abstention policy. & Certification is meaningful only under the stated budget; it is not a universal defense to open-web insertion. \\
+AgentPoison \citep{rrag053} vs. document poisoning \citep{poisonedRAG2024} & Both corrupt retrieved evidence. & Persistent memory/tool state vs. static corpus passages. & Agentic poisoning needs memory-update and tool-call action labels, not only answer steering. \\
+Spill-Beans/privacy \citep{venue200SpillBeans} vs. steering attacks \citep{poisonedRAG2024} & Both are security failures. & Objective differs: data extraction or privacy leakage vs. answer manipulation. & Privacy, extraction, steering, traceback, and recovery require separate outcome columns. \\
+RAGAS/ARES \citep{ragas2024,ares2024} vs. RAGTruth \citep{ragTruth2024} & All evaluate grounded RAG. & LLM-as-judge metric toolkit vs. human-annotated hallucination/support resource. & Automated evaluation and corpus labels are different evidence artifacts; agreement with one does not validate the other. \\
+RGB \citep{rgb2023} vs. Sufficient Context \citep{sufficientContext2024} & Both benchmark unreliable evidence. & Diagnostic ability axes vs. answerability/sufficiency labels and selective risk. & A benchmark score is interpretable only after stating the evidence state and required action. \\
+Lost-in-the-Middle \citep{liu2024lostmiddle} vs. long-context retrieval & More context seems to solve retrieval misses. & Evidence availability differs from evidence selection and citation. & Full-context access can still fail if the model cannot select or ground the supporting span. \\
+ColPali/Table/Graph RAG \citep{colpali2025,tableRAG2024,venueAcc004} vs. passage RAG & Extension papers look like new application areas. & Evidence object changes: page image, table cell/schema, graph neighborhood, or tool memory. & They are retained as extension-layer stress tests of typed evidence states, not as broad co-equal survey scope. \\
+\bottomrule
+\end{tabularx}
+\caption{Concrete conclusions that change after five-coordinate normalization. Each row is grounded in released case-study or Map-B records and shows why a common citation-list comparison becomes invalid, partial, or more specific once failure, assumption, intervention, metric, and action are aligned.}
+\label{tab:main-normalization-findings}
+\end{table*}

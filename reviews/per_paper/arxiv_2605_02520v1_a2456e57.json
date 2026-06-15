@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.02520v1",
+  "title": "Benchmarking Retrieval Strategies for Biomedical Retrieval-Augmented Generation: A Controlled Empirical Study",
+  "authors": "Devi Prasad Bal; Subhashree Puhan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.02520v1",
+  "local_pdf": "pdfs/2026_devi_prasad_bal_benchmarking_retrieval_strategies_for_biomedical_retrieval_augmented_generation_a_contro_a2456e57.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Compares retrieval strategies in biomedical RAG with metrics including faithfulness and contextual precision, touching on retrieval noise from query expansion.",
+  "why_not_or_caveat": "Primarily a retrieval-strategy benchmarking study; not focused on robustness, conflict, adversarial issues, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:37.007997+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.02520v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Compares retrieval strategies in biomedical RAG with metrics including faithfulness and contextual precision, touching on retrieval noise from query expansion.\",\n  \"why_not_or_caveat\": \"Primarily a retrieval-strategy benchmarking study; not focused on robustness, conflict, adversarial issues, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

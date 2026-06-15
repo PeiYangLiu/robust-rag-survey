@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.13107v2",
+  "title": "All for law and law for all: Adaptive RAG Pipeline for Legal Research",
+  "authors": "Figarri Keisha; Prince Singh; Pallavi; Dion Fernandes; Aravindh Manivannan; Ilham Wicaksono; Faisal Ahmad; Wiem Ben Rim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.13107v2",
+  "local_pdf": "pdfs/2025_figarri_keisha_all_for_law_and_law_for_all_adaptive_rag_pipeline_for_legal_research_e56d52a2.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "An applied legal-domain RAG pipeline focusing on query translation, open-source retrieval, and evaluation metrics; does not directly study robustness, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Domain application paper without focus on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:50.567944+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.13107v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"An applied legal-domain RAG pipeline focusing on query translation, open-source retrieval, and evaluation metrics; does not directly study robustness, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Domain application paper without focus on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

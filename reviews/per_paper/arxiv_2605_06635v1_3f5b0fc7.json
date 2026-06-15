@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.06635v1",
+  "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+  "authors": "Hailey Onweller; Elias Lumer; Austin Huber; Pia Ramchandani; Vamse Kumar Subbiah; Corey Feld",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.06635v1",
+  "local_pdf": "pdfs/2026_hailey_onweller_cited_but_not_verified_parsing_and_evaluating_source_attribution_in_llm_deep_research_ag_3f5b0fc7.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces an evaluation framework for citation reliability in deep research RAG agents, measuring link validity, relevance, and factual accuracy, and shows factual accuracy degrades as retrieval depth scales—relevant to evaluation of unreliable evidence and citation trustworthiness.",
+  "why_not_or_caveat": "Focuses on citation/attribution evaluation rather than robustness mechanisms; tangential to noise/conflict/adversarial axes.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:03.807943+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.06635v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_search\":false,\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"calibration_control\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces an evaluation framework for citation reliability in deep research RAG agents, measuring link validity, relevance, and factual accuracy, and shows factual accuracy degrades as retrieval depth scales—relevant to evaluation of unreliable evidence and citation trustworthiness.\",\"why_not_or_caveat\":\"Focuses on citation/attribution evaluation rather than robustness mechanisms; tangential to noise/conflict/adversarial axes.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

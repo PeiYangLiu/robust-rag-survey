@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.01713v3",
+  "title": "SAGE: A Framework of Precise Retrieval for RAG",
+  "authors": "Jintao Zhang; Guoliang Li; Jinyang Su",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.01713v3",
+  "local_pdf": "pdfs/2025_jintao_zhang_sage_a_framework_of_precise_retrieval_for_rag_3553b457.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "SAGE addresses noisy and missing retrieval in RAG via semantic chunking, dynamic gradient-based chunk selection, and LLM self-feedback to adjust K, directly targeting noisy-context robustness.",
+  "why_not_or_caveat": "Focus is on retrieval precision/cost rather than adversarial robustness or calibration of abstention; relevance limited to noisy-retrieval subsection.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:05.881196+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.01713v3\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"SAGE addresses noisy and missing retrieval in RAG via semantic chunking, dynamic gradient-based chunk selection, and LLM self-feedback to adjust K, directly targeting noisy-context robustness.\",\"why_not_or_caveat\":\"Focus is on retrieval precision/cost rather than adversarial robustness or calibration of abstention; relevance limited to noisy-retrieval subsection.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval and Filtering\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

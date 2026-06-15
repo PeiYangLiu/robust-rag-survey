@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.18379v2",
+  "title": "REALM: Recursive Relevance Modeling for LLM-based Document Re-Ranking",
+  "authors": "Pinhuan Wang; Zhiqiu Xia; Chunhua Liao; Feiyi Wang; Hang Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.18379v2",
+  "local_pdf": "pdfs/2025_pinhuan_wang_realm_recursive_relevance_modeling_for_llm_based_document_re_ranking_8c7af8d4.pdf",
+  "metadata_topics": "uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an uncertainty-aware LLM re-ranker using Bayesian updates over Gaussian relevance distributions, touching on ranking uncertainty.",
+  "why_not_or_caveat": "Focuses on re-ranking efficiency/stability, not on RAG robustness to noisy/adversarial/conflicting evidence or generator-side calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:39.616505+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.18379v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an uncertainty-aware LLM re-ranker using Bayesian updates over Gaussian relevance distributions, touching on ranking uncertainty.\",\"why_not_or_caveat\":\"Focuses on re-ranking efficiency/stability, not on RAG robustness to noisy/adversarial/conflicting evidence or generator-side calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

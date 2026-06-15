@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.23989v1",
+  "title": "CoCR-RAG: Enhancing Retrieval-Augmented Generation in Web Q&A via Concept-oriented Context Reconstruction",
+  "authors": "Kaize Shi; Xueyao Sun; Qika Lin; Firoj Alam; Qing Li; Xiaohui Tao; Guandong Xu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.23989v1",
+  "local_pdf": "pdfs/2026_kaize_shi_cocr_rag_enhancing_retrieval_augmented_generation_in_web_q_a_via_concept_oriented_contex_0104e2e8.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a context reconstruction method to filter noisy/redundant multi-source retrieved documents in RAG, addressing irrelevance and inconsistency in heterogeneous web evidence.",
+  "why_not_or_caveat": "Focuses on context compression/fusion rather than explicit robustness analysis, attacks, or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Context Filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.324055+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.23989v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a context reconstruction method to filter noisy/redundant multi-source retrieved documents in RAG, addressing irrelevance and inconsistency in heterogeneous web evidence.\",\n  \"why_not_or_caveat\": \"Focuses on context compression/fusion rather than explicit robustness analysis, attacks, or calibration.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval / Context Filtering\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

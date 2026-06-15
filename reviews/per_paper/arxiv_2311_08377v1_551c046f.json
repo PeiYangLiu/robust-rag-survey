@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2311.08377v1",
+  "title": "Learning to Filter Context for Retrieval-Augmented Generation",
+  "authors": "Zhiruo Wang; Jun Araki; Zhengbao Jiang; Md Rizwan Parvez; Graham Neubig",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2311.08377v1",
+  "local_pdf": "pdfs/2023_zhiruo_wang_learning_to_filter_context_for_retrieval_augmented_generation_551c046f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "FILCO directly addresses unreliable retrieval by filtering irrelevant/distracting content from retrieved passages before generation, mitigating hallucination caused by noisy context.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy Retrieval / Context Filtering",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:26.992574+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2311.08377v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"FILCO directly addresses unreliable retrieval by filtering irrelevant/distracting content from retrieved passages before generation, mitigating hallucination caused by noisy context.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Noisy Retrieval / Context Filtering\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.25459v1",
+  "title": "SimulRAG: Simulator-based RAG for Grounding LLMs in Long-form Scientific QA",
+  "authors": "Haozhou Xu; Dongxia Wu; Matteo Chinazzi; Ruijia Niu; Rose Yu; Yi-An Ma",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.25459v1",
+  "local_pdf": "pdfs/2025_haozhou_xu_simulrag_simulator_based_rag_for_grounding_llms_in_long_form_scientific_qa_d62af0f1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a simulator-based RAG with claim-level uncertainty estimation to verify and update claims, touching calibration/control aspects.",
+  "why_not_or_caveat": "Primary focus is integrating simulators for scientific long-form QA, not robustness under unreliable evidence; only tangentially related via UE-based claim verification.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.027832+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.25459v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"ood_uncertainty\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a simulator-based RAG with claim-level uncertainty estimation to verify and update claims, touching calibration/control aspects.\",\"why_not_or_caveat\":\"Primary focus is integrating simulators for scientific long-form QA, not robustness under unreliable evidence; only tangentially related via UE-based claim verification.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

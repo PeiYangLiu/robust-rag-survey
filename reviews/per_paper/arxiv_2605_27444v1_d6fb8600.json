@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.27444v1",
+  "title": "A Systematic Evaluation of Retrieval-Augmented Generation and Language Models for Space Operations",
+  "authors": "Ruben Belo; Marta Guimarães; Cláudia Soares",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27444v1",
+  "local_pdf": "pdfs/2026_ruben_belo_a_systematic_evaluation_of_retrieval_augmented_generation_and_language_models_for_space_d6fb8600.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG evaluation for space operations; touches on retrieval quality but not robustness, conflict, adversarial, or calibration aspects central to the survey.",
+  "why_not_or_caveat": "Application-focused evaluation in a niche domain without contribution to robustness/uncertainty/conflict literature.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.967468+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.27444v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG evaluation for space operations; touches on retrieval quality but not robustness, conflict, adversarial, or calibration aspects central to the survey.\",\"why_not_or_caveat\":\"Application-focused evaluation in a niche domain without contribution to robustness/uncertainty/conflict literature.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

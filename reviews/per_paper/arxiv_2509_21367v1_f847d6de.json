@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21367v1",
+  "title": "Design and Implementation of a Secure RAG-Enhanced AI Chatbot for Smart Tourism Customer Service: Defending Against Prompt Injection Attacks -- A Case Study of Hsinchu, Taiwan",
+  "authors": "Yu-Kai Shih; You-Kai Kang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21367v1",
+  "local_pdf": "pdfs/2025_yu_kai_shih_design_and_implementation_of_a_secure_rag_enhanced_ai_chatbot_for_smart_tourism_customer_f847d6de.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Case study of a RAG chatbot with guardrails against prompt injection, with empirical evaluation on adversarial prompts.",
+  "why_not_or_caveat": "Application-focused (tourism), not a general method or benchmark contribution; defenses are ad-hoc and domain-specific.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / prompt injection defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.143414+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.21367v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Case study of a RAG chatbot with guardrails against prompt injection, with empirical evaluation on adversarial prompts.\",\n  \"why_not_or_caveat\": \"Application-focused (tourism), not a general method or benchmark contribution; defenses are ad-hoc and domain-specific.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial corruption / prompt injection defenses\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

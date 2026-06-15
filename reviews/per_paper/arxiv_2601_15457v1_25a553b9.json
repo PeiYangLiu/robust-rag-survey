@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.15457v1",
+  "title": "Chunking, Retrieval, and Re-ranking: An Empirical Evaluation of RAG Architectures for Policy Document Question Answering",
+  "authors": "Anuj Maharjan; Umesh Yadav",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15457v1",
+  "local_pdf": "pdfs/2026_anuj_maharjan_chunking_retrieval_and_re_ranking_an_empirical_evaluation_of_rag_architectures_for_polic_25a553b9.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Empirical evaluation of RAG architectures for CDC policy QA, measuring faithfulness/relevance with re-ranking.",
+  "why_not_or_caveat": "Application-focused; does not directly study robustness, conflict, adversaries, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:35.258021+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.15457v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"application\",\"why_relevant\":\"Empirical evaluation of RAG architectures for CDC policy QA, measuring faithfulness/relevance with re-ranking.\",\"why_not_or_caveat\":\"Application-focused; does not directly study robustness, conflict, adversaries, or calibration under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

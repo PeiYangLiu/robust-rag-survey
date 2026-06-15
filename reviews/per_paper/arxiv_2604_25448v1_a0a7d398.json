@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.25448v1",
+  "title": "Navigating Global AI Regulation: A Multi-Jurisdictional Retrieval-Augmented Generation System",
+  "authors": "Courtney Ford; Ojas Rane; Susan Leavy",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.25448v1",
+  "local_pdf": "pdfs/2026_courtney_ford_navigating_global_ai_regulation_a_multi_jurisdictional_retrieval_augmented_generation_sy_a0a7d398.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to AI regulation; does not study robustness, conflict, or unreliable evidence.",
+  "why_not_or_caveat": "Domain-specific RAG application with standard faithfulness eval, no focus on robustness topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.875654+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.25448v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to AI regulation; does not study robustness, conflict, or unreliable evidence.\",\"why_not_or_caveat\":\"Domain-specific RAG application with standard faithfulness eval, no focus on robustness topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

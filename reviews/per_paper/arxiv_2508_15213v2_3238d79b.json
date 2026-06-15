@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.15213v2",
+  "title": "Select to Know: An Internal-External Knowledge Self-Selection Framework for Domain-Specific Question Answering",
+  "authors": "Bolei He; Xinran He; Run Shao; Shanfu Shu; Xianwei Xue; Mingquan Cheng; Haifeng Li; Zhenhua Ling",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.15213v2",
+  "local_pdf": "pdfs/2025_bolei_he_select_to_know_an_internal_external_knowledge_self_selection_framework_for_domain_specif_3238d79b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes token-level internal-external knowledge fusion for domain QA, tangentially related to parametric-vs-retrieved conflict resolution.",
+  "why_not_or_caveat": "Focuses on domain adaptation via post-training rather than robustness to unreliable evidence, noise, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "knowledge conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.601538+00:00",
+  "raw_response": "{\"key\": \"arxiv-2508.15213v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"knowledge_conflict\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes token-level internal-external knowledge fusion for domain QA, tangentially related to parametric-vs-retrieved conflict resolution.\", \"why_not_or_caveat\": \"Focuses on domain adaptation via post-training rather than robustness to unreliable evidence, noise, attacks, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"knowledge conflict\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

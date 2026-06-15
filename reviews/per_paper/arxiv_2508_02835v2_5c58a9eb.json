@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.02835v2",
+  "title": "Defending Against Knowledge Poisoning Attacks During Retrieval-Augmented Generation",
+  "authors": "Kennedy Edemacu; Vinay M. Shashidhar; Micheal Tuape; Dan Abudu; Beakcheol Jang; Jong Wook Kim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.02835v2",
+  "local_pdf": "pdfs/2025_kennedy_edemacu_defending_against_knowledge_poisoning_attacks_during_retrieval_augmented_generation_5c58a9eb.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes filtration-based defenses (FilterRAG, ML-FilterRAG) against PoisonedRAG knowledge poisoning attacks, directly addressing adversarial corruption of RAG knowledge bases.",
+  "why_not_or_caveat": "Narrowly targets PoisonedRAG-style attacks; relies on a specific statistical property.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:39.940538+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.02835v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes filtration-based defenses (FilterRAG, ML-FilterRAG) against PoisonedRAG knowledge poisoning attacks, directly addressing adversarial corruption of RAG knowledge bases.\",\n  \"why_not_or_caveat\": \"Narrowly targets PoisonedRAG-style attacks; relies on a specific statistical property.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

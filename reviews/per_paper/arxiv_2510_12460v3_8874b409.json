@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.12460v3",
+  "title": "Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation",
+  "authors": "Linfeng Gao; Qinggang Zhang; Baolong Bi; Bo Zeng; Zheng Yuan; Zerui Chen; Zhimin Wei; Shenghua Liu; Linlong Xu; Longyue Wang; Weihua Luo; Jinsong Su",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.12460v3",
+  "local_pdf": "pdfs/2025_linfeng_gao_beyond_black_box_interventions_latent_probing_for_faithful_retrieval_augmented_generatio_8874b409.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes ProbeRAG, using latent-space probing to detect knowledge conflicts and filter noisy context, directly addressing faithfulness under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Faithfulness",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:39.497846+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.12460v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"knowledge_conflict\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes ProbeRAG, using latent-space probing to detect knowledge conflicts and filter noisy context, directly addressing faithfulness under unreliable evidence.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict and Faithfulness\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.14192v1",
+  "title": "Why Retrieval-Augmented Generation Fails: A Graph Perspective",
+  "authors": "Kai Guo; Xinnan Dai; Zhibo Zhang; Nuohan Lin; Shenglai Zeng; Jie Ren; Haoyu Han; Jiliang Tang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14192v1",
+  "local_pdf": "pdfs/2026_kai_guo_why_retrieval_augmented_generation_fails_a_graph_perspective_e3843f92.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes why RAG fails via internal attribution graphs, identifying distraction failure modes (surface-aligned evidence grounding) in mixed-context settings and proposing error detection plus interventions to improve robustness.",
+  "why_not_or_caveat": "Mechanistic interpretability angle is somewhat tangential to mainstream robustness benchmarks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and failure analysis",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:53.875042+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.14192v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"calibration_control\",\"noisy_retrieval\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Analyzes why RAG fails via internal attribution graphs, identifying distraction failure modes (surface-aligned evidence grounding) in mixed-context settings and proposing error detection plus interventions to improve robustness.\",\"why_not_or_caveat\":\"Mechanistic interpretability angle is somewhat tangential to mainstream robustness benchmarks.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and failure analysis\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

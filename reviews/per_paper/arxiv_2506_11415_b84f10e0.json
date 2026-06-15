@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.11415",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2506.11415)] Bias Amplification in RAG: Poisoning Knowledge Retrieval to Steer LLMs",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.11415",
+  "local_pdf": "pdfs/na_arxiv_2506_11415_ins_arxiv_ins_https_arxiv_org_abs_2506_11415_bias_amplification_in_rag_poisoning_b84f10e0.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a poisoning attack on RAG that manipulates retrieval to amplify model biases, plus a dual-stage defense, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Focus on fairness/bias amplification rather than factual correctness, a narrower angle than typical RAG poisoning.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:25.912470+00:00",
+  "raw_response": "{\"key\": \"arxiv-2506.11415\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"Proposes a poisoning attack on RAG that manipulates retrieval to amplify model biases, plus a dual-stage defense, directly relevant to adversarial corruption of retrieval.\", \"why_not_or_caveat\": \"Focus on fairness/bias amplification rather than factual correctness, a narrower angle than typical RAG poisoning.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption / Poisoning Attacks\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

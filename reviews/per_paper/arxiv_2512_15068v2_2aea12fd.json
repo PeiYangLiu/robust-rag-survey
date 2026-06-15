@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.15068v2",
+  "title": "The Semantic Illusion: Certified Limits of Embedding-Based Hallucination Detection in RAG Systems",
+  "authors": "Debu Sinha",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.15068v2",
+  "local_pdf": "pdfs/2025_debu_sinha_the_semantic_illusion_certified_limits_of_embedding_based_hallucination_detection_in_rag_2aea12fd.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Applies conformal prediction to RAG hallucination detection, providing finite-sample coverage guarantees and revealing limits of embedding/NLI-based detectors on real hallucinations—directly relevant to calibration, abstention, and evaluation in robust RAG.",
+  "why_not_or_caveat": "Focus is narrow on detector calibration; does not address retrieval noise or attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Hallucination Detection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:34.072100+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.15068v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Applies conformal prediction to RAG hallucination detection, providing finite-sample coverage guarantees and revealing limits of embedding/NLI-based detectors on real hallucinations—directly relevant to calibration, abstention, and evaluation in robust RAG.\",\"why_not_or_caveat\":\"Focus is narrow on detector calibration; does not address retrieval noise or attacks.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control / Hallucination Detection\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

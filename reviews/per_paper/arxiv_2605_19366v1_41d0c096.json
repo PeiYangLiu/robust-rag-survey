@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.19366v1",
+  "title": "Accurate, Efficient, and Explainable Deep Learning Approaches for Environmental Science Problems",
+  "authors": "Jimeng Shi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.19366v1",
+  "local_pdf": "pdfs/2026_jimeng_shi_accurate_efficient_and_explainable_deep_learning_approaches_for_environmental_science_pr_41d0c096.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Dissertation includes a chapter on Hypercube-RAG for in-domain scientific QA, touching on RAG accuracy and explainability.",
+  "why_not_or_caveat": "Primary focus is environmental science DL applications; RAG component is domain-specific QA, not centered on robustness, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:04.792807+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.19366v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Dissertation includes a chapter on Hypercube-RAG for in-domain scientific QA, touching on RAG accuracy and explainability.\",\"why_not_or_caveat\":\"Primary focus is environmental science DL applications; RAG component is domain-specific QA, not centered on robustness, conflict, adversaries, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

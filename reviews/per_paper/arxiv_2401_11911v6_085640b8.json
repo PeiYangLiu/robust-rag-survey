@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2401.11911v6",
+  "title": "Blinded by Generated Contexts: How Language Models Merge Generated and Retrieved Contexts When Knowledge Conflicts?",
+  "authors": "Hexiang Tan; Fei Sun; Wanli Yang; Yuanzhuo Wang; Qi Cao; Xueqi Cheng",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2401.11911v6",
+  "local_pdf": "pdfs/2024_hexiang_tan_blinded_by_generated_contexts_how_language_models_merge_generated_and_retrieved_contexts_085640b8.pdf",
+  "metadata_topics": "knowledge-conflict; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies how LLMs resolve conflicts between generated and retrieved contexts, revealing bias toward generated contexts even when incorrect. Directly relevant to retrieved-vs-retrieved/source conflict and context compliance issues in RAG.",
+  "why_not_or_caveat": "Focuses on generated vs retrieved context conflict rather than classical parametric-vs-retrieved conflict.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:02.389977+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2401.11911v6\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies how LLMs resolve conflicts between generated and retrieved contexts, revealing bias toward generated contexts even when incorrect. Directly relevant to retrieved-vs-retrieved/source conflict and context compliance issues in RAG.\",\n  \"why_not_or_caveat\": \"Focuses on generated vs retrieved context conflict rather than classical parametric-vs-retrieved conflict.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

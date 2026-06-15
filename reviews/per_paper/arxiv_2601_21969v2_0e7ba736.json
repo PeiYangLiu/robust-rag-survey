@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.21969v2",
+  "title": "Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding",
+  "authors": "Yifan Zhu; Huiqiang Rong; Haoran Luo",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.21969v2",
+  "local_pdf": "pdfs/2026_yifan_zhu_token_guard_towards_token_level_hallucination_control_via_self_checking_decoding_0e7ba736.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a decoding-time hallucination control method evaluated on HALU benchmarks; tangentially related to reliability of LLM generation but not focused on RAG robustness under unreliable evidence.",
+  "why_not_or_caveat": "Not about retrieval noise, conflict, adversarial documents, or RAG calibration; orthogonal decoding approach.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:12.088558+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.21969v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a decoding-time hallucination control method evaluated on HALU benchmarks; tangentially related to reliability of LLM generation but not focused on RAG robustness under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Not about retrieval noise, conflict, adversarial documents, or RAG calibration; orthogonal decoding approach.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

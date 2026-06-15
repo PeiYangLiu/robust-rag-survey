@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.11509v2",
+  "title": "Does Less Hallucination Mean Less Creativity? An Empirical Investigation in LLMs",
+  "authors": "Mohor Banerjee; Nadya Yuki Wangsajaya; Syed Ali Redha Alsagoff; Min Sen Tan; Zachary Choy Kit Chun; Alvin Chan Guo Wei",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.11509v2",
+  "local_pdf": "pdfs/2025_mohor_banerjee_does_less_hallucination_mean_less_creativity_an_empirical_investigation_in_llms_b3ef869d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies how hallucination-reduction methods (including RAG) affect creativity, not robustness of RAG under unreliable evidence.",
+  "why_not_or_caveat": "Out of scope; RAG is treated as one of several factuality methods, no analysis of noise, conflict, or adversarial evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:59.306740+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.11509v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies how hallucination-reduction methods (including RAG) affect creativity, not robustness of RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope; RAG is treated as one of several factuality methods, no analysis of noise, conflict, or adversarial evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

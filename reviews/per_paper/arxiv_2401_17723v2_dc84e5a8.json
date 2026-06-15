@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2401.17723v2",
+  "title": "LoRec: Large Language Model for Robust Sequential Recommendation against Poisoning Attacks",
+  "authors": "Kaike Zhang; Qi Cao; Yunfan Wu; Fei Sun; Huawei Shen; Xueqi Cheng",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2401.17723v2",
+  "local_pdf": "pdfs/2024_kaike_zhang_lorec_large_language_model_for_robust_sequential_recommendation_against_poisoning_attack_dc84e5a8.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Paper addresses poisoning attacks on sequential recommender systems using LLMs, not RAG robustness.",
+  "why_not_or_caveat": "Not about retrieval-augmented generation or unreliable evidence in RAG context.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:29.627707+00:00",
+  "raw_response": "{\"key\":\"arxiv-2401.17723v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"defense\",\"why_relevant\":\"Paper addresses poisoning attacks on sequential recommender systems using LLMs, not RAG robustness.\",\"why_not_or_caveat\":\"Not about retrieval-augmented generation or unreliable evidence in RAG context.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

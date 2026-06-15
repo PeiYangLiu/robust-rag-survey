@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.05883v1",
+  "title": "Multimodal Prompt Injection Attacks: Risks and Defenses for Modern LLMs",
+  "authors": "Andrew Yeo; Daeseon Choi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.05883v1",
+  "local_pdf": "pdfs/2025_andrew_yeo_multimodal_prompt_injection_attacks_risks_and_defenses_for_modern_llms_da460f02.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates prompt injection (including indirect/external) on commercial LLMs, tangentially relevant to RAG adversarial corruption via injected external content.",
+  "why_not_or_caveat": "Not RAG-specific; focuses broadly on prompt injection across LLMs without addressing retrieval pipelines, defenses, or RAG-specific evaluation.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / prompt injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:08.765666+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.05883v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Evaluates prompt injection (including indirect/external) on commercial LLMs, tangentially relevant to RAG adversarial corruption via injected external content.\",\"why_not_or_caveat\":\"Not RAG-specific; focuses broadly on prompt injection across LLMs without addressing retrieval pipelines, defenses, or RAG-specific evaluation.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption / prompt injection\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

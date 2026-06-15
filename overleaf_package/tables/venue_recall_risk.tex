@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}X}
+\toprule
+\textbf{Recall check} & \textbf{Observed result} & \textbf{What it controls} & \textbf{Residual risk} \\
+\midrule
+ACL Anthology metadata scan & 12,924 entries scanned for ACL/EMNLP/NAACL/COLING; 181 RAG candidates; 30 robust-RAG candidates & Reduces reliance on arXiv-only discovery for core NLP venues. & Title/abstract terms can miss papers using older QA/IR terminology. \\
+Cross-venue metadata pass & DBLP/OpenAlex queries yielded 51 venue-linked robust-RAG candidates & Adds IR, web, security, and ML venue-linked records. & API ranking, metadata naming, and transient query errors limit recall. \\
+Follow-up triage & 51 candidates triaged; 26 added to scoping set; 24 added to evidence map; 9 excluded; 2 duplicates & Closes the known unprocessed venue-candidate gap. & Does not prove complete coverage of every proceedings volume. \\
+Evidence-strength sensitivity & Main conclusions separated into venue-linked backbone vs preprint trend evidence & Prevents preprint-heavy map statistics from becoming field-level claims. & Some emerging security/control subtopics remain too new for strong consensus. \\
+\bottomrule
+\end{tabularx}
+\caption{Venue-recall risk analysis. The venue pass improves auditability and adds missed venue-linked papers, but it is still not a manual venue-complete proceedings review.}
+\label{tab:venue-recall-risk}
+\end{table*}
+

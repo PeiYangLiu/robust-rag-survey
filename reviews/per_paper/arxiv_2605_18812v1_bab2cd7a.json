@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.18812v1",
+  "title": "PASC: Pipeline-Aware Conformal Prediction with Joint Coverage Guarantees for Multi-Stage NLP and LLM Pipelines",
+  "authors": "Varun Kotte",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18812v1",
+  "local_pdf": "pdfs/2026_varun_kotte_pasc_pipeline_aware_conformal_prediction_with_joint_coverage_guarantees_for_multi_stage_bab2cd7a.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes pipeline-aware conformal prediction with joint coverage guarantees, mentioning RAG (retriever->reader) as one example pipeline. Could be cited as background for calibration in multi-stage RAG systems.",
+  "why_not_or_caveat": "Not specifically about RAG robustness; experiments are on NER/NED/typing pipeline, not RAG. Only tangentially relevant.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:01.468893+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.18812v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes pipeline-aware conformal prediction with joint coverage guarantees, mentioning RAG (retriever->reader) as one example pipeline. Could be cited as background for calibration in multi-stage RAG systems.\", \"why_not_or_caveat\": \"Not specifically about RAG robustness; experiments are on NER/NED/typing pipeline, not RAG. Only tangentially relevant.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Calibration and control\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

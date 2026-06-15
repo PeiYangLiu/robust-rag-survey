@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.10189v1",
+  "title": "FAITH: Factuality Alignment through Integrating Trustworthiness and Honestness",
+  "authors": "Xiaoning Dong; Chengyan Wu; Yajie Wen; Yu Chen; Yun Xue; Jing Zhang; Wei Xu; Bolei Ma",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.10189v1",
+  "local_pdf": "pdfs/2026_xiaoning_dong_faith_factuality_alignment_through_integrating_trustworthiness_and_honestness_2237b569.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "FAITH is a post-training method for factuality alignment that integrates uncertainty estimation (consistency, semantic entropy) with a RAG module to rectify low-confidence responses, relevant to calibration/control and knowing when to trust internal vs external knowledge.",
+  "why_not_or_caveat": "Focus is on factuality alignment via uncertainty-aware RL; RAG is auxiliary rather than the core robustness contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:04.385794+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.10189v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"FAITH is a post-training method for factuality alignment that integrates uncertainty estimation (consistency, semantic entropy) with a RAG module to rectify low-confidence responses, relevant to calibration/control and knowing when to trust internal vs external knowledge.\", \"why_not_or_caveat\": \"Focus is on factuality alignment via uncertainty-aware RL; RAG is auxiliary rather than the core robustness contribution.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

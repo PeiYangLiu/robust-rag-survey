@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.15050v5",
+  "title": "Entailed Opinion Matters: Improving the Fact-Checking Performance of Language Models by Relying on their Entailment Ability",
+  "authors": "Gaurav Kumar; Ayush Garg; Debajyoti Mazumder; Aditya Kishore; Babu kumar; Jasabanta Patro",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.15050v5",
+  "local_pdf": "pdfs/2025_gaurav_kumar_entailed_opinion_matters_improving_the_fact_checking_performance_of_language_models_by_r_a79516a2.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an entailment-based method for fact-checking that classifies supporting vs refuting evidence, tangentially touching on conflict resolution in evidence sets.",
+  "why_not_or_caveat": "Focused on fact-checking pipelines, not RAG robustness; doesn't directly study noise, attacks, calibration, or RAG-specific issues.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:33.370385+00:00",
+  "raw_response": "{\"key\": \"arxiv-2505.15050v5\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes an entailment-based method for fact-checking that classifies supporting vs refuting evidence, tangentially touching on conflict resolution in evidence sets.\", \"why_not_or_caveat\": \"Focused on fact-checking pipelines, not RAG robustness; doesn't directly study noise, attacks, calibration, or RAG-specific issues.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

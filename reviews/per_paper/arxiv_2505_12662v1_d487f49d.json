@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.12662v1",
+  "title": "Know3-RAG: A Knowledge-aware RAG Framework with Adaptive Retrieval, Generation, and Filtering",
+  "authors": "Xukai Liu; Ye Liu; Shiwen Wu; Yanghai Zhang; Yihao Yuan; Kai Zhang; Qi Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.12662v1",
+  "local_pdf": "pdfs/2025_xukai_liu_know3_rag_a_knowledge_aware_rag_framework_with_adaptive_retrieval_generation_and_filteri_d487f49d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KG-guided RAG framework with adaptive retrieval decisions and reference filtering to reduce noisy/misleading evidence and hallucinations, touching on calibration of retrieval necessity and filtering of irrelevant passages.",
+  "why_not_or_caveat": "Primarily a method paper focused on QA accuracy; robustness/uncertainty not analyzed under adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Adaptive Retrieval and Filtering",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:39.340386+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.12662v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a KG-guided RAG framework with adaptive retrieval decisions and reference filtering to reduce noisy/misleading evidence and hallucinations, touching on calibration of retrieval necessity and filtering of irrelevant passages.\",\n  \"why_not_or_caveat\": \"Primarily a method paper focused on QA accuracy; robustness/uncertainty not analyzed under adversarial or conflict settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: Adaptive Retrieval and Filtering\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

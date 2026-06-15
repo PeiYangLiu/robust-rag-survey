@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2310.07521",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2310.07521)\\] Survey on Factuality in Large Language Models: Knowledge, Retrieval and Domain-Specificity",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.07521",
+  "local_pdf": "pdfs/na_arxiv_2310_07521_arxiv_https_arxiv_org_abs_2310_07521_survey_on_factuality_in_large_language_mode_14bb8b66.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "survey_related",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A broad survey on LLM factuality covering retrieval-augmented LLMs, knowledge conflict, distracting information, and evaluation, overlapping with several robust RAG themes.",
+  "why_not_or_caveat": "Scope is factuality broadly, not focused on RAG robustness, adversarial attacks, or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Related Surveys",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:29.267917+00:00",
+  "raw_response": "{\"key\":\"arxiv-2310.07521\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":true,\"primary_categories\":[\"survey_related\",\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"survey\",\"why_relevant\":\"A broad survey on LLM factuality covering retrieval-augmented LLMs, knowledge conflict, distracting information, and evaluation, overlapping with several robust RAG themes.\",\"why_not_or_caveat\":\"Scope is factuality broadly, not focused on RAG robustness, adversarial attacks, or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Related Surveys\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

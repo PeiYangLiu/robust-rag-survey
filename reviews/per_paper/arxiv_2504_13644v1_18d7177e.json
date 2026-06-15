@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.13644v1",
+  "title": "Exploring the Potential for Large Language Models to Demonstrate Rational Probabilistic Beliefs",
+  "authors": "Gabriel Freedman; Francesca Toni",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.13644v1",
+  "local_pdf": "pdfs/2025_gabriel_freedman_exploring_the_potential_for_large_language_models_to_demonstrate_rational_probabilistic_18d7177e.pdf",
+  "metadata_topics": "knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies LLM probabilistic reasoning coherence and uncertainty quantification, tangentially relevant to calibration discussion but not focused on RAG or unreliable evidence.",
+  "why_not_or_caveat": "No RAG component; focuses on intrinsic probabilistic belief consistency rather than retrieval robustness.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and uncertainty",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.666761+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.13644v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies LLM probabilistic reasoning coherence and uncertainty quantification, tangentially relevant to calibration discussion but not focused on RAG or unreliable evidence.\",\"why_not_or_caveat\":\"No RAG component; focuses on intrinsic probabilistic belief consistency rather than retrieval robustness.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and uncertainty\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

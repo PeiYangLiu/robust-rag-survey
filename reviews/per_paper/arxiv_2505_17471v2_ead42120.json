@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.17471v2",
+  "title": "FinRAGBench-V: A Benchmark for Multimodal RAG with Visual Citation in the Financial Domain",
+  "authors": "Suifeng Zhao; Zhuoran Jin; Sujian Li; Jun Gao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.17471v2",
+  "local_pdf": "pdfs/2025_suifeng_zhao_finragbench_v_a_benchmark_for_multimodal_rag_with_visual_citation_in_the_financial_domai_ead42120.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Multimodal financial RAG benchmark with visual citation, but does not focus on robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Domain-specific application benchmark; citation traceability is tangential to the survey's robustness scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:46.620034+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.17471v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Multimodal financial RAG benchmark with visual citation, but does not focus on robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Domain-specific application benchmark; citation traceability is tangential to the survey's robustness scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

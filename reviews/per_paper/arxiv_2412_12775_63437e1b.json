@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2412.12775",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2412.12775)\\] RemoteRAG: A Privacy-Preserving LLM Cloud RAG Service",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.12775",
+  "local_pdf": "pdfs/na_arxiv_2412_12775_arxiv_https_arxiv_org_abs_2412_12775_remoterag_a_privacy_preserving_llm_cloud_ra_63437e1b.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Focuses on privacy-preserving cloud RAG via differential privacy on query embeddings, not on robustness to unreliable evidence.",
+  "why_not_or_caveat": "Out of scope: privacy, not noise/conflict/attack/calibration on evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.313426+00:00",
+  "raw_response": "{\"key\":\"arxiv-2412.12775\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Focuses on privacy-preserving cloud RAG via differential privacy on query embeddings, not on robustness to unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope: privacy, not noise/conflict/attack/calibration on evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

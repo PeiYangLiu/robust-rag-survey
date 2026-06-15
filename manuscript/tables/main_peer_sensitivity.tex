@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.26\linewidth}X}
+\toprule
+\textbf{Conclusion tested after downweighting preprints} & \textbf{Venue-linked support in map} & \textbf{What remains supported} & \textbf{What remains trend evidence} \\
+\midrule
+Noise/distraction are not reducible to retriever recall. & 22 primary noisy-retrieval and 6 distraction venue-linked rows, plus context-compression/reranking benchmarks. & Context construction, ranking, compression, and generator selectivity all affect robustness. & Exact method rankings across retrievers, generators, and context budgets. \\
+Natural conflict and poisoning are different comparison games. & 16 primary knowledge-conflict and 26 adversarial-corruption venue-linked rows. & Source reconciliation and attacker-created integrity failures require different assumptions and metrics. & Transfer from conflict-resolution methods to adaptive poisoning defenses. \\
+RAG security results require capability normalization. & 26 primary adversarial-corruption venue-linked rows, including poisoning, privacy/extraction, and defenses. & Attack success is uninterpretable without corpus access, query control, retriever visibility, insertion budget, objective, and defense action. & Detailed cross-threat leaderboards across heterogeneous attacker capabilities. \\
+Calibration, abstention, and retrieval control are separable. & 20 primary calibration/control venue-linked rows plus answerability and adaptive retrieval work. & Confidence target, evidence sufficiency, coverage, retrieval cost, and action utility should be reported separately. & Frontier-model control policies and multi-action cost tradeoffs across domains. \\
+Answer accuracy alone is insufficient for robust-RAG evaluation. & 28 primary evaluation/benchmark venue-linked rows. & Evidence state, support, threat model, action policy, and cost are needed to interpret results. & A full action-trace benchmark remains future work. \\
+Extension-layer RAG requires typed evidence states. & 6 primary extension-layer venue-linked rows. & Visual, graph, table, memory, tool, code, and domain evidence require modality-specific grounding and action labels. & Unified evaluation across text, multimodal, graph, table, and agentic RAG remains immature and is not treated as co-equal coverage. \\
+\bottomrule
+\end{tabularx}
+\caption{Peer-reviewed / venue-linked sensitivity in the main text. Counts refer to primary labels in the 342-record adjudicated venue-expanded evidence map.}
+\label{tab:main-peer-sensitivity}
+\end{table*}

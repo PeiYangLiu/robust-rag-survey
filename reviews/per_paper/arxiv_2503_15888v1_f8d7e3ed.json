@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.15888v1",
+  "title": "Parameters vs. Context: Fine-Grained Control of Knowledge Reliance in Language Models",
+  "authors": "Baolong Bi; Shenghua Liu; Yiwei Wang; Yilong Xu; Junfeng Fang; Lingrui Mei; Xueqi Cheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.15888v1",
+  "local_pdf": "pdfs/2025_baolong_bi_parameters_vs_context_fine_grained_control_of_knowledge_reliance_in_language_models_f8d7e3ed.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes CK-PLUG, a decoding-time method to control LLM reliance on parametric vs retrieved knowledge using entropy-based confidence gain to detect conflicts, directly addressing knowledge conflict and calibration/control in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict and Control",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.131919+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.15888v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes CK-PLUG, a decoding-time method to control LLM reliance on parametric vs retrieved knowledge using entropy-based confidence gain to detect conflicts, directly addressing knowledge conflict and calibration/control in RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict and Control\",\"confidence\":0.92}",
+  "skipped_existing": false
+}

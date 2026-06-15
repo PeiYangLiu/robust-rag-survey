@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2310.04408v1",
+  "title": "RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation",
+  "authors": "Fangyuan Xu; Weijia Shi; Eunsol Choi",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.04408v1",
+  "local_pdf": "pdfs/2023_fangyuan_xu_recomp_improving_retrieval_augmented_lms_with_compression_and_selective_augmentation_109dc227.pdf",
+  "metadata_topics": "noisy-retrieval; knowledge-conflict; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "RECOMP compresses retrieved documents and supports selective augmentation (returning empty when retrieval is irrelevant), directly addressing noisy/distracting retrieval and when-to-trust-retrieval control in RAG.",
+  "why_not_or_caveat": "Primary motivation is efficiency; robustness is a secondary benefit.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Filtering and selective augmentation",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:48.547183+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2310.04408v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"RECOMP compresses retrieved documents and supports selective augmentation (returning empty when retrieval is irrelevant), directly addressing noisy/distracting retrieval and when-to-trust-retrieval control in RAG.\",\n  \"why_not_or_caveat\": \"Primary motivation is efficiency; robustness is a secondary benefit.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Filtering and selective augmentation\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.07612v1",
+  "title": "KohakuRAG: A simple RAG framework with hierarchical document indexing",
+  "authors": "Shih-Ying Yeh; Yueh-Feng Ku; Ko-Wei Huang; Buu-Khang Tu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07612v1",
+  "local_pdf": "pdfs/2026_shih_ying_yeh_kohakurag_a_simple_rag_framework_with_hierarchical_document_indexing_584e1f8f.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hierarchical RAG framework with ensemble voting and abstention filtering for a benchmark challenge. Touches abstention but is primarily a system paper, not robustness-focused.",
+  "why_not_or_caveat": "Does not study noise, distraction, conflict, attacks, calibration, or OOD in any substantive way beyond abstention voting on a single challenge.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.805131+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.07612v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a hierarchical RAG framework with ensemble voting and abstention filtering for a benchmark challenge. Touches abstention but is primarily a system paper, not robustness-focused.\",\"why_not_or_caveat\":\"Does not study noise, distraction, conflict, attacks, calibration, or OOD in any substantive way beyond abstention voting on a single challenge.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

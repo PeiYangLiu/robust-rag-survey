@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.25039v1",
+  "title": "AstroRAG -- A Pagerank-Based Retrieval-Augmented Generation Pipeline for Question Answering in Astronomy",
+  "authors": "Zhifeng Wang; Jason Jingshi Li; Kaihao Zhang; Ramesh Sankaranarayana",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.25039v1",
+  "local_pdf": "pdfs/2026_zhifeng_wang_astrorag_a_pagerank_based_retrieval_augmented_generation_pipeline_for_question_answering_cb13db06.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a domain-specific RAG pipeline for astronomy QA with PageRank re-ranking to reduce distractor passages, but the focus is application performance rather than robustness analysis.",
+  "why_not_or_caveat": "No systematic study of noise, conflict, adversaries, or calibration; relevance to robust RAG is incidental.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.129077+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.25039v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a domain-specific RAG pipeline for astronomy QA with PageRank re-ranking to reduce distractor passages, but the focus is application performance rather than robustness analysis.\",\n  \"why_not_or_caveat\": \"No systematic study of noise, conflict, adversaries, or calibration; relevance to robust RAG is incidental.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

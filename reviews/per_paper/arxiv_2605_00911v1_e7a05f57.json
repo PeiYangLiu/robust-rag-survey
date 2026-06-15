@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.00911v1",
+  "title": "When Good OCR Is Not Enough: Benchmarking OCR Robustness for Retrieval-Augmented Generation",
+  "authors": "Lin Sun; Wang Dexian; Jingang Huang; Linglin Zhang; Change Jia; Zhengwei Cheng; Xiangzheng Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00911v1",
+  "local_pdf": "pdfs/2026_lin_sun_when_good_ocr_is_not_enough_benchmarking_ocr_robustness_for_retrieval_augmented_generati_e7a05f57.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark showing how OCR-induced structural/semantic errors degrade RAG retrieval and generation, a form of upstream noisy/unreliable evidence in industrial RAG pipelines.",
+  "why_not_or_caveat": "Focus is on OCR quality rather than retrieval robustness per se; narrower scope on document parsing noise.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and evaluation benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:21.730826+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.00911v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a benchmark showing how OCR-induced structural/semantic errors degrade RAG retrieval and generation, a form of upstream noisy/unreliable evidence in industrial RAG pipelines.\",\n  \"why_not_or_caveat\": \"Focus is on OCR quality rather than retrieval robustness per se; narrower scope on document parsing noise.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and evaluation benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.23071v1",
+  "title": "From Evidence to Trajectory: Abductive Reasoning Path Synthesis for Training Retrieval-Augmented Generation Agents",
+  "authors": "Muzhi Li; Jinhu Qi; Yihong Wu; Minghao Zhao; Liheng Ma; Yifan Li; Xinyu Wang; Yingxue Zhang; Ho-fung Leung; Irwin King",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.23071v1",
+  "local_pdf": "pdfs/2025_muzhi_li_from_evidence_to_trajectory_abductive_reasoning_path_synthesis_for_training_retrieval_au_7d1a5e5c.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a data synthesis paradigm for training RAG agents on multi-hop QA, with some mention of bypassing retrieval errors via simulated environment.",
+  "why_not_or_caveat": "Focus is on reasoning trajectory synthesis and agent training, not on robustness, noise, conflict, adversarial attacks, calibration, or evaluation under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:21.474513+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.23071v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a data synthesis paradigm for training RAG agents on multi-hop QA, with some mention of bypassing retrieval errors via simulated environment.\",\n  \"why_not_or_caveat\": \"Focus is on reasoning trajectory synthesis and agent training, not on robustness, noise, conflict, adversarial attacks, calibration, or evaluation under unreliable evidence.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

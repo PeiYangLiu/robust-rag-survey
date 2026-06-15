@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.23254v2",
+  "title": "GrepRAG: An Empirical Study and Optimization of Grep-Like Retrieval for Code Completion",
+  "authors": "Baoyi Wang; Xingliang Wang; Guochang Li; Chen Zhi; Junxiao Han; Xinkui Zhao; Nan Wang; Shuiguang Deng; Jianwei Yin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.23254v2",
+  "local_pdf": "pdfs/2026_baoyi_wang_greprag_an_empirical_study_and_optimization_of_grep_like_retrieval_for_code_completion_8faf4054.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a lexical retrieval method for code completion; addresses retrieval noise from ambiguous keywords only tangentially.",
+  "why_not_or_caveat": "Application of RAG to code completion, not a study of robustness/conflict/calibration in the survey's sense.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:30.822465+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.23254v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a lexical retrieval method for code completion; addresses retrieval noise from ambiguous keywords only tangentially.\",\"why_not_or_caveat\":\"Application of RAG to code completion, not a study of robustness/conflict/calibration in the survey's sense.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

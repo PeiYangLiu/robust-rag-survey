@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.13417v1",
+  "title": "The Cognitive Circuit Breaker: A Systems Engineering Framework for Intrinsic AI Reliability",
+  "authors": "Jonathan Pan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.13417v1",
+  "local_pdf": "pdfs/2026_jonathan_pan_the_cognitive_circuit_breaker_a_systems_engineering_framework_for_intrinsic_ai_reliabili_c023d622.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes intrinsic hallucination detection via hidden-state probes contrasting semantic vs latent confidence, tangentially related to calibration/abstention in RAG pipelines.",
+  "why_not_or_caveat": "Not about RAG robustness; explicitly positions itself as an alternative to RAG cross-checking, with no study of retrieval, evidence quality, or conflict.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and confidence",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:56.956132+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.13417v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes intrinsic hallucination detection via hidden-state probes contrasting semantic vs latent confidence, tangentially related to calibration/abstention in RAG pipelines.\",\"why_not_or_caveat\":\"Not about RAG robustness; explicitly positions itself as an alternative to RAG cross-checking, with no study of retrieval, evidence quality, or conflict.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and confidence\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.00597v4",
+  "title": "On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation",
+  "authors": "Jirui Qi; Raquel Fernández; Arianna Bisazza",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.00597v4",
+  "local_pdf": "pdfs/2025_jirui_qi_on_the_consistency_of_multilingual_context_utilization_in_retrieval_augmented_generation_0d90819b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies how LLMs in multilingual RAG handle distracting passages across languages and consistency of context utilization, relevant to distraction and robustness evaluation.",
+  "why_not_or_caveat": "Focus is multilingual consistency rather than core robustness; distraction analysis is a secondary aspect.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:06.968477+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.00597v4\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies how LLMs in multilingual RAG handle distracting passages across languages and consistency of context utilization, relevant to distraction and robustness evaluation.\",\"why_not_or_caveat\":\"Focus is multilingual consistency rather than core robustness; distraction analysis is a secondary aspect.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

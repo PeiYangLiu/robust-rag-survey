@@ -1,0 +1,27 @@
+{
+  "key": "acl-2024.findings-emnlp.161",
+  "title": "[[<ins>arxiv</ins>](https://aclanthology.org/2024.findings-emnlp.161/)] Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations",
+  "authors": "",
+  "year": "2024",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2024.findings-emnlp.161/",
+  "local_pdf": "pdfs/2024_acl_2024_findings_emnlp_161_ins_arxiv_ins_https_aclanthology_org_2024_findings_emnlp_161_typos_that_broke_th_1eb4995b.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes GARAG, a genetic black-box adversarial attack injecting low-level typo perturbations to jointly disrupt retriever and reader in RAG, demonstrating holistic vulnerability of RAG pipelines to realistic noisy documents.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:23.257398+00:00",
+  "raw_response": "{\"key\":\"acl-2024.findings-emnlp.161\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"noisy_retrieval\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes GARAG, a genetic black-box adversarial attack injecting low-level typo perturbations to jointly disrupt retriever and reader in RAG, demonstrating holistic vulnerability of RAG pipelines to realistic noisy documents.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

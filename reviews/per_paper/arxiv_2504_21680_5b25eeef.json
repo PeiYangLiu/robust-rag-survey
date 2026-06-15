@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.21680",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2504.21680)] Hoist with His Own Petard: Inducing Guardrails to Facilitate Denial-of-Service Attacks on Retrieval-Augmented Generation of LLMs",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.21680",
+  "local_pdf": "pdfs/na_arxiv_2504_21680_ins_arxiv_ins_https_arxiv_org_abs_2504_21680_hoist_with_his_own_petard_inducing__5b25eeef.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes MutedRAG, a denial-of-service poisoning attack that injects jailbreak prompts into the knowledge base to trigger LLM guardrails, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Injection Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:25.461561+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.21680\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes MutedRAG, a denial-of-service poisoning attack that injects jailbreak prompts into the knowledge base to trigger LLM guardrails, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning and Injection Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

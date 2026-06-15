@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.00172v1",
+  "title": "Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal Retrieval-Augmented Generation",
+  "authors": "Kennedy Edemacu; Mohammad Mahdi Shokri",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.00172v1",
+  "local_pdf": "pdfs/2026_kennedy_edemacu_hidden_in_the_metadata_stealth_poisoning_attacks_on_multimodal_retrieval_augmented_gener_e35f3057.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Presents a stealth metadata-only poisoning attack against multimodal RAG, evaluates defenses, and exposes retrieval vulnerabilities—directly relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Focused on multimodal RAG; narrower scope than general text RAG poisoning.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:45.465452+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.00172v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Presents a stealth metadata-only poisoning attack against multimodal RAG, evaluates defenses, and exposes retrieval vulnerabilities—directly relevant to the adversarial corruption section.\",\n  \"why_not_or_caveat\": \"Focused on multimodal RAG; narrower scope than general text RAG poisoning.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

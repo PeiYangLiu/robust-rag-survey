@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.10008v2",
+  "title": "RIPRAG: Hack a Black-box Retrieval-Augmented Generation Question-Answering System with Reinforcement Learning",
+  "authors": "Meng Xi; Sihan Lv; Yechen Jin; Guanjie Cheng; Naibo Wang; Ying Li; Jianwei Yin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.10008v2",
+  "local_pdf": "pdfs/2025_meng_xi_riprag_hack_a_black_box_retrieval_augmented_generation_question_answering_system_with_re_69ead518.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box RL-based poisoning attack on RAG QA systems, directly relevant to adversarial corruption and benchmarking against defended RAG systems.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:11.324549+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.10008v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a black-box RL-based poisoning attack on RAG QA systems, directly relevant to adversarial corruption and benchmarking against defended RAG systems.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

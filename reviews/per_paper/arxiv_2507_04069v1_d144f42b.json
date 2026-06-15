@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.04069v1",
+  "title": "Beyond Independent Passages: Adaptive Passage Combination Retrieval for Retrieval Augmented Open-Domain Question Answering",
+  "authors": "Ting-Wen Ko; Jyun-Yu Jiang; Pu-Jen Cheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.04069v1",
+  "local_pdf": "pdfs/2025_ting_wen_ko_beyond_independent_passages_adaptive_passage_combination_retrieval_for_retrieval_augment_d144f42b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an adaptive passage combination retrieval method that addresses redundancy and noise in retrieved passages and adaptive selection of number of passages, tangentially relevant to noisy retrieval.",
+  "why_not_or_caveat": "Main focus is improving multi-hop ODQA retrieval quality, not robustness, calibration, conflict, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / adaptive retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.273629+00:00",
+  "raw_response": "{\"key\": \"arxiv-2507.04069v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes an adaptive passage combination retrieval method that addresses redundancy and noise in retrieved passages and adaptive selection of number of passages, tangentially relevant to noisy retrieval.\", \"why_not_or_caveat\": \"Main focus is improving multi-hop ODQA retrieval quality, not robustness, calibration, conflict, or adversarial settings.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Noisy retrieval / adaptive retrieval\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

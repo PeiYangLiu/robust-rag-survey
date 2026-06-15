@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.15109v1",
+  "title": "Why Neighborhoods Matter: Traversal Context and Provenance in Agentic GraphRAG",
+  "authors": "Riccardo Terrenzi; Maximilian von Zastrow; Serkan Ayvaz",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.15109v1",
+  "local_pdf": "pdfs/2026_riccardo_terrenzi_why_neighborhoods_matter_traversal_context_and_provenance_in_agentic_graphrag_58280717.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies citation faithfulness and provenance in Agentic GraphRAG via ablations, touching on evaluation of grounding reliability.",
+  "why_not_or_caveat": "Focuses on citation/provenance in graph traversal rather than robustness to noise, conflict, adversaries, or calibration; small-scale and tangential.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation of faithfulness and provenance",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:55.369007+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.15109v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Studies citation faithfulness and provenance in Agentic GraphRAG via ablations, touching on evaluation of grounding reliability.\", \"why_not_or_caveat\": \"Focuses on citation/provenance in graph traversal rather than robustness to noise, conflict, adversaries, or calibration; small-scale and tangential.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation of faithfulness and provenance\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

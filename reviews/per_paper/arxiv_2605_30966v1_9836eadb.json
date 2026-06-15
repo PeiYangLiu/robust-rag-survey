@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.30966v1",
+  "title": "Reading Between the Citations: A Typed Claim Network for Scientific Literature",
+  "authors": "Ning Ding; Sergio J. Rodríguez Méndez; Pouya G. Omran",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.30966v1",
+  "local_pdf": "pdfs/2026_ning_ding_reading_between_the_citations_a_typed_claim_network_for_scientific_literature_9836eadb.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a typed claim network representation for scholarly citations and compares to RAG baselines on QA tasks.",
+  "why_not_or_caveat": "Does not address robustness, noise, conflict, adversarial attacks, calibration, or uncertainty in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:49.538538+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.30966v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a typed claim network representation for scholarly citations and compares to RAG baselines on QA tasks.\",\"why_not_or_caveat\":\"Does not address robustness, noise, conflict, adversarial attacks, calibration, or uncertainty in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

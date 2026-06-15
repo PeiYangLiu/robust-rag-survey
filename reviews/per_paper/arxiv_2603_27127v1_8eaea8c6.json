@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.27127v1",
+  "title": "Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and Knowledge-augmented Interaction",
+  "authors": "Tran Vy Khang; Nguyen Dang Nguyen Khang; Nghi Hoang Khoa; Do Thi Thu Hien; Van-Hau Pham; Phan The Duy",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.27127v1",
+  "local_pdf": "pdfs/2026_tran_vy_khang_red_mirror_agentic_llm_based_autonomous_penetration_testing_with_reflective_verification_8eaea8c6.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG within a pentesting multi-agent system but does not study RAG robustness, conflict, calibration, or adversarial evidence.",
+  "why_not_or_caveat": "Application paper; RAG is a component, not the subject of study.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.330312+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.27127v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG within a pentesting multi-agent system but does not study RAG robustness, conflict, calibration, or adversarial evidence.\",\"why_not_or_caveat\":\"Application paper; RAG is a component, not the subject of study.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

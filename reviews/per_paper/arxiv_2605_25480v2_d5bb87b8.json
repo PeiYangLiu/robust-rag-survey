@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.25480v2",
+  "title": "Retrieval as Reasoning: Self-Evolving Agent-Native Retrieval via LLM-Wiki",
+  "authors": "Haoliang Ming; Feifei Li; Xiaoqing Wu; Wenhui Que",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.25480v2",
+  "local_pdf": "pdfs/2026_haoliang_ming_retrieval_as_reasoning_self_evolving_agent_native_retrieval_via_llm_wiki_d5bb87b8.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an agent-native retrieval system with structured Wiki pages and self-correction for multi-hop QA.",
+  "why_not_or_caveat": "Focuses on knowledge organization and traversal for multi-hop QA, not on robustness to noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.277086+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.25480v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an agent-native retrieval system with structured Wiki pages and self-correction for multi-hop QA.\",\"why_not_or_caveat\":\"Focuses on knowledge organization and traversal for multi-hop QA, not on robustness to noise, conflict, adversaries, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

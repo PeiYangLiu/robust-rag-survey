@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.30400v1",
+  "title": "Protocol for evaluating ChatGPT in biomedical association generation and verification using a RAG-enabled, cross-model majority voting workflow",
+  "authors": "Ahmed Abdeen Hamed; Luis M. Rocha",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.30400v1",
+  "local_pdf": "pdfs/2026_ahmed_abdeen_hamed_protocol_for_evaluating_chatgpt_in_biomedical_association_generation_and_verification_us_3df104a8.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG with cross-model majority voting for biomedical ontology verification to reduce hallucination, tangentially related to reliability.",
+  "why_not_or_caveat": "It is a domain-specific protocol paper, not a study of RAG robustness, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:12.369108+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.30400v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Uses RAG with cross-model majority voting for biomedical ontology verification to reduce hallucination, tangentially related to reliability.\", \"why_not_or_caveat\": \"It is a domain-specific protocol paper, not a study of RAG robustness, conflict, attacks, or calibration.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

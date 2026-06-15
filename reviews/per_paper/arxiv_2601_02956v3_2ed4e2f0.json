@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.02956v3",
+  "title": "Enhancing Multilingual RAG Systems with Debiased Language Preference-Guided Query Fusion",
+  "authors": "Jeonghyun Park; Byeongjeong Kim; Seojin Hwang; Hwanhee Lee",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.02956v3",
+  "local_pdf": "pdfs/2026_jeonghyun_park_enhancing_multilingual_rag_systems_with_debiased_language_preference_guided_query_fusion_2ed4e2f0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies bias in multilingual RAG evaluation and proposes debiased metric, tangentially related to evaluation under structural priors.",
+  "why_not_or_caveat": "Focus is on language preference bias in mRAG, not on robustness to noisy/conflicting/adversarial evidence or calibration in the survey's sense.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:33.702250+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.02956v3\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Studies bias in multilingual RAG evaluation and proposes debiased metric, tangentially related to evaluation under structural priors.\", \"why_not_or_caveat\": \"Focus is on language preference bias in mRAG, not on robustness to noisy/conflicting/adversarial evidence or calibration in the survey's sense.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

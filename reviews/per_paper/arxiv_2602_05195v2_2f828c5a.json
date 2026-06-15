@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.05195v2",
+  "title": "Traceable Cross-Source RAG for Chinese Tibetan Medicine Question Answering",
+  "authors": "Fengxian Chen; Zhilong Tao; Jiaxuan Li; Yunlong Li; Qingguo Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.05195v2",
+  "local_pdf": "pdfs/2026_fengxian_chen_traceable_cross_source_rag_for_chinese_tibetan_medicine_question_answering_2f828c5a.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG system for Tibetan medicine addressing source bias and cross-source evidence fusion with traceability/citation metrics, tangentially related to noisy retrieval and evaluation.",
+  "why_not_or_caveat": "Primarily an applied domain system; does not centrally study robustness, conflict, adversarial, or calibration issues in a generalizable way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.692566+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.05195v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Domain-specific RAG system for Tibetan medicine addressing source bias and cross-source evidence fusion with traceability/citation metrics, tangentially related to noisy retrieval and evaluation.\",\n  \"why_not_or_caveat\": \"Primarily an applied domain system; does not centrally study robustness, conflict, adversarial, or calibration issues in a generalizable way.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.75\n}",
+  "skipped_existing": false
+}

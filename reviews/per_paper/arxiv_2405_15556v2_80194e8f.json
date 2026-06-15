@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2405.15556v2",
+  "title": "Certifiably Robust RAG against Retrieval Corruption",
+  "authors": "Chong Xiang; Tong Wu; Zexuan Zhong; David Wagner; Danqi Chen; Prateek Mittal",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.15556v2",
+  "local_pdf": "pdfs/2024_chong_xiang_certifiably_robust_rag_against_retrieval_corruption_80194e8f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes RobustRAG, the first certifiably robust defense framework against retrieval corruption (PoisonedRAG, indirect prompt injection) using isolate-then-aggregate strategy.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:54.297771+00:00",
+  "raw_response": "{\"key\":\"arxiv-2405.15556v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes RobustRAG, the first certifiably robust defense framework against retrieval corruption (PoisonedRAG, indirect prompt injection) using isolate-then-aggregate strategy.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Defenses\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

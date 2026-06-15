@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.13244v1",
+  "title": "Agentic AI, Retrieval-Augmented Generation, and the Institutional Turn: Legal Architectures and Financial Governance in the Age of Distributional AGI",
+  "authors": "Marcel Osmond",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.13244v1",
+  "local_pdf": "pdfs/2026_marcel_osmond_agentic_ai_retrieval_augmented_generation_and_the_institutional_turn_legal_architectures_15aa0f8a.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Discusses RAG as governance infrastructure but does not address robustness, noise, conflict, attacks, or calibration in any technical sense.",
+  "why_not_or_caveat": "Legal/governance paper focused on institutional AI and financial regulation; out of scope for technical robust-RAG survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:18.510963+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.13244v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Discusses RAG as governance infrastructure but does not address robustness, noise, conflict, attacks, or calibration in any technical sense.\",\"why_not_or_caveat\":\"Legal/governance paper focused on institutional AI and financial regulation; out of scope for technical robust-RAG survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

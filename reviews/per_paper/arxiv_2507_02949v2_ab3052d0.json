@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2507.02949v2",
+  "title": "RADIANT: Retrieval AugmenteD entIty-context AligNmenT -- Introducing RAG-ability and Entity-Context Divergence",
+  "authors": "Vipula Rawte; Rajarshi Roy; Gurpreet Singh; Danush Khanna; Yaswanth Narsupalli; Basab Ghosh; Abhay Gupta; Argha Kamal Samanta; Aditya Shingote; Aadi Krishna Vikram; Vinija Jain; Aman Chadha; Amit Sheth; Amitava Das",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.02949v2",
+  "local_pdf": "pdfs/2025_vipula_rawte_radiant_retrieval_augmented_entity_context_alignment_introducing_rag_ability_and_entity_ab3052d0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Introduces RAG-ability and Entity-Context Divergence metric to evaluate faithfulness of LLMs to retrieved evidence, and proposes a DPO-based alignment method to improve robustness under noisy contexts and knowledge conflicts.",
+  "why_not_or_caveat": "Evaluation domain limited to news; metric novelty modest.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Context faithfulness and knowledge conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:14.447502+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.02949v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Introduces RAG-ability and Entity-Context Divergence metric to evaluate faithfulness of LLMs to retrieved evidence, and proposes a DPO-based alignment method to improve robustness under noisy contexts and knowledge conflicts.\",\n  \"why_not_or_caveat\": \"Evaluation domain limited to news; metric novelty modest.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Context faithfulness and knowledge conflict\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

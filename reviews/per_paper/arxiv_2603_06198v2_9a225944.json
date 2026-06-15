@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.06198v2",
+  "title": "LIT-RAGBench: Benchmarking Generator Capabilities of Large Language Models in Retrieval-Augmented Generation",
+  "authors": "Koki Itai; Shunichi Hasegawa; Yuta Yamamoto; Gouki Minegishi; Masaki Otsuki",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.06198v2",
+  "local_pdf": "pdfs/2026_koki_itai_lit_ragbench_benchmarking_generator_capabilities_of_large_language_models_in_retrieval_a_9a225944.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a generator benchmark covering abstention when evidence is missing, alongside integration, reasoning, logic, and table understanding—relevant for evaluation of RAG robustness and abstention behavior.",
+  "why_not_or_caveat": "Small Japanese-origin dataset (114 questions); focuses on generator capabilities broadly rather than centrally on noise/conflict/adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:00.733107+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.06198v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"calibration_control\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a generator benchmark covering abstention when evidence is missing, alongside integration, reasoning, logic, and table understanding—relevant for evaluation of RAG robustness and abstention behavior.\",\"why_not_or_caveat\":\"Small Japanese-origin dataset (114 questions); focuses on generator capabilities broadly rather than centrally on noise/conflict/adversarial robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

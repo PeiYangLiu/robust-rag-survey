@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.28\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}X}
+\toprule
+\textbf{Survey perspective} & \textbf{Core question} & \textbf{Representative failures} & \textbf{Survey takeaway} \\
+\midrule
+Evidence construction & What enters the context? & Missing positives, irrelevant passages, hard negatives, stale evidence, insufficient contexts. & Retrieval is context construction, not a neutral recall front end; robustness depends on rank, hardness, support availability, and downstream utility. \\
+Evidence use & How does the generator use evidence? & Ignored support, over-trusted distractors, unsupported citations, parametric-vs-retrieved conflict. & Context availability is not context use; robust RAG needs claim-level support, source reliability, and conflict-aware reasoning. \\
+Adversarial integrity & Can the evidence channel be trusted? & Corpus poisoning, retriever manipulation, indirect prompt injection, backdoors, privacy extraction. & Security claims transfer only inside a threat model; attack success must be normalized by attacker capability and defense action. \\
+System action control & What should the system do under uncertainty? & Unanswerability, insufficient evidence, calibration error, overconfident unsupported answers. & Robustness requires action policies--answer, abstain, retrieve again, verify, clarify, expose conflict, or escalate--not confidence scores alone. \\
+Evaluation & What should benchmarks reward? & Accuracy-only rankings, faithfulness-only scores, attack-only metrics, missing utility/cost reporting. & Evaluation should align evidence state, metric target, action policy, and cost; otherwise leaderboard results are not comparable. \\
+Extension layer & How do core evidence failures change when evidence is not a text passage? & Cross-modal misalignment, visual/layout evidence loss, graph-structure distortion, table-scale retrieval, agentic search drift, domain-specific safety risk. & Multimodal, graph, table, agentic, tool, code, and domain RAG are retained as stress tests of typed evidence states and actions, not as a full co-equal survey scope. \\
+\bottomrule
+\end{tabularx}
+\caption{Main survey taxonomy. The paper follows the text/document RAG lifecycle from evidence construction to model evidence use, adversarial integrity, system action control, and evaluation, then uses an extension layer to test the same comparability lens beyond passage evidence.}
+\label{tab:survey-main-line}
+\end{table*}

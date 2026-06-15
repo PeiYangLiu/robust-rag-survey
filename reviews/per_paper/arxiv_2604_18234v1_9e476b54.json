@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.18234v1",
+  "title": "Evaluating Multi-Hop Reasoning in RAG Systems: A Comparison of LLM-Based Retriever Evaluation Strategies",
+  "authors": "Lorenz Brehme; Thomas Ströhle; Ruth Breu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.18234v1",
+  "local_pdf": "pdfs/2026_lorenz_brehme_evaluating_multi_hop_reasoning_in_rag_systems_a_comparison_of_llm_based_retriever_evalua_9e476b54.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Proposes a context-aware LLM-as-judge strategy for evaluating RAG retrievers on multi-hop queries, touching on retrieval evaluation methodology.",
+  "why_not_or_caveat": "Focuses on multi-hop retriever evaluation rather than robustness, noise, conflict, or adversarial settings central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:34.518442+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.18234v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Proposes a context-aware LLM-as-judge strategy for evaluating RAG retrievers on multi-hop queries, touching on retrieval evaluation methodology.\",\n  \"why_not_or_caveat\": \"Focuses on multi-hop retriever evaluation rather than robustness, noise, conflict, or adversarial settings central to the survey.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and metrics\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

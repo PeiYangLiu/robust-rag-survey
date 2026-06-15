@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.08985",
+  "title": "\\[[AAAI](https://arxiv.org/abs/2410.08985v2)\\] Towards Trustworthy Knowledge Graph Reasoning: An Uncertainty Aware Perspective",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.08985",
+  "local_pdf": "pdfs/na_arxiv_2410_08985_aaai_https_arxiv_org_abs_2410_08985v2_towards_trustworthy_knowledge_graph_reason_10d74433.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Applies conformal prediction and Learn-Then-Test to KG-based RAG for uncertainty quantification with coverage guarantees, relevant to calibration/uncertainty in retrieval-augmented reasoning.",
+  "why_not_or_caveat": "Focused on KG-RAG rather than text-passage RAG; does not address noise, conflict, or adversarial settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty in RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:32.532295+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.08985\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Applies conformal prediction and Learn-Then-Test to KG-based RAG for uncertainty quantification with coverage guarantees, relevant to calibration/uncertainty in retrieval-augmented reasoning.\",\n  \"why_not_or_caveat\": \"Focused on KG-RAG rather than text-passage RAG; does not address noise, conflict, or adversarial settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Uncertainty in RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

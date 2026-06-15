@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.05309v1",
+  "title": "IterQR: An Iterative Framework for LLM-based Query Rewrite in e-Commercial Search System",
+  "authors": "Shangyu Chen; Xinyu Jia; Yingfei Zhang; Shuai Zhang; Xiang Li; Wei Lin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.05309v1",
+  "local_pdf": "pdfs/2025_shangyu_chen_iterqr_an_iterative_framework_for_llm_based_query_rewrite_in_e_commercial_search_system_2f3dd0d0.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG for query rewriting in e-commerce search; does not address robustness, conflict, calibration, or unreliable evidence.",
+  "why_not_or_caveat": "Pure application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:06.861096+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.05309v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG for query rewriting in e-commerce search; does not address robustness, conflict, calibration, or unreliable evidence.\",\"why_not_or_caveat\":\"Pure application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

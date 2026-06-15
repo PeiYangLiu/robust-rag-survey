@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.07213v1",
+  "title": "Adaptive Retrieval helps Reasoning in LLMs -- but mostly if it's not used",
+  "authors": "Srijan Shakya; Anamaria-Roberta Hartl; Sepp Hochreiter; Korbinian Pöppel",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.07213v1",
+  "local_pdf": "pdfs/2026_srijan_shakya_adaptive_retrieval_helps_reasoning_in_llms_but_mostly_if_it_s_not_used_20a7b9dd.pdf",
+  "metadata_topics": "knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies adaptive retrieval as a metacognitive decision of when to retrieve, showing static retrieval injects noise while the model's choice to forgo retrieval correlates with confidence/correctness. Directly relevant to calibration/control (when to retrieve) and uncertainty-aware RAG.",
+  "why_not_or_caveat": "Small-scale empirical study on math benchmarks with a single 8B model; limited methodological novelty.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:33.900039+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.07213v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies adaptive retrieval as a metacognitive decision of when to retrieve, showing static retrieval injects noise while the model's choice to forgo retrieval correlates with confidence/correctness. Directly relevant to calibration/control (when to retrieve) and uncertainty-aware RAG.\",\n  \"why_not_or_caveat\": \"Small-scale empirical study on math benchmarks with a single 8B model; limited methodological novelty.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

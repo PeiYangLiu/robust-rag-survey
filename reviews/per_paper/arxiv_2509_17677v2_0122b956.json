@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.17677v2",
+  "title": "EngiBench: A Benchmark for Evaluating Large Language Models on Engineering Problem Solving",
+  "authors": "Xiyuan Zhou; Xinlei Wang; Yirui He; Yang Wu; Ruixi Zou; Yuheng Cheng; Yulu Xie; Wenxuan Liu; Huan Zhao; Yan Xu; Jinjin Gu; Junhua Zhao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.17677v2",
+  "local_pdf": "pdfs/2025_xiyuan_zhou_engibench_a_benchmark_for_evaluating_large_language_models_on_engineering_problem_solvin_0122b956.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmark for LLM engineering problem solving; not about RAG robustness, retrieval, or unreliable evidence.",
+  "why_not_or_caveat": "Out of scope; no retrieval-augmented generation focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.031126+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.17677v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Benchmark for LLM engineering problem solving; not about RAG robustness, retrieval, or unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope; no retrieval-augmented generation focus.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.29886v1",
+  "title": "CRITIC-R1: Learning Structured Critics for Retrieval-Augmented Generation",
+  "authors": "Wenhan Xiao; Ziwei Zhang; Chuanyue Yu; Xingcheng Fu; Qingyun Sun; Runhua Xu; Jianxin Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.29886v1",
+  "local_pdf": "pdfs/2026_wenhan_xiao_critic_r1_learning_structured_critics_for_retrieval_augmented_generation_a07c19c0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a structured critic with calibrated judgement and error diagnosis to refine RAG outputs, addressing reasoning errors, over-aggressive intervention, and hallucination correction in RAG.",
+  "why_not_or_caveat": "Focus is on critique/refinement rather than directly on noisy retrieval or adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Critique and Refinement",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:02.827386+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.29886v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a structured critic with calibrated judgement and error diagnosis to refine RAG outputs, addressing reasoning errors, over-aggressive intervention, and hallucination correction in RAG.\", \"why_not_or_caveat\": \"Focus is on critique/refinement rather than directly on noisy retrieval or adversarial robustness.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: Critique and Refinement\", \"confidence\": 0.75}",
+  "skipped_existing": false
+}

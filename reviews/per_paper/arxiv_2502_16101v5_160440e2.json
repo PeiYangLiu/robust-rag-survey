@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2502.16101v5",
+  "title": "Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals",
+  "authors": "Linda Zeng; Rithwik Gupta; Divij Motwani; Yi Zhang; Diji Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.16101v5",
+  "local_pdf": "pdfs/2025_linda_zeng_worse_than_zero_shot_a_fact_checking_dataset_for_evaluating_the_robustness_of_rag_agains_160440e2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces RAGuard, a benchmark using naturally occurring misleading Reddit content to evaluate RAG robustness against misleading/conflicting evidence, showing RAG underperforms zero-shot. Directly relevant to noisy retrieval, conflict, and evaluation themes.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation/Benchmarks for misleading retrieval",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.211241+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.16101v5\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces RAGuard, a benchmark using naturally occurring misleading Reddit content to evaluate RAG robustness against misleading/conflicting evidence, showing RAG underperforms zero-shot. Directly relevant to noisy retrieval, conflict, and evaluation themes.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation/Benchmarks for misleading retrieval\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.03078v1",
+  "title": "RAPO: Expanding Exploration for LLM Agents via Retrieval-Augmented Policy Optimization",
+  "authors": "Siwei Zhang; Yun Xiong; Xi Chen; Zi'an Jia; Renhong Huang; Jiarong Xu; Jiawei Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.03078v1",
+  "local_pdf": "pdfs/2026_siwei_zhang_rapo_expanding_exploration_for_llm_agents_via_retrieval_augmented_policy_optimization_85b4dc48.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper uses retrieval to augment RL policy exploration for LLM agents; unrelated to RAG robustness, unreliable evidence, or calibration.",
+  "why_not_or_caveat": "Not about retrieval robustness or evidence reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:38.854582+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.03078v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper uses retrieval to augment RL policy exploration for LLM agents; unrelated to RAG robustness, unreliable evidence, or calibration.\",\"why_not_or_caveat\":\"Not about retrieval robustness or evidence reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

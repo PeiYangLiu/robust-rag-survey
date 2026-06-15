@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.05689v1",
+  "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+  "authors": "Touseef Hasan; Blessing Airehenbuwa; Nitin Pundir; Souvika Sarkar; Ujjwal Guin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.05689v1",
+  "local_pdf": "pdfs/2026_touseef_hasan_securerag_rtl_a_retrieval_augmented_multi_agent_zero_shot_llm_driven_framework_for_hardw_5d340406.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to hardware vulnerability detection but does not study robustness, noise, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Pure application of RAG in a domain task; no robustness/uncertainty contribution.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:57.006072+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.05689v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Applies RAG to hardware vulnerability detection but does not study robustness, noise, conflict, or calibration of RAG.\", \"why_not_or_caveat\": \"Pure application of RAG in a domain task; no robustness/uncertainty contribution.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

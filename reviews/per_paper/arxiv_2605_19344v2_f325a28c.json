@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.19344v2",
+  "title": "Retrieval-Augmented Linguistic Calibration",
+  "authors": "Yi-Fan Yeh; Linwei Tao; Minjing Dong; Tao Huang; Jialin Yu; Philip Torr; Chang Xu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.19344v2",
+  "local_pdf": "pdfs/2026_yi_fan_yeh_retrieval_augmented_linguistic_calibration_f325a28c.pdf",
+  "metadata_topics": "knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a post-hoc linguistic confidence calibration pipeline that uses retrieval-augmented rewriting to propagate calibrated confidence into language. Touches on calibration, a survey topic.",
+  "why_not_or_caveat": "RAG is used only as a rewriting mechanism; the paper does not study robustness of RAG to unreliable evidence, noise, conflict, or adversaries.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:58.945575+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.19344v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a post-hoc linguistic confidence calibration pipeline that uses retrieval-augmented rewriting to propagate calibrated confidence into language. Touches on calibration, a survey topic.\",\n  \"why_not_or_caveat\": \"RAG is used only as a rewriting mechanism; the paper does not study robustness of RAG to unreliable evidence, noise, conflict, or adversaries.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and control\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

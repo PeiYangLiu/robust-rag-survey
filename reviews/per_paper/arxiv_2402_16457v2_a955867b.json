@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2402.16457v2",
+  "title": "RetrievalQA: Assessing Adaptive Retrieval-Augmented Generation for Short-form Open-Domain Question Answering",
+  "authors": "Zihan Zhang; Meng Fang; Ling Chen",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.16457v2",
+  "local_pdf": "pdfs/2024_zihan_zhang_retrievalqa_assessing_adaptive_retrieval_augmented_generation_for_short_form_open_domain_a955867b.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces RetrievalQA benchmark and TA-ARE method for adaptive retrieval, evaluating when LLMs should trigger retrieval—directly relevant to calibration/control over when to retrieve.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control: when to retrieve",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:55.171639+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.16457v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces RetrievalQA benchmark and TA-ARE method for adaptive retrieval, evaluating when LLMs should trigger retrieval—directly relevant to calibration/control over when to retrieve.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control: when to retrieve\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.15190v1",
+  "title": "AIC CTU@AVerImaTeC: dual-retriever RAG for image-text fact checking",
+  "authors": "Herbert Ullrich; Jan Drchal",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.15190v1",
+  "local_pdf": "pdfs/2026_herbert_ullrich_aic_ctu_averimatec_dual_retriever_rag_for_image_text_fact_checking_5cfd24f1.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Shared-task system applying RAG to image-text fact checking; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure application/system description without focus on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:23.541576+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.15190v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Shared-task system applying RAG to image-text fact checking; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure application/system description without focus on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

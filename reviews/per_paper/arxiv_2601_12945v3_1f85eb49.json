@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.12945v3",
+  "title": "A Component-Based Survey of Interactions between Large Language Models and Multi-Armed Bandits",
+  "authors": "Siguang Chen; Chunli Lv; Miao Xie",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.12945v3",
+  "local_pdf": "pdfs/2026_siguang_chen_a_component_based_survey_of_interactions_between_large_language_models_and_multi_armed_b_1f85eb49.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on LLM-bandit interactions, not focused on RAG robustness.",
+  "why_not_or_caveat": "Only tangentially mentions RAG; does not address noise, conflict, adversarial robustness, or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:33.701740+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.12945v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"survey\",\"why_relevant\":\"Survey on LLM-bandit interactions, not focused on RAG robustness.\",\"why_not_or_caveat\":\"Only tangentially mentions RAG; does not address noise, conflict, adversarial robustness, or calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2404.01652v1",
+  "title": "Towards Better Generalization in Open-Domain Question Answering by Mitigating Context Memorization",
+  "authors": "Zixuan Zhang; Revanth Gangi Reddy; Kevin Small; Tong Zhang; Heng Ji",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.01652v1",
+  "local_pdf": "pdfs/2024_zixuan_zhang_towards_better_generalization_in_open_domain_question_answering_by_mitigating_context_me_8397db48.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses reader over-memorization of retrieved corpus, which relates to parametric-vs-retrieved knowledge reliance and generalization to updated/new corpora (distribution shift).",
+  "why_not_or_caveat": "Focus is on generalization across corpus updates/domains rather than directly on robustness to noisy, conflicting, or adversarial evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Knowledge conflict / parametric vs retrieved",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:38.021201+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2404.01652v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"knowledge_conflict\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses reader over-memorization of retrieved corpus, which relates to parametric-vs-retrieved knowledge reliance and generalization to updated/new corpora (distribution shift).\",\n  \"why_not_or_caveat\": \"Focus is on generalization across corpus updates/domains rather than directly on robustness to noisy, conflicting, or adversarial evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Knowledge conflict / parametric vs retrieved\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.05519v1",
+  "title": "Verify as You Go: An LLM-Powered Browser Extension for Fake News Detection",
+  "authors": "Dorsaf Sallami; Esma Aïmeur",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.05519v1",
+  "local_pdf": "pdfs/2026_dorsaf_sallami_verify_as_you_go_an_llm_powered_browser_extension_for_fake_news_detection_e0783552.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to fake news detection in a browser extension; does not study robustness, conflict, calibration, or adversarial issues in RAG.",
+  "why_not_or_caveat": "Application paper; only briefly mentions reliability of retrieved evidence without contributing methods or evaluation on robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:50.260528+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.05519v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to fake news detection in a browser extension; does not study robustness, conflict, calibration, or adversarial issues in RAG.\",\"why_not_or_caveat\":\"Application paper; only briefly mentions reliability of retrieved evidence without contributing methods or evaluation on robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

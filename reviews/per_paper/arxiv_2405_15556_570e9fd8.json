@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2405.15556",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2405.15556)\\] Certifiably Robust RAG against Retrieval Corruption",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.15556",
+  "local_pdf": "pdfs/na_arxiv_2405_15556_arxiv_https_arxiv_org_abs_2405_15556_certifiably_robust_rag_against_retrieval_co_570e9fd8.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes RobustRAG, the first certifiably robust defense against retrieval corruption attacks (PoisonedRAG, indirect prompt injection) via isolate-then-aggregate strategy with secure keyword/decoding aggregation.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:33.375200+00:00",
+  "raw_response": "{\"key\":\"arxiv-2405.15556\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes RobustRAG, the first certifiably robust defense against retrieval corruption attacks (PoisonedRAG, indirect prompt injection) via isolate-then-aggregate strategy with secure keyword/decoding aggregation.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Defenses\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

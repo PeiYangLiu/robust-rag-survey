@@ -1,0 +1,1955 @@
+                                              A Survey of Reinforcement Learning for Large Language Models under
+                                                             Data Scarcity: Challenges and Solutions
+                                             Zhiyin Yu1, 2 , Yuchen Mou3 , Juncheng Yan4 , Junyu Luo1 , Chunchun Chen5 , Xing Wei5 ,
+                                           Yunhui Liu6 , Hongru Sun7 , Yuxing Zhang8 , Jun Xu4 , Yatao Bian3 , Ming Zhang1 , Wei Ye5 ,
+                                            Tieke He6 , Jie Yang7 , Guanjie Zheng8 , Zhonghai Wu1 † , Bo Zhang2 † , Lei Bai2 , Xiao Luo9
+                                         1
+                                           Peking University 2 Shanghai Artificial Intelligence Laboratory 3 National University of Singapore
+                                               4
+                                                 Nankai University 5 Tongji University 6 Nanjing University 7 University of Wollongong
+                                                          8
+                                                            Shanghai Jiao Tong University 9 University of Wisconsin-Madison
+                                                     zhiyinyu25@stu.pku.edu.cn, zhangbo@pjlab.org.cn, wuzh@pku.edu.cn, xiao.luo@wisc.edu
+
+
+                                                                 Abstract                                  Reinforcement Learning for Large Language Models under Data Scarcity
+
+
+                                                                                                             Data Pruning                                       Trajectory Generation
+                                               Reinforcement learning (RL) has emerged as
+arXiv:2604.17312v1 [cs.LG] 19 Apr 2026
+
+
+
+
+                                                                                                      Offline/Online/Fine-grained Pruning                           Guided Exploration
+                                                                                                                                                Data
+                                               a powerful post-training paradigm for enhanc-                 Data Synthesis                    Centric
+                                                                                                                                                                    Selective and Adaptive Rollouts
+                                                                                                                                                                    Reward Engineering
+                                               ing the reasoning capabilities of large language      Static/Dynamic/Hard Data Synthesis
+                                                                                                                                                               Heuristic and Surrogate Signals
+                                                                                                           Data Compression
+                                               models (LLMs). However, reinforcement learn-             Token/Step/Trajectory/
+                                                                                                                                              Training
+                                                                                                                                              Centric
+                                                                                                                                                                         Consistency and Consensus
+
+                                               ing for LLMs faces substantial data scarcity            Dataset level Compression                                         Process-based Reward
+                                                                                                      Self-evolving Framework                                            Intrinsic Motivation
+                                               challenges, including the limited availability of           Self-Training
+                                                                                                                                             Framework
+                                                                                                                                               Centric                       Policy Optimization
+                                               high-quality external supervision and the con-            Adaptive Learning
+                                                                                                                                                                      Sample-Efficient Objectives
+                                                                                                     Asymmetric Co-Evolution Framework
+                                               strained volume of model-generated experience.            Collaborative Co-Evolution     Multi-Agent Evolution Framework
+                                                                                                                                                                              Replay Mechanisms
+
+                                               These limitations make data-efficient reinforce-          Adversarial Co-Evolution     Competitive Self-Play Games     Multi-Role Cooperation
+
+                                               ment learning a critical research direction. In
+                                               this survey, we present the first systematic re-    Figure 1: Overview of LLM-based reinforcement learn-
+                                               view of reinforcement learning for LLMs under       ing under data scarcity, illustrating data-, training-, and
+                                               data scarcity. We propose a bottom-up hierar-       framework-centric perspectives.
+                                               chical framework built around three comple-
+                                               mentary perspectives: the data-centric perspec-     Recent advancements such as DeepSeek-R1 (Guo
+                                               tive, the training-centric perspective, and the     et al., 2025) and OpenAI-o1 (OpenAI, 2024) in-
+                                               framework-centric perspective. We develop a         dicate that RL-based post-training can elicit emer-
+                                               taxonomy of existing methods, summarize rep-        gent behaviors including self-reflection (Zeng et al.,
+                                               resentative approaches in each category, and an-
+                                                                                                   2025b), enabling LLMs to complete complex
+                                               alyze their strengths and limitations. Our taxon-
+                                               omy aims to provide a clear conceptual founda-
+                                                                                                   tasks (Team et al., 2025b; Hu et al., 2025).
+                                               tion for understanding the design space of data-       However, data scarcity has become a critical
+                                               efficient RL for LLMs and to guide researchers      bottleneck constraining effective RL for LLMs.
+                                               working in this emerging area. We hope this         This challenge manifests in two complementary
+                                               survey offers a comprehensive roadmap for fu-       forms. Specifically, external data scarcity refers
+                                               ture research and inspires new directions to-
+                                                                                                   to the limited availability of high-cost supervised
+                                               ward more efficient and scalable reinforcement
+                                               learning post-training for LLMs.                    signals, such as fine-grained human feedback (Wu
+                                                                                                   et al., 2023a), preference data, expert annotations
+                                                                                                   and step-by-step reasoning traces (Xia et al., 2025).
+                                          1    Introduction                                        By contrast, internal data scarcity arises from con-
+                                          Large language models (LLMs) have demonstrated           straints on model-generated interactions, includ-
+                                          remarkable capabilities across various domains, in-      ing the number of rollouts, trajectory lengths, and
+                                          cluding mathematical reasoning (Cui et al., 2025;        exploration budgets. As noted by Jones (2024),
+                                          Guan et al., 2025), algorithmic programming (Li          “the AI revolution is running out of data”. Simply
+                                          et al., 2024; Guo et al., 2024) and scientific re-       scaling training with more data or computational
+                                          search (Team et al., 2025a). As a prevailing and         resources often yields diminishing returns and may
+                                          promising paradigm for post-training, reinforce-         still fail to produce strong performance (Zuo et al.,
+                                          ment learning (RL) has shown strong potential to         2025). Recently, Silver and Sutton (2025) empha-
+                                          further enhance the reasoning abilities of LLMs.         sized a shift toward "the era of experience", ad-
+                                                †
+                                                                                                   vocating a transition from heavy reliance on hu-
+                                                  Corresponding authors.
+                                              https://github.com/YuZhiyin/Data-Efficient-RL        man supervision to approaches that allow models
+                                                                                                   to evolve through experience. This perspective
+highlights the importance of studying reinforce-          ing how RL generates trajectories, evaluates re-
+ment learning for LLMs under data scarcity. This          wards, and updates policies under scarce data.
+paper provides the first systematic survey on RL          ❶ Trajectory Generation: Improving exploration
+for LLMs under data scarcity, offering a unified          efficiency to reduce wasted rollouts. ❷ Reward
+framework that organizes the fragmented research          Engineering: Enhancing the quality and granu-
+landscape.                                                larity of feedback signals when annotations are
+   Existing research has explored various ap-             limited. ❸ Policy Optimization: Increasing up-
+proaches to unlocking the potential of reinforce-         date efficiency and stability under constrained
+ment learning for LLMs under data scarcity, in-           trajectory budgets.
+cluding improving the utilization of limited human      • Level 3: Framework-Centric Perspective: De-
+supervision (Fang et al., 2025b) and enhancing the        signing evolving RL frameworks that reduce de-
+efficiency of model-generated experience (Wang            pendence on external data. ❶ Self-Evolving
+et al., 2025f). However, this field still lacks a         Frameworks: Single-model systems that contin-
+systematic and unified survey. To bridge this             ually refine themselves through self-generated
+gap, we review reinforcement learning under data          data and self-rewarding mechanisms. ❷ Asym-
+scarcity from three complementary perspectives.           metric Co-Evolution Frameworks: Dual-agent ar-
+Specifically, we introduce a conceptual framework         chitectures where agents optimize cooperative or
+consisting of data-centric, training-centric, and         adversarial objectives. ❸ Multi-Agent Evolution
+framework-centric perspectives (as illustrated in         Frameworks: Systems of interacting agents that
+Figure 1). Based on this framework, we design a           produce multi-objective training signals through
+taxonomy to categorize existing methods, summa-           cooperative or competitive dynamics.
+rize core techniques, and identify promising direc-
+                                                        These three perspectives collectively form a com-
+tions for future exploration. We hope this survey
+                                                        prehensive and structured approach to RL under
+can serve as a roadmap for researchers and inspire
+                                                        data scarcity, moving from curating the data, to
+continued progress in data-efficient RL for LLMs.
+                                                        improving the efficiency of trajectory usage, and
+Differences from Previous Surveys. Recently, sev-
+                                                        ultimately to constructing autonomous frameworks
+eral surveys have focused on related but orthogonal
+                                                        capable of continual self-improvement.
+themes, including LLM and agentic RL (Zhang
+et al., 2025c,a), self-evolving agents (Tao et al.,     3     Data-Centric Perspective
+2024; Fang et al., 2025a; ang Gao et al., 2026),
+and data-efficient post-training (Luo et al., 2025b).   3.1    Data Pruning
+These surveys provide valuable insights but do          Data pruning shrinks the effective training pool
+not systematically study RL for LLMs under data         and accelerates training by selectively retaining
+scarcity. We address this gap with a bottom-up          informative samples. As shown in Figure 3, we
+hierarchical framework and a unified analysis of        classify existing data pruning methods as: offline
+existing methods through the lens of data scarcity.     pruning, online pruning, and fine-grained pruning.
+                                                        Offline Pruning. Heuristic pruning has been
+2   Taxonomy                                            widely adopted across various LLM training
+In this section, we present a taxonomy that cate-       paradigms (Stiennon et al., 2020; Rae et al., 2021;
+gorizes reinforcement learning under data scarcity      Touvron et al., 2023; Wang et al., 2023), where
+from three perspectives, as shown in Figure 2.          predefined rules are applied during data prepro-
+• Level 1: Data-Centric Perspective: Optimizing         cessing from multiple perspectives, making it a
+  the data itself to maximize usable information        critical component of data curation (Team et al.,
+  before, during, and after RL. ❶ Data Pruning:         2025b; Guo et al., 2025). LIMR (Li et al., 2025c)
+  Identifying the most informative subset from raw      identifies high-impact prompts by measuring the
+  training data. ❷ Data Synthesis: Expanding or         alignment between each sample reward trajectory
+  enriching the effective training distribution. ❸      and the average learning curve. LearnAlign (Li
+  Data Compression: Compressing tokens, reason-         et al., 2025b) uses a learnability-weighted gradient-
+  ing steps, trajectories, or entire datasets while     alignment score to select reasoning samples that are
+  preserving essential information density.             both learnable and representative. EAS (Zhu et al.,
+                                                        2025) selects samples by integrating token-level
+• Level 2: Training-Centric Perspective: Improv-        predictive entropy along the generation trajectory.
+                                                                                            LIMR (Li et al., 2025c), LearnAlign (Li et al., 2025b), EAS (Zhu et al., 2025),
+                                                                                            RLHF (Stiennon et al., 2020), Gopher (Rae et al., 2021), LLAMA (Touvron et al.,
+                                                                                            2023), Self-Instruct (Wang et al., 2023), LSPO (Chen et al., 2025d), Kimi (Team
+                                                                        Data Pruning        et al., 2025b), DeepSeek (Guo et al., 2025), MoPPS (Qu et al., 2025), BOTS (Shen
+                                                                            §3.1            et al., 2025a), GAIN-RL (Wang et al., 2025d), RORL (Bae et al., 2025), DOTS (Sun
+                                                                                            et al., 2025c), SPEED-RL (Zhang et al., 2025g), MOSS-RLHF (Zheng et al., 2023),
+                                                                                            Influence Pruning (Fein and Aranguiz-Dias, 2025) , GRESO (Zheng et al., 2025),
+                                                                                            PREPO (Sun et al., 2025b), CPPO (Lin et al., 2025), PODS (Xu et al., 2025b)
+
+                                                                                            UltraChat (Ding et al., 2023), STaR (Zelikman et al., 2022), Constitutional AI (Bai
+                                                                                            et al., 2022), UltraChat (Ding et al., 2023), CodeUltraFeedback (Weyssow et al.,
+                                              Data-Centric
+                                                                                            2025), Fair-PP (Zhou et al., 2025a), Fellowship (Arif et al., 2025), Reasoning
+                                              Perspective              Data Synthesis
+                                                                                            Gym (Stojanovski et al., 2025), Enigmata (Chen et al., 2025a), SynLogic (Liu et al.,
+                                                   §3                       §3.2
+                                                                                            2025c), EvoSyn (Du et al., 2025), SynthRL (Wu et al., 2025), AdaR (Lai et al.,
+                                                                                            2025), Eva (Ye et al., 2025b), SwS (Liang et al., 2025), OAIF (He et al., 2025a),
+                                                                                            OSP (Zhai et al., 2024), LoopTool (Zhang et al., 2025d), WEBRL (Qi et al., 2024)
+
+                                                                                            SPS (Qi et al., 2025), AR-Lopti (Yang et al., 2025c), TR-GRPO (Le et al., 2025),
+                                                                                            High-Entropy Tokens (Wang et al., 2025f), DEPO (Tan et al., 2025b), DAST (Shen
+                                                                     Data Compression       et al., 2025b), THINKPRUNE (Hou et al., 2025), S-GRPO (Dai et al., 2025a),
+                                                                           §3.3             DAPO (Yu et al., 2025), GRESO (Zheng et al., 2025), IR (Xie et al., 2025),
+                                                                                            SECoT (Li et al., 2025e), PROF (Ye et al., 2025a), One-shot RLVR (Wang et al.,
+                                                                                            2025g), Polymath Learning (Li et al., 2025d)
+RL-based LLM Training under Data Scarcity
+
+
+
+
+                                                                                            AlphaMath (Chen et al., 2024), TS-LLM (Wan et al., 2024), LLM-PSRL (Arumugam
+                                                                    Trajectory Generation
+                                                                                            and Griffiths, 2025), Search-R1 (Jin et al., 2025), GRESO (Zheng et al., 2025),
+                                                                             §4.1
+                                                                                            PODS (Xu et al., 2025b), Token-Masking (Wang et al., 2025f)
+
+                                                                                            CoVo (Zhang et al., 2025e), Evol-RL (Zhou et al., 2025b), L2T (Wang et al., 2025b),
+                                                                                            Semi-Supervised (Luo et al., 2025a), RENT (Prabhudesai et al., 2025), RLSC (Li
+                                                                                            et al., 2025a), EMPO (Zhang et al., 2025f), PREPO (Sun et al., 2025b), CDE (Dai
+                                             Training-Centric                               et al., 2025b), KnowRL (Kale and Dhami, 2025), Intuitor (Zhao et al., 2025c),
+                                               Perspective          Reward Engineering
+                                                                                            TTRL (Zuo et al., 2025), MM-UPT (Wei et al., 2025a), SRT (Shafayat et al., 2025),
+                                                    §4                     §4.2
+                                                                                            SVSI (Jiang et al., 2025), RLCCF (Yuan et al., 2025), SR-RLVR (Shao et al., 2025),
+                                                                                            Format-Length (Xin et al., 2025), RLIF (Zhang et al., 2025h), CoMAS (Xue et al.,
+                                                                                            2025), CaT (Jayalath et al., 2025), SPPO (Wu et al.), RLSR (Simonds et al., 2025),
+                                                                                            Co-Rewarding (Zhang et al., 2025j)
+
+                                                                    Policy Optimization     LoRR (Liu et al., 2025e), DOTS (Sun et al., 2025c), KTO (Ethayarajh et al., 2024),
+                                                                           §4.3             IGPO (Zhao et al., 2025b)
+
+                                                                                            EasyRL (Yu et al., 2026), DPO-Gen (Feng and Feng, 2024), Self-Correction (Xiong
+                                                                       Self-Evolving        et al., 2025), S2 r (Ma et al., 2025), SSR (Yang et al., 2025b), SeRL (Fang et al.,
+                                                                            § 5.1           2025b), ZeroGUI (Yang et al., 2025a), Self-aware RL (Zhang et al., 2025b),
+                                                                                            ASL (Sun et al., 2025a), AZR (Zhao et al., 2025a)
+
+                                                                                            Proposer-Solver (Sukhbaatar et al., 2018), Asymmetric Self-Play (OpenAI et al.,
+                                            Framework-Centric           Asymmetric          2021), SQLM (Chen et al., 2025c), Solver-Adaptive (Wei et al., 2025b), Pa-
+                                               Perspective              Co-Evolution        soDoble (Zhang et al., 2025i), VisPlay (He et al., 2025b), SSP (Lu et al., 2025),
+                                                   §5                       §5.2            SPICE (Liu et al., 2025b), AceSearcher (Xu et al., 2025a), SPAG (Cheng et al.,
+                                                                                            2024), SPC (Chen et al., 2025b), GAR (Liu et al., 2025d), SSR (Wei et al., 2025c)
+
+                                                                                            SPIRAL (Liu et al., 2025a), Vision-Zero (Wang et al., 2025e), SPELL (Yang et al.,
+                                                                   Multi-Agent Evolution
+                                                                                            2025d), MAE (Chen et al., 2025f), PSV (Wilf et al., 2025), Meta-RL-Crypto (Wang
+                                                                           §5.3
+                                                                                            et al., 2025c)
+
+
+                                                             Figure 2: A taxonomy of RL-based LLM Training under Data Scarcity.
+
+Online Pruning. Online pruning dynamically se-                                                         prompts of moderate difficulty, thereby focusing
+lects high-information-density samples for rollout.                                                    updates on samples with higher pass rate variance.
+LSPO (Chen et al., 2025d) augments accuracy-                                                           DOTS (Sun et al., 2025c) uses attention-based sim-
+based filtering with an additional length-based step.                                                  ilarity to propagate difficulty scores from a ref-
+MMoPPS (Qu et al., 2025) estimates prompt dif-                                                         erence subset to the full training pool. SPEED-
+ficulty as a latent success probability for adaptive                                                   RL (Zhang et al., 2025g) allocates training budget
+prompt selection. BOTS (Shen et al., 2025a) fur-                                                       to moderately difficult samples by estimating em-
+ther integrates explicit feedback from selected sam-                                                   pirical pass rates on a few samples. Beyond explicit
+ples and implicit evidence from unselected samples                                                     sample selection, Zheng et al. (2023) investigates
+to balance exploration and exploitation. GAIN-                                                         implicit data filtering strategies in PPO training,
+RL (Wang et al., 2025d) predicts the magnitude                                                         including reward clipping, response deduplication,
+of gradient updates using the angular concentra-                                                       and advantage normalization.
+tion of pre-filling hidden states and schedules an                                                     Fine-grained Pruning. Fine-grained pruning re-
+easy-to-hard curriculum. RORL (Bae et al., 2025)                                                       frames the problem toward precise pruning cri-
+estimates pass rates from online rollouts to identify                                                  teria and focuses selection on trajectories that
+                                                                                                       are valuable to retain. Influence Pruning (Fein
+                                         Data-Centric Perspective                  Data Synthesis
+            Data Pruning
+                                            Data Compression
+                                                                                                            AdaR (Lai et al., 2025) focus on generating logi-
+    Offline           Online
+                                         Dataset-level Compression          Static
+                                                                           Synthesis
+                                                                                              Dynamic
+                                                                                              Synthesis
+                                                                                                            cally equivalent variant problems, with an emphasis
+    Pruning           Pruning
+
+     Sample         Selected Data                                         Supervision          Instance
+                                                                                                            on broader coverage of the training distribution and
+                                       Trajectory-level Compression         Scaling
+     Utility                                                                                 Augmentation
+                                                   Trajectory1            Distributional
+                                                                            coverage
+                                                                                                            improved generalization.
+      Data                                         Trajectory2                                  Signal
+                                                                              Data
+    Coverage
+                   Model Feedback        Step-level Compression            Utilization
+                                                                                             Augmentation
+                                                                                                            Dynamic Data Synthesis. Dynamic data synthesis
+                                          Step 1     Step 2      Step 3
+
+       Reinforcement Learning
+                                                                                                            strengthens LLM training by continuously generat-
+                                                                                  Training Data Pool
+                                          Step 1     Step 2      Step 3                                     ing and augmenting data within the learning loop
+                                         Token-level Compression                     Hard Data
+ Reward
+
+            Fine-grained
+                           Gradient
+                                                                                     Synthesis              and can operate at different levels, such as instances
+              Pruning
+Advantage                  Influence                                          Reinforcement Learning
+                                                                                                            and signals. OSP (Zhai et al., 2024) optimizes the
+                                                                                                            policy using self-generated soft preference advan-
+  Figure 3: RL for LLMs in data-centric perspective.                                                        tages, turning offline preference optimization into
+                                                                                                            an online alignment pipeline while OAIF (He et al.,
+and Aranguiz-Dias, 2025) approximates influence                                                             2025a) uses an online LLM annotator as a reward
+functions using a conjugate gradient solver to                                                              model to directly label on-policy response pairs.
+estimate each sample’s effect on validation loss.                                                           Hard Data Synthesis. SwS (Liang et al., 2025)
+GRESO (Zheng et al., 2025) learns a reward-driven                                                           identifies the weakness problems that exhibit con-
+skipping policy to bypass prompts with zero re-                                                             sistently low accuracy and degrading performance
+ward variance, increasing the proportion of effec-                                                          across epochs, and generates new training problems
+tive samples. PREPO (Sun et al., 2025b) lever-                                                              targeted at these weaknesses. LoopTool (Zhang
+ages prompt perplexity to adopt an easy-to-hard                                                             et al., 2025d) identifies and corrects label errors af-
+curriculum when the available number of prompts                                                             ter each RL phase. EVA (Ye et al., 2025b) finds the
+is limited. CPPO (Lin et al., 2025) uses within-                                                            most useful prompts based on reward signals and
+group advantages as a fine-grained learning signal                                                          generates variants of these prompts for subsequent
+to prune inefficient trajectories. PODS (Xu et al.,                                                         training. WEBRL (Qi et al., 2024) automatically
+2025b) performs down-sampling to obtain a subset                                                            generates new tasks from a model’s failed interac-
+of trajectories with the largest reward variance.                                                           tions and continuously incorporates these tasks into
+                                                                                                            subsequent reinforcement learning stages.
+3.2         Data Synthesis
+Data synthesis can expand the scale of supervision                                                          3.3   Data Compression
+and improve distributional coverage under a con-                                                            Data compression aims to minimize both data and
+strained sample budget. As shown in Figure 3, we                                                            computational costs in reinforcement learning. As
+classify existing methods as: static data synthe-                                                           illustrated in Figure 3, existing data compression
+sis before training, dynamic data synthesis during                                                          methods can be categorized into four levels: token,
+training, and hard data synthesis after training.                                                           step, trajectory, and dataset.
+Static Data Synthesis. Static data synthesis (Ding                                                          Token-level Compression. Shallow Preference
+et al., 2023; Zelikman et al., 2022) provides a solid                                                       Signals (Qi et al., 2025) finds that many to-
+data foundation (Guo et al., 2025) across different                                                         kens are ineffective for reinforcement learning,
+stages of LLM training. Constitutional AI (Bai                                                              indicating token-level compression is feasible.
+et al., 2022), UltraFeedback (Cui et al., 2024), and                                                        AR-Lopti (Yang et al., 2025c) reweighting or
+CodeUltraFeedback (Weyssow et al., 2025) lever-                                                             isolating low-probability tokens during training.
+age strong LLMs to synthesize large scale prefer-                                                           TR-GRPO (Le et al., 2025) downweights low-
+ence and critique data with rich multi dimensional                                                          probability tokens while placing greater emphasis
+coverage. Meanwhile, Fair-PP (Zhou et al., 2025a)                                                           on high-probability ones during gradient computa-
+and Fellowship of the LLMs (Arif et al., 2025)                                                              tion. High-Entropy Minority Tokens (Wang et al.,
+further incorporate rule based constraints or multi                                                         2025f) proposes updating the policy using only
+agent collaboration. Reasoning Gym (Stojanovski                                                             high-entropy tokens, which play a dominant role
+et al., 2025), Enigmata (Chen et al., 2025a), Syn-                                                          in determining reasoning branches and policy up-
+Logic (Liu et al., 2025c), and EvoSyn (Du et al.,                                                           dates, while masking gradients from low-entropy
+2025) scale the synthesis of verifiable reasoning                                                           tokens. DEPO (Tan et al., 2025b) separates reason-
+data within offline pipelines by designing diverse                                                          ing tokens into efficient and inefficient segments,
+interaction schemes between generators and veri-                                                            downweights the advantages of inefficient tokens,
+fiers. Meanwhile, SynthRL (Wu et al., 2025) and                                                             combined with difficulty-aware length penalties
+                                     Training-Centric Perspective
+         Trajectory Generation                                                    Reward Engineering
+                                                                                                                   Key takeaways
+                                             Policy Optimization
+  Guided         Selective &                                            Process-based        Intrinsic
+Exploration    Adaptive Rollouts                                           Reward           Motivation
+                                                                                                                   • Model-Dependent Valuation. Data value
+                                     Replay         Sample-Efficient    Sparse Reward      Entropy Optimize
+ Tree Search     Pre-Generation
+                    Filtering
+                                   Mechanisms         Objectives        Dense Reward       Model Interaction
+                                                                                                                     estimation depends on model capability, and
+  Markov
+                                     Multi-View
+                                   Self-Rewarding
+                                                        Reasoning
+                                                        Distillation    Consistency &      Heuristic &
+                                                                                                                     overemphasizing high-contribution data may
+  Decision                                                               Consensus          Surrogate
+                                                                         Mechanisms          Signals                 weaken long-tail learning.
+                    Sampling                                            Self-Consistency   Format & Length
+  Bayesian
+  Inference
+                Post-Generation
+                                     Dynamic
+                                    Curriculum      Inpainting-Guided
+                                                                        Semantic Voting
+                                                                          Multi-Model
+                                                                                            Self-Judgment
+                                                                                           Spurious Reward
+                                                                                                                   • Adaptive Data Governance. Future work
+                   Sampling          Learning          Generation          Collective      Game-Theoretic
+                                                                                                                     should jointly and adaptively schedule data
+Figure 4: RL for LLMs in training-centric perspective.                                                               pruning, compression, and synthesis.
+
+and advantage clipping for stable optimization.                                                                4     Training-Centric Perspective
+Step-level Compression. DAST (Shen et al.,
+                                                                                                               From the perspective of training, researchers have
+2025b) proposes a difficulty-aware reward mech-
+                                                                                                               addressed data dependence through three principal
+anism based on a Token Length Budget, enabling
+                                                                                                               avenues: trajectory generation, reward engineering,
+models to automatically shorten reasoning for sim-
+                                                                                                               and policy optimization (see Figure 4).
+ple problems while preserving sufficient CoT for
+complex ones. THINKPRUNE (Hou et al., 2025)                                                                    4.1    Trajectory Generation
+encouraging models to actively prune redundant                                                                 Policy updates rely on numerous trajectory sam-
+reasoning steps and progressively learn more effi-                                                             ples. To avoid the unaffordable consumption of
+cient reasoning structures through iterative budget                                                            computational resources and time, researchers have
+tightening. S-GRPO (Dai et al., 2025a) introduces                                                              shifted from unstructured random exploration to-
+a serial grouping strategy with decaying rewards,                                                              ward guided exploration and selective rollouts.
+guiding models to recognize when intermediate rea-                                                             Guided Exploration. Guided exploration seeks
+soning is already sufficient and perform early exit                                                            to improve sample efficiency through structured
+along the reasoning trajectory. Interleaved Rea-                                                               sampling. A major breakthrough in this area in-
+soning (Xie et al., 2025) trains models via rein-                                                              tegrates planning algorithms such as Monte Carlo
+forcement learning to alternate between generating                                                             Tree Search (MCTS) into the LLM decoding pro-
+intermediate answers and reasoning steps, thereby                                                              cess (Chen et al., 2024; Wan et al., 2024), lever-
+providing denser and more verifiable intermediate                                                              aging the structural advantages of search trees to
+reward signals. Step-Entropy-based CoT Compres-                                                                increase the probability of generating valid sam-
+sion (Li et al., 2025e) shows that many low-entropy                                                            ples. LLM-PSRL (Arumugam and Griffiths, 2025)
+reasoning steps are redundant, and trains models to                                                            adopts a Bayesian posterior sampling approach
+actively skip such steps during generation.                                                                    through prompting engineering. It first samples
+Trajectory-level Compression. DAPO (Yu et al.,                                                                 a hypothesis from the posterior distribution, then
+2025) oversamples prompts during training and                                                                  takes optimal actions based on that hypothesis. A
+filters out entire groups of trajectories that pro-                                                            more advanced exploration direction uses exter-
+duce zero gradients, retaining only trajectories that                                                          nal search tools as part of the exploration process.
+yield non-zero gradient signals for optimization.                                                              Search-R1 (Jin et al., 2025) enables models to
+PROF (Ye et al., 2025a) performs trajectory-level                                                              learn when to proactively initiate search queries in
+ranking and filtering after rollout, retaining only                                                            knowledge-blind regions. Such dynamic interleav-
+those complete trajectories whose process rewards                                                              ing of search and reasoning trajectories encodes
+are consistent with outcome rewards.                                                                           richer information-processing logic.
+Dataset-level Compresion. One-shot RLVR (Wang                                                                  Selective and Adaptive Rollouts. Even with guided
+et al., 2025g) shows that the effective RLVR train-                                                            exploration, generating massive trajectories re-
+ing set can be reduced to a single example while                                                               mains computationally expensive. Efficient roll-
+still achieving performance comparable to RLVR                                                                 out strategies (Zheng et al., 2025) have therefore
+trained on datasets containing 7.5k samples. Poly-                                                             become essential. GRESO (Zheng et al., 2025)
+math learning (Li et al., 2025d) restricts the RL                                                              exemplifies pre-generation filtering by maintain-
+training set to a single example, selecting or syn-                                                            ing historical states for each prompt and com-
+thesizing a high-information-density sample by ex-                                                             puting a skipping probability. Prompts predicted
+plicitly covering salient reasoning skills.                                                                    to yield low-information rollouts are directly by-
+passed. PODS (Xu et al., 2025b), a post-generation      and CDE (Dai et al., 2025b) reward rollouts with
+sampling method, addresses the computational            higher relative entropy (greater divergence from the
+asymmetry between generation and update phases.         old policy) to encourage exploration of new strate-
+Token-level masking methods (Wang et al., 2025f)        gies. Beyond entropy, inter-model interactions also
+identify high-entropy tokens as the true forking        serve as important intrinsic rewards. SCoRe (Ku-
+points that determine reasoning path directions. By     mar et al., 2025) and ReviewRL (Zeng et al., 2025a)
+computing policy gradients only for high-entropy        train models through multi-round and multi-agent
+tokens, models not only maintain performance but        RL to provide more reliable rewards.
+can even achieve improvements.                          Consistency and Consensus Mechanisms. In ad-
+                                                        dition to entropy-driven exploration and multi-
+4.2   Reward Engineering                                agent interaction, another powerful source of in-
+Evaluating trajectory quality is a central RL chal-     ternal signals emerges from the self-consistency
+lenge. Sparse rewards complicate credit assign-         of the model’s own response. For instance,
+ment, motivating automated process-based rewards        KnowRL (Kale and Dhami, 2025) incorporates in-
+and intrinsic motivation signals.                       trospection and consensus-based rewarding mecha-
+Process-based Reward. Process rewards aim               nisms to allow models to self-improve their bound-
+to provide dense rewards for each reasoning             ary awareness with the internally-generated data.
+step. In the absence of human-annotated pro-            Intuitor (Zhao et al., 2025c) utilizes the confidence
+cess data, researchers leverage statistical proper-     of the model itself as the sole reward signal, re-
+ties of model outputs to synthesize process re-         alizing fully unsupervised learning. Majority vot-
+wards. CoVo (Zhang et al., 2025e) observes              ing reward methods (Zuo et al., 2025; Wei et al.,
+that correct reasoning paths typically converge to      2025a; Shafayat et al., 2025) estimate reward sig-
+the same answer, while incorrect paths diverge          nals through majority voting, allowing models to
+chaotically. It exploits consistency and volatil-       self-evolve during test-time inference. SVSI (Jiang
+ity patterns to achieve a self-rewarding mecha-         et al., 2025) leverages lightweight sentence em-
+nism. Evol-RL (Zhou et al., 2025b) designs a            beddings to measure semantic similarity among
+novelty-promoting mechanism that rewards sam-           generated responses, thereby constructing prefer-
+ples whose reasoning paths are semantically dis-        ence pairs for model training. RLCCF (Yuan et al.,
+tant from existing paths yet still arrive at correct    2025) also uses self-consistency to weight the votes
+answers. L2T (Wang et al., 2025b) incorporates a        from multiple heterogeneous LLMs.
+compression penalty term that penalizes steps with      Heuristic and Surrogate Signals. Since consensus-
+low information gain but high token consumption.        based rewards require multiple deployments for
+This reward design compels the model to learn ef-       each query, researchers turn to lighter heuristic
+ficient thinking, achieving maximum confidence          rewards from individual responses. (Shao et al.,
+improvement with minimal reasoning steps.               2025) uncovers that RL can improve mathematical
+Intrinsic Motivation. When external feedback is         reasoning in specific models even with spurious
+unavailable, agents must rely on intrinsic motiva-      rewards. It shows that RL training activates rea-
+tion. Entropy-based metrics (Luo et al., 2025a)         soning patterns already learned during pretraining.
+have become central to measuring intrinsic moti-        (Xin et al., 2025) suggests using format correct-
+vation. However, the community holds divergent          ness and response length as surrogate reward sig-
+views on how to leverage entropy. Entropy mini-         nals. Researchers also find that the efficacy of in-
+mization perspective (Agarwal et al., 2025) argues      ternal feedback-based RL depends on the model’s
+that pretrained models already contain most re-         initial policy entropy (Zhang et al., 2025h). Co-
+quired knowledge, and errors primarily stem from        MAS (Xue et al., 2025) provide a co-evolution
+decoding uncertainty. Therefore, RL should mini-        framework for multi-agent systems using intrinsic
+mize entropy to make models more confident (Prab-       rewards, while (Zhang et al., 2025j) proposes a
+hudesai et al., 2025; Li et al., 2025a; Zhang et al.,   co-rewarding framework to provide complemen-
+2025f). However, Entropy maximization perspec-          tary supervision on the data side and model side.
+tive counters that solely minimizing entropy leads      CaT (Jayalath et al., 2025) synthesizes a reference
+to premature convergence and overfitting. To            answer from the model’s parallel inference-time
+push beyond capability boundaries, relative entropy     rollouts and converts it into reference-free rewards.
+must be maximized. PREPO (Sun et al., 2025b)            SPPO (Wu et al.) frames LLM alignment as a two-
+       Self-evolving Framework         Framework-Centric Perspective                    Asymmetric Co-
+                                                                                      evolution Framework        5     Framework-Centric Perspective
+                                           Multi-agent Evolution Framework
+Self-Training Adaptive Learning                                                 Collaborative
+                                                                                Co-evolution
+                                                                                                Adversarial
+                                                                                                Co-evolution
+                                                                                                                 From a framework-centric perspective, RL under
+                           Task         Competitive          Multi-role
+   Task
+               Self-play difficulty      Self-play          Cooperation                            Generator     data scarcity leverages self-feedback to enable con-
+ generation
+                                      Multi-turn games   Multi-agent settings
+   Self-           Dynamic
+                                                                                Self-question
+                                                                                                  Competitive
+                                                                                                                 tinuous evolution. We categorize methods into
+ evaluation       Adjustment                                                    Proposer/…         learning
+
+   Self-
+                                                                                                                 three paradigms: self-evolving, asymmetric co-
+ correction
+   ……
+               Search      GUI                                                   Solver /…       Discriminator   evolution, and multi-agent evolution (see Figure 5).
+
+   Figure 5: RL for LLMs in framework perspective.                                                               5.1    Self-evolving Framework
+                                                                                                                 Self-evolving utilizes a single model acting as both
+player constant-sum game and iteratively updates
+                                                                                                                 generator and evaluator, effectively closing the
+policies to approximate the Nash equilibrium.
+                                                                                                                 learning loop without external supervision.
+4.3           Policy Optimization                                                                                Self-Training.      Self-training methods evolve
+                                                                                                                 through iterative task generation and self-
+The effectiveness of policy optimization determines
+                                                                                                                 evaluation. Yu et al. (2026) enables self-evolving
+whether the model can efficiently acquire reliable
+                                                                                                                 by progressively leveraging easy labeled data and
+reasoning capabilities from generated trajectories
+                                                                                                                 harder unlabeled data via pseudo-labeling and RL.
+and engineered rewards.
+                                                                                                                 Feng and Feng (2024) combines Direct Preference
+Replay Mechanisms. To stabilize training and en-                                                                 Optimization with self-generated trajectories to re-
+hance sample efficiency, some methods revisit ex-                                                                duce reliance on human labels. Similarly, self-
+perience replay to adapt it to the unique structure                                                              correction frameworks (Xiong et al., 2025) and
+of LLM reasoning trajectories. (Liu et al., 2025e)                                                               self-verification mechanisms like S2 R (Ma et al.,
+designs a multi-view self-rewarding mechanism to                                                                 2025) reinforce learning at both outcome and pro-
+construct cross-validated intrinsic reward signals                                                               cess levels. Recent works further refine this via
+across diverse reasoning paths or problem formu-                                                                 self-judging rewards for machine translation (Yang
+lations. (Sun et al., 2025c) presents a curriculum                                                               et al., 2025b), adaptive reward interpolation in
+learning strategy with dynamic difficulty adjust-                                                                RLER (Tan et al., 2025a), and bootstrapping via
+ment in reinforcement learning, enabling models                                                                  self-instruction in SeRL (Fang et al., 2025b).
+to progressively advance from simple to complex
+                                                                                                                 Adaptive Learning. These methods focus on
+problems in mathematical reasoning.
+                                                                                                                 dynamic strategy adjustment w.r.t environmental
+Sample-Efficient Objectives. Another pipeline fo-                                                                changes. ZeroGUI (Yang et al., 2025a) automates
+cuses on redesigning the learning objective to max-                                                              task generation for GUI agents to eliminate hand-
+imize knowledge extraction from self-generated                                                                   crafted evaluations. Self-aware RL (Zhang et al.,
+data. KTO (Ethayarajh et al., 2024) develops a dis-                                                              2025b) enables capability prediction to proactively
+tillation mechanism that leverages self-generated                                                                request data. ASL (Sun et al., 2025a) unifies task
+intermediate reasoning steps as supervision sig-                                                                 generation and execution in search environments.
+nals during training to enhance LLMs’ reasoning                                                                  Similarly, AZR (Zhao et al., 2025a) uses self-play
+abilities. IGPO (Zhao et al., 2025b) introduces an                                                               to autonomously generate and solve training tasks.
+inpainting-like controllable generation mechanism
+into diffusion language models to enable guidance                                                                5.2    Asymmetric Co-Evolution Framework
+and alignment of generated content.
+                                                                                                                 Asymmetric co-evolution typically involves two
+                                                                                                                 distinct agents to enhance learning through cooper-
+   Key takeaways
+                                                                                                                 ative or adversarial interactions.
+   • Mining Intrinsic Experience. The paradigm                                                                   Collaborative Co-Evolution. This approach often
+     shifts from external supervision to mining                                                                  pairs a proposer with a solver (Sukhbaatar et al.,
+     intrinsic experiential value via guided explo-                                                              2018; OpenAI et al., 2021), which utilizes intrin-
+     ration and endogenous signals.                                                                              sic motivation for automatic curriculum generation.
+   • Efficiency versus Noise. A core challenge                                                                   This dynamic extends to self-questioning (Chen
+     is trading off sampling cost and signal-to-                                                                 et al., 2025c), difficulty adjustment (Wei et al.,
+     noise ratio of self-generated rewards, while                                                                2025b), and visual reasoning (He et al., 2025b).
+     preventing reward-hacking collapse.                                                                         Recent methods push the capability frontier by gen-
+                                                                                                                 erating challenging queries via a Challenger (Liu
+et al., 2025b) or unifying roles for search (Lu et al.,   6   Challenges and Future Directions
+2025; Xu et al., 2025a). PasoDoble (Zhang et al.,
+2025i) further stabilizes training by decoupling up-      ▷ Reliability of Internal Rewards. LLM RL under
+dates between the proposer and solver.                    data scarcity relies heavily on internal rewards (Zuo
+Adversarial Co-Evolution. Adversarial frame-              et al., 2025) such as consistency, entropy and
+works often pit a generator against a discriminator.      heuristic signals. However, these signals are often
+SPAG (Cheng et al., 2024) utilizes games like Ad-         noisy and susceptible to reward hacking (Shafayat
+versarial Taboo to enforce information-reserved           et al., 2025) or model collapse (Shumailov et al.,
+constraints. Verification capabilities are refined in     2024), making reliable credit assignments challeng-
+SPC (Chen et al., 2025b) via a "sneaky generator"         ing. Future research should explore robust process-
+designed to fool a critic, and in GAR (Liu et al.,        based signals (Zhang et al., 2025e), and hybrid
+2025d) through a discriminator providing dense            reward designs (Zhou et al., 2025b) that remain
+logical rewards. SSR (Wei et al., 2025c) employs          stable even under scarce or noisy feedback.
+an injection-repair loop to construct a code repair       ▷ Generalization to Unverifiable and Open-Ended
+curriculum via bug generation.                            Tasks. Most existing RL methods for LLMs under
+                                                          data scarcity focus on verifiable domains such as
+5.3   Multi-Agent Evolution Framework                     mathematics or coding (Liu et al., 2025b; Wei et al.,
+                                                          2025b) and are highly domain-dependent (Zhang
+This paradigm generalizes self-play beyond binary
+                                                          et al., 2025i). Future work should address unverifi-
+interactions, utilizing complex game dynamics or
+                                                          able or subjective tasks (e.g., creative writing, open-
+specialized roles to internalize evaluation.
+                                                          ended dialogue (Huang et al., 2025), scientific dis-
+Competitive Self-Play Games. Competitive self-
+                                                          covery), real-world solving (e.g., world modeling
+play allows LLMs to autonomously acquire rea-
+                                                          and embodied agents (Zhao et al., 2025a)), and
+soning skills by competing against themselves in
+                                                          generalization to out-of-distribution tasks.
+structured, zero-sum environments. SPIRAL (Liu
+                                                          ▷ Safety Risks in Self-Play Frameworks. Al-
+et al., 2025a) uses multi-turn games (e.g., poker) to
+                                                          though self-play frameworks can generate data
+incentivize systematic reasoning. Similarly, Vision-
+                                                          that reduce reliance on human-crafted tasks, they
+Zero (Wang et al., 2025e) adapts competitive logic
+                                                          also introduce significant safety risks (Wang et al.,
+to visual domains via "Who is the Spy" games,
+                                                          2024, 2025a). For example, Llama-3.1-8B may
+achieving SOTA results in visual reasoning.
+                                                          exhibit “uh-oh moments” in chain-of-thought rea-
+Multi-Role Cooperation. These models employ
+                                                          soning (Zhao et al., 2025a), and unsupervised self-
+specialized roles (e.g., Proposer, Solver, Verifier) to
+                                                          evolution can propagate or even amplify biases
+address complex tasks. SPELL (Yang et al., 2025d)
+                                                          from initial seed data (Fang et al., 2025b). Under
+and MAE (Chen et al., 2025f) utilize triplet struc-
+                                                          data-scarce conditions, models may further develop
+tures to handle long-context and general reasoning.
+                                                          spurious generalization patterns. To mitigate these
+Others leverage formal verification signals (Wilf
+                                                          risks, future work should incorporate online filter-
+et al., 2025) or hierarchical actor-judge architec-
+                                                          ing (Chen et al., 2025c) and safety-aware training
+tures (Wang et al., 2025c) to refine both policies
+                                                          mechanisms to ensure reliable self-play processes.
+and evaluation criteria within a closed loop.
+
+  Key takeaways                                           7   Conclusion
+
+  • Trade-offs. Self-evolving frameworks prior-           We present a review of reinforcement learning for
+    itize efficiency, while multi-agent methods           LLMs under data scarcity and introduce a bottom-
+    trade cost for deeper reasoning.                      up hierarchical taxonomy that categorizes existing
+  • De-biasing. Interactions in co-evolution              approaches from data, training, and framework per-
+    introduce external signals, breaking "echo            spectives. Our survey reveals that addressing data
+    chambers" and reducing self-delusion.                 scarcity goes beyond scaling supervised signals or
+  • Autogenous Curricula. These frameworks                interactive experience, but instead requires external
+    replace static datasets with dynamic gen-             data processing, effective internal data utilization
+    eration, where task difficulty adaptively             during RL training, and evolving frameworks. We
+    matches the model’s evolving capability.              hope this survey provides a solid foundation for
+                                                          future research on data-efficient RL for LLMs.
+8    Limitations                                          Samee Arif, Sualeha Farid, Abdul Hameed Azeemi,
+                                                            Awais Athar, and Agha Ali Raza. 2025. The fel-
+While this survey provides a first unified framework        lowship of the LLMs: Multi-model workflows for
+for reinforcement learning under data scarcity, it          synthetic preference optimization dataset generation.
+                                                            In Proceedings of the Fourth Workshop on Genera-
+has limitations. Due to the rapid development of            tion, Evaluation and Metrics (GEM²), pages 30–45,
+the field, the proposed framework requires timely           Vienna, Austria and virtual meeting. Association for
+updates to comprehensively cover emerging meth-             Computational Linguistics.
+ods. We hope that this survey serves as inspiration
+                                                          Dilip Arumugam and Thomas L Griffiths. 2025. Toward
+for both theoretical and practical advancements in          efficient exploration by large language model agents.
+data-efficient reinforcement learning.                      In The Exploration in AI Today Workshop at ICML
+                                                            2025.
+9    Ethical Statement                                    Sanghwan Bae, Jiwoo Hong, Min Young Lee, Hanbyul
+                                                            Kim, JeongYeon Nam, and Donghyun Kwak. 2025.
+We follow the ACL Code of Ethics and maintain               Online difficulty filtering for reasoning oriented rein-
+high standards of research integrity throughout this        forcement learning. CoRR, abs/2504.03380.
+survey. As a literature review, our work does not
+                                                          Yuntao Bai, Saurav Kadavath, Sandipan Kundu,
+involve human subjects, human annotation, or the
+                                                            Amanda Askell, Jackson Kernion, Andy Jones, Anna
+collection of private or sensitive data. All refer-         Chen, Anna Goldie, Azalia Mirhoseini, Cameron
+enced datasets, benchmarks, and models discussed            McKinnon, Carol Chen, Catherine Olsson, Christo-
+in this survey are drawn from publicly available            pher Olah, Danny Hernandez, Dawn Drain, Deep
+sources, and we cite them in accordance with their          Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez,
+                                                            and 32 others. 2022. Constitutional AI: harmlessness
+original usage and licensing conditions.                    from AI feedback. CoRR, abs/2212.08073.
+   We aim to present a balanced and transparent
+analysis of existing methods, carefully summariz-         Guoxin Chen, Minpeng Liao, Chengxi Li, and Kai Fan.
+                                                            2024. Alphamath almost zero: process supervision
+ing their contributions, limitations, and potential         without process. Advances in Neural Information
+risks. No conflicts of interest or sponsorship biases       Processing Systems, 37:27689–27724.
+have been identified. We remain committed to ad-
+                                                          Jiangjie Chen, Qianyu He, Siyu Yuan, Aili Chen,
+dressing any ethical considerations raised during            Zhicheng Cai, Weinan Dai, Hongli Yu, Qiying Yu,
+the review process and to promoting responsible              Xuefeng Li, Jiaze Chen, Hao Zhou, and Mingxuan
+research on data-efficient reinforcement learning            Wang. 2025a. Enigmata: Scaling logical reasoning
+for large language models.                                   in large language models with synthetic verifiable
+                                                             puzzles. CoRR, abs/2505.19914.
+10    Acknowledgments                                     Jiaqi Chen, Bang Zhang, Ruotian Ma, Peisong Wang,
+                                                             Xiaodan Liang, Zhaopeng Tu, Xiaolong Li, and
+The work of Zhiyin Yu, Bo Zhang, and Lei Bai                 Kwan-Yee K. Wong. 2025b. SPC: Evolving self-
+was supported by the Shanghai Artificial Intelli-            play critic via adversarial games for LLM reasoning.
+gence Laboratory. The authors thank the anony-               In The Thirty-ninth Annual Conference on Neural
+                                                             Information Processing Systems.
+mous reviewers for their valuable comments and
+suggestions.                                              Lili Chen, Mihir Prabhudesai, Katerina Fragki-
+                                                             adaki, Hao Liu, and Deepak Pathak. 2025c.
+                                                             Self-questioning language models.  Preprint,
+                                                             arXiv:2508.03682.
+References
+                                                          Weizhe Chen, Sven Koenig, and Bistra Dilkina.
+Shivam Agarwal, Zimin Zhang, Lifan Yuan, Jiawei Han,
+                                                           2025d. LSPO: length-aware dynamic sampling
+  and Hao Peng. 2025. The unreasonable effectiveness
+                                                           for policy optimization in LLM reasoning. CoRR,
+  of entropy minimization in llm reasoning. arXiv
+                                                           abs/2510.01459.
+  preprint arXiv:2505.15134.
+                                                          Xingwu Chen, Tianle Li, and Difan Zou. 2025e. Re-
+Huan ang Gao, Jiayi Geng, Wenyue Hua, Mengkang Hu,          shaping reasoning in llms: A theoretical analysis
+  Xinzhe Juan, Hongzhang Liu, Shilong Liu, Jiahao           of rl training dynamics through pattern selection.
+  Qiu, Xuan Qi, Yiran Wu, Hongru Wang, Han Xiao,            Preprint, arXiv:2506.04695.
+  Yuhang Zhou, Shaokun Zhang, Jiayi Zhang, Jinyu Xi-
+  ang, Yixiong Fang, Qiwen Zhao, Dongrui Liu, and 8       Yixing Chen, Yiding Wang, Siqi Zhu, Haofei Yu, Tao
+  others. 2026. A survey of self-evolving agents: What,     Feng, Muhan Zhang, Mostofa Patwary, and Jiaxuan
+  when, how, and where to evolve on the path to artifi-     You. 2025f. Multi-agent evolve: Llm self-improve
+  cial super intelligence. Preprint, arXiv:2507.21046.      through co-evolution. Preprint, arXiv:2510.23595.
+Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang,          Wenkai Fang, Shunyu Liu, Yang Zhou, Kongcheng
+  Yong Dai, Lei Han, nan du, and Xiaolong Li. 2024.        Zhang, Tongya Zheng, Kaixuan Chen, Mingli Song,
+  Self-playing adversarial language game enhances          and Dacheng Tao. 2025b. SeRL: Self-play reinforce-
+  LLM reasoning. In The Thirty-eighth Annual Con-          ment learning for large language models with limited
+  ference on Neural Information Processing Systems.        data. In The Thirty-ninth Annual Conference on Neu-
+                                                           ral Information Processing Systems.
+Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao,
+  Bingxiang He, Wei Zhu, Yuan Ni, Guotong Xie,            Daniel Fein and Gabriela Aranguiz-Dias. 2025. Influ-
+  Ruobing Xie, Yankai Lin, Zhiyuan Liu, and Maosong         ence functions for preference dataset pruning. CoRR,
+  Sun. 2024. ULTRAFEEDBACK: boosting language               abs/2507.14344.
+  models with scaled AI feedback. In Forty-first In-
+  ternational Conference on Machine Learning, ICML        Shuang Feng and Grace Feng. 2024. An extremely
+  2024, Vienna, Austria, July 21-27, 2024. OpenRe-          data-efficient and generative llm-based reinforce-
+  view.net.                                                 ment learning agent for recommenders. Preprint,
+                                                            arXiv:2408.16032.
+Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang,
+  Yuchen Zhang, Jiacheng Chen, Wendi Li, Bingxiang        Xinyu Guan, Li Lyna Zhang, Yifei Liu, Ning Shang,
+  He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen,          Youran Sun, Yi Zhu, Fan Yang, and Mao Yang. 2025.
+  Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai            rstar-math: Small LLMs can master math reasoning
+  Lv, Shuo Wang, Yuan Yao, Xu Han, and 6 others.            with self-evolved deep thinking. In Forty-second
+  2025. Process reinforcement through implicit re-          International Conference on Machine Learning.
+  wards. Preprint, arXiv:2502.01456.                      Caglar Gulcehre, Tom Le Paine, Srivatsan Srini-
+                                                            vasan, Ksenia Konyushkova, Lotte Weerts, Abhishek
+Josef Dai, Xuehai Pan, Ruiyang Sun, Jiaming Ji, Xinbo
+                                                            Sharma, Aditya Siddhant, Alex Ahern, Miaosen
+  Xu, Mickel Liu, Yizhou Wang, and Yaodong Yang.
+                                                            Wang, Chenjie Gu, Wolfgang Macherey, Arnaud
+   2023. Safe rlhf: Safe reinforcement learning from
+                                                            Doucet, Orhan Firat, and Nando de Freitas. 2023.
+   human feedback. Preprint, arXiv:2310.12773.
+                                                            Reinforced self-training (rest) for language modeling.
+Muzhi Dai, Chenxu Yang, and Qingyi Si. 2025a. S-grpo:       Preprint, arXiv:2308.08998.
+ Early exit via reinforcement learning in reasoning       Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song,
+ models. arXiv preprint arXiv:2505.07686.                   Peiyi Wang, Qihao Zhu, Runxin Xu, Ruoyu Zhang,
+Runpeng Dai, Linfeng Song, Haolin Liu, Zhenwen              Shirong Ma, Xiao Bi, Xiaokang Zhang, Xingkai Yu,
+  Liang, Dian Yu, Haitao Mi, Zhaopeng Tu, Rui Liu,          Yu Wu, Z. F. Wu, Zhibin Gou, Zhihong Shao, Zhu-
+  Tong Zheng, Hongtu Zhu, and 1 others. 2025b. Cde:         oshu Li, Ziyi Gao, Aixin Liu, and 175 others. 2025.
+  Curiosity-driven exploration for efficient reinforce-     Deepseek-r1 incentivizes reasoning in llms through
+  ment learning in large language models. arXiv             reinforcement learning. Nature, 645(8081):633–638.
+  preprint arXiv:2509.09675.                              Daya Guo, Qihao Zhu, Dejian Yang, Zhenda Xie, Kai
+                                                            Dong, Wentao Zhang, Guanting Chen, Xiao Bi,
+Ning Ding, Yulin Chen, Bokai Xu, Yujia Qin,
+                                                            Y. Wu, Y. K. Li, Fuli Luo, Yingfei Xiong, and Wen-
+  Shengding Hu, Zhiyuan Liu, Maosong Sun, and
+                                                            feng Liang. 2024. Deepseek-coder: When the large
+  Bowen Zhou. 2023. Enhancing chat language models
+                                                            language model meets programming – the rise of
+  by scaling high-quality instructional conversations.
+                                                            code intelligence. Preprint, arXiv:2401.14196.
+  In Proceedings of the 2023 Conference on Empirical
+  Methods in Natural Language Processing, EMNLP           Li He, He Zhao, Stephen Wan, Dadong Wang, Lina Yao,
+  2023, Singapore, December 6-10, 2023, pages 3029–          and Tongliang Liu. 2025a. Direct advantage regres-
+  3051. Association for Computational Linguistics.           sion: Aligning llms with online AI reward. CoRR,
+                                                             abs/2504.14177.
+He Du, Bowen Li, Aijun Yang, Siyang He, Qipeng
+  Guo, and Dacheng Tao. 2025. Evosyn: Generalizable       Qiang He and Setareh Maghsudi. 2026. Pareto multi-
+  evolutionary data synthesis for verifiable learning.      objective alignment for language models. In Machine
+  CoRR, abs/2510.17928.                                     Learning and Knowledge Discovery in Databases.
+                                                            Research Track, pages 257–272, Cham. Springer Na-
+Kawin Ethayarajh, Winnie Xu, Niklas Muennighoff,            ture Switzerland.
+  Dan Jurafsky, and Douwe Kiela. 2024. Kto: Model
+  alignment as prospect theoretic optimization. arXiv     Yicheng He, Chengsong Huang, Zongxia Li, Ji-
+  preprint arXiv:2402.01306.                                axin Huang, and Yonghui Yang. 2025b. Visplay:
+                                                            Self-evolving vision-language models from images.
+Jinyuan Fang, Yanwen Peng, Xi Zhang, Yingxu Wang,           Preprint, arXiv:2511.15661.
+   Xinhao Yi, Guibin Zhang, Yi Xu, Bin Wu, Siwei Liu,
+   Zihao Li, Zhaochun Ren, Nikos Aletras, Xi Wang,        Bairu Hou, Yang Zhang, Jiabao Ji, Yujian Liu,
+   Han Zhou, and Zaiqiao Meng. 2025a. A compre-             Kaizhi Qian, Jacob Andreas, and Shiyu Chang.
+   hensive survey of self-evolving ai agents: A new         2025. Thinkprune: Pruning long chain-of-thought
+   paradigm bridging foundation models and lifelong         of llms via reinforcement learning. arXiv preprint
+   agentic systems. Preprint, arXiv:2508.07407.             arXiv:2504.01296.
+Sam Houliston, Alizée Pace, Alexander Immer, and           Tue Le, Nghi D. Q. Bui, Linh Ngo Van, and Trung
+  Gunnar Rätsch. 2024.      Uncertainty-penalized            Le. 2025. Sharpness-controlled group relative policy
+  direct preference optimization.        Preprint,           optimization with token-level probability shaping.
+  arXiv:2410.20187.                                          Preprint, arXiv:2511.00066.
+Jingcheng Hu, Yinmin Zhang, Qi Han, Daxin Jiang, Xi-       Bowen Li, Wenhan Wu, Ziwei Tang, Lin Shi, John
+   angyu Zhang, and Heung-Yeung Shum. 2025. Open-            Yang, Jinyang Li, Shunyu Yao, Chen Qian, Binyuan
+   reasoner-zero: An open source approach to scaling up      Hui, Qicheng Zhang, Zhiyin Yu, He Du, Ping Yang,
+   reinforcement learning on the base model. Preprint,       Dahua Lin, Chao Peng, and Kai Chen. 2024. Prompt-
+   arXiv:2503.24290.                                         ing large language models to tackle the full soft-
+Chengsong Huang, Wenhao Yu, Xiaoyang Wang, Hong-             ware development lifecycle: A case study. Preprint,
+  ming Zhang, Zongxia Li, Ruosen Li, Jiaxin Huang,           arXiv:2403.08604.
+  Haitao Mi, and Dong Yu. 2025. R-zero: Self-
+  evolving reasoning llm from zero data. Preprint,         Pengyi Li, Matvey Skripkin, Alexander Zubrey, Andrey
+  arXiv:2508.05004.                                          Kuznetsov, and Ivan Oseledets. 2025a. Confidence
+                                                             is all you need: Few-shot rl fine-tuning of language
+Dulhan Jayalath, Shashwat Goel, Thomas Foster, Parag         models. arXiv preprint arXiv:2506.06395.
+  Jain, Suchin Gururangan, Cheng Zhang, Anirudh
+  Goyal, and Alan Schelten. 2025. Compute as teacher:      Shikun Li, Shipeng Li, Zhiqin Yang, Xinghua Zhang,
+  Turning inference compute into reference-free super-       Gaode Chen, Xiaobo Xia, Hengyu Liu, and Zhe
+  vision. arXiv preprint arXiv:2509.14234.                   Peng. 2025b. Learnalign: Reasoning data selection
+                                                             for reinforcement learning in large language mod-
+Kaixuan Ji, Jiafan He, and Quanquan Gu. 2024. Rein-          els based on improved gradient alignment. CoRR,
+  forcement learning from human feedback with active         abs/2506.11480.
+  queries. Trans. Mach. Learn. Res., 2025.
+Chunyang Jiang, Yonggang Zhang, Yiyang Cai, Chi-           Xuefeng Li, Haoyang Zou, and Pengfei Liu. 2025c.
+  Min Chan, Yulong Liu, Mingming Chen, Wei                   LIMR: less is more for RL scaling.      CoRR,
+  Xue, and Yike Guo. 2025. Semantic voting: A                abs/2502.11886.
+  self-evaluation-free approach for efficient llm self-
+  improvement on unverifiable open-ended tasks. In         Yiyuan Li, Zhen Huang, Yanan Wu, Weixun Wang,
+  The Thirty-ninth Annual Conference on Neural Infor-        Xuefeng Li, Yijia Luo, Pengfei Liu, Wenbo Su, and
+  mation Processing Systems.                                 Bo Zheng. 2025d. One sample to rule them all: Ex-
+                                                             treme data efficiency in RL scaling. In NeurIPS 2025
+Bowen Jin, Hansi Zeng, Zhenrui Yue, Jinsung Yoon,            Workshop on Efficient Reasoning.
+  Sercan Arik, Dong Wang, Hamed Zamani, and Jiawei
+  Han. 2025. Search-r1: Training llms to reason and        Zeju Li, Jianyuan Zhong, Ziyang Zheng, Xiangyu Wen,
+  leverage search engines with reinforcement learning.       Zhijian Xu, Yingying Cheng, Fan Zhang, and Qiang
+  arXiv preprint arXiv:2503.09516.                           Xu. 2025e. Compressing chain-of-thought in llms
+                                                             via step entropy. Preprint, arXiv:2508.03346.
+N Jones. 2024. The ai revolution is running out of data.
+  What can researchers do.
+                                                           Xiao Liang, Zhong-Zhi Li, Yeyun Gong, Yang Wang,
+Sahil Kale and Devendra Singh Dhami. 2025. Knowrl:           Hengyuan Zhang, Yelong Shen, Ying Nian Wu, and
+  Teaching language models to know what they know.           Weizhu Chen. 2025. Sws: Self-aware weakness-
+  arXiv preprint arXiv:2510.11407.                           driven problem synthesis in reinforcement learning
+                                                             for LLM reasoning. CoRR, abs/2506.08989.
+Bryce Kan, Wei Yang, Emily Nguyen, Ganghui Yi,
+  Bowen Yi, Chenxiao Yu, and Yan Liu. 2026.                Zhihang Lin, Mingbao Lin, Yuan Xie, and Rongrong
+  De-conflating preference and qualification: Con-           Ji. 2025. CPPO: accelerating the training of group
+  strained dual-perspective reasoning for job recom-         relative policy optimization-based reasoning models.
+  mendation with large language models. Preprint,            CoRR, abs/2503.22342.
+  arXiv:2602.03097.
+Aviral Kumar, Vincent Zhuang, Rishabh Agarwal, Yi Su,      Bo Liu, Leon Guertler, Simon Yu, Zichen Liu, Penghui
+  John D Co-Reyes, Avi Singh, Kate Baumli, Shariq            Qi, Daniel Balcells, Mickel Liu, Cheston Tan,
+  Iqbal, Colton Bishop, Rebecca Roelofs, and 1 others.       Weiyan Shi, Min Lin, Wee Sun Lee, and Natasha
+  2025. Training language models to self-correct via         Jaques. 2025a. Spiral: Self-play on zero-sum games
+  reinforcement learning. In The Thirteenth Interna-         incentivizes reasoning via multi-agent multi-turn re-
+  tional Conference on Learning Representations.             inforcement learning. Preprint, arXiv:2506.24119.
+
+Zhejian Lai, Xiang Geng, Zhijun Wang, Yang Bai, Ji-        Bo Liu, Chuanyang Jin, Seungone Kim, Weizhe Yuan,
+  ahuan Li, Rongxiang Weng, Jingang Wang, Xuezhi             Wenting Zhao, Ilia Kulikov, Xian Li, Sainbayar
+  Cao, Xunliang Cai, and Shujian Huang. 2025.                Sukhbaatar, Jack Lanchantin, and Jason Weston.
+  Making mathematical reasoning adaptive. CoRR,              2025b. Spice: Self-play in corpus environments im-
+  abs/2510.04617.                                            proves reasoning. Preprint, arXiv:2510.24684.
+Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding,           Maximizing confidence alone improves reasoning.
+  Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng,             arXiv preprint arXiv:2505.22660.
+  Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang,
+  Pengyu Zhao, Junjie Yan, and Junxian He. 2025c.         Xuan Qi, Jiahao Qiu, Xinzhe Juan, Yue Wu, and Mengdi
+  Synlogic: Synthesizing verifiable reasoning data          Wang. 2025. Shallow preference signals: Large lan-
+  at scale for learning logical reasoning and beyond.       guage model aligns even better with truncated data?
+  CoRR, abs/2505.19641.                                     arXiv preprint arXiv:2505.17122.
+Qihao Liu, Luoxin Ye, Wufei Ma, Yu-Cheng Chou, and        Zehan Qi, Xiao Liu, Iat Long Iong, Hanyu Lai, Xueqiao
+  Alan Yuille. 2025d. Generative adversarial reasoner:      Sun, Xinyue Yang, Jiadai Sun, Yu Yang, Shuntian
+  Enhancing llm reasoning with adversarial reinforce-       Yao, Tianjie Zhang, and 1 others. 2024. Webrl:
+  ment learning. Preprint, arXiv:2512.16917.                Training llm web agents via self-evolving online
+                                                            curriculum reinforcement learning. arXiv preprint
+Zichuan Liu, Jinyu Wang, Lei Song, and Jiang Bian.          arXiv:2411.02337.
+  2025e. Sample-efficient llm optimization with reset
+  replay. arXiv preprint arXiv:2508.06412.                Yun Qu, Qi Wang, Yixiu Mao, Vincent Tao Hu, Björn
+Hongliang Lu, Yuhang Wen, Pengyu Cheng, Ruijin              Ommer, and Xiangyang Ji. 2025. Can prompt diffi-
+  Ding, Haotian Xu, Jiaqi Guo, Chutian Wang, Haonan         culty be online predicted for accelerating RL finetun-
+  Chen, Xiaoxi Jiang, and Guanjun Jiang. 2025. Search       ing of reasoning models? CoRR, abs/2507.04632.
+  self-play: Pushing the frontier of agent capability
+  without supervision. Preprint, arXiv:2510.18821.        Jack W. Rae, Sebastian Borgeaud, Trevor Cai, Katie
+                                                             Millican, Jordan Hoffmann, H. Francis Song, John
+Junyu Luo, Xiao Luo, Xiusi Chen, Zhiping Xiao, Wei          Aslanides, Sarah Henderson, Roman Ring, Susan-
+  Ju, and Ming Zhang. 2025a. Semi-supervised fine-           nah Young, Eliza Rutherford, Tom Hennigan, Ja-
+  tuning for large language models. In Findings of the       cob Menick, Albin Cassirer, Richard Powell, George
+  Association for Computational Linguistics: NAACL          van den Driessche, Lisa Anne Hendricks, Maribeth
+  2025, pages 2795–2808.                                     Rauh, Po-Sen Huang, and 61 others. 2021. Scaling
+                                                             language models: Methods, analysis & insights from
+Junyu Luo, Bohan Wu, Xiao Luo, Zhiping Xiao, Yiqiao          training gopher. CoRR, abs/2112.11446.
+  Jin, Rong-Cheng Tu, Nan Yin, Yifan Wang, Jingyang
+  Yuan, Wei Ju, and Ming Zhang. 2025b. A survey           Sheikh Shafayat, Fahim Tajwar, Ruslan Salakhutdi-
+  on efficient large language model training: From          nov, Jeff Schneider, and Andrea Zanette. 2025.
+  data-centric perspectives. In Proceedings of the 63rd     Can large reasoning models self-train? Preprint,
+  Annual Meeting of the Association for Computational       arXiv:2505.21444.
+  Linguistics (Volume 1: Long Papers), pages 30904–
+  30920, Vienna, Austria. Association for Computa-        Rulin Shao, Shuyue Stella Li, Rui Xin, Scott Geng, Yip-
+  tional Linguistics.                                       ing Wang, Sewoong Oh, Simon Shaolei Du, Nathan
+                                                            Lambert, Sewon Min, Ranjay Krishna, and 1 others.
+Ruotian Ma, Peisong Wang, Cheng Liu, Xingyan Liu,           2025. Spurious rewards: Rethinking training signals
+  Jiaqi Chen, Bang Zhang, Xin Zhou, Nan Du, and             in rlvr. arXiv preprint arXiv:2506.10947.
+  Jia Li. 2025. S2 r: Teaching llms to self-verify and
+  self-correct via reinforcement learning. Preprint,      Qianli Shen, Daoyuan Chen, Yilun Huang, Zhenqing
+  arXiv:2502.12853.                                         Ling, Yaliang Li, Bolin Ding, and Jingren Zhou.
+                                                            2025a. BOTS: A unified framework for bayesian
+Luckeciano C. Melo, Panagiotis Tigas, Alessandro            online task selection in LLM reinforcement finetun-
+  Abate, and Yarin Gal. 2024. Deep bayesian active          ing. CoRR, abs/2510.26374.
+  learning for preference modeling in large language
+  models. In Advances in Neural Information Pro-          Yi Shen, Jian Zhang, Jieyun Huang, Shuming Shi, Wen-
+  cessing Systems, volume 37, pages 118052–118085.           jing Zhang, Jiangze Yan, Ning Wang, Kai Wang,
+  Curran Associates, Inc.                                    Zhaoxiang Liu, and Shiguo Lian. 2025b. Dast:
+OpenAI. 2024. Openai o1 system card. Preprint,               Difficulty-adaptive slow-thinking for large reason-
+  arXiv:2412.16720.                                          ing models. arXiv preprint arXiv:2503.04472.
+
+OpenAI OpenAI, Matthias Plappert, Raul Sampe-             Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Nicolas
+  dro, Tao Xu, Ilge Akkaya, Vineet Kosaraju, Peter            Papernot, Ross Anderson, and Yarin Gal. 2024. Ai
+  Welinder, Ruben D’Sa, Arthur Petron, Henrique P.            models collapse when trained on recursively gener-
+  d. O. Pinto, Alex Paino, Hyeonwoo Noh, Lilian               ated data. Nature, 631(8022):755–759.
+  Weng, Qiming Yuan, Casey Chu, and Wojciech
+  Zaremba. 2021. Asymmetric self-play for automatic       David Silver and Richard S. Sutton. 2025. Welcome to
+  goal discovery in robotic manipulation. Preprint,         the era of experience. Technical report, Google AI.
+  arXiv:2101.04882.
+                                                          Toby Simonds, Kevin Lopez, Akira Yoshiyama, and
+Mihir Prabhudesai, Lili Chen, Alex Ippoliti, Katerina       Dominique Garmier. 2025. Self rewarding self im-
+  Fragkiadaki, Hao Liu, and Deepak Pathak. 2025.            proving. arXiv preprint arXiv:2505.08827.
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M.               Xiao, Chenzhuang Du, Chonghua Liao, Chuning
+  Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford,             Tang, Congcong Wang, Dehao Zhang, Enming Yuan,
+  Dario Amodei, and Paul Christiano. 2020. Learning           Enzhe Lu, Fengxiang Tang, Flood Sung, Guangda
+  to summarize from human feedback. In Proceedings            Wei, Guokun Lai, and 77 others. 2025b. Kimi k1.5:
+  of the 34th International Conference on Neural In-          Scaling reinforcement learning with llms. Preprint,
+  formation Processing Systems, NIPS ’20, Red Hook,           arXiv:2501.12599.
+  NY, USA. Curran Associates Inc.
+                                                            Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier
+Zafir Stojanovski, Oliver Stanley, Joe Sharratt, Richard      Martinet, Marie-Anne Lachaux, Timothée Lacroix,
+  Jones, Abdulhakeem Adefioye, Jean Kaddour, and              Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal
+  Andreas Köpf. 2025. REASONING GYM: reason-                  Azhar, Aurélien Rodriguez, Armand Joulin, Edouard
+  ing environments for reinforcement learning with            Grave, and Guillaume Lample. 2023. Llama: Open
+  verifiable rewards. CoRR, abs/2505.24760.                   and efficient foundation language models. CoRR,
+                                                              abs/2302.13971.
+Sainbayar Sukhbaatar, Zeming Lin, Ilya Kostrikov,
+  Gabriel Synnaeve, Arthur Szlam, and Rob Fergus.           Ziyu Wan, Xidong Feng, Muning Wen, Stephen Marcus
+  2018. Intrinsic motivation and automatic curricula          Mcaleer, Ying Wen, Weinan Zhang, and Jun Wang.
+  via asymmetric self-play. In International Confer-          2024. Alphazero-like tree-search can guide large
+  ence on Learning Representations.                           language model decoding and training. In Inter-
+Wangtao Sun, Xiang Cheng, Jialin Fan, Yao Xu, Xing            national Conference on Machine Learning, pages
+ Yu, Shizhu He, Jun Zhao, and Kang Liu. 2025a. To-            49890–49920. PMLR.
+ wards agentic self-learning llms in search environ-
+ ment. Preprint, arXiv:2510.14253.                          Huanqian Wang, Yang Yue, Rui Lu, Jingxin Shi, An-
+                                                              drew Zhao, Shenzhi Wang, Shiji Song, and Gao
+Yan Sun, Jia Guo, Stanley Kok, Zihao Wang, Zujie Wen,         Huang. 2025a. Model surgery: Modulating LLM’s
+  and Zhiqiang Zhang. 2025b. Efficient reinforcement          behavior via simple parameter editing. In Proceed-
+  learning for large language models with intrinsic ex-       ings of the 2025 Conference of the Nations of the
+  ploration. CoRR, abs/2511.00794.                            Americas Chapter of the Association for Computa-
+                                                              tional Linguistics: Human Language Technologies
+Yifan Sun, Jingyan Shen, Yibin Wang, Tianyu Chen,             (Volume 1: Long Papers), pages 6337–6357, Al-
+  Zhendong Wang, Mingyuan Zhou, and Huan Zhang.               buquerque, New Mexico. Association for Compu-
+  2025c. Improving data efficiency for LLM re-                tational Linguistics.
+  inforcement fine-tuning through difficulty-targeted
+  online data selection and rollout replay. CoRR,           Jingyao Wang, Wenwen Qiang, Zeen Song, Changwen
+  abs/2506.05316.                                              Zheng, and Hui Xiong. 2025b. Learning to think:
+                                                               Information-theoretic reinforcement fine-tuning for
+Chuyi Tan, Peiwen Yuan, Xinglin Wang, Yiwei Li,                llms. arXiv preprint arXiv:2505.10425.
+  Shaoxiong Feng, Yueqi Zhang, Jiayi Shi, Ji Zhang,
+  Boyuan Pan, Yao Hu, and Kan Li. 2025a. Diagnos-           Junqiao Wang, Zhaoyang Guan, Guanyu Liu, Tianze
+  ing and mitigating system bias in self-rewarding rl.        Xia, Xianzhi Li, Shuo Yin, Xinyuan Song, Chuhan
+  Preprint, arXiv:2510.08977.                                 Cheng, Tianyu Shi, and Alex Lee. 2025c. Meta-
+                                                              learning reinforcement learning for crypto-return pre-
+Zezhong Tan, Hang Gao, Xinhong Ma, Feng Zhang,                diction. Preprint, arXiv:2509.09751.
+  and Ziqiang Dong. 2025b. Towards flash thinking
+  via decoupled advantage policy optimization. arXiv        Qinsi Wang, Jinghan Ke, Hancheng Ye, Yueqian Lin,
+  preprint arXiv:2510.15374.                                  Yuzhe Fu, Jianyi Zhang, Kurt Keutzer, Chenfeng Xu,
+Zhengwei Tao, Ting-En Lin, Xiancai Chen, Hangyu               and Yiran Chen. 2025d. Angles don’t lie: Unlocking
+  Li, Yuchuan Wu, Yongbin Li, Zhi Jin, Fei Huang,             training-efficient RL through the model’s own signals.
+  Dacheng Tao, and Jingren Zhou. 2024. A survey on            CoRR, abs/2506.02281.
+  self-evolution of large language models. Preprint,
+  arXiv:2404.14387.                                         Qinsi Wang, Bo Liu, Tianyi Zhou, Jing Shi, Yueqian
+                                                              Lin, Yiran Chen, Hai Helen Li, Kun Wan, and
+InternAgent Team, Bo Zhang, Shiyang Feng, Xiangchao           Wentian Zhao. 2025e. Vision-zero: Scalable vlm
+   Yan, Jiakang Yuan, Runmin Ma, Yusong Hu, Zhiyin            self-improvement via strategic gamified self-play.
+   Yu, Xiaohan He, Songtao Huang, Shaowei Hou,                Preprint, arXiv:2509.25541.
+   Zheng Nie, Zhilong Wang, Jinyao Liu, Tianshuo
+   Peng, Peng Ye, Dongzhan Zhou, Shufei Zhang, Xi-          Shenzhi Wang, Chang Liu, Zilong Zheng, Siyuan Qi,
+   aosong Wang, and 7 others. 2025a. Internagent:             Shuo Chen, Qisen Yang, Andrew Zhao, Chaofei
+   When agent becomes the scientist – building closed-        Wang, Shiji Song, and Gao Huang. 2024. Boost-
+   loop system from hypothesis to verification. Preprint,     ing LLM agents with recursive contemplation for
+   arXiv:2505.16938.                                          effective deception handling. In Findings of the As-
+                                                              sociation for Computational Linguistics: ACL 2024,
+Kimi Team, Angang Du, Bofei Gao, Bowei Xing,                  pages 9909–9953, Bangkok, Thailand. Association
+  Changjiu Jiang, Cheng Chen, Cheng Li, Chenjun               for Computational Linguistics.
+Shenzhi Wang, Le Yu, Chang Gao, Chujie Zheng, Shix-        Yue Wu, Zhiqing Sun, Huizhuo Yuan, Kaixuan Ji, Yim-
+  uan Liu, Rui Lu, Kai Dang, Xiong-Hui Chen, Jianxin         ing Yang, and Quanquan Gu. Self-play preference
+  Yang, Zhenru Zhang, Yuqiong Liu, An Yang, An-              optimization for language model alignment. In The
+  drew Zhao, Yang Yue, Shiji Song, Bowen Yu, Gao             Thirteenth International Conference on Learning
+  Huang, and Junyang Lin. 2025f. Beyond the 80/20            Representations.
+  rule: High-entropy minority tokens drive effective
+  reinforcement learning for LLM reasoning. In The         Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane
+  Thirty-ninth Annual Conference on Neural Informa-          Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari
+  tion Processing Systems.                                   Ostendorf, and Hannaneh Hajishirzi. 2023a. Fine-
+                                                             grained human feedback gives better rewards for lan-
+Shuai Wang, Yaoming Yang, Bingdong Li, Hao Hao,              guage model training. In Thirty-seventh Conference
+  and Aimin Zhou. 2026. Ib-grpo: Aligning llm-based          on Neural Information Processing Systems.
+  learning path recommendation with educational ob-
+  jectives via indicator-based group relative policy op-   Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane
+  timization. Preprint, arXiv:2601.14686.                    Suhr, Prithviraj Ammanabrolu, Noah A Smith, Mari
+                                                             Ostendorf, and Hannaneh Hajishirzi. 2023b. Fine-
+Yiping Wang, Qing Yang, Zhiyuan Zeng, Liliang Ren,           grained human feedback gives better rewards for
+  Lucas Liu, Baolin Peng, Hao Cheng, Xuehai He,              language model training. In Advances in Neural
+  Kuan Wang, Jianfeng Gao, Weizhu Chen, Shuohang             Information Processing Systems, volume 36, pages
+  Wang, Simon Shaolei Du, and Yelong Shen. 2025g.            59008–59033. Curran Associates, Inc.
+  Reinforcement learning for reasoning in large lan-
+  guage models with one training example. arXiv            Zijian Wu, Jinjie Ni, Xiangyan Liu, Zichen Liu, Hang
+  preprint arXiv:2504.20571.                                 Yan, and Michael Qizhe Shieh. 2025. Synthrl: Scal-
+                                                              ing visual reasoning with verifiable data synthesis.
+Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa            CoRR, abs/2506.02096.
+  Liu, Noah A. Smith, Daniel Khashabi, and Hannaneh
+  Hajishirzi. 2023. Self-instruct: Aligning language       Yu Xia, Rui Wang, Xu Liu, Mingyan Li, Tong Yu,
+  models with self-generated instructions. In Proceed-       Xiang Chen, Julian McAuley, and Shuai Li. 2025.
+  ings of the 61st Annual Meeting of the Association         Beyond chain-of-thought: A survey of chain-of-X
+  for Computational Linguistics (Volume 1: Long Pa-          paradigms for LLMs. In Proceedings of the 31st
+  pers), ACL 2023, Toronto, Canada, July 9-14, 2023,         International Conference on Computational Linguis-
+  pages 13484–13508. Association for Computational           tics, pages 10795–10809, Abu Dhabi, UAE. Associa-
+  Linguistics.                                               tion for Computational Linguistics.
+Lai Wei, Yuting Li, Chen Wang, Yue Wang, Linghe            Roy Xie, David Qiu, Deepak Gopinath, Dong Lin, Yan-
+  Kong, Weiran Huang, and Lichao Sun. 2025a. First           chao Sun, Chong Wang, Saloni Potdar, and Bhuwan
+  sft, second rl, third upt: Continual improving multi-      Dhingra. 2025. Interleaved reasoning for large lan-
+  modal llm reasoning via unsupervised post-training.        guage models via reinforcement learning. arXiv
+  In The Thirty-ninth Annual Conference on Neural            preprint arXiv:2505.19640.
+  Information Processing Systems.
+                                                           Rihui Xin, Han Liu, Zecheng Wang, Yupeng Zhang, Di-
+Yongxian Wei, Yilin Zhao, Li Shen, Xinrui Chen,              anbo Sui, Xiaolin Hu, and Bingning Wang. 2025.
+  Runxi Cheng, Sinan Du, Hao Yu, Gang Liu, Jia-              Surrogate signals from format and length: Rein-
+  hong Yan, Chun Yuan, and Dian Li. 2025b. Learn-            forcement learning for solving mathematical prob-
+  ing to pose problems: Reasoning-driven and solver-         lems without ground truth answers. arXiv preprint
+  adaptive data synthesis for large reasoning models.        arXiv:2505.19439.
+  Preprint, arXiv:2511.09907.
+                                                           Wei Xiong, Hanning Zhang, Chenlu Ye, Lichang Chen,
+Yuxiang Wei, Zhiqing Sun, Emily McMilin,                     Nan Jiang, and Tong Zhang. 2025. Self-rewarding
+  Jonas Gehring, David Zhang, Gabriel Syn-                   correction for mathematical reasoning. Preprint,
+  naeve, Daniel Fried, Lingming Zhang, and Sida              arXiv:2502.19613.
+  Wang. 2025c. Toward training superintelligent
+  software agents through self-play swe-rl. Preprint,      Ran Xu, Yuchen Zhuang, Zihan Dong, Ruiyu Wang, Yue
+  arXiv:2512.18552.                                          Yu, Joyce C. Ho, Linjun Zhang, Haoyu Wang, Wenqi
+                                                             Shi, and Carl Yang. 2025a. Acesearcher: Bootstrap-
+Martin Weyssow, Aton Kamanda, Xin Zhou, and Houari           ping reasoning and search for LLMs via reinforced
+  Sahraoui. 2025. Codeultrafeedback: An llm-as-a-            self-play. In The Thirty-ninth Annual Conference on
+  judge dataset for aligning large language models           Neural Information Processing Systems.
+  to coding preferences. ACM Trans. Softw. Eng.
+ Methodol. Just Accepted.                                  Yixuan Even Xu, Yash Savani, Fei Fang, and Zico
+                                                             Kolter. 2025b. Not all rollouts are useful: Down-
+Alex Wilf, Pranjal Aggarwal, Bryan Parno, Daniel             sampling rollouts in LLM reinforcement learning.
+  Fried, Louis-Philippe Morency, Paul Pu Liang,              CoRR, abs/2504.13818.
+  and Sean Welleck. 2025. Propose, solve, verify:
+  Self-play through formal verification. Preprint,         Xiangyuan Xue, Yifan Zhou, Guibin Zhang, Zaibin
+  arXiv:2512.18160.                                          Zhang, Yijiang Li, Chen Zhang, Zhenfei Yin, Philip
+  Torr, Wanli Ouyang, and Lei Bai. 2025. Comas: Co-        Sihang Zeng, Kai Tian, Kaiyan Zhang, Yuru Wang,
+  evolving multi-agent systems via interaction rewards.      Junqi Gao, Runze Liu, Sa Yang, Jingxuan Li, Xin-
+  arXiv preprint arXiv:2510.08529.                           wei Long, Jiaheng Ma, and 1 others. 2025a. Re-
+                                                             viewrl: Towards automated scientific review with rl.
+Chenyu Yang, Shiqian Su, Shi Liu, Xuan Dong, Yue             In Proceedings of the 2025 Conference on Empiri-
+  Yu, Weijie Su, Xuehui Wang, Zhaoyang Liu, Jin-             cal Methods in Natural Language Processing, pages
+  guo Zhu, Hao Li, Wenhai Wang, Yu Qiao, Xizhou              16942–16954.
+  Zhu, and Jifeng Dai. 2025a. Zerogui: Automating
+  online gui learning at zero human cost. Preprint,        Weihao Zeng, Yuzhen Huang, Qian Liu, Wei Liu,
+  arXiv:2505.23762.                                         Keqing He, Zejun MA, and Junxian He. 2025b.
+                                                            SimpleRL-zoo: Investigating and taming zero rein-
+Wenjie Yang, Mao Zheng, Mingyang Song, Zheng Li,            forcement learning for open base models in the wild.
+ and Sitong Wang. 2025b. Ssr-zero: Simple self-             In Second Conference on Language Modeling.
+ rewarding reinforcement learning for machine trans-
+ lation. Preprint, arXiv:2505.16637.                       Yuanzhao Zhai, Zhuo Zhang, Kele Xu, Hanyang Peng,
+                                                             Yue Yu, Dawei Feng, Cheng Yang, Bo Ding, and
+Zhihe Yang, Xufang Luo, Zilong Wang, Dongqi Han,             Huaimin Wang. 2024. Online self-preferring lan-
+  Zhiyuan He, Dongsheng Li, and Yunjian Xu. 2025c.           guage models. CoRR, abs/2405.14103.
+  Do not let low-probability tokens over-dominate in rl
+  for llms.                                                Guibin Zhang, Hejia Geng, Xiaohang Yu, Zhenfei Yin,
+                                                             Zaibin Zhang, Zelin Tan, Heng Zhou, Zhongzhi Li,
+Ziyi Yang, Weizhou Shen, Ruijun Chen, Chenliang Li,
+                                                             Xiangyuan Xue, Yijiang Li, Yifan Zhou, Yang Chen,
+  Fanqi Wan, Ming Yan, Xiaojun Quan, and Fei Huang.
+                                                             Chen Zhang, Yutao Fan, Zihu Wang, Songtao Huang,
+  2025d. Spell: Self-play reinforcement learning for
+                                                             Francisco Piedrahita-Velez, Yue Liao, Hongru Wang,
+  evolving long-context language models. Preprint,
+                                                             and 6 others. 2025a. The landscape of agentic re-
+  arXiv:2509.23863.
+                                                             inforcement learning for llms: A survey. Preprint,
+Chenlu Ye, Zhou Yu, Ziji Zhang, Hao Chen, Narayanan          arXiv:2509.02547.
+  Sadagopan, Jing Huang, Tong Zhang, and Anurag
+  Beniwal. 2025a. Beyond correctness: Harmoniz-            Hangfan Zhang, Siyuan Xu, Zhimeng Guo, Huaisheng
+  ing process and outcome rewards through rl training.       Zhu, Shicheng Liu, Xinrun Wang, Qiaosheng Zhang,
+  arXiv preprint arXiv:2509.03403.                           Yang Chen, Peng Ye, Lei Bai, and Shuyue Hu. 2025b.
+                                                             The path of self-evolving large language models:
+Ziyu Ye, Rishabh Agarwal, Tianqi Liu, Rishabh Joshi,         Achieving data-efficient learning via intrinsic feed-
+  Sarmishta Velury, Quoc V. Le, Qijun Tan, and Yuan          back. Preprint, arXiv:2510.02752.
+  Liu. 2025b. Reward-guided prompt evolving in rein-
+  forcement learning for llms. In Forty-second Interna-    Kaiyan Zhang, Yuxin Zuo, Bingxiang He, Youbang Sun,
+  tional Conference on Machine Learning, ICML 2025,          Runze Liu, Che Jiang, Yuchen Fan, Kai Tian, Guoli
+  Vancouver, BC, Canada, July 13-19, 2025. OpenRe-           Jia, Pengfei Li, Yu Fu, Xingtai Lv, Yuchen Zhang,
+  view.net.                                                  Sihang Zeng, Shang Qu, Haozhan Li, Shijie Wang,
+                                                             Yuru Wang, Xinwei Long, and 20 others. 2025c. A
+Qiying Yu, Zheng Zhang, Ruofei Zhu, Yufeng Yuan,             survey of reinforcement learning for large reasoning
+  Xiaochen Zuo, Yu Yue, Weinan Dai, Tiantian Fan,            models. Preprint, arXiv:2509.08827.
+  Gaohong Liu, Lingjun Liu, and 1 others. 2025. Dapo:
+  An open-source llm reinforcement learning system         Kangning Zhang, Wenxiang Jiao, Kounianhua Du,
+  at scale. arXiv preprint arXiv:2503.14476.                 Yuan Lu, Weiwen Liu, Weinan Zhang, Lei Zhang,
+                                                             and Yong Yu. 2025d. Looptool: Closing the data-
+Zhiyin Yu, Bo Zhang, Qibin Hou, Zhonghai Wu, Xiao            training loop for robust llm tool calls. Preprint,
+  Luo, and Lei Bai. 2026. Easy samples are all you           arXiv:2511.09148.
+  need: Self-evolving llms via data-efficient reinforce-
+  ment learning. In Findings of the Association for        Kongcheng Zhang, Qi Yao, Shunyu Liu, Yingjie Wang,
+  Computational Linguistics: ACL 2026.                       Baisheng Lai, Jieping Ye, Mingli Song, and Dacheng
+                                                             Tao. 2025e. Consistent paths lead to truth: Self-
+Wenzhen Yuan, Shengji Tang, Weihao Lin, Jiacheng             rewarding reinforcement learning for llm reasoning.
+ Ruan, Ganqu Cui, Bo Zhang, Tao Chen, Ting Liu,              Preprint, arXiv:2506.08745.
+ Yuzhuo Fu, Peng Ye, and 1 others. 2025. Wis-
+ dom of the crowd: Reinforcement learning from             Qingyang Zhang, Haitao Wu, Changqing Zhang, Peilin
+ coevolutionary collective feedback. arXiv preprint          Zhao, and Yatao Bian. 2025f. Right question is al-
+ arXiv:2508.12338.                                           ready half the answer: Fully unsupervisedd LLM
+                                                             reasoning incentization. In Second Workshop on Test-
+Eric Zelikman, Yuhuai Wu, Jesse Mu, and Noah D.              Time Adaptation: Putting Updates to the Test! at
+  Goodman. 2022. Star: Bootstrapping reasoning with          ICML 2025.
+  reasoning. In Advances in Neural Information Pro-
+  cessing Systems 35: Annual Conference on Neural          Ruiqi Zhang, Daman Arora, Song Mei, and Andrea
+  Information Processing Systems 2022, NeurIPS 2022,         Zanette. 2025g. SPEED-RL: faster training of rea-
+  New Orleans, LA, USA, November 28 - December 9,            soning models via online curriculum learning. CoRR,
+  2022.                                                      abs/2506.09016.
+Yanzhi Zhang, Zhaoxi Zhang, Haoxiang Guan, Yilin            Yujun Zhou, Zhenwen Liang, Haolin Liu, Wenhao
+  Cheng, Yitong Duan, Chen Wang, Yue Wang, Shuxin             Yu, Kishan Panaganti, Linfeng Song, Dian Yu, Xi-
+  Zheng, and Jiyan He. 2025h. No free lunch: Re-              angliang Zhang, Haitao Mi, and Dong Yu. 2025b.
+  thinking internal feedback for llm reasoning. arXiv         Evolving language models without labels: Ma-
+  preprint arXiv:2506.17219.                                  jority drives selection, novelty promotes variation.
+                                                              Preprint, arXiv:2509.15194.
+Zhengxin Zhang, Chengyu Huang, Aochong Oliver Li,
+  and Claire Cardie. 2025i. Better llm reasoning via        Yongfu Zhu, Lin Sun, Guangxiang Zhao, Weihong Lin,
+  dual-play. Preprint, arXiv:2511.11881.                      and Xiangzheng Zhang. 2025. Uncertainty under
+                                                              the curve: A sequence-level entropy area metric for
+Zizhuo Zhang, Jianing Zhu, Xinmu Ge, Zihua Zhao,              reasoning LLM. CoRR, abs/2508.20384.
+  Zhanke Zhou, Xuan Li, Xiao Feng, Jiangchao Yao,
+  and Bo Han. 2025j. Co-rewarding: Stable self-             Yuxin Zuo, Kaiyan Zhang, Li Sheng, Shang Qu, Ganqu
+  supervised rl for eliciting reasoning in large language     Cui, Xuekai Zhu, Haozhan Li, Yuchen Zhang, Xin-
+  models. arXiv preprint arXiv:2508.00410.                    wei Long, Ermo Hua, Biqing Qi, Youbang Sun,
+                                                              Zhiyuan Ma, Lifan Yuan, Ning Ding, and Bowen
+Andrew Zhao, Yiran Wu, Yang Yue, Tong Wu,
+                                                              Zhou. 2025. TTRL: Test-time reinforcement learn-
+  Quentin Xu, Yang Yue, Matthieu Lin, Shenzhi Wang,
+                                                              ing. In The Thirty-ninth Annual Conference on Neu-
+  Qingyun Wu, Zilong Zheng, and Gao Huang. 2025a.
+                                                              ral Information Processing Systems.
+  Absolute zero: Reinforced self-play reasoning with
+  zero data. Preprint, arXiv:2505.03335.
+Siyan Zhao, Mengchen Liu, Jing Huang, Miao Liu,
+  Chenyu Wang, Bo Liu, Yuandong Tian, Guan
+  Pang, Sean Bell, Aditya Grover, and 1 others.
+  2025b. Inpainting-guided policy optimization for
+  diffusion large language models. arXiv preprint
+  arXiv:2509.10396.
+Xuandong Zhao, Zhewei Kang, Aosong Feng, Sergey
+  Levine, and Dawn Song. 2025c. Learning to
+  reason without external rewards. arXiv preprint
+  arXiv:2505.19590.
+Yang Zhao, Hepeng Wang, Xiao Ding, Yangou Ouyang,
+  Bibo Cai, Kai Xiong, Jinglong Gao, Zhouhao Sun,
+  Li Du, Bing Qin, and Ting Liu. 2026. Mae-
+  stro: Meta-learning adaptive estimation of scalar-
+  ization trade-offs for reward optimization. Preprint,
+  arXiv:2601.07208.
+Yang Zhao, Kai Xiong, Xiao Ding, Li Du, Yan-
+  gouOuyang, Zhouhao Sun, Jiannan Guan, Wenbin
+  Zhang, Bin Liu, Dong Hu, Bing Qin, and Ting Liu.
+  2025d. Ufo-rl: Uncertainty-focused optimization
+  for efficient reinforcement learning data selection.
+  Preprint, arXiv:2505.12457.
+Haizhong Zheng, Yang Zhou, Brian R. Bartoldson,
+  Bhavya Kailkhura, Fan Lai, Jiawei Zhao, and Beidi
+  Chen. 2025. Act only when it pays: Efficient rein-
+  forcement learning for LLM reasoning via selective
+  rollouts. CoRR, abs/2506.02177.
+Rui Zheng, Shihan Dou, Songyang Gao, Yuan Hua, Wei
+  Shen, Binghai Wang, Yan Liu, Senjie Jin, Qin Liu,
+  Yuhao Zhou, Limao Xiong, Lu Chen, Zhiheng Xi,
+  Nuo Xu, Wenbin Lai, Minghao Zhu, Cheng Chang,
+  Zhangyue Yin, Rongxiang Weng, and 8 others. 2023.
+  Secrets of rlhf in large language models part i: Ppo.
+  Preprint, arXiv:2307.04964.
+Qi Zhou, Jie Zhang, Dongxia Wang, Qiang Liu, Tianlin
+  Li, Jin Song Dong, Wenhai Wang, and Qing Guo.
+  2025a. Fair-pp: A synthetic dataset for aligning
+  LLM with personalized preferences of social equity.
+  CoRR, abs/2505.11861.
+                                                                                                                                                                                          5 H V H D U F K  3 D S H U  7 L W O H V  : R U G  & O R X G
+A                                           Statistics
+
+
+To show the research momentum in data-efficient
+reinforcement learning for large reasoning models
+(LLMs), we conduct a statistical analysis of the
+publication year of all surveyed papers. As shown
+in Figure 6, the field has experienced an extraor-
+dinary growth trajectory. Early works are scarce,
+with 1 publication in 2018 and 2020 each, followed                                                                                                                           Figure 7: Word cloud of research paper titles.
+by 2 papers in both 2021 and 2022, and 2 papers
+in 2023. The field witnessed a modest increase
+to 8 papers in 2024, before experiencing an explo-                                                                                                                     B     Acknowledgment of AI Assistance in
+sive surge to 109 publications by December 2025.                                                                                                                             Writing and Revision
+This remarkable acceleration highlights the field’s
+transition from an emerging research direction to a                                                                                                                    We only use large language models for grammar
+mainstream paradigm in LLM development.                                                                                                                                checking and language refinement, and we strictly
+                                                                                                                                                                       adhere to the ACL policy on AI writing assistance.
+                                                                                                                                                                       All ideas and technical content in this paper are
+                                      
+
+                                                                                                                                                      
+                                                                                                                                                                       original contributions of the authors.
+                                      
+
+
+
+
+                                                                                                                                                                     C     Further Analysis
+ 1 X P E H U  R I  3 D S H U V
+
+
+
+
+                                       
+                                                                                                                                                                       C.1     Discussion on Data Pruning
+                                       
+
+
+                                                                                                                                                                       Uncertainty-Aware Pruning. Uncertainty-aware
+                                       
+
+                                                                                                                                 
+                                                                                                                                                                       pruning uses epistemic uncertainty to identify sam-
+                                                                                                                    
+                                        
+                                                  
+                                                  
+                                                             
+                                                                                                                     8 S  W R  ' H F        ples where the model’s knowledge is most insuf-
+                                                                                3 X E O L F D W L R Q  < H D U
+                                                                                                                                                                       ficient, concentrating the training budget on infor-
+Figure 6: Distribution on publication year of surveyed                                                                                                                 mative data. UFO-RL (Zhao et al., 2025d) com-
+papers.                                                                                                                                                                putes a single-pass confidence score from average
+                                                                                                                                                                       token-level log-probabilities and selects samples
+                                                                                                                                                                       within the model’s zone of proximal development,
+   Furthermore, we perform a word frequency anal-                                                                                                                      matching full-data performance with only 10%
+ysis on the titles of all surveyed papers. Figure 7                                                                                                                    of data. ReST (Gulcehre et al., 2023) iteratively
+reveals the core methodological and conceptual                                                                                                                         grows the training set by generating candidates
+themes in current research. Prominently, Reason-                                                                                                                       from the current policy and filtering them through
+ing and Learning emerge as the most central terms,                                                                                                                     a reward threshold, coupling data curation with
+which reflect the field’s primary focus on enhanc-                                                                                                                     policy improvement. BAL-PM (Melo et al., 2024)
+ing reasoning capabilities through learning mech-                                                                                                                      combines ensemble-based epistemic uncertainty of
+anisms. The significant presence of Reinforce-                                                                                                                         the reward model with a prompt-distribution en-
+ment, Training, Data and Model underscores the                                                                                                                         tropy term for active preference data acquisition,
+importance of reinforcement learning based train-                                                                                                                      reducing required labels by 33–68%. ADPO (Ji
+ing strategies. Additionally, key concepts such as                                                                                                                     et al., 2024) formulates RLHF as a contextual du-
+Self, Evolving, and Agent highlight the growing                                                                                                                        eling bandit and introduces an uncertainty-aware
+emphasis on self-improvement and agentic frame-                                                                                                                        query criterion that requests human feedback only
+works, and terms such as Verifiable and Rewarding                                                                                                                      when the reward gap is poorly estimated, halv-
+also indicate the field’s focus on reward engineer-                                                                                                                    ing query complexity while matching DPO per-
+ing. This visualization demonstrates the rapid ad-                                                                                                                     formance. Uncertainty-Penalized DPO (Houlis-
+vances that data-efficient RL for large reasoning                                                                                                                      ton et al., 2024) attenuates the DPO loss gradient
+models has seen in recent years, laying a founda-                                                                                                                      for preference pairs with high reward uncertainty,
+tion for future progress in LLM capabilities.                                                                                                                          down-weighting ambiguous or mislabeled samples.
+C.2   Discussion on Reward Engineering                   et al., 2023) decouples helpfulness and harmless-
+                                                         ness into reward/cost models, using Lagrangian
+Theoretical Perspectives on Internal Feedback.           constraints for dynamic balancing without hyperpa-
+Recent work has begun to provide theoretical             rameter searches. MAESTRO (Zhao et al., 2026)
+grounding for why internal feedback signals can          treats scalarization as a dynamic latent policy, co-
+substitute for external rewards. Zhang et al. (2025h)    evolving weights via group-relative meta-signals to
+formally investigate Reinforcement Learning from         eliminate manual tuning. Extending this paradigm,
+Internal Feedback, showing that token-level en-          PAMA (He and Maghsudi, 2026) transforms multi-
+tropy minimization, trajectory-level entropy mini-       objective RLHF into a convex optimization with
+mization, and self-certainty maximization are par-       closed-form Pareto convergence at O(n) complex-
+tially equivalent optimization objectives under mild     ity. JobRec (Kan et al., 2026) applies similar
+assumptions. CoVo (Zhang et al., 2025e) provides         Lagrangian constraints to de-conflate candidate
+a complementary theoretical perspective by reinter-      preference and employer qualification under data
+preting its consistency-volatility reward as a varia-    scarcity. IB-GRPO (Wang et al., 2026) employs ϵ-
+tional inference objective, treating reasoning trajec-   dominance indicators to compute group-relative
+tories as latent variables. This formulation grounds     advantages across multiple objectives, avoiding
+the self-rewarding mechanism in both reasoning           manual scalarization while leveraging hybrid ex-
+paths and final answers, offering a principled expla-    pert demonstrations. Collectively, these methods
+nation for why correct responses exhibit convergent      shift reward engineering from static design toward
+trajectory patterns while incorrect ones diverge.        adaptive, data-efficient mechanisms for navigating
+   From a broader perspective, Shao et al. (2025)        conflicting objectives without extensive validation
+present a striking empirical finding with theoretical    data.
+implications: RLVR can elicit strong mathematical
+reasoning even with spurious rewards on certain          D   Literature Review Summary
+model families. Chen et al. (2025e) further support
+                                                         To provide an overview of the literature examined
+this point by a two-stage mathematical framework
+                                                         in this study, we present a detailed summary table
+modeling reasoning as q → r → a (question-
+                                                         in this appendix covering all discussed works in
+reason-answer). For RLVR, they prove conver-
+                                                         our analysis. Each entry includes six columns :
+gence to the reasoning pattern with the highest
+                                                         Title (the complete publication name); Section and
+success rate. For RLIF, their analysis explains both
+                                                         Subsection (place in the three-level taxonomy);
+the initial performance gains and eventual degra-
+                                                         Year (the publication date); Venue (the publication
+dation observed empirically. Agarwal et al. (2025)
+                                                         outlet) and Link (URL to the original source of
+further demonstrate the unreasonable effectiveness
+                                                         paper), as shown in Table 1.
+of entropy minimization: using negative entropy as
+the sole RL reward, their EM-RL achieves perfor-
+mance comparable to supervised GRPO and RLOO
+on challenging reasoning benchmarks. These theo-
+retical and empirical results collectively suggest a
+key insight that under data scarcity, RL may func-
+tion less as a mechanism for acquiring new capabil-
+ities and more as a redistribution mechanism that
+sharpens the policy over reasoning patterns already
+learned during pretraining.
+Adaptive Multi-Objective Trade-offs. Under data
+scarcity, static reward weighting fails without suf-
+ficient validation data for tuning. Effective re-
+ward engineering thus requires denser signals and
+adaptive mechanisms to balance conflicting ob-
+jectives. FINE-GRAINED RLHF (Wu et al.,
+2023b) replaces holistic feedback with segment-
+level, multi-type rewards, yielding denser supervi-
+sion and higher sample efficiency. Safe-RLHF (Dai
+                                      Table 1: Summary of Referenced Papers
+
+                      Title                            Section       Subsection      Year        Venue         Link
+
+                                                       Level 1:
+Uncertainty Under the Curve: A Sequence-Level
+                                                     Data-Centric   Data Pruning     2025        Arxiv         link
+   Entropy Area Metric for Reasoning LLM
+                                                     Perspective
+
+                                                       Level 1:
+LLaMA: Open and Efficient Foundation Language
+                                                     Data-Centric   Data Pruning     2025        Arxiv         link
+                 Models
+                                                     Perspective
+
+                                                       Level 1:
+  Learning to summarize from human feedback          Data-Centric   Data Pruning     2020       NeurIPS        link
+                                                     Perspective
+
+                                                       Level 1:
+ Scaling Language Models: Methods, Analysis &
+                                                     Data-Centric   Data Pruning     2021        Arxiv         link
+          Insights from Training Gopher
+                                                     Perspective
+                                                       Level 1:
+  Self-Instruct: Aligning Language Models with
+                                                     Data-Centric   Data Pruning     2023        ACL           link
+            Self-Generated Instructions
+                                                     Perspective
+                                                       Level 1:
+       LIMR: Less is More for RL Scaling             Data-Centric   Data Pruning     2025        Arxiv         link
+                                                     Perspective
+
+   LearnAlign: Reasoning Data Selection for            Level 1:
+  Reinforcement Learning in Large Language           Data-Centric   Data Pruning     2025        Arxiv         link
+ Models Based on Improved Gradient Alignment         Perspective
+
+                                                       Level 1:
+   Unified Data Selection for LLM Reasoning          Data-Centric   Data Pruning     2025        ICLR          link
+                                                     Perspective
+
+                                                       Level 1:
+LSPO: Length-aware Dynamic Sampling for Policy
+                                                     Data-Centric   Data Pruning     2025        Arxiv         link
+       Optimization in LLM Reasoning
+                                                     Perspective
+
+                                                       Level 1:
+  Can Prompt Difficulty be Online Predicted for
+                                                     Data-Centric   Data Pruning     2025        KDD           link
+Accelerating RL Finetuning of Reasoning Models?
+                                                     Perspective
+
+                                                       Level 1:
+BOTS: A Unified Framework for Bayesian Online
+                                                     Data-Centric   Data Pruning     2025        Arxiv         link
+Task Selection in LLM Reinforcement Finetuning
+                                                     Perspective
+
+                                                       Level 1:
+ Angles Don’t Lie: Unlocking Training?Efficient
+                                                     Data-Centric   Data Pruning     2025       NeurIPS        link
+     RL Through the Model’s Own Signals
+                                                     Perspective
+                                                       Level 1:
+Online Difficulty Filtering for Reasoning Oriented
+                                                     Data-Centric   Data Pruning     2025        Arxiv         link
+             Reinforcement Learning
+                                                     Perspective
+                                                       Level 1:
+SPEED-RL: Faster Training of Reasoning Models
+                                                     Data-Centric   Data Pruning     2025   ICML Workshop      link
+      via Online Curriculum Learning
+                                                     Perspective
+
+                                                       Level 1:
+Secrets of RLHF in Large Language Models Part I:
+                                                     Data-Centric   Data Pruning     2023   NeurIPS Workshop   link
+                      PPO
+                                                     Perspective
+
+                                                       Level 1:
+Influence Functions for Preference Dataset Pruning   Data-Centric   Data Pruning     2025   NeurIPS Workshop   link
+                                                     Perspective
+
+                                                       Level 1:
+CPPO: Accelerating the Training of Group Relative
+                                                     Data-Centric   Data Pruning     2025       NeurIPS        link
+ Policy Optimization-Based Reasoning Models
+                                                     Perspective
+
+                                                       Level 1:
+  Not All Rollouts are Useful: Down-Sampling
+                                                     Data-Centric   Data Pruning     2025        Arxiv         link
+   Rollouts in LLM Reinforcement Learning
+                                                     Perspective
+
+                                                       Level 1:
+  Enhancing Chat Language Models by Scaling
+                                                     Data-Centric   Data Synthesis   2023       EMNLP          link
+    High-quality Instructional Conversations
+                                                     Perspective
+                                                       Level 1:
+STaR: Bootstrapping Reasoning With Reasoning         Data-Centric   Data Synthesis   2022       NeurIPS        link
+                                                     Perspective
+                                                       Level 1:
+Constitutional AI: Harmlessness from AI Feedback     Data-Centric   Data Synthesis   2022        Arxiv         link
+                                                     Perspective
+
+                                                                                       Continued on next page
+                                                    Table 1 – Continued
+                      Title                            Section         Subsection      Year        Venue         Link
+
+                                                       Level 1:
+ULTRAFEEDBACK: Boosting Language Models
+                                                     Data-Centric    Data Synthesis    2024        ICML          link
+        with Scaled AI Feedback
+                                                     Perspective
+
+                                                                                              ACM Transactions
+CodeUltraFeedback: An LLM-as-a-Judge Dataset           Level 1:
+                                                                                                 on Software
+ for Aligning Large Language Models to Coding        Data-Centric    Data Synthesis    2025                      link
+                                                                                               Engineering and
+                  Preferences                        Perspective
+                                                                                                Methodology
+
+                                                       Level 1:
+ Fair-PP: A Synthetic Dataset for Aligning LLM
+                                                     Data-Centric    Data Synthesis    2025        Arxiv         link
+ with Personalized Preferences of Social Equity
+                                                     Perspective
+
+  The Fellowship of the LLMs: Multi-Model              Level 1:
+Workflows for Synthetic Preference Optimization      Data-Centric    Data Synthesis    2025        GEM           link
+              Dataset Generation                     Perspective
+
+                                                       Level 1:
+ Reasoning Gym: Reasoning Environments for
+                                                     Data-Centric    Data Synthesis    2025       NeurIPS        link
+Reinforcement Learning with Verifiable Rewards
+                                                     Perspective
+
+                                                       Level 1:
+ Enigmata: Scaling Logical Reasoning in Large
+                                                     Data-Centric    Data Synthesis    2025        Arxiv         link
+Language Models with Synthetic Verifiable Puzzles
+                                                     Perspective
+SynLogic: Synthesizing Verifiable Reasoning Data       Level 1:
+  at Scale for Learning Logical Reasoning and        Data-Centric    Data Synthesis    2025       NeurIPS        link
+                     Beyond                          Perspective
+                                                       Level 1:
+    EvoSyn: Generalizable Evolutionary Data
+                                                     Data-Centric    Data Synthesis    2025        Arxiv         link
+       Synthesis for Verifiable Learning
+                                                     Perspective
+
+                                                       Level 1:
+SynthRL: Scaling Visual Reasoning with Verifiable
+                                                     Data-Centric    Data Synthesis    2025        Arxiv         link
+                 Data Synthesis
+                                                     Perspective
+
+                                                       Level 1:
+   Making Mathematical Reasoning Adaptive            Data-Centric    Data Synthesis    2025        Arxiv         link
+                                                     Perspective
+
+   SwS: Self-aware Weakness-driven Problem             Level 1:
+  Synthesis in Reinforcement Learning for LLM        Data-Centric    Data Synthesis    2025       NeurIPS        link
+                    Reasoning                        Perspective
+
+                                                       Level 1:
+Reward-Guided Prompt Evolving in Reinforcement
+                                                     Data-Centric    Data Synthesis    2025        ICML          link
+             Learning for LLMs
+                                                     Perspective
+
+                                                       Level 1:
+Direct Advantage Regression: Aligning LLMs with
+                                                     Data-Centric    Data Synthesis    2025        Arxiv         link
+               Online AI Reward
+                                                     Perspective
+
+                                                       Level 1:
+    Online Self-Preferring Language Models           Data-Centric    Data Synthesis    2024        Arxiv         link
+                                                     Perspective
+                                                       Level 1:
+ LoopTool: Closing the Data–Training Loop for
+                                                     Data-Centric    Data Synthesis    2025        Arxiv         link
+           Robust LLM Tool Calls
+                                                     Perspective
+     WebRL: Training LLM Web Agents via                Level 1:
+Self-Evolving Online Curriculum Reinforcement        Data-Centric    Data Synthesis    2025        ICLR          link
+                   Learning                          Perspective
+
+                                                       Level 1:
+  Shallow Preference Signals: Large Language
+                                                     Data-Centric   Data Compression   2025        GEM           link
+ Model Aligns Even Better with Truncated Data?
+                                                     Perspective
+
+ Beyond the 80/20 Rule: High-Entropy Minority          Level 1:
+Tokens Drive Effective Reinforcement Learning for    Data-Centric   Data Compression   2025       NeurIPS        link
+                LLM Reasoning                        Perspective
+
+                                                       Level 1:
+Dapo: An open-source llm reinforcement learning
+                                                     Data-Centric   Data Compression   2025       NeurIPS        link
+               system at scale
+                                                     Perspective
+
+                                                       Level 1:
+ Beyond Correctness: Harmonizing Process and
+                                                     Data-Centric   Data Compression   2025       NeurIPS        link
+    Outcome Rewards through RL Training
+                                                     Perspective
+
+                                                       Level 1:
+ Reinforcement Learning for Reasoning in Large
+                                                     Data-Centric   Data Compression   2025       NeurIPS        link
+  Language Models with One Training Example
+                                                     Perspective
+
+                                                                                         Continued on next page
+                                                    Table 1 – Continued
+                      Title                             Section            Subsection        Year     Venue      Link
+
+   Sharpness-Controlled Group Relative Policy          Level 1:
+   Optimization with Token-Level Probability         Data-Centric       Data compression     2025      Arxiv     link
+                   Shaping                           Perspective
+
+                                                       Level 1:
+  One Sample to Rule Them All: Extreme Data
+                                                     Data-Centric      Data Compression      2025      Arxiv     link
+          Efficiency in RL Scaling
+                                                     Perspective
+
+                                                       Level 1:
+       Do Not Let Low-Probability Tokens
+                                                     Data-Centric      Data Compression      2025     NeurIPS    link
+        Over-Dominate in RL for LLMs
+                                                     Perspective
+
+     Token-Regulated Group Relative Policy             Level 1:
+Optimization for Stable Reinforcement Learning in    Data-Centric      Data Compression      2025      Arxiv     link
+            Large Language Models                    Perspective
+
+                                                       Level 1:
+Towards Flash Thinking via Decoupled Advantage
+                                                     Data-Centric      Data Compression      2025      Arxiv     link
+              Policy Optimization
+                                                     Perspective
+                                                       Level 1:
+  DAST: Difficulty-Adaptive Slow-Thinking for
+                                                     Data-Centric      Data Compression      2025     EMNLP      link
+           Large Reasoning Models
+                                                     Perspective
+                                                       Level 1:
+ ThinkPrune: Pruning Long Chain-of-Thought of
+                                                     Data-Centric      Data Compression      2025     TMLR       link
+       LLMs via Reinforcement Learning
+                                                     Perspective
+
+                                                       Level 1:
+S-GRPO: Early Exit via Reinforcement Learning in
+                                                     Data-Centric      Data Compression      2025     NeurIPS    link
+              Reasoning Models
+                                                     Perspective
+
+                                                       Level 1:
+Interleaved Reasoning for Large Language Models
+                                                     Data-Centric      Data Compression      2025      Arxiv     link
+           via Reinforcement Learning
+                                                     Perspective
+
+                                                       Level 1:
+Compressing Chain-of-Thought in LLMs via Step
+                                                     Data-Centric      Data Compression      2025      Arxiv     link
+                  Entropy
+                                                     Perspective
+
+                                                        Level 2:
+ Sample-efficient LLM Optimization with Reset
+                                                    Training-Centric   Policy Optimization   2025      Arxiv     link
+                    Replay
+                                                      Perspective
+
+                                                        Level 2:
+   Inpainting-Guided Policy Optimization for
+                                                    Training-Centric   Policy Optimization   2025      Arxiv     link
+       Diffusion Large Language Models
+                                                      Perspective
+
+                                                        Level 2:
+  KTO: Model alignment as prospect theoretic
+                                                    Training-Centric   Policy Optimization   2024      ICML      link
+                optimization
+                                                      Perspective
+                                                        Level 2:
+    Can Large Reasoning Models Self-Train?          Training-Centric   Reward Engineering    2025      Arxiv     link
+                                                      Perspective
+                                                        Level 2:
+       Test-Time Reinforcement Learning             Training-Centric   Reward Engineering    2025      Arxiv     link
+                                                      Perspective
+
+Semantic Voting: A Self-Evaluation-Free Approach        Level 2:
+    for Efficient LLM Self-Improvement on           Training-Centric   Reward Engineering    2025     NeurIPS    link
+         Unverifiable Open-ended Tasks                Perspective
+
+                                                        Level 2:
+ Wisdom of the Crowd: Reinforcement Learning
+                                                    Training-Centric   Reward Engineering    2025      Arxiv     link
+   from Coevolutionary Collective Feedback
+                                                      Perspective
+
+  First SFT, Second RL, Third UPT: Continual            Level 2:
+  Improving Multi-Modal LLM Reasoning via           Training-Centric   Reward Engineering    2025     NeurIPS    link
+          Unsupervised Post-Training                  Perspective
+
+                                                        Level 2:
+  Learning to Reason without External Rewards       Training-Centric   Reward Engineering    2025      Arxiv     link
+                                                      Perspective
+
+                                                        Level 2:
+ KnowRL: Teaching Language Models to Know
+                                                    Training-Centric   Reward Engineering    2025      Arxiv     link
+             What They Know
+                                                      Perspective
+
+                                                        Level 2:
+         Self Rewarding Self Improving              Training-Centric   Reward Engineering    2025      Arxiv     link
+                                                      Perspective
+                                                        Level 2:
+  Co-rewarding: Stable Self-supervised RL for
+                                                    Training-Centric   Reward Engineering    2025      Arxiv     link
+ Eliciting Reasoning in Large Language Models
+                                                      Perspective
+
+                                                                                               Continued on next page
+                                                    Table 1 – Continued
+                      Title                             Section           Subsection        Year         Venue          Link
+
+                                                        Level 2:
+ Spurious rewards: Rethinking training signals in
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+                      rlvr
+                                                      Perspective
+
+   Surrogate Signals from Format and Length:            Level 2:
+Reinforcement Learning for Solving Mathematical     Training-Centric   Reward Engineering   2025         Arxiv          link
+    Problems without Ground Truth Answers             Perspective
+
+                                                        Level 2:
+No Free Lunch: Rethinking Internal Feedback for
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+               LLM Reasoning
+                                                      Perspective
+
+                                                        Level 2:
+ CoMAS: Co-Evolving Multi-Agent Systems via
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+           Interaction Rewards
+                                                      Perspective
+
+                                                        Level 2:
+ Compute as teacher: Turning inference compute
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+        into reference-free supervision
+                                                      Perspective
+                                                        Level 2:
+ Self-Play Preference Optimization for Language
+                                                    Training-Centric   Reward Engineering   2025         ICLR           link
+                Model Alignment
+                                                      Perspective
+                                                        Level 2:
+Right Question is Already Half the Answer: Fully
+                                                    Training-Centric   Reward Engineering   2025        NeurIPS         link
+ Unsupervised LLM Reasoning Incentivization
+                                                      Perspective
+
+                                                        Level 2:
+ Consistent Paths Lead to Truth: Self-Rewarding
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+  Reinforcement Learning for LLM Reasoning
+                                                      Perspective
+
+                                                        Level 2:
+Evolving language models without labels: Majority
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+   drives selection, novelty promotes variation
+                                                      Perspective
+
+                                                        Level 2:
+     Learning to think: Information-theoretic
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+       reinforcement fine-tuning for llms
+                                                      Perspective
+
+                                                        Level 2:
+Semi-supervised Fine-tuning for Large Language
+                                                    Training-Centric   Reward Engineering   2025         *ACL           link
+                   Models
+                                                      Perspective
+
+                                                        Level 2:
+    Maximizing Confidence Alone Improves
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+                 Reasoning
+                                                      Perspective
+
+                                                        Level 2:
+   Confidence Is All You Need: Few-Shot RL
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+       Fine-Tuning of Language Models
+                                                      Perspective
+                                                        Level 2:
+    The unreasonable effectiveness of entropy
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+         minimization in llm reasoning
+                                                      Perspective
+                                                        Level 2:
+  Cde: Curiosity-driven exploration for efficient
+                                                    Training-Centric   Reward Engineering   2025         Arxiv          link
+ reinforcement learning in large language models
+                                                      Perspective
+
+                                                        Level 2:
+  Training Language Models to Self-Correct via
+                                                    Training-Centric   Reward Engineering   2025         ICLR           link
+            Reinforcement Learning
+                                                      Perspective
+
+                                                        Level 2:
+ReviewRL: Towards Automated Scientific Review
+                                                    Training-Centric   Reward Engineering   2025         *ACL           link
+                  with RL
+                                                      Perspective
+
+                                                                                                       Journal of
+                                                        Level 2:
+                                                                                                      Information,
+AI-powered peer review needs human supervision      Training-Centric   Reward Engineering   2025                        link
+                                                                                                   Communication and
+                                                      Perspective
+                                                                                                    Ethics in Society
+
+                                                        Level 2:
+  AlphaZero-Like Tree-Search can Guide Large                               Trajectory
+                                                    Training-Centric                        2024         ICML           link
+    Language Model Decoding and Training                                   Generation
+                                                      Perspective
+
+                                                        Level 2:
+   Alphamath almost zero: process supervision                              Trajectory
+                                                    Training-Centric                        2024        NeurIPS         link
+               without process                                             Generation
+                                                      Perspective
+
+                                                        Level 2:
+Toward Efficient Exploration by Large Language                             Trajectory
+                                                    Training-Centric                        2025    ICML Workshop       link
+                 Model Agents                                              Generation
+                                                      Perspective
+
+                                                                                              Continued on next page
+                                                       Table 1 – Continued
+                       Title                               Section        Subsection      Year     Venue      Link
+
+                                                           Level 2:
+Search-R1: Training LLMs to Reason and Leverage                            Trajectory
+                                                       Training-Centric                   2025      Arxiv     link
+  Search Engines with Reinforcement Learning                               Generation
+                                                         Perspective
+
+                                                           Level 2:
+Not all rollouts are useful: Down-sampling rollouts                        Trajectory
+                                                       Training-Centric                   2025      Arxiv     link
+            in llm reinforcement learning                                  Generation
+                                                         Perspective
+
+                                                           Level 3:
+Intrinsic Motivation and Automatic Curricula via                          Asymmetric
+                                                      Framework-Centric                   2018      ICLR      link
+             Asymmetric Self-Play                                         Co-Evolution
+                                                         Perspective
+
+                                                       Level 3:
+Asymmetric self-play for automatic goal discovery                         Asymmetric
+                                                  Framework-Centric                       2021      Arxiv     link
+            in robotic manipulation                                       Co-Evolution
+                                                     Perspective
+
+                                                           Level 3:
+                                                                          Asymmetric
+       Self-Questioning Language Models               Framework-Centric                   2025      Arxiv     link
+                                                                          Co-Evolution
+                                                         Perspective
+Learning to Pose Problems: Reasoning-Driven and      Level 3:
+                                                                          Asymmetric
+    Solver-Adaptive Data Synthesis for Large    Framework-Centric                         2025      Arxiv     link
+                                                                          Co-Evolution
+               Reasoning Models                    Perspective
+                                                           Level 3:
+                                                                          Asymmetric
+      Better LLM Reasoning via Dual-Play              Framework-Centric                   2025      Arxiv     link
+                                                                          Co-Evolution
+                                                         Perspective
+
+                                                           Level 3:
+VisPlay: Self-Evolving Vision-Language Models                             Asymmetric
+                                                      Framework-Centric                   2025      Arxiv     link
+                 from Images                                              Co-Evolution
+                                                         Perspective
+
+                                                           Level 3:
+ Search Self-play: Pushing the Frontier of Agent                          Asymmetric
+                                                      Framework-Centric                   2025      Arxiv     link
+         Capability without Supervision                                   Co-Evolution
+                                                         Perspective
+
+                                                           Level 3:
+    SPICE: Self-Play In Corpus Environments                               Asymmetric
+                                                      Framework-Centric                   2025      Arxiv     link
+              Improves Reasoning                                          Co-Evolution
+                                                         Perspective
+
+                                                     Level 3:
+AceSearcher: Bootstrapping Reasoning and Search                           Asymmetric
+                                                Framework-Centric                         2025     NeurIPS    link
+      for LLMs via Reinforced Self-Play                                   Co-Evolution
+                                                   Perspective
+
+                                                           Level 3:
+ ZeroGUI: Automating Online GUI Learning at                               Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+             Zero Human Cost                                               Framework
+                                                         Perspective
+
+The Path of Self-Evolving Large Language Models:      Level 3:
+                                                                          Self-evolving
+ Achieving Data-Efficient Learning via Intrinsic Framework-Centric                        2025      Arxiv     link
+                                                                           Framework
+                    Feedback                        Perspective
+                                                           Level 3:
+ Towards Agentic Self-Learning LLMs in Search                             Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+                 Environment                                               Framework
+                                                         Perspective
+                                                           Level 3:
+ Absolute Zero: Reinforced Self-play Reasoning                            Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+                with Zero Data                                             Framework
+                                                         Perspective
+
+  An Extremely Data-efficient and Generative               Level 3:
+                                                                          Self-evolving
+ LLM-based Reinforcement Learning Agent for           Framework-Centric                   2024      Arxiv     link
+                                                                           Framework
+              Recommenders                               Perspective
+
+                                                           Level 3:
+   Self-rewarding correction for mathematical                             Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+                   reasoning                                               Framework
+                                                         Perspective
+
+                                                           Level 3:
+     S2R: Teaching LLMs to Self-verify and                                Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+     Self-correct via Reinforcement Learning                               Framework
+                                                         Perspective
+
+                                                           Level 3:
+SSR-Zero: Simple Self-Rewarding Reinforcement                             Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+      Learning for Machine Translation                                     Framework
+                                                         Perspective
+
+                                                           Level 3:
+    Diagnosing and Mitigating System Bias in                              Self-evolving
+                                                      Framework-Centric                   2025      Arxiv     link
+              Self-Rewarding RL                                            Framework
+                                                         Perspective
+
+                                                      Level 3:
+SeRL: Self-Play Reinforcement Learning for Large                          Self-evolving
+                                                 Framework-Centric                        2025      Arxiv     link
+      Language Models with Limited Data                                    Framework
+                                                    Perspective
+                                                           Level 3:       Asymmetric
+ SPC: Evolving Self-Play Critic via Adversarial
+                                                      Framework-Centric   Co-Evolution    2025     NeurIPS    link
+         Games for LLM Reasoning
+                                                         Perspective      Frameworks
+
+                                                                                            Continued on next page
+                                                      Table 1 – Continued
+                      Title                               Section        Subsection     Year   Venue     Link
+
+Generative Adversarial Reasoner: Enhancing LLM      Level 3:             Asymmetric
+   Reasoning with Adversarial Reinforcement    Framework-Centric         Co-Evolution   2025    Arxiv    link
+                    Learning                      Perspective            Frameworks
+
+                                                          Level 3:       Asymmetric
+Toward Training Superintelligent Software Agents
+                                                     Framework-Centric   Co-Evolution   2025    Arxiv    link
+          through Self-Play SWE-RL
+                                                        Perspective      Frameworks
+
+                                                     Level 3:            Asymmetric
+Self-playing Adversarial Language Game Enhances
+                                                Framework-Centric        Co-Evolution   2025    Arxiv    link
+                LLM Reasoning
+                                                   Perspective           Frameworks
+
+     SPIRAL: Self-Play on Zero-Sum Games               Level 3:          Multi-Agent
+Incentivizes Reasoning via Multi-Agent Multi-Turn Framework-Centric       Evolution     2025    Arxiv    link
+             Reinforcement Learning                  Perspective         Frameworks
+
+                                                          Level 3:       Multi-Agent
+Vision-Zero: Scalable VLM Self-Improvement via
+                                                     Framework-Centric    Evolution     2025    Arxiv    link
+          Strategic Gamified Self-Play
+                                                        Perspective      Frameworks
+                                                          Level 3:       Multi-Agent
+Propose, Solve, Verify: Self-Play Through Formal
+                                                     Framework-Centric    Evolution     2025    Arxiv    link
+                  Verification
+                                                        Perspective      Frameworks
+                                                          Level 3:       Multi-Agent
+  SPELL: Self-Play Reinforcement Learning for
+                                                     Framework-Centric    Evolution     2025    Arxiv    link
+    evolving Long-Context Language Models
+                                                        Perspective      Frameworks
+
+                                                          Level 3:       Multi-Agent
+Multi-Agent Evolve: LLM Self-Improve through
+                                                     Framework-Centric    Evolution     2025    Arxiv    link
+                Co-evolution
+                                                        Perspective      Frameworks
+
+                                                          Level 3:       Multi-Agent
+   Meta-Learning Reinforcement Learning for
+                                                     Framework-Centric    Evolution     2025    Arxiv    link
+          Crypto-Return Prediction
+                                                        Perspective      Frameworks
+
+                                                          Level 3:
+   Towards Understanding Self-play for LLM
+                                                     Framework-Centric    Discussion    2025    Arxiv    link
+                 Reasoning
+                                                        Perspective
+
+            OpenAI o1 System Card                       Introduction     Background     2024    Arxiv    link
+ SimpleRL-Zoo: Investigating and Taming Zero
+Reinforcement Learning for Open Base Models in          Introduction     Background     2025   COLM      link
+                   the Wild
+Kimi k1.5: Scaling Reinforcement Learning with
+                                                        Introduction     Background     2025    Arxiv    link
+                    LLMs
+
+ Open-Reasoner-Zero: An Open Source Approach
+to Scaling Up Reinforcement Learning on the Base        Introduction     Background     2025   NeurIPS   link
+                     Model
+
+   A survey of reinforcement learning for large
+                                                          Survey           Survey       2025    Arxiv    link
+                reasoning models
+
+The Landscape of Agentic Reinforcement Learning
+                                                          Survey           Survey       2025    Arxiv    link
+             for LLMs: A Survey
+  A Survey on Efficient Large Language Model
+                                                          Survey           Survey       2025    ACL      link
+    Training From Data-centric Perspectives
+ A Survey on Self-Evolution of Large Language
+                                                          Survey           Survey       2024    Arxiv    link
+                   Models
+
+ A Comprehensive Survey of Self-Evolving AI
+ Agents: A New Paradigm Bridging Foundation               Survey           Survey       2025    Arxiv    link
+    Models and Lifelong Agentic Systems
+
+ A Survey of Self-Evolving Agents: What, When,
+How, and Where to Evolve on the Path to Artificial        Survey           Survey       2026    Arxiv    link
+               Super Intelligence
+

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.07709v1",
+  "title": "YAQIN: Culturally Sensitive, Agentic AI for Mental Healthcare Support Among Muslim Women in the UK",
+  "authors": "Yasmin Zaraket; Céline Mougenot",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07709v1",
+  "local_pdf": "pdfs/2026_yasmin_zaraket_yaqin_culturally_sensitive_agentic_ai_for_mental_healthcare_support_among_muslim_women_i_cd7570a4.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for culturally sensitive mental health chatbot; no study of robustness, conflict, calibration, or attacks.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:53.527527+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.07709v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for culturally sensitive mental health chatbot; no study of robustness, conflict, calibration, or attacks.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

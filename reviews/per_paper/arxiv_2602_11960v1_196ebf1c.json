@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.11960v1",
+  "title": "Benchmarking Vision-Language Models for French PDF-to-Markdown Conversion",
+  "authors": "Bruno Rigal; Victor Dupriez; Alexis Mignon; Ronan Le Hy; Nicolas Mery",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.11960v1",
+  "local_pdf": "pdfs/2026_bruno_rigal_benchmarking_vision_language_models_for_french_pdf_to_markdown_conversion_196ebf1c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks PDF-to-Markdown VLM conversion, framed as upstream to RAG since parsing errors propagate to retrieval/grounding. However, it does not study RAG robustness itself.",
+  "why_not_or_caveat": "Focuses on document parsing quality, not on retrieval noise, conflict, attacks, or calibration in RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.382334+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.11960v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Benchmarks PDF-to-Markdown VLM conversion, framed as upstream to RAG since parsing errors propagate to retrieval/grounding. However, it does not study RAG robustness itself.\",\n  \"why_not_or_caveat\": \"Focuses on document parsing quality, not on retrieval noise, conflict, attacks, or calibration in RAG.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

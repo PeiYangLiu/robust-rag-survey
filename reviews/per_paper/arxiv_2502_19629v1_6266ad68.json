@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.19629v1",
+  "title": "Agentic Mixture-of-Workflows for Multi-Modal Chemical Search",
+  "authors": "Tiffany J. Callahan; Nathaniel H. Park; Sara Capponi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.19629v1",
+  "local_pdf": "pdfs/2025_tiffany_j_callahan_agentic_mixture_of_workflows_for_multi_modal_chemical_search_6266ad68.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses self-corrective RAG in a chemistry/materials application but does not study robustness, conflict, attacks, or calibration in a generalizable way.",
+  "why_not_or_caveat": "Domain application of CRAG; no contribution to robustness/uncertainty literature.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.793330+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.19629v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses self-corrective RAG in a chemistry/materials application but does not study robustness, conflict, attacks, or calibration in a generalizable way.\",\"why_not_or_caveat\":\"Domain application of CRAG; no contribution to robustness/uncertainty literature.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.00529v1",
+  "title": "Hierarchical Abstract Tree for Cross-Document Retrieval-Augmented Generation",
+  "authors": "Ziwen Zhao; Menglin Yang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00529v1",
+  "local_pdf": "pdfs/2026_ziwen_zhao_hierarchical_abstract_tree_for_cross_document_retrieval_augmented_generation_826a574b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a tree-based RAG indexing framework for cross-document multi-hop QA; mentions noise from clustering but does not focus on robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Primarily an indexing/retrieval method, not about unreliable evidence or robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:03.702369+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.00529v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a tree-based RAG indexing framework for cross-document multi-hop QA; mentions noise from clustering but does not focus on robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Primarily an indexing/retrieval method, not about unreliable evidence or robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

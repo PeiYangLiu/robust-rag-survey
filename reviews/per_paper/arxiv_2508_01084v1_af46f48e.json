@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.01084v1",
+  "title": "Provably Secure Retrieval-Augmented Generation",
+  "authors": "Pengcheng Zhou; Yinglun Feng; Zhongliang Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.01084v1",
+  "local_pdf": "pdfs/2025_pengcheng_zhou_provably_secure_retrieval_augmented_generation_af46f48e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes encryption-based defense for RAG against data leakage and poisoning, tangentially related to adversarial corruption.",
+  "why_not_or_caveat": "Focus is cryptographic confidentiality/integrity rather than robustness to noisy/conflicting evidence; defense via encryption is orthogonal to typical RAG robustness approaches.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:29.852250+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.01084v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes encryption-based defense for RAG against data leakage and poisoning, tangentially related to adversarial corruption.\",\"why_not_or_caveat\":\"Focus is cryptographic confidentiality/integrity rather than robustness to noisy/conflicting evidence; defense via encryption is orthogonal to typical RAG robustness approaches.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption and defenses\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

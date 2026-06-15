@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.14170v1",
+  "title": "Citation-Enforced RAG for Fiscal Document Intelligence: Cited, Explainable Knowledge Retrieval in Tax Compliance",
+  "authors": "Akhil Chandra Shanivendra",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.14170v1",
+  "local_pdf": "pdfs/2026_akhil_chandra_shanivendra_citation_enforced_rag_for_fiscal_document_intelligence_cited_explainable_knowledge_retri_b5479bb0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application with citation enforcement and abstention when evidence is insufficient, which touches on calibration/control themes.",
+  "why_not_or_caveat": "Primarily an applied tax-compliance system without rigorous robustness analysis, benchmarks, or methodological contributions to noise/conflict/adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration and abstention",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.007332+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.14170v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application with citation enforcement and abstention when evidence is insufficient, which touches on calibration/control themes.\",\"why_not_or_caveat\":\"Primarily an applied tax-compliance system without rigorous robustness analysis, benchmarks, or methodological contributions to noise/conflict/adversarial settings.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"calibration and abstention\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

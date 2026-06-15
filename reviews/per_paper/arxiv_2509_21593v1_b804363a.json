@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21593v1",
+  "title": "GeoEvolve: Automating Geospatial Model Discovery via Multi-Agent Large Language Models",
+  "authors": "Peng Luo; Xiayin Lou; Yu Zheng; Zhuo Zheng; Stefano Ermon",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21593v1",
+  "local_pdf": "pdfs/2025_peng_luo_geoevolve_automating_geospatial_model_discovery_via_multi_agent_large_language_models_b804363a.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG to inject geospatial domain knowledge into evolutionary code generation; does not study robustness, reliability, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Application of RAG to geospatial model discovery, not robust RAG research.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:08.199515+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.21593v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG to inject geospatial domain knowledge into evolutionary code generation; does not study robustness, reliability, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Application of RAG to geospatial model discovery, not robust RAG research.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

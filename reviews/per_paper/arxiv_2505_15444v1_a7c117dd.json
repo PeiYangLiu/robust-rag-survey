@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.15444v1",
+  "title": "Single LLM, Multiple Roles: A Unified Retrieval-Augmented Generation Framework Using Role-Specific Token Optimization",
+  "authors": "Yutao Zhu; Jiajie Jin; Hongjin Qian; Zheng Liu; Zhicheng Dou; Ji-Rong Wen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.15444v1",
+  "local_pdf": "pdfs/2025_yutao_zhu_single_llm_multiple_roles_a_unified_retrieval_augmented_generation_framework_using_role_a7c117dd.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Includes a retrieval judge module deciding when to retrieve, marginally touching control aspects.",
+  "why_not_or_caveat": "Primarily a unified RAG framework focused on performance via role-token optimization, not robustness, conflict, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:24.288733+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.15444v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Includes a retrieval judge module deciding when to retrieve, marginally touching control aspects.\",\"why_not_or_caveat\":\"Primarily a unified RAG framework focused on performance via role-token optimization, not robustness, conflict, or adversarial settings.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

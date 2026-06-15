@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.14287v2",
+  "title": "Chain-of-Memory: Lightweight Memory Construction with Dynamic Evolution for LLM Agents",
+  "authors": "Xiucheng Xu; Bingbing Xu; Xueyun Tian; Zihe Huang; Rongxin Chen; Yunfan Li; Huawei Shen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.14287v2",
+  "local_pdf": "pdfs/2026_xiucheng_xu_chain_of_memory_lightweight_memory_construction_with_dynamic_evolution_for_llm_agents_2a567978.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a memory framework for LLM agents with adaptive truncation to prune noise in retrieved memory fragments, tangentially touching noisy retrieval.",
+  "why_not_or_caveat": "Focus is on agent memory construction/utilization efficiency, not on robustness of RAG to unreliable evidence, conflicts, or adversaries.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:35.818011+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.14287v2\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a memory framework for LLM agents with adaptive truncation to prune noise in retrieved memory fragments, tangentially touching noisy retrieval.\", \"why_not_or_caveat\": \"Focus is on agent memory construction/utilization efficiency, not on robustness of RAG to unreliable evidence, conflicts, or adversaries.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

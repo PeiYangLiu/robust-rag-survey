@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.14608v1",
+  "title": "Enterprise AI Must Enforce Participant-Aware Access Control",
+  "authors": "Shashank Shreedhar Bhatt; Tanmay Rajore; Khushboo Aggarwal; Ganesh Ananthanarayanan; Ranveer Chandra; Nishanth Chandran; Suyash Choudhury; Divya Gupta; Emre Kiciman; Sumit Kumar Pandey; Srinath Setty; Rahul Sharma; Teijia Zhao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.14608v1",
+  "local_pdf": "pdfs/2025_shashank_shreedhar_bhatt_enterprise_ai_must_enforce_participant_aware_access_control_142e469b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Discusses data exfiltration attacks via RAG and fine-tuning in multi-user enterprise settings, proposing access control enforcement.",
+  "why_not_or_caveat": "Focus is on access control / privacy, not robustness to noisy/conflicting/adversarial evidence in the RAG reasoning sense central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / privacy in RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.005769+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.14608v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Discusses data exfiltration attacks via RAG and fine-tuning in multi-user enterprise settings, proposing access control enforcement.\",\"why_not_or_caveat\":\"Focus is on access control / privacy, not robustness to noisy/conflicting/adversarial evidence in the RAG reasoning sense central to the survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption / privacy in RAG\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

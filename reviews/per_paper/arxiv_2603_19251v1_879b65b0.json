@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.19251v1",
+  "title": "Enhancing Legal LLMs through Metadata-Enriched RAG Pipelines and Direct Preference Optimization",
+  "authors": "Suyash Maniyar; Deepali Singh; Rohith Reddy",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19251v1",
+  "local_pdf": "pdfs/2026_suyash_maniyar_enhancing_legal_llms_through_metadata_enriched_rag_pipelines_and_direct_preference_optim_879b65b0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes DPO training to enforce safe refusal when retrieved context is insufficient, and improves retrieval to reduce errors in legal RAG—directly addressing abstention/control and noisy retrieval failure modes.",
+  "why_not_or_caveat": "Domain-specific (legal) application; contribution is incremental and narrow.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Abstention under insufficient context",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.750540+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.19251v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes DPO training to enforce safe refusal when retrieved context is insufficient, and improves retrieval to reduce errors in legal RAG—directly addressing abstention/control and noisy retrieval failure modes.\",\n  \"why_not_or_caveat\": \"Domain-specific (legal) application; contribution is incremental and narrow.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: Abstention under insufficient context\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

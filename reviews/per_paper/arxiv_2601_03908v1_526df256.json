@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2601.03908v1",
+  "title": "Decide Then Retrieve: A Training-Free Framework with Uncertainty-Guided Triggering and Dual-Path Retrieval",
+  "authors": "Wang Chen; Guanqiang Qi; Weikang Li; Yang Li; Deguo Xia; Jizhou Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.03908v1",
+  "local_pdf": "pdfs/2026_wang_chen_decide_then_retrieve_a_training_free_framework_with_uncertainty_guided_triggering_and_du_526df256.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes uncertainty-guided adaptive retrieval triggering and dual-path evidence selection to mitigate retrieval noise, directly addressing when-to-retrieve calibration and noisy retrieval issues.",
+  "why_not_or_caveat": "Focused on open-domain QA performance; does not address adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:02.186248+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.03908v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes uncertainty-guided adaptive retrieval triggering and dual-path evidence selection to mitigate retrieval noise, directly addressing when-to-retrieve calibration and noisy retrieval issues.\",\"why_not_or_caveat\":\"Focused on open-domain QA performance; does not address adversarial or conflict settings.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

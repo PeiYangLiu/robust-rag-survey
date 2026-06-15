@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.08938v2",
+  "title": "FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation",
+  "authors": "Qinggang Zhang; Zhishang Xiang; Yilin Xiao; Le Wang; Junhui Li; Xinrun Wang; Jinsong Su",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.08938v2",
+  "local_pdf": "pdfs/2025_qinggang_zhang_faithfulrag_fact_level_conflict_modeling_for_context_faithful_retrieval_augmented_genera_83bd2049.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly addresses parametric vs retrieved knowledge conflicts in RAG, proposing fact-level conflict modeling to improve context faithfulness while analyzing limitations of existing prompting/decoding-based faithful RAG methods.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:48.427068+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.08938v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly addresses parametric vs retrieved knowledge conflicts in RAG, proposing fact-level conflict modeling to improve context faithfulness while analyzing limitations of existing prompting/decoding-based faithful RAG methods.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

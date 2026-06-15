@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.06255v1",
+  "title": "Towards an Efficient, Customizable, and Accessible AI Tutor",
+  "authors": "Juan Segundo Hevia; Facundo Arredondo; Vishesh Kumar",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.06255v1",
+  "local_pdf": "pdfs/2025_juan_segundo_hevia_towards_an_efficient_customizable_and_accessible_ai_tutor_279727ce.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "application"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions that small models struggle with noisy/irrelevant retrieved chunks in an offline educational RAG pipeline, briefly touching on noisy retrieval issues.",
+  "why_not_or_caveat": "Primarily an application paper proposing an offline AI tutor; lacks substantive analysis, methods, or benchmarks for RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.042221+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.06255v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"application\"],\"paper_role\":\"application\",\"why_relevant\":\"Mentions that small models struggle with noisy/irrelevant retrieved chunks in an offline educational RAG pipeline, briefly touching on noisy retrieval issues.\",\"why_not_or_caveat\":\"Primarily an application paper proposing an offline AI tutor; lacks substantive analysis, methods, or benchmarks for RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

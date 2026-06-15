@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.22099v1",
+  "title": "A Comparative Study of Language Models for Khmer Retrieval-Augmented Question Answering",
+  "authors": "Sereiwathna Ros; Phannet Pov; Ratanaktepi Chhor; Kimleang Ly; Wan-Sup Cho; Saksonita Khoeurn",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.22099v1",
+  "local_pdf": "pdfs/2026_sereiwathna_ros_a_comparative_study_of_language_models_for_khmer_retrieval_augmented_question_answering_58828243.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Comparative evaluation of retrievers and generators for Khmer RAG using RAGAS metrics; touches RAG evaluation but not robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application study for low-resource language; does not study robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.806100+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.22099v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"application\",\"why_relevant\":\"Comparative evaluation of retrievers and generators for Khmer RAG using RAGAS metrics; touches RAG evaluation but not robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application study for low-resource language; does not study robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

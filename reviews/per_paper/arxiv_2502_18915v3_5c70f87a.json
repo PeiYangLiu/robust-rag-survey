@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.18915v3",
+  "title": "END: Early Noise Dropping for Efficient and Effective Context Denoising",
+  "authors": "Hongye Jin; Pei Chen; Jingfeng Yang; Zhengyang Wang; Fangran Mo; Jinghan Zhang; Meng Jiang; Yifan Gao; Binxuan Huang; Xinyang Zhang; Zheng Li; Tianyi Liu; Huasheng Li; Bing Yin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.18915v3",
+  "local_pdf": "pdfs/2025_hongye_jin_end_early_noise_dropping_for_efficient_and_effective_context_denoising_5c70f87a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a method to detect and drop noisy/distracting chunks in RAG and long-context inputs using early-layer probers, directly addressing distraction and noisy retrieval robustness.",
+  "why_not_or_caveat": "Focuses on efficiency-aware denoising rather than adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Context Filtering",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:16.121238+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.18915v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a method to detect and drop noisy/distracting chunks in RAG and long-context inputs using early-layer probers, directly addressing distraction and noisy retrieval robustness.\",\n  \"why_not_or_caveat\": \"Focuses on efficiency-aware denoising rather than adversarial or conflict settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and Noisy Context Filtering\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

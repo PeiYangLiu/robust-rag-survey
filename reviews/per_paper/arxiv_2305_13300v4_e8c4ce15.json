@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2305.13300v4",
+  "title": "Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+  "authors": "Jian Xie; Kai Zhang; Jiangjie Chen; Renze Lou; Yu Su",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2305.13300v4",
+  "local_pdf": "pdfs/2023_jian_xie_adaptive_chameleon_or_stubborn_sloth_revealing_the_behavior_of_large_language_models_in_e8c4ce15.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "analysis"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Seminal controlled study of LLM behavior under knowledge conflicts between parametric memory and retrieved evidence, revealing receptivity to coherent counter-evidence and confirmation bias with mixed evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:03.427168+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2305.13300v4\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"analysis\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Seminal controlled study of LLM behavior under knowledge conflicts between parametric memory and retrieved evidence, revealing receptivity to coherent counter-evidence and confirmation bias with mixed evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

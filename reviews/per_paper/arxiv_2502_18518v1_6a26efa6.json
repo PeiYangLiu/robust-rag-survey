@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.18518v1",
+  "title": "Swallowing the Poison Pills: Insights from Vulnerability Disparity Among LLMs",
+  "authors": "Peng Yifeng; Wu Zhizheng; Chen Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.18518v1",
+  "local_pdf": "pdfs/2025_peng_yifeng_swallowing_the_poison_pills_insights_from_vulnerability_disparity_among_llms_6a26efa6.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies poison pill data poisoning attacks on LLMs targeting long-tail knowledge, relevant to adversarial corruption broadly.",
+  "why_not_or_caveat": "Focuses on fine-tuning-based poisoning of LLM parametric knowledge, not RAG retrieval corpus poisoning or retrieval-time attacks.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption (background on poisoning)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:56.795219+00:00",
+  "raw_response": "{\"key\": \"arxiv-2502.18518v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"Studies poison pill data poisoning attacks on LLMs targeting long-tail knowledge, relevant to adversarial corruption broadly.\", \"why_not_or_caveat\": \"Focuses on fine-tuning-based poisoning of LLM parametric knowledge, not RAG retrieval corpus poisoning or retrieval-time attacks.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Adversarial corruption (background on poisoning)\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

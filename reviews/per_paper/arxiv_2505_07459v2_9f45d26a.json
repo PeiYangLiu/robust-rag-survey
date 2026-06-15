@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.07459v2",
+  "title": "Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis",
+  "authors": "Heydar Soudani; Evangelos Kanoulas; Faegheh Hasibi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.07459v2",
+  "local_pdf": "pdfs/2025_heydar_soudani_why_uncertainty_estimation_methods_fall_short_in_rag_an_axiomatic_analysis_9f45d26a.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Provides an axiomatic analysis of uncertainty estimation methods specifically in RAG, showing existing UE methods fail when retrieved context is added, and proposes a calibration function aligned with axioms covering parametric vs non-parametric knowledge interactions.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Uncertainty in RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:37.711279+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.07459v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\", \"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Provides an axiomatic analysis of uncertainty estimation methods specifically in RAG, showing existing UE methods fail when retrieved context is added, and proposes a calibration function aligned with axioms covering parametric vs non-parametric knowledge interactions.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Calibration and Uncertainty in RAG\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

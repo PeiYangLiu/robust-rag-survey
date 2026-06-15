@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.18142v3",
+  "title": "Mirroring Users: Towards Building Preference-aligned User Simulator with User Feedback in Recommendation",
+  "authors": "Tianjun Wei; Huizhong Guo; Yingpeng Du; Zhu Sun; Huang Chen; Dongxia Wang; Jie Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.18142v3",
+  "local_pdf": "pdfs/2025_tianjun_wei_mirroring_users_towards_building_preference_aligned_user_simulator_with_user_feedback_in_1906b89d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper is about LLM-based user simulators for recommender systems, unrelated to robust RAG.",
+  "why_not_or_caveat": "No connection to retrieval-augmented generation robustness, conflict, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:24.345487+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.18142v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper is about LLM-based user simulators for recommender systems, unrelated to robust RAG.\",\"why_not_or_caveat\":\"No connection to retrieval-augmented generation robustness, conflict, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.21404v1",
+  "title": "LLM-Driven Feature-Level Adversarial Attacks on Android Malware Detectors",
+  "authors": "Tianwei Lan; Farid Naït-Abdesselam",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.21404v1",
+  "local_pdf": "pdfs/2025_tianwei_lan_llm_driven_feature_level_adversarial_attacks_on_android_malware_detectors_00b7a8c4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Uses RAG within an LLM-driven adversarial attack pipeline for Android malware detection, but does not study RAG robustness.",
+  "why_not_or_caveat": "Out of scope: attacks ML malware classifiers, not RAG systems.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.082657+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.21404v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"attack\",\"why_relevant\":\"Uses RAG within an LLM-driven adversarial attack pipeline for Android malware detection, but does not study RAG robustness.\",\"why_not_or_caveat\":\"Out of scope: attacks ML malware classifiers, not RAG systems.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

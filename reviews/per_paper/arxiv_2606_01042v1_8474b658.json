@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.01042v1",
+  "title": "Plausibility Is Not Prediction: Contrastive Evidence for LLM-Based Cellular Perturbation Reasoning",
+  "authors": "Xinyu Yuan; Xixian Liu; Jianan Zhao; Yashi Zhang; Hongyu Guo; Jian Tang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.01042v1",
+  "local_pdf": "pdfs/2026_xinyu_yuan_plausibility_is_not_prediction_contrastive_evidence_for_llm_based_cellular_perturbation_8474b658.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific application of LLMs to cellular perturbation prediction using KG-based evidence retrieval; not about robust RAG under unreliable evidence.",
+  "why_not_or_caveat": "Calibration discussed is task-specific to biological prediction, not general RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:07.239713+00:00",
+  "raw_response": "{\"key\":\"arxiv-2606.01042v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific application of LLMs to cellular perturbation prediction using KG-based evidence retrieval; not about robust RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Calibration discussed is task-specific to biological prediction, not general RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

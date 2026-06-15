@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.05494v1",
+  "title": "Customized Retrieval-Augmented Generation with LLM for Debiasing Recommendation Unlearning",
+  "authors": "Haichao Zhang; Chong Zhang; Peiyu Hu; Shi Qiu; Jia Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.05494v1",
+  "local_pdf": "pdfs/2025_haichao_zhang_customized_retrieval_augmented_generation_with_llm_for_debiasing_recommendation_unlearni_9657b81a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for recommendation unlearning, not about robustness of RAG to unreliable evidence.",
+  "why_not_or_caveat": "Out of scope; application of RAG to privacy/unlearning in recsys.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:21.283259+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.05494v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for recommendation unlearning, not about robustness of RAG to unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope; application of RAG to privacy/unlearning in recsys.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

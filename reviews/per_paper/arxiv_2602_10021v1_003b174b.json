@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.10021v1",
+  "title": "Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference",
+  "authors": "Wenxuan Xie; Yujia Wang; Xin Tan; Chaochao Lu; Xia Hu; Xuhong Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.10021v1",
+  "local_pdf": "pdfs/2026_wenxuan_xie_decoupled_reasoning_with_implicit_fact_tokens_drift_a_dual_model_framework_for_efficient_003b174b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a dual-model context compression framework for long-context inference; mentions retriever noise but does not directly study robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Focus is on efficiency and compression, not robust RAG under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:06.108543+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.10021v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a dual-model context compression framework for long-context inference; mentions retriever noise but does not directly study robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Focus is on efficiency and compression, not robust RAG under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

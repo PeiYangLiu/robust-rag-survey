@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.15277v2",
+  "title": "BRIEF: Bridging Retrieval and Inference for Multi-hop Reasoning via Compression",
+  "authors": "Yuankai Li; Jia-Chen Gu; Di Wu; Kai-Wei Chang; Nanyun Peng",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.15277v2",
+  "local_pdf": "pdfs/2024_yuankai_li_brief_bridging_retrieval_and_inference_for_multi_hop_reasoning_via_compression_03d01b16.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "BRIEF compresses retrieved documents into dense summaries to reduce distraction and noise from irrelevant content in multi-hop RAG, relevant to mitigating distraction and noisy retrieval.",
+  "why_not_or_caveat": "Primary focus is efficiency/compression for multi-hop QA rather than robustness per se; robustness benefit is incidental.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction mitigation / context filtering",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:31.379489+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.15277v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"BRIEF compresses retrieved documents into dense summaries to reduce distraction and noise from irrelevant content in multi-hop RAG, relevant to mitigating distraction and noisy retrieval.\",\n  \"why_not_or_caveat\": \"Primary focus is efficiency/compression for multi-hop QA rather than robustness per se; robustness benefit is incidental.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction mitigation / context filtering\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

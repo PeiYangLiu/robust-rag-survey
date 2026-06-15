@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.26011v1",
+  "title": "RAGferee: Building Contextual Reward Models for Retrieval-Augmented Generation",
+  "authors": "Andrei C. Coman; Ionut-Teodor Sorodoc; Leonardo F. R. Ribeiro; Bill Byrne; James Henderson; Adrià de Gispert",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.26011v1",
+  "local_pdf": "pdfs/2025_andrei_c_coman_ragferee_building_contextual_reward_models_for_retrieval_augmented_generation_4e7660b3.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Trains contextual reward models that judge RAG responses on faithfulness, refusal when context is insufficient, and groundedness—relevant to calibration/abstention and evaluating RAG reliability.",
+  "why_not_or_caveat": "Focus is on reward modeling for RAG judging rather than directly defending against noisy/adversarial evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Evaluation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:36.520157+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.26011v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Trains contextual reward models that judge RAG responses on faithfulness, refusal when context is insufficient, and groundedness—relevant to calibration/abstention and evaluating RAG reliability.\",\"why_not_or_caveat\":\"Focus is on reward modeling for RAG judging rather than directly defending against noisy/adversarial evidence.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control / Evaluation\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.17486v1",
+  "title": "AttnComp: Attention-Guided Adaptive Context Compression for Retrieval-Augmented Generation",
+  "authors": "Lvzhou Luo; Yixuan Cao; Ping Luo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.17486v1",
+  "local_pdf": "pdfs/2025_lvzhou_luo_attncomp_attention_guided_adaptive_context_compression_for_retrieval_augmented_generatio_0dcd8092.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "AttnComp filters irrelevant retrieved documents adaptively and provides a confidence score for RAG responses, directly addressing noisy retrieval and calibration/abstention concerns central to the survey.",
+  "why_not_or_caveat": "Primarily a context-compression method; robustness to adversarial or conflicting evidence is not explicitly addressed.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / context filtering and confidence estimation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:41.641583+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.17486v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"AttnComp filters irrelevant retrieved documents adaptively and provides a confidence score for RAG responses, directly addressing noisy retrieval and calibration/abstention concerns central to the survey.\",\n  \"why_not_or_caveat\": \"Primarily a context-compression method; robustness to adversarial or conflicting evidence is not explicitly addressed.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval / context filtering and confidence estimation\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

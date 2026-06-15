@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.20976v1",
+  "title": "Detection of adversarial intent in Human-AI teams using LLMs",
+  "authors": "Abed K. Musaffar; Ambuj Singh; Francesco Bullo",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.20976v1",
+  "local_pdf": "pdfs/2026_abed_k_musaffar_detection_of_adversarial_intent_in_human_ai_teams_using_llms_5a98bc93.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper studies LLMs detecting adversarial intent in human-AI teams via behavioral traces in a trivia game, unrelated to RAG robustness.",
+  "why_not_or_caveat": "Not about retrieval-augmented generation, retrieval attacks, or evidence reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:07.399851+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.20976v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Paper studies LLMs detecting adversarial intent in human-AI teams via behavioral traces in a trivia game, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"Not about retrieval-augmented generation, retrieval attacks, or evidence reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

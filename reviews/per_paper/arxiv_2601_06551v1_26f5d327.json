@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.06551v1",
+  "title": "L-RAG: Balancing Context and Retrieval with Entropy-Based Lazy Loading",
+  "authors": "Sergii Voloshyn",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.06551v1",
+  "local_pdf": "pdfs/2026_sergii_voloshyn_l_rag_balancing_context_and_retrieval_with_entropy_based_lazy_loading_26f5d327.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes entropy-based gating to decide when to retrieve, directly addressing adaptive retrieval and uncertainty-driven control in RAG.",
+  "why_not_or_caveat": "Focus is on efficiency rather than robustness; small-scale evaluation on SQuAD 2.0 with Phi-2.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:28.443854+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.06551v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes entropy-based gating to decide when to retrieve, directly addressing adaptive retrieval and uncertainty-driven control in RAG.\",\"why_not_or_caveat\":\"Focus is on efficiency rather than robustness; small-scale evaluation on SQuAD 2.0 with Phi-2.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.75}",
+  "skipped_existing": false
+}

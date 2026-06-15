@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.14828v2",
+  "title": "Toward Robust GraphRAG: Mitigating Retrieval Drift and Hallucination from Imperfect Knowledge Graphs",
+  "authors": "Yizhuo Ma; Jinchuan Xu; Tao Wen; Qizhi Chen; Jiakai Li; Rongzheng Wang; Muquan Li; Shuang Liang; Ke Qin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.14828v2",
+  "local_pdf": "pdfs/2026_yizhuo_ma_toward_robust_graphrag_mitigating_retrieval_drift_and_hallucination_from_imperfect_knowl_5e9a2e92.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses robustness of GraphRAG under imperfect/noisy KGs with spurious noise and incomplete information, using sufficiency checks to decide when to fall back to textual recovery—relevant to noisy retrieval and control mechanisms.",
+  "why_not_or_caveat": "Specific to GraphRAG/KG construction errors rather than general RAG noise.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / GraphRAG robustness",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:59.098754+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.14828v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Addresses robustness of GraphRAG under imperfect/noisy KGs with spurious noise and incomplete information, using sufficiency checks to decide when to fall back to textual recovery—relevant to noisy retrieval and control mechanisms.\", \"why_not_or_caveat\": \"Specific to GraphRAG/KG construction errors rather than general RAG noise.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Noisy Retrieval / GraphRAG robustness\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

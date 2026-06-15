@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.17301v1",
+  "title": "ConflictRAG: Detecting and Resolving Knowledge Conflicts in Retrieval Augmented Generation",
+  "authors": "Chenyu Wang; Yingmin Liu; Yang Shu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17301v1",
+  "local_pdf": "pdfs/2026_chenyu_wang_conflictrag_detecting_and_resolving_knowledge_conflicts_in_retrieval_augmented_generatio_fde81beb.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a conflict-aware RAG pipeline that detects, classifies, and resolves inter-document and parametric-contextual conflicts, plus a CARS evaluation metric—directly relevant to the knowledge conflict and evaluation themes.",
+  "why_not_or_caveat": "Suspicious arXiv ID (2605) suggests possible metadata issue; self-constructed benchmark has acknowledged bias.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:46.942498+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.17301v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a conflict-aware RAG pipeline that detects, classifies, and resolves inter-document and parametric-contextual conflicts, plus a CARS evaluation metric—directly relevant to the knowledge conflict and evaluation themes.\",\n  \"why_not_or_caveat\": \"Suspicious arXiv ID (2605) suggests possible metadata issue; self-constructed benchmark has acknowledged bias.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

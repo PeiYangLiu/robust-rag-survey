@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.22223v1",
+  "title": "ReGAIN: Retrieval-Grounded AI Framework for Network Traffic Analysis",
+  "authors": "Shaghayegh Shajarian; Kennedy Marsh; James Benson; Sajad Khorsandroo; Mahmoud Abdelsalam",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.22223v1",
+  "local_pdf": "pdfs/2025_shaghayegh_shajarian_regain_retrieval_grounded_ai_framework_for_network_traffic_analysis_1dd57a88.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with abstention and reranking to network traffic analysis; touches on grounding to reduce hallucinations but is domain-specific application rather than robustness study.",
+  "why_not_or_caveat": "Not a study of RAG robustness, conflict, attacks, or calibration in general; abstention mechanism is incidental to a network security application.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:30.286672+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.22223v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Applies RAG with abstention and reranking to network traffic analysis; touches on grounding to reduce hallucinations but is domain-specific application rather than robustness study.\", \"why_not_or_caveat\": \"Not a study of RAG robustness, conflict, attacks, or calibration in general; abstention mechanism is incidental to a network security application.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

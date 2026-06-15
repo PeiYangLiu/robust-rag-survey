@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.23047v1",
+  "title": "Parametric Knowledge and Retrieval Behavior in RAG Fine-Tuning for Electronic Design Automation",
+  "authors": "Julian Oestreich; Maximilian Bley; Frank Binder; Lydia Müller; Maksym Sydorenko; André Alcalde",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.23047v1",
+  "local_pdf": "pdfs/2026_julian_oestreich_parametric_knowledge_and_retrieval_behavior_in_rag_fine_tuning_for_electronic_design_aut_c84161d1.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies RAG fine-tuning robustness under varying retrieval conditions (relevant, irrelevant, noisy, missing) and proposes a triple-based evaluation metric (PKP) that disentangles parametric vs retrieved knowledge, relevant to evaluation and knowledge conflict.",
+  "why_not_or_caveat": "Domain-specific (EDA) and focuses on a custom metric rather than general robustness methods.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and metrics for RAG under noisy retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.474437+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.23047v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\", \"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies RAG fine-tuning robustness under varying retrieval conditions (relevant, irrelevant, noisy, missing) and proposes a triple-based evaluation metric (PKP) that disentangles parametric vs retrieved knowledge, relevant to evaluation and knowledge conflict.\",\n  \"why_not_or_caveat\": \"Domain-specific (EDA) and focuses on a custom metric rather than general robustness methods.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and metrics for RAG under noisy retrieval\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

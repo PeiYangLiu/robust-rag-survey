@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.26707v1",
+  "title": "The Cognitive Divergence: AI Context Windows, Human Attention Decline, and the Delegation Feedback Loop",
+  "authors": "Netanel Eliav",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.26707v1",
+  "local_pdf": "pdfs/2026_netanel_eliav_the_cognitive_divergence_ai_context_windows_human_attention_decline_and_the_delegation_f_7413804c.pdf",
+  "metadata_topics": "uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Paper concerns human attention decline vs LLM context windows, not RAG robustness.",
+  "why_not_or_caveat": "Out of scope; only tangentially mentions lost-in-the-middle retrieval degradation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:37.549973+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.26707v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"theory\",\"why_relevant\":\"Paper concerns human attention decline vs LLM context windows, not RAG robustness.\",\"why_not_or_caveat\":\"Out of scope; only tangentially mentions lost-in-the-middle retrieval degradation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.12124v1",
+  "title": "RA-MTR: A Retrieval Augmented Multi-Task Reader based Approach for Inspirational Quote Extraction from Long Documents",
+  "authors": "Sayantan Adak; Animesh Mukherjee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.12124v1",
+  "local_pdf": "pdfs/2025_sayantan_adak_ra_mtr_a_retrieval_augmented_multi_task_reader_based_approach_for_inspirational_quote_ex_f9c8902f.pdf",
+  "metadata_topics": "",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for quote extraction; does not address robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope for robust RAG survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:40.775736+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.12124v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for quote extraction; does not address robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope for robust RAG survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

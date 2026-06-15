@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.15771v1",
+  "title": "Skill-RAG: Failure-State-Aware Retrieval Augmentation via Hidden-State Probing and Skill Routing",
+  "authors": "Kai Wei; Raymond Li; Xi Zhu; Zhaoqian Xue; Jiaojiao Han; Jingcheng Niu; Fan Yang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.15771v1",
+  "local_pdf": "pdfs/2026_kai_wei_skill_rag_failure_state_aware_retrieval_augmentation_via_hidden_state_probing_and_skill_8c62814e.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Skill-RAG uses hidden-state probing to detect retrieval failure states and routes among corrective skills (rewrite, decompose, focus, exit), directly addressing adaptive retrieval control, abstention, and query-evidence misalignment under OOD conditions.",
+  "why_not_or_caveat": "Focuses on failure-recovery routing rather than adversarial or conflict settings; does not address poisoning or knowledge conflict.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (when to retrieve/abstain)",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:58.999803+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.15771v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_search\":true,\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Skill-RAG uses hidden-state probing to detect retrieval failure states and routes among corrective skills (rewrite, decompose, focus, exit), directly addressing adaptive retrieval control, abstention, and query-evidence misalignment under OOD conditions.\",\"why_not_or_caveat\":\"Focuses on failure-recovery routing rather than adversarial or conflict settings; does not address poisoning or knowledge conflict.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control (when to retrieve/abstain)\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

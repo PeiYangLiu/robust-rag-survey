@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.02424v2",
+  "title": "CyberRAG: An Agentic RAG cyber attack classification and reporting tool",
+  "authors": "Francesco Blefari; Cristian Cosentino; Francesco Aurelio Pironti; Angelo Furfaro; Fabrizio Marozzo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.02424v2",
+  "local_pdf": "pdfs/2025_francesco_blefari_cyberrag_an_agentic_rag_cyber_attack_classification_and_reporting_tool_6df2e003.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies agentic RAG with iterative retrieval to cyber-attack classification; mentions robustness to adversarial payloads but does not study RAG robustness systematically.",
+  "why_not_or_caveat": "Domain application paper; robustness claims are limited to attack-classification accuracy, not RAG-specific noise/conflict/poisoning analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.931716+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.02424v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies agentic RAG with iterative retrieval to cyber-attack classification; mentions robustness to adversarial payloads but does not study RAG robustness systematically.\",\"why_not_or_caveat\":\"Domain application paper; robustness claims are limited to attack-classification accuracy, not RAG-specific noise/conflict/poisoning analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

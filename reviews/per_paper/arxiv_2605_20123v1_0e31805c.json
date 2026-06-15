@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.20123v1",
+  "title": "BiRD: A Bidirectional Ranking Defense Mechanism for Retrieval Augmented Generation",
+  "authors": "Chengcai Gao; Zhihong Sun; Xiaochuan Shi; Qiufeng Wang; Chao Liang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.20123v1",
+  "local_pdf": "pdfs/2026_chengcai_gao_bird_a_bidirectional_ranking_defense_mechanism_for_retrieval_augmented_generation_0e31805c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense mechanism against corpus poisoning attacks in RAG using bidirectional ranking signals, directly relevant to adversarial robustness in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Defenses",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.073987+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.20123v1\", \"relevance_score\": 5, \"decision\": \"core\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"defense\", \"why_relevant\": \"Proposes a defense mechanism against corpus poisoning attacks in RAG using bidirectional ranking signals, directly relevant to adversarial robustness in RAG.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption and Defenses\", \"confidence\": 0.92}",
+  "skipped_existing": false
+}

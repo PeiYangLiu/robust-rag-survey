@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.16014v4",
+  "title": "Ranking Free RAG: Replacing Re-ranking with Selection in RAG for Sensitive Domains",
+  "authors": "Yash Saxena; Ankur Padia; Mandar S Chaudhary; Kalpa Gunaratna; Srinivasan Parthasarathy; Manas Gaur",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.16014v4",
+  "local_pdf": "pdfs/2025_yash_saxena_ranking_free_rag_replacing_re_ranking_with_selection_in_rag_for_sensitive_domains_d802457e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "METEORA proposes a rationale-driven evidence selection and verification framework that defends against RAG corpus poisoning and replaces top-k heuristics with adaptive selection, directly addressing noisy retrieval and adversarial robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Defenses against adversarial corruption / adaptive evidence selection",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.338224+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.16014v4\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"METEORA proposes a rationale-driven evidence selection and verification framework that defends against RAG corpus poisoning and replaces top-k heuristics with adaptive selection, directly addressing noisy retrieval and adversarial robustness.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Defenses against adversarial corruption / adaptive evidence selection\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

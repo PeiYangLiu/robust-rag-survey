@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.06579v1",
+  "title": "POISONCRAFT: Practical Poisoning of Retrieval-Augmented Generation for Large Language Models",
+  "authors": "Yangguang Shao; Xinjie Lin; Haozheng Luo; Chengshang Hou; Gang Xiong; Jiahao Yu; Junzheng Shi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.06579v1",
+  "local_pdf": "pdfs/2025_yangguang_shao_poisoncraft_practical_poisoning_of_retrieval_augmented_generation_for_large_language_mod_a34196bf.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a practical query-agnostic poisoning attack against RAG that ensures both retrieval and generation manipulation, and evaluates against defenses—directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.196783+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.06579v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a practical query-agnostic poisoning attack against RAG that ensures both retrieval and generation manipulation, and evaluates against defenses—directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

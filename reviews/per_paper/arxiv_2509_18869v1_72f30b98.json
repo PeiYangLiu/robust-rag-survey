@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.18869v1",
+  "title": "On The Reproducibility Limitations of RAG Systems",
+  "authors": "Baiqiang Wang; Dongfang Zhao; Nathan R Tallent; Luanzheng Guo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.18869v1",
+  "local_pdf": "pdfs/2025_baiqiang_wang_on_the_reproducibility_limitations_of_rag_systems_72f30b98.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Studies non-determinism/reproducibility of RAG retrieval pipelines, tangentially related to reliability but not about noisy/adversarial/conflicting evidence or calibration.",
+  "why_not_or_caveat": "Focus is on run-to-run reproducibility from hardware/precision/ANN choices, not robustness to unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and reliability",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:13.200475+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.18869v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Studies non-determinism/reproducibility of RAG retrieval pipelines, tangentially related to reliability but not about noisy/adversarial/conflicting evidence or calibration.\",\"why_not_or_caveat\":\"Focus is on run-to-run reproducibility from hardware/precision/ANN choices, not robustness to unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation and reliability\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

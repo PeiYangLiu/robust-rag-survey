@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.23284v3",
+  "title": "Bidirectional Likelihood Estimation with Multi-Modal Large Language Models for Text-Video Retrieval",
+  "authors": "Dohwan Ko; Ji Soo Lee; Minhyuk Choi; Zihang Meng; Hyunwoo J. Kim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.23284v3",
+  "local_pdf": "pdfs/2025_dohwan_ko_bidirectional_likelihood_estimation_with_multi_modal_large_language_models_for_text_vide_339d2b94.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "This paper addresses candidate prior bias in MLLM-based text-video retrieval, not RAG robustness.",
+  "why_not_or_caveat": "Out of scope: text-video retrieval calibration, unrelated to robust RAG under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:09.597922+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.23284v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"This paper addresses candidate prior bias in MLLM-based text-video retrieval, not RAG robustness.\",\"why_not_or_caveat\":\"Out of scope: text-video retrieval calibration, unrelated to robust RAG under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

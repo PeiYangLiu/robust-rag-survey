@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2506.23139v1",
+  "title": "Benchmarking Deep Search over Heterogeneous Enterprise Data",
+  "authors": "Prafulla Kumar Choubey; Xiangyu Peng; Shilpa Bhagavath; Kung-Hsiang Huang; Caiming Xiong; Chien-Sheng Wu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.23139v1",
+  "local_pdf": "pdfs/2025_prafulla_kumar_choubey_benchmarking_deep_search_over_heterogeneous_enterprise_data_806d1ade.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "HERB benchmark evaluates RAG over heterogeneous enterprise data with realistic noise and includes unanswerable queries, supporting evaluation of retrieval failure modes and abstention under unsupported claims.",
+  "why_not_or_caveat": "Primarily a deep-search multi-hop benchmark; robustness/unanswerability is secondary rather than central.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:18.359357+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.23139v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\", \"ood_uncertainty\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"HERB benchmark evaluates RAG over heterogeneous enterprise data with realistic noise and includes unanswerable queries, supporting evaluation of retrieval failure modes and abstention under unsupported claims.\",\n  \"why_not_or_caveat\": \"Primarily a deep-search multi-hop benchmark; robustness/unanswerability is secondary rather than central.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

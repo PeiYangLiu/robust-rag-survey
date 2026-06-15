@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2505.16518v3",
+  "title": "CUB: Benchmarking Context Utilisation Techniques for Language Models",
+  "authors": "Lovisa Hagström; Youna Kim; Haeun Yu; Sang-goo Lee; Richard Johansson; Hyunsoo Cho; Isabelle Augenstein",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.16518v3",
+  "local_pdf": "pdfs/2025_lovisa_hagstr_m_cub_benchmarking_context_utilisation_techniques_for_language_models_defff4c7.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "distraction",
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "CUB is a purpose-built benchmark for evaluating context utilisation manipulation techniques in RAG under gold, conflicting, and irrelevant contexts, directly covering noisy retrieval, distraction, and knowledge conflict.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:18.484025+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.16518v3\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"distraction\", \"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"CUB is a purpose-built benchmark for evaluating context utilisation manipulation techniques in RAG under gold, conflicting, and irrelevant contexts, directly covering noisy retrieval, distraction, and knowledge conflict.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.13506v1",
+  "title": "EcoSafeRAG: Efficient Security through Context Analysis in Retrieval-Augmented Generation",
+  "authors": "Ruobing Yao; Yifei Zhang; Shuang Song; Neng Gao; Chenyang Tu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.13506v1",
+  "local_pdf": "pdfs/2025_ruobing_yao_ecosaferag_efficient_security_through_context_analysis_in_retrieval_augmented_generation_15c89530.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense framework against RAG poisoning, prompt injection, and adversarial document attacks via sentence-level segmentation and bait-guided context diversity detection, without relying on LLM internal knowledge.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption Defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:46.924873+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.13506v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a defense framework against RAG poisoning, prompt injection, and adversarial document attacks via sentence-level segmentation and bait-guided context diversity detection, without relying on LLM internal knowledge.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption Defenses\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

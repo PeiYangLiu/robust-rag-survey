@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2501.00982v2",
+  "title": "Are LLMs effective psychological assessors? Leveraging adaptive RAG for interpretable mental health screening through psychometric practice",
+  "authors": "Federico Ravenda; Seyed Ali Bahrainian; Andrea Raballo; Antonietta Mira; Noriko Kando",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.00982v2",
+  "local_pdf": "pdfs/2025_federico_ravenda_are_llms_effective_psychological_assessors_leveraging_adaptive_rag_for_interpretable_men_d2b2d740.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies adaptive RAG to mental health screening; does not study robustness, noise, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.140319+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.00982v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies adaptive RAG to mental health screening; does not study robustness, noise, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

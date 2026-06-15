@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2602.14044v2",
+  "title": "Context Shapes LLMs Retrieval-Augmented Fact-Checking Effectiveness",
+  "authors": "Pietro Bernardelle; Stefano Civelli; Kevin Roitero; Gianluca Demartini",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.14044v2",
+  "local_pdf": "pdfs/2026_pietro_bernardelle_context_shapes_llms_retrieval_augmented_fact_checking_effectiveness_e9e50d5a.pdf",
+  "metadata_topics": "knowledge-conflict",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes how context length and evidence position affect LLM fact-checking accuracy, demonstrating lost-in-the-middle degradation and parametric vs evidence trade-offs relevant to distraction and knowledge conflict in RAG.",
+  "why_not_or_caveat": "Focused on fact-checking rather than general RAG; limited to positional/length analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and long-context degradation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:06.989551+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.14044v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Analyzes how context length and evidence position affect LLM fact-checking accuracy, demonstrating lost-in-the-middle degradation and parametric vs evidence trade-offs relevant to distraction and knowledge conflict in RAG.\",\"why_not_or_caveat\":\"Focused on fact-checking rather than general RAG; limited to positional/length analysis.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and long-context degradation\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

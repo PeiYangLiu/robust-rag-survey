@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.09163v1",
+  "title": "FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases",
+  "authors": "Xingjian Zhang; Sophia Moylan; Ziyang Xiong; Qiaozhu Mei; Yichen Luo; Jiaqi W. Ma",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.09163v1",
+  "local_pdf": "pdfs/2026_xingjian_zhang_flyaoc_evaluating_agentic_ontology_curation_of_drosophila_scientific_knowledge_bases_ce7e1371.pdf",
+  "metadata_topics": "knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmark for agentic ontology curation involving retrieval over scientific literature; notes that agents use retrieval primarily to confirm parametric knowledge.",
+  "why_not_or_caveat": "Focused on domain-specific curation task, not on RAG robustness, noise, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:31.720095+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.09163v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Benchmark for agentic ontology curation involving retrieval over scientific literature; notes that agents use retrieval primarily to confirm parametric knowledge.\", \"why_not_or_caveat\": \"Focused on domain-specific curation task, not on RAG robustness, noise, conflict, attacks, or calibration.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

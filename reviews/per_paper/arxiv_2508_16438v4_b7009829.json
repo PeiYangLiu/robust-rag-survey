@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.16438v4",
+  "title": "OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval",
+  "authors": "Yu Liu; Yanbing Liu; Fangfang Yuan; Cong Cao; Youbang Sun; Kun Peng; Weizhuo Chen; Jianjun Li; Zhiyuan Ma",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.16438v4",
+  "local_pdf": "pdfs/2025_yu_liu_opera_a_reinforcement_learning_enhanced_orchestrated_planner_executor_architecture_for_r_b7009829.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-hop RAG architecture with planning, query rewriting, and filtering of noisy retrieval results, tangentially related to handling noisy passages.",
+  "why_not_or_caveat": "Focus is on multi-hop reasoning performance, not on robustness to unreliable evidence, conflict, adversarial inputs, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.072328+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.16438v4\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a multi-hop RAG architecture with planning, query rewriting, and filtering of noisy retrieval results, tangentially related to handling noisy passages.\",\"why_not_or_caveat\":\"Focus is on multi-hop reasoning performance, not on robustness to unreliable evidence, conflict, adversarial inputs, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

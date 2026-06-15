@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.01495v1",
+  "title": "FT-RAG: A Fine-grained Retrieval-Augmented Generation Framework for Complex Table Reasoning",
+  "authors": "Zebin Guo; Weidong Geng; Ruichen Mao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01495v1",
+  "local_pdf": "pdfs/2026_zebin_guo_ft_rag_a_fine_grained_retrieval_augmented_generation_framework_for_complex_table_reasoni_5f82873a.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a fine-grained RAG framework for table reasoning; not focused on robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application/method paper for tabular RAG, no robustness/reliability focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.285582+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.01495v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a fine-grained RAG framework for table reasoning; not focused on robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application/method paper for tabular RAG, no robustness/reliability focus.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

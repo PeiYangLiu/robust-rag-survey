@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.24037v2",
+  "title": "Automated Vulnerability Validation and Verification: A Large Language Model Approach",
+  "authors": "Alireza Lotfi; Charalampos Katsis; Elisa Bertino",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.24037v2",
+  "local_pdf": "pdfs/2025_alireza_lotfi_automated_vulnerability_validation_and_verification_a_large_language_model_approach_b9dd44c4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG as a tool for vulnerability exploit reproduction; does not study RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Application paper, not about robustness of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:41.327313+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.24037v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG as a tool for vulnerability exploit reproduction; does not study RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Application paper, not about robustness of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

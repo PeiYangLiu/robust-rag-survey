@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.08699v1",
+  "title": "RAGShaper: Eliciting Sophisticated Agentic RAG Skills via Automated Data Synthesis",
+  "authors": "Zhengwei Tao; Bo Li; Jialong Wu; Guochen Yan; Huanyao Zhang; Jiahao Xu; Haitao Mi; Wentao Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.08699v1",
+  "local_pdf": "pdfs/2026_zhengwei_tao_ragshaper_eliciting_sophisticated_agentic_rag_skills_via_automated_data_synthesis_b57ce750.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "RAGShaper synthesizes agentic RAG training data with adversarial distractors (Perception/Cognition) and elicits error-correction trajectories, directly targeting robustness to noisy and distracting retrieval.",
+  "why_not_or_caveat": "Focus is on training data synthesis rather than evaluation or calibration; robustness is a downstream claim.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval: training-time defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:27.456519+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.08699v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"RAGShaper synthesizes agentic RAG training data with adversarial distractors (Perception/Cognition) and elicits error-correction trajectories, directly targeting robustness to noisy and distracting retrieval.\",\n  \"why_not_or_caveat\": \"Focus is on training data synthesis rather than evaluation or calibration; robustness is a downstream claim.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and noisy retrieval: training-time defenses\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

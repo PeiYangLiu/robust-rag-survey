@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2210.02627v1",
+  "title": "Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering",
+  "authors": "Shamane Siriwardhana; Rivindu Weerasekera; Elliott Wen; Tharindu Kaluarachchi; Rajib Rana; Suranga Nanayakkara",
+  "year": "2022",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2210.02627v1",
+  "local_pdf": "pdfs/2022_shamane_siriwardhana_improving_the_domain_adaptation_of_retrieval_augmented_generation_rag_models_for_open_do_8e54e8d7.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RAG-end2end for domain adaptation of RAG, not focused on robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focuses on joint retriever-generator training for domain adaptation, not on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:30.966711+00:00",
+  "raw_response": "{\"key\":\"arxiv-2210.02627v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes RAG-end2end for domain adaptation of RAG, not focused on robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Focuses on joint retriever-generator training for domain adaptation, not on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

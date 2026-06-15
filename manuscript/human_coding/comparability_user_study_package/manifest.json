@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-06-05T16:47:25Z",
+  "status": "completed_blind_external_expert_use_study_package",
+  "description": "Auditable anonymized expert-use validation artifacts for robust-RAG comparability lens.",
+  "n_annotators": 30,
+  "n_pairs": 12,
+  "n_judgments": 360,
+  "conditions": {
+    "control": 15,
+    "protocol": 15
+  },
+  "reference": "external_gold_verdict from external_gold_panel.csv / paper_pairs_with_external_gold.csv",
+  "public_qualification_metadata": "anonymized IDs only; detailed identities are not included in public artifact",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "35b37ec722d2d9421b7c747058fc3ed75963584b3bc9780f1d35e4fc968cb3be",
+      "rows": null
+    },
+    {
+      "path": "analyze_blind_batch.py",
+      "sha256": "16d92a6ab5a8274c307997cf28750c7a995fdb3c9cdde7287b548318a77750aa",
+      "rows": null
+    },
+    {
+      "path": "annotator_metadata_anonymized.csv",
+      "sha256": "19d9edca3660741363d7fc4fd0913f178229dc8e4bb9a3e1d1ef5c155da67a9b",
+      "rows": 30
+    },
+    {
+      "path": "expert_responses_full.csv",
+      "sha256": "66753fcea6ef45147dfcdb0bf535bd89a95f1b61a718ee6d8418ecf6f1c8a5fb",
+      "rows": 360
+    },
+    {
+      "path": "expert_responses_minimal.csv",
+      "sha256": "a49d75da2531eab9cdb6eaef1cfcb8ca60df7039bff53dec640baa8122fbb405",
+      "rows": 360
+    },
+    {
+      "path": "external_gold_analysis/analysis_summary.md",
+      "sha256": "48e5282db74ca76c8e8353cec94f5c2f927a2a9b0474fe96399a8812390431bb",
+      "rows": null
+    },
+    {
+      "path": "external_gold_analysis/condition_differences_bootstrap.csv",
+      "sha256": "038055d1fefabc1dedc9dd779ab869b245dca2c24c3a38b485634bc15c90e77c",
+      "rows": 5
+    },
+    {
+      "path": "external_gold_analysis/condition_summary.csv",
+      "sha256": "26e69e57089ae90d9d2980fd85a3a57f047704e62a21aecb77e19e21af8c32ce",
+      "rows": 2
+    },
+    {
+      "path": "external_gold_analysis/pair_summary.csv",
+      "sha256": "f019dc7de91e624ce78a1e98a52cefae6e036cabb3bcc3234f50007c9d5ae02b",
+      "rows": 24
+    },
+    {
+      "path": "external_gold_analysis/participant_summary.csv",
+      "sha256": "1bea421d329d2a11ff6e94e25f9f7213957107cb381f0adac03326d4d983aef1",
+      "rows": 30
+    },
+    {
+      "path": "external_gold_manifest.json",
+      "sha256": "2c0fc76f0a7f86c8948f40f7df3a29479db14572672094cb71b5f1fd04fd748c",
+      "rows": null
+    },
+    {
+      "path": "external_gold_panel.csv",
+      "sha256": "26e693337706735b69506d213a34b8bffb36c476bc17a3e1768186193d92ffec",
+      "rows": 12
+    },
+    {
+      "path": "external_gold_votes.csv",
+      "sha256": "6842abfe944f0cb29db331130743f780d695a7e71d5a28fc1aaea4fe81c04219",
+      "rows": 360
+    },
+    {
+      "path": "paper_pairs_for_annotation.csv",
+      "sha256": "1624854700a9c32c3637b2f06aae5dd02bd6afd1fc7aba4e7b6ab9c2feab799a",
+      "rows": 12
+    },
+    {
+      "path": "paper_pairs_rulebook_reference.csv",
+      "sha256": "0f13fa0206562dea1c2bec2ba5911a56c75bc627e3d321788970119f336c7f54",
+      "rows": 12
+    },
+    {
+      "path": "paper_pairs_with_external_gold.csv",
+      "sha256": "914bb35de7bc882b4c42628d81c93fd86968c6e7bccde1810be77b37485486b6",
+      "rows": 12
+    },
+    {
+      "path": "participant_assignment_log.csv",
+      "sha256": "1ddfaf75a596632f93679b985de278e4515902ed4d79e92bcf952b6deca2604f",
+      "rows": 30
+    },
+    {
+      "path": "rulebook_bootstrap_differences.csv",
+      "sha256": "e5afd2eb12c3a9f88088b09ddcd60b2d1fec9938b2bceb2b6298a9ac4edff66f",
+      "rows": 5
+    },
+    {
+      "path": "rulebook_condition_summary.csv",
+      "sha256": "bab98f748f71a51e38da1c24a5d268fbcd3b15a462629c6ec8d626ce1d34f50e",
+      "rows": 2
+    },
+    {
+      "path": "rulebook_pair_summary.csv",
+      "sha256": "010de894a7cdea2b0e3aa5c9479df95ae9d900b67dd4ee4f589839e802c37f92",
+      "rows": 24
+    },
+    {
+      "path": "rulebook_participant_summary.csv",
+      "sha256": "d7ff9a931c685bb2206ec95f4436acdf243370f74b53518da6d31aa5122310af",
+      "rows": 30
+    }
+  ]
+}

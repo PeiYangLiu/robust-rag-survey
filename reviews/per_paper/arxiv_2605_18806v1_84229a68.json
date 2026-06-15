@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.18806v1",
+  "title": "Towards FairRAG: Preventing Representational Harm in Retrieval-Augmented Generation by Enforcing Fair Exposure at Retrieval Time",
+  "authors": "Riddhi Tikoo",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18806v1",
+  "local_pdf": "pdfs/2026_riddhi_tikoo_towards_fairrag_preventing_representational_harm_in_retrieval_augmented_generation_by_en_84229a68.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses fairness/representational bias in RAG retrieval ranking, not robustness under unreliable evidence.",
+  "why_not_or_caveat": "Focus is demographic exposure fairness, outside the survey's scope on noise, conflict, adversaries, and calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:19.454925+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.18806v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Addresses fairness/representational bias in RAG retrieval ranking, not robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Focus is demographic exposure fairness, outside the survey's scope on noise, conflict, adversaries, and calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

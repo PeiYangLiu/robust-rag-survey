@@ -1,0 +1,26 @@
+{
+  "key": "acl-2023.emnlp-main.849",
+  "title": "[[<ins>arxiv</ins>](https://aclanthology.org/2023.emnlp-main.849/)] Poisoning Retrieval Corpora by Injecting Adversarial Passages",
+  "authors": "",
+  "year": "2023",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2023.emnlp-main.849/",
+  "local_pdf": "pdfs/2023_acl_2023_emnlp_main_849_ins_arxiv_ins_https_aclanthology_org_2023_emnlp_main_849_poisoning_retrieval_cor_356a3e1f.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a corpus poisoning attack on dense retrievers by injecting adversarial passages, directly relevant to adversarial corruption of retrieval in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption: retrieval poisoning",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.146794+00:00",
+  "raw_response": "{\n  \"key\": \"acl-2023.emnlp-main.849\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces a corpus poisoning attack on dense retrievers by injecting adversarial passages, directly relevant to adversarial corruption of retrieval in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial corruption: retrieval poisoning\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

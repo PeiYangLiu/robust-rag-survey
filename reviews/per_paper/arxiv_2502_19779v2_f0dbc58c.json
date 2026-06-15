@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2502.19779v2",
+  "title": "Do Retrieval-Augmented Language Models Adapt to Varying User Needs?",
+  "authors": "Peilin Wu; Xinlu Zhang; Wenhao Yu; Xingyu Liu; Xinya Du; Zhiyu Zoey Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.19779v2",
+  "local_pdf": "pdfs/2025_peilin_wu_do_retrieval_augmented_language_models_adapt_to_varying_user_needs_f0dbc58c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces an evaluation framework assessing RALMs across user-instruction modes (Context-Exclusive/First, Memory-First) under context matching, knowledge conflict, and irrelevant retrieval, directly addressing conflict resolution, instruction compliance, and robustness to noisy context.",
+  "why_not_or_caveat": "Focuses on user-need adaptation rather than novel defenses; adversarial coverage is limited to counterfactual context.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Evaluation Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.631866+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.19779v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\",\"calibration_control\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces an evaluation framework assessing RALMs across user-instruction modes (Context-Exclusive/First, Memory-First) under context matching, knowledge conflict, and irrelevant retrieval, directly addressing conflict resolution, instruction compliance, and robustness to noisy context.\",\"why_not_or_caveat\":\"Focuses on user-need adaptation rather than novel defenses; adversarial coverage is limited to counterfactual context.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict and Evaluation Benchmarks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

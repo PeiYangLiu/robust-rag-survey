@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.21745v2",
+  "title": "AI-Augmented Bibliometric Framework: A Paradigm Shift with Agentic AI for Dynamic, Snippet-Based Research Analysis",
+  "authors": "Adela Bara; Simona-Vasilica Oprea",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.21745v2",
+  "local_pdf": "pdfs/2025_adela_bara_ai_augmented_bibliometric_framework_a_paradigm_shift_with_agentic_ai_for_dynamic_snippet_0be1a3b5.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG as a component in a bibliometric analysis tool; does not study robustness, conflict, calibration, or attacks.",
+  "why_not_or_caveat": "Application paper unrelated to robust RAG concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.051226+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.21745v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG as a component in a bibliometric analysis tool; does not study robustness, conflict, calibration, or attacks.\",\"why_not_or_caveat\":\"Application paper unrelated to robust RAG concerns.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

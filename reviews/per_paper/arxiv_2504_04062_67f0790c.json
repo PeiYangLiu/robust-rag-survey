@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.04062",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2504.04062)\\] QE-RAG: A Robust Retrieval-Augmented Generation Benchmark for Query Entry Errors",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.04062",
+  "local_pdf": "pdfs/na_arxiv_2504_04062_arxiv_https_arxiv_org_abs_2504_04062_qe_rag_a_robust_retrieval_augmented_generat_67f0790c.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark evaluating RAG robustness to noisy/corrupted user queries (typos, keyboard/visual errors) and proposes a robust retriever and query correction method, directly relevant to robust RAG under unreliable inputs.",
+  "why_not_or_caveat": "Focuses on query-side noise rather than retrieved-evidence noise, which is a slightly different angle than most survey categories.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / robustness benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:34.617753+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.04062\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a benchmark evaluating RAG robustness to noisy/corrupted user queries (typos, keyboard/visual errors) and proposes a robust retriever and query correction method, directly relevant to robust RAG under unreliable inputs.\",\"why_not_or_caveat\":\"Focuses on query-side noise rather than retrieved-evidence noise, which is a slightly different angle than most survey categories.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval / robustness benchmarks\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

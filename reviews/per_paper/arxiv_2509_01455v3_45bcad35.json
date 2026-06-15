@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.01455v3",
+  "title": "Trusted Uncertainty in Large Language Models: A Unified Framework for Confidence Calibration and Risk-Controlled Refusal",
+  "authors": "Markus Oehri; Giulia Conti; Kaviraj Pather; Alexandre Rossi; Laia Serra; Adrian Parody; Rogvi Johannesen; Aviaja Petersen; Arben Krasniqi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.01455v3",
+  "local_pdf": "pdfs/2025_markus_oehri_trusted_uncertainty_in_large_language_models_a_unified_framework_for_confidence_calibrat_45bcad35.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a unified calibration and risk-controlled refusal framework that fuses retrieval compatibility and verifier signals into calibrated confidence with conformal guarantees, directly relevant to calibration, abstention, and uncertainty-driven control in RAG.",
+  "why_not_or_caveat": "Not RAG-specific; suspicious author affiliations and placeholder emails suggest possible low-quality/AI-generated paper—verify before citing.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (Abstention & Conformal Refusal)",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:39.769656+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.01455v3\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a unified calibration and risk-controlled refusal framework that fuses retrieval compatibility and verifier signals into calibrated confidence with conformal guarantees, directly relevant to calibration, abstention, and uncertainty-driven control in RAG.\",\"why_not_or_caveat\":\"Not RAG-specific; suspicious author affiliations and placeholder emails suggest possible low-quality/AI-generated paper—verify before citing.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control (Abstention & Conformal Refusal)\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

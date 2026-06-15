@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.10681v1",
+  "title": "Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems",
+  "authors": "Amir Khurshid; Abhishek Sehgal",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.10681v1",
+  "local_pdf": "pdfs/2026_amir_khurshid_structure_and_diversity_aware_context_bubble_construction_for_enterprise_retrieval_augme_9b64f9fa.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a diversity-aware, structure-informed context construction method to reduce redundancy in RAG context windows.",
+  "why_not_or_caveat": "Focuses on enterprise context assembly efficiency, not on robustness, noise, conflict, attacks, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:02.190734+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.10681v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a diversity-aware, structure-informed context construction method to reduce redundancy in RAG context windows.\",\"why_not_or_caveat\":\"Focuses on enterprise context assembly efficiency, not on robustness, noise, conflict, attacks, or calibration under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

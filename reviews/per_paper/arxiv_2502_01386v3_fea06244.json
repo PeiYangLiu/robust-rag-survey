@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.01386v3",
+  "title": "Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models",
+  "authors": "Yuyang Gong; Zhuo Chen; Jiawei Liu; Miaokun Chen; Fengchang Yu; Wei Lu; Xiaofeng Wang; Xiaozhong Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.01386v3",
+  "local_pdf": "pdfs/2025_yuyang_gong_topic_fliprag_topic_orientated_adversarial_opinion_manipulation_attacks_to_retrieval_aug_fea06244.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a topic-level opinion manipulation poisoning attack against RAG and evaluates existing defenses (perplexity, reranking, paraphrasing), directly relevant to adversarial corruption and defense robustness.",
+  "why_not_or_caveat": "Focused narrowly on opinion manipulation rather than general robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:39.828113+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.01386v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a topic-level opinion manipulation poisoning attack against RAG and evaluates existing defenses (perplexity, reranking, paraphrasing), directly relevant to adversarial corruption and defense robustness.\",\n  \"why_not_or_caveat\": \"Focused narrowly on opinion manipulation rather than general robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Poisoning Attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

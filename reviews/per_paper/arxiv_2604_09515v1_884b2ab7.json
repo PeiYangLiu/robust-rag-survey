@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.09515v1",
+  "title": "When LLMs Lag Behind: Knowledge Conflicts from Evolving APIs in Code Generation",
+  "authors": "Ahmed Nusayer Ashik; Shaowei Wang; Tse-Hsun Chen; Muhammad Asaduzzaman; Yuan Tian",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.09515v1",
+  "local_pdf": "pdfs/2026_ahmed_nusayer_ashik_when_llms_lag_behind_knowledge_conflicts_from_evolving_apis_in_code_generation_884b2ab7.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Empirically studies context-memory conflict in RAG settings where provided API documentation conflicts with stale parametric knowledge in code generation, and proposes a benchmark plus mitigations (CoT, self-reflection).",
+  "why_not_or_caveat": "Domain-specific (code/API evolution) rather than general RAG; narrower applicability.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:21.521239+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.09515v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Empirically studies context-memory conflict in RAG settings where provided API documentation conflicts with stale parametric knowledge in code generation, and proposes a benchmark plus mitigations (CoT, self-reflection).\",\n  \"why_not_or_caveat\": \"Domain-specific (code/API evolution) rather than general RAG; narrower applicability.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

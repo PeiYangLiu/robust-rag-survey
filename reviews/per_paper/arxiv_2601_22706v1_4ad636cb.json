@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.22706v1",
+  "title": "RealSec-bench: A Benchmark for Evaluating Secure Code Generation in Real-World Repositories",
+  "authors": "Yanlin Wang; Ziyao Zhang; Chong Wang; Xinyi Xu; Mingwei Liu; Yong Wang; Jiachi Chen; Zibin Zheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.22706v1",
+  "local_pdf": "pdfs/2026_yanlin_wang_realsec_bench_a_benchmark_for_evaluating_secure_code_generation_in_real_world_repositori_4ad636cb.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmark for secure code generation; mentions RAG only briefly as one tested enhancement, not studying RAG robustness.",
+  "why_not_or_caveat": "Not about RAG robustness, noise, conflict, or calibration; RAG is incidental.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:00.204614+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.22706v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Benchmark for secure code generation; mentions RAG only briefly as one tested enhancement, not studying RAG robustness.\",\"why_not_or_caveat\":\"Not about RAG robustness, noise, conflict, or calibration; RAG is incidental.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

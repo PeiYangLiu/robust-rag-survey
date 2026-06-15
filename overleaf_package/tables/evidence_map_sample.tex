@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.92}
+\begin{tabularx}{\linewidth}{p{0.13\linewidth}p{0.12\linewidth}p{0.16\linewidth}p{0.15\linewidth}p{0.16\linewidth}X}
+\toprule
+\textbf{Paper} & \textbf{Year} & \textbf{Failure / risk} & \textbf{Method family} & \textbf{Intervention} & \textbf{Boundary / note} \\
+\midrule
+PoisonedRAG & 2025 & adversarial corruption & attack & corpus / KB & Targeted knowledge corruption; stealth and long-term dynamics vary. \\
+RobustRAG & 2024 & adversarial corruption & defense & retriever / aggregation & Certification assumes bounded corruption. \\
+IrrelCtx & 2023 & retrieval noise / distraction & defense & context filtering & Does not model adaptive attackers. \\
+RAAT & 2024 & retrieval noise & training & generator & Requires deployment-like noisy training data. \\
+FaithfulRAG & 2025 & knowledge conflict & conflict modeling & generator & Depends on fact extraction and alignment. \\
+AstuteRAG & 2025 & imperfect retrieval + conflict & control / consolidation & system control & Relies on source-aware LLM self-assessment. \\
+Self-RAG & 2024 & retrieval need & adaptive retrieval & system control & Retrieval trigger calibration can shift. \\
+RGB & 2024 & multi-axis RAG failure & benchmark & evaluation & Not adversarially adaptive. \\
+RAGTruth & 2024 & hallucination / faithfulness & benchmark & evaluation & Strong word-level labels, less retrieval-threat focus. \\
+MTRAG-UN & 2026 & unanswerability & benchmark & system action & Multi-turn setting; security is secondary. \\
+\bottomrule
+\end{tabularx}
+\caption{Sample of the structured evidence map. The full CSV supplement contains title, authors, year, source, taxonomy categories, failure/risk type, method family, intervention point, benchmark/task, metrics, contribution, and limitation/note for the cited literature map.}
+\label{tab:evidence-map-sample}
+\end{table*}
+

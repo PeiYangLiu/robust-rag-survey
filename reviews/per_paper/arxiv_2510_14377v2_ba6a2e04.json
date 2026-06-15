@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.14377v2",
+  "title": "PluriHopRAG: Exhaustive, Recall-Sensitive QA Through Corpus-Specific Document Structure Learning",
+  "authors": "Mykolas Sveistrys; Richard Kunert",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.14377v2",
+  "local_pdf": "pdfs/2025_mykolas_sveistrys_plurihoprag_exhaustive_recall_sensitive_qa_through_corpus_specific_document_structure_le_ba6a2e04.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark and method explicitly targeting distractor-heavy, recall-sensitive retrieval over repetitive corpora, directly addressing distraction and noisy retrieval challenges in RAG.",
+  "why_not_or_caveat": "Focus is on exhaustive aggregation QA rather than core robustness topics like conflict, attacks, or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Retrieval Benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:15.504770+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.14377v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a benchmark and method explicitly targeting distractor-heavy, recall-sensitive retrieval over repetitive corpora, directly addressing distraction and noisy retrieval challenges in RAG.\",\"why_not_or_caveat\":\"Focus is on exhaustive aggregation QA rather than core robustness topics like conflict, attacks, or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and Noisy Retrieval Benchmarks\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

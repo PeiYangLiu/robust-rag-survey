@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2410.20142",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2410.20142)\\] Mask-based Membership Inference Attacks for Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "2014",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.20142",
+  "local_pdf": "pdfs/2014_arxiv_2410_20142_arxiv_https_arxiv_org_abs_2410_20142_mask_based_membership_inference_attacks_for_2c4b944c.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a membership inference attack against RAG knowledge databases, which relates to privacy/security threats on RAG systems but not to robustness under unreliable evidence per se.",
+  "why_not_or_caveat": "Focus is on privacy attacks (MIA), not on noise/distraction/conflict/calibration or defenses against poisoning.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial and privacy threats to RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.256008+00:00",
+  "raw_response": "{\"key\": \"arxiv-2410.20142\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"Proposes a membership inference attack against RAG knowledge databases, which relates to privacy/security threats on RAG systems but not to robustness under unreliable evidence per se.\", \"why_not_or_caveat\": \"Focus is on privacy attacks (MIA), not on noise/distraction/conflict/calibration or defenses against poisoning.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Adversarial and privacy threats to RAG\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

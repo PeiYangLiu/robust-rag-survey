@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.09541v1",
+  "title": "Trans-RAG: Query-Centric Vector Transformation for Secure Cross-Organizational Retrieval",
+  "authors": "Yu Liu; Kun Peng; Wenxiao Zhang; Fangfang Yuan; Cong Cao; Wenxuan Lu; Yanbing Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.09541v1",
+  "local_pdf": "pdfs/2026_yu_liu_trans_rag_query_centric_vector_transformation_for_secure_cross_organizational_retrieval_f6ed6834.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper addresses privacy-preserving cross-organizational retrieval via vector transformations, not robustness under unreliable evidence.",
+  "why_not_or_caveat": "Out of scope: focuses on confidentiality/encryption rather than noise, conflict, adversarial poisoning of evidence, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.470803+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.09541v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Paper addresses privacy-preserving cross-organizational retrieval via vector transformations, not robustness under unreliable evidence.\", \"why_not_or_caveat\": \"Out of scope: focuses on confidentiality/encryption rather than noise, conflict, adversarial poisoning of evidence, or calibration.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.16806v1",
+  "title": "Two-way Evidence self-Alignment based Dual-Gated Reasoning Enhancement",
+  "authors": "Kexin Zhang; Junlan Chen; Daifeng Li; Yuxuan Zhang; Yangyang Feng; Bowen Deng; Weixu Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.16806v1",
+  "local_pdf": "pdfs/2025_kexin_zhang_two_way_evidence_self_alignment_based_dual_gated_reasoning_enhancement_61d42b14.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a method to extract rationale evidence and fuse LLM intrinsic knowledge when retrieved evidence is noisy/uncertain, touching on noisy retrieval and knowledge integration robustness.",
+  "why_not_or_caveat": "Primary focus is multi-step reasoning accuracy rather than robustness analysis, calibration, or adversarial settings central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "noisy_retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:23.355386+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.16806v1\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a method to extract rationale evidence and fuse LLM intrinsic knowledge when retrieved evidence is noisy/uncertain, touching on noisy retrieval and knowledge integration robustness.\",\"why_not_or_caveat\":\"Primary focus is multi-step reasoning accuracy rather than robustness analysis, calibration, or adversarial settings central to the survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"noisy_retrieval\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

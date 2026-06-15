@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2408.03297v2",
+  "title": "KnowPO: Knowledge-aware Preference Optimization for Controllable Knowledge Selection in Retrieval-Augmented Language Models",
+  "authors": "Ruizhe Zhang; Yongxin Xu; Yuzhen Xiao; Runchuan Zhu; Xinke Jiang; Xu Chu; Junfeng Zhao; Yasha Wang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2408.03297v2",
+  "local_pdf": "pdfs/2024_ruizhe_zhang_knowpo_knowledge_aware_preference_optimization_for_controllable_knowledge_selection_in_r_c83ccf57.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a preference optimization approach for balancing adherence to retrieved context and robustness to noise under knowledge conflicts, directly addressing context vs parametric conflicts and noisy retrieval.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:24.865537+00:00",
+  "raw_response": "{\"key\":\"arxiv-2408.03297v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a preference optimization approach for balancing adherence to retrieved context and robustness to noise under knowledge conflicts, directly addressing context vs parametric conflicts and noisy retrieval.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

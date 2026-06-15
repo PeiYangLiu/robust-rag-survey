@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.18652v1",
+  "title": "UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation",
+  "authors": "Runpeng Geng; Yanting Wang; Ying Chen; Jinyuan Jia",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.18652v1",
+  "local_pdf": "pdfs/2025_runpeng_geng_unic_rag_universal_knowledge_corruption_attacks_to_retrieval_augmented_generation_6d4d1ebe.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a universal knowledge corruption (poisoning) attack against RAG, jointly optimizing adversarial texts to compromise thousands of diverse queries, and evaluates existing defenses, directly addressing adversarial robustness of RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.888501+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.18652v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a universal knowledge corruption (poisoning) attack against RAG, jointly optimizing adversarial texts to compromise thousands of diverse queries, and evaluates existing defenses, directly addressing adversarial robustness of RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

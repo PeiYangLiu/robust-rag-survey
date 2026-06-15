@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.28169v1",
+  "title": "FT-Pilot: Automated Fault-Tolerant RTL Rewriting via Vulnerability-Guided LLMs",
+  "authors": "Weixing Liu; Zizhen Liu; Jing Ye; Naixing Wang; Cheng Liu; Huawei Li; Xiaowei Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28169v1",
+  "local_pdf": "pdfs/2026_weixing_liu_ft_pilot_automated_fault_tolerant_rtl_rewriting_via_vulnerability_guided_llms_34bcf2a0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for RTL fault-tolerant code rewriting but does not study RAG robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Application of RAG in EDA; out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.654201+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.28169v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for RTL fault-tolerant code rewriting but does not study RAG robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Application of RAG in EDA; out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

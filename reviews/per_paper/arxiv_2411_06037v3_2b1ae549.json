@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2411.06037v3",
+  "title": "Sufficient Context: A New Lens on Retrieval Augmented Generation Systems",
+  "authors": "Hailey Joren; Jianyi Zhang; Chun-Sung Ferng; Da-Cheng Juan; Ankur Taly; Cyrus Rashtchian",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.06037v3",
+  "local_pdf": "pdfs/2024_hailey_joren_sufficient_context_a_new_lens_on_retrieval_augmented_generation_systems_2b1ae549.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Introduces 'sufficient context' as a lens to analyze RAG errors, stratifying hallucination vs abstention under insufficient evidence, and proposes a selective generation method for guided abstention—directly relevant to calibration, control, and unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Selective Generation / Abstention",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:42.818185+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2411.06037v3\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\", \"ood_uncertainty\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Introduces 'sufficient context' as a lens to analyze RAG errors, stratifying hallucination vs abstention under insufficient evidence, and proposes a selective generation method for guided abstention—directly relevant to calibration, control, and unreliable evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Calibration and Selective Generation / Abstention\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

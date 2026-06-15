@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.10748v1",
+  "title": "Benchmarking Large Language Models for Knowledge Graph Validation",
+  "authors": "Farzad Shami; Stefano Marchesin; Gianmaria Silvello",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.10748v1",
+  "local_pdf": "pdfs/2026_farzad_shami_benchmarking_large_language_models_for_knowledge_graph_validation_4f9fdb92.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks LLMs with RAG for KG fact validation, touching on RAG's inconsistent reliability and contextual bias issues.",
+  "why_not_or_caveat": "Focus is KG fact validation, not directly robustness/noise/conflict/adversarial issues in RAG; only tangentially relevant.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:42.928049+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.10748v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Benchmarks LLMs with RAG for KG fact validation, touching on RAG's inconsistent reliability and contextual bias issues.\", \"why_not_or_caveat\": \"Focus is KG fact validation, not directly robustness/noise/conflict/adversarial issues in RAG; only tangentially relevant.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and benchmarks\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

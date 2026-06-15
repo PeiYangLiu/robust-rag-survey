@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2411.01022v1",
+  "title": "Provenance: A Light-weight Fact-checker for Retrieval Augmented LLM Generation Output",
+  "authors": "Hithesh Sankararaman; Mohammed Nasheed Yasin; Tanner Sorensen; Alessandro Di Bari; Andreas Stolcke",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.01022v1",
+  "local_pdf": "pdfs/2024_hithesh_sankararaman_provenance_a_light_weight_fact_checker_for_retrieval_augmented_llm_generation_output_30cec053.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a lightweight NLI-based fact-checker for RAG outputs that detects unsupported claims and traces them to context chunks, relevant to post-hoc filtering/abstention and hallucination detection in RAG.",
+  "why_not_or_caveat": "Focuses on output verification rather than directly addressing noisy retrieval, conflict, or adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / post-hoc verification",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:28.622039+00:00",
+  "raw_response": "{\"key\":\"arxiv-2411.01022v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a lightweight NLI-based fact-checker for RAG outputs that detects unsupported claims and traces them to context chunks, relevant to post-hoc filtering/abstention and hallucination detection in RAG.\",\"why_not_or_caveat\":\"Focuses on output verification rather than directly addressing noisy retrieval, conflict, or adversarial robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and control / post-hoc verification\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,134 @@
+{
+  "rows": 148,
+  "fields": {
+    "primary_failure_type": {
+      "C02_vs_final": {
+        "n": 148,
+        "agreement": 0.7837837837837838,
+        "kappa": 0.7425667228352448
+      },
+      "C03_vs_final": {
+        "n": 148,
+        "agreement": 0.8986486486486487,
+        "kappa": 0.8740568446133773
+      },
+      "C02_vs_C03": {
+        "n": 148,
+        "agreement": 0.7635135135135135,
+        "kappa": 0.7190127474911852
+      }
+    },
+    "method_family": {
+      "C02_vs_final": {
+        "n": 148,
+        "agreement": 0.8783783783783784,
+        "kappa": 0.8184791496320524
+      },
+      "C03_vs_final": {
+        "n": 148,
+        "agreement": 0.9459459459459459,
+        "kappa": 0.9154708360105663
+      },
+      "C02_vs_C03": {
+        "n": 148,
+        "agreement": 0.8378378378378378,
+        "kappa": 0.7616107382550336
+      }
+    },
+    "intervention_point": {
+      "C02_vs_final": {
+        "n": 148,
+        "agreement": 0.8378378378378378,
+        "kappa": 0.8069040500135907
+      },
+      "C03_vs_final": {
+        "n": 148,
+        "agreement": 0.8851351351351351,
+        "kappa": 0.8632460050005435
+      },
+      "C02_vs_C03": {
+        "n": 148,
+        "agreement": 0.7702702702702703,
+        "kappa": 0.7239260437812036
+      }
+    },
+    "in_scope": {
+      "C02_vs_final": {
+        "n": 148,
+        "agreement": 0.9527027027027027,
+        "kappa": 0.9054054054054055
+      },
+      "C03_vs_final": {
+        "n": 148,
+        "agreement": 0.9324324324324325,
+        "kappa": 0.8648648648648649
+      },
+      "C02_vs_C03": {
+        "n": 148,
+        "agreement": 0.8851351351351351,
+        "kappa": 0.7690047741461622
+      }
+    },
+    "include_in_map": {
+      "C02_vs_final": {
+        "n": 148,
+        "agreement": 0.9527027027027027,
+        "kappa": 0.9054054054054055
+      },
+      "C03_vs_final": {
+        "n": 148,
+        "agreement": 0.9324324324324325,
+        "kappa": 0.8648648648648649
+      },
+      "C02_vs_C03": {
+        "n": 148,
+        "agreement": 0.8851351351351351,
+        "kappa": 0.7690047741461622
+      }
+    }
+  },
+  "final_counts": {
+    "primary_failure_type": {
+      "evaluation_benchmark": 19,
+      "noisy_retrieval": 38,
+      "calibration_control": 23,
+      "multimodal_agentic_code": 43,
+      "distraction": 5,
+      "survey_related": 4,
+      "knowledge_conflict": 11,
+      "ood_uncertainty": 2,
+      "adversarial_corruption": 3
+    },
+    "method_family": {
+      "benchmark/evaluation": 19,
+      "method/evaluation": 84,
+      "boundary": 1,
+      "control/calibration": 5,
+      "defense/mitigation": 27,
+      "foundation": 3,
+      "analysis": 5,
+      "survey background": 1,
+      "attack": 3
+    },
+    "intervention_point": {
+      "evaluation": 19,
+      "retriever/context": 32,
+      "context assembly": 19,
+      "system control": 15,
+      "mixed": 27,
+      "generator": 26,
+      "corpus/KB": 3,
+      "not applicable": 7
+    },
+    "in_scope": {
+      "true": 74,
+      "false": 74
+    },
+    "include_in_map": {
+      "true": 74,
+      "false": 74
+    }
+  },
+  "adjudicated_rows": 139,
+  "rows_changed_from_candidate_canonical": 125
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.02688v1",
+  "title": "Retrieval-Augmented Robots via Retrieve-Reason-Act",
+  "authors": "Izat Temiraliev; Diji Yang; Yi Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.02688v1",
+  "local_pdf": "pdfs/2026_izat_temiraliev_retrieval_augmented_robots_via_retrieve_reason_act_501bbf51.pdf",
+  "metadata_topics": "knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to robotic assembly planning; does not study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope: application of visual RAG to robotics with no robustness/unreliable-evidence analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:31.645851+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.02688v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to robotic assembly planning; does not study robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope: application of visual RAG to robotics with no robustness/unreliable-evidence analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

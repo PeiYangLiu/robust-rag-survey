@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.08668v3",
+  "title": "Retrieval Pivot Attacks in Hybrid RAG: Measuring and Mitigating Amplified Leakage from Vector Seeds to Graph Expansion",
+  "authors": "Scott Thornton",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.08668v3",
+  "local_pdf": "pdfs/2026_scott_thornton_retrieval_pivot_attacks_in_hybrid_rag_measuring_and_mitigating_amplified_leakage_from_ve_f9aa6a44.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a new attack surface (retrieval pivot attacks) in hybrid vector+graph RAG, with metrics for leakage and defenses, fitting the adversarial corruption and security aspects of robust RAG.",
+  "why_not_or_caveat": "Focuses on cross-tenant data leakage/access control rather than core robustness to noisy/conflicting evidence; somewhat niche to hybrid GraphRAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and retrieval attacks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:00.659158+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.08668v3\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces a new attack surface (retrieval pivot attacks) in hybrid vector+graph RAG, with metrics for leakage and defenses, fitting the adversarial corruption and security aspects of robust RAG.\",\n  \"why_not_or_caveat\": \"Focuses on cross-tenant data leakage/access control rather than core robustness to noisy/conflicting evidence; somewhat niche to hybrid GraphRAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and retrieval attacks\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

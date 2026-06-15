@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.04476v1",
+  "title": "LLM-R: A Framework for Domain-Adaptive Maintenance Scheme Generation Combining Hierarchical Agents and RAG",
+  "authors": "Laifa Tao; Qixuan Huang; Xianjun Wu; Weiwei Zhang; Yunlong Wu; Bin Li; Chen Lu; Xingshuo Hai",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.04476v1",
+  "local_pdf": "pdfs/2024_laifa_tao_llm_r_a_framework_for_domain_adaptive_maintenance_scheme_generation_combining_hierarchic_d79b3ca8.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG and agents to maintenance scheme generation; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Domain application paper; 'knowledge conflict' refers only to fine-tuning data mixing, not RAG conflict.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:11.377973+00:00",
+  "raw_response": "{\"key\":\"arxiv-2411.04476v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG and agents to maintenance scheme generation; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Domain application paper; 'knowledge conflict' refers only to fine-tuning data mixing, not RAG conflict.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

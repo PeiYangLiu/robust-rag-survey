@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.00054",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2506.00054)\\] Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.00054",
+  "local_pdf": "pdfs/na_arxiv_2506_00054_arxiv_https_arxiv_org_abs_2506_00054_retrieval_augmented_generation_a_comprehens_f25bc1f3.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A broad RAG survey that includes a robustness-oriented taxonomy covering noise, hallucination, and adversarial vulnerabilities, overlapping with our survey scope.",
+  "why_not_or_caveat": "General RAG survey, not focused exclusively on robustness; useful for positioning and related work comparison.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Related Surveys",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:27.037583+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.00054\",\n  \"relevance_score\": 4,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"A broad RAG survey that includes a robustness-oriented taxonomy covering noise, hallucination, and adversarial vulnerabilities, overlapping with our survey scope.\",\n  \"why_not_or_caveat\": \"General RAG survey, not focused exclusively on robustness; useful for positioning and related work comparison.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Related Surveys\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

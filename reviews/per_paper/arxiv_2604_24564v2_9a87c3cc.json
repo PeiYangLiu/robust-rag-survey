@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.24564v2",
+  "title": "MEG-RAG: Quantifying Multi-modal Evidence Grounding for Evidence Selection in RAG",
+  "authors": "Xihang Wang; Zihan Wang; Chengkai Huang; Quan Z. Sheng; Lina Yao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.24564v2",
+  "local_pdf": "pdfs/2026_xihang_wang_meg_rag_quantifying_multi_modal_evidence_grounding_for_evidence_selection_in_rag_9a87c3cc.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a reranker that filters retrieved multimodal evidence based on semantic contribution, indirectly addressing noisy/irrelevant retrieved documents in MRAG.",
+  "why_not_or_caveat": "Focuses on improving reranking quality rather than studying robustness, calibration, or adversarial conditions; only tangentially touches noise filtering.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / evidence selection",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.232346+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.24564v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a reranker that filters retrieved multimodal evidence based on semantic contribution, indirectly addressing noisy/irrelevant retrieved documents in MRAG.\",\"why_not_or_caveat\":\"Focuses on improving reranking quality rather than studying robustness, calibration, or adversarial conditions; only tangentially touches noise filtering.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval / evidence selection\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

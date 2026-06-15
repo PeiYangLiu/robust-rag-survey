@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.08862v1",
+  "title": "RAG Safety: Exploring Knowledge Poisoning Attacks to Retrieval-Augmented Generation",
+  "authors": "Tianzhe Zhao; Jiaoyan Chen; Yanchi Ru; Haiping Zhu; Nan Hu; Jun Liu; Qika Lin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.08862v1",
+  "local_pdf": "pdfs/2025_tianzhe_zhao_rag_safety_exploring_knowledge_poisoning_attacks_to_retrieval_augmented_generation_9b284056.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "First systematic study of data poisoning attacks on KG-based RAG, proposing a stealthy triple-insertion attack that creates misleading inference chains and analyzing robustness of LLMs to poisoned retrieval.",
+  "why_not_or_caveat": "Focused on KG-RAG rather than text-based RAG, so somewhat niche within adversarial RAG literature.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:26.890039+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.08862v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"knowledge_conflict\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"First systematic study of data poisoning attacks on KG-based RAG, proposing a stealthy triple-insertion attack that creates misleading inference chains and analyzing robustness of LLMs to poisoned retrieval.\",\n  \"why_not_or_caveat\": \"Focused on KG-RAG rather than text-based RAG, so somewhat niche within adversarial RAG literature.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Poisoning\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

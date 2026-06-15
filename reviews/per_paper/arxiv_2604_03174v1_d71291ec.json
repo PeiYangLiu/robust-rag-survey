@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.03174v1",
+  "title": "Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation",
+  "authors": "Prakhar Bansal; Shivangi Agarwal",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.03174v1",
+  "local_pdf": "pdfs/2026_prakhar_bansal_beyond_the_parameters_a_technical_survey_of_contextual_enrichment_in_large_language_mode_d71291ec.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "General survey of RAG/GraphRAG/CausalRAG paradigms touching faithfulness but not centered on robustness, noise, conflict, or adversarial issues.",
+  "why_not_or_caveat": "Broad taxonomy survey; does not specifically address unreliable evidence robustness.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.257952+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.03174v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"General survey of RAG/GraphRAG/CausalRAG paradigms touching faithfulness but not centered on robustness, noise, conflict, or adversarial issues.\",\"why_not_or_caveat\":\"Broad taxonomy survey; does not specifically address unreliable evidence robustness.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Related surveys\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

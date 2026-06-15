@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.17435v1",
+  "title": "BELIEF: Structured Evidence Modeling and Uncertainty-Aware Fusion for Biomedical Question Answering",
+  "authors": "Chang Zong; Hao Ning; Siliang Tang; Jie Huang; Jian Wan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17435v1",
+  "local_pdf": "pdfs/2026_chang_zong_belief_structured_evidence_modeling_and_uncertainty_aware_fusion_for_biomedical_question_cba68491.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "BELIEF explicitly addresses unreliable retrieved evidence in biomedical RAG by modeling evidence reliability, support strength, and residual uncertainty via Dempster-Shafer fusion with arbitration between symbolic and neural reasoning. Directly relevant to uncertainty-aware and calibration/control aspects of robust RAG.",
+  "why_not_or_caveat": "Domain-specific (biomedical, closed-set QA); not a general-purpose robustness framework.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty-Aware RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:55.829866+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.17435v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"BELIEF explicitly addresses unreliable retrieved evidence in biomedical RAG by modeling evidence reliability, support strength, and residual uncertainty via Dempster-Shafer fusion with arbitration between symbolic and neural reasoning. Directly relevant to uncertainty-aware and calibration/control aspects of robust RAG.\",\n  \"why_not_or_caveat\": \"Domain-specific (biomedical, closed-set QA); not a general-purpose robustness framework.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Uncertainty-Aware RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

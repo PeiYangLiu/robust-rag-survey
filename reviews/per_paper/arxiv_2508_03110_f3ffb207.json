@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.03110",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2508.03110)] Token-Level Precise Attack on RAG: Searching for the Best Alternatives to Mislead Generation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.03110",
+  "local_pdf": "pdfs/na_arxiv_2508_03110_ins_arxiv_ins_https_arxiv_org_abs_2508_03110_token_level_precise_attack_on_rag_s_f3ffb207.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a token-level attack on RAG that jointly targets retrieval and generation, injecting malicious passages into the knowledge base to mislead the reader. Directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Attack-only; no defense or calibration contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks on RAG",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:27.774640+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.03110\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a token-level attack on RAG that jointly targets retrieval and generation, injecting malicious passages into the knowledge base to mislead the reader. Directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"Attack-only; no defense or calibration contribution.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks on RAG\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

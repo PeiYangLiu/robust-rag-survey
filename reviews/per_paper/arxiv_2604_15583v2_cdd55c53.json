@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.15583v2",
+  "title": "SAGE: Selective Attention-Guided Extraction for Token-Efficient Document Indexing",
+  "authors": "Xinzhi Wang; Peter Baile Chen; Gerardo Vitagliano; Matthew Russo; Jun Chen; Michael Cafarella; Samuel Madden; Chunwei Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.15583v2",
+  "local_pdf": "pdfs/2026_xinzhi_wang_sage_selective_attention_guided_extraction_for_token_efficient_document_indexing_cdd55c53.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes attention-guided context reduction for long-document QA, tangentially related to filtering distracting content in RAG pipelines.",
+  "why_not_or_caveat": "Focus is token-efficient extraction, not robustness, conflict, adversarial, calibration, or uncertainty in RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:24.150674+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.15583v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes attention-guided context reduction for long-document QA, tangentially related to filtering distracting content in RAG pipelines.\",\"why_not_or_caveat\":\"Focus is token-efficient extraction, not robustness, conflict, adversarial, calibration, or uncertainty in RAG.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

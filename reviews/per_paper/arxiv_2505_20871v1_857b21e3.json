@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.20871v1",
+  "title": "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
+  "authors": "Xin Sun; Jianan Xie; Zhongqi Chen; Qiang Liu; Shu Wu; Yuehe Chen; Bowen Song; Weiqiang Wang; Zilei Wang; Liang Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.20871v1",
+  "local_pdf": "pdfs/2025_xin_sun_divide_then_align_honest_alignment_based_on_the_knowledge_boundary_of_rag_857b21e3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes DPO-based alignment for RAG to abstain ('I don't know') when queries fall outside both parametric and retrieval knowledge boundaries, directly addressing calibration, abstention, and noisy retrieval robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Control / Abstention",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.986326+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.20871v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes DPO-based alignment for RAG to abstain ('I don't know') when queries fall outside both parametric and retrieval knowledge boundaries, directly addressing calibration, abstention, and noisy retrieval robustness.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Calibration and Control / Abstention\",\"confidence\":0.92}",
+  "skipped_existing": false
+}

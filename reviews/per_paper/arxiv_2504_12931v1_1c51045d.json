@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.12931v1",
+  "title": "Explainable AI in Usable Privacy and Security: Challenges and Opportunities",
+  "authors": "Vincent Freiberger; Arthur Fleig; Erik Buchmann",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.12931v1",
+  "local_pdf": "pdfs/2025_vincent_freiberger_explainable_ai_in_usable_privacy_and_security_challenges_and_opportunities_1c51045d.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Position paper on explainability for LLM-as-a-judge in privacy policy assessment; mentions RAG only as a possible mitigation.",
+  "why_not_or_caveat": "Not focused on RAG robustness, conflict, attacks, or calibration in any technical sense.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.490791+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.12931v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Position paper on explainability for LLM-as-a-judge in privacy policy assessment; mentions RAG only as a possible mitigation.\",\"why_not_or_caveat\":\"Not focused on RAG robustness, conflict, attacks, or calibration in any technical sense.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.24276v4",
+  "title": "G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge",
+  "authors": "Linhao Luo; Zicheng Zhao; Junnan Liu; Zhangchi Qiu; Junnan Dong; Serge Panev; Chen Gong; Thuy-Trang Vu; Gholamreza Haffari; Dinh Phung; Alan Wee-Chung Liew; Shirui Pan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.24276v4",
+  "local_pdf": "pdfs/2025_linhao_luo_g_reasoner_foundation_models_for_unified_reasoning_over_graph_structured_knowledge_7b2fa2a7.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a graph foundation model for GraphRAG reasoning; not focused on robustness, noise, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Paper targets reasoning capability and generalization across graph structures, not unreliable evidence scenarios.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:18.153093+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.24276v4\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a graph foundation model for GraphRAG reasoning; not focused on robustness, noise, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Paper targets reasoning capability and generalization across graph structures, not unreliable evidence scenarios.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

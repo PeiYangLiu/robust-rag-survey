@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.17275v2",
+  "title": "On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains",
+  "authors": "Xun Xian; Ganghua Wang; Xuan Bi; Jayanth Srinivasa; Ashish Kundu; Charles Fleming; Mingyi Hong; Jie Ding",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.17275v2",
+  "local_pdf": "pdfs/2024_xun_xian_on_the_vulnerability_of_applying_retrieval_augmented_generation_within_knowledge_intensi_000084f0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes universal poisoning attacks against RAG retrieval systems and a detection-based defense, directly addressing adversarial corruption robustness in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.709115+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2409.17275v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes universal poisoning attacks against RAG retrieval systems and a detection-based defense, directly addressing adversarial corruption robustness in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning and Defenses\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

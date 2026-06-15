@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.05594v1",
+  "title": "The Cost of Context: Mitigating Textual Bias in Multimodal Retrieval-Augmented Generation",
+  "authors": "Hoin Jung; Xiaoqian Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05594v1",
+  "local_pdf": "pdfs/2026_hoin_jung_the_cost_of_context_mitigating_textual_bias_in_multimodal_retrieval_augmented_generation_92454b2b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Identifies 'recorruption' in multimodal RAG where even oracle context degrades correct predictions due to attention collapse and positional bias, and proposes an inference-time mitigation (BAIR). Directly relevant to distraction and context-vs-internal-knowledge conflict in RAG.",
+  "why_not_or_caveat": "Focused on multimodal (MLLM) setting rather than pure text RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Knowledge Conflict",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.508867+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.05594v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Identifies 'recorruption' in multimodal RAG where even oracle context degrades correct predictions due to attention collapse and positional bias, and proposes an inference-time mitigation (BAIR). Directly relevant to distraction and context-vs-internal-knowledge conflict in RAG.\",\n  \"why_not_or_caveat\": \"Focused on multimodal (MLLM) setting rather than pure text RAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and Knowledge Conflict\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

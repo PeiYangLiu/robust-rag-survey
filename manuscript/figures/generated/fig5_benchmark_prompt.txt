@@ -1,0 +1,49 @@
+Create a polished ACL 2026 survey figure as a high-resolution 16:9 landscape image, 3840x2160.
+
+Title: "Evaluation Landscape for Robust RAG Benchmarks"
+Subtitle: "Benchmarks differ by evidence risk and required system behavior"
+
+Visual style:
+- Clean vector academic infographic, white background, subtle grid, high contrast, publication-ready.
+- No fake citations, no authors, no URLs, no logos, no watermark.
+- Use exact text. All labels must be horizontal and legible.
+
+Main plot:
+- A 2D scatter / map with x-axis and y-axis.
+- x-axis label: "Evidence Risk: Benign Noise → Adversarial Corruption"
+- y-axis label: "Evaluation Target: Retrieval-Level → System-Action-Level"
+- Use four faint quadrant backgrounds:
+  lower-left: "Retrieval Noise"
+  upper-left: "Answerability & Calibration"
+  lower-right: "Attack / Defense"
+  upper-right: "End-to-End Robust Control"
+
+Place benchmark bubbles with short labels:
+- RGB: middle-left, around benign noise and generation ability
+- RAGTruth: upper-left, hallucination / faithfulness
+- MagicMushroom: lower-left, fine-grained retrieval noise
+- QueryRobust: lower-left, query perturbation
+- URAG: upper-left, uncertainty quantification
+- MTRAG-UN: upper-left, multi-turn unanswerability
+- PoisonArena: lower-right, adversarial poisoning
+- SafeRAG: lower-right, security benchmark
+- PoisonedRAG: lower-right, knowledge corruption attack
+- SURE-RAG: upper-middle, sufficiency and verification
+- RAG-QA Arena: middle-left, domain robustness
+- CRUMQs: upper-left, unanswerable multi-hop RAG
+
+Bubble styling:
+- Bubble size indicates benchmark breadth: small, medium, large.
+- Bubble color indicates focus:
+  blue = noise / retrieval
+  green = faithfulness / answerability
+  red = attack / security
+  purple = calibration / control
+- Add a compact legend for color and size.
+
+Bottom annotation:
+"Open gap: few benchmarks jointly cover noise, conflict, poisoning, uncertainty, and action quality."
+
+Strict typography:
+- Do not misspell benchmark names: RGB, RAGTruth, MagicMushroom, QueryRobust, URAG, MTRAG-UN, PoisonArena, SafeRAG, PoisonedRAG, SURE-RAG, RAG-QA Arena, CRUMQs.
+- Do not invent extra benchmark names.

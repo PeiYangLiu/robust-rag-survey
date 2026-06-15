@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.08137v1",
+  "title": "MuaLLM: A Multimodal Large Language Model Agent for Circuit Design Assistance with Hybrid Contextual Retrieval-Augmented Generation",
+  "authors": "Pravallika Abbineni; Saoud Aldowaish; Colin Liechty; Soroosh Noorzad; Ali Ghazizadeh; Morteza Fayazi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.08137v1",
+  "local_pdf": "pdfs/2025_pravallika_abbineni_muallm_a_multimodal_large_language_model_agent_for_circuit_design_assistance_with_hybrid_42b15845.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for circuit design; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:24.007697+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.08137v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for circuit design; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

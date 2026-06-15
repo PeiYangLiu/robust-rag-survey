@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.17765v1",
+  "title": "Grounded Multimodal Retrieval-Augmented Drafting of Radiology Impressions Using Case-Based Similarity Search",
+  "authors": "Himadri S Samanta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.17765v1",
+  "local_pdf": "pdfs/2026_himadri_s_samanta_grounded_multimodal_retrieval_augmented_drafting_of_radiology_impressions_using_case_bas_4425d8d2.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with confidence-based refusal and citation verification in a clinical radiology setting, touching on grounding and abstention.",
+  "why_not_or_caveat": "Primarily an application paper in radiology with limited methodological contribution to robust RAG; abstention is a simple similarity threshold.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.467309+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.17765v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Applies RAG with confidence-based refusal and citation verification in a clinical radiology setting, touching on grounding and abstention.\",\n  \"why_not_or_caveat\": \"Primarily an application paper in radiology with limited methodological contribution to robust RAG; abstention is a simple similarity threshold.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

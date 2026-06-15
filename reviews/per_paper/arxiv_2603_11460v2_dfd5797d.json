@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.11460v2",
+  "title": "Follow the Saliency: Supervised Saliency for Retrieval-augmented Dense Video Captioning",
+  "authors": "Seung hee Choi; MinJu Jeon; Hyunwoo Oh; Jihwan Lee; Dong-Jin Kim",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.11460v2",
+  "local_pdf": "pdfs/2026_seung_hee_choi_follow_the_saliency_supervised_saliency_for_retrieval_augmented_dense_video_captioning_dfd5797d.pdf",
+  "metadata_topics": "evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of retrieval-augmented methods to dense video captioning; does not study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope for robust RAG survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:30.648015+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.11460v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of retrieval-augmented methods to dense video captioning; does not study robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope for robust RAG survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

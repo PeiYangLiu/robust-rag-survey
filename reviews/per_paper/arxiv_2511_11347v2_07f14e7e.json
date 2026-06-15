@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.11347v2",
+  "title": "Privacy Challenges and Solutions in Retrieval-Augmented Generation-Enhanced LLMs for Healthcare Chatbots: A Review of Applications, Risks, and Future Directions",
+  "authors": "Shaowei Guan; Hin Chi Kwok; Ngai Fong Law; Gregor Stiglic; Harry Qin; Vivian Hui",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.11347v2",
+  "local_pdf": "pdfs/2025_shaowei_guan_privacy_challenges_and_solutions_in_retrieval_augmented_generation_enhanced_llms_for_hea_07f14e7e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related",
+    "adversarial_corruption"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Reviews privacy risks and attacks (prompt injection, embedding inversion, membership inference, backdoors) in healthcare RAG, tangentially related to adversarial corruption.",
+  "why_not_or_caveat": "Focus is privacy in healthcare RAG, not robustness under unreliable evidence, conflict, calibration, or noisy retrieval.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / related surveys",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:14.412419+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.11347v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\",\"adversarial_corruption\"],\"paper_role\":\"survey\",\"why_relevant\":\"Reviews privacy risks and attacks (prompt injection, embedding inversion, membership inference, backdoors) in healthcare RAG, tangentially related to adversarial corruption.\",\"why_not_or_caveat\":\"Focus is privacy in healthcare RAG, not robustness under unreliable evidence, conflict, calibration, or noisy retrieval.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption / related surveys\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

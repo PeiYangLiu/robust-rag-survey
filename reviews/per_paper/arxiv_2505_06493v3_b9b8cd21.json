@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.06493v3",
+  "title": "System Prompt Poisoning: Persistent Attacks on Large Language Models Beyond User Injection",
+  "authors": "Zongze Li; Jiawei Guo; Haipeng Cai",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.06493v3",
+  "local_pdf": "pdfs/2025_zongze_li_system_prompt_poisoning_persistent_attacks_on_large_language_models_beyond_user_injectio_b9b8cd21.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces system prompt poisoning and notes it weakens RAG effectiveness, tangentially relevant to adversarial attacks on LLM-integrated systems.",
+  "why_not_or_caveat": "Focus is on system prompt poisoning generally, not on RAG corpus poisoning or retrieval-time attacks; RAG is only briefly mentioned.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:18.473213+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.06493v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces system prompt poisoning and notes it weakens RAG effectiveness, tangentially relevant to adversarial attacks on LLM-integrated systems.\",\n  \"why_not_or_caveat\": \"Focus is on system prompt poisoning generally, not on RAG corpus poisoning or retrieval-time attacks; RAG is only briefly mentioned.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial corruption\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

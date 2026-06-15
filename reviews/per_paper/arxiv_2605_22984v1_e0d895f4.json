@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.22984v1",
+  "title": "Test-Time Training Undermines Safety Guardrails",
+  "authors": "Simone Antonelli; Sadegh Akhondzadeh; Aleksandar Bojchevski",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.22984v1",
+  "local_pdf": "pdfs/2026_simone_antonelli_test_time_training_undermines_safety_guardrails_e0d895f4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies jailbreak attacks via test-time training, mentioning RAG only tangentially as a TTT use case.",
+  "why_not_or_caveat": "Focus is on safety alignment under weight adaptation, not retrieval robustness or unreliable evidence in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.320913+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.22984v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Studies jailbreak attacks via test-time training, mentioning RAG only tangentially as a TTT use case.\",\"why_not_or_caveat\":\"Focus is on safety alignment under weight adaptation, not retrieval robustness or unreliable evidence in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

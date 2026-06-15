@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.06211v2",
+  "title": "Illocutionary Explanation Planning for Source-Faithful Explanations in Retrieval-Augmented Language Models",
+  "authors": "Francesco Sovrano; Alberto Bacchelli",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.06211v2",
+  "local_pdf": "pdfs/2026_francesco_sovrano_illocutionary_explanation_planning_for_source_faithful_explanations_in_retrieval_augment_354cbba6.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Studies source faithfulness/adherence in RAG, tangentially relating to parametric-vs-retrieved knowledge conflict and grounding evaluation.",
+  "why_not_or_caveat": "Focus is on explanation traceability in programming education, not on robustness under unreliable evidence, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Context compliance and grounding",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:02.687656+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.06211v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Studies source faithfulness/adherence in RAG, tangentially relating to parametric-vs-retrieved knowledge conflict and grounding evaluation.\",\n  \"why_not_or_caveat\": \"Focus is on explanation traceability in programming education, not on robustness under unreliable evidence, attacks, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Context compliance and grounding\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.18433v1",
+  "title": "Prompt Control-Flow Integrity: A Priority-Aware Runtime Defense Against Prompt Injection in LLM Systems",
+  "authors": "Md Takrim Ul Alam; Akif Islam; Mohd Ruhul Ameen; Abu Saleh Musa Miah; Jungpil Shin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.18433v1",
+  "local_pdf": "pdfs/2026_md_takrim_ul_alam_prompt_control_flow_integrity_a_priority_aware_runtime_defense_against_prompt_injection_c1375b90.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a runtime middleware defense against prompt injection attacks, including indirect injection via RAG retrieved documents, enforcing priority among system/developer/user/retrieved segments.",
+  "why_not_or_caveat": "Evaluated on a small custom synthetic benchmark; defense is generic to LLM APIs rather than RAG-specific, and claims (100% interception, 0% FPR) are limited in scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: defenses against indirect prompt injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:59.941371+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.18433v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a runtime middleware defense against prompt injection attacks, including indirect injection via RAG retrieved documents, enforcing priority among system/developer/user/retrieved segments.\",\n  \"why_not_or_caveat\": \"Evaluated on a small custom synthetic benchmark; defense is generic to LLM APIs rather than RAG-specific, and claims (100% interception, 0% FPR) are limited in scope.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: defenses against indirect prompt injection\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

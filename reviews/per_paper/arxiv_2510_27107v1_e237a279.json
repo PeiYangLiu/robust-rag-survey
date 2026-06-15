@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.27107v1",
+  "title": "A Memory-Efficient Retrieval Architecture for RAG-Enabled Wearable Medical LLMs-Agents",
+  "authors": "Zhipeng Liao; Kunming Shao; Jiangnan Yu; Liang Zhao; Tim Kwang-Ting Cheng; Chi-Ying Tsui; Jie Yang; Mohamad Sawan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.27107v1",
+  "local_pdf": "pdfs/2025_zhipeng_liao_a_memory_efficient_retrieval_architecture_for_rag_enabled_wearable_medical_llms_agents_e237a279.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "Hardware architecture for energy-efficient RAG retrieval on edge devices; not about robustness, conflict, noise, or calibration.",
+  "why_not_or_caveat": "Out of scope: focuses on memory/energy efficiency of retrieval hardware.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:23.792456+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.27107v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"Hardware architecture for energy-efficient RAG retrieval on edge devices; not about robustness, conflict, noise, or calibration.\",\"why_not_or_caveat\":\"Out of scope: focuses on memory/energy efficiency of retrieval hardware.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

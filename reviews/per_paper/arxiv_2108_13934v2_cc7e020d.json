@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2108.13934v2",
+  "title": "Robust Retrieval Augmented Generation for Zero-shot Slot Filling",
+  "authors": "Michael Glass; Gaetano Rossiello; Md Faisal Mahbub Chowdhury; Alfio Gliozzo",
+  "year": "2021",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2108.13934v2",
+  "local_pdf": "pdfs/2021_michael_glass_robust_retrieval_augmented_generation_for_zero_shot_slot_filling_cc7e020d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Uses hard-negative mining to improve DPR+RAG for slot filling, touching on retrieval robustness, but primarily an application/method paper not focused on robustness under unreliable evidence.",
+  "why_not_or_caveat": "Robustness here refers to domain adaptation and retrieval quality, not noise/conflict/adversarial issues central to this survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "noisy_retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:26.170573+00:00",
+  "raw_response": "{\"key\":\"arxiv-2108.13934v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Uses hard-negative mining to improve DPR+RAG for slot filling, touching on retrieval robustness, but primarily an application/method paper not focused on robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Robustness here refers to domain adaptation and retrieval quality, not noise/conflict/adversarial issues central to this survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"noisy_retrieval\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

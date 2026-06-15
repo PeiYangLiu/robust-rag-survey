@@ -1,0 +1,26 @@
+{
+  "key": "openreview-Swy0XEqJdA",
+  "title": "[[<ins>arxiv</ins>](https://openreview.net/forum?id=Swy0XEqJdA)] Signature-Guided Adversarial Attacks On Healthcare LLMs: Exposing PII Leakage In RAG Systems",
+  "authors": "",
+  "year": "",
+  "source": "OpenReview",
+  "url": "https://openreview.net/forum?id=Swy0XEqJdA",
+  "local_pdf": "pdfs/na_openreview_swy0xeqjda_ins_arxiv_ins_https_openreview_net_forum_id_swy0xeqjda_signature_guided_adversar_1ddfa0d6.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a signature-guided adversarial prompting attack against RAG-based healthcare agents to extract PII, exposing privacy vulnerabilities in retrieval-augmented systems.",
+  "why_not_or_caveat": "Focuses narrowly on PII leakage in medical RAG rather than general robustness; domain-specific.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and attacks on RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:27.011348+00:00",
+  "raw_response": "{\n  \"key\": \"openreview-Swy0XEqJdA\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a signature-guided adversarial prompting attack against RAG-based healthcare agents to extract PII, exposing privacy vulnerabilities in retrieval-augmented systems.\",\n  \"why_not_or_caveat\": \"Focuses narrowly on PII leakage in medical RAG rather than general robustness; domain-specific.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and attacks on RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

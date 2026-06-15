@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.21330v1",
+  "title": "LLM Robustness Against Misinformation in Biomedical Question Answering",
+  "authors": "Alexander Bondarenko; Adrian Viehweger",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.21330v1",
+  "local_pdf": "pdfs/2024_alexander_bondarenko_llm_robustness_against_misinformation_in_biomedical_question_answering_0dba8418.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates LLM robustness in RAG against prompt-injection of misinformation in the biomedical domain, using ASR and accuracy drop metrics across multiple models.",
+  "why_not_or_caveat": "Domain-specific (biomedical) and limited methodological novelty; focuses only on augmented generation, not retrieval.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / misinformation in RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:54.364194+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.21330v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Evaluates LLM robustness in RAG against prompt-injection of misinformation in the biomedical domain, using ASR and accuracy drop metrics across multiple models.\",\n  \"why_not_or_caveat\": \"Domain-specific (biomedical) and limited methodological novelty; focuses only on augmented generation, not retrieval.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption / misinformation in RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

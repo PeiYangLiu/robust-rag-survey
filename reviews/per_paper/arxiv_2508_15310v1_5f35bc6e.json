@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.15310v1",
+  "title": "IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents",
+  "authors": "Hengyu An; Jinghuai Zhang; Tianyu Du; Chunyi Zhou; Qingming Li; Tao Lin; Shouling Ji",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.15310v1",
+  "local_pdf": "pdfs/2025_hengyu_an_ipiguard_a_novel_tool_dependency_graph_based_defense_against_indirect_prompt_injection_i_5f35bc6e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Defends LLM agents against indirect prompt injection via tool dependency graph, related to adversarial threats but focused on agent tool-use rather than RAG retrieval.",
+  "why_not_or_caveat": "Not about retrieval-augmented generation specifically; targets agent tool invocation pipelines.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / prompt injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:34.938815+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.15310v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Defends LLM agents against indirect prompt injection via tool dependency graph, related to adversarial threats but focused on agent tool-use rather than RAG retrieval.\",\"why_not_or_caveat\":\"Not about retrieval-augmented generation specifically; targets agent tool invocation pipelines.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption / prompt injection\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

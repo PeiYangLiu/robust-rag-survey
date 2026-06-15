@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.11666v1",
+  "title": "PhyNiKCE: A Neurosymbolic Agentic Framework for Autonomous Computational Fluid Dynamics",
+  "authors": "E Fan; Lisong Shi; Zhengtong Li; Chih-yung Wen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.11666v1",
+  "local_pdf": "pdfs/2026_e_fan_phynikce_a_neurosymbolic_agentic_framework_for_autonomous_computational_fluid_dynamics_09cfd604.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions 'context poisoning' in RAG and proposes deterministic RAG to enforce constraints, but is a CFD-specific application rather than a study of RAG robustness.",
+  "why_not_or_caveat": "Domain-specific CFD automation; robustness framing is incidental and not generalizable contribution to RAG reliability literature.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.095022+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.11666v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Mentions 'context poisoning' in RAG and proposes deterministic RAG to enforce constraints, but is a CFD-specific application rather than a study of RAG robustness.\",\"why_not_or_caveat\":\"Domain-specific CFD automation; robustness framing is incidental and not generalizable contribution to RAG reliability literature.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

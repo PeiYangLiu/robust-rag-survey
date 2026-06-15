@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21845v1",
+  "title": "A Comprehensive Evaluation of Transformer-Based Question Answering Models and RAG-Enhanced Design",
+  "authors": "Zichen Zhang; Kunlong Zhang; Hongwei Ruan; Yiming Luo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21845v1",
+  "local_pdf": "pdfs/2025_zichen_zhang_a_comprehensive_evaluation_of_transformer_based_question_answering_models_and_rag_enhanc_92056872.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Evaluates retrieval strategies for multi-hop QA in RAG; mentions distractor handling but does not centrally study robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Focus is on retrieval method comparison for accuracy, not on robustness to unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:23.282153+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.21845v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Evaluates retrieval strategies for multi-hop QA in RAG; mentions distractor handling but does not centrally study robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Focus is on retrieval method comparison for accuracy, not on robustness to unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.17176v1",
+  "title": "Towards Unsupervised Adversarial Document Detection in Retrieval Augmented Generation Systems",
+  "authors": "Patrick Levi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.17176v1",
+  "local_pdf": "pdfs/2026_patrick_levi_towards_unsupervised_adversarial_document_detection_in_retrieval_augmented_generation_sy_5b757e32.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "ood_uncertainty"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes an unsupervised detector for adversarial/poisoned context documents in RAG using activations, embeddings, and entropy-based uncertainty, directly addressing defense against retrieval poisoning.",
+  "why_not_or_caveat": "Preliminary study with limited scale (100 HotpotQA questions, simple Grubb's test).",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: defenses and detection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:25.369193+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.17176v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"ood_uncertainty\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes an unsupervised detector for adversarial/poisoned context documents in RAG using activations, embeddings, and entropy-based uncertainty, directly addressing defense against retrieval poisoning.\",\n  \"why_not_or_caveat\": \"Preliminary study with limited scale (100 HotpotQA questions, simple Grubb's test).\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: defenses and detection\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.06997v1",
+  "title": "ChunQiuTR: Time-Keyed Temporal Retrieval in Classical Chinese Annals",
+  "authors": "Yihao Wang; Zijian He; Jie Ren; Keze Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.06997v1",
+  "local_pdf": "pdfs/2026_yihao_wang_chunqiutr_time_keyed_temporal_retrieval_in_classical_chinese_annals_e7e12ee2.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a time-keyed retrieval benchmark with chrono-near confounders for historical RAG, tangentially related to noisy retrieval evaluation.",
+  "why_not_or_caveat": "Focused on temporal retrieval in Classical Chinese annals; does not directly study robustness, conflict, attacks, or calibration in the survey's sense.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:35.905843+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.06997v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Proposes a time-keyed retrieval benchmark with chrono-near confounders for historical RAG, tangentially related to noisy retrieval evaluation.\", \"why_not_or_caveat\": \"Focused on temporal retrieval in Classical Chinese annals; does not directly study robustness, conflict, attacks, or calibration in the survey's sense.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

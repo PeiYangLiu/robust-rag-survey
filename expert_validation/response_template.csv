@@ -1,0 +1,2 @@
+participant_id,condition,pair_id,verdict,confidence_1_5,decision_time_seconds,usefulness_1_5,failure_type,evidence_assumption,intervention_point,metric_target,action_policy,breaking_coordinates,rationale,error_type,rationale_quality_1_5
+example_participant,protocol,P01,partial,4,180,4,relevance/noise,benign retrieval error,generator vs training,answer robustness,unreported,intervention;metric;action,"The papers both study noise but intervene at different points and do not share an explicit action policy.",intervention_mismatch,4

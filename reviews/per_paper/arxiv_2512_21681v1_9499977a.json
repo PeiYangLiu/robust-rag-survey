@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.21681v1",
+  "title": "Exploring the Security Threats of Retriever Backdoors in Retrieval-Augmented Code Generation",
+  "authors": "Tian Li; Bo Lin; Shangwen Wang; Yusong Tan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.21681v1",
+  "local_pdf": "pdfs/2025_tian_li_exploring_the_security_threats_of_retriever_backdoors_in_retrieval_augmented_code_genera_9499977a.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a stealthy backdoor attack on the retriever component in retrieval-augmented code generation, demonstrating a new supply-chain threat vector against RAG and evading existing defenses.",
+  "why_not_or_caveat": "Domain-specific to code generation, but the retriever-backdoor threat model is broadly relevant to RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Retrieval Attacks and Backdoors",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:36.016993+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.21681v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"Proposes a stealthy backdoor attack on the retriever component in retrieval-augmented code generation, demonstrating a new supply-chain threat vector against RAG and evading existing defenses.\", \"why_not_or_caveat\": \"Domain-specific to code generation, but the retriever-backdoor threat model is broadly relevant to RAG robustness.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption: Retrieval Attacks and Backdoors\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

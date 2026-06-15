@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.17281v2",
+  "title": "Search Wisely: Mitigating Sub-optimal Agentic Searches By Reducing Uncertainty",
+  "authors": "Peilin Wu; Mian Zhang; Xinlu Zhang; Xinya Du; Zhiyu Zoey Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.17281v2",
+  "local_pdf": "pdfs/2025_peilin_wu_search_wisely_mitigating_sub_optimal_agentic_searches_by_reducing_uncertainty_c2b31443.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Studies when an agentic RAG system should retrieve vs. rely on parametric knowledge, linking sub-optimal search to uncertainty about knowledge boundaries, and proposes an RL method (β-GRPO) using confidence thresholds to control retrieval decisions.",
+  "why_not_or_caveat": "Focuses on agentic search efficiency rather than handling noisy/adversarial evidence directly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:13.004561+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.17281v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Studies when an agentic RAG system should retrieve vs. rely on parametric knowledge, linking sub-optimal search to uncertainty about knowledge boundaries, and proposes an RL method (β-GRPO) using confidence thresholds to control retrieval decisions.\",\n  \"why_not_or_caveat\": \"Focuses on agentic search efficiency rather than handling noisy/adversarial evidence directly.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2405.00175v1",
+  "title": "Towards a Search Engine for Machines: Unified Ranking for Multiple Retrieval-Augmented Large Language Models",
+  "authors": "Alireza Salemi; Hamed Zamani",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.00175v1",
+  "local_pdf": "pdfs/2024_alireza_salemi_towards_a_search_engine_for_machines_unified_ranking_for_multiple_retrieval_augmented_la_d93f7e46.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a unified retrieval/reranking framework serving multiple RAG systems; not focused on robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Out of scope: addresses multi-task retrieval optimization rather than unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:25.908696+00:00",
+  "raw_response": "{\"key\":\"arxiv-2405.00175v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a unified retrieval/reranking framework serving multiple RAG systems; not focused on robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Out of scope: addresses multi-task retrieval optimization rather than unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

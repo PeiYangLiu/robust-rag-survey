@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.22629v1",
+  "title": "DICE: Discrete Interpretable Comparative Evaluation with Probabilistic Scoring for Retrieval-Augmented Generation",
+  "authors": "Shiyan Liu; Jian Ma; Rui Qu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.22629v1",
+  "local_pdf": "pdfs/2025_shiyan_liu_dice_discrete_interpretable_comparative_evaluation_with_probabilistic_scoring_for_retrie_87d6e239.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a pairwise LLM-judge evaluation framework for RAG with probabilistic confidence-aware scoring, tangentially relevant to RAG evaluation methodology.",
+  "why_not_or_caveat": "Focuses on comparative system ranking and explainability rather than robustness under noisy/conflicting/adversarial evidence; limited scope (Chinese financial QA, 70 QA pairs).",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:39.440720+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.22629v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a pairwise LLM-judge evaluation framework for RAG with probabilistic confidence-aware scoring, tangentially relevant to RAG evaluation methodology.\", \"why_not_or_caveat\": \"Focuses on comparative system ranking and explainability rather than robustness under noisy/conflicting/adversarial evidence; limited scope (Chinese financial QA, 70 QA pairs).\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and Metrics\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

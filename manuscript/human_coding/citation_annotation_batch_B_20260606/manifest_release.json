@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-06-06T06:25:50Z",
+  "status": "completed_source_blind_human_citation_annotation",
+  "n_rows": 300,
+  "n_annotators": 1,
+  "decision_counts": {
+    "exclude": 28,
+    "background_only": 22,
+    "main_cite": 115,
+    "appendix_cite": 110,
+    "case_study": 25
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "rows": null,
+      "sha256": "ded817aed1865cae58b23126dfc707aa963b78782c0f5aa4ea2b4615c4e78a57"
+    },
+    {
+      "path": "citation_annotations.csv",
+      "rows": 300,
+      "sha256": "d58be2bc2675bc02cd31c5723a6c3a668228f408b13ace7426a120539dc0ed55"
+    },
+    {
+      "path": "citation_annotations.jsonl",
+      "rows": null,
+      "sha256": "cdaf4b1c8c5da5c34db1ba263bceedcb0b8c9afc9c8420ba847cbd00b6740376"
+    },
+    {
+      "path": "human_citation_batch_B_main_cites.csv",
+      "rows": 115,
+      "sha256": "0a751bbbb111fbcdb520c6424df6b22fdfa6fb8bb9624196342f70776c17c1fa"
+    },
+    {
+      "path": "human_citation_batch_B_perspective_summary.csv",
+      "rows": 18,
+      "sha256": "59bf2014b143b840123b664fa46124901e3aefba84a6e3cccfd8a6f1bf20445f"
+    },
+    {
+      "path": "human_citation_batch_B_recommended.csv",
+      "rows": 250,
+      "sha256": "785084d8d12fcbf26f89e6bd21855a514722b743c527274211a0b71466d3226d"
+    },
+    {
+      "path": "human_citation_batch_B_summary.json",
+      "rows": null,
+      "sha256": "97a3265e7d11f5939b432900f02bc87e3912e83175f604882c1ad53e5f07aefc"
+    },
+    {
+      "path": "human_citation_batch_B_summary.md",
+      "rows": null,
+      "sha256": "16d60ad3f93539ab09e79afcc13084e2477cd7a0ac6fdbd80e0a7fa3540a8fa2"
+    },
+    {
+      "path": "manifest.json",
+      "rows": null,
+      "sha256": "b76a32cb9b65b5cecda393963df99a4b342523b935f5bf77a5c16f6a254547e8"
+    }
+  ]
+}

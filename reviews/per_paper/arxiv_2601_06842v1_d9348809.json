@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.06842v1",
+  "title": "Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation",
+  "authors": "Hua Ye; Siyuan Chen; Ziqi Zhong; Canran Xiao; Haoliang Zhang; Yuhan Wu; Fei Shen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.06842v1",
+  "local_pdf": "pdfs/2026_hua_ye_seeing_through_the_conflict_transparent_knowledge_conflict_handling_in_retrieval_augment_d9348809.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a framework for detecting and resolving context-memory conflicts in RAG via interpretable signals (semantic match, factual consistency, self-answerability), directly addressing knowledge conflict and confidence-aware control.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict Resolution",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:43.224428+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.06842v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a framework for detecting and resolving context-memory conflicts in RAG via interpretable signals (semantic match, factual consistency, self-answerability), directly addressing knowledge conflict and confidence-aware control.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict Resolution\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

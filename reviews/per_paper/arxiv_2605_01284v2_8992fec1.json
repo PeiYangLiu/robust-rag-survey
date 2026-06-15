@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.01284v2",
+  "title": "Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation",
+  "authors": "Peiyang Liu; Ziqiang Cui; Xi Wang; Di Liang; Wei Ye",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01284v2",
+  "local_pdf": "pdfs/2026_peiyang_liu_chain_of_evidence_pixel_level_visual_attribution_for_iterative_retrieval_augmented_gener_8992fec1.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a visual attribution framework for iterative RAG, focused on pixel-level evidence localization rather than robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Not about robustness under unreliable evidence; addresses interpretability/attribution in multimodal iRAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:54.583938+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.01284v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a visual attribution framework for iterative RAG, focused on pixel-level evidence localization rather than robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Not about robustness under unreliable evidence; addresses interpretability/attribution in multimodal iRAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

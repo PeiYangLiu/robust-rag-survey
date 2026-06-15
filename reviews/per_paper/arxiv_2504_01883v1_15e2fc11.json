@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.01883v1",
+  "title": "CoRAG: Collaborative Retrieval-Augmented Generation",
+  "authors": "Aashiq Muhamed; Mona Diab; Virginia Smith",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.01883v1",
+  "local_pdf": "pdfs/2025_aashiq_muhamed_corag_collaborative_retrieval_augmented_generation_15e2fc11.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Analyzes how relevant, irrelevant, and hard-negative passages in a shared store affect RAG performance, touching on noisy retrieval considerations in collaborative settings.",
+  "why_not_or_caveat": "Primary focus is collaborative/federated RAG training, not robustness under unreliable evidence; passage composition analysis is secondary.",
+  "recommended_use": "background_only",
+  "suggested_section": "noisy_retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:48.795021+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.01883v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Analyzes how relevant, irrelevant, and hard-negative passages in a shared store affect RAG performance, touching on noisy retrieval considerations in collaborative settings.\",\n  \"why_not_or_caveat\": \"Primary focus is collaborative/federated RAG training, not robustness under unreliable evidence; passage composition analysis is secondary.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"noisy_retrieval\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

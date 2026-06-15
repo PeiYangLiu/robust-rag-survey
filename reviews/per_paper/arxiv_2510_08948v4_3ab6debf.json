@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.08948v4",
+  "title": "SHERLOCK: Towards Dynamic Knowledge Adaptation in LLM-enhanced E-commerce Risk Management",
+  "authors": "Nan Lu; Yurong Hu; Jiaquan Fang; Yan Liu; Rui Dong; Yiming Wang; Rui Lin; Shaoyi Xu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.08948v4",
+  "local_pdf": "pdfs/2025_nan_lu_sherlock_towards_dynamic_knowledge_adaptation_in_llm_enhanced_e_commerce_risk_management_3ab6debf.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Industrial RAG application for e-commerce fraud investigation; uses a reflect-and-refine RAG and KB updates but does not study robustness, conflict, noise, or calibration in a generalizable way.",
+  "why_not_or_caveat": "Application paper, not focused on robustness/adversarial RAG analysis or benchmarking.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:11.883531+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.08948v4\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Industrial RAG application for e-commerce fraud investigation; uses a reflect-and-refine RAG and KB updates but does not study robustness, conflict, noise, or calibration in a generalizable way.\",\"why_not_or_caveat\":\"Application paper, not focused on robustness/adversarial RAG analysis or benchmarking.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

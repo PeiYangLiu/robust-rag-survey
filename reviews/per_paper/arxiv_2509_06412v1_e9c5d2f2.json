@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.06412v1",
+  "title": "Compare: A Framework for Scientific Comparisons",
+  "authors": "Moritz Staudinger; Wojciech Kusa; Matteo Cancellieri; David Pride; Petr Knoth; Allan Hanbury",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.06412v1",
+  "local_pdf": "pdfs/2025_moritz_staudinger_compare_a_framework_for_scientific_comparisons_e9c5d2f2.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to scholarly comparison; does not address robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:59.349626+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.06412v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to scholarly comparison; does not address robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2501.16672v1",
+  "title": "VeriFact: Verifying Facts in LLM-Generated Clinical Text with Electronic Health Records",
+  "authors": "Philip Chung; Akshay Swaminathan; Alex J. Goodell; Yeasul Kim; S. Momsen Reincke; Lichy Han; Ben Deverett; Mohammad Amin Sadeghi; Abdel-Badih Ariss; Marc Ghanem; David Seong; Andrew A. Lee; Caitlin E. Coombes; Brad Bradshaw; Mahir A. Sufian; Hyo Jung Hong; Teresa P. Nguyen; Mohammad R. Rasouli; Komal Kamra; Mark A. Burbridge; James C. McAvoy; Roya Saffary; Stephen P. Ma; Dev Dash; James Xie; Ellen Y. Wang; Clifford A. Schmiesing; Nigam Shah; Nima Aghaeepour",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.16672v1",
+  "local_pdf": "pdfs/2025_philip_chung_verifact_verifying_facts_in_llm_generated_clinical_text_with_electronic_health_records_b811a2a5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG + LLM-as-judge to fact-check clinical text against EHRs; tangentially relates to factual verification but not focused on RAG robustness, noise, conflict, or adversarial issues.",
+  "why_not_or_caveat": "Application-oriented system for clinical fact-checking; does not study retrieval robustness, distraction, conflicts, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.575697+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.16672v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\",\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG + LLM-as-judge to fact-check clinical text against EHRs; tangentially relates to factual verification but not focused on RAG robustness, noise, conflict, or adversarial issues.\",\"why_not_or_caveat\":\"Application-oriented system for clinical fact-checking; does not study retrieval robustness, distraction, conflicts, attacks, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

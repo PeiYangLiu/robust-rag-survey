@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.08739v1",
+  "title": "PrivGemo: Privacy-Preserving Dual-Tower Graph Retrieval for Empowering LLM Reasoning with Memory Augmentation",
+  "authors": "Xingyu Tan; Xiaoyang Wang; Qing Liu; Xiwei Xu; Xin Yuan; Liming Zhu; Wenjie Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.08739v1",
+  "local_pdf": "pdfs/2026_xingyu_tan_privgemo_privacy_preserving_dual_tower_graph_retrieval_for_empowering_llm_reasoning_with_02135653.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Focuses on privacy-preserving KG-RAG, not on robustness to noisy/conflicting/adversarial evidence or calibration.",
+  "why_not_or_caveat": "Privacy leakage in KG-RAG is outside the survey's scope on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:28.159219+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.08739v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Focuses on privacy-preserving KG-RAG, not on robustness to noisy/conflicting/adversarial evidence or calibration.\",\"why_not_or_caveat\":\"Privacy leakage in KG-RAG is outside the survey's scope on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.07328v2",
+  "title": "Q-RAG: Long Context Multi-step Retrieval via Value-based Embedder Training",
+  "authors": "Artyom Sorokin; Nazar Buzun; Alexander Anokhin; Oleg Inozemcev; Egor Vedernikov; Petr Anokhin; Mikhail Burtsev; Trushkov Alexey; Yin Wenshuai; Evgeny Burnaev",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.07328v2",
+  "local_pdf": "pdfs/2025_artyom_sorokin_q_rag_long_context_multi_step_retrieval_via_value_based_embedder_training_cc17d490.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RL-trained embedder for multi-step retrieval on long contexts; relates tangentially to retrieval quality but does not study robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focus is efficiency and multi-hop retrieval accuracy, not robustness under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:56.816811+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.07328v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes RL-trained embedder for multi-step retrieval on long contexts; relates tangentially to retrieval quality but does not study robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Focus is efficiency and multi-hop retrieval accuracy, not robustness under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

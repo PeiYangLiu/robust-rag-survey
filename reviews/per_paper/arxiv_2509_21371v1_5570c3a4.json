@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21371v1",
+  "title": "ReGeS: Reciprocal Retrieval-Generation Synergy for Conversational Recommender Systems",
+  "authors": "Dayu Yang; Hui Fang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21371v1",
+  "local_pdf": "pdfs/2025_dayu_yang_reges_reciprocal_retrieval_generation_synergy_for_conversational_recommender_systems_5570c3a4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Addresses noisy conversational input affecting retrieval in CRS, tangentially related to noisy retrieval.",
+  "why_not_or_caveat": "Primarily an application of RAG to conversational recommendation, not a study of robustness, calibration, attacks, or conflict in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:15.078014+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.21371v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Addresses noisy conversational input affecting retrieval in CRS, tangentially related to noisy retrieval.\",\"why_not_or_caveat\":\"Primarily an application of RAG to conversational recommendation, not a study of robustness, calibration, attacks, or conflict in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,292 @@
+{
+  "package": "expert_validation_60pair_blind_review_packet_20260607/candidate_set_R17",
+  "n_responses": 360,
+  "n_pairs": 60,
+  "n_gold_judgments": 180,
+  "conditions": {
+    "protocol": {
+      "n": 180,
+      "annotators": [
+        "reviewer_001",
+        "reviewer_002",
+        "reviewer_003"
+      ],
+      "agreement_with_panel_gold": 0.8833333333333333,
+      "mean_confidence": 3.8333333333333335,
+      "verdict_counts": {
+        "partial": 93,
+        "invalid": 87
+      }
+    },
+    "control": {
+      "n": 180,
+      "annotators": [
+        "reviewer_004",
+        "reviewer_005",
+        "reviewer_006"
+      ],
+      "agreement_with_panel_gold": 0.5666666666666667,
+      "mean_confidence": 4.066666666666666,
+      "verdict_counts": {
+        "invalid": 150,
+        "partial": 30
+      }
+    }
+  },
+  "gold_interagreement": {
+    "N": 60,
+    "n_raters": 3,
+    "fleiss_kappa": 0.772267206477733,
+    "mean_pair_agreement": 0.888888888888889,
+    "chance_agreement": 0.5120987654320988,
+    "unanimous_pairs": 50,
+    "unanimous_rate": 0.8333333333333334,
+    "category_proportions": {
+      "valid": 0.0,
+      "partial": 0.5777777777777777,
+      "invalid": 0.4222222222222222,
+      "underspecified": 0.0
+    },
+    "vote_counts_by_pair": {
+      "EV60-001": {
+        "invalid": 2,
+        "partial": 1
+      },
+      "EV60-002": {
+        "partial": 3
+      },
+      "EV60-003": {
+        "partial": 3
+      },
+      "EV60-004": {
+        "invalid": 3
+      },
+      "EV60-005": {
+        "partial": 3
+      },
+      "EV60-006": {
+        "partial": 3
+      },
+      "EV60-007": {
+        "partial": 3
+      },
+      "EV60-008": {
+        "partial": 3
+      },
+      "EV60-009": {
+        "invalid": 1,
+        "partial": 2
+      },
+      "EV60-010": {
+        "partial": 3
+      },
+      "EV60-011": {
+        "partial": 3
+      },
+      "EV60-012": {
+        "partial": 3
+      },
+      "EV60-013": {
+        "partial": 3
+      },
+      "EV60-014": {
+        "partial": 2,
+        "invalid": 1
+      },
+      "EV60-015": {
+        "partial": 3
+      },
+      "EV60-016": {
+        "partial": 3
+      },
+      "EV60-017": {
+        "partial": 3
+      },
+      "EV60-018": {
+        "partial": 3
+      },
+      "EV60-019": {
+        "invalid": 3
+      },
+      "EV60-020": {
+        "partial": 3
+      },
+      "EV60-021": {
+        "invalid": 3
+      },
+      "EV60-022": {
+        "invalid": 3
+      },
+      "EV60-023": {
+        "invalid": 3
+      },
+      "EV60-024": {
+        "invalid": 3
+      },
+      "EV60-025": {
+        "partial": 3
+      },
+      "EV60-026": {
+        "partial": 3
+      },
+      "EV60-027": {
+        "partial": 3
+      },
+      "EV60-028": {
+        "partial": 3
+      },
+      "EV60-029": {
+        "invalid": 3
+      },
+      "EV60-030": {
+        "invalid": 2,
+        "partial": 1
+      },
+      "EV60-031": {
+        "partial": 3
+      },
+      "EV60-032": {
+        "invalid": 3
+      },
+      "EV60-033": {
+        "partial": 3
+      },
+      "EV60-034": {
+        "partial": 2,
+        "invalid": 1
+      },
+      "EV60-035": {
+        "partial": 3
+      },
+      "EV60-036": {
+        "invalid": 3
+      },
+      "EV60-037": {
+        "invalid": 3
+      },
+      "EV60-038": {
+        "partial": 3
+      },
+      "EV60-039": {
+        "partial": 3
+      },
+      "EV60-040": {
+        "invalid": 3
+      },
+      "EV60-041": {
+        "partial": 2,
+        "invalid": 1
+      },
+      "EV60-042": {
+        "invalid": 3
+      },
+      "EV60-043": {
+        "invalid": 3
+      },
+      "EV60-044": {
+        "partial": 3
+      },
+      "EV60-045": {
+        "partial": 2,
+        "invalid": 1
+      },
+      "EV60-046": {
+        "invalid": 3
+      },
+      "EV60-047": {
+        "invalid": 3
+      },
+      "EV60-048": {
+        "partial": 3
+      },
+      "EV60-049": {
+        "partial": 3
+      },
+      "EV60-050": {
+        "partial": 2,
+        "invalid": 1
+      },
+      "EV60-051": {
+        "invalid": 3
+      },
+      "EV60-052": {
+        "invalid": 3
+      },
+      "EV60-053": {
+        "invalid": 3
+      },
+      "EV60-054": {
+        "invalid": 2,
+        "partial": 1
+      },
+      "EV60-055": {
+        "partial": 3
+      },
+      "EV60-056": {
+        "invalid": 3
+      },
+      "EV60-057": {
+        "invalid": 3
+      },
+      "EV60-058": {
+        "invalid": 3
+      },
+      "EV60-059": {
+        "partial": 3
+      },
+      "EV60-060": {
+        "partial": 2,
+        "invalid": 1
+      }
+    }
+  },
+  "cluster_bootstrap_protocol_minus_control": {
+    "mean": 0.31680555555555556,
+    "ci95": [
+      0.19166666666666665,
+      0.43888888888888894
+    ],
+    "n_boot": 2000
+  },
+  "coordinate_errors": {
+    "protocol": {
+      "n": 180,
+      "wrong_verdict": 21,
+      "missed": {
+        "action": 16,
+        "assumption": 12,
+        "failure": 10,
+        "metric": 13,
+        "intervention": 7
+      },
+      "extra": {
+        "assumption": 27,
+        "failure": 9,
+        "action": 2
+      }
+    },
+    "control": {
+      "n": 180,
+      "wrong_verdict": 78,
+      "missed": {
+        "action": 82,
+        "intervention": 28,
+        "assumption": 55,
+        "failure": 34,
+        "metric": 1
+      },
+      "extra": {
+        "failure": 12,
+        "assumption": 20,
+        "metric": 3,
+        "action": 2
+      }
+    }
+  },
+  "mixed_effects_logit": {
+    "status": "ok_vb_binomial_mixed_model",
+    "protocol_log_odds": 4.38631902671412,
+    "protocol_odds_ratio": 80.34412940400513,
+    "note": "Random intercepts for annotator and pair; variational Bayes fit."
+  }
+}

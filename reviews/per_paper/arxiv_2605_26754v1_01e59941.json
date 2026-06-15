@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.26754v1",
+  "title": "Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control",
+  "authors": "Zhe Yu; Wenpeng Xing; Gaolei Li; Shuguang Xiong; Hongzhi Wang; Xuyang Teng; Meng Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.26754v1",
+  "local_pdf": "pdfs/2026_zhe_yu_cordon_mas_defending_rag_against_knowledge_poisoning_via_information_flow_control_01e59941.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes an architectural multi-agent defense against RAG knowledge poisoning, framing it as an information-flow control problem and showing a monitoring-control gap in LLMs handling poisoned evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:06.800610+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.26754v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes an architectural multi-agent defense against RAG knowledge poisoning, framing it as an information-flow control problem and showing a monitoring-control gap in LLMs handling poisoned evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: defenses\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

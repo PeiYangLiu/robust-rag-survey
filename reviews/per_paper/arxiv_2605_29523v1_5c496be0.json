@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.29523v1",
+  "title": "K-FinHallu: A Hallucination Detection Benchmark for Multi-Turn RAG in Korean Finance",
+  "authors": "Eunbyeol Cho; Yunseung Lee; Mirae Kim; Jeewon Yang; Youngjun Kwak; Edward Choi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.29523v1",
+  "local_pdf": "pdfs/2026_eunbyeol_cho_k_finhallu_a_hallucination_detection_benchmark_for_multi_turn_rag_in_korean_finance_5c496be0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a multi-turn RAG hallucination detection benchmark with a taxonomy covering contradictions, unverifiable claims, irrelevance, and justified abstention—directly relevant to evaluating RAG robustness, context faithfulness, and refusal calibration.",
+  "why_not_or_caveat": "Domain-specific (Korean finance), which may limit generality.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.871734+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.29523v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"calibration_control\", \"knowledge_conflict\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a multi-turn RAG hallucination detection benchmark with a taxonomy covering contradictions, unverifiable claims, irrelevance, and justified abstention—directly relevant to evaluating RAG robustness, context faithfulness, and refusal calibration.\",\n  \"why_not_or_caveat\": \"Domain-specific (Korean finance), which may limit generality.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

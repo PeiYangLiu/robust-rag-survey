@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.03746v3",
+  "title": "Whose Facts Win? LLM Source Preferences under Knowledge Conflicts",
+  "authors": "Jakob Schuster; Vagrant Gautam; Katja Markert",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.03746v3",
+  "local_pdf": "pdfs/2026_jakob_schuster_whose_facts_win_llm_source_preferences_under_knowledge_conflicts_410b8b1c.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies inter-context knowledge conflicts in RAG, examining how LLMs resolve conflicting evidence based on source credibility and revealing repetition-based vulnerabilities akin to disinformation attacks. Proposes a fine-tuning mitigation.",
+  "why_not_or_caveat": "Focuses on source credibility dimension rather than the full breadth of RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.147345+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.03746v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies inter-context knowledge conflicts in RAG, examining how LLMs resolve conflicting evidence based on source credibility and revealing repetition-based vulnerabilities akin to disinformation attacks. Proposes a fine-tuning mitigation.\",\n  \"why_not_or_caveat\": \"Focuses on source credibility dimension rather than the full breadth of RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

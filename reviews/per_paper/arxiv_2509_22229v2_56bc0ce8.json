@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.22229v2",
+  "title": "A Tale of Two Experts: Cooperative Learning for Source-Free Unsupervised Domain Adaptation",
+  "authors": "Jiaping Yu; Muli Yang; Jiapeng Ji; Jiexi Yan; Cheng Deng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.22229v2",
+  "local_pdf": "pdfs/2025_jiaping_yu_a_tale_of_two_experts_cooperative_learning_for_source_free_unsupervised_domain_adaptatio_56bc0ce8.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper is about source-free unsupervised domain adaptation in vision, only loosely inspired by RAG.",
+  "why_not_or_caveat": "Not about robust RAG, retrieval reliability, or any of the survey's themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:35.757459+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.22229v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper is about source-free unsupervised domain adaptation in vision, only loosely inspired by RAG.\",\"why_not_or_caveat\":\"Not about robust RAG, retrieval reliability, or any of the survey's themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

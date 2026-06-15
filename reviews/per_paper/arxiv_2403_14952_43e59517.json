@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2403.14952",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2403.14952)\\] Evidence-Driven Retrieval Augmented Response Generation for Online Misinformation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.14952",
+  "local_pdf": "pdfs/na_arxiv_2403_14952_arxiv_https_arxiv_org_abs_2403_14952_evidence_driven_retrieval_augmented_respons_43e59517.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG with retrieved scientific evidence to generate counter-misinformation responses, but does not study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application of RAG to misinformation rebuttal; no focus on unreliable evidence handling.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:34.108680+00:00",
+  "raw_response": "{\"key\":\"arxiv-2403.14952\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG with retrieved scientific evidence to generate counter-misinformation responses, but does not study robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application of RAG to misinformation rebuttal; no focus on unreliable evidence handling.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2512.16795v1",
+  "title": "From Facts to Conclusions : Integrating Deductive Reasoning in Retrieval-Augmented LLMs",
+  "authors": "Shubham Mishra; Samyek Jain; Gorang Mehrishi; Shiv Tiwari; Harsh Sharma; Pratik Narang; Dhruv Kumar",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.16795v1",
+  "local_pdf": "pdfs/2025_shubham_mishra_from_facts_to_conclusions_integrating_deductive_reasoning_in_retrieval_augmented_llms_8c6abe75.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a reasoning-trace-augmented RAG framework explicitly for handling conflicting/outdated evidence with justified refusals, and introduces a Conflict-Aware Trust Score (CATS) evaluation metric covering groundedness, refusal, and conflict-behavior alignment.",
+  "why_not_or_caveat": "Small 539-query dataset and reliance on LLM-as-judge limits generality.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Conflict-Aware Evaluation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:59.375170+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.16795v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a reasoning-trace-augmented RAG framework explicitly for handling conflicting/outdated evidence with justified refusals, and introduces a Conflict-Aware Trust Score (CATS) evaluation metric covering groundedness, refusal, and conflict-behavior alignment.\",\n  \"why_not_or_caveat\": \"Small 539-query dataset and reliance on LLM-as-judge limits generality.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict and Conflict-Aware Evaluation\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

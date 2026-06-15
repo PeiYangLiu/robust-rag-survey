@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.25025v2",
+  "title": "Secure Retrieval-Augmented Generation against Poisoning Attacks",
+  "authors": "Zirui Cheng; Jikai Sun; Anjun Gao; Yueyang Quan; Zhuqing Liu; Xiaohua Hu; Minghong Fang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.25025v2",
+  "local_pdf": "pdfs/2025_zirui_cheng_secure_retrieval_augmented_generation_against_poisoning_attacks_09d38f0d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes RAGuard, a detection-based defense against poisoning attacks on RAG using retrieval expansion and perplexity/similarity filtering, evaluated against adaptive attacks.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses against Poisoning",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.156534+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.25025v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes RAGuard, a detection-based defense against poisoning attacks on RAG using retrieval expansion and perplexity/similarity filtering, evaluated against adaptive attacks.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Defenses against Poisoning\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

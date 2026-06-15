@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2405.07437",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2405.07437)\\] Evaluation of Retrieval-Augmented Generation: A Survey",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.07437",
+  "local_pdf": "pdfs/na_arxiv_2405_07437_arxiv_https_arxiv_org_abs_2405_07437_evaluation_of_retrieval_augmented_generatio_b9101ce9.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Surveys RAG evaluation frameworks, metrics, and benchmarks including aspects of retrieval quality, faithfulness, and robustness-relevant evaluation dimensions.",
+  "why_not_or_caveat": "General evaluation survey, not specifically focused on robustness/unreliable evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:29.071212+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2405.07437\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Surveys RAG evaluation frameworks, metrics, and benchmarks including aspects of retrieval quality, faithfulness, and robustness-relevant evaluation dimensions.\",\n  \"why_not_or_caveat\": \"General evaluation survey, not specifically focused on robustness/unreliable evidence.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

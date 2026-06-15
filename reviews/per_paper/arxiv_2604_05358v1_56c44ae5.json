@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.05358v1",
+  "title": "LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment",
+  "authors": "Zhe Yu; Wenpeng Xing; Meng Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.05358v1",
+  "local_pdf": "pdfs/2026_zhe_yu_latentaudit_real_time_white_box_faithfulness_monitoring_for_retrieval_augmented_generati_56c44ae5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a real-time faithfulness monitor for RAG that flags unsupported answers under contradictions, retrieval misses, and partial-support noise, directly relevant to calibration/abstention and robustness to unreliable evidence.",
+  "why_not_or_caveat": "Focus on internal-state monitoring and verifiable deployment; zk-proof aspect is tangential to the survey.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Faithfulness Monitoring",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:45.263299+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.05358v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"knowledge_conflict\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a real-time faithfulness monitor for RAG that flags unsupported answers under contradictions, retrieval misses, and partial-support noise, directly relevant to calibration/abstention and robustness to unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focus on internal-state monitoring and verifiable deployment; zk-proof aspect is tangential to the survey.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Faithfulness Monitoring\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

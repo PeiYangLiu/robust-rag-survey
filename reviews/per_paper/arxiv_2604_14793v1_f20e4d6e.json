@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.14793v1",
+  "title": "LR-Robot: An Human-in-the-Loop LLM Framework for Systematic Literature Reviews with Applications in Financial Research",
+  "authors": "Wei Wei; Jin Zheng; Zining Wang; Weibin Feng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.14793v1",
+  "local_pdf": "pdfs/2026_wei_wei_lr_robot_an_human_in_the_loop_llm_framework_for_systematic_literature_reviews_with_appli_f20e4d6e.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to financial literature review; does not address robustness, noise, conflict, adversarial, or calibration aspects.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:39.485518+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.14793v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to financial literature review; does not address robustness, noise, conflict, adversarial, or calibration aspects.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

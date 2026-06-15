@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2606.00432v1",
+  "title": "Grounded Decoding: Retrieval-Anchored Probability Fusion for Faithful RAG",
+  "authors": "Ibne Farabi Shihab; Fariya Afrin; Sanjeda Akter; Anuj Sharma",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.00432v1",
+  "local_pdf": "pdfs/2026_ibne_farabi_shihab_grounded_decoding_retrieval_anchored_probability_fusion_for_faithful_rag_d3aaac2b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a decoding-time method to enforce grounding in retrieved evidence over parametric knowledge, with adaptive weighting based on distributional conflict and retriever confidence—directly relevant to knowledge conflict and control.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Context Compliance",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.241309+00:00",
+  "raw_response": "{\"key\": \"arxiv-2606.00432v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a decoding-time method to enforce grounding in retrieved evidence over parametric knowledge, with adaptive weighting based on distributional conflict and retriever confidence—directly relevant to knowledge conflict and control.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Knowledge Conflict and Context Compliance\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

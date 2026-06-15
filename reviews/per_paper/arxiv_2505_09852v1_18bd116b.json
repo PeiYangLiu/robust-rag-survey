@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.09852v1",
+  "title": "Do Large Language Models Know Conflict? Investigating Parametric vs. Non-Parametric Knowledge of LLMs for Conflict Forecasting",
+  "authors": "Apollinaire Poli Nemkova; Sarath Chandra Lingareddy; Sagnik Ray Choudhury; Mark V. Albert",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.09852v1",
+  "local_pdf": "pdfs/2025_apollinaire_poli_nemkova_do_large_language_models_know_conflict_investigating_parametric_vs_non_parametric_knowle_18bd116b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Compares parametric vs RAG knowledge for conflict forecasting, touching on knowledge conflict tangentially.",
+  "why_not_or_caveat": "Primarily an application paper on conflict forecasting, not a robustness/conflict study of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:20.097791+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.09852v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Compares parametric vs RAG knowledge for conflict forecasting, touching on knowledge conflict tangentially.\",\"why_not_or_caveat\":\"Primarily an application paper on conflict forecasting, not a robustness/conflict study of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

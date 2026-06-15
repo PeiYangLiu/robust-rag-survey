@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.03204v1",
+  "title": "FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents",
+  "authors": "Imene Kerboua; Sahar Omidi Shayegan; Megh Thakkar; Xing Han Lù; Léo Boisvert; Massimo Caccia; Jérémy Espinas; Alexandre Aussem; Véronique Eglin; Alexandre Lacoste",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.03204v1",
+  "local_pdf": "pdfs/2025_imene_kerboua_focusagent_simple_yet_effective_ways_of_trimming_the_large_context_of_web_agents_35632d47.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "FocusAgent uses LLM-based retrieval to prune noisy web observations and defend against indirect prompt injection attacks (banners, pop-ups), tackling both noisy context and adversarial corruption in a retrieval-augmented agent setting.",
+  "why_not_or_caveat": "Focus is on web agents rather than general RAG over document corpora; relevance is via analogy to context filtering and injection defense.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / prompt injection defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:36.691204+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.03204v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"noisy_retrieval\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"FocusAgent uses LLM-based retrieval to prune noisy web observations and defend against indirect prompt injection attacks (banners, pop-ups), tackling both noisy context and adversarial corruption in a retrieval-augmented agent setting.\",\n  \"why_not_or_caveat\": \"Focus is on web agents rather than general RAG over document corpora; relevance is via analogy to context filtering and injection defense.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption / prompt injection defenses\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

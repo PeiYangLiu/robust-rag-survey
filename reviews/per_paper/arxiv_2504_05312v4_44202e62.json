@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.05312v4",
+  "title": "Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation",
+  "authors": "Qitao Qin; Yucong Luo; Yihang Lu; Zhibo Chu; Xiaoman Liu; Xianwei Meng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.05312v4",
+  "local_pdf": "pdfs/2025_qitao_qin_towards_adaptive_memory_based_optimization_for_enhanced_retrieval_augmented_generation_44202e62.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive RAG with memory, content filtering for noise reduction, and dynamic decisions on when to stop retrieval, touching on noisy retrieval and retrieval control.",
+  "why_not_or_caveat": "Focused on open-domain QA performance rather than explicitly studying robustness; relevance is incidental.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Adaptive Retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.854116+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.05312v4\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes adaptive RAG with memory, content filtering for noise reduction, and dynamic decisions on when to stop retrieval, touching on noisy retrieval and retrieval control.\",\n  \"why_not_or_caveat\": \"Focused on open-domain QA performance rather than explicitly studying robustness; relevance is incidental.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: Adaptive Retrieval\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

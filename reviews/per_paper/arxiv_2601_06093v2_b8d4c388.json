@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.06093v2",
+  "title": "GenAITEd Ghana: A First-of-Its-Kind Context-Aware and Curriculum-Aligned Conversational AI Agent for Teacher Education",
+  "authors": "Matthew Nyaaba; Patrick Kyeremeh; Macharious Nabang; Bismark Nyaaba Akanzire; Sakina Acquah; Cyril Ababio Titty; Kotor Asare; Jerry Etornam Kudaya",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.06093v2",
+  "local_pdf": "pdfs/2025_matthew_nyaaba_genaited_ghana_a_first_of_its_kind_context_aware_and_curriculum_aligned_conversational_a_b8d4c388.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG in teacher education; does not address robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:35.196325+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.06093v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG in teacher education; does not address robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.20136v3",
+  "title": "M$^3$KG-RAG: Multi-hop Multimodal Knowledge Graph-enhanced Retrieval-Augmented Generation",
+  "authors": "Hyeongcheol Park; Jiyoung Seo; Jaewon Mun; Hogun Park; Wonmin Byeon; Sung June Kim; Hyeonsoo Im; JeungSub Lee; Sangpil Kim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.20136v3",
+  "local_pdf": "pdfs/2025_hyeongcheol_park_m_3_kg_rag_multi_hop_multimodal_knowledge_graph_enhanced_retrieval_augmented_generation_44d06d8c.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multimodal KG-RAG method with pruning of irrelevant retrieved triplets, tangentially touching noise filtering.",
+  "why_not_or_caveat": "Focus is on multimodal KG construction and retrieval quality, not on robustness, conflict, adversarial, or calibration concerns central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:13.718939+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.20136v3\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a multimodal KG-RAG method with pruning of irrelevant retrieved triplets, tangentially touching noise filtering.\", \"why_not_or_caveat\": \"Focus is on multimodal KG construction and retrieval quality, not on robustness, conflict, adversarial, or calibration concerns central to the survey.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

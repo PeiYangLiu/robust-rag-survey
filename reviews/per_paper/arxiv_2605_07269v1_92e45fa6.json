@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.07269v1",
+  "title": "MIPIAD: Multilingual Indirect Prompt Injection Attack Defense with Qwen -- TF-IDF Hybrid and Meta-Ensemble Learning",
+  "authors": "Al Muhit Muhtadi; Mostafa Rifat Tazwar",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.07269v1",
+  "local_pdf": "pdfs/2026_al_muhit_muhtadi_mipiad_multilingual_indirect_prompt_injection_attack_defense_with_qwen_tf_idf_hybrid_and_92e45fa6.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a multilingual defense against indirect prompt injection in RAG/tool-using LLMs and provides a large benchmark built on BIPIA, directly relevant to the adversarial corruption axis of the survey.",
+  "why_not_or_caveat": "Focuses on input classification rather than RAG pipeline integration; empirical scope limited to English and Bangla.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Indirect Prompt Injection Defenses",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:28.441899+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.07269v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"], \"paper_role\": \"defense\", \"why_relevant\": \"Proposes a multilingual defense against indirect prompt injection in RAG/tool-using LLMs and provides a large benchmark built on BIPIA, directly relevant to the adversarial corruption axis of the survey.\", \"why_not_or_caveat\": \"Focuses on input classification rather than RAG pipeline integration; empirical scope limited to English and Bangla.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption: Indirect Prompt Injection Defenses\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

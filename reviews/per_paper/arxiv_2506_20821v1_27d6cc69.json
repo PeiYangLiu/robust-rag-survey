@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.20821v1",
+  "title": "MultiFinRAG: An Optimized Multimodal Retrieval-Augmented Generation (RAG) Framework for Financial Question Answering",
+  "authors": "Chinmay Gondhalekar; Urjitkumar Patel; Fang-Chun Yeh",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.20821v1",
+  "local_pdf": "pdfs/2025_chinmay_gondhalekar_multifinrag_an_optimized_multimodal_retrieval_augmented_generation_rag_framework_for_fin_27d6cc69.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application-focused multimodal RAG for financial QA; does not study robustness, conflict, calibration, or attacks.",
+  "why_not_or_caveat": "Pipeline engineering for domain QA, not robustness-oriented.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:21.622444+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.20821v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application-focused multimodal RAG for financial QA; does not study robustness, conflict, calibration, or attacks.\",\"why_not_or_caveat\":\"Pipeline engineering for domain QA, not robustness-oriented.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

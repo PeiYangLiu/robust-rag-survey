@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.22710v1",
+  "title": "RaCoT: Plug-and-Play Contrastive Example Generation Mechanism for Enhanced LLM Reasoning Reliability",
+  "authors": "Kaitong Cai; Jusheng Zhang; Yijia Fan; Jing Yang; Keze Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.22710v1",
+  "local_pdf": "pdfs/2025_kaitong_cai_racot_plug_and_play_contrastive_example_generation_mechanism_for_enhanced_llm_reasoning_c3b9a226.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a pre-retrieval contrastive prompting method aimed at improving RAG robustness against noisy/ambiguous retrieval and reports adversarial robustness gains, directly relevant to noise and distraction handling.",
+  "why_not_or_caveat": "Robustness claims are limited to one adversarial test; not primarily a calibration or conflict paper.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and distraction mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:26.192182+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.22710v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a pre-retrieval contrastive prompting method aimed at improving RAG robustness against noisy/ambiguous retrieval and reports adversarial robustness gains, directly relevant to noise and distraction handling.\",\n  \"why_not_or_caveat\": \"Robustness claims are limited to one adversarial test; not primarily a calibration or conflict paper.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and distraction mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

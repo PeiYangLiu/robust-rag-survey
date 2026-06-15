@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.14170v1",
+  "title": "Stateful Evidence-Driven Retrieval-Augmented Generation with Iterative Reasoning",
+  "authors": "Qi Dong; Ziheng Lin; Ning Ding",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.14170v1",
+  "local_pdf": "pdfs/2026_qi_dong_stateful_evidence_driven_retrieval_augmented_generation_with_iterative_reasoning_cdb9dfc3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an iterative, evidence-pool RAG method with explicit relevance/confidence signals and deficiency analysis, explicitly evaluated for robustness under injected retrieval noise.",
+  "why_not_or_caveat": "Single-system method paper; not a benchmark or systematic robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / iterative evidence aggregation methods",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.344303+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.14170v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an iterative, evidence-pool RAG method with explicit relevance/confidence signals and deficiency analysis, explicitly evaluated for robustness under injected retrieval noise.\",\n  \"why_not_or_caveat\": \"Single-system method paper; not a benchmark or systematic robustness study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval / iterative evidence aggregation methods\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

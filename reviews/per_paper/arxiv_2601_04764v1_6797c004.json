@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.04764v1",
+  "title": "Orion-RAG: Path-Aligned Hybrid Retrieval for Graphless Data",
+  "authors": "Zhen Chen; Weihao Xie; Peilin Chen; Shiqi Wang; Jianping Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.04764v1",
+  "local_pdf": "pdfs/2026_zhen_chen_orion_rag_path_aligned_hybrid_retrieval_for_graphless_data_6797c004.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hybrid retrieval framework for fragmented data; does not address robustness, noise, conflict, adversarial attacks, or calibration.",
+  "why_not_or_caveat": "Focus is on retrieval architecture and accuracy, not on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.337977+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.04764v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a hybrid retrieval framework for fragmented data; does not address robustness, noise, conflict, adversarial attacks, or calibration.\",\"why_not_or_caveat\":\"Focus is on retrieval architecture and accuracy, not on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

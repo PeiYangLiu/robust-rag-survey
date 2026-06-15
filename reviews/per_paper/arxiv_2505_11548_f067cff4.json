@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.11548",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2505.11548)] One shot dominance: Knowledge poisoning attack on retrieval-augmented generation systems",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.11548",
+  "local_pdf": "pdfs/na_arxiv_2505_11548_ins_arxiv_ins_https_arxiv_org_abs_2505_11548_one_shot_dominance_knowledge_poison_f067cff4.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes AuthChain, a single-document knowledge poisoning attack on RAG that exploits retrieval ranking and overcomes LLM internal-knowledge bias via authority signals, directly relevant to adversarial corruption and knowledge conflict.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:23.086127+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.11548\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes AuthChain, a single-document knowledge poisoning attack on RAG that exploits retrieval ranking and overcomes LLM internal-knowledge bias via authority signals, directly relevant to adversarial corruption and knowledge conflict.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

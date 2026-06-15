@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.01059v1",
+  "title": "Efficient Test-Time Retrieval Augmented Generation",
+  "authors": "Hailong Yin; Bin Zhu; Jingjing Chen; Chong-Wah Ngo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.01059v1",
+  "local_pdf": "pdfs/2025_hailong_yin_efficient_test_time_retrieval_augmented_generation_7c91e528.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a test-time RAG framework that addresses irrelevant/noisy retrieved documents via stable organized retrieval combinations and consensus-based majority voting over candidate responses, directly targeting noisy retrieval robustness.",
+  "why_not_or_caveat": "Focus is largely on efficiency; robustness to noise is a secondary motivation rather than systematic study of adversaries or conflicts.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval mitigation / test-time methods",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.655978+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2511.01059v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a test-time RAG framework that addresses irrelevant/noisy retrieved documents via stable organized retrieval combinations and consensus-based majority voting over candidate responses, directly targeting noisy retrieval robustness.\",\n  \"why_not_or_caveat\": \"Focus is largely on efficiency; robustness to noise is a secondary motivation rather than systematic study of adversaries or conflicts.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval mitigation / test-time methods\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

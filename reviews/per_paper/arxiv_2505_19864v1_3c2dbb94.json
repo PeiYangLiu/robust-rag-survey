@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.19864v1",
+  "title": "CPA-RAG:Covert Poisoning Attacks on Retrieval-Augmented Generation in Large Language Models",
+  "authors": "Chunyang Li; Junwei Zhang; Anda Cheng; Zhuo Ma; Xinghua Li; Jianfeng Ma",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.19864v1",
+  "local_pdf": "pdfs/2025_chunyang_li_cpa_rag_covert_poisoning_attacks_on_retrieval_augmented_generation_in_large_language_mod_3c2dbb94.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box covert poisoning attack on RAG that bypasses defenses like perplexity filtering and duplicate detection, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Attack-only paper; limited discussion of defenses.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:21.327362+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.19864v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a black-box covert poisoning attack on RAG that bypasses defenses like perplexity filtering and duplicate detection, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"Attack-only paper; limited discussion of defenses.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

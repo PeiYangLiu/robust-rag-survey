@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.14778v2",
+  "title": "P$^2$RAG: Efficient Privacy-Preserving RAG Service Supporting Arbitrary Top-$k$ Retrieval",
+  "authors": "Yulong Ming; Mingyue Wang; Jijia Yang; Jie Xu; Zihan Wu; Cong Wang; Xiaohua Jia",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.14778v2",
+  "local_pdf": "pdfs/2026_yulong_ming_p_2_rag_efficient_privacy_preserving_rag_service_supporting_arbitrary_top_k_retrieval_ccdf7973.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Focuses on privacy-preserving top-k retrieval via secret sharing, not robustness, conflict, adversarial evidence, or calibration.",
+  "why_not_or_caveat": "Privacy/cryptography focus, outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:27.227546+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.14778v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Focuses on privacy-preserving top-k retrieval via secret sharing, not robustness, conflict, adversarial evidence, or calibration.\",\"why_not_or_caveat\":\"Privacy/cryptography focus, outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

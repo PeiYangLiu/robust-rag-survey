@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.20534v2",
+  "title": "An Industrial-Scale Retrieval-Augmented Generation Framework for Requirements Engineering: Empirical Evaluation with Automotive Manufacturing Data",
+  "authors": "Muhammad Khalid; Yilmaz Uygun",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.20534v2",
+  "local_pdf": "pdfs/2026_muhammad_khalid_an_industrial_scale_retrieval_augmented_generation_framework_for_requirements_engineerin_a629f507.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Industrial application of RAG to automotive requirements engineering; does not study robustness, noise, conflict, adversarial issues, or calibration.",
+  "why_not_or_caveat": "Pure application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.509271+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.20534v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Industrial application of RAG to automotive requirements engineering; does not study robustness, noise, conflict, adversarial issues, or calibration.\",\"why_not_or_caveat\":\"Pure application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

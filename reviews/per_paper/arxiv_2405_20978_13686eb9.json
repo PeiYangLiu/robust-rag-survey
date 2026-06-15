@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2405.20978",
+  "title": "\\[[ACL](https://arxiv.org/abs/2405.20978)\\] Enhancing Noise Robustness of Retrieval-Augmented Language Models with Adaptive Adversarial Training",
+  "authors": "",
+  "year": "2097",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.20978",
+  "local_pdf": "pdfs/2097_arxiv_2405_20978_acl_https_arxiv_org_abs_2405_20978_enhancing_noise_robustness_of_retrieval_augme_13686eb9.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes RAAT, an adaptive adversarial training method to enhance LLM robustness against three categorized retrieval noise types (relevant, irrelevant, counterfactual), and introduces RAG-Bench for evaluating noise robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy Retrieval: Training-based Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:34.573077+00:00",
+  "raw_response": "{\"key\":\"arxiv-2405.20978\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"evaluation_benchmark\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes RAAT, an adaptive adversarial training method to enhance LLM robustness against three categorized retrieval noise types (relevant, irrelevant, counterfactual), and introduces RAG-Bench for evaluating noise robustness.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Noisy Retrieval: Training-based Defenses\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

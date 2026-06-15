@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2406.05794",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2406.05794)\\] RE-RAG: Improving Open-Domain QA Performance and Interpretability with Relevance Estimator in Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.05794",
+  "local_pdf": "pdfs/na_arxiv_2406_05794_arxiv_https_arxiv_org_abs_2406_05794_re_rag_improving_open_domain_qa_performance_d6d48465.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a relevance estimator that filters irrelevant retrieved contexts, provides confidence-based decoding strategies including abstention ('unanswerable') and falling back to parametric knowledge, directly addressing distraction by noisy retrieval and calibration/control.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / filtering noisy retrieval",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:40.030063+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.05794\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a relevance estimator that filters irrelevant retrieved contexts, provides confidence-based decoding strategies including abstention ('unanswerable') and falling back to parametric knowledge, directly addressing distraction by noisy retrieval and calibration/control.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and control / filtering noisy retrieval\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

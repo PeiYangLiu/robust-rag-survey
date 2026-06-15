@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.02582v1",
+  "title": "Uncertainty and Fairness Awareness in LLM-Based Recommendation Systems",
+  "authors": "Chandan Kumar Sah; Xiaoli Lian; Li Zhang; Tony Xu; Syed Shazaib Shah",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.02582v1",
+  "local_pdf": "pdfs/2026_chandan_kumar_sah_uncertainty_and_fairness_awareness_in_llm_based_recommendation_systems_6b450baa.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper focuses on fairness and uncertainty in LLM-based recommender systems, not RAG robustness under unreliable evidence.",
+  "why_not_or_caveat": "No focus on retrieval, noisy/adversarial evidence, or RAG calibration; unrelated application domain.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:26.338074+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.02582v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Paper focuses on fairness and uncertainty in LLM-based recommender systems, not RAG robustness under unreliable evidence.\",\"why_not_or_caveat\":\"No focus on retrieval, noisy/adversarial evidence, or RAG calibration; unrelated application domain.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

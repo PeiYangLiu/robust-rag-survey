@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.23783v1",
+  "title": "S2G-RAG: Structured Sufficiency and Gap Judging for Iterative Retrieval-Augmented QA",
+  "authors": "Minghan Li; Junjie Zou; Xinxuan Lv; Chao Zhang; Guodong Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23783v1",
+  "local_pdf": "pdfs/2026_minghan_li_s2g_rag_structured_sufficiency_and_gap_judging_for_iterative_retrieval_augmented_qa_2691e93d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an iterative RAG controller that judges evidence sufficiency and structured information gaps, deciding when to stop or re-retrieve, and mitigates distractor/noise accumulation via sentence-level evidence extraction.",
+  "why_not_or_caveat": "Focus is on multi-hop QA control rather than explicit adversarial or conflict robustness; suspicious arXiv ID (2604.xxxxx) suggests possibly unverified preprint.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve and Stop",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:27.388441+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.23783v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an iterative RAG controller that judges evidence sufficiency and structured information gaps, deciding when to stop or re-retrieve, and mitigates distractor/noise accumulation via sentence-level evidence extraction.\",\n  \"why_not_or_caveat\": \"Focus is on multi-hop QA control rather than explicit adversarial or conflict robustness; suspicious arXiv ID (2604.xxxxx) suggests possibly unverified preprint.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve and Stop\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

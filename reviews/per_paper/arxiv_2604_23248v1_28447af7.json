@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.23248v1",
+  "title": "PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps",
+  "authors": "Tran Thanh Lam Nguyen; Edoardo Di Tullio; Barbara Carminati; Elena Ferrari",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23248v1",
+  "local_pdf": "pdfs/2026_tran_thanh_lam_nguyen_privacyassist_a_user_centric_agent_framework_for_detecting_privacy_inconsistencies_in_an_28447af7.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to Android privacy inconsistency detection; does not study RAG robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Uses RAG as a tool only.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:13.901901+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.23248v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to Android privacy inconsistency detection; does not study RAG robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Uses RAG as a tool only.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

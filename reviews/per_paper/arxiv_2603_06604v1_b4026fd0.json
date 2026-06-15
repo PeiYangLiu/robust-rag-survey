@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.06604v1",
+  "title": "Know When You're Wrong: Aligning Confidence with Correctness for LLM Error Detection",
+  "authors": "Xie Xiaohu; Liu Xiaohu; Yao Benjamin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.06604v1",
+  "local_pdf": "pdfs/2026_xie_xiaohu_know_when_you_re_wrong_aligning_confidence_with_correctness_for_llm_error_detection_b4026fd0.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a normalized confidence score and self-evaluation for LLM error detection, with direct application to adaptive RAG (selective retrieval when uncertain). Also analyzes calibration impacts of SFT/RL/DPO and proposes a fix.",
+  "why_not_or_caveat": "Adaptive RAG is a demonstration rather than the primary focus; broader scope is general LLM calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.558851+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.06604v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a normalized confidence score and self-evaluation for LLM error detection, with direct application to adaptive RAG (selective retrieval when uncertain). Also analyzes calibration impacts of SFT/RL/DPO and proposes a fix.\", \"why_not_or_caveat\": \"Adaptive RAG is a demonstration rather than the primary focus; broader scope is general LLM calibration.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: When to Retrieve\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

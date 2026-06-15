@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.16576v1",
+  "title": "On the Robustness of LLM-Based Dense Retrievers: A Systematic Analysis of Generalizability and Stability",
+  "authors": "Yongkang Li; Panagiotis Eustratiadis; Yixing Fan; Evangelos Kanoulas",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.16576v1",
+  "local_pdf": "pdfs/2026_yongkang_li_on_the_robustness_of_llm_based_dense_retrievers_a_systematic_analysis_of_generalizabilit_7c3744ec.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematic robustness study of LLM-based dense retrievers covering query perturbations and corpus poisoning attacks, relevant to retrieval-side noise and adversarial corruption components of RAG.",
+  "why_not_or_caveat": "Focuses on the retriever in isolation rather than end-to-end RAG generation robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and retrieval robustness",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:31.430312+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.16576v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Systematic robustness study of LLM-based dense retrievers covering query perturbations and corpus poisoning attacks, relevant to retrieval-side noise and adversarial corruption components of RAG.\",\n  \"why_not_or_caveat\": \"Focuses on the retriever in isolation rather than end-to-end RAG generation robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and retrieval robustness\",\n  \"confidence\": 0.75\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.06254v2",
+  "title": "Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation",
+  "authors": "Yinuo Liu; Zenghui Yuan; Guiyao Tie; Jiawen Shi; Pan Zhou; Lichao Sun; Neil Zhenqiang Gong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.06254v2",
+  "local_pdf": "pdfs/2025_yinuo_liu_poisoned_mrag_knowledge_poisoning_attacks_to_multimodal_retrieval_augmented_generation_43fb2f30.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces the first knowledge poisoning attack on multimodal RAG, with cross-modal dirty- and clean-label strategies, and evaluates four defenses, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Focused on multimodal/VLM setting; less directly applicable to text-only RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.422980+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.06254v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces the first knowledge poisoning attack on multimodal RAG, with cross-modal dirty- and clean-label strategies, and evaluates four defenses, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"Focused on multimodal/VLM setting; less directly applicable to text-only RAG.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

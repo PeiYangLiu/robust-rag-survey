@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2601.08282v1",
+  "title": "D$^2$Plan: Dual-Agent Dynamic Global Planning for Complex Retrieval-Augmented Reasoning",
+  "authors": "Kangcheng Luo; Tinglang Wu; Yansong Feng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.08282v1",
+  "local_pdf": "pdfs/2026_kangcheng_luo_d_2_plan_dual_agent_dynamic_global_planning_for_complex_retrieval_augmented_reasoning_5b2696e7.pdf",
+  "metadata_topics": "noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a dual-agent planning method to mitigate distraction by irrelevant retrieved evidence and ineffective query construction in multi-hop RAG, with a Purifier explicitly filtering noisy retrievals and adaptive re-retrieval.",
+  "why_not_or_caveat": "Focus is on multi-hop QA performance rather than systematic robustness analysis or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Retrieval Mitigation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:19.333932+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.08282v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a dual-agent planning method to mitigate distraction by irrelevant retrieved evidence and ineffective query construction in multi-hop RAG, with a Purifier explicitly filtering noisy retrievals and adaptive re-retrieval.\",\"why_not_or_caveat\":\"Focus is on multi-hop QA performance rather than systematic robustness analysis or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and Noisy Retrieval Mitigation\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

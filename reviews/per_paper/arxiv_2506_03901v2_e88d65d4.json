@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2506.03901v2",
+  "title": "Magic Mushroom: A Customizable Benchmark for Fine-grained Analysis of Retrieval Noise Erosion in RAG Systems",
+  "authors": "Yuxin Zhang; Yan Wang; Yongrui Chen; Shenyu Zhang; Xinbang Dai; Sheng Bi; Guilin Qi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.03901v2",
+  "local_pdf": "pdfs/2025_yuxin_zhang_magic_mushroom_a_customizable_benchmark_for_fine_grained_analysis_of_retrieval_noise_ero_e88d65d4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark",
+    "distraction"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a customizable benchmark with fine-grained taxonomy of retrieval noise (distracting, low quality, inconsequential, irrelevant) to evaluate RAG robustness and denoising strategies under varying noise distributions.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy Retrieval Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.255801+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.03901v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"evaluation_benchmark\",\"distraction\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a customizable benchmark with fine-grained taxonomy of retrieval noise (distracting, low quality, inconsequential, irrelevant) to evaluate RAG robustness and denoising strategies under varying noise distributions.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Noisy Retrieval Benchmarks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

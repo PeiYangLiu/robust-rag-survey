@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.10074v3",
+  "title": "MMKB-RAG: A Multi-Modal Knowledge-Based Retrieval-Augmented Generation Framework",
+  "authors": "Zihan Ling; Zhiyao Guo; Yixuan Huang; Yi An; Shuai Xiao; Jinsong Lan; Xiaoyong Zhu; Bo Zheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.10074v3",
+  "local_pdf": "pdfs/2025_zihan_ling_mmkb_rag_a_multi_modal_knowledge_based_retrieval_augmented_generation_framework_41e9c881.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-modal RAG framework that decides when to retrieve, filters irrelevant documents, and reranks for consistency, addressing noisy retrieval and retrieval control in MLLMs.",
+  "why_not_or_caveat": "Focused on multi-modal VQA; robustness contributions are incremental filtering/self-RAG-style tagging rather than novel calibration analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control: when to retrieve and filter",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:37.685796+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.10074v3\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a multi-modal RAG framework that decides when to retrieve, filters irrelevant documents, and reranks for consistency, addressing noisy retrieval and retrieval control in MLLMs.\",\"why_not_or_caveat\":\"Focused on multi-modal VQA; robustness contributions are incremental filtering/self-RAG-style tagging rather than novel calibration analysis.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and control: when to retrieve and filter\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.23196v1",
+  "title": "AsmRAG: LLM-Driven Malware Detection by Retrieving Functionally Similar Assembly Code",
+  "authors": "ElMouatez Billah Karbab",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23196v1",
+  "local_pdf": "pdfs/2026_elmouatez_billah_karbab_asmrag_llm_driven_malware_detection_by_retrieving_functionally_similar_assembly_code_e332ee96.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to malware detection via assembly code retrieval; does not study RAG robustness, conflict, calibration, or adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Domain application of RAG without contributions to robust/unreliable evidence handling.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:32.982276+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.23196v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to malware detection via assembly code retrieval; does not study RAG robustness, conflict, calibration, or adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"Domain application of RAG without contributions to robust/unreliable evidence handling.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

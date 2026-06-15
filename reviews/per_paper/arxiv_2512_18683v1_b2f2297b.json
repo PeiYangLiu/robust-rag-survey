@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.18683v1",
+  "title": "CIRR: Causal-Invariant Retrieval-Augmented Recommendation with Faithful Explanations under Distribution Shift",
+  "authors": "Sebastian Sun",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.18683v1",
+  "local_pdf": "pdfs/2025_sebastian_sun_cirr_causal_invariant_retrieval_augmented_recommendation_with_faithful_explanations_unde_b2f2297b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to recommendation with focus on distribution shift robustness and faithfulness constraints, tangentially touching OOD robustness.",
+  "why_not_or_caveat": "Domain-specific recommender application; does not address core robust-RAG issues like noisy/conflicting/adversarial evidence or calibration in the general RAG/QA setting.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:49.445032+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.18683v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"ood_uncertainty\"], \"paper_role\": \"application\", \"why_relevant\": \"Applies RAG to recommendation with focus on distribution shift robustness and faithfulness constraints, tangentially touching OOD robustness.\", \"why_not_or_caveat\": \"Domain-specific recommender application; does not address core robust-RAG issues like noisy/conflicting/adversarial evidence or calibration in the general RAG/QA setting.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

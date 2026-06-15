@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.17194v1",
+  "title": "MMRAG-RFT: Two-stage Reinforcement Fine-tuning for Explainable Multi-modal Retrieval-augmented Generation",
+  "authors": "Shengwei Zhao; Jingwen Yao; Sitong Wei; Linhai Xu; Yuying Liu; Dong Zhang; Zhiqiang Tian; Shaoyi Du",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.17194v1",
+  "local_pdf": "pdfs/2025_shengwei_zhao_mmrag_rft_two_stage_reinforcement_fine_tuning_for_explainable_multi_modal_retrieval_augm_e128b2f9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RL-based two-stage fine-tuning for multimodal RAG with ranking and answer generation, which marginally touches filtering irrelevant documents.",
+  "why_not_or_caveat": "Focus is on explainability and accuracy via RL fine-tuning, not on robustness, conflict, adversarial, calibration, or uncertainty under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:16.483013+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.17194v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes RL-based two-stage fine-tuning for multimodal RAG with ranking and answer generation, which marginally touches filtering irrelevant documents.\",\"why_not_or_caveat\":\"Focus is on explainability and accuracy via RL fine-tuning, not on robustness, conflict, adversarial, calibration, or uncertainty under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

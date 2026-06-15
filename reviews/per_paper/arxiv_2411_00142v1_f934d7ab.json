@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.00142v1",
+  "title": "JudgeRank: Leveraging Large Language Models for Reasoning-Intensive Reranking",
+  "authors": "Tong Niu; Shafiq Joty; Ye Liu; Caiming Xiong; Yingbo Zhou; Semih Yavuz",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.00142v1",
+  "local_pdf": "pdfs/2024_tong_niu_judgerank_leveraging_large_language_models_for_reasoning_intensive_reranking_f934d7ab.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an LLM-based reranker that could indirectly improve retrieval quality, but does not study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Focused on reranking accuracy on BRIGHT/BEIR, not robustness under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:04.327566+00:00",
+  "raw_response": "{\"key\":\"arxiv-2411.00142v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an LLM-based reranker that could indirectly improve retrieval quality, but does not study robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Focused on reranking accuracy on BRIGHT/BEIR, not robustness under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.18931v1",
+  "title": "Look It Up: Analysing Internal Web Search Capabilities of Modern LLMs",
+  "authors": "Sahil Kale",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.18931v1",
+  "local_pdf": "pdfs/2025_sahil_kale_look_it_up_analysing_internal_web_search_capabilities_of_modern_llms_d4797bd5.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark assessing when LLMs decide to invoke web search vs rely on parametric knowledge, measuring confidence calibration, selective retrieval, and accuracy gains—directly relevant to calibration/control of retrieval.",
+  "why_not_or_caveat": "Focuses on commercial models' built-in web search rather than general RAG pipelines; limited to factual QA.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:35.157340+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.18931v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a benchmark assessing when LLMs decide to invoke web search vs rely on parametric knowledge, measuring confidence calibration, selective retrieval, and accuracy gains—directly relevant to calibration/control of retrieval.\",\"why_not_or_caveat\":\"Focuses on commercial models' built-in web search rather than general RAG pipelines; limited to factual QA.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

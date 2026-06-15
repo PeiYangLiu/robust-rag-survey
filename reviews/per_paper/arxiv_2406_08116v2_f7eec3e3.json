@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.08116v2",
+  "title": "Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling",
+  "authors": "Zile Qiao; Wei Ye; Yong Jiang; Tong Mo; Pengjun Xie; Weiping Li; Fei Huang; Shikun Zhang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.08116v2",
+  "local_pdf": "pdfs/2024_zile_qiao_supportiveness_based_knowledge_rewriting_for_retrieval_augmented_language_modeling_f7eec3e3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a knowledge rewriter that filters noisy/misleading retrieved content using a supportiveness score, directly addressing robustness of RAG to unreliable retrieved evidence.",
+  "why_not_or_caveat": "Focuses on rewriting/compression rather than conflict, attacks, or calibration explicitly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / filtering and rewriting",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:10.834230+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2406.08116v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a knowledge rewriter that filters noisy/misleading retrieved content using a supportiveness score, directly addressing robustness of RAG to unreliable retrieved evidence.\",\n  \"why_not_or_caveat\": \"Focuses on rewriting/compression rather than conflict, attacks, or calibration explicitly.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval / filtering and rewriting\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.04651v1",
+  "title": "Scientific Hypothesis Generation and Validation: Methods, Datasets, and Future Directions",
+  "authors": "Adithya Kulkarni; Fatimah Alotaibi; Xinyue Zeng; Longfeng Wu; Tong Zeng; Barry Menglong Yao; Minqian Liu; Shuaicheng Zhang; Lifu Huang; Dawei Zhou",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.04651v1",
+  "local_pdf": "pdfs/2025_adithya_kulkarni_scientific_hypothesis_generation_and_validation_methods_datasets_and_future_directions_e2af1e7e.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on LLMs for scientific hypothesis generation, mentions RAG only as one technique among many.",
+  "why_not_or_caveat": "Does not address RAG robustness, noise, conflict, adversarial attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.441406+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.04651v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"survey\",\"why_relevant\":\"Survey on LLMs for scientific hypothesis generation, mentions RAG only as one technique among many.\",\"why_not_or_caveat\":\"Does not address RAG robustness, noise, conflict, adversarial attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

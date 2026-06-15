@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.27494v1",
+  "title": "Grounded Cache Routing for Retrieval-Augmented Generation: When Is It Safe to Reuse an Answer?",
+  "authors": "Syed Huma Shah",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27494v1",
+  "local_pdf": "pdfs/2026_syed_huma_shah_grounded_cache_routing_for_retrieval_augmented_generation_when_is_it_safe_to_reuse_an_an_e78f63c8.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes an evidence-validated cache router that gates cached answer reuse to prevent serving wrong/stale/adversarially hijacked answers, addressing safety, drift, and collision attacks in RAG. Introduces a stress-test workload and unsafe-served-rate metric tied to robustness evaluation.",
+  "why_not_or_caveat": "Focused on the answer-caching layer rather than core retrieval/generation robustness; somewhat niche systems angle.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Adversarial Corruption",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:32.075156+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.27494v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes an evidence-validated cache router that gates cached answer reuse to prevent serving wrong/stale/adversarially hijacked answers, addressing safety, drift, and collision attacks in RAG. Introduces a stress-test workload and unsafe-served-rate metric tied to robustness evaluation.\",\n  \"why_not_or_caveat\": \"Focused on the answer-caching layer rather than core retrieval/generation robustness; somewhat niche systems angle.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Adversarial Corruption\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

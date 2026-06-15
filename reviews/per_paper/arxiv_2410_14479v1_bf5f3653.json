@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2410.14479v1",
+  "title": "Backdoored Retrievers for Prompt Injection Attacks on Retrieval Augmented Generation of Large Language Models",
+  "authors": "Cody Clop; Yannick Teglia",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.14479v1",
+  "local_pdf": "pdfs/2024_cody_clop_backdoored_retrievers_for_prompt_injection_attacks_on_retrieval_augmented_generation_of_bf5f3653.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes backdoor attack on dense retriever and corpus poisoning for prompt injection in RAG, expanding attack objectives beyond misinformation (malicious links, ads, DoS).",
+  "why_not_or_caveat": "Limited scope; small-scale empirical study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Retriever Backdoors and Prompt Injection",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:20.160323+00:00",
+  "raw_response": "{\"key\":\"arxiv-2410.14479v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes backdoor attack on dense retriever and corpus poisoning for prompt injection in RAG, expanding attack objectives beyond misinformation (malicious links, ads, DoS).\",\"why_not_or_caveat\":\"Limited scope; small-scale empirical study.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Retriever Backdoors and Prompt Injection\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

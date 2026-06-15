@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.05467v1",
+  "title": "CUE-R: Beyond the Final Answer in Retrieval-Augmented Generation",
+  "authors": "Siddharth Jain; Venkat Narayan Vedam",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.05467v1",
+  "local_pdf": "pdfs/2026_siddharth_jain_cue_r_beyond_the_final_answer_in_retrieval_augmented_generation_9f7aa5c8.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Introduces an intervention-based evaluation framework (REMOVE/REPLACE/DUPLICATE) measuring per-evidence utility on correctness, grounding, and confidence error in RAG, directly relevant to evaluation under unreliable evidence and calibration.",
+  "why_not_or_caveat": "Focus is evaluation methodology rather than defenses or attacks; suspicious arxiv ID year (2026) suggests verifying provenance.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Metrics for Robust RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:03.415071+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.05467v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"calibration_control\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Introduces an intervention-based evaluation framework (REMOVE/REPLACE/DUPLICATE) measuring per-evidence utility on correctness, grounding, and confidence error in RAG, directly relevant to evaluation under unreliable evidence and calibration.\",\n  \"why_not_or_caveat\": \"Focus is evaluation methodology rather than defenses or attacks; suspicious arxiv ID year (2026) suggests verifying provenance.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Metrics for Robust RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

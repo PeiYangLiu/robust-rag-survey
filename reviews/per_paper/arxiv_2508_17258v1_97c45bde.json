@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.17258v1",
+  "title": "Are You Sure You're Positive? Consolidating Chain-of-Thought Agents with Uncertainty Quantification for Aspect-Category Sentiment Analysis",
+  "authors": "Filippos Ventirozos; Peter Appleby; Matthew Shardlow",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.17258v1",
+  "local_pdf": "pdfs/2025_filippos_ventirozos_are_you_sure_you_re_positive_consolidating_chain_of_thought_agents_with_uncertainty_quan_97c45bde.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper addresses aspect-category sentiment analysis using CoT agents with token-level uncertainty, unrelated to RAG robustness.",
+  "why_not_or_caveat": "No retrieval, no RAG context; uncertainty is used for sentiment label aggregation only.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:36.353170+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.17258v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper addresses aspect-category sentiment analysis using CoT agents with token-level uncertainty, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"No retrieval, no RAG context; uncertainty is used for sentiment label aggregation only.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

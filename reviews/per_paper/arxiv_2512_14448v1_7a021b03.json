@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.14448v1",
+  "title": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space",
+  "authors": "Xingfu Zhou; Pengfei Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.14448v1",
+  "local_pdf": "pdfs/2025_xingfu_zhou_reasoning_style_poisoning_of_llm_agents_via_stealthy_style_transfer_process_level_attack_7a021b03.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a novel process-level poisoning attack on RAG agents via stylistic manipulation of retrieved documents, plus a runtime monitor defense, directly addressing adversarial corruption of retrieved evidence and process-level calibration.",
+  "why_not_or_caveat": "Focus is on reasoning style rather than factual content; somewhat narrow attack vector.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Indirect Prompt Injection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:17.902172+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.14448v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"calibration_control\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces a novel process-level poisoning attack on RAG agents via stylistic manipulation of retrieved documents, plus a runtime monitor defense, directly addressing adversarial corruption of retrieved evidence and process-level calibration.\",\"why_not_or_caveat\":\"Focus is on reasoning style rather than factual content; somewhat narrow attack vector.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning and Indirect Prompt Injection\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

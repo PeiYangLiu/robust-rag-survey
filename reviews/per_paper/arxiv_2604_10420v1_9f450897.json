@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.10420v1",
+  "title": "CARE-ECG: Causal Agent-based Reasoning for Explainable and Counterfactual ECG Interpretation",
+  "authors": "Elahe Khatibi; Ziyu Wang; Ankita Sharma; Krishnendu Chakrabarty; Sanaz Rahimi Moosavi; Farshad Firouzi; Amir Rahmani",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.10420v1",
+  "local_pdf": "pdfs/2026_elahe_khatibi_care_ecg_causal_agent_based_reasoning_for_explainable_and_counterfactual_ecg_interpretat_9f450897.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific ECG-LLM system using causal RAG for clinical interpretation; does not study RAG robustness, conflict, or calibration in a general sense.",
+  "why_not_or_caveat": "Application paper in medical domain; robustness claims are domain-specific and not generalizable to robust RAG research.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:35.802481+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.10420v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific ECG-LLM system using causal RAG for clinical interpretation; does not study RAG robustness, conflict, or calibration in a general sense.\",\"why_not_or_caveat\":\"Application paper in medical domain; robustness claims are domain-specific and not generalizable to robust RAG research.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

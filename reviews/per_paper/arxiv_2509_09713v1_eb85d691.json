@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.09713v1",
+  "title": "HANRAG: Heuristic Accurate Noise-resistant Retrieval-Augmented Generation for Multi-hop Question Answering",
+  "authors": "Duolin Sun; Dan Yang; Yue Shen; Yihan Jiao; Zhehao Tan; Jie Feng; Lianzhen Zhong; Jian Wang; Peng Wei; Jinjie Gu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.09713v1",
+  "local_pdf": "pdfs/2025_duolin_sun_hanrag_heuristic_accurate_noise_resistant_retrieval_augmented_generation_for_multi_hop_q_eb85d691.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "HANRAG explicitly targets noise accumulation in iterative multi-hop RAG via document filtering and adaptive query routing/decomposition, relevant to noisy retrieval and retrieval control.",
+  "why_not_or_caveat": "Focus is multi-hop QA performance rather than systematic robustness analysis; noise resistance is a means rather than the central study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and filtering",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.107343+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.09713v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"HANRAG explicitly targets noise accumulation in iterative multi-hop RAG via document filtering and adaptive query routing/decomposition, relevant to noisy retrieval and retrieval control.\",\n  \"why_not_or_caveat\": \"Focus is multi-hop QA performance rather than systematic robustness analysis; noise resistance is a means rather than the central study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and filtering\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

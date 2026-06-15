@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2401.10225v5",
+  "title": "ChatQA: Surpassing GPT-4 on Conversational QA and RAG",
+  "authors": "Zihan Liu; Wei Ping; Rajarshi Roy; Peng Xu; Chankyu Lee; Mohammad Shoeybi; Bryan Catanzaro",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2401.10225v5",
+  "local_pdf": "pdfs/2024_zihan_liu_chatqa_surpassing_gpt_4_on_conversational_qa_and_rag_27380f01.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "ChatQA includes unanswerable question handling in instruction tuning and benchmarks, which touches abstention/uncertainty in RAG. Otherwise it's primarily a general conversational RAG model paper.",
+  "why_not_or_caveat": "Not centrally about robustness, noise, conflict, attacks, or calibration; unanswerable handling is a minor component.",
+  "recommended_use": "background_only",
+  "suggested_section": "Abstention and unanswerable QA",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:25.023400+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2401.10225v5\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"ChatQA includes unanswerable question handling in instruction tuning and benchmarks, which touches abstention/uncertainty in RAG. Otherwise it's primarily a general conversational RAG model paper.\",\n  \"why_not_or_caveat\": \"Not centrally about robustness, noise, conflict, attacks, or calibration; unanswerable handling is a minor component.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Abstention and unanswerable QA\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

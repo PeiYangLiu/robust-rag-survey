@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.04525v1",
+  "title": "GRACE: Reinforcement Learning for Grounded Response and Abstention under Contextual Evidence",
+  "authors": "Yibo Zhao; Jiapeng Zhu; Zichen Ding; Xiang Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.04525v1",
+  "local_pdf": "pdfs/2026_yibo_zhao_grace_reinforcement_learning_for_grounded_response_and_abstention_under_contextual_evide_75383b4b.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "GRACE is an RL framework that jointly trains an RAG model to ground answers in evidence and abstain when retrieved context is insufficient, directly addressing calibration/abstention and unreliable evidence handling.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Abstention and Grounding",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:02.234313+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.04525v1\", \"relevance_score\": 5, \"decision\": \"core\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"GRACE is an RL framework that jointly trains an RAG model to ground answers in evidence and abstain when retrieved context is insufficient, directly addressing calibration/abstention and unreliable evidence handling.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: Abstention and Grounding\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

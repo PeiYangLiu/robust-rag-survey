@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2501.02968v6",
+  "title": "FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models",
+  "authors": "Zhuo Chen; Yuyang Gong; Jiawei Liu; Miaokun Chen; Haotan Liu; Qikai Cheng; Fan Zhang; Wei Lu; Xiaozhong Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.02968v6",
+  "local_pdf": "pdfs/2025_zhuo_chen_flippedrag_black_box_opinion_manipulation_adversarial_attacks_to_retrieval_augmented_gen_09ac61a0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box poisoning attack against RAG retrievers for opinion manipulation on controversial topics, and evaluates defenses, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Focused on opinion manipulation rather than factual poisoning; defenses analysis is limited.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Retrieval Poisoning",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.728773+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2501.02968v6\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a black-box poisoning attack against RAG retrievers for opinion manipulation on controversial topics, and evaluates defenses, directly relevant to adversarial corruption of RAG.\",\n  \"why_not_or_caveat\": \"Focused on opinion manipulation rather than factual poisoning; defenses analysis is limited.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Retrieval Poisoning\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.16548v1",
+  "title": "A Survey on the Security of Long-Term Memory in LLM Agents: Toward Mnemonic Sovereignty",
+  "authors": "Zehao Lin; Chunyu Li; Kai Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.16548v1",
+  "local_pdf": "pdfs/2026_zehao_lin_a_survey_on_the_security_of_long_term_memory_in_llm_agents_toward_mnemonic_sovereignty_a4996b83.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Surveys memory poisoning, retrieval corruption, and governance in LLM agents with long-term memory, overlapping with RAG poisoning and adversarial robustness topics.",
+  "why_not_or_caveat": "Focus is agent memory security/governance broadly, not specifically RAG robustness under unreliable evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and poisoning",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:55.581317+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.16548v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Surveys memory poisoning, retrieval corruption, and governance in LLM agents with long-term memory, overlapping with RAG poisoning and adversarial robustness topics.\",\n  \"why_not_or_caveat\": \"Focus is agent memory security/governance broadly, not specifically RAG robustness under unreliable evidence.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and poisoning\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

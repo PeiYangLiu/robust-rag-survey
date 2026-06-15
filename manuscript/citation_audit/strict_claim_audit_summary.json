@@ -1,0 +1,12 @@
+{
+  "status": "strict_full_text_claim_audit",
+  "audited_occurrences": 33,
+  "failures": [],
+  "support_counts": {
+    "fully_supported": 33
+  },
+  "recommended_action_counts": {
+    "keep": 33
+  },
+  "notes": "Each audit sent the manuscript paragraph/claim and the full extracted cited-paper text to Claude Opus 4.7."
+}

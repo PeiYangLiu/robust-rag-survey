@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2408.04414v1",
+  "title": "Enhancing Robustness of Retrieval-Augmented Language Models with In-Context Learning",
+  "authors": "Seong-Il Park; Seung-Woo Choi; Na-Hyun Kim; Jay-Yoon Lee",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2408.04414v1",
+  "local_pdf": "pdfs/2024_seong_il_park_enhancing_robustness_of_retrieval_augmented_language_models_with_in_context_learning_3439c5dd.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes in-context learning with MRC and conflict demonstrations to make RALMs more robust to unanswerable queries and conflicting retrieved contexts, directly addressing noisy retrieval and knowledge conflict.",
+  "why_not_or_caveat": "Method is relatively lightweight; experiments limited to NQ and WebQ.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Unanswerability Handling",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:31.161182+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2408.04414v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes in-context learning with MRC and conflict demonstrations to make RALMs more robust to unanswerable queries and conflicting retrieved contexts, directly addressing noisy retrieval and knowledge conflict.\",\n  \"why_not_or_caveat\": \"Method is relatively lightweight; experiments limited to NQ and WebQ.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict and Unanswerability Handling\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

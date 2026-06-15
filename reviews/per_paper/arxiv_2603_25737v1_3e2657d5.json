@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.25737v1",
+  "title": "Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
+  "authors": "Yuxing Lu; Xukai Zhao; Wei Wu; Jinzhuo Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.25737v1",
+  "local_pdf": "pdfs/2026_yuxing_lu_training_the_knowledge_base_through_evidence_distillation_and_write_back_enrichment_3e2657d5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses corpus fragmentation and noise by distilling evidence into compact knowledge units, indirectly mitigating noisy retrieval.",
+  "why_not_or_caveat": "Primary focus is KB optimization for accuracy gains, not robustness, conflict, adversaries, or calibration; tangential to survey scope.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / context curation",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.766559+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.25737v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses corpus fragmentation and noise by distilling evidence into compact knowledge units, indirectly mitigating noisy retrieval.\",\n  \"why_not_or_caveat\": \"Primary focus is KB optimization for accuracy gains, not robustness, conflict, adversaries, or calibration; tangential to survey scope.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / context curation\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

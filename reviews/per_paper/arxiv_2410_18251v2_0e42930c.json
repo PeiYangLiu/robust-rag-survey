@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2410.18251v2",
+  "title": "Context-Augmented Code Generation Using Programming Knowledge Graphs",
+  "authors": "Iman Saberi; Fatemeh Fard",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.18251v2",
+  "local_pdf": "pdfs/2024_iman_saberi_context_augmented_code_generation_using_programming_knowledge_graphs_0e42930c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a knowledge-graph-based RAG method for code generation with re-ranking to reduce hallucinations from irrelevant retrieval.",
+  "why_not_or_caveat": "Application-focused on code generation; does not systematically study robustness, noise, conflict, or calibration of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.719799+00:00",
+  "raw_response": "{\"key\":\"arxiv-2410.18251v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a knowledge-graph-based RAG method for code generation with re-ranking to reduce hallucinations from irrelevant retrieval.\",\"why_not_or_caveat\":\"Application-focused on code generation; does not systematically study robustness, noise, conflict, or calibration of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

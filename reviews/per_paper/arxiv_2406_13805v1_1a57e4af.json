@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2406.13805v1",
+  "title": "WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia",
+  "authors": "Yufang Hou; Alessandra Pascale; Javier Carnerero-Cano; Tigran Tchrakian; Radu Marinescu; Elizabeth Daly; Inkit Padhi; Prasanna Sattigeri",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.13805v1",
+  "local_pdf": "pdfs/2024_yufang_hou_wikicontradict_a_benchmark_for_evaluating_llms_on_real_world_knowledge_conflicts_from_wi_1a57e4af.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces WikiContradict, a benchmark of real-world inter-context knowledge conflicts from Wikipedia, evaluating how LLMs handle contradictory retrieved passages in RAG settings.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict / Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:18.326508+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.13805v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces WikiContradict, a benchmark of real-world inter-context knowledge conflicts from Wikipedia, evaluating how LLMs handle contradictory retrieved passages in RAG settings.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict / Benchmarks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

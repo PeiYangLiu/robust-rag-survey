@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.15552v4",
+  "title": "Think Parallax: Solving Multi-Hop Problems via Multi-View Knowledge-Graph-Based Retrieval-Augmented Generation",
+  "authors": "Jinliang Liu; Jiale Bai; Shaoning Zeng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.15552v4",
+  "local_pdf": "pdfs/2025_jinliang_liu_think_parallax_solving_multi_hop_problems_via_multi_view_knowledge_graph_based_retrieval_cb06a38a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-view KG-RAG method for multi-hop QA, touching on noisy path exploration but focused on retrieval architecture rather than robustness under unreliable evidence.",
+  "why_not_or_caveat": "Does not study noise robustness, conflict, adversarial attacks, calibration, or uncertainty in a principled way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.828930+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.15552v4\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a multi-view KG-RAG method for multi-hop QA, touching on noisy path exploration but focused on retrieval architecture rather than robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Does not study noise robustness, conflict, adversarial attacks, calibration, or uncertainty in a principled way.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

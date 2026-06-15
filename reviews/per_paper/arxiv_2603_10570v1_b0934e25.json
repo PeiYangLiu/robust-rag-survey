@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.10570v1",
+  "title": "End-to-End Chatbot Evaluation with Adaptive Reasoning and Uncertainty Filtering",
+  "authors": "Nhi Dang; Tung Le; Huy Tien Nguyen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.10570v1",
+  "local_pdf": "pdfs/2026_nhi_dang_end_to_end_chatbot_evaluation_with_adaptive_reasoning_and_uncertainty_filtering_b0934e25.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes an LLM-as-judge evaluation pipeline with confidence-based filtering for RAG chatbots, tangentially touching on evaluation and uncertainty filtering.",
+  "why_not_or_caveat": "Focused on automating chatbot QA evaluation rather than studying robustness, noise, conflict, attacks, or RAG calibration directly.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation frameworks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:33.643798+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.10570v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes an LLM-as-judge evaluation pipeline with confidence-based filtering for RAG chatbots, tangentially touching on evaluation and uncertainty filtering.\",\"why_not_or_caveat\":\"Focused on automating chatbot QA evaluation rather than studying robustness, noise, conflict, attacks, or RAG calibration directly.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation frameworks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

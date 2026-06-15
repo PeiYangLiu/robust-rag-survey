@@ -1,0 +1,13 @@
+pair_id,area,paper_a_key,paper_a_title,paper_b_key,paper_b_title
+P01,noise robustness,irrelevantContext2023,Making Retrieval-Augmented Language Models Robust to Irrelevant Context,raat2024,Enhancing Noise Robustness of Retrieval-Augmented Language Models with Adaptive Adversarial Training
+P02,noise robustness,irrelevantContext2023,Making Retrieval-Augmented Language Models Robust to Irrelevant Context,rgb2023,Benchmarking Large Language Models in Retrieval-Augmented Generation
+P03,noise robustness,raat2024,Enhancing Noise Robustness of Retrieval-Augmented Language Models with Adaptive Adversarial Training,rgb2023,Benchmarking Large Language Models in Retrieval-Augmented Generation
+P04,distraction,chainOfNote2023,Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models,irrelevantContext2023,Making Retrieval-Augmented Language Models Robust to Irrelevant Context
+P05,control,sufficientContext2024,Sufficient Context: A New Lens on Retrieval Augmented Generation Systems,selfRAG2023,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+P06,control,calibRAG2025,Calibrated Retrieval-Augmented Generation,selfRAG2023,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+P07,conflict-security,faithfulRAG2025,FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation,poisonedRAG2024,PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models
+P08,conflict-security,astuteRAG2025,Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models,poisonedRAG2024,PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models
+P09,security,poisonedRAG2024,PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models,certifiedRAG2024,Certifiably Robust RAG against Retrieval Corruption
+P10,evaluation,ragTruth2024,RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models,rgb2023,Benchmarking Large Language Models in Retrieval-Augmented Generation
+P11,evaluation,rgb2023,Benchmarking Large Language Models in Retrieval-Augmented Generation,sufficientContext2024,Sufficient Context: A New Lens on Retrieval Augmented Generation Systems
+P12,faithfulness,ragTruth2024,RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models,faithfulRAG2025,FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation

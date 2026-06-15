@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2605.06919v1",
+  "title": "Can LLMs Take Retrieved Information with a Grain of Salt?",
+  "authors": "Behzad Shayegh; Mohamed Osama Ahmed; Fred Tung; Leo Feng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.06919v1",
+  "local_pdf": "pdfs/2026_behzad_shayegh_can_llms_take_retrieved_information_with_a_grain_of_salt_f42f544e.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Proposes a formal metric and interaction strategy for LLMs to adapt RAG outputs to retrieved-context certainty, addressing calibration, uncertainty handling, and prior-vs-context conflict—core themes of the survey.",
+  "why_not_or_caveat": "Assumes externally provided certainty scores rather than estimating them; focused on obedience to scores rather than retrieval robustness per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.82,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:06.174066+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.06919v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\", \"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Proposes a formal metric and interaction strategy for LLMs to adapt RAG outputs to retrieved-context certainty, addressing calibration, uncertainty handling, and prior-vs-context conflict—core themes of the survey.\",\n  \"why_not_or_caveat\": \"Assumes externally provided certainty scores rather than estimating them; focused on obedience to scores rather than retrieval robustness per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.82\n}",
+  "skipped_existing": false
+}

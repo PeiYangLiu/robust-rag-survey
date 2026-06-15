@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.05360v1",
+  "title": "Beyond ROUGE: N-Gram Subspace Features for LLM Hallucination Detection",
+  "authors": "Jerry Li; Evangelos Papalexakis",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.05360v1",
+  "local_pdf": "pdfs/2025_jerry_li_beyond_rouge_n_gram_subspace_features_for_llm_hallucination_detection_0d0a0d11.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an n-gram tensor feature method for hallucination detection in LLM outputs, evaluated on HaluEval. Not focused on RAG robustness, retrieval reliability, or evidence-based settings.",
+  "why_not_or_caveat": "Hallucination detection via text features only; does not address noisy/conflicting/adversarial evidence or RAG calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:09.863178+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.05360v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an n-gram tensor feature method for hallucination detection in LLM outputs, evaluated on HaluEval. Not focused on RAG robustness, retrieval reliability, or evidence-based settings.\",\"why_not_or_caveat\":\"Hallucination detection via text features only; does not address noisy/conflicting/adversarial evidence or RAG calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

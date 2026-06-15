@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.19128v1",
+  "title": "GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking",
+  "authors": "Siqi Liang; Xiawei Wang; Yudi Zhang; Jiaying Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.19128v1",
+  "local_pdf": "pdfs/2026_siqi_liang_graphrag_irl_personalized_recommendation_with_graph_grounded_inverse_reinforcement_learn_e6b983c7.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Recommendation system using GraphRAG and IRL; not about robust RAG under unreliable evidence.",
+  "why_not_or_caveat": "Application paper, does not study robustness, conflict, attacks, or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.533873+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.19128v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Recommendation system using GraphRAG and IRL; not about robust RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Application paper, does not study robustness, conflict, attacks, or calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

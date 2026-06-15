@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.04195v2",
+  "title": "Computational Turing Test Reveals Systematic Differences Between Human and AI Language",
+  "authors": "Nicolò Pagan; Petter Törnberg; Christopher A. Bail; Anikó Hannák; Christopher Barrie",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.04195v2",
+  "local_pdf": "pdfs/2025_nicol_pagan_computational_turing_test_reveals_systematic_differences_between_human_and_ai_language_ca5dce42.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper evaluates LLM human-likeness in social simulation; not about RAG robustness.",
+  "why_not_or_caveat": "Out of scope: focuses on Turing-test validation of LLM-generated social media text, not retrieval robustness, conflict, or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:10.194094+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.04195v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Paper evaluates LLM human-likeness in social simulation; not about RAG robustness.\",\"why_not_or_caveat\":\"Out of scope: focuses on Turing-test validation of LLM-generated social media text, not retrieval robustness, conflict, or calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

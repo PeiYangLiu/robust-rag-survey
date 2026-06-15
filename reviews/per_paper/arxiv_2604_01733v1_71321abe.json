@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.01733v1",
+  "title": "From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents",
+  "authors": "Meftun Akarsu; Recep Kaan Karaman; Christopher Mierbach",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.01733v1",
+  "local_pdf": "pdfs/2026_meftun_akarsu_from_bm25_to_corrective_rag_benchmarking_retrieval_strategies_for_text_and_table_documen_71321abe.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks retrieval strategies (including CRAG-style corrective retrieval) on financial text-and-table QA, touching on retrieval quality which underlies RAG robustness.",
+  "why_not_or_caveat": "Focus is on retrieval method comparison for accuracy, not on noise, conflict, adversarial robustness, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:32.634308+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.01733v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Benchmarks retrieval strategies (including CRAG-style corrective retrieval) on financial text-and-table QA, touching on retrieval quality which underlies RAG robustness.\",\"why_not_or_caveat\":\"Focus is on retrieval method comparison for accuracy, not on noise, conflict, adversarial robustness, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

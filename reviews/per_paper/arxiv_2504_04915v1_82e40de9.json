@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.04915v1",
+  "title": "Collab-RAG: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box LLM Collaboration",
+  "authors": "Ran Xu; Wenqi Shi; Yuchen Zhuang; Yue Yu; Joyce C. Ho; Haoyu Wang; Carl Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.04915v1",
+  "local_pdf": "pdfs/2025_ran_xu_collab_rag_boosting_retrieval_augmented_generation_for_complex_question_answering_via_wh_82e40de9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes query decomposition to reduce irrelevant context retrieval in multi-hop RAG, tangentially related to noisy retrieval mitigation.",
+  "why_not_or_caveat": "Primary focus is improving multi-hop QA accuracy via SLM/LLM collaboration, not robustness, calibration, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "Query decomposition for noisy retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:21.408419+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.04915v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes query decomposition to reduce irrelevant context retrieval in multi-hop RAG, tangentially related to noisy retrieval mitigation.\",\n  \"why_not_or_caveat\": \"Primary focus is improving multi-hop QA accuracy via SLM/LLM collaboration, not robustness, calibration, or adversarial settings.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Query decomposition for noisy retrieval\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2410.10813v2",
+  "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+  "authors": "Di Wu; Hongwei Wang; Wenhao Yu; Yuwei Zhang; Kai-Wei Chang; Dong Yu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.10813v2",
+  "local_pdf": "pdfs/2024_di_wu_longmemeval_benchmarking_chat_assistants_on_long_term_interactive_memory_55a3daa9.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "LongMemEval benchmarks long-term memory in chat assistants, including abstention on unanswerable questions and knowledge updates, which touch on calibration and conflict handling in retrieval-augmented memory systems.",
+  "why_not_or_caveat": "Primary focus is memory/personalization benchmarking, not robustness of RAG under noisy, adversarial, or conflicting evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:18.020848+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.10813v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"LongMemEval benchmarks long-term memory in chat assistants, including abstention on unanswerable questions and knowledge updates, which touch on calibration and conflict handling in retrieval-augmented memory systems.\",\n  \"why_not_or_caveat\": \"Primary focus is memory/personalization benchmarking, not robustness of RAG under noisy, adversarial, or conflicting evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and benchmarks\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

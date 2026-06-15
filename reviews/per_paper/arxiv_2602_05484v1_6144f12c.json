@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.05484v1",
+  "title": "Clouding the Mirror: Stealthy Prompt Injection Attacks Targeting LLM-based Phishing Detection",
+  "authors": "Takashi Koide; Hiroki Nakano; Daiki Chiba",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.05484v1",
+  "local_pdf": "pdfs/2026_takashi_koide_clouding_the_mirror_stealthy_prompt_injection_attacks_targeting_llm_based_phishing_detec_6144f12c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies prompt injection attacks and defenses (including allowlist-based RAG) in LLM-based phishing detection, tangentially related to indirect prompt injection threats.",
+  "why_not_or_caveat": "Focus is phishing detection, not RAG systems per se; RAG appears only as a defense component. Limited direct relevance to robust RAG taxonomy.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / indirect prompt injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:41.514232+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.05484v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Studies prompt injection attacks and defenses (including allowlist-based RAG) in LLM-based phishing detection, tangentially related to indirect prompt injection threats.\",\n  \"why_not_or_caveat\": \"Focus is phishing detection, not RAG systems per se; RAG appears only as a defense component. Limited direct relevance to robust RAG taxonomy.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial corruption / indirect prompt injection\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

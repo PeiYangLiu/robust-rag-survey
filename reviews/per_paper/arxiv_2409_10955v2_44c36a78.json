@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.10955v2",
+  "title": "Investigating Context-Faithfulness in Large Language Models: The Roles of Memory Strength and Evidence Style",
+  "authors": "Yuepei Li; Kang Zhou; Qiao Qiao; Bach Nguyen; Qing Wang; Qi Li",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.10955v2",
+  "local_pdf": "pdfs/2024_yuepei_li_investigating_context_faithfulness_in_large_language_models_the_roles_of_memory_strength_44c36a78.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes context faithfulness of LLMs under knowledge conflicts, quantifying memory strength and the effect of evidence style on receptiveness to retrieved evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:11.183945+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2409.10955v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes context faithfulness of LLMs under knowledge conflicts, quantifying memory strength and the effect of evidence style on receptiveness to retrieved evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

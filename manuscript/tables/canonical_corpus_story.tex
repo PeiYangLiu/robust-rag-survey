@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.15\linewidth}>{\raggedright\arraybackslash}p{0.11\linewidth}>{\raggedright\arraybackslash}p{0.31\linewidth}X}
+\toprule
+\textbf{Name} & \textbf{Count} & \textbf{Construction rule} & \textbf{Role in this paper} \\
+\midrule
+Retrieved/open corpus & 1,904 $\rightarrow$ 1,445 $\rightarrow$ 1,399 $\rightarrow$ 536 & Search records, open PDFs, deduplicated candidates, then relevant included papers. & Candidate universe; not a prevalence denominator. \\
+Base scoping set & 300 papers & Core reading set plus representative supporting work across failure categories. & Early scoping scaffold; distinct from the source-blind citation audit. \\
+Venue-augmented scoping set & 326 papers & Base scoping set plus 26 venue-linked additions from follow-up triage. & Boundary and recall-risk check; not the evidence-map denominator. \\
+Map-A candidates & 274 records & 250 base evidence records plus 24 venue-linked evidence additions. & Double-coded by two human sources before adjudication. \\
+Map A adjudicated seed & 268 records & Map-A candidates after six final exclusions. & IAA/adjudication basis and provenance snapshot, not the canonical synthesis map. \\
+Venue PDF collection (200 papers) & 200 local PDFs & Venue/proceedings-linked open PDFs from ACL-family, ICLR, ICML, NeurIPS, and related sources. & Venue-backed reading/audit collection; future census substrate. \\
+Extension PDF collection (100 papers) & 100 local PDFs & Multimodal, graph, table, agentic/tool, code/symbolic, domain, and long-context RAG PDFs. & Extension-layer coverage, used only when tied to evidence-state/action-control claims. \\
+Source-blind citation audit & 300 decisions & Source-blind human citation decisions over the venue and extension pools: 115 main, 25 case-study, 110 appendix, 22 background, 28 exclude. & Human audit for which venue/extension papers enter main text, case studies, appendix, or exclusion. \\
+\textbf{Map B adjudicated synthesis map} & \textbf{342 records} & Map A (268) plus 74 retained venue/extension additions after second coding and final adjudication; 74 candidate additions were excluded. & \textbf{Primary evidence map for the current synthesis, source-strata analysis, and venue sensitivity.} \\
+\bottomrule
+\end{tabularx}
+\caption{Canonical corpus story. All synthesis counts in the main text refer to the 342-row adjudicated Map B unless a table explicitly says it reports Map A IAA/adjudication evidence or the 416-row pre-adjudication candidate map.}
+\label{tab:canonical-corpus-story}
+\end{table*}

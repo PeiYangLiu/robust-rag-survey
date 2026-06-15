@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.20309v1",
+  "title": "BubbleRAG: Evidence-Driven Retrieval-Augmented Generation for Black-Box Knowledge Graphs",
+  "authors": "Duyi Pan; Tianao Lou; Xin Li; Haoze Song; Yiwen Wu; Mengyi Deng; Mingyu Yang; Wei Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.20309v1",
+  "local_pdf": "pdfs/2026_duyi_pan_bubblerag_evidence_driven_retrieval_augmented_generation_for_black_box_knowledge_graphs_7534f2a9.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KG-RAG retrieval method aimed at improving recall/precision over black-box KGs.",
+  "why_not_or_caveat": "Focuses on retrieval optimization for KG-RAG, not on robustness, noise, conflict, adversarial attacks, calibration, or abstention.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.948349+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.20309v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a KG-RAG retrieval method aimed at improving recall/precision over black-box KGs.\", \"why_not_or_caveat\": \"Focuses on retrieval optimization for KG-RAG, not on robustness, noise, conflict, adversarial attacks, calibration, or abstention.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.11483v3",
+  "title": "Uncertainty Quantification for Retrieval-Augmented Reasoning",
+  "authors": "Heydar Soudani; Hamed Zamani; Faegheh Hasibi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.11483v3",
+  "local_pdf": "pdfs/2025_heydar_soudani_uncertainty_quantification_for_retrieval_augmented_reasoning_dcf03919.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a UQ method for retrieval-augmented reasoning that captures uncertainty from both retriever and generator, and applies it to abstention and model selection—directly relevant to calibration/control and uncertainty under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Control / Uncertainty in RAG",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:47.453177+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.11483v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"ood_uncertainty\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a UQ method for retrieval-augmented reasoning that captures uncertainty from both retriever and generator, and applies it to abstention and model selection—directly relevant to calibration/control and uncertainty under unreliable evidence.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Calibration and Control / Uncertainty in RAG\",\"confidence\":0.92}",
+  "skipped_existing": false
+}

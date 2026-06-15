@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.27768v1",
+  "title": "TailNLG: A Multilingual Benchmark Addressing Verbalization of Long-Tail Entities",
+  "authors": "Lia Draetta; Michael Oliverio; Virginia Ramón-Ferrer; Pier Felice Balestrucci; Flaviana Corallo; Carlos Badenes-Olmedo; Alessandro Mazzei; Marco Antonio Stranisci; Rossana Damiano",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.27768v1",
+  "local_pdf": "pdfs/2026_lia_draetta_tailnlg_a_multilingual_benchmark_addressing_verbalization_of_long_tail_entities_e0973984.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a multilingual RDF-to-Text benchmark for long-tail entities, mentioning RAG and model uncertainty but focused on data-to-text verbalization rather than RAG robustness.",
+  "why_not_or_caveat": "Not about retrieval robustness, conflict, adversarial corruption, or calibration in RAG; only tangentially mentions RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.573913+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.27768v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a multilingual RDF-to-Text benchmark for long-tail entities, mentioning RAG and model uncertainty but focused on data-to-text verbalization rather than RAG robustness.\",\"why_not_or_caveat\":\"Not about retrieval robustness, conflict, adversarial corruption, or calibration in RAG; only tangentially mentions RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

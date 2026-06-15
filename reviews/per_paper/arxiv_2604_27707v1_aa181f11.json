@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.27707v1",
+  "title": "Contextual Agentic Memory is a Memo, Not True Memory",
+  "authors": "Binyan Xu; Xilin Dai; Kehuan Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.27707v1",
+  "local_pdf": "pdfs/2026_binyan_xu_contextual_agentic_memory_is_a_memo_not_true_memory_aa181f11.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Position paper arguing retrieval-based agentic memory is structurally vulnerable to persistent memory poisoning, touching on RAG security and limitations.",
+  "why_not_or_caveat": "Primarily a conceptual/position piece on memory vs lookup; not focused on robust RAG techniques, benchmarks, or defenses in depth.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / memory poisoning",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:03.344820+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.27707v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\", \"other\"],\n  \"paper_role\": \"theory\",\n  \"why_relevant\": \"Position paper arguing retrieval-based agentic memory is structurally vulnerable to persistent memory poisoning, touching on RAG security and limitations.\",\n  \"why_not_or_caveat\": \"Primarily a conceptual/position piece on memory vs lookup; not focused on robust RAG techniques, benchmarks, or defenses in depth.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial corruption / memory poisoning\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

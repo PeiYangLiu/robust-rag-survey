@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.10143v1",
+  "title": "Reason and Verify: A Framework for Faithful Retrieval-Augmented Generation",
+  "authors": "Eeham Khan; Luis Rodriguez; Marc Queudot",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.10143v1",
+  "local_pdf": "pdfs/2026_eeham_khan_reason_and_verify_a_framework_for_faithful_retrieval_augmented_generation_85bca61f.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a biomedical RAG pipeline with rationale generation and a faithfulness verification taxonomy, tangentially related to grounding/faithfulness in RAG.",
+  "why_not_or_caveat": "Application-oriented domain pipeline; does not directly study noise, conflict, adversarial robustness, or calibration in a general way.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:24.724374+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.10143v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\",\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a biomedical RAG pipeline with rationale generation and a faithfulness verification taxonomy, tangentially related to grounding/faithfulness in RAG.\",\"why_not_or_caveat\":\"Application-oriented domain pipeline; does not directly study noise, conflict, adversarial robustness, or calibration in a general way.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

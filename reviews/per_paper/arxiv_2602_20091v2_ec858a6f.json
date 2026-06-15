@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2602.20091v2",
+  "title": "How Retrieved Context Shapes Internal Representations in RAG",
+  "authors": "Samuel Yeh; Sharon Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.20091v2",
+  "local_pdf": "pdfs/2026_samuel_yeh_how_retrieved_context_shapes_internal_representations_in_rag_ec858a6f.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes how relevant, distracting, and random retrieved documents shape LLM internal representations and downstream behavior in RAG, connecting noise/distraction to abstention and parametric-vs-retrieved interactions.",
+  "why_not_or_caveat": "Representation-level analysis rather than a new robustness method or benchmark.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval analysis",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:21.484912+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.20091v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\", \"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes how relevant, distracting, and random retrieved documents shape LLM internal representations and downstream behavior in RAG, connecting noise/distraction to abstention and parametric-vs-retrieved interactions.\",\n  \"why_not_or_caveat\": \"Representation-level analysis rather than a new robustness method or benchmark.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and noisy retrieval analysis\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

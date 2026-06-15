@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.01696v3",
+  "title": "CoCoA: Collaborative Chain-of-Agents for Parametric-Retrieved Knowledge Synergy",
+  "authors": "Yi Jiang; Sendong Zhao; Jianbo Li; Haochun Wang; Lizhe Zhang; Yan Liu; Bing Qin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.01696v3",
+  "local_pdf": "pdfs/2025_yi_jiang_cocoa_collaborative_chain_of_agents_for_parametric_retrieved_knowledge_synergy_5cf19eee.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-agent framework that explicitly synergizes parametric and retrieved knowledge, addressing the parametric vs retrieved knowledge conflict and mitigating cases where retrieved content misleads generation.",
+  "why_not_or_caveat": "Focus is on performance improvement rather than systematic robustness analysis; conflict handling is implicit.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:22.272234+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.01696v3\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a multi-agent framework that explicitly synergizes parametric and retrieved knowledge, addressing the parametric vs retrieved knowledge conflict and mitigating cases where retrieved content misleads generation.\",\"why_not_or_caveat\":\"Focus is on performance improvement rather than systematic robustness analysis; conflict handling is implicit.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

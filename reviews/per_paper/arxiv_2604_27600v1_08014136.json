@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.27600v1",
+  "title": "Purifying Multimodal Retrieval: Fragment-Level Evidence Selection for RAG",
+  "authors": "Xihang Wang; Zihan Wang; Chengkai Huang; Cao Liu; Ke Zeng; Quan Z. Sheng; Lina Yao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.27600v1",
+  "local_pdf": "pdfs/2026_xihang_wang_purifying_multimodal_retrieval_fragment_level_evidence_selection_for_rag_08014136.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes fragment-level evidence selection to purify noisy multimodal retrieval, directly addressing distraction and irrelevant content within retrieved documents in MRAG.",
+  "why_not_or_caveat": "Focused on multimodal setting and selection method rather than broader robustness taxonomy.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and evidence filtering",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.097012+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.27600v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes fragment-level evidence selection to purify noisy multimodal retrieval, directly addressing distraction and irrelevant content within retrieved documents in MRAG.\",\n  \"why_not_or_caveat\": \"Focused on multimodal setting and selection method rather than broader robustness taxonomy.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and evidence filtering\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

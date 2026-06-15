@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-06-02T13:13:29.668688+00:00",
+  "model": "claude-opus-4.7",
+  "deduped_reviewed_paper_count": 1399,
+  "raw_per_paper_json_count": 1444,
+  "decision_counts": {
+    "core": 112,
+    "include": 424,
+    "background": 289,
+    "exclude": 574
+  },
+  "recommended_use_counts": {
+    "must_discuss": 87,
+    "cite_in_section": 461,
+    "background_only": 282,
+    "exclude": 569
+  },
+  "category_counts": {
+    "other": 585,
+    "calibration_control": 290,
+    "evaluation_benchmark": 272,
+    "noisy_retrieval": 250,
+    "adversarial_corruption": 242,
+    "knowledge_conflict": 159,
+    "ood_uncertainty": 125,
+    "distraction": 69,
+    "survey_related": 35,
+    "application": 6,
+    "analysis": 4
+  },
+  "target_counts": {
+    "true_core_available": 112,
+    "include_available": 424,
+    "selected_available_core_or_include": 536,
+    "target_core_100_rows": 100,
+    "target_core_100_true_core_rows": 100,
+    "target_core_100_promoted_include_rows": 0,
+    "target_survey_300_rows": 300
+  },
+  "outputs": {
+    "all_reviewed_deduped": "/home/v-peiyangliu/robust-rag-survey/reviews/all_reviewed_deduped.csv",
+    "target_core_100": "/home/v-peiyangliu/robust-rag-survey/reviews/target_core_100.csv",
+    "target_survey_300": "/home/v-peiyangliu/robust-rag-survey/reviews/target_survey_300.csv",
+    "selected_for_survey": "/home/v-peiyangliu/robust-rag-survey/reviews/selected_for_survey.csv"
+  }
+}

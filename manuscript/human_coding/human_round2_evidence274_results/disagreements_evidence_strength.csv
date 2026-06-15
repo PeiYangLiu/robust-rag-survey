@@ -1,0 +1,7 @@
+paper_id,title,field,source_01_label,source_02_label,url
+rrag038,To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts,evidence_strength,venue_linked_preprint,peer_reviewed_proceedings,https://arxiv.org/abs/2410.14675v2
+rrag057,Practical Poisoning Attacks against Retrieval-Augmented Generation,evidence_strength,venue_linked_preprint,arxiv_only_preprint,https://arxiv.org/abs/2504.03957
+rrag103,One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Image,evidence_strength,arxiv_only_preprint,venue_linked_preprint,https://arxiv.org/abs/2504.02132v4
+rrag143,Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG,evidence_strength,arxiv_only_preprint,venue_linked_preprint,https://arxiv.org/abs/2605.27105v2
+rrag145,KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation,evidence_strength,arxiv_only_preprint,peer_reviewed_proceedings,https://arxiv.org/abs/2603.11501v2
+rrag199,EmoRAG: Evaluating RAG Robustness to Symbolic Perturbations,evidence_strength,venue_linked_preprint,arxiv_only_preprint,https://arxiv.org/abs/2512.01335v1

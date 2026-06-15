@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.18362v1",
+  "title": "ArbGraph: Conflict-Aware Evidence Arbitration for Reliable Long-Form Retrieval-Augmented Generation",
+  "authors": "Qingying Niu; Yuhao Wang; Ruiyang Ren; Bohui Fang; Wayne Xin Zhao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.18362v1",
+  "local_pdf": "pdfs/2026_qingying_niu_arbgraph_conflict_aware_evidence_arbitration_for_reliable_long_form_retrieval_augmented_c7ff6f5e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "ArbGraph directly addresses conflict resolution and noise suppression in RAG by arbitrating evidence credibility through a conflict-aware graph before generation, targeting retrieved-vs-retrieved conflicts and noisy long-form RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict / Evidence Arbitration",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:37.448934+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.18362v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"ArbGraph directly addresses conflict resolution and noise suppression in RAG by arbitrating evidence credibility through a conflict-aware graph before generation, targeting retrieved-vs-retrieved conflicts and noisy long-form RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict / Evidence Arbitration\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

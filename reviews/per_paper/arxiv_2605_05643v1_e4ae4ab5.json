@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05643v1",
+  "title": "Text-Graph Synergy: A Bidirectional Verification and Completion Framework for RAG",
+  "authors": "Jiarui Zhong; Hong Cai Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05643v1",
+  "local_pdf": "pdfs/2026_jiarui_zhong_text_graph_synergy_a_bidirectional_verification_and_completion_framework_for_rag_e4ae4ab5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hybrid text-graph RAG framework that re-ranks textual evidence to filter pseudo-evidence/semantic noise, touching on noisy retrieval issues.",
+  "why_not_or_caveat": "Primary focus is multi-hop reasoning performance via text-graph synergy, not robustness, calibration, conflict, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / hybrid retrieval methods",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.668361+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.05643v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a hybrid text-graph RAG framework that re-ranks textual evidence to filter pseudo-evidence/semantic noise, touching on noisy retrieval issues.\", \"why_not_or_caveat\": \"Primary focus is multi-hop reasoning performance via text-graph synergy, not robustness, calibration, conflict, or adversarial settings.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Noisy retrieval / hybrid retrieval methods\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

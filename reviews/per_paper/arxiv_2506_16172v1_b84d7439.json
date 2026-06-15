@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.16172v1",
+  "title": "SGIC: A Self-Guided Iterative Calibration Framework for RAG",
+  "authors": "Guanhua Chen; Yutong Yao; Lidia S. Chao; Xuebo Liu; Derek F. Wong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.16172v1",
+  "local_pdf": "pdfs/2025_guanhua_chen_sgic_a_self_guided_iterative_calibration_framework_for_rag_b84d7439.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a self-guided iterative calibration framework using uncertainty scores over documents and answers to refine RAG outputs, directly addressing calibration/control and uncertainty estimation under retrieval noise.",
+  "why_not_or_caveat": "Focuses on multi-hop QA accuracy rather than adversarial or conflict scenarios.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:34.982463+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.16172v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a self-guided iterative calibration framework using uncertainty scores over documents and answers to refine RAG outputs, directly addressing calibration/control and uncertainty estimation under retrieval noise.\",\"why_not_or_caveat\":\"Focuses on multi-hop QA accuracy rather than adversarial or conflict scenarios.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2009.08553",
+  "title": "\\[[arxiv](https://arxiv.org/pdf/2009.08553)\\] Generation-Augmented Retrieval for Open-Domain Question Answering",
+  "authors": "",
+  "year": "2009",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2009.08553",
+  "local_pdf": "pdfs/2009_arxiv_2009_08553_arxiv_https_arxiv_org_pdf_2009_08553_generation_augmented_retrieval_for_open_dom_8786977c.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes query expansion via generation to improve retrieval for OpenQA; not about robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Focuses on retrieval accuracy improvement, not unreliable evidence concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:32.464274+00:00",
+  "raw_response": "{\"key\":\"arxiv-2009.08553\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes query expansion via generation to improve retrieval for OpenQA; not about robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Focuses on retrieval accuracy improvement, not unreliable evidence concerns.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

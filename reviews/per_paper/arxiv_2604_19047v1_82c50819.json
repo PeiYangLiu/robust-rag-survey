@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.19047v1",
+  "title": "RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora",
+  "authors": "Hanjun Cho; Jay-Yoon Lee",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.19047v1",
+  "local_pdf": "pdfs/2026_hanjun_cho_rare_redundancy_aware_retrieval_evaluation_framework_for_high_similarity_corpora_82c50819.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a redundancy-aware RAG retrieval evaluation framework and benchmark (RedQA) exposing robustness gaps in retrievers on enterprise corpora with high inter-document similarity.",
+  "why_not_or_caveat": "Focuses on evaluation methodology for redundancy rather than directly on noise/conflict/adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:43.048722+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.19047v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"noisy_retrieval\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a redundancy-aware RAG retrieval evaluation framework and benchmark (RedQA) exposing robustness gaps in retrievers on enterprise corpora with high inter-document similarity.\",\"why_not_or_caveat\":\"Focuses on evaluation methodology for redundancy rather than directly on noise/conflict/adversarial robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.22217v1",
+  "title": "RAGdb: A Zero-Dependency, Embeddable Architecture for Multimodal Retrieval-Augmented Generation on the Edge",
+  "authors": "Ahmed Bin Khalid",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.22217v1",
+  "local_pdf": "pdfs/2025_ahmed_bin_khalid_ragdb_a_zero_dependency_embeddable_architecture_for_multimodal_retrieval_augmented_gener_e3e1d9c0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper proposes an embedded RAG architecture for edge devices, focused on efficiency, not robustness.",
+  "why_not_or_caveat": "Does not address noise, conflict, adversarial robustness, calibration, or uncertainty.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.187928+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.22217v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper proposes an embedded RAG architecture for edge devices, focused on efficiency, not robustness.\",\"why_not_or_caveat\":\"Does not address noise, conflict, adversarial robustness, calibration, or uncertainty.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.13589v3",
+  "title": "AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding",
+  "authors": "Zhucun Xue; Jiangning Zhang; Xurong Xie; Yuxuan Cai; Yong Liu; Xiangtai Li; Dacheng Tao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.13589v3",
+  "local_pdf": "pdfs/2025_zhucun_xue_adavideorag_omni_contextual_adaptive_retrieval_augmented_efficient_long_video_understand_443e2467.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive retrieval routing by query complexity for video understanding, which tangentially touches on control of when/how to retrieve.",
+  "why_not_or_caveat": "Focus is efficiency and accuracy for long-video QA, not robustness to noisy/conflicting/adversarial evidence or calibration/abstention.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:23.689027+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.13589v3\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive retrieval routing by query complexity for video understanding, which tangentially touches on control of when/how to retrieve.\",\"why_not_or_caveat\":\"Focus is efficiency and accuracy for long-video QA, not robustness to noisy/conflicting/adversarial evidence or calibration/abstention.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

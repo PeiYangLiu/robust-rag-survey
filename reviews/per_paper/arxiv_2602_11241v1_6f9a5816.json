@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.11241v1",
+  "title": "Active Zero: Self-Evolving Vision-Language Models through Active Environment Exploration",
+  "authors": "Jinghan He; Junfeng Fang; Feng Xiong; Zijun Yao; Fei Shen; Haiyun Guo; Jinqiao Wang; Tat-Seng Chua",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.11241v1",
+  "local_pdf": "pdfs/2026_jinghan_he_active_zero_self_evolving_vision_language_models_through_active_environment_exploration_6f9a5816.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns self-play VLM training via active image retrieval, not RAG robustness.",
+  "why_not_or_caveat": "No focus on noisy/adversarial evidence, calibration, or RAG reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.954681+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.11241v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns self-play VLM training via active image retrieval, not RAG robustness.\",\"why_not_or_caveat\":\"No focus on noisy/adversarial evidence, calibration, or RAG reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

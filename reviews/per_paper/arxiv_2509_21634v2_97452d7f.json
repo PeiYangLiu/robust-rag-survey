@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21634v2",
+  "title": "MobiLLM: An Agentic AI Framework for Closed-Loop Threat Mitigation in 6G Open RANs",
+  "authors": "Prakhar Sharma; Haohuang Wen; Vinod Yegneswaran; Ashish Gehani; Phillip Porras; Zhiqiang Lin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21634v2",
+  "local_pdf": "pdfs/2025_prakhar_sharma_mobillm_an_agentic_ai_framework_for_closed_loop_threat_mitigation_in_6g_open_rans_97452d7f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for telecom threat mitigation but does not study RAG robustness, conflict, calibration, or attacks on retrieval.",
+  "why_not_or_caveat": "Application paper in 6G O-RAN security; RAG is only a component for grounding, not analyzed for reliability under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:14.088786+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.21634v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for telecom threat mitigation but does not study RAG robustness, conflict, calibration, or attacks on retrieval.\",\"why_not_or_caveat\":\"Application paper in 6G O-RAN security; RAG is only a component for grounding, not analyzed for reliability under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

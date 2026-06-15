@@ -1,0 +1,6 @@
+{
+  "packet": "expert_validation_60pair_annotation_20260607",
+  "pairs": 60,
+  "status": "annotation_docs_only_no_results",
+  "warning": "No validation results are reported until real protocol/control/gold labels are collected."
+}

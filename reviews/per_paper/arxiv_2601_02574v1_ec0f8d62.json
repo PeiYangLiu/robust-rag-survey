@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.02574v1",
+  "title": "Fact-Checking with Large Language Models via Probabilistic Certainty and Consistency",
+  "authors": "Haoran Wang; Maryam Khalid; Qiong Wu; Jian Gao; Cheng Cao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.02574v1",
+  "local_pdf": "pdfs/2026_haoran_wang_fact_checking_with_large_language_models_via_probabilistic_certainty_and_consistency_ec0f8d62.pdf",
+  "metadata_topics": "noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a confidence-based adaptive routing mechanism deciding when to rely on parametric knowledge vs trigger retrieval/deep search, directly addressing calibration and control of retrieval under uncertainty.",
+  "why_not_or_caveat": "Focused on fact-checking rather than general RAG QA; robustness to noisy/adversarial evidence not the central concern.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:32.625686+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.02574v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a confidence-based adaptive routing mechanism deciding when to rely on parametric knowledge vs trigger retrieval/deep search, directly addressing calibration and control of retrieval under uncertainty.\",\n  \"why_not_or_caveat\": \"Focused on fact-checking rather than general RAG QA; robustness to noisy/adversarial evidence not the central concern.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

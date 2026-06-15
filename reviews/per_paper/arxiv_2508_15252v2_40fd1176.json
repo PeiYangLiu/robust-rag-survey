@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.15252v2",
+  "title": "Retrieval-Augmented Review Generation for Poisoning Recommender Systems",
+  "authors": "Shiyi Yang; Xinshu Li; Guanglin Zhou; Chen Wang; Xiwei Xu; Liming Zhu; Lina Yao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.15252v2",
+  "local_pdf": "pdfs/2025_shiyi_yang_retrieval_augmented_review_generation_for_poisoning_recommender_systems_40fd1176.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Paper concerns poisoning attacks on recommender systems via retrieval-augmented review generation, not RAG robustness for LLM QA.",
+  "why_not_or_caveat": "Out of scope: target is recommender systems, not RAG pipelines under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:12.200859+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.15252v2\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Paper concerns poisoning attacks on recommender systems via retrieval-augmented review generation, not RAG robustness for LLM QA.\",\n  \"why_not_or_caveat\": \"Out of scope: target is recommender systems, not RAG pipelines under unreliable evidence.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

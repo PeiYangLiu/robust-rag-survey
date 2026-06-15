@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.09319v2",
+  "title": "Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation",
+  "authors": "Zhisheng Qi; Utkarsh Sahu; Li Ma; Haoyu Han; Ryan Rossi; Franck Dernoncourt; Mahantesh Halappanavar; Nesreen Ahmed; Yushun Dong; Yue Zhao; Yu Zhang; Yu Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.09319v2",
+  "local_pdf": "pdfs/2026_zhisheng_qi_benchmarking_knowledge_extraction_attack_and_defense_on_retrieval_augmented_generation_4b2f8aaa.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a unified benchmark of knowledge-extraction attacks and defenses on RAG systems, directly relevant to the adversarial corruption and evaluation aspects of the survey.",
+  "why_not_or_caveat": "Focuses on privacy/extraction rather than poisoning or prompt injection, so it covers a narrower slice of adversarial RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:46.903734+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.09319v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Provides a unified benchmark of knowledge-extraction attacks and defenses on RAG systems, directly relevant to the adversarial corruption and evaluation aspects of the survey.\",\n  \"why_not_or_caveat\": \"Focuses on privacy/extraction rather than poisoning or prompt injection, so it covers a narrower slice of adversarial RAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

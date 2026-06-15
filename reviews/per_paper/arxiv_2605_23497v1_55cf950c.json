@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.23497v1",
+  "title": "Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in LLM-based Statutory Question Answering",
+  "authors": "Max Prior; Andreas Schultz; Matthias Grabmair",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.23497v1",
+  "local_pdf": "pdfs/2026_max_prior_asking_for_an_old_friend_diagnosing_and_mitigating_temporal_failure_modes_in_llm_based_s_55cf950c.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Studies temporal knowledge conflict between parametric knowledge and retrieved evidence in legal QA, including recency bias and RAG-based mitigation with temporal filtering. Provides a benchmark for diagnosing failure modes relevant to context compliance and conflict resolution.",
+  "why_not_or_caveat": "Domain-specific (German statutory law) and narrowly focused on temporal validity rather than broad RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict / Temporal robustness",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:18.669319+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.23497v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Studies temporal knowledge conflict between parametric knowledge and retrieved evidence in legal QA, including recency bias and RAG-based mitigation with temporal filtering. Provides a benchmark for diagnosing failure modes relevant to context compliance and conflict resolution.\",\n  \"why_not_or_caveat\": \"Domain-specific (German statutory law) and narrowly focused on temporal validity rather than broad RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict / Temporal robustness\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

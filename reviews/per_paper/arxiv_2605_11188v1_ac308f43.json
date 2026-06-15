@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.11188v1",
+  "title": "Adversarial SQL Injection Generation with LLM-Based Architectures",
+  "authors": "Ali Karakoc; H. Birkan Yilmaz",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.11188v1",
+  "local_pdf": "pdfs/2026_ali_karakoc_adversarial_sql_injection_generation_with_llm_based_architectures_ac308f43.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG to generate SQL injection payloads against WAFs; not about robustness of RAG itself.",
+  "why_not_or_caveat": "Application of RAG to security testing, unrelated to unreliable evidence, conflict, calibration, or RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:38.209924+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.11188v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG to generate SQL injection payloads against WAFs; not about robustness of RAG itself.\",\"why_not_or_caveat\":\"Application of RAG to security testing, unrelated to unreliable evidence, conflict, calibration, or RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.12673v2",
+  "title": "ACoRN: Noise-Robust Abstractive Compression in Retrieval-Augmented Language Models",
+  "authors": "Singon Kim; Gunho Jung; Seong-Whan Lee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.12673v2",
+  "local_pdf": "pdfs/2025_singon_kim_acorn_noise_robust_abstractive_compression_in_retrieval_augmented_language_models_02dca4a7.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a noise-robust abstractive compression method for RAG that explicitly handles factually incorrect and irrelevant retrieved documents, addressing distraction and positional bias.",
+  "why_not_or_caveat": "Focused narrowly on compression module rather than end-to-end RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / context filtering and compression",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.204694+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.12673v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a noise-robust abstractive compression method for RAG that explicitly handles factually incorrect and irrelevant retrieved documents, addressing distraction and positional bias.\",\n  \"why_not_or_caveat\": \"Focused narrowly on compression module rather than end-to-end RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval / context filtering and compression\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

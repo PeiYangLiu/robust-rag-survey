@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.19804",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2409.19804)\\] Does RAG Introduce Unfairness in LLMs? Evaluating Fairness in Retrieval-Augmented Generation Systems",
+  "authors": "",
+  "year": "1980",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.19804",
+  "local_pdf": "pdfs/1980_arxiv_2409_19804_arxiv_https_arxiv_org_abs_2409_19804_does_rag_introduce_unfairness_in_llms_evalu_d984f074.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates fairness/bias in RAG pipelines across retrieval and generation stages.",
+  "why_not_or_caveat": "Focuses on demographic fairness rather than robustness to unreliable evidence, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:38.703016+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.19804\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Evaluates fairness/bias in RAG pipelines across retrieval and generation stages.\",\"why_not_or_caveat\":\"Focuses on demographic fairness rather than robustness to unreliable evidence, conflict, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

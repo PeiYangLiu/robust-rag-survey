@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.08768v2",
+  "title": "Accelerating Causal Network Discovery of Alzheimer Disease Biomarkers via Scientific Literature-based Retrieval Augmented Generation",
+  "authors": "Xiaofan Zhou; Liangjie Huang; Pinyang Cheng; Wenpen Yin; Rui Zhang; Wenrui Hao; Lu Cheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.08768v2",
+  "local_pdf": "pdfs/2025_xiaofan_zhou_accelerating_causal_network_discovery_of_alzheimer_disease_biomarkers_via_scientific_lit_9d073a12.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with uncertainty estimation to AD biomarker causal discovery; touches on reliability of generated edges.",
+  "why_not_or_caveat": "Domain application paper; uncertainty estimation is auxiliary and not a methodological contribution to robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.842366+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.08768v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"ood_uncertainty\", \"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Applies RAG with uncertainty estimation to AD biomarker causal discovery; touches on reliability of generated edges.\",\n  \"why_not_or_caveat\": \"Domain application paper; uncertainty estimation is auxiliary and not a methodological contribution to robust RAG.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.00340v2",
+  "title": "Better Call CLAUSE: A Discrepancy Benchmark for Auditing LLMs Legal Reasoning Capabilities",
+  "authors": "Manan Roy Choudhury; Adithya Chandramouli; Mannan Anand; Vivek Gupta",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.00340v2",
+  "local_pdf": "pdfs/2025_manan_roy_choudhury_better_call_clause_a_discrepancy_benchmark_for_auditing_llms_legal_reasoning_capabilitie_dbc62a84.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Uses RAG only as a validation tool to generate a legal contradiction benchmark; not focused on RAG robustness, retrieval noise, or evidence reliability.",
+  "why_not_or_caveat": "Benchmark targets LLM legal reasoning on perturbed contracts, not robustness of RAG systems under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:50.323866+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.00340v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Uses RAG only as a validation tool to generate a legal contradiction benchmark; not focused on RAG robustness, retrieval noise, or evidence reliability.\",\"why_not_or_caveat\":\"Benchmark targets LLM legal reasoning on perturbed contracts, not robustness of RAG systems under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

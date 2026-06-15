@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.06343v2",
+  "title": "Leveraging Large Language Models for Cybersecurity Risk Assessment -- A Case from Forestry Cyber-Physical Systems",
+  "authors": "Fikret Mert Gultekin; Oscar Lilja; Ranim Khojah; Rebekka Wohlrab; Marvin Damschen; Mazen Mohamad",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.06343v2",
+  "local_pdf": "pdfs/2025_fikret_mert_gultekin_leveraging_large_language_models_for_cybersecurity_risk_assessment_a_case_from_forestry_55b3526a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for cybersecurity risk assessment in forestry; does not study robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Domain application study with no contribution to robust RAG topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:45.872786+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.06343v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for cybersecurity risk assessment in forestry; does not study robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Domain application study with no contribution to robust RAG topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.16318v1",
+  "title": "Diagnosing LLM-based Rerankers in Cold-Start Recommender Systems: Coverage, Exposure and Practical Mitigations",
+  "authors": "Ekaterina Lemdiasova; Nikita Zmanovskii",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.16318v1",
+  "local_pdf": "pdfs/2026_ekaterina_lemdiasova_diagnosing_llm_based_rerankers_in_cold_start_recommender_systems_coverage_exposure_and_p_c8c3308d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper diagnoses cross-encoder rerankers in cold-start movie recommendation, not RAG robustness under unreliable evidence.",
+  "why_not_or_caveat": "Domain is recommender systems; retrieval coverage and calibration discussion concerns recommendation pipelines, not LLM RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:31.024060+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.16318v1\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Paper diagnoses cross-encoder rerankers in cold-start movie recommendation, not RAG robustness under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Domain is recommender systems; retrieval coverage and calibration discussion concerns recommendation pipelines, not LLM RAG robustness.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

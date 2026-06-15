@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.29956v1",
+  "title": "Uncertainty Quantification for Multimodal Retrieval Augmented Generation",
+  "authors": "Simon Binz; Heydar Soudani; Faegheh Hasibi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.29956v1",
+  "local_pdf": "pdfs/2026_simon_binz_uncertainty_quantification_for_multimodal_retrieval_augmented_generation_a6fcc555.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a learnable uncertainty quantification method for multimodal RAG that captures uncertainty from retrieval and modality inputs, directly relevant to calibration and reliability under unreliable evidence.",
+  "why_not_or_caveat": "Focused on multimodal VQA setting; not addressing adversarial or conflict aspects.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty in RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:26.259046+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.29956v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a learnable uncertainty quantification method for multimodal RAG that captures uncertainty from retrieval and modality inputs, directly relevant to calibration and reliability under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focused on multimodal VQA setting; not addressing adversarial or conflict aspects.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Uncertainty in RAG\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.04565v1",
+  "title": "PassiveQA: A Three-Action Framework for Epistemically Calibrated Question Answering via Supervised Finetuning",
+  "authors": "Madhav S Baidya",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.04565v1",
+  "local_pdf": "pdfs/2026_madhav_s_baidya_passiveqa_a_three_action_framework_for_epistemically_calibrated_question_answering_via_s_07fc8dd8.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a three-action (Answer/Ask/Abstain) framework for RAG under incomplete information, directly addressing abstention, clarification, and epistemic calibration—core themes of the survey's calibration/control and OOD/uncertainty sections.",
+  "why_not_or_caveat": "Single-author preprint with limited validation; focus is on training-time alignment rather than broader robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Abstention and Clarification",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:02.141940+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.04565v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a three-action (Answer/Ask/Abstain) framework for RAG under incomplete information, directly addressing abstention, clarification, and epistemic calibration—core themes of the survey's calibration/control and OOD/uncertainty sections.\",\n  \"why_not_or_caveat\": \"Single-author preprint with limited validation; focus is on training-time alignment rather than broader robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: Abstention and Clarification\",\n  \"confidence\": 0.75\n}",
+  "skipped_existing": false
+}

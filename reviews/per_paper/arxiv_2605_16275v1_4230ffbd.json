@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.16275v1",
+  "title": "AI Slop or AI-enhancement? Student perceptions of AI-generated media for an English for Academic Purposes course",
+  "authors": "David James Woo; Deliang Wang; Kai Guo",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.16275v1",
+  "local_pdf": "pdfs/2026_david_james_woo_ai_slop_or_ai_enhancement_student_perceptions_of_ai_generated_media_for_an_english_for_a_4230ffbd.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Education application paper using NotebookLM; not about RAG robustness.",
+  "why_not_or_caveat": "No study of noise, conflict, adversaries, or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:09.454475+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.16275v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Education application paper using NotebookLM; not about RAG robustness.\",\"why_not_or_caveat\":\"No study of noise, conflict, adversaries, or calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

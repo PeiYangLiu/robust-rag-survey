@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.07192v1",
+  "title": "Relink: Constructing Query-Driven Evidence Graph On-the-Fly for GraphRAG",
+  "authors": "Manzong Huang; Chenyang Bu; Yi He; Xingrui Zhuo; Xindong Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.07192v1",
+  "local_pdf": "pdfs/2026_manzong_huang_relink_constructing_query_driven_evidence_graph_on_the_fly_for_graphrag_ba1c9647.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Relink targets distractor facts and missing evidence in GraphRAG by dynamically constructing query-specific evidence graphs, directly addressing noisy retrieval and distraction in graph-based RAG.",
+  "why_not_or_caveat": "Focuses on GraphRAG performance gains rather than systematic robustness evaluation; conflict/adversarial aspects not addressed.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Retrieval in GraphRAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.696479+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.07192v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"Relink targets distractor facts and missing evidence in GraphRAG by dynamically constructing query-specific evidence graphs, directly addressing noisy retrieval and distraction in graph-based RAG.\",\"why_not_or_caveat\":\"Focuses on GraphRAG performance gains rather than systematic robustness evaluation; conflict/adversarial aspects not addressed.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and Noisy Retrieval in GraphRAG\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

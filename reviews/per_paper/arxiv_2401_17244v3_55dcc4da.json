@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2401.17244v3",
+  "title": "LLaMP: Large Language Model Made Powerful for High-fidelity Materials Knowledge Retrieval and Distillation",
+  "authors": "Yuan Chiang; Elvis Hsieh; Chia-Hong Chou; Janosh Riebesell",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2401.17244v3",
+  "local_pdf": "pdfs/2024_yuan_chiang_llamp_large_language_model_made_powerful_for_high_fidelity_materials_knowledge_retrieval_55dcc4da.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a domain-specific RAG framework for materials science with a self-consistency metric to reduce hallucination.",
+  "why_not_or_caveat": "Application-focused; does not study robustness, conflict, attacks, or general calibration beyond a domain-specific consistency metric.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.073010+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2401.17244v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a domain-specific RAG framework for materials science with a self-consistency metric to reduce hallucination.\",\n  \"why_not_or_caveat\": \"Application-focused; does not study robustness, conflict, attacks, or general calibration beyond a domain-specific consistency metric.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2407.07791v2",
+  "title": "Flooding Spread of Manipulated Knowledge in LLM-Based Multi-Agent Communities",
+  "authors": "Tianjie Ju; Yiting Wang; Xinbei Ma; Pengzhou Cheng; Haodong Zhao; Yulong Wang; Lifeng Liu; Jian Xie; Zhuosheng Zhang; Gongshen Liu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2407.07791v2",
+  "local_pdf": "pdfs/2024_tianjie_ju_flooding_spread_of_manipulated_knowledge_in_llm_based_multi_agent_communities_f524e9b9.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Demonstrates how manipulated knowledge can persist and spread via RAG when benign agents store and retrieve poisoned chat histories, relevant to adversarial corruption of retrieval corpora in multi-agent settings.",
+  "why_not_or_caveat": "Primary focus is on multi-agent knowledge spread rather than RAG robustness; RAG persistence is a secondary contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:26.081373+00:00",
+  "raw_response": "{\"key\":\"arxiv-2407.07791v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\"],\"paper_role\":\"attack\",\"why_relevant\":\"Demonstrates how manipulated knowledge can persist and spread via RAG when benign agents store and retrieve poisoned chat histories, relevant to adversarial corruption of retrieval corpora in multi-agent settings.\",\"why_not_or_caveat\":\"Primary focus is on multi-agent knowledge spread rather than RAG robustness; RAG persistence is a secondary contribution.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

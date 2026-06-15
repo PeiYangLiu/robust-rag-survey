@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.03578v1",
+  "title": "Use Graph When It Needs: Efficiently and Adaptively Integrating Retrieval-Augmented Generation with Graphs",
+  "authors": "Su Dong; Qinggang Zhang; Yilin Xiao; Shengyuan Chen; Chuang Zhou; Xiao Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.03578v1",
+  "local_pdf": "pdfs/2026_su_dong_use_graph_when_it_needs_efficiently_and_adaptively_integrating_retrieval_augmented_gener_00e1d1e5.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive routing between RAG and GraphRAG based on query complexity, touching on when to use which retrieval paradigm.",
+  "why_not_or_caveat": "Focuses on efficiency and accuracy of GraphRAG vs RAG, not on robustness, noise, conflict, adversarial, or calibration topics central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.744626+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.03578v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive routing between RAG and GraphRAG based on query complexity, touching on when to use which retrieval paradigm.\",\"why_not_or_caveat\":\"Focuses on efficiency and accuracy of GraphRAG vs RAG, not on robustness, noise, conflict, adversarial, or calibration topics central to the survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

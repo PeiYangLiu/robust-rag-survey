@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.01591v1",
+  "title": "Led to Mislead: Adversarial Content Injection for Attacks on Neural Ranking Models",
+  "authors": "Amin Bigdeli; Amir Khosrojerdi; Radin Hamidi Rad; Morteza Zihayat; Charles L. A. Clarke; Ebrahim Bagheri",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01591v1",
+  "local_pdf": "pdfs/2026_amin_bigdeli_led_to_mislead_adversarial_content_injection_for_attacks_on_neural_ranking_models_7f66f815.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box adversarial attack on neural ranking models via LLM-generated content injection, relevant to retrieval-stage adversarial threats that underlie RAG robustness.",
+  "why_not_or_caveat": "Targets ranking manipulation rather than RAG generation directly; tangential to end-to-end RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: retrieval attacks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.778041+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.01591v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a black-box adversarial attack on neural ranking models via LLM-generated content injection, relevant to retrieval-stage adversarial threats that underlie RAG robustness.\",\n  \"why_not_or_caveat\": \"Targets ranking manipulation rather than RAG generation directly; tangential to end-to-end RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: retrieval attacks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

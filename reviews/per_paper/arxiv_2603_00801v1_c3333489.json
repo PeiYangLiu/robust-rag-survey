@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2603.00801v1",
+  "title": "The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents",
+  "authors": "Shrey Shah; Levent Ozgur",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.00801v1",
+  "local_pdf": "pdfs/2026_shrey_shah_the_synthetic_web_adversarially_curated_mini_internets_for_diagnosing_epistemic_weakness_c3333489.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a controlled benchmark for evaluating web agents/RAG under adversarial ranking with misinformation, measuring accuracy collapse, search escalation, and miscalibration—directly relevant to robustness, conflict, and calibration themes.",
+  "why_not_or_caveat": "Focuses on web agents rather than pure RAG pipelines, but threat model and findings transfer.",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation/Benchmarks for adversarial corruption",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.605323+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.00801v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a controlled benchmark for evaluating web agents/RAG under adversarial ranking with misinformation, measuring accuracy collapse, search escalation, and miscalibration—directly relevant to robustness, conflict, and calibration themes.\",\n  \"why_not_or_caveat\": \"Focuses on web agents rather than pure RAG pipelines, but threat model and findings transfer.\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation/Benchmarks for adversarial corruption\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

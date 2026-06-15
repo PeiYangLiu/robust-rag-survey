@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.14115v1",
+  "title": "When Evidence Conflicts: Uncertainty and Order Effects in Retrieval-Augmented Biomedical Question Answering",
+  "authors": "Yikun Han; Mengfei Lan; Halil Kilicoglu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14115v1",
+  "local_pdf": "pdfs/2026_yikun_han_when_evidence_conflicts_uncertainty_and_order_effects_in_retrieval_augmented_biomedical_4160196c.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies RAG under conflicting biomedical evidence, examining order effects, calibration, and proposing a conflict-aware abstention score. Directly addresses knowledge conflict, uncertainty, and selective prediction.",
+  "why_not_or_caveat": "Domain-specific (biomedical) and uses an existing benchmark.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Calibration/Abstention",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:21.557073+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.14115v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies RAG under conflicting biomedical evidence, examining order effects, calibration, and proposing a conflict-aware abstention score. Directly addresses knowledge conflict, uncertainty, and selective prediction.\",\"why_not_or_caveat\":\"Domain-specific (biomedical) and uses an existing benchmark.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict and Calibration/Abstention\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

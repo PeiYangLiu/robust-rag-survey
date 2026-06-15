@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.09616v1",
+  "title": "With Argus Eyes: Assessing Retrieval Gaps via Uncertainty Scoring to Detect and Remedy Retrieval Blind Spots",
+  "authors": "Zeinab Sadat Taghavi; Ali Modarressi; Hinrich Schutze; Andreas Marfurt",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.09616v1",
+  "local_pdf": "pdfs/2026_zeinab_sadat_taghavi_with_argus_eyes_assessing_retrieval_gaps_via_uncertainty_scoring_to_detect_and_remedy_re_7f70e512.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Identifies systematic retriever blind spots—missing relevant evidence due to embedding geometry—and proposes an uncertainty score (RPS) plus augmentation remedy, directly addressing retrieval failures that undermine RAG robustness.",
+  "why_not_or_caveat": "Focus is on the retriever side rather than generator-side robustness; touches calibration only indirectly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Missing Evidence",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:57.180141+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.09616v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"Identifies systematic retriever blind spots—missing relevant evidence due to embedding geometry—and proposes an uncertainty score (RPS) plus augmentation remedy, directly addressing retrieval failures that undermine RAG robustness.\", \"why_not_or_caveat\": \"Focus is on the retriever side rather than generator-side robustness; touches calibration only indirectly.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Noisy Retrieval and Missing Evidence\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

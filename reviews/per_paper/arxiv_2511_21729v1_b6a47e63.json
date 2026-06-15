@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2511.21729v1",
+  "title": "Beyond Component Strength: Synergistic Integration and Adaptive Calibration in Multi-Agent RAG Systems",
+  "authors": "Jithin Krishnan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.21729v1",
+  "local_pdf": "pdfs/2025_jithin_krishnan_beyond_component_strength_synergistic_integration_and_adaptive_calibration_in_multi_agen_b6a47e63.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies multi-agent RAG reliability via ablations on adversarial and edge-case queries, focusing on abstention, ensemble verification, adaptive confidence thresholding, and inconsistent labeling artifacts—directly touching calibration/control and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Very small-scale study (50 queries, single setup) and limited methodological novelty; findings are preliminary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / abstention",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.328638+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.21729v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies multi-agent RAG reliability via ablations on adversarial and edge-case queries, focusing on abstention, ensemble verification, adaptive confidence thresholding, and inconsistent labeling artifacts—directly touching calibration/control and evaluation under unreliable evidence.\",\"why_not_or_caveat\":\"Very small-scale study (50 queries, single setup) and limited methodological novelty; findings are preliminary.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and control / abstention\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

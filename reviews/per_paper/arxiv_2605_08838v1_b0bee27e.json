@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.08838v1",
+  "title": "Generating Leakage-Free Benchmarks for Robust RAG Evaluation",
+  "authors": "Jiayi Liu; Jiaxing Zhang; Bowen Jin; Jennifer Neville",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.08838v1",
+  "local_pdf": "pdfs/2026_jiayi_liu_generating_leakage_free_benchmarks_for_robust_rag_evaluation_b0bee27e.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a leakage-free benchmark generation pipeline to isolate retrieval quality from parametric memory, directly addressing evaluation reliability and parametric-vs-retrieved knowledge issues in RAG.",
+  "why_not_or_caveat": "Focuses on benchmark construction rather than robustness mechanisms per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:02.626488+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.08838v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"knowledge_conflict\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a leakage-free benchmark generation pipeline to isolate retrieval quality from parametric memory, directly addressing evaluation reliability and parametric-vs-retrieved knowledge issues in RAG.\",\n  \"why_not_or_caveat\": \"Focuses on benchmark construction rather than robustness mechanisms per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

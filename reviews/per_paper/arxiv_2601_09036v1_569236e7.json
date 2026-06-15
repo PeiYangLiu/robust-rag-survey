@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.09036v1",
+  "title": "SpectraQuery: A Hybrid Retrieval-Augmented Conversational Assistant for Battery Science",
+  "authors": "Sreya Vangara; Jagjit Nanda; Yan-Kai Tzeng; Eric Darve",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.09036v1",
+  "local_pdf": "pdfs/2026_sreya_vangara_spectraquery_a_hybrid_retrieval_augmented_conversational_assistant_for_battery_science_569236e7.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific hybrid RAG application for battery science; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:03.521059+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.09036v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific hybrid RAG application for battery science; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

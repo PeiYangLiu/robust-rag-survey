@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.00957v1",
+  "title": "\"I Don't Know\" -- Towards Appropriate Trust with Certainty-Aware Retrieval Augmented Generation",
+  "authors": "Daan Di Scala; Maaike de Boer; Pınar Yolum",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00957v1",
+  "local_pdf": "pdfs/2026_daan_di_scala_i_don_t_know_towards_appropriate_trust_with_certainty_aware_retrieval_augmented_generati_add12196.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes CERTA, a certainty-aware RAG that self-reflects on uncertainty across question-context-answer relevance to enable abstention/hedging, and introduces a benchmark with relevant/incomplete/irrelevant contexts. Directly relevant to calibration, abstention, and noisy retrieval evaluation.",
+  "why_not_or_caveat": "Small benchmark (90 pairs) focused on non-objective questions; framing emphasizes trust/values more than retrieval robustness per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and abstention in RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:32.010393+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.00957v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes CERTA, a certainty-aware RAG that self-reflects on uncertainty across question-context-answer relevance to enable abstention/hedging, and introduces a benchmark with relevant/incomplete/irrelevant contexts. Directly relevant to calibration, abstention, and noisy retrieval evaluation.\",\n  \"why_not_or_caveat\": \"Small benchmark (90 pairs) focused on non-objective questions; framing emphasizes trust/values more than retrieval robustness per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and abstention in RAG\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

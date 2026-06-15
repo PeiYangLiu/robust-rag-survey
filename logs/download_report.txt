@@ -1,0 +1,7 @@
+Generated at: 2026-06-02T13:01:38.727454+00:00
+Candidates: 1138
+Selected: 1067
+Downloaded/available PDFs: 1066
+
+Failures:
+- CoSense-LLM: Semantics at the Edge with Cost- and Uncertainty-Aware Cloud-Edge Cooperation | https://arxiv.org/pdf/2510.19670v4 | HTTPError: HTTP Error 404: Not Found

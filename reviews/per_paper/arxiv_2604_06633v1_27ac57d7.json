@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.06633v1",
+  "title": "Argus: Reorchestrating Static Analysis via a Multi-Agent Ensemble for Full-Chain Security Vulnerability Detection",
+  "authors": "Zi Liang; Qipeng Xie; Jun He; Bohuan Xue; Weizheng Wang; Yuandao Cai; Fei Luo; Boxian Zhang; Haibo Hu; Kaishun Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.06633v1",
+  "local_pdf": "pdfs/2026_zi_liang_argus_reorchestrating_static_analysis_via_a_multi_agent_ensemble_for_full_chain_security_27ac57d7.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG within a multi-agent SAST framework for vulnerability detection; does not study RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Application paper; no analysis of unreliable evidence or RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.101659+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.06633v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG within a multi-agent SAST framework for vulnerability detection; does not study RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Application paper; no analysis of unreliable evidence or RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

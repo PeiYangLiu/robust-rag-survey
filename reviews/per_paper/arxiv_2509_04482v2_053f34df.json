@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.04482v2",
+  "title": "Energy Landscapes Enable Reliable Abstention in Retrieval-Augmented Large Language Models for Healthcare",
+  "authors": "Ravi Shankar; Sheng Wong; Lin Li; Magdalena Bachmann; Alex Silverthorne; Beth Albert; Gabriel Davis Jones",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.04482v2",
+  "local_pdf": "pdfs/2025_ravi_shankar_energy_landscapes_enable_reliable_abstention_in_retrieval_augmented_large_language_model_053f34df.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an energy-based abstention mechanism for RAG that detects OOD/near-distribution queries and triggers abstention, directly addressing calibration, uncertainty, and when-not-to-answer control in RAG.",
+  "why_not_or_caveat": "Domain-specific (women's health) and focuses on query-level OOD rather than retrieved-evidence robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention in RAG",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:31.928457+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.04482v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an energy-based abstention mechanism for RAG that detects OOD/near-distribution queries and triggers abstention, directly addressing calibration, uncertainty, and when-not-to-answer control in RAG.\",\n  \"why_not_or_caveat\": \"Domain-specific (women's health) and focuses on query-level OOD rather than retrieved-evidence robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention in RAG\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

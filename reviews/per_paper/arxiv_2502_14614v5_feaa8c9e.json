@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.14614v5",
+  "title": "ICA-RAG: Information Completeness Guided Adaptive Retrieval-Augmented Generation for Disease Diagnosis",
+  "authors": "Jiawei He; Mingyi Jia; Zhihao Jia; Junwen Duan; Yan Song; Jianxin Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.14614v5",
+  "local_pdf": "pdfs/2025_jiawei_he_ica_rag_information_completeness_guided_adaptive_retrieval_augmented_generation_for_dise_feaa8c9e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive retrieval control deciding when to retrieve based on input information completeness, plus knowledge filtering to reduce noise—relevant to calibration/control and noisy retrieval mitigation in RAG.",
+  "why_not_or_caveat": "Domain-specific (Chinese EMR clinical diagnosis); robustness is a side effect rather than the central focus.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:40.288507+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.14614v5\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes adaptive retrieval control deciding when to retrieve based on input information completeness, plus knowledge filtering to reduce noise—relevant to calibration/control and noisy retrieval mitigation in RAG.\",\n  \"why_not_or_caveat\": \"Domain-specific (Chinese EMR clinical diagnosis); robustness is a side effect rather than the central focus.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

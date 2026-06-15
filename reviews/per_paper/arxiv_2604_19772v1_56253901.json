@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.19772v1",
+  "title": "CoAuthorAI: A Human in the Loop System For Scientific Book Writing",
+  "authors": "Yangjie Tian; Xungang Gu; Yun Zhao; Jiale Yang; Lin Yang; Ning Li; He Zhang; Ruohua Xu; Hua Wang; Kewen Liao; Ming Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.19772v1",
+  "local_pdf": "pdfs/2026_yangjie_tian_coauthorai_a_human_in_the_loop_system_for_scientific_book_writing_56253901.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to book writing with HITL; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:54.187233+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.19772v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to book writing with HITL; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.00877v3",
+  "title": "EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes",
+  "authors": "Yuqin Dai; Guoqing Wang; Yuan Wang; Kairan Dou; Kaichen Zhou; Zhanwei Zhang; Shuo Yang; Fei Tang; Jun Yin; Pengyu Zeng; Zhenzhe Ying; Can Yi; Changhua Meng; Yuchen Zhou; Yongliang Shen; Shuai Lu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.00877v3",
+  "local_pdf": "pdfs/2025_yuqin_dai_evinote_rag_enhancing_rag_models_via_answer_supportive_evidence_notes_39f9f193.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "EviNote-RAG explicitly addresses low signal-to-noise ratio in retrieved evidence and error accumulation in multi-hop reasoning by generating supportive-evidence notes with an entailment-based reward, directly relevant to noise robustness in RAG.",
+  "why_not_or_caveat": "Focuses on noise filtering via summarization; does not address conflict, adversarial, or calibration aspects.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Distraction Mitigation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:52.656555+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.00877v3\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"EviNote-RAG explicitly addresses low signal-to-noise ratio in retrieved evidence and error accumulation in multi-hop reasoning by generating supportive-evidence notes with an entailment-based reward, directly relevant to noise robustness in RAG.\",\"why_not_or_caveat\":\"Focuses on noise filtering via summarization; does not address conflict, adversarial, or calibration aspects.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval / Distraction Mitigation\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

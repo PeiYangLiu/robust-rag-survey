@@ -1,0 +1,48 @@
+Protocol-condition instructions
+
+You will judge whether pairs of robust-RAG papers can be directly compared.
+Apply the five-coordinate comparability protocol below.
+
+Coordinates
+-----------
+F: failure type
+   relevance/noise; sufficiency; consistency/conflict; provenance/freshness;
+   integrity/adversarial corruption; uncertainty/OOD.
+
+A: evidence assumption
+   benign retrieval error; benchmark-constructed stressor; naturally occurring
+   conflict; stale or low-quality source; attacker-created evidence; privacy or
+   extraction threat. For security papers, record corpus write access, query
+   control, retriever visibility, generator access, insertion budget, and
+   objective when reported.
+
+I: intervention point
+   corpus/index; retriever; reranker; context assembly/compression; generator
+   prompting or training; verifier; system-control policy; evaluation artifact.
+
+M: metric target
+   answer correctness; retrieval recall; evidence support; citation faithfulness;
+   attack success; calibration error; selective risk/coverage; cost/latency;
+   human preference.
+
+Act: action policy
+   answer; abstain; re-retrieve; filter; verify; expose conflict; ask
+   clarification; escalate; quarantine; recover; unreported.
+
+Verdict rules
+-------------
+- valid: all five coordinates align. The action policy must be explicitly stated
+  or evaluated; it cannot be inferred from a QA setup.
+- partial: the failure type is shared, but the intervention point, metric target,
+  or action policy differs, so the papers should be discussed as complementary
+  components rather than substitutes.
+- invalid: the evidence assumption or objective defines a different game, such as
+  natural conflict versus attacker-created corruption or answer correctness
+  versus citation support as the sole target.
+- under-specified: at least one coordinate needed for comparison is unobtainable
+  from the paper description. Missing action policy caps the verdict at
+  under-specified.
+
+For each paper pair, record the five coordinates when possible, the verdict, the
+breaking coordinate(s), confidence from 1 to 5, decision time in seconds, and a
+short rationale.

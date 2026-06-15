@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.15759v1",
+  "title": "Securing AI Agents Against Prompt Injection Attacks",
+  "authors": "Badrinath Ramakrishnan; Akshaya Balaji",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.15759v1",
+  "local_pdf": "pdfs/2025_badrinath_ramakrishnan_securing_ai_agents_against_prompt_injection_attacks_0c97436a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a benchmark and multi-layer defense framework for prompt injection attacks in RAG systems, directly relevant to adversarial corruption and evaluation aspects of the survey.",
+  "why_not_or_caveat": "Unclear release/peer-review status; defense methods are fairly standard and benchmark details limited.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Prompt Injection",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:49.071167+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2511.15759v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Provides a benchmark and multi-layer defense framework for prompt injection attacks in RAG systems, directly relevant to adversarial corruption and evaluation aspects of the survey.\",\n  \"why_not_or_caveat\": \"Unclear release/peer-review status; defense methods are fairly standard and benchmark details limited.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Prompt Injection\",\n  \"confidence\": 0.75\n}",
+  "skipped_existing": false
+}

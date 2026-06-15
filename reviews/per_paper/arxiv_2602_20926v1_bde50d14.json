@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.20926v1",
+  "title": "HELP: HyperNode Expansion and Logical Path-Guided Evidence Localization for Accurate and Efficient GraphRAG",
+  "authors": "Yuqi Huang; Ning Liao; Kai Yang; Anning Hu; Shengchao Hu; Xiaoxing Wang; Junchi Yan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.20926v1",
+  "local_pdf": "pdfs/2026_yuqi_huang_help_hypernode_expansion_and_logical_path_guided_evidence_localization_for_accurate_and_bde50d14.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "GraphRAG method focused on multi-hop accuracy and efficiency, not robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Does not study unreliable evidence, attacks, calibration, or conflict handling.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.948571+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.20926v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"GraphRAG method focused on multi-hop accuracy and efficiency, not robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Does not study unreliable evidence, attacks, calibration, or conflict handling.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

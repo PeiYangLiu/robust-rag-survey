@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.20598v1",
+  "title": "Self-Aware Vector Embeddings for Retrieval-Augmented Generation: A Neuroscience-Inspired Framework for Temporal, Confidence-Weighted, and Relational Knowledge",
+  "authors": "Naizhong Xu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20598v1",
+  "local_pdf": "pdfs/2026_naizhong_xu_self_aware_vector_embeddings_for_retrieval_augmented_generation_a_neuroscience_inspired_8d0e4f43.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a framework that augments embeddings with temporal validity, confidence decay, and relational edges to handle stale/contradictory retrieval, contradiction injection robustness, and calibration (ECE). Touches conflict resolution and confidence-weighted retrieval.",
+  "why_not_or_caveat": "Evaluated only on a small synthetic benchmark; quality and impact unclear; appears to be a preprint with limited validation.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and temporal/confidence-aware retrieval",
+  "confidence": 0.55,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:43.028158+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.20598v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a framework that augments embeddings with temporal validity, confidence decay, and relational edges to handle stale/contradictory retrieval, contradiction injection robustness, and calibration (ECE). Touches conflict resolution and confidence-weighted retrieval.\",\n  \"why_not_or_caveat\": \"Evaluated only on a small synthetic benchmark; quality and impact unclear; appears to be a preprint with limited validation.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and temporal/confidence-aware retrieval\",\n  \"confidence\": 0.55\n}",
+  "skipped_existing": false
+}

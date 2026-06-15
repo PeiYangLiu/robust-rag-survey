@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2512.10787v2",
+  "title": "Replace, Don't Expand: Mitigating Context Dilution in Multi-Hop RAG via Fixed-Budget Evidence Assembly",
+  "authors": "Moshe Lahmy; Roi Yozevitch",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.10787v2",
+  "local_pdf": "pdfs/2025_moshe_lahmy_replace_don_t_expand_mitigating_context_dilution_in_multi_hop_rag_via_fixed_budget_evide_94c3b700.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a fixed-budget controller that actively replaces distractor passages with gap-closing evidence to mitigate context dilution in multi-hop RAG, directly addressing noisy retrieval and distraction robustness.",
+  "why_not_or_caveat": "Focuses on multi-hop QA evidence assembly; does not address adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval mitigation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.048301+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.10787v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"distraction\", \"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a fixed-budget controller that actively replaces distractor passages with gap-closing evidence to mitigate context dilution in multi-hop RAG, directly addressing noisy retrieval and distraction robustness.\", \"why_not_or_caveat\": \"Focuses on multi-hop QA evidence assembly; does not address adversarial or conflict settings.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Distraction and noisy retrieval mitigation\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

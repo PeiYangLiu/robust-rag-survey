@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2403.03792v2",
+  "title": "Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks",
+  "authors": "Dario Pasquini; Martin Strohmeier; Carmela Troncoso",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.03792v2",
+  "local_pdf": "pdfs/2024_dario_pasquini_neural_exec_learning_and_learning_from_execution_triggers_for_prompt_injection_attacks_4d2b9108.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces learned prompt-injection triggers designed to survive RAG preprocessing (chunking, filtering), demonstrating a novel indirect injection attack against RAG pipelines.",
+  "why_not_or_caveat": "Focused on attack methodology; does not propose defenses or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and prompt injection",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:12.699412+00:00",
+  "raw_response": "{\"key\":\"arxiv-2403.03792v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces learned prompt-injection triggers designed to survive RAG preprocessing (chunking, filtering), demonstrating a novel indirect injection attack against RAG pipelines.\",\"why_not_or_caveat\":\"Focused on attack methodology; does not propose defenses or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption and prompt injection\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

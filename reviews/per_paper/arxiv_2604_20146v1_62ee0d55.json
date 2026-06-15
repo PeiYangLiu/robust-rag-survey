@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.20146v1",
+  "title": "SAKE: Self-aware Knowledge Exploitation-Exploration for Grounded Multimodal Named Entity Recognition",
+  "authors": "Jielong Tang; Xujie Yuan; Jiayang Liu; Jianxing Yu; Xiao Dong; Lin Chen; Yunlai Teng; Shimin Di; Jian Yin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20146v1",
+  "local_pdf": "pdfs/2026_jielong_tang_sake_self_aware_knowledge_exploitation_exploration_for_grounded_multimodal_named_entity_62ee0d55.pdf",
+  "metadata_topics": "noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an agentic framework that decides when to retrieve based on self-assessed uncertainty, penalizing unnecessary retrieval—relevant to adaptive retrieval/calibration control. However, it targets GMNER rather than general RAG robustness.",
+  "why_not_or_caveat": "Application-specific to multimodal NER; robustness aspects are tangential and not the primary focus.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control: when to retrieve",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:12.625323+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.20146v1\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an agentic framework that decides when to retrieve based on self-assessed uncertainty, penalizing unnecessary retrieval—relevant to adaptive retrieval/calibration control. However, it targets GMNER rather than general RAG robustness.\",\"why_not_or_caveat\":\"Application-specific to multimodal NER; robustness aspects are tangential and not the primary focus.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and control: when to retrieve\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

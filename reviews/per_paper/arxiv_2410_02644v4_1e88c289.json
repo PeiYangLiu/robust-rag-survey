@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.02644v4",
+  "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+  "authors": "Hanrong Zhang; Jingyuan Huang; Kai Mei; Yifei Yao; Zhenting Wang; Chenlu Zhan; Hongwei Wang; Yongfeng Zhang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.02644v4",
+  "local_pdf": "pdfs/2024_hanrong_zhang_agent_security_bench_asb_formalizing_and_benchmarking_attacks_and_defenses_in_llm_based_1e88c289.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "ASB benchmarks attacks (including memory/RAG poisoning, indirect prompt injection, backdoors) and defenses on LLM agents, covering retrieval-stage adversarial corruption relevant to robust RAG.",
+  "why_not_or_caveat": "Scope is broader LLM-agent security, not purely RAG; only memory poisoning and IPI directly intersect with the survey.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:26.652352+00:00",
+  "raw_response": "{\"key\":\"arxiv-2410.02644v4\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"ASB benchmarks attacks (including memory/RAG poisoning, indirect prompt injection, backdoors) and defenses on LLM agents, covering retrieval-stage adversarial corruption relevant to robust RAG.\",\"why_not_or_caveat\":\"Scope is broader LLM-agent security, not purely RAG; only memory poisoning and IPI directly intersect with the survey.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption / benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

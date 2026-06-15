@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.20377v1",
+  "title": "SKILL-RAG: Self-Knowledge Induced Learning and Filtering for Retrieval-Augmented Generation",
+  "authors": "Tomoaki Isoda",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.20377v1",
+  "local_pdf": "pdfs/2025_tomoaki_isoda_skill_rag_self_knowledge_induced_learning_and_filtering_for_retrieval_augmented_generati_5fbc0afa.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes filtering of irrelevant retrieved sentences using model self-knowledge, directly addressing noisy retrieval and the decision of when to trust internal vs external knowledge.",
+  "why_not_or_caveat": "Single-author arXiv preprint; limited evaluation scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Filtering and self-knowledge-based control",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:11.348881+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.20377v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes filtering of irrelevant retrieved sentences using model self-knowledge, directly addressing noisy retrieval and the decision of when to trust internal vs external knowledge.\",\n  \"why_not_or_caveat\": \"Single-author arXiv preprint; limited evaluation scope.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Filtering and self-knowledge-based control\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

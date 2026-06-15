@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.18776v1",
+  "title": "Mask-to-Correct$^+$: Leveraging Retriever Diversity for Masking-guided Faithful Fact Correction",
+  "authors": "Payel Santra; Lavisha Sharma; Madhusudan Ghosh; Partha Basuchowdhuri",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18776v1",
+  "local_pdf": "pdfs/2026_payel_santra_mask_to_correct_leveraging_retriever_diversity_for_masking_guided_faithful_fact_correcti_289255ba.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a RAG-based fact correction framework with retriever ensembling to mitigate retrieval bias, tangentially touching on retrieval reliability.",
+  "why_not_or_caveat": "Focus is on fact correction, not on robustness, noise, conflict, adversaries, or calibration in RAG per se.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:01.012216+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.18776v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a RAG-based fact correction framework with retriever ensembling to mitigate retrieval bias, tangentially touching on retrieval reliability.\",\n  \"why_not_or_caveat\": \"Focus is on fact correction, not on robustness, noise, conflict, adversaries, or calibration in RAG per se.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

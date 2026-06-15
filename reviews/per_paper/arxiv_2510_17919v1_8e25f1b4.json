@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.17919v1",
+  "title": "ParaVul: A Parallel Large Language Model and Retrieval-Augmented Framework for Smart Contract Vulnerability Detection",
+  "authors": "Tenghui Huang; Jinbo Wen; Jiawen Kang; Siyong Chen; Zhengtao Li; Tao Zhang; Dongning Liu; Jiacheng Wang; Chengjun Cai; Yinqiu Liu; Dusit Niyato",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.17919v1",
+  "local_pdf": "pdfs/2025_tenghui_huang_paravul_a_parallel_large_language_model_and_retrieval_augmented_framework_for_smart_cont_8e25f1b4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to smart contract vulnerability detection; does not study robustness, conflict, calibration, or adversarial issues in RAG.",
+  "why_not_or_caveat": "Pure application paper; no contribution to robust/unreliable evidence handling.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.144791+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.17919v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to smart contract vulnerability detection; does not study robustness, conflict, calibration, or adversarial issues in RAG.\",\"why_not_or_caveat\":\"Pure application paper; no contribution to robust/unreliable evidence handling.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "condition": "control",
+    "pair_id": "P01",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.7333333333333333,
+    "verdict_counts": {
+      "valid": 4,
+      "partial": 11
+    },
+    "top_errors": {
+      "valid_vs_partial": 4
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P02",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.9333333333333333,
+    "verdict_counts": {
+      "partial": 14,
+      "invalid": 1
+    },
+    "top_errors": {
+      "objective_mismatch": 1
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P03",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.9333333333333333,
+    "verdict_counts": {
+      "partial": 14,
+      "invalid": 1
+    },
+    "top_errors": {
+      "objective_mismatch": 1
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P04",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.2,
+    "verdict_counts": {
+      "valid": 12,
+      "partial": 3
+    },
+    "top_errors": {
+      "valid_vs_partial": 11,
+      "intervention_mismatch": 1
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P05",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "control",
+    "pair_id": "P06",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "control",
+    "pair_id": "P07",
+    "n": 15,
+    "gold": "invalid",
+    "agreement": 0.9333333333333333,
+    "verdict_counts": {
+      "invalid": 14,
+      "partial": 1
+    },
+    "top_errors": {
+      "evidence_assumption_mismatch": 1
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P08",
+    "n": 15,
+    "gold": "invalid",
+    "agreement": 0.06666666666666667,
+    "verdict_counts": {
+      "partial": 14,
+      "invalid": 1
+    },
+    "top_errors": {
+      "objective_mismatch": 10,
+      "evidence_assumption_mismatch": 4
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P09",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.8666666666666667,
+    "verdict_counts": {
+      "valid": 2,
+      "partial": 13
+    },
+    "top_errors": {
+      "valid_vs_partial": 2
+    }
+  },
+  {
+    "condition": "control",
+    "pair_id": "P10",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "control",
+    "pair_id": "P11",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "control",
+    "pair_id": "P12",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.9333333333333333,
+    "verdict_counts": {
+      "partial": 14,
+      "invalid": 1
+    },
+    "top_errors": {
+      "objective_mismatch": 1
+    }
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P01",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P02",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P03",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P04",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P05",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P06",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.9333333333333333,
+    "verdict_counts": {
+      "partial": 14,
+      "invalid": 1
+    },
+    "top_errors": {
+      "metric_mismatch": 1
+    }
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P07",
+    "n": 15,
+    "gold": "invalid",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "invalid": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P08",
+    "n": 15,
+    "gold": "invalid",
+    "agreement": 0.8666666666666667,
+    "verdict_counts": {
+      "invalid": 13,
+      "partial": 2
+    },
+    "top_errors": {
+      "intervention_mismatch": 1,
+      "evidence_assumption_mismatch": 1
+    }
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P09",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P10",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 0.9333333333333333,
+    "verdict_counts": {
+      "partial": 14,
+      "invalid": 1
+    },
+    "top_errors": {
+      "objective_mismatch": 1
+    }
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P11",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  },
+  {
+    "condition": "protocol",
+    "pair_id": "P12",
+    "n": 15,
+    "gold": "partial",
+    "agreement": 1.0,
+    "verdict_counts": {
+      "partial": 15
+    },
+    "top_errors": {}
+  }
+]

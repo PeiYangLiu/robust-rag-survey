@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.14166v1",
+  "title": "Hierarchical Retrieval Augmented Generation for Adversarial Technique Annotation in Cyber Threat Intelligence Text",
+  "authors": "Filippo Morbiato; Markus Keller; Priya Nair; Luca Romano",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.14166v1",
+  "local_pdf": "pdfs/2026_filippo_morbiato_hierarchical_retrieval_augmented_generation_for_adversarial_technique_annotation_in_cybe_93f60594.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies hierarchical RAG to CTI-to-ATT&CK technique mapping; does not study robustness, conflict, adversarial attacks, or calibration.",
+  "why_not_or_caveat": "Domain application of RAG without focus on unreliable evidence handling.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:28.775053+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.14166v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Applies hierarchical RAG to CTI-to-ATT&CK technique mapping; does not study robustness, conflict, adversarial attacks, or calibration.\", \"why_not_or_caveat\": \"Domain application of RAG without focus on unreliable evidence handling.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

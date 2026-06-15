@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.26584v1",
+  "title": "Fairness Testing in Retrieval-Augmented Generation: How Small Perturbations Reveal Bias in Small Language Models",
+  "authors": "Matheus Vinicius da Silva de Oliveira; Jonathan de Andrade Silva; Awdren de Lima Fontao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.26584v1",
+  "local_pdf": "pdfs/2025_matheus_vinicius_da_silva_de_oliveir_fairness_testing_in_retrieval_augmented_generation_how_small_perturbations_reveal_bias_i_476ad8b9.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies robustness of RAG retrievers to demographic perturbations via metamorphic testing, touching on retrieval-induced bias amplification.",
+  "why_not_or_caveat": "Focus is fairness/bias rather than the survey's core robustness axes (noise, conflict, attacks, calibration); only tangentially related.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.318494+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.26584v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies robustness of RAG retrievers to demographic perturbations via metamorphic testing, touching on retrieval-induced bias amplification.\",\n  \"why_not_or_caveat\": \"Focus is fairness/bias rather than the survey's core robustness axes (noise, conflict, attacks, calibration); only tangentially related.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

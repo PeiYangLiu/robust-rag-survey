@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.22571v1",
+  "title": "LARA: Validation-Driven Agentic Supercomputer Workflows for Atomistic Modeling",
+  "authors": "William Dawson; Louis Beal; Yoann Curé; Giuseppe Fisicaro; Dorian Rolland; Luigi Genovese",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.22571v1",
+  "local_pdf": "pdfs/2026_william_dawson_lara_validation_driven_agentic_supercomputer_workflows_for_atomistic_modeling_51535056.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG as one component in an agentic HPC workflow for atomistic simulations but does not study RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Application paper unrelated to robust RAG themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.922835+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.22571v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG as one component in an agentic HPC workflow for atomistic simulations but does not study RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Application paper unrelated to robust RAG themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

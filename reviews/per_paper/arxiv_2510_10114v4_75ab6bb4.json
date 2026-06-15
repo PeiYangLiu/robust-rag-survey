@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.10114v4",
+  "title": "LinearRAG: Linear Graph Retrieval Augmented Generation on Large-scale Corpora",
+  "authors": "Luyao Zhuang; Shengyuan Chen; Yilin Xiao; Huachi Zhou; Yujing Zhang; Hao Chen; Qinggang Zhang; Xiao Huang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.10114v4",
+  "local_pdf": "pdfs/2025_luyao_zhuang_linearrag_linear_graph_retrieval_augmented_generation_on_large_scale_corpora_75ab6bb4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a GraphRAG method that analyzes noise from relation extraction errors in knowledge graphs, touching tangentially on retrieval noise issues.",
+  "why_not_or_caveat": "Primary focus is improving graph construction efficiency and retrieval accuracy, not robustness to unreliable evidence, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:38.334448+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.10114v4\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a GraphRAG method that analyzes noise from relation extraction errors in knowledge graphs, touching tangentially on retrieval noise issues.\",\"why_not_or_caveat\":\"Primary focus is improving graph construction efficiency and retrieval accuracy, not robustness to unreliable evidence, adversaries, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

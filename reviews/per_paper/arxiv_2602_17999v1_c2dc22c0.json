@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.17999v1",
+  "title": "Aurora: Neuro-Symbolic AI Driven Advising Agent",
+  "authors": "Lorena Amanda Quincoso Lugones; Christopher Kverne; Nityam Sharadkumar Bhimani; Ana Carolina Oliveira; Agoritsa Polyzou; Christine Lisetti; Janki Bhimani",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.17999v1",
+  "local_pdf": "pdfs/2026_lorena_amanda_quincoso_lugones_aurora_neuro_symbolic_ai_driven_advising_agent_c2dc22c0.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to academic advising with symbolic rule enforcement; does not study robustness, conflict, attacks, or calibration in RAG.",
+  "why_not_or_caveat": "Domain application paper, not focused on unreliable evidence handling.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:07.583375+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.17999v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Application of RAG to academic advising with symbolic rule enforcement; does not study robustness, conflict, attacks, or calibration in RAG.\", \"why_not_or_caveat\": \"Domain application paper, not focused on unreliable evidence handling.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

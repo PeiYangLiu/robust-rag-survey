@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.18105v1",
+  "title": "NIM4-ASR: Towards Efficient, Robust, and Customizable Real-Time LLM-Based ASR",
+  "authors": "Yuan Xie; Jiaqi Song; Guang Qiu; Xianliang Wang; Kai Qiao; Junfeng Yuan; Shengqing Liu; Yi Zhang; Bowen Chen; Ming Lei; Jie Gao; Jie Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.18105v1",
+  "local_pdf": "pdfs/2026_yuan_xie_nim4_asr_towards_efficient_robust_and_customizable_real_time_llm_based_asr_8b512349.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG only for ASR hotword customization; does not study RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Out of scope: ASR system paper.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:28.283470+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.18105v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG only for ASR hotword customization; does not study RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Out of scope: ASR system paper.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

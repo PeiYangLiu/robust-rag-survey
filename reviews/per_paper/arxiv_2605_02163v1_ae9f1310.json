@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.02163v1",
+  "title": "DocSync: Agentic Documentation Maintenance via Critic-Guided Reflexion",
+  "authors": "Sidhesh Badrinarayan; Adithya Parthasarathy",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.02163v1",
+  "local_pdf": "pdfs/2026_sidhesh_badrinarayan_docsync_agentic_documentation_maintenance_via_critic_guided_reflexion_ae9f1310.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for documentation maintenance but does not study robustness, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Application paper; no contribution to robust RAG themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:03.732257+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.02163v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for documentation maintenance but does not study robustness, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Application paper; no contribution to robust RAG themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

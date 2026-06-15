@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.02245v1",
+  "title": "When Knowledge Is Not Free: Cost-Aware Evidence Selection in Retrieval-Augmented Generation",
+  "authors": "Mingyan Wu; Han Yang; Omer Ben-Porat; Yftah Ziser",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.02245v1",
+  "local_pdf": "pdfs/2026_mingyan_wu_when_knowledge_is_not_free_cost_aware_evidence_selection_in_retrieval_augmented_generati_a8f98509.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Studies adaptive evidence-acquisition control in RAG (when to retrieve, when to stop) under access-cost budgets, tangentially related to retrieval control.",
+  "why_not_or_caveat": "Focus is cost/budget-aware selection rather than robustness to noise, conflict, adversaries, or calibration of trust in evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.192135+00:00",
+  "raw_response": "{\"key\":\"arxiv-2606.02245v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Studies adaptive evidence-acquisition control in RAG (when to retrieve, when to stop) under access-cost budgets, tangentially related to retrieval control.\",\"why_not_or_caveat\":\"Focus is cost/budget-aware selection rather than robustness to noise, conflict, adversaries, or calibration of trust in evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

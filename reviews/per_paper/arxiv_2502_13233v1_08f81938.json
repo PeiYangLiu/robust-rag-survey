@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.13233v1",
+  "title": "SearchRAG: Can Search Engines Be Helpful for LLM-based Medical Question Answering?",
+  "authors": "Yucheng Shi; Tianze Yang; Canyu Chen; Quanzheng Li; Tianming Liu; Xiang Li; Ninghao Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.13233v1",
+  "local_pdf": "pdfs/2025_yucheng_shi_searchrag_can_search_engines_be_helpful_for_llm_based_medical_question_answering_08f81938.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes uncertainty-based selection of retrieved snippets for medical QA, tangentially touching on filtering noisy retrieval and confidence-based control.",
+  "why_not_or_caveat": "Primarily a domain application (medical QA with search engines); robustness/uncertainty handling is incidental rather than the focus.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration_control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:19.086961+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.13233v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes uncertainty-based selection of retrieved snippets for medical QA, tangentially touching on filtering noisy retrieval and confidence-based control.\",\"why_not_or_caveat\":\"Primarily a domain application (medical QA with search engines); robustness/uncertainty handling is incidental rather than the focus.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"calibration_control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

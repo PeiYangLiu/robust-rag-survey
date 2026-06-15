@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.20849v1",
+  "title": "SPIRE: Structure-Preserving Interpretable Retrieval of Evidence",
+  "authors": "Mike Rainey; Umut Acar; Muhammed Sezer",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20849v1",
+  "local_pdf": "pdfs/2026_mike_rainey_spire_structure_preserving_interpretable_retrieval_of_evidence_de50c110.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a structure-aware retrieval pipeline for HTML documents, focused on citation quality and granularity, not on robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Does not address unreliable evidence, adversarial robustness, conflicts, or calibration; only tangentially relates via citation interpretability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:25.739982+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.20849v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a structure-aware retrieval pipeline for HTML documents, focused on citation quality and granularity, not on robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Does not address unreliable evidence, adversarial robustness, conflicts, or calibration; only tangentially relates via citation interpretability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

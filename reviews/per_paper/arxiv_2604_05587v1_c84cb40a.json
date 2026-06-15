@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.05587v1",
+  "title": "ResearchEVO: An End-to-End Framework for Automated Scientific Discovery and Documentation",
+  "authors": "Zhe Zhao; Haibin Wen; Jiaming Ma; Jiachang Zhan; Tianyi Xu; Ye Wei; Qingfu Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.05587v1",
+  "local_pdf": "pdfs/2026_zhe_zhao_researchevo_an_end_to_end_framework_for_automated_scientific_discovery_and_documentation_c84cb40a.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for scientific paper writing with anti-hallucination citation verification, but does not study robustness, conflict, noise, or calibration in RAG.",
+  "why_not_or_caveat": "Application-focused; robustness aspects limited to citation verification, not central to survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:22.214822+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.05587v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for scientific paper writing with anti-hallucination citation verification, but does not study robustness, conflict, noise, or calibration in RAG.\",\"why_not_or_caveat\":\"Application-focused; robustness aspects limited to citation verification, not central to survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

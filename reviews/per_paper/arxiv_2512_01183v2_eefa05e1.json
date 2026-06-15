@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.01183v2",
+  "title": "TempPerturb-Eval: On the Joint Effects of Internal Temperature and External Perturbations in RAG Robustness",
+  "authors": "Yongxin Zhou; Philippe Mulhem; Didier Schwab",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.01183v2",
+  "local_pdf": "pdfs/2025_yongxin_zhou_tempperturb_eval_on_the_joint_effects_of_internal_temperature_and_external_perturbations_eefa05e1.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a diagnostic benchmark and analytical framework studying RAG robustness under perturbed (noisy) retrieved documents jointly with temperature, providing a taxonomy of perturbation methods relevant to noisy retrieval evaluation.",
+  "why_not_or_caveat": "Limited to HotpotQA and focuses on temperature interaction; not a broad robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval evaluation and benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:10.378456+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.01183v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a diagnostic benchmark and analytical framework studying RAG robustness under perturbed (noisy) retrieved documents jointly with temperature, providing a taxonomy of perturbation methods relevant to noisy retrieval evaluation.\",\n  \"why_not_or_caveat\": \"Limited to HotpotQA and focuses on temperature interaction; not a broad robustness study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval evaluation and benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

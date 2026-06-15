@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.13\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.34\linewidth}>{\raggedright\arraybackslash}p{0.22\linewidth}X}
+\toprule
+\textbf{Condition} & \textbf{Wrong verdicts} & \textbf{Missed gold coordinates (F/A/I/M/Act)} & \textbf{Extra coordinates} & \textbf{Use} \\
+\midrule
+Control & 78/180 & 34 / 55 / 28 / 1 / 82 & failure 12; assumption 20; metric 3; action 2 & Ordinary judgments over-call invalid in many partial cases and miss key action and assumption distinctions. \\
+Protocol & 21/180 & 10 / 12 / 7 / 13 / 16 & assumption 27; failure 9; action 2 & Protocol reduces wrong verdicts and missed coordinates, though it sometimes over-tags assumptions. \\
+\bottomrule
+\end{tabularx}
+\caption{Per-coordinate error audit for the 60-pair expert validation. Counts are over 180 judgments per condition. F/A/I/M/Act denote failure, assumption, intervention, metric, and action.}
+\label{tab:expert-coordinate-errors-60pair}
+\end{table*}

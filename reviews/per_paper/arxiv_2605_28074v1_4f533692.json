@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.28074v1",
+  "title": "SilentRetrieval: Hijacking Retrieval-Augmented Generation via Semantically-Preserving Adversarial Data Poisoning",
+  "authors": "Jiachen Qian",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28074v1",
+  "local_pdf": "pdfs/2026_jiachen_qian_silentretrieval_hijacking_retrieval_augmented_generation_via_semantically_preserving_adv_4f533692.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a stealthy data poisoning attack on RAG corpora combining retrieval hijacking and generation manipulation, and evaluates defenses (reranking, hybrid retrieval, passage isolation), directly relevant to adversarial corruption.",
+  "why_not_or_caveat": "Single-author arXiv preprint with a suspicious identifier (2605.xxxxx); provenance/quality should be verified.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: corpus poisoning",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:44.120055+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.28074v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a stealthy data poisoning attack on RAG corpora combining retrieval hijacking and generation manipulation, and evaluates defenses (reranking, hybrid retrieval, passage isolation), directly relevant to adversarial corruption.\",\n  \"why_not_or_caveat\": \"Single-author arXiv preprint with a suspicious identifier (2605.xxxxx); provenance/quality should be verified.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: corpus poisoning\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

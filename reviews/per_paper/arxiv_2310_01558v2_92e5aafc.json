@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2310.01558v2",
+  "title": "Making Retrieval-Augmented Language Models Robust to Irrelevant Context",
+  "authors": "Ori Yoran; Tomer Wolfson; Ori Ram; Jonathan Berant",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.01558v2",
+  "local_pdf": "pdfs/2023_ori_yoran_making_retrieval_augmented_language_models_robust_to_irrelevant_context_92e5aafc.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly studies RALM robustness to irrelevant/noisy retrieved context, proposes NLI-based filtering and fine-tuning with mixed relevant/irrelevant contexts, and analyzes failure modes on multiple ODQA benchmarks.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy Retrieval and Distraction Mitigation",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:13.072295+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2310.01558v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly studies RALM robustness to irrelevant/noisy retrieved context, proposes NLI-based filtering and fine-tuning with mixed relevant/irrelevant contexts, and analyzes failure modes on multiple ODQA benchmarks.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Noisy Retrieval and Distraction Mitigation\",\n  \"confidence\": 0.97\n}",
+  "skipped_existing": false
+}

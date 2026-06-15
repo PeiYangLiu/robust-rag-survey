@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2404.02022v3",
+  "title": "Improving Retrieval Augmented Open-Domain Question-Answering with Vectorized Contexts",
+  "authors": "Zhuo Chen; Xinyu Wang; Yong Jiang; Pengjun Xie; Fei Huang; Kewei Tu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.02022v3",
+  "local_pdf": "pdfs/2024_zhuo_chen_improving_retrieval_augmented_open_domain_question_answering_with_vectorized_contexts_d4e0b346.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes vectorized context encoding to extend RAG context length; does not address robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Focus is on context length efficiency, not unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:29.144519+00:00",
+  "raw_response": "{\"key\":\"arxiv-2404.02022v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes vectorized context encoding to extend RAG context length; does not address robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Focus is on context length efficiency, not unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.92}",
+  "skipped_existing": false
+}

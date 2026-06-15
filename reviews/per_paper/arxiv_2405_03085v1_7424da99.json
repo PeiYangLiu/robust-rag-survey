@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2405.03085v1",
+  "title": "Compressing Long Context for Enhancing RAG with AMR-based Concept Distillation",
+  "authors": "Kaize Shi; Xueyao Sun; Qing Li; Guandong Xu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.03085v1",
+  "local_pdf": "pdfs/2024_kaize_shi_compressing_long_context_for_enhancing_rag_with_amr_based_concept_distillation_7424da99.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes AMR-based concept distillation to compress retrieved documents and filter noisy/irrelevant content, addressing distraction from noisy retrieval in RAG.",
+  "why_not_or_caveat": "Focused on context compression rather than explicit robustness evaluation under adversarial or conflicting evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and context filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:53.473399+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2405.03085v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes AMR-based concept distillation to compress retrieved documents and filter noisy/irrelevant content, addressing distraction from noisy retrieval in RAG.\",\n  \"why_not_or_caveat\": \"Focused on context compression rather than explicit robustness evaluation under adversarial or conflicting evidence.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and context filtering\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

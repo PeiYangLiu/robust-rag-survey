@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.05093v1",
+  "title": "The Hidden Threat in Plain Text: Attacking RAG Data Loaders",
+  "authors": "Alberto Castagnaro; Umberto Salviati; Mauro Conti; Luca Pajola; Simeone Pizzi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.05093v1",
+  "local_pdf": "pdfs/2025_alberto_castagnaro_the_hidden_threat_in_plain_text_attacking_rag_data_loaders_657e43d0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces novel poisoning attacks targeting RAG data loaders via content obfuscation/injection in DOCX/HTML/PDF, with taxonomy and evaluation across loaders and end-to-end RAG systems.",
+  "why_not_or_caveat": "Focused on ingestion-stage attacks rather than defenses or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:39.847135+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.05093v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces novel poisoning attacks targeting RAG data loaders via content obfuscation/injection in DOCX/HTML/PDF, with taxonomy and evaluation across loaders and end-to-end RAG systems.\",\"why_not_or_caveat\":\"Focused on ingestion-stage attacks rather than defenses or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

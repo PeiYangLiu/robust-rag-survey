@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.01348v2",
+  "title": "CRAFT: Calibrated Reasoning with Answer-Faithful Traces via Reinforcement Learning for Multi-Hop Question Answering",
+  "authors": "Yu Liu; Wenxiao Zhang; Diandian Guo; Cong Cao; Fangfang Yuan; Qiang Sun; Yanbing Liu; Jin B. Hong; Zhiyuan Ma",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.01348v2",
+  "local_pdf": "pdfs/2026_yu_liu_craft_calibrated_reasoning_with_answer_faithful_traces_via_reinforcement_learning_for_mu_bdad795e.pdf",
+  "metadata_topics": "noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "CRAFT addresses right-answer-wrong-reason failures under noisy retrieval in multi-hop RAG via RL with faithfulness/citation rewards, directly targeting robustness, grounding, and auditable reasoning—relevant to noisy retrieval and calibration/control.",
+  "why_not_or_caveat": "Focus is on faithful reasoning training, not on attacks, conflict resolution, or abstention/confidence calibration in a strict sense.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Faithful Generation under Noisy Retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:17.829813+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.01348v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"CRAFT addresses right-answer-wrong-reason failures under noisy retrieval in multi-hop RAG via RL with faithfulness/citation rewards, directly targeting robustness, grounding, and auditable reasoning—relevant to noisy retrieval and calibration/control.\",\n  \"why_not_or_caveat\": \"Focus is on faithful reasoning training, not on attacks, conflict resolution, or abstention/confidence calibration in a strict sense.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Faithful Generation under Noisy Retrieval\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.17503v1",
+  "title": "CReSt: A Comprehensive Benchmark for Retrieval-Augmented Generation with Complex Reasoning over Structured Documents",
+  "authors": "Minsoo Khang; Sangjun Park; Teakgyu Hong; Dawoon Jung",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.17503v1",
+  "local_pdf": "pdfs/2025_minsoo_khang_crest_a_comprehensive_benchmark_for_retrieval_augmented_generation_with_complex_reasonin_db9fe94e.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "CReSt is a RAG benchmark that explicitly evaluates refusal behavior under insufficient evidence, citation accuracy, and reasoning over structured documents with negative chunks, touching on uncertainty-awareness and reliability dimensions central to the survey.",
+  "why_not_or_caveat": "Robustness is one of several dimensions; not focused on adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation/Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:17.168817+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.17503v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"CReSt is a RAG benchmark that explicitly evaluates refusal behavior under insufficient evidence, citation accuracy, and reasoning over structured documents with negative chunks, touching on uncertainty-awareness and reliability dimensions central to the survey.\",\n  \"why_not_or_caveat\": \"Robustness is one of several dimensions; not focused on adversarial or conflict settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation/Benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

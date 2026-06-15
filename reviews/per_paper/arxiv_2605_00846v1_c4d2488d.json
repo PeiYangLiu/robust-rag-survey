@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.00846v1",
+  "title": "ClinicBot: A Guideline-Grounded Clinical Chatbot with Prioritized Evidence RAG and Verifiable Citations",
+  "authors": "Navapat Nananukul; Mayank Kejriwal",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00846v1",
+  "local_pdf": "pdfs/2026_navapat_nananukul_clinicbot_a_guideline_grounded_clinical_chatbot_with_prioritized_evidence_rag_and_verifi_c4d2488d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a domain-specific clinical RAG system with evidence prioritization and refusal-on-insufficient-evidence, touching on hallucination mitigation and grounding.",
+  "why_not_or_caveat": "Primarily an application/system demo for diabetes guidelines; does not systematically study robustness, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:31.974503+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.00846v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a domain-specific clinical RAG system with evidence prioritization and refusal-on-insufficient-evidence, touching on hallucination mitigation and grounding.\",\n  \"why_not_or_caveat\": \"Primarily an application/system demo for diabetes guidelines; does not systematically study robustness, conflict, attacks, or calibration.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

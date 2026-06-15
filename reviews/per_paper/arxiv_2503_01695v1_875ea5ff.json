@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.01695v1",
+  "title": "Generate, Discriminate, Evolve: Enhancing Context Faithfulness via Fine-Grained Sentence-Level Self-Evolution",
+  "authors": "Kun Li; Tianhua Zhang; Yunxiang Li; Hongyin Luo; Abdalla Moustafa; Xixin Wu; James Glass; Helen Meng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.01695v1",
+  "local_pdf": "pdfs/2025_kun_li_generate_discriminate_evolve_enhancing_context_faithfulness_via_fine_grained_sentence_le_875ea5ff.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a self-evolving framework to enhance context faithfulness in RAG, directly addressing knowledge conflicts between parametric memory and retrieved evidence via sentence-level optimization.",
+  "why_not_or_caveat": "Focuses on faithfulness training rather than broader robustness; evaluated only on ASQA/ConFiQA.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict / Context Faithfulness",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:20.337132+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.01695v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a self-evolving framework to enhance context faithfulness in RAG, directly addressing knowledge conflicts between parametric memory and retrieved evidence via sentence-level optimization.\",\"why_not_or_caveat\":\"Focuses on faithfulness training rather than broader robustness; evaluated only on ASQA/ConFiQA.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict / Context Faithfulness\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

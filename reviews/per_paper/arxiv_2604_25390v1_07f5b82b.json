@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.25390v1",
+  "title": "GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matching",
+  "authors": "Tung-Duong Le-Duc; Hoang-Quoc Nguyen-Son; Minh-Son Dao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.25390v1",
+  "local_pdf": "pdfs/2026_tung_duong_le_duc_geosearch_augmenting_worldwide_geolocalization_with_web_scale_reverse_image_search_and_i_07f5b82b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "application"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG with filtering for image geolocalization, including a confidence-based gating mechanism to mitigate noisy retrieval.",
+  "why_not_or_caveat": "Application-specific (image geolocation) rather than a study of RAG robustness principles; limited generalizable insights for the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:45.357748+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.25390v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"application\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Uses RAG with filtering for image geolocalization, including a confidence-based gating mechanism to mitigate noisy retrieval.\",\n  \"why_not_or_caveat\": \"Application-specific (image geolocation) rather than a study of RAG robustness principles; limited generalizable insights for the survey.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

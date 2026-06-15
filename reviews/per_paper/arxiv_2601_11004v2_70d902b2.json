@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2601.11004v2",
+  "title": "NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems",
+  "authors": "Jiayu Liu; Rui Wang; Qing Zong; Yumeng Wang; Cheng Qian; Qingcheng Zeng; Tianshi Zheng; Haochen Shi; Dadi Guo; Baixuan Xu; Chunyang Li; Yangqiu Song",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.11004v2",
+  "local_pdf": "pdfs/2026_jiayu_liu_naacl_noise_aware_verbal_confidence_calibration_for_robust_llms_in_rag_systems_70d902b2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly studies verbal confidence calibration in RAG under noisy/counterfactual/irrelevant passages, proposing a noise-aware SFT framework and evaluating ECE/AUROC across benchmarks.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Control under Noisy Retrieval",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.069637+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.11004v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly studies verbal confidence calibration in RAG under noisy/counterfactual/irrelevant passages, proposing a noise-aware SFT framework and evaluating ECE/AUROC across benchmarks.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Calibration and Control under Noisy Retrieval\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

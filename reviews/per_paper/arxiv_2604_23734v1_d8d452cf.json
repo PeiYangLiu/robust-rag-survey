@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.23734v1",
+  "title": "Prism-Reranker: Beyond Relevance Scoring -- Jointly Producing Contributions and Evidence for Agentic Retrieval",
+  "authors": "Dun Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23734v1",
+  "local_pdf": "pdfs/2026_dun_zhang_prism_reranker_beyond_relevance_scoring_jointly_producing_contributions_and_evidence_for_d8d452cf.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a reranker that strips noise from retrieved web documents and emits evidence passages, tangentially relating to noisy retrieval mitigation in RAG.",
+  "why_not_or_caveat": "Primarily a reranker engineering paper; does not directly study robustness, conflict, adversarial evidence, or calibration in a substantive way.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval mitigation / rerankers",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.474025+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.23734v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a reranker that strips noise from retrieved web documents and emits evidence passages, tangentially relating to noisy retrieval mitigation in RAG.\",\n  \"why_not_or_caveat\": \"Primarily a reranker engineering paper; does not directly study robustness, conflict, adversarial evidence, or calibration in a substantive way.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval mitigation / rerankers\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

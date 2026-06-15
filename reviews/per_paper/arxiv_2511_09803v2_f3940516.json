@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.09803v2",
+  "title": "Retrieval as a Decision: Training-Free Adaptive Gating for Efficient RAG",
+  "authors": "Yufeng Wang; Lu wei; Haibin Ling",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.09803v2",
+  "local_pdf": "pdfs/2025_yufeng_wang_retrieval_as_a_decision_training_free_adaptive_gating_for_efficient_rag_f3940516.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a training-free adaptive gating policy that decides when to retrieve based on prefix-logit uncertainty (entropy, margin, small-N variance), directly addressing calibration/control of retrieval decisions.",
+  "why_not_or_caveat": "Focuses on efficiency and when-to-retrieve, not on handling noisy/adversarial evidence once retrieved.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.765346+00:00",
+  "raw_response": "{\"key\": \"arxiv-2511.09803v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a training-free adaptive gating policy that decides when to retrieve based on prefix-logit uncertainty (entropy, margin, small-N variance), directly addressing calibration/control of retrieval decisions.\", \"why_not_or_caveat\": \"Focuses on efficiency and when-to-retrieve, not on handling noisy/adversarial evidence once retrieved.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: When to Retrieve\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

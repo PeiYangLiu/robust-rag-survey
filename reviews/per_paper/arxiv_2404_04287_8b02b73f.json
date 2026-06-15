@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2404.04287",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2404.04287)\\] CONFLARE: CONFormal LArge language model REtrieval",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.04287",
+  "local_pdf": "pdfs/na_arxiv_2404_04287_arxiv_https_arxiv_org_abs_2404_04287_conflare_conformal_large_language_model_ret_8b02b73f.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Applies conformal prediction to RAG retrieval to quantify uncertainty and set similarity thresholds with statistical coverage guarantees, directly relevant to calibration/control and uncertainty quantification in retrieval.",
+  "why_not_or_caveat": "Focuses on retrieval-side calibration only, with a small medical QA demonstration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:32.207362+00:00",
+  "raw_response": "{\"key\":\"arxiv-2404.04287\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Applies conformal prediction to RAG retrieval to quantify uncertainty and set similarity thresholds with statistical coverage guarantees, directly relevant to calibration/control and uncertainty quantification in retrieval.\",\"why_not_or_caveat\":\"Focuses on retrieval-side calibration only, with a small medical QA demonstration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

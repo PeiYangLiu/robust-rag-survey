@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2404.06910v2",
+  "title": "Superposition Prompting: Improving and Accelerating Retrieval-Augmented Generation",
+  "authors": "Thomas Merth; Qichen Fu; Mohammad Rastegari; Mahyar Najibi",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.06910v2",
+  "local_pdf": "pdfs/2024_thomas_merth_superposition_prompting_improving_and_accelerating_retrieval_augmented_generation_88724650.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a prompting method that prunes irrelevant retrieved documents to mitigate the distraction phenomenon in RAG, directly addressing robustness to noisy/irrelevant context.",
+  "why_not_or_caveat": "Primary motivation is also efficiency; robustness is a secondary benefit.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:24.688119+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2404.06910v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a prompting method that prunes irrelevant retrieved documents to mitigate the distraction phenomenon in RAG, directly addressing robustness to noisy/irrelevant context.\",\n  \"why_not_or_caveat\": \"Primary motivation is also efficiency; robustness is a secondary benefit.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and noisy retrieval mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

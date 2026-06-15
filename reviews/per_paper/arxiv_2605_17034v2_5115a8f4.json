@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.17034v2",
+  "title": "Privacy Policy Enforcement Guardrails for Data-Sensitive Retrieval-Augmented Generation",
+  "authors": "Osama Zafar; Alexander Nemecek; Yiqian Zhang; Wenbiao Li; Debargha Ganguly; Vikash Singh; Vipin Chaudhary; Erman Ayday",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17034v2",
+  "local_pdf": "pdfs/2026_osama_zafar_privacy_policy_enforcement_guardrails_for_data_sensitive_retrieval_augmented_generation_5115a8f4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a privacy guardrail for RAG outputs using one-class density estimation with calibrated abstention for OOD inputs, touching on calibration/abstain control in RAG.",
+  "why_not_or_caveat": "Focus is privacy leakage detection (quasi-identifier clusters), not robustness against noisy/conflicting/adversarial evidence; tangential to the survey's core themes.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and abstention in RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:43.677423+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.17034v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a privacy guardrail for RAG outputs using one-class density estimation with calibrated abstention for OOD inputs, touching on calibration/abstain control in RAG.\",\n  \"why_not_or_caveat\": \"Focus is privacy leakage detection (quasi-identifier clusters), not robustness against noisy/conflicting/adversarial evidence; tangential to the survey's core themes.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and abstention in RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

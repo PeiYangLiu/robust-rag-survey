@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2401.00396",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2401.00396)\\] RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2401.00396",
+  "local_pdf": "pdfs/na_arxiv_2401_00396_arxiv_https_arxiv_org_abs_2401_00396_ragtruth_a_hallucination_corpus_for_develop_c04d48e7.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "RAGTruth provides a large-scale word-level annotated hallucination corpus specifically for RAG, covering conflicts with retrieved evidence and baseless additions, directly supporting evaluation of robust RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation/Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:40.039395+00:00",
+  "raw_response": "{\"key\":\"arxiv-2401.00396\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"knowledge_conflict\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"RAGTruth provides a large-scale word-level annotated hallucination corpus specifically for RAG, covering conflicts with retrieved evidence and baseless additions, directly supporting evaluation of robust RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Evaluation/Benchmarks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

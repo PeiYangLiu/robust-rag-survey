@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2509.01476v3",
+  "title": "Do Retrieval Augmented Language Models Know When They Don't Know?",
+  "authors": "Youchao Zhou; Heyan Huang; Yicheng Liu; Rui Dai; Xinglin Wang; Xingchen Zhang; Shumin Shi; Yang Deng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.01476v3",
+  "local_pdf": "pdfs/2025_youchao_zhou_do_retrieval_augmented_language_models_know_when_they_don_t_know_8a003d77.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies calibration, refusal/abstention, and over-refusal in RALMs under irrelevant retrieved contexts, directly addressing uncertainty estimation and control under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Abstention in RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.566166+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.01476v3\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\", \"noisy_retrieval\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies calibration, refusal/abstention, and over-refusal in RALMs under irrelevant retrieved contexts, directly addressing uncertainty estimation and control under unreliable evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Calibration and Abstention in RAG\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

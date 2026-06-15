@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.22800v1",
+  "title": "RCSB PDB AI Help Desk: retrieval-augmented generation for protein structure deposition support",
+  "authors": "Vivek Reddy Chithari; Jasmine Y. Young; Irina Persikova; Yuhe Liang; Gregg V. Crichlow; Justin W. Flatt; Sutapa Ghosh; Brian P. Hudson; Ezra Peisach; Monica Sekharan; Chenghua Shao; Stephen K. Burley",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.22800v1",
+  "local_pdf": "pdfs/2026_vivek_reddy_chithari_rcsb_pdb_ai_help_desk_retrieval_augmented_generation_for_protein_structure_deposition_su_06c4f985.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application paper describing a domain-specific RAG help desk system; does not study robustness, conflict, attacks, calibration, or evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Purely an applied deployment with no analysis of robustness aspects.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.461895+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.22800v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application paper describing a domain-specific RAG help desk system; does not study robustness, conflict, attacks, calibration, or evaluation under unreliable evidence.\",\"why_not_or_caveat\":\"Purely an applied deployment with no analysis of robustness aspects.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

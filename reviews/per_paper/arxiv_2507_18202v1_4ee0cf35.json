@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.18202v1",
+  "title": "Safeguarding RAG Pipelines with GMTP: A Gradient-based Masked Token Probability Method for Poisoned Document Detection",
+  "authors": "San Kim; Jonghwi Kim; Yejin Jeon; Gary Geunbae Lee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.18202v1",
+  "local_pdf": "pdfs/2025_san_kim_safeguarding_rag_pipelines_with_gmtp_a_gradient_based_masked_token_probability_method_fo_4ee0cf35.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes GMTP, a defense method to detect and filter poisoned documents in RAG knowledge bases by leveraging gradient-based key token identification and masked token probability checks.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption: defenses against poisoning",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.206221+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.18202v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes GMTP, a defense method to detect and filter poisoned documents in RAG knowledge bases by leveraging gradient-based key token identification and masked token probability checks.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial corruption: defenses against poisoning\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

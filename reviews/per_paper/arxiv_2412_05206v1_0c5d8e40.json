@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2412.05206v1",
+  "title": "ConQRet: Benchmarking Fine-Grained Evaluation of Retrieval Augmented Argumentation with LLM Judges",
+  "authors": "Kaustubh D. Dhole; Kai Shu; Eugene Agichtein",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.05206v1",
+  "local_pdf": "pdfs/2024_kaustubh_d_dhole_conqret_benchmarking_fine_grained_evaluation_of_retrieval_augmented_argumentation_with_l_0c5d8e40.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a RAG evaluation benchmark with LLM judges for argumentation involving noisy/misleading web evidence, tangentially related to evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Focuses on argumentation quality evaluation rather than robustness, conflict, attacks, or calibration in RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:47.574104+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.05206v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a RAG evaluation benchmark with LLM judges for argumentation involving noisy/misleading web evidence, tangentially related to evaluation under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focuses on argumentation quality evaluation rather than robustness, conflict, attacks, or calibration in RAG.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

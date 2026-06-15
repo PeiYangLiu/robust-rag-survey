@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.16367v1",
+  "title": "Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems",
+  "authors": "Hongru Song; Yu-an Liu; Ruqing Zhang; Jiafeng Guo; Yixing Fan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.16367v1",
+  "local_pdf": "pdfs/2025_hongru_song_chain_of_thought_poisoning_attacks_against_r1_based_retrieval_augmented_generation_syste_051d486f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel knowledge base poisoning attack targeting R1-based reasoning RAG systems by wrapping erroneous knowledge in chain-of-thought templates, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Narrow focus on attack against R1-based systems; no defense proposed.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:49.139978+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.16367v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a novel knowledge base poisoning attack targeting R1-based reasoning RAG systems by wrapping erroneous knowledge in chain-of-thought templates, directly relevant to adversarial corruption of RAG.\",\n  \"why_not_or_caveat\": \"Narrow focus on attack against R1-based systems; no defense proposed.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

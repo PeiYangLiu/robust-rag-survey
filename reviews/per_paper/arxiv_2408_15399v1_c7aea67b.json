@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2408.15399v1",
+  "title": "A Statistical Framework for Data-dependent Retrieval-Augmented Models",
+  "authors": "Soumya Basu; Ankit Singh Rawat; Manzil Zaheer",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2408.15399v1",
+  "local_pdf": "pdfs/2024_soumya_basu_a_statistical_framework_for_data_dependent_retrieval_augmented_models_c7aea67b.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Provides a statistical framework and excess risk bounds for retrieval-augmented models, which could offer theoretical grounding when discussing generalization of RAG, but does not directly address robustness, noise, conflict, or adversarial issues.",
+  "why_not_or_caveat": "Focus is on training objectives and generalization theory, not on unreliable evidence or any of the survey's core robustness themes.",
+  "recommended_use": "background_only",
+  "suggested_section": "Background / theoretical foundations",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:02.788505+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2408.15399v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"theory\",\n  \"why_relevant\": \"Provides a statistical framework and excess risk bounds for retrieval-augmented models, which could offer theoretical grounding when discussing generalization of RAG, but does not directly address robustness, noise, conflict, or adversarial issues.\",\n  \"why_not_or_caveat\": \"Focus is on training objectives and generalization theory, not on unreliable evidence or any of the survey's core robustness themes.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Background / theoretical foundations\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

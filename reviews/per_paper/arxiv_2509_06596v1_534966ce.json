@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.06596v1",
+  "title": "HAVE: Head-Adaptive Gating and ValuE Calibration for Hallucination Mitigation in Large Language Models",
+  "authors": "Xin Tong; Zhi Lin; Jingya Wang; Bo Jin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.06596v1",
+  "local_pdf": "pdfs/2025_xin_tong_have_head_adaptive_gating_and_value_calibration_for_hallucination_mitigation_in_large_la_534966ce.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "HAVE is a decoding-time method targeting hallucinations in RAG/long-context settings by calibrating attention-based evidence and using uncertainty-scaled fusion, relevant to context-faithful decoding and calibration.",
+  "why_not_or_caveat": "Focuses on decoding mechanics rather than retrieval robustness per se; tangential to noise/attack aspects.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / context-faithful decoding",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:21.864034+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.06596v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"HAVE is a decoding-time method targeting hallucinations in RAG/long-context settings by calibrating attention-based evidence and using uncertainty-scaled fusion, relevant to context-faithful decoding and calibration.\",\n  \"why_not_or_caveat\": \"Focuses on decoding mechanics rather than retrieval robustness per se; tangential to noise/attack aspects.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / context-faithful decoding\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

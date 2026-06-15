@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.06588v1",
+  "title": "vLLM Hook v0: A Plug-in for Programming Model Internals on vLLM",
+  "authors": "Ching-Yun Ko; Pin-Yu Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.06588v1",
+  "local_pdf": "pdfs/2026_ching_yun_ko_vllm_hook_v0_a_plug_in_for_programming_model_internals_on_vllm_951b6124.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "A vLLM plug-in tool whose demo use cases include prompt injection detection and RAG re-ranking via attention heads, tangentially touching robust RAG concerns.",
+  "why_not_or_caveat": "Primarily an engineering tool paper, not a study of RAG robustness, conflict, calibration, or adversarial defenses per se.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:38.072352+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.06588v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"A vLLM plug-in tool whose demo use cases include prompt injection detection and RAG re-ranking via attention heads, tangentially touching robust RAG concerns.\",\"why_not_or_caveat\":\"Primarily an engineering tool paper, not a study of RAG robustness, conflict, calibration, or adversarial defenses per se.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.13293v1",
+  "title": "Grounded by Experience: Generative Healthcare Prediction Augmented with Hierarchical Agentic Retrieval",
+  "authors": "Chuang Zhao; Hui Tang; Hongke Zhao; Xiaofang Zhou; Xiaomeng Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.13293v1",
+  "local_pdf": "pdfs/2025_chuang_zhao_grounded_by_experience_generative_healthcare_prediction_augmented_with_hierarchical_agen_7b492f2b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes an agentic RAG for healthcare that decides when to retrieve, tangentially touching calibration/control.",
+  "why_not_or_caveat": "Domain-specific application focused on healthcare prediction accuracy, not robustness under unreliable evidence, conflict, or adversarial settings.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.807627+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.13293v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes an agentic RAG for healthcare that decides when to retrieve, tangentially touching calibration/control.\",\"why_not_or_caveat\":\"Domain-specific application focused on healthcare prediction accuracy, not robustness under unreliable evidence, conflict, or adversarial settings.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

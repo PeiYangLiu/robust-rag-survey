@@ -1,0 +1,43 @@
+# ============================================================
+#  robust-rag-survey — backup .gitignore
+#  Excludes multi-GB third-party PDF corpora, regenerable
+#  text extractions, archives, and LaTeX/Python build junk.
+#  Authored content (.tex/.bib/.csv/.json/.md, scripts,
+#  human_coding data, figures, final PDFs) is kept.
+# ============================================================
+
+# ---- Large downloaded paper PDF corpora (third-party, not authored) ----
+/pdfs/
+manuscript/citation_audit/pdfs/
+manuscript/citation_audit/expanded_pdfs/
+exemplar/*.pdf
+
+# ---- Regenerable plain text extracted from PDFs ----
+manuscript/citation_audit/texts/
+manuscript/citation_audit/expanded_texts/
+metadata/venue_200_texts/
+metadata/multimodal_rag_100_texts/
+metadata/venue_extra_texts/
+
+# ---- Archives (regenerable packages) ----
+*.zip
+
+# ---- LaTeX build artifacts (manuscript/) ----
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/*.out
+manuscript/*.blg
+manuscript/*.bbl
+manuscript/*.synctex.gz
+manuscript/*.toc
+manuscript/*.lof
+manuscript/*.lot
+manuscript/*.bcf
+manuscript/*.run.xml
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo

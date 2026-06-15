@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.09247v1",
+  "title": "Agent-based Condition Monitoring Assistance with Multimodal Industrial Database Retrieval Augmented Generation",
+  "authors": "Karl Löwenmark; Daniel Strömbergsson; Chang Liu; Marcus Liwicki; Fredrik Sandin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.09247v1",
+  "local_pdf": "pdfs/2025_karl_l_wenmark_agent_based_condition_monitoring_assistance_with_multimodal_industrial_database_retrieva_c9228786.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of multimodal RAG to industrial condition monitoring; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Domain application paper without focus on robust RAG topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:21.575031+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.09247v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of multimodal RAG to industrial condition monitoring; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Domain application paper without focus on robust RAG topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

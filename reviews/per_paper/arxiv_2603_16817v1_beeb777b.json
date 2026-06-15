@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2603.16817v1",
+  "title": "Is Conformal Factuality for RAG-based LLMs Robust? Novel Metrics and Systematic Insights",
+  "authors": "Yi Chen; Daiwei Chen; Sukrut Madhav Chikodikar; Caitlyn Heqi Yin; Ramya Korlakai Vinayak",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.16817v1",
+  "local_pdf": "pdfs/2026_yi_chen_is_conformal_factuality_for_rag_based_llms_robust_novel_metrics_and_systematic_insights_beeb777b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematically evaluates conformal factuality filtering for RAG, showing fragility under distribution shifts and distractors, and proposes informativeness-aware metrics—directly addressing calibration, robustness, and evaluation of RAG under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Control / Conformal Methods",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:26.155849+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.16817v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\", \"distraction\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Systematically evaluates conformal factuality filtering for RAG, showing fragility under distribution shifts and distractors, and proposes informativeness-aware metrics—directly addressing calibration, robustness, and evaluation of RAG under unreliable evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Calibration and Control / Conformal Methods\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

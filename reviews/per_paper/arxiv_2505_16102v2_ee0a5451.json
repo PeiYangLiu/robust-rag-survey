@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.16102v2",
+  "title": "Continually Self-Improving Language Models for Bariatric Surgery Question--Answering",
+  "authors": "Yash Kumar Atri; Thomas H Shin; Thomas Hartvigsen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.16102v2",
+  "local_pdf": "pdfs/2025_yash_kumar_atri_continually_self_improving_language_models_for_bariatric_surgery_question_answering_ee0a5451.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a confidence-triggered adaptive RAG for bariatric surgery QA, touching on uncertainty-based retrieval control, but is primarily a domain application.",
+  "why_not_or_caveat": "Domain-specific medical QA application; no rigorous robustness/calibration analysis or general methodological contribution.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration_control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:17.796432+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.16102v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a confidence-triggered adaptive RAG for bariatric surgery QA, touching on uncertainty-based retrieval control, but is primarily a domain application.\",\"why_not_or_caveat\":\"Domain-specific medical QA application; no rigorous robustness/calibration analysis or general methodological contribution.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"calibration_control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

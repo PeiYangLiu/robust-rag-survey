@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2412.15189v3",
+  "title": "Face the Facts! Evaluating RAG-based Pipelines for Professional Fact-Checking",
+  "authors": "Daniel Russo; Stefano Menini; Jacopo Staiano; Marco Guerini",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.15189v3",
+  "local_pdf": "pdfs/2024_daniel_russo_face_the_facts_evaluating_rag_based_pipelines_for_professional_fact_checking_7ceb0d81.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Evaluates RAG pipelines for fact-checking verdict generation, touching on retriever robustness to noisy/stylistic claims and faithfulness vs context adherence trade-offs.",
+  "why_not_or_caveat": "Primarily a domain application (fact-checking) rather than a study of RAG robustness, conflict, adversarial threats, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.976062+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.15189v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Evaluates RAG pipelines for fact-checking verdict generation, touching on retriever robustness to noisy/stylistic claims and faithfulness vs context adherence trade-offs.\",\n  \"why_not_or_caveat\": \"Primarily a domain application (fact-checking) rather than a study of RAG robustness, conflict, adversarial threats, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

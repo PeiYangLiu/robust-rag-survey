@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.17840v3",
+  "title": "Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems",
+  "authors": "Zhenting Qi; Hanlin Zhang; Eric Xing; Sham Kakade; Himabindu Lakkaraju",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.17840v3",
+  "local_pdf": "pdfs/2024_zhenting_qi_follow_my_instruction_and_spill_the_beans_scalable_data_extraction_from_retrieval_augmen_20d3c2f2.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Demonstrates prompt-injection data extraction attacks against RAG datastores, exposing a privacy/adversarial vulnerability relevant to robustness against malicious inputs.",
+  "why_not_or_caveat": "Focus is on datastore privacy leakage rather than evidence-corruption attacks affecting answer reliability.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / prompt injection",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:13.631879+00:00",
+  "raw_response": "{\"key\":\"arxiv-2402.17840v3\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Demonstrates prompt-injection data extraction attacks against RAG datastores, exposing a privacy/adversarial vulnerability relevant to robustness against malicious inputs.\",\"why_not_or_caveat\":\"Focus is on datastore privacy leakage rather than evidence-corruption attacks affecting answer reliability.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption / prompt injection\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

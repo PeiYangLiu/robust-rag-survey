@@ -1,0 +1,79 @@
+{
+  "version": "venue_expanded_adjudicated_2026_06_07",
+  "rows": 342,
+  "map_a_original_rows": 268,
+  "new_rows_retained_after_adjudication": 74,
+  "new_rows_retained_from_adjudicated_disagreements": 65,
+  "new_rows_retained_from_all_agree": 9,
+  "new_rows_excluded_after_adjudication": 74,
+  "pre_adjudication_rows": 416,
+  "adjudicated_disagreement_rows": 139,
+  "source_strata": {
+    "venue_or_proceedings_linked": 126,
+    "arxiv_or_preprint": 207,
+    "other_or_unclear": 4,
+    "workshop_or_challenge": 5
+  },
+  "primary_failure_counts": {
+    "adversarial_corruption": 120,
+    "distraction": 18,
+    "noisy_retrieval": 34,
+    "calibration_control": 55,
+    "knowledge_conflict": 57,
+    "evaluation_benchmark": 43,
+    "survey_related": 6,
+    "modality_scenario": 7,
+    "ood_uncertainty": 2
+  },
+  "method_family_counts": {
+    "attack": 75,
+    "defense/mitigation": 119,
+    "benchmark/evaluation": 67,
+    "analysis": 21,
+    "conflict modeling": 4,
+    "control/calibration": 27,
+    "survey background": 6,
+    "method": 2,
+    "method/evaluation": 21
+  },
+  "intervention_counts": {
+    "corpus/KB": 67,
+    "context assembly": 48,
+    "mixed": 43,
+    "generator": 81,
+    "evaluation": 51,
+    "retriever/context": 15,
+    "system control": 36,
+    "not applicable": 1
+  },
+  "year_counts": {
+    "2025": 170,
+    "2024": 92,
+    "2023": 12,
+    "2026": 65,
+    "2022": 1,
+    "2021": 2
+  },
+  "core_reading_set": {
+    "true": 100,
+    "false": 242
+  },
+  "original_map_member": {
+    "true": 268,
+    "false": 74
+  },
+  "venue_expanded_added": {
+    "false": 268,
+    "true": 74
+  },
+  "venue_by_primary_label": {
+    "adversarial_corruption": 26,
+    "distraction": 6,
+    "noisy_retrieval": 22,
+    "evaluation_benchmark": 28,
+    "knowledge_conflict": 16,
+    "calibration_control": 20,
+    "modality_scenario": 6,
+    "ood_uncertainty": 2
+  }
+}

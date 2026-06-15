@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.11129v3",
+  "title": "BlendFilter: Advancing Retrieval-Augmented Large Language Models via Query Generation Blending and Knowledge Filtering",
+  "authors": "Haoyu Wang; Ruirui Li; Haoming Jiang; Jinjin Tian; Zhengyang Wang; Chen Luo; Xianfeng Tang; Monica Cheng; Tuo Zhao; Jing Gao",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.11129v3",
+  "local_pdf": "pdfs/2024_haoyu_wang_blendfilter_advancing_retrieval_augmented_large_language_models_via_query_generation_ble_47890980.pdf",
+  "metadata_topics": "noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a knowledge filtering module to remove irrelevant retrieved passages and blends query augmentations to reduce noisy retrieval impact, relevant to the noisy retrieval and filtering subsection.",
+  "why_not_or_caveat": "Focus is on QA performance improvement rather than systematic robustness analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:37.145950+00:00",
+  "raw_response": "{\"key\":\"arxiv-2402.11129v3\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a knowledge filtering module to remove irrelevant retrieved passages and blends query augmentations to reduce noisy retrieval impact, relevant to the noisy retrieval and filtering subsection.\",\"why_not_or_caveat\":\"Focus is on QA performance improvement rather than systematic robustness analysis.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval / Filtering\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

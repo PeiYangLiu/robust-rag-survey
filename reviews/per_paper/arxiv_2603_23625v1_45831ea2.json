@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.23625v1",
+  "title": "Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focused Framework",
+  "authors": "Zeinab Dehghani; Rameez Raja Kureshi; Koorosh Aslansefat; Faezeh Alsadat Abedi; Dhavalkumar Thakker; Lisa Greaves; Bhupesh Kumar Mishra; Baseer Ahmad; Tanaya Maslekar",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.23625v1",
+  "local_pdf": "pdfs/2026_zeinab_dehghani_evaluating_a_multi_agent_voice_enabled_smart_speaker_for_care_homes_a_safety_focused_fra_45831ea2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application paper evaluating a RAG-based voice assistant in care homes with safety safeguards (confidence scoring, clarification, human-in-the-loop) under noisy conditions.",
+  "why_not_or_caveat": "Domain-specific application; does not contribute methodological insights on robust RAG, conflict, attacks, or general calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:35.468644+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.23625v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Application paper evaluating a RAG-based voice assistant in care homes with safety safeguards (confidence scoring, clarification, human-in-the-loop) under noisy conditions.\",\n  \"why_not_or_caveat\": \"Domain-specific application; does not contribute methodological insights on robust RAG, conflict, attacks, or general calibration.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2409.15364v1",
+  "title": "VERA: Validation and Enhancement for Retrieval Augmented systems",
+  "authors": "Nitin Aravind Birur; Tanay Baswa; Divyanshu Kumar; Jatan Loya; Sahil Agarwal; Prashanth Harshangi",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.15364v1",
+  "local_pdf": "pdfs/2024_nitin_aravind_birur_vera_validation_and_enhancement_for_retrieval_augmented_systems_2a90251c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "VERA proposes a control framework that decides whether retrieval is needed, filters irrelevant retrieved context, and validates response adherence/relevance, addressing noisy retrieval and calibration/control concerns in RAG.",
+  "why_not_or_caveat": "Prompt-based pipeline with limited novelty; does not address adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (when to retrieve, filter, validate)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.377542+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2409.15364v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"VERA proposes a control framework that decides whether retrieval is needed, filters irrelevant retrieved context, and validates response adherence/relevance, addressing noisy retrieval and calibration/control concerns in RAG.\",\n  \"why_not_or_caveat\": \"Prompt-based pipeline with limited novelty; does not address adversarial or conflict settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control (when to retrieve, filter, validate)\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

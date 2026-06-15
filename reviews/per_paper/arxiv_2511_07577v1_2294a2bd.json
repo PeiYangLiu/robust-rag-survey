@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.07577v1",
+  "title": "A Decentralized Retrieval Augmented Generation System with Source Reliabilities Secured on Blockchain",
+  "authors": "Yining Lu; Wenyi Tang; Max Johnson; Taeho Jung; Meng Jiang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.07577v1",
+  "local_pdf": "pdfs/2025_yining_lu_a_decentralized_retrieval_augmented_generation_system_with_source_reliabilities_secured_2294a2bd.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a source reliability scoring mechanism for decentralized RAG to handle unreliable data sources with varying quality (noise, misinformation, outdated content).",
+  "why_not_or_caveat": "Primary focus is decentralized architecture and blockchain-based trust management, not robustness methodology per se; relevance to robust RAG is tangential.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / source reliability",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.366941+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.07577v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\",\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a source reliability scoring mechanism for decentralized RAG to handle unreliable data sources with varying quality (noise, misinformation, outdated content).\",\"why_not_or_caveat\":\"Primary focus is decentralized architecture and blockchain-based trust management, not robustness methodology per se; relevance to robust RAG is tangential.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval / source reliability\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

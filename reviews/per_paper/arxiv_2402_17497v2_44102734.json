@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2402.17497v2",
+  "title": "REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering",
+  "authors": "Yuhao Wang; Ruiyang Ren; Junyi Li; Wayne Xin Zhao; Jing Liu; Ji-Rong Wen",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.17497v2",
+  "local_pdf": "pdfs/2024_yuhao_wang_rear_a_relevance_aware_retrieval_augmented_framework_for_open_domain_question_answering_44102734.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "REAR addresses noisy/irrelevant retrieval by adding a relevance assessment module and noise-resistant training, enabling the LLM to adaptively weigh external vs parametric knowledge.",
+  "why_not_or_caveat": "Focused on open-domain QA; does not address adversarial or OOD settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and relevance-aware filtering",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:41.931344+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.17497v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"REAR addresses noisy/irrelevant retrieval by adding a relevance assessment module and noise-resistant training, enabling the LLM to adaptively weigh external vs parametric knowledge.\",\n  \"why_not_or_caveat\": \"Focused on open-domain QA; does not address adversarial or OOD settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and relevance-aware filtering\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

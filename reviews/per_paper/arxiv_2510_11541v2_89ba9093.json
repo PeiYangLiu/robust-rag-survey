@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.11541v2",
+  "title": "Question-Adaptive Graph Learning for Multi-hop Retrieval Augmented Generation",
+  "authors": "Yuchen Yan; Peiyan Zhang; Zhihua Liu; Hao Wang; Yatao Bian; Weiming Li; Xiaoshuai Hao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.11541v2",
+  "local_pdf": "pdfs/2025_yuchen_yan_question_adaptive_graph_learning_for_multi_hop_retrieval_augmented_generation_89ba9093.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a GNN-based multi-hop retrieval method that claims robustness to irrelevant noise in KG-based retrieval, tangentially touching noisy retrieval.",
+  "why_not_or_caveat": "Primary focus is improving multi-hop retrieval accuracy via graph learning, not systematically studying noise robustness, conflict, adversarial corruption, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / multi-hop RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:36.501770+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.11541v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a GNN-based multi-hop retrieval method that claims robustness to irrelevant noise in KG-based retrieval, tangentially touching noisy retrieval.\",\n  \"why_not_or_caveat\": \"Primary focus is improving multi-hop retrieval accuracy via graph learning, not systematically studying noise robustness, conflict, adversarial corruption, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / multi-hop RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

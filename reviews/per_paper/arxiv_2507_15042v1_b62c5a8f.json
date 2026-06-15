@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.15042v1",
+  "title": "DeRAG: Black-box Adversarial Attacks on Multiple Retrieval-Augmented Generation Applications via Prompt Injection",
+  "authors": "Jerry Wang; Fang Yu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.15042v1",
+  "local_pdf": "pdfs/2025_jerry_wang_derag_black_box_adversarial_attacks_on_multiple_retrieval_augmented_generation_applicati_b62c5a8f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box differential evolution attack that injects adversarial suffixes to manipulate RAG retrieval rankings, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Focuses solely on attack methodology without defense or calibration discussion.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and retrieval attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:41.034383+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.15042v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a black-box differential evolution attack that injects adversarial suffixes to manipulate RAG retrieval rankings, directly relevant to adversarial corruption of retrieval.\",\n  \"why_not_or_caveat\": \"Focuses solely on attack methodology without defense or calibration discussion.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and retrieval attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

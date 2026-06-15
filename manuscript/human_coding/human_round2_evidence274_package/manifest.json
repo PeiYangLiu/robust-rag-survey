@@ -1,0 +1,39 @@
+{
+  "source": "supplement/evidence_map_venue_audited.csv",
+  "n_records": 274,
+  "fields": [
+    "paper_id",
+    "title",
+    "authors",
+    "year",
+    "source_or_venue",
+    "url",
+    "local_pdf",
+    "full_text_checked",
+    "screen_in_scope",
+    "relevance_level",
+    "primary_failure_type",
+    "secondary_failure_types",
+    "method_family",
+    "intervention_point",
+    "evaluation_type",
+    "evidence_strength",
+    "is_core_candidate",
+    "include_in_evidence_map",
+    "exclusion_reason",
+    "confidence_1_to_5",
+    "notes",
+    "attacker_capability",
+    "retriever_generator_setup",
+    "metrics_reported",
+    "reproducibility_evidence"
+  ],
+  "generated_files": [
+    "source_01_annotations.csv",
+    "source_02_annotations.csv",
+    "human_human_double_coding_protocol.md",
+    "README.md"
+  ],
+  "source_01_annotations.csv_sha256": "13836f9326e23b6b9b3fcc8d3efd3861bbf76ffa6ed51b016a56abdeb02387ac",
+  "source_02_annotations.csv_sha256": "13836f9326e23b6b9b3fcc8d3efd3861bbf76ffa6ed51b016a56abdeb02387ac"
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.17292v1",
+  "title": "SEAL-Tag: Self-Tag Evidence Aggregation with Probabilistic Circuits for PII-Safe Retrieval-Augmented Generation",
+  "authors": "Jin Xie; Songze Li; Guang Cheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.17292v1",
+  "local_pdf": "pdfs/2026_jin_xie_seal_tag_self_tag_evidence_aggregation_with_probabilistic_circuits_for_pii_safe_retrieva_2296e5d7.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense against contextual PII leakage and adaptive extraction attacks in RAG, including a benchmark for leakage evaluation, relevant to the adversarial corruption subsection.",
+  "why_not_or_caveat": "Focuses on privacy leakage rather than general robustness/noise/conflict; narrower scope on PII protection.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Privacy Attacks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:58.455062+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.17292v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a defense against contextual PII leakage and adaptive extraction attacks in RAG, including a benchmark for leakage evaluation, relevant to the adversarial corruption subsection.\",\"why_not_or_caveat\":\"Focuses on privacy leakage rather than general robustness/noise/conflict; narrower scope on PII protection.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Privacy Attacks\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

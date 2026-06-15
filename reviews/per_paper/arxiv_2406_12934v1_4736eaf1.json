@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.12934v1",
+  "title": "Current state of LLM Risks and AI Guardrails",
+  "authors": "Suriya Ganesh Ayyamperumal; Limin Ge",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.12934v1",
+  "local_pdf": "pdfs/2024_suriya_ganesh_ayyamperumal_current_state_of_llm_risks_and_ai_guardrails_4736eaf1.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "General survey of LLM risks and guardrails that briefly mentions RAG, but does not focus on robustness of RAG under unreliable evidence.",
+  "why_not_or_caveat": "Broad overview lacking depth on RAG-specific noise, conflict, or calibration issues.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.227916+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.12934v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"General survey of LLM risks and guardrails that briefly mentions RAG, but does not focus on robustness of RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Broad overview lacking depth on RAG-specific noise, conflict, or calibration issues.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

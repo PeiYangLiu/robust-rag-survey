@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.15487v1",
+  "title": "MiRAGE: A Multiagent Framework for Generating Multimodal Multihop Question-Answer Dataset for RAG Evaluation",
+  "authors": "Chandan Kumar Sahu; Premith Kumar Chilukuri; Matthew Hetrich",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15487v1",
+  "local_pdf": "pdfs/2026_chandan_kumar_sahu_mirage_a_multiagent_framework_for_generating_multimodal_multihop_question_answer_dataset_4ad82425.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a multi-agent framework for generating multimodal multi-hop QA datasets for RAG evaluation, tangentially relevant to RAG benchmarking.",
+  "why_not_or_caveat": "Does not focus on robustness, noise, conflict, adversarial corruption, or calibration; primarily a dataset generation tool for general RAG evaluation.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:43.538161+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.15487v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a multi-agent framework for generating multimodal multi-hop QA datasets for RAG evaluation, tangentially relevant to RAG benchmarking.\",\n  \"why_not_or_caveat\": \"Does not focus on robustness, noise, conflict, adversarial corruption, or calibration; primarily a dataset generation tool for general RAG evaluation.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

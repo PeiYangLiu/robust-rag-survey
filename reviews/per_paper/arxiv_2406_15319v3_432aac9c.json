@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.15319v3",
+  "title": "LongRAG: Enhancing Retrieval-Augmented Generation with Long-context LLMs",
+  "authors": "Ziyan Jiang; Xueguang Ma; Wenhu Chen",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.15319v3",
+  "local_pdf": "pdfs/2024_ziyan_jiang_longrag_enhancing_retrieval_augmented_generation_with_long_context_llms_432aac9c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Discusses how long retrieval units reduce hard negatives compared to short-unit retrieval, tangentially relevant to noisy retrieval and distraction effects on readers.",
+  "why_not_or_caveat": "Primarily an architectural RAG method leveraging long-context LLMs, not a focused study on robustness, conflict, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / hard negatives",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:11.222356+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2406.15319v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Discusses how long retrieval units reduce hard negatives compared to short-unit retrieval, tangentially relevant to noisy retrieval and distraction effects on readers.\",\n  \"why_not_or_caveat\": \"Primarily an architectural RAG method leveraging long-context LLMs, not a focused study on robustness, conflict, attacks, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / hard negatives\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

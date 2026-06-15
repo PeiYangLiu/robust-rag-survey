@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.09\linewidth}>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}p{0.18\linewidth}X}
+\toprule
+\textbf{Pair} & \textbf{Rulebook verdict} & \textbf{External gold verdict} & \textbf{Gold-panel implication} \\
+\midrule
+P09 & Under-specified & Partial & Attack paper vs. defense paper within the same threat model should default to partial when failure type and evidence assumption align; the role, metric, and action differences make the papers complementary rather than directly rankable. \\
+P12 & Partial & Partial & Verdict unchanged, but the panel refined the rationale: benchmark/detector vs. generation-method pairs should be partial when they share failure type and evidence assumption but diverge in intervention point, metric target, and action policy. \\
+\bottomrule
+\end{tabularx}
+\caption{Rulebook revisions from independent gold adjudication. The panel labels are used as the external-gold reference for Table~\ref{tab:expert-validation-pilot}.}
+\label{tab:gold-adjudication-revisions}
+\end{table*}

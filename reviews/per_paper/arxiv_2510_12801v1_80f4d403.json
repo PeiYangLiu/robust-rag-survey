@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.12801v1",
+  "title": "DeepMMSearch-R1: Empowering Multimodal LLMs in Multimodal Web Search",
+  "authors": "Kartik Narayan; Yang Xu; Tian Cao; Kavya Nerella; Vishal M. Patel; Navid Shiee; Peter Grasch; Chao Jia; Yinfei Yang; Zhe Gan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.12801v1",
+  "local_pdf": "pdfs/2025_kartik_narayan_deepmmsearch_r1_empowering_multimodal_llms_in_multimodal_web_search_80f4d403.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multimodal search-equipped MLLM with self-reflection and query refinement that handles noisy web search results, tangentially relating to robust retrieval control.",
+  "why_not_or_caveat": "Focus is on building a multimodal web-search agent, not on systematically studying robustness, conflict, calibration, or adversarial conditions in RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:02.825041+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.12801v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a multimodal search-equipped MLLM with self-reflection and query refinement that handles noisy web search results, tangentially relating to robust retrieval control.\",\"why_not_or_caveat\":\"Focus is on building a multimodal web-search agent, not on systematically studying robustness, conflict, calibration, or adversarial conditions in RAG.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

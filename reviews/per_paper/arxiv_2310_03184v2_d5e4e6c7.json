@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2310.03184v2",
+  "title": "Retrieval-augmented Generation to Improve Math Question-Answering: Trade-offs Between Groundedness and Human Preference",
+  "authors": "Zachary Levonian; Chenglu Li; Wangda Zhu; Anoushka Gade; Owen Henkel; Millie-Ellen Postle; Wanli Xing",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.03184v2",
+  "local_pdf": "pdfs/2023_zachary_levonian_retrieval_augmented_generation_to_improve_math_question_answering_trade_offs_between_gro_d5e4e6c7.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Studies RAG for math tutoring and trade-offs between groundedness and human preference, touching on retrieval relevance but in an applied educational setting.",
+  "why_not_or_caveat": "Application paper; not focused on robustness, adversarial, conflict, or calibration issues central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:11.113021+00:00",
+  "raw_response": "{\"key\":\"arxiv-2310.03184v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Studies RAG for math tutoring and trade-offs between groundedness and human preference, touching on retrieval relevance but in an applied educational setting.\",\"why_not_or_caveat\":\"Application paper; not focused on robustness, adversarial, conflict, or calibration issues central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

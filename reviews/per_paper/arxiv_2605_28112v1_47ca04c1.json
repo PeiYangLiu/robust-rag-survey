@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.28112v1",
+  "title": "A Wolf in Sheep's Clothing: Targeted Routing Hijacking in Federated RAG",
+  "authors": "Junjie Mu; Qiongxiu Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28112v1",
+  "local_pdf": "pdfs/2026_junjie_mu_a_wolf_in_sheep_s_clothing_targeted_routing_hijacking_in_federated_rag_47ca04c1.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a novel routing-stage attack on Federated RAG where malicious clients forge semantic profiles, causing missing evidence, poisoning, and hallucinations, and proposes a trust-aware defense. Fits adversarial corruption and retrieval robustness themes.",
+  "why_not_or_caveat": "Focused on federated RAG setting, which is narrower than mainstream RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Retrieval Attacks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.035887+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.28112v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"noisy_retrieval\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces a novel routing-stage attack on Federated RAG where malicious clients forge semantic profiles, causing missing evidence, poisoning, and hallucinations, and proposes a trust-aware defense. Fits adversarial corruption and retrieval robustness themes.\",\n  \"why_not_or_caveat\": \"Focused on federated RAG setting, which is narrower than mainstream RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Retrieval Attacks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

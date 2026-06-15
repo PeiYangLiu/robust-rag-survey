@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.16326v3",
+  "title": "ARK: Answer-Centric Retriever Tuning via KG-augmented Curriculum Learning",
+  "authors": "Hang Ding; Jiawei Zhou; Haiyun Jiang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.16326v3",
+  "local_pdf": "pdfs/2025_hang_ding_ark_answer_centric_retriever_tuning_via_kg_augmented_curriculum_learning_fdd6e0b1.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes retriever fine-tuning with hard-negative mining to better distinguish answer-sufficient evidence from distractor chunks, tangentially related to noisy retrieval robustness.",
+  "why_not_or_caveat": "Primary focus is improving retrieval accuracy via curriculum contrastive learning, not robustness, calibration, conflict, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy Retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.310635+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.16326v3\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes retriever fine-tuning with hard-negative mining to better distinguish answer-sufficient evidence from distractor chunks, tangentially related to noisy retrieval robustness.\",\"why_not_or_caveat\":\"Primary focus is improving retrieval accuracy via curriculum contrastive learning, not robustness, calibration, conflict, or adversarial settings.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy Retrieval\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

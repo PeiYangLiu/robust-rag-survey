@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.04711v2",
+  "title": "Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention",
+  "authors": "Sagie Dekel; Moshe Tennenholtz; Oren Kurland",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.04711v2",
+  "local_pdf": "pdfs/2026_sagie_dekel_addressing_corpus_knowledge_poisoning_attacks_on_rag_using_sparse_attention_5793bc75.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a sparse-attention defense against corpus poisoning attacks in RAG, directly addressing adversarial corruption robustness with empirical evaluation across attacks, retrievers, and LLMs.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:46.769963+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.04711v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a sparse-attention defense against corpus poisoning attacks in RAG, directly addressing adversarial corruption robustness with empirical evaluation across attacks, retrievers, and LLMs.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

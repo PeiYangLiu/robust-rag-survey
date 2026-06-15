@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2507.20059v1",
+  "title": "RAG in the Wild: On the (In)effectiveness of LLMs with Mixture-of-Knowledge Retrieval Augmentation",
+  "authors": "Ran Xu; Yuchen Zhuang; Yue Yu; Haoyu Wang; Wenqi Shi; Carl Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.20059v1",
+  "local_pdf": "pdfs/2025_ran_xu_rag_in_the_wild_on_the_in_effectiveness_of_llms_with_mixture_of_knowledge_retrieval_augm_ab0da729.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Empirically analyzes RAG effectiveness under realistic mixture-of-knowledge retrieval, showing rerankers add little, no source dominates, and LLMs fail to route queries—motivating adaptive retrieval and when-to-retrieve decisions.",
+  "why_not_or_caveat": "Focuses on effectiveness analysis rather than directly tackling adversarial or conflict robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.928751+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.20059v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"calibration_control\",\"noisy_retrieval\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Empirically analyzes RAG effectiveness under realistic mixture-of-knowledge retrieval, showing rerankers add little, no source dominates, and LLMs fail to route queries—motivating adaptive retrieval and when-to-retrieve decisions.\",\"why_not_or_caveat\":\"Focuses on effectiveness analysis rather than directly tackling adversarial or conflict robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

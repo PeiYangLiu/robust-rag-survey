@@ -1,0 +1,27 @@
+{
+  "strata": {
+    "within_adversarial_corruption": 4,
+    "within_calibration_control": 4,
+    "within_distraction": 4,
+    "within_evaluation_benchmark": 4,
+    "within_knowledge_conflict": 4,
+    "within_modality_scenario": 4,
+    "within_noisy_retrieval": 4,
+    "within_survey_related": 4,
+    "conflict_vs_poisoning": 6,
+    "noise_vs_control": 6,
+    "eval_vs_method": 6,
+    "extension_vs_text": 5,
+    "security_vs_privacy_control": 5
+  },
+  "gold_verdicts": {
+    "invalid": 24,
+    "partial": 36
+  },
+  "pair_level_changes": {
+    "control_corrects_protocol": 1,
+    "protocol_corrects_control": 19,
+    "both_correct": 34,
+    "both_wrong_same": 6
+  }
+}

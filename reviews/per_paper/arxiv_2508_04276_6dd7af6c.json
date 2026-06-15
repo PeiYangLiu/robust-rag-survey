@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.04276",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2508.04276)] A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.04276",
+  "local_pdf": "pdfs/na_arxiv_2508_04276_ins_arxiv_ins_https_arxiv_org_abs_2508_04276_a_few_words_can_distort_graphs_know_6dd7af6c.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes knowledge poisoning attacks on GraphRAG via minimal text edits, showing defenses fail; directly relevant to adversarial corruption of RAG knowledge bases.",
+  "why_not_or_caveat": "Focuses on GraphRAG variant rather than standard RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:25.937069+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.04276\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes knowledge poisoning attacks on GraphRAG via minimal text edits, showing defenses fail; directly relevant to adversarial corruption of RAG knowledge bases.\",\"why_not_or_caveat\":\"Focuses on GraphRAG variant rather than standard RAG.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

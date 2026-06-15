@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.05588v4",
+  "title": "Autoregressive Ranking: Bridging the Gap Between Dual and Cross Encoders",
+  "authors": "Benjamin Rozonoyer; Chong You; Michael Boratko; Himanshu Jain; Nilesh Gupta; Srinadh Bhojanapalli; Andrew McCallum; Felix Yu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05588v4",
+  "local_pdf": "pdfs/2026_benjamin_rozonoyer_autoregressive_ranking_bridging_the_gap_between_dual_and_cross_encoders_403550f1.pdf",
+  "metadata_topics": "calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper proposes a rank-aware loss for autoregressive ranking, unrelated to RAG robustness, unreliable evidence, or calibration in the survey's sense.",
+  "why_not_or_caveat": "Despite the 'calibrated loss' name, it concerns ranking expressivity, not robustness/uncertainty/conflict in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:38.226094+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.05588v4\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper proposes a rank-aware loss for autoregressive ranking, unrelated to RAG robustness, unreliable evidence, or calibration in the survey's sense.\",\"why_not_or_caveat\":\"Despite the 'calibrated loss' name, it concerns ranking expressivity, not robustness/uncertainty/conflict in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

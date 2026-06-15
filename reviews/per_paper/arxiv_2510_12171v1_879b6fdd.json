@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.12171v1",
+  "title": "MatSciBench: Benchmarking the Reasoning Ability of Large Language Models in Materials Science",
+  "authors": "Junkai Zhang; Jingru Gan; Xiaoxuan Wang; Zian Jia; Changquan Gu; Jianpeng Chen; Yanqiao Zhu; Mingyu Derek Ma; Dawei Zhou; Ling Li; Wei Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.12171v1",
+  "local_pdf": "pdfs/2025_junkai_zhang_matscibench_benchmarking_the_reasoning_ability_of_large_language_models_in_materials_sci_879b6fdd.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "A materials science reasoning benchmark that only briefly mentions RAG as a case study; not focused on robustness.",
+  "why_not_or_caveat": "Domain-specific reasoning benchmark, not about robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:57.468539+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.12171v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"A materials science reasoning benchmark that only briefly mentions RAG as a case study; not focused on robustness.\",\"why_not_or_caveat\":\"Domain-specific reasoning benchmark, not about robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

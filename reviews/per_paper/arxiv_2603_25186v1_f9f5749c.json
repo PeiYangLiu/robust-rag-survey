@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.25186v1",
+  "title": "Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric Data: Privacy Preserving Synthetic Data Generation",
+  "authors": "Adam Jakobsen; Sushant Gautam; Hugo Lewi Hammer; Susanne Olofsdotter; Miriam S Johanson; Pål Halvorsen; Vajira Thambawita",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.25186v1",
+  "local_pdf": "pdfs/2026_adam_jakobsen_knowledge_guided_retrieval_augmented_generation_for_zero_shot_psychiatric_data_privacy_p_f9f5749c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for synthetic psychiatric data generation; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope for robust RAG survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.947840+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.25186v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for synthetic psychiatric data generation; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope for robust RAG survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

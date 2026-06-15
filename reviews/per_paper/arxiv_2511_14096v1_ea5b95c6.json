@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.14096v1",
+  "title": "NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval",
+  "authors": "Junchen Li; Rongzheng Wang; Yihong Huang; Qizhi Chen; Jiasheng Zhang; Shuang Liang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.14096v1",
+  "local_pdf": "pdfs/2025_junchen_li_neuropath_neurobiology_inspired_path_tracking_and_reflection_for_semantically_coherent_r_ea5b95c6.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a graph-based RAG method aimed at reducing irrelevant noise in subgraph retrieval for multi-hop QA, tangentially touching noisy retrieval.",
+  "why_not_or_caveat": "Focus is on improving multi-hop retrieval accuracy via semantic paths, not on robustness under unreliable evidence, conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "noisy_retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:37.333357+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.14096v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a graph-based RAG method aimed at reducing irrelevant noise in subgraph retrieval for multi-hop QA, tangentially touching noisy retrieval.\",\"why_not_or_caveat\":\"Focus is on improving multi-hop retrieval accuracy via semantic paths, not on robustness under unreliable evidence, conflict, adversaries, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"noisy_retrieval\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

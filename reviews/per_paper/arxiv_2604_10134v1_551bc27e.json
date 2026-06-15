@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.10134v1",
+  "title": "PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification",
+  "authors": "Guangyu Gong; Zizhuang Deng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.10134v1",
+  "local_pdf": "pdfs/2026_guangyu_gong_planguard_defending_agents_against_indirect_prompt_injection_via_planning_based_consiste_551bc27e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense against indirect prompt injection in LLM agents using retrieved content, relevant to adversarial corruption of external/retrieved context.",
+  "why_not_or_caveat": "Focused on agent tool-use rather than RAG QA; IPI defense via plan consistency is tangential to retrieval pipeline robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Prompt Injection Defenses",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:51.162055+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.10134v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a defense against indirect prompt injection in LLM agents using retrieved content, relevant to adversarial corruption of external/retrieved context.\",\n  \"why_not_or_caveat\": \"Focused on agent tool-use rather than RAG QA; IPI defense via plan consistency is tangential to retrieval pipeline robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption and Prompt Injection Defenses\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

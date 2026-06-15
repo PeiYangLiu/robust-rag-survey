@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.14470v1",
+  "title": "HyperRAG: Reasoning N-ary Facts over Hypergraphs for Retrieval Augmented Generation",
+  "authors": "Wen-Sheng Lien; Yu-Kai Chan; Hao-Lung Hsiao; Bo-Kai Ruan; Meng-Fen Chiang; Chien-An Chen; Yi-Ren Yeh; Hong-Han Shuai",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.14470v1",
+  "local_pdf": "pdfs/2026_wen_sheng_lien_hyperrag_reasoning_n_ary_facts_over_hypergraphs_for_retrieval_augmented_generation_bcaf5ed5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hypergraph-based RAG method for multi-hop QA; mentions retrieval drift but does not study robustness, conflict, attacks, calibration, or uncertainty.",
+  "why_not_or_caveat": "Focus is on improving retrieval accuracy via n-ary hypergraphs, not on robustness to unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:00.759669+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.14470v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a hypergraph-based RAG method for multi-hop QA; mentions retrieval drift but does not study robustness, conflict, attacks, calibration, or uncertainty.\", \"why_not_or_caveat\": \"Focus is on improving retrieval accuracy via n-ary hypergraphs, not on robustness to unreliable evidence.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

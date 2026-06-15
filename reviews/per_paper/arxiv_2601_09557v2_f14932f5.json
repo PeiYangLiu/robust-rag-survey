@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.09557v2",
+  "title": "SiliconHealth: A Complete Low-Cost Blockchain Healthcare Infrastructure for Resource-Constrained Regions Using Repurposed Bitcoin Mining ASICs",
+  "authors": "Francisco Angulo de Lafuente; Seid Mehammed Abdu; Nirmal Tej",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.09557v2",
+  "local_pdf": "pdfs/2026_francisco_angulo_de_lafuente_siliconhealth_a_complete_low_cost_blockchain_healthcare_infrastructure_for_resource_cons_f14932f5.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions RAG only as a component for medical record queries within a blockchain healthcare infrastructure; does not study robustness, reliability, or unreliable evidence.",
+  "why_not_or_caveat": "Out of scope; application paper not addressing any robust RAG topic.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:19.690945+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.09557v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Mentions RAG only as a component for medical record queries within a blockchain healthcare infrastructure; does not study robustness, reliability, or unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope; application paper not addressing any robust RAG topic.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.00689v2",
+  "title": "PrefRAG: Preference-Driven Multi-Source Retrieval Augmented Generation",
+  "authors": "Qingfei Zhao; Ruobing Wang; Yukuo Cen; Daren Zha; Shicheng Tan; Jie Tang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.00689v2",
+  "local_pdf": "pdfs/2024_qingfei_zhao_prefrag_preference_driven_multi_source_retrieval_augmented_generation_500154eb.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive multi-source RAG with self-reflection that decides when/what to retrieve and which source to trust, touching on control aspects.",
+  "why_not_or_caveat": "Focus is on multi-source retrieval performance, not robustness under noisy/conflicting/adversarial evidence or calibration/abstention.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adaptive retrieval and control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:42.481330+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2411.00689v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes adaptive multi-source RAG with self-reflection that decides when/what to retrieve and which source to trust, touching on control aspects.\",\n  \"why_not_or_caveat\": \"Focus is on multi-source retrieval performance, not robustness under noisy/conflicting/adversarial evidence or calibration/abstention.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adaptive retrieval and control\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

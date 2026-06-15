@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.22856v1",
+  "title": "Retrieval-Guided Photovoltaic Inventory Estimation from Satellite Imagery for Distribution Grid Planning",
+  "authors": "Muhao Guo; Lihao Mai; Erik Blasch; Jafarali Parol; Turki Rakan; Yang Weng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.22856v1",
+  "local_pdf": "pdfs/2026_muhao_guo_retrieval_guided_photovoltaic_inventory_estimation_from_satellite_imagery_for_distributi_8bb3efc1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of retrieval-augmented VLM to PV detection from satellite imagery; does not study RAG robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Domain-specific application paper, not about RAG robustness research.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:58.107081+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.22856v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of retrieval-augmented VLM to PV detection from satellite imagery; does not study RAG robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Domain-specific application paper, not about RAG robustness research.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

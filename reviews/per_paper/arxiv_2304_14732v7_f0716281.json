@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2304.14732v7",
+  "title": "Search-in-the-Chain: Interactively Enhancing Large Language Models with Search for Knowledge-intensive Tasks",
+  "authors": "Shicheng Xu; Liang Pang; Huawei Shen; Xueqi Cheng; Tat-Seng Chua",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2304.14732v7",
+  "local_pdf": "pdfs/2023_shicheng_xu_search_in_the_chain_interactively_enhancing_large_language_models_with_search_for_knowle_f0716281.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "SearChain addresses knowledge conflict between LLM parametric knowledge and retrieved evidence via IR-based verification with confidence-gated correction, and uses LLM-indicated missing knowledge flags to decide when to retrieve—relevant to conflict handling and retrieval control.",
+  "why_not_or_caveat": "Primarily a multi-hop QA reasoning framework; robustness/conflict handling is a component rather than core focus, and no systematic evaluation under adversarial or noisy retrieval.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / knowledge conflict",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:27.581255+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2304.14732v7\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"SearChain addresses knowledge conflict between LLM parametric knowledge and retrieved evidence via IR-based verification with confidence-gated correction, and uses LLM-indicated missing knowledge flags to decide when to retrieve—relevant to conflict handling and retrieval control.\",\n  \"why_not_or_caveat\": \"Primarily a multi-hop QA reasoning framework; robustness/conflict handling is a component rather than core focus, and no systematic evaluation under adversarial or noisy retrieval.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / knowledge conflict\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

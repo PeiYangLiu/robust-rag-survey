@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.22225v1",
+  "title": "SmartChunk Retrieval: Query-Aware Chunk Compression with Planning for Efficient Document RAG",
+  "authors": "Xuechen Zhang; Koustava Goswami; Samet Oymak; Jiasi Chen; Nedim Lipka",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.22225v1",
+  "local_pdf": "pdfs/2025_xuechen_zhang_smartchunk_retrieval_query_aware_chunk_compression_with_planning_for_efficient_document_bb225ae9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive chunking to reduce noisy/misleading retrieved chunks in long-document RAG, tangentially touching noisy retrieval robustness.",
+  "why_not_or_caveat": "Primary focus is efficiency and accuracy of chunking, not robustness under unreliable evidence per se; no direct study of noise, conflict, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / retrieval design",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:51.053521+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.22225v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes adaptive chunking to reduce noisy/misleading retrieved chunks in long-document RAG, tangentially touching noisy retrieval robustness.\", \"why_not_or_caveat\": \"Primary focus is efficiency and accuracy of chunking, not robustness under unreliable evidence per se; no direct study of noise, conflict, attacks, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Noisy retrieval / retrieval design\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.22427v2",
+  "title": "Adversarial Hubness Detector: Detecting Hubness Poisoning in Retrieval-Augmented Generation Systems",
+  "authors": "Idan Habler; Vineeth Sai Narajala; Stav Koren; Amy Chang; Tiffany Saade",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.22427v2",
+  "local_pdf": "pdfs/2026_idan_habler_adversarial_hubness_detector_detecting_hubness_poisoning_in_retrieval_augmented_generati_e3ab090b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a detection framework for adversarial hubness poisoning attacks in RAG vector indices, directly addressing retrieval-level adversarial corruption defenses.",
+  "why_not_or_caveat": "Focuses narrowly on embedding-space hub detection rather than broader RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.377249+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.22427v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a detection framework for adversarial hubness poisoning attacks in RAG vector indices, directly addressing retrieval-level adversarial corruption defenses.\",\"why_not_or_caveat\":\"Focuses narrowly on embedding-space hub detection rather than broader RAG robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Defenses\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

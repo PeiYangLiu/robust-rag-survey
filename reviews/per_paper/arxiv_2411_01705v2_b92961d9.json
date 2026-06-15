@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.01705v2",
+  "title": "Data Extraction Attacks in Retrieval-Augmented Generation via Backdoors",
+  "authors": "Yuefeng Peng; Junda Wang; Hong Yu; Amir Houmansadr",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.01705v2",
+  "local_pdf": "pdfs/2024_yuefeng_peng_data_extraction_attacks_in_retrieval_augmented_generation_via_backdoors_b92961d9.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes backdoor-based data extraction attacks against RAG systems, contributing to the adversarial corruption threat model including poisoning and privacy leakage.",
+  "why_not_or_caveat": "Focuses on privacy/extraction rather than answer-quality robustness; tangential to calibration/conflict aspects.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Backdoors and Poisoning",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:20.080350+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2411.01705v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes backdoor-based data extraction attacks against RAG systems, contributing to the adversarial corruption threat model including poisoning and privacy leakage.\",\n  \"why_not_or_caveat\": \"Focuses on privacy/extraction rather than answer-quality robustness; tangential to calibration/conflict aspects.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Backdoors and Poisoning\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

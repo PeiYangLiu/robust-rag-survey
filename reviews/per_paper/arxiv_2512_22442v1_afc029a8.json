@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.22442v1",
+  "title": "HiFi-RAG: Hierarchical Content Filtering and Two-Pass Generation for Open-Domain RAG",
+  "authors": "Cattalyya Nuengsigkapian",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.22442v1",
+  "local_pdf": "pdfs/2025_cattalyya_nuengsigkapian_hifi_rag_hierarchical_content_filtering_and_two_pass_generation_for_open_domain_rag_afc029a8.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hierarchical LLM-based filtering pipeline to remove irrelevant retrieved content, tangentially related to noisy retrieval mitigation.",
+  "why_not_or_caveat": "Primarily a competition system report optimizing ROUGE/DeBERTaScore; does not rigorously study robustness, conflict, calibration, or adversarial issues.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:18.307499+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.22442v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a hierarchical LLM-based filtering pipeline to remove irrelevant retrieved content, tangentially related to noisy retrieval mitigation.\",\n  \"why_not_or_caveat\": \"Primarily a competition system report optimizing ROUGE/DeBERTaScore; does not rigorously study robustness, conflict, calibration, or adversarial issues.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

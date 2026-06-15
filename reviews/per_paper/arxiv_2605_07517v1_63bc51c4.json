@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.07517v1",
+  "title": "LARAG: Link-Aware Retrieval Strategy for RAG Systems in Hyperlinked Technical Documentation",
+  "authors": "Giorgia Bolognesi; Claudio Estatico; Ulderico Fugacci; Isabella Mastroianni; Claudio Muselli; Luca Oneto",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.07517v1",
+  "local_pdf": "pdfs/2026_giorgia_bolognesi_larag_link_aware_retrieval_strategy_for_rag_systems_in_hyperlinked_technical_documentati_63bc51c4.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a link-aware retrieval method for hyperlinked technical documentation, focused on efficiency and answer quality, not robustness.",
+  "why_not_or_caveat": "Does not address noise, distraction, conflict, adversarial robustness, calibration, or uncertainty.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.670727+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.07517v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a link-aware retrieval method for hyperlinked technical documentation, focused on efficiency and answer quality, not robustness.\",\"why_not_or_caveat\":\"Does not address noise, distraction, conflict, adversarial robustness, calibration, or uncertainty.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.01290v1",
+  "title": "Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities",
+  "authors": "Zhichao Yan; Jiapu Wang; Jiaoyan Chen; Yanyan Wang; Hongye Tan; Jiye Liang; Xiaoli Li; Ru Li; Jeff Z. Pan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.01290v1",
+  "local_pdf": "pdfs/2025_zhichao_yan_prompting_large_language_models_with_partial_knowledge_for_answering_questions_with_unse_31bf4ab2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Studies partially relevant retrieved knowledge and incomplete KG retrieval, touching on noisy/insufficient evidence in RAG and how to leverage parametric knowledge when retrieval fails.",
+  "why_not_or_caveat": "Focus is on KGQA with unseen entities and 'awakening' parametric knowledge, not core robustness, conflict resolution, or calibration under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy/Insufficient Retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:36.846165+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.01290v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\", \"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Studies partially relevant retrieved knowledge and incomplete KG retrieval, touching on noisy/insufficient evidence in RAG and how to leverage parametric knowledge when retrieval fails.\",\n  \"why_not_or_caveat\": \"Focus is on KGQA with unseen entities and 'awakening' parametric knowledge, not core robustness, conflict resolution, or calibration under unreliable evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy/Insufficient Retrieval\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.08959v1",
+  "title": "DualResearch: Entropy-Gated Dual-Graph Retrieval for Answer Reconstruction",
+  "authors": "Jinxin Shi; Zongsheng Cao; Runmin Ma; Yusong Hu; Jie Zhou; Xin Li; Lei Bai; Liang He; Bo Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.08959v1",
+  "local_pdf": "pdfs/2025_jinxin_shi_dualresearch_entropy_gated_dual_graph_retrieval_for_answer_reconstruction_2f942819.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes entropy-gated dual-graph retrieval fusion for deep-research, addressing context pollution and noisy retrieval via uncertainty-weighted aggregation.",
+  "why_not_or_caveat": "Focus is on scientific reasoning method and aggregation, not directly on robustness benchmarks, conflict, or adversarial RAG; entropy-gated fusion is tangentially related to calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration_control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:09.542993+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.08959v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes entropy-gated dual-graph retrieval fusion for deep-research, addressing context pollution and noisy retrieval via uncertainty-weighted aggregation.\",\"why_not_or_caveat\":\"Focus is on scientific reasoning method and aggregation, not directly on robustness benchmarks, conflict, or adversarial RAG; entropy-gated fusion is tangentially related to calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"calibration_control\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

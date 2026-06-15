@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.05648v1",
+  "title": "Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training",
+  "authors": "Haoran Wang; Xuanyi Zhang; Shuangsang Fang; Longke Ran; Ziqing Deng; Yong Zhang; Yuxiang Li; Shaoshuai Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05648v1",
+  "local_pdf": "pdfs/2026_haoran_wang_open_world_knowledge_aided_single_cell_foundation_model_with_robust_cross_modal_cell_lan_bdc5ea4e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG to enrich cell text descriptions for a single-cell foundation model; not about RAG robustness.",
+  "why_not_or_caveat": "Out of scope: biology application, not studying RAG reliability/robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.861908+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.05648v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG to enrich cell text descriptions for a single-cell foundation model; not about RAG robustness.\",\"why_not_or_caveat\":\"Out of scope: biology application, not studying RAG reliability/robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

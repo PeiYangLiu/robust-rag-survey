@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.07164v1",
+  "title": "Your Language Model Secretly Contains Personality Subnetworks",
+  "authors": "Ruimeng Ye; Zihan Wang; Zinan Ling; Yang Xiao; Manling Li; Xiaolong Ma; Bo Hui",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.07164v1",
+  "local_pdf": "pdfs/2026_ruimeng_ye_your_language_model_secretly_contains_personality_subnetworks_5af21491.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper is about extracting persona subnetworks via pruning; only mentions RAG as a baseline contrast for persona control.",
+  "why_not_or_caveat": "Does not address robustness, noise, conflict, adversarial, or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:53.472219+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.07164v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper is about extracting persona subnetworks via pruning; only mentions RAG as a baseline contrast for persona control.\",\"why_not_or_caveat\":\"Does not address robustness, noise, conflict, adversarial, or calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

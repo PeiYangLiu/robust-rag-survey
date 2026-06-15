@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2403.19964",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2403.19964)\\] FairRAG: Fair Human Generation via Fair Retrieval Augmentation",
+  "authors": "",
+  "year": "1996",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.19964",
+  "local_pdf": "pdfs/1996_arxiv_2403_19964_arxiv_https_arxiv_org_abs_2403_19964_fairrag_fair_human_generation_via_fair_retr_36bd9c28.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses retrieval augmentation for fair image generation, unrelated to robustness of RAG under unreliable evidence.",
+  "why_not_or_caveat": "Focuses on demographic fairness in T2I diffusion, not noise/conflict/attacks/calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:38.852550+00:00",
+  "raw_response": "{\"key\":\"arxiv-2403.19964\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses retrieval augmentation for fair image generation, unrelated to robustness of RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Focuses on demographic fairness in T2I diffusion, not noise/conflict/attacks/calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

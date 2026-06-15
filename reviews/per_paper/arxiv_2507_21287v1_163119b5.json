@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2507.21287v1",
+  "title": "Structured Relevance Assessment for Robust Retrieval-Augmented Language Models",
+  "authors": "Aryan Raj; Astitva Veer Garg; Anitha D",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.21287v1",
+  "local_pdf": "pdfs/2025_aryan_raj_structured_relevance_assessment_for_robust_retrieval_augmented_language_models_163119b5.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a relevance scoring + source reliability framework with abstention ('unknown' protocol) and balancing parametric vs retrieved knowledge, directly relevant to noisy retrieval handling and calibration/abstention in RAG.",
+  "why_not_or_caveat": "Preliminary evaluation, limited rigor, and uses a non-standard benchmark; contribution is incremental.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control: filtering and abstention",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:11.528460+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.21287v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a relevance scoring + source reliability framework with abstention ('unknown' protocol) and balancing parametric vs retrieved knowledge, directly relevant to noisy retrieval handling and calibration/abstention in RAG.\",\n  \"why_not_or_caveat\": \"Preliminary evaluation, limited rigor, and uses a non-standard benchmark; contribution is incremental.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control: filtering and abstention\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

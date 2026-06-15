@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2507.22927v1",
+  "title": "PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation",
+  "authors": "Zhehao Tan; Yihan Jiao; Dan Yang; Lei Liu; Jie Feng; Duolin Sun; Yue Shen; Jian Wang; Peng Wei; Jinjie Gu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.22927v1",
+  "local_pdf": "pdfs/2025_zhehao_tan_prgb_benchmark_a_robust_placeholder_assisted_algorithm_for_benchmarking_retrieval_augmen_b5e4b19f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a fine-grained benchmark evaluating LLM robustness in RAG across multi-level noise filtering, combination, and reasoning, with a placeholder method to decouple parametric vs external knowledge—directly relevant to noisy retrieval and parametric-vs-context conflict evaluation.",
+  "why_not_or_caveat": "Focuses on benchmarking rather than proposing defenses or calibration methods.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:27.907584+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.22927v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\", \"knowledge_conflict\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a fine-grained benchmark evaluating LLM robustness in RAG across multi-level noise filtering, combination, and reasoning, with a placeholder method to decouple parametric vs external knowledge—directly relevant to noisy retrieval and parametric-vs-context conflict evaluation.\",\n  \"why_not_or_caveat\": \"Focuses on benchmarking rather than proposing defenses or calibration methods.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

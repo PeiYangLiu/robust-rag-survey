@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.09319",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2602.09319)\\] Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.09319",
+  "local_pdf": "pdfs/na_arxiv_2602_09319_arxiv_https_arxiv_org_abs_2602_09319_benchmarking_knowledge_extraction_attack_an_61c381a1.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a unified benchmark of knowledge-extraction attacks and defenses on RAG systems, directly relevant to the adversarial corruption and evaluation aspects of robust RAG.",
+  "why_not_or_caveat": "Focus is on privacy/extraction attacks rather than poisoning or prompt injection, a narrower slice of adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Attacks on RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:29.042482+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.09319\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Provides a unified benchmark of knowledge-extraction attacks and defenses on RAG systems, directly relevant to the adversarial corruption and evaluation aspects of robust RAG.\",\n  \"why_not_or_caveat\": \"Focus is on privacy/extraction attacks rather than poisoning or prompt injection, a narrower slice of adversarial robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption and Attacks on RAG\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

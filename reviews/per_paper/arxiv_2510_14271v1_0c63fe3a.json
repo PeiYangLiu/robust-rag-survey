@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.14271v1",
+  "title": "Less is More: Denoising Knowledge Graphs For Retrieval Augmented Generation",
+  "authors": "Yilun Zheng; Dan Yang; Jie Li; Lin Shang; Lihui Chen; Jiahao Xu; Sitao Luan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.14271v1",
+  "local_pdf": "pdfs/2025_yilun_zheng_less_is_more_denoising_knowledge_graphs_for_retrieval_augmented_generation_0c63fe3a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses noise in LLM-constructed knowledge graphs used for Graph-based RAG via entity resolution and triple reflection, tangentially related to noisy retrieval.",
+  "why_not_or_caveat": "Focuses on KG construction quality rather than robustness of RAG under unreliable retrieved evidence, conflicts, or adversarial inputs.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / Graph-based RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:50.694754+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.14271v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses noise in LLM-constructed knowledge graphs used for Graph-based RAG via entity resolution and triple reflection, tangentially related to noisy retrieval.\",\n  \"why_not_or_caveat\": \"Focuses on KG construction quality rather than robustness of RAG under unreliable retrieved evidence, conflicts, or adversarial inputs.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / Graph-based RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

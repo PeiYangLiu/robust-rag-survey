@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.14175v1",
+  "title": "Grounded Continuation: A Linear-Time Runtime Verifier for LLM Conversations",
+  "authors": "Qisong He; Yi Dong; Xiaowei Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14175v1",
+  "local_pdf": "pdfs/2026_qisong_he_grounded_continuation_a_linear_time_runtime_verifier_for_llm_conversations_9f7bab3f.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a runtime verifier for interactional grounding in LLM conversations, with a transcript-RAG baseline comparison and brief mention of context-manipulation attacks.",
+  "why_not_or_caveat": "Focus is on conversation grounding/dependency tracking, not on RAG robustness, retrieval noise, or evidence conflict in the survey's sense.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.732470+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.14175v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a runtime verifier for interactional grounding in LLM conversations, with a transcript-RAG baseline comparison and brief mention of context-manipulation attacks.\",\"why_not_or_caveat\":\"Focus is on conversation grounding/dependency tracking, not on RAG robustness, retrieval noise, or evidence conflict in the survey's sense.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

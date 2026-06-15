@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.06401v3",
+  "title": "A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges",
+  "authors": "Andrew Brown; Muhammad Roman; Barry Devereux",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.06401v3",
+  "local_pdf": "pdfs/2025_andrew_brown_a_systematic_literature_review_of_retrieval_augmented_generation_techniques_metrics_and_f95b531f.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A general PRISMA-based systematic review of RAG covering datasets, architectures, metrics, and challenges; touches robustness only tangentially.",
+  "why_not_or_caveat": "Not focused on robustness, noise, conflict, adversaries, or calibration specifically.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:01.173371+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.06401v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"A general PRISMA-based systematic review of RAG covering datasets, architectures, metrics, and challenges; touches robustness only tangentially.\",\n  \"why_not_or_caveat\": \"Not focused on robustness, noise, conflict, adversaries, or calibration specifically.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Related surveys\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

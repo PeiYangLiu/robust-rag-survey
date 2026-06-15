@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.08416v1",
+  "title": "Pandora: Jailbreak GPTs by Retrieval Augmented Generation Poisoning",
+  "authors": "Gelei Deng; Yi Liu; Kailong Wang; Yuekang Li; Tianwei Zhang; Yang Liu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.08416v1",
+  "local_pdf": "pdfs/2024_gelei_deng_pandora_jailbreak_gpts_by_retrieval_augmented_generation_poisoning_c01f4105.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a RAG poisoning attack vector (Pandora) that injects malicious documents into the knowledge base to jailbreak GPTs, directly relevant to adversarial corruption of retrieved evidence.",
+  "why_not_or_caveat": "Preliminary evaluation; focuses on jailbreaking rather than general RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / RAG Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.454315+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.08416v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces a RAG poisoning attack vector (Pandora) that injects malicious documents into the knowledge base to jailbreak GPTs, directly relevant to adversarial corruption of retrieved evidence.\",\n  \"why_not_or_caveat\": \"Preliminary evaluation; focuses on jailbreaking rather than general RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / RAG Poisoning\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.00331v1",
+  "title": "CogEvo-Edu: Cognitive Evolution Educational Multi-Agent Collaborative System",
+  "authors": "Yefeng Wu; Yuchen Song; Yecheng Zhao; Ling Wu; Shan Wan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.00331v1",
+  "local_pdf": "pdfs/2025_yefeng_wu_cogevo_edu_cognitive_evolution_educational_multi_agent_collaborative_system_ec020bc0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of multi-agent RAG to tutoring; does not study robustness, conflict, or calibration under unreliable evidence.",
+  "why_not_or_caveat": "Educational application paper, not focused on robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.166487+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.00331v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of multi-agent RAG to tutoring; does not study robustness, conflict, or calibration under unreliable evidence.\",\"why_not_or_caveat\":\"Educational application paper, not focused on robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

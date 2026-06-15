@@ -1,0 +1,17 @@
+{
+  "accepted_related_rows": 1667,
+  "current_records": 1769,
+  "matches": 31,
+  "new_candidates": 1631,
+  "download_attempts": 51,
+  "downloaded_or_exists": 40,
+  "download_status_counts": {
+    "downloaded": 40,
+    "failed": 11
+  },
+  "outputs": [
+    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_existing_matches.csv",
+    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_new_candidates.csv",
+    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_downloads.csv"
+  ]
+}

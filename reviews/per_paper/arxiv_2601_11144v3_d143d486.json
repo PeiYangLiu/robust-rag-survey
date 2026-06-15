@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.11144v3",
+  "title": "Deep GraphRAG: A Balanced Approach to Hierarchical Retrieval and Adaptive Integration",
+  "authors": "Yuejie Li; Ke Yang; Tao Wang; Bolin Chen; Bowen Li; Chengjun Mao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.11144v3",
+  "local_pdf": "pdfs/2026_yuejie_li_deep_graphrag_a_balanced_approach_to_hierarchical_retrieval_and_adaptive_integration_d143d486.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a GraphRAG hierarchical retrieval and RL-based knowledge integration method; not focused on robustness, conflict, adversarial, or calibration aspects.",
+  "why_not_or_caveat": "No treatment of noise, distraction, conflict, attacks, or uncertainty; just a retrieval/integration improvement.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:34.489899+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.11144v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a GraphRAG hierarchical retrieval and RL-based knowledge integration method; not focused on robustness, conflict, adversarial, or calibration aspects.\",\"why_not_or_caveat\":\"No treatment of noise, distraction, conflict, attacks, or uncertainty; just a retrieval/integration improvement.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

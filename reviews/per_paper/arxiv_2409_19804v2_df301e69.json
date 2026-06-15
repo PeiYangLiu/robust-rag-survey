@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.19804v2",
+  "title": "Does RAG Introduce Unfairness in LLMs? Evaluating Fairness in Retrieval-Augmented Generation Systems",
+  "authors": "Xuyang Wu; Shuowei Li; Hsin-Tai Wu; Zhiqiang Tao; Yi Fang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.19804v2",
+  "local_pdf": "pdfs/2024_xuyang_wu_does_rag_introduce_unfairness_in_llms_evaluating_fairness_in_retrieval_augmented_generat_df301e69.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates fairness/bias in RAG pipelines, which is tangential to robustness under unreliable evidence.",
+  "why_not_or_caveat": "Focus is demographic fairness, not noise/conflict/adversarial/calibration robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:03.198325+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.19804v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Evaluates fairness/bias in RAG pipelines, which is tangential to robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Focus is demographic fairness, not noise/conflict/adversarial/calibration robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

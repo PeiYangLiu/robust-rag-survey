@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.09493v1",
+  "title": "Policy-Aware Edge LLM-RAG Framework for Internet of Battlefield Things Mission Orchestration",
+  "authors": "Om Solanki; Lopamudra Praharaj; Deepti Gupta; Maanak Gupta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.09493v1",
+  "local_pdf": "pdfs/2026_om_solanki_policy_aware_edge_llm_rag_framework_for_internet_of_battlefield_things_mission_orchestra_bb297180.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with a JudgeLLM verifier for IoBT mission control; touches on reliability/policy compliance but is an application paper, not a robustness study.",
+  "why_not_or_caveat": "No focus on noise, conflict, adversarial RAG, calibration, or RAG-specific evaluation under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:12.573555+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.09493v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG with a JudgeLLM verifier for IoBT mission control; touches on reliability/policy compliance but is an application paper, not a robustness study.\",\"why_not_or_caveat\":\"No focus on noise, conflict, adversarial RAG, calibration, or RAG-specific evaluation under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

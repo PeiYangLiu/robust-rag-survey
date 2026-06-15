@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.15437v2",
+  "title": "Test-time Corpus Feedback: From Retrieval to RAG",
+  "authors": "Mandeep Rathee; V Venktesh; Sean MacAvaney; Avishek Anand",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.15437v2",
+  "local_pdf": "pdfs/2025_mandeep_rathee_test_time_corpus_feedback_from_retrieval_to_rag_e7e5212c.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey of feedback-driven adaptive retrieval in RAG, including when to retrieve and uncertainty-triggered re-retrieval, which overlaps with the calibration/control axis of the target survey.",
+  "why_not_or_caveat": "Focused on retrieval feedback mechanisms broadly, not specifically on robustness to noise/conflict/adversaries.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:34.375010+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.15437v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Survey of feedback-driven adaptive retrieval in RAG, including when to retrieve and uncertainty-triggered re-retrieval, which overlaps with the calibration/control axis of the target survey.\",\n  \"why_not_or_caveat\": \"Focused on retrieval feedback mechanisms broadly, not specifically on robustness to noise/conflict/adversaries.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / related surveys\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

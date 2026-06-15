@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.26926v1",
+  "title": "From Norms to Indicators (N2I-RAG): An Agentic Retrieval-Augmented Generation Framework for Legal Indicator Computation",
+  "authors": "Youssef Al Mouatamid; Marie Bonnin; Jihad Zahir",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.26926v1",
+  "local_pdf": "pdfs/2026_youssef_al_mouatamid_from_norms_to_indicators_n2i_rag_an_agentic_retrieval_augmented_generation_framework_for_13ded07e.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies agentic RAG to legal indicator computation with validation steps, but does not study robustness, conflict, attacks, calibration, or uncertainty in a generalizable way.",
+  "why_not_or_caveat": "Domain application paper; no systematic analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:31.937654+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.26926v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies agentic RAG to legal indicator computation with validation steps, but does not study robustness, conflict, attacks, calibration, or uncertainty in a generalizable way.\",\"why_not_or_caveat\":\"Domain application paper; no systematic analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

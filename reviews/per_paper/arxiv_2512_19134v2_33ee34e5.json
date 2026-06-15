@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.19134v2",
+  "title": "QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation",
+  "authors": "Dehai Min; Kailin Zhang; Tongtong Wu; Lu Cheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.19134v2",
+  "local_pdf": "pdfs/2025_dehai_min_quco_rag_quantifying_uncertainty_from_the_pre_training_corpus_for_dynamic_retrieval_augm_33ee34e5.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a dynamic RAG method that decides when to retrieve based on corpus-grounded uncertainty rather than poorly-calibrated model-internal signals, directly addressing calibration/control and long-tail knowledge gaps.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:30.692657+00:00",
+  "raw_response": "{\"key\": \"arxiv-2512.19134v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a dynamic RAG method that decides when to retrieve based on corpus-grounded uncertainty rather than poorly-calibrated model-internal signals, directly addressing calibration/control and long-tail knowledge gaps.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: When to Retrieve\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

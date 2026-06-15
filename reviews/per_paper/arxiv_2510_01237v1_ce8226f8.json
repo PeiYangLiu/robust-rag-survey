@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.01237v1",
+  "title": "Confidence-Aware Routing for Large Language Model Reliability Enhancement: A Multi-Signal Approach to Pre-Generation Hallucination Mitigation",
+  "authors": "Nandakishor M",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.01237v1",
+  "local_pdf": "pdfs/2025_nandakishor_m_confidence_aware_routing_for_large_language_model_reliability_enhancement_a_multi_signal_ce8226f8.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a pre-generation confidence routing system that decides between local generation, RAG, larger models, or human review, touching on when-to-retrieve and abstention control.",
+  "why_not_or_caveat": "Evaluation is weak (72 training examples, small model), and the work is not specifically about RAG robustness under unreliable evidence; routing is generic confidence-based.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control: when to retrieve",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:52.815963+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.01237v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a pre-generation confidence routing system that decides between local generation, RAG, larger models, or human review, touching on when-to-retrieve and abstention control.\",\n  \"why_not_or_caveat\": \"Evaluation is weak (72 training examples, small model), and the work is not specifically about RAG robustness under unreliable evidence; routing is generic confidence-based.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and control: when to retrieve\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

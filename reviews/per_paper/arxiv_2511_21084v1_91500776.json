@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.21084v1",
+  "title": "5G Network Automation Using Local Large Language Models and Retrieval-Augmented Generation",
+  "authors": "Ahmadreza Majlesara; Ali Majlesi; Ali Mamaghani; Alireza Shokrani; Babak Hossein Khalaj",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.21084v1",
+  "local_pdf": "pdfs/2025_ahmadreza_majlesara_5g_network_automation_using_local_large_language_models_and_retrieval_augmented_generati_91500776.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to 5G network configuration; no robustness, conflict, calibration, or adversarial analysis.",
+  "why_not_or_caveat": "Pure application demo, out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:09.536869+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.21084v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to 5G network configuration; no robustness, conflict, calibration, or adversarial analysis.\",\"why_not_or_caveat\":\"Pure application demo, out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

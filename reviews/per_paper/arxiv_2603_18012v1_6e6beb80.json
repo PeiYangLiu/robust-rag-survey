@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.18012v1",
+  "title": "DynaRAG: Bridging Static and Dynamic Knowledge in Retrieval-Augmented Generation",
+  "authors": "Penghao Liang; Mengwei Yuan; Jianan Liu; Jing Yang; Xianyou Li; Weiran Yan; Yichao Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.18012v1",
+  "local_pdf": "pdfs/2026_penghao_liang_dynarag_bridging_static_and_dynamic_knowledge_in_retrieval_augmented_generation_6e6beb80.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a sufficiency classifier to decide when retrieved documents are insufficient and trigger API fallback, touching on when-to-retrieve/control decisions in RAG.",
+  "why_not_or_caveat": "Primarily a system/application paper focused on dynamic knowledge integration; robustness analysis is shallow and not focused on noise, conflict, or adversarial conditions. Suspicious arxiv ID/year.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control: when to retrieve/fallback",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:48.047628+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.18012v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a sufficiency classifier to decide when retrieved documents are insufficient and trigger API fallback, touching on when-to-retrieve/control decisions in RAG.\",\n  \"why_not_or_caveat\": \"Primarily a system/application paper focused on dynamic knowledge integration; robustness analysis is shallow and not focused on noise, conflict, or adversarial conditions. Suspicious arxiv ID/year.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and control: when to retrieve/fallback\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

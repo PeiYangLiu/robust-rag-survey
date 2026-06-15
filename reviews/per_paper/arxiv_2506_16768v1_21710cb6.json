@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.16768v1",
+  "title": "eSapiens: A Real-World NLP Framework for Multimodal Document Understanding and Enterprise Knowledge Processing",
+  "authors": "Isaac Shi; Zeyuan Li; Wenli Wang; Lewei He; Yang Yang; Tianyu Shi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.16768v1",
+  "local_pdf": "pdfs/2025_isaac_shi_esapiens_a_real_world_nlp_framework_for_multimodal_document_understanding_and_enterprise_21710cb6.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Describes an enterprise RAG system with citation verification loop, but is primarily a system/application paper without rigorous study of robustness, conflict, or calibration.",
+  "why_not_or_caveat": "No focused contribution on noise, adversarial robustness, conflict, or calibration; evaluation is limited and product-oriented.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:48.101586+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.16768v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Describes an enterprise RAG system with citation verification loop, but is primarily a system/application paper without rigorous study of robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"No focused contribution on noise, adversarial robustness, conflict, or calibration; evaluation is limited and product-oriented.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

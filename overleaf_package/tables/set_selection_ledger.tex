@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.92}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedleft\arraybackslash}p{0.07\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
+\toprule
+\textbf{Set} & \textbf{N} & \textbf{Audit artifact} & \textbf{Selection rule and role} \\
+\midrule
+Retrieved records & 1,904 & \texttt{search\_protocol.json} & Initial keyword and curated-list retrieval before PDF availability, deduplication, or relevance screening. \\
+Open full-text PDFs & 1,445 & \texttt{pdfs/} & Records with open PDFs available for full-text inspection; inaccessible or non-PDF artifacts removed. \\
+Deduplicated candidates & 1,399 & \texttt{all\_reviewed\_deduped.csv} & Normalized-title and identifier deduplication; one record retained for preprint/proceedings overlaps. \\
+Relevant included papers & 536 & \texttt{all\_reviewed\_deduped.csv} & Papers with decision \texttt{core} (112) or \texttt{include} (424); background-adjacent papers (289) and excluded papers (574) are tracked separately. \\
+Core pool & 112 & \texttt{decision=core} in \texttt{all\_reviewed\_deduped.csv} & Papers judged central to taxonomy, threat/failure models, intervention mechanisms, or evaluation design. \\
+Core reading set & 100 & \texttt{core100\_full.csv} & Main narrative anchors. The 12 core-pool papers not in this set remain in the base survey set rather than being discarded. \\
+Base survey set & 300 & \texttt{survey300\_full.csv} & Core pool plus representative supporting work across failure categories, method families, and evaluation settings before venue follow-up triage. \\
+Venue-augmented scoping set & 326 & \texttt{survey\_set\_venue\_audited.csv} & Base survey set plus 26 venue-linked papers added after follow-up triage. \\
+Base evidence map & 250 & \texttt{evidence\_map.csv} & Original structured map used before venue follow-up triage. \\
+Candidate evidence records & 274 & round2 full adjudication CSV & Base map plus venue-linked additions, double-coded by humans and adjudicated. \\
+Final adjudicated evidence map & 268 & \texttt{evidence\_map\_adjudicated.csv} & Candidate evidence records with final \texttt{include\_in\_evidence\_map=1}; used for final map statistics. \\
+\bottomrule
+\end{tabularx}
+\caption{Corpus-set ledger. The table reconciles reported counts. Exact memberships are released as CSV files, including \texttt{adjudicated\_evidence274\_round2\_final\_full.csv}.}
+\label{tab:set-selection-ledger}
+\end{table*}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.24870v2",
+  "title": "Seeing Through the MiRAGE: Evaluating Multimodal Retrieval Augmented Generation",
+  "authors": "Alexander Martin; William Walden; Reno Kriz; Dengjia Zhang; Kate Sanders; Eugene Yang; Chihsheng Jin; Benjamin Van Durme",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.24870v2",
+  "local_pdf": "pdfs/2025_alexander_martin_seeing_through_the_mirage_evaluating_multimodal_retrieval_augmented_generation_f80ab58f.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a multimodal RAG evaluation framework focused on factuality and citation support, tangentially related to evaluation of RAG outputs.",
+  "why_not_or_caveat": "Does not address robustness under noise, conflict, adversarial corruption, or calibration; focused on multimodal generation/citation quality evaluation.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:44.544235+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.24870v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Proposes a multimodal RAG evaluation framework focused on factuality and citation support, tangentially related to evaluation of RAG outputs.\",\"why_not_or_caveat\":\"Does not address robustness under noise, conflict, adversarial corruption, or calibration; focused on multimodal generation/citation quality evaluation.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation and benchmarks\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

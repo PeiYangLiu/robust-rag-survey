@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.05504v2",
+  "title": "Memory Poisoning Attack and Defense on Memory Based LLM-Agents",
+  "authors": "Balachandra Devarangadi Sunil; Isheeta Sinha; Piyush Maheshwari; Shantanu Todmal; Shreyan Mallik; Shuchi Mishra",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05504v2",
+  "local_pdf": "pdfs/2026_balachandra_devarangadi_sunil_memory_poisoning_attack_and_defense_on_memory_based_llm_agents_5913032d.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Studies memory poisoning attacks (MINJA) on memory/RAG-augmented LLM agents and proposes trust-scoring and memory sanitization defenses with calibration analysis, relevant to adversarial corruption and defense calibration in RAG.",
+  "why_not_or_caveat": "Focused on agent memory rather than standard retrieval corpora; narrow EHR domain case study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: poisoning and defenses",
+  "confidence": 0.65,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:32.370232+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.05504v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"calibration_control\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Studies memory poisoning attacks (MINJA) on memory/RAG-augmented LLM agents and proposes trust-scoring and memory sanitization defenses with calibration analysis, relevant to adversarial corruption and defense calibration in RAG.\",\n  \"why_not_or_caveat\": \"Focused on agent memory rather than standard retrieval corpora; narrow EHR domain case study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: poisoning and defenses\",\n  \"confidence\": 0.65\n}",
+  "skipped_existing": false
+}

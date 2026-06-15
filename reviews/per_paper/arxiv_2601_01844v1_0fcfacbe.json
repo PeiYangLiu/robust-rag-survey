@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.01844v1",
+  "title": "Clinical Knowledge Graph Construction and Evaluation with Multi-LLMs via Retrieval-Augmented Generation",
+  "authors": "Udiptaman Das; Krishnasai B. Atmakuri; Duy Ho; Chi Lee; Yugyung Lee",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.01844v1",
+  "local_pdf": "pdfs/2026_udiptaman_das_clinical_knowledge_graph_construction_and_evaluation_with_multi_llms_via_retrieval_augme_0fcfacbe.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses multi-LLM consensus and entropy-based scoring for clinical KG construction, touching on hallucination detection, but is an application paper not focused on RAG robustness.",
+  "why_not_or_caveat": "Domain-specific KG construction pipeline; does not study retrieval noise, conflict, attacks, or calibration in a generalizable way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:07.740050+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.01844v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses multi-LLM consensus and entropy-based scoring for clinical KG construction, touching on hallucination detection, but is an application paper not focused on RAG robustness.\",\"why_not_or_caveat\":\"Domain-specific KG construction pipeline; does not study retrieval noise, conflict, attacks, or calibration in a generalizable way.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

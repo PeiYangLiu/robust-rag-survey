@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.06950v2",
+  "title": "CtrlRAG: Black-box Document Poisoning Attacks for Retrieval-Augmented Generation of Large Language Models",
+  "authors": "Runqi Sui",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.06950v2",
+  "local_pdf": "pdfs/2025_runqi_sui_ctrlrag_black_box_document_poisoning_attacks_for_retrieval_augmented_generation_of_large_ea77c371.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box document poisoning attack against RAG and a defense based on parametric/non-parametric memory confrontation, directly addressing adversarial corruption and conflict-based defense.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks and Defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:48.851507+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.06950v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a black-box document poisoning attack against RAG and a defense based on parametric/non-parametric memory confrontation, directly addressing adversarial corruption and conflict-based defense.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks and Defenses\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.05458v1",
+  "title": "MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection with an Experience Library",
+  "authors": "Md Shamimul Islam; Luis G. Jaimes; Ayesha S. Dina",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.05458v1",
+  "local_pdf": "pdfs/2026_md_shamimul_islam_ma_ids_multi_agent_rag_framework_for_iot_network_intrusion_detection_with_an_experience_87f0e65a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to IoT intrusion detection; does not study robustness, conflict, noise, or calibration of RAG.",
+  "why_not_or_caveat": "Pure application of RAG, no analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:03.358862+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.05458v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to IoT intrusion detection; does not study robustness, conflict, noise, or calibration of RAG.\",\"why_not_or_caveat\":\"Pure application of RAG, no analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

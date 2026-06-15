@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.19766v1",
+  "title": "OThink-SRR1: Search, Refine and Reasoning with Reinforced Learning for Large Language Models",
+  "authors": "Haijian Liang; Zenghao Niu; Junjie Wu; Changwang Zhang; Wangchunshu Zhou; Jun Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.19766v1",
+  "local_pdf": "pdfs/2026_haijian_liang_othink_srr1_search_refine_and_reasoning_with_reinforced_learning_for_large_language_mode_c08a8d10.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RL-trained Search-Refine-Reason framework that filters noisy retrieved documents and controls retrieval frequency, directly addressing noisy retrieval and adaptive retrieval control in RAG.",
+  "why_not_or_caveat": "Focuses on multi-hop QA accuracy/efficiency rather than systematic robustness analysis or adversarial settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Adaptive Retrieval Control",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.220659+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.19766v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes RL-trained Search-Refine-Reason framework that filters noisy retrieved documents and controls retrieval frequency, directly addressing noisy retrieval and adaptive retrieval control in RAG.\",\"why_not_or_caveat\":\"Focuses on multi-hop QA accuracy/efficiency rather than systematic robustness analysis or adversarial settings.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval and Adaptive Retrieval Control\",\"confidence\":0.75}",
+  "skipped_existing": false
+}

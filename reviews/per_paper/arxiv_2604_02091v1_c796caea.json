@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.02091v1",
+  "title": "Optimizing RAG Rerankers with LLM Feedback via Reinforcement Learning",
+  "authors": "Yuhang Wu; Xiangqing Shen; Fanfan Wang; Cangqi Zhou; Zhen Wu; Xinyu Dai; Rui Xia",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.02091v1",
+  "local_pdf": "pdfs/2026_yuhang_wu_optimizing_rag_rerankers_with_llm_feedback_via_reinforcement_learning_c796caea.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Optimizes rerankers using LLM feedback to improve context utility for RAG; tangentially related to filtering noisy retrieval but focused on performance, not robustness.",
+  "why_not_or_caveat": "Does not directly study robustness, conflict, adversarial issues, or calibration; primarily a reranker optimization method.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:02.005956+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.02091v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_search\":false,\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Optimizes rerankers using LLM feedback to improve context utility for RAG; tangentially related to filtering noisy retrieval but focused on performance, not robustness.\",\"why_not_or_caveat\":\"Does not directly study robustness, conflict, adversarial issues, or calibration; primarily a reranker optimization method.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

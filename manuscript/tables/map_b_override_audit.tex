@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
+\toprule
+\textbf{Adjudication category} & \textbf{Count} & \textbf{Typical reason} & \textbf{Consequence} \\
+\midrule
+Accept coder consensus & 114/139 disagreement rows & the second coders agreed that many candidate additions were general RAG, efficiency, domain adaptation, or application papers rather than robust-RAG evidence. & Candidate expansion statistics are not used directly; boundary rows are released but excluded from canonical Map B. \\
+Keep candidate label & 14/139 & Candidate label remained appropriate despite one coder disagreement, usually when the paper clearly addressed a robust-RAG failure or benchmark axis. & Shows adjudication did not mechanically follow coders. \\
+Resolve mixed labels & 7/139 & Coders and candidate labels captured different valid aspects, e.g., control plus evaluation or extension plus retrieval. & Final label chooses the primary comparison role; secondary evidence remains in notes. \\
+Accept coder~2 & 4/139 & the second coder better matched the paper's primary contribution after full adjudication. & Small number of one-coder overrides are recorded explicitly. \\
+\midrule
+Retained additions & 74/148 & Robustness, evaluation, control, conflict, or security contribution survives adjudication. & Included in canonical 342-row Map B. \\
+Excluded additions & 74/148 & Boundary/application/general-RAG papers, often venue-linked, did not directly study unreliable evidence. & Excluded from synthesis counts but retained as release artifacts. \\
+\bottomrule
+\end{tabularx}
+\caption{Map-B candidate-addition override audit. The high adjudication rate is treated as evidence that the 416-row candidate expansion was too inclusive; the canonical map uses the 342-row adjudicated version.}
+\label{tab:map-b-override-audit}
+\end{table*}
+

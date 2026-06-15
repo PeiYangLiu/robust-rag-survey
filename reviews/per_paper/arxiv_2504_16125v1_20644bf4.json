@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.16125v1",
+  "title": "Breaking the Prompt Wall (I): A Real-World Case Study of Attacking ChatGPT via Lightweight Prompt Injection",
+  "authors": "Xiangyu Chang; Guang Dai; Hao Di; Haishan Ye",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.16125v1",
+  "local_pdf": "pdfs/2025_xiangyu_chang_breaking_the_prompt_wall_i_a_real_world_case_study_of_attacking_chatgpt_via_lightweight_20644bf4.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Demonstrates indirect prompt injection via web-based search integration, which is relevant to RAG adversarial corruption.",
+  "why_not_or_caveat": "Informal case-study report on ChatGPT without rigorous methodology, benchmarks, or RAG-specific evaluation; limited scientific contribution.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption / prompt injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.248555+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.16125v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Demonstrates indirect prompt injection via web-based search integration, which is relevant to RAG adversarial corruption.\",\"why_not_or_caveat\":\"Informal case-study report on ChatGPT without rigorous methodology, benchmarks, or RAG-specific evaluation; limited scientific contribution.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption / prompt injection\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

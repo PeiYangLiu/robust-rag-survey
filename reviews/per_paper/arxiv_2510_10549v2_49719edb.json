@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.10549v2",
+  "title": "ELAIPBench: A Benchmark for Expert-Level Artificial Intelligence Paper Understanding",
+  "authors": "Xinbang Dai; Huikang Hu; Yongrui Chen; Jiaqi Li; Rihui Jin; Yuyang Zhang; Xiaoguang Li; Lifeng Shang; Guilin Qi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.10549v2",
+  "local_pdf": "pdfs/2025_xinbang_dai_elaipbench_a_benchmark_for_expert_level_artificial_intelligence_paper_understanding_49719edb.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Reports that RAG augmentation hurts accuracy on expert-level paper understanding due to noisy retrieval, which touches on robustness of RAG under noisy evidence.",
+  "why_not_or_caveat": "The benchmark is primarily about deep paper comprehension, not designed to study RAG robustness; the noisy-retrieval observation is a side finding.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / evaluation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:51.872506+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.10549v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Reports that RAG augmentation hurts accuracy on expert-level paper understanding due to noisy retrieval, which touches on robustness of RAG under noisy evidence.\",\n  \"why_not_or_caveat\": \"The benchmark is primarily about deep paper comprehension, not designed to study RAG robustness; the noisy-retrieval observation is a side finding.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / evaluation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2312.16262v2",
+  "title": "Adaptive In-Context Learning with Large Language Models for Bundle Generation",
+  "authors": "Zhu Sun; Kaidong Feng; Jie Yang; Xinghua Qu; Hui Fang; Yew-Soon Ong; Wenyuan Liu",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2312.16262v2",
+  "local_pdf": "pdfs/2023_zhu_sun_adaptive_in_context_learning_with_large_language_models_for_bundle_generation_167fe56d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for bundle recommendation via in-context learning but does not study robustness, conflict, calibration, or unreliable evidence.",
+  "why_not_or_caveat": "Application of RAG to recommendation; out of survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:30.164041+00:00",
+  "raw_response": "{\"key\":\"arxiv-2312.16262v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for bundle recommendation via in-context learning but does not study robustness, conflict, calibration, or unreliable evidence.\",\"why_not_or_caveat\":\"Application of RAG to recommendation; out of survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.10448v1",
+  "title": "RECON: Reasoning with Condensation for Efficient Retrieval-Augmented Generation",
+  "authors": "Zhichao Xu; Minheng Wang; Yawei Wang; Wenqian Ye; Yuntao Du; Yunpu Ma; Yijun Tian",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.10448v1",
+  "local_pdf": "pdfs/2025_zhichao_xu_recon_reasoning_with_condensation_for_efficient_retrieval_augmented_generation_c7b7fba7.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "RECON addresses noisy/verbose retrieved documents by introducing a learned summarizer that condenses evidence within an RL-based agentic RAG loop, mitigating context dilution and noise that degrade RAG performance.",
+  "why_not_or_caveat": "Primary focus is efficiency and accuracy via compression rather than robustness analysis, conflict, or adversarial settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Context Filtering and Compression",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:14.226264+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.10448v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_search\":false,\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"RECON addresses noisy/verbose retrieved documents by introducing a learned summarizer that condenses evidence within an RL-based agentic RAG loop, mitigating context dilution and noise that degrade RAG performance.\",\"why_not_or_caveat\":\"Primary focus is efficiency and accuracy via compression rather than robustness analysis, conflict, or adversarial settings.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval / Context Filtering and Compression\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

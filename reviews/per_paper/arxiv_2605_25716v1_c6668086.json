@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.25716v1",
+  "title": "An Efficient and Privacy-Preserving Architecture for Cross-Institutional Collaborative RAG",
+  "authors": "Chenxin Mao; Shangyu Liu; Zhenzhe Zheng; Fan Wu; Jie Wu; Guihai Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.25716v1",
+  "local_pdf": "pdfs/2026_chenxin_mao_an_efficient_and_privacy_preserving_architecture_for_cross_institutional_collaborative_r_c6668086.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Focuses on privacy-preserving federated RAG inference, not on robustness to noisy/adversarial evidence or calibration.",
+  "why_not_or_caveat": "Out of scope: addresses cryptographic/system privacy, not unreliable-evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.560538+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.25716v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Focuses on privacy-preserving federated RAG inference, not on robustness to noisy/adversarial evidence or calibration.\",\"why_not_or_caveat\":\"Out of scope: addresses cryptographic/system privacy, not unreliable-evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

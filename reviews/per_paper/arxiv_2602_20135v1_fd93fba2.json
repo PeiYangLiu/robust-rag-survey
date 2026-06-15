@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.20135v1",
+  "title": "KNIGHT: Knowledge Graph-Driven Multiple-Choice Question Generation with Adaptive Hardness Calibration",
+  "authors": "Mohammad Amanlou; Erfan Shafiee Moghaddam; Yasaman Amou Jafari; Mahdi Noori; Farhan Farsi; Behnam Bahrak",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.20135v1",
+  "local_pdf": "pdfs/2026_mohammad_amanlou_knight_knowledge_graph_driven_multiple_choice_question_generation_with_adaptive_hardness_fd93fba2.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a KG-driven MCQ generation framework for evaluating LLMs, with tangential mention of RAG evaluation and answerability as hallucination proxy.",
+  "why_not_or_caveat": "Not focused on RAG robustness, noise, conflict, attacks, or calibration; primarily an MCQ dataset generation tool.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:00.110077+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.20135v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Proposes a KG-driven MCQ generation framework for evaluating LLMs, with tangential mention of RAG evaluation and answerability as hallucination proxy.\",\"why_not_or_caveat\":\"Not focused on RAG robustness, noise, conflict, attacks, or calibration; primarily an MCQ dataset generation tool.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

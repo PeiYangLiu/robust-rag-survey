@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.18267v1",
+  "title": "Orchestrating Specialized Agents for Trustworthy Enterprise RAG",
+  "authors": "Xincheng You; Qi Sun; Neha Bora; Huayi Li; Shubham Goel; Kang Li; Sean Culatana",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.18267v1",
+  "local_pdf": "pdfs/2026_xincheng_you_orchestrating_specialized_agents_for_trustworthy_enterprise_rag_3fa2a7e5.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes an agentic enterprise RAG framework with evidence coverage audits and traceability, touching tangentially on completeness and clarification.",
+  "why_not_or_caveat": "Does not directly study robustness to noise, conflict, adversaries, or calibration; primarily a system/application paper for long-form enterprise reports.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:40.629043+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.18267v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes an agentic enterprise RAG framework with evidence coverage audits and traceability, touching tangentially on completeness and clarification.\",\"why_not_or_caveat\":\"Does not directly study robustness to noise, conflict, adversaries, or calibration; primarily a system/application paper for long-form enterprise reports.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

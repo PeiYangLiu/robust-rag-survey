@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.01060v1",
+  "title": "MENTIS: What Belief Changes Under Alignment? Measuring Multi-Scale Latent Torsion in Language Models",
+  "authors": "Partha Pratim Saha; Samarth Raina; Mayur Parvatikar; Amit Dhanda; Vinija Jain; Aman Chadha; Amitava Das",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.01060v1",
+  "local_pdf": "pdfs/2026_partha_pratim_saha_mentis_what_belief_changes_under_alignment_measuring_multi_scale_latent_torsion_in_langu_f6e3f742.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper studies internal geometric changes from preference alignment, not RAG robustness.",
+  "why_not_or_caveat": "Only tangentially mentions retrieval-time corruption; focus is on alignment-induced representational geometry, not unreliable evidence in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:40.600915+00:00",
+  "raw_response": "{\"key\": \"arxiv-2606.01060v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Paper studies internal geometric changes from preference alignment, not RAG robustness.\", \"why_not_or_caveat\": \"Only tangentially mentions retrieval-time corruption; focus is on alignment-induced representational geometry, not unreliable evidence in RAG.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

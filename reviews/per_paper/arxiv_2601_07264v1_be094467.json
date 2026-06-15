@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2601.07264v1",
+  "title": "The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents",
+  "authors": "Weihao Xuan; Qingcheng Zeng; Heli Qi; Yunze Xiao; Junjue Wang; Naoto Yokoya",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.07264v1",
+  "local_pdf": "pdfs/2026_weihao_xuan_the_confidence_dichotomy_analyzing_and_mitigating_miscalibration_in_tool_use_agents_be094467.pdf",
+  "metadata_topics": "noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies how noisy evidence retrieval (web search) induces overconfidence in tool-use agents and proposes an RL framework to jointly optimize accuracy and calibration, directly relevant to calibration under unreliable evidence.",
+  "why_not_or_caveat": "Framed as tool-use agents rather than RAG specifically, but evidence-tool analysis maps directly to retrieval noise.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:40.942093+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.07264v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\", \"ood_uncertainty\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies how noisy evidence retrieval (web search) induces overconfidence in tool-use agents and proposes an RL framework to jointly optimize accuracy and calibration, directly relevant to calibration under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Framed as tool-use agents rather than RAG specifically, but evidence-tool analysis maps directly to retrieval noise.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

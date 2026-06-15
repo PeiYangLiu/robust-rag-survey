@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2512.14313v1",
+  "title": "Dynamic Context Selection for Retrieval-Augmented Generation: Mitigating Distractors and Positional Bias",
+  "authors": "Malika Iratni; Mohand Boughanem; Taoufiq Dkaki",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.14313v1",
+  "local_pdf": "pdfs/2025_malika_iratni_dynamic_context_selection_for_retrieval_augmented_generation_mitigating_distractors_and_445aa038.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Analyzes distractor impact and positional bias in RAG, and proposes a classifier to dynamically select retrieval size, directly addressing distraction and adaptive retrieval control.",
+  "why_not_or_caveat": "Limited to MuSiQue and a simple classifier; not a foundational work.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Adaptive Retrieval Control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.852298+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.14313v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Analyzes distractor impact and positional bias in RAG, and proposes a classifier to dynamically select retrieval size, directly addressing distraction and adaptive retrieval control.\",\n  \"why_not_or_caveat\": \"Limited to MuSiQue and a simple classifier; not a foundational work.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and Adaptive Retrieval Control\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

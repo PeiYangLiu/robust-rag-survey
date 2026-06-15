@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2312.10997",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2312.10997)\\]\\[[Github](https://github.com/Tongji-KGLLM/RAG-Survey)\\] Retrieval-Augmented Generation for Large Language Models: A Survey",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2312.10997",
+  "local_pdf": "pdfs/na_arxiv_2312_10997_arxiv_https_arxiv_org_abs_2312_10997_github_https_github_com_tongji_kgllm_rag_su_4e0deae8.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "General RAG survey covering paradigms, components, and evaluation; useful as background reference for the broader RAG landscape.",
+  "why_not_or_caveat": "Not focused on robustness, conflict, adversarial corruption, or calibration specifically.",
+  "recommended_use": "background_only",
+  "suggested_section": "Background and Related Surveys",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:28.322300+00:00",
+  "raw_response": "{\"key\":\"arxiv-2312.10997\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":true,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"General RAG survey covering paradigms, components, and evaluation; useful as background reference for the broader RAG landscape.\",\"why_not_or_caveat\":\"Not focused on robustness, conflict, adversarial corruption, or calibration specifically.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Background and Related Surveys\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

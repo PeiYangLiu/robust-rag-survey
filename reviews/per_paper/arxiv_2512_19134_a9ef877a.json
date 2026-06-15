@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.19134",
+  "title": "\\[[ACL Findings](https://arxiv.org/abs/2512.19134)\\]\\[[Github](https://github.com/ZhishanQ/QuCo-RAG)\\] QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "1913",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.19134",
+  "local_pdf": "pdfs/1913_arxiv_2512_19134_acl_findings_https_arxiv_org_abs_2512_19134_github_https_github_com_zhishanq_quc_a9ef877a.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a dynamic RAG triggering mechanism based on pre-training corpus statistics to decide when to retrieve, addressing miscalibration of internal confidence signals and long-tail knowledge gaps.",
+  "why_not_or_caveat": "Focuses on retrieval triggering rather than handling noisy/adversarial evidence directly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:33.210530+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.19134\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a dynamic RAG triggering mechanism based on pre-training corpus statistics to decide when to retrieve, addressing miscalibration of internal confidence signals and long-tail knowledge gaps.\",\"why_not_or_caveat\":\"Focuses on retrieval triggering rather than handling noisy/adversarial evidence directly.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

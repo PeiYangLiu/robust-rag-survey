@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2602.15156v1",
+  "title": "Panini: Continual Learning in Token Space via Structured Memory",
+  "authors": "Shreyas Rajesh; Pavan Holur; Mehmet Yigit Turali; Chenda Duan; Vwani Roychowdhury",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.15156v1",
+  "local_pdf": "pdfs/2026_shreyas_rajesh_panini_continual_learning_in_token_space_via_structured_memory_9dcb9677.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Panini explicitly targets reliability issues in RAG: it reduces unsupported/hallucinated generation from irrelevant chunk context and evaluates abstention on unanswerable queries via curated splits.",
+  "why_not_or_caveat": "Primarily a structured-memory/efficiency method; robustness/abstention is a secondary contribution rather than the central focus.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention / Structured memory alternatives to chunk RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:59.471041+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.15156v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"ood_uncertainty\", \"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Panini explicitly targets reliability issues in RAG: it reduces unsupported/hallucinated generation from irrelevant chunk context and evaluates abstention on unanswerable queries via curated splits.\", \"why_not_or_caveat\": \"Primarily a structured-memory/efficiency method; robustness/abstention is a secondary contribution rather than the central focus.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Abstention / Structured memory alternatives to chunk RAG\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

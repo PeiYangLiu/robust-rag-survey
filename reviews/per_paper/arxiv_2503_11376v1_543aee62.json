@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.11376v1",
+  "title": "Annotating Scientific Uncertainty: A comprehensive model using linguistic patterns and comparison with existing approaches",
+  "authors": "Panggih Kusuma Ningrum; Philipp Mayr; Nina Smirnova; Iana Atanassova",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.11376v1",
+  "local_pdf": "pdfs/2025_panggih_kusuma_ningrum_annotating_scientific_uncertainty_a_comprehensive_model_using_linguistic_patterns_and_co_543aee62.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Detects linguistic uncertainty expressions in scientific text via rule-based patterns; unrelated to RAG robustness, calibration, or evidence reliability.",
+  "why_not_or_caveat": "Not about retrieval, LLM calibration, or any RAG-related robustness issue.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:26.938520+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.11376v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Detects linguistic uncertainty expressions in scientific text via rule-based patterns; unrelated to RAG robustness, calibration, or evidence reliability.\",\"why_not_or_caveat\":\"Not about retrieval, LLM calibration, or any RAG-related robustness issue.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

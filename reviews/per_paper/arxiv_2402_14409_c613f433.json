@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2402.14409",
+  "title": "\\[[LREC-COLING](https://arxiv.org/abs/2402.14409)\\] Tug-of-War Between Knowledge: Exploring and Resolving Knowledge Conflicts in Retrieval-Augmented Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.14409",
+  "local_pdf": "pdfs/na_arxiv_2402_14409_lrec_coling_https_arxiv_org_abs_2402_14409_tug_of_war_between_knowledge_explorin_c613f433.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "distraction",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Directly investigates knowledge conflicts in RALMs between internal memory and external sources, and among truthful/irrelevant/misleading evidence, plus proposes a contrastive decoding calibration method.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:36.124916+00:00",
+  "raw_response": "{\"key\":\"arxiv-2402.14409\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"distraction\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Directly investigates knowledge conflicts in RALMs between internal memory and external sources, and among truthful/irrelevant/misleading evidence, plus proposes a contrastive decoding calibration method.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

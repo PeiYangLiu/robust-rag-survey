@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2502.11400",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2502.11400)\\] Revisiting Robust RAG: Do We Still Need Complex Robust Training in the Era of Powerful LLMs?",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.11400",
+  "local_pdf": "pdfs/na_arxiv_2502_11400_arxiv_https_arxiv_org_abs_2502_11400_revisiting_robust_rag_do_we_still_need_comp_eceec1fc.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "analysis"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes robust RAG training methods (RetRobust, RAAT, ATM) against retrieval noise across model scales, examining confidence calibration and attention patterns, directly relevant to noise robustness and calibration discussions.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and robust training",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:33.178654+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.11400\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\", \"analysis\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes robust RAG training methods (RetRobust, RAAT, ATM) against retrieval noise across model scales, examining confidence calibration and attention patterns, directly relevant to noise robustness and calibration discussions.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and robust training\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

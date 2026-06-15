@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.16429v1",
+  "title": "Give LLMs a Security Course: Securing Retrieval-Augmented Code Generation via Knowledge Injection",
+  "authors": "Bo Lin; Shangwen Wang; Yihao Qin; Liqian Chen; Xiaoguang Mao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.16429v1",
+  "local_pdf": "pdfs/2025_bo_lin_give_llms_a_security_course_securing_retrieval_augmented_code_generation_via_knowledge_i_b9169487.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense against knowledge base poisoning in retrieval-augmented code generation, directly addressing adversarial corruption in RAG systems.",
+  "why_not_or_caveat": "Domain-specific to code generation security rather than general RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:18.696298+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.16429v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a defense against knowledge base poisoning in retrieval-augmented code generation, directly addressing adversarial corruption in RAG systems.\",\n  \"why_not_or_caveat\": \"Domain-specific to code generation security rather than general RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Defenses\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

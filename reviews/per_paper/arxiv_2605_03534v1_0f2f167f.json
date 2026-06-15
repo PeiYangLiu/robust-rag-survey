@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2605.03534v1",
+  "title": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+  "authors": "Jingxi Qiu; Zeyu Han; Cheng Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.03534v1",
+  "local_pdf": "pdfs/2026_jingxi_qiu_sure_rag_sufficiency_and_uncertainty_aware_evidence_verification_for_selective_retrieval_0f2f167f.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "SURE-RAG directly addresses evidence sufficiency verification, selective answering/abstention, and uncertainty/conflict signals in RAG, with an artifact-aware evaluation protocol. This aligns with the survey's calibration/control and unreliable-evidence themes.",
+  "why_not_or_caveat": "Benchmark is constructed (HotpotQA-RAG v3); generalization beyond multi-hop QA is limited.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Abstention and Selective RAG",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.115079+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.03534v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"knowledge_conflict\", \"ood_uncertainty\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"SURE-RAG directly addresses evidence sufficiency verification, selective answering/abstention, and uncertainty/conflict signals in RAG, with an artifact-aware evaluation protocol. This aligns with the survey's calibration/control and unreliable-evidence themes.\",\n  \"why_not_or_caveat\": \"Benchmark is constructed (HotpotQA-RAG v3); generalization beyond multi-hop QA is limited.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: Abstention and Selective RAG\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2509.18868v1",
+  "title": "Memory in Large Language Models: Mechanisms, Evaluation and Evolution",
+  "authors": "Dianxing Zhang; Wendong Li; Kani Song; Jiaye Lu; Gang Li; Liuchun Yang; Sheng Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.18868v1",
+  "local_pdf": "pdfs/2025_dianxing_zhang_memory_in_large_language_models_mechanisms_evaluation_and_evolution_bfca5866.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Surveys LLM memory taxonomy including parametric vs contextual vs external (RAG) memory, with discussion of conflict handling, faithfulness/attribution evaluation, and governance—tangentially relevant to robust RAG.",
+  "why_not_or_caveat": "Scope is broader memory governance, not focused on robustness under unreliable evidence; treatment of noise/adversarial/calibration topics is shallow.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.482969+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.18868v1\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\",\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"Surveys LLM memory taxonomy including parametric vs contextual vs external (RAG) memory, with discussion of conflict handling, faithfulness/attribution evaluation, and governance—tangentially relevant to robust RAG.\",\"why_not_or_caveat\":\"Scope is broader memory governance, not focused on robustness under unreliable evidence; treatment of noise/adversarial/calibration topics is shallow.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Related surveys\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.25760v1",
+  "title": "TruthRL: Incentivizing Truthful LLMs via Reinforcement Learning",
+  "authors": "Zhepei Wei; Xiao Yang; Kai Sun; Jiaqi Wang; Rulin Shao; Sean Chen; Mohammad Kachuee; Teja Gollapudi; Tony Liao; Nicolas Scheffer; Rakesh Wanga; Anuj Kumar; Yu Meng; Wen-tau Yih; Xin Luna Dong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.25760v1",
+  "local_pdf": "pdfs/2025_zhepei_wei_truthrl_incentivizing_truthful_llms_via_reinforcement_learning_b1bcfae8.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "TruthRL uses RL with a ternary reward to teach LLMs to abstain when uncertain, directly addressing calibration/abstention and knowledge boundary recognition in both retrieval and non-retrieval setups, including noisy RAG contexts.",
+  "why_not_or_caveat": "Focus is broader than RAG; robustness to noisy retrieval is a secondary evaluation.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:42.471341+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.25760v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"TruthRL uses RL with a ternary reward to teach LLMs to abstain when uncertain, directly addressing calibration/abstention and knowledge boundary recognition in both retrieval and non-retrieval setups, including noisy RAG contexts.\",\n  \"why_not_or_caveat\": \"Focus is broader than RAG; robustness to noisy retrieval is a secondary evaluation.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

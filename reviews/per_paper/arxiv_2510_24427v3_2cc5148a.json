@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.24427v3",
+  "title": "SynthWorlds: Controlled Parallel Worlds for Disentangling Reasoning and Knowledge in Language Models",
+  "authors": "Ken Gu; Advait Bhat; Mike A Merrill; Robert West; Xin Liu; Daniel McDuff; Tim Althoff",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.24427v3",
+  "local_pdf": "pdfs/2025_ken_gu_synthworlds_controlled_parallel_worlds_for_disentangling_reasoning_and_knowledge_in_lang_2cc5148a.pdf",
+  "metadata_topics": "knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces parallel real/synthetic corpora to disentangle parametric knowledge from reasoning, including a retrieval-augmented evaluation that quantifies a knowledge advantage gap—tangentially related to parametric-vs-retrieved knowledge conflict and RAG evaluation.",
+  "why_not_or_caveat": "Primary focus is on isolating reasoning vs memorization rather than robustness, noise, conflict, or calibration in RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:30.065041+00:00",
+  "raw_response": "{\"key\": \"arxiv-2510.24427v3\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\", \"knowledge_conflict\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces parallel real/synthetic corpora to disentangle parametric knowledge from reasoning, including a retrieval-augmented evaluation that quantifies a knowledge advantage gap—tangentially related to parametric-vs-retrieved knowledge conflict and RAG evaluation.\", \"why_not_or_caveat\": \"Primary focus is on isolating reasoning vs memorization rather than robustness, noise, conflict, or calibration in RAG.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and benchmarks\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

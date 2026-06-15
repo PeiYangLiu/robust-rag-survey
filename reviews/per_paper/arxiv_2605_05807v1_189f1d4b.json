@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05807v1",
+  "title": "LCC-LLM: Leveraging Code-Centric Large Language Models for Malware Attribution",
+  "authors": "Christopher G. Pedraza Pohlenz; Hassan Jalil Hadi; Ali Hassan; Ali Shoker",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05807v1",
+  "local_pdf": "pdfs/2026_christopher_g_pedraza_pohlenz_lcc_llm_leveraging_code_centric_large_language_models_for_malware_attribution_189f1d4b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to malware attribution but does not study robustness, conflict, attacks, or calibration of RAG itself.",
+  "why_not_or_caveat": "Domain application paper; RAG is a component, not the subject of robustness analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:44.006632+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05807v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to malware attribution but does not study robustness, conflict, attacks, or calibration of RAG itself.\",\"why_not_or_caveat\":\"Domain application paper; RAG is a component, not the subject of robustness analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

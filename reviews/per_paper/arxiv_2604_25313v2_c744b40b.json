@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.25313v2",
+  "title": "Faithfulness-QA: A Counterfactual Entity Substitution Dataset for Training Context-Faithful RAG Models",
+  "authors": "Li Ju; Junzhe Wang; Qi Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.25313v2",
+  "local_pdf": "pdfs/2026_li_ju_faithfulness_qa_a_counterfactual_entity_substitution_dataset_for_training_context_faithf_c744b40b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a large counterfactual entity substitution dataset to train and evaluate RAG models for context-faithfulness under context-vs-parametric knowledge conflicts.",
+  "why_not_or_caveat": "Primarily a dataset construction paper without new modeling or extensive empirical analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict / Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:30.133556+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.25313v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a large counterfactual entity substitution dataset to train and evaluate RAG models for context-faithfulness under context-vs-parametric knowledge conflicts.\",\n  \"why_not_or_caveat\": \"Primarily a dataset construction paper without new modeling or extensive empirical analysis.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict / Benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

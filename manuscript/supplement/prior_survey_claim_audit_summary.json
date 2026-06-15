@@ -1,0 +1,16 @@
+{
+  "n_claims": 12,
+  "verdict_counts": {
+    "partial": 9,
+    "invalid": 1,
+    "under-specified": 2
+  },
+  "survey_families": [
+    "RAG evaluation survey",
+    "comprehensive RAG/frontier survey",
+    "general RAG survey",
+    "security-focused RAG survey",
+    "trustworthy RAG survey",
+    "trustworthy/security RAG survey"
+  ]
+}

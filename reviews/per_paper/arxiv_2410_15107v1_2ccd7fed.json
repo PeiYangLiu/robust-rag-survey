@@ -1,0 +1,31 @@
+{
+  "key": "arxiv-2410.15107v1",
+  "title": "Toward Robust RALMs: Revealing the Impact of Imperfect Retrieval on Retrieval-Augmented Language Models",
+  "authors": "Seong-Il Park; Jay-Yoon Lee",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.15107v1",
+  "local_pdf": "pdfs/2024_seong_il_park_toward_robust_ralms_revealing_the_impact_of_imperfect_retrieval_on_retrieval_augmented_l_2ccd7fed.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "knowledge_conflict",
+    "adversarial_corruption",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematically evaluates RALM robustness across unanswerable, adversarial, and conflicting retrieval scenarios, introducing a new adversarial attack (GenADV) and robustness metric (RAD).",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation and benchmarks for robust RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:10.851345+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.15107v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\", \"knowledge_conflict\", \"adversarial_corruption\", \"ood_uncertainty\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Systematically evaluates RALM robustness across unanswerable, adversarial, and conflicting retrieval scenarios, introducing a new adversarial attack (GenADV) and robustness metric (RAD).\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation and benchmarks for robust RAG\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

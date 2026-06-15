@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.15270v1",
+  "title": "Enhancing Large Language Models with Retrieval Augmented Generation for Software Testing and Inspection Automation",
+  "authors": "Zoe Fingleton; Nazanin Siavash; Armin Moin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.15270v1",
+  "local_pdf": "pdfs/2026_zoe_fingleton_enhancing_large_language_models_with_retrieval_augmented_generation_for_software_testing_a04e1d6b.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to software testing/inspection without studying robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure application paper; does not address unreliable evidence concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.846194+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.15270v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to software testing/inspection without studying robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure application paper; does not address unreliable evidence concerns.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

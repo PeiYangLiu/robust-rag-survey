@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.13391v1",
+  "title": "RS-Claw: Progressive Active Tool Exploration via Hierarchical Skill Trees for Remote Sensing Agents",
+  "authors": "Liangtian Liu; Zeyuan Wang; Ziyu Li; Kai Ouyang; Zichao Tang; Chengfu Liu; Haifeng Li; Hanwen Yu; Wentao Yang; Cheng Yang; Dongyang Hou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.13391v1",
+  "local_pdf": "pdfs/2026_liangtian_liu_rs_claw_progressive_active_tool_exploration_via_hierarchical_skill_trees_for_remote_sens_fb5bb7e2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Remote sensing agent tool-selection architecture; only tangentially mentions RAG as a baseline.",
+  "why_not_or_caveat": "Not about RAG robustness, noise, conflict, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.723159+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.13391v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Remote sensing agent tool-selection architecture; only tangentially mentions RAG as a baseline.\",\"why_not_or_caveat\":\"Not about RAG robustness, noise, conflict, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

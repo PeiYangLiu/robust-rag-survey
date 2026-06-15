@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.10596v2",
+  "title": "Post-training an LLM for RAG? Train on Self-Generated Demonstrations",
+  "authors": "Matthew Finlayson; Ilia Kulikov; Daniel M. Bikel; Barlas Oguz; Xilun Chen; Aasish Pappu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.10596v2",
+  "local_pdf": "pdfs/2025_matthew_finlayson_post_training_an_llm_for_rag_train_on_self_generated_demonstrations_b1da415d.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes self-generated demonstrations for RA-IT to teach LLMs to integrate retrievals properly and abstain on questions they likely answer wrong, directly addressing calibration/abstention and reducing hallucination under retrieval.",
+  "why_not_or_caveat": "Focus is on training recipe rather than systematic robustness analysis; doesn't deeply study noisy/adversarial evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (abstention and RAG training)",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.123294+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.10596v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes self-generated demonstrations for RA-IT to teach LLMs to integrate retrievals properly and abstain on questions they likely answer wrong, directly addressing calibration/abstention and reducing hallucination under retrieval.\",\"why_not_or_caveat\":\"Focus is on training recipe rather than systematic robustness analysis; doesn't deeply study noisy/adversarial evidence.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control (abstention and RAG training)\",\"confidence\":0.75}",
+  "skipped_existing": false
+}

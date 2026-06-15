@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2412.07724v2",
+  "title": "Granite Guardian",
+  "authors": "Inkit Padhi; Manish Nagireddy; Giandomenico Cornacchia; Subhajit Chaudhury; Tejaswini Pedapati; Pierre Dognin; Keerthiram Murugesan; Erik Miehling; Martín Santillán Cooper; Kieran Fraser; Giulio Zizzo; Muhammad Zaid Hameed; Mark Purcell; Michael Desmond; Qian Pan; Zahra Ashktorab; Inge Vejsbjerg; Elizabeth M. Daly; Michael Hind; Werner Geyer; Ambrish Rawat; Kush R. Varshney; Prasanna Sattigeri",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.07724v2",
+  "local_pdf": "pdfs/2024_inkit_padhi_granite_guardian_8c72669a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Granite Guardian provides RAG-specific risk detection including context relevance, groundedness, and answer relevance, which directly relates to filtering unreliable evidence and detecting hallucinations in RAG pipelines.",
+  "why_not_or_caveat": "Primarily a general-purpose safety guardrail model; RAG robustness is one of several capabilities rather than the central focus.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / guardrails for RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:25.286785+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.07724v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Granite Guardian provides RAG-specific risk detection including context relevance, groundedness, and answer relevance, which directly relates to filtering unreliable evidence and detecting hallucinations in RAG pipelines.\",\n  \"why_not_or_caveat\": \"Primarily a general-purpose safety guardrail model; RAG robustness is one of several capabilities rather than the central focus.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / guardrails for RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

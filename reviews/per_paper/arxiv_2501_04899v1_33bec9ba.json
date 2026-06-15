@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2501.04899v1",
+  "title": "SUGAR: Leveraging Contextual Confidence for Smarter Retrieval",
+  "authors": "Hanna Zubkova; Ji-Hoon Park; Seong-Whan Lee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.04899v1",
+  "local_pdf": "pdfs/2025_hanna_zubkova_sugar_leveraging_contextual_confidence_for_smarter_retrieval_33bec9ba.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "SUGAR uses semantic entropy to decide when to retrieve and whether to do single- vs multi-step retrieval, directly addressing the 'when to retrieve' calibration/control question and avoiding distraction by noisy retrieval.",
+  "why_not_or_caveat": "Focuses on adaptive retrieval triggering rather than handling noise/conflict/adversaries within retrieved evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:11.745114+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2501.04899v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"SUGAR uses semantic entropy to decide when to retrieve and whether to do single- vs multi-step retrieval, directly addressing the 'when to retrieve' calibration/control question and avoiding distraction by noisy retrieval.\",\n  \"why_not_or_caveat\": \"Focuses on adaptive retrieval triggering rather than handling noise/conflict/adversaries within retrieved evidence.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.21949v1",
+  "title": "Claim-Selective Certification for High-Risk Medical Retrieval-Augmented Generation",
+  "authors": "Shao Kan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.21949v1",
+  "local_pdf": "pdfs/2026_shao_kan_claim_selective_certification_for_high_risk_medical_retrieval_augmented_generation_e0a7b9f4.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a claim-level certification and abstain/partial/conflict action policy for medical RAG under mixed evidence, addressing knowledge conflict, selective abstention, and calibration of action decisions with dedicated metrics (UCCR, PAU).",
+  "why_not_or_caveat": "Domain-specific (medical) and uses weak-label protocol with limited generality; relies on template decomposition and cue-based scoring.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Abstention and Conflict Handling",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:32.483853+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.21949v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a claim-level certification and abstain/partial/conflict action policy for medical RAG under mixed evidence, addressing knowledge conflict, selective abstention, and calibration of action decisions with dedicated metrics (UCCR, PAU).\",\n  \"why_not_or_caveat\": \"Domain-specific (medical) and uses weak-label protocol with limited generality; relies on template decomposition and cue-based scoring.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: Abstention and Conflict Handling\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.09203v2",
+  "title": "Evaluate-as-Action: Self-Evaluated Process Rewards for Retrieval-Augmented Agents",
+  "authors": "Jiangming Shu; Yuxiang Zhang; Ye Ma; Xueyuan Lin; Jitao Sang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.09203v2",
+  "local_pdf": "pdfs/2026_jiangming_shu_evaluate_as_action_self_evaluated_process_rewards_for_retrieval_augmented_agents_b1c43aa7.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an RL-trained retrieval agent that explicitly self-evaluates retrieval quality at each step, addressing noisy retrieval and providing calibrated confidence signals to control multi-hop trajectories.",
+  "why_not_or_caveat": "Focus is on agentic RL training rather than dedicated robustness benchmarking; relevance to conflict/adversarial settings is indirect.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / self-evaluation for retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:05.910264+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.09203v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an RL-trained retrieval agent that explicitly self-evaluates retrieval quality at each step, addressing noisy retrieval and providing calibrated confidence signals to control multi-hop trajectories.\",\n  \"why_not_or_caveat\": \"Focus is on agentic RL training rather than dedicated robustness benchmarking; relevance to conflict/adversarial settings is indirect.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / self-evaluation for retrieval\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

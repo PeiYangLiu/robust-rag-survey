@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.00796v1",
+  "title": "When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI",
+  "authors": "Alfredo Madrid-García; Miguel Rujas",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00796v1",
+  "local_pdf": "pdfs/2026_alfredo_madrid_garc_a_when_rag_chatbots_expose_their_backend_an_anonymized_case_study_of_privacy_and_security_66b5226b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Case study of security/privacy vulnerabilities in a deployed medical RAG chatbot, touching on system-level RAG risks.",
+  "why_not_or_caveat": "Focuses on web/infrastructure security (exposed APIs, stored conversations) rather than robustness of retrieval/generation under unreliable evidence, conflicts, calibration, or content-level adversarial attacks.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:00.831269+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.00796v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Case study of security/privacy vulnerabilities in a deployed medical RAG chatbot, touching on system-level RAG risks.\",\n  \"why_not_or_caveat\": \"Focuses on web/infrastructure security (exposed APIs, stored conversations) rather than robustness of retrieval/generation under unreliable evidence, conflicts, calibration, or content-level adversarial attacks.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

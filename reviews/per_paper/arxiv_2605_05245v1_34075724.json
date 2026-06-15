@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.05245v1",
+  "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop Retrieval-Augmented Generation",
+  "authors": "Yilin Guo; Yinshan Wang; Yixuan Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05245v1",
+  "local_pdf": "pdfs/2026_yilin_guo_adagate_adaptive_gap_aware_token_efficient_evidence_assembly_for_multi_hop_retrieval_aug_34075724.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a training-free controller for multi-hop RAG that handles noisy and redundant retrieval via gap-aware evidence repair and token-budgeted selection, evaluated under noise and redundancy injection.",
+  "why_not_or_caveat": "Focuses narrowly on multi-hop evidence assembly; not a primary robustness/conflict/adversarial work.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and evidence selection controllers",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:48.495996+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05245v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a training-free controller for multi-hop RAG that handles noisy and redundant retrieval via gap-aware evidence repair and token-budgeted selection, evaluated under noise and redundancy injection.\",\"why_not_or_caveat\":\"Focuses narrowly on multi-hop evidence assembly; not a primary robustness/conflict/adversarial work.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval and evidence selection controllers\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

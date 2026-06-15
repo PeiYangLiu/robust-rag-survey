@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.10577v2",
+  "title": "Truth Sleuth and Trend Bender: AI Agents to fact-check YouTube videos and influence opinions",
+  "authors": "Cécile Logé; Rehan Ghori",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.10577v2",
+  "local_pdf": "pdfs/2025_c_cile_log_truth_sleuth_and_trend_bender_ai_agents_to_fact_check_youtube_videos_and_influence_opini_233138e5.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to fact-checking YouTube claims; does not study robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Pure application paper without contributions to robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:45.859750+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.10577v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to fact-checking YouTube claims; does not study robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Pure application paper without contributions to robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

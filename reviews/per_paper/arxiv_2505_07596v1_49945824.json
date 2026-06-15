@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.07596v1",
+  "title": "Reinforced Internal-External Knowledge Synergistic Reasoning for Efficient Adaptive Search Agent",
+  "authors": "Ziyang Huang; Xiaowei Yuan; Yiming Ju; Jun Zhao; Kang Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.07596v1",
+  "local_pdf": "pdfs/2025_ziyang_huang_reinforced_internal_external_knowledge_synergistic_reasoning_for_efficient_adaptive_sear_49945824.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "IKEA uses RL with a knowledge-boundary aware reward to decide when to retrieve vs rely on parametric knowledge, directly addressing adaptive retrieval control and avoiding noisy retrieval/knowledge conflict.",
+  "why_not_or_caveat": "Focus is efficiency-oriented adaptive retrieval rather than explicit robustness evaluation under adversarial or noisy evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.439905+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.07596v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"IKEA uses RL with a knowledge-boundary aware reward to decide when to retrieve vs rely on parametric knowledge, directly addressing adaptive retrieval control and avoiding noisy retrieval/knowledge conflict.\",\"why_not_or_caveat\":\"Focus is efficiency-oriented adaptive retrieval rather than explicit robustness evaluation under adversarial or noisy evidence.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

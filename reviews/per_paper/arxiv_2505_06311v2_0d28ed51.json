@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.06311v2",
+  "title": "Defending against Indirect Prompt Injection by Instruction Detection",
+  "authors": "Tongyu Wen; Chenglong Wang; Xiyuan Yang; Haoyu Tang; Yueqi Xie; Lingjuan Lyu; Zhicheng Dou; Fangzhao Wu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.06311v2",
+  "local_pdf": "pdfs/2025_tongyu_wen_defending_against_indirect_prompt_injection_by_instruction_detection_0d28ed51.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a detection-based defense against indirect prompt injection in RAG using LLM hidden states/gradients, directly addressing adversarial corruption of retrieved content.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses against Indirect Prompt Injection",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:49.633089+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.06311v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a detection-based defense against indirect prompt injection in RAG using LLM hidden states/gradients, directly addressing adversarial corruption of retrieved content.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses against Indirect Prompt Injection\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

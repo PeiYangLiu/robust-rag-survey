@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2310.14696v1",
+  "title": "Tree of Clarifications: Answering Ambiguous Questions with Retrieval-Augmented Large Language Models",
+  "authors": "Gangwoo Kim; Sungdong Kim; Byeongguk Jeon; Joonsuk Park; Jaewoo Kang",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.14696v1",
+  "local_pdf": "pdfs/2023_gangwoo_kim_tree_of_clarifications_answering_ambiguous_questions_with_retrieval_augmented_large_lang_b1e8e7c6.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses ambiguous queries in RAG by recursively generating disambiguated questions and pruning via self-verification, relevant to query ambiguity and control over clarification in RAG.",
+  "why_not_or_caveat": "Focuses on long-form QA quality rather than robustness/calibration directly; ambiguity handling is the main connection.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "OOD/Uncertainty: Query Ambiguity and Clarification",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:47.607186+00:00",
+  "raw_response": "{\"key\":\"arxiv-2310.14696v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"ood_uncertainty\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Addresses ambiguous queries in RAG by recursively generating disambiguated questions and pruning via self-verification, relevant to query ambiguity and control over clarification in RAG.\",\"why_not_or_caveat\":\"Focuses on long-form QA quality rather than robustness/calibration directly; ambiguity handling is the main connection.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"OOD/Uncertainty: Query Ambiguity and Clarification\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

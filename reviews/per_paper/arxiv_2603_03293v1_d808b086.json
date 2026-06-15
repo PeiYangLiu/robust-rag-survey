@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.03293v1",
+  "title": "SE-Search: Self-Evolving Search Agent via Memory and Dense Reward",
+  "authors": "Jian Li; Yizhang Jin; Dongqi Liu; Hang Ding; Jiafu Wu; Dongsheng Chen; Yunhang Shen; Yulei Qin; Ying Tai; Chengjie Wang; Xiaotong Yuan; Yabiao Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.03293v1",
+  "local_pdf": "pdfs/2026_jian_li_se_search_self_evolving_search_agent_via_memory_and_dense_reward_d808b086.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a search agent that filters noisy retrieved documents via memory purification and uses dense rewards to control when/what to search, addressing noisy retrieval and retrieval control.",
+  "why_not_or_caveat": "Focus is on agent training rather than systematic robustness analysis; does not address conflict, adversarial, or calibration of uncertainty.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / retrieval control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:24.130759+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.03293v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a search agent that filters noisy retrieved documents via memory purification and uses dense rewards to control when/what to search, addressing noisy retrieval and retrieval control.\",\"why_not_or_caveat\":\"Focus is on agent training rather than systematic robustness analysis; does not address conflict, adversarial, or calibration of uncertainty.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval / retrieval control\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

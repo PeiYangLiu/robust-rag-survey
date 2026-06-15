@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.04252v1",
+  "title": "A Graph-Retrieval-Augmented Generation Framework Enhances Decision-Making in the Circular Economy",
+  "authors": "Yang Zhao; Chengxiao Dai; Dusit Niyato; Chuan Fu Tan; Keyi Xiang; Yueyang Wang; Zhiquan Yeo; Daren Tan Zong Loong; Jonathan Low Zhaozhi; Eugene H. Z. HO",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.04252v1",
+  "local_pdf": "pdfs/2025_yang_zhao_a_graph_retrieval_augmented_generation_framework_enhances_decision_making_in_the_circula_cc5f3e77.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific GraphRAG application for circular economy; does not study robustness, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:16.942235+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.04252v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific GraphRAG application for circular economy; does not study robustness, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

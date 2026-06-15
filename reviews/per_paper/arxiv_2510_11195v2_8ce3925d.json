@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.11195v2",
+  "title": "RAG-Pull: Turning Retrieval into a Code-Injection Channel via Invisible Unicode Perturbations",
+  "authors": "Aritra Dhar; Vasilije Stambolic; Lukas Cavigelli",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.11195v2",
+  "local_pdf": "pdfs/2025_aritra_dhar_rag_pull_turning_retrieval_into_a_code_injection_channel_via_invisible_unicode_perturbat_8ce3925d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a black-box attack on RAG pipelines using invisible Unicode perturbations to redirect retrieval toward malicious code, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Focused on code-generation RAG specifically.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Retrieval Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.584921+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.11195v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces a black-box attack on RAG pipelines using invisible Unicode perturbations to redirect retrieval toward malicious code, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"Focused on code-generation RAG specifically.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Retrieval Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

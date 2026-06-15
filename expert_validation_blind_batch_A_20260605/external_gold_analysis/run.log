@@ -1,0 +1,5 @@
+responses: 360
+participants: 30
+reference: external_gold_verdict
+control: accuracy=0.800000, kappa=0.589169, time=126.056, confidence=3.689, usefulness=3.511
+protocol: accuracy=0.977778, kappa=0.845714, time=121.806, confidence=3.917, usefulness=4.061

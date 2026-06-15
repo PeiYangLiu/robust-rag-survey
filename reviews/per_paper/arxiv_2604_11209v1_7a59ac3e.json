@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.11209v1",
+  "title": "Exploring Knowledge Conflicts for Faithful LLM Reasoning: Benchmark and Method",
+  "authors": "Tianzhe Zhao; Jiaoyan Chen; Shuxiu Zhang; Haiping Zhu; Qika Lin; Jun Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.11209v1",
+  "local_pdf": "pdfs/2026_tianzhe_zhao_exploring_knowledge_conflicts_for_faithful_llm_reasoning_benchmark_and_method_7a59ac3e.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces ConflictQA, a benchmark for cross-source knowledge conflicts (text vs KG) in RAG, plus an explanation-based method (XoT) to mitigate evidence bias. Directly addresses knowledge conflict and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict (cross-source)",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:26.246869+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.11209v1\", \"relevance_score\": 5, \"decision\": \"core\", \"suitable_for_survey\": true, \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces ConflictQA, a benchmark for cross-source knowledge conflicts (text vs KG) in RAG, plus an explanation-based method (XoT) to mitigate evidence bias. Directly addresses knowledge conflict and evaluation under unreliable evidence.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"must_discuss\", \"suggested_section\": \"Knowledge Conflict (cross-source)\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

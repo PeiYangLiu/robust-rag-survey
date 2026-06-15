@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.00715v1",
+  "title": "To Memorize or to Retrieve: Scaling Laws for RAG-Considerate Pretraining",
+  "authors": "Karan Singh; Michael Yu; Varun Gangal; Zhuofu Tao; Sachin Kumar; Emmy Liu; Steven Y. Feng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.00715v1",
+  "local_pdf": "pdfs/2026_karan_singh_to_memorize_or_to_retrieve_scaling_laws_for_rag_considerate_pretraining_baabf207.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies scaling laws trading off parametric vs retrieval knowledge allocation; tangentially relevant to when to rely on retrieval vs internal knowledge.",
+  "why_not_or_caveat": "Does not address robustness, noise, conflict, adversarial attacks, calibration, or abstention; focused on pretraining/retrieval data allocation.",
+  "recommended_use": "background_only",
+  "suggested_section": "Background: parametric vs non-parametric knowledge",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.374825+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.00715v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies scaling laws trading off parametric vs retrieval knowledge allocation; tangentially relevant to when to rely on retrieval vs internal knowledge.\",\"why_not_or_caveat\":\"Does not address robustness, noise, conflict, adversarial attacks, calibration, or abstention; focused on pretraining/retrieval data allocation.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Background: parametric vs non-parametric knowledge\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

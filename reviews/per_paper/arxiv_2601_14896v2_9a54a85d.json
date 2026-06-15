@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.14896v2",
+  "title": "Language-Coupled Reinforcement Learning for Multilingual Retrieval-Augmented Generation",
+  "authors": "Rui Qi; Fengran Mo; Yufeng Chen; Xue Zhang; Shuo Wang; Hongliang Li; Jinan Xu; Meng Jiang; Jian-Yun Nie; Kaiyu Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.14896v2",
+  "local_pdf": "pdfs/2026_rui_qi_language_coupled_reinforcement_learning_for_multilingual_retrieval_augmented_generation_9a54a85d.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses knowledge conflict and bias in multilingual RAG via RL-based rollout and reward design, touching on conflict mitigation across retrieved evidence.",
+  "why_not_or_caveat": "Primarily a multilingual MRAG method paper; conflict handling is incidental to cross-lingual optimization rather than a focused robustness study.",
+  "recommended_use": "background_only",
+  "suggested_section": "Knowledge conflict",
+  "confidence": 0.5,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:18.641429+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.14896v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses knowledge conflict and bias in multilingual RAG via RL-based rollout and reward design, touching on conflict mitigation across retrieved evidence.\",\n  \"why_not_or_caveat\": \"Primarily a multilingual MRAG method paper; conflict handling is incidental to cross-lingual optimization rather than a focused robustness study.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Knowledge conflict\",\n  \"confidence\": 0.5\n}",
+  "skipped_existing": false
+}

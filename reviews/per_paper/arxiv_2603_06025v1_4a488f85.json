@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.06025v1",
+  "title": "Sensitivity-Aware Retrieval-Augmented Intent Clarification",
+  "authors": "Maik Larooij",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.06025v1",
+  "local_pdf": "pdfs/2026_maik_larooij_sensitivity_aware_retrieval_augmented_intent_clarification_4a488f85.pdf",
+  "metadata_topics": "knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "Vision paper proposing sensitivity-aware defenses against membership inference attacks on retrieval-augmented intent clarification systems, tangentially related to privacy attacks on RAG.",
+  "why_not_or_caveat": "Focus is on privacy/sensitivity protection in conversational search, not on robustness to noisy/conflicting/adversarial evidence affecting RAG answer quality. Position paper without results.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and privacy attacks on RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:27.715173+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.06025v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\",\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"Vision paper proposing sensitivity-aware defenses against membership inference attacks on retrieval-augmented intent clarification systems, tangentially related to privacy attacks on RAG.\",\"why_not_or_caveat\":\"Focus is on privacy/sensitivity protection in conversational search, not on robustness to noisy/conflicting/adversarial evidence affecting RAG answer quality. Position paper without results.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption and privacy attacks on RAG\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

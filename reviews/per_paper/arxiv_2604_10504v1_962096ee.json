@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.10504v1",
+  "title": "CARO: Chain-of-Analogy Reasoning Optimization for Robust Content Moderation",
+  "authors": "Bingzhe Wu; Haotian Lu; Yuchen Mou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.10504v1",
+  "local_pdf": "pdfs/2026_bingzhe_wu_caro_chain_of_analogy_reasoning_optimization_for_robust_content_moderation_962096ee.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG to bootstrap analogical reasoning chains for content moderation, but does not study RAG robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "RAG is an auxiliary training-data generation tool; focus is on moderation reasoning, not unreliable evidence in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.846671+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.10504v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG to bootstrap analogical reasoning chains for content moderation, but does not study RAG robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"RAG is an auxiliary training-data generation tool; focus is on moderation reasoning, not unreliable evidence in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.31010v1",
+  "title": "MoG: Mixture of Experts for Graph-based Retrieval-Augmented Generation",
+  "authors": "Zheng Yuan; Chuang Zhou; Linhao Luo; Siyu An; Di Yin; Xing Sun; Xiao Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.31010v1",
+  "local_pdf": "pdfs/2026_zheng_yuan_mog_mixture_of_experts_for_graph_based_retrieval_augmented_generation_5f870b33.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a GraphRAG method that reduces retrieval noise via sparse expert activation, tangentially related to noisy retrieval mitigation.",
+  "why_not_or_caveat": "Primary focus is improving multi-hop QA accuracy through MoE-style graph organization, not robustness analysis under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "noisy retrieval mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:28.841319+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.31010v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a GraphRAG method that reduces retrieval noise via sparse expert activation, tangentially related to noisy retrieval mitigation.\",\"why_not_or_caveat\":\"Primary focus is improving multi-hop QA accuracy through MoE-style graph organization, not robustness analysis under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"noisy retrieval mitigation\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

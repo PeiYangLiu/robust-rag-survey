@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.02132v4",
+  "title": "One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Image",
+  "authors": "Ezzeldin Shereen; Dan Ristea; Shae McFadden; Burak Hasircioglu; Vasilios Mavroudis; Chris Hicks",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.02132v4",
+  "local_pdf": "pdfs/2025_ezzeldin_shereen_one_pic_is_all_it_takes_poisoning_visual_document_retrieval_augmented_generation_with_a_92def1db.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Demonstrates poisoning attacks against visual document RAG via a single adversarial image, addressing both retrieval and generation conditions in white- and black-box settings. Extends KB poisoning threat models to multimodal RAG.",
+  "why_not_or_caveat": "Focused on visual modality; limited defense exploration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:50.011995+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.02132v4\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Demonstrates poisoning attacks against visual document RAG via a single adversarial image, addressing both retrieval and generation conditions in white- and black-box settings. Extends KB poisoning threat models to multimodal RAG.\",\n  \"why_not_or_caveat\": \"Focused on visual modality; limited defense exploration.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Poisoning Attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

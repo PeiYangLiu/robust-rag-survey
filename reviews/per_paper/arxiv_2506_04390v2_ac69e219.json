@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.04390v2",
+  "title": "Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG",
+  "authors": "Sarthak Choudhary; Nils Palumbo; Ashish Hooda; Krishnamurthy Dj Dvijotham; Somesh Jha",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.04390v2",
+  "local_pdf": "pdfs/2025_sarthak_choudhary_through_the_stealth_lens_attention_aware_defenses_against_poisoning_in_rag_ac69e219.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes attention-based defense (AV Filter, NPAS) against RAG poisoning attacks, formalizes stealth via a security game, and develops adaptive attacks—directly addressing adversarial corruption robustness in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:48.945238+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.04390v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes attention-based defense (AV Filter, NPAS) against RAG poisoning attacks, formalizes stealth via a security game, and develops adaptive attacks—directly addressing adversarial corruption robustness in RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Defenses\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

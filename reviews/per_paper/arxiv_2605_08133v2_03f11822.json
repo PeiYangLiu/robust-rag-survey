@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.08133v2",
+  "title": "VLADriver-RAG: Retrieval-Augmented Vision-Language-Action Models for Autonomous Driving",
+  "authors": "Rui Zhao; Haofeng Hu; Zhenhai Gao; Jiaqiao Liu; Gao Fei",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.08133v2",
+  "local_pdf": "pdfs/2026_rui_zhao_vladriver_rag_retrieval_augmented_vision_language_action_models_for_autonomous_driving_03f11822.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to autonomous driving VLA models, addressing long-tail generalization, but does not study robustness, conflict, calibration, or adversarial issues central to the survey.",
+  "why_not_or_caveat": "Domain-specific application of RAG; robustness aspects are tangential.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:55.517105+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.08133v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to autonomous driving VLA models, addressing long-tail generalization, but does not study robustness, conflict, calibration, or adversarial issues central to the survey.\",\"why_not_or_caveat\":\"Domain-specific application of RAG; robustness aspects are tangential.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

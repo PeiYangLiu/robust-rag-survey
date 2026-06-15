@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.12709v1",
+  "title": "ReFilter: Improving Robustness of Retrieval-Augmented Generation via Gated Filter",
+  "authors": "Yixin Chen; Ying Xiong; Shangyu Wu; Xiangrui Ke; Nan Guan; Chun Jason Xue",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.12709v1",
+  "local_pdf": "pdfs/2026_yixin_chen_refilter_improving_robustness_of_retrieval_augmented_generation_via_gated_filter_8e6db2b4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a token-level gated filter to suppress irrelevant/redundant/conflicting retrieved tokens, directly addressing noisy retrieval and distraction in RAG and analyzing the recall-vs-performance decoupling as k grows.",
+  "why_not_or_caveat": "Focuses on latent-fusion architecture; does not address adversarial attacks or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval: Filtering and Fusion Methods",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.370074+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.12709v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a token-level gated filter to suppress irrelevant/redundant/conflicting retrieved tokens, directly addressing noisy retrieval and distraction in RAG and analyzing the recall-vs-performance decoupling as k grows.\",\n  \"why_not_or_caveat\": \"Focuses on latent-fusion architecture; does not address adversarial attacks or calibration.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval: Filtering and Fusion Methods\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

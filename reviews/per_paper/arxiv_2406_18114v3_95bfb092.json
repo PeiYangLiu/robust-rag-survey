@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.18114v3",
+  "title": "Knowledge graph enhanced retrieval-augmented generation for failure mode and effects analysis",
+  "authors": "Lukas Bahr; Christoph Wehner; Judith Wewerka; José Bittencourt; Ute Schmid; Rüdiger Daub",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.18114v3",
+  "local_pdf": "pdfs/2024_lukas_bahr_knowledge_graph_enhanced_retrieval_augmented_generation_for_failure_mode_and_effects_ana_95bfb092.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of KG-enhanced RAG to FMEA in manufacturing; does not study robustness, noise, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Out of scope; a domain application of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:30.907774+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.18114v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of KG-enhanced RAG to FMEA in manufacturing; does not study robustness, noise, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Out of scope; a domain application of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

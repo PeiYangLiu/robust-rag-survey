@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.20750v1",
+  "title": "Modeling Epistemic Uncertainty in Social Perception via Rashomon Set Agents",
+  "authors": "Jinming Yang; Xinyu Jiang; Xinshan Jiao; Xinping Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.20750v1",
+  "local_pdf": "pdfs/2026_jinming_yang_modeling_epistemic_uncertainty_in_social_perception_via_rashomon_set_agents_92f984ce.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG only as a local information access mechanism in a social simulation; does not study RAG robustness, reliability, or any survey topics.",
+  "why_not_or_caveat": "Application of RAG to classroom social perception modeling; not about noise, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:00.851347+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.20750v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG only as a local information access mechanism in a social simulation; does not study RAG robustness, reliability, or any survey topics.\",\"why_not_or_caveat\":\"Application of RAG to classroom social perception modeling; not about noise, conflict, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.04492v2",
+  "title": "Learned Hallucination Detection in Black-Box LLMs using Token-level Entropy Production Rate",
+  "authors": "Charles Moslonka; Hicham Randrianarivo; Arthur Garnier; Emmanuel Malherbe",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.04492v2",
+  "local_pdf": "pdfs/2025_charles_moslonka_learned_hallucination_detection_in_black_box_llms_using_token_level_entropy_production_r_9b376325.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a token-level entropy-based hallucination detector for black-box LLMs, applicable to RAG outputs for uncertainty quantification and abstention.",
+  "why_not_or_caveat": "Not RAG-specific; focuses on generic hallucination detection with one RAG case study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.111094+00:00",
+  "raw_response": "{\"key\": \"arxiv-2509.04492v2\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a token-level entropy-based hallucination detector for black-box LLMs, applicable to RAG outputs for uncertainty quantification and abstention.\", \"why_not_or_caveat\": \"Not RAG-specific; focuses on generic hallucination detection with one RAG case study.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Uncertainty\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

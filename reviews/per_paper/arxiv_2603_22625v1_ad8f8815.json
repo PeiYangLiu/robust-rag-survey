@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.22625v1",
+  "title": "Leveraging Large Language Models to Extract and Translate Medical Information in Doctors' Notes for Health Records and Diagnostic Billing Codes",
+  "authors": "Peter Hartnett; Chung-Chi Huang; Sarah Hartnett; David Hartnett",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.22625v1",
+  "local_pdf": "pdfs/2026_peter_hartnett_leveraging_large_language_models_to_extract_and_translate_medical_information_in_doctors_ad8f8815.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to medical coding; not about robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Only tangentially notes context saturation issues; no robustness study.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:28.910250+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.22625v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to medical coding; not about robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Only tangentially notes context saturation issues; no robustness study.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

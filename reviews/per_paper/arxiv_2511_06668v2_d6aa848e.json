@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.06668v2",
+  "title": "Contradictions in Context: Challenges for Retrieval-Augmented Generation in Healthcare",
+  "authors": "Saeedeh Javadi; Sara Mirabi; Manan Gangar; Bahadorreza Ofoghi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.06668v2",
+  "local_pdf": "pdfs/2025_saeedeh_javadi_contradictions_in_context_challenges_for_retrieval_augmented_generation_in_healthcare_d6aa848e.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Studies how contradictory and outdated retrieved evidence degrades RAG outputs in medical QA, introducing a benchmark for contradiction-aware evaluation across five LLMs.",
+  "why_not_or_caveat": "Domain-specific (healthcare) and focused on temporal contradictions rather than general conflict taxonomy.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict in Retrieved Evidence",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:52.064758+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2511.06668v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Studies how contradictory and outdated retrieved evidence degrades RAG outputs in medical QA, introducing a benchmark for contradiction-aware evaluation across five LLMs.\",\n  \"why_not_or_caveat\": \"Domain-specific (healthcare) and focused on temporal contradictions rather than general conflict taxonomy.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict in Retrieved Evidence\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

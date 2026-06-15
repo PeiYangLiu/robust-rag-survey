@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.08046v2",
+  "title": "Guaranteeing Knowledge Integration with Joint Decoding for Retrieval-Augmented Generation",
+  "authors": "Zhengyi Zhao; Shubo Zhang; Zezhong Wang; Yuxi Zhang; Huimin Wang; Yutian Zhao; Yefeng Zheng; Binyang Li; Kam-Fai Wong; Xian Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.08046v2",
+  "local_pdf": "pdfs/2026_zhengyi_zhao_guaranteeing_knowledge_integration_with_joint_decoding_for_retrieval_augmented_generatio_d3f49e73.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly addresses parametric vs retrieved knowledge conflict via dual-path decoding and contrastive DPO, with an adaptive retrieval decision module.",
+  "why_not_or_caveat": "Focuses on integration method rather than systematic robustness evaluation; suspicious arxiv ID (future-dated).",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:31.678898+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.08046v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly addresses parametric vs retrieved knowledge conflict via dual-path decoding and contrastive DPO, with an adaptive retrieval decision module.\",\n  \"why_not_or_caveat\": \"Focuses on integration method rather than systematic robustness evaluation; suspicious arxiv ID (future-dated).\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21336v1",
+  "title": "HetaRAG: Hybrid Deep Retrieval-Augmented Generation across Heterogeneous Data Stores",
+  "authors": "Guohang Yan; Yue Zhang; Pinlong Cai; Ding Wang; Song Mao; Hongwei Zhang; Yaoze Zhang; Hairong Zhang; Xinyu Cai; Botian Shi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21336v1",
+  "local_pdf": "pdfs/2025_guohang_yan_hetarag_hybrid_deep_retrieval_augmented_generation_across_heterogeneous_data_stores_528310c0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hybrid heterogeneous-store RAG framework; briefly mentions noise and conflict challenges but does not directly study robustness.",
+  "why_not_or_caveat": "Technical report on system design across data stores; no robustness evaluation, attacks, calibration, or conflict handling contributions.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.187081+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.21336v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a hybrid heterogeneous-store RAG framework; briefly mentions noise and conflict challenges but does not directly study robustness.\",\n  \"why_not_or_caveat\": \"Technical report on system design across data stores; no robustness evaluation, attacks, calibration, or conflict handling contributions.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

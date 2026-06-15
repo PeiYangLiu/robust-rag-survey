@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.06151v2",
+  "title": "Joint-GCG: Unified Gradient-Based Poisoning Attacks on Retrieval-Augmented Generation Systems",
+  "authors": "Haowei Wang; Rupeng Zhang; Junjie Wang; Mingyang Li; Yuekai Huang; Dandan Wang; Qing Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.06151v2",
+  "local_pdf": "pdfs/2025_haowei_wang_joint_gcg_unified_gradient_based_poisoning_attacks_on_retrieval_augmented_generation_sys_e62225c3.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a unified gradient-based corpus poisoning attack jointly optimizing retriever and generator in RAG, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:14.065968+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.06151v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a unified gradient-based corpus poisoning attack jointly optimizing retriever and generator in RAG, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

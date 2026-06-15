@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.20932v1",
+  "title": "Adaptive Defense Orchestration for RAG: A Sentinel-Strategist Architecture against Multi-Vector Attacks",
+  "authors": "Pranav Pallerla; Wilson Naik Bhukya; Bharath Vemula; Charan Ramtej Kodi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20932v1",
+  "local_pdf": "pdfs/2026_pranav_pallerla_adaptive_defense_orchestration_for_rag_a_sentinel_strategist_architecture_against_multi_bf9fda32.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes adaptive orchestration of defenses against multi-vector RAG attacks (membership inference, poisoning, content leakage), addressing the security-utility trade-off central to robust RAG.",
+  "why_not_or_caveat": "Suspicious arXiv ID (2604.xxx, dated 2026); verify legitimacy.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:29.003172+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.20932v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"calibration_control\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes adaptive orchestration of defenses against multi-vector RAG attacks (membership inference, poisoning, content leakage), addressing the security-utility trade-off central to robust RAG.\",\"why_not_or_caveat\":\"Suspicious arXiv ID (2604.xxx, dated 2026); verify legitimacy.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption defenses\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

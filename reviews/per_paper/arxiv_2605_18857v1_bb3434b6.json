@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.18857v1",
+  "title": "The 99% Success Paradox: When Near-Perfect Retrieval Equals Random Selection",
+  "authors": "Vyzantinos Repantis; Harshvardhan Singh; Tony Joseph; Cien Zhang; Akash Vishwakarma; Svetlana Karslioglu; Michael Wyatt Thot; Ameya Gawde",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18857v1",
+  "local_pdf": "pdfs/2026_vyzantinos_repantis_the_99_success_paradox_when_near_perfect_retrieval_equals_random_selection_bb3434b6.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Introduces a chance-corrected retrieval selectivity metric (BoR) showing that high recall at large K can mask random-level retrieval, with downstream RAG accuracy degrading due to irrelevant context. Relevant to evaluation metrics for noisy retrieval and depth/K control.",
+  "why_not_or_caveat": "Primarily an IR metric paper; RAG robustness discussion is secondary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and metrics for noisy retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.390867+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.18857v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Introduces a chance-corrected retrieval selectivity metric (BoR) showing that high recall at large K can mask random-level retrieval, with downstream RAG accuracy degrading due to irrelevant context. Relevant to evaluation metrics for noisy retrieval and depth/K control.\",\n  \"why_not_or_caveat\": \"Primarily an IR metric paper; RAG robustness discussion is secondary.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and metrics for noisy retrieval\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

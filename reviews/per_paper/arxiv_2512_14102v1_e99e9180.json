@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.14102v1",
+  "title": "Neurosymbolic Inference On Foundation Models For Remote Sensing Text-to-image Retrieval With Complex Queries",
+  "authors": "Emanuele Mezzi; Gertjan Burghouts; Maarten Kruithof",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.14102v1",
+  "local_pdf": "pdfs/2025_emanuele_mezzi_neurosymbolic_inference_on_foundation_models_for_remote_sensing_text_to_image_retrieval_e99e9180.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns neurosymbolic text-to-image retrieval in remote sensing, unrelated to robust RAG under unreliable evidence.",
+  "why_not_or_caveat": "No focus on RAG robustness, noise, conflict, adversaries, or calibration in LLM generation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:44.531151+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.14102v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns neurosymbolic text-to-image retrieval in remote sensing, unrelated to robust RAG under unreliable evidence.\",\"why_not_or_caveat\":\"No focus on RAG robustness, noise, conflict, adversaries, or calibration in LLM generation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

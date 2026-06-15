@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.05167v2",
+  "title": "ECoRAG: Evidentiality-guided Compression for Long Context RAG",
+  "authors": "Yeonseok Jeong; Jinsu Kim; Dohyeon Lee; Seung-won Hwang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.05167v2",
+  "local_pdf": "pdfs/2025_yeonseok_jeong_ecorag_evidentiality_guided_compression_for_long_context_rag_38cd18c1.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "ECoRAG compresses retrieved documents based on evidentiality, explicitly filtering distractors and irrelevant content, and adaptively decides when more retrieval is needed—relevant to noisy retrieval, distraction, and retrieval control.",
+  "why_not_or_caveat": "Primary framing is efficiency/compression for ODQA rather than robustness per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Retrieval / Filtering and Compression",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.233325+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.05167v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"ECoRAG compresses retrieved documents based on evidentiality, explicitly filtering distractors and irrelevant content, and adaptively decides when more retrieval is needed—relevant to noisy retrieval, distraction, and retrieval control.\",\n  \"why_not_or_caveat\": \"Primary framing is efficiency/compression for ODQA rather than robustness per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and Noisy Retrieval / Filtering and Compression\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

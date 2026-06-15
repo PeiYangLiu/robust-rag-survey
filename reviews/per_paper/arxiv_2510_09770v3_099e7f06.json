@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.09770v3",
+  "title": "GOLD PANNING: Strategic Context Shuffling for Needle-in-Haystack Reasoning",
+  "authors": "Adam Byerly; Daniel Khashabi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.09770v3",
+  "local_pdf": "pdfs/2025_adam_byerly_gold_panning_strategic_context_shuffling_for_needle_in_haystack_reasoning_099e7f06.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses position bias in long-context/RAG retrieval via Bayesian reordering, relevant to distraction and inference-time control over noisy contexts.",
+  "why_not_or_caveat": "Focuses on needle-in-haystack position bias rather than core RAG robustness issues like conflict or adversarial corruption.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and position bias",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:33.313749+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.09770v3\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses position bias in long-context/RAG retrieval via Bayesian reordering, relevant to distraction and inference-time control over noisy contexts.\",\n  \"why_not_or_caveat\": \"Focuses on needle-in-haystack position bias rather than core RAG robustness issues like conflict or adversarial corruption.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and position bias\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2403.01461v1",
+  "title": "Answerability in Retrieval-Augmented Open-Domain Question Answering",
+  "authors": "Rustam Abdumalikov; Pasquale Minervini; Yova Kementchedjhieva",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.01461v1",
+  "local_pdf": "pdfs/2024_rustam_abdumalikov_answerability_in_retrieval_augmented_open_domain_question_answering_1eb3476a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies answerability/abstention in RAG-based ODQA, showing that models trained with random negatives fail on semantically related but irrelevant excerpts, and proposes training with SQuAD 2.0 unanswerable pairs to improve abstention.",
+  "why_not_or_caveat": "Narrow extractive QA focus with T5 models; limited scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention under Noisy Retrieval",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:48.521667+00:00",
+  "raw_response": "{\"key\":\"arxiv-2403.01461v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"ood_uncertainty\",\"calibration_control\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies answerability/abstention in RAG-based ODQA, showing that models trained with random negatives fail on semantically related but irrelevant excerpts, and proposes training with SQuAD 2.0 unanswerable pairs to improve abstention.\",\"why_not_or_caveat\":\"Narrow extractive QA focus with T5 models; limited scope.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Abstention under Noisy Retrieval\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

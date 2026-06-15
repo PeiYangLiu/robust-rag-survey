@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2412.05937v1",
+  "title": "Accelerating Manufacturing Scale-Up from Material Discovery Using Agentic Web Navigation and Retrieval-Augmented AI for Process Engineering Schematics Design",
+  "authors": "Sakhinana Sagar Srinivas; Akash Das; Shivam Gupta; Venkataramana Runkana",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.05937v1",
+  "local_pdf": "pdfs/2024_sakhinana_sagar_srinivas_accelerating_manufacturing_scale_up_from_material_discovery_using_agentic_web_navigation_2d0b925e.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of Graph RAG for generating process engineering diagrams; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Pure application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:29.827887+00:00",
+  "raw_response": "{\"key\":\"arxiv-2412.05937v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of Graph RAG for generating process engineering diagrams; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Pure application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

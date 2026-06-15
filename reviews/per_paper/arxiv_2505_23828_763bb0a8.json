@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.23828",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2505.23828)] Spa-VLM: Stealthy Poisoning Attacks on RAG-based VLM",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.23828",
+  "local_pdf": "pdfs/na_arxiv_2505_23828_ins_arxiv_ins_https_arxiv_org_abs_2505_23828_spa_vlm_stealthy_poisoning_attacks__763bb0a8.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a stealthy poisoning attack on multi-modal RAG-based VLMs, injecting adversarial image-text pairs into the knowledge base to mislead generation, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Focuses on VLM/multimodal setting rather than text-only RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:26.374067+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.23828\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a stealthy poisoning attack on multi-modal RAG-based VLMs, injecting adversarial image-text pairs into the knowledge base to mislead generation, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"Focuses on VLM/multimodal setting rather than text-only RAG.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

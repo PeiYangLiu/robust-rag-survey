@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.17340v1",
+  "title": "Neuro-Symbolic Resolution of Recommendation Conflicts in Multimorbidity Clinical Guidelines",
+  "authors": "Shiyao Xie; Jian Du",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.17340v1",
+  "local_pdf": "pdfs/2026_shiyao_xie_neuro_symbolic_resolution_of_recommendation_conflicts_in_multimorbidity_clinical_guideli_a3568dbc.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses inter-document knowledge conflicts in retrieved clinical guidelines, proposing a neuro-symbolic SAT-based pipeline to detect retrieved-vs-retrieved conflicts before RAG, and provides a benchmark for guideline conflict detection.",
+  "why_not_or_caveat": "Domain-specific (clinical guidelines) and focuses on knowledge base curation rather than RAG inference robustness directly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.941335+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.17340v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"], \"paper_role\": \"method\", \"why_relevant\": \"Addresses inter-document knowledge conflicts in retrieved clinical guidelines, proposing a neuro-symbolic SAT-based pipeline to detect retrieved-vs-retrieved conflicts before RAG, and provides a benchmark for guideline conflict detection.\", \"why_not_or_caveat\": \"Domain-specific (clinical guidelines) and focuses on knowledge base curation rather than RAG inference robustness directly.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Knowledge Conflict\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

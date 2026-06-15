@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.06105v2",
+  "title": "You Don't Need Pre-built Graphs for RAG: Retrieval Augmented Generation with Adaptive Reasoning Structures",
+  "authors": "Shengyuan Chen; Chuang Zhou; Zheng Yuan; Qinggang Zhang; Zeyang Cui; Hao Chen; Yilin Xiao; Jiannong Cao; Xiao Huang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.06105v2",
+  "local_pdf": "pdfs/2025_shengyuan_chen_you_don_t_need_pre_built_graphs_for_rag_retrieval_augmented_generation_with_adaptive_rea_98db7950.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an adaptive GraphRAG with context pruning, but focuses on efficiency and multi-hop reasoning rather than robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Does not directly study unreliable evidence, attacks, calibration, or conflict; context pruning is incidental.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:33.275735+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.06105v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an adaptive GraphRAG with context pruning, but focuses on efficiency and multi-hop reasoning rather than robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Does not directly study unreliable evidence, attacks, calibration, or conflict; context pruning is incidental.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

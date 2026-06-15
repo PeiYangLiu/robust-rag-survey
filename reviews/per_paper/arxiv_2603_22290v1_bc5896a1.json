@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.22290v1",
+  "title": "Less is More: Adapting Text Embeddings for Low-Resource Languages with Small Scale Noisy Synthetic Data",
+  "authors": "Zaruhi Navasardyan; Spartak Bughdaryan; Bagrat Minasyan; Hrant Davtyan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.22290v1",
+  "local_pdf": "pdfs/2026_zaruhi_navasardyan_less_is_more_adapting_text_embeddings_for_low_resource_languages_with_small_scale_noisy_bc5896a1.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper focuses on training multilingual text embeddings for low-resource languages using noisy synthetic data; not about robustness of RAG under unreliable evidence.",
+  "why_not_or_caveat": "The 'noise' here refers to translation noise in training data, not retrieval noise or adversarial conditions in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:59.186585+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.22290v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper focuses on training multilingual text embeddings for low-resource languages using noisy synthetic data; not about robustness of RAG under unreliable evidence.\",\"why_not_or_caveat\":\"The 'noise' here refers to translation noise in training data, not retrieval noise or adversarial conditions in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

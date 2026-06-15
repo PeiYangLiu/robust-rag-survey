@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.01910v1",
+  "title": "FLANS at SemEval-2026 Task 7: RAG with Open-Sourced Smaller LLMs for Everyday Knowledge Across Diverse Languages and Cultures",
+  "authors": "Liliia Bogdanova; Shiran Sun; Lifeng Han; Natalia Amat Lefort; Flor Miriam Plaza-del-Arco",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.01910v1",
+  "local_pdf": "pdfs/2026_liliia_bogdanova_flans_at_semeval_2026_task_7_rag_with_open_sourced_smaller_llms_for_everyday_knowledge_a_2dea4a76.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "System paper applying RAG with small LLMs to a multilingual cultural QA shared task; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure application of RAG; no analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:21.083147+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.01910v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"System paper applying RAG with small LLMs to a multilingual cultural QA shared task; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure application of RAG; no analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.21567v1",
+  "title": "Beyond Heuristics: A Decision-Theoretic Framework for Agent Memory Management",
+  "authors": "Changzhi Sun; Xiangyu Chen; Jixiang Luo; Dell Zhang; Xuelong Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.21567v1",
+  "local_pdf": "pdfs/2025_changzhi_sun_beyond_heuristics_a_decision_theoretic_framework_for_agent_memory_management_ee9e83d9.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Proposes a decision-theoretic framework for LLM agent memory management with uncertainty estimation, tangentially related to deciding when to retrieve/write under uncertainty.",
+  "why_not_or_caveat": "Focuses on agent memory management rather than RAG robustness; does not address noisy/adversarial evidence, conflict, or calibration in retrieval-augmented QA.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:36.442902+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.21567v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"theory\",\"why_relevant\":\"Proposes a decision-theoretic framework for LLM agent memory management with uncertainty estimation, tangentially related to deciding when to retrieve/write under uncertainty.\",\"why_not_or_caveat\":\"Focuses on agent memory management rather than RAG robustness; does not address noisy/adversarial evidence, conflict, or calibration in retrieval-augmented QA.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

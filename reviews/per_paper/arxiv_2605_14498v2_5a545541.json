@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.14498v2",
+  "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations",
+  "authors": "Jingbo Yang; Kwei-Herng Lai; Xiaowen Wang; Shiyu Chang; Yaar Harari; Evgeniy Gabrilovich",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14498v2",
+  "local_pdf": "pdfs/2026_jingbo_yang_groupmembench_benchmarking_llm_agent_memory_in_multi_party_conversations_5a545541.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks LLM agent memory systems in multi-party conversations, including abstention and retrieval stress tests with term ambiguity.",
+  "why_not_or_caveat": "Focus is on group/multi-user conversational memory, not RAG robustness under noisy/adversarial/conflicting evidence as defined in scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:52.046719+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.14498v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"other\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Benchmarks LLM agent memory systems in multi-party conversations, including abstention and retrieval stress tests with term ambiguity.\",\n  \"why_not_or_caveat\": \"Focus is on group/multi-user conversational memory, not RAG robustness under noisy/adversarial/conflicting evidence as defined in scope.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

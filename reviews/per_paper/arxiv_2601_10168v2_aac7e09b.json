@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.10168v2",
+  "title": "RAG-3DSG: Enhancing 3D Scene Graphs with Re-Shot Guided Retrieval-Augmented Generation",
+  "authors": "Yue Chang; Rufeng Chen; Zhaofan Zhang; Yi Chen; Yifan Tian; Sihong Xie",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.10168v2",
+  "local_pdf": "pdfs/2026_yue_chang_rag_3dsg_enhancing_3d_scene_graphs_with_re_shot_guided_retrieval_augmented_generation_aac7e09b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with uncertainty estimation to 3D scene graph construction in robotics, not robust RAG for text/QA under unreliable evidence.",
+  "why_not_or_caveat": "Domain-specific application; uncertainty/RAG usage is incidental to scene graph generation and doesn't generalize to the survey's themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.892841+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.10168v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG with uncertainty estimation to 3D scene graph construction in robotics, not robust RAG for text/QA under unreliable evidence.\",\"why_not_or_caveat\":\"Domain-specific application; uncertainty/RAG usage is incidental to scene graph generation and doesn't generalize to the survey's themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

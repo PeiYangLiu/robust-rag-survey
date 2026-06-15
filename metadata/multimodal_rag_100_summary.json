@@ -1,0 +1,45 @@
+{
+  "target": 100,
+  "selected": 100,
+  "collection_dir": "pdfs/multimodal_rag_100",
+  "manifest": "metadata/multimodal_rag_100_manifest.csv",
+  "scenario_counts": {
+    "vision_multimodal": 19,
+    "graph_kg": 16,
+    "table_structured": 12,
+    "agent_memory_tool": 17,
+    "code_math_symbolic": 12,
+    "domain_biomed_legal_finance": 11,
+    "long_context_doc": 13
+  },
+  "venue_counts": {
+    "NeurIPS": 36,
+    "ICLR": 25,
+    "ICML": 14,
+    "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing": 6,
+    "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing": 3,
+    "Findings of the Association for Computational Linguistics: EMNLP 2024": 3,
+    "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations": 2,
+    "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track)": 2,
+    "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track": 2,
+    "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics": 1,
+    "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)": 1,
+    "Proceedings of the 6th Clinical Natural Language Processing Workshop": 1,
+    "Findings of the Association for Computational Linguistics: ACL 2024": 1,
+    "Proceedings of the 1st Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain, Application, Group, or Individual (CustomNLP4U)": 1,
+    "Proceedings of the 3rd Workshop on Knowledge Augmented Methods for NLP": 1,
+    "Proceedings of the 1st Workshop on Towards Knowledgeable Language Models (KnowLLM 2024)": 1
+  },
+  "year_counts": {
+    "2025": 53,
+    "2024": 36,
+    "2023": 5,
+    "2022": 4,
+    "2019": 1,
+    "2020": 1
+  },
+  "status_counts": {
+    "copied_existing": 54,
+    "downloaded": 46
+  }
+}

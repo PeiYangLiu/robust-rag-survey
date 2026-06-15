@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2411.07870v6",
+  "title": "Trustful LLMs: Customizing and Grounding Text Generation with Knowledge Bases and Dual Decoders",
+  "authors": "Xiaofeng Zhu; Jaya Krishna Mandivarapu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.07870v6",
+  "local_pdf": "pdfs/2024_xiaofeng_zhu_trustful_llms_customizing_and_grounding_text_generation_with_knowledge_bases_and_dual_de_c9296b47.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes post-processing with knowledge triplets and a dual-decoder to ground LLM outputs in RAG context, addressing hallucinations against retrieved evidence.",
+  "why_not_or_caveat": "Focuses on grounding/hallucination correction in a commercial application; does not systematically study noise, adversarial corruption, calibration, or robustness under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Grounding and hallucination mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:24.297299+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2411.07870v6\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"knowledge_conflict\", \"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes post-processing with knowledge triplets and a dual-decoder to ground LLM outputs in RAG context, addressing hallucinations against retrieved evidence.\",\n  \"why_not_or_caveat\": \"Focuses on grounding/hallucination correction in a commercial application; does not systematically study noise, adversarial corruption, calibration, or robustness under unreliable evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Grounding and hallucination mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.14417v1",
+  "title": "PortAgent: LLM-driven Vehicle Dispatching Agent for Port Terminals",
+  "authors": "Jia Hu; Junqi Li; Weimeng Lin; Peng Jia; Yuxiong Ji; Jintao Lai",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.14417v1",
+  "local_pdf": "pdfs/2025_jia_hu_portagent_llm_driven_vehicle_dispatching_agent_for_port_terminals_6a105541.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for port vehicle dispatching; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Domain application; RAG used only to retrieve examples.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:23.560688+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.14417v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for port vehicle dispatching; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Domain application; RAG used only to retrieve examples.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

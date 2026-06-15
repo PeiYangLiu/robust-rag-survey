@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2305.14888",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2305.14888)\\] Privacy Implications of Retrieval-Based Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2305.14888",
+  "local_pdf": "pdfs/na_arxiv_2305_14888_arxiv_https_arxiv_org_abs_2305_14888_privacy_implications_of_retrieval_based_lan_a0ba9bea.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies privacy leakage from kNN-LM datastores, an orthogonal reliability concern to robustness under unreliable evidence.",
+  "why_not_or_caveat": "Focuses on privacy/data extraction, not noise, conflict, adversarial poisoning of retrieval, calibration, or evidence reliability.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.490455+00:00",
+  "raw_response": "{\"key\": \"arxiv-2305.14888\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Studies privacy leakage from kNN-LM datastores, an orthogonal reliability concern to robustness under unreliable evidence.\", \"why_not_or_caveat\": \"Focuses on privacy/data extraction, not noise, conflict, adversarial poisoning of retrieval, calibration, or evidence reliability.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

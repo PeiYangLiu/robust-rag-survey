@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.15994v1",
+  "title": "Selective Memory for Artificial Intelligence: Write-Time Gating with Hierarchical Archiving",
+  "authors": "Oliver Zahn; Simran Chana",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.15994v1",
+  "local_pdf": "pdfs/2026_oliver_zahn_selective_memory_for_artificial_intelligence_write_time_gating_with_hierarchical_archivi_f510a602.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes write-time salience gating for RAG to filter noisy/distractor content, compares to Self-RAG under distractor scaling, and evaluates robustness on adversarial benchmarks.",
+  "why_not_or_caveat": "Non-peer-reviewed arXiv preprint with suspicious dating; claims (100% accuracy) should be treated cautiously.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and write-time filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:34.683351+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.15994v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes write-time salience gating for RAG to filter noisy/distractor content, compares to Self-RAG under distractor scaling, and evaluates robustness on adversarial benchmarks.\",\"why_not_or_caveat\":\"Non-peer-reviewed arXiv preprint with suspicious dating; claims (100% accuracy) should be treated cautiously.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval and write-time filtering\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

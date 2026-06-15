@@ -1,0 +1,26 @@
+{
+  "key": "acl-2025-ctrla",
+  "title": "CtrlA: Adaptive Retrieval-Augmented Generation via Inherent Control",
+  "authors": "Liu Huanshuo; Hao Zhang; Zhijiang Guo; Jing Wang; Kuicai Dong; Xiangyang Li; Yi Quan Lee; Cong Zhang; Yong Liu",
+  "year": "2025",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2025.findings-acl.652/",
+  "local_pdf": "pdfs/2025_liu_huanshuo_ctrla_adaptive_retrieval_augmented_generation_via_inherent_control_8055a9a1.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "CtrlA addresses when to retrieve in adaptive RAG via honesty steering and confidence monitoring from internal representations, directly relevant to calibration/control over retrieval triggering.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:29.977216+00:00",
+  "raw_response": "{\n  \"key\": \"acl-2025-ctrla\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"CtrlA addresses when to retrieve in adaptive RAG via honesty steering and confidence monitoring from internal representations, directly relevant to calibration/control over retrieval triggering.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

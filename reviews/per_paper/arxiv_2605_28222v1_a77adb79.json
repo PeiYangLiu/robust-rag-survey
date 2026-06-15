@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.28222v1",
+  "title": "Analyzing Quality-Latency-Resource Trade-offs in a Technical Documentation RAG Assistant Using LoRA Adaptation",
+  "authors": "Evgenii Palnikov; Elizaveta Gavrilova",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28222v1",
+  "local_pdf": "pdfs/2026_evgenii_palnikov_analyzing_quality_latency_resource_trade_offs_in_a_technical_documentation_rag_assistant_a77adb79.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies LoRA configuration trade-offs (quality/latency/resource) in a Kubernetes documentation RAG system; not about robustness, noise, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Focuses on PEFT configuration ablations, not unreliable evidence or robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:09.608998+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.28222v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies LoRA configuration trade-offs (quality/latency/resource) in a Kubernetes documentation RAG system; not about robustness, noise, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Focuses on PEFT configuration ablations, not unreliable evidence or robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

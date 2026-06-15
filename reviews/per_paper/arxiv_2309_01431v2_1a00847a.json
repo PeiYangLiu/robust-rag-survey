@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2309.01431v2",
+  "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+  "authors": "Jiawei Chen; Hongyu Lin; Xianpei Han; Le Sun",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2309.01431v2",
+  "local_pdf": "pdfs/2023_jiawei_chen_benchmarking_large_language_models_in_retrieval_augmented_generation_1a00847a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "RGB benchmark evaluates LLM RAG on noise robustness, negative rejection, information integration, and counterfactual robustness—directly aligned with the survey's themes of noisy evidence, conflict, and abstention.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.825575+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2309.01431v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"ood_uncertainty\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"RGB benchmark evaluates LLM RAG on noise robustness, negative rejection, information integration, and counterfactual robustness—directly aligned with the survey's themes of noisy evidence, conflict, and abstention.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

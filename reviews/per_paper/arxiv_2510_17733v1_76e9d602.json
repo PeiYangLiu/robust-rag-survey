@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.17733v1",
+  "title": "Train for Truth, Keep the Skills: Binary Retrieval-Augmented Reward Mitigates Hallucinations",
+  "authors": "Tong Chen; Akari Asai; Luke Zettlemoyer; Hannaneh Hajishirzi; Faeze Brahman",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.17733v1",
+  "local_pdf": "pdfs/2025_tong_chen_train_for_truth_keep_the_skills_binary_retrieval_augmented_reward_mitigates_hallucinatio_76e9d602.pdf",
+  "metadata_topics": "knowledge-conflict; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RL with binary retrieval-augmented reward to reduce hallucinations and induce calibrated abstention (IDK), directly relevant to calibration/control and abstention behavior in RAG-related factuality training.",
+  "why_not_or_caveat": "Focus is on post-training factuality rather than RAG inference robustness; retrieval is used for reward verification, not as the system's evidence pipeline.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:42.886844+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.17733v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes RL with binary retrieval-augmented reward to reduce hallucinations and induce calibrated abstention (IDK), directly relevant to calibration/control and abstention behavior in RAG-related factuality training.\",\n  \"why_not_or_caveat\": \"Focus is on post-training factuality rather than RAG inference robustness; retrieval is used for reward verification, not as the system's evidence pipeline.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

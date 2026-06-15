@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.18041",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2504.18041)\\] RAG LLMs are Not Safer: A Safety Analysis of Retrieval-Augmented Generation for Large Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.18041",
+  "local_pdf": "pdfs/na_arxiv_2504_18041_arxiv_https_arxiv_org_abs_2504_18041_rag_llms_are_not_safer_a_safety_analysis_of_7dd7d242.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes how RAG changes LLM safety profiles, showing safe models with safe documents can produce unsafe outputs, and evaluates red-teaming methods in RAG settings. Relevant to robustness/safety of RAG under realistic evidence conditions.",
+  "why_not_or_caveat": "Focuses on safety/jailbreak rather than factual robustness, noise, or conflict per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and safety of RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:35.939116+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.18041\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Analyzes how RAG changes LLM safety profiles, showing safe models with safe documents can produce unsafe outputs, and evaluates red-teaming methods in RAG settings. Relevant to robustness/safety of RAG under realistic evidence conditions.\",\"why_not_or_caveat\":\"Focuses on safety/jailbreak rather than factual robustness, noise, or conflict per se.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption and safety of RAG\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

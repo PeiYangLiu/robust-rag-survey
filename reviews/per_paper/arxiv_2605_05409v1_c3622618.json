@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05409v1",
+  "title": "Agentic Retrieval-Augmented Generation for Financial Document Question Answering",
+  "authors": "Yang Shu; Yingmin Liu; Zequn Xie",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05409v1",
+  "local_pdf": "pdfs/2026_yang_shu_agentic_retrieval_augmented_generation_for_financial_document_question_answering_c3622618.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific agentic RAG for financial QA using hard-negative contrastive retrieval and PoT reasoning; not focused on robustness, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Application-oriented paper; robustness aspects are incidental rather than core contributions.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.967692+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05409v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific agentic RAG for financial QA using hard-negative contrastive retrieval and PoT reasoning; not focused on robustness, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Application-oriented paper; robustness aspects are incidental rather than core contributions.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

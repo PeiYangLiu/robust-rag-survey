@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.18154v1",
+  "title": "Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models",
+  "authors": "Zhuoran Jin; Pengfei Cao; Hongbang Yuan; Yubo Chen; Jiexin Xu; Huaijun Li; Xiaojian Jiang; Kang Liu; Jun Zhao",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.18154v1",
+  "local_pdf": "pdfs/2024_zhuoran_jin_cutting_off_the_head_ends_the_conflict_a_mechanism_for_interpreting_and_mitigating_knowl_21ce57b9.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Interprets the mechanism of knowledge conflicts between parametric memory and external context, and proposes attention-head pruning to control whether LMs follow internal memory or retrieved context—directly relevant to the conflict and control axes of the survey.",
+  "why_not_or_caveat": "Focuses on mechanistic interpretability on a controlled factual recall task rather than full RAG pipelines.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:40.596649+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.18154v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Interprets the mechanism of knowledge conflicts between parametric memory and external context, and proposes attention-head pruning to control whether LMs follow internal memory or retrieved context—directly relevant to the conflict and control axes of the survey.\",\n  \"why_not_or_caveat\": \"Focuses on mechanistic interpretability on a controlled factual recall task rather than full RAG pipelines.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

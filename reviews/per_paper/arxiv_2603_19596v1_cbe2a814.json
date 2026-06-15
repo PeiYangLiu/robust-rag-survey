@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.19596v1",
+  "title": "CO-EVOLVE: Bidirectional Co-Evolution of Graph Structure and Semantics for Heterophilous Learning",
+  "authors": "Jinming Xing; Muhammad Shahzad",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19596v1",
+  "local_pdf": "pdfs/2026_jinming_xing_co_evolve_bidirectional_co_evolution_of_graph_structure_and_semantics_for_heterophilous_cbe2a814.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns GNN-LLM co-evolution for heterophilous graph learning, unrelated to RAG robustness.",
+  "why_not_or_caveat": "Not about retrieval-augmented generation or unreliable evidence in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:53.824976+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.19596v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns GNN-LLM co-evolution for heterophilous graph learning, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"Not about retrieval-augmented generation or unreliable evidence in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

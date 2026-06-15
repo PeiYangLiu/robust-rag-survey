@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.07995v5",
+  "title": "DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval",
+  "authors": "Duolin Sun; Meixiu Long; Dan Yang; Junjie Wang; Yecheng Luo; Yue Shen; Jian Wang; Hualei Zhou; Chunxiao Guo; Peng Wei; Jiahai Wang; Jinjie Gu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.07995v5",
+  "local_pdf": "pdfs/2025_duolin_sun_diver_a_multi_stage_approach_for_reasoning_intensive_information_retrieval_cf7eb5d5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-stage reasoning-intensive retrieval pipeline with query expansion and reranking on BRIGHT; uses hard negatives but does not specifically study robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focuses on retrieval quality for reasoning-intensive queries, not on robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.005777+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.07995v5\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a multi-stage reasoning-intensive retrieval pipeline with query expansion and reranking on BRIGHT; uses hard negatives but does not specifically study robustness, noise, conflict, or calibration.\",\n  \"why_not_or_caveat\": \"Focuses on retrieval quality for reasoning-intensive queries, not on robustness under unreliable evidence.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

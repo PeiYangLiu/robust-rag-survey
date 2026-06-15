@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.05278v2",
+  "title": "Micro-Act: Mitigating Knowledge Conflict in LLM-based RAG via Actionable Self-Reasoning",
+  "authors": "Nan Huo; Jinyang Li; Bowen Qin; Ge Qu; Xiaolong Li; Xiaodong Li; Chenhao Ma; Reynold Cheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.05278v2",
+  "local_pdf": "pdfs/2025_nan_huo_micro_act_mitigating_knowledge_conflict_in_llm_based_rag_via_actionable_self_reasoning_ba114817.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes Micro-Act, an ICL-based method to mitigate parametric-vs-retrieved knowledge conflicts via fine-grained decomposition, evaluated across multiple conflict types and preserving performance in conflict-free cases.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict Mitigation",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:44.588104+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.05278v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes Micro-Act, an ICL-based method to mitigate parametric-vs-retrieved knowledge conflicts via fine-grained decomposition, evaluated across multiple conflict types and preserving performance in conflict-free cases.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict Mitigation\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

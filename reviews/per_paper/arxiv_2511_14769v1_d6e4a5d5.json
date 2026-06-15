@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.14769v1",
+  "title": "Cluster-based Adaptive Retrieval: Dynamic Context Selection for RAG Applications",
+  "authors": "Yifan Xu; Vipul Gupta; Rohit Aggarwal; Varsha Mahadevan; Bhaskar Krishnamachari",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.14769v1",
+  "local_pdf": "pdfs/2025_yifan_xu_cluster_based_adaptive_retrieval_dynamic_context_selection_for_rag_applications_d6e4a5d5.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive top-k retrieval based on similarity clustering, tangentially relevant to control/filtering in RAG.",
+  "why_not_or_caveat": "Focuses on efficiency and dynamic k selection, not on robustness to noise, conflict, adversaries, or calibration of trust.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adaptive retrieval control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:16.997676+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.14769v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive top-k retrieval based on similarity clustering, tangentially relevant to control/filtering in RAG.\",\"why_not_or_caveat\":\"Focuses on efficiency and dynamic k selection, not on robustness to noise, conflict, adversaries, or calibration of trust.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adaptive retrieval control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

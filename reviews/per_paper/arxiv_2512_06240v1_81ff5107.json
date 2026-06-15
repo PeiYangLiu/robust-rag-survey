@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.06240v1",
+  "title": "AI Application in Anti-Money Laundering for Sustainable and Transparent Financial Systems",
+  "authors": "Chuanhao Nie; Yunbo Liu; Chao Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.06240v1",
+  "local_pdf": "pdfs/2025_chuanhao_nie_ai_application_in_anti_money_laundering_for_sustainable_and_transparent_financial_system_81ff5107.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of graph-RAG to KYC/AML; does not study robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Domain application without analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:20.237388+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.06240v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of graph-RAG to KYC/AML; does not study robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Domain application without analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

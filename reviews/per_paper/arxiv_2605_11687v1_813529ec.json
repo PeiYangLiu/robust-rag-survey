@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.11687v1",
+  "title": "Persistent and Conversational Multi-Method Explainability for Trustworthy Financial AI",
+  "authors": "Georgios Makridis; Georgios Fatouros; John Soldatos; George Katsis; Dimosthenis Kyriazis",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.11687v1",
+  "local_pdf": "pdfs/2026_georgios_makridis_persistent_and_conversational_multi_method_explainability_for_trustworthy_financial_ai_813529ec.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for XAI artifact triangulation with faithfulness checks, but focuses on financial XAI rather than robust RAG under unreliable evidence.",
+  "why_not_or_caveat": "Application paper; faithfulness evaluation is narrow to XAI summaries, not the survey's core topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:44.781913+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.11687v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for XAI artifact triangulation with faithfulness checks, but focuses on financial XAI rather than robust RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Application paper; faithfulness evaluation is narrow to XAI summaries, not the survey's core topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

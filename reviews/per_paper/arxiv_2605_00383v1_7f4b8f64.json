@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.00383v1",
+  "title": "Agentic AI for Substance Use Education: Integrating Regulatory and Scientific Knowledge Sources",
+  "authors": "Kosar Haghani; Zahra Kolagar; Mohammed Atiquzzaman",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00383v1",
+  "local_pdf": "pdfs/2026_kosar_haghani_agentic_ai_for_substance_use_education_integrating_regulatory_and_scientific_knowledge_s_7f4b8f64.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for substance use education; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure domain application with expert Likert evaluation, no robustness/uncertainty contribution.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:55.670318+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.00383v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for substance use education; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure domain application with expert Likert evaluation, no robustness/uncertainty contribution.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

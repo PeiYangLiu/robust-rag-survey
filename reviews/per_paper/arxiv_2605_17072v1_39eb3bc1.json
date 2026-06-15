@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.17072v1",
+  "title": "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
+  "authors": "Chengrui Han; Zesheng Cheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17072v1",
+  "local_pdf": "pdfs/2026_chengrui_han_raga_reading_and_graph_building_agent_for_autonomous_knowledge_graph_construction_and_re_39eb3bc1.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an agent framework for KG construction with evidence anchoring and hybrid retrieval; not focused on robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focus is on autonomous KG construction methodology, not robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.716961+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.17072v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an agent framework for KG construction with evidence anchoring and hybrid retrieval; not focused on robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Focus is on autonomous KG construction methodology, not robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

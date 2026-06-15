@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.04651v2",
+  "title": "Adversarial Yet Cooperative: Multi-Perspective Reasoning in Retrieved-Augmented Language Models",
+  "authors": "Can Xu; Lingyong Yan; Jiayi Wu; Haosen Wang; Shuaiqiang Wang; Yuchen Li; Jizhou Huang; Dawei Yin; Xiang Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.04651v2",
+  "local_pdf": "pdfs/2026_can_xu_adversarial_yet_cooperative_multi_perspective_reasoning_in_retrieved_augmented_language_b3756660.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a reasoner-verifier multi-agent RAG framework with uncertainty/entropy-based process rewards to handle partial, conflicting, or misleading retrieved documents, relevant to calibration/control and conflict handling.",
+  "why_not_or_caveat": "Primary focus is RL reward design for agentic RAG rather than systematic robustness study; robustness to unreliable evidence is motivational rather than the main contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:37.002480+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.04651v2\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"knowledge_conflict\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a reasoner-verifier multi-agent RAG framework with uncertainty/entropy-based process rewards to handle partial, conflicting, or misleading retrieved documents, relevant to calibration/control and conflict handling.\", \"why_not_or_caveat\": \"Primary focus is RL reward design for agentic RAG rather than systematic robustness study; robustness to unreliable evidence is motivational rather than the main contribution.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

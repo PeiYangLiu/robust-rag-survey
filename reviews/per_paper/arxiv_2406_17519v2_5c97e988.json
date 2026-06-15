@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2406.17519v2",
+  "title": "Entropy-Based Decoding for Retrieval-Augmented Large Language Models",
+  "authors": "Zexuan Qiu; Zijing Ou; Bin Wu; Jingjing Li; Aiwei Liu; Irwin King",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.17519v2",
+  "local_pdf": "pdfs/2024_zexuan_qiu_entropy_based_decoding_for_retrieval_augmented_large_language_models_5c97e988.pdf",
+  "metadata_topics": "noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an entropy-based decoding method to mitigate distraction from noisy retrieved documents and conflicts with parametric knowledge in RAG, directly addressing robustness under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Decoding-based Mitigation",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:03.386805+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2406.17519v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"knowledge_conflict\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an entropy-based decoding method to mitigate distraction from noisy retrieved documents and conflicts with parametric knowledge in RAG, directly addressing robustness under unreliable evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and Decoding-based Mitigation\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

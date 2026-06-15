@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.09028v2",
+  "title": "OpenDecoder: Open Large Language Model Decoding to Incorporate Document Quality in RAG",
+  "authors": "Fengran Mo; Zhan Su; Yuchen Hui; Jinghan Zhang; Jia Ao Sun; Zheyuan Liu; Chao Zhang; Tetsuya Sakai; Jian-Yun Nie",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.09028v2",
+  "local_pdf": "pdfs/2026_fengran_mo_opendecoder_open_large_language_model_decoding_to_incorporate_document_quality_in_rag_bd22bc5c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a decoding method that integrates explicit document relevance/QPP signals to make RAG robust to noisy retrieved contexts, directly addressing noisy retrieval and control over evidence trust.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / control",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:58.978797+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.09028v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a decoding method that integrates explicit document relevance/QPP signals to make RAG robust to noisy retrieved contexts, directly addressing noisy retrieval and control over evidence trust.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval / control\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

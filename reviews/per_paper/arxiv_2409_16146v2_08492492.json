@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2409.16146v2",
+  "title": "Controlling Risk of Retrieval-augmented Generation: A Counterfactual Prompting Framework",
+  "authors": "Lu Chen; Ruqing Zhang; Jiafeng Guo; Yixing Fan; Xueqi Cheng",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.16146v2",
+  "local_pdf": "pdfs/2024_lu_chen_controlling_risk_of_retrieval_augmented_generation_a_counterfactual_prompting_framework_08492492.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a counterfactual prompting framework for risk control in RAG, enabling abstention based on retrieval quality and usage, with new risk-related metrics and benchmark.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and control: abstention in RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:40.290208+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.16146v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a counterfactual prompting framework for risk control in RAG, enabling abstention based on retrieval quality and usage, with new risk-related metrics and benchmark.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Calibration and control: abstention in RAG\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

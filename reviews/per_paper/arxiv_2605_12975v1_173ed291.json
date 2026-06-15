@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.12975v1",
+  "title": "Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation",
+  "authors": "Jiashuo Sun; Jimeng Shi; Yixuan Xie; Saizhuo Wang; Jash Rajesh Parekh; Pengcheng Jiang; Zhiyi Shi; Jiajun Fan; Qinglong Zheng; Peiran Li; Shaowen Wang; Ge Liu; Jiawei Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.12975v1",
+  "local_pdf": "pdfs/2026_jiashuo_sun_retrieval_is_cheap_show_me_the_code_executable_multi_hop_reasoning_for_retrieval_augment_173ed291.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes executable program-based multi-hop RAG to reduce entity drift and reasoning errors, tangentially related to retrieval reliability.",
+  "why_not_or_caveat": "Focus is on multi-hop reasoning structure rather than robustness to noise, conflict, adversarial evidence, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:23.979330+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.12975v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes executable program-based multi-hop RAG to reduce entity drift and reasoning errors, tangentially related to retrieval reliability.\",\"why_not_or_caveat\":\"Focus is on multi-hop reasoning structure rather than robustness to noise, conflict, adversarial evidence, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

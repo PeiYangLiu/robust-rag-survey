@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.27706v1",
+  "title": "Chain-based Adaptive Reconfiguration Over Lattices for Hallucination Reduction",
+  "authors": "Joan Vendrell Gallart; Solmaz Kia; Russell Bent; Michael Grosskopf",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27706v1",
+  "local_pdf": "pdfs/2026_joan_vendrell_gallart_chain_based_adaptive_reconfiguration_over_lattices_for_hallucination_reduction_99436fa8.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a test-time hallucination detection and mitigation framework grounded in trusted context, compared to RAG baselines, addressing semantic uncertainty and reliability.",
+  "why_not_or_caveat": "Not directly focused on RAG robustness under noisy/adversarial retrieval; uses trusted axioms rather than retrieved evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty",
+  "confidence": 0.5,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:17.042815+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.27706v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a test-time hallucination detection and mitigation framework grounded in trusted context, compared to RAG baselines, addressing semantic uncertainty and reliability.\", \"why_not_or_caveat\": \"Not directly focused on RAG robustness under noisy/adversarial retrieval; uses trusted axioms rather than retrieved evidence.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Uncertainty\", \"confidence\": 0.5}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.21157",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2503.21157)\\] Real-Time Evaluation Models for RAG: Who Detects Hallucinations Best?",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.21157",
+  "local_pdf": "pdfs/na_arxiv_2503_21157_arxiv_https_arxiv_org_abs_2503_21157_real_time_evaluation_models_for_rag_who_det_36f43a34.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks reference-free real-time hallucination/confidence evaluation models for RAG (LLM-as-Judge, HHEM, Prometheus, Lynx, TLM), directly relevant to calibration, trust scoring, and abstention in RAG.",
+  "why_not_or_caveat": "Short technical report rather than rigorous research paper; limited novelty.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and hallucination detection for RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:33.460018+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.21157\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Benchmarks reference-free real-time hallucination/confidence evaluation models for RAG (LLM-as-Judge, HHEM, Prometheus, Lynx, TLM), directly relevant to calibration, trust scoring, and abstention in RAG.\",\n  \"why_not_or_caveat\": \"Short technical report rather than rigorous research paper; limited novelty.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and hallucination detection for RAG\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.08600v1",
+  "title": "Retrieval-Augmented Generation of Pediatric Speech-Language Pathology vignettes: A Proof-of-Concept Study",
+  "authors": "Yilan Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.08600v1",
+  "local_pdf": "pdfs/2025_yilan_liu_retrieval_augmented_generation_of_pediatric_speech_language_pathology_vignettes_a_proof_2e17a4fc.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to generate pediatric SLP vignettes; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure domain application without analysis of unreliable evidence concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.083944+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.08600v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to generate pediatric SLP vignettes; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure domain application without analysis of unreliable evidence concerns.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

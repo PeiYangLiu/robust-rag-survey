@@ -1,0 +1,406 @@
+{
+  "snapshot_date": "2026-06-03",
+  "sources": [
+    "arXiv API",
+    "ACL Anthology",
+    "OpenReview",
+    "USENIX Security",
+    "AAAI/ACM open landing pages",
+    "curated robust/trustworthy RAG lists"
+  ],
+  "arxiv_queries": [
+    {
+      "query": "all:\"retrieval augmented generation\"",
+      "max_results": 320
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\"",
+      "max_results": 320
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"large language model\"",
+      "max_results": 220
+    },
+    {
+      "query": "all:\"retrieval-augmented\" AND all:\"large language models\"",
+      "max_results": 220
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:robustness",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:noisy",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:irrelevant",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:distractor",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"knowledge conflict\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"parametric knowledge\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:adversarial",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:poisoning",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"prompt injection\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:uncertainty",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:calibration",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:abstain",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"adaptive retrieval\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:faithfulness",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:hallucination",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:trustworthy",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:security",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:privacy",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"open-domain question answering\" AND all:\"retrieval augmented\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"noise robustness\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"noisy context\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"irrelevant context\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"hard negative\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"context conflict\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"knowledge corruption\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"data poisoning\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"indirect prompt\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"unanswerable\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"selective generation\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"confidence estimation\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"uncertainty quantification\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"trust calibration\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"negative rejection\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"information integration\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"counterfactual robustness\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"context faithfulness\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"groundedness\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"citation\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"self correction\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"verification\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"fact checking\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"open-domain question answering\"",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"retrieval augmented language models\" AND all:robustness",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"retrieval augmented language models\" AND all:faithfulness",
+      "max_results": 140
+    },
+    {
+      "query": "all:\"retrieval augmented language models\" AND all:adversarial",
+      "max_results": 140
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"knowledge conflict\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"calibration\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"abstention\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"uncertainty\"",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"poisoning\"",
+      "max_results": 140
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"prompt injection\"",
+      "max_results": 140
+    }
+  ],
+  "manual_open_sources": [
+    "ACL Anthology",
+    "USENIX Security",
+    "OpenReview",
+    "curated robust/trustworthy RAG repositories"
+  ],
+  "deduplication_rule": "Normalize title by lowercasing and stripping non-alphanumeric characters; merge arXiv/proceedings duplicates; retain the most complete metadata record with accessible PDF.",
+  "inclusion_criteria": [
+    "RAG or retrieval-augmented LLM system is central",
+    "Studies robustness/reliability/faithfulness/calibration/security/evaluation under unreliable evidence",
+    "Introduces robustness-specific benchmark, method, attack, defense, or analysis",
+    "Open full text available for verification"
+  ],
+  "exclusion_criteria": [
+    "Application-only RAG without evidence-reliability analysis",
+    "No accessible full text",
+    "Duplicate preprint/proceedings record",
+    "Not about retrieval-augmented LLM systems",
+    "General LLM robustness without retrieval/evidence component"
+  ],
+  "screening_levels": [
+    "retrieved_records",
+    "open_full_text",
+    "deduplicated_candidates",
+    "included_relevant",
+    "core_pool",
+    "core_reading_set",
+    "survey_set",
+    "literature_map"
+  ],
+  "source_counts_file": "source_counts.csv",
+  "codebook_file": "taxonomy_codebook.csv",
+  "exclusion_log_file": "exclusion_log.csv",
+  "evidence_map_file": "evidence_map.csv",
+  "venue_balanced_pass": {
+    "date": "2026-06-03",
+    "venues": [
+      "ACL",
+      "EMNLP",
+      "NAACL",
+      "COLING",
+      "SIGIR",
+      "WWW",
+      "WSDM",
+      "KDD",
+      "USENIX Security",
+      "CCS",
+      "NDSS",
+      "ICLR",
+      "NeurIPS"
+    ],
+    "query_template": "title/abstract contains RAG terms and robustness terms for ACL Anthology; DBLP/OpenAlex metadata queries use the robust-RAG query list in venue_systematic_queries.csv",
+    "purpose": "Run a reproducible venue-oriented metadata pass, identify venue-linked robust-RAG candidates, and surface source skew in the evidence map. This pass is not claimed to be a manual full-proceedings review.",
+    "metadata_search_summary": {
+      "acl_anthology_entries_scanned_2020_2026": 12924,
+      "acl_anthology_rag_candidates": 181,
+      "acl_anthology_robust_rag_candidates": 30,
+      "total_unique_venue_linked_candidate_titles": 51,
+      "venue_candidates_already_in_survey300": 14,
+      "venue_candidates_already_in_evidence_map": 13,
+      "venue_candidates_originally_outside_survey300": 37,
+      "venue_candidates_triaged": 51,
+      "new_evidence_extension_rows": 24,
+      "new_survey_extension_rows": 26,
+      "venue_audited_survey_set_size": 326,
+      "venue_audited_evidence_map_size": 274
+    },
+    "output_files": [
+      "venue_balanced_pass.csv",
+      "venue_systematic_queries.csv",
+      "venue_systematic_candidates.csv",
+      "venue_systematic_summary.json",
+      "venue_coverage_audit.csv",
+      "venue_coverage_audit_summary.json",
+      "venue_triage_decisions.csv",
+      "venue_triage_summary.json",
+      "venue_audited_extension.csv",
+      "survey_set_venue_audited.csv",
+      "evidence_map_venue_extension.csv",
+      "evidence_map_venue_audited.csv",
+      "source_counts_evidence_map_venue_audited.csv",
+      "source_counts_evidence_map.csv",
+      "source_counts_survey300.csv",
+      "source_counts_core100.csv"
+    ]
+  },
+  "human_human_double_coding": {
+    "round": "round2",
+    "date_received": "2026-06-04",
+    "records_double_coded": 274,
+    "package": "manuscript/human_coding/human_round2_evidence274_results",
+    "source_files": [
+      "source_01_annotations.csv",
+      "source_02_annotations.csv"
+    ],
+    "output_files": [
+      "human_human_iaa_summary_round2.json",
+      "human_human_iaa_report_round2.csv",
+      "adjudication_template_evidence274_round2.csv",
+      "disagreements_*.csv"
+    ],
+    "pre_adjudication_key_metrics": {
+      "screen_in_scope_kappa": 0.921,
+      "primary_failure_type_kappa": 0.961,
+      "method_family_kappa": 0.862,
+      "intervention_point_kappa": 0.921,
+      "evaluation_type_kappa": 0.929,
+      "evidence_strength_kappa": 0.948,
+      "relevance_level_weighted_kappa": 0.802,
+      "is_core_candidate_kappa": 0.803,
+      "include_in_evidence_map_kappa": 0.853,
+      "secondary_failure_types_mean_jaccard": 0.832
+    },
+    "adjudication_status": "final adjudication applied; final evidence map has 268 included records"
+  },
+  "final_adjudication": {
+    "date_received": "2026-06-04",
+    "adjudication_file": "manuscript/human_coding/blind_round2_adjudication_review/annotation_set_A.csv",
+    "source_round": "round2 human-human coding",
+    "candidate_records": 274,
+    "final_evidence_map_records": 268,
+    "decisions_applied": 469,
+    "blank_final_labels_allowed_for": {
+      "secondary_failure_types": 5,
+      "exclusion_reason": 2
+    },
+    "output_files": [
+      "human_coding/human_round2_evidence274_results/adjudicated_evidence274_round2_final_full.csv",
+      "human_coding/human_round2_evidence274_results/evidence_map_round2_adjudicated.csv",
+      "supplement/evidence_map_adjudicated.csv"
+    ]
+  },
+  "final_corpus_ledger": "corpus_ledger_final.csv",
+  "validation_pilots": {
+    "action_trace_pilot": {
+      "items": "action_trace_pilot_items.csv",
+      "predictions": "action_trace_pilot_predictions.csv",
+      "summary": "action_trace_pilot_summary.csv",
+      "n_items": 12,
+      "purpose": "illustrative feasibility pilot for answer/action/joint scoring; not a benchmark leaderboard"
+    },
+    "comparability_decision_pilot": {
+      "pairs": "comparability_decision_pilot.csv",
+      "summary": "comparability_decision_pilot_summary.json",
+      "n_pairs": 75,
+      "agreement": 0.9733333333333334,
+      "kappa": 0.9411764705882354,
+      "purpose": "tests whether the decision procedure yields stable comparable/not-comparable judgments from independent human-coded fields"
+    }
+  },
+  "comparability_user_study_package": {
+    "path": "manuscript/human_coding/comparability_user_study_package",
+    "n_pairs": 12,
+    "n_annotators": 30,
+    "n_judgments": 360,
+    "conditions": {
+      "control": 15,
+      "protocol": 15
+    },
+    "reference": "independently adjudicated external_gold_verdict",
+    "status": "completed anonymized blind external expert-use study package used for Table expert-validation-pilot",
+    "key_files": [
+      "expert_responses_minimal.csv",
+      "expert_responses_full.csv",
+      "participant_assignment_log.csv",
+      "external_gold_panel.csv",
+      "external_gold_votes.csv",
+      "paper_pairs_with_external_gold.csv",
+      "external_gold_analysis/condition_summary.csv",
+      "analyze_blind_batch.py",
+      "manifest.json"
+    ]
+  }
+}

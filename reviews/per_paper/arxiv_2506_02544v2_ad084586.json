@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.02544v2",
+  "title": "CoRe-MMRAG: Cross-Source Knowledge Reconciliation for Multimodal RAG",
+  "authors": "Yang Tian; Fan Liu; Jingyuan Zhang; Victoria W.; Yupeng Hu; Liqiang Nie",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.02544v2",
+  "local_pdf": "pdfs/2025_yang_tian_core_mmrag_cross_source_knowledge_reconciliation_for_multimodal_rag_ad084586.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses parametric-vs-retrieved knowledge conflict and visual-textual conflict in multimodal RAG, proposing a reconciliation framework to decide which source to trust.",
+  "why_not_or_caveat": "Focused on multimodal KB-VQA; not a general robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:53.089260+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.02544v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses parametric-vs-retrieved knowledge conflict and visual-textual conflict in multimodal RAG, proposing a reconciliation framework to decide which source to trust.\",\n  \"why_not_or_caveat\": \"Focused on multimodal KB-VQA; not a general robustness study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

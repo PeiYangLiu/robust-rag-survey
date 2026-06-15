@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.06956",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2507.06956)\\] Investigating the Robustness of Retrieval-Augmented Generation at the Query Level",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.06956",
+  "local_pdf": "pdfs/na_arxiv_2507_06956_arxiv_https_arxiv_org_abs_2507_06956_investigating_the_robustness_of_retrieval_a_a70e66de.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematically evaluates RAG pipeline robustness under query-level perturbations (typos, redundancy, formality, ambiguity) across retrievers and LLMs, contributing an evaluation framework relevant to robustness/benchmarking.",
+  "why_not_or_caveat": "Focuses on query perturbations rather than evidence corruption or conflict; tangential to adversarial/conflict aspects.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:32.570483+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.06956\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Systematically evaluates RAG pipeline robustness under query-level perturbations (typos, redundancy, formality, ambiguity) across retrievers and LLMs, contributing an evaluation framework relevant to robustness/benchmarking.\",\n  \"why_not_or_caveat\": \"Focuses on query perturbations rather than evidence corruption or conflict; tangential to adversarial/conflict aspects.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

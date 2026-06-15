@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.25162v1",
+  "title": "STREAM: A Data-Centric Framework for Mining High-Value Task-Oriented Dialogues from Streaming Media",
+  "authors": "Liang Xue; Haoyu Liu; Cheng Wang; Pengyu Chen; Haozhuo Zheng; Yang Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.25162v1",
+  "local_pdf": "pdfs/2026_liang_xue_stream_a_data_centric_framework_for_mining_high_value_task_oriented_dialogues_from_strea_1f690187.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper synthesizes task-oriented dialogue datasets from streaming media; uses RAG only as a generation aid, not studying robustness.",
+  "why_not_or_caveat": "No focus on retrieval robustness, conflict, attacks, calibration, or unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.417630+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.25162v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper synthesizes task-oriented dialogue datasets from streaming media; uses RAG only as a generation aid, not studying robustness.\",\"why_not_or_caveat\":\"No focus on retrieval robustness, conflict, attacks, calibration, or unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

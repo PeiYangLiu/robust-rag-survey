@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.17960v1",
+  "title": "From Detection to Response: A Deep Learning and Retrieval-Augmented Generation Framework for Network Intrusion Mitigation",
+  "authors": "Md Navid Bin Islam; Sajal Saha; Senior Member",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17960v1",
+  "local_pdf": "pdfs/2026_md_navid_bin_islam_from_detection_to_response_a_deep_learning_and_retrieval_augmented_generation_framework_a72873f7.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to intrusion detection mitigation reports; does not study robustness, conflict, calibration, or adversarial issues in RAG itself.",
+  "why_not_or_caveat": "Pure application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:31.522126+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.17960v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to intrusion detection mitigation reports; does not study robustness, conflict, calibration, or adversarial issues in RAG itself.\",\"why_not_or_caveat\":\"Pure application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

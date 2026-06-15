@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.03292v2",
+  "title": "From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG",
+  "authors": "Wenhao Wu; Zhentao Tang; Yafu Li; Shixiong Kai; Mingxuan Yuan; Chunlin Chen; Zhi Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.03292v2",
+  "local_pdf": "pdfs/2026_wenhao_wu_from_conflict_to_consensus_boosting_medical_reasoning_via_multi_round_agentic_rag_bfadae70.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive multi-round RAG that uses semantic conflict among candidate answers as a signal to trigger retrieval, addressing noisy token-level uncertainty and long-context degradation. Relevant to adaptive retrieval control and conflict-based refinement.",
+  "why_not_or_caveat": "Domain-specific (medical QA); robustness framing is secondary to test-time scaling for reasoning.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control: when to retrieve",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:33.471181+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.03292v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"knowledge_conflict\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive multi-round RAG that uses semantic conflict among candidate answers as a signal to trigger retrieval, addressing noisy token-level uncertainty and long-context degradation. Relevant to adaptive retrieval control and conflict-based refinement.\",\"why_not_or_caveat\":\"Domain-specific (medical QA); robustness framing is secondary to test-time scaling for reasoning.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and control: when to retrieve\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

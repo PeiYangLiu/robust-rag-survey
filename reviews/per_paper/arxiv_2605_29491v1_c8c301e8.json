@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.29491v1",
+  "title": "The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF",
+  "authors": "Zeli Su; Zhankai Xu; Tianlei Chen; Longfei Zheng; Xiaolu Zhang; Jun Zhou; Wentao Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.29491v1",
+  "local_pdf": "pdfs/2026_zeli_su_the_curse_of_helpfulness_inverse_scaling_law_in_robustness_to_distractor_instructions_vi_c8c301e8.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces DistractionIF benchmark measuring LLM robustness to instruction-like distractor noise in reference text for RAG/agent settings, revealing inverse scaling and proposing RL-based mitigation.",
+  "why_not_or_caveat": "Focuses on benign instruction-like distractors rather than retrieval noise per se; overlaps with indirect prompt injection territory.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.113397+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.29491v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"distraction\", \"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces DistractionIF benchmark measuring LLM robustness to instruction-like distractor noise in reference text for RAG/agent settings, revealing inverse scaling and proposing RL-based mitigation.\", \"why_not_or_caveat\": \"Focuses on benign instruction-like distractors rather than retrieval noise per se; overlaps with indirect prompt injection territory.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Distraction\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

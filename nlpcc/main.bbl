@@ -1,0 +1,430 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{selfRAG2023}
+Asai, A., Wu, Z., Wang, Y., Sil, A., Hajishirzi, H.: Self-rag: Learning to
+  retrieve, generate, and critique through self-reflection. In: ICLR (2024)
+
+\bibitem{rrag146}
+Bazarova, A., Volodichev, A., Kotova, D., Zaytsev, A.: Intrygue:
+  Induction-aware entropy gating for reliable rag uncertainty estimation (2026)
+
+\bibitem{rrag005}
+Chang, H., Bao, E., Luo, X., Yu, T.: Overcoming the retrieval barrier: Indirect
+  prompt injection in the wild for llm systems (2026)
+
+\bibitem{aip2025}
+Chaturvedi, S.S., Bagwe, G., Zhang, L., Yuan, X.: Aip: Subverting
+  retrieval-augmented generation via adversarial instructional prompt (2025)
+
+\bibitem{phantom2024}
+Chaudhari, H., Severi, G., Abascal, J., Suri, A., Jagielski, M.,
+  Choquette-Choo, C.A., Nasr, M., Nita-Rotaru, C., Oprea, A.: Phantom: General
+  backdoor attacks on retrieval augmented language generation (2024)
+
+\bibitem{rgb2023}
+Chen, J., Lin, H., Han, X., Sun, L.: Benchmarking large language models in
+  retrieval-augmented generation. In: AAAI (2024)
+
+\bibitem{rrag023}
+Chen, L., Yang, X., Lu, Y., Zhang, J., Sun, X., Liu, Q., Wu, S., Dong, J.,
+  Wang, L.: Poisonarena: Uncovering competing poisoning attacks in
+  retrieval-augmented generation (2025)
+
+\bibitem{rrag041}
+Chen, L., Zhang, R., Guo, J., Fan, Y., Cheng, X.: Controlling risk of
+  retrieval-augmented generation: A counterfactual prompting framework. In:
+  Findings of the Association for Computational Linguistics: EMNLP 2024 (2024)
+
+\bibitem{rrag153}
+Chen, W., Qi, G., Li, W., Li, Y., Xia, D., Huang, J.: Decide then retrieve: A
+  training-free framework with uncertainty-guided triggering and dual-path
+  retrieval (2026)
+
+\bibitem{rrag053}
+Chen, Z., Xiang, Z., Xiao, C., Song, D., Li, B.: Agentpoison: Red-teaming llm
+  agents via poisoning memory or knowledge bases. In: Advances in Neural
+  Information Processing Systems (2024)
+
+\bibitem{trojanRAG2024}
+Cheng, P., Ding, Y., Ju, T., Wu, Z., Du, W., Yi, P., Zhang, Z., Liu, G.:
+  Trojanrag: Retrieval-augmented generation can be backdoor driver in large
+  language models (2024)
+
+\bibitem{rrag016}
+Cheng, Z., Sun, J., Gao, A., Quan, Y., Liu, Z., Hu, X., Fang, M.: Secure
+  retrieval-augmented generation against poisoning attacks (2025)
+
+\bibitem{rrag086}
+Choi, E., Park, J., Lee, H., Lee, J.: Conflict-aware soft prompting for
+  retrieval-augmented generation (2025)
+
+\bibitem{rrag015}
+Choudhary, S., Palumbo, N., Hooda, A., Dvijotham, K.D., Jha, S.: Through the
+  stealth lens: Attention-aware defenses against poisoning in rag (2025)
+
+\bibitem{rrag073}
+Dai, L., Sun, L., Cao, F., Rao, Z., Yang, C., Liu, H., Xiong, H.: Llm-oriented
+  information retrieval: A denoising-first perspective (2026)
+
+\bibitem{rrag011}
+Dekel, S., Tennenholtz, M., Kurland, O.: Addressing corpus knowledge poisoning
+  attacks on rag using sparse attention (2026)
+
+\bibitem{rrag091}
+Ding, H., Tao, S., Pang, L., Wei, Z., Chen, L., Xu, K., Shen, H., Cheng, X.:
+  Revisiting robust rag: Do we still need complex robust training in the era of
+  powerful llms? (2025)
+
+\bibitem{ragas2024}
+Es, S., James, J., Espinosa~Anke, L., Schockaert, S.: {RAGA}s: Automated
+  evaluation of retrieval augmented generation. In: Proceedings of the 18th
+  Conference of the European Chapter of the Association for Computational
+  Linguistics: System Demonstrations. pp. 150--158 (2024).
+  \doi{10.18653/v1/2024.eacl-demo.16}
+
+\bibitem{raat2024}
+Fang, F., Bai, Y., Ni, S., Yang, M., Chen, X., Xu, R.: Enhancing noise
+  robustness of retrieval-augmented language models with adaptive adversarial
+  training. In: ACL (2024)
+
+\bibitem{rrag003}
+Gao, M., Chen, Z.C., Huang, K.H.: The first drop of ink: Nonlinear impact of
+  misleading information in long-context reasoning (2026)
+
+\bibitem{ragSurvey2024}
+Gao, Y., Xiong, Y., Gao, X., Jia, K., Pan, J., Bi, Y., Dai, Y., Sun, J., Wang,
+  M., Wang, H.: Retrieval-augmented generation for large language models: A
+  survey (2024)
+
+\bibitem{rrag049}
+Geng, R., Wang, Y., Chen, Y., Jia, J.: Unic-rag: Universal knowledge corruption
+  attacks to retrieval-augmented generation (2025)
+
+\bibitem{rrag032}
+Hagström, L., Kim, Y., Yu, H., goo Lee, S., Johansson, R., Cho, H.,
+  Augenstein, I.: Cub: Benchmarking context utilisation techniques for language
+  models (2025)
+
+\bibitem{rrag043}
+Hong, G., Kim, J., Kang, J., Myaeng, S.H., Whang, J.J.: Why so gullible?
+  enhancing the robustness of retrieval-augmented models against counterfactual
+  noise (2023)
+
+\bibitem{rrag024}
+Huang, P., Liu, Z., Yan, Y., Zhao, H., Yi, X., Chen, H., Liu, Z., Sun, M.,
+  Xiao, T., Yu, G., Xiong, C.: Parammute: Suppressing knowledge-critical ffns
+  for faithful retrieval-augmented generation. In: Advances in Neural
+  Information Processing Systems (2025)
+
+\bibitem{calibRAG2025}
+Jang, C., Cho, D., Lee, S., Lee, H., Lee, J.: Reliable decision-making via
+  calibration-oriented retrieval-augmented generation. In: Advances in Neural
+  Information Processing Systems (2025)
+
+\bibitem{flare2023active}
+Jiang, Z., Xu, F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan,
+  J., Neubig, G.: Active retrieval augmented generation. In: Proceedings of the
+  2023 Conference on Empirical Methods in Natural Language Processing. pp.
+  7969--7992 (2023). \doi{10.18653/v1/2023.emnlp-main.495}
+
+\bibitem{rrag039}
+Jin, B., Yoon, J., Han, J., Arik, S.O.: Long-context llms meet rag: Overcoming
+  challenges for long inputs in rag (2024)
+
+\bibitem{rrag009}
+Jin, W., Wang, X., Zou, W., Jia, J., Gong, N.: Cleanbase: Detecting malicious
+  documents in rag knowledge databases (2026)
+
+\bibitem{tugOfWar2024}
+Jin, Z., Cao, P., Chen, Y., Liu, K., Jiang, X., Xu, J., Li, Q., Zhao, J.:
+  Tug-of-war between knowledge: Exploring and resolving knowledge conflicts in
+  retrieval-augmented language models (2024)
+
+\bibitem{sufficientContext2024}
+Joren, H., Zhang, J., Ferng, C.S., Juan, D.C., Taly, A., Rashtchian, C.:
+  Sufficient context: A new lens on retrieval augmented generation systems. In:
+  International Conference on Learning Representations (2025)
+
+\bibitem{rrag020}
+Kim, M., Lee, H., Koo, H.: Rescuing the unpoisoned: Efficient defense against
+  knowledge corruption attacks on rag systems (2025)
+
+\bibitem{rrag112}
+Kortukov, E., Rubinstein, A., Nguyen, E., Oh, S.J.: Studying large language
+  model behaviors under context-memory conflicts with real documents (2024)
+
+\bibitem{whenToRetrieve2024}
+Labruna, T., Campos, J.A., Azkune, G.: When to retrieve: Teaching llms to
+  utilize information retrieval effectively (2024)
+
+\bibitem{rrag029}
+Lee, J., Lee, K., Kim, T.: Magic: A multi-hop and graph-based benchmark for
+  inter-context conflicts in retrieval-augmented generation (2025)
+
+\bibitem{lewis2020rag}
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N.,
+  K{\"u}ttler, H., Lewis, M., Yih, W.t., Rockt{\"a}schel, T., Riedel, S.,
+  Kiela, D.: Retrieval-augmented generation for knowledge-intensive nlp tasks.
+  In: NeurIPS (2020)
+
+\bibitem{uncertaintyRAG2024}
+Li, Z., Xiong, J., Ye, F., Zheng, C., Lu, J., Wan, Z., Wu, X., Liang, X., Li,
+  C., Sun, Z., Kong, L., Wong, N.: Uncertaintyrag: Span-level uncertainty
+  enhanced long-context retrieval-augmented generation (2024)
+
+\bibitem{rrag019}
+Liang, X., Niu, S., Li, Z., Zhang, S., Wang, H., Xiong, F., Fan, J.Z., Tang,
+  B., Song, S., Wang, M., Yang, J.: Saferag: Benchmarking security in
+  retrieval-augmented generation of large language model (2025)
+
+\bibitem{rrag082}
+Lin, C., Wen, Y., Su, D., Tan, H., Sun, F., Chen, M., Bao, C., Lyu, Z.:
+  Resisting contextual interference in rag via parametric-knowledge
+  reinforcement (2025)
+
+\bibitem{rrag193}
+Liu, G.K.M., Li, B., Cohan, A., Walden, W.G., Yang, E.: Investigating
+  retrieval-augmented generation systems on unanswerable, uncheatable,
+  realistic, multi-hop queries (2025)
+
+\bibitem{ctrla2025}
+Liu, H., Zhang, H., Guo, Z., Wang, J., Dong, K., Li, X., Lee, Y.Q., Zhang, C.,
+  Liu, Y.: Ctrla: Adaptive retrieval-augmented generation via inherent control.
+  In: Findings of ACL (2025)
+
+\bibitem{rrag007}
+Liu, J., Wang, R., Zong, Q., Wang, Y., Qian, C., Zeng, Q., Zheng, T., Shi, H.,
+  Guo, D., Xu, B., Li, C., Song, Y.: Naacl: Noise-aware verbal confidence
+  calibration for robust llms in rag systems (2026)
+
+\bibitem{rrag008}
+Ma, X., Zhang, R., Nie, Z.: Corect: Context-aware logit contrast for hidden
+  state rectification to resolve knowledge conflicts (2026)
+
+\bibitem{rrag034}
+Moskvoretskii, V., Lysyuk, M., Salnikov, M., Ivanov, N., Pletenev, S.,
+  Galimzianova, D., Krayko, N., Konovalov, V., Nikishina, I., Panchenko, A.:
+  Adaptive retrieval without self-knowledge? bringing uncertainty back home
+  (2025)
+
+\bibitem{rrag001}
+Nguyen, V., Dang, C., Zhang, J., Tran, H., Tran, M., Chau, T., Le, T., Cheng,
+  L., Wang, S.: Urag: A benchmark for uncertainty quantification in
+  retrieval-augmented large language models (2026)
+
+\bibitem{trustworthyRAGSurvey2025}
+Ni, B., Liu, Z., Wang, L., Lei, Y., Zhao, Y., Cheng, X., Zeng, Q., Dong, L.,
+  Xia, Y., Kenthapadi, K., Rossi, R., Dernoncourt, F., Tanjim, M.M., Ahmed, N.,
+  Liu, X., Fan, W., Blasch, E., Wang, Y., Jiang, M., Derr, T.: Towards
+  trustworthy retrieval augmented generation for large language models: A
+  survey (2025)
+
+\bibitem{ragTruth2024}
+Niu, C., Wu, Y., Zhu, J., Xu, S., Shum, K., Zhong, R., Song, J., Zhang, T.:
+  Ragtruth: A hallucination corpus for developing trustworthy
+  retrieval-augmented language models. In: Proceedings of the 62nd Annual
+  Meeting of the Association for Computational Linguistics (Volume 1: Long
+  Papers) (2024)
+
+\bibitem{rrag081}
+Niu, Q., Wang, Y., Ren, R., Fang, B., Zhao, W.X.: Arbgraph: Conflict-aware
+  evidence arbitration for reliable long-form retrieval-augmented generation
+  (2026)
+
+\bibitem{rrag037}
+Park, S.I., Lee, J.Y.: Toward robust ralms: Revealing the impact of imperfect
+  retrieval on retrieval-augmented language models (2024)
+
+\bibitem{rrag111}
+Peng, X., Choubey, P.K., Xiong, C., Wu, C.S.: Unanswerability evaluation for
+  retrieval augmented generation (2024)
+
+\bibitem{queryRobustness2025}
+Percin, S., Su, X., Syed, Q.S., Howard, P., Kuvshinov, A., Schwinn, L., Scholl,
+  K.U.: Investigating the robustness of retrieval-augmented generation at the
+  query level. In: GEM (2025)
+
+\bibitem{rrag110}
+Pham, Q.H., Ngo, H., Luu, A.T., Nguyen, D.Q.: Who's who: Large language models
+  meet knowledge conflicts in practice (2024)
+
+\bibitem{rrag093}
+Qiu, J., Han, Z., Huang, C.: Sure-rag: Sufficiency and uncertainty-aware
+  evidence verification for selective retrieval-augmented generation (2026)
+
+\bibitem{rrag141}
+Rosenthal, S., Katsis, Y., Shah, V., He, L., Popa, L., Danilevsky, M.:
+  Mtrag-un: A benchmark for open challenges in multi-turn rag conversations
+  (2026)
+
+\bibitem{ares2024}
+Saad-Falcon, J., Khattab, O., Potts, C., Zaharia, M.: {ARES}: An automated
+  evaluation framework for retrieval-augmented generation systems. In:
+  Proceedings of the 2024 Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies
+  (Volume 1: Long Papers). pp. 338--354 (2024).
+  \doi{10.18653/v1/2024.naacl-long.20}
+
+\bibitem{rrag132}
+Schuster, J., Gautam, V., Markert, K.: Whose facts win? llm source preferences
+  under knowledge conflicts (2026)
+
+\bibitem{ragComprehensive2025}
+Sharma, C.: Retrieval-augmented generation: A comprehensive survey of
+  architectures, enhancements, and robustness frontiers (2025)
+
+\bibitem{rrag021}
+Shen, Z., Imana, B., Wu, T., Xiang, C., Mittal, P., Korolova, A.:
+  Reliabilityrag: Effective and provably robust defense for rag-based
+  web-search. In: Advances in Neural Information Processing Systems (2025)
+
+\bibitem{rrag077}
+Shin, S., Cha, M., Lee, B.J., Park, S.: Era: Evidence-based reliability
+  alignment for honest retrieval-augmented generation (2026)
+
+\bibitem{rrag017}
+Si, X., Zhu, M., Qin, S., Yu, L., Zhang, L., Liu, S., Li, X., Duan, R., Liu,
+  Y., Jia, X.: Secon-rag: A two-stage semantic filtering and conflict-free
+  framework for trustworthy rag. In: Advances in Neural Information Processing
+  Systems (2025)
+
+\bibitem{rrag010}
+Song, H., Liu, Y.A., Zhang, R., Guo, J., de~Rijke, M., Fan, Y., Cheng, X.:
+  Adversarialcot: Single-document retrieval poisoning for llm reasoning (2026)
+
+\bibitem{rrag012}
+Soudani, H., Kanoulas, E., Hasibi, F.: Why uncertainty estimation methods fall
+  short in rag: An axiomatic analysis (2025)
+
+\bibitem{rrag064}
+Soudani, H., Zamani, H., Hasibi, F.: Uncertainty quantification for
+  retrieval-augmented reasoning (2025)
+
+\bibitem{venue200DRAGIN}
+Su, W., Tang, Y., Ai, Q., Wu, Z., Liu, Y.: {DRAGIN}: Dynamic retrieval
+  augmented generation based on the real-time information needs of large
+  language models. In: Proceedings of the 62nd Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers). pp.
+  12991--13013 (2024). \doi{10.18653/v1/2024.acl-long.702}
+
+\bibitem{rrag066}
+Sun, X., Xie, J., Chen, Z., Liu, Q., Wu, S., Chen, Y., Song, B., Wang, W.,
+  Wang, Z., Wang, L.: Divide-then-align: Honest alignment based on the
+  knowledge boundary of rag (2025)
+
+\bibitem{rrag035}
+Tan, Z., Zhao, C., Moraffah, R., Li, Y., Wang, S., Li, J., Chen, T., Liu, H.:
+  Glue pizza and eat rocks - exploiting vulnerabilities in retrieval-augmented
+  generative models (2024)
+
+\bibitem{rrag058}
+Trappolini, G., Cuconasu, F., Filice, S., Maarek, Y., Silvestri, F.: Redefining
+  retrieval evaluation in the era of llms (2025)
+
+\bibitem{venue200SpillBeans}
+{Unknown}: Follow my instruction and spill the beans: Scalable data extraction
+  from retrieval-augmented generation systems. In: International Conference on
+  Learning Representations (2025)
+
+\bibitem{astuteRAG2025}
+Wang, F., Wan, X., Sun, R., Chen, J., Arik, S.O.: Astute rag: Overcoming
+  imperfect retrieval augmentation and knowledge conflicts for large language
+  models. In: ACL (2025)
+
+\bibitem{rrag044}
+Wang, Z., Araki, J., Jiang, Z., Parvez, M.R., Neubig, G.: Learning to filter
+  context for retrieval-augmented generation (2023)
+
+\bibitem{rrag089}
+Wu, D., Gu, J.C., Yin, F., Peng, N., Chang, K.W.: Synchronous faithfulness
+  monitoring for trustworthy retrieval-augmented generation. In: Proceedings of
+  the 2024 Conference on Empirical Methods in Natural Language Processing
+  (2024)
+
+\bibitem{certifiedRAG2024}
+Xiang, C., Wu, T., Zhong, Z., Wagner, D., Chen, D., Mittal, P.: Certifiably
+  robust rag against retrieval corruption (2024)
+
+\bibitem{rrag046}
+Xie, J., Zhang, K., Chen, J., Lou, R., Su, Y.: Adaptive chameleon or stubborn
+  sloth: Revealing the behavior of large language models in knowledge conflicts
+  (2023)
+
+\bibitem{rrag006}
+Xie, R., Gopinath, D., Qiu, D., Lin, D., Sun, H., Potdar, S., Dhingra, B.:
+  Over-searching in search-augmented large language models (2026)
+
+\bibitem{badRAG2024}
+Xue, J., Zheng, M., Hu, Y., Liu, F., Chen, X., Lou, Q.: Badrag: Identifying
+  vulnerabilities in retrieval augmented generation of large language models
+  (2024)
+
+\bibitem{crag2024}
+Yan, S.Q., Gu, J.C., Zhu, Y., Ling, Z.H.: Corrective retrieval augmented
+  generation (2024)
+
+\bibitem{rrag004}
+Yin, X., Qi, Y., Cheng, C.H.: Progrank: Probe-gradient reranking to defend
+  dense-retriever rag from corpus poisoning (2026)
+
+\bibitem{irrelevantContext2023}
+Yoran, O., Wolfson, T., Ram, O., Berant, J.: Making retrieval-augmented
+  language models robust to irrelevant context. In: International Conference on
+  Learning Representations (2024)
+
+\bibitem{ragEvaluationSurvey2024}
+Yu, H., Gan, A., Zhang, K., Tong, S., Liu, Q., Liu, Z.: Evaluation of
+  retrieval-augmented generation: A survey (2024)
+
+\bibitem{chainOfNote2023}
+Yu, W., Zhang, H., Pan, X., Ma, K., Wang, H., Yu, D.: Chain-of-note: Enhancing
+  robustness in retrieval-augmented language models (2023)
+
+\bibitem{rrag057}
+Zhang, B., Chen, Y., Liu, Z., Nie, L., Li, T., Liu, Z., Fang, M.: Practical
+  poisoning attacks against retrieval-augmented generation (2025)
+
+\bibitem{faithfulRAG2025}
+Zhang, Q., Xiang, Z., Xiao, Y., Wang, L., Li, J., Wang, X., Su, J.:
+  Faithfulrag: Fact-level conflict modeling for context-faithful
+  retrieval-augmented generation. In: ACL (2025)
+
+\bibitem{rrag115}
+Zhang, T., Patil, S.G., Jain, N., Shen, S., Zaharia, M., Stoica, I., Gonzalez,
+  J.E.: Raft: Adapting language model to domain specific rag (2024)
+
+\bibitem{rrag076}
+Zhao, T., Chen, J., Zhang, S., Zhu, H., Lin, Q., Liu, J.: Exploring knowledge
+  conflicts for faithful llm reasoning: Benchmark and method (2026)
+
+\bibitem{poisoningRetrievalCorpora2023}
+Zhong, Z., Huang, Z., Wettig, A., Chen, D.: Poisoning retrieval corpora by
+  injecting adversarial passages (2023)
+
+\bibitem{rrag013}
+Zhou, H., Lee, K.H., Zhan, Z., Chen, Y., Li, Z., Wang, Z., Haddadi, H., Yilmaz,
+  E.: Trustrag: Enhancing robustness and trustworthiness in retrieval-augmented
+  generation (2025)
+
+\bibitem{trustRAGCompass2024}
+Zhou, Y., Zhang, W., Shao, J., Liu, Y., Li, X., Jin, J., Qian, H., Liu, Z., Li,
+  C., Zhang, J.C., Dou, Z., Yu, P.S., Mao, J.: Trustworthiness in
+  retrieval-augmented generation systems: A survey (2024)
+
+\bibitem{rrag067}
+Zhu, J., Yan, L., Shi, H., Yin, D., Sha, L.: Atm: Adversarial tuning
+  multi-agent system makes a robust retrieval-augmented generator (2024)
+
+\bibitem{rrag002}
+Zhu, X., Wang, Z., Mei, K., Xu, W., Guo, M., Yang, B., Fan, J., Metaxas, D.N.:
+  Trust or abstain? a self-aware rag approach (2026)
+
+\bibitem{poisonedRAG2024}
+Zou, W., Geng, R., Wang, B., Jia, J.: Poisonedrag: Knowledge corruption attacks
+  to retrieval-augmented generation of large language models. In: USENIX
+  Security (2025)
+
+\end{thebibliography}

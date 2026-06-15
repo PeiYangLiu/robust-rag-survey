@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.04869v1",
+  "title": "Optimizing LLM Prompt Engineering with DSPy Based Declarative Learning",
+  "authors": "Shiek Ruksana; Sailesh Kiran Kurra; Thipparthi Sanjay Baradwaj",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.04869v1",
+  "local_pdf": "pdfs/2026_shiek_ruksana_optimizing_llm_prompt_engineering_with_dspy_based_declarative_learning_e273d8b0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Mentions RAG and hallucination reduction via DSPy prompt optimization, but is not focused on robustness under unreliable evidence.",
+  "why_not_or_caveat": "Generic prompt optimization framework paper; does not specifically study noisy/adversarial/conflicting retrieval or calibration in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.021002+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.04869v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Mentions RAG and hallucination reduction via DSPy prompt optimization, but is not focused on robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Generic prompt optimization framework paper; does not specifically study noisy/adversarial/conflicting retrieval or calibration in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

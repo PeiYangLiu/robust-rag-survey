@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.02594v2",
+  "title": "OpenAIs HealthBench in Action: Evaluating an LLM-Based Medical Assistant on Realistic Clinical Queries",
+  "authors": "Sandhanakrishnan Ravichandran; Shivesh Kumar; Rogerio Corga Da Silva; Miguel Romano; Reinhard Berkels; Michiel van der Heijden; Olivier Fail; Valentine Emmanuel Gnanapragasam",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.02594v2",
+  "local_pdf": "pdfs/2025_sandhanakrishnan_ravichandran_openais_healthbench_in_action_evaluating_an_llm_based_medical_assistant_on_realistic_cli_6ead4860.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Evaluates a medical RAG assistant on HealthBench, touching on uncertainty handling and context-seeking, but is primarily an application/benchmark report not focused on robustness mechanisms.",
+  "why_not_or_caveat": "No study of noise, conflict, adversarial robustness, or calibration methods; just leaderboard-style evaluation of a proprietary system.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:08.350355+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.02594v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"application\",\"why_relevant\":\"Evaluates a medical RAG assistant on HealthBench, touching on uncertainty handling and context-seeking, but is primarily an application/benchmark report not focused on robustness mechanisms.\",\"why_not_or_caveat\":\"No study of noise, conflict, adversarial robustness, or calibration methods; just leaderboard-style evaluation of a proprietary system.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

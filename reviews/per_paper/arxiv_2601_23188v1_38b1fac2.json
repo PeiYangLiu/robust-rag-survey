@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.23188v1",
+  "title": "Deep Search with Hierarchical Meta-Cognitive Monitoring Inspired by Cognitive Neuroscience",
+  "authors": "Zhongxiang Sun; Qipeng Wang; Weijie Yu; Jingxuan Yang; Haolang Lu; Jun Xu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.23188v1",
+  "local_pdf": "pdfs/2026_zhongxiang_sun_deep_search_with_hierarchical_meta_cognitive_monitoring_inspired_by_cognitive_neuroscien_38b1fac2.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a metacognitive monitoring framework for deep search agents that detects abnormal reasoning/retrieval states using consistency between searching entropy and reasoning entropy, and triggers corrective intervention—directly addressing calibration, control, and when-to-intervene under uncertainty in RAG-like agents.",
+  "why_not_or_caveat": "Focused on deep search agents rather than canonical RAG; robustness framing is broad rather than specifically targeting noise/conflict/adversarial settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:42.686077+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.23188v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a metacognitive monitoring framework for deep search agents that detects abnormal reasoning/retrieval states using consistency between searching entropy and reasoning entropy, and triggers corrective intervention—directly addressing calibration, control, and when-to-intervene under uncertainty in RAG-like agents.\",\n  \"why_not_or_caveat\": \"Focused on deep search agents rather than canonical RAG; robustness framing is broad rather than specifically targeting noise/conflict/adversarial settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

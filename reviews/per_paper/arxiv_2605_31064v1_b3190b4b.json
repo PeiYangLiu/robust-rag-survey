@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.31064v1",
+  "title": "Fighting Numerical Hallucinations via Data-centric Compilation for Online Financial QA",
+  "authors": "Hao Chen; Xing Tang; Qirui Liu; Weijie Shi; Shiwei Li; Fuyuan Lyu; Weihong Luo; Xiku Du; Xiuqiang He",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.31064v1",
+  "local_pdf": "pdfs/2026_hao_chen_fighting_numerical_hallucinations_via_data_centric_compilation_for_online_financial_qa_b3190b4b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a data-centric RAG framework targeting noise sensitivity and hallucination in financial numerical QA via adversarial noise injection and verifiable program synthesis, directly addressing robustness to noisy/conflicting retrieved evidence.",
+  "why_not_or_caveat": "Domain-specific (financial numerical QA); robustness contributions are application-tied rather than general.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / domain applications",
+  "confidence": 0.62,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:35.360242+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.31064v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a data-centric RAG framework targeting noise sensitivity and hallucination in financial numerical QA via adversarial noise injection and verifiable program synthesis, directly addressing robustness to noisy/conflicting retrieved evidence.\",\"why_not_or_caveat\":\"Domain-specific (financial numerical QA); robustness contributions are application-tied rather than general.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval / domain applications\",\"confidence\":0.62}",
+  "skipped_existing": false
+}

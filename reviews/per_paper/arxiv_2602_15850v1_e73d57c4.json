@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.15850v1",
+  "title": "Large Language Models for Assisting American College Applications",
+  "authors": "Zhengliang Liu; Weihang You; Peng Shu; Junhao Chen; Yi Pan; Hanqi Jiang; Yiwei Li; Zhaojun Ding; Chao Cao; Xinliang Li; Yifan Zhou; Ruidong Zhang; Shaochen Xu; Wei Ruan; Huaqin Zhao; Dajiang Zhu; Tianming Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.15850v1",
+  "local_pdf": "pdfs/2026_zhengliang_liu_large_language_models_for_assisting_american_college_applications_e73d57c4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to college admissions assistance; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure system/application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:03.047382+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.15850v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to college admissions assistance; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure system/application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

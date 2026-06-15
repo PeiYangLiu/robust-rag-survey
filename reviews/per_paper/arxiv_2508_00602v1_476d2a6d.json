@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.00602v1",
+  "title": "LeakSealer: A Semisupervised Defense for LLMs Against Prompt Injection and Leakage Attacks",
+  "authors": "Francesco Panebianco; Stefano Bonfanti; Francesco Trovò; Michele Carminati",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.00602v1",
+  "local_pdf": "pdfs/2025_francesco_panebianco_leaksealer_a_semisupervised_defense_for_llms_against_prompt_injection_and_leakage_attack_476d2a6d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense framework against prompt injection and PII leakage attacks targeting RAG systems, relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Focus is broader on LLM jailbreak/PII leakage detection rather than RAG-specific evidence robustness; RAG is only one of the scenarios.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.555292+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.00602v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a defense framework against prompt injection and PII leakage attacks targeting RAG systems, relevant to the adversarial corruption section.\",\n  \"why_not_or_caveat\": \"Focus is broader on LLM jailbreak/PII leakage detection rather than RAG-specific evidence robustness; RAG is only one of the scenarios.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Defenses\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

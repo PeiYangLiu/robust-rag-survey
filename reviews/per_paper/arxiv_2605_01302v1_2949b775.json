@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.01302v1",
+  "title": "Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation",
+  "authors": "Peiyang Liu; Qiang Yan; Ziqiang Cui; Di Liang; Xi Wang; Wei Ye",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01302v1",
+  "local_pdf": "pdfs/2026_peiyang_liu_beyond_semantic_relevance_counterfactual_risk_minimization_for_robust_retrieval_augmente_2949b775.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a counterfactual-risk-minimization retrieval framework that targets sycophantic/biased query failures in RAG, includes risk-aware abstention, and addresses adversarial relevance—directly relevant to robustness, conflict, and calibration.",
+  "why_not_or_caveat": "Focus on user cognitive bias is a narrower angle than mainstream RAG poisoning/conflict literature.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Robust Retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:35.978119+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.01302v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a counterfactual-risk-minimization retrieval framework that targets sycophantic/biased query failures in RAG, includes risk-aware abstention, and addresses adversarial relevance—directly relevant to robustness, conflict, and calibration.\",\n  \"why_not_or_caveat\": \"Focus on user cognitive bias is a narrower angle than mainstream RAG poisoning/conflict literature.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Robust Retrieval\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

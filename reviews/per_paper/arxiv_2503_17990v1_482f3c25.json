@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.17990v1",
+  "title": "SUNAR: Semantic Uncertainty based Neighborhood Aware Retrieval for Complex QA",
+  "authors": "V Venktesh; Mandeep Rathee; Avishek Anand",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.17990v1",
+  "local_pdf": "pdfs/2025_v_venktesh_sunar_semantic_uncertainty_based_neighborhood_aware_retrieval_for_complex_qa_482f3c25.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Uses semantic uncertainty from LLM answer candidates as feedback to guide retrieval, addressing bounded-recall in complex QA. Touches on uncertainty-aware retrieval which is tangential to robust RAG.",
+  "why_not_or_caveat": "Focus is on improving recall for multi-hop QA, not specifically on robustness to noise, conflict, or adversarial evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control: uncertainty-guided retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:32.705435+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.17990v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"ood_uncertainty\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Uses semantic uncertainty from LLM answer candidates as feedback to guide retrieval, addressing bounded-recall in complex QA. Touches on uncertainty-aware retrieval which is tangential to robust RAG.\",\n  \"why_not_or_caveat\": \"Focus is on improving recall for multi-hop QA, not specifically on robustness to noise, conflict, or adversarial evidence.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control: uncertainty-guided retrieval\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

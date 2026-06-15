@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.09980v1",
+  "title": "Modeling Uncertainty Trends for Timely Retrieval in Dynamic RAG",
+  "authors": "Bo Li; Tian Tian; Zhenghua Xu; Hao Cheng; Shikun Zhang; Wei Ye",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.09980v1",
+  "local_pdf": "pdfs/2025_bo_li_modeling_uncertainty_trends_for_timely_retrieval_in_dynamic_rag_00812c0f.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an uncertainty-trend-based method for deciding when to retrieve in dynamic RAG, directly addressing calibration/control of retrieval timing using entropy-based uncertainty signals.",
+  "why_not_or_caveat": "Focuses on retrieval timing rather than handling unreliable evidence per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:46.524574+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2511.09980v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes an uncertainty-trend-based method for deciding when to retrieve in dynamic RAG, directly addressing calibration/control of retrieval timing using entropy-based uncertainty signals.\",\n  \"why_not_or_caveat\": \"Focuses on retrieval timing rather than handling unreliable evidence per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

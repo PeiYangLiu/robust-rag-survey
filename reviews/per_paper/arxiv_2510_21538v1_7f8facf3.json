@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.21538v1",
+  "title": "InterpDetect: Interpretable Signals for Detecting Hallucinations in Retrieval-Augmented Generation",
+  "authors": "Likun Tan; Kuan-Wei Huang; Joy Shi; Kevin Wu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.21538v1",
+  "local_pdf": "pdfs/2025_likun_tan_interpdetect_interpretable_signals_for_detecting_hallucinations_in_retrieval_augmented_g_7f8facf3.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes mechanistic detection of RAG hallucinations by disentangling parametric vs external knowledge contributions, directly addressing knowledge conflict and reliability monitoring in RAG.",
+  "why_not_or_caveat": "Focused on detection via interpretability signals rather than mitigation; evaluated on FinQA only.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and hallucination detection",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.655413+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.21538v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes mechanistic detection of RAG hallucinations by disentangling parametric vs external knowledge contributions, directly addressing knowledge conflict and reliability monitoring in RAG.\",\n  \"why_not_or_caveat\": \"Focused on detection via interpretability signals rather than mitigation; evaluated on FinQA only.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and hallucination detection\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

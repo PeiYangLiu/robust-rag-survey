@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.05268v2",
+  "title": "Region-R1: Reinforcing Query-Side Region Cropping for Multi-Modal Re-Ranking",
+  "authors": "Chan-Wei Hu; Zhengzhong Tu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.05268v2",
+  "local_pdf": "pdfs/2026_chan_wei_hu_region_r1_reinforcing_query_side_region_cropping_for_multi_modal_re_ranking_f0ad4baa.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses visual distractors in MM-RAG re-ranking via query-side region cropping, tangentially related to distraction-robust retrieval.",
+  "why_not_or_caveat": "Focus is on improving multi-modal re-ranking performance, not on robustness/calibration under unreliable evidence in the survey's sense.",
+  "recommended_use": "background_only",
+  "suggested_section": "Distraction in multi-modal RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:00.478339+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.05268v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses visual distractors in MM-RAG re-ranking via query-side region cropping, tangentially related to distraction-robust retrieval.\",\n  \"why_not_or_caveat\": \"Focus is on improving multi-modal re-ranking performance, not on robustness/calibration under unreliable evidence in the survey's sense.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Distraction in multi-modal RAG\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

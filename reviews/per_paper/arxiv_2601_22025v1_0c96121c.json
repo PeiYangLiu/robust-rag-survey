@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.22025v1",
+  "title": "When \"Better\" Prompts Hurt: Evaluation-Driven Iteration for LLM Applications",
+  "authors": "Daniel Commey",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.22025v1",
+  "local_pdf": "pdfs/2026_daniel_commey_when_better_prompts_hurt_evaluation_driven_iteration_for_llm_applications_0c96121c.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Proposes an evaluation suite that includes RAG compliance and groundedness, touching on calibration and evaluation practices. However, it is a general LLM evaluation workflow paper, not focused on robustness under unreliable evidence.",
+  "why_not_or_caveat": "Scope is broad prompt-iteration evaluation; RAG robustness is a minor component with small toy experiments.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.943681+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.22025v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Proposes an evaluation suite that includes RAG compliance and groundedness, touching on calibration and evaluation practices. However, it is a general LLM evaluation workflow paper, not focused on robustness under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Scope is broad prompt-iteration evaluation; RAG robustness is a minor component with small toy experiments.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and Metrics\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.13764v1",
+  "title": "VectorSmuggle: Steganographic Exfiltration in Embedding Stores and a Cryptographic Provenance Defense",
+  "authors": "Jascha Wanger",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.13764v1",
+  "local_pdf": "pdfs/2026_jascha_wanger_vectorsmuggle_steganographic_exfiltration_in_embedding_stores_and_a_cryptographic_proven_b0b693b5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies steganographic exfiltration via embedding perturbations in RAG vector stores and proposes a cryptographic provenance defense. Tangentially related to adversarial corruption of RAG pipelines but focused on data exfiltration/integrity rather than retrieval robustness.",
+  "why_not_or_caveat": "Threat model is insider exfiltration, not poisoning/injection that misleads RAG outputs; orthogonal to robustness under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption (vector store integrity)",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.388308+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.13764v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Studies steganographic exfiltration via embedding perturbations in RAG vector stores and proposes a cryptographic provenance defense. Tangentially related to adversarial corruption of RAG pipelines but focused on data exfiltration/integrity rather than retrieval robustness.\",\"why_not_or_caveat\":\"Threat model is insider exfiltration, not poisoning/injection that misleads RAG outputs; orthogonal to robustness under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption (vector store integrity)\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

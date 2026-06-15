@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.04700v1",
+  "title": "Separate the Wheat from the Chaff: Winnowing Down Divergent Views in Retrieval Augmented Generation",
+  "authors": "Song Wang; Zihan Chen; Peng Wang; Zhepei Wei; Zhen Tan; Yu Meng; Cong Shen; Jundong Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.04700v1",
+  "local_pdf": "pdfs/2025_song_wang_separate_the_wheat_from_the_chaff_winnowing_down_divergent_views_in_retrieval_augmented_92109429.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "WinnowRAG addresses noisy retrieval by clustering and iteratively filtering irrelevant/misleading documents via a multi-agent critic framework, directly targeting robustness to retrieval noise.",
+  "why_not_or_caveat": "Focuses on noise filtering only; does not address adversarial attacks, conflicts, or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.875779+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.04700v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"WinnowRAG addresses noisy retrieval by clustering and iteratively filtering irrelevant/misleading documents via a multi-agent critic framework, directly targeting robustness to retrieval noise.\",\"why_not_or_caveat\":\"Focuses on noise filtering only; does not address adversarial attacks, conflicts, or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

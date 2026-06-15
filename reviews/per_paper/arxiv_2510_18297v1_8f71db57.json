@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.18297v1",
+  "title": "From Retrieval to Generation: Unifying External and Parametric Knowledge for Medical Question Answering",
+  "authors": "Lei Li; Xiao Zhou; Yingying Zhang; Xian Wu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.18297v1",
+  "local_pdf": "pdfs/2025_lei_li_from_retrieval_to_generation_unifying_external_and_parametric_knowledge_for_medical_ques_8f71db57.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a method that addresses noisy/incomplete retrieval and fuses parametric with retrieved knowledge in medical QA, touching on knowledge conflict mitigation.",
+  "why_not_or_caveat": "Domain-specific medical QA application focused on accuracy gains rather than systematic robustness analysis; not a primary contribution to robustness literature.",
+  "recommended_use": "background_only",
+  "suggested_section": "Knowledge conflict and parametric-vs-retrieved fusion",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.556372+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.18297v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a method that addresses noisy/incomplete retrieval and fuses parametric with retrieved knowledge in medical QA, touching on knowledge conflict mitigation.\",\n  \"why_not_or_caveat\": \"Domain-specific medical QA application focused on accuracy gains rather than systematic robustness analysis; not a primary contribution to robustness literature.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Knowledge conflict and parametric-vs-retrieved fusion\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.15958v1",
+  "title": "A Case Study on the Impact of Anonymization Along the RAG Pipeline",
+  "authors": "Andreea-Elena Bodea; Stephen Meisenbacher; Florian Matthes",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.15958v1",
+  "local_pdf": "pdfs/2026_andreea_elena_bodea_a_case_study_on_the_impact_of_anonymization_along_the_rag_pipeline_90d60eae.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies privacy/anonymization trade-offs in RAG pipelines, tangentially related to RAG reliability but focused on PII protection rather than robustness to unreliable evidence.",
+  "why_not_or_caveat": "Privacy anonymization is outside the survey's scope of noise, conflict, adversarial corruption, and calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:17.900228+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.15958v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies privacy/anonymization trade-offs in RAG pipelines, tangentially related to RAG reliability but focused on PII protection rather than robustness to unreliable evidence.\",\n  \"why_not_or_caveat\": \"Privacy anonymization is outside the survey's scope of noise, conflict, adversarial corruption, and calibration.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

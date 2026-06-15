@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2601.19827v3",
+  "title": "When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in Scientific Multi-hop Question Answering",
+  "authors": "Mahdi Astaraki; Mohammad Arshi Saloot; Ali Shiraee Kasmaee; Hamidreza Mahyar; Soheila Samiee",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.19827v3",
+  "local_pdf": "pdfs/2026_mahdi_astaraki_when_iterative_rag_beats_ideal_evidence_a_diagnostic_study_in_scientific_multi_hop_quest_6072fdf1.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Diagnostic study of iterative vs static RAG identifying failure modes including distractor latches, coverage gaps, composition failures, and stopping miscalibration in scientific multi-hop QA.",
+  "why_not_or_caveat": "Domain-specific (chemistry) and focused on iterative RAG efficacy rather than adversarial robustness or conflict.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Distraction",
+  "confidence": 0.78,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:41.140918+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.19827v3\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Diagnostic study of iterative vs static RAG identifying failure modes including distractor latches, coverage gaps, composition failures, and stopping miscalibration in scientific multi-hop QA.\",\"why_not_or_caveat\":\"Domain-specific (chemistry) and focused on iterative RAG efficacy rather than adversarial robustness or conflict.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control / Distraction\",\"confidence\":0.78}",
+  "skipped_existing": false
+}

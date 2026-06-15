@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.21607v1",
+  "title": "INTRYGUE: Induction-Aware Entropy Gating for Reliable RAG Uncertainty Estimation",
+  "authors": "Alexandra Bazarova; Andrei Volodichev; Daria Kotova; Alexey Zaytsev",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.21607v1",
+  "local_pdf": "pdfs/2026_alexandra_bazarova_intrygue_induction_aware_entropy_gating_for_reliable_rag_uncertainty_estimation_eb9b62f5.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a mechanistically grounded uncertainty quantification method for RAG to detect hallucinations, directly addressing calibration and confidence estimation under retrieval grounding.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty in RAG",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:00.004701+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.21607v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"ood_uncertainty\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a mechanistically grounded uncertainty quantification method for RAG to detect hallucinations, directly addressing calibration and confidence estimation under retrieval grounding.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Uncertainty in RAG\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.11073v1",
+  "title": "Context Before Code: An Experience Report on Vibe Coding in Practice",
+  "authors": "Md Nasir Uddin Shuvo; Md Aidul Islam; Md Mahade Hasan; Muhammad Waseem; Pekka Abrahamsson",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.11073v1",
+  "local_pdf": "pdfs/2026_md_nasir_uddin_shuvo_context_before_code_an_experience_report_on_vibe_coding_in_practice_9616d0d7.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Experience report on AI-assisted coding that incidentally builds a RAG system; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope; focuses on software engineering practices, not RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:40.929952+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.11073v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Experience report on AI-assisted coding that incidentally builds a RAG system; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope; focuses on software engineering practices, not RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

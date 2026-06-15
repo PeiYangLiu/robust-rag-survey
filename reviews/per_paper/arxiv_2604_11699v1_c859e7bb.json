@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.11699v1",
+  "title": "Legal2LogicICL: Improving Generalization in Transforming Legal Cases to Logical Formulas via Diverse Few-Shot Learning",
+  "authors": "Jieying Xue; Phuong Minh Nguyen; Ha Thanh Nguyen; May Myo Zin; Ken Satoh",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.11699v1",
+  "local_pdf": "pdfs/2026_jieying_xue_legal2logicicl_improving_generalization_in_transforming_legal_cases_to_logical_formulas_c859e7bb.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for few-shot exemplar retrieval in legal semantic parsing; does not study robustness, conflict, attacks, calibration, or unreliable evidence.",
+  "why_not_or_caveat": "Application of RAG to legal logic translation, not robustness-focused.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:02.345184+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.11699v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for few-shot exemplar retrieval in legal semantic parsing; does not study robustness, conflict, attacks, calibration, or unreliable evidence.\",\"why_not_or_caveat\":\"Application of RAG to legal logic translation, not robustness-focused.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

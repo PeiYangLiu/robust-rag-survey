@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2405.20680v5",
+  "title": "Unraveling and Mitigating Retriever Inconsistencies in Retrieval-Augmented Large Language Models",
+  "authors": "Mingda Li; Xinyu Li; Yifan Chen; Wenfeng Xuan; Weinan Zhang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.20680v5",
+  "local_pdf": "pdfs/2024_mingda_li_unraveling_and_mitigating_retriever_inconsistencies_in_retrieval_augmented_large_languag_17b927ae.pdf",
+  "metadata_topics": "",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "analysis"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes retriever inconsistency and decomposes RALM degeneration into retriever error, extraction error, hallucination, and lucky guess, then proposes an ensemble-of-retrievers method to adaptively select knowledge sources and reduce reader errors.",
+  "why_not_or_caveat": "Focused on ODQA inconsistency rather than adversarial or conflict settings; relevance is primarily to noisy retrieval and adaptive retrieval control.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Adaptive Retrieval Control",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:42.330874+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2405.20680v5\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\", \"analysis\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes retriever inconsistency and decomposes RALM degeneration into retriever error, extraction error, hallucination, and lucky guess, then proposes an ensemble-of-retrievers method to adaptively select knowledge sources and reduce reader errors.\",\n  \"why_not_or_caveat\": \"Focused on ODQA inconsistency rather than adversarial or conflict settings; relevance is primarily to noisy retrieval and adaptive retrieval control.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval and Adaptive Retrieval Control\",\n  \"confidence\": 0.75\n}",
+  "skipped_existing": false
+}

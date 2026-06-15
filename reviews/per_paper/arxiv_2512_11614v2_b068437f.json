@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2512.11614v2",
+  "title": "Bounding Hallucinations: Information-Theoretic Guarantees for RAG Systems via Merlin-Arthur Protocols",
+  "authors": "Björn Deiseroth; Max Henning Höth; Kristian Kersting; Letitia Parcalabescu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.11614v2",
+  "local_pdf": "pdfs/2025_bj_rn_deiseroth_bounding_hallucinations_information_theoretic_guarantees_for_rag_systems_via_merlin_arth_b068437f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control",
+    "ood_uncertainty",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a training framework with adversarial (Morgana) and helpful (Merlin) provers to make RAG generators abstain on insufficient evidence, resist misleading context, and ground in causal evidence, with information-theoretic guarantees. Directly targets hallucination, reject behavior, and robustness to adversarial/noisy context.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Abstention / Adversarial Robustness",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:42.011091+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.11614v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"calibration_control\", \"ood_uncertainty\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a training framework with adversarial (Morgana) and helpful (Merlin) provers to make RAG generators abstain on insufficient evidence, resist misleading context, and ground in causal evidence, with information-theoretic guarantees. Directly targets hallucination, reject behavior, and robustness to adversarial/noisy context.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Calibration and Abstention / Adversarial Robustness\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

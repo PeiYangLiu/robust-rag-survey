@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.11344v1",
+  "title": "How Much Would a Clinician Edit This Draft? Evaluating LLM Alignment for Patient Message Response Drafting",
+  "authors": "Parker Seegmiller; Joseph Gatto; Sarah E. Greer; Ganza Belise Isingizwe; Rohan Ray; Timothy E. Burdick; Sarah Masud Preum",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.11344v1",
+  "local_pdf": "pdfs/2026_parker_seegmiller_how_much_would_a_clinician_edit_this_draft_evaluating_llm_alignment_for_patient_message_23e85438.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of LLMs (including RAG as one adaptation technique) to clinical message drafting; does not study RAG robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope; RAG is only one of several adaptation techniques evaluated for alignment.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:03.238448+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.11344v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of LLMs (including RAG as one adaptation technique) to clinical message drafting; does not study RAG robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope; RAG is only one of several adaptation techniques evaluated for alignment.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

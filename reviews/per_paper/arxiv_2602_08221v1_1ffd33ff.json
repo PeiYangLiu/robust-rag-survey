@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.08221v1",
+  "title": "CoRect: Context-Aware Logit Contrast for Hidden State Rectification to Resolve Knowledge Conflicts",
+  "authors": "Xuhua Ma; Richong Zhang; Zhijie Nie",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.08221v1",
+  "local_pdf": "pdfs/2026_xuhua_ma_corect_context_aware_logit_contrast_for_hidden_state_rectification_to_resolve_knowledge_1ffd33ff.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a training-free hidden-state intervention to resolve parametric vs retrieved knowledge conflicts in RAG, directly addressing context compliance.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:45.582420+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.08221v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a training-free hidden-state intervention to resolve parametric vs retrieved knowledge conflicts in RAG, directly addressing context compliance.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

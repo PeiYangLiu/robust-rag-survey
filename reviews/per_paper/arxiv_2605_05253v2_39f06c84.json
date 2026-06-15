@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2605.05253v2",
+  "title": "EnterpriseRAG-Bench: A RAG Benchmark for Company Internal Knowledge",
+  "authors": "Yuhong Sun; Joachim Rahmfeld; Chris Weaver; Weijia Chen; Roshan Desai; Wenxi Huang; Mark H. Butler",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05253v2",
+  "local_pdf": "pdfs/2026_yuhong_sun_enterpriserag_bench_a_rag_benchmark_for_company_internal_knowledge_39f06c84.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "ood_uncertainty"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces an enterprise RAG benchmark explicitly featuring noisy/misfiled documents, near-duplicates, conflicting information, and 'info not found' questions testing abstention—directly aligned with robustness, conflict resolution, and unknown-claim evaluation.",
+  "why_not_or_caveat": "Synthetic enterprise focus; not a method or defense paper.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:33.582877+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05253v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"noisy_retrieval\",\"knowledge_conflict\",\"ood_uncertainty\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces an enterprise RAG benchmark explicitly featuring noisy/misfiled documents, near-duplicates, conflicting information, and 'info not found' questions testing abstention—directly aligned with robustness, conflict resolution, and unknown-claim evaluation.\",\"why_not_or_caveat\":\"Synthetic enterprise focus; not a method or defense paper.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

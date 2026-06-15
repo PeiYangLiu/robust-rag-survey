@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.15420v2",
+  "title": "Silent Leaks: Implicit Knowledge Extraction Attack on RAG Systems through Benign Queries",
+  "authors": "Yuhao Wang; Wenjie Qu; Shengfang Zhai; Yanze Jiang; Zichen Liu; Yue Liu; Yinpeng Dong; Jiaheng Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.15420v2",
+  "local_pdf": "pdfs/2025_yuhao_wang_silent_leaks_implicit_knowledge_extraction_attack_on_rag_systems_through_benign_queries_f2b919a2.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a stealthy knowledge extraction attack against RAG knowledge bases via benign queries, relevant to the adversarial threats subsection on RAG privacy/copyright leakage and defense evaluation.",
+  "why_not_or_caveat": "Focuses on extraction/privacy rather than retrieval robustness or evidence reliability per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and RAG Attacks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.646527+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.15420v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Introduces a stealthy knowledge extraction attack against RAG knowledge bases via benign queries, relevant to the adversarial threats subsection on RAG privacy/copyright leakage and defense evaluation.\",\n  \"why_not_or_caveat\": \"Focuses on extraction/privacy rather than retrieval robustness or evidence reliability per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption and RAG Attacks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

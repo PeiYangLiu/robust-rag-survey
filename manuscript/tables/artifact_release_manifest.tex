@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}p{0.29\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}X}
+\toprule
+\textbf{Artifact group} & \textbf{Representative files} & \textbf{Rows} & \textbf{Purpose} \\
+\midrule
+Evidence map and protocol & Adjudicated venue-expanded map, candidate expansion map, original adjudicated map, corpus-flow figure, canonical corpus table, search protocol, codebook, exclusion log & 342 adjudicated rows & Reproduce the canonical Map-B corpus, original Map-A adjudicated snapshot, coding fields, and inclusion/exclusion decisions. \\
+Venue and source audit & \texttt{venue\_systematic\_queries.csv}, \texttt{venue\_systematic\_candidates.csv}, \texttt{venue\_triage\_decisions.csv} & 31 query rows / 51 candidates & Audit venue-linked recall risk and document triage decisions. \\
+Venue-linked PDF collection & Venue-200 manifest, summary, builder script & 200 PDFs & Document the local venue-backed PDF collection used for follow-up coding; PDFs are local due to size. \\
+Multimodal/scenario RAG collection & Multimodal-RAG-100 manifest, summary, builder script & 100 PDFs & Cover vision/multimodal, graph/KG, table/structured, agent/memory/tool, code/symbolic, domain-specific, and long-context RAG scenarios. PDFs are local due to size. \\
+Human citation audit & Source-blind citation annotations, recommended/main-cite summaries, adjudication template & 300 papers & Records human decisions for which venue-linked and extension papers should be cited in the main text, case studies, appendix, background, or excluded. \\
+Deep comparative cases & \texttt{deep\_comparative\_case\_studies.csv}; main normalization findings table & 26 worksheet rows / 13 main cases & Compare assumptions, datasets, models, metrics, failure modes, and artifact availability for concrete normalization cases. \\
+Expert-use validation & 12-pair pilot responses; 60-pair participant responses; 60-pair gold adjudications; disagreement/error summaries & 720 participant judgments / 192 gold labels & Reproduce the protocol-usability stress tests, expanded 60-pair validation, gold agreement, and coordinate-error analysis. \\
+Map-B second-coding packet/results & Annotator packet, coordinator packet, second-coder completed labels, joint summary, disagreement CSV, adjudication worksheet, analysis script & 148 rows & Reports independent second coding over Map-B additions and queues disagreements for adjudication. \\
+Expanded expert-validation packet & Protocol/control annotator packets, gold packet, coordinator packet, 60-pair pool, expertise template, analysis plan & 60 candidate pairs & Documents the design used for the completed 60-pair validation and supports future replications. \\
+Action-labeled pilot & 60-item action-labeled pilot, three policy predictions, summary metrics, blueprint examples & 60 items / 180 predictions & Demonstrate answer/action/joint/unsafe metrics for action-control evaluation without claiming a deployed LLM leaderboard. \\
+Expansion protocols & Venue-complete protocol; validation expansion protocol & protocol docs & Specify future manual venue-complete census and larger gold-adjudicated validation designs; these are agendas, not completed procedures in this paper. \\
+Release manifest & \texttt{artifact\_release\_manifest.csv/json} & 303 artifacts & Provide versioned paths, row counts, and checksums for public release. \\
+\bottomrule
+\end{tabularx}
+\caption{Release artifact manifest. The complete machine-readable manifest is provided as CSV/JSON in the supplement.}
+\label{tab:artifact-release-manifest}
+\end{table*}

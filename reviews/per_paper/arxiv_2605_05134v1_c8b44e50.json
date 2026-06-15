@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05134v1",
+  "title": "Low-Cost Black-Box Detection of LLM Hallucinations via Dynamical System Prediction",
+  "authors": "Dan Wilson; Mohamed Akrout",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05134v1",
+  "local_pdf": "pdfs/2026_dan_wilson_low_cost_black_box_detection_of_llm_hallucinations_via_dynamical_system_prediction_c8b44e50.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a black-box hallucination detection method for LLM outputs, tangentially related to reliability but not about RAG, retrieval, or unreliable evidence.",
+  "why_not_or_caveat": "Does not address retrieval, evidence handling, or RAG robustness; focuses on detecting hallucinations via dynamical systems on token embeddings.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.481869+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05134v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a black-box hallucination detection method for LLM outputs, tangentially related to reliability but not about RAG, retrieval, or unreliable evidence.\",\"why_not_or_caveat\":\"Does not address retrieval, evidence handling, or RAG robustness; focuses on detecting hallucinations via dynamical systems on token embeddings.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

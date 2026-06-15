@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.24060v2",
+  "title": "SOMA: Strategic Orchestration and Memory-Augmented System for Vision-Language-Action Model Robustness via In-Context Adaptation",
+  "authors": "Zhuoran Li; Zhiyang Li; Kaijun Zhou; Jinyu Gu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.24060v2",
+  "local_pdf": "pdfs/2026_zhuoran_li_soma_strategic_orchestration_and_memory_augmented_system_for_vision_language_action_mode_2e830370.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG within a VLA robotics system for OOD adaptation, but does not study RAG robustness, retrieval noise, or evidence reliability in the textual RAG sense.",
+  "why_not_or_caveat": "Robotics VLA application; RAG component is auxiliary memory retrieval, not focused on unreliable evidence problems central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.717357+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.24060v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG within a VLA robotics system for OOD adaptation, but does not study RAG robustness, retrieval noise, or evidence reliability in the textual RAG sense.\",\"why_not_or_caveat\":\"Robotics VLA application; RAG component is auxiliary memory retrieval, not focused on unreliable evidence problems central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.11122v2",
+  "title": "Learning to Trust: Dynamic Utilization of Retrieval-Augmented Generation for E-commerce Search Relevance",
+  "authors": "Tingqiao Xu; Shaowei Yao; Chenhe Dong; Yiming Jin; Zerui Huang; Dan Ou; Haihong Tang; Bo Zheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.11122v2",
+  "local_pdf": "pdfs/2025_tingqiao_xu_learning_to_trust_dynamic_utilization_of_retrieval_augmented_generation_for_e_commerce_s_1008e1d9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an RL framework teaching LLMs to dynamically trust or ignore noisy retrieved context, directly addressing knowledge conflict between parametric and retrieved evidence and context-trust calibration in a production RAG setting.",
+  "why_not_or_caveat": "Application-focused on e-commerce search relevance; evaluation is industry-specific rather than on standard robustness benchmarks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Dynamic Context Utilization",
+  "confidence": 0.78,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:52.452301+00:00",
+  "raw_response": "{\"key\": \"arxiv-2510.11122v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"calibration_control\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes an RL framework teaching LLMs to dynamically trust or ignore noisy retrieved context, directly addressing knowledge conflict between parametric and retrieved evidence and context-trust calibration in a production RAG setting.\", \"why_not_or_caveat\": \"Application-focused on e-commerce search relevance; evaluation is industry-specific rather than on standard robustness benchmarks.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control / Dynamic Context Utilization\", \"confidence\": 0.78}",
+  "skipped_existing": false
+}

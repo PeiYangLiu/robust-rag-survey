@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.07487v2",
+  "title": "MoA is All You Need: Building LLM Research Team using Mixture of Agents",
+  "authors": "Sandy Chen; Leqi Zeng; Abhinav Raghunathan; Flora Huang; Terrence C. Kim",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.07487v2",
+  "local_pdf": "pdfs/2024_sandy_chen_moa_is_all_you_need_building_llm_research_team_using_mixture_of_agents_e99d06f6.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a multi-agent RAG framework for finance; does not study robustness, conflict, attacks, calibration, or evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Application/architecture paper without focus on the survey's robustness themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:28.107695+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.07487v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a multi-agent RAG framework for finance; does not study robustness, conflict, attacks, calibration, or evaluation under unreliable evidence.\",\"why_not_or_caveat\":\"Application/architecture paper without focus on the survey's robustness themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

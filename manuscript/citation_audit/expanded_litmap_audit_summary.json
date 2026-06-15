@@ -1,0 +1,15 @@
+{
+  "status": "expanded_literature_map_full_text_audit",
+  "manifest_total": 259,
+  "manifest_ready": 259,
+  "audited": 259,
+  "failures": [],
+  "overall_support_counts": {
+    "fully_supported": 254,
+    "partially_supported": 5
+  },
+  "recommended_action_counts": {
+    "keep": 259
+  },
+  "notes": "Each ready citation key was audited with manuscript usage contexts plus full extracted paper text using Claude Opus 4.7."
+}

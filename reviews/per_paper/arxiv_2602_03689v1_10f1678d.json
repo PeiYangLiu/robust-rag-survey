@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.03689v1",
+  "title": "Rethinking the Reranker: Boundary-Aware Evidence Selection for Robust Retrieval-Augmented Generation",
+  "authors": "Jiashuo Sun; Pengcheng Jiang; Saizhuo Wang; Jiajun Fan; Heng Wang; Siru Ouyang; Ming Zhong; Yizhu Jiao; Chengsong Huang; Xueqiang Xu; Pengrui Han; Peiran Li; Jiaxin Huang; Ge Liu; Heng Ji; Jiawei Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.03689v1",
+  "local_pdf": "pdfs/2026_jiashuo_sun_rethinking_the_reranker_boundary_aware_evidence_selection_for_robust_retrieval_augmented_10f1678d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "BAR-RAG addresses RAG brittleness under noisy retrieval by training a boundary-aware reranker/selector using generator uncertainty, directly targeting robustness and evidence filtering.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Evidence Selection",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.255447+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.03689v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"BAR-RAG addresses RAG brittleness under noisy retrieval by training a boundary-aware reranker/selector using generator uncertainty, directly targeting robustness and evidence filtering.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval and Evidence Selection\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

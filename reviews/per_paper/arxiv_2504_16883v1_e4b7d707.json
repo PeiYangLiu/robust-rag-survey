@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.16883v1",
+  "title": "Enhancing Critical Thinking with AI: A Tailored Warning System for RAG Models",
+  "authors": "Xuyang Zhu; Sejoon Chang; Andrew Kuik",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.16883v1",
+  "local_pdf": "pdfs/2025_xuyang_zhu_enhancing_critical_thinking_with_ai_a_tailored_warning_system_for_rag_models_e4b7d707.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies user-facing warning messages for hallucinations in RAG outputs, touching on trust calibration and communication of unreliable evidence.",
+  "why_not_or_caveat": "HCI pilot study with 18 participants; not a technical robustness, detection, or calibration method, and not central to the survey's scope.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:16.636061+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.16883v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies user-facing warning messages for hallucinations in RAG outputs, touching on trust calibration and communication of unreliable evidence.\",\n  \"why_not_or_caveat\": \"HCI pilot study with 18 participants; not a technical robustness, detection, or calibration method, and not central to the survey's scope.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

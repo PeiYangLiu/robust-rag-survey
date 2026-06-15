@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.02194v1",
+  "title": "Neuro-RIT: Neuron-Guided Instruction Tuning for Robust Retrieval-Augmented Language Model",
+  "authors": "Jaemin Kim; Jae O Lee; Sumyeong Ahn; Seo Yeon Park",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.02194v1",
+  "local_pdf": "pdfs/2026_jaemin_kim_neuro_rit_neuron_guided_instruction_tuning_for_robust_retrieval_augmented_language_model_3f6b16ae.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a neuron-guided instruction tuning method to make RALMs robust to noisy/irrelevant retrieved contexts, directly addressing the noisy retrieval and distraction robustness theme.",
+  "why_not_or_caveat": "Focuses on a specific tuning technique rather than broad analysis or benchmark.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval: Robust Training/Instruction Tuning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:28.627057+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.02194v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a neuron-guided instruction tuning method to make RALMs robust to noisy/irrelevant retrieved contexts, directly addressing the noisy retrieval and distraction robustness theme.\",\n  \"why_not_or_caveat\": \"Focuses on a specific tuning technique rather than broad analysis or benchmark.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval: Robust Training/Instruction Tuning\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

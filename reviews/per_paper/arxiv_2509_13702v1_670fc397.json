@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.13702v1",
+  "title": "DSCC-HS: A Dynamic Self-Reinforcing Framework for Hallucination Suppression in Large Language Models",
+  "authors": "Xiao Zheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.13702v1",
+  "local_pdf": "pdfs/2025_xiao_zheng_dscc_hs_a_dynamic_self_reinforcing_framework_for_hallucination_suppression_in_large_lang_670fc397.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses LLM hallucination via decoding-time steering, tangentially mentioning RAG's limitations.",
+  "why_not_or_caveat": "Not about RAG robustness; no retrieval, no evidence handling, no conflict/adversarial/calibration in RAG context.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.878884+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.13702v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses LLM hallucination via decoding-time steering, tangentially mentioning RAG's limitations.\",\n  \"why_not_or_caveat\": \"Not about RAG robustness; no retrieval, no evidence handling, no conflict/adversarial/calibration in RAG context.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

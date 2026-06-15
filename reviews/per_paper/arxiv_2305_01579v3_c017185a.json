@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2305.01579v3",
+  "title": "Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise",
+  "authors": "Giwon Hong; Jeonghwan Kim; Junmo Kang; Sung-Hyon Myaeng; Joyce Jiyoung Whang",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2305.01579v3",
+  "local_pdf": "pdfs/2023_giwon_hong_why_so_gullible_enhancing_the_robustness_of_retrieval_augmented_models_against_counterfa_c017185a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly studies robustness of RAG to counterfactual/conflicting retrieved documents, proposes discriminator-based defenses, and releases MacNoise, an LLM-generated conflict benchmark.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:25.357986+00:00",
+  "raw_response": "{\"key\":\"arxiv-2305.01579v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"noisy_retrieval\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Directly studies robustness of RAG to counterfactual/conflicting retrieved documents, proposes discriminator-based defenses, and releases MacNoise, an LLM-generated conflict benchmark.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

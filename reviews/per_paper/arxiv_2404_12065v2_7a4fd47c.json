@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2404.12065v2",
+  "title": "RAGAR, Your Falsehood Radar: RAG-Augmented Reasoning for Political Fact-Checking using Multimodal Large Language Models",
+  "authors": "M. Abdul Khaliq; P. Chang; M. Ma; B. Pflugfelder; F. Miletić",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.12065v2",
+  "local_pdf": "pdfs/2024_m_abdul_khaliq_ragar_your_falsehood_radar_rag_augmented_reasoning_for_political_fact_checking_using_mul_7a4fd47c.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with reasoning techniques to multimodal political fact-checking; tangentially relates to evidence reliability via fact verification.",
+  "why_not_or_caveat": "Focuses on application (fact-checking) rather than studying RAG robustness, noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:23.782902+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2404.12065v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Applies RAG with reasoning techniques to multimodal political fact-checking; tangentially relates to evidence reliability via fact verification.\",\n  \"why_not_or_caveat\": \"Focuses on application (fact-checking) rather than studying RAG robustness, noise, conflict, adversaries, or calibration.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

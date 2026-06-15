@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.05970v1",
+  "title": "Impact-driven Context Filtering For Cross-file Code Completion",
+  "authors": "Yanzhou Li; Shangqing Liu; Kangjie Chen; Tianwei Zhang; Yang Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.05970v1",
+  "local_pdf": "pdfs/2025_yanzhou_li_impact_driven_context_filtering_for_cross_file_code_completion_85c0cfb2.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes filtering of negative/irrelevant retrieved code chunks and adaptive on-demand retrieval, directly addressing noisy retrieval and retrieval control in code RAG.",
+  "why_not_or_caveat": "Domain-specific to repository-level code completion rather than general RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Context Filtering",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.136484+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.05970v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes filtering of negative/irrelevant retrieved code chunks and adaptive on-demand retrieval, directly addressing noisy retrieval and retrieval control in code RAG.\",\"why_not_or_caveat\":\"Domain-specific to repository-level code completion rather than general RAG robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval and Context Filtering\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

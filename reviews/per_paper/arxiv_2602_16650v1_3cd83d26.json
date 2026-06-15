@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.16650v1",
+  "title": "Retrieval Augmented Generation of Literature-derived Polymer Knowledge: The Example of a Biodegradable Polymer Expert System",
+  "authors": "Sonakshi Gupta; Akhlak Mahmood; Wei Xiong; Rampi Ramprasad",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.16650v1",
+  "local_pdf": "pdfs/2026_sonakshi_gupta_retrieval_augmented_generation_of_literature_derived_polymer_knowledge_the_example_of_a_3cd83d26.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for polymer literature; mentions grounding and deferral but does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Application paper in materials science without focused contributions to RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:48.955911+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.16650v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for polymer literature; mentions grounding and deferral but does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Application paper in materials science without focused contributions to RAG robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

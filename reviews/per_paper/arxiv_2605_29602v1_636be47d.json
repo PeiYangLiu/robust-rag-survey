@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.29602v1",
+  "title": "CogniVerse: Revolutionizing Multi-Modal Retrieval-Augmented Generation with Cognitive Reflection and Geometric Reasoning",
+  "authors": "Xiang Fang; Wanlong Fang; Changshuo Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.29602v1",
+  "local_pdf": "pdfs/2026_xiang_fang_cogniverse_revolutionizing_multi_modal_retrieval_augmented_generation_with_cognitive_ref_636be47d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a MMRAG framework that includes a module to assess retrieval necessity and filter noisy retrievals, tangentially touching noisy retrieval and adaptive retrieval.",
+  "why_not_or_caveat": "Primarily a general MMRAG method paper, not focused on robustness analysis, adversarial settings, calibration, or systematic evaluation under unreliable evidence. Suspicious arXiv ID (2605.xxxxx) suggests possible quality concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:32.539620+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.29602v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a MMRAG framework that includes a module to assess retrieval necessity and filter noisy retrievals, tangentially touching noisy retrieval and adaptive retrieval.\", \"why_not_or_caveat\": \"Primarily a general MMRAG method paper, not focused on robustness analysis, adversarial settings, calibration, or systematic evaluation under unreliable evidence. Suspicious arXiv ID (2605.xxxxx) suggests possible quality concerns.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.06002v3",
+  "title": "Deterministic Legal Agents: A Canonical Primitive API for Auditable Reasoning over Temporal Knowledge Graphs",
+  "authors": "Hudson de Martim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.06002v3",
+  "local_pdf": "pdfs/2025_hudson_de_martim_deterministic_legal_agents_a_canonical_primitive_api_for_auditable_reasoning_over_tempor_9a3511e4.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a deterministic API over temporal knowledge graphs to avoid unreliable retrieval behavior in legal RAG, touching on auditability and reducing LLM-induced retrieval errors.",
+  "why_not_or_caveat": "Domain-specific architectural specification without empirical evaluation; not directly about noise, conflict, attacks, or calibration in general RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.452941+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.06002v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a deterministic API over temporal knowledge graphs to avoid unreliable retrieval behavior in legal RAG, touching on auditability and reducing LLM-induced retrieval errors.\",\n  \"why_not_or_caveat\": \"Domain-specific architectural specification without empirical evaluation; not directly about noise, conflict, attacks, or calibration in general RAG.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

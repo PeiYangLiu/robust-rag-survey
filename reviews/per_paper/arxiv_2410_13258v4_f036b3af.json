@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.13258v4",
+  "title": "How Does Knowledge Selection Help Retrieval Augmented Generation?",
+  "authors": "Xiangci Li; Jessica Ouyang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.13258v4",
+  "local_pdf": "pdfs/2024_xiangci_li_how_does_knowledge_selection_help_retrieval_augmented_generation_f036b3af.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Empirically analyzes how knowledge selection (reranking/filtering) and the mix of gold vs distractor passages affect RAG generation quality, directly informing noisy retrieval and distraction robustness.",
+  "why_not_or_caveat": "Focuses on selection/recall trade-offs rather than adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and distraction",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:00.646800+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.13258v4\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Empirically analyzes how knowledge selection (reranking/filtering) and the mix of gold vs distractor passages affect RAG generation quality, directly informing noisy retrieval and distraction robustness.\",\n  \"why_not_or_caveat\": \"Focuses on selection/recall trade-offs rather than adversarial or conflict settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and distraction\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

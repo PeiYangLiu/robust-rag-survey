@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.17902v1",
+  "title": "LAST-RAG: Literature-Anchored Stochastic Trajectory Retrieval-Augmented Generation for Knowledge-Conditioned Degradation Model Selection",
+  "authors": "Hanbyeol Park; Hyerim Bae",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17902v1",
+  "local_pdf": "pdfs/2026_hanbyeol_park_last_rag_literature_anchored_stochastic_trajectory_retrieval_augmented_generation_for_kn_e809ec8f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to degradation model selection for RUL prediction; not about RAG robustness, noise, conflict, or calibration in the LLM/IR sense.",
+  "why_not_or_caveat": "Domain application in prognostics; unrelated to robust RAG topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.317319+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.17902v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to degradation model selection for RUL prediction; not about RAG robustness, noise, conflict, or calibration in the LLM/IR sense.\",\"why_not_or_caveat\":\"Domain application in prognostics; unrelated to robust RAG topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

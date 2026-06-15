@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.24830v3",
+  "title": "Improving Reliability and Explainability of Medical Question Answering through Atomic Fact Checking in Retrieval-Augmented LLMs",
+  "authors": "Juraj Vladika; Annika Domres; Mai Nguyen; Rebecca Moser; Jana Nano; Felix Busch; Lisa C. Adams; Keno K. Bressem; Denise Bernhardt; Stephanie E. Combs; Kai J. Borm; Florian Matthes; Jan C. Peeken",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.24830v3",
+  "local_pdf": "pdfs/2025_juraj_vladika_improving_reliability_and_explainability_of_medical_question_answering_through_atomic_fa_f856f8f0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes atomic fact-checking post-hoc to detect and correct hallucinations in medical RAG, addressing reliability and explainability of retrieved-grounded answers.",
+  "why_not_or_caveat": "Domain-specific (medical) application; not a general robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Hallucination Correction",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.097663+00:00",
+  "raw_response": "{\"key\": \"arxiv-2505.24830v3\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes atomic fact-checking post-hoc to detect and correct hallucinations in medical RAG, addressing reliability and explainability of retrieved-grounded answers.\", \"why_not_or_caveat\": \"Domain-specific (medical) application; not a general robustness study.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control / Hallucination Correction\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

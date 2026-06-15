@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.11956v3",
+  "title": "Investigating Retrieval-Augmented Generation Systems on Unanswerable, Uncheatable, Realistic, Multi-hop Queries",
+  "authors": "Gabrielle Kaili-May Liu; Bryan Li; Arman Cohan; William Gantt Walden; Eugene Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.11956v3",
+  "local_pdf": "pdfs/2025_gabrielle_kaili_may_liu_investigating_retrieval_augmented_generation_systems_on_unanswerable_uncheatable_realist_14e8bfc9.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark pipeline for unanswerable, multi-hop RAG queries, testing systems' ability to reject out-of-scope queries and identify retrieval/reasoning failures—directly relevant to OOD/uncertainty and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Focused on benchmark construction rather than methods for robustness or calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:18.372543+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.11956v3\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"ood_uncertainty\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a benchmark pipeline for unanswerable, multi-hop RAG queries, testing systems' ability to reject out-of-scope queries and identify retrieval/reasoning failures—directly relevant to OOD/uncertainty and evaluation under unreliable evidence.\",\"why_not_or_caveat\":\"Focused on benchmark construction rather than methods for robustness or calibration.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

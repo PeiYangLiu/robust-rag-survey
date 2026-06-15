@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.00824v2",
+  "title": "ScholarCopilot: Training Large Language Models for Academic Writing with Accurate Citations",
+  "authors": "Yubo Wang; Xueguang Ma; Ping Nie; Huaye Zeng; Zhiheng Lyu; Yuxuan Zhang; Benjamin Schneider; Yi Lu; Xiang Yue; Wenhu Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.00824v2",
+  "local_pdf": "pdfs/2025_yubo_wang_scholarcopilot_training_large_language_models_for_academic_writing_with_accurate_citatio_9a694013.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a unified retrieval-generation model for academic writing with citations; dynamically decides when to retrieve, which tangentially touches on calibration/control.",
+  "why_not_or_caveat": "Focuses on application (academic writing) rather than robustness, noise, conflict, attacks, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:11.273702+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.00824v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a unified retrieval-generation model for academic writing with citations; dynamically decides when to retrieve, which tangentially touches on calibration/control.\",\"why_not_or_caveat\":\"Focuses on application (academic writing) rather than robustness, noise, conflict, attacks, or calibration under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

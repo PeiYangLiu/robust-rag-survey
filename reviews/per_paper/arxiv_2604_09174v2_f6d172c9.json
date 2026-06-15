@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.09174v2",
+  "title": "Facet-Level Tracing of Evidence Uncertainty and Hallucination in RAG",
+  "authors": "Passant Elchafei; Monorama Swain; Shahed Masoudian; Markus Schedl",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.09174v2",
+  "local_pdf": "pdfs/2026_passant_elchafei_facet_level_tracing_of_evidence_uncertainty_and_hallucination_in_rag_f6d172c9.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Introduces a facet-level diagnostic framework that traces evidence uncertainty and retrieval-generation misalignment in RAG, characterizing failure modes such as evidence absence, misalignment, and parametric-knowledge overrides. Directly relevant to knowledge conflict, uncertainty, and evaluation of RAG faithfulness.",
+  "why_not_or_caveat": "Diagnostic/analysis rather than a defense or new method; limited datasets.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Diagnostics of Evidence Usage",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:47.999067+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.09174v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"ood_uncertainty\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Introduces a facet-level diagnostic framework that traces evidence uncertainty and retrieval-generation misalignment in RAG, characterizing failure modes such as evidence absence, misalignment, and parametric-knowledge overrides. Directly relevant to knowledge conflict, uncertainty, and evaluation of RAG faithfulness.\",\n  \"why_not_or_caveat\": \"Diagnostic/analysis rather than a defense or new method; limited datasets.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Diagnostics of Evidence Usage\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

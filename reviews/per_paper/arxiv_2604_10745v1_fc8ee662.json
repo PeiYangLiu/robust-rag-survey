@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.10745v1",
+  "title": "How You Ask Matters! Adaptive RAG Robustness to Query Variations",
+  "authors": "Yunah Jang; Megha Sundriyal; Kyomin Jung; Meeyoung Cha",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.10745v1",
+  "local_pdf": "pdfs/2026_yunah_jang_how_you_ask_matters_adaptive_rag_robustness_to_query_variations_fc8ee662.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark evaluating Adaptive RAG robustness to semantically equivalent query variations, measuring stability of retrieval decisions (when to retrieve) and answer quality—directly relevant to calibration/control and evaluation under unreliable inputs.",
+  "why_not_or_caveat": "Focuses on query-side variation rather than evidence-side noise/conflict/attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:01.206266+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.10745v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a benchmark evaluating Adaptive RAG robustness to semantically equivalent query variations, measuring stability of retrieval decisions (when to retrieve) and answer quality—directly relevant to calibration/control and evaluation under unreliable inputs.\",\"why_not_or_caveat\":\"Focuses on query-side variation rather than evidence-side noise/conflict/attacks.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

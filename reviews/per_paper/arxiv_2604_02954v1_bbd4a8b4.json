@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.02954v1",
+  "title": "LogicPoison: Logical Attacks on Graph Retrieval-Augmented Generation",
+  "authors": "Yilin Xiao; Jin Chen; Qinggang Zhang; Yujing Zhang; Chuang Zhou; Longhao Yang; Lingfei Ren; Xin Yang; Xiao Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.02954v1",
+  "local_pdf": "pdfs/2026_yilin_xiao_logicpoison_logical_attacks_on_graph_retrieval_augmented_generation_bbd4a8b4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel poisoning attack against GraphRAG that corrupts logical/topological structure, expanding the adversarial corruption taxonomy beyond text injection.",
+  "why_not_or_caveat": "Focused specifically on GraphRAG variant; no defense proposed.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.847580+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.02954v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a novel poisoning attack against GraphRAG that corrupts logical/topological structure, expanding the adversarial corruption taxonomy beyond text injection.\",\n  \"why_not_or_caveat\": \"Focused specifically on GraphRAG variant; no defense proposed.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

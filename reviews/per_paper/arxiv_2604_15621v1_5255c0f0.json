@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.15621v1",
+  "title": "Rethinking the Necessity of Adaptive Retrieval-Augmented Generation through the Lens of Adaptive Listwise Ranking",
+  "authors": "Jun Feng; Jiahui Tang; Zhicheng He; Hang Lv; Hongchao Gu; Hao Wang; Xuezhi Yang; Shuai Fang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.15621v1",
+  "local_pdf": "pdfs/2026_jun_feng_rethinking_the_necessity_of_adaptive_retrieval_augmented_generation_through_the_lens_of_5255c0f0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an adaptive listwise reranker with passage dropout that filters noisy retrieved passages and decides when retrieval is unnecessary, directly addressing noise filtering and adaptive retrieval control in RAG.",
+  "why_not_or_caveat": "Focus is on efficiency/adaptive ranking rather than adversarial or conflict robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Adaptive Retrieval",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:24.975411+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.15621v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an adaptive listwise reranker with passage dropout that filters noisy retrieved passages and decides when retrieval is unnecessary, directly addressing noise filtering and adaptive retrieval control in RAG.\",\"why_not_or_caveat\":\"Focus is on efficiency/adaptive ranking rather than adversarial or conflict robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control / Adaptive Retrieval\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

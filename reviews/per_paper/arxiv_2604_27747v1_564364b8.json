@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.27747v1",
+  "title": "Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation",
+  "authors": "Jiaju Chen; Chongming Gao; Chenxiao Fan; Haoyan Liu; Qingpeng Cai; Peng Jiang; Xiangnan He",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.27747v1",
+  "local_pdf": "pdfs/2026_jiaju_chen_position_aware_drafting_for_inference_acceleration_in_llm_based_generative_list_wise_rec_564364b8.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper focuses on speculative decoding for generative recommendation, unrelated to RAG robustness.",
+  "why_not_or_caveat": "No connection to retrieval robustness, conflict, calibration, or adversarial evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:34.663506+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.27747v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper focuses on speculative decoding for generative recommendation, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"No connection to retrieval robustness, conflict, calibration, or adversarial evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

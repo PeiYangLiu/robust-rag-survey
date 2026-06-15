@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.13122v1",
+  "title": "Responsible AI for General-Purpose Systems: Overview, Challenges, and A Path Forward",
+  "authors": "Gourab K Patro; Himanshi Agrawal; Himanshu Gharat; Supriya Panigrahi; Nim Sherpa; Vishal Vaddina; Dagnachew Birru",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.13122v1",
+  "local_pdf": "pdfs/2026_gourab_k_patro_responsible_ai_for_general_purpose_systems_overview_challenges_and_a_path_forward_1d5cacb9.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Position paper on Responsible AI for general-purpose systems that briefly mentions RAG as one technique toward C2V2 desiderata, but does not focus on RAG robustness.",
+  "why_not_or_caveat": "Too broad; not specifically about robust RAG, noisy retrieval, conflict, or adversarial evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:01.183141+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.13122v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"Position paper on Responsible AI for general-purpose systems that briefly mentions RAG as one technique toward C2V2 desiderata, but does not focus on RAG robustness.\",\"why_not_or_caveat\":\"Too broad; not specifically about robust RAG, noisy retrieval, conflict, or adversarial evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

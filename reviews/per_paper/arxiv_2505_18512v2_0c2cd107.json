@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.18512v2",
+  "title": "AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking",
+  "authors": "Soyoung Yoon; Gyuwan Kim; Gyu-Hwung Cho; Seung-won Hwang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.18512v2",
+  "local_pdf": "pdfs/2025_soyoung_yoon_acurank_uncertainty_aware_adaptive_computation_for_listwise_reranking_0c2cd107.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes uncertainty-aware adaptive listwise reranking using Bayesian TrueSkill, relevant to retrieval quality and confidence-driven computation that could improve RAG evidence reliability.",
+  "why_not_or_caveat": "Focused on reranking efficiency rather than robustness of RAG under noisy/adversarial/conflicting evidence; uncertainty is over ranking, not generation.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:17.921884+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.18512v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes uncertainty-aware adaptive listwise reranking using Bayesian TrueSkill, relevant to retrieval quality and confidence-driven computation that could improve RAG evidence reliability.\",\n  \"why_not_or_caveat\": \"Focused on reranking efficiency rather than robustness of RAG under noisy/adversarial/conflicting evidence; uncertainty is over ranking, not generation.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and control\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.17778v1",
+  "title": "TeleEmbedBench: A Multi-Corpus Embedding Benchmark for RAG in Telecommunications",
+  "authors": "Pranshav Gajjar; Vijay K Shah",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.17778v1",
+  "local_pdf": "pdfs/2026_pranshav_gajjar_teleembedbench_a_multi_corpus_embedding_benchmark_for_rag_in_telecommunications_94a3891e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a domain-specific embedding benchmark with a noisy-query subset (TeleEmbedBench-Clean) to test robustness against incomplete user queries and cross-domain interference.",
+  "why_not_or_caveat": "Primarily a telecom-domain embedding benchmark; robustness aspects are narrow and secondary, not focused on the broader robust-RAG concerns of conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks for noisy retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:23.481478+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.17778v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces a domain-specific embedding benchmark with a noisy-query subset (TeleEmbedBench-Clean) to test robustness against incomplete user queries and cross-domain interference.\", \"why_not_or_caveat\": \"Primarily a telecom-domain embedding benchmark; robustness aspects are narrow and secondary, not focused on the broader robust-RAG concerns of conflict, adversaries, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and benchmarks for noisy retrieval\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

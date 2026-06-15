@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.09895v1",
+  "title": "Simulator and Experience Enhanced Diffusion Model for Comprehensive ECG Generation",
+  "authors": "Xiaoda Wang; Kaiqiao Han; Yuhao Xu; Xiao Luo; Yizhou Sun; Wei Wang; Carl Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.09895v1",
+  "local_pdf": "pdfs/2025_xiaoda_wang_simulator_and_experience_enhanced_diffusion_model_for_comprehensive_ecg_generation_83e3defc.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper applies retrieval-augmented LLM conditioning to ECG generation; does not study RAG robustness, conflict, calibration, or attacks.",
+  "why_not_or_caveat": "Out of scope: medical signal generation application.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:59.283358+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.09895v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper applies retrieval-augmented LLM conditioning to ECG generation; does not study RAG robustness, conflict, calibration, or attacks.\",\"why_not_or_caveat\":\"Out of scope: medical signal generation application.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

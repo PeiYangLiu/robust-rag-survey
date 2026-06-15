@@ -1,0 +1,14 @@
+field,n,agreement,kappa_or_score,metric
+full_text_checked,274,1.0,1.0,cohen_kappa
+screen_in_scope,274,0.9963503649635036,0.9212190914318564,cohen_kappa
+primary_failure_type,274,0.9708029197080292,0.9610802365014827,cohen_kappa
+method_family,274,0.8941605839416058,0.8621060669165624,cohen_kappa
+intervention_point,274,0.9343065693430657,0.9208181482492334,cohen_kappa
+evaluation_type,274,0.948905109489051,0.9287465636377145,cohen_kappa
+evidence_strength,274,0.9781021897810219,0.948449405788467,cohen_kappa
+is_core_candidate,274,0.916058394160584,0.8033697347893917,cohen_kappa
+include_in_evidence_map,274,0.9927007299270073,0.8533975387907975,cohen_kappa
+relevance_level,274,,0.8015598885793872,linear_weighted_kappa
+confidence_1_to_5,274,,0.8293233668146072,linear_weighted_kappa
+secondary_failure_types,274,0.791970802919708,0.8318126520681265,exact_match / mean_jaccard
+reproducibility_evidence,274,0.10583941605839416,0.2027068126520681,exact_match / mean_jaccard

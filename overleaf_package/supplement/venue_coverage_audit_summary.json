@@ -1,0 +1,30 @@
+{
+  "total_candidates": 51,
+  "in_core100": 6,
+  "in_survey300": 14,
+  "in_evidence_map": 13,
+  "not_in_survey300": 37,
+  "by_venue": {
+    "ACL": 11,
+    "CCS": 1,
+    "COLING": 4,
+    "EMNLP": 17,
+    "ICLR": 1,
+    "KDD": 1,
+    "NAACL": 4,
+    "SIGIR": 9,
+    "WSDM": 1,
+    "WWW": 3
+  },
+  "misses_by_venue": {
+    "ACL": 8,
+    "CCS": 1,
+    "COLING": 2,
+    "EMNLP": 11,
+    "KDD": 1,
+    "NAACL": 3,
+    "SIGIR": 9,
+    "WSDM": 1,
+    "WWW": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.15543v3",
+  "title": "ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation",
+  "authors": "Pengcheng Huang; Zhenghao Liu; Yukun Yan; Haiyan Zhao; Xiaoyuan Yi; Hao Chen; Zhiyuan Liu; Maosong Sun; Tong Xiao; Ge Yu; Chenyan Xiong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.15543v3",
+  "local_pdf": "pdfs/2025_pengcheng_huang_parammute_suppressing_knowledge_critical_ffns_for_faithful_retrieval_augmented_generatio_801c460f.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly addresses parametric vs retrieved knowledge conflict by suppressing FFNs linked to unfaithful generation, and introduces CoFaithfulQA benchmark for faithfulness under conflict.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:30.651214+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.15543v3\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly addresses parametric vs retrieved knowledge conflict by suppressing FFNs linked to unfaithful generation, and introduces CoFaithfulQA benchmark for faithfulness under conflict.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

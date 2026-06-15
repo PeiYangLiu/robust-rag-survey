@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.14032v1",
+  "title": "Vgent: Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding",
+  "authors": "Xiaoqian Shen; Wenxuan Zhang; Jun Chen; Mohamed Elhoseiny",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.14032v1",
+  "local_pdf": "pdfs/2025_xiaoqian_shen_vgent_graph_based_retrieval_reasoning_augmented_generation_for_long_video_understanding_0a7a1b99.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes graph-based RAG for long video understanding with a reasoning step to reduce retrieval noise, tangentially related to noisy retrieval.",
+  "why_not_or_caveat": "Focus is on video understanding application rather than robustness of RAG under unreliable evidence; not central to survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:38.886924+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.14032v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\",\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes graph-based RAG for long video understanding with a reasoning step to reduce retrieval noise, tangentially related to noisy retrieval.\",\"why_not_or_caveat\":\"Focus is on video understanding application rather than robustness of RAG under unreliable evidence; not central to survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

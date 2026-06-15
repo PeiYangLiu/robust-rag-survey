@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2310.01061",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2310.01061)\\] Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2310.01061",
+  "local_pdf": "pdfs/na_arxiv_2310_01061_arxiv_https_arxiv_org_abs_2310_01061_reasoning_on_graphs_faithful_and_interpreta_14ef4baa.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KG-grounded planning-retrieval-reasoning framework to reduce LLM hallucinations in KGQA.",
+  "why_not_or_caveat": "Does not directly address robustness under noisy/conflicting/adversarial evidence or calibration; it's a KG-RAG method for faithful reasoning.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:39.277471+00:00",
+  "raw_response": "{\"key\":\"arxiv-2310.01061\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a KG-grounded planning-retrieval-reasoning framework to reduce LLM hallucinations in KGQA.\",\"why_not_or_caveat\":\"Does not directly address robustness under noisy/conflicting/adversarial evidence or calibration; it's a KG-RAG method for faithful reasoning.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.11974v1",
+  "title": "Towards Order Fairness: Mitigating LLMs Order Sensitivity through Dual Group Advantage Optimization",
+  "authors": "Xu Chu; Guanyu Wang; Zhijie Tan; Xinrong Chen; Ziyu Li; Tong Mo; Weiping Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.11974v1",
+  "local_pdf": "pdfs/2026_xu_chu_towards_order_fairness_mitigating_llms_order_sensitivity_through_dual_group_advantage_op_acf0d7a8.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses LLM order sensitivity in RAG contexts, proposes an RL method (DGAO) to improve robustness to passage ordering, and introduces Consistency/Overconfidence metrics relevant to evaluating RAG robustness.",
+  "why_not_or_caveat": "Order bias is only one facet of unreliable evidence; not centrally about noisy/conflicting/adversarial retrieval.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and positional sensitivity in RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:55.568585+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.11974v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Addresses LLM order sensitivity in RAG contexts, proposes an RL method (DGAO) to improve robustness to passage ordering, and introduces Consistency/Overconfidence metrics relevant to evaluating RAG robustness.\",\"why_not_or_caveat\":\"Order bias is only one facet of unreliable evidence; not centrally about noisy/conflicting/adversarial retrieval.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and positional sensitivity in RAG\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

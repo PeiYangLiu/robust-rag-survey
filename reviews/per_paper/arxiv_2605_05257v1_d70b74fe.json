@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05257v1",
+  "title": "Career-Aware Resume Tailoring via Multi-Source Retrieval-Augmented Generation with Provenance Tracking: A Case Study",
+  "authors": "Kumar Abhinav",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05257v1",
+  "local_pdf": "pdfs/2026_kumar_abhinav_career_aware_resume_tailoring_via_multi_source_retrieval_augmented_generation_with_prove_d70b74fe.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to resume tailoring; not a robustness study.",
+  "why_not_or_caveat": "Does not address robustness, conflict, attacks, or calibration beyond a simple confidence threshold in a narrow case study.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:09.236044+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05257v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to resume tailoring; not a robustness study.\",\"why_not_or_caveat\":\"Does not address robustness, conflict, attacks, or calibration beyond a simple confidence threshold in a narrow case study.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

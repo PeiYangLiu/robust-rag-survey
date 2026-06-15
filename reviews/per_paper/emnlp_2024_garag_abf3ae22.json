@@ -1,0 +1,27 @@
+{
+  "key": "emnlp-2024-garag",
+  "title": "Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations",
+  "authors": "Sukmin Cho; Soyeong Jeong; Jeongyeon Seo; Taeho Hwang; Jong C. Park",
+  "year": "2024",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2024.findings-emnlp.161/",
+  "local_pdf": "pdfs/2024_sukmin_cho_typos_that_broke_the_rag_s_back_genetic_attack_on_rag_pipeline_by_simulating_documents_i_abf3ae22.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes GARAG, a genetic black-box adversarial attack injecting low-level typos into retrieval corpora to jointly disrupt retriever and reader in RAG, directly addressing robustness to noisy/adversarial documents.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:37.524012+00:00",
+  "raw_response": "{\"key\":\"emnlp-2024-garag\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"noisy_retrieval\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes GARAG, a genetic black-box adversarial attack injecting low-level typos into retrieval corpora to jointly disrupt retriever and reader in RAG, directly addressing robustness to noisy/adversarial documents.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

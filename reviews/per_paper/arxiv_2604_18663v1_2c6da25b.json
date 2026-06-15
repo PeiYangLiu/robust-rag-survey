@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.18663v1",
+  "title": "Beyond Explicit Refusals: Soft-Failure Attacks on Retrieval-Augmented Generation",
+  "authors": "Wentao Zhang; Yan Zhuang; ZhuHang Zheng; Mingfei Zhang; Jiawen Deng; Fuji Ren",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.18663v1",
+  "local_pdf": "pdfs/2026_wentao_zhang_beyond_explicit_refusals_soft_failure_attacks_on_retrieval_augmented_generation_2c6da25b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel soft-failure jamming attack on RAG via adversarial document injection, exploiting safety alignment to induce non-informative answers while evading detection. Directly relevant to adversarial corruption and availability threats in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Jamming Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.583736+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.18663v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a novel soft-failure jamming attack on RAG via adversarial document injection, exploiting safety alignment to induce non-informative answers while evading detection. Directly relevant to adversarial corruption and availability threats in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning and Jamming Attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

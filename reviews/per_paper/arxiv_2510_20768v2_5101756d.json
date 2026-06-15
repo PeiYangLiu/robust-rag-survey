@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.20768v2",
+  "title": "RAGRank: Using PageRank to Counter Poisoning in CTI LLM Pipelines",
+  "authors": "Austin Jia; Avaneesh Ramesh; Zain Shamsi; Daniel Zhang; Alex Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.20768v2",
+  "local_pdf": "pdfs/2025_austin_jia_ragrank_using_pagerank_to_counter_poisoning_in_cti_llm_pipelines_5101756d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a PageRank-based source credibility defense against RAG corpus poisoning attacks, directly relevant to the adversarial corruption category.",
+  "why_not_or_caveat": "Domain-specific to CTI, but methodology generalizes.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption Defenses",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.486133+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.20768v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a PageRank-based source credibility defense against RAG corpus poisoning attacks, directly relevant to the adversarial corruption category.\",\"why_not_or_caveat\":\"Domain-specific to CTI, but methodology generalizes.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption Defenses\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

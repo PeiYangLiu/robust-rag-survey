@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2405.20485",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2405.20485)] Phantom: General Backdoor Attacks on Retrieval Augmented Language Generation",
+  "authors": "",
+  "year": "2048",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.20485",
+  "local_pdf": "pdfs/2048_arxiv_2405_20485_ins_arxiv_ins_https_arxiv_org_abs_2405_20485_phantom_general_backdoor_attacks_on_8468b110.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Phantom introduces a backdoor poisoning attack on RAG knowledge bases that injects a single malicious document triggered by natural query tokens to induce refusal, bias, exfiltration, and harmful outputs.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning and Backdoors",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.472141+00:00",
+  "raw_response": "{\"key\": \"arxiv-2405.20485\", \"relevance_score\": 5, \"decision\": \"core\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"attack\", \"why_relevant\": \"Phantom introduces a backdoor poisoning attack on RAG knowledge bases that injects a single malicious document triggered by natural query tokens to induce refusal, bias, exfiltration, and harmful outputs.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"must_discuss\", \"suggested_section\": \"Adversarial Corruption: Poisoning and Backdoors\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.17395v1",
+  "title": "FinDebate: Multi-Agent Collaborative Intelligence for Financial Analysis",
+  "authors": "Tianshi Cai; Guanxu Li; Nijia Han; Ce Huang; Zimu Wang; Changyu Zeng; Yuqi Wang; Jingshi Zhou; Haiyang Zhang; Qi Chen; Yushan Pan; Shuihua Wang; Wei Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.17395v1",
+  "local_pdf": "pdfs/2025_tianshi_cai_findebate_multi_agent_collaborative_intelligence_for_financial_analysis_47a52ed0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG with multi-agent debate for financial analysis, claiming calibrated confidence, but does not systematically study robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Domain application paper; calibration claim is incidental and not rigorously evaluated against unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:16.828393+00:00",
+  "raw_response": "{\"key\": \"arxiv-2509.17395v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Uses RAG with multi-agent debate for financial analysis, claiming calibrated confidence, but does not systematically study robustness, conflict, or calibration.\", \"why_not_or_caveat\": \"Domain application paper; calibration claim is incidental and not rigorously evaluated against unreliable evidence.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

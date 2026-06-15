@@ -1,0 +1,26 @@
+Control-condition instructions
+
+You will judge whether pairs of robust-RAG papers can be directly compared.
+Use your own expert criteria. Do not use the five-coordinate protocol unless it
+was separately provided to you by the study administrator.
+
+For each pair, choose one verdict:
+
+- valid: the two papers can be directly compared as substitutes for the same
+  robustness question.
+- partial: the papers are related but compare only as complementary components,
+  settings, or partial overlaps.
+- invalid: the papers answer different questions or define incompatible
+  assumptions, so a direct ranking would be misleading.
+- under-specified: the available paper descriptions omit information needed to
+  decide.
+
+For each decision, record:
+
+1. verdict
+2. confidence from 1 to 5
+3. decision time in seconds
+4. a short rationale
+5. optional error type if you noticed a missing or ambiguous assumption
+
+Please do not discuss the task with other participants during annotation.

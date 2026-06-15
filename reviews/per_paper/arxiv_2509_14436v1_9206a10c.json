@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.14436v1",
+  "title": "When Content is Goliath and Algorithm is David: The Style and Semantic Effects of Generative Search Engine",
+  "authors": "Lijia Ma; Juan Qin; Xingchen Xu; Yong Tan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.14436v1",
+  "local_pdf": "pdfs/2025_lijia_ma_when_content_is_goliath_and_algorithm_is_david_the_style_and_semantic_effects_of_generat_9206a10c.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies citation preferences of generative search engines (perplexity bias, semantic homogeneity), tangentially related to RAG behavior but not robustness, reliability, or unreliable evidence.",
+  "why_not_or_caveat": "Focuses on SEO/GEO and user impacts, not on noise, conflict, attacks, calibration, or evaluation of robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:22.509804+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.14436v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies citation preferences of generative search engines (perplexity bias, semantic homogeneity), tangentially related to RAG behavior but not robustness, reliability, or unreliable evidence.\",\"why_not_or_caveat\":\"Focuses on SEO/GEO and user impacts, not on noise, conflict, attacks, calibration, or evaluation of robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.22757v1",
+  "title": "StratRAG: A Multi-Hop Retrieval Evaluation Dataset for Retrieval-Augmented Generation Systems",
+  "authors": "Aryan Patodiya",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.22757v1",
+  "local_pdf": "pdfs/2026_aryan_patodiya_stratrag_a_multi_hop_retrieval_evaluation_dataset_for_retrieval_augmented_generation_sys_a30a331f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a multi-hop retrieval benchmark with controlled distractor pools derived from HotpotQA, marginally relevant to noisy retrieval evaluation.",
+  "why_not_or_caveat": "Small-scale, unreviewed benchmark only evaluating BM25/dense/hybrid retrievers; does not study robustness, conflict, attacks, or calibration beyond standard distractor IR metrics.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:57.564189+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.22757v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Provides a multi-hop retrieval benchmark with controlled distractor pools derived from HotpotQA, marginally relevant to noisy retrieval evaluation.\",\n  \"why_not_or_caveat\": \"Small-scale, unreviewed benchmark only evaluating BM25/dense/hybrid retrievers; does not study robustness, conflict, attacks, or calibration beyond standard distractor IR metrics.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

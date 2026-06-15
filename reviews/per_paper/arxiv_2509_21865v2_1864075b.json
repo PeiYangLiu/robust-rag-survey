@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.21865v2",
+  "title": "Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding",
+  "authors": "Seongwoong Shim; Myunsoo Kim; Jae Hyeon Cho; Byung-Jun Lee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21865v2",
+  "local_pdf": "pdfs/2025_seongwoong_shim_beyond_rag_vs_long_context_learning_distraction_aware_retrieval_for_efficient_knowledge_1864075b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a distraction-aware retrieval method that explicitly balances information coverage against distraction from irrelevant passages, directly addressing noisy retrieval and LLM distraction in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction",
+  "confidence": 0.88,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:50.882258+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.21865v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a distraction-aware retrieval method that explicitly balances information coverage against distraction from irrelevant passages, directly addressing noisy retrieval and LLM distraction in RAG.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction\",\"confidence\":0.88}",
+  "skipped_existing": false
+}

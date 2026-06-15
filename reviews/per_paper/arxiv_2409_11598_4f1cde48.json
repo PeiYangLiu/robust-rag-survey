@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.11598",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2409.11598)\\] Towards Fair RAG: On the Impact of Fair Ranking in Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.11598",
+  "local_pdf": "pdfs/na_arxiv_2409_11598_arxiv_https_arxiv_org_abs_2409_11598_towards_fair_rag_on_the_impact_of_fair_rank_4f1cde48.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies fairness of ranking/attribution in RAG, not robustness under unreliable evidence.",
+  "why_not_or_caveat": "Out of scope: fairness/exposure rather than noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:40.221879+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.11598\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies fairness of ranking/attribution in RAG, not robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope: fairness/exposure rather than noise, conflict, adversaries, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

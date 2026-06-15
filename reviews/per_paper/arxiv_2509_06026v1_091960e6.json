@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.06026v1",
+  "title": "DCMI: A Differential Calibration Membership Inference Attack Against Retrieval-Augmented Generation",
+  "authors": "Xinyu Gao; Xiangtao Meng; Yingkai Dong; Zheng Li; Shanqing Guo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.06026v1",
+  "local_pdf": "pdfs/2025_xinyu_gao_dcmi_a_differential_calibration_membership_inference_attack_against_retrieval_augmented_091960e6.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a membership inference attack against RAG retrieval databases, a privacy risk rather than robustness to unreliable evidence.",
+  "why_not_or_caveat": "Focus is on privacy/MIA, not on noise, conflict, distraction, or calibration of RAG outputs.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial threats to RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.841457+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.06026v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a membership inference attack against RAG retrieval databases, a privacy risk rather than robustness to unreliable evidence.\",\"why_not_or_caveat\":\"Focus is on privacy/MIA, not on noise, conflict, distraction, or calibration of RAG outputs.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial threats to RAG\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

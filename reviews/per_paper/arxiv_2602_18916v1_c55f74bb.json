@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.18916v1",
+  "title": "Adaptive Collaboration of Arena-Based Argumentative LLMs for Explainable and Contestable Legal Reasoning",
+  "authors": "Hoang-Loc Cao; Phuc Ho; Truong Thanh Hung Nguyen; Phuc Truong Loc Nguyen; Dinh Thien Loc Nguyen; Hung Cao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.18916v1",
+  "local_pdf": "pdfs/2026_hoang_loc_cao_adaptive_collaboration_of_arena_based_argumentative_llms_for_explainable_and_contestable_c55f74bb.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper proposes a multi-agent argumentation framework for legal reasoning; does not study RAG robustness, conflict, noise, or calibration.",
+  "why_not_or_caveat": "Only mentions RAG as a baseline; focus is explainability/contestability in legal domain.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:37.276201+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.18916v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper proposes a multi-agent argumentation framework for legal reasoning; does not study RAG robustness, conflict, noise, or calibration.\",\"why_not_or_caveat\":\"Only mentions RAG as a baseline; focus is explainability/contestability in legal domain.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

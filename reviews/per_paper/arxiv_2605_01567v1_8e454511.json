@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.01567v1",
+  "title": "Feedback-Normalized Developer Memory for Reinforcement-Learning Coding Agents: A Safety-Gated MCP Architecture",
+  "authors": "Mehmet Iscan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01567v1",
+  "local_pdf": "pdfs/2026_mehmet_iscan_feedback_normalized_developer_memory_for_reinforcement_learning_coding_agents_a_safety_g_8e454511.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions RAG limitations and uses hard negatives in a memory benchmark, but focus is on developer-memory architecture for RL coding agents, not robust RAG.",
+  "why_not_or_caveat": "Application-specific memory system for coding agents; robustness aspects are tangential to RAG under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:32.816500+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.01567v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Mentions RAG limitations and uses hard negatives in a memory benchmark, but focus is on developer-memory architecture for RL coding agents, not robust RAG.\",\"why_not_or_caveat\":\"Application-specific memory system for coding agents; robustness aspects are tangential to RAG under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

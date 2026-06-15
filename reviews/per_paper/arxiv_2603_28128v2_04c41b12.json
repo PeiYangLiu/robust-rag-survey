@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.28128v2",
+  "title": "ORACAL: A Robust and Explainable Multimodal Framework for Smart Contract Vulnerability Detection with Causal Graph Enrichment",
+  "authors": "Tran Duong Minh Dai; Triet Huynh Minh Le; M. Ali Babar; Van-Hau Pham; Phan The Duy",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.28128v2",
+  "local_pdf": "pdfs/2026_tran_duong_minh_dai_oracal_a_robust_and_explainable_multimodal_framework_for_smart_contract_vulnerability_de_04c41b12.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG as a component in smart contract vulnerability detection but does not study RAG robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Application paper; RAG is only used to enrich graph features, not analyzed for reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.329751+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.28128v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG as a component in smart contract vulnerability detection but does not study RAG robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Application paper; RAG is only used to enrich graph features, not analyzed for reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

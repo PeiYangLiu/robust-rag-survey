@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.13772v2",
+  "title": "Who Taught the Lie? Responsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+  "authors": "Baolei Zhang; Haoran Xin; Yuxi Chen; Zhuqing Liu; Biao Yi; Tong Li; Lihai Nie; Zheli Liu; Minghong Fang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.13772v2",
+  "local_pdf": "pdfs/2025_baolei_zhang_who_taught_the_lie_responsibility_attribution_for_poisoned_knowledge_in_retrieval_augmen_3f5cba90.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a black-box responsibility attribution framework to identify poisoned texts in RAG knowledge bases, directly addressing adversarial corruption and forensics under unreliable evidence.",
+  "why_not_or_caveat": "Focuses on post-hoc attribution rather than prevention or calibration; narrower than general robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses and Forensics",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:38.484862+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.13772v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a black-box responsibility attribution framework to identify poisoned texts in RAG knowledge bases, directly addressing adversarial corruption and forensics under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focuses on post-hoc attribution rather than prevention or calibration; narrower than general robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses and Forensics\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

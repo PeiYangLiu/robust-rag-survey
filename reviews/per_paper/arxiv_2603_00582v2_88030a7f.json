@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.00582v2",
+  "title": "Super Research: Answering Highly Complex Questions with Large Language Models through Super Deep and Super Wide Research",
+  "authors": "Yubo Dong; Nianhao You; Yuxuan Hou; Zixun Sun; Yue Zhang; Liang Zhang; Siyuan Zhao; Hehe Fan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.00582v2",
+  "local_pdf": "pdfs/2026_yubo_dong_super_research_answering_highly_complex_questions_with_large_language_models_through_sup_88030a7f.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a benchmark for complex deep/wide research tasks involving reconciliation of conflicting evidence over many retrieval steps, touching tangentially on robustness and uncertainty expression.",
+  "why_not_or_caveat": "Focus is on long-horizon complex research capability rather than core robustness issues (noise, attacks, calibration) under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:38.431767+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.00582v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Proposes a benchmark for complex deep/wide research tasks involving reconciliation of conflicting evidence over many retrieval steps, touching tangentially on robustness and uncertainty expression.\", \"why_not_or_caveat\": \"Focus is on long-horizon complex research capability rather than core robustness issues (noise, attacks, calibration) under unreliable evidence.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and benchmarks\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

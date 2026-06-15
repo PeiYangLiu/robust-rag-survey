@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.05721v1",
+  "title": "From Issues to Insights: RAG-based Explanation Generation from Software Engineering Artifacts",
+  "authors": "Daniel Pöttgen; Mersedeh Sadeghi; Max Unterbusch; Andreas Vogelsang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05721v1",
+  "local_pdf": "pdfs/2026_daniel_p_ttgen_from_issues_to_insights_rag_based_explanation_generation_from_software_engineering_artif_1c633b51.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to generate explanations from issue-tracking data; does not study robustness, conflict, noise, or calibration.",
+  "why_not_or_caveat": "Pure application paper without robustness focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:29.869452+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.05721v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to generate explanations from issue-tracking data; does not study robustness, conflict, noise, or calibration.\",\"why_not_or_caveat\":\"Pure application paper without robustness focus.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

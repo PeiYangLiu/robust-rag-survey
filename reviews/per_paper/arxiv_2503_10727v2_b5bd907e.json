@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.10727v2",
+  "title": "Word-level Annotation of GDPR Transparency Compliance in Privacy Policies using Large Language Models",
+  "authors": "Thomas Cory; Wolf Rieder; Julia Krämer; Philip Raschke; Patrick Herbke; Axel Küpper",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.10727v2",
+  "local_pdf": "pdfs/2025_thomas_cory_word_level_annotation_of_gdpr_transparency_compliance_in_privacy_policies_using_large_la_b5bd907e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG within a GDPR compliance annotation pipeline; does not study RAG robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure application of RAG to privacy policy annotation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:33.054518+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.10727v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG within a GDPR compliance annotation pipeline; does not study RAG robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure application of RAG to privacy policy annotation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

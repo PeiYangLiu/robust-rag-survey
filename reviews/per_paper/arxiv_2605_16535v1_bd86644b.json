@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.16535v1",
+  "title": "RAPT: Retrieval-Augmented Post-hoc Thresholding for Multi-Label Classification",
+  "authors": "Lasal Jayawardena; Nirmalie Wiratunga; Ikechukwu Nkisi-Orji; Darren Nicol",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.16535v1",
+  "local_pdf": "pdfs/2026_lasal_jayawardena_rapt_retrieval_augmented_post_hoc_thresholding_for_multi_label_classification_bd86644b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper applies retrieval-augmented case-based reasoning to multi-label classification thresholding, not to RAG robustness with LLMs.",
+  "why_not_or_caveat": "Not about LLM RAG robustness, noise, conflict, attacks, or calibration of generation under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:27.052659+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.16535v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper applies retrieval-augmented case-based reasoning to multi-label classification thresholding, not to RAG robustness with LLMs.\",\"why_not_or_caveat\":\"Not about LLM RAG robustness, noise, conflict, attacks, or calibration of generation under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

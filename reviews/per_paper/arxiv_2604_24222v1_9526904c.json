@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.24222v1",
+  "title": "MEMCoder: Multi-dimensional Evolving Memory for Private-Library-Oriented Code Generation",
+  "authors": "Mofei Li; Taozhi Chen; Guowei Yang; Jia Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.24222v1",
+  "local_pdf": "pdfs/2026_mofei_li_memcoder_multi_dimensional_evolving_memory_for_private_library_oriented_code_generation_9526904c.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG with memory evolution for private-library code generation; mentions resolving knowledge conflicts but focused on domain adaptation, not robustness under unreliable evidence.",
+  "why_not_or_caveat": "Application-oriented; does not study noise, attacks, calibration, or conflict in a robustness sense.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.163100+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.24222v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG with memory evolution for private-library code generation; mentions resolving knowledge conflicts but focused on domain adaptation, not robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Application-oriented; does not study noise, attacks, calibration, or conflict in a robustness sense.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

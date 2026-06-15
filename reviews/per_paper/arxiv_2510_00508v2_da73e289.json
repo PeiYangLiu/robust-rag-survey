@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.00508v2",
+  "title": "Copy-Paste to Mitigate Large Language Model Hallucinations",
+  "authors": "Yongchao Long; Xian Wu; Yingying Zhang; Xianbin Wen; Yuxi Zhou; Shenda Hong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.00508v2",
+  "local_pdf": "pdfs/2025_yongchao_long_copy_paste_to_mitigate_large_language_model_hallucinations_da73e289.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a training method (CopyPasteLLM) to improve contextual faithfulness under knowledge conflict, addressing the parametric-vs-contextual conflict problem central to robust RAG.",
+  "why_not_or_caveat": "Focuses on faithfulness/hallucination mitigation rather than broader robustness like noise or adversarial attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Context Compliance",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.579254+00:00",
+  "raw_response": "{\"key\": \"arxiv-2510.00508v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"knowledge_conflict\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a training method (CopyPasteLLM) to improve contextual faithfulness under knowledge conflict, addressing the parametric-vs-contextual conflict problem central to robust RAG.\", \"why_not_or_caveat\": \"Focuses on faithfulness/hallucination mitigation rather than broader robustness like noise or adversarial attacks.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Knowledge Conflict and Context Compliance\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

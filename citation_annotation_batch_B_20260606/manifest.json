@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-06-06T06:15:51+00:00",
+  "packet_id": "citation_annotation_batch_B_20260606",
+  "packet_type": "source_blind_annotation_review",
+  "files": {
+    "citation_annotations.csv": {
+      "rows": 300,
+      "schema": "human_citation_annotation_template"
+    },
+    "citation_annotations.jsonl": {
+      "rows": 300,
+      "schema": "structured_annotations"
+    }
+  },
+  "record_count": 300,
+  "unique_papers": 300,
+  "source_labels": [
+    "B01"
+  ],
+  "decision_counts": {
+    "exclude": 28,
+    "background_only": 22,
+    "main_cite": 115,
+    "appendix_cite": 110,
+    "case_study": 25
+  },
+  "average_confidence_1_5": 4.216666666666667,
+  "schema_note": "Source labels and internal run metadata are excluded from this review packet."
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.22915v1",
+  "title": "Theoretical Foundations and Mitigation of Hallucination in Large Language Models",
+  "authors": "Esmail Gumaan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.22915v1",
+  "local_pdf": "pdfs/2025_esmail_gumaan_theoretical_foundations_and_mitigation_of_hallucination_in_large_language_models_daf98edb.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "survey_related"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Theoretical treatment of hallucination with discussion of detection, calibration, and RAG as mitigation, tangentially related to robust RAG themes.",
+  "why_not_or_caveat": "Not focused on RAG robustness, unreliable evidence, conflict, or attacks; treats RAG only briefly as one mitigation among many.",
+  "recommended_use": "background_only",
+  "suggested_section": "Background: hallucination and calibration",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.725561+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.22915v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"survey_related\"],\"paper_role\":\"theory\",\"why_relevant\":\"Theoretical treatment of hallucination with discussion of detection, calibration, and RAG as mitigation, tangentially related to robust RAG themes.\",\"why_not_or_caveat\":\"Not focused on RAG robustness, unreliable evidence, conflict, or attacks; treats RAG only briefly as one mitigation among many.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Background: hallucination and calibration\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

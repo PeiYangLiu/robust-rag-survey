@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.04458v1",
+  "title": "DoGMaTiQ: Automated Generation of Question-and-Answer Nuggets for Report Evaluation",
+  "authors": "Bryan Li; William Walden; Yu Hou; Gabrielle Kaili-May Liu; Dawn Lawrie; Jame Mayfield; Eugene Yang; Chris Callison-Burch; Laura Dietz",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.04458v1",
+  "local_pdf": "pdfs/2026_bryan_li_dogmatiq_automated_generation_of_question_and_answer_nuggets_for_report_evaluation_2a2c656a.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a nugget-based evaluation pipeline for RAG report generation, peripherally relevant to evaluation methodology but not focused on robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focuses on automatic nugget generation for coverage evaluation, not on unreliable evidence or robustness aspects central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:54.621103+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.04458v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Proposes a nugget-based evaluation pipeline for RAG report generation, peripherally relevant to evaluation methodology but not focused on robustness, noise, conflict, or calibration.\", \"why_not_or_caveat\": \"Focuses on automatic nugget generation for coverage evaluation, not on unreliable evidence or robustness aspects central to the survey.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and Benchmarks\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2602.23184v1",
+  "title": "MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations",
+  "authors": "Sara Rosenthal; Yannis Katsis; Vraj Shah; Lihong He; Lucian Popa; Marina Danilevsky",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.23184v1",
+  "local_pdf": "pdfs/2026_sara_rosenthal_mtrag_un_a_benchmark_for_open_challenges_in_multi_turn_rag_conversations_893faa6a.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "MTRAG-UN benchmarks multi-turn RAG on unanswerable, underspecified, non-standalone questions and unclear responses, directly probing abstention, clarification, and handling of ambiguous/unsupported queries.",
+  "why_not_or_caveat": "Focuses on multi-turn conversational challenges rather than adversarial or noisy retrieval per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation/benchmarks for OOD, abstention, and clarification",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:02.058184+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.23184v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"MTRAG-UN benchmarks multi-turn RAG on unanswerable, underspecified, non-standalone questions and unclear responses, directly probing abstention, clarification, and handling of ambiguous/unsupported queries.\",\n  \"why_not_or_caveat\": \"Focuses on multi-turn conversational challenges rather than adversarial or noisy retrieval per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation/benchmarks for OOD, abstention, and clarification\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

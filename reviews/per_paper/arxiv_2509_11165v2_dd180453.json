@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.11165v2",
+  "title": "Traffic-MLLM: Curiosity-Regularized Supervised Learning for Traffic Scenario Case-Based Reasoning",
+  "authors": "Waikit Xiu; Qiang Lu; Bingchen Liu; Chen Sun; Xiying Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.11165v2",
+  "local_pdf": "pdfs/2025_waikit_xiu_traffic_mllm_curiosity_regularized_supervised_learning_for_traffic_scenario_case_based_r_dd180453.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Retrieval-free MLLM for traffic scenario reasoning; not about RAG robustness.",
+  "why_not_or_caveat": "Explicitly retrieval-free; addresses long-tail traffic reasoning, not unreliable evidence in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:55.828799+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.11165v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Retrieval-free MLLM for traffic scenario reasoning; not about RAG robustness.\",\"why_not_or_caveat\":\"Explicitly retrieval-free; addresses long-tail traffic reasoning, not unreliable evidence in RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.07011v1",
+  "title": "Block Sparse Flash Attention",
+  "authors": "Daniel Ohayon; Itay Lamprecht; Itay Hubara; Israel Cohen; Daniel Soudry; Noam Elata",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.07011v1",
+  "local_pdf": "pdfs/2025_daniel_ohayon_block_sparse_flash_attention_310e67ce.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper proposes a sparse attention kernel for long-context inference; not about RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Out of scope: efficiency method, not addressing unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:18.218067+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.07011v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper proposes a sparse attention kernel for long-context inference; not about RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Out of scope: efficiency method, not addressing unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

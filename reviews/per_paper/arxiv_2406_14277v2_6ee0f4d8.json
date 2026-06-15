@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.14277v2",
+  "title": "QPaug: Question and Passage Augmentation for Open-Domain Question Answering of LLMs",
+  "authors": "Minsang Kim; Cheoneum Park; Seungjun Baek",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.14277v2",
+  "local_pdf": "pdfs/2024_minsang_kim_qpaug_question_and_passage_augmentation_for_open_domain_question_answering_of_llms_6ee0f4d8.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes question/passage augmentation to mitigate poor retrieval quality and distracting passages in ODQA, touching on noisy retrieval issues.",
+  "why_not_or_caveat": "Primarily an ODQA performance method, not a robustness-focused study; does not systematically address noise, conflict, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval mitigation",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:24.053814+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.14277v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes question/passage augmentation to mitigate poor retrieval quality and distracting passages in ODQA, touching on noisy retrieval issues.\",\"why_not_or_caveat\":\"Primarily an ODQA performance method, not a robustness-focused study; does not systematically address noise, conflict, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval mitigation\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.09487v1",
+  "title": "RouteRAG: Efficient Retrieval-Augmented Generation from Text and Graph via Reinforcement Learning",
+  "authors": "Yucan Guo; Miao Su; Saiping Guan; Zihao Sun; Xiaolong Jin; Jiafeng Guo; Xueqi Cheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.09487v1",
+  "local_pdf": "pdfs/2025_yucan_guo_routerag_efficient_retrieval_augmented_generation_from_text_and_graph_via_reinforcement_ff368832.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Uses RL to learn when/what to retrieve from text vs graph, marginally relevant to retrieval control.",
+  "why_not_or_caveat": "Focus is efficiency and hybrid retrieval performance, not robustness to noise, conflict, adversaries, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:11.378572+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.09487v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Uses RL to learn when/what to retrieve from text vs graph, marginally relevant to retrieval control.\",\"why_not_or_caveat\":\"Focus is efficiency and hybrid retrieval performance, not robustness to noise, conflict, adversaries, or calibration under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

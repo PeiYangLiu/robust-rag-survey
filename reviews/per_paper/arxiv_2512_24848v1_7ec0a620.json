@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.24848v1",
+  "title": "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+  "authors": "Srija Mukhopadhyay; Sathwik Reddy; Shruthi Muthukumar; Jisun An; Ponnurangam Kumaraguru",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.24848v1",
+  "local_pdf": "pdfs/2025_srija_mukhopadhyay_privacybench_a_conversational_benchmark_for_evaluating_privacy_in_personalized_ai_7ec0a620.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks privacy leakage in RAG-based personalized assistants, showing retrieval indiscriminately surfaces sensitive content—a reliability concern tangential to robustness.",
+  "why_not_or_caveat": "Focus is privacy/contextual integrity rather than noise, conflict, adversarial corruption, or calibration of evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.441174+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.24848v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"other\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Benchmarks privacy leakage in RAG-based personalized assistants, showing retrieval indiscriminately surfaces sensitive content—a reliability concern tangential to robustness.\",\n  \"why_not_or_caveat\": \"Focus is privacy/contextual integrity rather than noise, conflict, adversarial corruption, or calibration of evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

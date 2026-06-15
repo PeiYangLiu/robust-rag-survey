@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.10413v1",
+  "title": "LADFA: A Framework of Using Large Language Models and Retrieval-Augmented Generation for Personal Data Flow Analysis in Privacy Policies",
+  "authors": "Haiyue Yuan; Nikolay Matyunin; Ali Raza; Shujun Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.10413v1",
+  "local_pdf": "pdfs/2026_haiyue_yuan_ladfa_a_framework_of_using_large_language_models_and_retrieval_augmented_generation_for_469a79a3.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to privacy policy analysis; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure domain application of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:15.393153+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.10413v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to privacy policy analysis; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure domain application of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

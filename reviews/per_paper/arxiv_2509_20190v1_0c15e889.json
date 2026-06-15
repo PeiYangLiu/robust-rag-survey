@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.20190v1",
+  "title": "STAF: Leveraging LLMs for Automated Attack Tree-Based Security Test Generation",
+  "authors": "Tanmay Khule; Stefan Marksteiner; Jose Alguindigue; Hannes Fuchs; Sebastian Fischmeister; Apurva Narayan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.20190v1",
+  "local_pdf": "pdfs/2025_tanmay_khule_staf_leveraging_llms_for_automated_attack_tree_based_security_test_generation_0c15e889.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses self-corrective RAG for automotive security test generation; does not study RAG robustness, conflict, calibration, or attacks on RAG.",
+  "why_not_or_caveat": "Application paper, not about RAG reliability under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:34.020522+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.20190v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses self-corrective RAG for automotive security test generation; does not study RAG robustness, conflict, calibration, or attacks on RAG.\",\"why_not_or_caveat\":\"Application paper, not about RAG reliability under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

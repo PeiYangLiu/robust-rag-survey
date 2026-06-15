@@ -1,0 +1,24 @@
+paper_id,title,field,source_01_label,source_02_label,url
+aip2025,AIP: Subverting Retrieval-Augmented Generation via Adversarial Instructional Prompt,is_core_candidate,0,1,https://arxiv.org/abs/2509.15159
+rrag044,Learning to Filter Context for Retrieval-Augmented Generation,is_core_candidate,1,0,https://arxiv.org/abs/2311.08377v1
+trustworthyRAGSurvey2025,Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey,is_core_candidate,1,0,https://arxiv.org/abs/2502.06872
+rrag102,Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation,is_core_candidate,1,0,https://arxiv.org/abs/2503.06254v2
+rrag107,DeRAG: Black-box Adversarial Attacks on Multiple Retrieval-Augmented Generation Applications via Prompt Injection,is_core_candidate,0,1,https://arxiv.org/abs/2507.15042v1
+rrag109,Chain-of-Thought Poisoning Attacks against R1-based Retrieval-Augmented Generation Systems,is_core_candidate,0,1,https://arxiv.org/abs/2505.16367v1
+rrag117,Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks,is_core_candidate,0,1,https://arxiv.org/abs/2403.03792v2
+rrag125,MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks,is_core_candidate,0,1,https://arxiv.org/abs/2502.17832
+rrag131,Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding,is_core_candidate,1,0,https://arxiv.org/abs/2509.21865v2
+rrag134,"Towards Secure Retrieval-Augmented Generation: A Comprehensive Review of Threats, Defenses and Benchmarks",is_core_candidate,0,1,https://arxiv.org/abs/2603.21654v1
+rrag141,MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations,is_core_candidate,0,1,https://arxiv.org/abs/2602.23184v1
+rrag147,How Large Language Models Balance Internal Knowledge with User and Document Assertions,is_core_candidate,1,0,https://arxiv.org/abs/2604.22193v1
+rrag148,Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG,is_core_candidate,0,1,https://arxiv.org/abs/2601.10923v2
+rrag149,Hidden in the Metadata: Stealth Poisoning Attacks on Multimodal Retrieval-Augmented Generation,is_core_candidate,0,1,https://arxiv.org/abs/2603.00172v1
+rrag154,Can Small Language Models Use What They Retrieve? An Empirical Study of Retrieval Utilization Across Model Scale,is_core_candidate,0,1,https://arxiv.org/abs/2603.11513v1
+rrag160,ALDEN: Boosting Private Data Extraction from Retrieval-Augmented Generation Systems via Active Learning and Distribution Estimation,is_core_candidate,0,1,https://arxiv.org/abs/2605.18762v1
+rrag163,TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation with Knowledge Graphs,is_core_candidate,1,0,https://arxiv.org/abs/2511.10375v1
+rrag172,RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking,is_core_candidate,1,0,https://arxiv.org/abs/2512.23307v1
+rrag183,PRGB Benchmark: A Robust Placeholder-Assisted Algorithm for Benchmarking Retrieval-Augmented Generation,is_core_candidate,0,1,https://arxiv.org/abs/2507.22927v1
+rrag190,LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge,is_core_candidate,0,1,https://arxiv.org/abs/2506.09956v1
+rrag204,Copy-Paste to Mitigate Large Language Model Hallucinations,is_core_candidate,0,1,https://arxiv.org/abs/2510.00508v2
+rrag221,Defense Against Prompt Injection Attack by Leveraging Attack Techniques,is_core_candidate,1,0,https://arxiv.org/abs/2411.00459v6
+rrag227,Merging Generated and Retrieved Knowledge for Open-Domain QA,is_core_candidate,0,1,https://arxiv.org/abs/2310.14393v1

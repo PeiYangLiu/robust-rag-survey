@@ -1,0 +1,28 @@
+{
+  "key": "openreview-ZS4m74kZpH",
+  "title": "\\[[ICLR](https://openreview.net/forum?id=ZS4m74kZpH)\\] Making Retrieval-Augmented Language Models Robust to Irrelevant Context",
+  "authors": "",
+  "year": "",
+  "source": "OpenReview",
+  "url": "https://openreview.net/forum?id=ZS4m74kZpH",
+  "local_pdf": "pdfs/na_openreview_zs4m74kzph_iclr_https_openreview_net_forum_id_zs4m74kzph_making_retrieval_augmented_languag_7d4bca7f.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly addresses RALM robustness to irrelevant/noisy retrieved contexts via NLI-based filtering and fine-tuning with mixed relevant/irrelevant contexts, including multi-hop QA.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy retrieval and distraction mitigation",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:34.984364+00:00",
+  "raw_response": "{\n  \"key\": \"openreview-ZS4m74kZpH\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly addresses RALM robustness to irrelevant/noisy retrieved contexts via NLI-based filtering and fine-tuning with mixed relevant/irrelevant contexts, including multi-hop QA.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Noisy retrieval and distraction mitigation\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

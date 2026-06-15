@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.01613v1",
+  "title": "TechGraphRAG: An Agentic Graph-Augmented RAG Framework for Technical Literature Reasoning",
+  "authors": "Kanwar Bharat Singh",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.01613v1",
+  "local_pdf": "pdfs/2026_kanwar_bharat_singh_techgraphrag_an_agentic_graph_augmented_rag_framework_for_technical_literature_reasoning_a5c00570.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Implements evidence sufficiency scoring and agentic retry/external search when local evidence is weak, touching on control/calibration aspects of RAG.",
+  "why_not_or_caveat": "Domain-specific case study without rigorous robustness evaluation; focuses on engineering pipeline rather than robustness, conflicts, or adversarial issues.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration_control",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:19.162856+00:00",
+  "raw_response": "{\"key\":\"arxiv-2606.01613v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Implements evidence sufficiency scoring and agentic retry/external search when local evidence is weak, touching on control/calibration aspects of RAG.\",\"why_not_or_caveat\":\"Domain-specific case study without rigorous robustness evaluation; focuses on engineering pipeline rather than robustness, conflicts, or adversarial issues.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"calibration_control\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.13644v1",
+  "title": "StatePlane: A Cognitive State Plane for Long-Horizon AI Systems Under Bounded Context",
+  "authors": "Sasank Annapureddy; John Mulcahy; Anjaneya Prasad Thamatani",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.13644v1",
+  "local_pdf": "pdfs/2026_sasank_annapureddy_stateplane_a_cognitive_state_plane_for_long_horizon_ai_systems_under_bounded_context_175d4875.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a cognitive state plane for long-horizon agents with some mention of prompt injection defense and write-path anti-poisoning, tangentially related to RAG robustness.",
+  "why_not_or_caveat": "Focus is on memory/state management for agents under bounded context, not on robust RAG under unreliable evidence; robustness claims are peripheral and unvalidated.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:32.988130+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.13644v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a cognitive state plane for long-horizon agents with some mention of prompt injection defense and write-path anti-poisoning, tangentially related to RAG robustness.\",\"why_not_or_caveat\":\"Focus is on memory/state management for agents under bounded context, not on robust RAG under unreliable evidence; robustness claims are peripheral and unvalidated.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

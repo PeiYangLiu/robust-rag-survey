@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2412.09614v2",
+  "title": "RAVEL: Rare Concept Generation and Editing via Graph-driven Relational Guidance",
+  "authors": "Kavana Venkatesh; Yusuf Dalva; Ismini Lourentzou; Pinar Yanardag",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.09614v2",
+  "local_pdf": "pdfs/2024_kavana_venkatesh_ravel_rare_concept_generation_and_editing_via_graph_driven_relational_guidance_3631bddd.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies graph-based RAG to text-to-image diffusion for rare concept generation; does not study robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Out of scope: T2I generation application, no analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:46.140102+00:00",
+  "raw_response": "{\"key\":\"arxiv-2412.09614v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies graph-based RAG to text-to-image diffusion for rare concept generation; does not study robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Out of scope: T2I generation application, no analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

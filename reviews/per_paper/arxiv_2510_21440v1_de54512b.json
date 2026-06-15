@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.21440v1",
+  "title": "Redefining Retrieval Evaluation in the Era of LLMs",
+  "authors": "Giovanni Trappolini; Florin Cuconasu; Simone Filice; Yoelle Maarek; Fabrizio Silvestri",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.21440v1",
+  "local_pdf": "pdfs/2025_giovanni_trappolini_redefining_retrieval_evaluation_in_the_era_of_llms_de54512b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes UDCG, a RAG-specific retrieval metric that explicitly accounts for distracting irrelevant passages and LLM positional bias, directly aligning IR evaluation with end-to-end RAG accuracy.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation and Metrics for Robust RAG",
+  "confidence": 0.93,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.923883+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.21440v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"distraction\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes UDCG, a RAG-specific retrieval metric that explicitly accounts for distracting irrelevant passages and LLM positional bias, directly aligning IR evaluation with end-to-end RAG accuracy.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation and Metrics for Robust RAG\",\n  \"confidence\": 0.93\n}",
+  "skipped_existing": false
+}

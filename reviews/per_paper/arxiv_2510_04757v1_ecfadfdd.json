@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.04757v1",
+  "title": "ModernBERT + ColBERT: Enhancing biomedical RAG through an advanced re-ranking retriever",
+  "authors": "Eduardo Martínez Rivera; Filippo Menolascina",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.04757v1",
+  "local_pdf": "pdfs/2025_eduardo_mart_nez_rivera_modernbert_colbert_enhancing_biomedical_rag_through_an_advanced_re_ranking_retriever_ecfadfdd.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a retriever+reranker pipeline for biomedical RAG; only tangentially mentions that irrelevant retrievals harm RAG.",
+  "why_not_or_caveat": "Focus is on retrieval accuracy/efficiency in a domain application, not on robustness, conflict, adversaries, calibration, or uncertainty.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.463818+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.04757v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a retriever+reranker pipeline for biomedical RAG; only tangentially mentions that irrelevant retrievals harm RAG.\",\"why_not_or_caveat\":\"Focus is on retrieval accuracy/efficiency in a domain application, not on robustness, conflict, adversaries, calibration, or uncertainty.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.14113v2",
+  "title": "ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows",
+  "authors": "Alvaro Lopez Pellicer; Plamen Angelov; Marwan Bukhari; Yi Li; Eduardo Soares; Jemma Kerns",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14113v2",
+  "local_pdf": "pdfs/2026_alvaro_lopez_pellicer_protomedagent_multimodal_clinical_interpretability_via_privacy_aware_agentic_workflows_9307c8b4.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Addresses 'retrieval sycophancy' where LLMs hallucinate to align with visual predictions, a form of grounding/faithfulness failure in RAG, but in a domain-specific clinical multimodal setting.",
+  "why_not_or_caveat": "Primarily a clinical multimodal reporting application with privacy focus; not a general study of RAG robustness, conflict, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:27.421996+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.14113v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"knowledge_conflict\",\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Addresses 'retrieval sycophancy' where LLMs hallucinate to align with visual predictions, a form of grounding/faithfulness failure in RAG, but in a domain-specific clinical multimodal setting.\",\"why_not_or_caveat\":\"Primarily a clinical multimodal reporting application with privacy focus; not a general study of RAG robustness, conflict, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

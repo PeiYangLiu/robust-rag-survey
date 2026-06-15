@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.23895v4",
+  "title": "Dynamic Parametric Retrieval Augmented Generation for Test-time Knowledge Enhancement",
+  "authors": "Yuqiao Tan; Shizhu He; Huanxuan Liao; Jun Zhao; Kang Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.23895v4",
+  "local_pdf": "pdfs/2025_yuqiao_tan_dynamic_parametric_retrieval_augmented_generation_for_test_time_knowledge_enhancement_6bc1b75b.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a parametric RAG method that claims to mitigate RAG hallucination caused by parametric-vs-context knowledge conflicts via test-time parameter injection.",
+  "why_not_or_caveat": "Primary focus is efficiency and knowledge fusion, not a systematic study of robustness, conflict resolution, or calibration; conflict mitigation is a side claim.",
+  "recommended_use": "background_only",
+  "suggested_section": "knowledge_conflict",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:20.613623+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.23895v4\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a parametric RAG method that claims to mitigate RAG hallucination caused by parametric-vs-context knowledge conflicts via test-time parameter injection.\",\n  \"why_not_or_caveat\": \"Primary focus is efficiency and knowledge fusion, not a systematic study of robustness, conflict resolution, or calibration; conflict mitigation is a side claim.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"knowledge_conflict\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

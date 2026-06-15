@@ -1,0 +1,27 @@
+{
+  "key": "acl-2025-query-robustness",
+  "title": "Investigating the Robustness of Retrieval-Augmented Generation at the Query Level",
+  "authors": "Sezen Percin; Xin Su; Qutub Sha Syed; Phillip Howard; Aleksei Kuvshinov; Leo Schwinn; Kay-Ulrich Scholl",
+  "year": "2025",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2025.gem-1.38/",
+  "local_pdf": "pdfs/2025_sezen_percin_investigating_the_robustness_of_retrieval_augmented_generation_at_the_query_level_a092ba5d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematically evaluates RAG pipeline robustness to query-level perturbations (typos, redundancy, tone, ambiguity), measuring component-wise sensitivity across retrievers and LLMs, which fits noisy-input robustness and evaluation.",
+  "why_not_or_caveat": "Focus is on query perturbations rather than evidence corruption; tangential to conflict/adversarial themes.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and robustness to input perturbations",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:26.483110+00:00",
+  "raw_response": "{\n  \"key\": \"acl-2025-query-robustness\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Systematically evaluates RAG pipeline robustness to query-level perturbations (typos, redundancy, tone, ambiguity), measuring component-wise sensitivity across retrievers and LLMs, which fits noisy-input robustness and evaluation.\",\n  \"why_not_or_caveat\": \"Focus is on query perturbations rather than evidence corruption; tangential to conflict/adversarial themes.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and robustness to input perturbations\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

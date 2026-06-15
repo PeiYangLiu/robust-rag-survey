@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2412.13746v1",
+  "title": "RAG-RewardBench: Benchmarking Reward Models in Retrieval Augmented Generation for Preference Alignment",
+  "authors": "Zhuoran Jin; Hongbang Yuan; Tianyi Men; Pengfei Cao; Yubo Chen; Kang Liu; Jun Zhao",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.13746v1",
+  "local_pdf": "pdfs/2024_zhuoran_jin_rag_rewardbench_benchmarking_reward_models_in_retrieval_augmented_generation_for_prefere_a9151405.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark for reward models in RAG covering RAG-specific robustness scenarios including appropriate abstain and conflict robustness, directly relevant to calibration/control and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Focus is on reward model evaluation for preference alignment rather than robustness mechanisms themselves.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.342468+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.13746v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"calibration_control\", \"knowledge_conflict\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a benchmark for reward models in RAG covering RAG-specific robustness scenarios including appropriate abstain and conflict robustness, directly relevant to calibration/control and evaluation under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focus is on reward model evaluation for preference alignment rather than robustness mechanisms themselves.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

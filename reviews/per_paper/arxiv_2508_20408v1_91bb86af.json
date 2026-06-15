@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2508.20408v1",
+  "title": "Fact or Facsimile? Evaluating the Factual Robustness of Modern Retrievers",
+  "authors": "Haoyu Wu; Qingcheng Zeng; Kaize Ding",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.20408v1",
+  "local_pdf": "pdfs/2025_haoyu_wu_fact_or_facsimile_evaluating_the_factual_robustness_of_modern_retrievers_91bb86af.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes factual robustness of dense retrievers/rerankers used in RAG, showing vulnerability to distractors and paraphrase-based perturbations, with implications for RAG poisoning attack surface.",
+  "why_not_or_caveat": "Focuses on retriever component factuality rather than end-to-end RAG behavior.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and retriever robustness",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:39.235881+00:00",
+  "raw_response": "{\"key\": \"arxiv-2508.20408v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"adversarial_corruption\", \"evaluation_benchmark\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Analyzes factual robustness of dense retrievers/rerankers used in RAG, showing vulnerability to distractors and paraphrase-based perturbations, with implications for RAG poisoning attack surface.\", \"why_not_or_caveat\": \"Focuses on retriever component factuality rather than end-to-end RAG behavior.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Noisy retrieval and retriever robustness\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

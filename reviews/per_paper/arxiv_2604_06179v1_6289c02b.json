@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.06179v1",
+  "title": "ARIA: Adaptive Retrieval Intelligence Assistant -- A Multimodal RAG Framework for Domain-Specific Engineering Education",
+  "authors": "Yue Luo; Dibakar Roy Sarkar; Rachel Herring Sangree; Somdatta Goswami",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.06179v1",
+  "local_pdf": "pdfs/2026_yue_luo_aria_adaptive_retrieval_intelligence_assistant_a_multimodal_rag_framework_for_domain_spe_6289c02b.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to engineering education; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Pure domain application without robustness analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:07.260661+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.06179v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to engineering education; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Pure domain application without robustness analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

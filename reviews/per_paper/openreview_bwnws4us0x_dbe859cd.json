@@ -1,0 +1,26 @@
+{
+  "key": "openreview-bwnWs4us0x",
+  "title": "\\[[WWW](https://openreview.net/forum?id=bwnWs4us0x#discussion)\\] Traceback of Poisoned Texts in Poisoning Attacks to Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "",
+  "source": "OpenReview",
+  "url": "https://openreview.net/forum?id=bwnWs4us0x",
+  "local_pdf": "pdfs/na_openreview_bwnws4us0x_www_https_openreview_net_forum_id_bwnws4us0x_discussion_traceback_of_poisoned_te_dbe859cd.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes RAGForensics, a post-hoc traceback system to identify poisoned texts in RAG knowledge databases, directly addressing adversarial corruption defense.",
+  "why_not_or_caveat": "Focuses on forensic traceback rather than inference-time robustness; complementary to mainstream defenses.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses and Forensics",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:36.330494+00:00",
+  "raw_response": "{\n  \"key\": \"openreview-bwnWs4us0x\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes RAGForensics, a post-hoc traceback system to identify poisoned texts in RAG knowledge databases, directly addressing adversarial corruption defense.\",\n  \"why_not_or_caveat\": \"Focuses on forensic traceback rather than inference-time robustness; complementary to mainstream defenses.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses and Forensics\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

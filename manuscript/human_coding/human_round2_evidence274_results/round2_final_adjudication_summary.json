@@ -1,0 +1,15 @@
+{
+  "source_rows": 274,
+  "final_evidence_map_rows": 268,
+  "decisions_applied": 469,
+  "blank_final_labels_by_field": {
+    "secondary_failure_types": 5,
+    "exclusion_reason": 2
+  },
+  "excluded_by_final_include_flag": 6,
+  "output_files": [
+    "/home/v-peiyangliu/robust-rag-survey/manuscript/human_coding/human_round2_evidence274_results/adjudicated_evidence274_round2_final_full.csv",
+    "/home/v-peiyangliu/robust-rag-survey/manuscript/human_coding/human_round2_evidence274_results/evidence_map_round2_adjudicated.csv",
+    "/home/v-peiyangliu/robust-rag-survey/manuscript/supplement/evidence_map_adjudicated.csv"
+  ]
+}

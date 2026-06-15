@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.03989v2",
+  "title": "An Agent-Oriented Pluggable Experience-RAG Skill for Experience-Driven Retrieval Strategy Orchestration",
+  "authors": "Dutao Zhang; Tian Liao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.03989v2",
+  "local_pdf": "pdfs/2026_dutao_zhang_an_agent_oriented_pluggable_experience_rag_skill_for_experience_driven_retrieval_strateg_5f82cb12.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a retrieval strategy orchestration skill that routes among retrievers based on task type, which is tangentially related to adaptive retrieval/control.",
+  "why_not_or_caveat": "Does not address robustness, noise, conflict, adversaries, calibration, or uncertainty; purely about retrieval strategy selection for performance.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:21.689944+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.03989v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a retrieval strategy orchestration skill that routes among retrievers based on task type, which is tangentially related to adaptive retrieval/control.\",\"why_not_or_caveat\":\"Does not address robustness, noise, conflict, adversaries, calibration, or uncertainty; purely about retrieval strategy selection for performance.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

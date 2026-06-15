@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.19873v1",
+  "title": "From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph",
+  "authors": "Junfeng Gong; Zhiyi Wei; Junying Chen; Cheng Liu; Huawei Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.19873v1",
+  "local_pdf": "pdfs/2025_junfeng_gong_from_large_to_small_transferring_cuda_optimization_expertise_via_reasoning_graph_25eea76e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to CUDA code generation; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Out of scope for robust RAG survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:18.779410+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.19873v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to CUDA code generation; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Out of scope for robust RAG survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

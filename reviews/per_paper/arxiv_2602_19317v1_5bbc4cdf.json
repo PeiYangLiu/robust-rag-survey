@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.19317v1",
+  "title": "Learning to Reason for Multi-Step Retrieval of Personal Context in Personalized Question Answering",
+  "authors": "Maryam Amirizaniani; Alireza Salemi; Hamed Zamani",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.19317v1",
+  "local_pdf": "pdfs/2026_maryam_amirizaniani_learning_to_reason_for_multi_step_retrieval_of_personal_context_in_personalized_question_5bbc4cdf.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RL-based adaptive retrieval-reasoning for personalized QA, touching adaptive 'when to retrieve' decisions.",
+  "why_not_or_caveat": "Focus is personalization quality, not robustness, noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.023536+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.19317v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes RL-based adaptive retrieval-reasoning for personalized QA, touching adaptive 'when to retrieve' decisions.\",\"why_not_or_caveat\":\"Focus is personalization quality, not robustness, noise, conflict, adversaries, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

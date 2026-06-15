@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.03100v1",
+  "title": "Ensemble Privacy Defense for Knowledge-Intensive LLMs against Membership Inference Attacks",
+  "authors": "Haowei Fu; Bo Ni; Han Xu; Kunpeng Liu; Dan Lin; Tyler Derr",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.03100v1",
+  "local_pdf": "pdfs/2025_haowei_fu_ensemble_privacy_defense_for_knowledge_intensive_llms_against_membership_inference_attac_d552fa37.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Studies membership inference attacks against RAG and SFT and proposes an ensemble defense, touching on privacy-related attack surfaces of RAG.",
+  "why_not_or_caveat": "Focus is privacy leakage (MIA), not robustness to unreliable evidence, distraction, conflict, or calibration central to this survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial threats to RAG (privacy)",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:08.365517+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.03100v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Studies membership inference attacks against RAG and SFT and proposes an ensemble defense, touching on privacy-related attack surfaces of RAG.\",\n  \"why_not_or_caveat\": \"Focus is privacy leakage (MIA), not robustness to unreliable evidence, distraction, conflict, or calibration central to this survey.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Adversarial threats to RAG (privacy)\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

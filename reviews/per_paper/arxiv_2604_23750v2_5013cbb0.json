@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.23750v2",
+  "title": "The Override Gap: A Magnitude Account of Knowledge Conflict Failure in Hypernetwork-Based Instant LLM Adaptation",
+  "authors": "Shuaizhi Cheng; Xiang Shi; Zhiwei Zhang; Mingwei Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23750v2",
+  "local_pdf": "pdfs/2026_shuaizhi_cheng_the_override_gap_a_magnitude_account_of_knowledge_conflict_failure_in_hypernetwork_based_5013cbb0.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Studies knowledge conflict between parametric pretrained knowledge and new document-derived knowledge injected via hypernetwork adapters, proposes conflict-aware mechanisms, and releases a benchmark grading conflicts by prior strength. Comparisons to RAG on conflict tiers are directly relevant.",
+  "why_not_or_caveat": "Focuses on parameter-space internalization rather than retrieval-augmented generation per se; relevance is via the conflict framing and benchmark.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.598146+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.23750v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Studies knowledge conflict between parametric pretrained knowledge and new document-derived knowledge injected via hypernetwork adapters, proposes conflict-aware mechanisms, and releases a benchmark grading conflicts by prior strength. Comparisons to RAG on conflict tiers are directly relevant.\",\"why_not_or_caveat\":\"Focuses on parameter-space internalization rather than retrieval-augmented generation per se; relevance is via the conflict framing and benchmark.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

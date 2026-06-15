@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2404.00486v1",
+  "title": "Dialectical Alignment: Resolving the Tension of 3H and Security Threats of LLMs",
+  "authors": "Shu Yang; Jiayuan Su; Han Jiang; Mengdi Li; Keyuan Cheng; Muhammad Asif Ali; Lijie Hu; Di Wang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.00486v1",
+  "local_pdf": "pdfs/2024_shu_yang_dialectical_alignment_resolving_the_tension_of_3h_and_security_threats_of_llms_5739c460.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes alignment-based defense against poisoned context attacks in RAG while balancing context-memory and inter-context conflicts, directly addressing knowledge conflict and adversarial corruption.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and adversarial defenses",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:00.005622+00:00",
+  "raw_response": "{\"key\":\"arxiv-2404.00486v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes alignment-based defense against poisoned context attacks in RAG while balancing context-memory and inter-context conflicts, directly addressing knowledge conflict and adversarial corruption.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge conflict and adversarial defenses\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

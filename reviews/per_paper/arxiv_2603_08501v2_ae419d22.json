@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.08501v2",
+  "title": "Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA",
+  "authors": "Ummar Abbas; Mourad Ouzzani; Mohamed Y. Eltabakh; Omar Sinan; Gagan Bhatia; Hamdy Mubarak; Majd Hawasly; Mohammed Qusay Hashim; Kareem Darwish; Firoj Alam",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.08501v2",
+  "local_pdf": "pdfs/2026_ummar_abbas_fanar_sadiq_a_multi_agent_architecture_for_grounded_islamic_qa_ae419d22.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific Islamic QA system using agentic RAG with citation verification; touches on hallucination mitigation but is fundamentally an application paper.",
+  "why_not_or_caveat": "Not focused on robustness, noise, conflict, adversarial attacks, or calibration in a generalizable way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:53.722848+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.08501v2\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Domain-specific Islamic QA system using agentic RAG with citation verification; touches on hallucination mitigation but is fundamentally an application paper.\", \"why_not_or_caveat\": \"Not focused on robustness, noise, conflict, adversarial attacks, or calibration in a generalizable way.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

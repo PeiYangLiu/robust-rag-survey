@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2407.13998",
+  "title": "\\[[EMNLP](https://arxiv.org/abs/2407.13998)\\] RAG-QA Arena: Evaluating Domain Robustness for Long-form Retrieval Augmented Question Answering",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2407.13998",
+  "local_pdf": "pdfs/na_arxiv_2407_13998_emnlp_https_arxiv_org_abs_2407_13998_rag_qa_arena_evaluating_domain_robustness_f_29df9213.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces LFRQA and RAG-QA Arena for evaluating cross-domain (OOD) robustness of long-form RAG-QA systems across seven domains, relevant to evaluation under distribution shift.",
+  "why_not_or_caveat": "Focus is on domain robustness and long-form answer evaluation rather than noise, conflict, or adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:35.894317+00:00",
+  "raw_response": "{\"key\":\"arxiv-2407.13998\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"ood_uncertainty\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces LFRQA and RAG-QA Arena for evaluating cross-domain (OOD) robustness of long-form RAG-QA systems across seven domains, relevant to evaluation under distribution shift.\",\"why_not_or_caveat\":\"Focus is on domain robustness and long-form answer evaluation rather than noise, conflict, or adversarial robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

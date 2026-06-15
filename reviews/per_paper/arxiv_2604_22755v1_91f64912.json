@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.22755v1",
+  "title": "RADIANT-LLM: an Agentic Retrieval Augmented Generation Framework for Reliable Decision Support in Safety-Critical Nuclear Engineering",
+  "authors": "Zavier Ndum Ndum; Jian Tao; John Ford; Mansung Yim; Yang Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.22755v1",
+  "local_pdf": "pdfs/2026_zavier_ndum_ndum_radiant_llm_an_agentic_retrieval_augmented_generation_framework_for_reliable_decision_su_91f64912.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for nuclear engineering with provenance and hallucination metrics, but not a methodological study of robustness.",
+  "why_not_or_caveat": "Application paper; does not contribute new techniques or analysis on noise, conflict, adversarial robustness, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:58.352295+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.22755v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for nuclear engineering with provenance and hallucination metrics, but not a methodological study of robustness.\",\"why_not_or_caveat\":\"Application paper; does not contribute new techniques or analysis on noise, conflict, adversarial robustness, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

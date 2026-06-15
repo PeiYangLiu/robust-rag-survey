@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.15213v1",
+  "title": "An LLM-RAG Approach for Healthy Eating Index-Informed Personalized Food Recommendations",
+  "authors": "Yibin Wang; Yanjie Yang; Grace Melo Guerrero; Rodolfo M. Nayga; Azlan Zahid",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.15213v1",
+  "local_pdf": "pdfs/2026_yibin_wang_an_llm_rag_approach_for_healthy_eating_index_informed_personalized_food_recommendations_5e717fa1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to nutrition recommendations; does not study robustness, conflict, attacks, calibration, or uncertainty.",
+  "why_not_or_caveat": "Domain application without robustness focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:31.698377+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.15213v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to nutrition recommendations; does not study robustness, conflict, attacks, calibration, or uncertainty.\",\"why_not_or_caveat\":\"Domain application without robustness focus.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.00082v1",
+  "title": "An AI-powered Knowledge Hub for Potato Functional Genomics",
+  "authors": "Jia Yuxin; Li Jinye; Jia Yudong; Li Futing; Su Xiaoqi; Luo Jilin; Dong Yarui; Sun Chunyan; Cui Qinghan; Wang Li; Li Axiu; Shang Yi; Zhu Yujuan; Huang Sanwen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.00082v1",
+  "local_pdf": "pdfs/2025_jia_yuxin_an_ai_powered_knowledge_hub_for_potato_functional_genomics_3e922f10.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for potato genomics; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Mere RAG application without methodological contribution to robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.208563+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.00082v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for potato genomics; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Mere RAG application without methodological contribution to robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

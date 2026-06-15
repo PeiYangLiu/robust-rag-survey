@@ -1,0 +1,26 @@
+{
+  "key": "acl-2025.findings-emnlp.1291",
+  "title": "[[<ins>arxiv</ins>](https://aclanthology.org/2025.findings-emnlp.1291/)] The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems",
+  "authors": "",
+  "year": "2025",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2025.findings-emnlp.1291/",
+  "local_pdf": "pdfs/2025_acl_2025_findings_emnlp_1291_ins_arxiv_ins_https_aclanthology_org_2025_findings_emnlp_1291_the_rag_paradox_a__22247abd.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a realistic black-box corpus poisoning attack on RAG systems that exploits source disclosure, producing natural-looking poisoned documents that degrade RAG performance.",
+  "why_not_or_caveat": "Focuses solely on attack methodology; no defense or calibration component.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.932566+00:00",
+  "raw_response": "{\n  \"key\": \"acl-2025.findings-emnlp.1291\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a realistic black-box corpus poisoning attack on RAG systems that exploits source disclosure, producing natural-looking poisoned documents that degrade RAG performance.\",\n  \"why_not_or_caveat\": \"Focuses solely on attack methodology; no defense or calibration component.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Poisoning Attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.13750v2",
+  "title": "Confidence-Based Response Abstinence: Improving LLM Trustworthiness via Activation-Based Uncertainty Estimation",
+  "authors": "Zhiqi Huang; Vivek Datla; Chenyang Zhu; Alfy Samuel; Daben Liu; Anoop Kumar; Ritesh Soni",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.13750v2",
+  "local_pdf": "pdfs/2025_zhiqi_huang_confidence_based_response_abstinence_improving_llm_trustworthiness_via_activation_based_813bd753.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes activation-based confidence estimation for RAG to enable response abstention, directly addressing calibration and abstain-control under uncertain/ambiguous evidence in production RAG.",
+  "why_not_or_caveat": "Domain-specific (financial customer support) and limited public benchmarking.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention in RAG",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:18.396139+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.13750v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes activation-based confidence estimation for RAG to enable response abstention, directly addressing calibration and abstain-control under uncertain/ambiguous evidence in production RAG.\",\"why_not_or_caveat\":\"Domain-specific (financial customer support) and limited public benchmarking.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Abstention in RAG\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

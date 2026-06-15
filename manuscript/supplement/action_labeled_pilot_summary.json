@@ -1,0 +1,34 @@
+{
+  "items": 60,
+  "policies": [
+    "answer_only",
+    "abstain_on_missing",
+    "state_heuristic"
+  ],
+  "summary": [
+    {
+      "policy": "answer_only",
+      "n": 60,
+      "answer_accuracy": 0.16666666666666666,
+      "action_accuracy": 0.16666666666666666,
+      "joint_answer_action_accuracy": 0.16666666666666666,
+      "unsafe_action_rate": 0.8333333333333334
+    },
+    {
+      "policy": "abstain_on_missing",
+      "n": 60,
+      "answer_accuracy": 0.6666666666666666,
+      "action_accuracy": 0.3333333333333333,
+      "joint_answer_action_accuracy": 0.3333333333333333,
+      "unsafe_action_rate": 0.16666666666666666
+    },
+    {
+      "policy": "state_heuristic",
+      "n": 60,
+      "answer_accuracy": 1.0,
+      "action_accuracy": 1.0,
+      "joint_answer_action_accuracy": 1.0,
+      "unsafe_action_rate": 0.0
+    }
+  ]
+}

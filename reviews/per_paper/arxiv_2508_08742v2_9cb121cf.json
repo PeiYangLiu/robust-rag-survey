@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2508.08742v2",
+  "title": "SciRerankBench: Benchmarking Rerankers Towards Scientific Retrieval-Augmented Generated LLMs",
+  "authors": "Haotian Chen; Qingqing Long; Meng Xiao; Xiao Luo; Wei Ju; Chengrui Wang; Xuezhi Wang; Yuanchun Zhou; Hengshu Zhu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.08742v2",
+  "local_pdf": "pdfs/2025_haotian_chen_scirerankbench_benchmarking_rerankers_towards_scientific_retrieval_augmented_generated_l_9cb121cf.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark evaluating rerankers in RAG with noisy contexts, semantically similar but logically irrelevant contexts, and counterfactual contexts—directly relevant to noise, distraction, and conflict robustness.",
+  "why_not_or_caveat": "Domain-specific to scientific QA and focused on reranker evaluation rather than end-to-end RAG robustness methods.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation/benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:12.453314+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.08742v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a benchmark evaluating rerankers in RAG with noisy contexts, semantically similar but logically irrelevant contexts, and counterfactual contexts—directly relevant to noise, distraction, and conflict robustness.\",\n  \"why_not_or_caveat\": \"Domain-specific to scientific QA and focused on reranker evaluation rather than end-to-end RAG robustness methods.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation/benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.05569v2",
+  "title": "CBR-to-SQL: Rethinking Retrieval-based Text-to-SQL using Case-based Reasoning in the Healthcare Domain",
+  "authors": "Hung Nguyen; Hans Moen; Pekka Marttinen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.05569v2",
+  "local_pdf": "pdfs/2026_hung_nguyen_cbr_to_sql_rethinking_retrieval_based_text_to_sql_using_case_based_reasoning_in_the_heal_1432f6b9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a CBR-style two-stage retrieval for medical text-to-SQL and evaluates robustness to retrieval perturbations and data scarcity, touching on noisy retrieval issues.",
+  "why_not_or_caveat": "Domain-specific text-to-SQL application; robustness analysis is narrow and not focused on general RAG reliability, conflict, adversarial, or calibration concerns.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / domain applications",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:04.279530+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.05569v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a CBR-style two-stage retrieval for medical text-to-SQL and evaluates robustness to retrieval perturbations and data scarcity, touching on noisy retrieval issues.\",\n  \"why_not_or_caveat\": \"Domain-specific text-to-SQL application; robustness analysis is narrow and not focused on general RAG reliability, conflict, adversarial, or calibration concerns.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Noisy retrieval / domain applications\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

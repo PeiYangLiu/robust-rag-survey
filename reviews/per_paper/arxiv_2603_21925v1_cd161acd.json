@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.21925v1",
+  "title": "Guideline-grounded retrieval-augmented generation for ophthalmic clinical decision support",
+  "authors": "Shuying Chen; Sen Cui; Zhong Cao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.21925v1",
+  "local_pdf": "pdfs/2026_shuying_chen_guideline_grounded_retrieval_augmented_generation_for_ophthalmic_clinical_decision_suppo_cd161acd.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a domain-specific multimodal RAG with routing/filtering for ophthalmology guidelines; only tangentially touches noise reduction and controllable retrieval.",
+  "why_not_or_caveat": "Primarily an application/system paper for clinical decision support, not a study of robustness, conflict, attacks, calibration, or evaluation methodology for unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.289716+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.21925v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a domain-specific multimodal RAG with routing/filtering for ophthalmology guidelines; only tangentially touches noise reduction and controllable retrieval.\",\n  \"why_not_or_caveat\": \"Primarily an application/system paper for clinical decision support, not a study of robustness, conflict, attacks, calibration, or evaluation methodology for unreliable evidence.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

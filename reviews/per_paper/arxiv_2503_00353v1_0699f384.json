@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2503.00353v1",
+  "title": "U-NIAH: Unified RAG and LLM Evaluation for Long Context Needle-In-A-Haystack",
+  "authors": "Yunfan Gao; Yun Xiong; Wenlong Wu; Zijing Huang; Bohan Li; Haofen Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.00353v1",
+  "local_pdf": "pdfs/2025_yunfan_gao_u_niah_unified_rag_and_llm_evaluation_for_long_context_needle_in_a_haystack_0699f384.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a unified NIAH-based benchmark evaluating RAG vs long-context LLMs under retrieval noise, chunk ordering, and distractors, identifying error patterns like omission, hallucination, and self-doubt relevant to robustness.",
+  "why_not_or_caveat": "Focused on long-context NIAH evaluation rather than proposing robustness methods.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.413323+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.00353v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a unified NIAH-based benchmark evaluating RAG vs long-context LLMs under retrieval noise, chunk ordering, and distractors, identifying error patterns like omission, hallucination, and self-doubt relevant to robustness.\",\"why_not_or_caveat\":\"Focused on long-context NIAH evaluation rather than proposing robustness methods.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

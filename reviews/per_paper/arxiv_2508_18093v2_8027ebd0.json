@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.18093v2",
+  "title": "Agri-Query: A Case Study on RAG vs. Long-Context LLMs for Cross-Lingual Technical Question Answering",
+  "authors": "Julius Gun; Timo Oksanen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.18093v2",
+  "local_pdf": "pdfs/2025_julius_gun_agri_query_a_case_study_on_rag_vs_long_context_llms_for_cross_lingual_technical_question_8027ebd0.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Includes unanswerable questions to test hallucination avoidance and compares RAG vs long-context under noise in a cross-lingual technical QA setting.",
+  "why_not_or_caveat": "Narrow case study on a single agricultural manual; not a methodological contribution to robustness, conflict, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.955917+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.18093v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"ood_uncertainty\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Includes unanswerable questions to test hallucination avoidance and compares RAG vs long-context under noise in a cross-lingual technical QA setting.\",\n  \"why_not_or_caveat\": \"Narrow case study on a single agricultural manual; not a methodological contribution to robustness, conflict, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

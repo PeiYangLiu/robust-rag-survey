@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.04495v1",
+  "title": "CAR: Query-Guided Confidence-Aware Reranking for Retrieval-Augmented Generation",
+  "authors": "Zhipeng Song; Yizhi Zhou; Xiangyu Kong; Jiulong Jiao; Xuezhou Ye; Chunqi Gao; Xueqing Shi; Yuhang Zhou; Heng Qi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.04495v1",
+  "local_pdf": "pdfs/2026_zhipeng_song_car_query_guided_confidence_aware_reranking_for_retrieval_augmented_generation_68d72560.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "CAR uses generator confidence (semantic consistency of sampled answers) to rerank documents, filtering noisy/unhelpful evidence and gating intervention based on query-level uncertainty—directly addressing calibration-aware control over retrieval and mitigating noisy retrieval in RAG.",
+  "why_not_or_caveat": "Focuses on reranking; doesn't address adversarial or conflict cases.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Filtering Noisy Retrieval",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:32.610271+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.04495v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"CAR uses generator confidence (semantic consistency of sampled answers) to rerank documents, filtering noisy/unhelpful evidence and gating intervention based on query-level uncertainty—directly addressing calibration-aware control over retrieval and mitigating noisy retrieval in RAG.\",\n  \"why_not_or_caveat\": \"Focuses on reranking; doesn't address adversarial or conflict cases.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Filtering Noisy Retrieval\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

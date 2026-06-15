@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.05235v1",
+  "title": "FedMosaic: Federated Retrieval-Augmented Generation via Parametric Adapters",
+  "authors": "Zhilin Liang; Yuxiang Wang; Zimu Zhou; Hainan Zhang; Boyi Liu; Yongxin Tong",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.05235v1",
+  "local_pdf": "pdfs/2026_zhilin_liang_fedmosaic_federated_retrieval_augmented_generation_via_parametric_adapters_89687edc.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes federated parametric RAG with adapter aggregation; touches on adapter conflict but not in the sense of knowledge conflict or robustness under unreliable evidence.",
+  "why_not_or_caveat": "Focus is privacy/federated efficiency, not robustness, noise, adversarial, or calibration aspects central to this survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:03.599271+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.05235v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes federated parametric RAG with adapter aggregation; touches on adapter conflict but not in the sense of knowledge conflict or robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Focus is privacy/federated efficiency, not robustness, noise, adversarial, or calibration aspects central to this survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

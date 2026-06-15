@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.18543v1",
+  "title": "Benchmarking Poisoning Attacks against Retrieval-Augmented Generation",
+  "authors": "Baolei Zhang; Haoran Xin; Jiatong Li; Dongzhe Zhang; Minghong Fang; Zhuqing Liu; Lihai Nie; Zheli Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.18543v1",
+  "local_pdf": "pdfs/2025_baolei_zhang_benchmarking_poisoning_attacks_against_retrieval_augmented_generation_8c7603da.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a comprehensive benchmark of 13 poisoning attacks and 7 defenses against RAG across multiple architectures, directly addressing adversarial corruption and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:39.958863+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.18543v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Provides a comprehensive benchmark of 13 poisoning attacks and 7 defenses against RAG across multiple architectures, directly addressing adversarial corruption and evaluation under unreliable evidence.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Benchmarks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

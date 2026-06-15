@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.09534v1",
+  "title": "Governing AI-Assisted Security Operations: A Design Science Framework for Operational Decision Support",
+  "authors": "Elyson A. De La Cruz; Rishikesh Sahay; Md Rasel Al Mamun",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.09534v1",
+  "local_pdf": "pdfs/2026_elyson_a_de_la_cruz_governing_ai_assisted_security_operations_a_design_science_framework_for_operational_dec_b401410d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper is a management/governance framework for AI-assisted SOC operations, not a study of RAG robustness.",
+  "why_not_or_caveat": "Mentions RAG only in passing; no contribution to noise, conflict, adversarial, calibration, or evaluation of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.448514+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.09534v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper is a management/governance framework for AI-assisted SOC operations, not a study of RAG robustness.\",\"why_not_or_caveat\":\"Mentions RAG only in passing; no contribution to noise, conflict, adversarial, calibration, or evaluation of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.12520v1",
+  "title": "TAdaRAG: Task Adaptive Retrieval-Augmented Generation via On-the-Fly Knowledge Graph Construction",
+  "authors": "Jie Zhang; Bo Tang; Wanzi Shao; Wenqiang Wei; Jihao Zhao; Jianqing Zhu; Zhiyu li; Wen Xi; Zehao Lin; Feiyu Xiong; Yanchao Tan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.12520v1",
+  "local_pdf": "pdfs/2025_jie_zhang_tadarag_task_adaptive_retrieval_augmented_generation_via_on_the_fly_knowledge_graph_cons_f83c3e4a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KG-based RAG method to reduce hallucinations from chunk truncation, but does not directly study robustness to noise, conflict, adversarial attacks, or calibration.",
+  "why_not_or_caveat": "Focus is on improving RAG accuracy via dynamic KG construction, not on the unreliable evidence axes of this survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.618968+00:00",
+  "raw_response": "{\"key\": \"arxiv-2511.12520v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a KG-based RAG method to reduce hallucinations from chunk truncation, but does not directly study robustness to noise, conflict, adversarial attacks, or calibration.\", \"why_not_or_caveat\": \"Focus is on improving RAG accuracy via dynamic KG construction, not on the unreliable evidence axes of this survey.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

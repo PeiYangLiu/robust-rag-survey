@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2605.00505v2",
+  "title": "LLM-Oriented Information Retrieval: A Denoising-First Perspective",
+  "authors": "Lu Dai; Liang Sun; Fanpu Cao; Ziyang Rao; Cehao Yang; Hao Liu; Hui Xiong",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.00505v2",
+  "local_pdf": "pdfs/2026_lu_dai_llm_oriented_information_retrieval_a_denoising_first_perspective_cb1850f3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "adversarial_corruption",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A perspective/survey paper on denoising across the RAG pipeline, covering noise sensitivity, prompt injection, verifiability, and context engineering—directly aligned with the survey's scope.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Related surveys and noisy retrieval",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:02.796218+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.00505v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"adversarial_corruption\",\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"A perspective/survey paper on denoising across the RAG pipeline, covering noise sensitivity, prompt injection, verifiability, and context engineering—directly aligned with the survey's scope.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Related surveys and noisy retrieval\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.03140v1",
+  "title": "Evaluating Retrieval-Augmented Generation for Explainable Malware Analysis",
+  "authors": "Jayson Ng; Amin Milani Fard",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.03140v1",
+  "local_pdf": "pdfs/2026_jayson_ng_evaluating_retrieval_augmented_generation_for_explainable_malware_analysis_ec3931e0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific (malware analysis) case study showing RAG degrades performance due to distracting retrieved passages, citing distraction and sufficient-context literature.",
+  "why_not_or_caveat": "A short 2-page poster on a niche application; findings are anecdotal and not a methodological contribution to robust RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "Distraction in RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.663882+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.03140v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"distraction\", \"noisy_retrieval\"], \"paper_role\": \"application\", \"why_relevant\": \"Domain-specific (malware analysis) case study showing RAG degrades performance due to distracting retrieved passages, citing distraction and sufficient-context literature.\", \"why_not_or_caveat\": \"A short 2-page poster on a niche application; findings are anecdotal and not a methodological contribution to robust RAG.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Distraction in RAG\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

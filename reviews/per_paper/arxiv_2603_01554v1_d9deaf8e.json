@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.01554v1",
+  "title": "S5-HES Agent: Society 5.0-driven Agentic Framework to Democratize Smart Home Environment Simulation",
+  "authors": "Akila Siriweera; Janani Rangila; Keitaro Naruse; Incheon Paik; Isuru Jayanada",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.01554v1",
+  "local_pdf": "pdfs/2026_akila_siriweera_s5_hes_agent_society_5_0_driven_agentic_framework_to_democratize_smart_home_environment_d9deaf8e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG within a smart home simulation framework but does not study robustness, conflict, attacks, calibration, or uncertainty of RAG.",
+  "why_not_or_caveat": "Application paper; RAG is a component, not the subject of robustness analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.702139+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.01554v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG within a smart home simulation framework but does not study robustness, conflict, attacks, calibration, or uncertainty of RAG.\",\"why_not_or_caveat\":\"Application paper; RAG is a component, not the subject of robustness analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

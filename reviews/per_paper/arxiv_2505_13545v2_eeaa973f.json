@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.13545v2",
+  "title": "Know Or Not: a library for evaluating out-of-knowledge base robustness",
+  "authors": "Jessica Foo; Pradyumna Shyama Prasad; Shaun Khoo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.13545v2",
+  "local_pdf": "pdfs/2025_jessica_foo_know_or_not_a_library_for_evaluating_out_of_knowledge_base_robustness_eeaa973f.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a methodology and open-source library plus PolicyBench benchmark for evaluating out-of-knowledge-base robustness in RAG, focusing on abstention when retrieved context is insufficient.",
+  "why_not_or_caveat": "Narrowly scoped to OOKB abstention evaluation; does not address adversarial or conflict scenarios.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "OOD/Uncertainty and Abstention Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:52.004794+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.13545v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Provides a methodology and open-source library plus PolicyBench benchmark for evaluating out-of-knowledge-base robustness in RAG, focusing on abstention when retrieved context is insufficient.\",\n  \"why_not_or_caveat\": \"Narrowly scoped to OOKB abstention evaluation; does not address adversarial or conflict scenarios.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"OOD/Uncertainty and Abstention Benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

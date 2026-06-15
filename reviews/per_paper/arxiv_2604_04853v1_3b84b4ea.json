@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.04853v1",
+  "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
+  "authors": "Shu Wang; Edwin Yu; Oscar Love; Tom Zhang; Tom Wong; Steve Scargall; Charles Fan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.04853v1",
+  "local_pdf": "pdfs/2026_shu_wang_memmachine_a_ground_truth_preserving_memory_system_for_personalized_ai_agents_3b84b4ea.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a memory system for LLM agents with adaptive retrieval and reports results under randomized-noise conditions, tangentially touching robustness.",
+  "why_not_or_caveat": "Focus is on long-term memory architecture and personalization, not on robustness to noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.668684+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.04853v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a memory system for LLM agents with adaptive retrieval and reports results under randomized-noise conditions, tangentially touching robustness.\",\n  \"why_not_or_caveat\": \"Focus is on long-term memory architecture and personalization, not on robustness to noise, conflict, adversaries, or calibration.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

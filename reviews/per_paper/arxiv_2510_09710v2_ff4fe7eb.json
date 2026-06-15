@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.09710v2",
+  "title": "SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG",
+  "authors": "Xiaonan Si; Meilin Zhu; Simeng Qin; Lijia Yu; Lijun Zhang; Shuaitong Liu; Xinfeng Li; Ranjie Duan; Yang Liu; Xiaojun Jia",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.09710v2",
+  "local_pdf": "pdfs/2025_xiaonan_si_secon_rag_a_two_stage_semantic_filtering_and_conflict_free_framework_for_trustworthy_rag_ff4fe7eb.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a two-stage defense against RAG corpus poisoning with semantic filtering and conflict-aware filtering between internal and external knowledge, directly addressing adversarial corruption and knowledge conflict.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Defenses against adversarial corruption",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:36.970066+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.09710v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\",\"calibration_control\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a two-stage defense against RAG corpus poisoning with semantic filtering and conflict-aware filtering between internal and external knowledge, directly addressing adversarial corruption and knowledge conflict.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Defenses against adversarial corruption\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

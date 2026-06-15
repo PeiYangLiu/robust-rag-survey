@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.10253v1",
+  "title": "Knowledge Poisoning Attacks on Medical Multi-Modal Retrieval-Augmented Generation",
+  "authors": "Peiru Yang; Haoran Zheng; Tong Ju; Shiting Wang; Wanchun Ni; Jiajun Liu; Shangguang Wang; Yongfeng Huang; Tao Qi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.10253v1",
+  "local_pdf": "pdfs/2026_peiru_yang_knowledge_poisoning_attacks_on_medical_multi_modal_retrieval_augmented_generation_228a0efb.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a query-agnostic knowledge poisoning attack on medical multimodal RAG, targeting both retrieval hijacking and generation manipulation, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Domain-specific (medical multimodal); attack-only, no defense.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:01.013323+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.10253v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a query-agnostic knowledge poisoning attack on medical multimodal RAG, targeting both retrieval hijacking and generation manipulation, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"Domain-specific (medical multimodal); attack-only, no defense.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

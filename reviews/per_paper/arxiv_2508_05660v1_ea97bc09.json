@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.05660v1",
+  "title": "Open-Source Agentic Hybrid RAG Framework for Scientific Literature Review",
+  "authors": "Aditya Nagori; Ricardo Accorsi Casonatto; Ayush Gautam; Abhinav Manikantha Sai Cheruvu; Rishikesan Kamaleswaran",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.05660v1",
+  "local_pdf": "pdfs/2025_aditya_nagori_open_source_agentic_hybrid_rag_framework_for_scientific_literature_review_ea97bc09.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes an agentic hybrid RAG framework for scientific literature review with some uncertainty quantification.",
+  "why_not_or_caveat": "Primarily an application/system paper; does not centrally study robustness, noise, conflict, attacks, or calibration in depth.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:50.109570+00:00",
+  "raw_response": "{\"key\": \"arxiv-2508.05660v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Proposes an agentic hybrid RAG framework for scientific literature review with some uncertainty quantification.\", \"why_not_or_caveat\": \"Primarily an application/system paper; does not centrally study robustness, noise, conflict, attacks, or calibration in depth.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.06268v1",
+  "title": "MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs",
+  "authors": "Junhyeok Lee; Han Jang; Kyu Sung Choi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.06268v1",
+  "local_pdf": "pdfs/2026_junhyeok_lee_mpib_a_benchmark_for_medical_prompt_injection_attacks_and_clinical_safety_in_llms_5a1b6378.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark for direct and indirect (RAG-mediated) prompt injection in clinical settings, with outcome-based metrics distinguishing instruction compliance from downstream harm. Directly relevant to adversarial corruption and evaluation of robust RAG.",
+  "why_not_or_caveat": "Domain-specific (clinical), so its generality to broader robust-RAG evaluation is limited.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: indirect prompt injection benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:35.331231+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.06268v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a benchmark for direct and indirect (RAG-mediated) prompt injection in clinical settings, with outcome-based metrics distinguishing instruction compliance from downstream harm. Directly relevant to adversarial corruption and evaluation of robust RAG.\",\n  \"why_not_or_caveat\": \"Domain-specific (clinical), so its generality to broader robust-RAG evaluation is limited.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: indirect prompt injection benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

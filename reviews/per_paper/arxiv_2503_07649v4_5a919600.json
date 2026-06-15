@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.07649v4",
+  "title": "TS-RAG: Retrieval-Augmented Generation based Time Series Foundation Models are Stronger Zero-Shot Forecaster",
+  "authors": "Kanghui Ning; Zijie Pan; Yu Liu; Yushan Jiang; James Yiming Zhang; Kashif Rasul; Anderson Schneider; Lintao Ma; Yuriy Nevmyvaka; Dongjin Song",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.07649v4",
+  "local_pdf": "pdfs/2025_kanghui_ning_ts_rag_retrieval_augmented_generation_based_time_series_foundation_models_are_stronger_z_5a919600.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to time series forecasting; does not study robustness, conflict, attacks, calibration, or unreliable evidence.",
+  "why_not_or_caveat": "Out of scope: time series domain application of RAG without robustness focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:40.121795+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.07649v4\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Applies RAG to time series forecasting; does not study robustness, conflict, attacks, calibration, or unreliable evidence.\",\n  \"why_not_or_caveat\": \"Out of scope: time series domain application of RAG without robustness focus.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

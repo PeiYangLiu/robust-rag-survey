@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2501.00879",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2501.00879)\\] TrustRAG: Enhancing Robustness and Trustworthiness in RAG",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.00879",
+  "local_pdf": "pdfs/na_arxiv_2501_00879_arxiv_https_arxiv_org_abs_2501_00879_trustrag_enhancing_robustness_and_trustwort_4f84e504.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "TrustRAG is a defense framework against corpus poisoning attacks in RAG, using clustering-based filtering and self-assessment to resolve conflicts between internal and external knowledge.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Defenses against adversarial corruption",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:35.998020+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.00879\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\"],\"paper_role\":\"defense\",\"why_relevant\":\"TrustRAG is a defense framework against corpus poisoning attacks in RAG, using clustering-based filtering and self-assessment to resolve conflicts between internal and external knowledge.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Defenses against adversarial corruption\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

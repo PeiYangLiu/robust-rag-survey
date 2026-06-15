@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.03664v1",
+  "title": "Document-Level Numerical Reasoning across Single and Multiple Tables in Financial Reports",
+  "authors": "Yi-Cheng Wang; Wei-An Wang; Chu-Song Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.03664v1",
+  "local_pdf": "pdfs/2026_yi_cheng_wang_document_level_numerical_reasoning_across_single_and_multiple_tables_in_financial_report_be1b6398.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a long-document financial QA benchmark and a multi-round RAG agent with verification, tangentially touching evidence localization in long contexts.",
+  "why_not_or_caveat": "Focuses on numerical reasoning over financial reports, not on robustness to noise, conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:41.035675+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.03664v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a long-document financial QA benchmark and a multi-round RAG agent with verification, tangentially touching evidence localization in long contexts.\",\"why_not_or_caveat\":\"Focuses on numerical reasoning over financial reports, not on robustness to noise, conflict, adversaries, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

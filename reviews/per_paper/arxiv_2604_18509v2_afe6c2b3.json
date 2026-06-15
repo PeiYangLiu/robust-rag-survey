@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.18509v2",
+  "title": "MASS-RAG: Multi-Agent Synthesis Retrieval-Augmented Generation",
+  "authors": "Xingchen Xiao; Heyan Huang; Runheng Liu; Jincheng Xie",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.18509v2",
+  "local_pdf": "pdfs/2026_xingchen_xiao_mass_rag_multi_agent_synthesis_retrieval_augmented_generation_afe6c2b3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-agent filtering and synthesis framework specifically aimed at handling noisy, incomplete, and heterogeneous retrieved contexts in RAG, directly relevant to noisy retrieval robustness.",
+  "why_not_or_caveat": "Method paper focused on accuracy improvements rather than systematic robustness analysis; suspicious arXiv ID (2604) suggests possible metadata issue.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval: Filtering and Multi-Agent Defenses",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.868641+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.18509v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a multi-agent filtering and synthesis framework specifically aimed at handling noisy, incomplete, and heterogeneous retrieved contexts in RAG, directly relevant to noisy retrieval robustness.\",\n  \"why_not_or_caveat\": \"Method paper focused on accuracy improvements rather than systematic robustness analysis; suspicious arXiv ID (2604) suggests possible metadata issue.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval: Filtering and Multi-Agent Defenses\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

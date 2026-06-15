@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.23508v1",
+  "title": "Fast and Faithful: Real-Time Verification for Long-Document Retrieval-Augmented Generation Systems",
+  "authors": "Xunzhuo Liu; Bowei He; Xue Liu; Haichen Zhang; Huamin Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.23508v1",
+  "local_pdf": "pdfs/2026_xunzhuo_liu_fast_and_faithful_real_time_verification_for_long_document_retrieval_augmented_generatio_41448785.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a real-time faithfulness verifier for long-document RAG to detect unsupported/hallucinated responses, relevant to grounding verification and control mechanisms for unreliable evidence.",
+  "why_not_or_caveat": "Focus is on long-context verification engineering rather than directly on noise, conflict, or adversarial robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: Faithfulness Verification",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:02.307172+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.23508v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a real-time faithfulness verifier for long-document RAG to detect unsupported/hallucinated responses, relevant to grounding verification and control mechanisms for unreliable evidence.\", \"why_not_or_caveat\": \"Focus is on long-context verification engineering rather than directly on noise, conflict, or adversarial robustness.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: Faithfulness Verification\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

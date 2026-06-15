@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.17946v1",
+  "title": "Measuring the Impact of Lexical Training Data Coverage on Hallucination Detection in Large Language Models",
+  "authors": "Shuo Zhang; Fabrizio Gotti; Fengran Mo; Jian-Yun Nie",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.17946v1",
+  "local_pdf": "pdfs/2025_shuo_zhang_measuring_the_impact_of_lexical_training_data_coverage_on_hallucination_detection_in_lar_f4ece6b0.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies hallucination detection using pretraining n-gram coverage and log-probabilities, relevant to uncertainty/calibration signals but not RAG-specific.",
+  "why_not_or_caveat": "Not about retrieval-augmented generation or unreliable evidence; focuses on intrinsic LLM hallucination detection via training data exposure.",
+  "recommended_use": "background_only",
+  "suggested_section": "Uncertainty and hallucination detection",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:16.116070+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.17946v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"ood_uncertainty\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies hallucination detection using pretraining n-gram coverage and log-probabilities, relevant to uncertainty/calibration signals but not RAG-specific.\",\"why_not_or_caveat\":\"Not about retrieval-augmented generation or unreliable evidence; focuses on intrinsic LLM hallucination detection via training data exposure.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Uncertainty and hallucination detection\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.16551v1",
+  "title": "Automated Extraction of Mechanical Constitutive Models from Scientific Literature using Large Language Models: Applications in Cultural Heritage Conservation",
+  "authors": "Rui Hu; Yue Wu; Tianhao Su; Yin Wang; Shunbo Hu; Jizhong Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.16551v1",
+  "local_pdf": "pdfs/2026_rui_hu_automated_extraction_of_mechanical_constitutive_models_from_scientific_literature_using_4f75f63f.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of LLMs to extract constitutive models from literature for cultural heritage; not about RAG robustness.",
+  "why_not_or_caveat": "Does not study noise, conflict, adversarial robustness, calibration, or evaluation of RAG under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:34.772325+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.16551v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of LLMs to extract constitutive models from literature for cultural heritage; not about RAG robustness.\",\"why_not_or_caveat\":\"Does not study noise, conflict, adversarial robustness, calibration, or evaluation of RAG under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

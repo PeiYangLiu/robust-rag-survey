@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.24366v1",
+  "title": "Structure-Aware RAG: Structured Retrieval Augmented Generation from Noisy Data for Conversational Agents",
+  "authors": "Kaiqiao Han; LuAn Tang; Renliang Sun; Peng Yuan; Wei Cheng; Haoyu Wang; Wei Wang; Yizhou Sun; Haifeng Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.24366v1",
+  "local_pdf": "pdfs/2026_kaiqiao_han_structure_aware_rag_structured_retrieval_augmented_generation_from_noisy_data_for_conver_faf63bbd.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a structured (table-based) RAG framework explicitly designed to handle noisy conversational data, addressing noisy/irrelevant retrieval contexts.",
+  "why_not_or_caveat": "Focus is on method design for conversational agents rather than systematic robustness analysis; relevance to broader noise/conflict taxonomy is limited.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval - structured representations",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.876192+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.24366v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a structured (table-based) RAG framework explicitly designed to handle noisy conversational data, addressing noisy/irrelevant retrieval contexts.\",\"why_not_or_caveat\":\"Focus is on method design for conversational agents rather than systematic robustness analysis; relevance to broader noise/conflict taxonomy is limited.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval - structured representations\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

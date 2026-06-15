@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.14605v2",
+  "title": "Knowledge-based Visual Question Answer with Multimodal Processing, Retrieval and Filtering",
+  "authors": "Yuyang Hong; Jiaqi Gu; Qi Yang; Lubin Fan; Yue Wu; Ying Wang; Kun Ding; Shiming Xiang; Jieping Ye",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.14605v2",
+  "local_pdf": "pdfs/2025_yuyang_hong_knowledge_based_visual_question_answer_with_multimodal_processing_retrieval_and_filterin_90520c58.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes multimodal RAG with filtering of irrelevant retrieved content for KB-VQA, touching on noisy retrieval mitigation.",
+  "why_not_or_caveat": "Primarily an application/method for KB-VQA accuracy, not a study of robustness, calibration, conflict, or adversarial issues central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.095011+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.14605v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes multimodal RAG with filtering of irrelevant retrieved content for KB-VQA, touching on noisy retrieval mitigation.\",\"why_not_or_caveat\":\"Primarily an application/method for KB-VQA accuracy, not a study of robustness, calibration, conflict, or adversarial issues central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.16962v1",
+  "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
+  "authors": "Saksham Sahai Srivastava; Haoyu He",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.16962v1",
+  "local_pdf": "pdfs/2025_saksham_sahai_srivastava_memorygraft_persistent_compromise_of_llm_agents_via_poisoned_experience_retrieval_b5d4e81a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a memory-poisoning attack on agentic RAG long-term memory, exploiting semantic retrieval to induce persistent behavioral drift. Relevant to adversarial corruption of retrieval stores.",
+  "why_not_or_caveat": "Focuses on agent memory rather than canonical RAG knowledge base poisoning; narrow validation on MetaGPT.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: poisoning and memory attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:32.108660+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.16962v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces a memory-poisoning attack on agentic RAG long-term memory, exploiting semantic retrieval to induce persistent behavioral drift. Relevant to adversarial corruption of retrieval stores.\",\"why_not_or_caveat\":\"Focuses on agent memory rather than canonical RAG knowledge base poisoning; narrow validation on MetaGPT.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption: poisoning and memory attacks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

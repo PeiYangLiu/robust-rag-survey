@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.07054v1",
+  "title": "Fine-Tuning vs. RAG for Multi-Hop Question Answering with Novel Knowledge",
+  "authors": "Zhuoyi Yang; Yurun Song; Iftekhar Ahmed; Ian Harris",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.07054v1",
+  "local_pdf": "pdfs/2026_zhuoyi_yang_fine_tuning_vs_rag_for_multi_hop_question_answering_with_novel_knowledge_bd1b6072.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Compares RAG vs fine-tuning for multi-hop QA with novel post-cutoff knowledge, touching on parametric vs retrieved knowledge tradeoffs.",
+  "why_not_or_caveat": "Does not study robustness, noise, conflict, adversaries, or calibration; focuses on accuracy comparison of knowledge injection methods.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:32.588776+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.07054v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Compares RAG vs fine-tuning for multi-hop QA with novel post-cutoff knowledge, touching on parametric vs retrieved knowledge tradeoffs.\",\n  \"why_not_or_caveat\": \"Does not study robustness, noise, conflict, adversaries, or calibration; focuses on accuracy comparison of knowledge injection methods.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

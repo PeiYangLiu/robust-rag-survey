@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.14222v1",
+  "title": "Adaptive Query Routing: A Tier-Based Framework for Hybrid Retrieval Across Financial, Legal, and Medical Documents",
+  "authors": "Afshan Hashmi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.14222v1",
+  "local_pdf": "pdfs/2026_afshan_hashmi_adaptive_query_routing_a_tier_based_framework_for_hybrid_retrieval_across_financial_lega_e15ef4c0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive query routing among retrieval architectures, tangentially related to control/when-to-use-which-retriever.",
+  "why_not_or_caveat": "Focuses on retrieval architecture comparison and performance, not robustness, noise, conflict, adversarial attacks, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:37.184060+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.14222v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive query routing among retrieval architectures, tangentially related to control/when-to-use-which-retriever.\",\"why_not_or_caveat\":\"Focuses on retrieval architecture comparison and performance, not robustness, noise, conflict, adversarial attacks, or calibration under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

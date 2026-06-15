@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.03423v1",
+  "title": "Origin Lens: A Privacy-First Mobile Framework for Cryptographic Image Provenance and AI Detection",
+  "authors": "Alexander Loth; Dominique Conceicao Rosario; Peter Ebinger; Martin Kappes; Marc-Oliver Pahl",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.03423v1",
+  "local_pdf": "pdfs/2026_alexander_loth_origin_lens_a_privacy_first_mobile_framework_for_cryptographic_image_provenance_and_ai_d_12ba0d66.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions retrieval-augmented verification only as an optional signal in an image provenance system.",
+  "why_not_or_caveat": "Focused on cryptographic image provenance and AI-generated image detection, not on RAG robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:50.356287+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.03423v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Mentions retrieval-augmented verification only as an optional signal in an image provenance system.\", \"why_not_or_caveat\": \"Focused on cryptographic image provenance and AI-generated image detection, not on RAG robustness.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

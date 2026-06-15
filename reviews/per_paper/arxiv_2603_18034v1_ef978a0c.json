@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.18034v1",
+  "title": "Semantic Chameleon: Corpus-Dependent Poisoning Attacks and Defenses in RAG Systems",
+  "authors": "Scott Thornton",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.18034v1",
+  "local_pdf": "pdfs/2026_scott_thornton_semantic_chameleon_corpus_dependent_poisoning_attacks_and_defenses_in_rag_systems_ef978a0c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies gradient-guided corpus poisoning attacks on RAG and evaluates hybrid retrieval as a defense, with multi-model and cross-corpus evaluation directly relevant to adversarial robustness.",
+  "why_not_or_caveat": "Independent preprint with suspicious arxiv id and forward-dated models (GPT-5.3); verify provenance before citing.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Defenses",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.181542+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.18034v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"attack\",\"why_relevant\":\"Studies gradient-guided corpus poisoning attacks on RAG and evaluates hybrid retrieval as a defense, with multi-model and cross-corpus evaluation directly relevant to adversarial robustness.\",\"why_not_or_caveat\":\"Independent preprint with suspicious arxiv id and forward-dated models (GPT-5.3); verify provenance before citing.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning and Defenses\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

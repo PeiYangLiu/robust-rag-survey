@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.08943v1",
+  "title": "Noise-Robust Abstractive Compression in Retrieval-Augmented Language Models",
+  "authors": "Singon Kim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.08943v1",
+  "local_pdf": "pdfs/2025_singon_kim_noise_robust_abstractive_compression_in_retrieval_augmented_language_models_5733ea6d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes ACoRN, a noise-robust abstractive context compression method for RAG that targets irrelevant and misleading retrieved documents via data augmentation and fine-tuning.",
+  "why_not_or_caveat": "Master's thesis; focused narrowly on compression rather than full RAG robustness pipeline.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval / context filtering and compression",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.298215+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.08943v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes ACoRN, a noise-robust abstractive context compression method for RAG that targets irrelevant and misleading retrieved documents via data augmentation and fine-tuning.\",\"why_not_or_caveat\":\"Master's thesis; focused narrowly on compression rather than full RAG robustness pipeline.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval / context filtering and compression\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

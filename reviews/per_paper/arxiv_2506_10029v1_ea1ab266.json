@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.10029v1",
+  "title": "Evaluation empirique de la sécurisation et de l'alignement de ChatGPT et Gemini: analyse comparative des vulnérabilités par expérimentations de jailbreaks",
+  "authors": "Rafaël Nouailles",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.10029v1",
+  "local_pdf": "pdfs/2025_rafa_l_nouailles_evaluation_empirique_de_la_s_curisation_et_de_l_alignement_de_chatgpt_et_gemini_analyse_ea1ab266.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper studies jailbreaks on ChatGPT/Gemini, not RAG robustness, retrieval, or evidence reliability.",
+  "why_not_or_caveat": "No RAG focus; only LLM jailbreak/alignment analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:59.052298+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.10029v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Paper studies jailbreaks on ChatGPT/Gemini, not RAG robustness, retrieval, or evidence reliability.\",\"why_not_or_caveat\":\"No RAG focus; only LLM jailbreak/alignment analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

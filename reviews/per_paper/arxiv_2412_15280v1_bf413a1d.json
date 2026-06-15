@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2412.15280v1",
+  "title": "Context-DPO: Aligning Language Models for Context-Faithfulness",
+  "authors": "Baolong Bi; Shaohan Huang; Yiwei Wang; Tianchi Yang; Zihan Zhang; Haizhen Huang; Lingrui Mei; Junfeng Fang; Zehao Li; Furu Wei; Weiwei Deng; Feng Sun; Qi Zhang; Shenghua Liu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.15280v1",
+  "local_pdf": "pdfs/2024_baolong_bi_context_dpo_aligning_language_models_for_context_faithfulness_bf413a1d.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes Context-DPO alignment to improve context-faithfulness under knowledge conflicts in RAG, and introduces ConFiQA benchmark with counterfactual contexts for evaluation.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict and Context Compliance",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.129301+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.15280v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes Context-DPO alignment to improve context-faithfulness under knowledge conflicts in RAG, and introduces ConFiQA benchmark with counterfactual contexts for evaluation.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict and Context Compliance\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

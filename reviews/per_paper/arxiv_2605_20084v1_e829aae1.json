@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.20084v1",
+  "title": "BalanceRAG: Joint Risk Calibration for Cascaded Retrieval-Augmented Generation",
+  "authors": "Zijun Jia; Yuanchang Ye; Sen Jia; Yiyao Qian; Haoning Wang; Baojie Chen; Diyin Tang; Jinsong Yu; Zhiyuan Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.20084v1",
+  "local_pdf": "pdfs/2026_zijun_jia_balancerag_joint_risk_calibration_for_cascaded_retrieval_augmented_generation_e829aae1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a finite-sample risk-controlled calibration method for cascaded LLM-only/RAG routing with abstention, directly addressing when to retrieve and when to abstain under uncertainty.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:36.005385+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.20084v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a finite-sample risk-controlled calibration method for cascaded LLM-only/RAG routing with abstention, directly addressing when to retrieve and when to abstain under uncertainty.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

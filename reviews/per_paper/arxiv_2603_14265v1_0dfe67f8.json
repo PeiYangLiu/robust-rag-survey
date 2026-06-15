@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.14265v1",
+  "title": "MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering",
+  "authors": "Shaowei Guan; Yu Zhai; Hin Chi Kwok; Jiawei Du; Xinyu Feng; Jing Li; Harry Qin; Vivian Hui",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.14265v1",
+  "local_pdf": "pdfs/2026_shaowei_guan_medpriv_bench_benchmarking_the_privacy_utility_trade_off_of_large_language_models_in_med_0dfe67f8.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks privacy-utility trade-off in medical RAG, tangentially related to RAG safety but focused on privacy leakage rather than robustness against unreliable evidence.",
+  "why_not_or_caveat": "Scope is privacy/PHI leakage, not noise, distraction, conflict, adversarial attacks, or calibration as defined in the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:27.900368+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.14265v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Benchmarks privacy-utility trade-off in medical RAG, tangentially related to RAG safety but focused on privacy leakage rather than robustness against unreliable evidence.\",\"why_not_or_caveat\":\"Scope is privacy/PHI leakage, not noise, distraction, conflict, adversarial attacks, or calibration as defined in the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

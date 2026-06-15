@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05210v2",
+  "title": "DisastRAG: A Multi-Source Disaster Information Integration and Access System Based on Retrieval-Augmented Large Language Models",
+  "authors": "Bo Li; Zhitong Chen; Kai Yin; Junwei Ma; Yiming Xiao; Ali Mostafavi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05210v2",
+  "local_pdf": "pdfs/2026_bo_li_disastrag_a_multi_source_disaster_information_integration_and_access_system_based_on_ret_d398850b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to disaster management; briefly notes stronger models are more sensitive to retrieval noise but does not systematically study robustness.",
+  "why_not_or_caveat": "Primarily a domain application/system paper, not focused on robustness, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:04.117687+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05210v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to disaster management; briefly notes stronger models are more sensitive to retrieval noise but does not systematically study robustness.\",\"why_not_or_caveat\":\"Primarily a domain application/system paper, not focused on robustness, conflict, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

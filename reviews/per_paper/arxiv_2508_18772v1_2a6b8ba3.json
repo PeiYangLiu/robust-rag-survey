@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.18772v1",
+  "title": "Beyond the Textual: Generating Coherent Visual Options for MCQs",
+  "authors": "Wanqiang Wang; Longzhu He; Wei Zheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.18772v1",
+  "local_pdf": "pdfs/2025_wanqiang_wang_beyond_the_textual_generating_coherent_visual_options_for_mcqs_2a6b8ba3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for visual MCQ option generation; does not study robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Application of RAG to education domain, not relevant to robustness scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:22.552315+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.18772v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for visual MCQ option generation; does not study robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Application of RAG to education domain, not relevant to robustness scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

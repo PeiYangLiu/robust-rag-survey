@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.18834v1",
+  "title": "Structural Verification for Reliable EDA Code Generation without Tool-in-the-Loop Debugging",
+  "authors": "Dinithi Jayasuriya; Aravind Saravanan; Nilesh Ahuja; Amanda Rios; Amit Trivedi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.18834v1",
+  "local_pdf": "pdfs/2026_dinithi_jayasuriya_structural_verification_for_reliable_eda_code_generation_without_tool_in_the_loop_debugg_8692e91c.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific EDA code generation with verifier-guided synthesis; uses RAG but focuses on structural verification, not RAG robustness.",
+  "why_not_or_caveat": "Not about robust RAG under unreliable evidence; RAG is just a baseline.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:38.146534+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.18834v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific EDA code generation with verifier-guided synthesis; uses RAG but focuses on structural verification, not RAG robustness.\",\"why_not_or_caveat\":\"Not about robust RAG under unreliable evidence; RAG is just a baseline.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

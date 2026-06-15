@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.12759v2",
+  "title": "RAG-RL: Advancing Retrieval-Augmented Generation via RL and Curriculum Learning",
+  "authors": "Jerry Huang; Siddarth Madala; Risham Sidhu; Cheng Niu; Hao Peng; Julia Hockenmaier; Tong Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.12759v2",
+  "local_pdf": "pdfs/2025_jerry_huang_rag_rl_advancing_retrieval_augmented_generation_via_rl_and_curriculum_learning_c9803d5b.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "RAG-RL trains the generator to identify and cite relevant passages among distractors, directly addressing robustness to imperfect retrieval and irrelevant contexts via RL and curriculum learning.",
+  "why_not_or_caveat": "Focus is on improving generation under distractors rather than adversarial or conflict settings; evaluation limited to multi-hop QA.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval & distraction mitigation",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.962690+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.12759v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"RAG-RL trains the generator to identify and cite relevant passages among distractors, directly addressing robustness to imperfect retrieval and irrelevant contexts via RL and curriculum learning.\",\"why_not_or_caveat\":\"Focus is on improving generation under distractors rather than adversarial or conflict settings; evaluation limited to multi-hop QA.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval & distraction mitigation\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.00527v1",
+  "title": "Retrieval-Augmented Generation Systems for Intellectual Property via Synthetic Multi-Angle Fine-tuning",
+  "authors": "Runtao Ren; Jian Ma; Jianxi Luo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.00527v1",
+  "local_pdf": "pdfs/2025_runtao_ren_retrieval_augmented_generation_systems_for_intellectual_property_via_synthetic_multi_ang_4f1fca7a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for patents using query generation and retriever fine-tuning; not focused on robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Addresses query diversity in IP domain via fine-tuning, not the robustness/unreliable evidence concerns of this survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.980359+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.00527v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for patents using query generation and retriever fine-tuning; not focused on robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Addresses query diversity in IP domain via fine-tuning, not the robustness/unreliable evidence concerns of this survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

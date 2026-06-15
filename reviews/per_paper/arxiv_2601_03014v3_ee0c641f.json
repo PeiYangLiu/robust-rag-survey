@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.03014v3",
+  "title": "SentGraph: Hierarchical Sentence Graph for Multi-hop Retrieval-Augmented Question Answering",
+  "authors": "Junli Liang; Pengfei Zhou; Wangqiu Zhou; Wenjie Qing; Qi Zhao; Ziwen Wang; Qi Song; Xiangyang Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.03014v3",
+  "local_pdf": "pdfs/2026_junli_liang_sentgraph_hierarchical_sentence_graph_for_multi_hop_retrieval_augmented_question_answeri_ee0c641f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a sentence-level graph RAG method for multi-hop QA, aiming to reduce irrelevant context, but does not directly study robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focus is on retrieval granularity/structure for multi-hop QA, not on robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.785415+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.03014v3\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a sentence-level graph RAG method for multi-hop QA, aiming to reduce irrelevant context, but does not directly study robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Focus is on retrieval granularity/structure for multi-hop QA, not on robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

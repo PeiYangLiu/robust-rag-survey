@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.20357v1",
+  "title": "Memory poisoning and secure multi-agent systems",
+  "authors": "Vicenç Torra; Maria Bras-Amorós",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.20357v1",
+  "local_pdf": "pdfs/2026_vicen_torra_memory_poisoning_and_secure_multi_agent_systems_540efdb7.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Discusses memory/RAG poisoning attacks in agentic systems and proposes cryptographic and k-anonymity-based mitigation for semantic memory, touching on RAG poisoning robustness.",
+  "why_not_or_caveat": "Focus is broader agentic memory systems and security-by-design, not specifically RAG robustness benchmarks or calibration; mitigations are conceptual.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and poisoning defenses",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:21.429736+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.20357v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Discusses memory/RAG poisoning attacks in agentic systems and proposes cryptographic and k-anonymity-based mitigation for semantic memory, touching on RAG poisoning robustness.\",\n  \"why_not_or_caveat\": \"Focus is broader agentic memory systems and security-by-design, not specifically RAG robustness benchmarks or calibration; mitigations are conceptual.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and poisoning defenses\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.00586v2",
+  "title": "RAG-GNN: Integrating Retrieved Knowledge with Graph Neural Networks for Precision Medicine",
+  "authors": "Hasi Hays; William J. Richardson",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.00586v2",
+  "local_pdf": "pdfs/2026_hasi_hays_rag_gnn_integrating_retrieved_knowledge_with_graph_neural_networks_for_precision_medicin_0c79ba7e.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with GNNs to biomedical precision medicine; not focused on RAG robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Domain application paper; counterfactual retrieval experiments are minor sanity checks, not a robustness contribution.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:26.502968+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.00586v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG with GNNs to biomedical precision medicine; not focused on RAG robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Domain application paper; counterfactual retrieval experiments are minor sanity checks, not a robustness contribution.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

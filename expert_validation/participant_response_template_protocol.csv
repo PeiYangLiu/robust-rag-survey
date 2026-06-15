@@ -1,0 +1,2 @@
+participant_id,condition,pair_id,verdict,confidence_1_5,decision_time_seconds,usefulness_1_5,failure_type,evidence_assumption,intervention_point,metric_target,action_policy,breaking_coordinates,rationale,error_type
+E02,protocol,P01,,,,,,,,,,,,

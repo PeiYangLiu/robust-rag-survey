@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2307.04642",
+  "title": "\\[[arxiv](https://arxiv.org/pdf/2307.04642)\\] TRAQ: Trustworthy Retrieval Augmented Question Answering via Conformal Prediction",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2307.04642",
+  "local_pdf": "pdfs/na_arxiv_2307_04642_arxiv_https_arxiv_org_pdf_2307_04642_traq_trustworthy_retrieval_augmented_questi_9b5a197d.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "TRAQ applies conformal prediction to RAG to provide statistical coverage guarantees on answer correctness, addressing uncertainty in both retrieval and generation stages.",
+  "why_not_or_caveat": "Focuses on coverage guarantees rather than robustness to noise/attacks directly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:31.276725+00:00",
+  "raw_response": "{\"key\":\"arxiv-2307.04642\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"TRAQ applies conformal prediction to RAG to provide statistical coverage guarantees on answer correctness, addressing uncertainty in both retrieval and generation stages.\",\"why_not_or_caveat\":\"Focuses on coverage guarantees rather than robustness to noise/attacks directly.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

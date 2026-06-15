@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.09956v1",
+  "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
+  "authors": "Sahar Abdelnabi; Aideen Fay; Ahmed Salem; Egor Zverev; Kai-Chieh Liao; Chi-Huang Liu; Chun-Chih Kuo; Jannis Weigend; Danyael Manlangit; Alex Apostolov; Haris Umair; João Donato; Masayuki Kawakita; Athar Mahboob; Tran Huu Bach; Tsun-Han Chiang; Myeongjin Cho; Hajin Choi; Byeonghyeon Kim; Hyeonjin Lee; Benjamin Pannell; Conor McCauley; Mark Russinovich; Andrew Paverd; Giovanni Cherubin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.09956v1",
+  "local_pdf": "pdfs/2025_sahar_abdelnabi_llmail_inject_a_dataset_from_a_realistic_adaptive_prompt_injection_challenge_8d64a312.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Provides a large-scale dataset and analysis of adaptive indirect prompt injection attacks against an LLM-based email assistant with retrieval, directly relevant to adversarial corruption and defenses in RAG.",
+  "why_not_or_caveat": "Focus is on prompt injection in agentic email setting rather than general RAG poisoning.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: indirect prompt injection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:45.385954+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.09956v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Provides a large-scale dataset and analysis of adaptive indirect prompt injection attacks against an LLM-based email assistant with retrieval, directly relevant to adversarial corruption and defenses in RAG.\",\"why_not_or_caveat\":\"Focus is on prompt injection in agentic email setting rather than general RAG poisoning.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption: indirect prompt injection\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.08385v1",
+  "title": "Quantifiable Uncertainty: A Stochastic Consensus Multi-Agent RAG Framework for Robust Malware Detection",
+  "authors": "ElMouatez Billah Karbab",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.08385v1",
+  "local_pdf": "pdfs/2026_elmouatez_billah_karbab_quantifiable_uncertainty_a_stochastic_consensus_multi_agent_rag_framework_for_robust_mal_b04bcfab.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "application"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with ensemble-based uncertainty and a reject option for malware detection, touching on calibration/abstention concepts.",
+  "why_not_or_caveat": "Domain-specific application to malware detection rather than a general study of RAG robustness; uncertainty methods are tailored to security classification.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:34.609215+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.08385v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"application\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Applies RAG with ensemble-based uncertainty and a reject option for malware detection, touching on calibration/abstention concepts.\",\n  \"why_not_or_caveat\": \"Domain-specific application to malware detection rather than a general study of RAG robustness; uncertainty methods are tailored to security classification.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

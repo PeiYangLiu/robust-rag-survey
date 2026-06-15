@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.21544v3",
+  "title": "MAGIC: A Multi-Hop and Graph-Based Benchmark for Inter-Context Conflicts in Retrieval-Augmented Generation",
+  "authors": "Jungyeon Lee; Kangmin Lee; Taeuk Kim",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.21544v3",
+  "local_pdf": "pdfs/2025_jungyeon_lee_magic_a_multi_hop_and_graph_based_benchmark_for_inter_context_conflicts_in_retrieval_aug_8227c3ba.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces MAGIC, a KG-based benchmark for inter-context knowledge conflicts in RAG, including multi-hop conflicts, directly addressing the conflict and evaluation aspects of the survey.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:45.229033+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.21544v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces MAGIC, a KG-based benchmark for inter-context knowledge conflicts in RAG, including multi-hop conflicts, directly addressing the conflict and evaluation aspects of the survey.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict Benchmarks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

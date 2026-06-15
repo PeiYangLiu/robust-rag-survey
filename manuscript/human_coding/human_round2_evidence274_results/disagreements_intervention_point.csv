@@ -1,0 +1,19 @@
+paper_id,title,field,source_01_label,source_02_label,url
+rrag012,Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis,intervention_point,system_control,generator,https://arxiv.org/abs/2505.07459v2
+rrag023,PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation,intervention_point,evaluation,corpus_kb,https://arxiv.org/abs/2505.12574v4
+rrag033,Benchmarking Poisoning Attacks against Retrieval-Augmented Generation,intervention_point,evaluation,mixed,https://arxiv.org/abs/2505.18543v1
+rrag046,Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts,intervention_point,context_assembly,generator,https://arxiv.org/abs/2305.13300v4
+trustworthyRAGSurvey2025,Towards Trustworthy Retrieval Augmented Generation for Large Language Models: A Survey,intervention_point,mixed,not_applicable,https://arxiv.org/abs/2502.06872
+rrag069,When Evidence Conflicts: Uncertainty and Order Effects in Retrieval-Augmented Biomedical Question Answering,intervention_point,generator,mixed,https://arxiv.org/abs/2605.14115v1
+rrag070,The Synthetic Web: Adversarially-Curated Mini-Internets for Diagnosing Epistemic Weaknesses of Language Agents,intervention_point,evaluation,retriever,https://arxiv.org/abs/2603.00801v1
+rrag090,On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains,intervention_point,retriever,corpus_kb,https://arxiv.org/abs/2409.17275
+rrag092,"After Retrieval, Before Generation: Enhancing the Trustworthiness of Large Language Models in RAG",intervention_point,context_assembly,mixed,https://arxiv.org/abs/2505.17118
+ctrla2025,CtrlA: Adaptive Retrieval-Augmented Generation via Inherent Control,intervention_point,generator,system_control,https://aclanthology.org/2025.findings-acl.652/
+rrag143,Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG,intervention_point,evaluation,context_assembly,https://arxiv.org/abs/2605.27105v2
+rrag156,Bypassing Prompt Injection Detectors through Evasive Injections,intervention_point,context_assembly,generator,https://arxiv.org/abs/2602.00750v2
+rrag171,Robustness via Referencing: Defending against Prompt Injection Attacks by Referencing the Executed Instruction,intervention_point,generator,context_assembly,https://arxiv.org/abs/2504.20472v2
+rrag205,Confidence-Based Response Abstinence: Improving LLM Trustworthiness via Activation-Based Uncertainty Estimation,intervention_point,system_control,generator,https://arxiv.org/abs/2510.13750v2
+rrag208,AttnTrace: Contextual Attribution of Prompt Injection and Knowledge Corruption,intervention_point,system_control,context_assembly,https://arxiv.org/abs/2508.03793v3
+venue019,Evaluation of Attribution Bias in Generator-Aware Retrieval-Augmented Large Language Models,intervention_point,generator,evaluation,https://aclanthology.org/2025.findings-acl.1087/
+venue026,DCMI: A Differential Calibration Membership Inference Attack Against Retrieval-Augmented Generation.,intervention_point,retriever,corpus_kb,https://doi.org/10.1145/3719027.3765103
+venue047,RLG-RAG: Guiding the Knowledge Retrieval and Evaluation in Retrieval-Augmented Generation Framework by Reasoning Logic.,intervention_point,retriever,mixed,https://doi.org/10.1145/3701716.3715554

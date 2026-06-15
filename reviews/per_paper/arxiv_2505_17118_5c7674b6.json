@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2505.17118",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2505.17118)\\] After Retrieval, Before Generation: Enhancing the Trustworthiness of Large Language Models in RAG",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.17118",
+  "local_pdf": "pdfs/na_arxiv_2505_17118_arxiv_https_arxiv_org_abs_2505_17118_after_retrieval_before_generation_enhancing_5c7674b6.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes BRIDGE framework and TRD benchmark explicitly addressing parametric vs retrieved knowledge conflicts, poisoned context, outdated knowledge, and abstention—directly aligning with conflict, calibration/control, and evaluation themes.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge conflict and abstention control",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:38.657161+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.17118\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes BRIDGE framework and TRD benchmark explicitly addressing parametric vs retrieved knowledge conflicts, poisoned context, outdated knowledge, and abstention—directly aligning with conflict, calibration/control, and evaluation themes.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge conflict and abstention control\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

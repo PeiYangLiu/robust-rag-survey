@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.04057v1",
+  "title": "PAIRS: Parametric-Verified Adaptive Information Retrieval and Selection for Efficient RAG",
+  "authors": "Wang Chen; Guanqiang Qi; Weikang Li; Yang Li; Deguo Xia; Jizhou Huang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.04057v1",
+  "local_pdf": "pdfs/2025_wang_chen_pairs_parametric_verified_adaptive_information_retrieval_and_selection_for_efficient_rag_7e25294c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "PAIRS adaptively decides when to retrieve by comparing parametric vs pseudo-context answers, and filters retrieved documents to mitigate irrelevant retrievals—directly relevant to adaptive retrieval control and noisy retrieval filtering.",
+  "why_not_or_caveat": "Focused on efficiency/accuracy rather than explicit robustness, calibration, or adversarial settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.741255+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.04057v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"PAIRS adaptively decides when to retrieve by comparing parametric vs pseudo-context answers, and filters retrieved documents to mitigate irrelevant retrievals—directly relevant to adaptive retrieval control and noisy retrieval filtering.\",\n  \"why_not_or_caveat\": \"Focused on efficiency/accuracy rather than explicit robustness, calibration, or adversarial settings.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

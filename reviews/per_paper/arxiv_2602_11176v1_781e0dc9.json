@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.11176v1",
+  "title": "Evaluating Few-Shot Temporal Reasoning of LLMs for Human Activity Prediction in Smart Environments",
+  "authors": "Maral Doctorarastoo; Katherine A. Flanigan; Mario Bergés; Christopher McComb",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.11176v1",
+  "local_pdf": "pdfs/2026_maral_doctorarastoo_evaluating_few_shot_temporal_reasoning_of_llms_for_human_activity_prediction_in_smart_en_781e0dc9.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses retrieval-augmented prompting for activity prediction but does not study robustness, noise, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Application paper; no focus on unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:32.081313+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.11176v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses retrieval-augmented prompting for activity prediction but does not study robustness, noise, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Application paper; no focus on unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

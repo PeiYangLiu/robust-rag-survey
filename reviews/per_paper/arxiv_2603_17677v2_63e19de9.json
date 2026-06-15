@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.17677v2",
+  "title": "Adaptive Guidance for Retrieval-Augmented Masked Diffusion Models",
+  "authors": "Jaemin Kim; Jong Chul Ye",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.17677v2",
+  "local_pdf": "pdfs/2026_jaemin_kim_adaptive_guidance_for_retrieval_augmented_masked_diffusion_models_63e19de9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive guidance for masked diffusion RAG that dynamically calibrates trust between retrieved context and parametric prior via SNR, directly addressing knowledge conflict and noisy retrieval.",
+  "why_not_or_caveat": "Focused on diffusion language models, a niche substrate compared to autoregressive RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and adaptive control",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.911534+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.17677v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes adaptive guidance for masked diffusion RAG that dynamically calibrates trust between retrieved context and parametric prior via SNR, directly addressing knowledge conflict and noisy retrieval.\",\n  \"why_not_or_caveat\": \"Focused on diffusion language models, a niche substrate compared to autoregressive RAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and adaptive control\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

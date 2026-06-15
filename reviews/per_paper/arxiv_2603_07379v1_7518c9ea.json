@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.07379v1",
+  "title": "SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions",
+  "authors": "Saroj Mishra; Suman Niroula; Umesh Yadav; Dilip Thakur; Srijan Gyawali; Shiva Gaire",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07379v1",
+  "local_pdf": "pdfs/2026_saroj_mishra_sok_agentic_retrieval_augmented_generation_rag_taxonomy_architectures_evaluation_and_res_7518c9ea.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "survey_related",
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "This SoK on Agentic RAG discusses reliability risks including memory poisoning, retrieval misalignment, hallucination propagation, and evaluation challenges, which overlap with robustness concerns in the survey.",
+  "why_not_or_caveat": "Focus is broad systematization of agentic RAG architectures rather than specifically robust RAG under unreliable evidence; treatment of noise/conflict/calibration is high-level.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Related Surveys and Agentic RAG Reliability",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:33.098689+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.07379v1\", \"relevance_score\": 3, \"decision\": \"background\", \"suitable_for_survey\": true, \"primary_categories\": [\"survey_related\", \"adversarial_corruption\", \"evaluation_benchmark\"], \"paper_role\": \"survey\", \"why_relevant\": \"This SoK on Agentic RAG discusses reliability risks including memory poisoning, retrieval misalignment, hallucination propagation, and evaluation challenges, which overlap with robustness concerns in the survey.\", \"why_not_or_caveat\": \"Focus is broad systematization of agentic RAG architectures rather than specifically robust RAG under unreliable evidence; treatment of noise/conflict/calibration is high-level.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Related Surveys and Agentic RAG Reliability\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

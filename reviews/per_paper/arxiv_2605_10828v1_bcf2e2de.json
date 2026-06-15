@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.10828v1",
+  "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+  "authors": "Muhan Gao; Zih-Ching Chen; Kuan-Hao Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.10828v1",
+  "local_pdf": "pdfs/2026_muhan_gao_the_first_drop_of_ink_nonlinear_impact_of_misleading_information_in_long_context_reasoni_bcf2e2de.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "The paper directly analyzes how hard distractors in long-context RAG degrade performance, providing theoretical and empirical evidence of a nonlinear 'first drop of ink' effect and implications for filtering vs. upstream retrieval precision.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Distraction in long-context RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:13.937936+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.10828v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"noisy_retrieval\"],\"paper_role\":\"analysis\",\"why_relevant\":\"The paper directly analyzes how hard distractors in long-context RAG degrade performance, providing theoretical and empirical evidence of a nonlinear 'first drop of ink' effect and implications for filtering vs. upstream retrieval precision.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Distraction in long-context RAG\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

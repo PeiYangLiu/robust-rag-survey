@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.18792v1",
+  "title": "Trust or Abstain? A Self-Aware RAG Approach",
+  "authors": "Xi Zhu; Ziqi Wang; Kai Mei; Wujiang Xu; Minghao Guo; Bangji Yang; Jiajun Fan; Dimitris N. Metaxas",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18792v1",
+  "local_pdf": "pdfs/2026_xi_zhu_trust_or_abstain_a_self_aware_rag_approach_b1278da8.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes SABER, a self-aware belief estimator for RAG that handles PK-vs-CK knowledge conflict with a 4-cell trust/abstain decision, directly addressing calibration, abstention, and conflict resolution. Also introduces a conflict-QA benchmark with faithfulness metrics.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict and Abstention/Calibration",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.207574+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.18792v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes SABER, a self-aware belief estimator for RAG that handles PK-vs-CK knowledge conflict with a 4-cell trust/abstain decision, directly addressing calibration, abstention, and conflict resolution. Also introduces a conflict-QA benchmark with faithfulness metrics.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict and Abstention/Calibration\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

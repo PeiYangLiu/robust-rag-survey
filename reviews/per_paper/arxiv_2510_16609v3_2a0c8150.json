@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.16609v3",
+  "title": "Prior Knowledge Makes It Possible: From Sublinear Graph Algorithms to LLM Test-Time Methods",
+  "authors": "Avrim Blum; Daniel Hsu; Cyrus Rashtchian; Donya Saless",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.16609v3",
+  "local_pdf": "pdfs/2025_avrim_blum_prior_knowledge_makes_it_possible_from_sublinear_graph_algorithms_to_llm_test_time_metho_2a0c8150.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Provides a theoretical graph-based framework for the interplay between parametric knowledge and retrieval augmentation, including tolerance to noisy/false edges, which loosely connects to robustness of RAG.",
+  "why_not_or_caveat": "Highly abstract theoretical work on s-t connectivity; does not directly address noise, conflict, adversaries, calibration, or empirical RAG robustness.",
+  "recommended_use": "background_only",
+  "suggested_section": "Theoretical foundations",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:36.557377+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.16609v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"theory\",\n  \"why_relevant\": \"Provides a theoretical graph-based framework for the interplay between parametric knowledge and retrieval augmentation, including tolerance to noisy/false edges, which loosely connects to robustness of RAG.\",\n  \"why_not_or_caveat\": \"Highly abstract theoretical work on s-t connectivity; does not directly address noise, conflict, adversaries, calibration, or empirical RAG robustness.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Theoretical foundations\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

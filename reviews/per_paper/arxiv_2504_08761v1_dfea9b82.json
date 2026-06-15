@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.08761v1",
+  "title": "UltraRAG: A Modular and Automated Toolkit for Adaptive Retrieval-Augmented Generation",
+  "authors": "Yuxuan Chen; Dewen Guo; Sen Mei; Xinze Li; Hao Chen; Yishan Li; Yixuan Wang; Chaoyue Tang; Ruobing Wang; Dingjun Wu; Yukun Yan; Zhenghao Liu; Shi Yu; Zhiyuan Liu; Maosong Sun",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.08761v1",
+  "local_pdf": "pdfs/2025_yuxuan_chen_ultrarag_a_modular_and_automated_toolkit_for_adaptive_retrieval_augmented_generation_dfea9b82.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "A general RAG toolkit for building/evaluating pipelines, not focused on robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "No direct study of unreliable evidence; only a tooling contribution.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.406868+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.08761v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"A general RAG toolkit for building/evaluating pipelines, not focused on robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"No direct study of unreliable evidence; only a tooling contribution.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

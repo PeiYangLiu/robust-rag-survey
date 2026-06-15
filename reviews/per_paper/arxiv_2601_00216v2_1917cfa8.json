@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.00216v2",
+  "title": "From Evidence-Based Medicine to Knowledge Graph: Retrieval-Augmented Generation for Sports Rehabilitation and a Domain Benchmark",
+  "authors": "Jinning Zhang; Jie Song; Wenhui Tu; Zecheng Li; Jingxuan Li; Jin Li; Xuan Liu; Taole Sha; Zichen Wei; Yan Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.00216v2",
+  "local_pdf": "pdfs/2026_jinning_zhang_from_evidence_based_medicine_to_knowledge_graph_retrieval_augmented_generation_for_sport_1917cfa8.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific medical GraphRAG with evidence-tier reranking; tangentially touches evidence quality but not robustness, noise, conflict, or calibration in the survey's sense.",
+  "why_not_or_caveat": "Focused on EBM/PICO alignment in sports rehabilitation rather than robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:31.294120+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.00216v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\",\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific medical GraphRAG with evidence-tier reranking; tangentially touches evidence quality but not robustness, noise, conflict, or calibration in the survey's sense.\",\"why_not_or_caveat\":\"Focused on EBM/PICO alignment in sports rehabilitation rather than robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

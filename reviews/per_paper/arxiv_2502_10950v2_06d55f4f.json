@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.10950v2",
+  "title": "SpeechT-RAG: Reliable Depression Detection in LLMs with Retrieval-Augmented Generation Using Speech Timing Information",
+  "authors": "Xiangyu Zhang; Hexin Liu; Qiquan Zhang; Beena Ahmed; Julien Epps",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.10950v2",
+  "local_pdf": "pdfs/2025_xiangyu_zhang_speecht_rag_reliable_depression_detection_in_llms_with_retrieval_augmented_generation_us_06d55f4f.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to depression detection with speech timing features and a confidence scoring mechanism; not focused on robustness, conflict, or attacks on RAG.",
+  "why_not_or_caveat": "Domain-specific application; the confidence estimation is task-specific and not a general contribution to RAG calibration/robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.713685+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.10950v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to depression detection with speech timing features and a confidence scoring mechanism; not focused on robustness, conflict, or attacks on RAG.\",\"why_not_or_caveat\":\"Domain-specific application; the confidence estimation is task-specific and not a general contribution to RAG calibration/robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

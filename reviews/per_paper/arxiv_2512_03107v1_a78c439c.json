@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.03107v1",
+  "title": "Detecting AI Hallucinations in Finance: An Information-Theoretic Method Cuts Hallucination Rate by 92%",
+  "authors": "Mainak Singha",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.03107v1",
+  "local_pdf": "pdfs/2025_mainak_singha_detecting_ai_hallucinations_in_finance_an_information_theoretic_method_cuts_hallucinatio_a78c439c.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hallucination detection method for RAG that combines semantic entropy with an evidence-capacity measure via perplexity decomposition, targeting cases where models ignore or conflict with retrieved evidence. Relevant to calibration/abstention and detecting unsupported answers.",
+  "why_not_or_caveat": "Small (n=200) synthetic financial QA evaluation; limited validation and narrow domain.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and abstention in RAG",
+  "confidence": 0.65,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:39.708363+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.03107v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a hallucination detection method for RAG that combines semantic entropy with an evidence-capacity measure via perplexity decomposition, targeting cases where models ignore or conflict with retrieved evidence. Relevant to calibration/abstention and detecting unsupported answers.\",\n  \"why_not_or_caveat\": \"Small (n=200) synthetic financial QA evaluation; limited validation and narrow domain.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and abstention in RAG\",\n  \"confidence\": 0.65\n}",
+  "skipped_existing": false
+}

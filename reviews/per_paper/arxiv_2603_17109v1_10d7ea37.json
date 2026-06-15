@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.17109v1",
+  "title": "SENSE: Efficient EEG-to-Text via Privacy-Preserving Semantic Retrieval",
+  "authors": "Akshaj Murhekar; Christina Liu; Abhijit Mishra; Shounak Roychowdhury; Jacek Gwizdka",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.17109v1",
+  "local_pdf": "pdfs/2026_akshaj_murhekar_sense_efficient_eeg_to_text_via_privacy_preserving_semantic_retrieval_10d7ea37.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper concerns EEG-to-text decoding via semantic retrieval; not about robust RAG, unreliable evidence, or related robustness/calibration topics.",
+  "why_not_or_caveat": "Out of scope despite 'retrieval' terminology.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:05.405091+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.17109v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper concerns EEG-to-text decoding via semantic retrieval; not about robust RAG, unreliable evidence, or related robustness/calibration topics.\",\"why_not_or_caveat\":\"Out of scope despite 'retrieval' terminology.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

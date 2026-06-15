@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.27164v1",
+  "title": "Query Symbolically or Retrieve Semantically? A Dataset and Method for Semi-Structured Question Answering",
+  "authors": "Mateusz Czyżnikiewicz; Ryszard Tuora; Adam Kozakiewicz; Tomasz Ziętkiewicz; Mateusz Galiński; Michał Godziszewski; Michał Karpowicz; Timothy Hospedales; Cristina Cornelio",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27164v1",
+  "local_pdf": "pdfs/2026_mateusz_czy_nikiewicz_query_symbolically_or_retrieve_semantically_a_dataset_and_method_for_semi_structured_que_652f1775.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hybrid symbolic/semantic RAG method and benchmark for semi-structured QA, touching on retrieval limitations but not focused on robustness, noise, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Focus is on improving retrieval for structured queries, not on robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:25.714706+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.27164v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a hybrid symbolic/semantic RAG method and benchmark for semi-structured QA, touching on retrieval limitations but not focused on robustness, noise, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Focus is on improving retrieval for structured queries, not on robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

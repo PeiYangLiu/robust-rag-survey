@@ -1,0 +1,10 @@
+category,count
+adversarial_corruption,140
+calibration_control,94
+knowledge_conflict,92
+evaluation_benchmark,83
+noisy_retrieval,79
+ood_uncertainty,58
+distraction,30
+survey_related,6
+analysis,2

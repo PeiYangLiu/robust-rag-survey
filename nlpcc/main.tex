@@ -1,0 +1,93 @@
+\documentclass[runningheads]{llncs}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage{hyperref}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+
+\title{Robust RAG under Unreliable Evidence:\\A Comparability-Centered Survey}
+\titlerunning{Robust RAG under Unreliable Evidence}
+\author{Anonymous Submission}
+\authorrunning{Anonymous Submission}
+\institute{Anonymous Institution}
+
+\maketitle
+
+\begin{abstract}
+Robust retrieval-augmented generation (RAG) grounds language models in external evidence, but that evidence can be irrelevant, distracting, conflicting, stale, insufficient, or adversarially corrupted. We present a focused survey of robust RAG under unreliable evidence, organized around a comparability question: when two papers share labels such as noise robustness, faithfulness, security, or calibration, are their evidence assumptions, interventions, metrics, and action policies actually aligned? Our organizing device is a five-coordinate tuple: failure type, evidence assumption, intervention point, metric target, and action policy. Using a 342-row adjudicated venue-expanded evidence map, we synthesize the literature through this lens, re-analyze representative paper groups, and document how common survey groupings can leave action-critical comparison fields under-specified. We also report peer-reviewed sensitivity checks, R17 60-pair protocol validation on hard partial/invalid pairs, and a reporting checklist for future robust-RAG papers. The result is a comparability-centered survey and reusable evidence resource for reading robust-RAG results under unreliable evidence.
+
+\keywords{Retrieval-augmented generation \and Robustness \and Survey \and Evidence reliability \and Evaluation.}
+\end{abstract}
+
+\section{Introduction}
+
+Retrieval-augmented generation (RAG) combines a parametric language model with external evidence retrieved at inference time \cite{lewis2020rag}. Under unreliable evidence, this pipeline can fail because retrieved passages are irrelevant, insufficient, conflicting, stale, unsupported by citations, or adversarially corrupted. The literature has responded with filters, rerankers, note-taking prompts, conflict-aware generators, poisoning defenses, calibration methods, abstention policies, and evaluation toolkits. Yet the resulting claims are often hard to compare.
+
+The core problem is not terminology alone. Two papers can both report ``robustness to noisy retrieval'' while one changes context construction, another trains the generator, and a third introduces a diagnostic benchmark. Two security papers can both report lower attack success while assuming different attacker access, objectives, and defense actions. A calibration method can improve confidence estimates without deciding whether to answer, retrieve again, or abstain. If these papers are read as substitutable methods, a survey can recommend the wrong benchmark, method, or deployment policy.
+
+This focused survey asks one question: \textbf{when do robust-RAG comparisons fail, and how can a survey make the missing comparison fields explicit?} We answer by using a comparability tuple, applying it to a 342-row adjudicated evidence map, and showing five high-value re-analyses where the tuple changes the conclusion. The practical risk is concrete: common survey groupings can induce misleading comparisons when evidence-state and action fields are left implicit, so that papers playing different scientific games are read as substitutable methods.
+
+This prior-survey concern is deliberately conservative. It does not claim that the cited surveys are wrong; it asks whether their broad organizing units are sufficient for direct comparison. In the grouping claims we audited, none provided enough information for a direct leaderboard-style comparison without adding tuple fields, but those counts are an audit sample rather than a field-level estimate.
+
+\paragraph{Survey contributions.}
+We make three contributions. First, we synthesize robust RAG through a five-coordinate comparability tuple that distinguishes valid, partial, invalid, and under-specified comparisons. Second, we release a reusable adjudicated evidence map (Map~A, 268 rows; Map~B, 342 rows after second coding of 148 candidate additions). Third, we provide pair-audit evidence, venue-stratified recommendations, and a reporting checklist linking the synthesis to benchmark design, method choice, and deployment.
+
+\section{Survey Lens: The Comparability Tuple}
+\label{sec:framework-first}
+
+We read each robust-RAG paper as a tuple:
+\[
+(\text{failure}, \text{assumption}, \text{intervention}, \text{metric}, \text{action}).
+\]
+\textbf{Failure} is the evidence problem: noisy retrieval, distraction, knowledge conflict, adversarial corruption, OOD/uncertainty, calibration/control, or evaluation. \textbf{Assumption} records the evidence state or threat model: benign hard negatives, insufficient context, stale or conflicting sources, attacker-created documents, instruction-bearing retrieved text, or typed evidence beyond passages. \textbf{Intervention} locates the method in the pipeline: corpus/KB, retriever/context, context assembly, generator, system control, or evaluation. \textbf{Metric} records what is optimized: answer correctness, support, faithfulness, attack success, selective risk, calibration, action utility, or cost. \textbf{Action} records what the system should do: answer, abstain, retrieve again, filter, verify, expose conflict, clarify, quarantine, trace, or recover.
+
+A comparison is \emph{valid} only when these coordinates align closely enough for the reported metric to answer the same question. It is \emph{partial} when the papers are complementary mechanisms inside the same problem family. It is \emph{invalid} when a shared label hides different scientific games. It is \emph{under-specified} when the paper omits a coordinate needed to decide. A full codebook operationalizes each coordinate; the main point is simple: a score is not portable unless the evidence state, metric target, and action policy are portable.
+
+We now read the literature through this lens, grouping papers by primary failure mode and intervention point. Many papers span more than one branch; we flag where the comparability tuple separates superficially similar work. The 342-row adjudicated evidence map (Map~B) behind this synthesis is summarized in Section~\ref{sec:evidence-map}.
+
+\input{survey_core_sections_nlpcc}
+
+\section{Re-analyses That Change Recommendations}
+
+Table~\ref{tab:main-worked-examples} is our central analysis artifact. Each row names concrete robust-RAG papers that adjacent surveys could reasonably group together, then shows which tuple coordinate blocks the comparison and what recommendation changes. The rows are representative cases from predeclared comparison families rather than a claim that these five exhaust the field; a systematic 60-pair audit over the broader pool and an R17 60-pair blind validation (Section~\ref{sec:evidence-map}) test the protocol on unseen hard pairs.
+
+\input{main_worked_examples_nlpcc}
+
+The re-analyses yield a narrower but more actionable synthesis than a citation-list survey: noise robustness decomposes into context construction, generator training, evidence reading, sufficiency prediction, and benchmarking; faithfulness and conflict separate span support from source reconciliation; natural conflict and poisoning share annotations but not threat games; security defenses are comparable only inside capability envelopes; and calibration, retrieval control, abstention, and clarification are action policies, not interchangeable uncertainty scores.
+
+\section{Reporting Checklist for Robust RAG}
+
+The most important practical consequence is that robust-RAG papers should report enough information for comparison. We distill the survey's diagnosis into a concrete reporting norm: a robust-RAG paper should state, at minimum, (1)~\textbf{failure definition} (noise, distraction, conflict, adversarial corruption, uncertainty/OOD, calibration/control, or evaluation target); (2)~\textbf{evidence assumption} (gold-support availability, distractor hardness, stale or conflicting sources, typed evidence, or attacker capability); (3)~\textbf{intervention boundary} (corpus/KB, retriever/context, context assembly, generator, system control, or evaluation artifact); (4)~\textbf{retrieval setting} (corpus snapshot, retriever, top-$k$, chunking, reranking or compression, and index-drift controls); (5)~\textbf{metric target} (answer correctness, support, faithfulness, attack success, selective risk, calibration, cost, or action utility); (6)~\textbf{action policy} (answer, abstain, retrieve again, filter, verify, expose conflict, clarify, quarantine, trace, or recover); (7)~\textbf{uncertainty and abstention handling} (coverage, selective risk, abstention reward, and re-retrieval cost); and (8)~\textbf{security threat model} (attacker access, query control, retriever visibility, insertion budget, objective, and adaptive-defense assumptions). Omitting any field makes results non-comparable: lower attack success can hide clean-utility loss, a calibrated answerer can still answer from insufficient evidence, and refusal can be rewarded where re-retrieval is the correct action.
+
+\section{Evidence Map and Synthesis}
+\label{sec:evidence-map}
+
+\paragraph{Evidence base and sensitivity.} The synthesis is grounded in a reusable scoping resource, not a venue-complete census: 1,904 retrieved records, 1,399 deduplicated candidates, 536 relevant papers, and a 342-row adjudicated map (Map~B; 126 venue/proceedings-linked, 207 preprint, and 9 other rows). Venue-linked rows anchor conservative mechanism-level conclusions while preprints flag emerging threats without becoming prevalence estimates. Downweighting the 207 preprints, the strongest venue-backed conclusions are that retrieval is context construction rather than neutral recall, that answer accuracy is insufficient for robust-RAG evaluation, and that RAG security requires capability normalization; calibration and knowledge-conflict conclusions are well supported conceptually but have fewer directly comparable venue-linked evaluations.
+
+\paragraph{Validation and implications.} An R17 60-pair blind validation with three control annotators, three protocol annotators, and three gold adjudicators shows that, after clearer training and gold construction, the tuple protocol improves agreement with panel gold and reduces coordinate-level errors on unseen hard pairs; because the set is intentionally hard and its panel labels cover partial and invalid comparisons, it validates comparison triage in that regime rather than every verdict category. The practical implications are to annotate evidence state and action before ranking systems, to state each method's operating region (negative type, source reliability, attacker capability, metric target, and action set), and to treat robust RAG as risk-adaptive control rather than a fixed retrieve-then-answer pipeline.
+
+\section{Conclusion}
+
+Robust-RAG progress is hard to interpret when papers share labels but not evidence states, interventions, metrics, or actions. A five-coordinate comparability tuple makes these mismatches explicit. Applied to an adjudicated evidence map, it changes how common groups of papers should be read: many are complementary, invalid for direct ranking, or under-specified rather than competing leaderboard entries. The next step is not another universal robustness score, but action-labeled evaluation with corpus snapshots, evidence-state labels, gold actions, baseline systems, and error analysis.
+
+\section*{Limitations}
+
+Three limitations bound the claims. First, Map~B is open-PDF based and scoping, not venue-complete. It improves venue-linked coverage relative to Map~A (126 versus 42 venue/proceedings-linked rows), but arXiv/preprint rows remain the largest source stratum and map statistics are not field-level rates. Second, the map is deepest for text/document RAG; beyond-text work is used only as typed-evidence stress tests. Third, the expert studies validate the protocol for selected hard paper-pair comparisons, mostly partial and invalid decisions, not for the whole evidence map or every verdict category. The stronger contribution remains the focused survey synthesis, released schema, map, second-coding and adjudication trail, re-analysis worksheets, and reporting checklist.
+
+\section*{Ethics Statement}
+
+This survey analyzes published robust-RAG attacks and defenses at the level of threat model and evaluation signal, not operational payloads. We introduce no new attack and release no poisoned corpora; the released artifacts are coding schemas, adjudicated evidence-map rows, and analysis worksheets over already-public papers. The aim is to make reliability and security comparisons more transparent and to support safer deployment of retrieval-augmented systems.
+
+\bibliographystyle{splncs04}
+\bibliography{references,auto_references,venue_authoritative_references,venue_extra_references,venue_200_selected_references,multimodal_100_selected_references}
+
+\end{document}

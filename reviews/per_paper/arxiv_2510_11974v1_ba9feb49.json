@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.11974v1",
+  "title": "CTIArena: Benchmarking LLM Knowledge and Reasoning Across Heterogeneous Cyber Threat Intelligence",
+  "authors": "Yutong Cheng; Yang Liu; Changze Li; Dawn Song; Peng Gao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.11974v1",
+  "local_pdf": "pdfs/2025_yutong_cheng_ctiarena_benchmarking_llm_knowledge_and_reasoning_across_heterogeneous_cyber_threat_inte_ba9feb49.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Domain-specific CTI benchmark evaluating LLMs with RAG variants; touches on how inappropriate retrieved evidence misleads models but is primarily an application benchmark.",
+  "why_not_or_caveat": "Focus is on cyber threat intelligence task coverage, not on robustness to unreliable evidence, conflict, or calibration in a generalizable way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:11.420647+00:00",
+  "raw_response": "{\"key\": \"arxiv-2510.11974v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Domain-specific CTI benchmark evaluating LLMs with RAG variants; touches on how inappropriate retrieved evidence misleads models but is primarily an application benchmark.\", \"why_not_or_caveat\": \"Focus is on cyber threat intelligence task coverage, not on robustness to unreliable evidence, conflict, or calibration in a generalizable way.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.05306v2",
+  "title": "LLMs Should Express Uncertainty Explicitly",
+  "authors": "Junyu Guo; Shangding Gu; Ming Jin; Costas Spanos; Javad Lavaei",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.05306v2",
+  "local_pdf": "pdfs/2026_junyu_guo_llms_should_express_uncertainty_explicitly_92020aae.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Trains LLMs to explicitly express uncertainty (verbalized confidence or <uncertain> marker) that can trigger adaptive retrieval and abstention, directly relevant to calibration/control for when to retrieve.",
+  "why_not_or_caveat": "Focus is on uncertainty expression broadly; RAG triggering is one application, not the central study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (when to retrieve / abstain)",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:29.172947+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.05306v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"method\",\"why_relevant\":\"Trains LLMs to explicitly express uncertainty (verbalized confidence or <uncertain> marker) that can trigger adaptive retrieval and abstention, directly relevant to calibration/control for when to retrieve.\",\"why_not_or_caveat\":\"Focus is on uncertainty expression broadly; RAG triggering is one application, not the central study.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control (when to retrieve / abstain)\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

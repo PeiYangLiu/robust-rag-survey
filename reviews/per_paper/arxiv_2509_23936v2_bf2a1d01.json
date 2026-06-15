@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.23936v2",
+  "title": "Do Language Models Update their Forecasts with New Information?",
+  "authors": "Zhangdie Yuan; Zifeng Ding; Andreas Vlachos",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.23936v2",
+  "local_pdf": "pdfs/2025_zhangdie_yuan_do_language_models_update_their_forecasts_with_new_information_bf2a1d01.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Studies whether LLMs appropriately update forecasts and confidence given new information, touching on calibration and the limits of RAG-based knowledge updating.",
+  "why_not_or_caveat": "Focus is on probabilistic forecasting belief dynamics rather than RAG robustness per se; RAG is mentioned tangentially.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:01.541519+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.23936v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Studies whether LLMs appropriately update forecasts and confidence given new information, touching on calibration and the limits of RAG-based knowledge updating.\",\"why_not_or_caveat\":\"Focus is on probabilistic forecasting belief dynamics rather than RAG robustness per se; RAG is mentioned tangentially.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and control\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

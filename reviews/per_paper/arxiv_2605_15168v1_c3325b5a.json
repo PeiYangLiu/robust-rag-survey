@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.15168v1",
+  "title": "Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment",
+  "authors": "Sayantan Kumar; Shahriar Noroozizadeh; Juyong Kim; Jeremy C. Weiss",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.15168v1",
+  "local_pdf": "pdfs/2026_sayantan_kumar_text_knows_what_tables_know_when_clinical_timeline_reconstruction_via_retrieval_augmente_c3325b5a.pdf",
+  "metadata_topics": "knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for clinical timeline reconstruction; does not study robustness, conflict, or calibration in the RAG sense.",
+  "why_not_or_caveat": "Uses retrieval to align modalities but does not address noise, adversarial, or uncertainty issues central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:26.571667+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.15168v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for clinical timeline reconstruction; does not study robustness, conflict, or calibration in the RAG sense.\",\"why_not_or_caveat\":\"Uses retrieval to align modalities but does not address noise, adversarial, or uncertainty issues central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

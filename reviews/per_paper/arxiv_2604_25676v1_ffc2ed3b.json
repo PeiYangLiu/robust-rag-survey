@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.25676v1",
+  "title": "CORAL: Adaptive Retrieval Loop for Culturally-Aligned Multilingual RAG",
+  "authors": "Nayeon Lee; Jiwoo Song; Byeongcheol Kang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.25676v1",
+  "local_pdf": "pdfs/2026_nayeon_lee_coral_adaptive_retrieval_loop_for_culturally_aligned_multilingual_rag_ffc2ed3b.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an agentic loop with sufficiency check and query/corpus refinement for multilingual cultural RAG, tangentially related to retrieval control.",
+  "why_not_or_caveat": "Focus is on cultural alignment in multilingual RAG, not on robustness to noise, conflict, adversaries, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.242282+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.25676v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an agentic loop with sufficiency check and query/corpus refinement for multilingual cultural RAG, tangentially related to retrieval control.\",\"why_not_or_caveat\":\"Focus is on cultural alignment in multilingual RAG, not on robustness to noise, conflict, adversaries, or calibration under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

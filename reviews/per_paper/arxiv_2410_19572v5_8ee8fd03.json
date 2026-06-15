@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.19572v5",
+  "title": "ChunkRAG: Novel LLM-Chunk Filtering Method for RAG Systems",
+  "authors": "Ishneet Sukhvinder Singh; Ritvik Aggarwal; Ibrahim Allahverdiyev; Muhammad Taha; Aslihan Akalin; Kevin Zhu; Sean O'Brien",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.19572v5",
+  "local_pdf": "pdfs/2024_ishneet_sukhvinder_singh_chunkrag_novel_llm_chunk_filtering_method_for_rag_systems_8ee8fd03.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "ChunkRAG proposes chunk-level LLM filtering to remove irrelevant/weakly related retrieved content, directly targeting noisy retrieval and distraction mitigation in RAG.",
+  "why_not_or_caveat": "Limited evaluation scope (PopQA, PubHealth, Biography); no adversarial or conflict analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and filtering methods",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:12.793566+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.19572v5\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"ChunkRAG proposes chunk-level LLM filtering to remove irrelevant/weakly related retrieved content, directly targeting noisy retrieval and distraction mitigation in RAG.\",\n  \"why_not_or_caveat\": \"Limited evaluation scope (PopQA, PubHealth, Biography); no adversarial or conflict analysis.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and filtering methods\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

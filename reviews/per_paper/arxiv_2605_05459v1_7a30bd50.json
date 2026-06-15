@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.05459v1",
+  "title": "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs",
+  "authors": "Kennedy Edemacu; Mohammad Mahdi Shokri; Vinay M. Shashidhar; Jong Wook Kim",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05459v1",
+  "local_pdf": "pdfs/2026_kennedy_edemacu_privacy_without_losing_place_a_paradigm_for_private_retrieval_in_spatial_rags_7a30bd50.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns location privacy in spatial RAG via anchor substitution, not robustness to unreliable evidence.",
+  "why_not_or_caveat": "Out of scope: focus is privacy-utility tradeoff, not noise/conflict/adversarial robustness or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:27.942038+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05459v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns location privacy in spatial RAG via anchor substitution, not robustness to unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope: focus is privacy-utility tradeoff, not noise/conflict/adversarial robustness or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

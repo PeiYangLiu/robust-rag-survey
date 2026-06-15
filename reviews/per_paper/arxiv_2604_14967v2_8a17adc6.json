@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.14967v2",
+  "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+  "authors": "Jun Wang; Shuo Tan; Zelong Sun; Tiancheng Gu; Yongle Zhao; Ziyong Feng; Kaicheng Yang; Zhiwu Lu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.14967v2",
+  "local_pdf": "pdfs/2026_jun_wang_unidoc_rl_coarse_to_fine_visual_rag_with_hierarchical_actions_and_dense_rewards_8a17adc6.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an RL-based visual RAG framework that filters irrelevant retrieved images and focuses on informative regions, tangentially addressing noisy retrieval in multimodal RAG.",
+  "why_not_or_caveat": "Focus is on improving visual RAG performance via hierarchical actions and dense rewards, not on robustness, calibration, conflict, or adversarial reliability per se.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval (multimodal)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.638669+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.14967v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes an RL-based visual RAG framework that filters irrelevant retrieved images and focuses on informative regions, tangentially addressing noisy retrieval in multimodal RAG.\", \"why_not_or_caveat\": \"Focus is on improving visual RAG performance via hierarchical actions and dense rewards, not on robustness, calibration, conflict, or adversarial reliability per se.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Noisy retrieval (multimodal)\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

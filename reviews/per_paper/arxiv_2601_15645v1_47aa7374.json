@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.15645v1",
+  "title": "Towards Reliable Medical LLMs: Benchmarking and Enhancing Confidence Estimation of Large Language Models in Medical Consultation",
+  "authors": "Zhiyao Ren; Yibing Zhan; Siyuan Liang; Guozheng Ma; Baosheng Yu; Dacheng Tao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15645v1",
+  "local_pdf": "pdfs/2026_zhiyao_ren_towards_reliable_medical_llms_benchmarking_and_enhancing_confidence_estimation_of_large_47aa7374.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a confidence estimation benchmark and method (MedConf) that uses RAG to ground confidence in supporting/missing/contradictory evidence relations, touching on calibration and evidence sufficiency.",
+  "why_not_or_caveat": "Focus is medical confidence estimation in multi-turn consultations, not robust RAG per se; RAG is a component, not the object of study.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and abstention",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:55.345008+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.15645v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a confidence estimation benchmark and method (MedConf) that uses RAG to ground confidence in supporting/missing/contradictory evidence relations, touching on calibration and evidence sufficiency.\",\n  \"why_not_or_caveat\": \"Focus is medical confidence estimation in multi-turn consultations, not robust RAG per se; RAG is a component, not the object of study.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and abstention\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

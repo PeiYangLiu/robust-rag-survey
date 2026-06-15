@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2403.14197v1",
+  "title": "Context Quality Matters in Training Fusion-in-Decoder for Extractive Open-Domain Question Answering",
+  "authors": "Kosuke Akimoto; Kunihiro Takeoka; Masafumi Oyamada",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.14197v1",
+  "local_pdf": "pdfs/2024_kosuke_akimoto_context_quality_matters_in_training_fusion_in_decoder_for_extractive_open_domain_questio_511f5652.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "analysis"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes how context quality (proportion of relevant vs irrelevant passages) during FiD training affects robustness at inference, and proposes a cross-attention bias method to mitigate overfitting to specific context quality.",
+  "why_not_or_caveat": "Focuses on FiD-specific training dynamics rather than general LLM RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and training under irrelevant passages",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:34.952103+00:00",
+  "raw_response": "{\"key\":\"arxiv-2403.14197v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"analysis\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Analyzes how context quality (proportion of relevant vs irrelevant passages) during FiD training affects robustness at inference, and proposes a cross-attention bias method to mitigate overfitting to specific context quality.\",\"why_not_or_caveat\":\"Focuses on FiD-specific training dynamics rather than general LLM RAG robustness.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval and training under irrelevant passages\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

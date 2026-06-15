@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.15205v1",
+  "title": "Support Evaluation for the TREC 2024 RAG Track: Comparing Human versus LLM Judges",
+  "authors": "Nandan Thakur; Ronak Pradeep; Shivani Upadhyay; Daniel Campos; Nick Craswell; Jimmy Lin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.15205v1",
+  "local_pdf": "pdfs/2025_nandan_thakur_support_evaluation_for_the_trec_2024_rag_track_comparing_human_versus_llm_judges_34f7cbae.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies support/citation evaluation in RAG comparing LLM vs human judges, relevant to evaluation methodology for RAG faithfulness and reliability.",
+  "why_not_or_caveat": "Focused on judge agreement rather than robustness under unreliable evidence per se.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:42.851210+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.15205v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies support/citation evaluation in RAG comparing LLM vs human judges, relevant to evaluation methodology for RAG faithfulness and reliability.\",\n  \"why_not_or_caveat\": \"Focused on judge agreement rather than robustness under unreliable evidence per se.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

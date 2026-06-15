@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.08304v2",
+  "title": "Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions",
+  "authors": "Yuming Xu; Mingtao Zhang; Zhuohan Ge; Haoyang Li; Nicole Hu; Yongqi Zhang; Zhiyuan Wen; Jason Chen Zhang; Qing Li; Lei Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.08304v2",
+  "local_pdf": "pdfs/2026_yuming_xu_securing_retrieval_augmented_generation_a_taxonomy_of_attacks_defenses_and_future_direct_3b951952.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "survey_related",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A dedicated survey of RAG security with a SLOT taxonomy covering attack surfaces (poisoning, retrieval manipulation, context exploitation, exfiltration) and defenses, directly aligned with the adversarial corruption axis of the target survey.",
+  "why_not_or_caveat": "Focuses on security/CIA properties; less coverage of calibration, distraction, and OOD uncertainty.",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption / Related surveys",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:23.851987+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.08304v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"survey_related\", \"evaluation_benchmark\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"A dedicated survey of RAG security with a SLOT taxonomy covering attack surfaces (poisoning, retrieval manipulation, context exploitation, exfiltration) and defenses, directly aligned with the adversarial corruption axis of the target survey.\",\n  \"why_not_or_caveat\": \"Focuses on security/CIA properties; less coverage of calibration, distraction, and OOD uncertainty.\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial corruption / Related surveys\",\n  \"confidence\": 0.92\n}",
+  "skipped_existing": false
+}

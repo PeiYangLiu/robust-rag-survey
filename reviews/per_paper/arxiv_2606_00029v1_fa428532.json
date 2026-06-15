@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.00029v1",
+  "title": "TCAR-Gen: Temporal Graph Retrieval with Evidence Fusion for Knowledge-Grounded Generation",
+  "authors": "Sidra Nasir; Muhammad Noman Zahid; Rizwan Ahmed Khan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.00029v1",
+  "local_pdf": "pdfs/2026_sidra_nasir_tcar_gen_temporal_graph_retrieval_with_evidence_fusion_for_knowledge_grounded_generation_fa428532.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a temporal graph-based RAG method for historical crime QA, focused on retrieval quality and multi-hop reasoning, not on robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Does not directly study noise, distraction, conflict, adversarial robustness, or calibration under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:56.043764+00:00",
+  "raw_response": "{\"key\": \"arxiv-2606.00029v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a temporal graph-based RAG method for historical crime QA, focused on retrieval quality and multi-hop reasoning, not on robustness, conflict, attacks, or calibration.\", \"why_not_or_caveat\": \"Does not directly study noise, distraction, conflict, adversarial robustness, or calibration under unreliable evidence.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

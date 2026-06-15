@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.22834v1",
+  "title": "Bridging Language Models and Formal Methods for Intent-Driven Optical Network Design",
+  "authors": "Anis Bekri; Amar Abane; Abdella Battou; Saddek Bensalem",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.22834v1",
+  "local_pdf": "pdfs/2025_anis_bekri_bridging_language_models_and_formal_methods_for_intent_driven_optical_network_design_5ed474a7.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG within an intent-based optical network design pipeline; does not study robustness, conflict, calibration, or adversarial issues in RAG.",
+  "why_not_or_caveat": "Domain application paper without contributions to RAG robustness or reliability evaluation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:40.148449+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.22834v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG within an intent-based optical network design pipeline; does not study robustness, conflict, calibration, or adversarial issues in RAG.\",\"why_not_or_caveat\":\"Domain application paper without contributions to RAG robustness or reliability evaluation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.22584v1",
+  "title": "Towards Faithful Industrial RAG: A Reinforced Co-adaptation Framework for Advertising QA",
+  "authors": "Wenwei Li; Ming Xu; Tianle Xia; Lingxiang Hu; Yiding Sun; Linfang Shang; Liqun Liu; Peng Shu; Huan Yu; Jie Jiang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.22584v1",
+  "local_pdf": "pdfs/2026_wenwei_li_towards_faithful_industrial_rag_a_reinforced_co_adaptation_framework_for_advertising_qa_a65a1871.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Industrial RAG application that reduces hallucinations via GraphRAG and RL with faithfulness/URL-validity rewards.",
+  "why_not_or_caveat": "Primarily an applied production system for advertising QA, not a focused study of robustness, conflict, attacks, or calibration methodology.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:02.515326+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.22584v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Industrial RAG application that reduces hallucinations via GraphRAG and RL with faithfulness/URL-validity rewards.\", \"why_not_or_caveat\": \"Primarily an applied production system for advertising QA, not a focused study of robustness, conflict, attacks, or calibration methodology.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.03745v1",
+  "title": "RAGNav: A Retrieval-Augmented Topological Reasoning Framework for Multi-Goal Visual-Language Navigation",
+  "authors": "Ling Luo; Qiangian Bai",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.03745v1",
+  "local_pdf": "pdfs/2026_ling_luo_ragnav_a_retrieval_augmented_topological_reasoning_framework_for_multi_goal_visual_langu_d9d734fd.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to visual-language navigation; not about robustness of RAG under unreliable evidence.",
+  "why_not_or_caveat": "Domain-specific application focused on spatial reasoning, not robustness/conflict/adversarial/calibration of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:26.727995+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.03745v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to visual-language navigation; not about robustness of RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Domain-specific application focused on spatial reasoning, not robustness/conflict/adversarial/calibration of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

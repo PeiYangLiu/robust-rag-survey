@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2410.07176",
+  "title": "\\[[ACL](https://arxiv.org/abs/2410.07176v2)\\] Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.07176",
+  "local_pdf": "pdfs/na_arxiv_2410_07176_acl_https_arxiv_org_abs_2410_07176v2_astute_rag_overcoming_imperfect_retrieval_a_3f45ee15.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Astute RAG directly addresses imperfect retrieval and knowledge conflicts by adaptively integrating internal and external knowledge with source-aware consolidation, providing both analysis and a training-free defense method for black-box LLMs.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict and Post-Retrieval Mitigation",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:33.716434+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.07176\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Astute RAG directly addresses imperfect retrieval and knowledge conflicts by adaptively integrating internal and external knowledge with source-aware consolidation, providing both analysis and a training-free defense method for black-box LLMs.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict and Post-Retrieval Mitigation\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

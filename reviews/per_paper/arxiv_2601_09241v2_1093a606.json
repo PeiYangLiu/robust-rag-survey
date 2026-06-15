@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.09241v2",
+  "title": "When to Trust: A Causality-Aware Calibration Framework for Accurate Knowledge Graph Retrieval-Augmented Generation",
+  "authors": "Jing Ren; Bowen Li; Ziqi Xu; Xikun Zhang; Haytham Fayek; Xiaodong Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.09241v2",
+  "local_pdf": "pdfs/2026_jing_ren_when_to_trust_a_causality_aware_calibration_framework_for_accurate_knowledge_graph_retri_1093a606.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a calibration framework for KG-RAG addressing overconfidence under unreliable/incomplete retrieved subgraphs, using counterfactual prompting and re-scoring to better align confidence with correctness.",
+  "why_not_or_caveat": "Focused on KG-RAG specifically rather than general text RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.82,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.503517+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.09241v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a calibration framework for KG-RAG addressing overconfidence under unreliable/incomplete retrieved subgraphs, using counterfactual prompting and re-scoring to better align confidence with correctness.\",\n  \"why_not_or_caveat\": \"Focused on KG-RAG specifically rather than general text RAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.82\n}",
+  "skipped_existing": false
+}

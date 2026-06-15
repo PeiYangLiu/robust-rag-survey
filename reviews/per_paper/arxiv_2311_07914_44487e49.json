@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2311.07914",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2311.07914)\\] Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2311.07914",
+  "local_pdf": "pdfs/na_arxiv_2311_07914_arxiv_https_arxiv_org_abs_2311_07914_can_knowledge_graphs_reduce_hallucinations__44487e49.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on KG-augmented LLMs to reduce hallucinations, tangentially related to grounding LLMs with external knowledge but not focused on robustness of RAG under unreliable evidence.",
+  "why_not_or_caveat": "Focus is on KG augmentation for hallucination reduction, not on noise, conflict, adversarial attacks, or calibration in RAG.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:29.241682+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2311.07914\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Survey on KG-augmented LLMs to reduce hallucinations, tangentially related to grounding LLMs with external knowledge but not focused on robustness of RAG under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focus is on KG augmentation for hallucination reduction, not on noise, conflict, adversarial attacks, or calibration in RAG.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Related surveys\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

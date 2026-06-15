@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.14403v1",
+  "title": "A Unified Model and Document Representation for On-Device Retrieval-Augmented Generation",
+  "authors": "Julian Killingback; Ofer Meshi; Henry Li; Hamed Zamani; Maryam Karimzadehgan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.14403v1",
+  "local_pdf": "pdfs/2026_julian_killingback_a_unified_model_and_document_representation_for_on_device_retrieval_augmented_generation_6ad9c016.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a unified model for on-device RAG combining retrieval, compression, and generation. Does not address robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Focus is efficiency and on-device deployment, not unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:17.678731+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2604.14403v1\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a unified model for on-device RAG combining retrieval, compression, and generation. Does not address robustness, noise, conflict, attacks, or calibration.\",\n  \"why_not_or_caveat\": \"Focus is efficiency and on-device deployment, not unreliable evidence robustness.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

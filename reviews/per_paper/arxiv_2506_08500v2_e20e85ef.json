@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.08500v2",
+  "title": "DRAGged into Conflicts: Detecting and Addressing Conflicting Sources in Search-Augmented LLMs",
+  "authors": "Arie Cattan; Alon Jacovi; Ori Ram; Jonathan Herzig; Roee Aharoni; Sasha Goldshtein; Eran Ofek; Idan Szpektor; Avi Caciularu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.08500v2",
+  "local_pdf": "pdfs/2025_arie_cattan_dragged_into_conflicts_detecting_and_addressing_conflicting_sources_in_search_augmented_e20e85ef.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a taxonomy of RAG knowledge conflicts (freshness, opinion, misinformation, complementary) and introduces CONFLICTS, an expert-annotated benchmark for evaluating how LLMs resolve conflicting retrieved sources, directly addressing the survey's conflict and evaluation dimensions.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict / Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:21.722238+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.08500v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes a taxonomy of RAG knowledge conflicts (freshness, opinion, misinformation, complementary) and introduces CONFLICTS, an expert-annotated benchmark for evaluating how LLMs resolve conflicting retrieved sources, directly addressing the survey's conflict and evaluation dimensions.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict / Benchmarks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

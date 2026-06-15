@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.03919v1",
+  "title": "When Safety Becomes a Vulnerability: Exploiting LLM Alignment Homogeneity for Transferable Blocking in RAG",
+  "authors": "Junchen Li; Chao Qi; Rongzheng Wang; Qizhi Chen; Liang Xu; Di Liang; Bob Simons; Shuang Liang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.03919v1",
+  "local_pdf": "pdfs/2026_junchen_li_when_safety_becomes_a_vulnerability_exploiting_llm_alignment_homogeneity_for_transferabl_b4954205.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes TabooRAG, a transferable black-box blocking (denial-of-service) poisoning attack on RAG that exploits safety-alignment homogeneity, directly relevant to adversarial corruption of retrieval corpora.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:53.694728+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.03919v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes TabooRAG, a transferable black-box blocking (denial-of-service) poisoning attack on RAG that exploits safety-alignment homogeneity, directly relevant to adversarial corruption of retrieval corpora.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.92}",
+  "skipped_existing": false
+}

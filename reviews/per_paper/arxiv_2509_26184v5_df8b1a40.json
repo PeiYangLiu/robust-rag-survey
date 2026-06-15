@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.26184v5",
+  "title": "Auto-ARGUE: LLM-Based Report Generation Evaluation",
+  "authors": "William Walden; Marc Mason; Orion Weller; Laura Dietz; John Conroy; Neil Molino; Hannah Recknor; Bryan Li; Gabrielle Kaili-May Liu; Yu Hou; Dawn Lawrie; James Mayfield; Eugene Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.26184v5",
+  "local_pdf": "pdfs/2025_william_walden_auto_argue_llm_based_report_generation_evaluation_df8b1a40.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Auto-ARGUE evaluates citation-backed report generation in RAG, including assertions of ignorance and citation support, which touches on attribution and abstention evaluation.",
+  "why_not_or_caveat": "Focused on report generation evaluation broadly, not specifically on robustness to noise, conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.530439+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.26184v5\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Auto-ARGUE evaluates citation-backed report generation in RAG, including assertions of ignorance and citation support, which touches on attribution and abstention evaluation.\",\"why_not_or_caveat\":\"Focused on report generation evaluation broadly, not specifically on robustness to noise, conflict, adversaries, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.18009v1",
+  "title": "How Confident Is the First Token? An Uncertainty-Calibrated Prompt Optimization Framework for Large Language Model Classification and Understanding",
+  "authors": "Wei Chen; Guoyang Ju; Yuanyuan Qi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.18009v1",
+  "local_pdf": "pdfs/2026_wei_chen_how_confident_is_the_first_token_an_uncertainty_calibrated_prompt_optimization_framework_36d0752a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a first-token uncertainty metric (LSFU) used to adaptively trigger RAG only for high-uncertainty samples, directly addressing when-to-retrieve and confidence calibration—core topics of the survey.",
+  "why_not_or_caveat": "Focus is on classification tasks rather than open-domain QA; RAG robustness is a secondary motivation.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and adaptive retrieval control",
+  "confidence": 0.78,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:28.929716+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.18009v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a first-token uncertainty metric (LSFU) used to adaptively trigger RAG only for high-uncertainty samples, directly addressing when-to-retrieve and confidence calibration—core topics of the survey.\",\n  \"why_not_or_caveat\": \"Focus is on classification tasks rather than open-domain QA; RAG robustness is a secondary motivation.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and adaptive retrieval control\",\n  \"confidence\": 0.78\n}",
+  "skipped_existing": false
+}

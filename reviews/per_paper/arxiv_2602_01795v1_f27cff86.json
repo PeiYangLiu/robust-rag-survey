@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.01795v1",
+  "title": "RedVisor: Reasoning-Aware Prompt Injection Defense via Zero-Copy KV Cache Reuse",
+  "authors": "Mingrui Liu; Sixiao Zhang; Cheng Long; Kwok-Yan Lam",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.01795v1",
+  "local_pdf": "pdfs/2026_mingrui_liu_redvisor_reasoning_aware_prompt_injection_defense_via_zero_copy_kv_cache_reuse_f27cff86.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense against indirect prompt injection attacks in RAG contexts, directly addressing adversarial corruption of retrieved evidence.",
+  "why_not_or_caveat": "Focus is broader prompt-injection defense with systems-level optimization; RAG is one of several evaluation settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses against Indirect Prompt Injection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:12.957029+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.01795v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a defense against indirect prompt injection attacks in RAG contexts, directly addressing adversarial corruption of retrieved evidence.\",\"why_not_or_caveat\":\"Focus is broader prompt-injection defense with systems-level optimization; RAG is one of several evaluation settings.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Defenses against Indirect Prompt Injection\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

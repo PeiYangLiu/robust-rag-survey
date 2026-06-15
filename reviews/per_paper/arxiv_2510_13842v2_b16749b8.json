@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.13842v2",
+  "title": "ADMIT: Few-shot Knowledge Poisoning Attacks on RAG-based Fact Checking",
+  "authors": "Yutao Wu; Xiao Liu; Yinghui Li; Yifeng Gao; Yifan Ding; Jiale Ding; Xiang Zheng; Xingjun Ma",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.13842v2",
+  "local_pdf": "pdfs/2025_yutao_wu_admit_few_shot_knowledge_poisoning_attacks_on_rag_based_fact_checking_b16749b8.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a few-shot knowledge poisoning attack against RAG-based fact-checking that remains effective even when credible counter-evidence dominates the retrieval pool, directly addressing adversarial corruption and conflict robustness in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Knowledge Poisoning",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:40.419421+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.13842v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"knowledge_conflict\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a few-shot knowledge poisoning attack against RAG-based fact-checking that remains effective even when credible counter-evidence dominates the retrieval pool, directly addressing adversarial corruption and conflict robustness in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Knowledge Poisoning\",\n  \"confidence\": 0.92\n}",
+  "skipped_existing": false
+}

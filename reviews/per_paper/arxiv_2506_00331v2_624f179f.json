@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.00331v2",
+  "title": "TreeRare: Syntax Tree-Guided Retrieval and Reasoning for Knowledge-Intensive Question Answering",
+  "authors": "Boyi Zhang; Zhuo Liu; Hangfeng He",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.00331v2",
+  "local_pdf": "pdfs/2025_boyi_zhang_treerare_syntax_tree_guided_retrieval_and_reasoning_for_knowledge_intensive_question_ans_624f179f.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a syntax-tree guided adaptive RAG method for multi-hop and ambiguous QA, touching on reducing noisy retrieval inputs through decomposition.",
+  "why_not_or_caveat": "Focuses on improving QA accuracy via decomposition rather than robustness, calibration, conflict, or adversarial issues central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:31.873367+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.00331v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a syntax-tree guided adaptive RAG method for multi-hop and ambiguous QA, touching on reducing noisy retrieval inputs through decomposition.\",\"why_not_or_caveat\":\"Focuses on improving QA accuracy via decomposition rather than robustness, calibration, conflict, or adversarial issues central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

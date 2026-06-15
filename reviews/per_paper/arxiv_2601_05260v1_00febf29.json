@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.05260v1",
+  "title": "Quantifying Document Impact in RAG-LLMs",
+  "authors": "Armin Gerami; Kazem Faghih; Ramani Duraiswami",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05260v1",
+  "local_pdf": "pdfs/2025_armin_gerami_quantifying_document_impact_in_rag_llms_00febf29.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes Influence Score to quantify per-document impact in RAG, validated on PoisonedRAG attacks to detect malicious documents. Relevant to defense/attribution under adversarial corruption and explainability.",
+  "why_not_or_caveat": "Primarily an attribution metric; defense application is secondary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: detection and attribution",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:29.626834+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.05260v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes Influence Score to quantify per-document impact in RAG, validated on PoisonedRAG attacks to detect malicious documents. Relevant to defense/attribution under adversarial corruption and explainability.\",\n  \"why_not_or_caveat\": \"Primarily an attribution metric; defense application is secondary.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: detection and attribution\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.06472v2",
+  "title": "Rethinking LLM Parametric Knowledge as Post-retrieval Confidence for Dynamic Retrieval and Reranking",
+  "authors": "Haoxiang Jin; Ronghan Li; Zixiang Lu; Qiguang Miao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.06472v2",
+  "local_pdf": "pdfs/2025_haoxiang_jin_rethinking_llm_parametric_knowledge_as_post_retrieval_confidence_for_dynamic_retrieval_a_7a77fee1.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes confidence-based dynamic retrieval triggering and reranking using LLM hidden-state confidence to decide when to retrieve and which contexts to trust, directly addressing calibration/control and knowledge-boundary issues in RAG.",
+  "why_not_or_caveat": "Focuses on a specific method rather than broad robustness analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (when to retrieve / filter)",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:36.966441+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.06472v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes confidence-based dynamic retrieval triggering and reranking using LLM hidden-state confidence to decide when to retrieve and which contexts to trust, directly addressing calibration/control and knowledge-boundary issues in RAG.\",\n  \"why_not_or_caveat\": \"Focuses on a specific method rather than broad robustness analysis.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control (when to retrieve / filter)\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

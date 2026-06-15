@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.01146v4",
+  "title": "Retrieval-Augmented Generation in Biomedicine: A Survey of Technologies, Datasets, and Clinical Applications",
+  "authors": "Jiawei He; Boya Zhang; Hossein Rouhizadeh; Yingjian Chen; Rui Yang; Jin Lu; Xudong Chen; Nan Liu; Douglas Teodoro",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.01146v4",
+  "local_pdf": "pdfs/2025_jiawei_he_retrieval_augmented_generation_in_biomedicine_a_survey_of_technologies_datasets_and_clin_79b6de19.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Domain-specific survey of biomedical RAG that touches on hallucination, confidence/uncertainty, and reliability but is not focused on robust RAG under unreliable evidence.",
+  "why_not_or_caveat": "Scope is biomedical applications/taxonomy and trilemma (reasoning/latency/privacy), not robustness, conflict, or adversarial issues.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.913082+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.01146v4\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"Domain-specific survey of biomedical RAG that touches on hallucination, confidence/uncertainty, and reliability but is not focused on robust RAG under unreliable evidence.\",\"why_not_or_caveat\":\"Scope is biomedical applications/taxonomy and trilemma (reasoning/latency/privacy), not robustness, conflict, or adversarial issues.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Related surveys\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2403.15879v6",
+  "title": "TrustSQL: Benchmarking Text-to-SQL Reliability with Penalty-Based Scoring",
+  "authors": "Gyubok Lee; Woosog Chay; Seonhee Cho; Edward Choi",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.15879v6",
+  "local_pdf": "pdfs/2024_gyubok_lee_trustsql_benchmarking_text_to_sql_reliability_with_penalty_based_scoring_a74fbea4.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks text-to-SQL reliability with abstention on infeasible questions, touching on abstention/calibration themes.",
+  "why_not_or_caveat": "Focuses on text-to-SQL, not RAG; abstention is over SQL feasibility rather than unreliable retrieved evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:01.046280+00:00",
+  "raw_response": "{\"key\": \"arxiv-2403.15879v6\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"calibration_control\", \"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Benchmarks text-to-SQL reliability with abstention on infeasible questions, touching on abstention/calibration themes.\", \"why_not_or_caveat\": \"Focuses on text-to-SQL, not RAG; abstention is over SQL feasibility rather than unreliable retrieved evidence.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

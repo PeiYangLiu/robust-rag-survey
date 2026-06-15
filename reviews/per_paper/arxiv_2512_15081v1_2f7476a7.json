@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.15081v1",
+  "title": "Quantifying Return on Security Controls in LLM Systems",
+  "authors": "Richard Helder Moulton; Austin O'Brien; John D. Hastings",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.15081v1",
+  "local_pdf": "pdfs/2025_richard_helder_moulton_quantifying_return_on_security_controls_in_llm_systems_2f7476a7.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates security controls (ABAC, NER redaction, NeMo Guardrails) on a RAG system against attacks including prompt injection and PII leakage, quantifying defense effectiveness economically.",
+  "why_not_or_caveat": "Focus is on financial risk/ROI metrics for security controls, not on robustness of retrieval/generation under unreliable evidence per se; minimal technical contribution to RAG robustness taxonomy.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.649314+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.15081v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Evaluates security controls (ABAC, NER redaction, NeMo Guardrails) on a RAG system against attacks including prompt injection and PII leakage, quantifying defense effectiveness economically.\",\"why_not_or_caveat\":\"Focus is on financial risk/ROI metrics for security controls, not on robustness of retrieval/generation under unreliable evidence per se; minimal technical contribution to RAG robustness taxonomy.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption and defenses\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

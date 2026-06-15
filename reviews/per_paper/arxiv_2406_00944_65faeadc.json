@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2406.00944",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2406.00944)\\] Unveil the Duality of Retrieval-Augmented Generation: Theoretical Analysis and Practical Solution",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.00944",
+  "local_pdf": "pdfs/na_arxiv_2406_00944_arxiv_https_arxiv_org_abs_2406_00944_unveil_the_duality_of_retrieval_augmented_g_65faeadc.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Provides a token-level theoretical framework for trading off benefit vs detriment of retrieved evidence (including noisy/conflicting passages) and a method (Tok-RAG) for collaborative pure-LLM/RAG decoding to avoid being misled.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / parametric vs retrieved knowledge",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:35.451220+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2406.00944\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"theory\",\n  \"why_relevant\": \"Provides a token-level theoretical framework for trading off benefit vs detriment of retrieved evidence (including noisy/conflicting passages) and a method (Tok-RAG) for collaborative pure-LLM/RAG decoding to avoid being misled.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / parametric vs retrieved knowledge\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

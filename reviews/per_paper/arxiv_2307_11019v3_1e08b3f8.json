@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2307.11019v3",
+  "title": "Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation",
+  "authors": "Ruiyang Ren; Yuhao Wang; Yingqi Qu; Wayne Xin Zhao; Jing Liu; Hao Tian; Hua Wu; Ji-Rong Wen; Haifeng Wang",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2307.11019v3",
+  "local_pdf": "pdfs/2023_ruiyang_ren_investigating_the_factual_knowledge_boundary_of_large_language_models_with_retrieval_aug_1e08b3f8.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes LLMs' perception of factual knowledge boundaries under retrieval augmentation, including overconfidence, internal-external knowledge conflicts, and dynamic retrieval based on priori/posteriori judgement—directly relevant to calibration, conflict, and when-to-retrieve.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Control / Knowledge Conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:38.458101+00:00",
+  "raw_response": "{\"key\":\"arxiv-2307.11019v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Analyzes LLMs' perception of factual knowledge boundaries under retrieval augmentation, including overconfidence, internal-external knowledge conflicts, and dynamic retrieval based on priori/posteriori judgement—directly relevant to calibration, conflict, and when-to-retrieve.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Calibration and Control / Knowledge Conflict\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

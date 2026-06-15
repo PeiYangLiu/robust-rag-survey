@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.02249v1",
+  "title": "Conversation AI Dialog for Medicare powered by Finetuning and Retrieval Augmented Generation",
+  "authors": "Atharva Mangeshkumar Agrawal; Rutika Pandurang Shinde; Vasanth Kumar Bhukya; Ashmita Chakraborty; Sagar Bharat Shah; Tanmay Shukla; Sree Pradeep Kumar Relangi; Nilesh Mutyam",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.02249v1",
+  "local_pdf": "pdfs/2025_atharva_mangeshkumar_agrawal_conversation_ai_dialog_for_medicare_powered_by_finetuning_and_retrieval_augmented_genera_28ccf8b1.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG and fine-tuning to medical dialogue; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Out of scope; merely uses RAG for a healthcare use case.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:09.387498+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.02249v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG and fine-tuning to medical dialogue; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Out of scope; merely uses RAG for a healthcare use case.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

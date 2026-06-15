@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.27261v3",
+  "title": "RegionRAG: Region-level Retrieval-Augmented Generation for Visual Document Understanding",
+  "authors": "Yinglu Li; Zhiying Lu; Zhihang Liu; Yiwei Sun; Chuanbin Liu; Hongtao Xie",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.27261v3",
+  "local_pdf": "pdfs/2025_yinglu_li_regionrag_region_level_retrieval_augmented_generation_for_visual_document_understanding_0fb73233.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses distraction from irrelevant visual content in multi-modal RAG by retrieving fine-grained regions instead of full documents, touching on noisy retrieval and distraction issues.",
+  "why_not_or_caveat": "Primary focus is on improving retrieval granularity for visual document QA, not explicitly on robustness, calibration, conflict, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "Distraction and noisy retrieval (multi-modal)",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:14.634966+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.27261v3\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses distraction from irrelevant visual content in multi-modal RAG by retrieving fine-grained regions instead of full documents, touching on noisy retrieval and distraction issues.\",\n  \"why_not_or_caveat\": \"Primary focus is on improving retrieval granularity for visual document QA, not explicitly on robustness, calibration, conflict, or adversarial settings.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Distraction and noisy retrieval (multi-modal)\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

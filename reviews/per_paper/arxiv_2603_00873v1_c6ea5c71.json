@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.00873v1",
+  "title": "MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains",
+  "authors": "Xuying Ning; Dongqi Fu; Tianxin Wei; Mengting Ai; Jiaru Zou; Ting-Wei Li; Hanghang Tong; Yada Zhu; Hendrik Hamann; Jingrui He",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.00873v1",
+  "local_pdf": "pdfs/2026_xuying_ning_mc_search_evaluating_and_enhancing_multimodal_agentic_search_with_structured_long_reason_c6ea5c71.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a multimodal agentic RAG benchmark with process-level metrics that reveal over-/under-retrieval and planning errors, tangentially relevant to calibration/control of retrieval.",
+  "why_not_or_caveat": "Focus is multimodal agentic search evaluation, not robustness under noisy/conflicting/adversarial evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.578464+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.00873v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces a multimodal agentic RAG benchmark with process-level metrics that reveal over-/under-retrieval and planning errors, tangentially relevant to calibration/control of retrieval.\", \"why_not_or_caveat\": \"Focus is multimodal agentic search evaluation, not robustness under noisy/conflicting/adversarial evidence.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and benchmarks\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

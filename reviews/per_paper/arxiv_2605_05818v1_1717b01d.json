@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.05818v1",
+  "title": "LeakDojo: Decoding the Leakage Threats of RAG Systems",
+  "authors": "Maosen Zhang; Jianshuo Dong; Boting Lu; Wenyue Li; Xiaoping Zhang; Tianwei Zhang; Han Qiu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05818v1",
+  "local_pdf": "pdfs/2026_maosen_zhang_leakdojo_decoding_the_leakage_threats_of_rag_systems_1717b01d.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "LeakDojo provides a configurable framework benchmarking RAG leakage attacks and defenses, directly relevant to adversarial corruption and evaluation of RAG robustness.",
+  "why_not_or_caveat": "Focus is on data extraction/leakage rather than poisoning or generation correctness, a narrower slice of adversarial RAG threats.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Attacks on RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:35.387713+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.05818v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"LeakDojo provides a configurable framework benchmarking RAG leakage attacks and defenses, directly relevant to adversarial corruption and evaluation of RAG robustness.\",\"why_not_or_caveat\":\"Focus is on data extraction/leakage rather than poisoning or generation correctness, a narrower slice of adversarial RAG threats.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Attacks on RAG\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,110 @@
+{
+  "snapshot_date": "2026-06-03",
+  "description": "Reproducible metadata search over DBLP and OpenAlex for venue-linked robust-RAG candidates. This is a venue-oriented metadata pass, not a manual full-proceedings review.",
+  "venues_targeted": [
+    "ACL",
+    "EMNLP",
+    "NAACL",
+    "COLING",
+    "SIGIR",
+    "WWW",
+    "WSDM",
+    "KDD",
+    "USENIX Security",
+    "CCS",
+    "NDSS",
+    "ICLR",
+    "NeurIPS"
+  ],
+  "years": "2020-2026",
+  "queries": [
+    "retrieval augmented generation",
+    "retrieval-augmented generation",
+    "retrieval augmented language model",
+    "retrieval augmented question answering",
+    "retrieval augmentation noisy context",
+    "irrelevant context retrieval augmented",
+    "retrieval augmented knowledge conflict",
+    "retrieval augmented uncertainty",
+    "retrieval augmented calibration",
+    "retrieval augmented abstention",
+    "retrieval augmented poisoning",
+    "retrieval augmented prompt injection",
+    "retrieval corpus poisoning",
+    "adversarial retrieval question answering",
+    "faithfulness retrieval augmented generation"
+  ],
+  "query_rows": 31,
+  "unique_candidate_titles": 51,
+  "candidate_titles_by_venue": {
+    "ACL": 11,
+    "CCS": 1,
+    "COLING": 4,
+    "EMNLP": 17,
+    "ICLR": 1,
+    "KDD": 1,
+    "NAACL": 4,
+    "SIGIR": 9,
+    "WSDM": 1,
+    "WWW": 3
+  },
+  "candidate_titles_by_api": {
+    "ACL Anthology bib": 30,
+    "DBLP": 14,
+    "OpenAlex": 8
+  },
+  "acl_anthology_scan": {
+    "url": "https://aclanthology.org/anthology+abstracts.bib.gz",
+    "entries_scanned_2020_2026_for_target_venues": {
+      "ACL": 4152,
+      "COLING": 2118,
+      "EMNLP": 5674,
+      "NAACL": 980
+    },
+    "rag_candidates_by_venue": {
+      "ACL": 57,
+      "COLING": 12,
+      "EMNLP": 87,
+      "NAACL": 25
+    },
+    "robust_rag_candidates_by_venue": {
+      "ACL": 9,
+      "COLING": 3,
+      "EMNLP": 14,
+      "NAACL": 4
+    },
+    "robust_rag_candidate_count": 30
+  },
+  "errors": [
+    {
+      "api": "DBLP",
+      "query": "retrieval augmented language model",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
+    },
+    {
+      "api": "DBLP",
+      "query": "retrieval augmented question answering",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
+    },
+    {
+      "api": "DBLP",
+      "query": "retrieval augmentation noisy context",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
+    },
+    {
+      "api": "DBLP",
+      "query": "retrieval augmented knowledge conflict",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
+    },
+    {
+      "api": "DBLP",
+      "query": "retrieval augmented uncertainty",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
+    }
+  ],
+  "limitations": [
+    "Search is based on DBLP/OpenAlex metadata and top returned records for each query.",
+    "Venue names are matched from metadata strings; some proceedings may be missing or inconsistently named.",
+    "The pass is reproducible and venue-oriented but does not claim exhaustive manual review of every paper in every proceedings volume."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2501.07523v2",
+  "title": "Parallel Key-Value Cache Fusion for Position Invariant RAG",
+  "authors": "Philhoon Oh; Jinwoo Shin; James Thorne",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.07523v2",
+  "local_pdf": "pdfs/2025_philhoon_oh_parallel_key_value_cache_fusion_for_position_invariant_rag_7bfac338.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes KV-Fusion to make RAG position-invariant, addressing lost-in-the-middle distraction and improving robustness to irrelevant passages.",
+  "why_not_or_caveat": "Focused on positional bias rather than broader robustness threats like adversarial or conflict cases.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and positional robustness",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:16.402167+00:00",
+  "raw_response": "{\"key\":\"arxiv-2501.07523v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes KV-Fusion to make RAG position-invariant, addressing lost-in-the-middle distraction and improving robustness to irrelevant passages.\",\"why_not_or_caveat\":\"Focused on positional bias rather than broader robustness threats like adversarial or conflict cases.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and positional robustness\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

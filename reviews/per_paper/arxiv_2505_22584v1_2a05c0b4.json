@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.22584v1",
+  "title": "DocReRank: Single-Page Hard Negative Query Generation for Training Multi-Modal RAG Rerankers",
+  "authors": "Navve Wasserman; Oliver Heinimann; Yuval Golbari; Tal Zimbalist; Eli Schwartz; Michal Irani",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.22584v1",
+  "local_pdf": "pdfs/2025_navve_wasserman_docrerank_single_page_hard_negative_query_generation_for_training_multi_modal_rag_rerank_2a05c0b4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes hard-negative query generation for training multimodal RAG rerankers, tangentially related to improving retrieval quality against noisy/irrelevant pages.",
+  "why_not_or_caveat": "Focuses on reranker training rather than robustness to unreliable evidence, conflicts, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / reranking",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:08.000441+00:00",
+  "raw_response": "{\"key\": \"arxiv-2505.22584v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes hard-negative query generation for training multimodal RAG rerankers, tangentially related to improving retrieval quality against noisy/irrelevant pages.\", \"why_not_or_caveat\": \"Focuses on reranker training rather than robustness to unreliable evidence, conflicts, attacks, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Noisy retrieval / reranking\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

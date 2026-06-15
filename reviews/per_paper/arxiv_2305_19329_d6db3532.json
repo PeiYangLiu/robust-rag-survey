@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2305.19329",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2305.19329)] Mitigating Test-Time Bias for Fair Image Retrieval",
+  "authors": "",
+  "year": "1932",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2305.19329",
+  "local_pdf": "pdfs/1932_arxiv_2305_19329_arxiv_https_arxiv_org_abs_2305_19329_mitigating_test_time_bias_for_fair_image_re_d6db3532.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper addresses fairness/bias mitigation in text-based image retrieval, unrelated to RAG robustness.",
+  "why_not_or_caveat": "Out of scope: no LLM RAG, no evidence reliability concerns.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:38.733190+00:00",
+  "raw_response": "{\"key\":\"arxiv-2305.19329\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper addresses fairness/bias mitigation in text-based image retrieval, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"Out of scope: no LLM RAG, no evidence reliability concerns.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

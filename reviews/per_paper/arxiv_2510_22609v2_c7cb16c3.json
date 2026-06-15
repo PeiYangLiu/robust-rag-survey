@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.22609v2",
+  "title": "CLIN-LLM: A Safety-Constrained Hybrid Framework for Clinical Diagnosis and Treatment Generation",
+  "authors": "Md. Mehedi Hasan; Md. Abir Hossain; Farman Hossain Sayem; Bikash Kumar Paul; Ziaur Rahman; Mohammad Shorif Uddin; Rafid Mostafiz",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.22609v2",
+  "local_pdf": "pdfs/2025_md_mehedi_hasan_clin_llm_a_safety_constrained_hybrid_framework_for_clinical_diagnosis_and_treatment_gene_c7cb16c3.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Clinical RAG application with uncertainty-aware classification and safety filters, but does not study RAG robustness, conflict, noise, or adversarial issues.",
+  "why_not_or_caveat": "Applied clinical decision support system; robustness aspects are domain-safety (antibiotic stewardship, DDI) rather than RAG reliability under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:36.577028+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.22609v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Clinical RAG application with uncertainty-aware classification and safety filters, but does not study RAG robustness, conflict, noise, or adversarial issues.\",\"why_not_or_caveat\":\"Applied clinical decision support system; robustness aspects are domain-safety (antibiotic stewardship, DDI) rather than RAG reliability under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

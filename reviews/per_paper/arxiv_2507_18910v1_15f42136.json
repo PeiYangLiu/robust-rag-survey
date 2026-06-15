@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.18910v1",
+  "title": "A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions",
+  "authors": "Agada Joseph Oche; Ademola Glory Folashade; Tirthankar Ghosal; Arpan Biswas",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.18910v1",
+  "local_pdf": "pdfs/2025_agada_joseph_oche_a_systematic_review_of_key_retrieval_augmented_generation_rag_systems_progress_gaps_and_15f42136.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "General systematic review of RAG covering challenges including retrieval quality and privacy, which tangentially relates to robustness topics.",
+  "why_not_or_caveat": "Broad overview, not focused on robustness, conflict, adversarial attacks, or calibration; provides only general context.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:54.563730+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.18910v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"General systematic review of RAG covering challenges including retrieval quality and privacy, which tangentially relates to robustness topics.\",\n  \"why_not_or_caveat\": \"Broad overview, not focused on robustness, conflict, adversarial attacks, or calibration; provides only general context.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Related surveys\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

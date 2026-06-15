@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.03659v2",
+  "title": "Trustworthy Medical Question Answering: An Evaluation-Centric Survey",
+  "authors": "Yinuo Wang; Baiyang Wang; Robert E. Mercer; Frank Rudzicz; Sudipta Singha Roy; Pengjie Ren; Zhumin Chen; Xindi Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.03659v2",
+  "local_pdf": "pdfs/2025_yinuo_wang_trustworthy_medical_question_answering_an_evaluation_centric_survey_a2a87ba6.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Domain-specific survey on trustworthy medical QA covering robustness, calibration, and RAG grounding, tangentially related to robust RAG themes.",
+  "why_not_or_caveat": "Focused on medical QA trustworthiness broadly, not specifically on robust RAG under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:47.823161+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.03659v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\",\"evaluation_benchmark\"],\"paper_role\":\"survey\",\"why_relevant\":\"Domain-specific survey on trustworthy medical QA covering robustness, calibration, and RAG grounding, tangentially related to robust RAG themes.\",\"why_not_or_caveat\":\"Focused on medical QA trustworthiness broadly, not specifically on robust RAG under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Related surveys\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

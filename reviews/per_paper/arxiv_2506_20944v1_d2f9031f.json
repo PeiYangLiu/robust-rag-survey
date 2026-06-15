@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.20944v1",
+  "title": "E-FreeM2: Efficient Training-Free Multi-Scale and Cross-Modal News Verification via MLLMs",
+  "authors": "Van-Hoang Phan; Long-Khanh Pham; Dang Vu; Anh-Duy Tran; Minh-Son Dao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.20944v1",
+  "local_pdf": "pdfs/2025_van_hoang_phan_e_freem2_efficient_training_free_multi_scale_and_cross_modal_news_verification_via_mllms_d2f9031f.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses retrieval-based multimodal fact verification and mentions robustness to poisoning, but is an application paper for OOC misinformation detection rather than a study of RAG robustness mechanisms.",
+  "why_not_or_caveat": "Robustness claims are incidental; no systematic analysis of noise, conflict, or adversarial attacks on RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:30.355777+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.20944v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Uses retrieval-based multimodal fact verification and mentions robustness to poisoning, but is an application paper for OOC misinformation detection rather than a study of RAG robustness mechanisms.\",\n  \"why_not_or_caveat\": \"Robustness claims are incidental; no systematic analysis of noise, conflict, or adversarial attacks on RAG.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.16161v1",
+  "title": "Towards Lighter and Robust Evaluation for Retrieval Augmented Generation",
+  "authors": "Alex-Razvan Ispas; Charles-Elie Simon; Fabien Caspani; Vincent Guigue",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.16161v1",
+  "local_pdf": "pdfs/2025_alex_razvan_ispas_towards_lighter_and_robust_evaluation_for_retrieval_augmented_generation_046b20b0.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a lightweight open-weight LLM-as-judge metric for RAG correctness and faithfulness, tangentially relevant to evaluation of hallucination in RAG.",
+  "why_not_or_caveat": "Focuses on cost-efficient evaluation methodology rather than robustness to noisy/conflicting/adversarial evidence or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.531796+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.16161v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a lightweight open-weight LLM-as-judge metric for RAG correctness and faithfulness, tangentially relevant to evaluation of hallucination in RAG.\",\"why_not_or_caveat\":\"Focuses on cost-efficient evaluation methodology rather than robustness to noisy/conflicting/adversarial evidence or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation and Metrics\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

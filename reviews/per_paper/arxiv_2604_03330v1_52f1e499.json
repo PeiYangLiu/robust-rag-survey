@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.03330v1",
+  "title": "AICCE: AI Driven Compliance Checker Engine",
+  "authors": "Mohammad Wali Ur Rahman; Martin Manuel Lopez; Lamia Tasnim Mim; Carter Farthing; Julius Battle; Kathryn Buckley; Salim Hariri",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.03330v1",
+  "local_pdf": "pdfs/2026_mohammad_wali_ur_rahman_aicce_ai_driven_compliance_checker_engine_52f1e499.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG to IPv6 protocol compliance verification; does not study robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Application paper using RAG, not about RAG reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:32.127467+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.03330v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG to IPv6 protocol compliance verification; does not study robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Application paper using RAG, not about RAG reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

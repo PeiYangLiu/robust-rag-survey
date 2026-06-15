@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.15682v1",
+  "title": "SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation",
+  "authors": "Ines Besrour; Jingbo He; Tobias Schreieder; Michael Färber",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.15682v1",
+  "local_pdf": "pdfs/2025_ines_besrour_squai_scientific_question_answering_with_multi_agent_retrieval_augmented_generation_24c3da0e.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Multi-agent RAG system for scientific QA with adaptive filtering and citation grounding; touches on faithfulness but is primarily a system/application paper.",
+  "why_not_or_caveat": "Does not directly study robustness, noise, conflict, attacks, or calibration; filtering is incidental to system design.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.016241+00:00",
+  "raw_response": "{\"key\": \"arxiv-2510.15682v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Multi-agent RAG system for scientific QA with adaptive filtering and citation grounding; touches on faithfulness but is primarily a system/application paper.\", \"why_not_or_caveat\": \"Does not directly study robustness, noise, conflict, attacks, or calibration; filtering is incidental to system design.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

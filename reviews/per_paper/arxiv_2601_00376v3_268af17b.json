@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.00376v3",
+  "title": "In Line with Context: Repository-Level Code Generation via Context Inlining",
+  "authors": "Chao Hu; Wenhao Zeng; Yuling Shi; Beijun Shen; Xiaodong Gu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.00376v3",
+  "local_pdf": "pdfs/2026_chao_hu_in_line_with_context_repository_level_code_generation_via_context_inlining_268af17b.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to repository-level code generation; not focused on robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Out of survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:19.565448+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.00376v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to repository-level code generation; not focused on robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Out of survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

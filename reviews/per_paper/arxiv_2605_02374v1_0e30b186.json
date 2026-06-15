@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.02374v1",
+  "title": "Fight Poison with Poison: Enhancing Robustness in Few-shot Machine-Generated Text Detection with Adversarial Training",
+  "authors": "Wenjing Duan; Qi Zhou; Yuanfan Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.02374v1",
+  "local_pdf": "pdfs/2026_wenjing_duan_fight_poison_with_poison_enhancing_robustness_in_few_shot_machine_generated_text_detecti_0e30b186.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper uses RAG to generate adversarial examples for machine-generated text detection, not about robustness of RAG systems.",
+  "why_not_or_caveat": "Out of scope: focuses on MGT detection, not RAG robustness/reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:04.358284+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.02374v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper uses RAG to generate adversarial examples for machine-generated text detection, not about robustness of RAG systems.\",\"why_not_or_caveat\":\"Out of scope: focuses on MGT detection, not RAG robustness/reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

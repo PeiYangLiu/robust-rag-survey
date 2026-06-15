@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2506.09669v4",
+  "title": "Query-Level Uncertainty in Large Language Models",
+  "authors": "Lihu Chen; Gerard de Melo; Fabian M. Suchanek; Gaël Varoquaux",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.09669v4",
+  "local_pdf": "pdfs/2025_lihu_chen_query_level_uncertainty_in_large_language_models_1fba888a.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes query-level uncertainty estimation to decide when to invoke RAG, directly relevant to adaptive retrieval and calibration/control under unknown knowledge boundaries.",
+  "why_not_or_caveat": "Focus is broader uncertainty estimation; RAG invocation is one application.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.269640+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.09669v4\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes query-level uncertainty estimation to decide when to invoke RAG, directly relevant to adaptive retrieval and calibration/control under unknown knowledge boundaries.\",\n  \"why_not_or_caveat\": \"Focus is broader uncertainty estimation; RAG invocation is one application.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: When to Retrieve\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

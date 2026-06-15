@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.15723v1",
+  "title": "Context-Length Robustness in Question Answering Models: A Comparative Empirical Study",
+  "authors": "Trishita Dhara; Siddhesh Sheth",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.15723v1",
+  "local_pdf": "pdfs/2026_trishita_dhara_context_length_robustness_in_question_answering_models_a_comparative_empirical_study_cf6225b5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Empirically studies how injecting irrelevant context degrades QA accuracy while preserving the answer-bearing evidence, directly relevant to distraction and context dilution in RAG.",
+  "why_not_or_caveat": "Limited novelty; small-scale empirical study on SQuAD/HotpotQA, not specifically about retrieval pipelines.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and context dilution",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:47.872832+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.15723v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"distraction\", \"evaluation_benchmark\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Empirically studies how injecting irrelevant context degrades QA accuracy while preserving the answer-bearing evidence, directly relevant to distraction and context dilution in RAG.\", \"why_not_or_caveat\": \"Limited novelty; small-scale empirical study on SQuAD/HotpotQA, not specifically about retrieval pipelines.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Distraction and context dilution\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

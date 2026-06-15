@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.14554v1",
+  "title": "REDEditing: Relationship-Driven Precise Backdoor Poisoning on Text-to-Image Diffusion Models",
+  "authors": "Chongye Guo; Jinhu Fu; Junfeng Fang; Kun Wang; Guorui Feng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.14554v1",
+  "local_pdf": "pdfs/2025_chongye_guo_redediting_relationship_driven_precise_backdoor_poisoning_on_text_to_image_diffusion_mod_8ab49cb2.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Backdoor attack on text-to-image diffusion models via model editing; not related to RAG robustness.",
+  "why_not_or_caveat": "Out of scope: targets T2I generation, no retrieval-augmented generation component.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:34.862259+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.14554v1\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Backdoor attack on text-to-image diffusion models via model editing; not related to RAG robustness.\",\n  \"why_not_or_caveat\": \"Out of scope: targets T2I generation, no retrieval-augmented generation component.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

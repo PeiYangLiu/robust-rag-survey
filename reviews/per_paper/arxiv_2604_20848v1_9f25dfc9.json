@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.20848v1",
+  "title": "MATRAG: Multi-Agent Transparent Retrieval-Augmented Generation for Explainable Recommendations",
+  "authors": "Sushant Mehta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20848v1",
+  "local_pdf": "pdfs/2026_sushant_mehta_matrag_multi_agent_transparent_retrieval_augmented_generation_for_explainable_recommenda_9f25dfc9.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies multi-agent RAG to explainable recommendations; does not study robustness, noise, conflict, adversarial issues, or calibration.",
+  "why_not_or_caveat": "Out of scope; an application of RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:44.371498+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.20848v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies multi-agent RAG to explainable recommendations; does not study robustness, noise, conflict, adversarial issues, or calibration.\",\"why_not_or_caveat\":\"Out of scope; an application of RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

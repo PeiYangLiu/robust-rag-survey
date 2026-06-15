@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.20995v3",
+  "title": "The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems",
+  "authors": "Chanwoo Choi; Jinsoo Kim; Sukmin Cho; Soyeong Jeong; Buru Chang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.20995v3",
+  "local_pdf": "pdfs/2025_chanwoo_choi_the_rag_paradox_a_black_box_attack_exploiting_unintentional_vulnerabilities_in_retrieval_11746472.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a realistic black-box corpus poisoning attack on RAG systems that exploits source disclosure to craft retrievable and natural-looking poisoned documents, directly relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Focused on attack only, no defense or calibration component.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.378792+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.20995v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a realistic black-box corpus poisoning attack on RAG systems that exploits source disclosure to craft retrievable and natural-looking poisoned documents, directly relevant to the adversarial corruption section.\",\n  \"why_not_or_caveat\": \"Focused on attack only, no defense or calibration component.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

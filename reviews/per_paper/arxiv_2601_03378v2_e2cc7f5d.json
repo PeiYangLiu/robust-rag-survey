@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.03378v2",
+  "title": "RepoShapley: Shapley-Enhanced Context Filtering for Repository-Level Code Completion",
+  "authors": "Yu Huo; Kun Zeng; Siyu Zhang; Yuquan Lu; Cheng Yang; Yifu Guo; Xiaoying Tang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.03378v2",
+  "local_pdf": "pdfs/2026_yu_huo_reposhapley_shapley_enhanced_context_filtering_for_repository_level_code_completion_e2cc7f5d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes coalition-aware context filtering using Shapley values to remove harmful/conflicting retrieved chunks and control when to retrieve, directly addressing noisy retrieval and retrieval control in RAG.",
+  "why_not_or_caveat": "Domain-specific (repository-level code completion); robustness framing is secondary to code completion utility.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Filtering",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:50.131661+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.03378v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes coalition-aware context filtering using Shapley values to remove harmful/conflicting retrieved chunks and control when to retrieve, directly addressing noisy retrieval and retrieval control in RAG.\",\"why_not_or_caveat\":\"Domain-specific (repository-level code completion); robustness framing is secondary to code completion utility.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control / Filtering\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2406.05794v3",
+  "title": "RE-RAG: Improving Open-Domain QA Performance and Interpretability with Relevance Estimator in Retrieval-Augmented Generation",
+  "authors": "Kiseung Kim; Jay-Yoon Lee",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.05794v3",
+  "local_pdf": "pdfs/2024_kiseung_kim_re_rag_improving_open_domain_qa_performance_and_interpretability_with_relevance_estimato_6a3c906a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a relevance estimator that filters irrelevant retrieved contexts, enables abstention ('unanswerable'), and chooses between parametric and retrieved knowledge based on confidence—directly addressing noisy retrieval, calibration/control, and parametric-vs-retrieved conflict.",
+  "why_not_or_caveat": "Focused on open-domain QA performance; robustness analysis is a secondary contribution rather than a comprehensive study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Filtering Noisy Retrieval",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:54.022256+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2406.05794v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a relevance estimator that filters irrelevant retrieved contexts, enables abstention ('unanswerable'), and chooses between parametric and retrieved knowledge based on confidence—directly addressing noisy retrieval, calibration/control, and parametric-vs-retrieved conflict.\",\n  \"why_not_or_caveat\": \"Focused on open-domain QA performance; robustness analysis is a secondary contribution rather than a comprehensive study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Filtering Noisy Retrieval\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

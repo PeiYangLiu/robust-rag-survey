@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2501.11759v1",
+  "title": "Poison-RAG: Adversarial Data Poisoning Attacks on Retrieval-Augmented Generation in Recommender Systems",
+  "authors": "Fatemeh Nazary; Yashar Deldjoo; Tommaso di Noia",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.11759v1",
+  "local_pdf": "pdfs/2025_fatemeh_nazary_poison_rag_adversarial_data_poisoning_attacks_on_retrieval_augmented_generation_in_recom_d0a897a4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a data poisoning attack on RAG-based recommender systems by manipulating item metadata, relevant to adversarial corruption of retrieval corpora.",
+  "why_not_or_caveat": "Domain-specific to recommender systems rather than general QA RAG; narrower scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:15.047373+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2501.11759v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a data poisoning attack on RAG-based recommender systems by manipulating item metadata, relevant to adversarial corruption of retrieval corpora.\",\n  \"why_not_or_caveat\": \"Domain-specific to recommender systems rather than general QA RAG; narrower scope.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Poisoning\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

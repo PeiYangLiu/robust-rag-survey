@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2506.00054v1",
+  "title": "Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers",
+  "authors": "Chaitanya Sharma",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.00054v1",
+  "local_pdf": "pdfs/2025_chaitanya_sharma_retrieval_augmented_generation_a_comprehensive_survey_of_architectures_enhancements_and_51d08b96.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "survey_related",
+    "noisy_retrieval",
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A comprehensive RAG survey explicitly covering robustness-oriented designs, noise/adversarial challenges, and evaluation benchmarks, overlapping significantly with this survey's scope.",
+  "why_not_or_caveat": "As a broad survey, overlap is partial and it lacks focus depth on calibration/conflict; useful as a related-work reference.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Related Surveys",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.463253+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.00054v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"survey_related\",\"noisy_retrieval\",\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"survey\",\"why_relevant\":\"A comprehensive RAG survey explicitly covering robustness-oriented designs, noise/adversarial challenges, and evaluation benchmarks, overlapping significantly with this survey's scope.\",\"why_not_or_caveat\":\"As a broad survey, overlap is partial and it lacks focus depth on calibration/conflict; useful as a related-work reference.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Related Surveys\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{lrr>{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Metric} & \textbf{Control} & \textbf{Protocol} & \textbf{$\Delta$ (95\% CI)} \\
+\midrule
+Experts & 15 & 15 & -- \\
+Pair judgments & 180 & 180 & -- \\
+External gold agreement & 0.800 & 0.978 & +0.178 [+0.128, +0.228] \\
+Fleiss $\kappa$ & 0.589 & 0.846 & -- \\
+Decision time (s) & 126.1 & 121.8 & -4.3 [-13.9, +5.8] \\
+Confidence (1--5) & 3.69 & 3.92 & +0.23 [+0.13, +0.32] \\
+Usefulness (1--5) & 3.51 & 4.06 & +0.55 [+0.41, +0.70] \\
+\bottomrule
+\end{tabularx}
+\caption{Blind external protocol-usability stress test. Thirty distinct annotators judged the same 12 deliberately difficult paper pairs, with 15 assigned to ordinary expert judgment and 15 assigned to the five-coordinate protocol. Agreement against independently adjudicated external gold labels is reported descriptively for this non-representative pair set; the 360 judgments are clustered within annotators and shared pairs. Confidence intervals are participant-level bootstrap intervals for protocol minus control, not population-level IID paper-pair inference.}
+\label{tab:expert-validation-pilot}
+\end{table}

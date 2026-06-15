@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2405.13622v1",
+  "title": "Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation",
+  "authors": "Gauthier Guinet; Behrooz Omidvar-Tehrani; Anoop Deoras; Laurent Callot",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2405.13622v1",
+  "local_pdf": "pdfs/2024_gauthier_guinet_automated_evaluation_of_retrieval_augmented_language_models_with_task_specific_exam_gene_7068497e.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes an automated exam-based evaluation methodology for RAG systems, relevant to general RAG evaluation but not specifically about robustness, noise, conflict, or adversarial settings.",
+  "why_not_or_caveat": "Focuses on factual accuracy measurement via synthetic MCQ exams; does not directly address unreliable evidence, distraction, conflict, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:31.397021+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2405.13622v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes an automated exam-based evaluation methodology for RAG systems, relevant to general RAG evaluation but not specifically about robustness, noise, conflict, or adversarial settings.\",\n  \"why_not_or_caveat\": \"Focuses on factual accuracy measurement via synthetic MCQ exams; does not directly address unreliable evidence, distraction, conflict, attacks, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Evaluation and benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

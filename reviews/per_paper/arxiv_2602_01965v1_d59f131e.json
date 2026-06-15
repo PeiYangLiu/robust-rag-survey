@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.01965v1",
+  "title": "Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation",
+  "authors": "Kwun Hang Lau; Fangyuan Zhang; Boyu Ruan; Yingli Zhou; Qintian Guo; Ruiyuan Zhang; Xiaofang Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.01965v1",
+  "local_pdf": "pdfs/2026_kwun_hang_lau_breaking_the_static_graph_context_aware_traversal_for_robust_retrieval_augmented_generat_d59f131e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a graph-based RAG method that mitigates semantic drift in multi-hop retrieval, tangentially related to noisy retrieval robustness.",
+  "why_not_or_caveat": "Primary focus is improving multi-hop retrieval accuracy via dynamic graph traversal, not directly studying robustness to noise, conflict, adversaries, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.888907+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.01965v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a graph-based RAG method that mitigates semantic drift in multi-hop retrieval, tangentially related to noisy retrieval robustness.\", \"why_not_or_caveat\": \"Primary focus is improving multi-hop retrieval accuracy via dynamic graph traversal, not directly studying robustness to noise, conflict, adversaries, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

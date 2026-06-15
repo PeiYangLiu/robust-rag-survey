@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.24299v1",
+  "title": "LLMs Show No Signs Of Individuated Metacognition",
+  "authors": "M. Moran; Mark Whiting",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.24299v1",
+  "local_pdf": "pdfs/2026_m_moran_llms_show_no_signs_of_individuated_metacognition_67a50b79.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes LLM confidence calibration and metacognition, which underlies abstention and confidence-based routing decisions relevant to RAG control.",
+  "why_not_or_caveat": "Not RAG-specific; does not address retrieval reliability, conflict, or evidence-based abstention.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:40.811946+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.24299v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Analyzes LLM confidence calibration and metacognition, which underlies abstention and confidence-based routing decisions relevant to RAG control.\",\n  \"why_not_or_caveat\": \"Not RAG-specific; does not address retrieval reliability, conflict, or evidence-based abstention.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and Control\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

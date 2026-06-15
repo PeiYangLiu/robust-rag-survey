@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.14110",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2411.14110)\\] RAG-Thief: Scalable Extraction of Private Data from Retrieval-Augmented Generation Applications with Agent-based Attacks",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.14110",
+  "local_pdf": "pdfs/na_arxiv_2411_14110_arxiv_https_arxiv_org_abs_2411_14110_rag_thief_scalable_extraction_of_private_da_2f51c90d.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box agent-based attack to extract verbatim knowledge base content from RAG applications, relevant to privacy/IP attacks on RAG systems.",
+  "why_not_or_caveat": "Focus is on data extraction/IP leakage rather than evidence corruption or robustness per se; tangential to the core robustness taxonomy.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Attacks on RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.144279+00:00",
+  "raw_response": "{\"key\":\"arxiv-2411.14110\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a black-box agent-based attack to extract verbatim knowledge base content from RAG applications, relevant to privacy/IP attacks on RAG systems.\",\"why_not_or_caveat\":\"Focus is on data extraction/IP leakage rather than evidence corruption or robustness per se; tangential to the core robustness taxonomy.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Attacks on RAG\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

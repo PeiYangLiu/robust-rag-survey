@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.07528v1",
+  "title": "SEReDeEP: Hallucination Detection in Retrieval-Augmented Models via Semantic Entropy and Context-Parameter Fusion",
+  "authors": "Lei Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.07528v1",
+  "local_pdf": "pdfs/2025_lei_wang_seredeep_hallucination_detection_in_retrieval_augmented_models_via_semantic_entropy_and_f9998dda.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hallucination detection method for RAG that combines semantic entropy probes with ReDeEP's decoupling of parametric vs contextual contributions, directly addressing knowledge conflict and uncertainty-based detection in RAG.",
+  "why_not_or_caveat": "Single-author arXiv preprint building incrementally on ReDeEP; limited novelty and validation.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and hallucination detection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:41.064382+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.07528v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a hallucination detection method for RAG that combines semantic entropy probes with ReDeEP's decoupling of parametric vs contextual contributions, directly addressing knowledge conflict and uncertainty-based detection in RAG.\",\n  \"why_not_or_caveat\": \"Single-author arXiv preprint building incrementally on ReDeEP; limited novelty and validation.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and hallucination detection\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

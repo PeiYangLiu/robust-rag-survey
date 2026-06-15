@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.06519v1",
+  "title": "MedRAGChecker: Claim-Level Verification for Biomedical Retrieval-Augmented Generation",
+  "authors": "Yuelyu Ji; Min Gu Kwak; Hang Zhang; Xizhi Wu; Chenyu Li; Yanshan Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.06519v1",
+  "local_pdf": "pdfs/2026_yuelyu_ji_medragchecker_claim_level_verification_for_biomedical_retrieval_augmented_generation_35f31cc0.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes claim-level verification framework for biomedical RAG that diagnoses faithfulness, under-evidence, contradiction, and safety-critical errors, helping disentangle retrieval vs generation failures.",
+  "why_not_or_caveat": "Domain-specific (biomedical); primarily a verification/evaluation tool rather than a robustness method.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Metrics for RAG Faithfulness",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:44.305361+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.06519v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes claim-level verification framework for biomedical RAG that diagnoses faithfulness, under-evidence, contradiction, and safety-critical errors, helping disentangle retrieval vs generation failures.\",\n  \"why_not_or_caveat\": \"Domain-specific (biomedical); primarily a verification/evaluation tool rather than a robustness method.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Metrics for RAG Faithfulness\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

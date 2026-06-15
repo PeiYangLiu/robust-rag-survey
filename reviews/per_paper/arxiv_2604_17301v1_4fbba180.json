@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.17301v1",
+  "title": "RoTRAG: Rule of Thumb Reasoning for Conversation Harm Detection with Retrieval-Augmented Generation",
+  "authors": "Juhyeon Lee; Wonduk Seo; Junseo Koh; Seunghyun Lee; Haihua Chen; Yi Bu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.17301v1",
+  "local_pdf": "pdfs/2026_juhyeon_lee_rotrag_rule_of_thumb_reasoning_for_conversation_harm_detection_with_retrieval_augmented_4fbba180.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for dialogue harm detection with norm retrieval and a routing classifier, but does not study robustness, noise, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Application of RAG to safety classification; no analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.635120+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.17301v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG for dialogue harm detection with norm retrieval and a routing classifier, but does not study robustness, noise, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Application of RAG to safety classification; no analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

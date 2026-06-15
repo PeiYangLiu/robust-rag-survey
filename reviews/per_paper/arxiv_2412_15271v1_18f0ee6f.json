@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2412.15271v1",
+  "title": "A MapReduce Approach to Effectively Utilize Long Context Information in Retrieval Augmented Language Models",
+  "authors": "Gongbo Zhang; Zihan Xu; Qiao Jin; Fangyi Chen; Yilu Fang; Yi Liu; Justin F. Rousseau; Ziyang Xu; Zhiyong Lu; Chunhua Weng; Yifan Peng",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.15271v1",
+  "local_pdf": "pdfs/2024_gongbo_zhang_a_mapreduce_approach_to_effectively_utilize_long_context_information_in_retrieval_augmen_18f0ee6f.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a map-reduce RAG framework to mitigate lost-in-the-middle and irrelevant context distraction, with analysis of conflicting context resolution and a preflight check to decide when extra processing is needed.",
+  "why_not_or_caveat": "Focused on medical QA application; not a central robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and long-context utilization",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:04.011971+00:00",
+  "raw_response": "{\"key\": \"arxiv-2412.15271v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"distraction\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a map-reduce RAG framework to mitigate lost-in-the-middle and irrelevant context distraction, with analysis of conflicting context resolution and a preflight check to decide when extra processing is needed.\", \"why_not_or_caveat\": \"Focused on medical QA application; not a central robustness study.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Distraction and long-context utilization\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

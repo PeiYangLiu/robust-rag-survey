@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.22843v1",
+  "title": "Structure Guided Retrieval-Augmented Generation for Factual Queries",
+  "authors": "Miao Xie; Xiao Zhang; Yi Li; Chunli Lv",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.22843v1",
+  "local_pdf": "pdfs/2026_miao_xie_structure_guided_retrieval_augmented_generation_for_factual_queries_2677adc7.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes structure-guided RAG via subgraph matching for multi-constraint factual queries, addressing semantic noise in retrieval.",
+  "why_not_or_caveat": "Focus is on improving retrieval precision for complex factual queries rather than robustness under noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:56.981381+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.22843v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes structure-guided RAG via subgraph matching for multi-constraint factual queries, addressing semantic noise in retrieval.\", \"why_not_or_caveat\": \"Focus is on improving retrieval precision for complex factual queries rather than robustness under noise, conflict, adversaries, or calibration.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

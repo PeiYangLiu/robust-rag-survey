@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.11506v2",
+  "title": "EmeraldMind: A Knowledge Graph-Augmented Framework for Greenwashing Detection",
+  "authors": "Georgios Kaoukis; Ioannis Aris Koufopoulos; Eleni Psaroudaki; Danae Pla Karidi; Evaggelia Pitoura; George Papastefanatos; Panayiotis Tsaparas",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.11506v2",
+  "local_pdf": "pdfs/2025_georgios_kaoukis_emeraldmind_a_knowledge_graph_augmented_framework_for_greenwashing_detection_90c8ccc4.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for greenwashing detection with abstention; touches on abstaining when evidence insufficient but does not study robustness, conflict, or calibration methodologically.",
+  "why_not_or_caveat": "Primarily an applied ESG fact-checking system, not a contribution to robust RAG techniques.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:23.424279+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.11506v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for greenwashing detection with abstention; touches on abstaining when evidence insufficient but does not study robustness, conflict, or calibration methodologically.\",\"why_not_or_caveat\":\"Primarily an applied ESG fact-checking system, not a contribution to robust RAG techniques.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

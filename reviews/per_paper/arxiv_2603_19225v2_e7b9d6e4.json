@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.19225v2",
+  "title": "FinTradeBench: A Financial Reasoning Benchmark for LLMs",
+  "authors": "Yogesh Agrawal; Aniruddha Dutta; Md Mahadi Hasan; Santu Karmaker; Aritra Dutta",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19225v2",
+  "local_pdf": "pdfs/2026_yogesh_agrawal_fintradebench_a_financial_reasoning_benchmark_for_llms_e7b9d6e4.pdf",
+  "metadata_topics": "calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Financial reasoning benchmark that evaluates LLMs in zero-shot and RAG settings, but does not specifically study robustness, noise, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Domain-specific application benchmark; RAG evaluation is incidental rather than focused on unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:28.721994+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.19225v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Financial reasoning benchmark that evaluates LLMs in zero-shot and RAG settings, but does not specifically study robustness, noise, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Domain-specific application benchmark; RAG evaluation is incidental rather than focused on unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.02922v1",
+  "title": "Optimizing open-domain question answering with graph-based retrieval augmented generation",
+  "authors": "Joyce Cahoon; Prerna Singh; Nick Litombe; Jonathan Larson; Ha Trinh; Yiwen Zhu; Andreas Mueller; Fotis Psallidas; Carlo Curino",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.02922v1",
+  "local_pdf": "pdfs/2025_joyce_cahoon_optimizing_open_domain_question_answering_with_graph_based_retrieval_augmented_generatio_f9166d2d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Benchmarks graph-based RAG methods and notes challenges with retrieval quality and irrelevant information during synthesis, but does not focus on robustness, noise, conflict, or adversarial issues.",
+  "why_not_or_caveat": "Primarily a method/benchmark paper for open-domain QA performance, not robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:33.585463+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.02922v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Benchmarks graph-based RAG methods and notes challenges with retrieval quality and irrelevant information during synthesis, but does not focus on robustness, noise, conflict, or adversarial issues.\",\"why_not_or_caveat\":\"Primarily a method/benchmark paper for open-domain QA performance, not robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

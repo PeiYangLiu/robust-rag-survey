@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.16984v1",
+  "title": "TelcoAI: Advancing 3GPP Technical Specification Search through Agentic Multi-Modal Retrieval-Augmented Generation",
+  "authors": "Rahul Ghosh; Chun-Hao Liu; Gaurav Rele; Vidya Sagar Ravipati; Hazar Aouad",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.16984v1",
+  "local_pdf": "pdfs/2025_rahul_ghosh_telcoai_advancing_3gpp_technical_specification_search_through_agentic_multi_modal_retrie_8e04afc4.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG system for 3GPP telecom documentation; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application paper focused on retrieval quality for a specific corpus, not on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:39.501820+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.16984v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG system for 3GPP telecom documentation; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application paper focused on retrieval quality for a specific corpus, not on unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

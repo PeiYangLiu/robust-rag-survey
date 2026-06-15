@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.26778v1",
+  "title": "The Attribution Blind Spot: Detecting When Language Models Rely on Memory Rather Than Retrieved Context",
+  "authors": "Zhe Yu; Wenpeng Xing; Yunzhao Wei; Bo Yang; Chen Ye; Gaolei Li; Meng Han",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.26778v1",
+  "local_pdf": "pdfs/2026_zhe_yu_the_attribution_blind_spot_detecting_when_language_models_rely_on_memory_rather_than_ret_bd41908a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies whether RAG generations are governed by retrieved context vs parametric memory, introducing a diagnostic (CRM) for attribution—directly relevant to knowledge conflict and trust/calibration in RAG.",
+  "why_not_or_caveat": "Focuses on detecting memory-vs-context reliance rather than mitigating noise/adversaries; diagnostic substrate rather than full control mechanism.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Source Attribution",
+  "confidence": 0.78,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.933411+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.26778v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies whether RAG generations are governed by retrieved context vs parametric memory, introducing a diagnostic (CRM) for attribution—directly relevant to knowledge conflict and trust/calibration in RAG.\",\"why_not_or_caveat\":\"Focuses on detecting memory-vs-context reliance rather than mitigating noise/adversaries; diagnostic substrate rather than full control mechanism.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict and Source Attribution\",\"confidence\":0.78}",
+  "skipped_existing": false
+}

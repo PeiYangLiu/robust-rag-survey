@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.00586v2",
+  "title": "Eyes-on-Me: Scalable RAG Poisoning through Transferable Attention-Steering Attractors",
+  "authors": "Yen-Shan Chen; Sian-Yao Huang; Cheng-Lin Yang; Yun-Nung Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.00586v2",
+  "local_pdf": "pdfs/2025_yen_shan_chen_eyes_on_me_scalable_rag_poisoning_through_transferable_attention_steering_attractors_455fd6bc.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a scalable, transferable RAG poisoning attack via attention-steering attractors, directly relevant to adversarial corruption of retrieved evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:47.051908+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.00586v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a scalable, transferable RAG poisoning attack via attention-steering attractors, directly relevant to adversarial corruption of retrieved evidence.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.00281v1",
+  "title": "Adversarial Threat Vectors and Risk Mitigation for Retrieval-Augmented Generation Systems",
+  "authors": "Chris M. Ward; Josh Harguess",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.00281v1",
+  "local_pdf": "pdfs/2025_chris_m_ward_adversarial_threat_vectors_and_risk_mitigation_for_retrieval_augmented_generation_system_bd3e9772.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Provides a threat modeling and risk-mitigation overview of adversarial attack vectors on RAG (prompt injection, poisoning, query manipulation), useful as background for the adversarial corruption section.",
+  "why_not_or_caveat": "High-level risk management framing rather than novel technical methods or empirical evaluation.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption (threat modeling overview)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:53.474031+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.00281v1\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Provides a threat modeling and risk-mitigation overview of adversarial attack vectors on RAG (prompt injection, poisoning, query manipulation), useful as background for the adversarial corruption section.\",\"why_not_or_caveat\":\"High-level risk management framing rather than novel technical methods or empirical evaluation.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption (threat modeling overview)\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

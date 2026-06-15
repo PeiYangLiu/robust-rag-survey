@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2308.12574v2",
+  "title": "Modeling Uncertainty and Using Post-fusion as Fallback Improves Retrieval Augmented Generation with LLMs",
+  "authors": "Ye Liu; Semih Yavuz; Rui Meng; Meghana Moorthy; Shafiq Joty; Caiming Xiong; Yingbo Zhou",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2308.12574v2",
+  "local_pdf": "pdfs/2023_ye_liu_modeling_uncertainty_and_using_post_fusion_as_fallback_improves_retrieval_augmented_gene_f7c5fce1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Studies how LLMs fail to use retrieved passages even when correct evidence is present, modeling 'unknown' outputs as uncertainty and proposing fallback fusion strategies. Directly addresses calibration/abstention and noisy-retrieval integration in RAG.",
+  "why_not_or_caveat": "Focused on single-hop QA with limited adversarial/conflict scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control / fusion strategies",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:13.873083+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2308.12574v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Studies how LLMs fail to use retrieved passages even when correct evidence is present, modeling 'unknown' outputs as uncertainty and proposing fallback fusion strategies. Directly addresses calibration/abstention and noisy-retrieval integration in RAG.\",\n  \"why_not_or_caveat\": \"Focused on single-hop QA with limited adversarial/conflict scope.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control / fusion strategies\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

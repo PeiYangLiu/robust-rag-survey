@@ -1,0 +1,7 @@
+{
+  "packet": "expanded_expert_validation_packet_20260606",
+  "candidate_pairs": 60,
+  "status": "template_only_no_expert_labels",
+  "created_utc": "2026-06-06T13:15:54Z",
+  "warning": "No inter-gold agreement or mixed-effects results are reported until independent labels are collected."
+}

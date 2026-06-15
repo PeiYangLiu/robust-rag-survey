@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.04020v1",
+  "title": "Abductive Inference in Retrieval-Augmented Language Models: Generating and Validating Missing Premises",
+  "authors": "Shiyin Lin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.04020v1",
+  "local_pdf": "pdfs/2025_shiyin_lin_abductive_inference_in_retrieval_augmented_language_models_generating_and_validating_mis_5e90186e.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes abductive inference to handle incomplete retrieved evidence in RAG, tangentially relevant to robustness under unreliable evidence.",
+  "why_not_or_caveat": "Paper appears low-quality with fabricated/self-referential citations, mismatched index terms (program security), and vague experiments. Not a credible source for the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:54.341542+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2511.04020v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\", \"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes abductive inference to handle incomplete retrieved evidence in RAG, tangentially relevant to robustness under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Paper appears low-quality with fabricated/self-referential citations, mismatched index terms (program security), and vague experiments. Not a credible source for the survey.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

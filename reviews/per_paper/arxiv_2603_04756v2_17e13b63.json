@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.04756v2",
+  "title": "MOOSEnger -- a Domain-Specific AI Agent for the MOOSE Ecosystem",
+  "authors": "Mengnan Li; Jason Miller; Zachary Prince; Alexander Lindsay; Cody Permann",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.04756v2",
+  "local_pdf": "pdfs/2026_mengnan_li_moosenger_a_domain_specific_ai_agent_for_the_moose_ecosystem_17e13b63.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG agent for MOOSE simulation input authoring; not about robustness, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Application paper; does not study unreliable evidence, noise, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:58.916700+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.04756v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG agent for MOOSE simulation input authoring; not about robustness, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Application paper; does not study unreliable evidence, noise, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

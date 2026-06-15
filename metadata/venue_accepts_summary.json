@@ -1,0 +1,236 @@
+{
+  "raw_rows": 45840,
+  "filtered_rows": 1667,
+  "by_venue_year": {
+    "ICLR 2020": 824,
+    "ICLR 2021": 860,
+    "ICLR 2022": 2617,
+    "ICLR 2023": 3773,
+    "ICLR 2024": 2252,
+    "ICLR 2025": 3703,
+    "NeurIPS 2020": 1944,
+    "NeurIPS 2021": 2466,
+    "NeurIPS 2022": 2821,
+    "NeurIPS 2023": 3218,
+    "NeurIPS 2024": 4035,
+    "NeurIPS 2025": 5286,
+    "ICML 2019": 773,
+    "ICML 2020": 1084,
+    "ICML 2021": 1183,
+    "ICML 2022": 1233,
+    "ICML 2023": 1828,
+    "ICML 2024": 2610,
+    "ICML 2025": 3330
+  },
+  "filtered_by_venue_year": {
+    "ICLR 2025": 296,
+    "NeurIPS 2025": 366,
+    "NeurIPS 2024": 222,
+    "ICML 2025": 46,
+    "ICLR 2024": 126,
+    "ICML 2020": 7,
+    "ICLR 2023": 143,
+    "ICML 2024": 27,
+    "NeurIPS 2023": 139,
+    "NeurIPS 2022": 76,
+    "ICLR 2022": 79,
+    "ICLR 2021": 28,
+    "NeurIPS 2020": 3,
+    "ICML 2023": 11,
+    "NeurIPS 2021": 89,
+    "ICML 2021": 2,
+    "ICML 2022": 5,
+    "ICLR 2020": 1,
+    "ICML 2019": 1
+  },
+  "openreview_attempts": [
+    {
+      "venue": "ICLR",
+      "year": 2020,
+      "venue_id": "ICLR.cc/2020/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2020,
+      "venue_id": "ICLR.cc/2020/Conference",
+      "n": 825,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2021,
+      "venue_id": "ICLR.cc/2021/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2021,
+      "venue_id": "ICLR.cc/2021/Conference",
+      "n": 860,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2022,
+      "venue_id": "ICLR.cc/2022/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2022,
+      "venue_id": "ICLR.cc/2022/Conference",
+      "n": 2617,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "venue_id": "ICLR.cc/2023/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "venue_id": "ICLR.cc/2023/Conference",
+      "n": 3792,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "venue_id": "ICLR.cc/2024/Conference",
+      "n": 2260,
+      "status": "ok"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "venue_id": "ICLR.cc/2025/Conference",
+      "n": 3703,
+      "status": "ok"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2020,
+      "venue_id": "NeurIPS.cc/2020/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2020,
+      "venue_id": "NeurIPS.cc/2020/Conference",
+      "n": 1948,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "venue_id": "NeurIPS.cc/2021/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "venue_id": "NeurIPS.cc/2021/Conference",
+      "n": 2766,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2022,
+      "venue_id": "NeurIPS.cc/2022/Conference",
+      "n": 0,
+      "status": "ok"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2022,
+      "venue_id": "NeurIPS.cc/2022/Conference",
+      "n": 2824,
+      "status": "ok_v1_fallback"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "venue_id": "NeurIPS.cc/2023/Conference",
+      "n": 3218,
+      "status": "ok"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "venue_id": "NeurIPS.cc/2024/Conference",
+      "n": 4035,
+      "status": "ok"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "venue_id": "NeurIPS.cc/2025/Conference",
+      "n": 5286,
+      "status": "ok"
+    }
+  ],
+  "pmlr_attempts": [
+    {
+      "venue": "ICML",
+      "year": 2019,
+      "volume": "97",
+      "n": 773,
+      "status": "ok"
+    },
+    {
+      "venue": "ICML",
+      "year": 2020,
+      "volume": "119",
+      "n": 1084,
+      "status": "ok"
+    },
+    {
+      "venue": "ICML",
+      "year": 2021,
+      "volume": "139",
+      "n": 1183,
+      "status": "ok"
+    },
+    {
+      "venue": "ICML",
+      "year": 2022,
+      "volume": "162",
+      "n": 1233,
+      "status": "ok"
+    },
+    {
+      "venue": "ICML",
+      "year": 2023,
+      "volume": "202",
+      "n": 1828,
+      "status": "ok"
+    },
+    {
+      "venue": "ICML",
+      "year": 2024,
+      "volume": "235",
+      "n": 2610,
+      "status": "ok"
+    },
+    {
+      "venue": "ICML",
+      "year": 2025,
+      "volume": "267",
+      "n": 3330,
+      "status": "ok"
+    }
+  ],
+  "outputs": [
+    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_raw.csv",
+    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_rag_related.csv"
+  ]
+}

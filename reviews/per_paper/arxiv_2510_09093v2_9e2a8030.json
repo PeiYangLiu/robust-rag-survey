@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.09093v2",
+  "title": "Exploiting Web Search Tools of AI Agents for Data Exfiltration",
+  "authors": "Dennis Rall; Bernhard Bauer; Mohit Mittal; Thomas Fraunholz",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.09093v2",
+  "local_pdf": "pdfs/2025_dennis_rall_exploiting_web_search_tools_of_ai_agents_for_data_exfiltration_9e2a8030.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Empirically evaluates indirect prompt injection attacks against LLM agents using web-search/RAG tools for data exfiltration, relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Focuses on agent tool-calling security rather than RAG retrieval pipeline robustness specifically.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Indirect Prompt Injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:16.014992+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.09093v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Empirically evaluates indirect prompt injection attacks against LLM agents using web-search/RAG tools for data exfiltration, relevant to the adversarial corruption section.\",\n  \"why_not_or_caveat\": \"Focuses on agent tool-calling security rather than RAG retrieval pipeline robustness specifically.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Indirect Prompt Injection\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

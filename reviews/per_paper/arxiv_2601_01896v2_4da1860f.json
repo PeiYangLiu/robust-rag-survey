@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.01896v2",
+  "title": "Tackling the Inherent Difficulty of Noise Filtering in RAG",
+  "authors": "Jingyu Liu; Jiaen Lin; Yong Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.01896v2",
+  "local_pdf": "pdfs/2026_jingyu_liu_tackling_the_inherent_difficulty_of_noise_filtering_in_rag_4da1860f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a fine-tuning method to make LLMs robust to noisy/irrelevant retrieved documents, with theoretical analysis of why noise filtering is hard. Directly addresses noisy retrieval robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval robustness / fine-tuning defenses",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:31.833425+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.01896v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a fine-tuning method to make LLMs robust to noisy/irrelevant retrieved documents, with theoretical analysis of why noise filtering is hard. Directly addresses noisy retrieval robustness.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval robustness / fine-tuning defenses\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.28645v1",
+  "title": "GraphSteal: Structural Knowledge Stealing from Graph RAG via Traversal Reconstruction",
+  "authors": "Jinze Gu; Qinghua Mao; Xi Lin; Jun Wu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28645v1",
+  "local_pdf": "pdfs/2026_jinze_gu_graphsteal_structural_knowledge_stealing_from_graph_rag_via_traversal_reconstruction_4a1ac197.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box extraction attack against Graph RAG that reconstructs the underlying knowledge graph, exposing a privacy attack surface relevant to adversarial threats on RAG systems.",
+  "why_not_or_caveat": "Focuses on privacy/structural extraction rather than poisoning, injection, or robustness of generation; narrower fit to the survey's adversarial-corruption theme.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Attacks on RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:29.407573+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.28645v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a black-box extraction attack against Graph RAG that reconstructs the underlying knowledge graph, exposing a privacy attack surface relevant to adversarial threats on RAG systems.\",\"why_not_or_caveat\":\"Focuses on privacy/structural extraction rather than poisoning, injection, or robustness of generation; narrower fit to the survey's adversarial-corruption theme.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Attacks on RAG\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.15312v4",
+  "title": "Accelerating Mobile Language Model via Speculative Decoding and NPU-Coordinated Execution",
+  "authors": "Zhiyang Chen; Daliang Xu; Haiyang Shen; Chiheng Lou; Mengwei Xu; Shangguang Wang; Xin Jin; Yun Ma",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.15312v4",
+  "local_pdf": "pdfs/2025_zhiyang_chen_accelerating_mobile_language_model_via_speculative_decoding_and_npu_coordinated_executio_a33f77ed.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "Paper is about mobile NPU acceleration of RAG inference via speculative decoding; unrelated to robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Systems/efficiency paper, not robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:23.454560+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.15312v4\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"Paper is about mobile NPU acceleration of RAG inference via speculative decoding; unrelated to robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Systems/efficiency paper, not robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

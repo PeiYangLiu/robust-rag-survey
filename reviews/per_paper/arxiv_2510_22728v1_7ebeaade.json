@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.22728v1",
+  "title": "S-Chain: Structured Visual Chain-of-Thought For Medicine",
+  "authors": "Khai Le-Duc; Duy M. H. Nguyen; Phuong T. H. Trinh; Tien-Phat Nguyen; Nghiem T. Diep; An Ngo; Tung Vu; Trinh Vuong; Anh-Tien Nguyen; Mau Nguyen; Van Trung Hoang; Khai-Nguyen Nguyen; Hy Nguyen; Chris Ngo; Anji Liu; Nhat Ho; Anne-Christin Hauschild; Khanh Xuan Nguyen; Thanh Nguyen-Tang; Pengtao Xie; Daniel Sonntag; James Zou; Mathias Niepert; Anh Totti Nguyen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.22728v1",
+  "local_pdf": "pdfs/2025_khai_le_duc_s_chain_structured_visual_chain_of_thought_for_medicine_7ebeaade.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a medical VQA dataset with structured visual CoT; briefly explores interaction with RAG but does not focus on RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "RAG is a peripheral analysis; core contribution is dataset and visual grounding for medical VLMs.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.232768+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.22728v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a medical VQA dataset with structured visual CoT; briefly explores interaction with RAG but does not focus on RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"RAG is a peripheral analysis; core contribution is dataset and visual grounding for medical VLMs.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

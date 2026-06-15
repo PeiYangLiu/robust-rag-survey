@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.03860v2",
+  "title": "Hallucination to Truth: A Review of Fact-Checking and Factuality Evaluation in Large Language Models",
+  "authors": "Subhey Sadi Rahman; Md. Adnanul Islam; Md. Mahbub Alam; Musarrat Zeba; Md. Abdur Rahman; Sadia Sultana Chowa; Mohaimenul Azam Khan Raiaan; Sami Azam",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.03860v2",
+  "local_pdf": "pdfs/2025_subhey_sadi_rahman_hallucination_to_truth_a_review_of_fact_checking_and_factuality_evaluation_in_large_lang_523458f5.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Reviews factuality evaluation and hallucination mitigation in LLMs, including RAG, prompting, and metrics, which overlaps with calibration/evaluation themes.",
+  "why_not_or_caveat": "Broad fact-checking survey rather than focused on robust RAG; does not deeply cover noise, conflict, adversarial corruption, or calibration in RAG specifically.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:35.092423+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.03860v2\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\",\"evaluation_benchmark\"],\"paper_role\":\"survey\",\"why_relevant\":\"Reviews factuality evaluation and hallucination mitigation in LLMs, including RAG, prompting, and metrics, which overlaps with calibration/evaluation themes.\",\"why_not_or_caveat\":\"Broad fact-checking survey rather than focused on robust RAG; does not deeply cover noise, conflict, adversarial corruption, or calibration in RAG specifically.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Related surveys\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

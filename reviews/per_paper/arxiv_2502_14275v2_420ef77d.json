@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2502.14275v2",
+  "title": "Fact or Guesswork? Evaluating Large Language Models' Medical Knowledge with Structured One-Hop Judgments",
+  "authors": "Jiaxi Li; Yiwei Wang; Kai Zhang; Yujun Cai; Bryan Hooi; Nanyun Peng; Kai-Wei Chang; Jin Lu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.14275v2",
+  "local_pdf": "pdfs/2025_jiaxi_li_fact_or_guesswork_evaluating_large_language_models_medical_knowledge_with_structured_one_420ef77d.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a medical factuality benchmark showing LLM miscalibration and uses RAG as a mitigation, touching on calibration and uncertainty themes.",
+  "why_not_or_caveat": "Focus is on probing parametric medical knowledge, not robustness of RAG under unreliable evidence; RAG is only a brief mitigation experiment.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:21.971417+00:00",
+  "raw_response": "{\"key\":\"arxiv-2502.14275v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a medical factuality benchmark showing LLM miscalibration and uses RAG as a mitigation, touching on calibration and uncertainty themes.\",\"why_not_or_caveat\":\"Focus is on probing parametric medical knowledge, not robustness of RAG under unreliable evidence; RAG is only a brief mitigation experiment.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

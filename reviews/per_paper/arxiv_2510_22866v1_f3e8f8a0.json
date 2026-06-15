@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.22866v1",
+  "title": "Interpreting and Mitigating Unwanted Uncertainty in LLMs",
+  "authors": "Tiasa Singha Roy; Ayush Rajesh Jhaveri; Ilias Triantafyllopoulos",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.22866v1",
+  "local_pdf": "pdfs/2025_tiasa_singha_roy_interpreting_and_mitigating_unwanted_uncertainty_in_llms_f3e8f8a0.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies flip-flop uncertainty behavior in LLMs using a Needle-in-a-Haystack setup, touching on calibration/consistency under re-prompting and attention head interpretability.",
+  "why_not_or_caveat": "Not specifically about RAG robustness; focuses on sycophantic answer-flipping and mechanistic interpretability rather than unreliable retrieved evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and consistency",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.360905+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.22866v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies flip-flop uncertainty behavior in LLMs using a Needle-in-a-Haystack setup, touching on calibration/consistency under re-prompting and attention head interpretability.\",\n  \"why_not_or_caveat\": \"Not specifically about RAG robustness; focuses on sycophantic answer-flipping and mechanistic interpretability rather than unreliable retrieved evidence.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and consistency\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

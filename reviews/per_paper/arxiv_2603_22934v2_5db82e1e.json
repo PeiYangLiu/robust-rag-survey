@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.22934v2",
+  "title": "ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning",
+  "authors": "Xiangyu Yin; Yi Qi; Chih-Hong Cheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.22934v2",
+  "local_pdf": "pdfs/2026_xiangyu_yin_progrank_probe_gradient_reranking_to_defend_dense_retriever_rag_from_corpus_poisoning_5db82e1e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a retriever-side, training-free reranking defense against corpus poisoning attacks in dense-retriever RAG, directly addressing adversarial corruption robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:25.308389+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.22934v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a retriever-side, training-free reranking defense against corpus poisoning attacks in dense-retriever RAG, directly addressing adversarial corruption robustness.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Defenses\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

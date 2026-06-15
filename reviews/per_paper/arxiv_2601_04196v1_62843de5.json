@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.04196v1",
+  "title": "RAGVUE: A Diagnostic View for Explainable and Automated Evaluation of Retrieval-Augmented Generation",
+  "authors": "Keerthana Murugaraj; Salima Lamsiyah; Martin Theobald",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.04196v1",
+  "local_pdf": "pdfs/2025_keerthana_murugaraj_ragvue_a_diagnostic_view_for_explainable_and_automated_evaluation_of_retrieval_augmented_62843de5.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a diagnostic, reference-free RAG evaluation framework decomposing retrieval quality, grounding faithfulness, and judge calibration, relevant to evaluation metrics for unreliable evidence.",
+  "why_not_or_caveat": "Focuses on evaluation tooling rather than directly studying robustness to noise, conflict, or attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.585917+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.04196v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"calibration_control\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Proposes a diagnostic, reference-free RAG evaluation framework decomposing retrieval quality, grounding faithfulness, and judge calibration, relevant to evaluation metrics for unreliable evidence.\",\"why_not_or_caveat\":\"Focuses on evaluation tooling rather than directly studying robustness to noise, conflict, or attacks.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.06709v1",
+  "title": "Delusions of Large Language Models",
+  "authors": "Hongshen Xu; Zixv yang; Zichen Zhu; Kunyao Lan; Zihan Wang; Mengyue Wu; Ziwei Ji; Lu Chen; Pascale Fung; Kai Yu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.06709v1",
+  "local_pdf": "pdfs/2025_hongshen_xu_delusions_of_large_language_models_16c64e0f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies high-confidence hallucinations ('delusions') and explores RAG and multi-agent debate as mitigation, relating to calibration and confidence under unreliable knowledge.",
+  "why_not_or_caveat": "Focus is on hallucination/confidence phenomena in LLMs broadly, not on RAG robustness under unreliable evidence specifically.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and Confidence",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:41.567297+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.06709v1\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies high-confidence hallucinations ('delusions') and explores RAG and multi-agent debate as mitigation, relating to calibration and confidence under unreliable knowledge.\",\"why_not_or_caveat\":\"Focus is on hallucination/confidence phenomena in LLMs broadly, not on RAG robustness under unreliable evidence specifically.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and Confidence\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

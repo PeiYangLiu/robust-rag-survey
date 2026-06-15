@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.08747v2",
+  "title": "To Retrieve or To Think? An Agentic Approach for Context Evolution",
+  "authors": "Rubing Chen; Jian Wang; Wenjie Li; Xiao-Yong Wei; Qing Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.08747v2",
+  "local_pdf": "pdfs/2026_rubing_chen_to_retrieve_or_to_think_an_agentic_approach_for_context_evolution_30d950a6.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an adaptive retrieve-or-think agent framework that decides when to retrieve vs. reason internally, directly addressing over-retrieval noise and control of retrieval—relevant to calibration/control of when to retrieve.",
+  "why_not_or_caveat": "Focuses on multi-hop QA efficiency/accuracy rather than explicit robustness analysis; limited evaluation depth.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:58.014796+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.08747v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an adaptive retrieve-or-think agent framework that decides when to retrieve vs. reason internally, directly addressing over-retrieval noise and control of retrieval—relevant to calibration/control of when to retrieve.\",\"why_not_or_caveat\":\"Focuses on multi-hop QA efficiency/accuracy rather than explicit robustness analysis; limited evaluation depth.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

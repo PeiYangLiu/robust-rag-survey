@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.06145v1",
+  "title": "Retrieval Augmented Large Language Model System for Comprehensive Drug Contraindications",
+  "authors": "Byeonghun Bang; Jongsuk Yoon; Dong-Jin Chang; Seho Park; Yong Oh Lee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.06145v1",
+  "local_pdf": "pdfs/2025_byeonghun_bang_retrieval_augmented_large_language_model_system_for_comprehensive_drug_contraindications_fc400c4b.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain application of RAG to drug contraindication QA; does not study robustness, conflict, attacks, calibration, or uncertainty.",
+  "why_not_or_caveat": "Pure application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:05.128476+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.06145v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain application of RAG to drug contraindication QA; does not study robustness, conflict, attacks, calibration, or uncertainty.\",\"why_not_or_caveat\":\"Pure application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.01078v1",
+  "title": "A Sentence Relation-Based Approach to Sanitizing Malicious Instructions",
+  "authors": "Soumil Datta; Melissa Umble; Daniel S. Brown; Guanhong Tao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.01078v1",
+  "local_pdf": "pdfs/2026_soumil_datta_a_sentence_relation_based_approach_to_sanitizing_malicious_instructions_54b60bfa.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "SONAR is a sentence-level NLI-based sanitization defense against indirect prompt injection in RAG pipelines, directly relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Focuses on prompt injection defense rather than broader RAG robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses against Prompt Injection",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:10.603826+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.01078v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"SONAR is a sentence-level NLI-based sanitization defense against indirect prompt injection in RAG pipelines, directly relevant to the adversarial corruption section.\",\n  \"why_not_or_caveat\": \"Focuses on prompt injection defense rather than broader RAG robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses against Prompt Injection\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

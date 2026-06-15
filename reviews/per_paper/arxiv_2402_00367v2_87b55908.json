@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2402.00367v2",
+  "title": "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+  "authors": "Shangbin Feng; Weijia Shi; Yike Wang; Wenxuan Ding; Vidhisha Balachandran; Yulia Tsvetkov",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.00367v2",
+  "local_pdf": "pdfs/2024_shangbin_feng_don_t_hallucinate_abstain_identifying_llm_knowledge_gaps_via_multi_llm_collaboration_87b55908.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes methods to identify LLM knowledge gaps and abstain from answering, directly relevant to calibration/abstention. Also analyzes retrieval augmentation failure cases.",
+  "why_not_or_caveat": "Focus is primarily on LLM abstention rather than RAG specifically; RAG analysis is secondary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:30.848413+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.00367v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes methods to identify LLM knowledge gaps and abstain from answering, directly relevant to calibration/abstention. Also analyzes retrieval augmentation failure cases.\",\n  \"why_not_or_caveat\": \"Focus is primarily on LLM abstention rather than RAG specifically; RAG analysis is secondary.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

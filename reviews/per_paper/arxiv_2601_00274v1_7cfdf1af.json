@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.00274v1",
+  "title": "Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems",
+  "authors": "Weijie Wang; Peizhuo Lv; Yan Wang; Rujie Dai; Guokun Xu; Qiujian Lv; Hangcheng Liu; Weiqing Huang; Wei Dong; Jiaheng Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.00274v1",
+  "local_pdf": "pdfs/2026_weijie_wang_making_theft_useless_adulteration_based_protection_of_proprietary_knowledge_graphs_in_gr_7cfdf1af.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes injecting false adulterants into proprietary KGs in GraphRAG to protect IP; tangentially related to RAG corruption but the goal is anti-theft, not robustness against adversaries.",
+  "why_not_or_caveat": "Focus is IP protection via intentional poisoning by owner, not defending RAG against unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "adversarial corruption (related work)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.622631+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.00274v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes injecting false adulterants into proprietary KGs in GraphRAG to protect IP; tangentially related to RAG corruption but the goal is anti-theft, not robustness against adversaries.\",\"why_not_or_caveat\":\"Focus is IP protection via intentional poisoning by owner, not defending RAG against unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"adversarial corruption (related work)\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

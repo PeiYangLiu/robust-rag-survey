@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.04293v1",
+  "title": "Equipping Retrieval-Augmented Large Language Models with Document Structure Awareness",
+  "authors": "Lingnan Xu; Chong Feng; Kaiyuan Zhang; Liu Zhengyong; Wenqiang Xu; Fanqing Meng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.04293v1",
+  "local_pdf": "pdfs/2025_lingnan_xu_equipping_retrieval_augmented_large_language_models_with_document_structure_awareness_82bc107e.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a document-structure-aware RAG routing framework to improve knowledge acquisition; not focused on robustness, noise, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Does not study unreliable evidence scenarios central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:20.766980+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.04293v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a document-structure-aware RAG routing framework to improve knowledge acquisition; not focused on robustness, noise, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Does not study unreliable evidence scenarios central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

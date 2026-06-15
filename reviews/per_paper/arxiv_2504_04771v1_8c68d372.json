@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.04771v1",
+  "title": "Improving Multilingual Retrieval-Augmented Language Models through Dialectic Reasoning Argumentations",
+  "authors": "Leonardo Ranaldi; Federico Ranaldi; Fabio Massimo Zanzotto; Barry Haddow; Alexandra Birch",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.04771v1",
+  "local_pdf": "pdfs/2025_leonardo_ranaldi_improving_multilingual_retrieval_augmented_language_models_through_dialectic_reasoning_a_8c68d372.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a dialectic reasoning RAG framework that handles conflicting/irrelevant multilingual retrieved evidence and shows robustness to misleading retrieval and reranking perturbations.",
+  "why_not_or_caveat": "Focus is on multilingual RAG reasoning rather than dedicated robustness study; robustness experiments are secondary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and noisy retrieval mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:38.876487+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.04771v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a dialectic reasoning RAG framework that handles conflicting/irrelevant multilingual retrieved evidence and shows robustness to misleading retrieval and reranking perturbations.\",\n  \"why_not_or_caveat\": \"Focus is on multilingual RAG reasoning rather than dedicated robustness study; robustness experiments are secondary.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and noisy retrieval mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

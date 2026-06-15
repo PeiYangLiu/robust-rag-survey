@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.19755v1",
+  "title": "Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks",
+  "authors": "Dorothy Torres; Wei Cheng; Ke Hu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.19755v1",
+  "local_pdf": "pdfs/2026_dorothy_torres_explainable_aml_triage_with_llms_evidence_retrieval_and_counterfactual_checks_f328a642.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with provenance and counterfactual checks for AML triage; touches on hallucination reduction but is domain application, not a robustness study.",
+  "why_not_or_caveat": "Domain-specific application paper; does not contribute generalizable methods or benchmarks for robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:05.251238+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.19755v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG with provenance and counterfactual checks for AML triage; touches on hallucination reduction but is domain application, not a robustness study.\",\"why_not_or_caveat\":\"Domain-specific application paper; does not contribute generalizable methods or benchmarks for robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

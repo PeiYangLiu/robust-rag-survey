@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.09758v1",
+  "title": "Beyond Fine-Tuning: Robust Food Entity Linking under Ontology Drift with FoodOntoRAG",
+  "authors": "Jan Drole; Ana Gjorgjevikj; Barbara Korouši'c Seljak; Tome Eftimov",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.09758v1",
+  "local_pdf": "pdfs/2026_jan_drole_beyond_fine_tuning_robust_food_entity_linking_under_ontology_drift_with_foodontorag_2b1581dd.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to food entity linking with a confidence scorer and abstention/retry loop, touching calibration-control themes.",
+  "why_not_or_caveat": "Domain-specific application; robustness study is limited to ontology drift, not the core robustness/conflict/adversarial issues central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.437787+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.09758v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to food entity linking with a confidence scorer and abstention/retry loop, touching calibration-control themes.\",\"why_not_or_caveat\":\"Domain-specific application; robustness study is limited to ontology drift, not the core robustness/conflict/adversarial issues central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

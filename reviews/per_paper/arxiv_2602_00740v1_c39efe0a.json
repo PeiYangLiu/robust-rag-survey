@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.00740v1",
+  "title": "ExperienceWeaver: Optimizing Small-sample Experience Learning for LLM-based Clinical Text Improvement",
+  "authors": "Ziyan Xiao; Yinghao Zhu; Liang Peng; Lequan Yu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.00740v1",
+  "local_pdf": "pdfs/2026_ziyan_xiao_experienceweaver_optimizing_small_sample_experience_learning_for_llm_based_clinical_text_c39efe0a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes an experience-distillation framework for clinical text revision; contrasts with RAG but does not study RAG robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application-focused; only tangentially mentions RAG limitations without contributing to robustness analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.411003+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.00740v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes an experience-distillation framework for clinical text revision; contrasts with RAG but does not study RAG robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application-focused; only tangentially mentions RAG limitations without contributing to robustness analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.21229v1",
+  "title": "EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval",
+  "authors": "Julian Acuna",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.21229v1",
+  "local_pdf": "pdfs/2026_julian_acuna_engramabench_evaluating_long_term_conversational_memory_with_structured_graph_retrieval_faceb65a.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a long-term conversational memory benchmark with an adversarial abstention slice, tangentially relevant to abstention/calibration evaluation in retrieval-augmented assistants.",
+  "why_not_or_caveat": "Focus is on conversational memory architectures, not robust RAG under noisy/adversarial/conflicting evidence; adversarial abstention is only a minor component.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation/benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.706650+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.21229v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a long-term conversational memory benchmark with an adversarial abstention slice, tangentially relevant to abstention/calibration evaluation in retrieval-augmented assistants.\",\"why_not_or_caveat\":\"Focus is on conversational memory architectures, not robust RAG under noisy/adversarial/conflicting evidence; adversarial abstention is only a minor component.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Evaluation/benchmarks\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

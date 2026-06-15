@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2506.06240v2",
+  "title": "Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge",
+  "authors": "Yi Sui; Chaozhuo Li; Chen Zhang; Dawei song; Qiuchi Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.06240v2",
+  "local_pdf": "pdfs/2025_yi_sui_bridging_external_and_parametric_knowledge_mitigating_hallucination_of_llms_with_shared_bb2845e3.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a RAG framework explicitly addressing context-memory and inter-context conflicts, noise filtering of retrieved evidence, and unsupervised hallucination detection to decide when to retrieve.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Adaptive Retrieval Control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:41.733760+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2506.06240v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a RAG framework explicitly addressing context-memory and inter-context conflicts, noise filtering of retrieved evidence, and unsupervised hallucination detection to decide when to retrieve.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict and Adaptive Retrieval Control\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

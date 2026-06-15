@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.18559v1",
+  "title": "T-CPDL: A Temporal Causal Probabilistic Description Logic for Developing Logic-RAG Agent",
+  "authors": "Hong Qing Yu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.18559v1",
+  "local_pdf": "pdfs/2025_hong_qing_yu_t_cpdl_a_temporal_causal_probabilistic_description_logic_for_developing_logic_rag_agent_afdc23c1.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Proposes a logic formalism for temporal/causal/probabilistic reasoning, mentions Logic-RAG as future work but does not study RAG robustness, conflict, or calibration under unreliable evidence.",
+  "why_not_or_caveat": "RAG mention is aspirational; no evaluation on retrieval robustness or unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:48.513631+00:00",
+  "raw_response": "{\"key\":\"arxiv-2506.18559v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"theory\",\"why_relevant\":\"Proposes a logic formalism for temporal/causal/probabilistic reasoning, mentions Logic-RAG as future work but does not study RAG robustness, conflict, or calibration under unreliable evidence.\",\"why_not_or_caveat\":\"RAG mention is aspirational; no evaluation on retrieval robustness or unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

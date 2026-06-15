@@ -1,0 +1,221 @@
+{
+  "rows": 148,
+  "coders": {
+    "C02": {
+      "primary_failure_type": {
+        "n": 148,
+        "agreement": 0.6013513513513513,
+        "kappa": 0.5259500542888165
+      },
+      "method_family": {
+        "n": 148,
+        "agreement": 0.5405405405405406,
+        "kappa": 0.2115942028985508
+      },
+      "intervention_point": {
+        "n": 148,
+        "agreement": 0.3918918918918919,
+        "kappa": 0.2855993563958166
+      },
+      "in_scope": {
+        "n": 148,
+        "agreement": 0.4797297297297297,
+        "kappa": 0.0,
+        "coder_counts": {
+          "true": 71,
+          "false": 77
+        }
+      },
+      "include_in_map": {
+        "n": 148,
+        "agreement": 0.4797297297297297,
+        "kappa": 0.0,
+        "coder_counts": {
+          "true": 71,
+          "false": 77
+        }
+      }
+    },
+    "C03": {
+      "primary_failure_type": {
+        "n": 148,
+        "agreement": 0.7094594594594594,
+        "kappa": 0.640126668174621
+      },
+      "method_family": {
+        "n": 148,
+        "agreement": 0.6013513513513513,
+        "kappa": 0.25092219267392984
+      },
+      "intervention_point": {
+        "n": 148,
+        "agreement": 0.42567567567567566,
+        "kappa": 0.311816192560175
+      },
+      "in_scope": {
+        "n": 148,
+        "agreement": 0.43243243243243246,
+        "kappa": 0.0,
+        "coder_counts": {
+          "true": 64,
+          "false": 84
+        }
+      },
+      "include_in_map": {
+        "n": 148,
+        "agreement": 0.43243243243243246,
+        "kappa": 0.0,
+        "coder_counts": {
+          "true": 64,
+          "false": 84
+        }
+      }
+    }
+  },
+  "intercoder": {
+    "primary_failure_type": {
+      "n": 148,
+      "agreement": 0.7635135135135135,
+      "kappa": 0.7190127474911852
+    },
+    "method_family": {
+      "n": 148,
+      "agreement": 0.8378378378378378,
+      "kappa": 0.7616107382550336
+    },
+    "intervention_point": {
+      "n": 148,
+      "agreement": 0.7702702702702703,
+      "kappa": 0.7239260437812036
+    },
+    "in_scope": {
+      "n": 148,
+      "agreement": 0.8851351351351351,
+      "kappa": 0.7690047741461622
+    },
+    "include_in_map": {
+      "n": 148,
+      "agreement": 0.8851351351351351,
+      "kappa": 0.7690047741461622
+    }
+  },
+  "three_way": {
+    "primary_failure_type": {
+      "all_agree": 86,
+      "canonical_C03_agree": 19,
+      "all_differ": 13,
+      "coders_agree_against_canonical": 27,
+      "canonical_C02_agree": 3
+    },
+    "method_family": {
+      "all_agree": 74,
+      "coders_agree_against_canonical": 50,
+      "all_differ": 3,
+      "canonical_C03_agree": 15,
+      "canonical_C02_agree": 6
+    },
+    "intervention_point": {
+      "all_agree": 52,
+      "coders_agree_against_canonical": 62,
+      "canonical_C03_agree": 11,
+      "all_differ": 17,
+      "canonical_C02_agree": 6
+    },
+    "in_scope": {
+      "all_agree": 59,
+      "coders_agree_against_canonical": 72,
+      "canonical_C02_agree": 12,
+      "canonical_C03_agree": 5
+    },
+    "include_in_map": {
+      "all_agree": 59,
+      "coders_agree_against_canonical": 72,
+      "canonical_C02_agree": 12,
+      "canonical_C03_agree": 5
+    }
+  },
+  "coverage": {
+    "C02": {
+      "coder_id": 148,
+      "in_scope": 148,
+      "relevance_level": 148,
+      "primary_failure_type": 148,
+      "secondary_labels": 92,
+      "method_family": 148,
+      "intervention_point": 148,
+      "evaluation_type": 148,
+      "evidence_strength": 148,
+      "include_in_map": 148,
+      "confidence_1_5": 148,
+      "notes": 148
+    },
+    "C03": {
+      "coder_id": 148,
+      "in_scope": 148,
+      "relevance_level": 148,
+      "primary_failure_type": 148,
+      "secondary_labels": 105,
+      "method_family": 148,
+      "intervention_point": 148,
+      "evaluation_type": 148,
+      "evidence_strength": 148,
+      "include_in_map": 148,
+      "confidence_1_5": 148,
+      "notes": 148
+    }
+  },
+  "value_counts": {},
+  "adjudication_rows_needed": 139,
+  "top_three_way_transitions": {
+    "include_in_map: canonical=true; C02=false; C03=false": 72,
+    "method_family: canonical=method/evaluation; C02=method/evaluation; C03=method/evaluation": 60,
+    "include_in_map: canonical=true; C02=true; C03=true": 59,
+    "method_family: canonical=method/evaluation; C02=defense/mitigation; C03=defense/mitigation": 27,
+    "primary_failure_type: canonical=multimodal_agentic_code; C02=multimodal_agentic_code; C03=multimodal_agentic_code": 25,
+    "primary_failure_type: canonical=noisy_retrieval; C02=noisy_retrieval; C03=noisy_retrieval": 17,
+    "primary_failure_type: canonical=calibration_control; C02=calibration_control; C03=calibration_control": 16,
+    "intervention_point: canonical=mixed; C02=retriever/context; C03=retriever/context": 16,
+    "primary_failure_type: canonical=evaluation_benchmark; C02=evaluation_benchmark; C03=evaluation_benchmark": 14,
+    "intervention_point: canonical=evaluation; C02=evaluation; C03=evaluation": 14,
+    "method_family: canonical=benchmark/evaluation; C02=benchmark/evaluation; C03=benchmark/evaluation": 13,
+    "intervention_point: canonical=retriever/context; C02=context assembly; C03=context assembly": 13,
+    "intervention_point: canonical=system control; C02=system control; C03=system control": 12,
+    "include_in_map: canonical=true; C02=true; C03=false": 12,
+    "intervention_point: canonical=generator; C02=generator; C03=generator": 12,
+    "intervention_point: canonical=retriever/context; C02=retriever/context; C03=retriever/context": 11,
+    "primary_failure_type: canonical=knowledge_conflict; C02=knowledge_conflict; C03=knowledge_conflict": 10,
+    "primary_failure_type: canonical=noisy_retrieval; C02=survey_related; C03=noisy_retrieval": 7,
+    "primary_failure_type: canonical=multimodal_agentic_code; C02=noisy_retrieval; C03=noisy_retrieval": 6,
+    "intervention_point: canonical=mixed; C02=retriever/context; C03=mixed": 6,
+    "primary_failure_type: canonical=knowledge_conflict; C02=noisy_retrieval; C03=noisy_retrieval": 6,
+    "primary_failure_type: canonical=multimodal_agentic_code; C02=survey_related; C03=noisy_retrieval": 5,
+    "method_family: canonical=method/evaluation; C02=defense/mitigation; C03=method/evaluation": 5,
+    "include_in_map: canonical=true; C02=false; C03=true": 5,
+    "intervention_point: canonical=mixed; C02=generator; C03=generator": 5,
+    "method_family: canonical=method/evaluation; C02=foundation; C03=method/evaluation": 4,
+    "primary_failure_type: canonical=noisy_retrieval; C02=distraction; C03=distraction": 4,
+    "intervention_point: canonical=system control; C02=mixed; C03=mixed": 4,
+    "method_family: canonical=method/evaluation; C02=method/evaluation; C03=defense/mitigation": 4,
+    "method_family: canonical=method/evaluation; C02=benchmark/evaluation; C03=benchmark/evaluation": 4,
+    "method_family: canonical=method/evaluation; C02=analysis; C03=analysis": 4,
+    "method_family: canonical=method/evaluation; C02=control/calibration; C03=control/calibration": 4,
+    "intervention_point: canonical=retriever/context; C02=generator; C03=generator": 3,
+    "intervention_point: canonical=system control; C02=retriever/context; C03=retriever/context": 3,
+    "intervention_point: canonical=generator; C02=context assembly; C03=context assembly": 3,
+    "method_family: canonical=method/evaluation; C02=control/calibration; C03=method/evaluation": 3,
+    "primary_failure_type: canonical=adversarial_corruption; C02=adversarial_corruption; C03=adversarial_corruption": 3,
+    "method_family: canonical=attack/defense; C02=attack; C03=attack": 3,
+    "primary_failure_type: canonical=calibration_control; C02=survey_related; C03=calibration_control": 2,
+    "intervention_point: canonical=mixed; C02=mixed; C03=mixed": 2,
+    "intervention_point: canonical=retriever/context; C02=mixed; C03=mixed": 2,
+    "primary_failure_type: canonical=calibration_control; C02=multimodal_agentic_code; C03=calibration_control": 2,
+    "intervention_point: canonical=mixed; C02=mixed; C03=system control": 2,
+    "intervention_point: canonical=mixed; C02=context assembly; C03=retriever/context": 2,
+    "primary_failure_type: canonical=multimodal_agentic_code; C02=calibration_control; C03=calibration_control": 2,
+    "intervention_point: canonical=mixed; C02=retriever/context; C03=generator": 2,
+    "primary_failure_type: canonical=knowledge_conflict; C02=calibration_control; C03=calibration_control": 2,
+    "intervention_point: canonical=mixed; C02=not applicable; C03=generator": 2,
+    "primary_failure_type: canonical=survey_related; C02=survey_related; C03=noisy_retrieval": 2,
+    "primary_failure_type: canonical=multimodal_agentic_code; C02=evaluation_benchmark; C03=evaluation_benchmark": 2
+  }
+}

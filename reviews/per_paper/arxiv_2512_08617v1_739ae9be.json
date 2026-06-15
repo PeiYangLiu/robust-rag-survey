@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.08617v1",
+  "title": "HealthcareNLP: where are we and what is next?",
+  "authors": "Lifeng Han; Paul Rayson; Suzan Verberne; Andrew Moore; Goran Nenadic",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.08617v1",
+  "local_pdf": "pdfs/2025_lifeng_han_healthcarenlp_where_are_we_and_what_is_next_739ae9be.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "Tutorial overview of HealthcareNLP; only briefly mentions RAG as one method.",
+  "why_not_or_caveat": "Does not study RAG robustness, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:29.229251+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.08617v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"Tutorial overview of HealthcareNLP; only briefly mentions RAG as one method.\",\"why_not_or_caveat\":\"Does not study RAG robustness, conflict, attacks, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

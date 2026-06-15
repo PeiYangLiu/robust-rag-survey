@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.07937v1",
+  "title": "LLM-based Corroborating and Refuting Evidence Retrieval for Scientific Claim Verification",
+  "authors": "Siyuan Wang; James R. Foulds; Md Osman Gani; Shimei Pan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.07937v1",
+  "local_pdf": "pdfs/2025_siyuan_wang_llm_based_corroborating_and_refuting_evidence_retrieval_for_scientific_claim_verificatio_e6aad1cd.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a RAG extension using multi-aspect interrogation and consistency-based confidence for scientific claim verification, touching on uncertainty estimation in RAG outputs.",
+  "why_not_or_caveat": "Application-focused (claim verification) rather than directly studying robustness under noisy/conflicting/adversarial evidence; calibration aspect is incidental.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and confidence in RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.194298+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.07937v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"ood_uncertainty\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a RAG extension using multi-aspect interrogation and consistency-based confidence for scientific claim verification, touching on uncertainty estimation in RAG outputs.\",\"why_not_or_caveat\":\"Application-focused (claim verification) rather than directly studying robustness under noisy/conflicting/adversarial evidence; calibration aspect is incidental.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and confidence in RAG\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

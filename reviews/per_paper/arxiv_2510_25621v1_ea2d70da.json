@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.25621v1",
+  "title": "FARSIQA: Faithful and Advanced RAG System for Islamic Question Answering",
+  "authors": "Mohammad Aghajani Asl; Behrooz Minaei Bidgoli",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.25621v1",
+  "local_pdf": "pdfs/2025_mohammad_aghajani_asl_farsiqa_faithful_and_advanced_rag_system_for_islamic_question_answering_ea2d70da.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for Persian Islamic QA with iterative evidence sufficiency assessment and negative rejection metric, marginally touching on robustness/faithfulness.",
+  "why_not_or_caveat": "Primarily an application paper; does not contribute methodologically to robustness, conflict, adversarial, or calibration research.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.445125+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.25621v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for Persian Islamic QA with iterative evidence sufficiency assessment and negative rejection metric, marginally touching on robustness/faithfulness.\",\"why_not_or_caveat\":\"Primarily an application paper; does not contribute methodologically to robustness, conflict, adversarial, or calibration research.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "openreview-2aL6gcFX7q",
+  "title": "\\[[arxiv](https://openreview.net/forum?id=2aL6gcFX7q)\\] Understanding Data Poisoning Attacks for RAG: Insights and Algorithms",
+  "authors": "",
+  "year": "",
+  "source": "OpenReview",
+  "url": "https://openreview.net/forum?id=2aL6gcFX7q",
+  "local_pdf": "pdfs/na_openreview_2al6gcfx7q_arxiv_https_openreview_net_forum_id_2al6gcfx7q_understanding_data_poisoning_atta_304577f6.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes both a new defense (DRS) and stealthier attack against data poisoning of RAG retrieval corpora, directly addressing adversarial corruption robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Defenses",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:36.955997+00:00",
+  "raw_response": "{\n  \"key\": \"openreview-2aL6gcFX7q\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes both a new defense (DRS) and stealthier attack against data poisoning of RAG retrieval corpora, directly addressing adversarial corruption robustness.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning and Defenses\",\n  \"confidence\": 0.92\n}",
+  "skipped_existing": false
+}

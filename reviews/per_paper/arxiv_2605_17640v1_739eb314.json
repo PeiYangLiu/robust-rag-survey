@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.17640v1",
+  "title": "MARQUIS: A Three-Stage Pipeline for Video Retrieval-Augmented Generation",
+  "authors": "Debashish Chakraborty; Dengjia Zhang; Jialiang Jin; Hanting Liu; Katherine Guerrerio; Hanxiang Qin; Tyler Skow; Alexander Martin; Reno Kriz; Benjamin Van Durme",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.17640v1",
+  "local_pdf": "pdfs/2026_debashish_chakraborty_marquis_a_three_stage_pipeline_for_video_retrieval_augmented_generation_739eb314.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Mentions calibrated claim extraction and uncertainty scoring in a video RAG pipeline, but the focus is on a shared-task system for multi-video article generation rather than robustness under unreliable evidence.",
+  "why_not_or_caveat": "Application/system paper for video RAG; calibration is a minor component without rigorous robustness analysis.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:15.687855+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.17640v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\"],\"paper_role\":\"application\",\"why_relevant\":\"Mentions calibrated claim extraction and uncertainty scoring in a video RAG pipeline, but the focus is on a shared-task system for multi-video article generation rather than robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Application/system paper for video RAG; calibration is a minor component without rigorous robustness analysis.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

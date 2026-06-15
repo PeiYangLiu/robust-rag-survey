@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2501.03468v1",
+  "title": "MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems",
+  "authors": "Yannis Katsis; Sara Rosenthal; Kshitij Fadnis; Chulaka Gunasekara; Young-Suk Lee; Lucian Popa; Vraj Shah; Huaiyu Zhu; Danish Contractor; Marina Danilevsky",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2501.03468v1",
+  "local_pdf": "pdfs/2025_yannis_katsis_mtrag_a_multi_turn_conversational_benchmark_for_evaluating_retrieval_augmented_generatio_e5043414.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "MTRAG is a multi-turn RAG benchmark that explicitly tests unanswerable questions and non-standalone questions, evaluating how RAG systems handle these challenging cases relevant to abstention and uncertainty.",
+  "why_not_or_caveat": "Primarily a general multi-turn RAG benchmark; robustness aspects (unanswerability) are one of several dimensions rather than the central focus.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.801215+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2501.03468v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"evaluation_benchmark\", \"ood_uncertainty\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"MTRAG is a multi-turn RAG benchmark that explicitly tests unanswerable questions and non-standalone questions, evaluating how RAG systems handle these challenging cases relevant to abstention and uncertainty.\",\n  \"why_not_or_caveat\": \"Primarily a general multi-turn RAG benchmark; robustness aspects (unanswerability) are one of several dimensions rather than the central focus.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

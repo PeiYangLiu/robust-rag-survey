@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.10923v2",
+  "title": "Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG",
+  "authors": "Haoze Guo; Ziqi Wei",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.10923v2",
+  "local_pdf": "pdfs/2026_haoze_guo_hidden_in_plain_text_a_benchmark_for_social_web_indirect_prompt_injection_in_rag_9f598b89.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark and harness for evaluating indirect prompt injection and retrieval poisoning in web-facing RAG, with defenses (sanitization, normalization, attribution-gating) and metrics (ASR, ΔMRR, ΔnDCG).",
+  "why_not_or_caveat": "Short workshop-style paper; narrow focus on social-web carriers.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Benchmarks and Defenses",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:36.085969+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.10923v2\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces a benchmark and harness for evaluating indirect prompt injection and retrieval poisoning in web-facing RAG, with defenses (sanitization, normalization, attribution-gating) and metrics (ASR, ΔMRR, ΔnDCG).\", \"why_not_or_caveat\": \"Short workshop-style paper; narrow focus on social-web carriers.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption: Benchmarks and Defenses\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.23519v2",
+  "title": "ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search",
+  "authors": "Zeyu Shen; Basileal Imana; Tong Wu; Chong Xiang; Prateek Mittal; Aleksandra Korolova",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.23519v2",
+  "local_pdf": "pdfs/2025_zeyu_shen_reliabilityrag_effective_and_provably_robust_defense_for_rag_based_web_search_eaec8d32.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes ReliabilityRAG, a provably robust defense against retrieval corpus poisoning/prompt injection in RAG, using MIS over contradiction graphs and reliability-weighted aggregation. Directly addresses adversarial robustness in RAG with empirical and theoretical guarantees.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:51.125832+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.23519v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes ReliabilityRAG, a provably robust defense against retrieval corpus poisoning/prompt injection in RAG, using MIS over contradiction graphs and reliability-weighted aggregation. Directly addresses adversarial robustness in RAG with empirical and theoretical guarantees.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption Defenses\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

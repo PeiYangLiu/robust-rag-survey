@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.13111v3",
+  "title": "Uncertainty-Aware Trajectory Prediction via Rule-Regularized Heteroscedastic Deep Classification",
+  "authors": "Kumar Manas; Christian Schlauch; Adrian Paschke; Christian Wirth; Nadja Klein",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.13111v3",
+  "local_pdf": "pdfs/2025_kumar_manas_uncertainty_aware_trajectory_prediction_via_rule_regularized_heteroscedastic_deep_classi_b18c7648.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper concerns trajectory prediction with uncertainty quantification; uses RAG only as a tool to generate synthetic labels from driving rules.",
+  "why_not_or_caveat": "Not about robustness of RAG itself or unreliable evidence in retrieval-augmented QA.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:05.286012+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.13111v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper concerns trajectory prediction with uncertainty quantification; uses RAG only as a tool to generate synthetic labels from driving rules.\",\"why_not_or_caveat\":\"Not about robustness of RAG itself or unreliable evidence in retrieval-augmented QA.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

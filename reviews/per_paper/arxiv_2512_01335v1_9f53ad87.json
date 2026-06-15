@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2512.01335v1",
+  "title": "EmoRAG: Evaluating RAG Robustness to Symbolic Perturbations",
+  "authors": "Xinyun Zhou; Xinfeng Li; Yinan Peng; Ming Xu; Xuanwang Zhang; Miao Yu; Yidong Wang; Xiaojun Jia; Kun Wang; Qingsong Wen; XiaoFeng Wang; Wei Dong",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.01335v1",
+  "local_pdf": "pdfs/2025_xinyun_zhou_emorag_evaluating_rag_robustness_to_symbolic_perturbations_9f53ad87.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Reveals a symbolic-perturbation attack vector against RAG retrievers via emoticon injection, evaluates defenses, and proposes detection — directly relevant to adversarial robustness of RAG.",
+  "why_not_or_caveat": "Narrowly focused on emoticon-based perturbations rather than broader poisoning/injection literature.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Retrieval Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:39.351106+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.01335v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"attack\",\"why_relevant\":\"Reveals a symbolic-perturbation attack vector against RAG retrievers via emoticon injection, evaluates defenses, and proposes detection — directly relevant to adversarial robustness of RAG.\",\"why_not_or_caveat\":\"Narrowly focused on emoticon-based perturbations rather than broader poisoning/injection literature.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Retrieval Attacks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

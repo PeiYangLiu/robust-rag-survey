@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2412.10807v2",
+  "title": "Towards Action Hijacking of Large Language Model-based Agent",
+  "authors": "Yuyang Zhang; Kangjie Chen; Jiaxin Gao; Ronghao Cui; Run Wang; Lina Wang; Tianwei Zhang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2412.10807v2",
+  "local_pdf": "pdfs/2024_yuyang_zhang_towards_action_hijacking_of_large_language_model_based_agent_64984052.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Presents a novel attack on LLM-agent RAG pipelines that exploits the retrieval mechanism to extract and assemble harmful knowledge, bypassing safety filters. Relevant to adversarial corruption / indirect prompt injection on RAG.",
+  "why_not_or_caveat": "Focuses on agent action hijacking rather than QA-style RAG robustness; not centered on defense/calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and prompt injection attacks on RAG",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:42.970505+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2412.10807v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Presents a novel attack on LLM-agent RAG pipelines that exploits the retrieval mechanism to extract and assemble harmful knowledge, bypassing safety filters. Relevant to adversarial corruption / indirect prompt injection on RAG.\",\n  \"why_not_or_caveat\": \"Focuses on agent action hijacking rather than QA-style RAG robustness; not centered on defense/calibration.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and prompt injection attacks on RAG\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

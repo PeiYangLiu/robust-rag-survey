@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.20815v1",
+  "title": "GraphRAG on Consumer Hardware: Benchmarking Local LLMs for Healthcare EHR Schema Retrieval",
+  "authors": "Peter Fernandes; Ria Kanjilal",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.20815v1",
+  "local_pdf": "pdfs/2026_peter_fernandes_graphrag_on_consumer_hardware_benchmarking_local_llms_for_healthcare_ehr_schema_retrieva_d4fa653a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Benchmarks local LLMs in a GraphRAG pipeline and mentions hallucination differences between retrieval modes, but focuses on deployment feasibility rather than robustness to unreliable evidence.",
+  "why_not_or_caveat": "Application-focused evaluation in healthcare; does not study noise, conflict, adversaries, or calibration in a principled way.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:45.816907+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.20815v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Benchmarks local LLMs in a GraphRAG pipeline and mentions hallucination differences between retrieval modes, but focuses on deployment feasibility rather than robustness to unreliable evidence.\",\"why_not_or_caveat\":\"Application-focused evaluation in healthcare; does not study noise, conflict, adversaries, or calibration in a principled way.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

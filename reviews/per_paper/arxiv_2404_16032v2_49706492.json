@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2404.16032v2",
+  "title": "Studying Large Language Model Behaviors Under Context-Memory Conflicts With Real Documents",
+  "authors": "Evgenii Kortukov; Alexander Rubinstein; Elisa Nguyen; Seong Joon Oh",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.16032v2",
+  "local_pdf": "pdfs/2024_evgenii_kortukov_studying_large_language_model_behaviors_under_context_memory_conflicts_with_real_documen_49706492.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Analyzes context-memory knowledge conflicts in RAG using real documents, identifying a parametric bias that hinders knowledge updating. Directly relevant to the survey's knowledge conflict section.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:11.034106+00:00",
+  "raw_response": "{\"key\":\"arxiv-2404.16032v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Analyzes context-memory knowledge conflicts in RAG using real documents, identifying a parametric bias that hinders knowledge updating. Directly relevant to the survey's knowledge conflict section.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

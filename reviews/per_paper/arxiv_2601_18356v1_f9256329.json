@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.18356v1",
+  "title": "Making medical vision-language models think causally across modalities with retrieval-augmented cross-modal reasoning",
+  "authors": "Weiqin Yang; Haowen Xue; Qingyi Peng; Hexuan Hu; Qian Huang; Tingbo Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.18356v1",
+  "local_pdf": "pdfs/2026_weiqin_yang_making_medical_vision_language_models_think_causally_across_modalities_with_retrieval_au_f9256329.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a causal multimodal RAG for medical VLMs aiming to reduce spurious correlations and improve robustness to distribution shifts, tangentially relevant to retrieval reliability.",
+  "why_not_or_caveat": "Domain-specific application focused on causal alignment in medical VLMs rather than core robustness issues like noise, conflict, adversarial attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.185396+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.18356v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a causal multimodal RAG for medical VLMs aiming to reduce spurious correlations and improve robustness to distribution shifts, tangentially relevant to retrieval reliability.\",\n  \"why_not_or_caveat\": \"Domain-specific application focused on causal alignment in medical VLMs rather than core robustness issues like noise, conflict, adversarial attacks, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

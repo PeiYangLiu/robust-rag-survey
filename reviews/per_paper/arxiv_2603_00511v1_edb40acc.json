@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2603.00511v1",
+  "title": "Multimodal Adaptive Retrieval Augmented Generation through Internal Representation Learning",
+  "authors": "Ruoshuang Du; Xin Sun; Qiang Liu; Bowen Song; Zhongqi Chen; Weiqiang Wang; Liang Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.00511v1",
+  "local_pdf": "pdfs/2026_ruoshuang_du_multimodal_adaptive_retrieval_augmented_generation_through_internal_representation_learn_edb40acc.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes adaptive retrieval for multimodal RAG that uses internal representations to decide when retrieved evidence is harmful vs helpful, directly addressing noisy/misleading retrieval and when-to-retrieve calibration.",
+  "why_not_or_caveat": "Focused on multimodal VQA with reverse image retrieval, narrower than text RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:27.474173+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.00511v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes adaptive retrieval for multimodal RAG that uses internal representations to decide when retrieved evidence is harmful vs helpful, directly addressing noisy/misleading retrieval and when-to-retrieve calibration.\",\"why_not_or_caveat\":\"Focused on multimodal VQA with reverse image retrieval, narrower than text RAG.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: When to Retrieve\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

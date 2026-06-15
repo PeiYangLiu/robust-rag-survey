@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{tabularx}{\linewidth}{p{0.24\linewidth}p{0.14\linewidth}p{0.14\linewidth}X}
+\toprule
+\textbf{Field} & \textbf{Agreement} & \textbf{$\kappa$ / score} & \textbf{Interpretation} \\
+\midrule
+Full-text checked & 100.0\% & 1.00 & Both sources marked every evidence-map paper as full-text checked. \\
+In-scope screening & 99.6\% & 0.92 & Near-complete agreement; only one screening disagreement remains for adjudication. \\
+Relevance level & -- & 0.80 & Linear-weighted agreement is strong for exclude/background/support/core priority. \\
+Primary failure type & 97.1\% & 0.96 & Very strong human agreement on the main taxonomy category. \\
+Method family & 89.4\% & 0.86 & Strong agreement on attack, benchmark, control, method, and analysis families. \\
+Intervention point & 93.4\% & 0.92 & Very strong agreement on pipeline placement. \\
+Evaluation type & 94.9\% & 0.93 & Very strong agreement on metric/evaluation family. \\
+Evidence strength & 97.8\% & 0.95 & Very strong agreement on proceedings/preprint/review-platform strata. \\
+Core-candidate decision & 91.6\% & 0.80 & Strong agreement on whether papers should shape the core narrative. \\
+Include in evidence map & 99.3\% & 0.85 & Strong agreement on evidence-map inclusion. \\
+Secondary labels & 79.2\% exact & 0.83 Jaccard & Multilabel agreement is strong enough to support overlap analysis after adjudication. \\
+\bottomrule
+\end{tabularx}
+\caption{Round-2 human-human agreement on 274 candidate evidence records before adjudication. Two anonymized human annotation sources independently coded the same records; remaining disagreements were subsequently resolved to produce the 268-paper final adjudicated evidence map.}
+\label{tab:iaa}
+\end{table*}

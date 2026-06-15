@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.06963v1",
+  "title": "From Surface Learning to Deep Understanding: A Grounded AI Tutoring System for Moodle",
+  "authors": "Anna Ostrowska; Michał Kukla; Gabriela Majstrak; Jan Opala; Sebastian Pergała; Jan Skwarek; Anna Wróblewska",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.06963v1",
+  "local_pdf": "pdfs/2026_anna_ostrowska_from_surface_learning_to_deep_understanding_a_grounded_ai_tutoring_system_for_moodle_e36b705a.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Demo paper applying RAG to a Moodle tutoring plugin; does not study robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Application paper with only basic Ragas faithfulness evaluation; no contribution to robust RAG topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:01.978634+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.06963v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Demo paper applying RAG to a Moodle tutoring plugin; does not study robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Application paper with only basic Ragas faithfulness evaluation; no contribution to robust RAG topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

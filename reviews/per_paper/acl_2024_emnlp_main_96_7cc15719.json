@@ -1,0 +1,26 @@
+{
+  "key": "acl-2024.emnlp-main.96",
+  "title": "[[<ins>arxiv</ins>](https://aclanthology.org/2024.emnlp-main.96/)] Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+  "authors": "",
+  "year": "2024",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2024.emnlp-main.96/",
+  "local_pdf": "pdfs/2024_acl_2024_emnlp_main_96_ins_arxiv_ins_https_aclanthology_org_2024_emnlp_main_96_glue_pizza_and_eat_rocks_7cc15719.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes LIAR, a gray-box bi-level attack that injects adversarial documents into RAG knowledge bases to be preferentially retrieved and manipulate LLM output, directly addressing RAG poisoning/injection vulnerabilities.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption: poisoning and injection attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:23.436437+00:00",
+  "raw_response": "{\"key\":\"acl-2024.emnlp-main.96\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes LIAR, a gray-box bi-level attack that injects adversarial documents into RAG knowledge bases to be preferentially retrieved and manipulate LLM output, directly addressing RAG poisoning/injection vulnerabilities.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial corruption: poisoning and injection attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

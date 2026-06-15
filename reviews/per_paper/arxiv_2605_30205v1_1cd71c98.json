@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.30205v1",
+  "title": "LexPath: A domain-oriented multi-path framework for legal article retrieval",
+  "authors": "Weixuan Liu; Qingfeng Zhuge; Xuyang Chen",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.30205v1",
+  "local_pdf": "pdfs/2026_weixuan_liu_lexpath_a_domain_oriented_multi_path_framework_for_legal_article_retrieval_1cd71c98.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific legal article retrieval framework, not focused on robustness, conflict, attacks, calibration, or uncertainty.",
+  "why_not_or_caveat": "Application of retrieval in legal domain; does not study unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:59.207215+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.30205v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific legal article retrieval framework, not focused on robustness, conflict, attacks, calibration, or uncertainty.\",\"why_not_or_caveat\":\"Application of retrieval in legal domain; does not study unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

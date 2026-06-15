@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.28488v2",
+  "title": "Courtroom-Style Multi-Agent Debate with Progressive RAG and Role-Switching for Controversial Claim Verification",
+  "authors": "Masnun Nuha Chowdhury; Nusrat Jahan Beg; Umme Hunny Khan; Syed Rifat Raiyan; Md Kamrul Hasan; Hasan Mahmud",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.28488v2",
+  "local_pdf": "pdfs/2026_masnun_nuha_chowdhury_courtroom_style_multi_agent_debate_with_progressive_rag_and_role_switching_for_controver_2c4f95cd.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes multi-agent debate with progressive retrieval and evidence admissibility scoring for claim verification, touching on iterative retrieval and bias mitigation. Mostly an application/method for fact-checking rather than a study of RAG robustness per se.",
+  "why_not_or_caveat": "Focus is on claim verification accuracy via courtroom debate; does not systematically study noise, conflict, adversarial attacks, or calibration as core contributions.",
+  "recommended_use": "background_only",
+  "suggested_section": "Iterative retrieval and multi-agent deliberation",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:37.028851+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.28488v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"calibration_control\", \"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes multi-agent debate with progressive retrieval and evidence admissibility scoring for claim verification, touching on iterative retrieval and bias mitigation. Mostly an application/method for fact-checking rather than a study of RAG robustness per se.\", \"why_not_or_caveat\": \"Focus is on claim verification accuracy via courtroom debate; does not systematically study noise, conflict, adversarial attacks, or calibration as core contributions.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Iterative retrieval and multi-agent deliberation\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.01282v1",
+  "title": "When, What, and How: Rethinking Retrieval-Enhanced Speculative Decoding",
+  "authors": "Min Fang; Zhihui Fu; Qibin Zhao; Jun Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.01282v1",
+  "local_pdf": "pdfs/2025_min_fang_when_what_and_how_rethinking_retrieval_enhanced_speculative_decoding_d07e6d87.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns retrieval-enhanced speculative decoding for inference acceleration, not robustness of RAG to unreliable evidence.",
+  "why_not_or_caveat": "Out of scope; retrieval here refers to drafting tokens for speculative decoding.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:34.600351+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.01282v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns retrieval-enhanced speculative decoding for inference acceleration, not robustness of RAG to unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope; retrieval here refers to drafting tokens for speculative decoding.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.11551v1",
+  "title": "SIGHT: Reinforcement Learning with Self-Evidence and Information-Gain Diverse Branching for Search Agent",
+  "authors": "Wenlin Zhong; Jinluan Yang; Yiquan Wu; Yi Liu; Jianhang Yao; Kun Kuang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.11551v1",
+  "local_pdf": "pdfs/2026_wenlin_zhong_sight_reinforcement_learning_with_self_evidence_and_information_gain_diverse_branching_f_b0302e00.pdf",
+  "metadata_topics": "noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "SIGHT explicitly addresses noisy retrieval in multi-turn search agents, proposing information-gain-driven branching and self-evidence distillation to mitigate 'Tunnel Vision' from low SNR retrievals.",
+  "why_not_or_caveat": "Focus is on RL search agent exploration rather than core RAG robustness; relevance is tangential to noise handling.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval and Agentic Control",
+  "confidence": 0.65,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:06.132725+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.11551v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"SIGHT explicitly addresses noisy retrieval in multi-turn search agents, proposing information-gain-driven branching and self-evidence distillation to mitigate 'Tunnel Vision' from low SNR retrievals.\",\"why_not_or_caveat\":\"Focus is on RL search agent exploration rather than core RAG robustness; relevance is tangential to noise handling.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval and Agentic Control\",\"confidence\":0.65}",
+  "skipped_existing": false
+}

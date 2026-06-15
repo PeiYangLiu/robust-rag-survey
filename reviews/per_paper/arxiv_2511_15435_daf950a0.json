@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.15435",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2511.15435)] HV-Attack: Hierarchical Visual Attack for Multimodal Retrieval Augmented Generation",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.15435",
+  "local_pdf": "pdfs/na_arxiv_2511_15435_ins_arxiv_ins_https_arxiv_org_abs_2511_15435_hv_attack_hierarchical_visual_attac_daf950a0.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a visual adversarial attack on multimodal RAG that disrupts both retriever and generator via imperceptible image perturbations, directly relevant to adversarial corruption of RAG systems.",
+  "why_not_or_caveat": "Focused on multimodal RAG attacks; no defense or calibration aspect.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption (Multimodal RAG attacks)",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.116055+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.15435\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a visual adversarial attack on multimodal RAG that disrupts both retriever and generator via imperceptible image perturbations, directly relevant to adversarial corruption of RAG systems.\",\"why_not_or_caveat\":\"Focused on multimodal RAG attacks; no defense or calibration aspect.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption (Multimodal RAG attacks)\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

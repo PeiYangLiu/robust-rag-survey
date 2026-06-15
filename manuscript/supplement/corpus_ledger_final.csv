@@ -1,0 +1,16 @@
+set_name,count,artifact,definition
+retrieved_records,1904,search_protocol.json,Initial records retrieved before PDF availability and deduplication.
+open_full_text_pdfs,1445,pdfs/,Open PDFs retained for full-text inspection.
+deduplicated_candidates,1399,all_reviewed_deduped.csv,Deduplicated candidate records after normalized title/identifier matching.
+included_relevant,536,all_reviewed_deduped.csv,Candidates with decision core or include.
+core_pool,112,all_reviewed_deduped.csv decision=core,Papers judged central before final 100-paper narrative selection.
+core_reading_set,100,core100_full.csv,Main narrative anchor papers.
+base_survey_set,300,survey300_full.csv,Core + supporting papers before venue follow-up triage.
+venue_augmented_scoping_set,326,survey_set_venue_audited.csv,Base survey set plus 26 venue-linked additions.
+candidate_evidence_records_double_coded,274,adjudicated_evidence274_round2_final_full.csv,Candidate evidence records double-coded by two human sources and adjudicated.
+final_adjudicated_evidence_map,268,evidence_map_adjudicated.csv,Final included evidence-map papers after adjudication removed six records.
+final_evidence_strength_arxiv_emerging,222,evidence_strength.tex / evidence_map_adjudicated.csv,Final evidence-map records that are arXiv-only or emerging preprints.
+final_evidence_strength_peer_reviewed,42,evidence_strength.tex / evidence_map_adjudicated.csv,Final evidence-map records linked to peer-reviewed/proceedings venues.
+final_evidence_strength_preprint_year_tag,2,evidence_strength.tex / evidence_map_adjudicated.csv,Final evidence-map records with preprint year tags not counted as venue-linked.
+final_evidence_strength_review_platform,1,evidence_strength.tex / evidence_map_adjudicated.csv,Final evidence-map record linked to review platform rather than proceedings.
+final_evidence_strength_other,1,evidence_strength.tex / evidence_map_adjudicated.csv,Final evidence-map record with unclear/other source type.

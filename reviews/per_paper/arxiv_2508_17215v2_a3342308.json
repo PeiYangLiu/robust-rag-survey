@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2508.17215v2",
+  "title": "How to make Medical AI Systems safer? Simulating Vulnerabilities, and Threats in Multimodal Medical RAG System",
+  "authors": "Kaiwen Zuo; Zelin Liu; Raman Dutt; Ziyang Wang; Zhongtian Sun; Fan Mo; Pietro Liò",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.17215v2",
+  "local_pdf": "pdfs/2025_kaiwen_zuo_how_to_make_medical_ai_systems_safer_simulating_vulnerabilities_and_threats_in_multimoda_a3342308.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a multimodal poisoning attack framework (MedThreatRAG) against medical RAG, including cross-modal conflict injection that corrupts the retrieval corpus, directly relevant to adversarial corruption and knowledge conflict in RAG.",
+  "why_not_or_caveat": "Domain-specific (medical multimodal), limiting generality.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:38.460453+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.17215v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a multimodal poisoning attack framework (MedThreatRAG) against medical RAG, including cross-modal conflict injection that corrupts the retrieval corpus, directly relevant to adversarial corruption and knowledge conflict in RAG.\",\"why_not_or_caveat\":\"Domain-specific (medical multimodal), limiting generality.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

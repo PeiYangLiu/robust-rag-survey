@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.11587v1",
+  "title": "Evidence-Grounded Multi-Agent Planning Support for Urban Carbon Governance via RAG",
+  "authors": "Yuyan Huang; Haoran Li; Yifan Lu; Ruolin Wu; Siqian Chen; Chao Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.11587v1",
+  "local_pdf": "pdfs/2026_yuyan_huang_evidence_grounded_multi_agent_planning_support_for_urban_carbon_governance_via_rag_571f88d2.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Domain-specific RAG application for urban carbon governance; does not study robustness, conflict, attacks, calibration, or uncertainty.",
+  "why_not_or_caveat": "Application paper without contributions to robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:14.507292+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.11587v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Domain-specific RAG application for urban carbon governance; does not study robustness, conflict, attacks, calibration, or uncertainty.\",\"why_not_or_caveat\":\"Application paper without contributions to robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

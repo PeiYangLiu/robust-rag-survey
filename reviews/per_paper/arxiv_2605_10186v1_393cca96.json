@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.10186v1",
+  "title": "LegalCiteBench: Evaluating Citation Reliability in Legal Language Models",
+  "authors": "Sijia Chen; Hang Yin; Shunfan Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.10186v1",
+  "local_pdf": "pdfs/2026_sijia_chen_legalcitebench_evaluating_citation_reliability_in_legal_language_models_393cca96.pdf",
+  "metadata_topics": "uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Studies closed-book citation fabrication and abstention behavior in legal LLMs, touching on calibration and hallucination when external grounding is absent.",
+  "why_not_or_caveat": "Explicitly closed-book, not a RAG robustness study; relevance to retrieval-augmented robustness is tangential.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and abstention in high-stakes domains",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:51.526626+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.10186v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"calibration_control\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Studies closed-book citation fabrication and abstention behavior in legal LLMs, touching on calibration and hallucination when external grounding is absent.\",\n  \"why_not_or_caveat\": \"Explicitly closed-book, not a RAG robustness study; relevance to retrieval-augmented robustness is tangential.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and abstention in high-stakes domains\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

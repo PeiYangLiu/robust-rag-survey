@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.18440v1",
+  "title": "An Agentic AI Framework for Training General Practitioner Student Skills",
+  "authors": "Victor De Marez; Jens Van Nooten; Luna De Bruyne; Walter Daelemans",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.18440v1",
+  "local_pdf": "pdfs/2025_victor_de_marez_an_agentic_ai_framework_for_training_general_practitioner_student_skills_da386581.pdf",
+  "metadata_topics": "knowledge-conflict; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of agentic LLMs with optional RAG for virtual simulated patients in medical education.",
+  "why_not_or_caveat": "Does not study RAG robustness, conflict, calibration, or adversarial issues; RAG is just a grounding component.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:37.294249+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.18440v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of agentic LLMs with optional RAG for virtual simulated patients in medical education.\",\"why_not_or_caveat\":\"Does not study RAG robustness, conflict, calibration, or adversarial issues; RAG is just a grounding component.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

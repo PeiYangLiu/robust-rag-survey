@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.12003v2",
+  "title": "Look as You Think: Unifying Reasoning and Visual Evidence Attribution for Verifiable Document RAG via Reinforcement Learning",
+  "authors": "Shuochen Liu; Pengfei Luo; Chao Zhang; Yuhao Chen; Haotian Zhang; Qi Liu; Xin Kou; Tong Xu; Enhong Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.12003v2",
+  "local_pdf": "pdfs/2025_shuochen_liu_look_as_you_think_unifying_reasoning_and_visual_evidence_attribution_for_verifiable_docu_0122c35c.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes RL-based visual evidence attribution for VD-RAG to reduce hallucinations via grounded reasoning steps.",
+  "why_not_or_caveat": "Focuses on attribution/grounding in visual document RAG, not on robustness to noise, conflict, adversarial evidence, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:44.262285+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.12003v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes RL-based visual evidence attribution for VD-RAG to reduce hallucinations via grounded reasoning steps.\",\"why_not_or_caveat\":\"Focuses on attribution/grounding in visual document RAG, not on robustness to noise, conflict, adversarial evidence, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

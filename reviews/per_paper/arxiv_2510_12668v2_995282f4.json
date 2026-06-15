@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.12668v2",
+  "title": "Understanding Parametric Knowledge Injection in Retrieval-Augmented Generation",
+  "authors": "Minghao Tang; Shiyu Ni; Jingtong Wu; Zengxin Han; Keping Bi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.12668v2",
+  "local_pdf": "pdfs/2025_minghao_tang_understanding_parametric_knowledge_injection_in_retrieval_augmented_generation_995282f4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematically analyzes parametric RAG vs token-based RAG under knowledge conflicts and retrieval noise, providing evidence on robustness and faithfulness with a new benchmark.",
+  "why_not_or_caveat": "Primary focus is understanding parametric injection mechanism; robustness is one of several axes.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Noise Robustness",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:29.413175+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.12668v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Systematically analyzes parametric RAG vs token-based RAG under knowledge conflicts and retrieval noise, providing evidence on robustness and faithfulness with a new benchmark.\",\"why_not_or_caveat\":\"Primary focus is understanding parametric injection mechanism; robustness is one of several axes.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict and Noise Robustness\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

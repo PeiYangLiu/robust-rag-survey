@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2407.13757",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2407.13757)] Black-Box Opinion Manipulation Attacks to Retrieval-Augmented Generation of Large Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2407.13757",
+  "local_pdf": "pdfs/na_arxiv_2407_13757_ins_arxiv_ins_https_arxiv_org_abs_2407_13757_black_box_opinion_manipulation_atta_619fd3f7.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box adversarial ranking poisoning attack on RAG targeting opinion manipulation in open-ended controversial topics, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Focused narrowly on opinion-polarity manipulation rather than factual QA poisoning.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Retrieval Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:27.289971+00:00",
+  "raw_response": "{\"key\":\"arxiv-2407.13757\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a black-box adversarial ranking poisoning attack on RAG targeting opinion manipulation in open-ended controversial topics, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"Focused narrowly on opinion-polarity manipulation rather than factual QA poisoning.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Retrieval Poisoning\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

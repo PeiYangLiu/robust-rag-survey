@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.19864",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2505.19864)] CPA-RAG: Covert Poisoning Attacks on Retrieval-Augmented Generation in Large Language Models",
+  "authors": "",
+  "year": "1986",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.19864",
+  "local_pdf": "pdfs/1986_arxiv_2505_19864_ins_arxiv_ins_https_arxiv_org_abs_2505_19864_cpa_rag_covert_poisoning_attacks_on_e58e41fb.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes CPA-RAG, a covert black-box poisoning attack on RAG that evades perplexity and duplicate-text defenses, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:25.247148+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.19864\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes CPA-RAG, a covert black-box poisoning attack on RAG that evades perplexity and duplicate-text defenses, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

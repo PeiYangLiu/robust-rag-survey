@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.11199v1",
+  "title": "SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation",
+  "authors": "Aiman Al Masoud; Marco Arazzi; Antonino Nocera",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.11199v1",
+  "local_pdf": "pdfs/2026_aiman_al_masoud_sd_rag_a_prompt_injection_resilient_framework_for_selective_disclosure_in_retrieval_augm_86d95c5a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a defense against prompt injection in RAG by enforcing privacy/disclosure constraints at retrieval time, relevant to adversarial corruption and policy-aware control.",
+  "why_not_or_caveat": "Focus is on selective disclosure/privacy rather than general robustness to noisy or conflicting evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and prompt injection defenses",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:35.227963+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.11199v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"calibration_control\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"Proposes a defense against prompt injection in RAG by enforcing privacy/disclosure constraints at retrieval time, relevant to adversarial corruption and policy-aware control.\",\n  \"why_not_or_caveat\": \"Focus is on selective disclosure/privacy rather than general robustness to noisy or conflicting evidence.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and prompt injection defenses\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

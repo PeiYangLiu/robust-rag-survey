@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2601.05503v2",
+  "title": "Over-Searching in Search-Augmented Large Language Models",
+  "authors": "Roy Xie; Deepak Gopinath; David Qiu; Dong Lin; Haitian Sun; Saloni Potdar; Bhuwan Dhingra",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.05503v2",
+  "local_pdf": "pdfs/2026_roy_xie_over_searching_in_search_augmented_large_language_models_778475b8.pdf",
+  "metadata_topics": "noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies when search-augmented LLMs should retrieve vs abstain, analyzing over-searching under noisy retrieval, unanswerable/false-premise queries, and multi-turn settings. Introduces TPC metric and OverSearchQA benchmark for evaluating retrieval control and abstention.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Calibration and Control: When to Retrieve and Abstain",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:52.130340+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.05503v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_search\":true,\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\",\"evaluation_benchmark\",\"noisy_retrieval\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies when search-augmented LLMs should retrieve vs abstain, analyzing over-searching under noisy retrieval, unanswerable/false-premise queries, and multi-turn settings. Introduces TPC metric and OverSearchQA benchmark for evaluating retrieval control and abstention.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Calibration and Control: When to Retrieve and Abstain\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

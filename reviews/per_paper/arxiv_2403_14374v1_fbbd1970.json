@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2403.14374v1",
+  "title": "FIT-RAG: Black-Box RAG with Factual Information and Token Reduction",
+  "authors": "Yuren Mao; Xuemei Dong; Wenyi Xu; Yunjun Gao; Bin Wei; Ying Zhang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.14374v1",
+  "local_pdf": "pdfs/2024_yuren_mao_fit_rag_black_box_rag_with_factual_information_and_token_reduction_fbbd1970.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "FIT-RAG introduces a self-knowledge recognizer to decide when augmentation is needed and a token reducer to filter unnecessary sub-documents, addressing when-to-retrieve and noisy/irrelevant context issues.",
+  "why_not_or_caveat": "Focus is primarily on efficiency and black-box augmentation, not explicitly on adversarial robustness or conflict.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (when to retrieve / filter)",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:29.965688+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2403.14374v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"FIT-RAG introduces a self-knowledge recognizer to decide when augmentation is needed and a token reducer to filter unnecessary sub-documents, addressing when-to-retrieve and noisy/irrelevant context issues.\",\n  \"why_not_or_caveat\": \"Focus is primarily on efficiency and black-box augmentation, not explicitly on adversarial robustness or conflict.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control (when to retrieve / filter)\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

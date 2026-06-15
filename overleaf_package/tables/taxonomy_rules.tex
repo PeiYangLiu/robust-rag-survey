@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\begin{tabularx}{\linewidth}{p{0.20\linewidth}p{0.25\linewidth}p{0.25\linewidth}X}
+\toprule
+\textbf{Ambiguous boundary} & \textbf{Coding rule} & \textbf{Example implication} & \textbf{Why it matters} \\
+\midrule
+Noisy retrieval vs. distraction & Code by the measured effect: retrieval imperfection alone is noise; harmful influence on generation is distraction. & Random negatives and hard distractors should not be pooled into one score. & Explains why recall gains can reduce answer quality. \\
+Conflict vs. adversarial corruption & Code by source of contradiction: naturally occurring or diagnostic contradiction is conflict; attacker-created contradiction is corruption. & PoisonedRAG and FaithfulRAG should not be compared by the same metric. & Separates reliability failures from adaptive threat models. \\
+Uncertainty vs. calibration/control & Uncertainty estimates belief state; calibration/control decides action from that belief. & URAG and Self-RAG answer different questions. & Prevents treating abstention as just another confidence score. \\
+Retriever vs. generator interventions & Code by first intervention point that changes system behavior. & FILCO filters context; Chain-of-Note changes generator reasoning. & Reveals why methods with similar goals may compose rather than compete. \\
+Benchmark vs. method & Code benchmark if the reusable artifact is the main contribution; otherwise code the method. & RGB is benchmark-first; RAAT is training-first. & Clarifies whether a paper contributes evidence or an intervention. \\
+\bottomrule
+\end{tabularx}
+\caption{Taxonomy decision rules used to handle ambiguous cases. These rules turn the taxonomy from a pipeline decomposition into a comparison framework: methods are comparable only when their failure source, intervention point, and evaluation target align.}
+\label{tab:taxonomy-rules}
+\end{table*}
+

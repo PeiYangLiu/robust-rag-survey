@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.05632v1",
+  "title": "Architecture Matters: Comparing RAG Systems under Knowledge Base Poisoning",
+  "authors": "Samuel Korn",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.05632v1",
+  "local_pdf": "pdfs/2026_samuel_korn_architecture_matters_comparing_rag_systems_under_knowledge_base_poisoning_9fd2d1c0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Evaluates four RAG architectures against adversarial knowledge base poisoning under N=1 settings, decomposing retrieval- vs generation-stage vulnerabilities and introducing a behavioral taxonomy capturing contradiction detection and hedging.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / poisoning defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.744538+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.05632v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Evaluates four RAG architectures against adversarial knowledge base poisoning under N=1 settings, decomposing retrieval- vs generation-stage vulnerabilities and introducing a behavioral taxonomy capturing contradiction detection and hedging.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption / poisoning defenses\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

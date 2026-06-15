@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.24476",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2510.24476)\\] Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.24476",
+  "local_pdf": "pdfs/na_arxiv_2510_24476_arxiv_https_arxiv_org_abs_2510_24476_mitigating_hallucination_in_large_language__d37f6904.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on hallucination mitigation via RAG, reasoning, and agentic systems; tangentially related as it discusses RAG reliability and benchmarks.",
+  "why_not_or_caveat": "Broad hallucination survey, not focused on robustness under unreliable evidence (noise, conflict, attacks, calibration).",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:28.364969+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.24476\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"Survey on hallucination mitigation via RAG, reasoning, and agentic systems; tangentially related as it discusses RAG reliability and benchmarks.\",\"why_not_or_caveat\":\"Broad hallucination survey, not focused on robustness under unreliable evidence (noise, conflict, attacks, calibration).\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Related surveys\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

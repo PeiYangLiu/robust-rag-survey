@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.15805v1",
+  "title": "ALAS: Autonomous Learning Agent for Self-Updating Language Models",
+  "authors": "Dhruv Atreja",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.15805v1",
+  "local_pdf": "pdfs/2025_dhruv_atreja_alas_autonomous_learning_agent_for_self_updating_language_models_6f85afab.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an autonomous fine-tuning pipeline for updating LLM knowledge; not focused on RAG robustness, conflict, noise, or calibration.",
+  "why_not_or_caveat": "Only tangentially mentions RAG as a baseline; no contribution to robustness/unreliable evidence themes.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:23.878670+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.15805v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an autonomous fine-tuning pipeline for updating LLM knowledge; not focused on RAG robustness, conflict, noise, or calibration.\",\"why_not_or_caveat\":\"Only tangentially mentions RAG as a baseline; no contribution to robustness/unreliable evidence themes.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

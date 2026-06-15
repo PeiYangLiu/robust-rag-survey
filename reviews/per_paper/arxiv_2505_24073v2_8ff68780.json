@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.24073v2",
+  "title": "mRAG: Elucidating the Design Space of Multi-modal Retrieval-Augmented Generation",
+  "authors": "Chan-Wei Hu; Yueqi Wang; Shuo Xing; Chia-Ju Chen; Suofei Feng; Ryan Rossi; Zhengzhong Tu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.24073v2",
+  "local_pdf": "pdfs/2025_chan_wei_hu_mrag_elucidating_the_design_space_of_multi_modal_retrieval_augmented_generation_8ff68780.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies multimodal RAG design space including re-ranking and self-reflection to suppress irrelevant context, tangentially touching noisy retrieval.",
+  "why_not_or_caveat": "Primary focus is pipeline design and performance optimization, not robustness, conflict, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Multimodal RAG context",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:20.743218+00:00",
+  "raw_response": "{\"key\": \"arxiv-2505.24073v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Studies multimodal RAG design space including re-ranking and self-reflection to suppress irrelevant context, tangentially touching noisy retrieval.\", \"why_not_or_caveat\": \"Primary focus is pipeline design and performance optimization, not robustness, conflict, attacks, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Multimodal RAG context\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

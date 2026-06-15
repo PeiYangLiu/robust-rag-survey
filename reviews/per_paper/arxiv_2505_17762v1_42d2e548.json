@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.17762v1",
+  "title": "Resolving Conflicting Evidence in Automated Fact-Checking: A Study on Retrieval-Augmented LLMs",
+  "authors": "Ziyu Ge; Yuhao Wu; Daniel Wai Kit Chin; Roy Ka-Wei Lee; Rui Cao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.17762v1",
+  "local_pdf": "pdfs/2025_ziyu_ge_resolving_conflicting_evidence_in_automated_fact_checking_a_study_on_retrieval_augmented_42d2e548.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces CONFACT, a dataset and evaluation of RAG models facing conflicting retrieved evidence from sources of varying credibility, directly studying retrieved-vs-retrieved conflict and proposing credibility-aware mitigation.",
+  "why_not_or_caveat": "Domain-specific to fact-checking, but conflict-handling findings generalize.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict / Retrieved-vs-Retrieved Conflict",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:44.283103+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.17762v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces CONFACT, a dataset and evaluation of RAG models facing conflicting retrieved evidence from sources of varying credibility, directly studying retrieved-vs-retrieved conflict and proposing credibility-aware mitigation.\",\n  \"why_not_or_caveat\": \"Domain-specific to fact-checking, but conflict-handling findings generalize.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict / Retrieved-vs-Retrieved Conflict\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

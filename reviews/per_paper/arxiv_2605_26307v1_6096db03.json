@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.26307v1",
+  "title": "Intelligent Detection and Mitigation of Carpet-Bombing DDoS Attacks in SDN Using Retrieval-Augmented Generation and Large Language Models",
+  "authors": "Mohammed N. Swileh; Shengli Zhang; Kai Lei",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.26307v1",
+  "local_pdf": "pdfs/2026_mohammed_n_swileh_intelligent_detection_and_mitigation_of_carpet_bombing_ddos_attacks_in_sdn_using_retriev_6096db03.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for DDoS detection in SDN; an application of RAG, not a study of RAG robustness.",
+  "why_not_or_caveat": "Does not address noise, distraction, conflict, adversarial RAG, calibration, or evaluation of RAG reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:29.535847+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.26307v1\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Uses RAG for DDoS detection in SDN; an application of RAG, not a study of RAG robustness.\",\n  \"why_not_or_caveat\": \"Does not address noise, distraction, conflict, adversarial RAG, calibration, or evaluation of RAG reliability.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

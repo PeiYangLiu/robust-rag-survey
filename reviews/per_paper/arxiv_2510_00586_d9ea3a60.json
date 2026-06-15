@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.00586",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2510.00586)] Eyes-on-Me: Scalable RAG Poisoning through Transferable Attention-Steering Attractors",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.00586",
+  "local_pdf": "pdfs/na_arxiv_2510_00586_ins_arxiv_ins_https_arxiv_org_abs_2510_00586_eyes_on_me_scalable_rag_poisoning_t_d9ea3a60.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a scalable RAG data poisoning attack using transferable attention-steering attractors, directly relevant to adversarial corruption of retrieval corpora.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption / poisoning attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:26.401460+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.00586\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a scalable RAG data poisoning attack using transferable attention-steering attractors, directly relevant to adversarial corruption of retrieval corpora.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial corruption / poisoning attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

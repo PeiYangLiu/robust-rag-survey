@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.16462v2",
+  "title": "Finding What Matters: Anchoring Context Knowledge with Evolving Indices for Iterative Retrieval",
+  "authors": "Mingyan Wu; Zhenghao Liu; Xinze Li; Yuqing Lan; Yukun Yan; Shuo Wang; Cheng Yang; Minghe Yu; Zheni Zeng; Maosong Sun",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.16462v2",
+  "local_pdf": "pdfs/2026_mingyan_wu_finding_what_matters_anchoring_context_knowledge_with_evolving_indices_for_iterative_ret_7e498bc5.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an iterative RAG method that anchors key evidence to mitigate noise accumulation across retrieval steps in multi-hop QA, addressing context noise and lost-in-the-middle issues.",
+  "why_not_or_caveat": "Primarily a multi-hop QA performance method; robustness to noise is a motivation but not rigorously benchmarked under adversarial or strongly unreliable evidence.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Iterative Retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:33.238359+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.16462v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an iterative RAG method that anchors key evidence to mitigate noise accumulation across retrieval steps in multi-hop QA, addressing context noise and lost-in-the-middle issues.\",\"why_not_or_caveat\":\"Primarily a multi-hop QA performance method; robustness to noise is a motivation but not rigorously benchmarked under adversarial or strongly unreliable evidence.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval / Iterative Retrieval\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

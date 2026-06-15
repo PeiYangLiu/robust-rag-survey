@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2504.12982v2",
+  "title": "Accommodate Knowledge Conflicts in Retrieval-augmented LLMs: Towards Robust Response Generation in the Wild",
+  "authors": "Jiatai Wang; Zhiwei Xu; Di Jin; Xuewen Yang; Tao Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.12982v2",
+  "local_pdf": "pdfs/2025_jiatai_wang_accommodate_knowledge_conflicts_in_retrieval_augmented_llms_towards_robust_response_gene_b20250e1.pdf",
+  "metadata_topics": "knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a theoretical and methodological framework (Swin-VIB) to handle knowledge conflicts between parametric memory and retrieved context in RAG, with uncertainty analysis.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:37.146164+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.12982v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a theoretical and methodological framework (Swin-VIB) to handle knowledge conflicts between parametric memory and retrieved context in RAG, with uncertainty analysis.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

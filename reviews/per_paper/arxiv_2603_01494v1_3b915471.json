@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.01494v1",
+  "title": "Inference-Time Safety For Code LLMs Via Retrieval-Augmented Revision",
+  "authors": "Manisha Mukherjee; Vincent J. Hellendoorn",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.01494v1",
+  "local_pdf": "pdfs/2026_manisha_mukherjee_inference_time_safety_for_code_llms_via_retrieval_augmented_revision_3b915471.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG to improve security of LLM code generation by retrieving Stack Overflow discussions; not about robustness of RAG to unreliable evidence.",
+  "why_not_or_caveat": "Application of RAG to a safety problem, not a study of noise, conflict, adversarial inputs to retrieval, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:00.647872+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.01494v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG to improve security of LLM code generation by retrieving Stack Overflow discussions; not about robustness of RAG to unreliable evidence.\",\"why_not_or_caveat\":\"Application of RAG to a safety problem, not a study of noise, conflict, adversarial inputs to retrieval, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

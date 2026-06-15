@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.06050v1",
+  "title": "Relevance-aware Multi-context Contrastive Decoding for Retrieval-augmented Visual Question Answering",
+  "authors": "Jongha Kim; Byungoh Ko; Jeehye Na; Jinsung Yoon; Hyunwoo J. Kim",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.06050v1",
+  "local_pdf": "pdfs/2026_jongha_kim_relevance_aware_multi_context_contrastive_decoding_for_retrieval_augmented_visual_questi_8fd1b445.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a contrastive decoding method that weights retrieved contexts by relevance to suppress irrelevant/distracting contexts in multimodal RAG, directly addressing robustness to noisy retrieval.",
+  "why_not_or_caveat": "Focused on VQA/LVLM setting; not a general text RAG robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:00.189941+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.06050v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a contrastive decoding method that weights retrieved contexts by relevance to suppress irrelevant/distracting contexts in multimodal RAG, directly addressing robustness to noisy retrieval.\",\n  \"why_not_or_caveat\": \"Focused on VQA/LVLM setting; not a general text RAG robustness study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and noisy retrieval mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.15050v4",
+  "title": "Beyond Factual Accuracy: Evaluating Global Reasoning Integrity in RAG Systems with LogicScore",
+  "authors": "Zhichao Yan; Yunxiao Zhao; Jiapu Wang; Jiaoyan Chen; Xiaoli Li; Ru Li; Jeff Z. Pan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15050v4",
+  "local_pdf": "pdfs/2026_zhichao_yan_beyond_factual_accuracy_evaluating_global_reasoning_integrity_in_rag_systems_with_logics_4692830d.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a logic-based evaluation metric for RAG long-form answers, addressing reasoning integrity beyond factual accuracy. Tangentially relevant to RAG evaluation but not focused on robustness, noise, conflict, or adversaries.",
+  "why_not_or_caveat": "Focuses on logical coherence evaluation, not on unreliable evidence, noise, conflict, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and Metrics",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:08.015369+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.15050v4\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Proposes a logic-based evaluation metric for RAG long-form answers, addressing reasoning integrity beyond factual accuracy. Tangentially relevant to RAG evaluation but not focused on robustness, noise, conflict, or adversaries.\", \"why_not_or_caveat\": \"Focuses on logical coherence evaluation, not on unreliable evidence, noise, conflict, attacks, or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and Metrics\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

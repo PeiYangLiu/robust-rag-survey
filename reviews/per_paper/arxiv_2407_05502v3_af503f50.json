@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2407.05502v3",
+  "title": "Faux Polyglot: A Study on Information Disparity in Multilingual Large Language Models",
+  "authors": "Nikhil Sharma; Kenton Murray; Ziang Xiao",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2407.05502v3",
+  "local_pdf": "pdfs/2024_nikhil_sharma_faux_polyglot_a_study_on_information_disparity_in_multilingual_large_language_models_af503f50.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies inter-context knowledge conflicts in multilingual RAG, showing language-based biases in retrieval and generation when conflicting evidence appears across languages.",
+  "why_not_or_caveat": "Focus is on linguistic/cultural bias rather than core robustness mechanisms; uses synthetic fictional data.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:11.280647+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2407.05502v3\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies inter-context knowledge conflicts in multilingual RAG, showing language-based biases in retrieval and generation when conflicting evidence appears across languages.\",\n  \"why_not_or_caveat\": \"Focus is on linguistic/cultural bias rather than core robustness mechanisms; uses synthetic fictional data.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge Conflict\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.02053v2",
+  "title": "WildGraphBench: Benchmarking GraphRAG with Wild-Source Corpora",
+  "authors": "Pengyu Wang; Benfeng Xu; Licheng Zhang; Shaohan Wang; Mingxuan Du; Chiwei Zhu; Zhendong Mao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.02053v2",
+  "local_pdf": "pdfs/2026_pengyu_wang_wildgraphbench_benchmarking_graphrag_with_wild_source_corpora_7d5d11f5.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "noisy_retrieval"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a GraphRAG benchmark using heterogeneous, noisy wild-source corpora, touching on noise robustness and multi-document aggregation evaluation.",
+  "why_not_or_caveat": "Focuses on GraphRAG performance evaluation rather than directly studying robustness mechanisms, conflict, calibration, or adversarial settings.",
+  "recommended_use": "background_only",
+  "suggested_section": "Benchmarks for retrieval under noisy/heterogeneous corpora",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:49.069937+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.02053v2\", \"relevance_score\": 3, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\", \"noisy_retrieval\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces a GraphRAG benchmark using heterogeneous, noisy wild-source corpora, touching on noise robustness and multi-document aggregation evaluation.\", \"why_not_or_caveat\": \"Focuses on GraphRAG performance evaluation rather than directly studying robustness mechanisms, conflict, calibration, or adversarial settings.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Benchmarks for retrieval under noisy/heterogeneous corpora\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

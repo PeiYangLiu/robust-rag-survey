@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.03099v2",
+  "title": "A Multi-Survey Machine-Readable Corpus of Milky Way Globular Cluster Parameters for Retrieval-Augmented Generation Applications",
+  "authors": "David C. Flynn",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.03099v2",
+  "local_pdf": "pdfs/2026_david_c_flynn_a_multi_survey_machine_readable_corpus_of_milky_way_globular_cluster_parameters_for_retr_132f9deb.pdf",
+  "metadata_topics": "rag-core; calibration-control",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Describes an astrophysics dataset intended as a RAG knowledge base; does not study robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Domain-specific corpus paper unrelated to robust RAG research questions.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:34.091534+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.03099v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Describes an astrophysics dataset intended as a RAG knowledge base; does not study robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Domain-specific corpus paper unrelated to robust RAG research questions.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

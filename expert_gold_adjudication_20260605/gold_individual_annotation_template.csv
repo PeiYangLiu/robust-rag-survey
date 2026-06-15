@@ -1,0 +1,2 @@
+adjudicator_id,pair_id,individual_verdict,confidence_1_5,failure_type,evidence_assumption,intervention_point,metric_target,action_policy,breaking_coordinates,gold_rationale_candidate,what_valid_comparison_requires,notes
+G01,P01,,,,,,,,,,,

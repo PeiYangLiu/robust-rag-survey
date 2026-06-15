@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.20432v1",
+  "title": "Coding Agents are Effective Long-Context Processors",
+  "authors": "Weili Cao; Xunjian Yin; Bhuwan Dhingra; Shuyan Zhou",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.20432v1",
+  "local_pdf": "pdfs/2026_weili_cao_coding_agents_are_effective_long_context_processors_d4e0d80e.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes coding agents as alternative to RAG for long-context processing; touches on RAG limitations but does not study robustness, noise, conflicts, or calibration.",
+  "why_not_or_caveat": "Focus is on long-context processing efficacy, not robustness under unreliable evidence.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:53.310693+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.20432v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes coding agents as alternative to RAG for long-context processing; touches on RAG limitations but does not study robustness, noise, conflicts, or calibration.\",\"why_not_or_caveat\":\"Focus is on long-context processing efficacy, not robustness under unreliable evidence.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

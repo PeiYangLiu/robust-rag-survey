@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.08099v1",
+  "title": "VidVec: Unlocking Video MLLM Embeddings for Video-Text Retrieval",
+  "authors": "Issar Tzachor; Dvir Samuel; Rami Ben-Ari",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.08099v1",
+  "local_pdf": "pdfs/2026_issar_tzachor_vidvec_unlocking_video_mllm_embeddings_for_video_text_retrieval_081be468.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper is about video-text retrieval using MLLM embeddings, unrelated to robust RAG.",
+  "why_not_or_caveat": "No focus on robustness, noise, conflict, adversaries, or calibration in RAG context.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:11.265523+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.08099v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper is about video-text retrieval using MLLM embeddings, unrelated to robust RAG.\",\"why_not_or_caveat\":\"No focus on robustness, noise, conflict, adversaries, or calibration in RAG context.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

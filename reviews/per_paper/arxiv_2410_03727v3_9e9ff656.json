@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2410.03727v3",
+  "title": "FaithEval: Can Your Language Model Stay Faithful to Context, Even If \"The Moon is Made of Marshmallows\"",
+  "authors": "Yifei Ming; Senthil Purushwalkam; Shrey Pandit; Zixuan Ke; Xuan-Phi Nguyen; Caiming Xiong; Shafiq Joty",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.03727v3",
+  "local_pdf": "pdfs/2024_yifei_ming_faitheval_can_your_language_model_stay_faithful_to_context_even_if_the_moon_is_made_of_m_9e9ff656.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "ood_uncertainty",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "FaithEval is a benchmark specifically targeting contextual faithfulness under unanswerable, inconsistent, and counterfactual retrieved contexts—directly aligning with knowledge conflict, OOD/unanswerable, and evaluation aspects of the survey.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Evaluation/Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:06.043417+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.03727v3\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"ood_uncertainty\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"FaithEval is a benchmark specifically targeting contextual faithfulness under unanswerable, inconsistent, and counterfactual retrieved contexts—directly aligning with knowledge conflict, OOD/unanswerable, and evaluation aspects of the survey.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Evaluation/Benchmarks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

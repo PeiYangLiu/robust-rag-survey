@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2411.16133v2",
+  "title": "Context Awareness Gate For Retrieval Augmented Generation",
+  "authors": "Mohammad Hassan Heydari; Arshia Hemmat; Erfan Naman; Afsaneh Fatemi",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.16133v2",
+  "local_pdf": "pdfs/2024_mohammad_hassan_heydari_context_awareness_gate_for_retrieval_augmented_generation_05ea5606.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a gating mechanism deciding when to retrieve vs rely on internal knowledge, directly addressing the 'when to retrieve' calibration/control problem and mitigating irrelevant retrieval harms.",
+  "why_not_or_caveat": "Statistical heuristic with limited evaluation; not a major benchmark.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and control: when to retrieve",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:25.073426+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2411.16133v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a gating mechanism deciding when to retrieve vs rely on internal knowledge, directly addressing the 'when to retrieve' calibration/control problem and mitigating irrelevant retrieval harms.\",\n  \"why_not_or_caveat\": \"Statistical heuristic with limited evaluation; not a major benchmark.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and control: when to retrieve\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

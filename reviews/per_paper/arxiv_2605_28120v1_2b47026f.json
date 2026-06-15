@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.28120v1",
+  "title": "LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning",
+  "authors": "Zerui Chen; Qinggang Zhang; Zhishang Xiang; Zhimin Wei; Linfeng Gao; Xiao Huang; Zhihong Zhang; Jinsong Su",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28120v1",
+  "local_pdf": "pdfs/2026_zerui_chen_legalgraphrag_multi_agent_graph_retrieval_augmented_generation_for_reliable_legal_reason_2b47026f.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "The paper includes a small analysis showing standard RAG degrades with irrelevant documents and proposes an Auditor agent to verify retrieved evidence, touching on distraction/noise robustness in a legal domain.",
+  "why_not_or_caveat": "Primarily a domain-specific (legal) GraphRAG application; robustness analysis is incidental rather than a core methodological contribution.",
+  "recommended_use": "background_only",
+  "suggested_section": "Distraction / verification-based defenses",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:07.499829+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.28120v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"noisy_retrieval\", \"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"The paper includes a small analysis showing standard RAG degrades with irrelevant documents and proposes an Auditor agent to verify retrieved evidence, touching on distraction/noise robustness in a legal domain.\",\n  \"why_not_or_caveat\": \"Primarily a domain-specific (legal) GraphRAG application; robustness analysis is incidental rather than a core methodological contribution.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Distraction / verification-based defenses\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

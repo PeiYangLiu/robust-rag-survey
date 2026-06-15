@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.18760v1",
+  "title": "DOTRAG: Retrieval-Time Reasoning Along Paths",
+  "authors": "Larnell Moore; Naihao Deng; Rada Mihalcea; Farnaz Jahanbakhsh",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.18760v1",
+  "local_pdf": "pdfs/2026_larnell_moore_dotrag_retrieval_time_reasoning_along_paths_9fc4addb.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a GraphRAG method that prunes irrelevant context during retrieval for multi-hop queries, tangentially related to noisy retrieval.",
+  "why_not_or_caveat": "Focus is on improving retrieval accuracy via reasoning-guided traversal, not on robustness, noise resilience, conflict, attacks, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:17.741372+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.18760v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a GraphRAG method that prunes irrelevant context during retrieval for multi-hop queries, tangentially related to noisy retrieval.\", \"why_not_or_caveat\": \"Focus is on improving retrieval accuracy via reasoning-guided traversal, not on robustness, noise resilience, conflict, attacks, or calibration.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

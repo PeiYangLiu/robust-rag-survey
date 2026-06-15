@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.94}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.18\linewidth}X}
+\toprule
+\textbf{Coverage check} & \textbf{Count} & \textbf{Artifact} & \textbf{Interpretation} \\
+\midrule
+Venue-linked robust-RAG candidates found by metadata pass & 51 unique titles & candidate CSV & Candidate pool from ACL Anthology, DBLP, and OpenAlex metadata queries. \\
+Already in core100 & 6 / 51 & coverage audit CSV & Core narrative captures only a small subset of venue-linked candidates. \\
+Already in survey300 & 14 / 51 & coverage audit CSV & The current survey set misses or intentionally excludes many venue-linked candidates. \\
+Already in evidence map & 13 / 51 & coverage audit CSV & Cross-tabs should be interpreted as map statistics, not field statistics. \\
+Not in original survey300 & 37 / 51 & coverage audit CSV & These papers were subsequently triaged; see Table~\ref{tab:venue-triage-summary}. \\
+\bottomrule
+\end{tabularx}
+\caption{Venue-coverage audit after the metadata pass. The audit quantifies residual coverage risk by matching venue-linked candidates against the original core, survey, and evidence-map sets. Files: \texttt{venue\_systematic\_candidates.csv} and \texttt{venue\_coverage\_audit.csv}.}
+\label{tab:venue-coverage-audit}
+\end{table*}

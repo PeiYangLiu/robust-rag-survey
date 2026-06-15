@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.23515v1",
+  "title": "ragR: Retrieval-Augmented Generation and RAG Assessment in R",
+  "authors": "Muhammad Aimal Rehman; Zhili Lu; Chi-Kuang Yeh",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23515v1",
+  "local_pdf": "pdfs/2026_muhammad_aimal_rehman_ragr_retrieval_augmented_generation_and_rag_assessment_in_r_72d35130.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "An R package wrapping RAGAS metrics; not about robustness, conflict, or unreliable evidence.",
+  "why_not_or_caveat": "Tooling paper for RAG evaluation in R, no contribution to robustness topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:24.909812+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.23515v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"An R package wrapping RAGAS metrics; not about robustness, conflict, or unreliable evidence.\",\"why_not_or_caveat\":\"Tooling paper for RAG evaluation in R, no contribution to robustness topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

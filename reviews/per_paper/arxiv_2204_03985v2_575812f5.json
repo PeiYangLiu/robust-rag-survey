@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2204.03985v2",
+  "title": "KGI: An Integrated Framework for Knowledge Intensive Language Tasks",
+  "authors": "Md Faisal Mahbub Chowdhury; Michael Glass; Gaetano Rossiello; Alfio Gliozzo; Nandana Mihindukulasooriya",
+  "year": "2022",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2204.03985v2",
+  "local_pdf": "pdfs/2022_md_faisal_mahbub_chowdhury_kgi_an_integrated_framework_for_knowledge_intensive_language_tasks_575812f5.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "System demo of RAG for KILT tasks; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:34.841775+00:00",
+  "raw_response": "{\"key\":\"arxiv-2204.03985v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"System demo of RAG for KILT tasks; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

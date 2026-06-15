@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.07158v1",
+  "title": "Topic Is Not Agenda: A Citation-Community Audit of Text Embeddings",
+  "authors": "Junseon Yoo",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.07158v1",
+  "local_pdf": "pdfs/2026_junseon_yoo_topic_is_not_agenda_a_citation_community_audit_of_text_embeddings_816bde24.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Audits embedding-based retrieval failures at fine granularity, exposing a concrete failure mode of scientific RAG where top neighbors are off-agenda, which relates to noisy/imprecise retrieval.",
+  "why_not_or_caveat": "Focuses on embedding semantics vs citation communities rather than robustness, conflict, adversarial, or calibration aspects central to the survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:20.414639+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.07158v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Audits embedding-based retrieval failures at fine granularity, exposing a concrete failure mode of scientific RAG where top neighbors are off-agenda, which relates to noisy/imprecise retrieval.\",\"why_not_or_caveat\":\"Focuses on embedding semantics vs citation communities rather than robustness, conflict, adversarial, or calibration aspects central to the survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

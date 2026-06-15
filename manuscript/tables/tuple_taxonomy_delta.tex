@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.21\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
+\toprule
+\textbf{Comparison family} & \textbf{Ordinary taxonomy code} & \textbf{Five-coordinate code adds} & \textbf{Error reduced} \\
+\midrule
+Noise methods & Same failure family: noisy retrieval / distraction. & Intervention separates filter, training, reader, sufficiency predictor, and benchmark; action separates answer, filter, abstain, and re-retrieve. & Prevents ranking complementary pipeline components as substitutes. \\
+Faithfulness/conflict & Same trust/factuality or grounding family. & Metric unit separates LLM-judge score, span support, answer correctness, and source-conflict resolution; action records expose/resolve/answer. & Prevents treating citation support as conflict robustness. \\
+Conflict vs. poisoning & Same broad ``conflicting evidence'' or robustness family. & Evidence assumption separates natural disagreement from attacker-created evidence; metric separates reconciliation from attack success. & Prevents transfer from benign conflict methods to adversarial defenses. \\
+Security defenses & Same security/attack-defense family. & Assumption records attacker access, insertion budget, objective, and defense action. & Prevents pooling prevention, demotion, detection, traceback, recovery, and leakage control. \\
+Calibration/control & Same uncertainty/adaptive RAG family. & Action policy separates confidence estimation, retrieval trigger, abstention, clarification, verification, and escalation. & Prevents treating better calibration as a complete action policy. \\
+\bottomrule
+\end{tabularx}
+\caption{Side-by-side delta between ordinary robust-RAG taxonomy coding and the five-coordinate tuple. In the five main re-analyses, ordinary family labels would allow a direct or ambiguous comparison in all five cases; tuple coding identifies a breaking coordinate in all five and changes the recommendation.}
+\label{tab:tuple-taxonomy-delta}
+\end{table*}
+

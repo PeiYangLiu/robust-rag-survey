@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.19277v1",
+  "title": "Small Models, Big Tasks: An Exploratory Empirical Study on Small Language Models for Function Calling",
+  "authors": "Ishan Kavathekar; Raghav Donakanti; Ponnurangam Kumaraguru; Karthik Vaidhyanathan",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.19277v1",
+  "local_pdf": "pdfs/2025_ishan_kavathekar_small_models_big_tasks_an_exploratory_empirical_study_on_small_language_models_for_funct_6dd1aebb.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Paper studies SLMs for function calling, not RAG robustness; prompt injection mentioned is direct prompt perturbation in function call generation without retrieval.",
+  "why_not_or_caveat": "Out of scope: no retrieval, no evidence reliability, no RAG-specific robustness study.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:39.060487+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.19277v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Paper studies SLMs for function calling, not RAG robustness; prompt injection mentioned is direct prompt perturbation in function call generation without retrieval.\",\"why_not_or_caveat\":\"Out of scope: no retrieval, no evidence reliability, no RAG-specific robustness study.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

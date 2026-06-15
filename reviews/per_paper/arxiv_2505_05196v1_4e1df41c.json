@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2505.05196v1",
+  "title": "Stealthy LLM-Driven Data Poisoning Attacks Against Embedding-Based Retrieval-Augmented Recommender Systems",
+  "authors": "Fatemeh Nazary; Yashar Deldjoo; Tommaso Di Noia; Eugenio Di Sciascio",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.05196v1",
+  "local_pdf": "pdfs/2025_fatemeh_nazary_stealthy_llm_driven_data_poisoning_attacks_against_embedding_based_retrieval_augmented_r_4e1df41c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies stealthy data poisoning attacks on embedding-based RAG pipelines (in the recommender setting), relevant to adversarial corruption of retrieval corpora.",
+  "why_not_or_caveat": "Domain-specific to recommender systems rather than general QA RAG; narrower scope than canonical PoisonedRAG/BadRAG work.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Data Poisoning",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:33.917849+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.05196v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Studies stealthy data poisoning attacks on embedding-based RAG pipelines (in the recommender setting), relevant to adversarial corruption of retrieval corpora.\",\n  \"why_not_or_caveat\": \"Domain-specific to recommender systems rather than general QA RAG; narrower scope than canonical PoisonedRAG/BadRAG work.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Data Poisoning\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

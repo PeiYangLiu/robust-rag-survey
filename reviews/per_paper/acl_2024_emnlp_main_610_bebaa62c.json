@@ -1,0 +1,27 @@
+{
+  "key": "acl-2024.emnlp-main.610",
+  "title": "\\[[ACL](https://aclanthology.org/2024.emnlp-main.610/)\\] ATM: Adversarial Tuning Multi-agent System Makes a Robust Retrieval-Augmented Generator",
+  "authors": "",
+  "year": "2024",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2024.emnlp-main.610/",
+  "local_pdf": "pdfs/2024_acl_2024_emnlp_main_610_acl_https_aclanthology_org_2024_emnlp_main_610_atm_adversarial_tuning_multi_agen_bebaa62c.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "ATM proposes adversarial multi-agent tuning to make RAG generators robust against fabricated/noisy retrieved documents, directly addressing robustness under unreliable evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Defenses against adversarial/fabricated retrieval",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:38.885920+00:00",
+  "raw_response": "{\"key\":\"acl-2024.emnlp-main.610\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"noisy_retrieval\"],\"paper_role\":\"defense\",\"why_relevant\":\"ATM proposes adversarial multi-agent tuning to make RAG generators robust against fabricated/noisy retrieved documents, directly addressing robustness under unreliable evidence.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Defenses against adversarial/fabricated retrieval\",\"confidence\":0.92}",
+  "skipped_existing": false
+}

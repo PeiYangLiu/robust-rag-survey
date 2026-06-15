@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.07179v3",
+  "title": "Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models",
+  "authors": "Zhibo Hu; Chen Wang; Yanfeng Shu; Helen; Paik; Liming Zhu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.07179v3",
+  "local_pdf": "pdfs/2024_zhibo_hu_prompt_perturbation_in_retrieval_augmented_generation_based_large_language_models_f76bf1f4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes Gradient Guided Prompt Perturbation, an adversarial prefix attack targeting RAG retrieval to induce factually incorrect outputs, plus a neuron-activation-based detection defense. Directly addresses adversarial robustness of RAG.",
+  "why_not_or_caveat": "Focuses on prompt-side perturbations rather than corpus poisoning; defense is detection-based.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and attacks on RAG",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:19.780702+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.07179v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes Gradient Guided Prompt Perturbation, an adversarial prefix attack targeting RAG retrieval to induce factually incorrect outputs, plus a neuron-activation-based detection defense. Directly addresses adversarial robustness of RAG.\",\n  \"why_not_or_caveat\": \"Focuses on prompt-side perturbations rather than corpus poisoning; defense is detection-based.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and attacks on RAG\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

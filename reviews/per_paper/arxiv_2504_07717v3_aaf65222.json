@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.07717v3",
+  "title": "PR-Attack: Coordinated Prompt-RAG Attacks on Retrieval-Augmented Generation in Large Language Models via Bilevel Optimization",
+  "authors": "Yang Jiao; Xiaodong Wang; Kai Yang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.07717v3",
+  "local_pdf": "pdfs/2025_yang_jiao_pr_attack_coordinated_prompt_rag_attacks_on_retrieval_augmented_generation_in_large_lang_aaf65222.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel coordinated poisoning + backdoor prompt attack on RAG, directly relevant to adversarial corruption of retrieval evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Backdoor Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:14.173724+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.07717v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a novel coordinated poisoning + backdoor prompt attack on RAG, directly relevant to adversarial corruption of retrieval evidence.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning and Backdoor Attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

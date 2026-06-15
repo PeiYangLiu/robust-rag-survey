@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.03262v1",
+  "title": "Roles of MLLMs in Visually Rich Document Retrieval for RAG: A Survey",
+  "authors": "Xiantao Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.03262v1",
+  "local_pdf": "pdfs/2025_xiantao_zhang_roles_of_mllms_in_visually_rich_document_retrieval_for_rag_a_survey_61864ee5.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Survey on MLLMs for visually rich document retrieval in RAG; tangentially related as it discusses retrieval design trade-offs but not robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Does not address robustness, adversarial, uncertainty, or calibration topics central to this survey.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:13.047854+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.03262v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"survey_related\"],\"paper_role\":\"survey\",\"why_relevant\":\"Survey on MLLMs for visually rich document retrieval in RAG; tangentially related as it discusses retrieval design trade-offs but not robustness, noise, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Does not address robustness, adversarial, uncertainty, or calibration topics central to this survey.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

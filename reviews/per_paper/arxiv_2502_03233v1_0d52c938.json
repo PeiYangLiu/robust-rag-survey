@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2502.03233v1",
+  "title": "Exploring the Security Threats of Knowledge Base Poisoning in Retrieval-Augmented Code Generation",
+  "authors": "Bo Lin; Shangwen Wang; Liqian Chen; Xiaoguang Mao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.03233v1",
+  "local_pdf": "pdfs/2025_bo_lin_exploring_the_security_threats_of_knowledge_base_poisoning_in_retrieval_augmented_code_g_0d52c938.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "First empirical study of knowledge base poisoning in retrieval-augmented code generation, showing that vulnerable code injected into the KB propagates security issues into generated code. Directly relevant to the adversarial corruption / poisoning subsection of the survey.",
+  "why_not_or_caveat": "Domain-specific to code generation rather than general QA RAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: knowledge base poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:30.593543+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.03233v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"First empirical study of knowledge base poisoning in retrieval-augmented code generation, showing that vulnerable code injected into the KB propagates security issues into generated code. Directly relevant to the adversarial corruption / poisoning subsection of the survey.\",\n  \"why_not_or_caveat\": \"Domain-specific to code generation rather than general QA RAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption: knowledge base poisoning\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

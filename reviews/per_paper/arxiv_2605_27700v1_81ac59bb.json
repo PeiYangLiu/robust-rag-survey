@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.27700v1",
+  "title": "CiteCheck: Retrieval-Grounded Detection of LLM Citation Hallucinations in Scientific Text",
+  "authors": "Khashayar Khajavi; Shaghayegh Sadeghi; Rise Adhikari; Alexander Tessier",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27700v1",
+  "local_pdf": "pdfs/2026_khashayar_khajavi_citecheck_retrieval_grounded_detection_of_llm_citation_hallucinations_in_scientific_text_81ac59bb.pdf",
+  "metadata_topics": "knowledge-conflict; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "CiteCheck uses retrieval-grounded verification to detect citation hallucinations, tangentially related to using RAG for fact/source verification.",
+  "why_not_or_caveat": "Focuses on citation metadata verification, not robustness of RAG to unreliable evidence, conflict, attacks, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:57.450626+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.27700v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"CiteCheck uses retrieval-grounded verification to detect citation hallucinations, tangentially related to using RAG for fact/source verification.\",\n  \"why_not_or_caveat\": \"Focuses on citation metadata verification, not robustness of RAG to unreliable evidence, conflict, attacks, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

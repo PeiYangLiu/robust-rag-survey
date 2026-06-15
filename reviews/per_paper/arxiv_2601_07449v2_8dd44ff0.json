@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.07449v2",
+  "title": "RLPO: Residual Listwise Preference Optimization for Long-Context Review Ranking",
+  "authors": "Hao Jiang; Zhi Yang; Annan Wang; Yichi Zhang; Weisi Lin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.07449v2",
+  "local_pdf": "pdfs/2026_hao_jiang_rlpo_residual_listwise_preference_optimization_for_long_context_review_ranking_8dd44ff0.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper concerns review ranking in e-commerce via residual listwise preference optimization, unrelated to RAG robustness.",
+  "why_not_or_caveat": "No connection to retrieval-augmented generation robustness, noise, conflict, adversaries, or calibration in RAG context.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:11.766309+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.07449v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper concerns review ranking in e-commerce via residual listwise preference optimization, unrelated to RAG robustness.\",\"why_not_or_caveat\":\"No connection to retrieval-augmented generation robustness, noise, conflict, adversaries, or calibration in RAG context.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

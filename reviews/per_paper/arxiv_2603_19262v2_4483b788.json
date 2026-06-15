@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.19262v2",
+  "title": "Empirical Characterization of Inference-Time Elicited Probability Transformations in Large Language Models",
+  "authors": "Mike Farmer; Abhinav Kochar; Yugyung Lee",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19262v2",
+  "local_pdf": "pdfs/2026_mike_farmer_empirical_characterization_of_inference_time_elicited_probability_transformations_in_lar_4483b788.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies how inference-time prompting (including retrieval augmentation and verifier feedback) transforms elicited probabilities, with implications for calibration and evidence amplification.",
+  "why_not_or_caveat": "Not specific to RAG robustness; focuses on general log-ratio probability transformations across prompting pipelines rather than unreliable evidence handling.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control",
+  "confidence": 0.5,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:41.969990+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.19262v2\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies how inference-time prompting (including retrieval augmentation and verifier feedback) transforms elicited probabilities, with implications for calibration and evidence amplification.\",\n  \"why_not_or_caveat\": \"Not specific to RAG robustness; focuses on general log-ratio probability transformations across prompting pipelines rather than unreliable evidence handling.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and control\",\n  \"confidence\": 0.5\n}",
+  "skipped_existing": false
+}

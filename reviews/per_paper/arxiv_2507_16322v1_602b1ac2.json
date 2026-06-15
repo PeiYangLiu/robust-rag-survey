@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.16322v1",
+  "title": "Mind the Gap: Evaluating the Representativeness of Quantitative Medical Language Reasoning LLM Benchmarks for African Disease Burdens",
+  "authors": "Fred Mutisya; Shikoh Gitau; Christine Syovata; Diana Oigara; Ibrahim Matende; Muna Aden; Munira Ali; Ryan Nyotu; Diana Marion; Job Nyangena; Nasubo Ongoma; Keith Mbae; Elizabeth Wamicha; Eric Mibuari; Jean Philbert Nsengemana; Talkmore Chidede",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.16322v1",
+  "local_pdf": "pdfs/2025_fred_mutisya_mind_the_gap_evaluating_the_representativeness_of_quantitative_medical_language_reasonin_602b1ac2.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG to generate a medical QA benchmark but does not study robustness, reliability, or unreliable evidence.",
+  "why_not_or_caveat": "Focuses on representativeness of medical benchmarks for African disease burdens; out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.487980+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.16322v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG to generate a medical QA benchmark but does not study robustness, reliability, or unreliable evidence.\",\"why_not_or_caveat\":\"Focuses on representativeness of medical benchmarks for African disease burdens; out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

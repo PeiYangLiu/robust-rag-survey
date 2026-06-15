@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2601.16478v1",
+  "title": "DeepEra: A Deep Evidence Reranking Agent for Scientific Retrieval-Augmented Generated Question Answering",
+  "authors": "Haotian Chen; Qingqing Long; Siyu Pu; Xiao Luo; Wei Ju; Meng Xiao; Yuanchun Zhou; Jianghua Zhao; Xuezhi Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.16478v1",
+  "local_pdf": "pdfs/2026_haotian_chen_deepera_a_deep_evidence_reranking_agent_for_scientific_retrieval_augmented_generated_que_403a2647.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a reranking agent and benchmark (SciRAG-SSLI) specifically targeting semantically similar but logically irrelevant distractor passages in RAG, directly addressing noisy retrieval and distraction robustness.",
+  "why_not_or_caveat": "Focused on scientific QA domain; reranking-centric rather than full robustness taxonomy.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Retrieval",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:46.642116+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.16478v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a reranking agent and benchmark (SciRAG-SSLI) specifically targeting semantically similar but logically irrelevant distractor passages in RAG, directly addressing noisy retrieval and distraction robustness.\",\"why_not_or_caveat\":\"Focused on scientific QA domain; reranking-centric rather than full robustness taxonomy.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and Noisy Retrieval\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

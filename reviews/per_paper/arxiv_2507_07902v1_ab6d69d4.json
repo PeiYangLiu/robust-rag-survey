@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2507.07902v1",
+  "title": "MIRA: A Novel Framework for Fusing Modalities in Medical RAG",
+  "authors": "Jinhong Wang; Tajamul Ashraf; Zongyan Han; Jorma Laaksonen; Rao Mohammad Anwer",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.07902v1",
+  "local_pdf": "pdfs/2025_jinhong_wang_mira_a_novel_framework_for_fusing_modalities_in_medical_rag_ab6d69d4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a medical multimodal RAG with dynamic k-selection to balance retrieval imbalance and over-reliance, touching on calibration-style control of retrieved context.",
+  "why_not_or_caveat": "Domain-specific medical VQA application; robustness aspects are incidental rather than the core contribution.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and Control (domain examples)",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:13.702433+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2507.07902v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"other\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes a medical multimodal RAG with dynamic k-selection to balance retrieval imbalance and over-reliance, touching on calibration-style control of retrieved context.\",\n  \"why_not_or_caveat\": \"Domain-specific medical VQA application; robustness aspects are incidental rather than the core contribution.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Calibration and Control (domain examples)\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}X}
+\toprule
+\textbf{Case} & \textbf{Papers / settings compared} & \textbf{Why naive comparison fails} & \textbf{Synthesis from the framework} \\
+\midrule
+Noise vs. distraction & IrrelCtx, RAAT, RGB, Chain-of-Note, Sufficient Context & Some vary retriever noise, some change generator reading behavior, and some decide answerability; robust accuracy, ability scores, and abstention metrics answer different questions. & Treat retrieval imperfection, harmful context influence, and insufficient evidence as separate states; compare methods only after fixing the intervention point and required action. \\
+Knowledge conflict vs. poisoning & Tug-of-War, FaithfulRAG, AstuteRAG versus PoisonedRAG, BadRAG, One-Shot Dominance & Natural contradiction and attacker-created contradiction can look similar in context but imply different threat models, metrics, and defense requirements. & Conflict papers test source reconciliation; poisoning papers test adversarial integrity. They should share evidence-state annotations but not a single success metric. \\
+Calibration vs. abstention vs. retrieval control & Self-RAG, CtrlA, CalibRAG, URAG, Sufficient Context, SABER-style trust/abstain methods & ECE, selective risk, retrieval-trigger quality, and abstention precision measure different objects; better confidence does not necessarily repair evidence or choose the right user action. & Separate belief estimation from action selection. A complete benchmark should score confidence, evidence sufficiency, final action, and cost. \\
+Poisoning-defense threat-model mismatch & Certified defenses, isolate-and-aggregate defenses, traceback methods, prompt-injection defenses, poisoning benchmarks & One defense may assume bounded corruptions, another assumes traceback observability, and another assumes prompt-instruction separation; attack success rates transfer poorly across assumptions. & Report corpus write access, insertion budget, retriever visibility, generator access, stealth, and whether malicious evidence was retrieved before comparing defenses. \\
+\bottomrule
+\end{tabularx}
+\caption{Critical case studies showing how the comparability framework changes interpretation of representative robust-RAG papers.}
+\label{tab:critical-case-studies}
+\end{table*}
+

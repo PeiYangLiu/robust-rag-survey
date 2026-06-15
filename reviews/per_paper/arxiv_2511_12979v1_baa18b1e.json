@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.12979v1",
+  "title": "RAGPulse: An Open-Source RAG Workload Trace to Optimize RAG Serving Systems",
+  "authors": "Zhengchao Wang; Yitao Hu; Jianing Ye; Zhuxuan Chang; Jiazheng Yu; Youpeng Deng; Keqiu Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.12979v1",
+  "local_pdf": "pdfs/2025_zhengchao_wang_ragpulse_an_open_source_rag_workload_trace_to_optimize_rag_serving_systems_baa18b1e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "Paper provides a RAG workload trace for serving system optimization (caching, batching).",
+  "why_not_or_caveat": "Not about robustness, conflict, adversaries, calibration, or evaluation under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.550139+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.12979v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"Paper provides a RAG workload trace for serving system optimization (caching, batching).\",\"why_not_or_caveat\":\"Not about robustness, conflict, adversaries, calibration, or evaluation under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2403.11747v2",
+  "title": "Embedded Named Entity Recognition using Probing Classifiers",
+  "authors": "Nicholas Popovič; Michael Färber",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.11747v2",
+  "local_pdf": "pdfs/2024_nicholas_popovi_embedded_named_entity_recognition_using_probing_classifiers_0673637f.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes streaming NER via probing classifiers in decoder LMs; not about RAG robustness.",
+  "why_not_or_caveat": "Does not address noise, conflict, adversaries, calibration, or evaluation of RAG reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:33.297409+00:00",
+  "raw_response": "{\"key\":\"arxiv-2403.11747v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes streaming NER via probing classifiers in decoder LMs; not about RAG robustness.\",\"why_not_or_caveat\":\"Does not address noise, conflict, adversaries, calibration, or evaluation of RAG reliability.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

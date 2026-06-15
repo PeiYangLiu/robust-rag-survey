@@ -1,0 +1,29 @@
+{
+  "key": "arxiv-2409.10102",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2409.10102)] Trustworthiness in Retrieval-Augmented Generation Systems: A Survey",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.10102",
+  "local_pdf": "pdfs/na_arxiv_2409_10102_ins_arxiv_ins_https_arxiv_org_abs_2409_10102_trustworthiness_in_retrieval_augmen_60139999.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "survey_related",
+    "adversarial_corruption",
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "A comprehensive survey of trustworthy RAG covering robustness, factuality, attacks/defenses, and evaluation benchmarks—directly overlapping with the proposed survey's scope.",
+  "why_not_or_caveat": "As a competing survey, should be cited and differentiated rather than treated as a primary technique.",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Related Surveys",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:23.237958+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.10102\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"survey_related\",\"adversarial_corruption\",\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"survey\",\"why_relevant\":\"A comprehensive survey of trustworthy RAG covering robustness, factuality, attacks/defenses, and evaluation benchmarks—directly overlapping with the proposed survey's scope.\",\"why_not_or_caveat\":\"As a competing survey, should be cited and differentiated rather than treated as a primary technique.\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Related Surveys\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

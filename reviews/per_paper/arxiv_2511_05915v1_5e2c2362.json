@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.05915v1",
+  "title": "CoEdge-RAG: Optimizing Hierarchical Scheduling for Retrieval-Augmented LLMs in Collaborative Edge Computing",
+  "authors": "Guihang Hong; Tao Ouyang; Kongyange Zhao; Zhi Zhou; Xu Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.05915v1",
+  "local_pdf": "pdfs/2025_guihang_hong_coedge_rag_optimizing_hierarchical_scheduling_for_retrieval_augmented_llms_in_collaborat_5e2c2362.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "other",
+  "why_relevant": "Paper focuses on scheduling and resource allocation for RAG in edge computing, not robustness/reliability under unreliable evidence.",
+  "why_not_or_caveat": "No treatment of noise, conflict, adversaries, calibration, or uncertainty.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:49.413015+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.05915v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"other\",\"why_relevant\":\"Paper focuses on scheduling and resource allocation for RAG in edge computing, not robustness/reliability under unreliable evidence.\",\"why_not_or_caveat\":\"No treatment of noise, conflict, adversaries, calibration, or uncertainty.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

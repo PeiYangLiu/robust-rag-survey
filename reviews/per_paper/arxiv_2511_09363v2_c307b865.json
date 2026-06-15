@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.09363v2",
+  "title": "BarrierBench: Evaluating Large Language Models for Safety Verification in Dynamical Systems",
+  "authors": "Ali Taheri; Alireza Taban; Sadegh Soudjani; Ashutosh Trivedi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.09363v2",
+  "local_pdf": "pdfs/2025_ali_taheri_barrierbench_evaluating_large_language_models_for_safety_verification_in_dynamical_syste_c307b865.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG within an agentic framework for barrier certificate synthesis but does not study RAG robustness, reliability, or unreliable evidence.",
+  "why_not_or_caveat": "Application of RAG to formal verification; out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:00.116698+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.09363v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG within an agentic framework for barrier certificate synthesis but does not study RAG robustness, reliability, or unreliable evidence.\",\"why_not_or_caveat\":\"Application of RAG to formal verification; out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

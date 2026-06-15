@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.03979v1",
+  "title": "SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems",
+  "authors": "Andreea-Elena Bodea; Stephen Meisenbacher; Alexandra Klymenko; Florian Matthes",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.03979v1",
+  "local_pdf": "pdfs/2026_andreea_elena_bodea_sok_privacy_risks_and_mitigations_in_retrieval_augmented_generation_systems_60d83752.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Systematic review of privacy risks and mitigations in RAG, partially overlapping with adversarial attacks like leakage and extraction.",
+  "why_not_or_caveat": "Focus is privacy/data protection rather than robustness under unreliable evidence, noise, conflict, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Related surveys",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:57.527400+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.03979v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"adversarial_corruption\", \"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Systematic review of privacy risks and mitigations in RAG, partially overlapping with adversarial attacks like leakage and extraction.\",\n  \"why_not_or_caveat\": \"Focus is privacy/data protection rather than robustness under unreliable evidence, noise, conflict, or calibration.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"Related surveys\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

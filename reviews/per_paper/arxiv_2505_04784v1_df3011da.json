@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.04784v1",
+  "title": "A Proposal for Evaluating the Operational Risk for ChatBots based on Large Language Models",
+  "authors": "Pedro Pinacho-Davidson; Fernando Gutierrez; Pablo Zapata; Rodolfo Vergara; Pablo Aqueveque",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.04784v1",
+  "local_pdf": "pdfs/2025_pedro_pinacho_davidson_a_proposal_for_evaluating_the_operational_risk_for_chatbots_based_on_large_language_mode_df3011da.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "evaluation",
+  "why_relevant": "Proposes a generic operational risk metric for LLM chatbots, demonstrated on RAG systems, touching on prompt injection and misinformation risks.",
+  "why_not_or_caveat": "Focus is on a general cybersecurity risk scoring framework for chatbots, not on RAG-specific robustness, retrieval noise, conflict, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:22.970943+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.04784v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"evaluation\",\"why_relevant\":\"Proposes a generic operational risk metric for LLM chatbots, demonstrated on RAG systems, touching on prompt injection and misinformation risks.\",\"why_not_or_caveat\":\"Focus is on a general cybersecurity risk scoring framework for chatbots, not on RAG-specific robustness, retrieval noise, conflict, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

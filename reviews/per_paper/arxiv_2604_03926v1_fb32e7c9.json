@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.03926v1",
+  "title": "CODE-GEN: A Human-in-the-Loop RAG-Based Agentic AI System for Multiple-Choice Question Generation",
+  "authors": "Xiaojing Duan; Frederick Nwanganga; Chaoli Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.03926v1",
+  "local_pdf": "pdfs/2026_xiaojing_duan_code_gen_a_human_in_the_loop_rag_based_agentic_ai_system_for_multiple_choice_question_ge_fb32e7c9.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for educational MCQ generation; does not study robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:34.087651+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.03926v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for educational MCQ generation; does not study robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"Out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.22724v1",
+  "title": "AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification",
+  "authors": "Tian Zhang; Yiwei Xu; Juan Wang; Keyan Guo; Xiaoyang Xu; Bowen Xiao; Quanlong Guan; Jinlin Fan; Jiawei Liu; Zhiquan Liu; Hongxin Hu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.22724v1",
+  "local_pdf": "pdfs/2026_tian_zhang_agentsentry_mitigating_indirect_prompt_injection_in_llm_agents_via_temporal_causal_diagn_05cb878f.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes an inference-time defense against indirect prompt injection in tool/retrieval-augmented LLM agents, directly relevant to adversarial corruption of retrieved content.",
+  "why_not_or_caveat": "Focuses on agent workflows rather than pure RAG QA; IPI defense via causal diagnostics is agent-centric.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Indirect Prompt Injection Defenses",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:33.059738+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.22724v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\"], \"paper_role\": \"defense\", \"why_relevant\": \"Proposes an inference-time defense against indirect prompt injection in tool/retrieval-augmented LLM agents, directly relevant to adversarial corruption of retrieved content.\", \"why_not_or_caveat\": \"Focuses on agent workflows rather than pure RAG QA; IPI defense via causal diagnostics is agent-centric.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial Corruption: Indirect Prompt Injection Defenses\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

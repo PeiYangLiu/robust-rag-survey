@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.10717v1",
+  "title": "Detecting RAG Extraction Attack via Dual-Path Runtime Integrity Game",
+  "authors": "Yuanbo Xie; Yingjie Zhang; Yulin Li; Shouyou Song; Xiaokun Chen; Zhihan Liu; Liya Su; Tingwen Liu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.10717v1",
+  "local_pdf": "pdfs/2026_yuanbo_xie_detecting_rag_extraction_attack_via_dual_path_runtime_integrity_game_7fc5ba7a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a runtime defense (CanaryRAG) against RAG knowledge base extraction attacks, relevant to adversarial corruption/leakage threats in RAG.",
+  "why_not_or_caveat": "Focuses on privacy/extraction leakage rather than evidence corruption or generation robustness; tangential to core robustness themes.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:24:03.231817+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.10717v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a runtime defense (CanaryRAG) against RAG knowledge base extraction attacks, relevant to adversarial corruption/leakage threats in RAG.\",\"why_not_or_caveat\":\"Focuses on privacy/extraction leakage rather than evidence corruption or generation robustness; tangential to core robustness themes.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Defenses\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

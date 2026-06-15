@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.01885v1",
+  "title": "ES-MemEval: Benchmarking Conversational Agents on Personalized Long-Term Emotional Support",
+  "authors": "Tiantian Chen; Jiaqi Lu; Ying Shen; Lin Zhang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.01885v1",
+  "local_pdf": "pdfs/2026_tiantian_chen_es_memeval_benchmarking_conversational_agents_on_personalized_long_term_emotional_suppor_5f6bcbe1.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmark evaluates RAG alongside long-context LLMs on memory tasks including conflict detection and abstention, noting RAG's temporal limitations.",
+  "why_not_or_caveat": "Domain-specific to emotional support dialogue; robustness aspects are incidental rather than central.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation/Benchmarks",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:29.750022+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.01885v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Benchmark evaluates RAG alongside long-context LLMs on memory tasks including conflict detection and abstention, noting RAG's temporal limitations.\", \"why_not_or_caveat\": \"Domain-specific to emotional support dialogue; robustness aspects are incidental rather than central.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation/Benchmarks\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

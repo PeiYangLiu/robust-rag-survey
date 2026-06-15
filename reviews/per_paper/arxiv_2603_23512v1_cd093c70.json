@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.23512v1",
+  "title": "S-Path-RAG: Semantic-Aware Shortest-Path Retrieval Augmented Generation for Multi-Hop Knowledge Graph Question Answering",
+  "authors": "Rong Fu; Yemin Wang; Tianxiang Xu; Yongtai Liu; Weizhi Tang; Wangyu Wu; Xiaowen Ma; Simon Fong",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.23512v1",
+  "local_pdf": "pdfs/2026_rong_fu_s_path_rag_semantic_aware_shortest_path_retrieval_augmented_generation_for_multi_hop_kno_cd093c70.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KGQA RAG method with iterative retrieval triggered by model uncertainty and a verifier to suppress false positives, tangentially touching calibration/control.",
+  "why_not_or_caveat": "Primarily a KGQA retrieval method paper; robustness, conflict, adversarial, and calibration are not central contributions.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:58.031494+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.23512v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a KGQA RAG method with iterative retrieval triggered by model uncertainty and a verifier to suppress false positives, tangentially touching calibration/control.\", \"why_not_or_caveat\": \"Primarily a KGQA retrieval method paper; robustness, conflict, adversarial, and calibration are not central contributions.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

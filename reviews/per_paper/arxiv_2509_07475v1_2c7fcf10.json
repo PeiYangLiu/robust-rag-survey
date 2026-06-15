@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.07475v1",
+  "title": "HALT-RAG: A Task-Adaptable Framework for Hallucination Detection with Calibrated NLI Ensembles and Abstention",
+  "authors": "Saumya Goswami; Siddharth Kurra",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.07475v1",
+  "local_pdf": "pdfs/2025_saumya_goswami_halt_rag_a_task_adaptable_framework_for_hallucination_detection_with_calibrated_nli_ense_2c7fcf10.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a post-hoc hallucination detector for RAG outputs with calibrated probabilities and an abstention mechanism, directly relevant to calibration/control and abstention under unreliable evidence.",
+  "why_not_or_caveat": "Retrieval-agnostic post-hoc verifier; does not address retrieval noise or adversarial attacks directly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:15.062448+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.07475v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a post-hoc hallucination detector for RAG outputs with calibrated probabilities and an abstention mechanism, directly relevant to calibration/control and abstention under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Retrieval-agnostic post-hoc verifier; does not address retrieval noise or adversarial attacks directly.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Abstention\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

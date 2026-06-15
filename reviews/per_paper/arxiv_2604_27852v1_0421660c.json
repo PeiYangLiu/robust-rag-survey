@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2604.27852v1",
+  "title": "NeocorRAG: Less Irrelevant Information, More Explicit Evidence, and More Effective Recall via Evidence Chains",
+  "authors": "Shiyao Peng; Qianhe Zheng; Zhuodi Hao; Zichen Tang; Rongjin Li; Qing Huang; Jiayu Huang; Jiacheng Liu; Yifan Zhu; Haihong E",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.27852v1",
+  "local_pdf": "pdfs/2026_shiyao_peng_neocorrag_less_irrelevant_information_more_explicit_evidence_and_more_effective_recall_v_0421660c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a new metric (Recall Conversion Rate) exposing how retrieved noise/interfering information degrades reasoning, and introduces a method to filter irrelevant/distracting content via evidence chains, directly addressing noisy retrieval and distraction.",
+  "why_not_or_caveat": "Focused on QA quality optimization rather than adversarial or conflict settings.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and distraction mitigation",
+  "confidence": 0.75,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.380077+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.27852v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a new metric (Recall Conversion Rate) exposing how retrieved noise/interfering information degrades reasoning, and introduces a method to filter irrelevant/distracting content via evidence chains, directly addressing noisy retrieval and distraction.\",\"why_not_or_caveat\":\"Focused on QA quality optimization rather than adversarial or conflict settings.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval and distraction mitigation\",\"confidence\":0.75}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.25393v1",
+  "title": "Decision-Making with Lightweight Confidence-Aware Language Model for Autonomous Driving",
+  "authors": "Ruoyu Yao; Ruiguo Zhong; Pei Liu; Mingxing Peng; Rui Yang; Jun Ma",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.25393v1",
+  "local_pdf": "pdfs/2026_ruoyu_yao_decision_making_with_lightweight_confidence_aware_language_model_for_autonomous_driving_06128b1c.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG within an autonomous driving decision pipeline but does not study RAG robustness, conflict, or calibration of retrieved evidence.",
+  "why_not_or_caveat": "Application of RAG to AD; no analysis of unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:07.445934+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.25393v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG within an autonomous driving decision pipeline but does not study RAG robustness, conflict, or calibration of retrieved evidence.\",\"why_not_or_caveat\":\"Application of RAG to AD; no analysis of unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.00513v1",
+  "title": "When Small Models Are Right for Wrong Reasons: Process Verification for Trustworthy Agents",
+  "authors": "Laksh Advani",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.00513v1",
+  "local_pdf": "pdfs/2026_laksh_advani_when_small_models_are_right_for_wrong_reasons_process_verification_for_trustworthy_agent_cb4e2d8d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "calibration_control"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies reasoning integrity in small models and finds RAG improves grounding while self-critique harms it; tangentially touches process verification relevant to trustworthy RAG agents.",
+  "why_not_or_caveat": "Focus is on process-level reasoning verification, not on robustness of RAG to unreliable evidence; uses oracle context rather than studying noisy/conflicting/adversarial retrieval.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:04.312125+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.00513v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"evaluation_benchmark\", \"calibration_control\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Studies reasoning integrity in small models and finds RAG improves grounding while self-critique harms it; tangentially touches process verification relevant to trustworthy RAG agents.\",\n  \"why_not_or_caveat\": \"Focus is on process-level reasoning verification, not on robustness of RAG to unreliable evidence; uses oracle context rather than studying noisy/conflicting/adversarial retrieval.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

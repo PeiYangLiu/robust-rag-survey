@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.10375v1",
+  "title": "TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation with Knowledge Graphs",
+  "authors": "Shuyi Liu; Yuming Shang; Xi Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.10375v1",
+  "local_pdf": "pdfs/2025_shuyi_liu_truthfulrag_resolving_factual_level_conflicts_in_retrieval_augmented_generation_with_kno_ec5f7b72.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KG-based method to resolve factual conflicts between parametric and retrieved knowledge in RAG, directly addressing the knowledge conflict axis of the survey.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.675931+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.10375v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a KG-based method to resolve factual conflicts between parametric and retrieved knowledge in RAG, directly addressing the knowledge conflict axis of the survey.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

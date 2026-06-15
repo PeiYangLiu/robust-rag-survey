@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.01268v1",
+  "title": "Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems",
+  "authors": "Minseok Kim; Hankook Lee; Hyungjoon Koo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.01268v1",
+  "local_pdf": "pdfs/2025_minseok_kim_rescuing_the_unpoisoned_efficient_defense_against_knowledge_corruption_attacks_on_rag_sy_f29cd019.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes RAGDefender, a post-retrieval lightweight defense against knowledge corruption/data poisoning attacks on RAG, with comparative evaluation against RobustRAG and Discern-and-Answer.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:37.900245+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.01268v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes RAGDefender, a post-retrieval lightweight defense against knowledge corruption/data poisoning attacks on RAG, with comparative evaluation against RobustRAG and Discern-and-Answer.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Defenses\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

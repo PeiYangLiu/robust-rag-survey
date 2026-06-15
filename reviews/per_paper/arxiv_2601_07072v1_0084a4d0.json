@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.07072v1",
+  "title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+  "authors": "Hongyan Chang; Ergute Bao; Xinjian Luo; Ting Yu",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.07072v1",
+  "local_pdf": "pdfs/2026_hongyan_chang_overcoming_the_retrieval_barrier_indirect_prompt_injection_in_the_wild_for_llm_systems_0084a4d0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Presents an end-to-end indirect prompt injection attack on RAG/agentic systems that solves the retrieval bottleneck via black-box trigger optimization, and evaluates existing defenses, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Indirect Prompt Injection",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:01.627716+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.07072v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"attack\",\"why_relevant\":\"Presents an end-to-end indirect prompt injection attack on RAG/agentic systems that solves the retrieval bottleneck via black-box trigger optimization, and evaluates existing defenses, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Indirect Prompt Injection\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

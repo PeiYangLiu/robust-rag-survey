@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2605.27105v2",
+  "title": "Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG",
+  "authors": "Jorge Gabín; Anxo Perez; Javier Parapar",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27105v2",
+  "local_pdf": "pdfs/2026_jorge_gab_n_lost_in_the_evidence_reproducing_document_position_and_context_size_effects_in_rag_ca724ab0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Systematic reproducibility study of position bias (lost-in-the-middle) and context size effects in RAG under imperfect retrieval, directly addressing robustness to noisy/ordered evidence and evaluation methodology.",
+  "why_not_or_caveat": "Focused on reproducibility/evaluation rather than proposing defenses or calibration methods for robustness.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and positional sensitivity / Evaluation",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:31.372374+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2605.27105v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\", \"evaluation_benchmark\"],\n  \"paper_role\": \"analysis\",\n  \"why_relevant\": \"Systematic reproducibility study of position bias (lost-in-the-middle) and context size effects in RAG under imperfect retrieval, directly addressing robustness to noisy/ordered evidence and evaluation methodology.\",\n  \"why_not_or_caveat\": \"Focused on reproducibility/evaluation rather than proposing defenses or calibration methods for robustness.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and positional sensitivity / Evaluation\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

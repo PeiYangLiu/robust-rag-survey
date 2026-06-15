@@ -1,0 +1,26 @@
+{
+  "key": "acl-2025.acl-long.1381",
+  "title": "[[<ins>arxiv</ins>](https://aclanthology.org/2025.acl-long.1381/)] Medical Graph RAG: Evidence-based Medical Large Language Model via Graph Retrieval-Augmented Generation",
+  "authors": "",
+  "year": "2025",
+  "source": "ACL Anthology",
+  "url": "https://aclanthology.org/2025.acl-long.1381/",
+  "local_pdf": "pdfs/2025_acl_2025_acl_long_1381_ins_arxiv_ins_https_aclanthology_org_2025_acl_long_1381_medical_graph_rag_eviden_2c3236a4.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a medical graph-based RAG method emphasizing evidence-based sourcing, but does not directly study robustness, noise, conflict, adversarial attacks, or calibration.",
+  "why_not_or_caveat": "Domain application of GraphRAG; reliability framing is incidental, not a robustness analysis under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:25.971906+00:00",
+  "raw_response": "{\"key\":\"acl-2025.acl-long.1381\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a medical graph-based RAG method emphasizing evidence-based sourcing, but does not directly study robustness, noise, conflict, adversarial attacks, or calibration.\",\"why_not_or_caveat\":\"Domain application of GraphRAG; reliability framing is incidental, not a robustness analysis under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

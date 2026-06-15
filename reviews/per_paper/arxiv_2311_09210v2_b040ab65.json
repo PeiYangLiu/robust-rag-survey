@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2311.09210v2",
+  "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+  "authors": "Wenhao Yu; Hongming Zhang; Xiaoman Pan; Kaixin Ma; Hongwei Wang; Dong Yu",
+  "year": "2023",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2311.09210v2",
+  "local_pdf": "pdfs/2023_wenhao_yu_chain_of_note_enhancing_robustness_in_retrieval_augmented_language_models_b040ab65.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "ood_uncertainty",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Chain-of-Note directly targets RAG robustness to noisy/irrelevant retrieved documents and unknown-question abstention, key topics of the survey.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy retrieval and abstention methods",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:21.103503+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2311.09210v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"ood_uncertainty\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Chain-of-Note directly targets RAG robustness to noisy/irrelevant retrieved documents and unknown-question abstention, key topics of the survey.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Noisy retrieval and abstention methods\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

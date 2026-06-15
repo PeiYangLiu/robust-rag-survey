@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.88}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}X}
+\toprule
+\textbf{Pair} & \textbf{Control pattern} & \textbf{Protocol pattern} & \textbf{Tuple explanation} & \textbf{Disagreement lesson} \\
+\midrule
+P08 & 1/15 matched gold; 14/15 chose partial instead of invalid. & 13/15 matched invalid. & AstuteRAG-style benign conflict reasoning and PoisonedRAG-style attacker-created evidence differ in threat model, intervention point, metric polarity, and action. & Without the tuple, experts tended to over-group conflict and poisoning as related robustness papers. \\
+P04 & 3/15 matched partial; 12/15 over-called valid. & 15/15 matched partial. & Chain-of-Note and irrelevant-context filtering share a noise family but differ in generator reasoning vs. context filtering and answer+abstain vs. filter+answer actions. & The tuple turns a tempting leaderboard comparison into a pipeline-composition claim. \\
+P01 & 11/15 matched partial; 4/15 over-called valid. & 15/15 matched partial. & IrrelCtx and RAAT share answer metrics but differ in natural retrieval noise vs. constructed counterfactual noise and filter/back-off vs. answer-only actions. & The tuple exposes action-policy mismatch even when datasets and metrics overlap. \\
+P09 & 13/15 matched partial; 2/15 over-called valid. & 15/15 matched partial. & PoisonedRAG and certified/robust defenses share bounded corruption but differ in attacker vs. defender role, attack success vs. certified robust accuracy, and answer/abstain/filter actions. & Even same-threat-space papers need role and action normalization before ranking. \\
+P02 & 14/15 matched partial; 1/15 over-called invalid. & 15/15 matched partial. & IrrelCtx is a method paper; RGB is a benchmark artifact with negative rejection and counterfactual testbeds. & Method-vs-benchmark comparisons should ask what evaluation would make them comparable. \\
+\bottomrule
+\end{tabularx}
+\caption{Disagreement analysis for the external expert-use stress test. The table reports illustrative real paper-pair comparisons where ordinary expert judgment and tuple-guided judgment diverged. It is usability evidence for the protocol on 12 hard pairs, not population-level validation.}
+\label{tab:expert-disagreement-analysis}
+\end{table*}
+

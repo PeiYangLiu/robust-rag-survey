@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2505.21115v1",
+  "title": "Will It Still Be True Tomorrow? Multilingual Evergreen Question Classification to Improve Trustworthy QA",
+  "authors": "Sergey Pletenev; Maria Marina; Nikolay Ivanov; Daria Galimzianova; Nikita Krayko; Mikhail Salnikov; Vasily Konovalov; Alexander Panchenko; Viktor Moskvoretskii",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.21115v1",
+  "local_pdf": "pdfs/2025_sergey_pletenev_will_it_still_be_true_tomorrow_multilingual_evergreen_question_classification_to_improve_a50ab227.pdf",
+  "metadata_topics": "uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces evergreen/mutable question classification to inform when retrieval is needed, directly relevant to adaptive retrieval decisions and self-knowledge calibration in RAG.",
+  "why_not_or_caveat": "Focus is on temporal classification rather than RAG robustness per se; RAG connection is via explaining GPT-4o retrieval behavior.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: When to Retrieve",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:07.459935+00:00",
+  "raw_response": "{\"key\": \"arxiv-2505.21115v1\", \"relevance_score\": 3, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"], \"paper_role\": \"benchmark\", \"why_relevant\": \"Introduces evergreen/mutable question classification to inform when retrieval is needed, directly relevant to adaptive retrieval decisions and self-knowledge calibration in RAG.\", \"why_not_or_caveat\": \"Focus is on temporal classification rather than RAG robustness per se; RAG connection is via explaining GPT-4o retrieval behavior.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Calibration and Control: When to Retrieve\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,6 @@
+metric,protocol_minus_control_median,ci95_low,ci95_high
+reference_accuracy,0.177778,0.127778,0.227778
+mean_decision_time_seconds,-4.333200,-13.944400,5.833267
+mean_confidence_1_5,0.227800,0.133400,0.316467
+mean_usefulness_1_5,0.549933,0.405667,0.700000
+mean_rationale_quality_1_5,0.055600,-0.022267,0.133600

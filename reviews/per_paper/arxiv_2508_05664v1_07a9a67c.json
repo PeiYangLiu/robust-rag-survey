@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.05664v1",
+  "title": "Enhancing Retrieval-Augmented Generation for Electric Power Industry Customer Support",
+  "authors": "Hei Yu Chan; Kuok Tou Ho; Chenglong Ma; Yujing Si; Hok Lai Lin; Sa Lei Lam",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.05664v1",
+  "local_pdf": "pdfs/2025_hei_yu_chan_enhancing_retrieval_augmented_generation_for_electric_power_industry_customer_support_07a9a67c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application case study of RAG for electric power customer support with standard optimizations (rewriting, fusion, reranking).",
+  "why_not_or_caveat": "Not a robustness-focused study; no contribution to noise, conflict, adversarial, calibration, or OOD methodology.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.856680+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.05664v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application case study of RAG for electric power customer support with standard optimizations (rewriting, fusion, reranking).\",\"why_not_or_caveat\":\"Not a robustness-focused study; no contribution to noise, conflict, adversarial, calibration, or OOD methodology.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

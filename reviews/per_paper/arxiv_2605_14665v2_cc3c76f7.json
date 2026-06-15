@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.14665v2",
+  "title": "Falkor-IRAC: Graph-Constrained Generation for Verified Legal Reasoning in Indian Judicial AI",
+  "authors": "Joy Bose",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.14665v2",
+  "local_pdf": "pdfs/2026_joy_bose_falkor_irac_graph_constrained_generation_for_verified_legal_reasoning_in_indian_judicial_cc3c76f7.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes graph-constrained generation with a verifier that rejects ungrounded claims and surfaces doctrinal conflicts, touching on hallucination reduction and abstention in legal RAG.",
+  "why_not_or_caveat": "Domain-specific application paper with proof-of-concept evaluation (51 judgments) and no baseline comparison; not a general robustness contribution.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:07.421909+00:00",
+  "raw_response": "{\"key\": \"arxiv-2605.14665v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\"], \"paper_role\": \"application\", \"why_relevant\": \"Proposes graph-constrained generation with a verifier that rejects ungrounded claims and surfaces doctrinal conflicts, touching on hallucination reduction and abstention in legal RAG.\", \"why_not_or_caveat\": \"Domain-specific application paper with proof-of-concept evaluation (51 judgments) and no baseline comparison; not a general robustness contribution.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

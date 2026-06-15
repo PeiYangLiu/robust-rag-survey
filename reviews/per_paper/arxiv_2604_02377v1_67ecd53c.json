@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.02377v1",
+  "title": "What Are Adversaries Doing? Automating Tactics, Techniques, and Procedures Extraction: A Systematic Review",
+  "authors": "Mahzabin Tamanna; Shaswata Mitra; Md Erfan; Ahmed Ryan; Sudip Mittal; Laurie Williams; Md Rayhanur Rahman",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.02377v1",
+  "local_pdf": "pdfs/2026_mahzabin_tamanna_what_are_adversaries_doing_automating_tactics_techniques_and_procedures_extraction_a_sys_67ecd53c.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Systematic review of TTP extraction from CTI text; not about RAG robustness.",
+  "why_not_or_caveat": "Out of scope; mentions RAG only as one emerging method in cybersecurity TTP extraction.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:56.794359+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.02377v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"survey\",\"why_relevant\":\"Systematic review of TTP extraction from CTI text; not about RAG robustness.\",\"why_not_or_caveat\":\"Out of scope; mentions RAG only as one emerging method in cybersecurity TTP extraction.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

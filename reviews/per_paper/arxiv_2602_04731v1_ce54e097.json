@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.04731v1",
+  "title": "Less Finetuning, Better Retrieval: Rethinking LLM Adaptation for Biomedical Retrievers via Synthetic Data and Model Merging",
+  "authors": "Sameh Khattab; Jean-Philippe Corbeil; Osman Alperen Koraş; Amin Dada; Julian Friedrich; François Beaulieu; Paul Vozila; Jens Kleesiek",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.04731v1",
+  "local_pdf": "pdfs/2026_sameh_khattab_less_finetuning_better_retrieval_rethinking_llm_adaptation_for_biomedical_retrievers_via_ce54e097.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Focuses on adapting LLMs into biomedical retrievers via synthetic hard negatives and model merging, not on robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Hard negatives here improve retrieval quality, not robustness to unreliable evidence; out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:01.952080+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.04731v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Focuses on adapting LLMs into biomedical retrievers via synthetic hard negatives and model merging, not on robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Hard negatives here improve retrieval quality, not robustness to unreliable evidence; out of scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

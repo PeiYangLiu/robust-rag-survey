@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.16407v1",
+  "title": "Proof-Carrying Certificates for LLM Pipelines: A Trust-Boundary Architecture",
+  "authors": "George Koomullil",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.16407v1",
+  "local_pdf": "pdfs/2026_george_koomullil_proof_carrying_certificates_for_llm_pipelines_a_trust_boundary_architecture_badf9c5d.pdf",
+  "metadata_topics": "adversarial-corruption; calibration-control",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "adversarial_corruption"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Proposes Lean 4 proof-carrying certificates for LLM pipelines, including conflict-aware grounding, abstention operators, and prompt-injection-resistant agent actions, which touches on calibration/control and adversarial robustness in RAG.",
+  "why_not_or_caveat": "Focus is formal verification architecture rather than RAG robustness per se; empirical pilots are limited and the work is largely orthogonal to mainstream robust-RAG literature.",
+  "recommended_use": "background_only",
+  "suggested_section": "Calibration and control / abstention",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:31.913404+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.16407v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_search\":false,\"suitable_for_survey\":false,\"primary_categories\":[\"calibration_control\",\"adversarial_corruption\"],\"paper_role\":\"theory\",\"why_relevant\":\"Proposes Lean 4 proof-carrying certificates for LLM pipelines, including conflict-aware grounding, abstention operators, and prompt-injection-resistant agent actions, which touches on calibration/control and adversarial robustness in RAG.\",\"why_not_or_caveat\":\"Focus is formal verification architecture rather than RAG robustness per se; empirical pilots are limited and the work is largely orthogonal to mainstream robust-RAG literature.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Calibration and control / abstention\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.21315v1",
+  "title": "Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack",
+  "authors": "Cheng Wang; Yiwei Wang; Yujun Cai; Bryan Hooi",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.21315v1",
+  "local_pdf": "pdfs/2025_cheng_wang_tricking_retrievers_with_influential_tokens_an_efficient_black_box_corpus_poisoning_atta_8f8cf5a6.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box corpus poisoning attack (DIGA) targeting dense retrievers in RAG, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Attack-only paper without defense or calibration contributions.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Corpus Poisoning",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:47.473777+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.21315v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a black-box corpus poisoning attack (DIGA) targeting dense retrievers in RAG, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"Attack-only paper without defense or calibration contributions.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Corpus Poisoning\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

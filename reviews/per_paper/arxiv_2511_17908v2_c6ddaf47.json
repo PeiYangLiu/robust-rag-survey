@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2511.17908v2",
+  "title": "Principled Context Engineering for RAG: Statistical Guarantees via Conformal Prediction",
+  "authors": "Debashish Chakraborty; Eugene Yang; Daniel Khashabi; Dawn Lawrie; Kevin Duh",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.17908v2",
+  "local_pdf": "pdfs/2025_debashish_chakraborty_principled_context_engineering_for_rag_statistical_guarantees_via_conformal_prediction_c6ddaf47.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Applies split conformal prediction to filter retrieved snippets with finite-sample coverage guarantees, directly addressing noisy retrieval and calibrated control over context.",
+  "why_not_or_caveat": "Focused on pre-generation filtering rather than broader robustness issues like conflict or adversarial attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:43.057183+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.17908v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Applies split conformal prediction to filter retrieved snippets with finite-sample coverage guarantees, directly addressing noisy retrieval and calibrated control over context.\",\"why_not_or_caveat\":\"Focused on pre-generation filtering rather than broader robustness issues like conflict or adversarial attacks.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

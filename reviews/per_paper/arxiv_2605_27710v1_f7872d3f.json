@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.27710v1",
+  "title": "DeepSciVerify: Verifying Scientific Claim--Citation Alignment via LLM-Driven Evidence Escalation",
+  "authors": "Shaghayegh Sadeghi; Khashayar Khajavi; Rise Adhikari; Alexander Tessier",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.27710v1",
+  "local_pdf": "pdfs/2026_shaghayegh_sadeghi_deepsciverify_verifying_scientific_claim_citation_alignment_via_llm_driven_evidence_esca_f7872d3f.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes a two-stage claim-citation verification pipeline with selective escalation and notes LLM calibration biases under uncertainty.",
+  "why_not_or_caveat": "Focused on application of RAG to scientific claim verification rather than studying RAG robustness, conflict, adversarial issues, or calibration methodology in depth.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:53.498369+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.27710v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes a two-stage claim-citation verification pipeline with selective escalation and notes LLM calibration biases under uncertainty.\",\"why_not_or_caveat\":\"Focused on application of RAG to scientific claim verification rather than studying RAG robustness, conflict, adversarial issues, or calibration methodology in depth.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

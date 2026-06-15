@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.21082v1",
+  "title": "AutoRPA: Efficient GUI Automation through LLM-Driven Code Synthesis from Interactions",
+  "authors": "Minghao Chen; Xinyi Hu; Zhou Yu; Yufei Yin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.21082v1",
+  "local_pdf": "pdfs/2026_minghao_chen_autorpa_efficient_gui_automation_through_llm_driven_code_synthesis_from_interactions_66bf0bba.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Paper is about GUI automation via LLM-driven code synthesis, unrelated to robust RAG.",
+  "why_not_or_caveat": "Only tangential use of retrieval for code synthesis; no study of robustness, conflict, calibration, or attacks on RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.97,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:32.495325+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.21082v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Paper is about GUI automation via LLM-driven code synthesis, unrelated to robust RAG.\",\"why_not_or_caveat\":\"Only tangential use of retrieval for code synthesis; no study of robustness, conflict, calibration, or attacks on RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.97}",
+  "skipped_existing": false
+}

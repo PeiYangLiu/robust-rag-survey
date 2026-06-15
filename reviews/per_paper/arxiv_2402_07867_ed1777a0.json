@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.07867",
+  "title": "\\[[arxiv](https://arxiv.org/pdf/2402.07867)\\] PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.07867",
+  "local_pdf": "pdfs/na_arxiv_2402_07867_arxiv_https_arxiv_org_pdf_2402_07867_poisonedrag_knowledge_corruption_attacks_to_ed1777a0.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "PoisonedRAG is the seminal knowledge poisoning attack on RAG, directly relevant to the adversarial corruption section, and also evaluates defenses.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:37.028574+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2402.07867\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"PoisonedRAG is the seminal knowledge poisoning attack on RAG, directly relevant to the adversarial corruption section, and also evaluates defenses.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks\",\n  \"confidence\": 0.98\n}",
+  "skipped_existing": false
+}

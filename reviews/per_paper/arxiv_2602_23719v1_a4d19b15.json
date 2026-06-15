@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.23719v1",
+  "title": "SAGE-LLM: Towards Safe and Generalizable LLM Controller with Fuzzy-CBF Verification and Graph-Structured Knowledge Retrieval for UAV Decision",
+  "authors": "Wenzhe Zhao; Yang Zhao; Ganchao Liu; Zhiyu Jiang; Dandan Ma; Zihao Li; Xuelong Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.23719v1",
+  "local_pdf": "pdfs/2026_wenzhe_zhao_sage_llm_towards_safe_and_generalizable_llm_controller_with_fuzzy_cbf_verification_and_g_a4d19b15.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies graph-based RAG to UAV control; does not study RAG robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "RAG is used as a component for domain knowledge, not analyzed for reliability under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:27.054888+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.23719v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies graph-based RAG to UAV control; does not study RAG robustness, conflict, calibration, or adversarial issues.\",\"why_not_or_caveat\":\"RAG is used as a component for domain knowledge, not analyzed for reliability under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

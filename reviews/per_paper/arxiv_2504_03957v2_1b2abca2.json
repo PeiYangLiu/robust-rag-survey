@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.03957v2",
+  "title": "Practical Poisoning Attacks against Retrieval-Augmented Generation",
+  "authors": "Baolei Zhang; Yuxi Chen; Zhuqing Liu; Lihai Nie; Tong Li; Zheli Liu; Minghong Fang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.03957v2",
+  "local_pdf": "pdfs/2025_baolei_zhang_practical_poisoning_attacks_against_retrieval_augmented_generation_1b2abca2.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes CorruptRAG, a practical single-text poisoning attack against RAG, and evaluates against multiple defenses, directly relevant to adversarial corruption robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:35.989082+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.03957v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes CorruptRAG, a practical single-text poisoning attack against RAG, and evaluates against multiple defenses, directly relevant to adversarial corruption robustness.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

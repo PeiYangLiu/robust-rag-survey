@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.18948",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2411.18948)\\] RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.18948",
+  "local_pdf": "pdfs/na_arxiv_2411_18948_arxiv_https_arxiv_org_abs_2411_18948_revprag_revealing_poisoning_attacks_in_retr_89f56531.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "RevPRAG detects RAG poisoning attacks via LLM activation analysis, directly addressing adversarial corruption defenses in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:36.598479+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2411.18948\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"defense\",\n  \"why_relevant\": \"RevPRAG detects RAG poisoning attacks via LLM activation analysis, directly addressing adversarial corruption defenses in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Defenses\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

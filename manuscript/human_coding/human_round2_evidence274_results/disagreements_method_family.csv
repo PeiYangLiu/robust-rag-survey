@@ -1,0 +1,30 @@
+paper_id,title,field,source_01_label,source_02_label,url
+rrag012,Why Uncertainty Estimation Methods Fall Short in RAG: An Axiomatic Analysis,method_family,analysis,control_calibration,https://arxiv.org/abs/2505.07459v2
+faithfulRAG2025,FaithfulRAG: Fact-Level Conflict Modeling for Context-Faithful Retrieval-Augmented Generation,method_family,conflict_modeling,defense_mitigation,https://aclanthology.org/2025.acl-long.1062/
+rrag038,To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts,method_family,method,defense_mitigation,https://arxiv.org/abs/2410.14675v2
+rrag042,Context-DPO: Aligning Language Models for Context-Faithfulness,method_family,method,defense_mitigation,https://arxiv.org/abs/2412.15280v1
+tugOfWar2024,Tug-of-War Between Knowledge: Exploring and Resolving Knowledge Conflicts in Retrieval-Augmented Language Models,method_family,conflict_modeling,defense_mitigation,https://arxiv.org/abs/2402.14409
+rrag071,Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation,method_family,conflict_modeling,defense_mitigation,https://arxiv.org/abs/2601.06842v1
+rrag077,ERA: Evidence-based Reliability Alignment for Honest Retrieval-Augmented Generation,method_family,method,defense_mitigation,https://arxiv.org/abs/2604.20854v1
+rrag092,"After Retrieval, Before Generation: Enhancing the Trustworthiness of Large Language Models in RAG",method_family,method,defense_mitigation,https://arxiv.org/abs/2505.17118
+rrag093,SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation,method_family,method,defense_mitigation,https://arxiv.org/abs/2605.03534v1
+rrag105,Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval Augmented Generation,method_family,method,control_calibration,https://arxiv.org/abs/2505.21072v5
+rrag131,Beyond RAG vs. Long-Context: Learning Distraction-Aware Retrieval for Efficient Knowledge Grounding,method_family,method,defense_mitigation,https://arxiv.org/abs/2509.21865v2
+rrag135,Towards Dependable Retrieval-Augmented Generation Using Factual Confidence Prediction,method_family,method,defense_mitigation,https://arxiv.org/abs/2605.05244v1
+rrag143,Lost in the Evidence? Reproducing Document Position and Context Size Effects in RAG,method_family,benchmark_evaluation,analysis,https://arxiv.org/abs/2605.27105v2
+rrag146,INTRYGUE: Induction-Aware Entropy Gating for Reliable RAG Uncertainty Estimation,method_family,method,control_calibration,https://arxiv.org/abs/2603.21607v1
+rrag150,Grounded Decoding: Retrieval-Anchored Probability Fusion for Faithful RAG,method_family,method,defense_mitigation,https://arxiv.org/abs/2606.00432v1
+rrag153,Decide Then Retrieve: A Training-Free Framework with Uncertainty-Guided Triggering and Dual-Path Retrieval,method_family,method,defense_mitigation,https://arxiv.org/abs/2601.03908v1
+rrag167,Search Wisely: Mitigating Sub-optimal Agentic Searches By Reducing Uncertainty,method_family,control_calibration,defense_mitigation,https://arxiv.org/abs/2505.17281v2
+rrag181,Principled Context Engineering for RAG: Statistical Guarantees via Conformal Prediction,method_family,control_calibration,defense_mitigation,https://arxiv.org/abs/2511.17908v2
+rrag182,Parallel Key-Value Cache Fusion for Position Invariant RAG,method_family,method,defense_mitigation,https://arxiv.org/abs/2501.07523v2
+rrag187,Micro-Act: Mitigating Knowledge Conflict in LLM-based RAG via Actionable Self-Reasoning,method_family,method,defense_mitigation,https://arxiv.org/abs/2506.05278v2
+rrag191,LLM-Independent Adaptive RAG: Let the Question Speak for Itself,method_family,method,control_calibration,https://arxiv.org/abs/2505.04253v1
+rrag206,Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge,method_family,method,defense_mitigation,https://arxiv.org/abs/2506.06240v2
+rrag209,Accommodate Knowledge Conflicts in Retrieval-augmented LLMs: Towards Robust Response Generation in the Wild,method_family,method,defense_mitigation,https://arxiv.org/abs/2504.12982v2
+rrag214,Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning,method_family,method,defense_mitigation,https://arxiv.org/abs/2410.10360v3
+rrag218,Entropy-Based Decoding for Retrieval-Augmented Large Language Models,method_family,method,defense_mitigation,https://arxiv.org/abs/2406.17519v2
+rrag226,RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation,method_family,method,defense_mitigation,https://arxiv.org/abs/2310.04408v1
+rrag228,QuCo-RAG: Quantifying Uncertainty from the Pre-training Corpus for Dynamic Retrieval-Augmented Generation,method_family,method,defense_mitigation,https://arxiv.org/abs/2512.19134
+venue019,Evaluation of Attribution Bias in Generator-Aware Retrieval-Augmented Large Language Models,method_family,analysis,benchmark_evaluation,https://aclanthology.org/2025.findings-acl.1087/
+venue035,{P}areto{RAG}: Leveraging Sentence-Context Attention for Robust and Efficient Retrieval-Augmented Generation,method_family,method,defense_mitigation,https://aclanthology.org/2025.findings-emnlp.220/

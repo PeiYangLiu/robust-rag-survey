@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.27752v1",
+  "title": "Retromorphic Testing with Hierarchical Verification for Hallucination Detection in RAG",
+  "authors": "Boxi Yu; Yuzhong Zhang; Liting Lin; Lionel Briand; Emir Muñoz",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.27752v1",
+  "local_pdf": "pdfs/2026_boxi_yu_retromorphic_testing_with_hierarchical_verification_for_hallucination_detection_in_rag_4b74225f.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hallucination/faithfulness detector for RAG that flags unsupported or contradicted claims against retrieved context, and introduces an enhanced RAGTruth benchmark. Relevant to evaluation of context-faithfulness and detection of conflicts between generation and retrieved evidence.",
+  "why_not_or_caveat": "Focuses on post-hoc detection rather than mitigating noisy/adversarial retrieval directly.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Detection of Context-Faithfulness",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.201785+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.27752v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"evaluation_benchmark\",\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a hallucination/faithfulness detector for RAG that flags unsupported or contradicted claims against retrieved context, and introduces an enhanced RAGTruth benchmark. Relevant to evaluation of context-faithfulness and detection of conflicts between generation and retrieved evidence.\",\"why_not_or_caveat\":\"Focuses on post-hoc detection rather than mitigating noisy/adversarial retrieval directly.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation and Detection of Context-Faithfulness\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

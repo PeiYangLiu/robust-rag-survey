@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.01165v1",
+  "title": "GRAD: Generative Retrieval-Aligned Demonstration Sampler for Efficient Few-Shot Reasoning",
+  "authors": "Oussama Gabouj; Kamel Charaf; Ivan Zakazov; Nicolas Baldwin; Robert West",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.01165v1",
+  "local_pdf": "pdfs/2025_oussama_gabouj_grad_generative_retrieval_aligned_demonstration_sampler_for_efficient_few_shot_reasoning_014701e0.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes generating demonstrations instead of retrieving, framed as an alternative to RAG, but does not study robustness, conflict, attacks, calibration, or uncertainty.",
+  "why_not_or_caveat": "Focuses on few-shot reasoning efficiency, not robustness of RAG under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:38.250672+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.01165v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes generating demonstrations instead of retrieving, framed as an alternative to RAG, but does not study robustness, conflict, attacks, calibration, or uncertainty.\",\"why_not_or_caveat\":\"Focuses on few-shot reasoning efficiency, not robustness of RAG under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

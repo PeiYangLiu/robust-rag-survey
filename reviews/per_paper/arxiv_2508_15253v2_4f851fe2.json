@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.15253v2",
+  "title": "Conflict-Aware Soft Prompting for Retrieval-Augmented Generation",
+  "authors": "Eunseong Choi; June Park; Hyeri Lee; Jongwuk Lee",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.15253v2",
+  "local_pdf": "pdfs/2025_eunseong_choi_conflict_aware_soft_prompting_for_retrieval_augmented_generation_4f851fe2.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes CARE, a conflict-aware soft prompting method that helps RAG resolve context-memory conflicts via grounded/adversarial training, directly addressing knowledge conflict and reliability of retrieved evidence.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:51.801581+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.15253v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"calibration_control\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes CARE, a conflict-aware soft prompting method that helps RAG resolve context-memory conflicts via grounded/adversarial training, directly addressing knowledge conflict and reliability of retrieved evidence.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

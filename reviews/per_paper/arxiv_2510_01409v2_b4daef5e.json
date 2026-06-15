@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.01409v2",
+  "title": "OntoLogX: Ontology-Guided Knowledge Graph Extraction from Cybersecurity Logs with Large Language Models",
+  "authors": "Luca Cotti; Idilio Drago; Anisa Rula; Devis Bianchini; Federico Cerutti",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.01409v2",
+  "local_pdf": "pdfs/2025_luca_cotti_ontologx_ontology_guided_knowledge_graph_extraction_from_cybersecurity_logs_with_large_l_b4daef5e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG for cybersecurity log-to-KG extraction; does not study robustness, conflict, adversarial RAG, or calibration.",
+  "why_not_or_caveat": "Uses RAG as a tool without addressing unreliable evidence concerns central to the survey.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:37.176522+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.01409v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG for cybersecurity log-to-KG extraction; does not study robustness, conflict, adversarial RAG, or calibration.\",\"why_not_or_caveat\":\"Uses RAG as a tool without addressing unreliable evidence concerns central to the survey.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

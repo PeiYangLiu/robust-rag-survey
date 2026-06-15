@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2410.10360v3",
+  "title": "Parenting: Optimizing Knowledge Selection of Retrieval-Augmented Language Models with Parameter Decoupling and Tailored Tuning",
+  "authors": "Yongxin Xu; Ruizhe Zhang; Xinke Jiang; Yujie Feng; Yuzhen Xiao; Xinyu Ma; Runchuan Zhu; Xu Chu; Junfeng Zhao; Yasha Wang",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.10360v3",
+  "local_pdf": "pdfs/2024_yongxin_xu_parenting_optimizing_knowledge_selection_of_retrieval_augmented_language_models_with_par_3ffe7988.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a parameter-decoupling fine-tuning method to balance adherence to retrieved context vs robustness to noisy contexts, directly tackling knowledge conflict and noisy retrieval in RAG.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and context compliance",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:10.580046+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.10360v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a parameter-decoupling fine-tuning method to balance adherence to retrieved context vs robustness to noisy contexts, directly tackling knowledge conflict and noisy retrieval in RAG.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and context compliance\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

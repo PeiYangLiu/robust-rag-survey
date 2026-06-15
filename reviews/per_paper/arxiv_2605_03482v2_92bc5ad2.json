@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2605.03482v2",
+  "title": "MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents",
+  "authors": "Ishrith Gowda",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.03482v2",
+  "local_pdf": "pdfs/2026_ishrith_gowda_memsad_gradient_coupled_anomaly_detection_for_memory_poisoning_in_retrieval_augmented_ag_92bc5ad2.pdf",
+  "metadata_topics": "knowledge-conflict; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "calibration_control"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Formalizes memory poisoning attacks on retrieval-augmented agents as a Stackelberg game and proposes MEMSAD, a calibration-based anomaly detection defense with certified detection radius and minimax optimality guarantees. Directly addresses adversarial corruption of RAG memory and calibration-based defenses.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption and Defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:27.991337+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.03482v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"calibration_control\"],\"paper_role\":\"defense\",\"why_relevant\":\"Formalizes memory poisoning attacks on retrieval-augmented agents as a Stackelberg game and proposes MEMSAD, a calibration-based anomaly detection defense with certified detection radius and minimax optimality guarantees. Directly addresses adversarial corruption of RAG memory and calibration-based defenses.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption and Defenses\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

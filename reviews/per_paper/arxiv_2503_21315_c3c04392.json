@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.21315",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2503.21315)] Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.21315",
+  "local_pdf": "pdfs/na_arxiv_2503_21315_ins_arxiv_ins_https_arxiv_org_abs_2503_21315_tricking_retrievers_with_influentia_c3c04392.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a black-box corpus poisoning attack (DIGA) against RAG retrievers, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Attack-only; no defense or calibration contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Corpus Poisoning",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.441506+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.21315\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a black-box corpus poisoning attack (DIGA) against RAG retrievers, directly relevant to adversarial corruption of retrieval.\",\n  \"why_not_or_caveat\": \"Attack-only; no defense or calibration contribution.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption: Corpus Poisoning\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

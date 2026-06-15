@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.12434v2",
+  "title": "PRoH: Dynamic Planning and Reasoning over Knowledge Hypergraphs for Retrieval-Augmented Generation",
+  "authors": "Xiangjun Zai; Xingyu Tan; Xiaoyang Wang; Qing Liu; Xiwei Xu; Wenjie Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.12434v2",
+  "local_pdf": "pdfs/2025_xiangjun_zai_proh_dynamic_planning_and_reasoning_over_knowledge_hypergraphs_for_retrieval_augmented_g_853a469d.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a knowledge-hypergraph RAG method for multi-hop QA, not focused on robustness, conflict, adversaries, or calibration.",
+  "why_not_or_caveat": "Performance-oriented method paper; robustness claims are limited to multi-hop reasoning, not unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:12.377514+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.12434v2\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a knowledge-hypergraph RAG method for multi-hop QA, not focused on robustness, conflict, adversaries, or calibration.\",\"why_not_or_caveat\":\"Performance-oriented method paper; robustness claims are limited to multi-hop reasoning, not unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

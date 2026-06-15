@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2503.00686v1",
+  "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
+  "authors": "Leming Shen; Qiang Yang; Xinyu Huang; Zijing Ma; Yuanqing Zheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.00686v1",
+  "local_pdf": "pdfs/2025_leming_shen_gpiot_tailoring_small_language_models_for_iot_program_synthesis_and_development_44b2ad62.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application paper on fine-tuning SLMs for IoT code generation; does not study RAG robustness, conflict, or calibration.",
+  "why_not_or_caveat": "Only mentions RAG as motivation to avoid it; no robustness contribution.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:46.018722+00:00",
+  "raw_response": "{\"key\":\"arxiv-2503.00686v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application paper on fine-tuning SLMs for IoT code generation; does not study RAG robustness, conflict, or calibration.\",\"why_not_or_caveat\":\"Only mentions RAG as motivation to avoid it; no robustness contribution.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

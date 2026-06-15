@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.07825v1",
+  "title": "Benchmarking Large Language Models for Quebec Insurance: From Closed-Book to Retrieval-Augmented Generation",
+  "authors": "David Beauchemin; Richard Khoury",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07825v1",
+  "local_pdf": "pdfs/2026_david_beauchemin_benchmarking_large_language_models_for_quebec_insurance_from_closed_book_to_retrieval_au_fcda1261.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Reports RAG-induced 'context distraction' causing catastrophic regressions in some models on a Quebec insurance QA benchmark, providing empirical evidence of RAG instability.",
+  "why_not_or_caveat": "Primarily a domain-specific application/benchmark paper; robustness analysis is shallow and dataset is private.",
+  "recommended_use": "background_only",
+  "suggested_section": "Distraction in RAG",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:36.294249+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.07825v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Reports RAG-induced 'context distraction' causing catastrophic regressions in some models on a Quebec insurance QA benchmark, providing empirical evidence of RAG instability.\",\"why_not_or_caveat\":\"Primarily a domain-specific application/benchmark paper; robustness analysis is shallow and dataset is private.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Distraction in RAG\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.11513v1",
+  "title": "Can Small Language Models Use What They Retrieve? An Empirical Study of Retrieval Utilization Across Model Scale",
+  "authors": "Sanchit Pandey",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.11513v1",
+  "local_pdf": "pdfs/2026_sanchit_pandey_can_small_language_models_use_what_they_retrieve_an_empirical_study_of_retrieval_utiliza_0d963f2f.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Empirically isolates context utilization failures and distraction effects in small LLMs under oracle and noisy retrieval, directly relevant to distraction and noisy-retrieval robustness analysis.",
+  "why_not_or_caveat": "Focused on small models; diagnostic study rather than proposing defenses.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Context Utilization",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:36.608182+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.11513v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"distraction\",\"evaluation_benchmark\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Empirically isolates context utilization failures and distraction effects in small LLMs under oracle and noisy retrieval, directly relevant to distraction and noisy-retrieval robustness analysis.\",\"why_not_or_caveat\":\"Focused on small models; diagnostic study rather than proposing defenses.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Distraction and Context Utilization\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

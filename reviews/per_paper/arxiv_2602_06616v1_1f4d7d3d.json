@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.06616v1",
+  "title": "Confundo: Learning to Generate Robust Poison for Practical RAG Systems",
+  "authors": "Haoyang Hu; Zhejun Jiang; Yueming Lyu; Junyuan Zhang; Yi Liu; Ka-Ho Chow",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.06616v1",
+  "local_pdf": "pdfs/2026_haoyang_hu_confundo_learning_to_generate_robust_poison_for_practical_rag_systems_1f4d7d3d.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a learning-to-poison framework targeting practical RAG pipelines, addressing chunking-induced fragmentation and lexical generalization, and evaluates against defenses across multiple attack objectives.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks on RAG",
+  "confidence": 0.92,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:46.797040+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2602.06616v1\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a learning-to-poison framework targeting practical RAG pipelines, addressing chunking-induced fragmentation and lexical generalization, and evaluates against defenses across multiple attack objectives.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption: Poisoning Attacks on RAG\",\n  \"confidence\": 0.92\n}",
+  "skipped_existing": false
+}

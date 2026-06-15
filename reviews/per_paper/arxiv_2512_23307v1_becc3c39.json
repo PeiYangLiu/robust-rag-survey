@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.23307v1",
+  "title": "RobustMask: Certified Robustness against Adversarial Neural Ranking Attack via Randomized Masking",
+  "authors": "Jiawei Liu; Zhuo Chen; Rui Zhu; Miaokun Chen; Yuyang Gong; Wei Lu; Xiaofeng Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.23307v1",
+  "local_pdf": "pdfs/2025_jiawei_liu_robustmask_certified_robustness_against_adversarial_neural_ranking_attack_via_randomized_becc3c39.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes a certified defense (RobustMask) against adversarial ranking attacks on neural retrievers used in RAG pipelines, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Focus is on the retriever/ranker layer rather than the full RAG generation stack.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: retrieval attacks and defenses",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:41.330293+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.23307v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes a certified defense (RobustMask) against adversarial ranking attacks on neural retrievers used in RAG pipelines, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"Focus is on the retriever/ranker layer rather than the full RAG generation stack.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption: retrieval attacks and defenses\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

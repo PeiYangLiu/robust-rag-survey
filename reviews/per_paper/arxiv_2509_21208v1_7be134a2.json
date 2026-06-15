@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.21208v1",
+  "title": "CLaw: Benchmarking Chinese Legal Knowledge in Large Language Models - A Fine-grained Corpus and Reasoning Analysis",
+  "authors": "Xinzhe Xu; Liang Zhao; Hongshen Xu; Chen Chen",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.21208v1",
+  "local_pdf": "pdfs/2025_xinzhe_xu_claw_benchmarking_chinese_legal_knowledge_in_large_language_models_a_fine_grained_corpus_7be134a2.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes a Chinese legal knowledge benchmark and suggests RAG/SFT as remedies, but does not study RAG robustness, conflicts, or unreliable evidence directly.",
+  "why_not_or_caveat": "Domain benchmark for legal knowledge recall; RAG is only mentioned as a possible mitigation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:52.710063+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.21208v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Proposes a Chinese legal knowledge benchmark and suggests RAG/SFT as remedies, but does not study RAG robustness, conflicts, or unreliable evidence directly.\",\"why_not_or_caveat\":\"Domain benchmark for legal knowledge recall; RAG is only mentioned as a possible mitigation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

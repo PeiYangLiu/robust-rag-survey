@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.05983v1",
+  "title": "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG",
+  "authors": "Bowen Jin; Jinsung Yoon; Jiawei Han; Sercan O. Arik",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.05983v1",
+  "local_pdf": "pdfs/2024_bowen_jin_long_context_llms_meet_rag_overcoming_challenges_for_long_inputs_in_rag_2a841071.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Directly analyzes how hard negatives and noisy retrieved passages degrade long-context RAG and proposes training-free reordering and fine-tuning defenses for robustness.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Noisy Retrieval and Hard Negatives",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:12.166364+00:00",
+  "raw_response": "{\"key\": \"arxiv-2410.05983v1\", \"relevance_score\": 5, \"decision\": \"core\", \"suitable_for_survey\": true, \"primary_categories\": [\"noisy_retrieval\", \"distraction\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Directly analyzes how hard negatives and noisy retrieved passages degrade long-context RAG and proposes training-free reordering and fine-tuning defenses for robustness.\", \"why_not_or_caveat\": \"\", \"recommended_use\": \"must_discuss\", \"suggested_section\": \"Noisy Retrieval and Hard Negatives\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

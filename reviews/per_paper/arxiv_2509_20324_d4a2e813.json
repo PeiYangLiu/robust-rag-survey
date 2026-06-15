@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.20324",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2509.20324)\\] RAG Security and Privacy: Formalizing the Threat Model and Attack Surface",
+  "authors": "",
+  "year": "2032",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.20324",
+  "local_pdf": "pdfs/2032_arxiv_2509_20324_arxiv_https_arxiv_org_abs_2509_20324_rag_security_and_privacy_formalizing_the_th_d4a2e813.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Proposes a formal threat model and taxonomy for RAG attacks including poisoning and membership inference, directly relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Focused on security/privacy formalization rather than defenses or robustness mechanisms; limited coverage of other survey dimensions.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Threat Models",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:29.189224+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.20324\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"theory\",\"why_relevant\":\"Proposes a formal threat model and taxonomy for RAG attacks including poisoning and membership inference, directly relevant to the adversarial corruption section.\",\"why_not_or_caveat\":\"Focused on security/privacy formalization rather than defenses or robustness mechanisms; limited coverage of other survey dimensions.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Threat Models\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

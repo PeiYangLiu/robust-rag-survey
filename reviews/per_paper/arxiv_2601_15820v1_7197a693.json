@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.15820v1",
+  "title": "ExDR: Explanation-driven Dynamic Retrieval Enhancement for Multimodal Fake News Detection",
+  "authors": "Guoxuan Ding; Yuqing Li; Ziyan Zhou; Zheng Lin; Daren Zha; Jiangnan Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.15820v1",
+  "local_pdf": "pdfs/2026_guoxuan_ding_exdr_explanation_driven_dynamic_retrieval_enhancement_for_multimodal_fake_news_detection_7197a693.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes dynamic RAG with retrieval triggering (when to retrieve) and filtering irrelevant evidence for multimodal fake news detection, touching on calibration/control and noisy retrieval issues.",
+  "why_not_or_caveat": "Primarily an application paper for fake news detection; robustness aspects are incidental rather than the focus.",
+  "recommended_use": "background_only",
+  "suggested_section": "calibration_control",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:33.218872+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.15820v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"application\",\n  \"why_relevant\": \"Proposes dynamic RAG with retrieval triggering (when to retrieve) and filtering irrelevant evidence for multimodal fake news detection, touching on calibration/control and noisy retrieval issues.\",\n  \"why_not_or_caveat\": \"Primarily an application paper for fake news detection; robustness aspects are incidental rather than the focus.\",\n  \"recommended_use\": \"background_only\",\n  \"suggested_section\": \"calibration_control\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

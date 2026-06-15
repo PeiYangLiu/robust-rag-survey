@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2602.17826v1",
+  "title": "Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge",
+  "authors": "Marcelo Labre",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.17826v1",
+  "local_pdf": "pdfs/2026_marcelo_labre_ontology_guided_neuro_symbolic_inference_grounding_language_models_with_mathematical_dom_ad54ec0c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "The paper empirically shows that retrieval quality determines whether RAG helps or hurts: high-relevance ontology context improves accuracy while irrelevant retrieved definitions actively degrade performance, directly illustrating distraction and noisy retrieval effects.",
+  "why_not_or_caveat": "Domain-specific (mathematics with OpenMath ontology) rather than a general robustness study; contribution to robustness is incidental.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and distraction",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:59.493002+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.17826v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"distraction\"],\"paper_role\":\"analysis\",\"why_relevant\":\"The paper empirically shows that retrieval quality determines whether RAG helps or hurts: high-relevance ontology context improves accuracy while irrelevant retrieved definitions actively degrade performance, directly illustrating distraction and noisy retrieval effects.\",\"why_not_or_caveat\":\"Domain-specific (mathematics with OpenMath ontology) rather than a general robustness study; contribution to robustness is incidental.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy retrieval and distraction\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2506.07334v2",
+  "title": "Graph-KV: Breaking Sequence via Injecting Structural Biases into Large Language Models",
+  "authors": "Haoyu Wang; Peihao Wang; Mufei Li; Shikun Liu; Siqi Miao; Zhangyang Wang; Pan Li",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2506.07334v2",
+  "local_pdf": "pdfs/2025_haoyu_wang_graph_kv_breaking_sequence_via_injecting_structural_biases_into_large_language_models_5fdabf6f.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses positional bias in RAG via structural KV-cache attention, tangentially related to robustness against ordering effects.",
+  "why_not_or_caveat": "Focuses on architectural efficiency and structural inductive bias, not on noise/conflict/adversarial robustness or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:17.501493+00:00",
+  "raw_response": "{\"key\": \"arxiv-2506.07334v2\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Addresses positional bias in RAG via structural KV-cache attention, tangentially related to robustness against ordering effects.\", \"why_not_or_caveat\": \"Focuses on architectural efficiency and structural inductive bias, not on noise/conflict/adversarial robustness or calibration.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

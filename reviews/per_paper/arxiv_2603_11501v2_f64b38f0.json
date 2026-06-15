@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.11501v2",
+  "title": "KEPo: Knowledge Evolution Poison on Graph-based Retrieval-Augmented Generation",
+  "authors": "Qizhi Chen; Chao Qi; Yihong Huang; Muquan Li; Rongzheng Wang; Dongyang Zhang; Ke Qin; Shuang Liang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.11501v2",
+  "local_pdf": "pdfs/2026_qizhi_chen_kepo_knowledge_evolution_poison_on_graph_based_retrieval_augmented_generation_f64b38f0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel poisoning attack tailored to GraphRAG, exposing vulnerabilities specific to graph-based retrieval-augmented generation.",
+  "why_not_or_caveat": "Attack-only; no defense or calibration contribution.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:29.759443+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.11501v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a novel poisoning attack tailored to GraphRAG, exposing vulnerabilities specific to graph-based retrieval-augmented generation.\",\"why_not_or_caveat\":\"Attack-only; no defense or calibration contribution.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

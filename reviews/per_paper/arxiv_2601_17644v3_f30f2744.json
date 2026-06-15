@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.17644v3",
+  "title": "Do Multimodal RAG Systems Leak Data? A Comprehensive Evaluation of Membership Inference and Image Caption Retrieval Attacks",
+  "authors": "Ali Al-Lawati; Suhang Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.17644v3",
+  "local_pdf": "pdfs/2026_ali_al_lawati_do_multimodal_rag_systems_leak_data_a_comprehensive_evaluation_of_membership_inference_a_f30f2744.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies privacy attacks (membership inference, caption extraction) against multimodal RAG, which fits adversarial threats to RAG systems.",
+  "why_not_or_caveat": "Focus is on privacy leakage rather than robustness to unreliable evidence; only tangentially related to the survey's core themes of noise/conflict/calibration.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption and privacy attacks on RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:35.108954+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.17644v3\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Studies privacy attacks (membership inference, caption extraction) against multimodal RAG, which fits adversarial threats to RAG systems.\",\n  \"why_not_or_caveat\": \"Focus is on privacy leakage rather than robustness to unreliable evidence; only tangentially related to the survey's core themes of noise/conflict/calibration.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial corruption and privacy attacks on RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

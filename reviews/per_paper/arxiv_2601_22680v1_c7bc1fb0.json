@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.22680v1",
+  "title": "Visual Personalization Turing Test",
+  "authors": "Rameen Abdal; James Burgess; Sergey Tulyakov; Kuan-Chieh Jackson Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.22680v1",
+  "local_pdf": "pdfs/2026_rameen_abdal_visual_personalization_turing_test_c7bc1fb0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Paper introduces visual personalization Turing test with a visual RAG component but does not address robustness, noise, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Out of scope: focused on personalized image generation evaluation, not robust RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:24.771479+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.22680v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Paper introduces visual personalization Turing test with a visual RAG component but does not address robustness, noise, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Out of scope: focused on personalized image generation evaluation, not robust RAG.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

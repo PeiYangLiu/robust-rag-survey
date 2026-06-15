@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2510.24303v3",
+  "title": "Retrieval- and Argumentation-Enhanced Multi-Agent LLMs for Judgmental Forecasting (Extended Version with Supplementary Material)",
+  "authors": "Deniz Gorur; Antonio Rago; Francesca Toni",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.24303v3",
+  "local_pdf": "pdfs/2025_deniz_gorur_retrieval_and_argumentation_enhanced_multi_agent_llms_for_judgmental_forecasting_extende_d3b380aa.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG and multi-agent argumentation for judgmental forecasting/claim verification, touching on conflicting evidence aggregation but not focused on RAG robustness.",
+  "why_not_or_caveat": "Application of RAG with argumentation; does not study robustness, attacks, calibration, or noisy retrieval directly.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:23.636943+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.24303v3\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG and multi-agent argumentation for judgmental forecasting/claim verification, touching on conflicting evidence aggregation but not focused on RAG robustness.\",\"why_not_or_caveat\":\"Application of RAG with argumentation; does not study robustness, attacks, calibration, or noisy retrieval directly.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

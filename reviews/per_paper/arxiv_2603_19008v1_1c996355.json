@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.19008v1",
+  "title": "Hypothesis-Conditioned Query Rewriting for Decision-Useful Retrieval",
+  "authors": "Hangeol Chang; Changsun Lee; Seungjoon Rho; Junho Yeo; Jong Chul Ye",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19008v1",
+  "local_pdf": "pdfs/2026_hangeol_chang_hypothesis_conditioned_query_rewriting_for_decision_useful_retrieval_1c996355.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a query rewriting method motivated by distraction from irrelevant context, touching on retrieval quality issues relevant to noisy retrieval.",
+  "why_not_or_caveat": "Primarily a retrieval-improvement method for medical QA, not centered on robustness, conflict, calibration, or adversarial issues.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval / query reformulation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:17.319450+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.19008v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"noisy_retrieval\", \"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a query rewriting method motivated by distraction from irrelevant context, touching on retrieval quality issues relevant to noisy retrieval.\", \"why_not_or_caveat\": \"Primarily a retrieval-improvement method for medical QA, not centered on robustness, conflict, calibration, or adversarial issues.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Noisy retrieval / query reformulation\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}

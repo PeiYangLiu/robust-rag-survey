@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2512.24268v1",
+  "title": "RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning in Retrieval-Augmented Generation",
+  "authors": "Pankayaraj Pathmanathan; Michael-Andrei Panaitescu-Liess; Cho-Yu Jason Chiang; Furong Huang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.24268v1",
+  "local_pdf": "pdfs/2025_pankayaraj_pathmanathan_ragpart_ragmask_retrieval_stage_defenses_against_corpus_poisoning_in_retrieval_augmented_b014531a.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "defense",
+  "why_relevant": "Proposes two retrieval-stage defenses (RAGPart, RAGMask) against corpus poisoning in RAG, evaluated across multiple attacks and retrievers, plus introduces a new attack.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: defenses",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:50.674410+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.24268v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"defense\",\"why_relevant\":\"Proposes two retrieval-stage defenses (RAGPart, RAGMask) against corpus poisoning in RAG, evaluated across multiple attacks and retrievers, plus introduces a new attack.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption: defenses\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

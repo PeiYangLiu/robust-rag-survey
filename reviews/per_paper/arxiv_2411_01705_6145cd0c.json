@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2411.01705",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2411.01705)] Data Extraction Attacks in Retrieval-Augmented Generation via Backdoors",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2411.01705",
+  "local_pdf": "pdfs/na_arxiv_2411_01705_ins_arxiv_ins_https_arxiv_org_abs_2411_01705_data_extraction_attacks_in_retrieva_6145cd0c.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a backdoor-based data extraction attack on RAG systems, exposing privacy vulnerabilities in retrieval databases through poisoned fine-tuning.",
+  "why_not_or_caveat": "Focuses on privacy extraction rather than answer-correctness robustness, but fits adversarial corruption scope.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption: Poisoning and Backdoors",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.396027+00:00",
+  "raw_response": "{\"key\":\"arxiv-2411.01705\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a backdoor-based data extraction attack on RAG systems, exposing privacy vulnerabilities in retrieval databases through poisoned fine-tuning.\",\"why_not_or_caveat\":\"Focuses on privacy extraction rather than answer-correctness robustness, but fits adversarial corruption scope.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption: Poisoning and Backdoors\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

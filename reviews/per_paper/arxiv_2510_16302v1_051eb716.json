@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.16302v1",
+  "title": "DTKG: Dual-Track Knowledge Graph-Verified Reasoning Framework for Multi-Hop QA",
+  "authors": "Changhao Wang; Yanfang Liu; Xinxin Fan; Anzhi Zhou; Lao Tian; Yunfeng Lu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.16302v1",
+  "local_pdf": "pdfs/2025_changhao_wang_dtkg_dual_track_knowledge_graph_verified_reasoning_framework_for_multi_hop_qa_051eb716.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a KG-based multi-hop QA framework with a denoiser to filter noisy retrieved paths, tangentially touching noisy retrieval in RAG.",
+  "why_not_or_caveat": "Primary focus is multi-hop reasoning strategy classification rather than robustness under unreliable evidence; denoising is a minor component.",
+  "recommended_use": "background_only",
+  "suggested_section": "",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:27.453685+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.16302v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\",\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a KG-based multi-hop QA framework with a denoiser to filter noisy retrieved paths, tangentially touching noisy retrieval in RAG.\",\"why_not_or_caveat\":\"Primary focus is multi-hop reasoning strategy classification rather than robustness under unreliable evidence; denoising is a minor component.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

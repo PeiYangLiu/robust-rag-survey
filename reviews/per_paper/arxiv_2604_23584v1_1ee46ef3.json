@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.23584v1",
+  "title": "Identity-Decoupled Anonymization for Visual Evidence in Multi-modal Retrieval-Augmented Generation",
+  "authors": "Zehua Cheng; Wei Dai; Jiahao Sun",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23584v1",
+  "local_pdf": "pdfs/2026_zehua_cheng_identity_decoupled_anonymization_for_visual_evidence_in_multi_modal_retrieval_augmented_1ee46ef3.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper addresses face anonymization privacy in MRAG, not robustness, noise, conflict, attacks, or calibration of evidence reliability.",
+  "why_not_or_caveat": "Out of scope: privacy-preserving anonymization rather than robustness under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:15.604574+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.23584v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper addresses face anonymization privacy in MRAG, not robustness, noise, conflict, attacks, or calibration of evidence reliability.\",\"why_not_or_caveat\":\"Out of scope: privacy-preserving anonymization rather than robustness under unreliable evidence.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

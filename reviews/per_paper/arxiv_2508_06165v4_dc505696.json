@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.06165v4",
+  "title": "UR$^2$: Unify RAG and Reasoning through Reinforcement Learning",
+  "authors": "Weitao Li; Boran Xiang; Xiaolong Wang; Zhinan Gou; Weizhi Ma; Yang Liu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.06165v4",
+  "local_pdf": "pdfs/2025_weitao_li_ur_2_unify_rag_and_reasoning_through_reinforcement_learning_dc505696.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes an RL framework that learns when to retrieve based on difficulty and uses LLM summarization to reduce noise, addressing retrieval-reasoning imbalance and robustness to noisy evidence.",
+  "why_not_or_caveat": "Primary focus is unifying RAG with reasoning via RL; robustness/calibration aspects are secondary.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: when to retrieve",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.484007+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.06165v4\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes an RL framework that learns when to retrieve based on difficulty and uses LLM summarization to reduce noise, addressing retrieval-reasoning imbalance and robustness to noisy evidence.\",\"why_not_or_caveat\":\"Primary focus is unifying RAG with reasoning via RL; robustness/calibration aspects are secondary.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control: when to retrieve\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2512.23836v1",
+  "title": "Retrieval Augmented Question Answering: When Should LLMs Admit Ignorance?",
+  "authors": "Dingmin Wang; Ji Ma; Shankar Kumar",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.23836v1",
+  "local_pdf": "pdfs/2025_dingmin_wang_retrieval_augmented_question_answering_when_should_llms_admit_ignorance_311d082d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes iterative chunked prompting to mitigate distractor noise in long-context RAG, and explicitly analyzes LLMs' failure to abstain when evidence is insufficient, directly relevant to calibration/abstention under unreliable retrieval.",
+  "why_not_or_caveat": "Method is relatively simple; abstention analysis is observational rather than a new technique.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Abstention under Insufficient Evidence",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:29.612702+00:00",
+  "raw_response": "{\"key\":\"arxiv-2512.23836v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"calibration_control\",\"distraction\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes iterative chunked prompting to mitigate distractor noise in long-context RAG, and explicitly analyzes LLMs' failure to abstain when evidence is insufficient, directly relevant to calibration/abstention under unreliable retrieval.\",\"why_not_or_caveat\":\"Method is relatively simple; abstention analysis is observational rather than a new technique.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Abstention under Insufficient Evidence\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

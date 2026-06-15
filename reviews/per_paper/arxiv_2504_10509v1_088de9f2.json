@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.10509v1",
+  "title": "Beyond Reproducibility: Advancing Zero-shot LLM Reranking Efficiency with Setwise Insertion",
+  "authors": "Jakub Podolak; Leon Peric; Mina Janicijevic; Roxana Petcu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.10509v1",
+  "local_pdf": "pdfs/2025_jakub_podolak_beyond_reproducibility_advancing_zero_shot_llm_reranking_efficiency_with_setwise_inserti_088de9f2.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper focuses on efficiency of zero-shot LLM reranking via Setwise Insertion, not robustness under unreliable evidence.",
+  "why_not_or_caveat": "Does not address noise, conflict, adversaries, calibration, or uncertainty in RAG.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:36.311111+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.10509v1\",\n  \"relevance_score\": 1,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Paper focuses on efficiency of zero-shot LLM reranking via Setwise Insertion, not robustness under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Does not address noise, conflict, adversaries, calibration, or uncertainty in RAG.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

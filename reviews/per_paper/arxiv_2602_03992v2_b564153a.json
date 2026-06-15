@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.03992v2",
+  "title": "Nemotron ColEmbed V2: Top-Performing Late Interaction Embedding Models for Visual Document Retrieval",
+  "authors": "Gabriel de Souza P. Moreira; Ronay Ak; Mengyao Xu; Oliver Holworthy; Benedikt Schifferer; Zhiding Yu; Yauhen Babakhin; Radek Osmulski; Jiarui Cai; Ryan Chesler; Bo Liu; Even Oldridge",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.03992v2",
+  "local_pdf": "pdfs/2026_gabriel_de_souza_p_moreira_nemotron_colembed_v2_top_performing_late_interaction_embedding_models_for_visual_documen_b564153a.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Visual document retrieval embedding model; does not address robustness, conflict, calibration, or adversarial issues.",
+  "why_not_or_caveat": "Pure retrieval model performance paper, out of scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:50.640466+00:00",
+  "raw_response": "{\"key\": \"arxiv-2602.03992v2\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Visual document retrieval embedding model; does not address robustness, conflict, calibration, or adversarial issues.\", \"why_not_or_caveat\": \"Pure retrieval model performance paper, out of scope.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

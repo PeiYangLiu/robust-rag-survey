@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.02401v1",
+  "title": "Towards Agents That Know When They Don't Know: Uncertainty as a Control Signal for Structured Reasoning",
+  "authors": "Josefa Lia Stoisser; Marc Boubnovski Martell; Lawrence Phillips; Gianluca Mazzoni; Lea Mørch Harder; Philip Torr; Jesper Ferkinghoff-Borg; Kaspar Martens; Julien Fauqueur",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.02401v1",
+  "local_pdf": "pdfs/2025_josefa_lia_stoisser_towards_agents_that_know_when_they_don_t_know_uncertainty_as_a_control_signal_for_struct_e812b75e.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes using retrieval uncertainty (entropy over table-selection rollouts) and summary uncertainty as control signals for abstention, filtering, and RL training in a structured-data agent, directly relevant to calibration/abstention in retrieval-augmented settings.",
+  "why_not_or_caveat": "Focused on multi-table biomedical summarization rather than standard text RAG; relevance is via analogy of retrieval uncertainty and abstention control.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (abstention and uncertainty-guided retrieval)",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:35.138109+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2509.02401v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"calibration_control\", \"ood_uncertainty\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes using retrieval uncertainty (entropy over table-selection rollouts) and summary uncertainty as control signals for abstention, filtering, and RL training in a structured-data agent, directly relevant to calibration/abstention in retrieval-augmented settings.\",\n  \"why_not_or_caveat\": \"Focused on multi-table biomedical summarization rather than standard text RAG; relevance is via analogy of retrieval uncertainty and abstention control.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control (abstention and uncertainty-guided retrieval)\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

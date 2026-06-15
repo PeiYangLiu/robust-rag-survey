@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.15994v2",
+  "title": "MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents",
+  "authors": "Dongsen Zhang; Zekun Li; Xu Luo; Xuannan Liu; Peipei Li; Wenjun Xu",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.15994v2",
+  "local_pdf": "pdfs/2025_dongsen_zhang_mcp_security_bench_msb_benchmarking_attacks_against_model_context_protocol_in_llm_agents_7f2e2538.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Benchmarks attacks on MCP-based LLM agents including a retrieval injection attack, tangentially relevant to adversarial corruption in tool/retrieval pipelines.",
+  "why_not_or_caveat": "Focus is on MCP tool-use agent security rather than RAG robustness; retrieval injection is only one of 12 attack types in an agent context.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and injection",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:35.560975+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.15994v2\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Benchmarks attacks on MCP-based LLM agents including a retrieval injection attack, tangentially relevant to adversarial corruption in tool/retrieval pipelines.\",\"why_not_or_caveat\":\"Focus is on MCP tool-use agent security rather than RAG robustness; retrieval injection is only one of 12 attack types in an agent context.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption and injection\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

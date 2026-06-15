@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.20324v1",
+  "title": "RAG Security and Privacy: Formalizing the Threat Model and Attack Surface",
+  "authors": "Atousa Arzanipour; Rouzbeh Behnia; Reza Ebrahimi; Kaushik Dutta",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.20324v1",
+  "local_pdf": "pdfs/2025_atousa_arzanipour_rag_security_and_privacy_formalizing_the_threat_model_and_attack_surface_0d5f3bf3.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Proposes a formal threat model and taxonomy for RAG security/privacy attacks including poisoning and membership inference, relevant to the adversarial corruption section.",
+  "why_not_or_caveat": "Primarily focused on privacy (membership inference, reconstruction) rather than robustness under unreliable evidence; formalization paper without empirical defenses.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Threat Models",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:49.750553+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.20324v1\",\"relevance_score\":3,\"decision\":\"background\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"theory\",\"why_relevant\":\"Proposes a formal threat model and taxonomy for RAG security/privacy attacks including poisoning and membership inference, relevant to the adversarial corruption section.\",\"why_not_or_caveat\":\"Primarily focused on privacy (membership inference, reconstruction) rather than robustness under unreliable evidence; formalization paper without empirical defenses.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Threat Models\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

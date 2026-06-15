@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.12075v1",
+  "title": "To Copy or Not to Copy: Copying Is Easier to Induce Than Recall",
+  "authors": "Mehrdad Farahani; Franziska Penzkofer; Richard Johansson",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.12075v1",
+  "local_pdf": "pdfs/2026_mehrdad_farahani_to_copy_or_not_to_copy_copying_is_easier_to_induce_than_recall_2cddde33.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Mechanistic study of how LLMs arbitrate between parametric knowledge and (false) retrieved context, with a steering intervention to shift copy-vs-recall behavior. Directly addresses knowledge conflict and context compliance in RAG settings.",
+  "why_not_or_caveat": "Focus is mechanistic/interventional rather than proposing a deployable RAG robustness method.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict and Context Compliance",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:15.252658+00:00",
+  "raw_response": "{\"key\": \"arxiv-2601.12075v1\", \"relevance_score\": 4, \"decision\": \"include\", \"suitable_for_survey\": true, \"primary_categories\": [\"knowledge_conflict\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Mechanistic study of how LLMs arbitrate between parametric knowledge and (false) retrieved context, with a steering intervention to shift copy-vs-recall behavior. Directly addresses knowledge conflict and context compliance in RAG settings.\", \"why_not_or_caveat\": \"Focus is mechanistic/interventional rather than proposing a deployable RAG robustness method.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Knowledge Conflict and Context Compliance\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

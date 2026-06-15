@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.07023v1",
+  "title": "Hit-RAG: Learning to Reason with Long Contexts via Preference Alignment",
+  "authors": "Junming Liu; Yuqi Li; Shiping Wen; Zhigang Zeng; Tingwen Huang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.07023v1",
+  "local_pdf": "pdfs/2026_junming_liu_hit_rag_learning_to_reason_with_long_contexts_via_preference_alignment_73dcdf8e.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "distraction"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a multi-stage preference alignment framework to harden MLLMs against noisy distractors and reasoning collapse in long-context RAG, directly addressing noisy retrieval and distraction robustness.",
+  "why_not_or_caveat": "Focused on multimodal long-context RAG; suspicious arxiv id (2603) suggests possible metadata issue.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and Noisy Retrieval Mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:45.103446+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.07023v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"distraction\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a multi-stage preference alignment framework to harden MLLMs against noisy distractors and reasoning collapse in long-context RAG, directly addressing noisy retrieval and distraction robustness.\",\n  \"why_not_or_caveat\": \"Focused on multimodal long-context RAG; suspicious arxiv id (2603) suggests possible metadata issue.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and Noisy Retrieval Mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

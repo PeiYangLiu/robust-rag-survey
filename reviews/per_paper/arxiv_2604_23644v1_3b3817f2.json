@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.23644v1",
+  "title": "RaV-IDP: A Reconstruction-as-Validation Framework for Faithful Intelligent Document Processing",
+  "authors": "Pritesh Jha",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.23644v1",
+  "local_pdf": "pdfs/2026_pritesh_jha_rav_idp_a_reconstruction_as_validation_framework_for_faithful_intelligent_document_proce_3b3817f2.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a fidelity validation mechanism for document extraction pipelines feeding RAG, tangentially relevant to upstream data quality.",
+  "why_not_or_caveat": "Focuses on document extraction validation, not RAG robustness, retrieval noise, conflict, or calibration of generation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:24.593395+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.23644v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"method\", \"why_relevant\": \"Proposes a fidelity validation mechanism for document extraction pipelines feeding RAG, tangentially relevant to upstream data quality.\", \"why_not_or_caveat\": \"Focuses on document extraction validation, not RAG robustness, retrieval noise, conflict, or calibration of generation.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.8}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.07867v3",
+  "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+  "authors": "Wei Zou; Runpeng Geng; Binghui Wang; Jinyuan Jia",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.07867v3",
+  "local_pdf": "pdfs/2024_wei_zou_poisonedrag_knowledge_corruption_attacks_to_retrieval_augmented_generation_of_large_lang_f4605fc4.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "PoisonedRAG is the first knowledge corruption/poisoning attack on RAG, directly addressing adversarial corruption of the retrieval knowledge base and evaluating existing defenses.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption: Poisoning Attacks",
+  "confidence": 0.98,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.450313+00:00",
+  "raw_response": "{\"key\":\"arxiv-2402.07867v3\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"PoisonedRAG is the first knowledge corruption/poisoning attack on RAG, directly addressing adversarial corruption of the retrieval knowledge base and evaluating existing defenses.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption: Poisoning Attacks\",\"confidence\":0.98}",
+  "skipped_existing": false
+}

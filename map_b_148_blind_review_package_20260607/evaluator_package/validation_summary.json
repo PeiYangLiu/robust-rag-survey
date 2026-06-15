@@ -1,0 +1,57 @@
+{
+  "package": "map_b_148_blind_review_package_20260607",
+  "review_file": "annotation_set.csv",
+  "row_count": 139,
+  "unique_record_id_count": 139,
+  "duplicate_record_id_count": 0,
+  "blank_target_fields": {
+    "adjudicated_primary_failure_type": 0,
+    "adjudicated_method_family": 0,
+    "adjudicated_intervention_point": 0,
+    "adjudicated_in_scope": 0,
+    "adjudicated_include_in_map": 0,
+    "adjudication_change": 0,
+    "adjudication_notes": 0
+  },
+  "adjudicated_primary_failure_type_counts": {
+    "noisy_retrieval": 38,
+    "calibration_control": 23,
+    "multimodal_agentic_code": 43,
+    "distraction": 5,
+    "evaluation_benchmark": 11,
+    "survey_related": 4,
+    "knowledge_conflict": 10,
+    "ood_uncertainty": 2,
+    "adversarial_corruption": 3
+  },
+  "adjudicated_method_family_counts": {
+    "method/evaluation": 83,
+    "boundary": 1,
+    "control/calibration": 5,
+    "defense/mitigation": 27,
+    "benchmark/evaluation": 11,
+    "foundation": 3,
+    "analysis": 5,
+    "survey background": 1,
+    "attack": 3
+  },
+  "adjudicated_intervention_point_counts": {
+    "retriever/context": 32,
+    "context assembly": 19,
+    "system control": 15,
+    "mixed": 27,
+    "generator": 25,
+    "evaluation": 11,
+    "corpus/KB": 3,
+    "not applicable": 7
+  },
+  "adjudicated_in_scope_counts": {
+    "false": 74,
+    "true": 65
+  },
+  "adjudicated_include_in_map_counts": {
+    "false": 74,
+    "true": 65
+  },
+  "in_scope_include_mismatch_count": 0
+}

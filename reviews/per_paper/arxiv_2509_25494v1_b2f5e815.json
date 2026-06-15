@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2509.25494v1",
+  "title": "On-Premise AI for the Newsroom: Evaluating Small Language Models for Investigative Document Search",
+  "authors": "Nick Hagar; Nicholas Diakopoulos; Jeremy Gilbert",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.25494v1",
+  "local_pdf": "pdfs/2025_nick_hagar_on_premise_ai_for_the_newsroom_evaluating_small_language_models_for_investigative_docume_b2f5e815.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with small local models to newsroom investigative document search, touching on hallucination and citation validity.",
+  "why_not_or_caveat": "Application/system paper without focused study of robustness, conflict, adversarial attacks, calibration, or systematic evaluation under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:13.874022+00:00",
+  "raw_response": "{\"key\": \"arxiv-2509.25494v1\", \"relevance_score\": 2, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Applies RAG with small local models to newsroom investigative document search, touching on hallucination and citation validity.\", \"why_not_or_caveat\": \"Application/system paper without focused study of robustness, conflict, adversarial attacks, calibration, or systematic evaluation under unreliable evidence.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.85}",
+  "skipped_existing": false
+}

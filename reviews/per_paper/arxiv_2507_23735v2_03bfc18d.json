@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2507.23735v2",
+  "title": "Distributed AI Agents for Cognitive Underwater Robot Autonomy",
+  "authors": "Markus Buchholz; Ignacio Carlucho; Michele Grimaldi; Yvan R. Petillot",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2507.23735v2",
+  "local_pdf": "pdfs/2025_markus_buchholz_distributed_ai_agents_for_cognitive_underwater_robot_autonomy_03bfc18d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG within an underwater robot autonomy framework but does not study robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Application paper; RAG is incidental.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:16.556090+00:00",
+  "raw_response": "{\"key\":\"arxiv-2507.23735v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Uses RAG within an underwater robot autonomy framework but does not study robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Application paper; RAG is incidental.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

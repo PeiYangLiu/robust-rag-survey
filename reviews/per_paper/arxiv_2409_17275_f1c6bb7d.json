@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2409.17275",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2409.17275)] On the Vulnerability of Applying Retrieval-Augmented Generation within Knowledge-Intensive Application Domains",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2409.17275",
+  "local_pdf": "pdfs/na_arxiv_2409_17275_ins_arxiv_ins_https_arxiv_org_abs_2409_17275_on_the_vulnerability_of_applying_re_f1c6bb7d.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes universal poisoning attacks against RAG retrieval systems in knowledge-intensive domains and a detection-based defense, directly addressing adversarial corruption of retrieval.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption: poisoning attacks and defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.060167+00:00",
+  "raw_response": "{\"key\":\"arxiv-2409.17275\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes universal poisoning attacks against RAG retrieval systems in knowledge-intensive domains and a detection-based defense, directly addressing adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial corruption: poisoning attacks and defenses\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

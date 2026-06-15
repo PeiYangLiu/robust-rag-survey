@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.02007v4",
+  "title": "Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation",
+  "authors": "Zhanghao Hu; Qinglin Zhu; Runcong Zhao; Di Liang; Hanqi Yan; Yulan He; Lin Gui",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.02007v4",
+  "local_pdf": "pdfs/2026_zhanghao_hu_beyond_rag_for_agent_memory_retrieval_by_decoupling_and_aggregation_7c0b762a.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a hierarchical agent memory structure to reduce retrieval redundancy; tangentially relates to noisy retrieval but focuses on memory organization for agents rather than robustness under unreliable evidence.",
+  "why_not_or_caveat": "Not about noise, conflict, adversaries, or calibration in RAG; primarily an agent memory method.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:31.876907+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.02007v4\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a hierarchical agent memory structure to reduce retrieval redundancy; tangentially relates to noisy retrieval but focuses on memory organization for agents rather than robustness under unreliable evidence.\",\"why_not_or_caveat\":\"Not about noise, conflict, adversaries, or calibration in RAG; primarily an agent memory method.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

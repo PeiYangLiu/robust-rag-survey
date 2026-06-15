@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.19423v1",
+  "title": "The Autonomy Tax: Defense Training Breaks LLM Agents",
+  "authors": "Shawn Li; Yue Zhao",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.19423v1",
+  "local_pdf": "pdfs/2026_shawn_li_the_autonomy_tax_defense_training_breaks_llm_agents_4bab9193.pdf",
+  "metadata_topics": "adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Studies how defense training against prompt injection breaks LLM agents, tangentially related to robustness against malicious retrieved/observed content.",
+  "why_not_or_caveat": "Focuses on agent tool-use rather than RAG specifically; emphasis is on capability degradation from defenses, not retrieval robustness or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and defenses",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:41.019374+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.19423v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"analysis\",\"why_relevant\":\"Studies how defense training against prompt injection breaks LLM agents, tangentially related to robustness against malicious retrieved/observed content.\",\"why_not_or_caveat\":\"Focuses on agent tool-use rather than RAG specifically; emphasis is on capability degradation from defenses, not retrieval robustness or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption and defenses\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

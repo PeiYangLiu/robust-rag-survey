@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.27054v1",
+  "title": "LLM-Centric RAG with Multi-Granular Indexing and Confidence Constraints",
+  "authors": "Xiaofan Guo; Yaxuan Luan; Yue Kang; Xiangchen Song; Jinxu Guo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.27054v1",
+  "local_pdf": "pdfs/2025_xiaofan_guo_llm_centric_rag_with_multi_granular_indexing_and_confidence_constraints_8bdc094d.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "calibration_control",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes uncertainty estimation and confidence-controlled filtering in RAG with multi-granularity indexing, touching on noise suppression and reliability.",
+  "why_not_or_caveat": "Paper appears low-quality with incoherent related work citations spanning unrelated topics; contributions are vague and not rigorously evaluated against robust-RAG benchmarks.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:45.835075+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.27054v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"calibration_control\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes uncertainty estimation and confidence-controlled filtering in RAG with multi-granularity indexing, touching on noise suppression and reliability.\",\n  \"why_not_or_caveat\": \"Paper appears low-quality with incoherent related work citations spanning unrelated topics; contributions are vague and not rigorously evaluated against robust-RAG benchmarks.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

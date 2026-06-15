@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.11419v1",
+  "title": "Beyond RAG for Cyber Threat Intelligence: A Systematic Evaluation of Graph-Based and Agentic Retrieval",
+  "authors": "Dzenan Hamzic; Florian Skopik; Max Landauer; Markus Wurzenberger; Andreas Rauber",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.11419v1",
+  "local_pdf": "pdfs/2026_dzenan_hamzic_beyond_rag_for_cyber_threat_intelligence_a_systematic_evaluation_of_graph_based_and_agen_baefaa4b.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "evaluation_benchmark",
+    "ood_uncertainty"
+  ],
+  "paper_role": "analysis",
+  "why_relevant": "Compares RAG architectures in CTI domain and examines failure modes like unsafe abstention on unanswerable queries and overconfidence with missing evidence, touching on robustness/calibration aspects.",
+  "why_not_or_caveat": "Primarily a domain-specific architectural comparison rather than a study of robustness phenomena; robustness/abstention analysis is secondary.",
+  "recommended_use": "background_only",
+  "suggested_section": "Evaluation and domain applications",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:09.964393+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.11419v1\", \"relevance_score\": 2, \"decision\": \"background\", \"suitable_for_survey\": false, \"primary_categories\": [\"evaluation_benchmark\", \"ood_uncertainty\"], \"paper_role\": \"analysis\", \"why_relevant\": \"Compares RAG architectures in CTI domain and examines failure modes like unsafe abstention on unanswerable queries and overconfidence with missing evidence, touching on robustness/calibration aspects.\", \"why_not_or_caveat\": \"Primarily a domain-specific architectural comparison rather than a study of robustness phenomena; robustness/abstention analysis is secondary.\", \"recommended_use\": \"background_only\", \"suggested_section\": \"Evaluation and domain applications\", \"confidence\": 0.6}",
+  "skipped_existing": false
+}

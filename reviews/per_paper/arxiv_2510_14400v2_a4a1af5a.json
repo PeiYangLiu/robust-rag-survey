@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2510.14400v2",
+  "title": "MedTrust-RAG: Evidence Verification and Trust Alignment for Biomedical Question Answering",
+  "authors": "Yingpeng Ning; Yuanyuan Sun; Ling Luo; Yanhua Wang; Yuchen Pan; Hongfei Lin",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.14400v2",
+  "local_pdf": "pdfs/2025_yingpeng_ning_medtrust_rag_evidence_verification_and_trust_alignment_for_biomedical_question_answering_a4a1af5a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes iterative retrieval-verification with citation-grounded reasoning and structured refusal (Negative Knowledge Assertions) to mitigate post-retrieval noise and hallucinations in biomedical RAG, addressing noisy evidence and abstention.",
+  "why_not_or_caveat": "Domain-specific (biomedical) and primarily an applied method; not a general robustness study.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy retrieval and verification/abstention",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:37.671245+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2510.14400v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes iterative retrieval-verification with citation-grounded reasoning and structured refusal (Negative Knowledge Assertions) to mitigate post-retrieval noise and hallucinations in biomedical RAG, addressing noisy evidence and abstention.\",\n  \"why_not_or_caveat\": \"Domain-specific (biomedical) and primarily an applied method; not a general robustness study.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy retrieval and verification/abstention\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

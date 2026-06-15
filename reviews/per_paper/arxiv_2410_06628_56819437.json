@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2410.06628",
+  "title": "[[<ins>arxiv</ins>](https://arxiv.org/abs/2410.06628)] Does Vec2Text Pose a New Corpus Poisoning Threat?",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.06628",
+  "local_pdf": "pdfs/na_arxiv_2410_06628_ins_arxiv_ins_https_arxiv_org_abs_2410_06628_does_vec2text_pose_a_new_corpus_poi_56819437.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel corpus poisoning attack against dense retrievers using Vec2Text embedding inversion, which doesn't require model weights and can scale, directly relevant to adversarial corruption of retrieval in RAG.",
+  "why_not_or_caveat": "Focuses on dense retriever poisoning rather than end-to-end RAG generation, but retrieval poisoning is a key threat vector.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Retrieval Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:22.974666+00:00",
+  "raw_response": "{\"key\":\"arxiv-2410.06628\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_search\":true,\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a novel corpus poisoning attack against dense retrievers using Vec2Text embedding inversion, which doesn't require model weights and can scale, directly relevant to adversarial corruption of retrieval in RAG.\",\"why_not_or_caveat\":\"Focuses on dense retriever poisoning rather than end-to-end RAG generation, but retrieval poisoning is a key threat vector.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Retrieval Attacks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

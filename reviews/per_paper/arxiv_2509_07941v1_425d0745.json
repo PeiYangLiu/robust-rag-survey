@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2509.07941v1",
+  "title": "ImportSnare: Directed \"Code Manual\" Hijacking in Retrieval-Augmented Code Generation",
+  "authors": "Kai Ye; Liangcai Su; Chenxiong Qian",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2509.07941v1",
+  "local_pdf": "pdfs/2025_kai_ye_importsnare_directed_code_manual_hijacking_in_retrieval_augmented_code_generation_425d0745.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Presents a novel RAG poisoning attack targeting retrieval-augmented code generation, manipulating both retrieval ranking and LLM generation to recommend malicious dependencies, with a released benchmark.",
+  "why_not_or_caveat": "Domain-specific to code generation rather than general RAG QA.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:31.785468+00:00",
+  "raw_response": "{\"key\":\"arxiv-2509.07941v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"evaluation_benchmark\"],\"paper_role\":\"attack\",\"why_relevant\":\"Presents a novel RAG poisoning attack targeting retrieval-augmented code generation, manipulating both retrieval ranking and LLM generation to recommend malicious dependencies, with a released benchmark.\",\"why_not_or_caveat\":\"Domain-specific to code generation rather than general RAG QA.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

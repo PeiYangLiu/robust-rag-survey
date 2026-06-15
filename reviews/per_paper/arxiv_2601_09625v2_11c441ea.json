@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.09625v2",
+  "title": "The Promptware Kill Chain: How Prompt Injections Gradually Evolved Into a Multistep Malware Delivery Mechanism",
+  "authors": "Oleg Brodt; Elad Feldman; Bruce Schneier; Ben Nassi",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.09625v2",
+  "local_pdf": "pdfs/2026_oleg_brodt_the_promptware_kill_chain_how_prompt_injections_gradually_evolved_into_a_multistep_malwa_11c441ea.pdf",
+  "metadata_topics": "adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "Provides a kill-chain framework for prompt injection and promptware including retrieval/memory poisoning as a persistence stage, relevant to adversarial corruption of RAG systems.",
+  "why_not_or_caveat": "Broader scope than RAG; RAG poisoning is only one stage and not the central focus.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Prompt Injection and Poisoning",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:07.544142+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.09625v2\",\n  \"relevance_score\": 3,\n  \"decision\": \"background\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"survey_related\"],\n  \"paper_role\": \"survey\",\n  \"why_relevant\": \"Provides a kill-chain framework for prompt injection and promptware including retrieval/memory poisoning as a persistence stage, relevant to adversarial corruption of RAG systems.\",\n  \"why_not_or_caveat\": \"Broader scope than RAG; RAG poisoning is only one stage and not the central focus.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Prompt Injection and Poisoning\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

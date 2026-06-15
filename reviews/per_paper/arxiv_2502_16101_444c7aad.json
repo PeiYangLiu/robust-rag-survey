@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2502.16101",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2502.16101)\\] Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2502.16101",
+  "local_pdf": "pdfs/na_arxiv_2502_16101_arxiv_https_arxiv_org_abs_2502_16101_worse_than_zero_shot_a_fact_checking_datase_444c7aad.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "RAGUARD is a benchmark specifically designed to evaluate RAG robustness against naturally occurring misleading retrievals, with a taxonomy of supporting/misleading/unrelated evidence. It directly targets noisy and conflicting evidence and shows RAG performs worse than zero-shot baselines.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Benchmarks for misleading retrieval and knowledge conflict",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:33.595447+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2502.16101\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"RAGUARD is a benchmark specifically designed to evaluate RAG robustness against naturally occurring misleading retrievals, with a taxonomy of supporting/misleading/unrelated evidence. It directly targets noisy and conflicting evidence and shows RAG performs worse than zero-shot baselines.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Benchmarks for misleading retrieval and knowledge conflict\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

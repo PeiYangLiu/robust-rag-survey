@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.00846v1",
+  "title": "Tiny-Critic RAG: Empowering Agentic Fallback with Parameter-Efficient Small Language Models",
+  "authors": "Yichao Wu; Penghao Liang; Yafei Xiang; Mengwei Yuan; Jianan Liu; Jing Yang; Xianyou Li; Weiran Yan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.00846v1",
+  "local_pdf": "pdfs/2026_yichao_wu_tiny_critic_rag_empowering_agentic_fallback_with_parameter_efficient_small_language_mode_61db9272.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a small LM critic for routing/fallback decisions in RAG under noisy/adversarial retrieval, addressing when to trust retrieved evidence vs. re-retrieve — relevant to calibration/control and noisy retrieval handling.",
+  "why_not_or_caveat": "Limited evaluation (5k queries, two datasets), and arxiv ID seems suspicious; mostly an engineering/efficiency contribution rather than deep robustness analysis.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control: gatekeeping and fallback routing",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:57.348067+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2603.00846v1\",\n  \"relevance_score\": 3,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a small LM critic for routing/fallback decisions in RAG under noisy/adversarial retrieval, addressing when to trust retrieved evidence vs. re-retrieve — relevant to calibration/control and noisy retrieval handling.\",\n  \"why_not_or_caveat\": \"Limited evaluation (5k queries, two datasets), and arxiv ID seems suspicious; mostly an engineering/efficiency contribution rather than deep robustness analysis.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control: gatekeeping and fallback routing\",\n  \"confidence\": 0.6\n}",
+  "skipped_existing": false
+}

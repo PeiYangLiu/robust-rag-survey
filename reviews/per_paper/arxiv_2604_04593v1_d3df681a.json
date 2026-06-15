@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.04593v1",
+  "title": "Ruling Out to Rule In: Contrastive Hypothesis Retrieval for Medical Question Answering",
+  "authors": "Byeolhee Kim; Min-Kyung Kim; Young-Hak Kim; Tae-Joon Jeon",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.04593v1",
+  "local_pdf": "pdfs/2026_byeolhee_kim_ruling_out_to_rule_in_contrastive_hypothesis_retrieval_for_medical_question_answering_d3df681a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; calibration-control; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a contrastive query expansion method explicitly targeting hard-negative retrieval contamination in medical RAG, directly addressing noisy retrieval robustness.",
+  "why_not_or_caveat": "Domain-specific (medical QA) and focused on retrieval quality rather than broader robustness dimensions.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Hard Negatives",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:08.839666+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.04593v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes a contrastive query expansion method explicitly targeting hard-negative retrieval contamination in medical RAG, directly addressing noisy retrieval robustness.\",\"why_not_or_caveat\":\"Domain-specific (medical QA) and focused on retrieval quality rather than broader robustness dimensions.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Noisy Retrieval / Hard Negatives\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

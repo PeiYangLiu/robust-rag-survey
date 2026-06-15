@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2511.19257v1",
+  "title": "Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation",
+  "authors": "Yingjia Shang; Yi Liu; Huimin Wang; Furong Li; Wenfang Sun; Wu Chengyu; Yefeng Zheng",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2511.19257v1",
+  "local_pdf": "pdfs/2025_yingjia_shang_medusa_cross_modal_transferable_adversarial_attacks_on_multimodal_medical_retrieval_augm_2ed67dfb.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes cross-modal transferable adversarial attacks on multimodal medical RAG, manipulating retrieval and generation under black-box settings, directly relevant to adversarial corruption of RAG.",
+  "why_not_or_caveat": "Domain-specific (medical multimodal); may be niche relative to text-RAG attacks.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:51.593303+00:00",
+  "raw_response": "{\"key\":\"arxiv-2511.19257v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes cross-modal transferable adversarial attacks on multimodal medical RAG, manipulating retrieval and generation under black-box settings, directly relevant to adversarial corruption of RAG.\",\"why_not_or_caveat\":\"Domain-specific (medical multimodal); may be niche relative to text-RAG attacks.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

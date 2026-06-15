@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2403.10131v2",
+  "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+  "authors": "Tianjun Zhang; Shishir G. Patil; Naman Jain; Sheng Shen; Matei Zaharia; Ion Stoica; Joseph E. Gonzalez",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.10131v2",
+  "local_pdf": "pdfs/2024_tianjun_zhang_raft_adapting_language_model_to_domain_specific_rag_8afdd908.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "distraction",
+    "noisy_retrieval"
+  ],
+  "paper_role": "method",
+  "why_relevant": "RAFT fine-tunes LLMs with distractor documents to make them robust against irrelevant/noisy retrieved context, directly addressing distraction and noisy retrieval in RAG.",
+  "why_not_or_caveat": "Focuses on domain-specific adaptation rather than broad robustness taxonomy.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Distraction and noisy retrieval defenses",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:01.390394+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2403.10131v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"distraction\", \"noisy_retrieval\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"RAFT fine-tunes LLMs with distractor documents to make them robust against irrelevant/noisy retrieved context, directly addressing distraction and noisy retrieval in RAG.\",\n  \"why_not_or_caveat\": \"Focuses on domain-specific adaptation rather than broad robustness taxonomy.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Distraction and noisy retrieval defenses\",\n  \"confidence\": 0.9\n}",
+  "skipped_existing": false
+}

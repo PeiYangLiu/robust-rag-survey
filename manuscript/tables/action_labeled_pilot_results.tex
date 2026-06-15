@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Policy} & \textbf{Ans.} & \textbf{Act.} & \textbf{Joint} & \textbf{Unsafe} \\
+\midrule
+Answer-only & 0.17 & 0.17 & 0.17 & 0.83 \\
+Abstain-on-missing & 0.67 & 0.33 & 0.33 & 0.17 \\
+State-label heuristic & 1.00 & 1.00 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}
+\caption{Minimal action-labeled pilot over 60 diagnostic items and three simple policies. The state-label heuristic uses the gold evidence-state label and is an upper-bound sanity check, not a deployed model. Unsafe is the rate of answering when the gold action is to abstain, quarantine, clarify, expose conflict, or re-retrieve.}
+\label{tab:action-labeled-pilot-results}
+\end{table}
+

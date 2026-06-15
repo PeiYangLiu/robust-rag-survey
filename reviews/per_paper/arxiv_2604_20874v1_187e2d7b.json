@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.20874v1",
+  "title": "The Root Theorem of Context Engineering",
+  "authors": "Borja Odriozola Schick",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.20874v1",
+  "local_pdf": "pdfs/2026_borja_odriozola_schick_the_root_theorem_of_context_engineering_187e2d7b.pdf",
+  "metadata_topics": "rag-core",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "theory",
+  "why_relevant": "Paper proposes a theoretical 'Root Theorem' about context engineering and persistent memory, only briefly mentioning RAG as not solving continuity.",
+  "why_not_or_caveat": "Does not address robustness, noise, conflict, adversarial attacks, calibration, or evaluation of RAG under unreliable evidence.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:32.312816+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.20874v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"theory\", \"why_relevant\": \"Paper proposes a theoretical 'Root Theorem' about context engineering and persistent memory, only briefly mentioning RAG as not solving continuity.\", \"why_not_or_caveat\": \"Does not address robustness, noise, conflict, adversarial attacks, calibration, or evaluation of RAG under unreliable evidence.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.95}",
+  "skipped_existing": false
+}

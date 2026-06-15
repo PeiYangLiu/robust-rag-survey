@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.05587",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2503.05587)\\] Quantifying the Robustness of Retrieval-Augmented Language Models Against Spurious Features in Grounding Data",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.05587",
+  "local_pdf": "pdfs/na_arxiv_2503_05587_arxiv_https_arxiv_org_abs_2503_05587_quantifying_the_robustness_of_retrieval_aug_04ff1748.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Proposes SURE, a framework and benchmark for quantifying RAG robustness to spurious (semantic-agnostic) features in retrieved documents, with training-based mitigation strategies.",
+  "why_not_or_caveat": "Focuses on implicit/spurious features (format, style) rather than core noise/conflict/adversarial issues.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation and Benchmarks",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:34.651251+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.05587\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Proposes SURE, a framework and benchmark for quantifying RAG robustness to spurious (semantic-agnostic) features in retrieved documents, with training-based mitigation strategies.\",\n  \"why_not_or_caveat\": \"Focuses on implicit/spurious features (format, style) rather than core noise/conflict/adversarial issues.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Evaluation and Benchmarks\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

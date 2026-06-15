@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.02579v3",
+  "title": "ProphetKV: User-Query-Driven Selective Recomputation for Efficient KV Cache Reuse in Retrieval-Augmented Generation",
+  "authors": "Shihao Wang; Jiahao Chen; Yanqi Pan; Hao Huang; Yichen Hao; Xiangyu Zou; Wen Xia; Wentao Zhang; Chongyang Qiu; Pengfei Wang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.02579v3",
+  "local_pdf": "pdfs/2026_shihao_wang_prophetkv_user_query_driven_selective_recomputation_for_efficient_kv_cache_reuse_in_retr_f2e1b8d4.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Paper focuses on KV cache reuse efficiency for RAG prefill, not robustness, reliability, or unreliable evidence.",
+  "why_not_or_caveat": "Out of scope: efficiency/systems work, not robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:26.941145+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.02579v3\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Paper focuses on KV cache reuse efficiency for RAG prefill, not robustness, reliability, or unreliable evidence.\",\"why_not_or_caveat\":\"Out of scope: efficiency/systems work, not robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

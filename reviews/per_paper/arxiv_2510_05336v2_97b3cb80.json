@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.05336v2",
+  "title": "WeatherArchive-Bench: Benchmarking Retrieval-Augmented Reasoning for Historical Weather Archives",
+  "authors": "Yongan Yu; Xianda Du; Qingchen Hu; Jiahao Liang; Jingwei Ni; Dan Qiang; Kaiyu Huang; Grant McKenzie; Renee Sieber; Fengran Mo",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.05336v2",
+  "local_pdf": "pdfs/2025_yongan_yu_weatherarchive_bench_benchmarking_retrieval_augmented_reasoning_for_historical_weather_a_97b3cb80.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a RAG benchmark over noisy OCR'd historical archives with archaic terminology, evaluating retrieval and reasoning robustness under unreliable, noisy evidence.",
+  "why_not_or_caveat": "Domain-specific (historical weather archives); focus is on benchmark construction rather than general robustness methods.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Evaluation/Benchmarks for noisy retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:38.228501+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.05336v2\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces a RAG benchmark over noisy OCR'd historical archives with archaic terminology, evaluating retrieval and reasoning robustness under unreliable, noisy evidence.\",\"why_not_or_caveat\":\"Domain-specific (historical weather archives); focus is on benchmark construction rather than general robustness methods.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Evaluation/Benchmarks for noisy retrieval\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

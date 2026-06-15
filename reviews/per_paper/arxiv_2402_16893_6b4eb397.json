@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2402.16893",
+  "title": "\\[[arxiv](https://arxiv.org/abs/2402.16893)\\] The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2402.16893",
+  "local_pdf": "pdfs/na_arxiv_2402_16893_arxiv_https_arxiv_org_abs_2402_16893_the_good_and_the_bad_exploring_privacy_issu_6b4eb397.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Studies privacy extraction attacks on RAG retrieval databases, tangentially related to adversarial robustness of RAG systems.",
+  "why_not_or_caveat": "Focus is on privacy leakage, not on robustness to unreliable evidence, conflict, or calibration.",
+  "recommended_use": "background_only",
+  "suggested_section": "Adversarial corruption and privacy",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:30.869571+00:00",
+  "raw_response": "{\"key\":\"arxiv-2402.16893\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Studies privacy extraction attacks on RAG retrieval databases, tangentially related to adversarial robustness of RAG systems.\",\"why_not_or_caveat\":\"Focus is on privacy leakage, not on robustness to unreliable evidence, conflict, or calibration.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Adversarial corruption and privacy\",\"confidence\":0.8}",
+  "skipped_existing": false
+}

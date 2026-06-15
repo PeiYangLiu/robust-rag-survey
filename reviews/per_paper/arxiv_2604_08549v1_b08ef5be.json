@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2604.08549v1",
+  "title": "VerifAI: A Verifiable Open-Source Search Engine for Biomedical Question Answering",
+  "authors": "Miloš Košprdić; Adela Ljajić; Bojana Bašaragin; Darija Medvecki; Lorenzo Cassano; Nikola Milošević",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.08549v1",
+  "local_pdf": "pdfs/2026_milo_ko_prdi_verifai_a_verifiable_open_source_search_engine_for_biomedical_question_answering_b08ef5be.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "VerifAI integrates post-hoc NLI-based claim verification into a biomedical RAG pipeline to detect hallucinations and reduce unsupported citations, relevant to verification/control mechanisms for unreliable evidence.",
+  "why_not_or_caveat": "Domain-specific application rather than general robustness study; verification is a known technique applied to biomedical QA.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control (post-hoc verification)",
+  "confidence": 0.6,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:31.408431+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.08549v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"VerifAI integrates post-hoc NLI-based claim verification into a biomedical RAG pipeline to detect hallucinations and reduce unsupported citations, relevant to verification/control mechanisms for unreliable evidence.\",\"why_not_or_caveat\":\"Domain-specific application rather than general robustness study; verification is a known technique applied to biomedical QA.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Control (post-hoc verification)\",\"confidence\":0.6}",
+  "skipped_existing": false
+}

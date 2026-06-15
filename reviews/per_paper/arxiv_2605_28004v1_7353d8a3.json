@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2605.28004v1",
+  "title": "Beyond Chunk-Local Extraction: Cross-Chunk Graph Augmentation for GraphRAG",
+  "authors": "Jiaming Zhang; Yibo Zhao; Jing Yu; Jianxiang Yu; Xiang Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2605.28004v1",
+  "local_pdf": "pdfs/2026_jiaming_zhang_beyond_chunk_local_extraction_cross_chunk_graph_augmentation_for_graphrag_7353d8a3.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes GraphRAG index augmentation for multi-hop QA, unrelated to robustness, noise, conflict, or calibration.",
+  "why_not_or_caveat": "Focuses on improving graph construction completeness, not unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:09.436795+00:00",
+  "raw_response": "{\"key\":\"arxiv-2605.28004v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes GraphRAG index augmentation for multi-hop QA, unrelated to robustness, noise, conflict, or calibration.\",\"why_not_or_caveat\":\"Focuses on improving graph construction completeness, not unreliable evidence robustness.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

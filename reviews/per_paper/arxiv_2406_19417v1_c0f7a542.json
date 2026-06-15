@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2406.19417v1",
+  "title": "\"Glue pizza and eat rocks\" -- Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+  "authors": "Zhen Tan; Chengshuai Zhao; Raha Moraffah; Yifan Li; Song Wang; Jundong Li; Tianlong Chen; Huan Liu",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2406.19417v1",
+  "local_pdf": "pdfs/2024_zhen_tan_glue_pizza_and_eat_rocks_exploiting_vulnerabilities_in_retrieval_augmented_generative_mo_c0f7a542.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes LIAR, a bi-level attack that injects adversarial documents into RAG knowledge bases to be preferentially retrieved and manipulate LLM outputs in a gray-box setting, directly addressing RAG poisoning vulnerabilities.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial corruption and poisoning attacks on RAG",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:03:02.314057+00:00",
+  "raw_response": "{\"key\":\"arxiv-2406.19417v1\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes LIAR, a bi-level attack that injects adversarial documents into RAG knowledge bases to be preferentially retrieved and manipulate LLM outputs in a gray-box setting, directly addressing RAG poisoning vulnerabilities.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial corruption and poisoning attacks on RAG\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

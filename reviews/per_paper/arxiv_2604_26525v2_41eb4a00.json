@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.26525v2",
+  "title": "PRAG: End-to-End Privacy-Preserving Retrieval-Augmented Generation",
+  "authors": "Zhijun Li; Minghui Xu; Huayi Qi; Wenxuan Yu; Tingchuang Zhang; Qiao Zhang; GuangYong Shang; Zhen Ma; Xiuzhen Cheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.26525v2",
+  "local_pdf": "pdfs/2026_zhijun_li_prag_end_to_end_privacy_preserving_retrieval_augmented_generation_41eb4a00.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Focuses on privacy-preserving encrypted RAG via homomorphic encryption, not on robustness to unreliable evidence, noise, conflict, or adversarial content in the survey's sense.",
+  "why_not_or_caveat": "Privacy/confidentiality scope is orthogonal to the survey's robustness/calibration focus.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:27.628311+00:00",
+  "raw_response": "{\"key\":\"arxiv-2604.26525v2\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Focuses on privacy-preserving encrypted RAG via homomorphic encryption, not on robustness to unreliable evidence, noise, conflict, or adversarial content in the survey's sense.\",\"why_not_or_caveat\":\"Privacy/confidentiality scope is orthogonal to the survey's robustness/calibration focus.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

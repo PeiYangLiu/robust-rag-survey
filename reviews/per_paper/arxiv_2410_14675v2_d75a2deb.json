@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2410.14675v2",
+  "title": "To Trust or Not to Trust? Enhancing Large Language Models' Situated Faithfulness to External Contexts",
+  "authors": "Yukun Huang; Sanxing Chen; Hongyi Cai; Bhuwan Dhingra",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.14675v2",
+  "local_pdf": "pdfs/2024_yukun_huang_to_trust_or_not_to_trust_enhancing_large_language_models_situated_faithfulness_to_extern_d75a2deb.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; calibration-control; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Directly addresses knowledge conflict in RAG by proposing situated faithfulness, with confidence reasoning methods (SCR, RCR) and CR-DPO fine-tuning to calibrate trust between parametric knowledge and external context. Also introduces RedditQA benchmark with naturally occurring incorrect contexts.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict and Calibrated Trust",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:55.888802+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2410.14675v2\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Directly addresses knowledge conflict in RAG by proposing situated faithfulness, with confidence reasoning methods (SCR, RCR) and CR-DPO fine-tuning to calibrate trust between parametric knowledge and external context. Also introduces RedditQA benchmark with naturally occurring incorrect contexts.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Knowledge Conflict and Calibrated Trust\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

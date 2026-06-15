@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2508.05666v1",
+  "title": "HySemRAG: A Hybrid Semantic Retrieval-Augmented Generation Framework for Automated Literature Synthesis and Methodological Gap Analysis",
+  "authors": "Alejandro Godinez",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.05666v1",
+  "local_pdf": "pdfs/2025_alejandro_godinez_hysemrag_a_hybrid_semantic_retrieval_augmented_generation_framework_for_automated_litera_db8176d9.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG to literature synthesis with some citation verification and quality assurance, but not focused on robustness, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Domain application paper; robustness/uncertainty topics are not central.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:58.448207+00:00",
+  "raw_response": "{\"key\":\"arxiv-2508.05666v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG to literature synthesis with some citation verification and quality assurance, but not focused on robustness, conflict, attacks, or calibration.\",\"why_not_or_caveat\":\"Domain application paper; robustness/uncertainty topics are not central.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

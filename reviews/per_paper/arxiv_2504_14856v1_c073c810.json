@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2504.14856v1",
+  "title": "Transparentize the Internal and External Knowledge Utilization in LLMs with Trustworthy Citation",
+  "authors": "Jiajun Shen; Tong Zhou; Yubo Chen; Delai Qiu; Shengping Liu; Kang Liu; Jun Zhao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.14856v1",
+  "local_pdf": "pdfs/2025_jiajun_shen_transparentize_the_internal_and_external_knowledge_utilization_in_llms_with_trustworthy_c073c810.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "calibration_control",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses when to trust parametric vs retrieved knowledge in RAG, with confidence calibration (ECE) and trustworthy citation generation, directly relevant to knowledge conflict and calibration/control under unreliable retrieval.",
+  "why_not_or_caveat": "Focus is on citation/attribution rather than core robustness attacks; relevance is via calibration and internal-vs-external knowledge use.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Control / Knowledge Conflict",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:10.782150+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2504.14856v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"calibration_control\", \"evaluation_benchmark\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses when to trust parametric vs retrieved knowledge in RAG, with confidence calibration (ECE) and trustworthy citation generation, directly relevant to knowledge conflict and calibration/control under unreliable retrieval.\",\n  \"why_not_or_caveat\": \"Focus is on citation/attribution rather than core robustness attacks; relevance is via calibration and internal-vs-external knowledge use.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Calibration and Control / Knowledge Conflict\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

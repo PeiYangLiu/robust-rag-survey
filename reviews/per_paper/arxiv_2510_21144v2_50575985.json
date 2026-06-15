@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2510.21144v2",
+  "title": "NeuroGenPoisoning: Neuron-Guided Attacks on Retrieval-Augmented Generation of LLM via Genetic Optimization of External Knowledge",
+  "authors": "Hanyu Zhu; Lance Fiondella; Jiawei Yuan; Kai Zeng; Long Jiao",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2510.21144v2",
+  "local_pdf": "pdfs/2025_hanyu_zhu_neurogenpoisoning_neuron_guided_attacks_on_retrieval_augmented_generation_of_llm_via_gen_50575985.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a neuron-guided genetic poisoning attack on RAG that explicitly targets knowledge conflict between parametric and retrieved evidence, relevant to adversarial corruption and conflict sections.",
+  "why_not_or_caveat": "Attack-only; assumes white-box neuron access which is a strong threat model.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:13.330469+00:00",
+  "raw_response": "{\"key\":\"arxiv-2510.21144v2\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"knowledge_conflict\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a neuron-guided genetic poisoning attack on RAG that explicitly targets knowledge conflict between parametric and retrieved evidence, relevant to adversarial corruption and conflict sections.\",\"why_not_or_caveat\":\"Attack-only; assumes white-box neuron access which is a strong threat model.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption / Poisoning Attacks\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,223 @@
+\documentclass[11pt]{article}
+
+% ACL review template. Change "review" to "final" for camera-ready or
+% "preprint" for a non-anonymous version with page numbers.
+\usepackage[review]{acl}
+
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{forest}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+\setlength{\emergencystretch}{3em}
+\setlength{\linenumbersep}{6pt}
+
+\title{Evidence Reliability and Action Control in Text-Based Retrieval-Augmented Generation:\\
+A Structured Scoping Map and Agenda}
+
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Text retrieval-augmented generation (RAG) grounds language models in external evidence, but retrieved evidence can be irrelevant, distracting, conflicting, stale, insufficient, or adversarially corrupted. We present a structured scoping map and agenda for robust RAG under unreliable evidence. The paper is not a venue-complete systematic review or field census. Its central contribution is a comparability framework: robust-RAG methods and benchmarks should only be compared after aligning failure type, evidence assumption, intervention point, metric target, and action policy. We anchor the main synthesis in peer-reviewed or venue-linked work and use a 268-paper final adjudicated evidence map as trend and audit evidence. The result is a decision procedure for classifying robust-RAG papers, a small reliability pilot for pairwise comparability judgments, and an action-trace evaluation agenda for future benchmarks.
+\end{abstract}
+
+\section{Introduction}
+
+Retrieval-augmented generation (RAG) combines a parametric language model with external evidence retrieved at inference time \citep{lewis2020rag}. It is widely used for open-domain and document-grounded question answering because it can update knowledge without retraining and provide source-grounded answers. Yet retrieval also creates a new failure surface: evidence can be irrelevant, insufficient, conflicting, stale, unsupported by its citation, or maliciously injected.
+
+Existing work studies these failures under many names: retrieval noise, distractor robustness, context faithfulness, knowledge conflict, corpus poisoning, indirect prompt injection, uncertainty estimation, selective generation, and abstention. We argue that these are instances of one broader problem: \textbf{robust RAG under unreliable evidence}. A robust RAG system should not only answer correctly when retrieval is helpful; it should estimate evidence reliability and choose an action when the evidence is unreliable: answer, abstain, re-retrieve, filter, verify, expose conflict, ask clarification, or escalate.
+
+This paper is a \emph{structured scoping map and agenda}, not an authoritative field census. We use an auditable corpus snapshot to organize the literature, but we do not claim PRISMA-level completeness or venue-complete coverage. Our main synthesis is anchored in peer-reviewed or venue-linked evidence; broader arXiv-heavy evidence is treated as trend and audit evidence. This positioning is deliberate: robust RAG is moving quickly, and strong claims should distinguish mature mechanisms from emerging preprint trends.
+
+\paragraph{Why another RAG survey?}
+General RAG surveys organize architectures, retrievers, generators, and applications \citep{ragSurvey2024,ragComprehensive2025}. Evaluation surveys organize datasets and metrics \citep{ragEvaluationSurvey2024}. Trustworthy and secure RAG surveys cover broad axes such as factuality, privacy, accountability, and attack surfaces \citep{trustRAGCompass2024,trustworthyRAGSurvey2025,securityRAGSurvey2026}. These surveys provide useful coverage, but they do not give a concrete decision procedure for deciding when two robust-RAG papers are comparable. Our focus is narrower: when evidence is unreliable, what failure is present, where does the method intervene, what metric is being optimized, and what action should the system take?
+\input{tables/prior_survey_delta_main}
+
+\paragraph{Contributions.}
+We make three bounded contributions.
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{A comparability decision procedure.} We specify how to align failure type, evidence assumption, intervention point, metric target, and action policy before comparing robust-RAG work.
+    \item \textbf{A tiered scoping evidence base.} We build a 1,399-candidate corpus snapshot, a 100-paper core reading set, a 326-paper venue-augmented scoping set, and a 268-paper final adjudicated evidence map; we separate peer-reviewed backbone claims from preprint-heavy trends.
+    \item \textbf{Paper-level re-analysis and agenda.} We apply the procedure to representative comparisons, identify invalid or partial comparisons, and state action-trace evaluation as a future benchmark agenda rather than a validated leaderboard.
+\end{enumerate}
+
+\section{Decision Procedure}
+\label{sec:framework-first}
+
+\input{tables/framework_decision_procedure}
+
+The framework is a comparison procedure rather than only a taxonomy. Given a paper, Table~\ref{tab:framework-decision-procedure} first asks what evidence property is unreliable: relevance, sufficiency, consistency, provenance/freshness, or integrity. It then asks whether the failure is benign, benchmark-constructed, naturally occurring, or adversarial; where the method intervenes; which metric is optimized; and which action policy is implied.
+
+This procedure prevents several common but misleading comparisons. A method that filters irrelevant passages, a method that trains a generator against noisy contexts, and a benchmark that measures negative rejection may all be called ``noise robust,'' but they are not measuring the same object. Similarly, a poisoning defense with a bounded corruption guarantee and a prompt-injection defense may both lower attack success, yet one controls factual corruption and the other controls instruction hijacking. The unit of comparison must be a tuple:
+\[
+(\text{failure}, \text{assumption}, \text{intervention}, \text{metric}, \text{action}).
+\]
+If the tuple differs, the papers may be complementary but should not be ranked by one number.
+
+\input{tables/comparison_reanalysis_pilot}
+\input{tables/comparability_pilot_results}
+
+We test a limited form of operationalizability. From two independent human coding sources over the evidence map, we derived pairwise comparability labels for 75 paper pairs: 25 likely comparable pairs, 25 near-miss pairs sharing a failure type but differing on another coordinate, and 25 cross-subfield negatives. Two papers are comparable only if their failure type, intervention point, and evaluation type align. The derived labels agree strongly (97.3\%, $\kappa=0.94$; Table~\ref{tab:comparability-pilot}). This is a derived-label reliability check, not an independent expert user study; we therefore treat it as feasibility evidence rather than external validation.
+
+\section{Evidence Base}
+\label{sec:protocol}
+
+\input{tables/protocol_summary_main}
+\input{tables/peer_reviewed_backbone}
+
+Table~\ref{tab:protocol-summary-main} summarizes the evidence base; detailed screening, venue audit, annotation, and ledger artifacts are in Appendix~\ref{sec:audit-artifacts}. The corpus begins with 1,399 deduplicated candidates and ends with a 268-paper final adjudicated evidence map. Two anonymized human sources independently coded 274 candidate evidence records; final adjudication removed six records from the evidence map. Human agreement is strong across primary failure type ($\kappa=0.96$), method family ($\kappa=0.86$), intervention point ($\kappa=0.92$), evaluation type ($\kappa=0.93$), evidence strength ($\kappa=0.95$), relevance level (weighted $\kappa=0.80$), core-candidate status ($\kappa=0.80$), and include-in-map decision ($\kappa=0.85$).
+
+The map remains preprint-heavy: 42 final records are peer-reviewed/proceedings-linked and 222 are arXiv-only or emerging preprints, with a few other source strata. We therefore treat peer-reviewed or venue-linked work as the stable backbone and use the broader map for trend discovery. Under this stricter evidence stratum, five conclusions remain stable (Table~\ref{tab:peer-reviewed-backbone}): retrieved evidence can harm generation; natural conflict and adversarial poisoning require different assumptions; RAG security results require attacker-capability normalization; calibration and abstention are different action-control decisions; and answer accuracy alone is insufficient for robust-RAG evaluation.
+
+\paragraph{How to read the map.}
+The evidence map is not meant to estimate the true prevalence of every robust-RAG subproblem. Instead, it records how a curated, adjudicated corpus instantiates the comparison fields used in the framework. The key fields are not only topical labels, but the combination of evidence state, intervention point, metric target, evidence strength, and inclusion rationale. A preprint-heavy cluster can reveal emerging pressure points, while a smaller venue-linked cluster supports more stable mechanism-level claims. Readers should therefore use the map as a navigational and audit artifact: it helps locate comparable papers, identify under-specified comparisons, and decide which claims require stronger peer-reviewed support.
+
+This distinction also shapes the role of the 100-paper core set. The core set anchors the main narrative and case studies, while the 268-paper adjudicated map supports broader trend inspection. We avoid treating map counts as community consensus. For example, if adversarial corruption appears dense in the map, that may reflect genuine research momentum, query design, and arXiv publication dynamics at the same time. The framework's stronger claim is not that one failure type is objectively most common; it is that any robust-RAG result should state which evidence failure it tests, what assumptions it makes, where it intervenes, and which system action it rewards.
+
+\section{Condensed Literature Synthesis}
+
+\paragraph{Evidence construction: retrieval is not a neutral front end.}
+Early robust-RAG work already shows that the retriever is not merely a recall module. Irrelevant-context studies demonstrate that a generator can be brittle even when the retrieved passage is obviously unrelated \citep{irrelevantContext2023}, while noise-aware training studies show that different negative types produce different failure modes \citep{raat2024}. Benchmark work such as RGB makes this explicit by separating noise robustness, negative rejection, information integration, and counterfactual robustness \citep{rgb2023}. The stable lesson is that \emph{relevant vs. irrelevant} is too coarse: the downstream effect of a passage depends on rank position, semantic hardness, redundancy, source quality, and whether gold evidence is also present. A retriever that maximizes recall can still degrade answer quality if it increases the density of plausible distractors.
+
+This changes how retrieval-side methods should be compared. A reranker that demotes hard negatives, a sentence-level filter that removes local distractors, and a context compressor that preserves salient evidence all act before generation, but they solve different subproblems. Their failure cases also differ: aggressive filtering can remove weak but necessary multi-hop evidence; reranking can overfit to a particular generator or benchmark distribution; compression can delete qualifiers, timestamps, or uncertainty markers. These tradeoffs explain why downstream-utility metrics and evidence-sufficiency labels are needed in addition to retrieval recall.
+
+\paragraph{Model-side evidence use: context availability is not context use.}
+Once evidence enters the prompt, the generator must decide which passages to trust and how to reconcile them with parametric memory. Chain-of-Note style methods externalize intermediate evidence judgments before answering \citep{chainOfNote2023}; conflict-aware methods explicitly model discrepancies between internal and retrieved facts \citep{faithfulRAG2025,astuteRAG2025}; and context-utilization benchmarks test whether models rely on gold evidence when distractors or conflicts are present. These methods reveal a second distinction: a passage can be available in context but not used, and a misleading passage can dominate even when support is available elsewhere.
+
+Knowledge conflict is especially important because it sits between faithfulness, calibration, and retrieval quality. If retrieved evidence contradicts a model's parametric memory, blindly trusting retrieval can be wrong when the retrieved source is stale or poisoned; blindly trusting parametric memory can be wrong when the model is outdated. Robust RAG therefore needs source reliability, provenance, timestamp, and claim-level support, not only a preference for retrieved context. This is also why citation is not sufficient: a generated answer can cite a topically related passage that does not entail the claim, or cite the right document while using unsupported parametric knowledge. Claim-level verification remains expensive, but document-level citation is too weak for high-stakes evaluation.
+
+\paragraph{Adversarial integrity: security results live inside threat models.}
+RAG security work studies a different kind of unreliable evidence: evidence manipulated by an adaptive attacker. Corpus poisoning inserts malicious passages into the retrieval database; retriever poisoning manipulates dense similarity; indirect prompt injection hides instructions in retrievable documents; backdoor-style attacks rely on triggers; traceback methods identify malicious documents after a failure. These all corrupt the evidence channel, but their assumptions differ. A result that requires corpus write access and white-box retriever gradients should not be compared to a black-box attack that only controls a public document; a defense certified under a bounded corruption budget should not be read as protection against prompt-bearing retrieved text.
+
+The main synthesis from the security backbone is therefore not a ranking of attacks or defenses, but a normalization rule. Every attack or defense result should report at least corpus write access, query control, retriever visibility, generator access, insertion budget, whether malicious evidence is retrieved, and whether the objective is answer steering, refusal induction, privacy extraction, traceback, or recovery. Without these fields, attack success rate is not portable. This is the clearest place where the comparability framework changes interpretation: many reported ``RAG security'' results are about different threat games.
+
+\paragraph{System control: uncertainty must become action.}
+Answerability and sufficient-context work asks whether the evidence is enough to answer \citep{sufficientContext2024}. Adaptive retrieval asks whether external evidence is needed at all \citep{selfRAG2023,crag2024}. Calibration work asks whether confidence matches correctness or evidence sufficiency \citep{calibRAG2025,uncertaintyRAG2024}. These questions are related but not identical. A system can be confident but unsupported, uncertain but answerable after decomposition, or accurate but over-costly because it retrieves and verifies unnecessarily.
+
+The action-control perspective therefore treats retrieval, abstention, verification, clarification, and escalation as policy decisions under cost and risk. The correct action depends on the evidence state: irrelevant evidence may require filtering, insufficient evidence may require re-retrieval or abstention, conflicting evidence may require source comparison or conflict disclosure, and poisoned evidence may require quarantine or traceback. This also explains why a single metric cannot summarize robust RAG. Accuracy, coverage, calibration, citation support, attack success, and latency define a tradeoff surface.
+
+\section{Critical Synthesis}
+\label{sec:crosscutting}
+
+\input{tables/nontrivial_findings}
+
+\paragraph{Noise robustness is not one axis.}
+Irrelevant-context filtering \citep{irrelevantContext2023}, noise-aware training \citep{raat2024}, Chain-of-Note style generator reasoning \citep{chainOfNote2023}, and sufficient-context prediction \citep{sufficientContext2024} all address unreliable evidence, but they operate at different intervention points. Once distractor hardness, rank position, gold-evidence availability, and required action are aligned, many apparent competitions become complementary operating regions. The conclusion is not ``method A is more robust to noise,'' but ``method A repairs retrieval/context construction while method B changes generator reading or answer policy.''
+
+\paragraph{Conflict and poisoning should share annotations but not metrics.}
+Knowledge-conflict work studies contradictions among parametric knowledge and retrieved sources \citep{tugOfWar2024,faithfulRAG2025,astuteRAG2025}. RAG poisoning work studies attacker-created evidence integrity failures \citep{poisoningRetrievalCorpora2023,poisonedRAG2024,badRAG2024}. Both need claim/source annotations, but their metrics differ: conflict work asks whether a system reconciles or exposes disagreement; poisoning work asks whether an attacker can steer answers under specified capabilities. Treating both as ``counterfactual evidence'' hides the threat model.
+
+\paragraph{Security defenses transfer only inside a capability envelope.}
+Certified defenses, reranking defenses, poisoned-document detectors, traceback methods, and prompt-injection defenses answer different questions. A certificate under a bounded corruption budget does not imply robustness to prompt-bearing documents. A traceback method may identify the poisoned document after failure without preventing user-facing harm. A prompt-injection filter may not address embedding-space poisoning. We therefore report prevention, demotion, detection, traceback, and recovery as different outcomes rather than one ``defense success'' score.
+
+\paragraph{Calibration is not an action policy.}
+Selective prediction and calibration ask whether confidence matches correctness \citep{geifman2017selective,guo2017calibration}. In RAG, the target is richer: confidence may refer to answer correctness, evidence sufficiency, retrieval usefulness, citation support, or action utility. A model can be calibrated about answer correctness but still answer from insufficient evidence; an abstaining system can reduce risk while lowering coverage. Adaptive retrieval and abstention should therefore be evaluated as policies under cost and evidence state, not as confidence scores alone.
+
+\paragraph{Benchmark rankings can be misleading.}
+Benchmarks that report only final accuracy can reward systems that answer more often, retrieve more aggressively, or hide unresolved conflict. Benchmarks that report only attack success can hide utility loss or unrealistic attacker access. Benchmarks that report only faithfulness can ignore whether retrieval was necessary or sufficient. Robust-RAG evaluation should expose diagnostic sub-scores rather than one leaderboard scalar.
+
+\paragraph{What changes after normalization?}
+The re-analysis in Table~\ref{tab:comparison-reanalysis-pilot} produces three kinds of outcomes. Some comparisons are \emph{invalid}: for example, comparing a corpus-poisoning attack that assumes document insertion with a prompt-injection attack that assumes instruction-bearing retrieved text conflates factual corruption with instruction hijacking. Some comparisons are \emph{partially valid}: two methods may share a failure type but differ in intervention point, such as a retriever-side filter and a generator-side note-taking method under irrelevant context. These should be compared as pipeline components, not substitutes. Some comparisons are \emph{valid but under-specified}: two poisoning defenses may both evaluate attack success, but the comparison remains incomplete unless attacker budget, retriever visibility, and utility loss are reported.
+
+This normalization changes research recommendations. For retrieval-noise work, the next useful benchmark is not simply harder negatives; it is a grid over negative type, rank position, support availability, and required action. For conflict work, the next useful evaluation is not only whether the model chooses the gold answer; it is whether the model detects source disagreement and explains why one source is preferred. For security work, the next useful leaderboard is not a single attack success rate; it is a threat-model-indexed table of prevention, detection, demotion, traceback, and recovery. For calibration work, the next useful metric is not only expected calibration error; it is selective risk conditioned on evidence sufficiency and retrieval cost.
+
+The framework also identifies over-claimed results. A method can report strong robustness to irrelevant context while never testing semantically close hard negatives. A defense can report low attack success while assuming a corruption budget unavailable in open corpora. A benchmark can report high faithfulness while omitting cases where the correct action is to abstain or ask a clarification question. A long-context RAG system can include all evidence but still fail to select or cite the correct supporting span. These are not merely caveats; they determine whether a reported improvement transfers to another RAG pipeline.
+
+Finally, the framework explains why combining modules is not automatically robust. A retriever filter, conflict resolver, verifier, and abstention policy can each improve its local metric while degrading another module's input. Filtering may remove the only weak multi-hop clue; verification may add latency that changes the acceptable action; abstention may reduce risk but also hide retriever failures that should trigger re-query. Robust RAG should therefore be evaluated as a controlled decision process over evidence states, not as a stack of independently optimized components.
+
+\section{Action-Trace Evaluation Agenda}
+\label{sec:evaluation}
+
+The action-control view suggests that a robust-RAG benchmark should annotate not only answers but also evidence state and system action. Each item should specify the query, evidence state, required action, final answer target, cost budget, and--for adversarial cases--attacker capability. Actions include answer, abstain, re-retrieve, filter, verify, expose conflict, ask clarification, and quarantine evidence.
+
+Appendix~\ref{sec:appendix-eval} gives the full blueprint, a 12-item synthetic illustration, and toy-policy scores. That pilot is not a benchmark release or main contribution; it only illustrates why answer-only scoring can hide action failures.
+
+\section{Limitations and Ethics}
+
+This paper is a scoping map, not a field census. The corpus is open-PDF based, not venue-complete, and remains preprint-skewed. The venue-oriented pass and follow-up triage improve auditability but do not replace manual proceedings review over ACL, EMNLP, NAACL, COLING, SIGIR, WWW, WSDM, KDD, USENIX Security, CCS, NDSS, ICLR, and NeurIPS. The 268-paper map should therefore be read as a final adjudicated map of our corpus, not as field-wide prevalence.
+
+The scope is text/document-grounded RAG. Multimodal, agentic, code, tool-use, and persistent-memory RAG are boundary areas because their evidence objects and action spaces differ. They appear in the appendix and future directions but are not the empirical backbone.
+
+The survey discusses poisoning, prompt injection, backdoors, opinion manipulation, and privacy extraction at the level of threat model, failure mechanism, evaluation signal, and defense implication. We do not provide operational payloads or deployable attack instructions. Evaluation artifacts should use synthetic or sandboxed poisoned documents and avoid private data unless consent and retention controls are explicit.
+
+\section{Conclusion}
+
+Robust RAG is not only a question of whether retrieval improves an answer. It is a question of whether the system can judge evidence reliability and choose the right action under uncertainty. The peer-reviewed and venue-linked backbone supports the mechanism-level conclusion that evidence failures, attacker assumptions, calibration targets, and action policies must be aligned before methods or benchmarks are compared. The broader adjudicated evidence map is useful as trend and audit evidence, not as a census. Future robust-RAG benchmarks should therefore evaluate answer correctness, evidence support, action quality, cost, and threat assumptions together.
+
+\clearpage
+\bibliography{references,auto_references}
+
+\appendix
+\input{figures/survey_outline}
+
+\section{Detailed Background and Taxonomy}
+\input{figures/robust_rag_taxonomy}
+\input{tables/taxonomy_rules}
+\input{tables/operational_pipeline}
+\input{figures/operational_pipeline_image}
+\input{tables/evidence_methods}
+\input{tables/conflict_methods}
+\input{tables/adversarial_methods}
+\input{tables/attacker_capability_matrix}
+\input{tables/threat_model_examples}
+\input{tables/control_eval_methods}
+\input{tables/action_control_lineage}
+
+\section{Evaluation Details}
+\label{sec:appendix-eval}
+\input{figures/benchmark_landscape}
+\input{tables/benchmark_comparison}
+\input{tables/benchmark_blueprint}
+\input{tables/action_trace_pilot}
+\input{tables/action_trace_pilot_results}
+\input{tables/evaluation_assumption_matrix}
+\input{figures/failure_intervention_matrix}
+\input{tables/analytical_matrix}
+\input{tables/method_level_comparison}
+\input{tables/deep_case_study_matrix}
+\input{tables/claim_verification_ledger}
+\input{tables/overlap_reinterpretation}
+
+\section{Exploratory Map Statistics}
+\label{sec:map-statistics}
+\input{tables/corpus_statistics}
+\input{tables/evidence_strength}
+\input{tables/category_overlap}
+\input{tables/method_failure_crosstab}
+
+\section{Detailed Audit Artifacts}
+\label{sec:audit-artifacts}
+\input{tables/review_protocol}
+\input{tables/set_selection_ledger}
+\input{tables/verification_provenance}
+\input{tables/annotation_transparency}
+\input{tables/iaa_results}
+\input{tables/peer_reviewed_sensitivity}
+\input{tables/venue_pass_summary}
+\input{tables/venue_coverage_audit}
+\input{tables/venue_recall_risk}
+\input{tables/venue_triage_summary}
+\input{tables/codebook_summary}
+
+\section{Core and Evidence Map Samples}
+\input{tables/core100_sample}
+\label{sec:lit-map}
+\input{tables/evidence_map_sample}
+
+\end{document}

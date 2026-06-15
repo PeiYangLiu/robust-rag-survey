@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2404.13948",
+  "title": "\\[[EMNLP](https://arxiv.org/abs/2404.13948)] Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations",
+  "authors": "",
+  "year": "",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.13948",
+  "local_pdf": "pdfs/na_arxiv_2404_13948_emnlp_https_arxiv_org_abs_2404_13948_typos_that_broke_the_rag_s_back_genetic_att_9f3ce8d2.pdf",
+  "metadata_topics": "targeted-list",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "noisy_retrieval"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes GARAG, a genetic adversarial attack injecting low-level typos to disrupt both retriever and reader in RAG, directly addressing robustness under noisy/adversarial documents.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:07:36.571905+00:00",
+  "raw_response": "{\"key\":\"arxiv-2404.13948\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\",\"noisy_retrieval\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes GARAG, a genetic adversarial attack injecting low-level typos to disrupt both retriever and reader in RAG, directly addressing robustness under noisy/adversarial documents.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

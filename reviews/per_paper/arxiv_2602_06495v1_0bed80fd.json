@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.06495v1",
+  "title": "Subgraph Reconstruction Attacks on Graph RAG Deployments with Practical Defenses",
+  "authors": "Minkyoo Song; Jaehan Kim; Myungchul Kang; Hanna Kim; Seungwon Shin; Sooel Son",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.06495v1",
+  "local_pdf": "pdfs/2026_minkyoo_song_subgraph_reconstruction_attacks_on_graph_rag_deployments_with_practical_defenses_0bed80fd.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a subgraph reconstruction attack against Graph RAG and evaluates defenses, contributing to the adversarial corruption/extraction threat landscape in RAG.",
+  "why_not_or_caveat": "Focus is on privacy extraction rather than poisoning/injection or evidence reliability; tangential to core robustness themes.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption and Attacks on RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:26.472149+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.06495v1\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a subgraph reconstruction attack against Graph RAG and evaluates defenses, contributing to the adversarial corruption/extraction threat landscape in RAG.\",\"why_not_or_caveat\":\"Focus is on privacy extraction rather than poisoning/injection or evidence reliability; tangential to core robustness themes.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption and Attacks on RAG\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

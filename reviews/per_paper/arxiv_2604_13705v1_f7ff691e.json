@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.13705v1",
+  "title": "Beyond Arrow's Impossibility: Fairness as an Emergent Property of Multi-Agent Collaboration",
+  "authors": "Sayan Kumar Chaki; Antoine Gourru; Julien Velcin",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.13705v1",
+  "local_pdf": "pdfs/2026_sayan_kumar_chaki_beyond_arrow_s_impossibility_fairness_as_an_emergent_property_of_multi_agent_collaborati_f7ff691e.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Uses RAG for ethical alignment in a multi-agent fairness study; not about robustness, noise, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Focus is on fairness emergence in multi-agent negotiation, not RAG reliability.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:37.331689+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.13705v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"Uses RAG for ethical alignment in a multi-agent fairness study; not about robustness, noise, conflict, or calibration of RAG.\", \"why_not_or_caveat\": \"Focus is on fairness emergence in multi-agent negotiation, not RAG reliability.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

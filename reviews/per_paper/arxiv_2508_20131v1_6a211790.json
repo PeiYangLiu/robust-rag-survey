@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2508.20131v1",
+  "title": "ArgRAG: Explainable Retrieval Augmented Generation using Quantitative Bipolar Argumentation",
+  "authors": "Yuqicheng Zhu; Nico Potyka; Daniel Hernández; Yuan He; Zifeng Ding; Bo Xiong; Dongzhuoran Zhou; Evgeny Kharlamov; Steffen Staab",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2508.20131v1",
+  "local_pdf": "pdfs/2025_yuqicheng_zhu_argrag_explainable_retrieval_augmented_generation_using_quantitative_bipolar_argumentati_6a211790.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes a structured argumentation-based RAG method aimed at robustness to noisy and contradictory retrieved evidence, evaluated on PubHealth and RAGuard fact verification benchmarks.",
+  "why_not_or_caveat": "Focus is on explainability via QBAF; robustness is a secondary claim and limited to fact verification.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and noisy retrieval mitigation",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:18.845235+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2508.20131v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"knowledge_conflict\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Proposes a structured argumentation-based RAG method aimed at robustness to noisy and contradictory retrieved evidence, evaluated on PubHealth and RAGuard fact verification benchmarks.\",\n  \"why_not_or_caveat\": \"Focus is on explainability via QBAF; robustness is a secondary claim and limited to fact verification.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and noisy retrieval mitigation\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

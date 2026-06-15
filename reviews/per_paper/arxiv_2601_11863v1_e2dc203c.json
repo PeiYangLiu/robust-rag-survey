@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.11863v1",
+  "title": "Utilizing Metadata for Better Retrieval-Augmented Generation",
+  "authors": "Raquib Bin Yousuf; Shengzhe Xu; Mandar Sharma; Andrew Neeser; Chris Latimer; Naren Ramakrishnan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.11863v1",
+  "local_pdf": "pdfs/2026_raquib_bin_yousuf_utilizing_metadata_for_better_retrieval_augmented_generation_e2dc203c.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "background",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Studies metadata-aware retrieval to reduce confusion in repetitive corpora, tangentially related to noisy retrieval and disambiguation.",
+  "why_not_or_caveat": "Focus is on retrieval quality via metadata, not robustness, conflict, attacks, calibration, or uncertainty.",
+  "recommended_use": "background_only",
+  "suggested_section": "Noisy retrieval",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:22.520557+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.11863v1\",\"relevance_score\":2,\"decision\":\"background\",\"suitable_for_survey\":false,\"primary_categories\":[\"noisy_retrieval\",\"evaluation_benchmark\"],\"paper_role\":\"method\",\"why_relevant\":\"Studies metadata-aware retrieval to reduce confusion in repetitive corpora, tangentially related to noisy retrieval and disambiguation.\",\"why_not_or_caveat\":\"Focus is on retrieval quality via metadata, not robustness, conflict, attacks, calibration, or uncertainty.\",\"recommended_use\":\"background_only\",\"suggested_section\":\"Noisy retrieval\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

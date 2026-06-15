@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2503.05587v3",
+  "title": "Quantifying and Improving the Robustness of Retrieval-Augmented Language Models Against Spurious Features in Grounding Data",
+  "authors": "Shiping Yang; Jie Wu; Wenbiao Ding; Ning Wu; Shining Liang; Ming Gong; Hongzhi Li; Hengyuan Zhang; Angel X. Chang; Dongmei Zhang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2503.05587v3",
+  "local_pdf": "pdfs/2025_shiping_yang_quantifying_and_improving_the_robustness_of_retrieval_augmented_language_models_against_fe86f9cf.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces SURE framework and SIG_Wiki benchmark to evaluate and improve RAG robustness against spurious (semantic-agnostic) features like formatting in retrieved documents, directly relevant to noisy retrieval and evaluation under unreliable evidence.",
+  "why_not_or_caveat": "Focuses on implicit/spurious feature noise rather than core adversarial or conflict scenarios.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Noisy Retrieval / Evaluation Benchmarks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:07.414088+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2503.05587v3\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"noisy_retrieval\", \"evaluation_benchmark\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces SURE framework and SIG_Wiki benchmark to evaluate and improve RAG robustness against spurious (semantic-agnostic) features like formatting in retrieved documents, directly relevant to noisy retrieval and evaluation under unreliable evidence.\",\n  \"why_not_or_caveat\": \"Focuses on implicit/spurious feature noise rather than core adversarial or conflict scenarios.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Noisy Retrieval / Evaluation Benchmarks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

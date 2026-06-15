@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.01222v1",
+  "title": "RAG-driven Multi-Agent LLM Framework with Task Decomposition for Beyond 5G Auto-Configuration",
+  "authors": "İrşat Emin Sarıdaş; Onur Salan; Ali Görçin; Ibrahim Hokelek; Hakan Ali Çırpan",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.01222v1",
+  "local_pdf": "pdfs/2026_i_r_at_emin_sar_da_rag_driven_multi_agent_llm_framework_with_task_decomposition_for_beyond_5g_auto_configur_a6eebb6d.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Applies RAG with multi-agent verification for 5G network configuration; not about robustness, conflict, attacks, or calibration of RAG.",
+  "why_not_or_caveat": "Domain application paper without contributions to robust RAG methodology or evaluation.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:51.908140+00:00",
+  "raw_response": "{\"key\":\"arxiv-2606.01222v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Applies RAG with multi-agent verification for 5G network configuration; not about robustness, conflict, attacks, or calibration of RAG.\",\"why_not_or_caveat\":\"Domain application paper without contributions to robust RAG methodology or evaluation.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

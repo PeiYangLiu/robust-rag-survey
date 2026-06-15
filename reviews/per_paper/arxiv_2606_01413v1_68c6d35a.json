@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2606.01413v1",
+  "title": "Differentially Private Datastore Generation for Retrieval-Augmented Inference",
+  "authors": "Abdelrahman Abouelenein; Marwan Torki",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2606.01413v1",
+  "local_pdf": "pdfs/2026_abdelrahman_abouelenein_differentially_private_datastore_generation_for_retrieval_augmented_inference_68c6d35a.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; adversarial-corruption; calibration-control; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses privacy (differential privacy) of RAG datastores and membership inference attacks, tangentially related to adversarial concerns in RAG.",
+  "why_not_or_caveat": "Focus is on privacy-preserving datastore release, not robustness to noise, distraction, conflict, prompt injection, or calibration as defined in the survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.8,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:07.699040+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2606.01413v1\",\n  \"relevance_score\": 2,\n  \"decision\": \"exclude\",\n  \"suitable_for_survey\": false,\n  \"primary_categories\": [\"other\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses privacy (differential privacy) of RAG datastores and membership inference attacks, tangentially related to adversarial concerns in RAG.\",\n  \"why_not_or_caveat\": \"Focus is on privacy-preserving datastore release, not robustness to noise, distraction, conflict, prompt injection, or calibration as defined in the survey scope.\",\n  \"recommended_use\": \"exclude\",\n  \"suggested_section\": \"\",\n  \"confidence\": 0.8\n}",
+  "skipped_existing": false
+}

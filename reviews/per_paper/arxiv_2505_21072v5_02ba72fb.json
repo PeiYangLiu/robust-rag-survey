@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.21072v5",
+  "title": "Faithfulness-Aware Uncertainty Quantification for Fact-Checking the Output of Retrieval Augmented Generation",
+  "authors": "Ekaterina Fadeeva; Aleksandr Rubashevskii; Dzianis Piatrashyn; Roman Vashurin; Shehzaad Dhuliawala; Artem Shelmanov; Timothy Baldwin; Preslav Nakov; Mrinmaya Sachan; Maxim Panov",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.21072v5",
+  "local_pdf": "pdfs/2025_ekaterina_fadeeva_faithfulness_aware_uncertainty_quantification_for_fact_checking_the_output_of_retrieval_02ba72fb.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; uncertainty-ood",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "calibration_control",
+    "ood_uncertainty",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes FRANQ, a faithfulness-aware uncertainty quantification method to detect factual errors in RAG outputs, distinguishing between hallucinations from retrieval grounding vs. parametric knowledge. Directly relevant to calibration and conflict between parametric and retrieved knowledge.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Calibration and Uncertainty in RAG",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:20.041482+00:00",
+  "raw_response": "{\"key\":\"arxiv-2505.21072v5\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"calibration_control\",\"ood_uncertainty\",\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes FRANQ, a faithfulness-aware uncertainty quantification method to detect factual errors in RAG outputs, distinguishing between hallucinations from retrieval grounding vs. parametric knowledge. Directly relevant to calibration and conflict between parametric and retrieved knowledge.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Calibration and Uncertainty in RAG\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

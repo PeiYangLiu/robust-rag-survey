@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2512.07015v2",
+  "title": "FVA-RAG: Falsification-Verification Alignment for Mitigating Sycophantic Hallucinations",
+  "authors": "Mayank Ravishankara",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2512.07015v2",
+  "local_pdf": "pdfs/2025_mayank_ravishankara_fva_rag_falsification_verification_alignment_for_mitigating_sycophantic_hallucinations_2d24a990.pdf",
+  "metadata_topics": "rag-core; calibration-control; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "noisy_retrieval",
+    "calibration_control"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Addresses retrieval sycophancy (premise-confirming bias) by explicitly retrieving counter-evidence and adjudicating contradictions, directly tackling reliability under misleading retrieved context.",
+  "why_not_or_caveat": "Independent preprint with limited evaluation (TruthfulQA only) and prompted baselines rather than original fine-tuned Self-RAG/CRAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge conflict and corrective/verification RAG",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:19.380915+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2512.07015v2\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"knowledge_conflict\", \"noisy_retrieval\", \"calibration_control\"],\n  \"paper_role\": \"method\",\n  \"why_relevant\": \"Addresses retrieval sycophancy (premise-confirming bias) by explicitly retrieving counter-evidence and adjudicating contradictions, directly tackling reliability under misleading retrieved context.\",\n  \"why_not_or_caveat\": \"Independent preprint with limited evaluation (TruthfulQA only) and prompted baselines rather than original fine-tuned Self-RAG/CRAG.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Knowledge conflict and corrective/verification RAG\",\n  \"confidence\": 0.7\n}",
+  "skipped_existing": false
+}

@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.07176v2",
+  "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+  "authors": "Fei Wang; Xingchen Wan; Ruoxi Sun; Jiefeng Chen; Sercan Ö. Arık",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.07176v2",
+  "local_pdf": "pdfs/2024_fei_wang_astute_rag_overcoming_imperfect_retrieval_augmentation_and_knowledge_conflicts_for_large_4653dcac.pdf",
+  "metadata_topics": "rag-core; noisy-retrieval; knowledge-conflict; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "noisy_retrieval",
+    "knowledge_conflict"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Astute RAG directly addresses imperfect retrieval and knowledge conflicts by adaptively eliciting internal knowledge and consolidating it with retrieved evidence in a source-aware manner, with analyses of retrieval quality vs conflict rate.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Knowledge Conflict and Post-Retrieval Robustness",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:40.939306+00:00",
+  "raw_response": "{\"key\":\"arxiv-2410.07176v2\",\"relevance_score\":5,\"decision\":\"core\",\"suitable_for_survey\":true,\"primary_categories\":[\"noisy_retrieval\",\"knowledge_conflict\"],\"paper_role\":\"method\",\"why_relevant\":\"Astute RAG directly addresses imperfect retrieval and knowledge conflicts by adaptively eliciting internal knowledge and consolidating it with retrieved evidence in a source-aware manner, with analyses of retrieval quality vs conflict rate.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"must_discuss\",\"suggested_section\":\"Knowledge Conflict and Post-Retrieval Robustness\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

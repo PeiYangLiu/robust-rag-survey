@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2604.16353v1",
+  "title": "AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval",
+  "authors": "Shuvam Banerji Seal; Aheli Poddar; Alok Mishra; Dwaipayan Roy",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2604.16353v1",
+  "local_pdf": "pdfs/2026_shuvam_banerji_seal_agriir_a_scalable_framework_for_domain_specific_knowledge_retrieval_b2255431.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "An applied domain-specific RAG framework for Indian agriculture; does not directly study robustness, noise, conflict, attacks, or calibration.",
+  "why_not_or_caveat": "Focuses on modular pipeline design and deployment in low-resource settings, not on unreliable evidence robustness.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:32.688963+00:00",
+  "raw_response": "{\"key\": \"arxiv-2604.16353v1\", \"relevance_score\": 1, \"decision\": \"exclude\", \"suitable_for_survey\": false, \"primary_categories\": [\"other\"], \"paper_role\": \"application\", \"why_relevant\": \"An applied domain-specific RAG framework for Indian agriculture; does not directly study robustness, noise, conflict, attacks, or calibration.\", \"why_not_or_caveat\": \"Focuses on modular pipeline design and deployment in low-resource settings, not on unreliable evidence robustness.\", \"recommended_use\": \"exclude\", \"suggested_section\": \"\", \"confidence\": 0.9}",
+  "skipped_existing": false
+}

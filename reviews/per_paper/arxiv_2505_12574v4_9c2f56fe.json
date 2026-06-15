@@ -1,0 +1,28 @@
+{
+  "key": "arxiv-2505.12574v4",
+  "title": "PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation",
+  "authors": "Liuji Chen; Xiaofang Yang; Yuanzhuo Lu; Jinghao Zhang; Xin Sun; Qiang Liu; Shu Wu; Jing Dong; Liang Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2505.12574v4",
+  "local_pdf": "pdfs/2025_liuji_chen_poisonarena_uncovering_competing_poisoning_attacks_in_retrieval_augmented_generation_9c2f56fe.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 5,
+  "decision": "core",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "evaluation_benchmark",
+    "knowledge_conflict"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces a benchmark for evaluating competing poisoning attacks on RAG, directly addressing adversarial corruption and conflict among multiple malicious sources. Proposes new competitive evaluation metrics beyond ASR/F1.",
+  "why_not_or_caveat": "",
+  "recommended_use": "must_discuss",
+  "suggested_section": "Adversarial Corruption / Evaluation Benchmarks",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:30.438640+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2505.12574v4\",\n  \"relevance_score\": 5,\n  \"decision\": \"core\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"evaluation_benchmark\", \"knowledge_conflict\"],\n  \"paper_role\": \"benchmark\",\n  \"why_relevant\": \"Introduces a benchmark for evaluating competing poisoning attacks on RAG, directly addressing adversarial corruption and conflict among multiple malicious sources. Proposes new competitive evaluation metrics beyond ASR/F1.\",\n  \"why_not_or_caveat\": \"\",\n  \"recommended_use\": \"must_discuss\",\n  \"suggested_section\": \"Adversarial Corruption / Evaluation Benchmarks\",\n  \"confidence\": 0.95\n}",
+  "skipped_existing": false
+}

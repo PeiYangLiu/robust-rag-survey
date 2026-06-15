@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2504.19436v1",
+  "title": "Context-Guided Dynamic Retrieval for Improving Generation Quality in RAG Models",
+  "authors": "Jacky He; Guiran Liu; Binrong Zhu; Hanlu Zhang; Hongye Zheng; Xiaokai Wang",
+  "year": "2025",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2504.19436v1",
+  "local_pdf": "pdfs/2025_jacky_he_context_guided_dynamic_retrieval_for_improving_generation_quality_in_rag_models_cf33caa1.pdf",
+  "metadata_topics": "rag-core; uncertainty-ood; evaluation-benchmark",
+  "relevance_score": 2,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "method",
+  "why_relevant": "Proposes dynamic retrieval for generation quality in RAG, with brief mention of robustness in semantic ambiguity.",
+  "why_not_or_caveat": "Focus is on generation quality improvements (BLEU/ROUGE), not on robustness under noise, conflict, adversaries, or calibration.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:08.994643+00:00",
+  "raw_response": "{\"key\":\"arxiv-2504.19436v1\",\"relevance_score\":2,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"method\",\"why_relevant\":\"Proposes dynamic retrieval for generation quality in RAG, with brief mention of robustness in semantic ambiguity.\",\"why_not_or_caveat\":\"Focus is on generation quality improvements (BLEU/ROUGE), not on robustness under noise, conflict, adversaries, or calibration.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.25164v1",
+  "title": "PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented Generation Systems",
+  "authors": "Haozhen Wang; Haoyue Liu; Jionghao Zhu; Zhichao Wang; Yongxin Guo; Xiaoying Tang",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.25164v1",
+  "local_pdf": "pdfs/2026_haozhen_wang_pidp_attack_combining_prompt_injection_with_database_poisoning_attacks_on_retrieval_augm_3e4e04d0.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a compound attack combining prompt injection and database poisoning against RAG, directly relevant to adversarial corruption of retrieval.",
+  "why_not_or_caveat": "Attack-only paper without defenses; incremental over PoisonedRAG.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:25.187956+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.25164v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Proposes a compound attack combining prompt injection and database poisoning against RAG, directly relevant to adversarial corruption of retrieval.\",\"why_not_or_caveat\":\"Attack-only paper without defenses; incremental over PoisonedRAG.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.85}",
+  "skipped_existing": false
+}

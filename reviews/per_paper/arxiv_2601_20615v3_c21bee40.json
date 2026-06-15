@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2601.20615v3",
+  "title": "DRAINCODE: Stealthy Energy Consumption Attacks on Retrieval-Augmented Code Generation via Context Poisoning",
+  "authors": "Yanlin Wang; Jiadong Wu; Tianyue Jiang; Mingwei Liu; Jiachi Chen; Chong Wang; Ensheng Shi; Xilin Liu; Yuchi Ma; Zibin Zheng",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.20615v3",
+  "local_pdf": "pdfs/2026_yanlin_wang_draincode_stealthy_energy_consumption_attacks_on_retrieval_augmented_code_generation_via_c21bee40.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Introduces a novel RAG context-poisoning attack targeting computational efficiency (energy/latency) in code generation, expanding the threat model for adversarial corruption of retrieval corpora.",
+  "why_not_or_caveat": "Domain-specific to code generation and focuses on resource exhaustion rather than content correctness; tangential to mainstream RAG robustness concerns.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:34.293214+00:00",
+  "raw_response": "{\"key\":\"arxiv-2601.20615v3\",\"relevance_score\":3,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"adversarial_corruption\"],\"paper_role\":\"attack\",\"why_relevant\":\"Introduces a novel RAG context-poisoning attack targeting computational efficiency (energy/latency) in code generation, expanding the threat model for adversarial corruption of retrieval corpora.\",\"why_not_or_caveat\":\"Domain-specific to code generation and focuses on resource exhaustion rather than content correctness; tangential to mainstream RAG robustness concerns.\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Adversarial Corruption\",\"confidence\":0.7}",
+  "skipped_existing": false
+}

@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2603.03175v1",
+  "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+  "authors": "Aman Kumar; Deepak Narayan Gadde; Luu Danh Minh; Vaisakh Naduvodi Viswambharan; Keerthan Kopparam Radhakrishna; Sivaram Pothireddypalli",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.03175v1",
+  "local_pdf": "pdfs/2026_aman_kumar_saarthi_for_agi_towards_domain_specific_general_intelligence_for_formal_verification_5834c7cf.pdf",
+  "metadata_topics": "rag-core; evaluation-benchmark",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Application of RAG/GraphRAG to formal verification; does not study robustness, conflict, or calibration of RAG.",
+  "why_not_or_caveat": "Domain-specific application paper outside survey scope.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.95,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:39.954186+00:00",
+  "raw_response": "{\"key\":\"arxiv-2603.03175v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Application of RAG/GraphRAG to formal verification; does not study robustness, conflict, or calibration of RAG.\",\"why_not_or_caveat\":\"Domain-specific application paper outside survey scope.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.95}",
+  "skipped_existing": false
+}

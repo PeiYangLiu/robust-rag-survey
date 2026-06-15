@@ -1,0 +1,26 @@
+{
+  "key": "arxiv-2602.15553v1",
+  "title": "RUVA: Personalized Transparent On-Device Graph Reasoning",
+  "authors": "Gabriele Conte; Alessio Mattiace; Gianni Carmosino; Potito Aghilar; Giovanni Servedio; Francesco Musicco; Vito Walter Anelli; Tommaso Di Noia; Francesco Maria Donini",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2602.15553v1",
+  "local_pdf": "pdfs/2026_gabriele_conte_ruva_personalized_transparent_on_device_graph_reasoning_c1292d65.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 1,
+  "decision": "exclude",
+  "suitable_for_survey": false,
+  "primary_categories": [
+    "other"
+  ],
+  "paper_role": "application",
+  "why_relevant": "Proposes an on-device GraphRAG architecture for personal knowledge graphs with user-controlled deletion; not focused on robustness, conflict, or calibration under unreliable evidence.",
+  "why_not_or_caveat": "Focus is privacy/transparency and personal AI, not the survey's robustness topics.",
+  "recommended_use": "exclude",
+  "suggested_section": "",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T13:02:27.873728+00:00",
+  "raw_response": "{\"key\":\"arxiv-2602.15553v1\",\"relevance_score\":1,\"decision\":\"exclude\",\"suitable_for_survey\":false,\"primary_categories\":[\"other\"],\"paper_role\":\"application\",\"why_relevant\":\"Proposes an on-device GraphRAG architecture for personal knowledge graphs with user-controlled deletion; not focused on robustness, conflict, or calibration under unreliable evidence.\",\"why_not_or_caveat\":\"Focus is privacy/transparency and personal AI, not the survey's robustness topics.\",\"recommended_use\":\"exclude\",\"suggested_section\":\"\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

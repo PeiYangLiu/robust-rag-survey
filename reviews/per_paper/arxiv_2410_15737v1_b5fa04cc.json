@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2410.15737v1",
+  "title": "Who's Who: Large Language Models Meet Knowledge Conflicts in Practice",
+  "authors": "Quang Hieu Pham; Hoang Ngo; Anh Tuan Luu; Dat Quoc Nguyen",
+  "year": "2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2410.15737v1",
+  "local_pdf": "pdfs/2024_quang_hieu_pham_who_s_who_large_language_models_meet_knowledge_conflicts_in_practice_b5fa04cc.pdf",
+  "metadata_topics": "rag-core; knowledge-conflict; evaluation-benchmark",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "knowledge_conflict",
+    "evaluation_benchmark"
+  ],
+  "paper_role": "benchmark",
+  "why_relevant": "Introduces WhoQA, a benchmark for evaluating LLM behavior under retrieved-vs-retrieved knowledge conflicts arising from same-name entities, directly relevant to the conflict and evaluation sections.",
+  "why_not_or_caveat": "",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Knowledge Conflict Benchmarks",
+  "confidence": 0.9,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:39:51.406121+00:00",
+  "raw_response": "{\"key\":\"arxiv-2410.15737v1\",\"relevance_score\":4,\"decision\":\"include\",\"suitable_for_survey\":true,\"primary_categories\":[\"knowledge_conflict\",\"evaluation_benchmark\"],\"paper_role\":\"benchmark\",\"why_relevant\":\"Introduces WhoQA, a benchmark for evaluating LLM behavior under retrieved-vs-retrieved knowledge conflicts arising from same-name entities, directly relevant to the conflict and evaluation sections.\",\"why_not_or_caveat\":\"\",\"recommended_use\":\"cite_in_section\",\"suggested_section\":\"Knowledge Conflict Benchmarks\",\"confidence\":0.9}",
+  "skipped_existing": false
+}

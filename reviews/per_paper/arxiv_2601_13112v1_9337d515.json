@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2601.13112v1",
+  "title": "CODE: A Contradiction-Based Deliberation Extension Framework for Overthinking Attacks on Retrieval-Augmented Generation",
+  "authors": "Xiaolei Zhang; Xiaojun Jia; Liquan Chen; Songze Li",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2601.13112v1",
+  "local_pdf": "pdfs/2026_xiaolei_zhang_code_a_contradiction_based_deliberation_extension_framework_for_overthinking_attacks_on_9337d515.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 4,
+  "decision": "include",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "knowledge_conflict"
+  ],
+  "paper_role": "attack",
+  "why_relevant": "Proposes a novel corpus-poisoning attack on RAG that injects contradictory documents to induce overthinking in reasoning models, directly relevant to adversarial corruption and knowledge conflict subtopics.",
+  "why_not_or_caveat": "Focuses on inference-cost amplification rather than answer correctness, a narrower attack vector.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial Corruption / Poisoning Attacks",
+  "confidence": 0.85,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:40:30.896289+00:00",
+  "raw_response": "{\n  \"key\": \"arxiv-2601.13112v1\",\n  \"relevance_score\": 4,\n  \"decision\": \"include\",\n  \"suitable_for_survey\": true,\n  \"primary_categories\": [\"adversarial_corruption\", \"knowledge_conflict\"],\n  \"paper_role\": \"attack\",\n  \"why_relevant\": \"Proposes a novel corpus-poisoning attack on RAG that injects contradictory documents to induce overthinking in reasoning models, directly relevant to adversarial corruption and knowledge conflict subtopics.\",\n  \"why_not_or_caveat\": \"Focuses on inference-cost amplification rather than answer correctness, a narrower attack vector.\",\n  \"recommended_use\": \"cite_in_section\",\n  \"suggested_section\": \"Adversarial Corruption / Poisoning Attacks\",\n  \"confidence\": 0.85\n}",
+  "skipped_existing": false
+}

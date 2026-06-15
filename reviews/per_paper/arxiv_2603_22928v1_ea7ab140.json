@@ -1,0 +1,27 @@
+{
+  "key": "arxiv-2603.22928v1",
+  "title": "SoK: The Attack Surface of Agentic AI -- Tools, and Autonomy",
+  "authors": "Ali Dehghantanha; Sajad Homayoun",
+  "year": "2026",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2603.22928v1",
+  "local_pdf": "pdfs/2026_ali_dehghantanha_sok_the_attack_surface_of_agentic_ai_tools_and_autonomy_ea7ab140.pdf",
+  "metadata_topics": "rag-core; adversarial-corruption",
+  "relevance_score": 3,
+  "decision": "background",
+  "suitable_for_survey": true,
+  "primary_categories": [
+    "adversarial_corruption",
+    "survey_related"
+  ],
+  "paper_role": "survey",
+  "why_relevant": "SoK covering agentic AI attack surface including RAG poisoning and indirect prompt injection, with attacker-aware metrics like Retrieval Risk Score.",
+  "why_not_or_caveat": "Scope is broader agentic AI security rather than RAG robustness specifically; treats RAG as one of several attack vectors.",
+  "recommended_use": "cite_in_section",
+  "suggested_section": "Adversarial corruption / related surveys",
+  "confidence": 0.7,
+  "model": "claude-opus-4.7",
+  "reviewed_at": "2026-06-02T12:23:41.752233+00:00",
+  "raw_response": "{\"key\": \"arxiv-2603.22928v1\", \"relevance_score\": 3, \"decision\": \"background\", \"suitable_for_survey\": true, \"primary_categories\": [\"adversarial_corruption\", \"survey_related\"], \"paper_role\": \"survey\", \"why_relevant\": \"SoK covering agentic AI attack surface including RAG poisoning and indirect prompt injection, with attacker-aware metrics like Retrieval Risk Score.\", \"why_not_or_caveat\": \"Scope is broader agentic AI security rather than RAG robustness specifically; treats RAG as one of several attack vectors.\", \"recommended_use\": \"cite_in_section\", \"suggested_section\": \"Adversarial corruption / related surveys\", \"confidence\": 0.7}",
+  "skipped_existing": false
+}
