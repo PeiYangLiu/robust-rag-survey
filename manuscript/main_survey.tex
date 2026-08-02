@@ -37,6 +37,21 @@
 \author{Anonymous Authors}
 \date{}
 
+% Show the anonymised artifact link directly under the author line.
+\makeatletter
+\renewcommand\outauthor{%
+    \begin{tabular}[t]{c}
+    \ifacl@anonymize
+        \bfseries Anonymous ACL submission
+    \else
+        \bfseries\@author
+    \fi
+    \\[3pt]
+    \normalfont\normalsize Data and code:
+    \url{https://anonymous.4open.science/r/robust-rag-survey-6368}
+    \end{tabular}}
+\makeatother
+
 \begin{document}
 \maketitle
 
