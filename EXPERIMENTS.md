@@ -1,9 +1,12 @@
 # Experiments: code, order of execution, and what each stage produces
 
-This file maps every empirical claim in the submission
-(`manuscript/main_survey.tex`) to the script that produces it and the artifact it
-writes. The canonical artifact inventory is in `README.md`; this file is the
-*execution* view.
+This repository distributes the **experiment code and data only**. The LaTeX
+sources, figures, tables and compiled PDF of the paper are deliberately not
+included.
+
+This file maps every empirical claim in the paper to the script that produces it
+and the artifact it writes. The canonical artifact inventory is in `README.md`;
+this file is the *execution* view.
 
 Everything is run from the repository root. Paths in released JSON/CSV are
 repository-relative, so a clone can re-run the pipeline without editing paths.
@@ -127,27 +130,21 @@ python3 manuscript/scripts/draw_python_figures.py
 python3 manuscript/scripts/build_revision_tables.py
 ```
 
-## 9. Self-checks (run before every build)
+## 9. Self-checks
 
 ```bash
 bash manuscript/scripts/verify_all.sh
 ```
 
-Three checks, 117 provenance assertions plus quotation and prose/artifact
-consistency:
+Three checks run in the authoring tree, 117 provenance assertions plus quotation
+and prose/artifact consistency. Two of them read the paper sources, which are not
+distributed here:
 
-1. `verify_cross_paper_cases.py` — re-opens every ledger quotation at its cited
-   line range and re-derives every rendered numeral.
-2. `verify_manuscript_quotations.py` — every quotation in the manuscript and its
-   tables is matched verbatim against the source text.
-3. `verify_prose_artifact_consistency.py` — every number the prose asserts about
-   our own artifacts is compared to the artifact.
+| Check | Runs from this repository? | Needs |
+| --- | --- | --- |
+| `verify_cross_paper_cases.py` — re-opens every ledger quotation at its cited line range and re-derives every rendered numeral | Yes, after regenerating the extracted texts (step 1) | `manuscript/supplement/cross_paper_comparability_cases.json` (included) + `manuscript/citation_audit/expanded_texts/` |
+| `verify_manuscript_quotations.py` — matches every quotation in the paper verbatim against its source | No | paper `.tex` sources |
+| `verify_prose_artifact_consistency.py` — compares every number the prose asserts about our artifacts to the artifact | No | paper `.tex` sources |
 
-## 10. Building the paper
-
-```bash
-cd manuscript && latexmk -pdf -interaction=nonstopmode main_survey.tex
-```
-
-Content sections occupy exactly 8 pages; Limitations, Ethics, references and the
-appendix follow.
+The artifacts those last two check against *are* included, so their numbers can
+be re-derived directly from `manuscript/supplement/`.

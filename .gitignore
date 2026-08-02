@@ -89,3 +89,30 @@ manuscript/supplement/v3_human_reanalysis_20260725/
 /main.fdb_latexmk
 /w.out
 manuscript/figures/texput.log
+
+# ============================================================
+#  Paper sources are NOT distributed in this repository.
+#  This repo holds the experiment code and data only.
+# ============================================================
+manuscript/*.tex
+manuscript/*.bib
+manuscript/*.bib.bak
+manuscript/*.pdf
+manuscript/*.sty
+manuscript/*.bst
+manuscript/*.ptc
+manuscript/main.txt
+manuscript/out_full.txt
+manuscript/rewrite_status.json
+manuscript/tables/
+manuscript/figures/
+manuscript/survey_body_extracted/
+manuscript/survey_appendix_deep/
+manuscript/reviews/
+overleaf_package/
+nlpcc/
+REVIEW_EACL2027.md
+REVIEW_EACL2027_20260615.md
+
+# ---- Third-party paper PDF kept locally only (copyright) ----
+references/exemplars/*.pdf

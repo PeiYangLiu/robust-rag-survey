@@ -17,13 +17,18 @@ downstream loss) and prices what the current reporting practice costs, using a
 between-reviewer heterogeneity parameter estimated from several genuinely
 crossed reviewer-by-item designs rather than from one three-coder sample.
 
+> **Scope of this repository.** Only the experiment code and data are
+> published here. The paper's LaTeX sources, figures, tables and compiled
+> PDF are not included; see `EXPERIMENTS.md` for how to reproduce every
+> number the paper reports from the artifacts that are.
+
 ## Canonical evidence boundary
 
 Release date: **2026-07-28** (revision)
 
 | Component | Canonical path | Evidentiary status |
 | --- | --- | --- |
-| Manuscript | `manuscript/main.tex` | Current |
+| Manuscript | not distributed (experiment code and data only) | — |
 | Cross-paper comparability cases | `manuscript/supplement/cross_paper_comparability_cases.csv` | 12 cross-paper cases + 3 within-harness controls; source-linked, single-coded, not a census |
 | Case codebook and verifier | `manuscript/supplement/cross_paper_comparability_cases_codebook.md`, `manuscript/scripts/verify_cross_paper_cases.py` | 70 provenance checks, all passing |
 | Reviewer-heterogeneity estimate | `manuscript/supplement/reviewer_heterogeneity_anchor.json` | Estimated from the crossed three-coder diagnostic; interval, not point |
