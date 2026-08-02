@@ -1,0 +1,28 @@
+{
+  "status": "coordinator_attested_independent_human_sampling_screens",
+  "attested_utc": "2026-07-16T01:08:28Z",
+  "sampling_screener_ids": [
+    "SMP-88914A687961",
+    "SMP-148C94C6E464",
+    "SMP-BAB8157E2BD8"
+  ],
+  "all_people_distinct": true,
+  "started_from_original_blank_packets": true,
+  "other_screener_responses_visible": false,
+  "ai_generated_votes_or_rationales_visible": false,
+  "generative_ai_used_for_screening": false,
+  "full_sources_checked_row_by_row": true,
+  "public_identity_disclosure": false,
+  "coordinator_attestation": "The project coordinator confirmed that three distinct human screeners independently completed their blinded packets, did not view AI-generated votes or rationales, and checked the linked source for every assigned row. The third screener did not view either initial response.",
+  "tiebreak_assigned_rows": 381,
+  "tiebreak_response_timestamp_originally_missing": true,
+  "tiebreak_response_completed_utc_semantics": "Coordinator receipt timestamp substituted with explicit coordinator approval; it is not represented as the screener's per-row completion time.",
+  "tiebreak_coordinator_receipt_utc": "2026-07-16T01:08:28Z",
+  "replacement_initial_screeners_reused": true,
+  "replacement_tiebreak_screener_reused": true,
+  "replacement_tiebreak_assigned_rows": 1,
+  "replacement_tiebreak_timestamp_originally_missing": true,
+  "replacement_tiebreak_response_completed_utc_semantics": "Coordinator receipt timestamp substituted with prior coordinator approval; it is not represented as the screener's per-row completion time.",
+  "replacement_tiebreak_coordinator_receipt_utc": "2026-07-16T03:58:19Z",
+  "noncanonical_ai_named_directory_used": false
+}

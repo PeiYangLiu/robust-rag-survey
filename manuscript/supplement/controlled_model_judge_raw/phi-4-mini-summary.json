@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    "ablated",
+    "full"
+  ],
+  "decoding": {
+    "batch_size": 16,
+    "do_sample": false,
+    "max_input_tokens": 1024,
+    "max_new_tokens": 48
+  },
+  "items": 480,
+  "model": "microsoft/Phi-4-mini-instruct",
+  "model_commit": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "model_revision_requested": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "order_seed": 2026072603,
+  "parse_failures": 0,
+  "records": 960,
+  "schema_version": "controlled-model-judge-summary-v1"
+}

@@ -8,8 +8,8 @@
   },
   "excluded_by_final_include_flag": 6,
   "output_files": [
-    "/home/v-peiyangliu/robust-rag-survey/manuscript/human_coding/human_round2_evidence274_results/adjudicated_evidence274_round2_final_full.csv",
-    "/home/v-peiyangliu/robust-rag-survey/manuscript/human_coding/human_round2_evidence274_results/evidence_map_round2_adjudicated.csv",
-    "/home/v-peiyangliu/robust-rag-survey/manuscript/supplement/evidence_map_adjudicated.csv"
+    "manuscript/human_coding/human_round2_evidence274_results/adjudicated_evidence274_round2_final_full.csv",
+    "manuscript/human_coding/human_round2_evidence274_results/evidence_map_round2_adjudicated.csv",
+    "manuscript/supplement/evidence_map_adjudicated.csv"
   ]
 }

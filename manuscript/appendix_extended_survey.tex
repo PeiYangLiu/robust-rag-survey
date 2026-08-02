@@ -1,0 +1,168 @@
+\input{survey_main_sections}
+
+\section{Extended Synthesis by Operating Question}
+\label{sec:extended-survey}
+
+Sections~\ref{sec:evidence}--\ref{sec:system} organise robust RAG by failure
+surface, which is where a paper sits. This appendix cuts the same literature the
+other way, by the \emph{operating question} a study answers, and develops the
+paper-level contrasts the main text compresses. It is a synthesis, not an
+exhaustive bibliography: the released \MapRows{}-row evidence map holds the long-tail
+records, source strata and intervention labels.
+
+Two limits carry over from \S\ref{sec:protocol} and govern how the contrasts
+below may be read. The screening flow's first stage is documented but not
+re-executable, so this synthesis identifies recurring scientific distinctions
+rather than estimating prevalence or ranking evidence families; and the map
+carries no study-level risk-of-bias weighting. A review-directed recall check
+also surfaced older, pre-freeze publications absent from the frozen map, which
+we cite as qualitative context and log as post-freeze discoveries without
+entering them into any denominator. Where this survey states a number rather
+than a distinction, it does so only for the frame of \S\ref{sec:applied}.
+
+\subsection{When Does Retrieved Context Help?}
+
+Irrelevant-context and noise-aware-training studies intervene at different
+points. \citet{irrelevantContext2023} shows that retrieved distractors can
+actively redirect generation and tests filtering and targeted fine-tuning.
+\citet{raat2024} instead trains a generator across random, relevant, and
+counterfactual retrieval conditions. RGB supplies stress conditions and
+diagnostic abilities rather than a competing mitigation \citep{rgb2023}.
+These papers can share an end-to-end harness, but their native results do not
+rank a filter, a trained reader, and a benchmark as interchangeable objects.
+
+Context construction creates a second boundary. Chain-of-Note changes how the
+generator reads retrieved documents, whereas compression and reranking alter
+what reaches it \citep{chainOfNote2023,rrag044,rrag058}. Long-context studies
+show that retaining more passages can improve evidence availability while
+worsening position sensitivity or distraction \citep{rrag039,rrag143}. A fair
+comparison therefore fixes the candidate evidence, generator, decoding, and
+budget when the intended claim is about the intervention rather than the
+entire system.
+
+Insufficient evidence is not merely severe distraction. Sufficient Context
+labels whether the available passages can support an answer and evaluates
+selective behavior \citep{sufficientContext2024}. A reader that resists a hard
+negative and a controller that abstains when support is absent solve different
+problems. Reports should state both answer-bearing support availability and
+the scored action.
+
+\subsection{Which Knowledge Should Govern an Answer?}
+
+Knowledge-conflict work separates context--memory disagreement from conflict
+among retrieved sources. Tug-of-War measures how models trade parametric and
+contextual knowledge; FaithfulRAG models fact-level discrepancies; Astute RAG
+reconciles imperfect retrieval with internal knowledge
+\citep{tugOfWar2024,faithfulRAG2025,astuteRAG2025}. Although all three concern
+``conflict,'' their experimental units, source assumptions, and desired
+responses differ. The appropriate outcome may be answer correctness,
+contextual faithfulness, calibrated disclosure, or source reconciliation.
+Earlier entity-substitution experiments and PopQA isolate when parametric
+memory resists or benefits from retrieved evidence
+\citep{longpre2021conflicts,mallen2023trust}. ConflictBank broadens the
+benchmark unit to millions of claim--evidence pairs across misinformation,
+temporal conflict, and semantic ambiguity \citep{conflictBank2024}; its scale
+does not make those conflict types interchangeable.
+
+Grounding resources address another layer. RAGTruth provides span-level
+hallucination labels, while RAGAS and ARES estimate response or context support
+\citep{ragTruth2024,ragas2024,ares2024}. These evaluators can identify an
+unsupported answer, but support alone does not establish that the cited source
+is current or authoritative. A system can be faithful to weak evidence or
+correct for a reason absent from its citations.
+
+Source reliability and time therefore belong in the evidence record. Recent
+work models source reliability directly \citep{sourceReliabilityRAG2025}, and
+other studies examine source preference and contextual authority
+\citep{rrag132,rrag147}. The comparison-relevant question is not only whether
+the model used retrieved text, but whether the benchmark specified which
+source should govern, at what timestamp, and under what corroboration rule.
+KILT standardizes provenance against a fixed knowledge source, while FreshQA
+and RealTimeQA test knowledge whose answer changes over time
+\citep{kilt2021,freshllms2024,realtimeQA2023}. ALCE and generative-search
+verifiability work separately score citation attribution and whether cited
+sources actually support generated statements
+\citep{alce2023,verifiability2023}.
+
+Multi-agent methods add yet another intervention boundary. MAIN-RAG uses
+agent voting to filter retrieved documents, MADAM-RAG assigns agents to
+conflicting documents before aggregation, and DRAG introduces debate during
+retrieval and generation \citep{mainRAG2025,madamRAG2025,drag2025}. General
+multi-agent debate supplies methodological background
+\citep{duMultiagentDebate2024}, but these RAG systems should be compared only
+when the evidence allocation, agent budget, aggregation rule, and target
+outcome match.
+
+\subsection{What Changes Under an Attacker?}
+
+Corpus poisoning makes evidence unreliability intentional. PoisonedRAG inserts
+passages to steer target answers; earlier corpus-poisoning work manipulates
+retrieval through adversarial passages
+\citep{poisonedRAG2024,poisoningRetrievalCorpora2023}. Attack success is
+conditional on corpus write access, insertion budget, query knowledge,
+retriever visibility, and target scope. Omitting these fields can make two
+attack rates numerically similar but scientifically incomparable.
+
+Indirect prompt injection and backdoors target a different interface.
+Retrieved text may contain instructions that override the user task, or a
+trigger may activate behavior learned during training
+\citep{aip2025,phantom2024,trojanRAG2024}. These attacks should not inherit
+claims from factual poisoning merely because both place malicious text in the
+context. Retrieval realism, instruction-following behavior, and trigger access
+define distinct games.
+
+Defenses likewise have different roles. Certified RAG gives guarantees under a
+bounded corruption model; filtering and semantic isolation demote suspicious
+documents; traceback identifies likely poisoned sources
+\citep{certifiedRAG2024,rrag017,rrag128}. Prevention, certified accuracy,
+detection, and recovery require different outcomes. Any cross-defense
+comparison should pair the same capability envelope with clean utility and
+state whether the defense prevents, detects, traces, quarantines, or recovers.
+
+\subsection{How Does a Signal Become an Action?}
+
+Calibration, answerability, and retrieval usefulness are related but not
+identical signals. Calibration-oriented RAG predicts reliability, whereas
+Sufficient Context asks whether the retrieved evidence can support an answer
+\citep{calibRAG2025,sufficientContext2024}. A well-calibrated score can still
+feed a poor threshold or action policy, and an insufficient-context detector
+does not determine whether retrieval, clarification, or abstention has the
+highest utility.
+
+Adaptive systems make the policy explicit. Self-RAG learns when to retrieve
+and critique; CRAG adds corrective retrieval; CtrlA separates uncertainty
+sources to select control actions
+\citep{selfRAG2023,crag2024,ctrla2025}. Their reported gains depend on the
+available action set and resource budget. Answer-only accuracy cannot capture
+the benefit or cost of extra retrieval, verification, or refusal.
+
+Selective evaluation should therefore retain risk, coverage, action, and cost
+rather than collapse them into one score. Trust-or-abstain methods, conformal
+controllers, and uncertainty benchmarks instantiate different operating
+points \citep{rrag002,rrag041,rrag001}. Comparisons are strongest when systems
+share evidence and actions and are evaluated across a risk--coverage or
+utility curve.
+
+\subsection{What Can the Evidence Map Establish?}
+
+The map documents that robust-RAG research spans evidence construction,
+evidence use, adversarial integrity, and action control. Existing surveys
+provide architectural, evaluation, trustworthiness, security, conflict, and
+abstention views
+\citep{ragSurvey2024,ragEvaluationSurvey2024,trustRAGCompass2024,
+securityRAGSurvey2026,xuKnowledgeConflicts2024,wenAbstentionSurvey2025}.
+Controlled searches for RAG best practices provide an empirical component
+comparison under shared tasks \citep{ragBestPractices2024}, complementary to
+survey taxonomies and to the claim-level audit studied here.
+Table~\ref{tab:main-prior-work-comparison} states the narrower claim-level
+increment tested here.
+
+The map cannot establish that these families occur at representative rates,
+that its taxonomy is complete, or that one family has stronger evidence.
+Accepted-paper additions strengthen several historical lines, while
+\MapPreprints{} of \MapRows{} mapped rows remain preprints against
+\MapPeerReviewed{} peer-reviewed, and coding depth varies across legacy strata.
+Map counts therefore provide documentary context only. Every measured claim in
+this survey rests elsewhere: the taxonomy test on the constructed benchmark of
+\S\ref{sec:tested}, the composition figures on the screened frame of
+\S\ref{sec:applied}, and the design claim on the assignment-unit simulation.

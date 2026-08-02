@@ -1,0 +1,1983 @@
+{
+  "key": "wenAbstentionSurvey2025",
+  "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+  "resolved_id": "DOI:10.1162/tacl_a_00754",
+  "status": "ok",
+  "reference_count_reported": 179,
+  "metadata": {
+    "paperId": "314a471e8fa6788054e98aca1a74622f90fccbb9",
+    "externalIds": {
+      "ArXiv": "2407.18418",
+      "DBLP": "journals/tacl/WenYFXTHW25",
+      "DOI": "10.1162/tacl_a_00754",
+      "CorpusId": 271516521
+    },
+    "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+    "year": 2024,
+    "referenceCount": 179
+  },
+  "references": [
+    {
+      "paperId": "63ef9cb77491a69b56d2cd798cc36b8943021aaa",
+      "externalIds": {
+        "DBLP": "conf/iclr/ZhangEMKD25",
+        "ArXiv": "2410.08968",
+        "DOI": "10.48550/arXiv.2410.08968",
+        "CorpusId": 273323469
+      },
+      "title": "Controllable Safety Alignment: Inference-Time Adaptation to Diverse Safety Requirements",
+      "year": 2024
+    },
+    {
+      "paperId": "f02eaf9ea996c594574e07eccef8e45ba72d1c84",
+      "externalIds": {
+        "ArXiv": "2407.18370",
+        "DBLP": "conf/iclr/JungB025",
+        "DOI": "10.48550/arXiv.2407.18370",
+        "CorpusId": 271516195
+      },
+      "title": "Trust or Escalate: LLM Judges with Provable Guarantees for Human Agreement",
+      "year": 2024
+    },
+    {
+      "paperId": "f4ac895ad3b7398515a3913f815e40516b197a31",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ZhaoGCR24",
+        "ACL": "2024.emnlp-main.242",
+        "ArXiv": "2407.17469",
+        "DOI": "10.48550/arXiv.2407.17469",
+        "CorpusId": 271404244
+      },
+      "title": "I Could\u2019ve Asked That: Reformulating Unanswerable Questions",
+      "year": 2024
+    },
+    {
+      "paperId": "a1fa960fdfcc08510d348f7c66028f3d91b497f8",
+      "externalIds": {
+        "DBLP": "conf/nips/Brahman0BDPRWDC24",
+        "ArXiv": "2407.12043",
+        "DOI": "10.48550/arXiv.2407.12043",
+        "CorpusId": 271244871
+      },
+      "title": "The Art of Saying No: Contextual Noncompliance in Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "deb3fccb5b68041ea0f5c724f08b2d840fa51eaa",
+      "externalIds": {
+        "ArXiv": "2406.18495",
+        "DBLP": "conf/nips/HanREJL00D24",
+        "DOI": "10.48550/arXiv.2406.18495",
+        "CorpusId": 270737916
+      },
+      "title": "WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs",
+      "year": 2024
+    },
+    {
+      "paperId": "e03648463405a77515c6af6cae4947a029b465ae",
+      "externalIds": {
+        "ACL": "2024.emnlp-main.239",
+        "DBLP": "journals/corr/abs-2406-15948",
+        "ArXiv": "2406.15948",
+        "DOI": "10.48550/arXiv.2406.15948",
+        "CorpusId": 270702775
+      },
+      "title": "Teaching LLMs to Abstain across Languages via Multilingual Feedback",
+      "year": 2024
+    },
+    {
+      "paperId": "964da38f24d3a2e65474728eef05f3de9e47666d",
+      "externalIds": {
+        "DBLP": "conf/iclr/XieQ0HSHHWL000025",
+        "ArXiv": "2406.14598",
+        "DOI": "10.48550/arXiv.2406.14598",
+        "CorpusId": 270688409
+      },
+      "title": "SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors",
+      "year": 2024
+    },
+    {
+      "paperId": "837e650fba5d46bc61e1c0465fa6a7adc5a533d1",
+      "externalIds": {
+        "ArXiv": "2405.21028",
+        "DBLP": "journals/corr/abs-2405-21028",
+        "DOI": "10.48550/arXiv.2405.21028",
+        "CorpusId": 270199379
+      },
+      "title": "LACIE: Listener-Aware Finetuning for Confidence Calibration in Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "a17144858b060c24a46aebbef969218737307bf0",
+      "externalIds": {
+        "DBLP": "conf/fat/WolfeSHW0RHBQWH24",
+        "ArXiv": "2405.16820",
+        "DOI": "10.1145/3630106.3658966",
+        "CorpusId": 270063175
+      },
+      "title": "Laboratory-Scale AI: Open-Weight Models are Competitive with ChatGPT Even in Low-Resource Settings",
+      "year": 2024
+    },
+    {
+      "paperId": "8f041c03023f46a74cc32cc408c89897b7e2059b",
+      "externalIds": {
+        "DBLP": "conf/chi/WesterSPB24",
+        "DOI": "10.1145/3613904.3642135",
+        "CorpusId": 268290772
+      },
+      "title": "\u201cAs an AI language model, I cannot\u201d: Investigating LLM Denials of User Requests",
+      "year": 2024
+    },
+    {
+      "paperId": "54972b2e4304d2164a61036ae947df2503c07009",
+      "externalIds": {
+        "DBLP": "conf/emnlp/GekhmanYAEFRH24",
+        "ACL": "2024.emnlp-main.444",
+        "ArXiv": "2405.05904",
+        "DOI": "10.48550/arXiv.2405.05904",
+        "CorpusId": 269635770
+      },
+      "title": "Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?",
+      "year": 2024
+    },
+    {
+      "paperId": "95a52dd5adf6eb8d918cdfbf6189aab4eaa8e607",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2405-01525",
+        "ArXiv": "2405.01525",
+        "DOI": "10.48550/arXiv.2405.01525",
+        "CorpusId": 269502676
+      },
+      "title": "FLAME: Factuality-Aware Alignment for Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "f9143d68be6475cac4d5d2096edcf1691c8f0356",
+      "externalIds": {
+        "DBLP": "conf/fat/KimLVBV24",
+        "ArXiv": "2405.00623",
+        "DOI": "10.1145/3630106.3658941",
+        "CorpusId": 269484145
+      },
+      "title": "\"I'm Not Sure, But...\": Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust",
+      "year": 2024
+    },
+    {
+      "paperId": "f18e5a844c37e5342f8f3d409c74c1a9c91d1f8f",
+      "externalIds": {
+        "ArXiv": "2404.13208",
+        "DBLP": "journals/corr/abs-2404-13208",
+        "DOI": "10.48550/arXiv.2404.13208",
+        "CorpusId": 269294048
+      },
+      "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "year": 2024
+    },
+    {
+      "paperId": "38264290a8a3f71fd5b3a86ea35a8b528d4e3d10",
+      "externalIds": {
+        "DBLP": "conf/emnlp/WenHW24",
+        "ArXiv": "2404.12452",
+        "DOI": "10.48550/arXiv.2404.12452",
+        "CorpusId": 269282962
+      },
+      "title": "Characterizing LLM Abstention Behavior in Science QA with Context Perturbations",
+      "year": 2024
+    },
+    {
+      "paperId": "6ec6b0c37206bd086e5ebe80ffc69f1e06a13d82",
+      "externalIds": {
+        "ArXiv": "2404.10960",
+        "DBLP": "journals/corr/abs-2404-10960",
+        "DOI": "10.48550/arXiv.2404.10960",
+        "CorpusId": 269188249
+      },
+      "title": "Uncertainty-Based Abstention in LLMs Improves Safety and Reduces Hallucinations",
+      "year": 2024
+    },
+    {
+      "paperId": "6f98525dc695257bdcb9a491e4d77f4d12bb5144",
+      "externalIds": {
+        "ArXiv": "2404.09932",
+        "DBLP": "journals/corr/abs-2404-09932",
+        "DOI": "10.48550/arXiv.2404.09932",
+        "CorpusId": 269149478
+      },
+      "title": "Foundational Challenges in Assuring Alignment and Safety of Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "d862aae89c364eb97442372979a0d185e95ae3bb",
+      "externalIds": {
+        "ArXiv": "2404.05399",
+        "DBLP": "journals/corr/abs-2404-05399",
+        "DOI": "10.48550/arXiv.2404.05399",
+        "CorpusId": 269005242
+      },
+      "title": "SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety",
+      "year": 2024
+    },
+    {
+      "paperId": "c9c0324fcdc92cf7e24f9c4230864851a552f953",
+      "externalIds": {
+        "DBLP": "conf/nips/ChaoDRACSDFPTH024",
+        "ArXiv": "2404.01318",
+        "DOI": "10.48550/arXiv.2404.01318",
+        "CorpusId": 268857237
+      },
+      "title": "JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "2f4cc3f4a1c70cd5aca14c1304037491cd3aeb9b",
+      "externalIds": {
+        "DBLP": "conf/icml/YuanX0Y0S024",
+        "ArXiv": "2403.13031",
+        "DOI": "10.48550/arXiv.2403.13031",
+        "CorpusId": 268536710
+      },
+      "title": "RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content",
+      "year": 2024
+    },
+    {
+      "paperId": "1fc1f5481cfef18185562b59642f319a2a4e7439",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2403-12862",
+        "ArXiv": "2403.12862",
+        "DOI": "10.48550/arXiv.2403.12862",
+        "CorpusId": 268531579
+      },
+      "title": "Epistemology of Language Models: Do Language Models Have Holistic Knowledge?",
+      "year": 2024
+    },
+    {
+      "paperId": "ab8e6df5001dbb9b48445220099425aff536b3e8",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2403-08319",
+        "ArXiv": "2403.08319",
+        "ACL": "2024.emnlp-main.486",
+        "DOI": "10.48550/arXiv.2403.08319",
+        "CorpusId": 268379757
+      },
+      "title": "Knowledge Conflicts for LLMs: A Survey",
+      "year": 2024
+    },
+    {
+      "paperId": "4e274196324bad3e750e83235516af06733e701d",
+      "externalIds": {
+        "ArXiv": "2403.05612",
+        "DBLP": "journals/corr/abs-2403-05612",
+        "DOI": "10.48550/arXiv.2403.05612",
+        "CorpusId": 268358368
+      },
+      "title": "Unfamiliar Finetuning Examples Control How Language Models Hallucinate",
+      "year": 2024
+    },
+    {
+      "paperId": "8ba57771dd6345821a0cbe83c4c7eb50f66b7b65",
+      "externalIds": {
+        "ArXiv": "2403.04783",
+        "DBLP": "journals/corr/abs-2403-04783",
+        "DOI": "10.48550/arXiv.2403.04783",
+        "CorpusId": 268297202
+      },
+      "title": "AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks",
+      "year": 2024
+    },
+    {
+      "paperId": "6fe7e6ce3cc0ebd038caa456d73fd7472e7d6c38",
+      "externalIds": {
+        "DBLP": "conf/emnlp/GuoCY0SSCXZL0024",
+        "ACL": "2024.emnlp-main.85",
+        "ArXiv": "2402.19085",
+        "DOI": "10.48550/arXiv.2402.19085",
+        "CorpusId": 268063181
+      },
+      "title": "Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment",
+      "year": 2024
+    },
+    {
+      "paperId": "5030906b0281b30ec10a38b563eb5d5b9b233ed7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-18013",
+        "ArXiv": "2402.18013",
+        "DOI": "10.1145/3771090",
+        "CorpusId": 268041362
+      },
+      "title": "A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "9aa53e8b6b01fcb5ae8b8828cad2bace83e941a2",
+      "externalIds": {
+        "ArXiv": "2402.18540",
+        "DBLP": "journals/corr/abs-2402-18540",
+        "DOI": "10.48550/arXiv.2402.18540",
+        "CorpusId": 268063545
+      },
+      "title": "Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates",
+      "year": 2024
+    },
+    {
+      "paperId": "b90af7637fa590bd8c7ae2a883f66e2e067fe5b4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-16459",
+        "ArXiv": "2402.16459",
+        "DOI": "10.48550/arXiv.2402.16459",
+        "CorpusId": 268032484
+      },
+      "title": "Defending LLMs against Jailbreaking Attacks via Backtranslation",
+      "year": 2024
+    },
+    {
+      "paperId": "1f9f25aad947030fe3206114fa2ac75e8b590515",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-16192",
+        "ArXiv": "2402.16192",
+        "DOI": "10.48550/arXiv.2402.16192",
+        "CorpusId": 267938320
+      },
+      "title": "Defending Large Language Models against Jailbreak Attacks via Semantic Smoothing",
+      "year": 2024
+    },
+    {
+      "paperId": "d82a827fa21cce0b601ad21b6db606b8413ed547",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-15180",
+        "ArXiv": "2402.15180",
+        "DOI": "10.48550/arXiv.2402.15180",
+        "CorpusId": 267897711
+      },
+      "title": "Break the Breakout: Reinventing LM Defense Against Jailbreak Attacks with Self-Refinement",
+      "year": 2024
+    },
+    {
+      "paperId": "c08f383ac0aa40260f430f4607ebdfe7a8b30ba0",
+      "externalIds": {
+        "DBLP": "conf/emnlp/DengZLNC24",
+        "ACL": "2024.emnlp-main.757",
+        "ArXiv": "2402.15062",
+        "DOI": "10.18653/v1/2024.emnlp-main.757",
+        "CorpusId": 267897705
+      },
+      "title": "Don\u2019t Just Say \u201cI don\u2019t know\u201d! Self-aligning Large Language Models for Responding to Unknown Questions with Explanations",
+      "year": 2024
+    },
+    {
+      "paperId": "50ceabc6aa41e08480fa5976342bfe04bb47bce3",
+      "externalIds": {
+        "DBLP": "conf/emnlp/0002HZGLB024",
+        "ACL": "2024.emnlp-main.1121",
+        "ArXiv": "2402.13148",
+        "DOI": "10.48550/arXiv.2402.13148",
+        "CorpusId": 267760185
+      },
+      "title": "Defending Jailbreak Prompts via In-Context Adversarial Game",
+      "year": 2024
+    },
+    {
+      "paperId": "d9cfa9d7dabd39b66a8c11e5dde69ba45e91093d",
+      "externalIds": {
+        "ArXiv": "2402.11746",
+        "DBLP": "journals/corr/abs-2402-11746",
+        "DOI": "10.48550/arXiv.2402.11746",
+        "CorpusId": 267750438
+      },
+      "title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic",
+      "year": 2024
+    },
+    {
+      "paperId": "f2e88c26bc1ebdd4adc5f83ab56cb4276120745d",
+      "externalIds": {
+        "ArXiv": "2402.10260",
+        "DBLP": "conf/nips/SoulyLBTHPASEWT24",
+        "DOI": "10.48550/arXiv.2402.10260",
+        "CorpusId": 267740669
+      },
+      "title": "A StrongREJECT for Empty Jailbreaks",
+      "year": 2024
+    },
+    {
+      "paperId": "32c5b515cab893e5e4bf3f90c8b6c8262bd7ac09",
+      "externalIds": {
+        "ArXiv": "2402.09267",
+        "DBLP": "conf/acl/ZhangPTZJSMM24",
+        "DOI": "10.48550/arXiv.2402.09267",
+        "CorpusId": 267657805
+      },
+      "title": "Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
+      "year": 2024
+    },
+    {
+      "paperId": "f6d0d7c8e815de607e03da73467ba538caad4d92",
+      "externalIds": {
+        "ArXiv": "2402.06255",
+        "DBLP": "conf/nips/MoWW024",
+        "DOI": "10.52202/079017-2049",
+        "CorpusId": 267617138
+      },
+      "title": "Fight Back Against Jailbreaking via Prompt Adversarial Tuning",
+      "year": 2024
+    },
+    {
+      "paperId": "14d0489047a1390434e7ea454e7e5165d9721ae3",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-06544",
+        "ArXiv": "2402.06544",
+        "DOI": "10.48550/arXiv.2402.06544",
+        "CorpusId": 267617073
+      },
+      "title": "Calibrating Long-form Generations from Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "868fcbc6127e9cf79990e92116ec482051d470f3",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-05044",
+        "ArXiv": "2402.05044",
+        "DOI": "10.48550/arXiv.2402.05044",
+        "CorpusId": 267523467
+      },
+      "title": "SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "f62acb5a743ea4d47a045460a9ee346c2cec5068",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-03744",
+        "ArXiv": "2402.03744",
+        "DOI": "10.48550/arXiv.2402.03744",
+        "CorpusId": 267499843
+      },
+      "title": "INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection",
+      "year": 2024
+    },
+    {
+      "paperId": "b82ccc66c14f531a444c74d2a9a9d86a86a8be99",
+      "externalIds": {
+        "ArXiv": "2402.04249",
+        "DBLP": "conf/icml/MazeikaPYZ0MSLB24",
+        "DOI": "10.48550/arXiv.2402.04249",
+        "CorpusId": 267499790
+      },
+      "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+      "year": 2024
+    },
+    {
+      "paperId": "4862ea8e9bd568a7ea5d3347ebb6d2a8d7f80ecc",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-03563",
+        "ArXiv": "2402.03563",
+        "DOI": "10.48550/arXiv.2402.03563",
+        "CorpusId": 267500373
+      },
+      "title": "Distinguishing the Knowable from the Unknowable with Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "25cee84e3a1541697a7c97443d7526574127c344",
+      "externalIds": {
+        "ArXiv": "2402.00367",
+        "DBLP": "journals/corr/abs-2402-00367",
+        "DOI": "10.48550/arXiv.2402.00367",
+        "CorpusId": 267365203
+      },
+      "title": "Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+      "year": 2024
+    },
+    {
+      "paperId": "dd35405d8e562fa1df4338839878e9c94817cfdd",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-17263",
+        "ArXiv": "2401.17263",
+        "DOI": "10.48550/arXiv.2401.17263",
+        "CorpusId": 267320750
+      },
+      "title": "Robust Prompt Optimization for Defending Language Models Against Jailbreaking Attacks",
+      "year": 2024
+    },
+    {
+      "paperId": "2751de08d6dbec07f53808231c016e96b075b06c",
+      "externalIds": {
+        "ArXiv": "2401.15449",
+        "ACL": "2024.knowledgenlp-1.4",
+        "DBLP": "journals/corr/abs-2401-15449",
+        "DOI": "10.48550/arXiv.2401.15449",
+        "CorpusId": 267312028
+      },
+      "title": "Learning to Trust Your Feelings: Leveraging Self-awareness in LLMs for Hallucination Mitigation",
+      "year": 2024
+    },
+    {
+      "paperId": "541958c384c3356c2da798344600b2a07482e035",
+      "externalIds": {
+        "DBLP": "conf/icml/ChengSLZYLLH0Q24",
+        "ArXiv": "2401.13275",
+        "DOI": "10.48550/arXiv.2401.13275",
+        "CorpusId": 267199842
+      },
+      "title": "Can AI Assistants Know What They Don't Know?",
+      "year": 2024
+    },
+    {
+      "paperId": "f21d0177e9374bb8579c1d9c71319f212f62b3d5",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-11206",
+        "ArXiv": "2401.11206",
+        "ACL": "2024.emnlp-main.585",
+        "DOI": "10.48550/arXiv.2401.11206",
+        "CorpusId": 267068598
+      },
+      "title": "InferAligner: Inference-Time Alignment for Harmlessness through Cross-Model Guidance",
+      "year": 2024
+    },
+    {
+      "paperId": "8fd29e810540c40846cddce3cbdf5060cd59fb57",
+      "externalIds": {
+        "DBLP": "conf/coling/Zhang0ZT25",
+        "ArXiv": "2401.06561",
+        "CorpusId": 266977251
+      },
+      "title": "Intention Analysis Makes LLMs A Good Jailbreak Defender",
+      "year": 2024
+    },
+    {
+      "paperId": "9a8d0f0ace05d3795a9a58f94675710b89006941",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-06730",
+        "ArXiv": "2401.06730",
+        "DOI": "10.48550/arXiv.2401.06730",
+        "CorpusId": 266977353
+      },
+      "title": "Relying on the Unreliable: The Impact of Language Models' Reluctance to Express Uncertainty",
+      "year": 2024
+    },
+    {
+      "paperId": "accb2fab67c76d5668908107cd50cbb81110c389",
+      "externalIds": {
+        "ArXiv": "2401.00287",
+        "DBLP": "journals/corr/abs-2401-00287",
+        "DOI": "10.48550/arXiv.2401.00287",
+        "CorpusId": 266693612
+      },
+      "title": "The Art of Defending: A Systematic Evaluation and Analysis of LLM Defense Strategies on Safety and Over-Defensiveness",
+      "year": 2023
+    },
+    {
+      "paperId": "9cd0837a6204e62e0819fbd9238a4e41b18482aa",
+      "externalIds": {
+        "ArXiv": "2312.09085",
+        "DBLP": "journals/corr/abs-2312-09085",
+        "DOI": "10.48550/arXiv.2312.09085",
+        "CorpusId": 266210093
+      },
+      "title": "The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation",
+      "year": 2023
+    },
+    {
+      "paperId": "04365f0f1db4c659c3297cb8e70c39b38ed3b487",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2312-09300",
+        "ArXiv": "2312.09300",
+        "DOI": "10.48550/arXiv.2312.09300",
+        "CorpusId": 266335508
+      },
+      "title": "Self-Evaluation Improves Selective Generation in Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "6cfbbf7604adda1df65932e3c4d157770a2df000",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2312-07000",
+        "ArXiv": "2312.07000",
+        "DOI": "10.48550/arXiv.2312.07000",
+        "CorpusId": 266174420
+      },
+      "title": "Alignment for Honesty",
+      "year": 2023
+    },
+    {
+      "paperId": "e762f92273cd96f63b7788c0173b9b6450adedd7",
+      "externalIds": {
+        "DBLP": "journals/natmi/XieYSCLCXW23",
+        "DOI": "10.1038/s42256-023-00765-8",
+        "CorpusId": 266289038
+      },
+      "title": "Defending ChatGPT against jailbreak attack via self-reminders",
+      "year": 2023
+    },
+    {
+      "paperId": "210b0a3d76e93079cc51b03c4115fde545eea966",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2311-12022",
+        "ArXiv": "2311.12022",
+        "CorpusId": 265295009
+      },
+      "title": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+      "year": 2023
+    },
+    {
+      "paperId": "c1d1842e08716cbf7250167969522a1705d8bcd3",
+      "externalIds": {
+        "ArXiv": "2311.11509",
+        "DBLP": "journals/corr/abs-2311-11509",
+        "DOI": "10.48550/arXiv.2311.11509",
+        "CorpusId": 265294544
+      },
+      "title": "Token-Level Adversarial Prompt Detection Based on Perplexity Measures and Contextual Information",
+      "year": 2023
+    },
+    {
+      "paperId": "97d24f9f0d81007d57cc43e61bf2b0c9081fe184",
+      "externalIds": {
+        "ACL": "2024.naacl-long.394",
+        "ArXiv": "2311.09677",
+        "DBLP": "conf/naacl/ZhangDLFL0CJZ24",
+        "DOI": "10.18653/v1/2024.naacl-long.394",
+        "CorpusId": 265220839
+      },
+      "title": "R-Tuning: Instructing Large Language Models to Say \u2018I Don\u2019t Know\u2019",
+      "year": 2023
+    },
+    {
+      "paperId": "ecdfc556828dc59d8a0009016fcbe97a06cf7e23",
+      "externalIds": {
+        "ArXiv": "2312.00029",
+        "DBLP": "journals/corr/abs-2312-00029",
+        "DOI": "10.48550/arXiv.2312.00029",
+        "CorpusId": 265552022
+      },
+      "title": "Bergeron: Combating Adversarial Attacks through a Conscience-Based Alignment Framework",
+      "year": 2023
+    },
+    {
+      "paperId": "e92e8ff1becb9a9e4a7dd09878eaacb2a62ffb6b",
+      "externalIds": {
+        "ArXiv": "2311.09096",
+        "DBLP": "conf/acl/ZhangYKMWH24",
+        "DOI": "10.48550/arXiv.2311.09096",
+        "CorpusId": 265212812
+      },
+      "title": "Defending Large Language Models Against Jailbreaking Attacks Through Goal Prioritization",
+      "year": 2023
+    },
+    {
+      "paperId": "67fa2f2072cca1071ed2c820d6a7f50de6ea2ff3",
+      "externalIds": {
+        "ArXiv": "2311.08718",
+        "DBLP": "conf/icml/HouLQAC024",
+        "DOI": "10.48550/arXiv.2311.08718",
+        "CorpusId": 265213190
+      },
+      "title": "Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling",
+      "year": 2023
+    },
+    {
+      "paperId": "422e4b666cbd4dd287a458b8b559cd2426a4f60d",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2311-08685",
+        "ArXiv": "2311.08685",
+        "ACL": "2024.naacl-long.422",
+        "DOI": "10.48550/arXiv.2311.08685",
+        "CorpusId": 265212888
+      },
+      "title": "Safer-Instruct: Aligning Language Models with Automated Preference Data",
+      "year": 2023
+    },
+    {
+      "paperId": "df9981b9bbfc619652e84cd0eefa595274da2fef",
+      "externalIds": {
+        "ArXiv": "2311.08877",
+        "DBLP": "journals/corr/abs-2311-08877",
+        "DOI": "10.48550/arXiv.2311.08877",
+        "CorpusId": 265213392
+      },
+      "title": "Llamas Know What GPTs Don't Show: Surrogate Models for Confidence Estimation",
+      "year": 2023
+    },
+    {
+      "paperId": "bfc0e3e651cd4b715272fe68add8a180a112293c",
+      "externalIds": {
+        "ArXiv": "2311.03348",
+        "DBLP": "journals/corr/abs-2311-03348",
+        "DOI": "10.48550/arXiv.2311.03348",
+        "CorpusId": 265043220
+      },
+      "title": "Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation",
+      "year": 2023
+    },
+    {
+      "paperId": "01bf8ade86d33ee2fe08780a51bdf59f9ee171b6",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2311-01041",
+        "ArXiv": "2311.01041",
+        "ACL": "2024.emnlp-main.212",
+        "DOI": "10.48550/arXiv.2311.01041",
+        "CorpusId": 264935057
+      },
+      "title": "Learn to Refuse: Making Large Language Models More Controllable and Reliable through Knowledge Scope Limitation and Refusal Mechanism",
+      "year": 2023
+    },
+    {
+      "paperId": "c1284ee1ddf29955a1a02bdc45abdaac63745017",
+      "externalIds": {
+        "ArXiv": "2310.17918",
+        "DBLP": "journals/corr/abs-2310-17918",
+        "ACL": "2024.naacl-long.390",
+        "DOI": "10.48550/arXiv.2310.17918",
+        "CorpusId": 264555682
+      },
+      "title": "Knowing What LLMs DO NOT Know: A Simple Yet Effective Self-Detection Method",
+      "year": 2023
+    },
+    {
+      "paperId": "a7741b2753134653861ec0b82f617875c0ebd96e",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-17389",
+        "ArXiv": "2310.17389",
+        "DOI": "10.48550/arXiv.2310.17389",
+        "CorpusId": 264491114
+      },
+      "title": "ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation",
+      "year": 2023
+    },
+    {
+      "paperId": "c7ad19da81e24c387f0377fef6d19b0fce2cf470",
+      "externalIds": {
+        "ACL": "2024.naacl-long.92",
+        "DBLP": "journals/corr/abs-2310-15851",
+        "ArXiv": "2310.15851",
+        "DOI": "10.48550/arXiv.2310.15851",
+        "CorpusId": 264439265
+      },
+      "title": "SELF-GUARD: Empower the LLM to Safeguard Itself",
+      "year": 2023
+    },
+    {
+      "paperId": "0f7308fbcae43d22813f70c334c2425df0b1cce1",
+      "externalIds": {
+        "ArXiv": "2310.12773",
+        "DBLP": "conf/iclr/DaiPSJXL0024",
+        "DOI": "10.48550/arXiv.2310.12773",
+        "CorpusId": 264306078
+      },
+      "title": "Safe RLHF: Safe Reinforcement Learning from Human Feedback",
+      "year": 2023
+    },
+    {
+      "paperId": "5603e598fa1916d1c696004bc360b75931547105",
+      "externalIds": {
+        "ArXiv": "2310.11689",
+        "DBLP": "journals/corr/abs-2310-11689",
+        "DOI": "10.48550/arXiv.2310.11689",
+        "CorpusId": 264289232
+      },
+      "title": "Adaptation with Self-Evaluation to Improve Selective Prediction in LLMs",
+      "year": 2023
+    },
+    {
+      "paperId": "a267cfbd6930c8e2c720104ae4a90e39461a6694",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-11877",
+        "ArXiv": "2310.11877",
+        "DOI": "10.48550/arXiv.2310.11877",
+        "CorpusId": 264289289
+      },
+      "title": "The Curious Case of Hallucinatory Unanswerablity: Finding Truths in the Hidden States of Over-Confident Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "4637f79ddfaf923ce569996ffa5b6cda1996faa1",
+      "externalIds": {
+        "DBLP": "conf/satml/ChaoRDHP025",
+        "ArXiv": "2310.08419",
+        "DOI": "10.1109/SaTML64287.2025.00010",
+        "CorpusId": 263908890
+      },
+      "title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+      "year": 2023
+    },
+    {
+      "paperId": "ac27dd71af3ee93e1129482ceececbae7dd0d0e8",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-06987",
+        "ArXiv": "2310.06987",
+        "DOI": "10.48550/arXiv.2310.06987",
+        "CorpusId": 263835408
+      },
+      "title": "Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "dd7a74a09fc29cadcd47fafc4f7812bb8d2d7208",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-07629",
+        "ArXiv": "2310.07629",
+        "DOI": "10.48550/arXiv.2310.07629",
+        "CorpusId": 263834741
+      },
+      "title": "The Past, Present and Better Future of Feedback Learning in Large Language Models for Subjective Human Preferences and Values",
+      "year": 2023
+    },
+    {
+      "paperId": "6b135e922a0c673aeb0b05c5aeecdb6c794791c6",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-06387",
+        "ArXiv": "2310.06387",
+        "DOI": "10.1109/TPAMI.2026.3660147",
+        "CorpusId": 263830179,
+        "PubMed": "41628045"
+      },
+      "title": "Jailbreak and Guard Aligned Language Models With Only Few In-Context Demonstrations",
+      "year": 2023
+    },
+    {
+      "paperId": "f05c288caeb9a14ef387e6867934ced3d2200259",
+      "externalIds": {
+        "ArXiv": "2310.05910",
+        "DBLP": "conf/iclr/SunSZZCCYG24",
+        "CorpusId": 263831633
+      },
+      "title": "SALMON: Self-Alignment with Instructable Reward Models",
+      "year": 2023
+    },
+    {
+      "paperId": "8cf9b49698fdb1b754df2556576412a7b44929f6",
+      "externalIds": {
+        "DBLP": "journals/tmlr/Robey0HP25",
+        "ArXiv": "2310.03684",
+        "DOI": "10.48550/arXiv.2310.03684",
+        "CorpusId": 263671542
+      },
+      "title": "SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks",
+      "year": 2023
+    },
+    {
+      "paperId": "0e0e706e13f160e74cac9556f28ab9a358c148d2",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-03693",
+        "ArXiv": "2310.03693",
+        "DOI": "10.48550/arXiv.2310.03693",
+        "CorpusId": 263671523
+      },
+      "title": "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
+      "year": 2023
+    },
+    {
+      "paperId": "764fc56883bf83392cac99a7b5a264ac9fe2cdc5",
+      "externalIds": {
+        "ArXiv": "2310.02446",
+        "DBLP": "journals/corr/abs-2310-02446",
+        "DOI": "10.48550/arXiv.2310.02446",
+        "CorpusId": 263620377
+      },
+      "title": "Low-Resource Languages Jailbreak GPT-4",
+      "year": 2023
+    },
+    {
+      "paperId": "1bf7a2a27fc1f8db6e9404db1be3d355d65722fe",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-02417",
+        "ArXiv": "2310.02417",
+        "DOI": "10.1145/3605760.3623764",
+        "CorpusId": 263620259
+      },
+      "title": "Jailbreaker in Jail: Moving Target Defense for Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "3f4ccf64ffe23b5dc095ae0401eecf9445deb024",
+      "externalIds": {
+        "ArXiv": "2310.00935",
+        "DBLP": "journals/corr/abs-2310-00935",
+        "DOI": "10.48550/arXiv.2310.00935",
+        "CorpusId": 263605469
+      },
+      "title": "Resolving Knowledge Conflicts in Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "41cc3338635cde85316a0bcb934bffc73008761a",
+      "externalIds": {
+        "DBLP": "conf/nips/XiDLPJCMW23",
+        "ArXiv": "2309.13256",
+        "DOI": "10.48550/arXiv.2309.13256",
+        "CorpusId": 262459235
+      },
+      "title": "Defending Pre-trained Language Models as Few-shot Learners against Backdoor Attacks",
+      "year": 2023
+    },
+    {
+      "paperId": "d4177489596748e43aa571f59556097f2cc4c8be",
+      "externalIds": {
+        "ArXiv": "2309.10253",
+        "DBLP": "journals/corr/abs-2309-10253",
+        "DOI": "10.48550/arXiv.2309.10253",
+        "CorpusId": 262055242
+      },
+      "title": "GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts",
+      "year": 2023
+    },
+    {
+      "paperId": "cd29c25c489562b409a60f83365f93f33ee1a0a1",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-14348",
+        "ArXiv": "2309.14348",
+        "DOI": "10.48550/arXiv.2309.14348",
+        "CorpusId": 262827619
+      },
+      "title": "Defending Against Alignment-Breaking Attacks via Robustly Aligned LLM",
+      "year": 2023
+    },
+    {
+      "paperId": "a4c921bdef167ae54cc3a40643e6e3ed13d49a61",
+      "externalIds": {
+        "DBLP": "conf/iclr/0001SARJH024",
+        "ArXiv": "2309.07875",
+        "DOI": "10.48550/arXiv.2309.07875",
+        "CorpusId": 261823321
+      },
+      "title": "Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions",
+      "year": 2023
+    },
+    {
+      "paperId": "1ab91d6ac7afc1a0121487a9089fa70edc1634d4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-02705",
+        "ArXiv": "2309.02705",
+        "DOI": "10.48550/arXiv.2309.02705",
+        "CorpusId": 261557007
+      },
+      "title": "Certifying LLM Safety against Adversarial Prompting",
+      "year": 2023
+    },
+    {
+      "paperId": "3e30a7ac4886b28eb50151f58e14a1d698cccd0e",
+      "externalIds": {
+        "ArXiv": "2309.00614",
+        "DBLP": "journals/corr/abs-2309-00614",
+        "DOI": "10.48550/arXiv.2309.00614",
+        "CorpusId": 261494182
+      },
+      "title": "Baseline Defenses for Adversarial Attacks Against Aligned Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "2cdd5c3dc42c0df40bc8839709869af3560d4bfe",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2308-07308",
+        "ArXiv": "2308.07308",
+        "DOI": "10.48550/arXiv.2308.07308",
+        "CorpusId": 260887487
+      },
+      "title": "LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked",
+      "year": 2023
+    },
+    {
+      "paperId": "897940fb5dd4d739b88c4659c4565d05f48d06b8",
+      "externalIds": {
+        "DBLP": "conf/iclr/YuanJW0H0T24",
+        "ArXiv": "2308.06463",
+        "DOI": "10.48550/arXiv.2308.06463",
+        "CorpusId": 260887189
+      },
+      "title": "GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher",
+      "year": 2023
+    },
+    {
+      "paperId": "1104d766527dead44a40532e8a89444d9cef5c65",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2308-03825",
+        "ArXiv": "2308.03825",
+        "DOI": "10.1145/3658644.3670388",
+        "CorpusId": 260704242
+      },
+      "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "b67eb8213a63be8a4b0274728ffdc50bfa109e10",
+      "externalIds": {
+        "ArXiv": "2308.01263",
+        "ACL": "2024.naacl-long.301",
+        "DBLP": "conf/naacl/RottgerKVA0H24",
+        "DOI": "10.48550/arXiv.2308.01263",
+        "CorpusId": 260378842
+      },
+      "title": "XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "47030369e97cc44d4b2e3cf1be85da0fd134904a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2307-15043",
+        "ArXiv": "2307.15043",
+        "CorpusId": 260202961
+      },
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "bc0549a5f07474c18987c219ecf367fb73a1b79c",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2307-09705",
+        "ArXiv": "2307.09705",
+        "DOI": "10.48550/arXiv.2307.09705",
+        "CorpusId": 259983087
+      },
+      "title": "CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility",
+      "year": 2023
+    },
+    {
+      "paperId": "ace98e1e58bcc364afbb2feff6d136232f5f47da",
+      "externalIds": {
+        "ArXiv": "2307.08487",
+        "DBLP": "journals/corr/abs-2307-08487",
+        "DOI": "10.48550/arXiv.2307.08487",
+        "CorpusId": 259937347
+      },
+      "title": "Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "92930ed3560ea6c86d53cf52158bc793b089054d",
+      "externalIds": {
+        "DBLP": "conf/nips/JiLDPZB0SW023",
+        "ArXiv": "2307.04657",
+        "DOI": "10.48550/arXiv.2307.04657",
+        "CorpusId": 259501579
+      },
+      "title": "BeaverTails: Towards Improved Safety Alignment of LLM via a Human-Preference Dataset",
+      "year": 2023
+    },
+    {
+      "paperId": "0adc7754095cbc8fde5c365ed69e39e7e26dc24f",
+      "externalIds": {
+        "ArXiv": "2307.01379",
+        "DBLP": "conf/acl/DuanC0ZWXKX24",
+        "DOI": "10.18653/v1/2024.acl-long.276",
+        "CorpusId": 270095084
+      },
+      "title": "Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "8f7297454d7f44365b9bcda5ebb9439a43daf5e6",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2306-13063",
+        "ArXiv": "2306.13063",
+        "DOI": "10.48550/arXiv.2306.13063",
+        "CorpusId": 259224389
+      },
+      "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
+      "year": 2023
+    },
+    {
+      "paperId": "ad934a9344f68fcc0b9aa704102aa48c39c5b591",
+      "externalIds": {
+        "ArXiv": "2305.19187",
+        "DBLP": "journals/corr/abs-2305-19187",
+        "DOI": "10.48550/arXiv.2305.19187",
+        "CorpusId": 258967487
+      },
+      "title": "Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "eb971944bccf9793ac463c3e2f4d4251d4e8e071",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2305-18153",
+        "ArXiv": "2305.18153",
+        "DOI": "10.48550/arXiv.2305.18153",
+        "CorpusId": 258959258
+      },
+      "title": "Do Large Language Models Know What They Don't Know?",
+      "year": 2023
+    },
+    {
+      "paperId": "0d1c76d45afa012ded7ab741194baf142117c495",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2305-18290",
+        "ArXiv": "2305.18290",
+        "DOI": "10.52202/075280-2338",
+        "CorpusId": 258959321
+      },
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "year": 2023
+    },
+    {
+      "paperId": "ab4ce5dda7ad4d9032995c9c049a89d65723c6aa",
+      "externalIds": {
+        "ArXiv": "2305.14975",
+        "DBLP": "conf/emnlp/TianMZSRYFM23",
+        "DOI": "10.48550/arXiv.2305.14975",
+        "CorpusId": 258865733
+      },
+      "title": "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+      "year": 2023
+    },
+    {
+      "paperId": "7283d616e40d7ab7422e3697218f3fc42f292bf2",
+      "externalIds": {
+        "DBLP": "conf/emnlp/SiSZZB23",
+        "ArXiv": "2305.14628",
+        "DOI": "10.18653/v1/2023.findings-emnlp.552",
+        "CorpusId": 258865893
+      },
+      "title": "Getting MoRE out of Mixture of Language Model Reasoning Experts",
+      "year": 2023
+    },
+    {
+      "paperId": "9386242a9ad5c1a15023043ef63d45e42ceac546",
+      "externalIds": {
+        "ArXiv": "2305.14613",
+        "DBLP": "journals/corr/abs-2305-14613",
+        "DOI": "10.48550/arXiv.2305.14613",
+        "CorpusId": 258866001
+      },
+      "title": "Selectively Answering Ambiguous Questions",
+      "year": 2023
+    },
+    {
+      "paperId": "c22bfecc684be370bc22611deb8737d65466a390",
+      "externalIds": {
+        "ArXiv": "2305.13712",
+        "DBLP": "conf/acl/AmayuelasWPCW24",
+        "DOI": "10.48550/arXiv.2305.13712",
+        "CorpusId": 258841255
+      },
+      "title": "Knowledge of Knowledge: Exploring Known-Unknowns Uncertainty with Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "32ac52069e562d4f900afee70bdca63f53461481",
+      "externalIds": {
+        "ArXiv": "2305.14314",
+        "DBLP": "journals/corr/abs-2305-14314",
+        "DOI": "10.48550/arXiv.2305.14314",
+        "CorpusId": 258841328
+      },
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "year": 2023
+    },
+    {
+      "paperId": "f406aceba4f29cc7cfbe7edb2f52f01374486589",
+      "externalIds": {
+        "ArXiv": "2304.13734",
+        "DBLP": "journals/corr/abs-2304-13734",
+        "DOI": "10.18653/v1/2023.findings-emnlp.68",
+        "CorpusId": 258352729
+      },
+      "title": "The Internal State of an LLM Knows When its Lying",
+      "year": 2023
+    },
+    {
+      "paperId": "296cad46f56329843ded4a8b7d7633c9d436f113",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2304-08653",
+        "ArXiv": "2304.08653",
+        "DOI": "10.48550/arXiv.2304.08653",
+        "CorpusId": 258187125
+      },
+      "title": "On Uncertainty Calibration and Selective Generation in Probabilistic Neural Summarization: A Benchmark Study",
+      "year": 2023
+    },
+    {
+      "paperId": "12c826f4195da172b212a529f8fcf10cc79e35da",
+      "externalIds": {
+        "ArXiv": "2303.11315",
+        "DBLP": "journals/corr/abs-2303-11315",
+        "DOI": "10.48550/arXiv.2303.11315",
+        "CorpusId": 257632259
+      },
+      "title": "Context-faithful Prompting for Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "externalIds": {
+        "ArXiv": "2303.08774",
+        "CorpusId": 257532815
+      },
+      "title": "GPT-4 Technical Report",
+      "year": 2023
+    },
+    {
+      "paperId": "e5174aeda1baa67c17f4ac630ae2e44453954cc3",
+      "externalIds": {
+        "ArXiv": "2303.05453",
+        "DBLP": "journals/corr/abs-2303-05453",
+        "DOI": "10.48550/arXiv.2303.05453",
+        "CorpusId": 257427629
+      },
+      "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+      "year": 2023
+    },
+    {
+      "paperId": "57e849d0de13ed5f91d086936296721d4ff75a75",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2302-13971",
+        "ArXiv": "2302.13971",
+        "CorpusId": 257219404
+      },
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "217e436fd23fe4184828e02a2b143835d6fd3b28",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ZhouJH23",
+        "ArXiv": "2302.13439",
+        "DOI": "10.18653/v1/2023.emnlp-main.335",
+        "CorpusId": 265150666
+      },
+      "title": "Navigating the Grey Area: How Expressions of Uncertainty and Overconfidence Affect Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "507465f8d46489a68a527cb5304d76bdb6c31ed9",
+      "externalIds": {
+        "ArXiv": "2302.09664",
+        "DBLP": "journals/corr/abs-2302-09664",
+        "DOI": "10.48550/arXiv.2302.09664",
+        "CorpusId": 257039062
+      },
+      "title": "Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "a4a41319d5805a29316f24ed9519f09db77d4c29",
+      "externalIds": {
+        "ArXiv": "2301.13848",
+        "DBLP": "journals/tacl/ZhangLDLMH24a",
+        "ACL": "2024.tacl-1.3",
+        "DOI": "10.1162/tacl_a_00632",
+        "CorpusId": 256416014
+      },
+      "title": "Benchmarking Large Language Models for News Summarization",
+      "year": 2023
+    },
+    {
+      "paperId": "c6ee979c2da4b55a8486abae4cd720422ab09b26",
+      "externalIds": {
+        "ArXiv": "2212.10511",
+        "ACL": "2023.acl-long.546",
+        "DBLP": "conf/acl/MallenAZDKH23",
+        "DOI": "10.18653/v1/2023.acl-long.546",
+        "CorpusId": 254877603
+      },
+      "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+      "year": 2022
+    },
+    {
+      "paperId": "cae223fe3654b0bd3c1361dad204218ac60ed771",
+      "externalIds": {
+        "DBLP": "conf/acl/NeemanAHCSA23",
+        "ArXiv": "2211.05655",
+        "ACL": "2023.acl-long.559",
+        "DOI": "10.48550/arXiv.2211.05655",
+        "CorpusId": 253447228
+      },
+      "title": "DisentQA: Disentangling Parametric and Contextual Knowledge with Counterfactual Question Answering",
+      "year": 2022
+    },
+    {
+      "paperId": "fb3dc5e20e0a71134ca916f0d6d8d41f01225b4b",
+      "externalIds": {
+        "DBLP": "conf/icml/GaoSH23",
+        "ArXiv": "2210.10760",
+        "CorpusId": 252992904
+      },
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "year": 2022
+    },
+    {
+      "paperId": "551b05734eb2181c4ca009a411144e8447ed1606",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2210-04714",
+        "ArXiv": "2210.04714",
+        "DOI": "10.48550/arXiv.2210.04714",
+        "CorpusId": 247613322
+      },
+      "title": "Uncertainty Quantification with Pre-trained Language Models: A Large-Scale Empirical Analysis",
+      "year": 2022
+    },
+    {
+      "paperId": "891edceb78a274b0c2494d8176bc4d6f6e3f9cbc",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2210-00045",
+        "ArXiv": "2210.00045",
+        "DOI": "10.48550/arXiv.2210.00045",
+        "CorpusId": 252683988
+      },
+      "title": "Calibrating Sequence likelihood Improves Conditional Language Generation",
+      "year": 2022
+    },
+    {
+      "paperId": "dc5518e1db565a8c52084f27353461df474403d8",
+      "externalIds": {
+        "ArXiv": "2207.13332",
+        "DBLP": "conf/nips/KasaiST0A0RS0I23",
+        "DOI": "10.48550/arXiv.2207.13332",
+        "CorpusId": 251105205
+      },
+      "title": "RealTime QA: What's the Answer Right Now?",
+      "year": 2022
+    },
+    {
+      "paperId": "142ebbf4760145f591166bde2564ac70c001e927",
+      "externalIds": {
+        "ArXiv": "2207.05221",
+        "DBLP": "journals/corr/abs-2207-05221",
+        "DOI": "10.48550/arXiv.2207.05221",
+        "CorpusId": 250451161
+      },
+      "title": "Language Models (Mostly) Know What They Know",
+      "year": 2022
+    },
+    {
+      "paperId": "374dd173491a59a10bbb2b3519ebcfe3649f529d",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2205-14334",
+        "ArXiv": "2205.14334",
+        "DOI": "10.48550/arXiv.2205.14334",
+        "CorpusId": 249191391
+      },
+      "title": "Teaching Models to Express Their Uncertainty in Words",
+      "year": 2022
+    },
+    {
+      "paperId": "ef17ffdd75a1b0347add2b91f90d937277138e90",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2204-13631",
+        "ArXiv": "2204.13631",
+        "DOI": "10.48550/arXiv.2204.13631",
+        "CorpusId": 248426953
+      },
+      "title": "Reliable Visual Question Answering: Abstain Rather Than Answer Incorrectly",
+      "year": 2022
+    },
+    {
+      "paperId": "0286b2736a114198b25fb5553c671c33aed5d477",
+      "externalIds": {
+        "ArXiv": "2204.05862",
+        "DBLP": "journals/corr/abs-2204-05862",
+        "DOI": "10.48550/arXiv.2204.05862",
+        "CorpusId": 248118878
+      },
+      "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+      "year": 2022
+    },
+    {
+      "paperId": "094ff971d6a8b8ff870946c9b3ce5aa173617bfb",
+      "externalIds": {
+        "ArXiv": "2204.02311",
+        "DBLP": "journals/corr/abs-2204-02311",
+        "CorpusId": 247951931
+      },
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "year": 2022
+    },
+    {
+      "paperId": "8342b592fe238f3d230e4959b06fd10153c45db1",
+      "externalIds": {
+        "ArXiv": "2203.15556",
+        "DBLP": "journals/corr/abs-2203-15556",
+        "DOI": "10.52202/068431-2176",
+        "CorpusId": 247778764
+      },
+      "title": "Training Compute-Optimal Large Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "382ba0c4452aab6ecdaf8a62d567bb3c4684e4f0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2203-09509",
+        "ArXiv": "2203.09509",
+        "ACL": "2022.acl-long.234",
+        "DOI": "10.48550/arXiv.2203.09509",
+        "CorpusId": 247519233
+      },
+      "title": "ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection",
+      "year": 2022
+    },
+    {
+      "paperId": "d766bffc357127e0dc86dd69561d5aeb520d6f4c",
+      "externalIds": {
+        "ArXiv": "2203.02155",
+        "DBLP": "journals/corr/abs-2203-02155",
+        "DOI": "10.52202/068431-2011",
+        "CorpusId": 246426909
+      },
+      "title": "Training language models to follow instructions with human feedback",
+      "year": 2022
+    },
+    {
+      "paperId": "5248b6e75e7e9e5a96c6cb48e71cbef9b2ea21d3",
+      "externalIds": {
+        "ArXiv": "2203.00211",
+        "ACL": "2022.findings-acl.158",
+        "DBLP": "conf/acl/VarshneyMB22a",
+        "DOI": "10.48550/arXiv.2203.00211",
+        "CorpusId": 247187611
+      },
+      "title": "Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings",
+      "year": 2022
+    },
+    {
+      "paperId": "3def68bd0f856886d34272840a7f81588f2bc082",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2202-03629",
+        "ArXiv": "2202.03629",
+        "DOI": "10.1145/3571730",
+        "CorpusId": 246652372
+      },
+      "title": "Survey of Hallucination in Natural Language Generation",
+      "year": 2022
+    },
+    {
+      "paperId": "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+      "externalIds": {
+        "DBLP": "conf/nips/Wei0SBIXCLZ22",
+        "ArXiv": "2201.11903",
+        "DOI": "10.52202/068431-1800",
+        "CorpusId": 246411621
+      },
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "763ed9da1a38b2ee985ac9fb8aad8009a1f25e97",
+      "externalIds": {
+        "MAG": "3195374612",
+        "DBLP": "journals/compsec/ShaoYALZ21",
+        "DOI": "10.1016/J.COSE.2021.102433",
+        "CorpusId": 238666060
+      },
+      "title": "BDDR: An Effective Defense Against Textual Backdoor Attacks",
+      "year": 2021
+    },
+    {
+      "paperId": "f7a6b57adebb5f6a10d16e120f0b0ef55aab7b2b",
+      "externalIds": {
+        "ArXiv": "2109.08535",
+        "DBLP": "conf/emnlp/SciavolinoZLC21",
+        "ACL": "2021.emnlp-main.496",
+        "DOI": "10.18653/v1/2021.emnlp-main.496",
+        "CorpusId": 237562875
+      },
+      "title": "Simple Entity-Centric Questions Challenge Dense Retrievers",
+      "year": 2021
+    },
+    {
+      "paperId": "8e3b613f8a6d775a5bf97aa73328a2f4795dd407",
+      "externalIds": {
+        "ArXiv": "2109.06157",
+        "DBLP": "conf/emnlp/ZhangC21",
+        "ACL": "2021.emnlp-main.586",
+        "DOI": "10.18653/v1/2021.emnlp-main.586",
+        "CorpusId": 237491751
+      },
+      "title": "SituatedQA: Incorporating Extra-Linguistic Contexts into QA",
+      "year": 2021
+    },
+    {
+      "paperId": "518ca6f8fe502fbacae88937b694e8a4ef0a95be",
+      "externalIds": {
+        "ACL": "2021.emnlp-main.29",
+        "ArXiv": "2109.05322",
+        "DBLP": "conf/emnlp/ElSheriefZMASCY21",
+        "DOI": "10.18653/v1/2021.emnlp-main.29",
+        "CorpusId": 237490428
+      },
+      "title": "Latent Hatred: A Benchmark for Understanding Implicit Hate Speech",
+      "year": 2021
+    },
+    {
+      "paperId": "ff0b2681d7b05e16c46dfb71d980cc2f605907cd",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2109-01652",
+        "ArXiv": "2109.01652",
+        "CorpusId": 237416585
+      },
+      "title": "Finetuned Language Models Are Zero-Shot Learners",
+      "year": 2021
+    },
+    {
+      "paperId": "ec307b17f193b14292206b65a1bcc95bfd8f02ed",
+      "externalIds": {
+        "DBLP": "journals/tacl/TrivediBKS22",
+        "ACL": "2022.tacl-1.31",
+        "ArXiv": "2108.00573",
+        "DOI": "10.1162/tacl_a_00475",
+        "CorpusId": 236771976
+      },
+      "title": "\u266b MuSiQue: Multihop Questions via Single-hop Question Composition",
+      "year": 2021
+    },
+    {
+      "paperId": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+      "externalIds": {
+        "DBLP": "conf/iclr/HuSWALWWC22",
+        "ArXiv": "2106.09685",
+        "CorpusId": 235458009
+      },
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "year": 2021
+    },
+    {
+      "paperId": "936a6191241f76682f51bf49c7c033effbf80227",
+      "externalIds": {
+        "ArXiv": "2106.01810",
+        "DBLP": "conf/aaai/SunLM0L0Z23",
+        "DOI": "10.1609/aaai.v37i4.25656",
+        "CorpusId": 235313678
+      },
+      "title": "Defending against Backdoor Attacks in Natural Language Generation",
+      "year": 2021
+    },
+    {
+      "paperId": "4e3935ef7da6bcbb202ec7f8b285c313cadcd044",
+      "externalIds": {
+        "MAG": "3161820423",
+        "DBLP": "conf/naacl/DasigiLBCSG21",
+        "ArXiv": "2105.03011",
+        "ACL": "2021.naacl-main.365",
+        "DOI": "10.18653/V1/2021.NAACL-MAIN.365",
+        "CorpusId": 234093776
+      },
+      "title": "A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers",
+      "year": 2021
+    },
+    {
+      "paperId": "4ae632b89089b38ce41d307a6cda4727e42aaab3",
+      "externalIds": {
+        "MAG": "3172314079",
+        "DBLP": "conf/naacl/XuPWGSK21",
+        "ArXiv": "2104.06390",
+        "ACL": "2021.naacl-main.190",
+        "DOI": "10.18653/V1/2021.NAACL-MAIN.190",
+        "CorpusId": 233219395
+      },
+      "title": "Detoxifying Language Models Risks Marginalizing Minority Voices",
+      "year": 2021
+    },
+    {
+      "paperId": "d77c78c9439422ed88e754f776a642d43a8acb66",
+      "externalIds": {
+        "ArXiv": "2012.14983",
+        "DBLP": "journals/tacl/MielkeSDB22",
+        "DOI": "10.1162/tacl_a_00494",
+        "CorpusId": 250073258
+      },
+      "title": "Reducing Conversational Agents\u2019 Overconfidence Through Linguistic Calibration",
+      "year": 2020
+    },
+    {
+      "paperId": "33422275fbb9958f55419620697faf531482699b",
+      "externalIds": {
+        "DBLP": "journals/tacl/JiangADN21",
+        "ArXiv": "2012.00955",
+        "DOI": "10.1162/tacl_a_00407",
+        "CorpusId": 235078802
+      },
+      "title": "How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering",
+      "year": 2020
+    },
+    {
+      "paperId": "3a1f8829e641b46f661775f64a7f27b933a46103",
+      "externalIds": {
+        "DBLP": "conf/emnlp/QiCLYLS21",
+        "ACL": "2021.emnlp-main.752",
+        "ArXiv": "2011.10369",
+        "MAG": "3109409894",
+        "DOI": "10.18653/v1/2021.emnlp-main.752",
+        "CorpusId": 227118606
+      },
+      "title": "ONION: A Simple and Effective Defense Against Textual Backdoor Attacks",
+      "year": 2020
+    },
+    {
+      "paperId": "372cce47fa16c538946972e6a7ac8420e64000b0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2010-11915",
+        "ACL": "2021.acl-long.118",
+        "ArXiv": "2010.11915",
+        "MAG": "3093551329",
+        "DOI": "10.18653/v1/2021.acl-long.118",
+        "CorpusId": 225040142
+      },
+      "title": "Challenges in Information-Seeking QA: Unanswerable Questions and Paragraph Retrieval",
+      "year": 2020
+    },
+    {
+      "paperId": "399e7d8129c60818ee208f236c8dda17e876d21f",
+      "externalIds": {
+        "MAG": "3088599783",
+        "ACL": "2020.findings-emnlp.301",
+        "DBLP": "journals/corr/abs-2009-11462",
+        "ArXiv": "2009.11462",
+        "DOI": "10.18653/v1/2020.findings-emnlp.301",
+        "CorpusId": 221878771
+      },
+      "title": "RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models",
+      "year": 2020
+    },
+    {
+      "paperId": "cb693ce346f44e6b89ee814c6bb9f0e5cc2fa9d2",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2006-09462",
+        "MAG": "3035847612",
+        "ArXiv": "2006.09462",
+        "ACL": "2020.acl-main.503",
+        "DOI": "10.18653/v1/2020.acl-main.503",
+        "CorpusId": 219721462
+      },
+      "title": "Selective Question Answering under Domain Shift",
+      "year": 2020
+    },
+    {
+      "paperId": "298f67a9719e74192296fa2428776c46161a256a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2006-10108",
+        "ArXiv": "2006.10108",
+        "MAG": "3035898727",
+        "CorpusId": 219792902
+      },
+      "title": "Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness",
+      "year": 2020
+    },
+    {
+      "paperId": "302face5b5a0944cab13665a2d4e07ef3aaf5240",
+      "externalIds": {
+        "MAG": "3019779721",
+        "DBLP": "conf/emnlp/MinMHZ20",
+        "ACL": "2020.emnlp-main.466",
+        "ArXiv": "2004.10645",
+        "DOI": "10.18653/v1/2020.emnlp-main.466",
+        "CorpusId": 216056269
+      },
+      "title": "AmbigQA: Answering Ambiguous Open-domain Questions",
+      "year": 2020
+    },
+    {
+      "paperId": "52f47e781852a77abedada48cfa971b24c919dde",
+      "externalIds": {
+        "ACL": "2020.emnlp-main.21",
+        "DBLP": "journals/corr/abs-2003-07892",
+        "ArXiv": "2003.07892",
+        "MAG": "3104939451",
+        "DOI": "10.18653/v1/2020.emnlp-main.21",
+        "CorpusId": 212747810
+      },
+      "title": "Calibration of Pre-trained Transformers",
+      "year": 2020
+    },
+    {
+      "paperId": "83a820fe19944a7621238b8cfcc0b8a0cbc0f4b6",
+      "externalIds": {
+        "ArXiv": "2003.05002",
+        "MAG": "3045462440",
+        "DBLP": "journals/tacl/ClarkPNCGCK20",
+        "DOI": "10.1162/tacl_a_00317",
+        "CorpusId": 212657414
+      },
+      "title": "TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages",
+      "year": 2020
+    },
+    {
+      "paperId": "b145ea2049648535d6081407ebd315b072248183",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2002-06715",
+        "MAG": "2994797252",
+        "ArXiv": "2002.06715",
+        "CorpusId": 211132990
+      },
+      "title": "BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning",
+      "year": 2020
+    },
+    {
+      "paperId": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+      "externalIds": {
+        "MAG": "3001279689",
+        "ArXiv": "2001.08361",
+        "DBLP": "journals/corr/abs-2001-08361",
+        "CorpusId": 210861095
+      },
+      "title": "Scaling Laws for Neural Language Models",
+      "year": 2020
+    },
+    {
+      "paperId": "0c3c4c88c7b07596221ac640c7b7102686e3eae3",
+      "externalIds": {
+        "MAG": "2972522091",
+        "DBLP": "conf/emnlp/JinDLCL19",
+        "ArXiv": "1909.06146",
+        "ACL": "D19-1259",
+        "DOI": "10.18653/v1/D19-1259",
+        "CorpusId": 202572622
+      },
+      "title": "PubMedQA: A Dataset for Biomedical Research Question Answering",
+      "year": 2019
+    },
+    {
+      "paperId": "b91c4edd30b63cd1cb1b86cbeefb33a461535e09",
+      "externalIds": {
+        "DBLP": "conf/emnlp/DinanHCW19",
+        "MAG": "2969117066",
+        "ArXiv": "1908.06083",
+        "ACL": "D19-1461",
+        "DOI": "10.18653/v1/D19-1461",
+        "CorpusId": 201070022
+      },
+      "title": "Build it Break it Fix it for Dialogue Safety: Robustness from Adversarial Human Attack",
+      "year": 2019
+    },
+    {
+      "paperId": "17dbd7b72029181327732e4d11b52a08ed4630d0",
+      "externalIds": {
+        "ACL": "Q19-1026",
+        "MAG": "2912924812",
+        "DBLP": "journals/tacl/KwiatkowskiPRCP19",
+        "DOI": "10.1162/tacl_a_00276",
+        "CorpusId": 86611921
+      },
+      "title": "Natural Questions: A Benchmark for Question Answering Research",
+      "year": 2019
+    },
+    {
+      "paperId": "4a75598125bd0be3600d840aec04de40bf03c33b",
+      "externalIds": {
+        "ArXiv": "1907.06554",
+        "MAG": "3105690102",
+        "DBLP": "conf/sigir/AliannejadiZCC19",
+        "DOI": "10.1145/3331184.3331265",
+        "CorpusId": 196623463
+      },
+      "title": "Asking Clarifying Questions in Open-Domain Information-Seeking Conversations",
+      "year": 2019
+    },
+    {
+      "paperId": "990a7b4eceedb6e053e6386269481bdfc42a1094",
+      "externalIds": {
+        "MAG": "2888296173",
+        "DBLP": "journals/tacl/ReddyCM19",
+        "ACL": "Q19-1016",
+        "ArXiv": "1808.07042",
+        "DOI": "10.1162/tacl_a_00266",
+        "CorpusId": 52055325
+      },
+      "title": "CoQA: A Conversational Question Answering Challenge",
+      "year": 2018
+    },
+    {
+      "paperId": "39e734da43eb8c72e9549b42e96760545036f8e5",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-1808-07036",
+        "ACL": "D18-1241",
+        "MAG": "2951831170",
+        "ArXiv": "1808.07036",
+        "DOI": "10.18653/v1/D18-1241",
+        "CorpusId": 52057510
+      },
+      "title": "QuAC: Question Answering in Context",
+      "year": 2018
+    },
+    {
+      "paperId": "4d1c856275744c0284312a3a50efb6ca9dc4cd4c",
+      "externalIds": {
+        "MAG": "2963323070",
+        "ACL": "P18-2124",
+        "ArXiv": "1806.03822",
+        "DBLP": "journals/corr/abs-1806-03822",
+        "DOI": "10.18653/v1/P18-2124",
+        "CorpusId": 47018994
+      },
+      "title": "Know What You Don\u2019t Know: Unanswerable Questions for SQuAD",
+      "year": 2018
+    },
+    {
+      "paperId": "a1c922be467d1c0c64b963e65dae41778b81b2a0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-1712-00409",
+        "ArXiv": "1712.00409",
+        "MAG": "2775461895",
+        "CorpusId": 2222076
+      },
+      "title": "Deep Learning Scaling is Predictable, Empirically",
+      "year": 2017
+    },
+    {
+      "paperId": "dce6f9d4017b1785979e7520fd0834ef8cf02f4b",
+      "externalIds": {
+        "MAG": "2736601468",
+        "ArXiv": "1707.06347",
+        "DBLP": "journals/corr/SchulmanWDRK17",
+        "CorpusId": 28695052
+      },
+      "title": "Proximal Policy Optimization Algorithms",
+      "year": 2017
+    },
+    {
+      "paperId": "d65ce2b8300541414bfe51d03906fca72e93523c",
+      "externalIds": {
+        "MAG": "2950953798",
+        "ArXiv": "1706.04599",
+        "DBLP": "journals/corr/GuoPSW17",
+        "CorpusId": 28671436
+      },
+      "title": "On Calibration of Modern Neural Networks",
+      "year": 2017
+    },
+    {
+      "paperId": "3445f2d635ef18a60e409d070921737876e96f6b",
+      "externalIds": {
+        "MAG": "2755542128",
+        "CorpusId": 64704926
+      },
+      "title": "Conference on Empirical Methods in Natural Language Processing EMNLP 2016",
+      "year": 2016
+    },
+    {
+      "paperId": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+      "externalIds": {
+        "MAG": "2183341477",
+        "DBLP": "conf/cvpr/SzegedyVISW16",
+        "ArXiv": "1512.00567",
+        "DOI": "10.1109/CVPR.2016.308",
+        "CorpusId": 206593880
+      },
+      "title": "Rethinking the Inception Architecture for Computer Vision",
+      "year": 2015
+    },
+    {
+      "paperId": "f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6",
+      "externalIds": {
+        "MAG": "2964059111",
+        "DBLP": "conf/icml/GalG16",
+        "ArXiv": "1506.02142",
+        "CorpusId": 160705
+      },
+      "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+      "year": 2015
+    },
+    {
+      "paperId": "07a9ed7c8139d822a93025f8013ddb21085828aa",
+      "externalIds": {
+        "DBLP": "conf/afips/Strauss72",
+        "MAG": "1993013168",
+        "DOI": "10.1145/1480083.1480162",
+        "CorpusId": 12146223
+      },
+      "title": "A benchmark study",
+      "year": 1972
+    },
+    {
+      "paperId": "f9f23c63e2822687096b86edf4ae9435cb579b8c",
+      "externalIds": {
+        "DBLP": "conf/eacl/WangLHNB24",
+        "ACL": "2024.findings-eacl.61",
+        "DOI": "10.18653/v1/2024.findings-eacl.61",
+        "CorpusId": 268417319
+      },
+      "title": "Do-Not-Answer: Evaluating Safeguards in LLMs",
+      "year": 2024
+    },
+    {
+      "paperId": "36e2ad6c962418ee4e4a5c65111225ced2d9f89b",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-18018",
+        "DOI": "10.48550/arXiv.2401.18018",
+        "CorpusId": 269976272
+      },
+      "title": "Prompt-Driven LLM Safeguarding via Directed Representation Optimization",
+      "year": 2024
+    },
+    {
+      "paperId": "fe98e149899dd31643404664096c10dfdad70006",
+      "externalIds": {
+        "DBLP": "conf/acl/0001TCY0JL24",
+        "DOI": "10.18653/v1/2024.findings-acl.349",
+        "CorpusId": 271931322
+      },
+      "title": "All Languages Matter: On the Multilingual Safety of LLMs",
+      "year": 2024
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "MediQ: Question-asking LLMs for adaptive and reliable medical reasoning",
+      "year": 2024
+    },
+    {
+      "paperId": "b195b707dc54fab51ae22a0cd7511e151b6533f4",
+      "externalIds": {
+        "DBLP": "conf/eacl/YoshikawaO23",
+        "ACL": "2023.findings-eacl.150",
+        "DOI": "10.18653/v1/2023.findings-eacl.150",
+        "CorpusId": 258378336
+      },
+      "title": "Selective-LAMA: Selective Prediction for Confidence-Aware Evaluation of Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Introducing claude",
+      "year": 2023
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality",
+      "year": 2023
+    },
+    {
+      "paperId": "122ed3c2e45badc1292422d7e9a5f3a43c402128",
+      "externalIds": {
+        "DBLP": "conf/acl/XinTYL20",
+        "ACL": "2021.acl-long.84",
+        "DOI": "10.18653/v1/2021.acl-long.84",
+        "CorpusId": 235719735
+      },
+      "title": "The Art of Abstention: Selective Prediction and Error Regularization for Natural Language Processing",
+      "year": 2021
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": ". Electra: Pre-training text encoders as discriminators rather than generators",
+      "year": 2020
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2022. Learning confidence for transformer-based neural machine translation",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Bhavya",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "and Transparency",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2023. Universal and transferable",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "of the Association for Computational Lin-guistics:",
+      "year": null
+    }
+  ]
+}

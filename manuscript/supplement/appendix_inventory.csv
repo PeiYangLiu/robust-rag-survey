@@ -1,0 +1,71 @@
+path,kind,label,origin,caption_first_sentence
+figures/survey_outline.tex,figure,fig:survey_outline,hand-written,\textbf{Outline of this survey.} A top-down tree of the survey structure.
+tables/evidence_methods.tex,table,tab:evidence-methods,hand-written,Representative evidence-centric work on noisy retrieval and distraction.
+tables/conflict_methods.tex,table,tab:conflict-methods,hand-written,Representative model-centric work on knowledge conflict and contextual faithfulness.
+tables/adversarial_methods.tex,table,tab:adversarial-methods,hand-written,Representative adversarial corruption attacks and defenses.
+tables/attacker_capability_matrix.tex,table,tab:attacker-capability,hand-written,Attacker-capability matrix for adversarial RAG.
+tables/threat_model_examples.tex,table,tab:threat-model-examples,hand-written,Concrete examples of threat-model normalisation.
+tables/control_eval_methods.tex,table,tab:control-eval-methods,hand-written,Representative work on system-centric control and evaluation.
+tables/action_control_lineage.tex,table,tab:action-control-lineage,hand-written,Action-control lineage.
+figures/benchmark_landscape.tex,figure,fig:benchmark-landscape,hand-written,Conceptual benchmark landscape.
+tables/benchmark_comparison.tex,table,tab:benchmark-comparison,hand-written,Benchmark-level comparison for robust RAG evaluation.
+tables/benchmark_blueprint.tex,table,tab:benchmark-blueprint,hand-written,A proposed benchmark blueprint for robust RAG under unreliable evidence.
+tables/action_trace_pilot.tex,table,tab:action-trace-pilot,hand-written,Illustrative action-trace pilot for the benchmark blueprint.
+tables/action_trace_pilot_results.tex,table,tab:action-trace-pilot-results,hand-written,Action-trace pilot over 12 synthetic diagnostic items.
+tables/evaluation_assumption_matrix.tex,table,tab:evaluation-assumption-matrix,hand-written,Evaluation-assumption matrix for robust RAG.
+tables/peer_reviewed_backbone.tex,table,tab:peer-reviewed-backbone,hand-written,Peer-reviewed / venue-linked backbone of the analysis.
+tables/main_normalization_findings.tex,table,tab:main-normalization-findings,hand-written,Concrete conclusions that change after five-coordinate normalisation.
+figures/failure_intervention_matrix.tex,figure,fig:failure-intervention-matrix,hand-written,Schematic literature-family $\times$ intervention matrix.
+tables/analytical_matrix.tex,table,tab:analytical-matrix,hand-written,Analytical matrix of representative robust RAG work.
+tables/method_level_comparison.tex,table,tab:method-level-comparison,hand-written,Method-level comparison of representative robust-RAG work.
+tables/deep_case_study_matrix.tex,table,tab:deep-case-study-matrix,hand-written,Deeper case-study synthesis.
+tables/nontrivial_findings.tex,table,tab:nontrivial-findings,hand-written,Distilled classes of non-trivial findings produced by the comparability framework.
+tables/claim_verification_ledger.tex,table,tab:claim-verification-ledger,hand-written,Narrative claim-to-source ledger.
+tables/critical_case_studies.tex,table,tab:critical-case-studies,hand-written,Critical case studies showing how the comparability framework changes interpretation of representative robust-RAG papers.
+tables/corpus_statistics.tex,table,tab:corpus-stats,hand-written,Descriptive corpus statistics for the canonical 342-row adjudicated Map B.
+figures/robust_rag_taxonomy.tex,figure,fig:hierarchical-taxonomy,hand-written,The four failure surfaces and the reduction they support.
+tables/taxonomy_rules.tex,table,tab:taxonomy-rules,hand-written,Boundary rules for applying the revised diagnostic schema.
+figures/operational_pipeline_image.tex,figure,fig:operational-pipeline-image,hand-written,Operational decision flow for robust RAG.
+tables/operational_pipeline.tex,table,tab:operational-pipeline,hand-written,An operational pipeline for robust RAG.
+tables/main_cross_paper_cases.tex,table,tab:cross-paper-cases,hand-written,Worked cross-paper comparisons.
+tables/ledger_recoding.tex,table,tab:ledger-recoding,hand-written,The ledger holds up on the distinction it is used for and not on the three-way label.
+figures/screening_frame_flow.tex,figure,fig:screening-frame-flow,hand-written,Sampling frame for the census.
+tables/frame_coverage.tex,table,tab:frame-coverage,generated,"Coverage of the six prior surveys' reference lists against our frame, the reviewer's requested recall-against-a-known-list check."
+tables/privileged_reference.tex,table,tab:privileged-reference,generated,"The deployed panel scored on \emph{real} frame windows against a privileged-information reference, whose adjudicators read both papers' full texts rather than a 45-line window and whose every counted vote carries a quote located mechanically in the document that adjudicator was shown."
+tables/privileged_reference_bounds.tex,table,tab:privileged-reference-bounds,generated,Reviewer Q6: bounds and characterisation for the excluded privileged-reference windows.
+tables/census_diagnostics.tex,table,tab:census-diagnostics,generated,"Two diagnostics the submitted version did not run, both over data it had already released."
+tables/kappa_ceiling.tex,table,tab:kappa-ceiling,generated,How much room $\kappa$ had.
+tables/disclosure_counterfactual.tex,table,tab:disclosure-counterfactual,generated,The disclosure counterfactual on published text.
+tables/tier_control.tex,table,tab:tier-control,hand-written,"Upgrading the judges helps and does not rescue the verdict, on a population that is identical for every row."
+tables/frontier_pairs.tex,table,tab:frontier-pairs,hand-written,"Every frontier-frontier judge pair, on the common item population, ordered by verdict $\kappa$."
+tables/codebook_ablation.tex,table,tab:codebook-ablation,hand-written,The verdict does not become reliable when the instrument is simplified.
+tables/provenance_validation.tex,table,tab:provenance-validation,hand-written,"The provenance label scored against a reference, not against agreement."
+tables/provenance_gate_sensitivity.tex,table,tab:provenance-gate-sensitivity,generated,Reviewer Q7: the re-implementation share is stable under the eligibility gate.
+tables/nonllm_instrument.tex,table,tab:nonllm-instrument,generated,A non-LLM instrument on the same task.
+tables/reference_independence.tex,table,tab:reference-independence,generated,Developer-independence of the evidence-privileged reference.
+tables/screen_recall.tex,table,tab:screen-recall,hand-written,What the screen misses.
+figures/worked_example.tex,figure,fig:worked-example,hand-written,One juxtaposition traced end to end.
+tables/instrument_disclosure_v2.tex,table,tab:instrument-disclosure-v2,hand-written,"Disclosure crossed with prose realism, each cell scored against \emph{its own} constant baseline (\emph{Base})."
+tables/instrument_baselines_v2.tex,table,tab:instrument-baselines-v2,hand-written,"Every estimator arm, on the 357 non-degenerate items, scored against the constant baseline of that population (0.336; the three verdict classes are equinumerous inside every disclosure arm, so this baseline is not an artefact of pooling)."
+tables/main_retrospective_remedies.tex,table,tab:retrospective-remedies,hand-written,"Rejection percentages over 5,000 replicates with twelve reviewers, six per prompt, six claims per source $G$, and balanced three-of-six panels."
+tables/open_weight_pool.tex,table,tab:open-weight-pool,generated,Widening the reviewer pool.
+tables/sigma_r_anchors.tex,table,tab:sigma-r-anchors,hand-written,Between-reviewer heterogeneity estimated with one moment estimator on every crossed reviewer-by-item design we could obtain.
+figures/remedy_calibration.tex,figure,fig:remedy-calibration,hand-written,"Null rejection rate against the number of sources $G$ at the estimated reviewer heterogeneity $\sigma_r=0.27$, with reviewer abilities redrawn each replicate."
+tables/reviewer_heterogeneity_anchor.tex,table,tab:reviewer-heterogeneity-anchor,hand-written,"Reviewer heterogeneity is estimable only from a crossed reviewer-by-item design, and three coders do not estimate it."
+tables/main_assignment_mismatch_simulation.tex,table,tab:assignment-mismatch-simulation,hand-written,"Oracle design benchmark, retained for reference."
+tables/human_anchor.tex,table,tab:human-anchor,hand-written,"Reliability on the same \HumN{} published comparative claims, under the same frozen codebook."
+tables/population_bridge.tex,table,tab:population-bridge,hand-written,Why the human anchor is not transferred to the census.
+tables/main_controlled_model_judges_v2.tex,table,tab:controlled-model-judges-v2,hand-written,"Controlled consequence test, \emph{full} minus \emph{placebo} in accuracy points, aggregated by developer."
+tables/controlled_model_judges_strata_v2.tex,table,tab:controlled-model-judges-strata-v2,hand-written,"Per-model, per-stratum results for the version-2 controlled experiment."
+figures/generated/fig_instrument_input.tex,figure,fig:instrument,hand-written,The taxonomy as an instrument.
+figures/generated/fig_interventions_input.tex,figure,fig:interventions,hand-written,"Why adjudication is not recoverable, established by intervention rather than by inference."
+figures/two_layer_audit.tex,figure,fig:two-layer,hand-written,The two layers answer different questions about the same sentence.
+tables/main_prior_work_comparison.tex,table,tab:main-prior-work-comparison,hand-written,Positioning relative to adjacent surveys and empirical comparison work.
+tables/main_framework_overview.tex,table,tab:main-framework-overview,hand-written,The diagnostic schema.
+tables/framework_decision_procedure.tex,table,tab:framework-decision-procedure,hand-written,The decision procedure of \S\ref{sec:estimands} in full.
+tables/framework_counterexamples.tex,table,tab:framework-counterexamples,hand-written,Counterexamples delimiting the schema.
+tables/robust_rag_reporting_checklist.tex,table,tab:robust-rag-reporting-checklist,hand-written,"Reporting checklist for robust RAG under unreliable evidence, in the order of \S\ref{sec:practice}."
+tables/main_evidence_layers.tex,table,tab:main-evidence-layers,hand-written,The released evidence layers answer different questions.
+figures/corpus_flow.tex,figure,fig:corpus-flow,hand-written,Corpus lineage.
+tables/review_protocol.tex,table,tab:review-protocol,hand-written,Screening-flow summary.
+tables/source_strata_reconciliation.tex,table,tab:source-strata-reconciliation,hand-written,Reconciliation of reported corpus counts.

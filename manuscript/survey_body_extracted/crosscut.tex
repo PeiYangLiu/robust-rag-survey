@@ -1,0 +1,51 @@
+
+\label{sec:crosscutting}
+
+\input{figures/failure_intervention_matrix}
+\input{tables/analytical_matrix}
+\input{tables/method_level_comparison}
+\input{tables/deep_case_study_matrix}
+\input{tables/nontrivial_findings}
+\input{tables/claim_verification_ledger}
+
+\subsection{Peer-Reviewed Backbone and Preprint Trends}
+
+The main synthesis is anchored in the venue-linked backbone summarised in Table~\ref{tab:peer-reviewed-backbone}. Under that stricter evidence stratum, five conclusions remain stable: retrieved evidence can harm generation; conflict and poisoning require different assumptions; security results require attacker-capability normalisation; calibration and abstention are separate control decisions; and answer accuracy alone is insufficient for robust-RAG evaluation. The broader 268-paper adjudicated map is still useful, but mainly for trend discovery and auditability. Its preprint-heavy cross-tabs are moved to Appendix~\ref{sec:map-statistics}; they diagnose where the map is dense or sparse, but they are not used as field-wide prevalence estimates.
+
+\paragraph{Critical judgments from the re-analysis.}
+The framework weakens three common readings of the literature. First, many ``robust to retrieval noise'' claims are over-broad: once distractor hardness, gold-evidence availability, and intervention point are aligned, several methods address complementary mechanisms rather than competing on one robustness axis. Second, many RAG security defenses are narrower than their abstracts suggest: a defense against bounded factual corruption is not evidence of robustness to prompt-bearing documents, trigger-based backdoors, or post-hoc traceback settings. Third, answer-only benchmark gains are often under-specified: without citation support, evidence sufficiency, and action-cost labels, a higher score can mean better answering, riskier coverage, or simply more computation. These are the places where the framework changes interpretation rather than merely renaming categories.
+
+\subsection{Where Robustness Interventions Act}
+
+Across the literature, robustness interventions cluster by where they act in the RAG pipeline. \textbf{Corpus-level interventions} sanitise, filter, watermark, or validate documents before indexing. They are attractive because they prevent bad evidence from entering the system, but they require corpus governance and may not be possible for open-web retrieval. \textbf{Retriever-level interventions} improve ranking, detect poisoned passages, or diversify evidence. They are efficient and model-agnostic, but they only control what enters the context, not how the generator uses it. \textbf{Context-level interventions} compress, reorder, or filter the retrieved context. They are flexible, but can remove qualifiers or multi-hop evidence. \textbf{Generator-level interventions} use prompting, fine-tuning, note-taking, self-reflection, or hidden-state control. They directly address evidence use but may be model-specific. \textbf{System-level interventions} decide when to retrieve, verify, abstain, or ask. They are closest to deployment needs but require calibrated signals from all earlier stages.
+
+This intervention map helps explain why papers sometimes appear to solve the same problem while actually operating at different layers. For example, irrelevant-context filtering \citep{irrelevantContext2023}, Chain-of-Note \citep{chainOfNote2023}, and Sufficient Context \citep{sufficientContext2024} all address unreliable evidence, but the first filters evidence, the second changes generator reasoning, and the third changes answer policy. Similarly, PoisonedRAG-style attacks \citep{poisonedRAG2024} target the corpus-to-generation path, while AIP attacks prompt templates \citep{aip2025}. A comprehensive survey must therefore compare methods by intervention point, not only by reported task accuracy.
+
+\subsection{Critical Case Studies of Taxonomy Use}
+\input{tables/critical_case_studies}
+
+\paragraph{Case 1: irrelevant evidence is not one problem.}
+IrrelCtx, RAAT, RGB, Chain-of-Note, and Sufficient Context are sometimes all described as robustness-to-noise work, but they instantiate different experimental objects. IrrelCtx tests whether a generator can ignore irrelevant context; RAAT treats noise as a training distribution; RGB decomposes reliability into benchmark abilities; Chain-of-Note changes the generator's intermediate reading behavior; Sufficient Context changes the answer policy when evidence is inadequate. A direct leaderboard comparison would mix retrieval perturbation, generator selectivity, and answerability control. The taxonomy changes the question from ``which method is best under noise?'' to ``which evidence state is present, which module intervenes, and what action should be scored?''
+
+\paragraph{Case 2: poisoning papers differ by attacker capability.}
+Poisoning Retrieval Corpora, PoisonedRAG, BadRAG, TrojanRAG, Phantom, AIP, and newer one-shot or traceback studies are all adversarial, but they assume different access and objectives. Some manipulate dense retrieval, some steer final answers, some rely on triggers, some attack shared prompt templates, and some evaluate whether poisoned evidence can be traced after the fact. Attack success rate is therefore not a portable metric unless corpus write access, query control, retriever visibility, generator access, insertion budget, and stealth requirements are aligned. This is why Table~\ref{tab:attacker-capability} treats capability fields as part of the result, not just implementation detail.
+
+\paragraph{Case 3: calibration is not the same as abstention.}
+UncertaintyRAG, CalibRAG, URAG, Self-RAG, CtrlA, Sufficient Context, and SABER-style trust/abstain methods all relate to uncertainty, but they optimise different objects. Some estimate uncertainty in spans or answer sets; some calibrate decision confidence; some decide when to retrieve; some decide when to abstain; some predict whether the retrieved context is sufficient. Expected calibration error, selective risk, retrieval-trigger accuracy, and abstention precision cannot be collapsed into one number. The taxonomy forces a distinction between belief estimation and action selection, explaining why a method can improve calibration without repairing evidence or improve retrieval triggering without improving final answer faithfulness.
+
+\paragraph{Case 4: poisoning defenses do not share one threat model.}
+Certified defenses, isolate-and-aggregate defenses, poisoned-document detectors, activation-based traceback, and prompt-injection defenses respond to different adversarial assumptions. A certificate can be meaningful under a bounded corruption budget but irrelevant when the attacker controls prompt-like instructions; a traceback method may be useful after an incident but may not prevent answer steering; a prompt-injection defense may not address embedding-space poisoning. The framework therefore asks defense papers to report the same capability fields as attack papers and to distinguish prevention, detection, demotion, traceback, and recovery.
+
+\subsection{Strengths and Weaknesses by Method Family}
+
+Filtering and reranking are attractive robustness methods because they can be added around existing LLMs. Their weakness is false negatives: an aggressive filter may discard the only passage that supports a rare or multi-hop answer. Robust training can teach models to ignore noise, but training data may not cover future attacks or domain-specific distractors. Conflict modeling provides a principled way to handle contradictions, but fact extraction and alignment remain brittle for long, compositional, or numerical claims. Certified defenses provide valuable guarantees, but their assumptions are often narrower than realistic attack surfaces. Adaptive retrieval and abstention improve risk control, but their performance depends on calibration signals that can themselves be miscalibrated under distribution shift.
+
+The synthesis suggests that method families should be composed according to risk profile rather than stacked indiscriminately. A low-risk FAQ system may only justify lightweight filtering and citation checks, while a high-stakes document-grounded setting may require source validation, contradiction detection, selective abstention, and escalation. These are design implications, not claims that the evidence map validates any particular enterprise, medical, or legal deployment.
+
+\subsection{What Counts as Progress?}
+
+The corpus currently reports progress through heterogeneous metrics: EM/F1, hallucination rate, retrieval recall, attack success rate, calibration error, abstention accuracy, and human preference. These metrics are not directly comparable. A defense that reduces attack success may reduce answer utility; a calibration method may improve selective risk while lowering coverage; a retriever that improves recall may increase distraction. Robust RAG progress should therefore be reported as a Pareto frontier across utility, robustness, calibration, cost, and security. This mirrors the broader lesson from trustworthy ML: robustness is not a scalar property but a tradeoff surface.
+
+\subsection{What Is Still Missing from the Literature}
+
+Several gaps recur across categories. First, benchmarks rarely combine failures. Noise, conflict, poisoning, and unanswerability are usually tested separately, even though realistic systems may encounter them jointly. Second, many papers evaluate with one retriever and one generator, making transfer difficult to assess. Third, few works evaluate long-term corpus dynamics: documents are updated, poisoned documents are removed, indices are rebuilt, and user feedback changes future retrieval. Fourth, most papers treat users as passive recipients rather than interactive participants who can clarify intent or verify sources. Fifth, multilingual and multimodal robust RAG remains underdeveloped relative to text-only English QA; because our corpus is also text-heavy, this is a boundary of the present survey rather than a resolved conclusion about those areas.

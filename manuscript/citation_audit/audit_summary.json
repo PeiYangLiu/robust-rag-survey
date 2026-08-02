@@ -7,7 +7,7 @@
   "action_counts": {
     "keep": 30
   },
-  "report_csv": "/home/v-peiyangliu/robust-rag-survey/manuscript/citation_audit/citation_audit_report.csv",
+  "report_csv": "manuscript/citation_audit/citation_audit_report.csv",
   "status": "preliminary_automated_screen_only",
   "caveat": "This was a fast automated full-text screen using extracted PDF text and Opus 4.7, not a rigorous manual per-claim paper reading. Treat all results as preliminary until evidence quotes and page/section-level verification are completed.",
   "next_required_step": "Perform strict per-citation evidence audit: identify exact manuscript claim, locate supporting section/page in the cited paper, record quote/paraphrase, and revise unsupported or overbroad claims."

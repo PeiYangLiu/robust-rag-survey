@@ -1,0 +1,17 @@
+scope,pairs,metric,control,control_ci_low,control_ci_high,protocol,protocol_ci_low,protocol_ci_high,protocol_minus_control,difference_ci_low,difference_ci_high,bootstrap
+reported_60_pairs,60,recall_invalid,0.457516,0.330245,0.583333,0.604575,0.471696,0.732641,0.147059,0.02381,0.269705,10000 crossed pair-by-annotator resamples; seed=20260713
+reported_60_pairs,60,recall_partial,0.833333,0.4,1.0,0.733333,0.3,1.0,-0.1,-0.666667,0.444444,10000 crossed pair-by-annotator resamples; seed=20260714
+reported_60_pairs,60,recall_underspecified,0.625,0.266667,1.0,0.875,0.5,1.0,0.25,-0.125,0.666667,10000 crossed pair-by-annotator resamples; seed=20260715
+reported_60_pairs,60,macro_recall_observed_classes,0.638617,0.441559,0.788189,0.737636,0.535577,0.872389,0.09902,-0.144236,0.338405,10000 crossed pair-by-annotator resamples; seed=20260716
+reported_60_pairs,60,raw_accuracy,0.5,0.383333,0.616667,0.633333,0.516667,0.744444,0.133333,0.016667,0.25,10000 crossed pair-by-annotator resamples; seed=20260717
+reported_60_pairs,60,cohen_kappa,0.191375,0.073653,0.323449,0.303001,0.139318,0.470433,0.111626,-0.002353,0.237756,10000 crossed pair-by-annotator resamples; seed=20260718
+canonical_map_and_documented_omissions_excluded_38_pairs,38,recall_invalid,0.383838,0.231474,0.540404,0.616162,0.452381,0.770833,0.232323,0.107527,0.37037,10000 crossed pair-by-annotator resamples; seed=20260913
+canonical_map_and_documented_omissions_excluded_38_pairs,38,recall_partial,0.833333,0.444444,1.0,0.733333,0.305556,1.0,-0.1,-0.666667,0.444444,10000 crossed pair-by-annotator resamples; seed=20260914
+canonical_map_and_documented_omissions_excluded_38_pairs,38,macro_recall_observed_classes,0.608586,0.39697,0.752252,0.674747,0.44759,0.848485,0.066162,-0.218236,0.340731,10000 crossed pair-by-annotator resamples; seed=20260915
+canonical_map_and_documented_omissions_excluded_38_pairs,38,raw_accuracy,0.442982,0.298246,0.592105,0.631579,0.47807,0.776316,0.188596,0.052632,0.324561,10000 crossed pair-by-annotator resamples; seed=20260916
+canonical_map_and_documented_omissions_excluded_38_pairs,38,cohen_kappa,0.109758,0.007562,0.251361,0.235083,0.051723,0.455823,0.125324,-0.014241,0.297048,10000 crossed pair-by-annotator resamples; seed=20260917
+documented_omissions_excluded_56_pairs,56,recall_invalid,0.457516,0.330065,0.586667,0.604575,0.477124,0.72956,0.147059,0.024823,0.271605,10000 crossed pair-by-annotator resamples; seed=20260813
+documented_omissions_excluded_56_pairs,56,recall_partial,0.833333,0.428571,1.0,0.733333,0.3,1.0,-0.1,-0.666667,0.444444,10000 crossed pair-by-annotator resamples; seed=20260814
+documented_omissions_excluded_56_pairs,56,macro_recall_observed_classes,0.645425,0.430272,0.776684,0.668954,0.434232,0.830128,0.023529,-0.268868,0.306928,10000 crossed pair-by-annotator resamples; seed=20260815
+documented_omissions_excluded_56_pairs,56,raw_accuracy,0.491071,0.369048,0.613095,0.616071,0.494048,0.732143,0.125,0.002976,0.252976,10000 crossed pair-by-annotator resamples; seed=20260816
+documented_omissions_excluded_56_pairs,56,cohen_kappa,0.107632,0.017886,0.224817,0.18336,0.042796,0.347574,0.075728,-0.023399,0.198739,10000 crossed pair-by-annotator resamples; seed=20260817

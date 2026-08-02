@@ -1,0 +1,40 @@
+{
+  "surveys": [
+    {
+      "key": "ragSurvey2024",
+      "status": "ok",
+      "resolved_id": "arXiv:2312.10997",
+      "n_references": 227
+    },
+    {
+      "key": "ragEvaluationSurvey2024",
+      "status": "ok",
+      "resolved_id": "arXiv:2405.07437",
+      "n_references": 74
+    },
+    {
+      "key": "trustRAGCompass2024",
+      "status": "ok",
+      "resolved_id": "arXiv:2409.10102",
+      "n_references": 192
+    },
+    {
+      "key": "securityRAGSurvey2026",
+      "status": "ok",
+      "resolved_id": "arXiv:2604.08304",
+      "n_references": 121
+    },
+    {
+      "key": "xuKnowledgeConflicts2024",
+      "status": "ok",
+      "resolved_id": "arXiv:2403.08319",
+      "n_references": 200
+    },
+    {
+      "key": "wenAbstentionSurvey2025",
+      "status": "ok",
+      "resolved_id": "DOI:10.1162/tacl_a_00754",
+      "n_references": 179
+    }
+  ]
+}

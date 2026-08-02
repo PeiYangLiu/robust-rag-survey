@@ -1,8 +1,15 @@
-% Figure 2: hierarchical taxonomy infographic generated with GPT image 2
-% (3840x1536 PNG, wide banner replacing the earlier TikZ tree).
+% Drawn by scripts/revision3/fig_appendix_taxonomy.py; the .pptx is the
+% editable source and is released with the paper.
 \begin{figure*}[t]
 \centering
-\includegraphics[width=\textwidth,keepaspectratio]{figures/generated/fig2_taxonomy_v3_wide_4k.png}
-\caption{Research landscape map for robust RAG. The figure organizes the literature by where robustness problems and methods sit in the RAG stack: evidence-centric work controls the reliability of retrieved inputs, model-centric work controls how the generator uses evidence, system-centric work studies control decisions, and evaluation work measures robustness and action quality.}
+\includegraphics[width=\textwidth]{figures/generated/fig_taxonomy_map.pdf}%
+\caption{The four failure surfaces and the reduction they support. Each column
+is one surface of the survey (\S\ref{sec:evidence}--\S\ref{sec:system}); the
+band below is the five reporting coordinates of \S\ref{sec:coordinates}, and the
+connectors show which surface each coordinate collapses. C4 is cross-cutting
+and has no single parent surface. The organisation is a partition of the
+\emph{comparison} rather than of the literature: the columns tell a reader where
+to look for related work, and the band tells a reader what must be stated on
+both sides before two numbers can be placed together.}
 \label{fig:hierarchical-taxonomy}
 \end{figure*}

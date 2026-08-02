@@ -1,0 +1,65 @@
+{
+  "status": "user_supplied_human_annotations_with_adjudicated_consensus",
+  "annotator_ids": [
+    "A",
+    "B",
+    "C"
+  ],
+  "human_provenance": {
+    "confirmed_at": "2026-07-14",
+    "independent_coders": 3,
+    "separate_adjudicators": 1,
+    "all_four_people_distinct": true,
+    "all_participants_human": true,
+    "generative_ai_used_for_annotation_or_adjudication": false,
+    "participant_background": {
+      "coders": "All three had NLP, RAG, or experimental-methodology research backgrounds.",
+      "adjudicator": "More senior than the three coders in relevant research experience."
+    },
+    "recruitment": "Targeted invitation through the authors' professional collaborator network.",
+    "compensation": "All four participants were compensated under a pre-agreed arrangement.",
+    "work_time_hours": {
+      "coder_a": 60,
+      "coder_b": 60,
+      "coder_c": 60,
+      "adjudicator": 30,
+      "total_person_hours": 210
+    },
+    "training": "Participants read the frozen v2 codebook, completed a pilot, and aligned boundary rules without seeing model labels.",
+    "annotation_materials": "Published-Claim Comparability Audit Codebook v2 (2026-07-14), exact quotations, source links, sections, and page locations.",
+    "adjudication_protocol": "The adjudicator independently checked all 80 source claims before consulting the three coder labels and rationales and issuing final labels.",
+    "consent": {
+      "explicit": true,
+      "scope": "Paper analysis and public release of de-identified annotations."
+    },
+    "ethics_review": {
+      "formal_review_required": false,
+      "status": "Project owner reports an institutional determination of exemption or non-human-subjects status.",
+      "determination_document_released": false
+    },
+    "source": "Project-owner confirmation in the Copilot CLI session on 2026-07-14"
+  },
+  "n_claims": 80,
+  "balanced_core_n": 16,
+  "adjudicated_distribution": {
+    "partial": 29,
+    "valid": 43,
+    "under-specified": 2,
+    "invalid": 6
+  },
+  "balanced_core_human_distribution": {
+    "partial": 6,
+    "valid": 9,
+    "under-specified": 1
+  },
+  "human_vs_model_secondary": {
+    "exact_agreement": 0.5,
+    "cohen_kappa": 0.2725619458967948,
+    "gwet_ac1": 0.35865317166048705,
+    "macro_f1": 0.4365227780375045,
+    "balanced_core_exact_agreement": 0.3125,
+    "balanced_core_cohen_kappa": 0.08333333333333333,
+    "balanced_core_gwet_ac1": 0.10432569974554708
+  },
+  "model_labels_used_during_human_annotation_or_adjudication": false
+}

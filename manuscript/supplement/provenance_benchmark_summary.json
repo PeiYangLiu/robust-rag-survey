@@ -1,0 +1,20 @@
+{
+  "schema_version": "provenance-benchmark-v1",
+  "seed": 2026080421,
+  "n_items": 280,
+  "truth_counts": {
+    "transported": 80,
+    "unclear": 80,
+    "asserted_no_number": 40,
+    "reimplemented": 80
+  },
+  "explicitness_counts": {
+    "implicit": 80,
+    "explicit": 80,
+    "none": 120
+  },
+  "three_way_scorable_items": 240,
+  "three_way_constant_baseline": 0.3333333333333333,
+  "note": "The deployed census prompt offers three options, so accuracy is scored on the three-way subset whose classes are balanced by construction. The asserted_no_number stratum is reported separately: it is the category the manuscript names in Section 4 and the deployed prompt cannot express.",
+  "file_sha256": "cc99a10a4d357dd8adde6baafd2a598eb673245f72cdb6db473097aa16783188"
+}

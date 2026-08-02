@@ -1,0 +1,1424 @@
+[
+  {
+    "artifact": "repository_readme",
+    "path": "README.md",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "83decc63ae68815c14ed14d3d508b735394f4b561f76b0cd82ea528d610ddf5e",
+    "notes": "Authoritative artifact status and reproduction entry point."
+  },
+  {
+    "artifact": "manuscript",
+    "path": "manuscript/main.tex",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "bd3c4c69de7e3dc2629395f6282c1f841cafb1276fc8ed362faf0d4878402510",
+    "notes": "Current manuscript source."
+  },
+  {
+    "artifact": "manuscript_pdf",
+    "path": "manuscript/main.pdf",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "2d089262eee728b44cc2a604ecebec6b93cc0821f2af321fab302ddedb0e6b8c",
+    "notes": "Compiled canonical manuscript."
+  },
+  {
+    "artifact": "all_in_one_source",
+    "path": "manuscript/main_all_in_one.tex",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "beea2e733d53402089b16fd412621b8c45b19d751bcae3844aa0af2b4b356970",
+    "notes": "Recursively inlined source generated from manuscript/main.tex."
+  },
+  {
+    "artifact": "overleaf_package_manifest",
+    "path": "overleaf_package/MANIFEST.sha256",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "9e004c3b89c5ca515f2ce70c109eb0d140a4f068a7b826a37295930ca3fabb57",
+    "notes": "Checksums for the clean self-contained Overleaf source package."
+  },
+  {
+    "artifact": "map_b",
+    "path": "manuscript/supplement/evidence_map_venue_expanded_adjudicated.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "342",
+    "sha256": "6607ac44cab2ddad91bdeee491c9e7f7414fdb35cdcc65fb9d8ea360a9c375f9",
+    "notes": "Frozen 342-row legacy literature-family/intervention evidence map."
+  },
+  {
+    "artifact": "corpus_snapshot",
+    "path": "manuscript/supplement/corpus_snapshot.json",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "e6c2e9c3691d82aba3eb9bcddc1a5494050fb0506a740eea6bef5ef5112af65d",
+    "notes": "Search cutoff, coding freeze, hash, strata, coordinate coverage, and update policy."
+  },
+  {
+    "artifact": "release_version",
+    "path": "manuscript/supplement/RELEASE_VERSION.txt",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "402f685bbde5180c4673e0ad380e09326661a6a753532c06ab5ce73127a7091c",
+    "notes": "Canonical release identifier for the EACL 2027 two-layer estimand-audit revision."
+  },
+  {
+    "artifact": "software_license",
+    "path": "LICENSE",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "25fafedbefe463a7f62df1fe40c3559562e58ed7337338fd57246a0d306b0ddc",
+    "notes": "MIT license for repository software."
+  },
+  {
+    "artifact": "data_license",
+    "path": "DATA_LICENSE.md",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "28cbec763e59477ea14fe2511e90063d6154248aed56c7ea9da7632c70781184",
+    "notes": "CC BY 4.0 terms for original structured annotations and third-party exclusions."
+  },
+  {
+    "artifact": "observed_claim_audit",
+    "path": "manuscript/supplement/observed_comparison_claim_audit.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "291",
+    "sha256": "b66f8fa11ee371efdda47ac3a0e5cec7ae39ba43c88b78069e90cb074bbc93e1",
+    "notes": "291 frozen candidates and 289 included comparison claims with model-coded fields; not human gold."
+  },
+  {
+    "artifact": "observed_claim_audit_summary",
+    "path": "manuscript/supplement/observed_comparison_claim_audit_summary.json",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "018d7e2f03d352f49bcc6d6ff348c365fdd284134626b12c263456bacd59b725",
+    "notes": "Model-index distribution and internal transitions, plus the completed human-validation status."
+  },
+  {
+    "artifact": "observed_claim_codebook",
+    "path": "manuscript/supplement/observed_claim_audit_codebook.md",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "f1f87d6c8552ee1567b434ed445578b710eea1168131bc9b1570cbb53059a4b2",
+    "notes": "Frozen v2 executable rules evaluated by the negative reliability study."
+  },
+  {
+    "artifact": "observed_claim_codebook_v3_draft",
+    "path": "manuscript/supplement/observed_claim_audit_codebook_v3_draft.md",
+    "status": "canonical_poststudy_draft",
+    "exists": "true",
+    "rows": "",
+    "sha256": "1255872fd48283c38be82a3047450772830162bde334eb4cc36b677ab4bacab7",
+    "notes": "Post-study separation of evidence support and comparability; not evaluated on the same labels."
+  },
+  {
+    "artifact": "observed_claim_protocol",
+    "path": "manuscript/supplement/observed_claim_audit_protocol.md",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "eaec29013c75a73eea060ee11f595ac0d352ba975db5cc7aa69441f29a725f01",
+    "notes": "Source selection, extraction, adjudication, and model-only validation boundaries."
+  },
+  {
+    "artifact": "observed_claim_corrections",
+    "path": "manuscript/supplement/observed_claim_audit_corrections.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "23",
+    "sha256": "406a856b6ebcfcd0e6bd92bd670ddd77f6e1812d9b05e3d01dc2fb773d1d8bc2",
+    "notes": "Post-adjudication source-challenge correction ledger."
+  },
+  {
+    "artifact": "observed_claim_build_script",
+    "path": "manuscript/scripts/build_observed_claim_audit.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "d3fc693d7a68169db64e70fad68152fd68286baed757d63152fc00e01e018ff8",
+    "notes": "Deterministically rebuilds the combined claim audit and summary."
+  },
+  {
+    "artifact": "observed_claim_verdict_script",
+    "path": "manuscript/scripts/derive_observed_claim_verdicts.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "e0a6c1f6ea85ca028694837bcfe24a552fb732336d3ac554934b62255f32e9b3",
+    "notes": "Derives three-field, five-coordinate, and control-aware verdicts."
+  },
+  {
+    "artifact": "claim_rule_reliability_script",
+    "path": "manuscript/scripts/analyze_claim_rule_reliability.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "2b87a01e7cbdd2fb16875141c9760d960f8cfd8eaee562aff207ccbf4e56abab",
+    "notes": "Evaluates rule baselines, sampling, field agreement, archetypes, and error triggers."
+  },
+  {
+    "artifact": "claim_rule_reliability",
+    "path": "manuscript/supplement/claim_rule_reliability.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "5",
+    "sha256": "c218c744d5b4023c876e3b843f4425a6f1642e8196c65c906c5179bf8462d4a6",
+    "notes": "Accuracy, kappa, macro-F1, and per-class metrics for all rule baselines."
+  },
+  {
+    "artifact": "claim_rule_reliability_archetypes",
+    "path": "manuscript/supplement/claim_rule_reliability_by_archetype.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "24",
+    "sha256": "9deb0de1acb0baa1a43bd4d0682df8b882c55fad698cb0f64a0ead851a5fe315",
+    "notes": "Descriptive rule agreement separated by human-adjudicated claim archetype."
+  },
+  {
+    "artifact": "human_validation_sampling_audit",
+    "path": "manuscript/supplement/human_validation_sampling_audit.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "4",
+    "sha256": "c9860d56c47d2d64286bc556a62d64c49ba9a955304043d558e0ec8538bb4962",
+    "notes": "Model-stratum population counts, sample coverage, and population-inference boundary."
+  },
+  {
+    "artifact": "human_validation_field_agreement",
+    "path": "manuscript/supplement/human_validation_field_agreement_summary.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "8",
+    "sha256": "5bb3ea0118e542966e9a67dbdb7821e905d2ded18e1d2dd028ef0c665f535c74",
+    "notes": "Pairwise reliability ranges for each core coordinate and control status."
+  },
+  {
+    "artifact": "claim_error_type_audit",
+    "path": "manuscript/supplement/claim_error_type_audit.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "16",
+    "sha256": "7a3bebfca276c98ff3960e2cbe3b176eb4d4ed030b180a310dac8d5e96fa2284",
+    "notes": "Separates ordinary support triggers from comparability-coordinate transitions."
+  },
+  {
+    "artifact": "claim_reliability_summary",
+    "path": "manuscript/supplement/claim_reliability_summary.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "054e877525274d3b5bb737a42da0af3bbd0a552b191971d7934a100e814cb334",
+    "notes": "Machine-readable primary negative reliability result and paired rule tests."
+  },
+  {
+    "artifact": "claim_source_sensitivity_script",
+    "path": "manuscript/scripts/analyze_claim_source_sensitivity.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "bfa9ed2a70338e312b4dd8d2ec46b33a476cdf1fadd9400fb1d8c8d58c80146f",
+    "notes": "Builds source-cluster intervals, leave-one-source-out diagnostics, reference-label sensitivity, and field decomposition."
+  },
+  {
+    "artifact": "claim_rule_predictions",
+    "path": "manuscript/supplement/claim_rule_predictions.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "80",
+    "sha256": "a51545283712c2b8315eb6316824c8083e309673ecb75fec800afb9258c77137",
+    "notes": "Per-claim rule outputs, source clusters, coder references, and paired correctness indicators."
+  },
+  {
+    "artifact": "claim_rule_cluster_intervals",
+    "path": "manuscript/supplement/claim_rule_cluster_intervals.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "15",
+    "sha256": "068530c9bae30be64b9589caae1bc89fdc2a95beb4bcc1249badf350924911b1",
+    "notes": "Source-cluster bootstrap intervals for each rule and the full-minus-ablated contrasts."
+  },
+  {
+    "artifact": "claim_source_sensitivity",
+    "path": "manuscript/supplement/claim_source_sensitivity.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "9",
+    "sha256": "9f6e02a017106fa4f8775630ba29aead4420027658cd106d1f31dbb39cd20d22",
+    "notes": "Source contributions and leave-one-source-out paired differences."
+  },
+  {
+    "artifact": "claim_reference_sensitivity",
+    "path": "manuscript/supplement/claim_reference_sensitivity.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "6",
+    "sha256": "bcfa927655ebe708506e47368ed816ae0c2133a33cbbb6bdddb2478ba67d56b9",
+    "notes": "Full-versus-ablated results under coder, majority, unanimous, and adjudicated reference labels."
+  },
+  {
+    "artifact": "model_human_field_alignment",
+    "path": "manuscript/supplement/model_human_field_alignment.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7",
+    "sha256": "0586e37b5394c8d4f2b0c95830cc9241d76ea39ca5cc5d7b4fdab19afcf004d8",
+    "notes": "Agreement between model-coded and adjudicated human fields."
+  },
+  {
+    "artifact": "claim_archetype_cluster_intervals",
+    "path": "manuscript/supplement/claim_archetype_cluster_intervals.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "6",
+    "sha256": "8022743427cd741633f495262bb20025657f6c65c19bc6717b58354d8fc9915f",
+    "notes": "Exploratory archetype estimates with source-cluster intervals."
+  },
+  {
+    "artifact": "claim_source_sensitivity_summary",
+    "path": "manuscript/supplement/claim_source_sensitivity_summary.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "eb5da95e52505ac6bcfb180fe61bab0e475948fff6c0f7c86766fb847f0d18a1",
+    "notes": "Machine-readable source-cluster, LOSO, reference, and field sensitivity summary."
+  },
+  {
+    "artifact": "assignment_mismatch_simulation_script",
+    "path": "manuscript/scripts/simulate_assignment_unit_mismatch.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "74d3334efc1a0c6494f684ad21964576cbb1512f51ad86ecf55692190e18afc5",
+    "notes": "Primary parameterized null simulation comparing source-only and reviewer-randomization references for the same panel-majority statistic."
+  },
+  {
+    "artifact": "assignment_mismatch_simulation_results",
+    "path": "manuscript/supplement/assignment_mismatch_simulation.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "18efc035aba56afd9af547961971724388e2abba1c0af44d220d2d7e02735aa0",
+    "notes": "Five-thousand-replicate results for all assignment-unit mismatch scenarios."
+  },
+  {
+    "artifact": "cross_paper_comparability_cases",
+    "path": "manuscript/supplement/cross_paper_comparability_cases.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "15",
+    "sha256": "d167ba9d4b386128af95fcc2137b01861680a635c765d66cf028a4e47f481854",
+    "notes": "Source-linked cross-paper comparability cases with verbatim values, line ranges, and coordinate-matched readings."
+  },
+  {
+    "artifact": "cross_paper_comparability_cases_json",
+    "path": "manuscript/supplement/cross_paper_comparability_cases.json",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "53de23db432da7d29613479762059a71a8375b7458b8a0b505064bf31279aef5",
+    "notes": "Machine-readable comparability cases with summary counts."
+  },
+  {
+    "artifact": "cross_paper_comparability_cases_summary",
+    "path": "manuscript/supplement/cross_paper_comparability_cases_summary.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "ccd90763e0edd610880ca8301e4060aac1e1a080b097d4ca4ae1817e8a67312d",
+    "notes": "Compact per-case table rendered into the main comparability table."
+  },
+  {
+    "artifact": "cross_paper_comparability_verifier",
+    "path": "manuscript/scripts/verify_cross_paper_cases.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "237366478e109fd4ab451c07ab71e3fd240942d5ad34a088a7392c84f2382356",
+    "notes": "Re-opens every cited file and line range and fails on any quoted value that does not occur there."
+  },
+  {
+    "artifact": "reviewer_heterogeneity_estimator",
+    "path": "manuscript/scripts/estimate_reviewer_heterogeneity.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "1a95956a983ad33207e8f72fe9a2cedd685821e1db7812a687aeeba15695d7bb",
+    "notes": "Estimates the between-reviewer logit standard deviation from the crossed three-coder diagnostic and tests what published agreement rates identify."
+  },
+  {
+    "artifact": "reviewer_heterogeneity_anchor",
+    "path": "manuscript/supplement/reviewer_heterogeneity_anchor.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "af23d000f957678276c962236b700a41d9354c3b00c5213081425bbd85c18229",
+    "notes": "Reviewer-heterogeneity point estimate, bootstrap interval, and partial-identification region."
+  },
+  {
+    "artifact": "retrospective_remedy_simulation_script",
+    "path": "manuscript/scripts/simulate_retrospective_remedies.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "c7d3eaa46c59e18999fa324fb080577aca493933dd83368b916310b4ed33eb1c",
+    "notes": "Compares the status-quo source-level analysis with two retrospectively executable reviewer-level analyses under size and power."
+  },
+  {
+    "artifact": "retrospective_remedy_simulation_results",
+    "path": "manuscript/supplement/retrospective_remedy_simulation.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "27274f9b2401383c872b802708e49b5a4dcae73dfd460279ec7c8f863bfe8fbf",
+    "notes": "Full grid of size and power for four analyses at the estimated reviewer heterogeneity."
+  },
+  {
+    "artifact": "claim_rule_baselines",
+    "path": "manuscript/supplement/claim_rule_baselines.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "8842bfb936781c348fea18c48e07c5cf89e1cd934f1823fe1483209213796e04",
+    "notes": "Trivial baselines, source-clustered intervals, paired contrasts, and error taxonomy for the development diagnostic."
+  },
+  {
+    "artifact": "claim_rule_baselines_script",
+    "path": "manuscript/scripts/analyze_claim_rule_baselines.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "1ed7b02483d92c6ab18214bd9ea060ac08470a18a7e0137c8a1ea84a11bbf731",
+    "notes": "Computes the development-diagnostic baselines and contrasts."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_v2",
+    "path": "manuscript/supplement/controlled_claim_audit_benchmark_v2.jsonl",
+    "status": "canonical_target_specification",
+    "exists": "true",
+    "rows": "600",
+    "sha256": "1886acad2e84844ce5e0a8a00d83980920181d7d40cb722453dc00b8a2f3888a",
+    "notes": "600 synthetic consequence-defined decisions in 300 counterfactual pairs across a competence probe and the C2 and C5 strata; no human labels."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_v2_summary",
+    "path": "manuscript/supplement/controlled_claim_audit_benchmark_v2_summary.json",
+    "status": "canonical_target_specification",
+    "exists": "true",
+    "rows": "",
+    "sha256": "4f5f1ac910fe27a700a347de7cc0d596e31633b62dc604e6ba17141640e879fc",
+    "notes": "Version-2 benchmark counts, per-stratum target balance, and SHA-256."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_v2_builder",
+    "path": "manuscript/scripts/build_controlled_claim_audit_benchmark_v2.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "e7ece63f903c3b2379c28075a49905f95712a713e2ac702b083d0704c29259fe",
+    "notes": "Deterministically rebuilds and byte-checks the version-2 controlled target."
+  },
+  {
+    "artifact": "controlled_model_judge_runner_v2",
+    "path": "manuscript/scripts/run_controlled_model_judges_v2.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "24c3bc234543988fd5738369ec6e4bbd0587b80894e861b8d343ea1a7fa990d2",
+    "notes": "Runs one open model over three arms crossed with four paraphrases on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_analysis_v2",
+    "path": "manuscript/scripts/analyze_controlled_model_judges_v2.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "8d3e0247121914791c37b91237151bf277d9543e8b86ff051943e392aa81a0f7",
+    "notes": "Pair-clustered bootstrap, Holm correction, validity gate, and random-effects combination for the version-2 experiment."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_v2_protocol",
+    "path": "manuscript/supplement/controlled_claim_audit_benchmark_v2_protocol.md",
+    "status": "canonical_target_specification",
+    "exists": "true",
+    "rows": "",
+    "sha256": "3fb2c39a23e3eea43c8aab3c59361ab52316d0c82114f637a305b69f48545e8c",
+    "notes": "Version-2 design, pre-declared validity gate, arm definitions, and interpretation boundary."
+  },
+  {
+    "artifact": "controlled_model_judge_results_v2",
+    "path": "manuscript/supplement/controlled_model_judge_results_v2.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "3b102bae6b8101ad0138373418faa07bd6b7e45916d551b8a4e9b2b99fbacde2",
+    "notes": "Pair-clustered contrasts, validity-gate status, Holm values, and random-effects combination for the version-2 experiment."
+  },
+  {
+    "artifact": "controlled_model_judge_results_v2_csv",
+    "path": "manuscript/supplement/controlled_model_judge_results_v2.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "36",
+    "sha256": "e94cf62a8053846fa94cfae197f5505116abd49f9dbf5c64f6347c487fb6f338",
+    "notes": "Flat per-model, per-stratum table backing the version-2 experiment."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_qwen25_7b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/qwen25-7b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "c1eb311f6021cf39b17d9450297fb9c32b9f5e571803daf928d372358c49e758",
+    "notes": "Raw 7,200-record greedy output for Qwen2.5-7B-Instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_qwen25_14b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/qwen25-14b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "fa4b24337b97e3c87b246501f2987018bee78e13ba342db74baa21e02e5d9005",
+    "notes": "Raw 7,200-record greedy output for Qwen2.5-14B-Instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_qwen3_8b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/qwen3-8b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "26cc8cbc1a66fad86e31a8e50317eefaab14b31852bef963421ecb4be34f4cc6",
+    "notes": "Raw 7,200-record greedy output for Qwen3-8B on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_qwen3_14b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/qwen3-14b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "f2059d0e87f64e781f8904b7fd394053be4d59474cda8afb2c7b5ef2189c74fe",
+    "notes": "Raw 7,200-record greedy output for Qwen3-14B on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_phi4_mini",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/phi-4-mini.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "e189d5ec4b9c234bf36b9abbc287192f5cc3baeae7465c043b6b89f4b8fedf17",
+    "notes": "Raw 7,200-record greedy output for Phi-4-mini-instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_olmo2_7b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/olmo2-7b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "7e3abb5926285d073771a3851921d9213a2baf2cac340efb32743193819d2a88",
+    "notes": "Raw 7,200-record greedy output for OLMo-2-1124-7B-Instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_olmo2_13b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/olmo2-13b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "d6c98556fbbabd5a7e2b32d4c8b9cdf80fbed5c742523e21a3f080b6209683a5",
+    "notes": "Raw 7,200-record greedy output for OLMo-2-1124-13B-Instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_granite31_8b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/granite-31-8b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "cbfa384d965c9b357e27972354fd96ee3500c4db31273b99ee871e5256d64aab",
+    "notes": "Raw 7,200-record greedy output for Granite-3.1-8B-Instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "controlled_model_judge_v2_falcon3_7b",
+    "path": "manuscript/supplement/controlled_model_judge_raw_v2/falcon3-7b.jsonl",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "da2d17c3549d442b76a7645662be78fd353fcbb40e6f81af8e74810301bdbe52",
+    "notes": "Raw 7,200-record greedy output for Falcon3-7B-Instruct on the version-2 benchmark."
+  },
+  {
+    "artifact": "cross_paper_comparability_codebook",
+    "path": "manuscript/supplement/cross_paper_comparability_cases_codebook.md",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "030be257457ed4faf6655998b2777a251ea728a3d71ffb222c060381c9e2823e",
+    "notes": "Field definitions, inclusion rule, verdict vocabulary, and evidentiary standard for the comparability cases."
+  },
+  {
+    "artifact": "cross_paper_comparability_report",
+    "path": "manuscript/supplement/cross_paper_comparability_cases_report.md",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "0c3a386f15bdbf501acbdccd0ef0c5eb3dc20aabb15069ee644e348c5da469a2",
+    "notes": "Narrative write-up of the comparability cases with the three strongest worked in full."
+  },
+  {
+    "artifact": "revision_table_builder",
+    "path": "manuscript/scripts/build_revision_tables.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "3589c482799130b874da2cd46322b39f4abae867970447e7b2444f7bb63dd289",
+    "notes": "Regenerates every table and figure added in the revision from released artifacts."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark",
+    "path": "manuscript/supplement/controlled_claim_audit_benchmark.jsonl",
+    "status": "canonical_target_specification",
+    "exists": "true",
+    "rows": "480",
+    "sha256": "7e5f6887321a45d9ccde44c1dfb7dc716ef522208b119767a827b32d7e492d17",
+    "notes": "480 synthetic consequence-defined decisions in 240 counterfactual pairs; no human labels."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_summary",
+    "path": "manuscript/supplement/controlled_claim_audit_benchmark_summary.json",
+    "status": "canonical_target_specification",
+    "exists": "true",
+    "rows": "",
+    "sha256": "fcf7b22afce5b70365de116a09e9ebe0732fd493990cd36403e8b304738c8071",
+    "notes": "Benchmark counts, balance checks, target definition, and SHA-256."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_protocol",
+    "path": "manuscript/supplement/controlled_claim_audit_benchmark_protocol.md",
+    "status": "canonical_target_specification",
+    "exists": "true",
+    "rows": "",
+    "sha256": "10519154fc029808a88e2ec55eb2ca5bce4d58ff65c199ffba4c7ed076ffac5e",
+    "notes": "Prospective design and interpretation boundary for the controlled target."
+  },
+  {
+    "artifact": "controlled_claim_audit_benchmark_builder",
+    "path": "manuscript/scripts/build_controlled_claim_audit_benchmark.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "20f58e5d1a70ce246fbf9301668573cb745bb1b8b71cb7ea07a041cdc3ae2b22",
+    "notes": "Deterministically rebuilds and byte-checks the controlled target."
+  },
+  {
+    "artifact": "controlled_model_judge_runner",
+    "path": "manuscript/scripts/run_controlled_model_judges.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "cfef4a86d3c5147d5a13595a676db45bb565213cd7d684abacd17ff9e1a873ab",
+    "notes": "Crossed-prompt runner used for the three reported fixed open models."
+  },
+  {
+    "artifact": "controlled_model_judge_analyzer",
+    "path": "manuscript/scripts/analyze_controlled_model_judges.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "0f257d27fa8e9c7667e5ba96d1366540ce2c25f24c928d4f41a208b604d4e5a9",
+    "notes": "Rebuilds fixed-model exact agreement, regret, pair consistency, and C2/C5 tables."
+  },
+  {
+    "artifact": "controlled_model_judge_results",
+    "path": "manuscript/supplement/controlled_model_judge_results.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "7b15ca9192691239f99d848da65d4ed964a572cb80c9f6db50bff87e5eb7fd86",
+    "notes": "Machine-readable results for the three fixed open models and two crossed prompts."
+  },
+  {
+    "artifact": "controlled_model_judge_results_csv",
+    "path": "manuscript/supplement/controlled_model_judge_results.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "9",
+    "sha256": "8e58bd16f58f4fab9f34a67e581461a3f35777d1e6b24f5b6ba74a243a58fdfb",
+    "notes": "Tabular fixed-model results by all items, C2 capability, and C5 utility."
+  },
+  {
+    "artifact": "controlled_model_judge_qwen",
+    "path": "manuscript/supplement/controlled_model_judge_raw/qwen2.5-7b.jsonl",
+    "status": "canonical_model_output",
+    "exists": "true",
+    "rows": "960",
+    "sha256": "27a469b9cb8c90ab601b6de2837366394f72a3f43042981a56373cac41a1e4d0",
+    "notes": "Raw and parsed deterministic Qwen2.5-7B outputs for all 960 item-condition records."
+  },
+  {
+    "artifact": "controlled_model_judge_phi",
+    "path": "manuscript/supplement/controlled_model_judge_raw/phi-4-mini.jsonl",
+    "status": "canonical_model_output",
+    "exists": "true",
+    "rows": "960",
+    "sha256": "a02bdf529069f7cbcf036f3d4335bf1819b77e88320724f32ef890c6371b6b70",
+    "notes": "Raw and parsed deterministic Phi-4-mini outputs for all 960 item-condition records."
+  },
+  {
+    "artifact": "controlled_model_judge_olmo",
+    "path": "manuscript/supplement/controlled_model_judge_raw/olmo-2-7b.jsonl",
+    "status": "canonical_model_output",
+    "exists": "true",
+    "rows": "960",
+    "sha256": "863607de55ff46e0be4d5e7c252d956d3ebca4ea92994f1ba0fc00e52decef53",
+    "notes": "Raw and parsed deterministic OLMo-2-7B outputs for all 960 item-condition records."
+  },
+  {
+    "artifact": "published_human_evaluation_audit",
+    "path": "manuscript/supplement/published_human_evaluation_audit.json",
+    "status": "canonical_source_linked_audit",
+    "exists": "true",
+    "rows": "",
+    "sha256": "074b3fc7f8c006e03505a30af4d9f9dbabaf5a417debb1beff55da5069b897b7",
+    "notes": "Nine published robust-RAG human-judgment cases with full-text line locators and conservative reporting codes."
+  },
+  {
+    "artifact": "published_human_evaluation_audit_summary",
+    "path": "manuscript/supplement/published_human_evaluation_audit_summary.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "e4537c364320e50039dcce04f0cb0ffaa57f314b67fd7a6d52c62bb74f94a140",
+    "notes": "Fixed-screen counts and reporting-field totals for the published audit."
+  },
+  {
+    "artifact": "published_human_evaluation_screen_manifest",
+    "path": "manuscript/supplement/published_human_evaluation_screen_manifest.csv",
+    "status": "canonical_frozen_manifest",
+    "exists": "true",
+    "rows": "39",
+    "sha256": "e69c687c8ee600208bb96d39accdea40328c61842ee375dc77cea371e8525e8b",
+    "notes": "Exact 39-paper screen identities, full-text hashes, term-screen flags, inclusion flags, and included-case locator hashes."
+  },
+  {
+    "artifact": "published_human_evaluation_audit_analyzer",
+    "path": "manuscript/scripts/analyze_published_human_evaluation_audit.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "7f08944d8086656bd71d36b4fc8e838ffdaf87e811e62df5e0859fa6b26fb1df",
+    "notes": "Validates the fixed screen, source locators, coding vocabulary, counts, and LaTeX tables."
+  },
+  {
+    "artifact": "v3_preregistered_diagnostic_summary",
+    "path": "manuscript/supplement/v3_preregistered_diagnostic_summary.json",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "",
+    "sha256": "f551146cccd7003b5d7804731ebab4830af8764ea3db611e0ae5a00e4409abfe",
+    "notes": "Historical derived outcome summary; excluded because no controlled internal participant-response provenance is available."
+  },
+  {
+    "artifact": "excluded_collection_invalidation_receipt",
+    "path": "files/v3_invalidated_shared_answer_run_20260719/invalidation_report.json",
+    "status": "canonical_exclusion_evidence",
+    "exists": "true",
+    "rows": "",
+    "sha256": "0c5fa48743c70c511d37476b52f598f235f9a049ee74b24e0c0e5871dc8d0b39",
+    "notes": "Privacy-safe receipt documenting identical full response payloads across nominal participant IDs and anchoring the original return-manifest hash; contains no outcome estimate used by the paper."
+  },
+  {
+    "artifact": "v3_public_release_summary",
+    "path": "manuscript/supplement/v3_human_reanalysis_20260725/release_summary.json",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "",
+    "sha256": "f551146cccd7003b5d7804731ebab4830af8764ea3db611e0ae5a00e4409abfe",
+    "notes": "Historical deidentified export metadata; not evidence."
+  },
+  {
+    "artifact": "v3_public_analysis_results",
+    "path": "manuscript/supplement/v3_human_reanalysis_20260725/analysis_results.json",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "",
+    "sha256": "94bd8a911bd4815884dc259a209159f8afa003cdbf103c333ac72429a95ebb90",
+    "notes": "Historical derived analyses; no result enters the manuscript."
+  },
+  {
+    "artifact": "v3_public_arm_ratings",
+    "path": "manuscript/supplement/v3_human_reanalysis_20260725/public_arm_ratings.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "5760",
+    "sha256": "416a8c5f033d9b49d912d9d368aac3b0e4b15f2196991820d06e3979ccf33251",
+    "notes": "Deidentified rows without a controlled internal participant-response audit trail; excluded."
+  },
+  {
+    "artifact": "v3_public_gold_ratings",
+    "path": "manuscript/supplement/v3_human_reanalysis_20260725/public_gold_ratings.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "1440",
+    "sha256": "01fe37cc8fc1b724ea0c6b0ecb5cd657afdd0d3ffa13640dbffbf79d8e2d9f47",
+    "notes": "Deidentified rows without a controlled internal participant-response audit trail; excluded."
+  },
+  {
+    "artifact": "v3_public_adjudications",
+    "path": "manuscript/supplement/v3_human_reanalysis_20260725/public_adjudications.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "410",
+    "sha256": "28ba4f89a2083e577c41972bbe7444512f427cacbf6c87b3db4acf01e8a3137a",
+    "notes": "Deidentified rows without a controlled internal participant-response audit trail; excluded."
+  },
+  {
+    "artifact": "v3_public_release_manifest",
+    "path": "manuscript/supplement/v3_human_reanalysis_20260725/public_release_manifest.json",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "",
+    "sha256": "cce49ef1b5d1e878799eddcc898d7d15eaeb1e4f56b5f0b437eb5bbe04cb053d",
+    "notes": "Byte manifest for the excluded export; hashes do not establish behavioral independence."
+  },
+  {
+    "artifact": "v3_public_reanalysis_script",
+    "path": "manuscript/scripts/reanalyze_public_v3.py",
+    "status": "historical_excluded_analysis",
+    "exists": "true",
+    "rows": "",
+    "sha256": "ad6e40e35f869e5913d7c61696249d4ca7fb08ff23862d0d01835e1f61929e51",
+    "notes": "Recomputes the excluded deidentified export; not a manuscript analysis."
+  },
+  {
+    "artifact": "v3_review_diagnostics_script",
+    "path": "manuscript/scripts/analyze_v3_review_diagnostics.py",
+    "status": "historical_excluded_analysis",
+    "exists": "true",
+    "rows": "",
+    "sha256": "6e892a324483d6033c2ba82b0777f76d7f41dd9e04d8727f078164d37cff1e2b",
+    "notes": "Historical diagnostics for the excluded export; not a manuscript analysis."
+  },
+  {
+    "artifact": "v3_review_diagnostics_summary",
+    "path": "manuscript/supplement/v3_review_diagnostics.json",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "",
+    "sha256": "3a50cbd4b57c95b4089983585aebbf28c7c8114a28237b11eb0225b1c783c7c5",
+    "notes": "Historical diagnostics; no estimate enters the manuscript."
+  },
+  {
+    "artifact": "v3_reference_reliability",
+    "path": "manuscript/supplement/v3_reference_reliability.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "11",
+    "sha256": "69008d9cbf17f470a26438d5899dfb4fbfe2191f6c87535dfae32653e461fad0",
+    "notes": "Historical derived table from the excluded export."
+  },
+  {
+    "artifact": "v3_reference_sensitivity",
+    "path": "manuscript/supplement/v3_reference_sensitivity.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "9",
+    "sha256": "20f7104b5ff8873b926c7b797afe328cc77a392ebfcf9a24e31e0ec5b8f99c13",
+    "notes": "Historical derived table from the excluded export."
+  },
+  {
+    "artifact": "v3_per_class_performance",
+    "path": "manuscript/supplement/v3_per_class_performance.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "36",
+    "sha256": "681f7606e7cbf04381731a54456054d887c6c124b6bf3e14bbdcce5bfdce9c99",
+    "notes": "Historical derived table from the excluded export."
+  },
+  {
+    "artifact": "v3_sampling_mismatch",
+    "path": "manuscript/supplement/v3_sampling_mismatch.csv",
+    "status": "excluded_unverifiable_human_collection",
+    "exists": "true",
+    "rows": "3",
+    "sha256": "32728878841bbe8284975fa493402aac7c56c4f1c7839dd39fd214205388371c",
+    "notes": "Historical derived table from the excluded export."
+  },
+  {
+    "artifact": "v3_quality_gate_results",
+    "path": "manuscript/supplement/v3_quality_gate_results.csv",
+    "status": "historical_posthoc_excluded",
+    "exists": "true",
+    "rows": "9",
+    "sha256": "c57c2c54474199ada04c2bd73a7f9107d4ebee8a384687e6a5abe83dec243743",
+    "notes": "Historical same-family post hoc screen; excluded from paper inference."
+  },
+  {
+    "artifact": "v3_quality_gate_critical_errors",
+    "path": "manuscript/supplement/v3_quality_gate_critical_errors.csv",
+    "status": "historical_posthoc_excluded",
+    "exists": "true",
+    "rows": "3",
+    "sha256": "becc9dd8d5959e4014ea700c0c3bab121eecba3e81f927d0ccfdf38fba312e72",
+    "notes": "Historical same-family post hoc critical-error counts; excluded from paper inference."
+  },
+  {
+    "artifact": "heldout_v3_readme",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/README_REVIEWER_PACKAGE.md",
+    "status": "design_audit_only",
+    "exists": "true",
+    "rows": "",
+    "sha256": "41fde6d10c2048ad4e28af4f8648307a0e0bf6e4b0ebf94330fa09049f45479e",
+    "notes": "Privacy-minimized entry point stating exactly what portable reviewer validation does and does not establish."
+  },
+  {
+    "artifact": "heldout_v3_protocol",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/preregistered_protocol.md",
+    "status": "design_audit_only",
+    "exists": "true",
+    "rows": "",
+    "sha256": "687fe56cbc10d9abecd662ade21a9654b28cd72869f8fcad784f42148bcc1fad",
+    "notes": "Locally frozen 480-claim, 80-source, four-arm protocol used as a design case, not a completed human result."
+  },
+  {
+    "artifact": "heldout_v3_codebook",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/codebook_v3_frozen.md",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "5ba24daa5a811436bad29755992a447015229864f8ac62e01be3dcab28f54fc3",
+    "notes": "Frozen v3 codebook separating evidence support from comparability."
+  },
+  {
+    "artifact": "heldout_v3_power",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/power_analysis.json",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "83aa19bcb468560cf9ca8cc6a359381a0080d1697b7cf5b83c2080c30346f4a9",
+    "notes": "Prospective clustered power approximation and conditional-equivalence limits."
+  },
+  {
+    "artifact": "heldout_v3_source_frame",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/source_sampling_frame.csv",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "342",
+    "sha256": "c4d1cb1a6c8b58554c2313d112460f8ae0e5076e18e031bf355e9bc7d4669801",
+    "notes": "Complete 342-source frame with key/title exclusions and deterministic source ranks."
+  },
+  {
+    "artifact": "heldout_v3_candidate_pool",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/candidate_claims_deterministic.csv",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "1582",
+    "sha256": "e195e699e4e8ac84db9a25111163ca742144e186fc31e6f3e6526f4694549a3f",
+    "notes": "Model-free 1,582-candidate nomination pool after four ledgered source replacements."
+  },
+  {
+    "artifact": "heldout_v3_candidate_summary",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/candidate_pool_summary.json",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "0ea4e16ca4cdd5b400839a29df3ce9d81c012b5d9d297c7fe453322c028da82b",
+    "notes": "Hashes, counts, and composition of the deterministic held-out candidate pool."
+  },
+  {
+    "artifact": "heldout_v3_sampling_candidates",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/candidate_claims_model_prescreen.csv",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "1582",
+    "sha256": "d54535c1fd8c838f5edb3433257430fd2004fa2299226c4fde26f75de745de37",
+    "notes": "Model-free initialized sampling rows; all model fields are blank and no test outcome is present."
+  },
+  {
+    "artifact": "heldout_v3_sampling_screen_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/build_sampling_screen_packets.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "00f08178cedacb744662dc79b45c3877e0beb79ddd3c707268a02c3832cc7398",
+    "notes": "Builds and merges two independent sampling screens plus a disagreement-only tie-break packet."
+  },
+  {
+    "artifact": "heldout_v3_sampling_screen_summary",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/sampling_screen_summary.json",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "7e01e4e696f0aa5504e57d93debe3e3a15cf5962e2d79a62f98fa26ef8b74353",
+    "notes": "Hash-linked administrative screening workflow state; not a test outcome."
+  },
+  {
+    "artifact": "heldout_v3_sampling_screener_provenance",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/sampling_screener_provenance.json",
+    "status": "canonical_human_sampling_provenance",
+    "exists": "true",
+    "rows": "",
+    "sha256": "49a0ac3bf54ff8f887e077955c6c6ce29140cb60c3478a979d9188ed2606135f",
+    "notes": "Coordinator attestation for three independent, source-checked, AI-free human sampling screeners."
+  },
+  {
+    "artifact": "heldout_v3_source_replacement_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/apply_source_replacements.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "f895f00aad151cfcb6f7065cdb3828618cc7b071b47a202bfb971b2c9470f8e1",
+    "notes": "Applies ledger-driven append-only source replacements without changing retained candidate IDs or human screens."
+  },
+  {
+    "artifact": "heldout_v3_source_replacement_summary",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/source_replacement_summary.json",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "c287b6c6022c21c5948f1641424b1a58dd9467481457a7f111416043ce228dd8",
+    "notes": "Hash-linked two-batch append-only audit for four source replacements."
+  },
+  {
+    "artifact": "heldout_v3_sampling_freeze_summary",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/sampling_freeze_summary.json",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "815e8af476cc696f825dbb47f5ae5e6f45b908beff2525153f8c0e49c79436a1",
+    "notes": "Successful 480-claim, 80-source, 240-C2/240-C5 sample freeze audit."
+  },
+  {
+    "artifact": "heldout_v3_development_sources",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/DEVELOPMENT_SOURCES.csv",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "111",
+    "sha256": "847a951c0ac1a54d243632ba00b379d1691aed9867d68a8a56debfa3b580fef5",
+    "notes": "Key and normalized-title registry for every identifiable v1/v2 development source."
+  },
+  {
+    "artifact": "heldout_v3_prepare_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/prepare_candidate_pool.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "5d102084d9f1262f08d77f073d1a447a09cc7e0e81359c7d9ad4b8dbc27d826a",
+    "notes": "Rebuilds the source frame and deterministic claim nominations."
+  },
+  {
+    "artifact": "heldout_v3_freeze_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/freeze_human_sample.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "a9d937e02997e320480d06c2a376663624e1e81e6f41d23983cdba97dd48dcd2",
+    "notes": "Freezes the 480 claims using only independent human sampling fields and hash ordering."
+  },
+  {
+    "artifact": "heldout_v3_assignment_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/build_assignments.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "7eed9c4f5ae7bf4e83ab7b16cdfc59046b2261f3d3df4bad4c7b48d7d8909b12",
+    "notes": "Builds balanced four-arm assignments with three independent ratings per claim and arm."
+  },
+  {
+    "artifact": "heldout_v3_packet_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/build_review_packets.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "82a04c9d0b69f948b853b5792094556ae19b1d8cb669d63da425de3fd54bb12a",
+    "notes": "Builds blinded per-participant auditor, gold, and post-disagreement adjudication packets."
+  },
+  {
+    "artifact": "heldout_v3_analysis_script",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/analyze_collected_results.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "a4538707ab1e076e8b050699118061e4fc2c2aefbcba3baf1d828135df1d9338",
+    "notes": "Frozen standard-library CR1, cluster-bootstrap, conditional-TOST, and Holm analysis."
+  },
+  {
+    "artifact": "heldout_v3_validator",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/validate_package.py",
+    "status": "canonical_preregistered_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "140c0c770ea05e4d85103f189da52fe5254aabaf4e8987105fc1f1b4d425bdb0",
+    "notes": "Validates prepared, frozen, and collected package states without creating labels."
+  },
+  {
+    "artifact": "heldout_v3_frozen_claims",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/frozen_test_claims.csv",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "480",
+    "sha256": "36b2d0d2c29836e04be8be192f8542cb1acd736a5c5d4148498c7358574677ce",
+    "notes": "Frozen 480-claim paper-disjoint sample with six claims per source and no test labels."
+  },
+  {
+    "artifact": "heldout_v3_assignments",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/auditor_assignments.csv",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "5760",
+    "sha256": "ae50cb9a729f319ca713478e0dcc6d8e0ea50bbb9b516a15f6c80ffc39e9427c",
+    "notes": "5,760 balanced anonymous assignments: three ratings per claim and arm."
+  },
+  {
+    "artifact": "heldout_v3_public_roster",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/participant_metadata_public_template.csv",
+    "status": "excluded_unverifiable_roster",
+    "exists": "true",
+    "rows": "29",
+    "sha256": "fc825c6bd5bd788c9bdbd03a8e1846f490bc6e0721ab3997fe33596d3563536c",
+    "notes": "Historical anonymous slots tied to an unverifiable/persona roster; no participant attribute is accepted."
+  },
+  {
+    "artifact": "heldout_v3_calibration_items",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/calibration_items.csv",
+    "status": "canonical_calibration_no_test_labels",
+    "exists": "true",
+    "rows": "10",
+    "sha256": "e41bcebf8261f6a000cc2f00bae1ef4bddfca0dbd5b54eebccfca224eeeb882a",
+    "notes": "Ten self-contained instructor-constructed calibration dossiers."
+  },
+  {
+    "artifact": "heldout_v3_calibration_key",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/calibration_answer_key.csv",
+    "status": "canonical_calibration_no_test_labels",
+    "exists": "true",
+    "rows": "10",
+    "sha256": "c4e503b7024485eacdac43dce32aadbc1acd4b4ff341470c330c5d9aa863cac7",
+    "notes": "Transparent instructor answer key; not human test gold and never included in participant packets."
+  },
+  {
+    "artifact": "heldout_v3_calibration_materials",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/calibration_materials.md",
+    "status": "canonical_calibration_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "ce7827437680caad48c07e625b48861efc024dc45c20ea2054701ca2e147ecff",
+    "notes": "Human-readable calibration dossiers and methodological boundaries."
+  },
+  {
+    "artifact": "heldout_v3_calibration_builder",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/build_calibration_packets.py",
+    "status": "canonical_calibration_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "86ef5ef19ec2b5571b733316fedffb01ab73d698f791fc33b9c2839c73e3eb42",
+    "notes": "Builds role- and arm-isolated ten-item calibration packets without answer-key leakage."
+  },
+  {
+    "artifact": "heldout_v3_calibration_scorer",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/score_calibration.py",
+    "status": "canonical_calibration_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "1299110076a1ad437ae5ba589af42857223ffc6ca97a1074b7b9534062db58bd",
+    "notes": "Scores two dimensions independently at the frozen 8/10 threshold and manages one retraining round."
+  },
+  {
+    "artifact": "heldout_v3_calibration_summary",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/calibration_summary.json",
+    "status": "excluded_unverifiable_roster",
+    "exists": "true",
+    "rows": "",
+    "sha256": "c74e75176b7add24dcc4b47f74d7f6ccc9808469bc3e6e4b4fda8b8519fbcc89",
+    "notes": "Historical calibration state tied to the excluded roster; not human evidence."
+  },
+  {
+    "artifact": "heldout_v3_calibration_responses",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/calibration_responses.csv",
+    "status": "excluded_unverifiable_roster",
+    "exists": "true",
+    "rows": "290",
+    "sha256": "c1af5216e7e4f067843bbd0e07b434dd07bf35bacb786dd6a506ee7b6f1e8155",
+    "notes": "Historical calibration rows tied to the excluded roster; not human evidence."
+  },
+  {
+    "artifact": "heldout_v3_text_corrections",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/frozen_text_corrections.csv",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "12",
+    "sha256": "e3a3c4c2c478d5cc351e509d04fa971476033dab66021de3a0f97da905a819e5",
+    "notes": "Reversible pre-test text-normalization ledger with authoritative source evidence."
+  },
+  {
+    "artifact": "heldout_v3_stage1_builder",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/build_staged_review_packets.py",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "65d65563af53dd2d67470486a349e9e2c66382186db108a5c22100be05f5f79a",
+    "notes": "Builds extraction-only Stage 1 packets and the coordinator trust registry."
+  },
+  {
+    "artifact": "heldout_v3_stage2_issuer",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/issue_composition_packets.py",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "641be9595fec9474c4ca459d85be2b39fafacca8375068c490e69976efb7ba98",
+    "notes": "Coordinator-only verifier and issuer for composition Stage 2 after extraction lock."
+  },
+  {
+    "artifact": "heldout_v3_response_collector",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/collect_final_responses.py",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "5eab234b277ac3bb1bcceed63edfa48a750dddcc7606ad6315ca55e0f8ae9b3e",
+    "notes": "Coordinator-only final-response validator and immutable receipt generator."
+  },
+  {
+    "artifact": "heldout_v3_coordinator_registry",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/coordinator_packet_registry.json",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "50dfa5a7b348686f593ba9d0e73b0990bb67a51b42624aed79d15422f821b7ec",
+    "notes": "Private-trust root for 27 extraction-only packets; contains no PII or labels."
+  },
+  {
+    "artifact": "heldout_v3_composition_registry",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/composition_packet_issuance_registry.json",
+    "status": "excluded_unverifiable_roster",
+    "exists": "true",
+    "rows": "",
+    "sha256": "8077dc53c903b220a4277c7e19e5920ce10565711f79b902db3a57b64581c9f1",
+    "notes": "Historical issuance registry tied to the excluded roster; retained only for provenance."
+  },
+  {
+    "artifact": "heldout_v3_composition_issuance_rows",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/composition_issuance_rows.csv",
+    "status": "excluded_unverifiable_roster",
+    "exists": "true",
+    "rows": "7200",
+    "sha256": "e4ea13bcdf0287b454be8f0386766262893774a98dc8f54ca41a4ef72af4a99e",
+    "notes": "Historical issuance rows tied to the excluded roster; retained only for provenance."
+  },
+  {
+    "artifact": "heldout_v3_collection_receipt",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/coordinator_collection_receipt.json",
+    "status": "canonical_issued_no_composition_responses",
+    "exists": "true",
+    "rows": "",
+    "sha256": "037b6d437d8e3c30c703d23bc5f2cb34a8f74a37a8e9a7095af0fbf107c14b89",
+    "notes": "Zero-response sentinel: no Stage 2 composition response has been collected."
+  },
+  {
+    "artifact": "heldout_v3_staged_schema",
+    "path": "manuscript/human_coding/heldout_claim_validation_v3_20260715/staged_review_schema.json",
+    "status": "canonical_frozen_no_test_labels",
+    "exists": "true",
+    "rows": "",
+    "sha256": "b471d5e1d83bbc225c14620660697ef5348c5a7941168b49b4145ca33bd1a840",
+    "notes": "Frozen schemas for staged issuance, corrections, receipts, and adjudication registry."
+  },
+  {
+    "artifact": "search_source_ledger",
+    "path": "manuscript/supplement/search_source_ledger.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "9",
+    "sha256": "a71f6405b30b34d67bdeeeb9f9e193088c175e3569152458e9af9e528ef76cd9",
+    "notes": "Source-specific query reproducibility and unrecoverable initial-search gaps."
+  },
+  {
+    "artifact": "recoverable_search_rerun",
+    "path": "manuscript/scripts/rerun_recoverable_search.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "dc8603c506f93a29448985075b19fb949dcf12ee5f8d4a618d834e031a47d757",
+    "notes": "Reruns the recoverable arXiv, DBLP, OpenAlex, and ACL venue-pass query logic without changing the frozen corpus."
+  },
+  {
+    "artifact": "screening_provenance",
+    "path": "manuscript/supplement/screening_provenance.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "8",
+    "sha256": "7b66b978dd112b2eead35623e1a81b52a292eb539a1d714cc81be3f54ca16195",
+    "notes": "Actor, duplication, and adjudication status for every review stage."
+  },
+  {
+    "artifact": "prisma_scr_crosswalk",
+    "path": "manuscript/supplement/prisma_scr_checklist.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "22",
+    "sha256": "7a78daf4fcf57161e16887511b0db88380417bb328b6bba842202189265eab4b",
+    "notes": "Item-level PRISMA-ScR status and remaining gaps."
+  },
+  {
+    "artifact": "bibliography_integrity_report",
+    "path": "manuscript/supplement/bibliography_integrity_report.csv",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "84",
+    "sha256": "e483ea0a415a234c36df8d0161706e97cfefac6713bc9fe2225758012b32fa31",
+    "notes": "Structural and official-source verification for every bibliography entry used by the manuscript."
+  },
+  {
+    "artifact": "bibliography_integrity_summary",
+    "path": "manuscript/supplement/bibliography_integrity_summary.json",
+    "status": "canonical_generated",
+    "exists": "true",
+    "rows": "",
+    "sha256": "8944e1e3d7979271d654044eaa07b7604d046bef01a5564392240cf5e73e81f9",
+    "notes": "Aggregate bibliography verification status and any remaining failures."
+  },
+  {
+    "artifact": "bibliography_integrity_script",
+    "path": "manuscript/scripts/verify_bibliography_integrity.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "e4436b9ba5ff145b25b1d6e521ed36a6b51f652ecf1b3dee97dac1a97bca04ab",
+    "notes": "Rebuilds the complete cited-reference integrity report."
+  },
+  {
+    "artifact": "release_validation_script",
+    "path": "manuscript/scripts/validate_release.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "6d84e1bbe8f77572ec28c22b6a842823b812ea09529d2b4bbae724f5b9666c63",
+    "notes": "Validates claim counts, bibliography status, PDF equivalence, page limits, hashes, and release indexes."
+  },
+  {
+    "artifact": "human_validation_annotator_a",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/annotator_A_claims_completed.csv",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "80",
+    "sha256": "21f4217d9aeef6154f5238b1052a9dee9bb603d22d59e103ef8d5192b47938ff",
+    "notes": "Eighty independent human judgments from annotator A."
+  },
+  {
+    "artifact": "human_validation_annotator_b",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/annotator_B_claims_completed.csv",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "80",
+    "sha256": "f56d51bd3e12c37b328a7fb23ba5697d545bb9b5bbab0a9f334bad92bae40604",
+    "notes": "Eighty independent human judgments from annotator B."
+  },
+  {
+    "artifact": "human_validation_annotator_c",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/annotator_C_claims_completed.csv",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "80",
+    "sha256": "20eab72f1e6df6f1a2d3ae02ae9fe144245676bb9a9ac03dbef1b4d493711360",
+    "notes": "Eighty independent human judgments from annotator C."
+  },
+  {
+    "artifact": "human_validation_adjudication",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/adjudicated_consensus.csv",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "80",
+    "sha256": "5646bc6c790e2719b871acbba24cff6d8e91f489188f852fab35400bc99388c7",
+    "notes": "Separate human adjudication over the eighty validation claims."
+  },
+  {
+    "artifact": "human_validation_final_consensus",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/analysis_results/final/human_final_consensus.csv",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "80",
+    "sha256": "5cae7840d26f4b85fd66a41d3228c86264cf1c0cb9f6a33772e6f4a5f6987514",
+    "notes": "Canonical adjudicated human labels with source and sampling provenance."
+  },
+  {
+    "artifact": "human_validation_summary",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/analysis_results/final/human_validation_summary.json",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "",
+    "sha256": "ab378aec566176169bf45992836358926e6a59d893b3b700f389ad353ff38119",
+    "notes": "Pre-adjudication agreement, adjudicated distribution, and secondary model comparison."
+  },
+  {
+    "artifact": "human_validation_provenance",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/human_annotation_provenance.json",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "",
+    "sha256": "3514129e9be05ab4428705affbc1fceab57b044f951a7d196b92c48604aab857",
+    "notes": "Aggregate participant, consent, ethics, training, time, and adjudication provenance."
+  },
+  {
+    "artifact": "human_validation_protocol",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/human_validation_protocol.md",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "",
+    "sha256": "fa0da90ac9d1d70a32b20e01ef36a6d3917175f22c49cd353823c9bac8a10c67",
+    "notes": "Released human instructions, training, recruitment, consent, ethics, sampling, and adjudication protocol."
+  },
+  {
+    "artifact": "human_validation_pairwise",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/annotated_20260714/analysis_results/pre_adjudication/pairwise_agreement.csv",
+    "status": "canonical_human_validation",
+    "exists": "true",
+    "rows": "66",
+    "sha256": "097b39099ffc090925693b0bf8b277ceaec04315e8b187b61b90b89845dde091",
+    "notes": "Pairwise raw agreement, Cohen kappa, Gwet AC1, and bootstrap intervals."
+  },
+  {
+    "artifact": "human_validation_finalizer",
+    "path": "manuscript/human_coding/observed_claim_human_validation_20260714/analysis/finalize_human_validation.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "5500a767a7c901b74548865a4fa59cd11fb2381379901a03d8e44f9a78ffb692",
+    "notes": "Validates the adjudication and rebuilds final human-validation outputs."
+  },
+  {
+    "artifact": "review_data_package",
+    "path": "manuscript/review_data_package.zip",
+    "status": "canonical_submission_package",
+    "exists": "true",
+    "rows": "",
+    "sha256": "3aba86ed47414ccf57709e701252a429a70b82d8b7cd39473232c99030f8ab86",
+    "notes": "Reviewer package containing the simulation, controlled target, retained development diagnostic, and design-audit artifacts; excluded v3 outcomes are omitted."
+  },
+  {
+    "artifact": "review_data_package_builder",
+    "path": "manuscript/scripts/build_review_data_package.py",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "",
+    "sha256": "78d0d5b14539b04bf6ea39a6b2a22666b1384602d31a0218d463d197b70a959e",
+    "notes": "Deterministically builds and validates the minimal reviewer data package."
+  },
+  {
+    "artifact": "post_freeze_recall_audit",
+    "path": "manuscript/supplement/post_freeze_recall_audit.csv",
+    "status": "canonical",
+    "exists": "true",
+    "rows": "19",
+    "sha256": "4f09dd3ba2bfc4c56fa31dd029a74e7e3870c41aedf7a78f79c11ccbcb2d9e2d",
+    "notes": "Known discoveries outside the frozen Map-B denominator."
+  }
+]

@@ -1,0 +1,4066 @@
+Comparing Robust RAG under Unreliable Evidence:
+A Survey and Estimand Audit
+
+Anonymous ACL submission
+
+001
+
+Abstract
+
+002
+003
+004
+
+Robust retrieval-augmented generation (RAG)
+papers often share labels such as noise robustness, faithfulness, security, or calibration while
+evaluating different evidence conditions, interventions, outcomes, and actions. Using a
+536-paper scoping corpus and a 342-row evidence map as documentary context, we synthesize the field through five operating questions: context construction, evidence use, adversarial integrity, action control, and evaluation. We then ask what experiments designed
+to audit cross-paper claims actually estimate.
+Our estimand audit separates assignment, item,
+reference, and downstream decision units. A
+planned 24-auditor, 480-claim collection is excluded because no independently verifiable participant package exists; none of its outcomes
+or participant attributes is reported. In 5,000
+null simulations of its design, a source-only
+test rejects 16.3% of the time with moderate
+rater heterogeneity, versus 4.0% for participant
+randomization inference; doubling the sources
+raises source-only rejection to 27.2% while the
+number of randomized people remains fixed.
+An earlier 80-claim diagnostic also shows that
+the proposed five-field checklist is not a validated instrument. We release the survey map,
+simulation, exclusion trail, and a consequencedefined counterfactual target. More claims cannot replace randomized reviewers, and agreement with a prompt-overlapping reference is
+not independent validity.
+
+005
+006
+007
+008
+009
+010
+011
+012
+013
+014
+015
+016
+017
+018
+019
+020
+021
+022
+023
+024
+025
+026
+027
+028
+029
+030
+031
+032
+033
+034
+
+1
+
+That judgment is usually made by people, which 044
+creates a second comparability problem: what does 045
+an experiment on the auditors estimate? If a prompt 046
+is assigned to six people but hundreds of their labels 047
+are treated as independent or clustered only by pa- 048
+per, the apparent sample size concerns items rather 049
+than treatment assignments. If a reference panel is 050
+instructed to use the same concepts emphasized by 051
+one prompt, exact agreement also measures simi- 052
+larity to that construction, not independent decision 053
+quality. These are known consequences of crossed 054
+participant–item designs, clustering, and reference 055
+construction (Baayen et al., 2008; Barr et al., 2013; 056
+Abadie et al., 2023); our contribution is to make 057
+their consequences operational for claim-audit ex- 058
+periments and to quantify them in the exact panel 059
+design that motivated this study.
+060
+We make three contributions. First, we synthe- 061
+size robust RAG around five operating questions— 062
+context construction, evidence use, adversarial in- 063
+tegrity, action control, and evaluation—and place 064
+paper-level contrasts in Appendix A. Second, we 065
+define an estimand audit that records assignment, 066
+scoring, reference, population, and loss units, then 067
+reproduce the planned three-of-six panel structure 068
+in a parameterized null simulation. At 480 items, 069
+moderate reviewer heterogeneity triples the nomi- 070
+nal 5% false-positive rate under source-only infer- 071
+ence. Third, we document a load-bearing exclusion 072
+decision: a de-identified outcome table without a 073
+verifiable independent-participant package is not 074
+human evidence. We remove every outcome claim 075
+from that collection and release a consequence- 076
+defined target for a future evaluation.
+077
+The paper does not show that explicit ori- 078
+gin/capability or policy/utility prompts improve 079
+human review. It also does not validate the five- 080
+field checklist. Its positive claim is narrower: 081
+when treatment is assigned to reviewers, item-only 082
+uncertainty omits assignment-unit variation; and 083
+when the target is constructed from intervention- 084
+
+Introduction
+
+Robust RAG studies compare systems under irrelevant, insufficient, conflicting, stale, weakly sourced,
+037 or malicious evidence. Two reported “robustness”
+038 gains may nevertheless concern different retrieval
+039 snapshots, attacker capabilities, interventions, out040 come units, or deployment actions. Auditing a
+041 public comparison therefore requires both source
+042 verification and a judgment that the compared re043 sults answer a compatible question.
+035
+036
+
+1
+
+086
+
+overlapping concepts, reference agreement cannot
+establish criterion validity.
+
+087
+
+2
+
+085
+
+constructs an evidence set, then decides how much 133
+to trust and use it, protects the pipeline against 134
+deliberate corruption, and finally chooses an ac- 135
+tion under residual uncertainty. Table 2 turns that 136
+lifecycle into five operating questions. This sec- 137
+tion synthesizes the main mechanisms and their 138
+comparison boundaries; paper-level contrasts, addi- 139
+tional venue-published work, and the evidence-map 140
+boundary are provided in Appendix A.
+141
+
+Related Methodology
+
+Disagreement and reference construction. Annotation research has long distinguished repro090 ducibility from truth (Artstein and Poesio, 2008).
+091 Majority voting and adjudication can erase struc092 tured label variation (Plank, 2022; Davani et al.,
+093 2022; Uma et al., 2021); probabilistic annotator
+094 models instead retain rater competence, item diffi095 culty, and reference uncertainty (Dawid and Skene,
+096 1979; Passonneau and Carpenter, 2014; Paun et al.,
+097 2018). We therefore use “reference-relative agree098 ment,” never “accuracy,” unless an intervention099 independent criterion exists.
+088
+089
+
+3.1
+
+Participants, items, and power. Language studies commonly cross participants with stimuli, re102 quiring the analysis to represent both sources of
+103 variation (Baayen et al., 2008; Barr et al., 2013).
+104 Design-based clustering depends on how treatment
+105 and sampling occurred, not on which rows are nu106 merous (Abadie et al., 2023). NLP human eval107 uations are often underpowered at the participant
+108 level (Card et al., 2020). These results are estab109 lished; we do not claim them as new theory. We
+110 provide an audit vocabulary and a simulation tied
+111 to a realistic claim-review panel.
+101
+
+Criterion incorporation and prospective com113 mitment. Diagnostic-accuracy
+methodology
+114 calls a target contaminated by the evaluated pro115 cedure incorporation bias (Whiting et al., 2011).
+116 We use that term as a cross-domain analogy, not
+117 as an NLP-specific discovery. Likewise, local file
+118 hashes establish byte identity but not prospective
+119 public commitment.
+External, timestamped
+120 preregistration is the appropriate standard (van
+121 Miltenburg et al., 2021).
+122
+Table 1 makes the division of labor explicit. Ex123 isting RAG surveys organize systems, risks, and
+124 metrics; common harnesses improve empirical
+125 comparability. Our narrower question is what a
+126 particular public comparison and the experiment
+127 used to audit it can support. The estimand audit
+128 therefore complements rather than replaces taxon129 omy, benchmarking, or rerunning.
+112
+
+3
+
+142
+
+Retrieval quality is often summarized by recall, 143
+but robust generation depends on the context that 144
+reaches the model. Irrelevant passages can redi- 145
+rect an answer even when supporting evidence is 146
+also present (Yoran et al., 2024); random nega- 147
+tives, hard negatives, counterfactual passages, and 148
+missing evidence create different operating con- 149
+ditions (Fang et al., 2024; Chen et al., 2024a). 150
+Consequently, retrieval-side filtering and rerank- 151
+ing, context compression, noise-aware training, and 152
+generator-side evidence reading address related but 153
+non-substitutable problems (Yu et al., 2023; Wang 154
+et al., 2023; Trappolini et al., 2025). Long-context 155
+access does not remove this distinction: adding 156
+passages can improve evidence availability while 157
+simultaneously making selection and attribution 158
+harder (Gao et al., 2026; Jin et al., 2024a).
+159
+Sufficiency adds a second boundary. When sup- 160
+port is absent, the appropriate response may be to 161
+retrieve again or abstain rather than to become more 162
+robust to distractors (Joren et al., 2025). Prove- 163
+nance and freshness matter for the same reason: a 164
+topically relevant passage can still be stale, low- 165
+quality, or inappropriate for the decision. Thus, 166
+“better retrieval” should identify the evidence state 167
+being improved and the downstream behavior it 168
+is meant to enable, rather than collapse context 169
+construction into a single recall number.
+170
+
+100
+
+130
+
+Constructing Usable Evidence
+
+3.2
+
+Reconciling Evidence and Model
+Knowledge
+
+171
+172
+
+Once evidence enters the prompt, reliability de- 173
+pends on whether generated claims are supported 174
+and whether conflicting sources are handled ex- 175
+plicitly. RAGTruth-style resources annotate un- 176
+supported spans, whereas faithfulness metrics and 177
+evaluators estimate claim or response support (Niu 178
+et al., 2024; Es et al., 2024; Saad-Falcon et al., 179
+2024). These diagnostics differ from knowledge- 180
+conflict methods, which study competition between 181
+parametric memory and retrieved evidence or dis- 182
+
+Robust RAG under Unreliable Evidence
+
+The literature can be read as a sequence of deci132 sions rather than a list of modules. A system first
+131
+
+2
+
+Adjacent line
+
+Primary unit
+
+Unresolved comparison question
+
+This paper’s increment
+
+General RAG surveys (Gao
+et al., 2024; Sharma, 2025)
+
+Architectures, modules, applications
+
+Evaluation surveys and
+unified comparisons (Yu
+et al., 2024; Wang et al.,
+2024; Alushi et al., 2026)
+Trustworthy and security
+RAG surveys (Zhou et al.,
+2024; Ni et al., 2025; Xu
+et al., 2026)
+Conflict and abstention
+surveys (Xu et al., 2024; Wen
+et al., 2025)
+
+Metrics, benchmarks, and
+common-harness reruns
+
+Whether similarly named gains concern
+the same evidence state, outcome, and
+experimental game
+Which controls are required by a specific
+cross-study or mechanistic inference
+when rerunning is impossible
+
+Adds a claim-level comparison lens and
+an estimand audit; does not claim a
+venue-complete census.
+Separates scientific coordinates from assignment, participant, item, and reference units; the simulation quantifies one
+resulting failure mode.
+Makes origin/access/budget explicit and
+shows why a prompt-overlapping reference cannot establish independent criterion validity.
+Separates signal, action, and utility and
+releases a consequence-defined counterfactual target without claiming an evaluated policy.
+
+Trust dimensions, attack surfaces,
+and defenses
+
+Whether benign conflict and
+attacker-created corruption share a
+transferable capability envelope
+
+Conflict types and refusal behavior
+
+Whether a confidence or sufficiency
+signal identifies the action that
+maximizes utility at a matched operating
+point
+
+Table 1: Positioning relative to adjacent surveys and empirical comparison work. The increment is a claim-level
+estimand audit and design stress test, not a new set of primitive concepts or a venue-complete systematic review.
+
+Research line
+
+Operating question
+
+Context
+construction
+Evidence use /
+conflict
+Adversarial
+integrity
+Uncertainty /
+control
+Evaluation
+
+Is support present, and what distracts retrieval or generation?
+Which claims and sources should govern
+the answer?
+What can the attacker change, observe,
+or extract?
+Which signal should trigger answer,
+search, clarification, or abstention?
+Which evidence state, outcome, action,
+and cost are jointly scored?
+
+indirect prompt injection instead exploit triggers 206
+or instruction-bearing retrieved content (Chaud- 207
+hari et al., 2024; Chaturvedi et al., 2025; Chang 208
+et al., 2026). These settings may look similar at the 209
+prompt boundary, but they differ in corpus write 210
+access, query control, retriever visibility, insertion 211
+budget, persistence, and objective. Data extraction, 212
+answer steering, and availability attacks are there- 213
+fore not interchangeable instances of one attack- 214
+success metric.
+215
+Defenses inherit the same boundary. Filtering 216
+and reranking attempt to demote suspicious evi- 217
+dence, aggregation and certification provide guaran- 218
+tees under a bounded corruption model, and detec- 219
+tion or traceback supports quarantine and recovery 220
+(Xiang et al., 2024; Zhang et al., 2025b; Choudhary 221
+et al., 2025; Si et al., 2025; Kim et al., 2025). A 222
+lower attack-success rate is meaningful only inside 223
+the capability envelope in which it was measured 224
+and together with clean utility. Cross-threat leader- 225
+boards without these fields risk ranking different 226
+security games rather than better defenses.
+227
+
+Table 2: Compact robust-RAG research map. Appendix
+Table 16 expands the evidence conditions, interventions,
+outcomes, and examples.
+
+agreement among sources (Jin et al., 2024b; Zhang
+184 et al., 2025c; Wang et al., 2025a). A system can
+185 therefore produce a correct answer with an unsup186 ported citation, a well-supported answer from an
+187 unreliable source, or a faithful answer that fails to
+188 disclose genuine disagreement.
+189
+The resulting design problem is not simply
+190 whether to “trust retrieval.” Source reliability,
+191 timestamp, authority, and corroboration determine
+192 which claim should be preferred, while the appli193 cation determines whether conflict should be re194 solved, exposed, or deferred. Recent source-aware
+195 work makes this dependence explicit (Hwang et al.,
+196 2025; Schuster et al., 2026). Comparisons in this
+197 area must consequently align both the unit being
+198 evaluated—span, claim, source, or final answer—
+199 and the behavior expected when the sources do not
+200 agree.
+183
+
+201
+
+3.3
+
+3.4
+
+Choosing Actions under Uncertainty
+
+228
+
+Calibration, answerability, and adaptive retrieval 229
+connect evidence diagnosis to system behavior. 230
+Calibration asks what confidence predicts; suffi- 231
+cient context asks whether the available passages 232
+can support an answer; adaptive retrieval asks 233
+whether to search, search again, critique, or con- 234
+tinue (Jang et al., 2025; Joren et al., 2025; Asai 235
+et al., 2024; Labruna et al., 2024; Yan et al., 2024). 236
+Improvements in one signal need not yield a better 237
+policy. A well-calibrated model can still take the 238
+wrong action, and abstention can hide a retrieval 239
+failure when another search would recover the an- 240
+swer.
+241
+This line of work motivates treating robust RAG 242
+
+Protecting Evidence Integrity
+
+Adversarial work changes the origin of unreliable
+evidence. Corpus-poisoning attacks insert passages
+204 that steer retrieval or generation (Zhong et al., 2023;
+205 Zou et al., 2025; Xue et al., 2024); backdoors and
+202
+203
+
+3
+
+structed reference and s(Y, Z) a reference-relative 292
+score. Three quantities are easily conflated:
+293
+
+as risk-sensitive control over an explicit action set:
+answer, filter, verify, re-retrieve, clarify, expose
+245 conflict, quarantine, recover, or abstain. Compar246 isons should then report coverage, selective risk,
+247 retrieval and verification cost, and the utility of the
+248 chosen action, rather than accuracy or calibration
+249 in isolation. The action coordinate also connects
+250 otherwise separate literatures: evidence filters, con251 flict detectors, security defenses, and uncertainty
+252 estimators become inputs to a policy instead of
+253 endpoints by themselves.
+243
+244
+
+254
+
+3.5
+
+Realized-panel contrast.
+1 X
+∆panel =
+s(Mr∈R1 Yri (1), Zi )
+I
+i
+
+where M is a majority rule and Rt is the realized 295
+reviewer panel. This is descriptive for those panels 296
+and that reference.
+297
+Reviewer-population contrast.
+
+Evaluating Robust Behavior
+
+∆rater = Er,i,Z [s(Yri (1), Zi ) − s(Yri (0), Zi )] .
+
+Existing benchmarks isolate useful pieces of this
+256 landscape. RGB diagnoses abilities under noisy
+257 and counterfactual evidence, RAGTruth supplies
+258 fine-grained support labels, uncertainty bench259 marks evaluate whether systems recognize unre260 liable answers, and security arenas instantiate par261 ticular attack models (Chen et al., 2024a; Niu et al.,
+262 2024; Nguyen et al., 2026; Liang et al., 2025; Chen
+263 et al., 2025a). Evaluation toolkits such as RAGAS
+264 and ARES serve yet another role: they estimate
+265 aspects of system quality rather than define the
+266 evidence state or desired response.
+267
+The main gap is joint evaluation. Deployed sys268 tems can face stale support, hard negatives, insuf269 ficient context, source conflict, and malicious text
+270 in the same interaction. A useful benchmark must
+271 therefore record the evidence state, the available
+272 action set, answer and support quality, cost, and the
+273 relevant threat assumptions. No universal scalar is
+274 likely to preserve all of these objectives; a struc275 tured scorecard and action trace provide a more
+276 informative basis for comparison.
+255
+
+277
+
+4
+
+An Estimand Audit for Claim Review
+
+278
+
+4.1
+
+Separate the scientific judgment from the
+experiment on judges
+
+279
+
+294
+
+
+− s(Mr∈R0 Yri (0), Zi ) ,
+
+298
+
+This requires treatment assignment and uncertainty 299
+at the reviewer level, plus a defined reviewer popu- 300
+lation and reference distribution.
+301
+Consequence contrast.
+∆loss = E[L{a(Y (1)), θ} − L{a(Y (0)), θ}] ,
+
+302
+
+where a(·) is the accept, narrow, reject, or defer 303
+decision and θ is the deployment state. This is 304
+the target needed to claim that a prompt improves 305
+decisions rather than merely agreement.
+306
+4.2
+
+Why item resampling cannot recover
+reviewer assignment
+
+307
+308
+
+Let R be the realized reviewer composition and 309
+Z the realized reference process. The law of total 310
+variance gives
+311
+h
+i
+b = E Var(∆
+b | R, Z)
+Var(∆)
+h
+i
+312
+b | R, Z) .
++ Var E(∆
+Resampling sources while holding reviewers and 313
+references fixed estimates the first term. When 314
+prompt assignment occurs at the reviewer level and 315
+reviewer effects are nonzero, the second term re- 316
+mains even as the number of items tends to infinity. 317
+Thus a narrow source-bootstrap interval can coexist 318
+with weak information about a prompt effect.
+319
+The same audit applies to the target. Blinding 320
+a reference panel to arm responses prevents direct 321
+copying, but it does not make the criterion indepen- 322
+dent if the reference rubric asks for the substantive 323
+concepts unique to one arm. Adjudication then se- 324
+lects a hard target from a distribution of expert judg- 325
+ments. A valid report must distinguish agreement 326
+with that target from construct or consequential 327
+validity.
+328
+
+Our robust-RAG checklist asks reviewers to record
+281 five coordinates for each side of a comparison: ev282 idence state, origin/capability, intervention, out283 come, and policy/utility, followed by claim-specific
+284 controls (Table 3). These coordinates specialize ex285 isting distinctions from evidence synthesis, selec286 tive prediction, and security evaluation (Richardson
+287 et al., 1995; Chow, 1970; Papernot et al., 2018);
+288 they are prompts for inspection, not validated prim289 itives.
+290
+Let reviewer r receive prompt Tr ∈ {0, 1}, rate
+291 item i, and emit label Yri (Tr ). Let Zi denote a con280
+
+4
+
+Field
+
+Question
+
+Representative values
+
+Why it changes a comparison
+
+Evidence state
+
+What is observable at the
+decision boundary?
+
+Supported; distracting; insufficient;
+conflicting; stale/weak provenance;
+adversarially manipulated; not
+evidence-conditioned.
+
+Origin /
+capability
+
+How did that state arise, and
+what can an attacker observe or
+change?
+
+Intervention
+
+What part of the system
+changes?
+
+Benign retrieval; constructed stressor;
+natural drift/conflict; distribution shift;
+attacker-created evidence with access,
+budget, and target.
+Corpus/index; retriever; reranker;
+context assembly; generator; verifier;
+system control; evaluation artifact.
+
+Outcome
+
+What object and unit are
+measured?
+
+Query ambiguity and
+model uncertainty are
+not silently mixed with
+properties of retrieved
+evidence.
+Transfer depends on the
+data-generating process and
+the attacker’s capability envelope.
+Components may be alternatives in a shared harness
+or complementary stages in
+a pipeline.
+Identically named datasets
+do not make different target
+quantities interchangeable.
+
+Policy / utility
+
+What response is selected,
+under which costs and stakes?
+
+Control check
+
+Does the experiment support
+the intended inference?
+
+Answer correctness; retrieval quality;
+claim support; attack success; privacy
+leakage; calibration; selective risk;
+cost.
+Answer; verify; re-retrieve; expose
+conflict; clarify; quarantine; recover;
+abstain; coverage–risk utility.
+Dataset and corpus snapshot; retriever;
+top-k; generator; decoding; budget;
+baselines; uncertainty.
+
+A signal becomes operational only through an action set and a declared utility context.
+Tuple compatibility alone
+cannot remove experimental confounding.
+
+Table 3: The diagnostic schema. The five fields identify whether two results address a compatible question; a
+claim-specific control check then determines whether their reported numbers support the intended inference. The
+fields are not assumed orthogonal or sufficient.
+
+329
+
+5
+
+Robust-RAG Case Study
+
+330
+
+5.1
+
+Evidence layers
+
+hidden and generative AI was prohibited.
+354
+Only 39/80 verdicts were unanimous, pairwise κ 355
+ranged from .258 to .525, and adjudication changed 356
+9/78 available majorities (Table 4). The full rule 357
+and a rule-internal C2/C5 ablation each agreed 358
+with the adjudicated reference on 40/80 claims; 359
+among their six disagreements, each matched three 360
+times. The sample deliberately over-represents 361
+model-predicted invalid claims, overlaps codebook 362
+development, and has a recoverable deterministic 363
+selection rule for only 16 items. It is a diagnos- 364
+tic showing that the rule is not validated, not an 365
+estimate of prompt performance.
+366
+
+A scoping snapshot contains 536 broad inclusions
+332 from 1,399 deduplicated candidates; a narrower
+333 map contains 342 literature-family/intervention
+334 rows, including 207 preprints. A separate model335 coded index contains 289 comparison claims from
+336 fixed sections of nine purposively selected sources.
+337 Broad screening and index coding were model338 assisted, early search logs are incomplete, and no
+339 study-level risk-of-bias appraisal was conducted.
+340 These artifacts motivate the domain and provide
+341 inspectable examples; they do not estimate preva342 lence or validate the checklist.
+331
+
+343
+
+5.2
+
+5.3
+
+Excluded 480-claim collection
+
+367
+
+A later protocol planned 480 claims from 80 paper- 368
+disjoint sources, four between-reviewer arms, six 369
+auditor slots per arm, three ratings per claim–arm, 370
+three reference experts, and two adjudicators. Its 371
+frozen endpoint aggregated three labels into an arm 372
+majority and used sources as inferential clusters, 373
+even though prompt condition was assigned to peo- 374
+ple. The reference rubric also asked how an evi- 375
+dence condition arose, what access or budget pro- 376
+duced it, and whether actions, coverage, stakes, 377
+or costs changed the comparison: the concepts 378
+uniquely foregrounded by the full prompt.
+379
+
+The 80-claim development diagnostic
+
+Three coders with research backgrounds in NLP,
+345 RAG, or experimental methodology reviewed all
+346 80 claims, and a more senior fourth participant
+347 adjudicated them. They were recruited through the
+348 authors’ professional network, compensated under
+349 pre-agreed arrangements, and reported 60 hours per
+350 coder plus 30 hours for adjudication. All consented
+351 to use and release of de-identified labels; the project
+352 owner reports an institutional determination that
+353 formal review was not required. Model labels were
+344
+
+5
+
+Humanvalidation
+diagnostic
+
+Value
+
+Setting
+
+σr = 0.20, G = 20
+7.2%
+Homogeneous, G = 80 5.4%
+σr = 0.20, G = 80
+16.3%
+σr = 0.20, G = 160
+27.2%
+
+1.13
+1.02
+1.41
+1.77
+
+Table 5: Null simulations with 5,000 replicates per row,
+12 auditors (six per prompt), six claims per source, and
+balanced three-of-six panels. G is the number of sources.
+Rater ability follows 12 fixed normal quantiles on the
+logit scale around 75% mean agreement; σr is a sensitivity parameter, not an estimate from the excluded human
+collection. Source-only inference is a paired source t
+test on panel-majority correctness. Participant RI enumerates all 924 six-versus-six assignments. SD/SE is
+the empirical standard deviation of D−C divided by
+the mean source-only standard error; values above one
+diagnose omitted assignment-unit variation.
+
+Table 4: Reliability diagnostics for the 80-claim human
+sample. V/P/I/U denote the model-valid, partial, invalid,
+and under-specified strata; unequal coverage and development overlap make these descriptive sample results,
+not held-out population performance.
+
+and (ii) exact participant
+randomization inference, 407
+
+enumerating all 12
+assignments. The sim- 408
+=
+924
+6
+ulation is a parameter sweep, not an estimate of 409
+reviewer heterogeneity.
+410
+
+One returned batch was invalidated after nominally distinct participant IDs contained shared re382 sponse payloads. A later de-identified outcome
+383 export was present in the working archive, but
+384 no independently verifiable participant package or
+385 completed real-participant roster exists. We there386 fore exclude the entire collection. No response,
+387 agreement rate, arm contrast, reference sensitivity,
+388 participant attribute, or timing claim from it ap389 pears in this paper. The frozen protocol remains
+390 useful as a design case; its outcome table is not
+391 evidence.
+380
+
+6
+
+Null Simulation of the Assignment
+Mismatch
+
+6.1
+
+Design
+
+393
+
+Results
+
+411
+
+With homogeneous reviewers and 80 sources, 412
+source-only rejection is 5.4%, close to nominal. 413
+At σr = .20, it is 7.2%, 10.9%, 16.3%, and 27.2% 414
+for 20, 40, 80, and 160 sources, respectively. Par- 415
+ticipant randomization inference remains between 416
+4.0% and 4.6% in those rows. At 80 sources, 417
+source-only rejection increases from 5.4% to 7.6%, 418
+16.3%, and 29.9% as σr increases from 0 to .10, 419
+.20, and .30 (Appendix Table 15).
+420
+The direction is the key result: conditional item 421
+precision improves as more items are added, while 422
+the number of prompt assignments stays at twelve. 423
+Consequently the source-only standard error be- 424
+comes increasingly optimistic. This simulation 425
+does not prove that any published study has a par- 426
+ticular false-positive rate; it gives a reproducible 427
+stress test for a declared assignment mechanism. 428
+
+381
+
+394
+
+4.0%
+4.1%
+4.0%
+4.6%
+
+Model-stratum
+26/125; 25/134; 25/26; 4/4
+coverage
+(V/P/I/U)
+Unanimous
+39/80
+verdicts
+Adjudicator
+9/78
+changes
+to
+available majorities
+Pairwise ver0.258–0.525
+dict κ
+C1 / C3 / 0.101–0.283 / 0.215–0.535 / 0.208–0.266
+control-status
+κ
+Full-rule exact
+0.500 / 0.273 / 0.437
+/ κ / macro-F1
+Model invalid
+5/25 = 0.200
+precision
+
+6.2
+
+392
+
+Source Rater RI SD/SE
+
+395 We simulate the planned primary D–C contrast—
+
+7
+
+396 12 of the 24 planned auditor slots—without using
+
+any excluded outcome. Reviewers are randomly
+398 divided six per prompt. Each source contributes six
+399 claims; each claim is rated by a balanced three-of400 six panel in both arms. Baseline agreement is 75%.
+401 Source and claim logit standard deviations are .15
+402 and .35. Reviewer abilities are 12 fixed normal
+403 quantiles with σr ∈ {0, .10, .20, .30} on the logit
+404 scale. The true prompt effect is zero.
+405
+For each scenario, 5,000 replicates compare (i)
+406 a paired source t test on panel-majority correctness
+397
+
+A Practical Pre-Collection Audit
+
+429
+
+The audit is most useful before labels exist. It con- 430
+verts familiar cautions about annotators, items, and 431
+references into five decisions that can be checked 432
+against a protocol. Appendix Table 21 expands the 433
+corresponding reporting fields.
+434
+1. Name the claim and decision. The unit under 435
+review should be an atomic public statement, not an 436
+entire paper. Authors should state whether the re- 437
+viewer is verifying source support, deciding cross- 438
+6
+
+result comparability, or recommending a deployment action. Each task implies a different target:
+441 a quotation can be faithful while the cross-paper
+442 comparison is invalid, and two comparable results
+443 need not imply the same operational choice. Writ444 ing the downstream action and loss first prevents
+445 exact label agreement from becoming the default
+446 objective merely because it is easy to count.
+
+a property of the measurement, not an inconve- 489
+nient secondary result. Hashes establish which 490
+bytes were analyzed but cannot establish that nom- 491
+inally distinct people acted independently. When 492
+that provenance cannot be verified, the affected 493
+outcome must be excluded rather than repaired 494
+through additional statistics.
+495
+
+439
+440
+
+7.1
+
+2. Draw the unit map. The protocol should list
+448 the item, reviewer, treatment-assignment, scoring,
+449 reference, and intended generalization units in one
+450 place. If prompts are assigned to people, people
+451 remain the treatment units after majority voting. If
+452 every reviewer sees multiple prompts, order, learn453 ing, and carryover become part of the design. If
+454 claims are nested in papers, source dependence is
+455 an additional layer rather than a replacement for
+456 reviewer dependence. This map determines which
+457 randomization, mixed-effects, or cluster analysis
+458 can answer the stated question.
+
+A consequence-defined target
+
+496
+
+447
+
+A corrected human experiment would either ran- 497
+domize enough independent participants between 498
+prompts or cross participants with prompts using 499
+counterbalancing and carryover controls. Its pri- 500
+mary analysis would operate at the assignment unit 501
+and model participant, item, and reference-rater 502
+variation. Recruitment population, language profi- 503
+ciency, author/codebook involvement, compensa- 504
+tion, and actual work time would be reported in 505
+aggregate. The protocol, exclusions, margins, and 506
+reference rule would be externally timestamped 507
+before outcomes.
+508
+The target should also be intervention- 509
+independent and consequence-defined. As a 510
+concrete specification, we release a 480-item 511
+synthetic benchmark with 240 counterfactual pairs 512
+across 12 application templates. Half change only 513
+whether deployment origin/access/budget lies in- 514
+side the evaluated capability envelope; half change 515
+only error-versus-abstention costs. The target is the 516
+unique minimum of an explicit deployment-loss 517
+rule over deploy_A, deploy_B, and defer. No 518
+human label, source-paper quotation, or excluded 519
+outcome enters its construction. We report no 520
+model or human result on this benchmark; it is an 521
+executable target specification for a prospectively 522
+run follow-up, not evidence in the present paper. 523
+
+3. Construct the target independently. Reference writers should not be given a rubric that
+461 simply paraphrases the tested intervention. When462 ever possible, the target should be generated from a
+463 predeclared consequence, such as deployment loss
+464 under matched capability and cost assumptions.
+465 When source ambiguity prevents a unique label,
+466 admissible sets or empirical reference distributions
+467 preserve more information than a forced adjudi468 cation. The protocol should freeze who resolves
+469 disputes, what remains unresolved, and which miss470 ingness rate stops interpretation.
+459
+460
+
+4. Power the randomized units. Power calcula472 tions should vary the number and heterogeneity of
+473 reviewers, not only the number of claims. A use474 ful stress test holds reviewers fixed while increas475 ing items; if the proposed interval keeps shrinking,
+476 it is conditional on the panel. Between-reviewer
+477 designs need enough independently assigned peo478 ple, whereas crossed designs trade participant ef479 ficiency for explicit period and carryover assump480 tions. Simulation should reproduce the actual panel
+481 construction, class balance, missing-reference rule,
+482 and planned test rather than approximate only the
+483 item count.
+471
+
+8
+
+Conclusion
+
+524
+
+For robust RAG, origin/capability and policy/utility 525
+remain useful reporting fields. They distinguish 526
+natural retrieval failures from attacker-created con- 527
+ditions and risk signals from actions chosen under 528
+costs and coverage. The current evidence supports 529
+treating them as disclosures and hypotheses, not as 530
+validated scoring primitives.
+531
+For human evaluation, every result should name 532
+five objects: item, reviewer, assignment unit, in- 533
+ferential unit, and reference process. Majority ag- 534
+gregation does not turn repeated judgments by a 535
+few people into new treatment assignments. Refer- 536
+ence disagreement should be retained before adju- 537
+
+5. Preserve the measurement path. Reports
+485 should release pre-adjudication votes, class sup486 ports, abstentions, unresolved cases, aggregation
+487 rules, and aggregate participant provenance. Sen488 sitivity to one reviewer or one reference policy is
+484
+
+7
+
+dication, and exact agreement should not be called
+accuracy without an independent criterion. Unre540 solved or unverifiable provenance is an outcome
+541 of the measurement process, not a nuisance to be
+542 silently completed.
+543
+The reusable conclusion is therefore method544 ological. With prompts assigned to reviewers,
+545 item-only resampling estimates a conditional panel
+546 contrast and can become more anti-conservative
+547 as items accumulate.
+With an intervention548 overlapping reference, agreement cannot establish
+549 independent judgment quality. The appropriate
+550 response to an unverifiable human collection is ex551 clusion, not a more elaborate sensitivity analysis.
+
+of de-identified labels. They were compensated, di- 587
+rect identifiers and consent records remain access- 588
+controlled, and the project owner reports an insti- 589
+tutional determination that formal review was not 590
+required. Generative AI was prohibited for those 591
+annotations.
+592
+We make no human-subject, recruitment, exper- 593
+tise, compensation, or independence claim for the 594
+excluded 480-claim collection. Its outcome rows 595
+do not enter the manuscript. LLMs assisted doc- 596
+umentary discovery, extraction, and the separate 597
+model-coded index; those outputs are not human 598
+gold. The synthetic benchmark contains no par- 599
+ticipant data or third-party quotation. No attack 600
+payloads or poisoned corpora are released.
+601
+
+538
+539
+
+Artifact availability. The anonymized supple553 ment maps every retained claim to stable reposi554 tory paths. Its README links the simulation entry
+555 point and machine-readable output, the controlled556 target generator, protocol, and SHA-256 summary,
+557 and the 80-claim development labels, adjudication,
+558 and recomputation code. Excluded outcome ex559 ports are not listed as evidence-bearing artifacts.
+552
+
+560
+
+Limitations
+
+The simulation uses binary correctness, a common
+wrong-label state, balanced panels of three among
+563 six reviewers, and chosen variance parameters. It
+564 demonstrates a design failure mode rather than es565 timating its prevalence. Exact randomization infer566 ence is evaluated under the simulated sharp null;
+567 a real study would need an estimand and interval
+568 appropriate to its assignment mechanism.
+569
+The 80-claim diagnostic is purposive, overlaps
+570 development, has only three coders and one adjudi571 cator, and lacks a recoverable selection procedure
+572 for 64 items. It does not validate the checklist.
+573 The broader corpus is open-PDF based, model574 assisted, incomplete as a census, and unsuitable
+575 for prevalence claims. The controlled benchmark
+576 is synthetic and has no reported judge outcomes.
+577
+The 480-claim collection has no verifiable
+578 independent-participant package and is excluded
+579 completely. This removes the manuscript’s former
+580 empirical prompt contrast rather than repairing it.
+581 Local hashes are not external preregistration. No
+582 consequence-based human effect size or equiva583 lence margin is estimated.
+561
+562
+
+584
+
+Ethics Statement
+
+For the retained 80-claim diagnostic, all four con586 tributors consented to paper use and public release
+585
+
+8
+
+602
+
+References
+
+603
+604
+605
+606
+
+Alberto Abadie, Susan Athey, Guido W. Imbens, and
+Jeffrey M. Wooldridge. 2023. When should you adjust standard errors for clustering? The Quarterly
+Journal of Economics, 138(1):1–35.
+
+607
+608
+609
+610
+611
+612
+613
+614
+
+Klejda Alushi, Jan Strich, Chris Biemann, and Martin Semmann. 2026. Comprehensive comparison of
+RAG methods across multi-domain conversational
+QA. In Proceedings of the 19th Conference of the
+European Chapter of the Association for Computational Linguistics (Volume 4: Student Research Workshop), pages 233–247, Rabat, Morocco. Association
+for Computational Linguistics.
+
+615
+616
+617
+
+Ron Artstein and Massimo Poesio. 2008. Inter-coder
+agreement for computational linguistics. Computational Linguistics, 34(4):555–596.
+
+618
+619
+620
+621
+
+Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, and
+Hannaneh Hajishirzi. 2024. Self-rag: Learning to
+retrieve, generate, and critique through self-reflection.
+In ICLR.
+
+622
+623
+624
+625
+
+R. Harald Baayen, Douglas J. Davidson, and Douglas M.
+Bates. 2008. Mixed-effects modeling with crossed
+random effects for subjects and items. Journal of
+Memory and Language, 59(4):390–412.
+
+626
+627
+628
+629
+630
+
+Gaurav Bagwe, Saket S. Chaturvedi, Xiaolong Ma, Xiaoyong Yuan, Kuang-Ching Wang, and Lan Zhang.
+2025. Your rag is unfair: Exposing fairness vulnerabilities in retrieval-augmented generation via backdoor attacks.
+
+631
+632
+633
+634
+
+Dale J. Barr, Roger Levy, Christoph Scheepers, and
+Harry J. Tily. 2013. Random effects structure for
+confirmatory hypothesis testing: Keep it maximal.
+Journal of Memory and Language, 68(3):255–278.
+
+635
+636
+637
+638
+639
+640
+
+Dallas Card, Peter Henderson, Urvashi Khandelwal,
+Robin Jia, Kyle Mahowald, and Dan Jurafsky. 2020.
+With little power comes great responsibility. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, pages 9263–
+9274.
+
+641
+642
+643
+644
+645
+646
+647
+648
+649
+
+Chia-Yuan Chang, Zhimeng Jiang, Vineeth Rakesh,
+Menghai Pan, Chin-Chia Michael Yeh, Guanchu
+Wang, Mingzhi Hu, Zhichao Xu, Yan Zheng, Mahashweta Das, and Na Zou. 2025. MAIN-RAG:
+Multi-agent filtering retrieval-augmented generation.
+In Proceedings of the 63rd Annual Meeting of the
+Association for Computational Linguistics (Volume
+1: Long Papers), pages 2607–2622. Association for
+Computational Linguistics.
+
+650
+651
+652
+
+Hongyan Chang, Ergute Bao, Xinjian Luo, and Ting
+Yu. 2026. Overcoming the retrieval barrier: Indirect
+prompt injection in the wild for llm systems.
+
+653
+654
+655
+656
+
+Saket S. Chaturvedi, Gaurav Bagwe, Lan Zhang, and
+Xiaoyong Yuan. 2025. Aip: Subverting retrievalaugmented generation via adversarial instructional
+prompt.
+
+Harsh Chaudhari, Giorgio Severi, John Abascal, An- 657
+shuman Suri, Matthew Jagielski, Christopher A. 658
+Choquette-Choo, Milad Nasr, Cristina Nita-Rotaru, 659
+and Alina Oprea. 2024. Phantom: General backdoor 660
+attacks on retrieval augmented language generation. 661
+Jiawei Chen, Hongyu Lin, Xianpei Han, and Le Sun. 662
+2024a. Benchmarking large language models in 663
+retrieval-augmented generation. In AAAI.
+664
+Liuji Chen, Xiaofang Yang, Yuanzhuo Lu, Jinghao 665
+Zhang, Xin Sun, Qiang Liu, Shu Wu, Jing Dong, 666
+and Liang Wang. 2025a. Poisonarena: Uncovering 667
+competing poisoning attacks in retrieval-augmented 668
+generation.
+669
+Lu Chen, Ruqing Zhang, Jiafeng Guo, Yixing Fan, and 670
+Xueqi Cheng. 2024b. Controlling risk of retrieval- 671
+augmented generation: A counterfactual prompting 672
+framework. In Findings of the Association for Com- 673
+putational Linguistics: EMNLP 2024.
+674
+Zhuo Chen, Yuyang Gong, Jiawei Liu, Miaokun Chen, 675
+Haotan Liu, Qikai Cheng, Fan Zhang, Wei Lu, and 676
+Xiaozhong Liu. 2025b. Flippedrag: Black-box 677
+opinion manipulation adversarial attacks to retrieval- 678
+augmented generation models.
+679
+Pengzhou Cheng, Yidong Ding, Tianjie Ju, Zongru Wu, 680
+Wei Du, Ping Yi, Zhuosheng Zhang, and Gongshen 681
+Liu. 2024. Trojanrag: Retrieval-augmented genera- 682
+tion can be backdoor driver in large language models. 683
+Sarthak Choudhary, Nils Palumbo, Ashish Hooda, Kr- 684
+ishnamurthy Dj Dvijotham, and Somesh Jha. 2025. 685
+Through the stealth lens: Attention-aware defenses 686
+against poisoning in rag.
+687
+C. K. Chow. 1970. On optimum recognition error and 688
+reject tradeoff. IEEE Transactions on Information 689
+Theory, 16(1):41–46.
+690
+Aida Mostafazadeh Davani, Mark Díaz, and Vinodku- 691
+mar Prabhakaran. 2022. Dealing with disagreements: 692
+Looking beyond the majority vote in subjective an- 693
+notations. Transactions of the Association for Com- 694
+putational Linguistics, 10:92–110.
+695
+A. P. Dawid and A. M. Skene. 1979. Maximum likeli- 696
+hood estimation of observer error-rates using the EM 697
+algorithm. Journal of the Royal Statistical Society: 698
+Series C (Applied Statistics), 28(1):20–28.
+699
+Yilun Du, Shuang Li, Antonio Torralba, Joshua B. 700
+Tenenbaum, and Igor Mordatch. 2024. Improving 701
+factuality and reasoning in language models through 702
+multiagent debate. In Proceedings of the 41st Inter- 703
+national Conference on Machine Learning, volume 704
+235 of Proceedings of Machine Learning Research, 705
+pages 11733–11763. PMLR.
+706
+Shahul Es, Jithin James, Luis Espinosa Anke, and 707
+Steven Schockaert. 2024. RAGAs: Automated evalu- 708
+ation of retrieval augmented generation. In Proceed- 709
+ings of the 18th Conference of the European Chap- 710
+ter of the Association for Computational Linguistics: 711
+System Demonstrations, pages 150–158.
+712
+
+9
+
+713
+714
+715
+716
+
+Feiteng Fang, Yuelin Bai, Shiwen Ni, Min Yang, Xiaojun Chen, and Ruifeng Xu. 2024. Enhancing noise
+robustness of retrieval-augmented language models
+with adaptive adversarial training. In ACL.
+
+717
+718
+719
+
+Jorge Gabín, Anxo Perez, and Javier Parapar. 2026.
+Lost in the evidence? reproducing document position
+and context size effects in rag.
+
+720
+721
+722
+
+Muhan Gao, Zih-Ching Chen, and Kuan-Hao Huang.
+2026. The first drop of ink: Nonlinear impact of
+misleading information in long-context reasoning.
+
+723
+724
+725
+726
+727
+728
+
+Tianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen.
+2023. Enabling large language models to generate
+text with citations. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language
+Processing, pages 6465–6488. Association for Computational Linguistics.
+
+729
+730
+731
+732
+
+Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia,
+Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, Meng Wang,
+and Haofen Wang. 2024. Retrieval-augmented generation for large language models: A survey.
+
+733
+734
+735
+736
+737
+738
+739
+
+Wentao Hu, Wengyu Zhang, Yiyang Jiang, Chen Jason
+Zhang, Xiaoyong Wei, and Li Qing. 2025. Removal
+of hallucination on hallucination: Debate-augmented
+RAG. In Proceedings of the 63rd Annual Meeting of
+the Association for Computational Linguistics (Volume 1: Long Papers), pages 15839–15853. Association for Computational Linguistics.
+
+740
+741
+742
+743
+744
+745
+
+Jeongyeon Hwang, Junyoung Park, Hyejin Park, Dongwoo Kim, Sangdon Park, and Jungseul Ok. 2025.
+Retrieval-augmented generation with estimation of
+source reliability. In Proceedings of the 2025 Conference on Empirical Methods in Natural Language
+Processing, pages 34279–34303.
+
+746
+747
+748
+749
+750
+
+Chaeyun Jang, Deukhwan Cho, Seanie Lee, Hyungi
+Lee, and Juho Lee. 2025. Reliable decision-making
+via calibration-oriented retrieval-augmented generation. In Advances in Neural Information Processing
+Systems.
+
+751
+752
+753
+
+Bowen Jin, Jinsung Yoon, Jiawei Han, and Sercan O.
+Arik. 2024a. Long-context llms meet rag: Overcoming challenges for long inputs in rag.
+
+754
+755
+756
+757
+758
+
+Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Xiaojian Jiang, Jiexin Xu, Qiuxia Li, and Jun Zhao. 2024b.
+Tug-of-war between knowledge: Exploring and resolving knowledge conflicts in retrieval-augmented
+language models.
+
+759
+760
+761
+762
+763
+
+Hailey Joren, Jianyi Zhang, Chun-Sung Ferng, DaCheng Juan, Ankur Taly, and Cyrus Rashtchian. 2025.
+Sufficient context: A new lens on retrieval augmented
+generation systems. In International Conference on
+Learning Representations.
+
+764
+765
+766
+767
+
+Jungo Kasai, Keisuke Sakaguchi, Yoichi Takahashi,
+Ronan Le Bras, Akari Asai, Xinyan Yu, Dragomir
+Radev, Noah Smith, Yejin Choi, and Kentaro Inui.
+2023. RealTime QA: What’s the answer right now?
+
+In Advances in Neural Information Processing Sys- 768
+tems, volume 36, pages 49025–49043.
+769
+Minseok Kim, Hankook Lee, and Hyungjoon Koo. 2025. 770
+Rescuing the unpoisoned: Efficient defense against 771
+knowledge corruption attacks on rag systems.
+772
+Tiziano Labruna, Jon Ander Campos, and Gorka 773
+Azkune. 2024. When to retrieve: Teaching llms to 774
+utilize information retrieval effectively.
+775
+Shuowei Li, Haoxin Li, Wenda Chu, and Yi Fang. 2026. 776
+How large language models balance internal knowl- 777
+edge with user and document assertions.
+778
+Xun Liang, Simin Niu, Zhiyu Li, Sensen Zhang, Hanyu 779
+Wang, Feiyu Xiong, Jason Zhaoxin Fan, Bo Tang, 780
+Shichao Song, Mengwei Wang, and Jiawei Yang. 781
+2025. Saferag: Benchmarking security in retrieval- 782
+augmented generation of large language model.
+783
+Gabrielle Kaili-May Liu, Bryan Li, Arman Cohan, 784
+William Gantt Walden, and Eugene Yang. 2025a. In- 785
+vestigating retrieval-augmented generation systems 786
+on unanswerable, uncheatable, realistic, multi-hop 787
+queries.
+788
+Huanshuo Liu, Hao Zhang, Zhijiang Guo, Jing Wang, 789
+Kuicai Dong, Xiangyang Li, Yi Quan Lee, Cong 790
+Zhang, and Yong Liu. 2025b. Ctrla: Adaptive 791
+retrieval-augmented generation via inherent control. 792
+In Findings of ACL.
+793
+Jingyu Liu, Jingquan Peng, Xiaopeng Wu, Xubin Li, 794
+Tiezheng Ge, Bo Zheng, and Yong Liu. 2025c. Do 795
+not abstain! identify and solve the uncertainty. In 796
+Proceedings of the 63rd Annual Meeting of the As- 797
+sociation for Computational Linguistics (Volume 1: 798
+Long Papers), pages 17177–17197, Vienna, Austria. 799
+Association for Computational Linguistics.
+800
+Nelson Liu, Tianyi Zhang, and Percy Liang. 2023. Eval- 801
+uating verifiability in generative search engines. In 802
+Findings of the Association for Computational Lin- 803
+guistics: EMNLP 2023, pages 7001–7025. Associa- 804
+tion for Computational Linguistics.
+805
+Shayne Longpre, Kartik Perisetla, Anthony Chen, 806
+Nikhil Ramesh, Chris DuBois, and Sameer Singh. 807
+2021. Entity-based knowledge conflicts in ques- 808
+tion answering. In Proceedings of the 2021 Con- 809
+ference on Empirical Methods in Natural Language 810
+Processing, pages 7052–7063. Association for Com- 811
+putational Linguistics.
+812
+Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, 813
+Daniel Khashabi, and Hannaneh Hajishirzi. 2023. 814
+When not to trust language models: Investigating 815
+effectiveness of parametric and non-parametric mem- 816
+ories. In Proceedings of the 61st Annual Meeting of 817
+the Association for Computational Linguistics (Vol- 818
+ume 1: Long Papers), pages 9802–9822. Association 819
+for Computational Linguistics.
+820
+
+10
+
+821
+822
+823
+824
+825
+
+Vinh Nguyen, Cuong Dang, Jiahao Zhang, Hoa Tran,
+Minh Tran, Trinh Chau, Thai Le, Lu Cheng, and
+Suhang Wang. 2026. Urag: A benchmark for uncertainty quantification in retrieval-augmented large
+language models.
+
+Sara Rosenthal, Yannis Katsis, Vraj Shah, Lihong He, 879
+Lucian Popa, and Marina Danilevsky. 2026. Mtrag- 880
+un: A benchmark for open challenges in multi-turn 881
+rag conversations.
+882
+
+826
+827
+828
+829
+830
+831
+832
+833
+
+Bo Ni, Zheyuan Liu, Leyao Wang, Yongjia Lei, Yuying Zhao, Xueqi Cheng, Qingkai Zeng, Luna Dong,
+Yinglong Xia, Krishnaram Kenthapadi, Ryan Rossi,
+Franck Dernoncourt, Md Mehrab Tanjim, Nesreen
+Ahmed, Xiaorui Liu, Wenqi Fan, Erik Blasch,
+Yu Wang, Meng Jiang, and Tyler Derr. 2025. Towards trustworthy retrieval augmented generation for
+large language models: A survey.
+
+834
+835
+836
+837
+838
+839
+840
+
+Cheng Niu, Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun
+Shum, Randy Zhong, Juntong Song, and Tong Zhang.
+2024. Ragtruth: A hallucination corpus for developing trustworthy retrieval-augmented language models.
+In Proceedings of the 62nd Annual Meeting of the
+Association for Computational Linguistics (Volume
+1: Long Papers).
+
+841
+842
+843
+844
+845
+
+Nicolas Papernot, Patrick McDaniel, Arunesh Sinha,
+and Michael P. Wellman. 2018. SoK: Security and
+privacy in machine learning. In 2018 IEEE European
+Symposium on Security and Privacy, pages 399–414.
+IEEE.
+
+846
+847
+848
+849
+
+Rebecca J. Passonneau and Bob Carpenter. 2014. The
+benefits of a model of annotation. Transactions of
+the Association for Computational Linguistics, 2:311–
+326.
+
+850
+851
+852
+853
+854
+
+Silviu Paun, Bob Carpenter, Jon Chamberlain, Dirk
+Hovy, Udo Kruschwitz, and Massimo Poesio. 2018.
+Comparing bayesian models of annotation. Transactions of the Association for Computational Linguistics, 6:571–585.
+
+855
+856
+857
+858
+859
+
+Sezen Percin, Xin Su, Qutub Sha Syed, Phillip Howard,
+Aleksei Kuvshinov, Leo Schwinn, and Kay-Ulrich
+Scholl. 2025.
+Investigating the robustness of
+retrieval-augmented generation at the query level. In
+GEM.
+
+860
+861
+862
+863
+864
+865
+866
+867
+868
+869
+
+Fabio Petroni, Aleksandra Piktus, Angela Fan, Patrick
+Lewis, Majid Yazdani, Nicola De Cao, James Thorne,
+Yacine Jernite, Vladimir Karpukhin, Jean Maillard,
+Vassilis Plachouras, Tim Rocktäschel, and Sebastian
+Riedel. 2021. KILT: a benchmark for knowledge
+intensive language tasks. In Proceedings of the 2021
+Conference of the North American Chapter of the
+Association for Computational Linguistics: Human
+Language Technologies, pages 2523–2544. Association for Computational Linguistics.
+
+870
+871
+872
+873
+874
+
+Barbara Plank. 2022. The “problem” of human label
+variation: On ground truth in data, modeling and evaluation. In Proceedings of the 2022 Conference on
+Empirical Methods in Natural Language Processing,
+pages 10671–10682.
+
+Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry 922
+Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny 923
+Zhou, Quoc Le, and Thang Luong. 2024. Fresh- 924
+LLMs: Refreshing large language models with search 925
+engine augmentation. In Findings of the Association 926
+for Computational Linguistics: ACL 2024, pages 927
+13697–13720. Association for Computational Lin- 928
+guistics.
+929
+
+875
+876
+877
+878
+
+W. Scott Richardson, Mark C. Wilson, Jim Nishikawa,
+and Robert S. A. Hayward. 1995. The well-built
+clinical question: A key to evidence-based decisions.
+ACP Journal Club, 123(3):A12.
+
+Fei Wang, Xingchen Wan, Ruoxi Sun, Jiefeng Chen, 930
+and Sercan O. Arik. 2025a. Astute rag: Overcom- 931
+ing imperfect retrieval augmentation and knowledge 932
+conflicts for large language models. In ACL.
+933
+
+Jon Saad-Falcon, Omar Khattab, Christopher Potts, and 883
+Matei Zaharia. 2024. ARES: An automated evalua- 884
+tion framework for retrieval-augmented generation 885
+systems. In Proceedings of the 2024 Conference of 886
+the North American Chapter of the Association for 887
+Computational Linguistics: Human Language Tech- 888
+nologies (Volume 1: Long Papers), pages 338–354. 889
+Jakob Schuster, Vagrant Gautam, and Katja Markert. 890
+2026. Whose facts win? llm source preferences 891
+under knowledge conflicts.
+892
+Chaitanya Sharma. 2025. Retrieval-augmented gen- 893
+eration: A comprehensive survey of architectures, 894
+enhancements, and robustness frontiers.
+895
+Xiaonan Si, Meilin Zhu, Simeng Qin, Lijia Yu, Li- 896
+jun Zhang, Shuaitong Liu, Xinfeng Li, Ranjie Duan, 897
+Yang Liu, and Xiaojun Jia. 2025. Secon-rag: A two- 898
+stage semantic filtering and conflict-free framework 899
+for trustworthy rag. In Advances in Neural Informa- 900
+tion Processing Systems.
+901
+Zhaochen Su, Jun Zhang, Xiaoye Qu, Tong Zhu, Yanshu 902
+Li, Jiashuo Sun, Juntao Li, Min Zhang, and Yu Cheng. 903
+2024. ConflictBank: A benchmark for evaluating 904
+the influence of knowledge conflicts in LLMs. In 905
+Advances in Neural Information Processing Systems, 906
+volume 37, pages 103242–103268.
+907
+Giovanni Trappolini, Florin Cuconasu, Simone Filice, 908
+Yoelle Maarek, and Fabrizio Silvestri. 2025. Redefin- 909
+ing retrieval evaluation in the era of llms.
+910
+Alexandra N. Uma, Tommaso Fornaciari, Dirk Hovy, 911
+Silviu Paun, Barbara Plank, and Massimo Poesio. 912
+2021. Learning from disagreement: A survey. 913
+Journal of Artificial Intelligence Research, 72:1385– 914
+1470.
+915
+Emiel van Miltenburg, Chris van der Lee, and Emiel 916
+Krahmer. 2021. Preregistering NLP research. In 917
+Proceedings of the 2021 Conference of the North 918
+American Chapter of the Association for Computa- 919
+tional Linguistics: Human Language Technologies, 920
+pages 613–623.
+921
+
+11
+
+934
+935
+936
+937
+
+Han Wang, Archiki Prasad, Elias Stengel-Eskin,
+and Mohit Bansal. 2025b. Retrieval-augmented
+generation with conflicting evidence. Preprint,
+arXiv:2504.13079.
+
+938
+939
+940
+941
+942
+943
+944
+945
+946
+
+Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran
+Zhang, Yixin Wu, Zhibo Xu, Tianyuan Shi,
+Zhengyuan Wang, Shizheng Li, Qi Qian, Ruicheng
+Yin, Changze Lv, Xiaoqing Zheng, and Xuanjing
+Huang. 2024. Searching for best practices in
+retrieval-augmented generation. In Proceedings of
+the 2024 Conference on Empirical Methods in Natural Language Processing, pages 17716–17736. Association for Computational Linguistics.
+
+947
+948
+949
+
+Zhiruo Wang, Jun Araki, Zhengbao Jiang, Md Rizwan
+Parvez, and Graham Neubig. 2023. Learning to filter
+context for retrieval-augmented generation.
+
+950
+951
+952
+953
+954
+
+Bingbing Wen, Jihan Yao, Shangbin Feng, Chenjun Xu,
+Yulia Tsvetkov, Bill Howe, and Lucy Lu Wang. 2025.
+Know your limits: A survey of abstention in large
+language models. Transactions of the Association for
+Computational Linguistics, 13:529–556.
+
+955
+956
+957
+958
+959
+960
+961
+
+Penny F. Whiting, Anne W. S. Rutjes, Marie E. Westwood, Susan Mallett, Jonathan J. Deeks, Johannes B.
+Reitsma, Mariska M. G. Leeflang, Jonathan A. C.
+Sterne, and Patrick M. M. Bossuyt. 2011. QUADAS2: A revised tool for the quality assessment of diagnostic accuracy studies. Annals of Internal Medicine,
+155(8):529–536.
+
+962
+963
+964
+
+Chong Xiang, Tong Wu, Zexuan Zhong, David Wagner,
+Danqi Chen, and Prateek Mittal. 2024. Certifiably
+robust rag against retrieval corruption.
+
+965
+966
+967
+968
+969
+970
+971
+
+Rongwu Xu, Zehan Qi, Zhijiang Guo, Cunxiang Wang,
+Hongru Wang, Yue Zhang, and Wei Xu. 2024.
+Knowledge conflicts for LLMs: A survey. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 8541–
+8565, Miami, Florida, USA. Association for Computational Linguistics.
+
+972
+973
+974
+975
+976
+
+Yuming Xu, Mingtao Zhang, Zhuohan Ge, Haoyang
+Li, Nicole Hu, Yongqi Zhang, Zhiyuan Wen, Jason Chen Zhang, Qing Li, and Lei Chen. 2026. Securing retrieval-augmented generation: A taxonomy
+of attacks, defenses, and future directions.
+
+977
+978
+979
+980
+
+Jiaqi Xue, Mengxin Zheng, Yebowen Hu, Fei Liu, Xun
+Chen, and Qian Lou. 2024. Badrag: Identifying
+vulnerabilities in retrieval augmented generation of
+large language models.
+
+981
+982
+
+Shi-Qi Yan, Jia-Chen Gu, Yun Zhu, and Zhen-Hua Ling.
+2024. Corrective retrieval augmented generation.
+
+983
+984
+985
+
+Xiangyu Yin, Yi Qi, and Chih-Hong Cheng. 2026. Progrank: Probe-gradient reranking to defend denseretriever rag from corpus poisoning.
+
+986
+987
+988
+989
+
+Ori Yoran, Tomer Wolfson, Ori Ram, and Jonathan
+Berant. 2024. Making retrieval-augmented language
+models robust to irrelevant context. In International
+Conference on Learning Representations.
+
+Hao Yu, Aoran Gan, Kai Zhang, Shiwei Tong, Qi Liu, 990
+and Zhaofeng Liu. 2024. Evaluation of retrieval- 991
+augmented generation: A survey.
+992
+Wenhao Yu, Hongming Zhang, Xiaoman Pan, Kaixin 993
+Ma, Hongwei Wang, and Dong Yu. 2023. Chain-of- 994
+note: Enhancing robustness in retrieval-augmented 995
+language models.
+996
+Baolei Zhang, Haoran Xin, Minghong Fang, Zhuqing 997
+Liu, Biao Yi, Tong Li, and Zheli Liu. 2025a. Trace- 998
+back of poisoned texts in poisoning attacks to 999
+retrieval-augmented generation.
+1000
+Baolei Zhang, Haoran Xin, Minghong Fang, Zhuqing1001
+Liu, Biao Yi, Tong Li, and Zheli Liu. 2025b. Trace-1002
+back of poisoning attacks to retrieval-augmented gen-1003
+eration.
+1004
+Qinggang Zhang, Zhishang Xiang, Yilin Xiao, Le Wang,1005
+Junhui Li, Xinrun Wang, and Jinsong Su. 2025c.1006
+Faithfulrag: Fact-level conflict modeling for context-1007
+faithful retrieval-augmented generation. In ACL. 1008
+Yuxin Zhang, Yan Wang, Yongrui Chen, Shenyu Zhang,1009
+Xinbang Dai, Sheng Bi, and Guilin Qi. 2025d. Magic1010
+mushroom: A customizable benchmark for fine-1011
+grained analysis of retrieval noise erosion in rag sys-1012
+tems.
+1013
+Zexuan Zhong, Ziqing Huang, Alexander Wettig, and1014
+Danqi Chen. 2023. Poisoning retrieval corpora by1015
+injecting adversarial passages.
+1016
+Yujia Zhou, Wenbo Zhang, Jingying Shao, Yan Liu,1017
+Xiaoxi Li, Jiajie Jin, Hongjin Qian, Zheng Liu,1018
+Chaozhuo Li, Jason Chen Zhang, Zhicheng Dou,1019
+Philip S. Yu, and Jiaxin Mao. 2024. Trustworthi-1020
+ness in retrieval-augmented generation systems: A1021
+survey.
+1022
+Xi Zhu, Ziqi Wang, Kai Mei, Wujiang Xu, Ming-1023
+hao Guo, Bangji Yang, Jiajun Fan, and Dimitris N.1024
+Metaxas. 2026. Trust or abstain? a self-aware rag1025
+approach.
+1026
+Wei Zou, Runpeng Geng, Binghui Wang, and Jinyuan1027
+Jia. 2025. Poisonedrag: Knowledge corruption at-1028
+tacks to retrieval-augmented generation of large lan-1029
+guage models. In USENIX Security.
+1030
+
+12
+
+1031
+
+A
+
+Extended Survey by Scientific Question
+
+A.2
+
+This appendix expands the compact domain con1033 text in the main paper through representative paper1034 level contrasts. It is not an exhaustive bibliography:
+1035 the released 342-row evidence map contains the
+1036 long-tail records, source strata, and intervention
+1037 labels. Because the map has no study-level risk-of1038 bias weighting and its initial search logs are incom1039 plete, the synthesis below identifies recurring scien1040 tific distinctions rather than estimating prevalence
+1041 or ranking evidence families. The review-directed
+1042 recall check on 2026-07-15 also identified older,
+1043 pre-freeze publications absent from the frozen map.
+1044 We cite those papers as qualitative context and log
+1045 them as post-freeze discoveries; they do not enter
+1046 the 342-row denominator.
+1032
+
+1047
+
+A.1
+
+Which Knowledge Should Govern an
+Answer?
+
+1080
+1081
+
+Knowledge-conflict work separates context–1082
+memory disagreement from conflict among1083
+retrieved sources. Tug-of-War measures how1084
+models trade parametric and contextual knowledge;1085
+FaithfulRAG models fact-level discrepancies;1086
+Astute RAG reconciles imperfect retrieval with1087
+internal knowledge (Jin et al., 2024b; Zhang et al.,1088
+2025c; Wang et al., 2025a). Although all three1089
+concern “conflict,” their experimental units, source1090
+assumptions, and desired responses differ. The1091
+appropriate outcome may be answer correctness,1092
+contextual faithfulness, calibrated disclosure, or1093
+source reconciliation. Earlier entity-substitution1094
+experiments and PopQA isolate when parametric1095
+memory resists or benefits from retrieved evidence1096
+(Longpre et al., 2021; Mallen et al., 2023). Con-1097
+flictBank broadens the benchmark unit to millions1098
+of claim–evidence pairs across misinformation,1099
+temporal conflict, and semantic ambiguity (Su1100
+et al., 2024); its scale does not make those conflict1101
+types interchangeable.
+1102
+Grounding resources address another layer.1103
+RAGTruth provides span-level hallucination labels,1104
+while RAGAS and ARES estimate response or con-1105
+text support (Niu et al., 2024; Es et al., 2024; Saad-1106
+Falcon et al., 2024). These evaluators can identify1107
+an unsupported answer, but support alone does not1108
+establish that the cited source is current or authori-1109
+tative. A system can be faithful to weak evidence1110
+or correct for a reason absent from its citations. 1111
+Source reliability and time therefore belong in1112
+the evidence record. Recent work models source1113
+reliability directly (Hwang et al., 2025), and other1114
+studies examine source preference and contex-1115
+tual authority (Schuster et al., 2026; Li et al.,1116
+2026). The comparison-relevant question is not1117
+only whether the model used retrieved text, but1118
+whether the benchmark specified which source1119
+should govern, at what timestamp, and under what1120
+corroboration rule. KILT standardizes provenance1121
+against a fixed knowledge source, while FreshQA1122
+and RealTimeQA test knowledge whose answer1123
+changes over time (Petroni et al., 2021; Vu et al.,1124
+2024; Kasai et al., 2023). ALCE and generative-1125
+search verifiability work separately score citation1126
+attribution and whether cited sources actually sup-1127
+port generated statements (Gao et al., 2023; Liu1128
+et al., 2023).
+1129
+Multi-agent methods add yet another interven-1130
+
+When Does Retrieved Context Help?
+
+Irrelevant-context and noise-aware-training studies
+intervene at different points. Yoran et al. (2024)
+1050 shows that retrieved distractors can actively redi1051 rect generation and tests filtering and targeted fine1052 tuning. Fang et al. (2024) instead trains a gener1053 ator across random, relevant, and counterfactual
+1054 retrieval conditions. RGB supplies stress condi1055 tions and diagnostic abilities rather than a compet1056 ing mitigation (Chen et al., 2024a). These papers
+1057 can share an end-to-end harness, but their native
+1058 results do not rank a filter, a trained reader, and a
+1059 benchmark as interchangeable objects.
+1060
+Context construction creates a second bound1061 ary. Chain-of-Note changes how the generator
+1062 reads retrieved documents, whereas compression
+1063 and reranking alter what reaches it (Yu et al., 2023;
+1064 Wang et al., 2023; Trappolini et al., 2025). Long1065 context studies show that retaining more passages
+1066 can improve evidence availability while worsening
+1067 position sensitivity or distraction (Jin et al., 2024a;
+1068 Gabín et al., 2026). A fair comparison therefore
+1069 fixes the candidate evidence, generator, decoding,
+1070 and budget when the intended claim is about the
+1071 intervention rather than the entire system.
+1072
+Insufficient evidence is not merely severe distrac1073 tion. Sufficient Context labels whether the avail1074 able passages can support an answer and evaluates
+1075 selective behavior (Joren et al., 2025). A reader that
+1076 resists a hard negative and a controller that abstains
+1077 when support is absent solve different problems.
+1078 Reports should state both answer-bearing support
+1079 availability and the scored action.
+1048
+1049
+
+13
+
+tion boundary. MAIN-RAG uses agent voting to
+filter retrieved documents, MADAM-RAG assigns
+1133 agents to conflicting documents before aggregation,
+1134 and DRAG introduces debate during retrieval and
+1135 generation (Chang et al., 2025; Wang et al., 2025b;
+1136 Hu et al., 2025). General multi-agent debate sup1137 plies methodological background (Du et al., 2024),
+1138 but these RAG systems should be compared only
+1139 when the evidence allocation, agent budget, aggre1140 gation rule, and target outcome match.
+
+context detector does not determine whether re-1181
+trieval, clarification, or abstention has the highest1182
+utility.
+1183
+Adaptive systems make the policy explicit. Self-1184
+RAG learns when to retrieve and critique; CRAG1185
+adds corrective retrieval; CtrlA separates uncer-1186
+tainty sources to select control actions (Asai et al.,1187
+2024; Yan et al., 2024; Liu et al., 2025b). Their1188
+reported gains depend on the available action set1189
+and resource budget. Answer-only accuracy can-1190
+not capture the benefit or cost of extra retrieval,1191
+verification, or refusal.
+1192
+Selective evaluation should therefore retain risk,1193
+coverage, action, and cost rather than collapse them1194
+into one score. Trust-or-abstain methods, con-1195
+formal controllers, and uncertainty benchmarks1196
+instantiate different operating points (Zhu et al.,1197
+2026; Chen et al., 2024b; Nguyen et al., 2026).1198
+Comparisons are strongest when systems share evi-1199
+dence and actions and are evaluated across a risk–1200
+coverage or utility curve.
+1201
+
+1131
+1132
+
+1141
+
+A.3
+
+What Changes Under an Attacker?
+
+Corpus poisoning makes evidence unreliability intentional. PoisonedRAG inserts passages to steer
+1144 target answers; earlier corpus-poisoning work ma1145 nipulates retrieval through adversarial passages
+1146 (Zou et al., 2025; Zhong et al., 2023). Attack suc1147 cess is conditional on corpus write access, insertion
+1148 budget, query knowledge, retriever visibility, and
+1149 target scope. Omitting these fields can make two
+1150 attack rates numerically similar but scientifically
+1151 incomparable.
+1152
+Indirect prompt injection and backdoors target
+1153 a different interface. Retrieved text may contain
+1154 instructions that override the user task, or a trig1155 ger may activate behavior learned during training
+1156 (Chaturvedi et al., 2025; Chaudhari et al., 2024;
+1157 Cheng et al., 2024). These attacks should not in1158 herit claims from factual poisoning merely because
+1159 both place malicious text in the context. Retrieval
+1160 realism, instruction-following behavior, and trigger
+1161 access define distinct games.
+1162
+Defenses likewise have different roles. Certified
+1163 RAG gives guarantees under a bounded corruption
+1164 model; filtering and semantic isolation demote sus1165 picious documents; traceback identifies likely poi1166 soned sources (Xiang et al., 2024; Si et al., 2025;
+1167 Zhang et al., 2025a). Prevention, certified accu1168 racy, detection, and recovery require different out1169 comes. Any cross-defense comparison should pair
+1170 the same capability envelope with clean utility and
+1171 state whether the defense prevents, detects, traces,
+1172 quarantines, or recovers.
+1142
+1143
+
+1173
+
+A.4
+
+A.5
+
+What Can the Evidence Map Establish? 1202
+
+The map documents that robust-RAG research1203
+spans evidence construction, evidence use, adver-1204
+sarial integrity, and action control. Existing surveys1205
+provide architectural, evaluation, trustworthiness,1206
+security, conflict, and abstention views (Gao et al.,1207
+2024; Yu et al., 2024; Zhou et al., 2024; Xu et al.,1208
+2026, 2024; Wen et al., 2025). Controlled searches1209
+for RAG best practices provide an empirical com-1210
+ponent comparison under shared tasks (Wang et al.,1211
+2024), complementary to survey taxonomies and1212
+to the claim-level audit studied here. Table 1 states1213
+the narrower claim-level increment tested here. 1214
+The map cannot establish that these families oc-1215
+cur at representative rates, that its taxonomy is1216
+complete, or that one family has stronger evidence.1217
+Accepted-paper additions strengthen several histor-1218
+ical lines, while 207 of 342 mapped rows remain1219
+preprints and coding depth varies across legacy1220
+strata. For that reason, map counts provide doc-1221
+umentary context only. The main design claim1222
+comes from the assignment-unit simulation; the1223
+80-claim human diagnostic is reported separately1224
+and does not validate the framework.
+1225
+
+How Does a Signal Become an Action?
+
+Calibration, answerability, and retrieval usefulness
+1175 are related but not identical signals. Calibration1176 oriented RAG predicts reliability, whereas Suffi1177 cient Context asks whether the retrieved evidence
+1178 can support an answer (Jang et al., 2025; Joren
+1179 et al., 2025). A well-calibrated score can still feed a
+1180 poor threshold or action policy, and an insufficient1174
+
+B
+
+14
+
+Unvalidated Model-Coded Claim
+Inventory
+
+1226
+1227
+
+n
+
+Valid
+
+Partial
+
+Invalid
+
+U
+
+C2
+
+C5
+
+Controls
+
+General comparison (4 sources)
+Action and abstention (4 sources)
+Security threat model (3 sources)
+
+149
+84
+56
+
+79
+34
+12
+
+57
+33
+44
+
+13
+13
+0
+
+0
+4
+0
+
+0
+0
+7
+
+0
+9
+3
+
+3
+17
+3
+
+Combined (9 unique sources)
+
+289
+
+125
+
+134
+
+26
+
+4
+
+7
+
+12
+
+23
+
+Fixed source slice
+
+Table 6: Unvalidated model-generated index. U denotes model-labeled under-specified claims. C2, C5, and Controls
+count internal rule transitions, not confirmed improvements. These counts are retained for reproducibility and must
+not be interpreted as literature prevalence or human verdicts.
+Slice
+
+Sources
+
+Frozen sections
+
+General
+
+Sharma; Zhou et al.; Xu
+et al.; Alushi et al.
+Wen et al.; Joren et al.;
+Liu et al.; Zhu et al.
+(Wen et al., 2025; Joren
+et al., 2025; Liu et al.,
+2025c; Zhu et al., 2026)
+Xu et al.; Zhou et al.; Ni
+et al.
+
+Cross-paper synthesis, shared model comparison,
+security evaluation limits, and unified RAG results.
+Abstention evaluation, selective RAG, uncertainty
+control, and trust-or-abstain results.
+
+149
+
+149
+
+86
+
+84
+
+Attack surfaces, defense layers, attacker access,
+objectives, targets, and evaluation conditions.
+
+56
+
+56
+
+Action policy
+
+Threat model
+
+Candidates Included
+
+Table 7: Purposive source slices after one logged atomicity split. Each source manifest records exact sections, URL,
+version, page range, and PDF hash. The threat slice was added adaptively and the sources do not define a statistical
+population.
+Rule transition
+
+Claims
+
+Strict three-field partial →
+five-coordinate valid
+Strict three-field invalid →
+five-coordinate partial
+Three-field partial/valid →
+five-coordinate invalid
+Five-coordinate valid → full
+partial/under-specified
+Five-coordinate partial → full
+under-specified
+
+120
+31
+10
+20
+3
+
+Interpretation
+Different interventions become legitimate alternatives once the common
+evidence state, outcome, and shared harness are recognized.
+A topical or component-level relation survives even though a direct scalar
+rank does not.
+Origin/capability or policy/utility removes an apparent common estimand.
+Experimental controls, rather than semantic fields, prevent the claim as
+written.
+A narrower semantic relation exists, but a critical empirical control cannot
+be recovered.
+
+Table 8: Deterministic transitions over 289 model-coded claims. These describe the frozen rule’s behavior, not
+correct changes established by independent labels.
+Human-sample claim
+
+Source evidence
+
+Adjudicated
+label
+
+Diagnostic lesson
+
+HCV-072: HyDE “triples”
+Vanilla RAG on INSCIT
+(Alushi et al., 2026).
+HCV-073: Hybrid BM25
+has higher F1 “across all
+datasets” (Alushi et al.,
+2026).
+HCV-007: indirect
+prompt injection embeds
+instructions in retrieved
+documents (Zhou et al.,
+2024).
+HCV-009: abstention
+should lead to later
+information acquisition
+(Wen et al., 2025).
+
+Same harness; MRR@5 is
+25.2 versus 8.0.
+
+Valid
+
+Different interventions can be compared when
+outcome and controls align.
+
+Seven of eight rows support
+the direction; INSCIT is 19.1
+versus 19.2.
+
+Partial
+
+This is an ordinary universal-quantifier error,
+not evidence that a new coordinate is needed.
+
+The survey faithfully
+describes the cited
+mechanism without ranking
+attacks.
+
+Valid
+
+Capability differences should not mechanically downgrade a scoped descriptive report.
+
+No common utility, latency,
+coverage, or
+dialogue-success comparison
+is supplied.
+
+Invalid
+
+A normative action rank requires shared
+stakes and costs.
+
+Table 9: Source-linked examples from the 80-claim human sample. Labels are the fourth human’s adjudicated
+decisions, not model verdicts. They separate ordinary claim checking from comparability-specific reasoning.
+
+15
+
+1228
+
+C
+
+Development Diagnostic Details
+
+16
+
+Rule
+Three-field taxonomy
+Evidence+controls (C2/C5 ablated)
+Five coordinates
+Five coordinates + controls
+
+Exact [95% CI]
+
+κ [95% CI]
+
+Macro-F1 [95% CI]
+
+0.300 [0.182, 0.413]
+0.500 [0.389, 0.593]
+0.550 [0.494, 0.612]
+0.500 [0.422, 0.575]
+
+-0.003 [-0.106, 0.109]
+0.254 [0.079, 0.383]
+0.315 [0.217, 0.393]
+0.273 [0.139, 0.364]
+
+0.180 [0.108, 0.256]
+0.417 [0.247, 0.556]
+0.382 [0.299, 0.449]
+0.437 [0.291, 0.547]
+
+Table 10: Agreement with adjudicated human verdicts on the 80-claim sample. Intervals use 50,000 source-cluster
+bootstrap resamples over nine sources. The resampling respects within-source dependence but cannot make a
+non-probability, development-overlapping sample representative. All rows still reuse the same model-coded fields.
+
+Human-adjudicated archetype
+
+n
+
+Sources
+
+Full exact [95% CI]
+
+Full–ablated exact [95% CI]
+
+Self-baseline
+Shared harness
+Cross-source
+Causal/mechanistic
+Field-level
+Policy/utility
+
+12
+22
+19
+14
+5
+8
+
+7
+5
+6
+5
+2
+5
+
+0.333 [0.111, 0.625]
+0.500 [0.286, 0.737]
+0.474 [0.217, 0.714]
+0.500 [0.154, 0.846]
+0.600 [0.000, 0.750]
+0.750 [0.556, 1.000]
+
++0.000 [+0.000, +0.000]
+-0.045 [-0.150, +0.000]
++0.000 [-0.176, +0.214]
++0.000 [+0.000, +0.000]
++0.000 [+0.000, +0.000]
++0.125 [-0.333, +0.667]
+
+Table 11: Exploratory archetype breakdown with source-cluster intervals. Small strata and few source clusters yield
+wide or discrete intervals; the rows should not be ranked as stable performance estimates.
+
+Field
+Claim archetype
+C1 evidence state
+C2 origin/capability
+C3 intervention
+C4 outcome/unit
+C5 policy/utility
+Control status
+Final verdict
+
+Raw agreement
+
+Cohen’s κ
+
+Gwet’s AC1
+
+0.637–0.738
+0.375–0.550
+0.600–0.738
+0.537–0.787
+0.662–0.750
+0.775–0.925
+0.400–0.537
+0.537–0.787
+
+0.546–0.659
+0.101–0.283
+0.153–0.401
+0.215–0.535
+0.253–0.462
+0.445–0.737
+0.208–0.266
+0.258–0.525
+
+0.570–0.690
+0.256–0.470
+0.549–0.673
+0.438–0.727
+0.620–0.718
+0.720–0.913
+0.273–0.452
+0.434–0.751
+
+Table 12: Ranges over the three human-coder pairs on all 80 claims. Low C1, C3, and control-status agreement
+localizes the main operational ambiguity.
+
+17
+
+Field
+
+Exact
+
+κ
+
+AC1
+
+Archetype
+C1 evidence state
+C2 origin/capability
+C3 intervention
+C4 outcome/unit
+C5 policy/utility
+Control status
+
+0.738
+0.575
+0.725
+0.675
+0.762
+0.887
+0.562
+
+0.670
+0.001
+0.359
+0.302
+0.332
+0.705
+0.356
+
+0.688
+0.532
+0.679
+0.589
+0.739
+0.861
+0.474
+
+Table 13: Agreement between model-coded fields and
+adjudicated human fields on the same 80 claims. This
+separates field extraction/coding disagreement from the
+later rule-composition step, although several intermediate rule flags were not human-adjudicated.
+
+18
+
+Reference labels
+
+n
+
+Ablated exact
+
+Full exact
+
+∆ exact
+
+∆κ
+
+∆ macro-F1
+
+Adjudicated
+Coder A
+Coder B
+Coder C
+Available majority
+Unanimous subset
+
+80
+80
+80
+80
+78
+39
+
+0.500
+0.475
+0.550
+0.438
+0.500
+0.641
+
+0.500
+0.463
+0.575
+0.400
+0.487
+0.615
+
++0.000
+-0.012
++0.025
+-0.037
+-0.013
+-0.026
+
++0.019
++0.007
++0.046
+-0.020
++0.006
+-0.030
+
++0.020
++0.015
++0.033
+-0.016
++0.017
+-0.016
+
+Table 14: Sensitivity of the full-versus-ablated comparison to the reference labels. Individual-coder, majority, and
+unanimous rows are pre-adjudication diagnostics, not alternative gold standards. The sign of the exact-agreement
+difference changes across references.
+
+19
+
+1229
+
+D
+
+Assignment-Unit Simulation Details
+
+20
+
+Rater profiles
+
+Sources
+
+Claims
+
+Source-only rejection
+
+Participant-RI rejection
+
+SD/SE
+
+σr = 0.20
+σr = 0.20
+Homogeneous
+σr = 0.10
+σr = 0.20
+σr = 0.30
+σr = 0.20
+
+20
+40
+80
+80
+80
+80
+160
+
+120
+240
+480
+480
+480
+480
+960
+
+7.2%
+10.9%
+5.4%
+7.6%
+16.3%
+29.9%
+27.2%
+
+4.0%
+4.4%
+4.1%
+4.5%
+4.0%
+5.1%
+4.6%
+
+1.13
+1.23
+1.02
+1.11
+1.41
+1.88
+1.77
+
+Table 15: Complete null-simulation sweep. Each row uses 5,000 replicates and a true zero prompt effect. Monte
+Carlo standard errors for the rejection rates are recorded in the released JSON. The four headline rows appear in
+Table 5.
+
+1230
+
+E
+
+Framework and Taxonomy Details
+
+21
+
+Research line
+
+Evidence condition
+
+Context
+construction
+
+Irrelevant or hard
+negatives; missing
+support
+Evidence use and Unsupported claims;
+conflict
+source or memory
+conflict; stale
+evidence
+Adversarial
+Poisoned corpus,
+integrity
+backdoor trigger,
+retrieved instruction
+Uncertainty and
+Insufficient evidence,
+control
+uncertain answer,
+variable retrieval
+need
+Evaluation
+Mixed evidence
+infrastructure
+states and system
+roles
+
+Typical intervention
+
+Outcome / policy
+
+Examples
+
+Retriever/reranker,
+compression,
+noise-aware training
+Evidence-reading
+prompts, conflict
+modeling, source
+verification
+Corpus governance,
+isolation, aggregation,
+certification, traceback
+Calibration, sufficiency
+estimation,
+routing/controller
+
+Recall, answer accuracy,
+filter or re-retrieve
+
+IrrelCtx; RAAT; RGB
+
+Claim support, source
+preference, expose
+conflict
+
+RAGTruth; FaithfulRAG;
+Astute RAG
+
+Attack success, clean
+utility, quarantine or
+recovery
+Selective risk, coverage,
+answer, abstain, clarify
+
+PoisonedRAG; RobustRAG; security surveys
+
+Benchmark, evaluator,
+shared end-to-end
+harness
+
+Sufficient Context; CalibRAG; abstention surveys
+
+Multi-objective scorecard RAG evaluation surveys;
+and action trace
+unified comparisons
+
+Table 16: Detailed robust-RAG research landscape. Co-membership in one line identifies a shared concern, not a
+direct leaderboard: evidence origin, measured unit, policy, and controls still delimit comparison.
+
+Coordinate
+
+Controlled values
+
+Equivalence / boundary rule
+
+Verdict effect
+
+Evidence state
+
+Supported; irrelevant/distracting;
+insufficient; conflicting; stale/weak
+provenance; adversarially manipulated; not
+evidence-conditioned.
+Benign retrieval; constructed stressor;
+natural conflict/drift; query or distribution
+shift; attacker-created evidence; shared
+clean harness.
+
+Code what is observable at the decision boundary.
+Query ambiguity, OOD input, confidence, and
+attacker access are not evidence states by
+themselves.
+Record how the state arose. For security, include
+corpus write access, query control, retriever
+visibility, generator access, insertion budget,
+objective, and target.
+
+A direct performance claim normally requires a common state or
+an explicit cross-state estimand.
+
+Corpus/index; retriever; reranker; context
+assembly/compression; generator
+prompting or training; verifier;
+system-control policy; evaluation-only
+artifact.
+Answer correctness; retrieval quality;
+evidence support; attack or defense utility;
+privacy leakage; calibration; selective
+risk/coverage; cost/latency; human
+preference.
+Answer; abstain; re-retrieve; filter; verify;
+expose conflict; clarify; quarantine;
+recover; not applicable; unreported.
+
+Code the component changed. Different
+interventions may be compared as alternatives
+when a shared end-to-end harness controls the
+remaining pipeline; otherwise they provide
+component-specific or compositional evidence.
+Record definition, direction, aggregation, and
+unit. Relative gains over different baselines are
+not automatically a shared estimand.
+
+Dataset/corpus snapshot;
+retriever/top-k/chunking;
+generator/decoding; compute budget;
+baselines; uncertainty/statistical design.
+Valid; partial; invalid; under-specified.
+
+Select controls according to the stated inference.
+The tuple cannot remove confounding from
+unmatched experimental systems.
+
+Origin / capability
+
+Intervention point
+
+Outcome / unit
+
+Policy / utility
+
+Second-stage
+controls
+Final verdict
+
+Use not applicable for fixed descriptive
+comparisons. When policies compete, report
+action set, stakes, preferences, coverage, and cost.
+
+Valid = semantic fields and relevant controls
+support the stated claim. Partial = only a
+component-level or qualified claim is supported.
+Invalid = assumptions or objectives define a
+different game. Under-specified = a
+decision-critical field remains unavailable after
+full-text inspection.
+
+Cross-source ranks over different
+games become partial or invalid;
+a shared harness may deliberately
+vary capability as the controlled
+factor.
+Intervention mismatch alone does
+not determine the verdict. The intended claim and shared controls
+decide whether the comparison is
+valid or partial.
+A one-scalar ranking requires a
+common target; otherwise report
+a qualified multi-objective comparison.
+Different actions can be ranked
+only under common utility; a signal alone does not establish the
+preferred response.
+Tuple compatibility is necessary
+diagnostic information but not sufficient for a direct empirical ranking.
+Verdicts attach to comparison
+claims, not permanently to paper pairs. A new shared-harness
+experiment can change the supported verdict.
+
+Table 17: Two-stage decision procedure. The five coordinates diagnose semantic compatibility; claim-specific
+experimental controls determine whether the claim as written is warranted.
+
+22
+
+Boundary case
+
+Five-coordinate diagnosis
+
+Second-stage control check
+
+Supported conclusion
+
+Different interventions, shared
+harness
+
+A retriever filter and a generator-side
+reader address the same evidence state,
+metric target, and answer policy;
+intervention differs.
+Two answer-only methods target
+benign retrieval noise and answer
+correctness at the generator.
+
+Same corpus, retriever output before
+intervention, generator, budget, metric,
+and seeds.
+
+A valid end-to-end comparison is
+possible. Intervention mismatch
+alone does not force partial.
+
+Different datasets, retrievers, model
+scales, top-k, and compute budgets.
+
+A QA benchmark never uses “action
+policy” but requires one answer for
+every item and gives no abstention
+channel.
+An attack artifact and a defense share a
+threat model but optimize attack
+success and defended utility.
+
+Evaluation code and output schema
+confirm answer-only behavior.
+
+The papers are conceptually comparable but their reported numbers
+are not directly rankable without a
+shared rerun or adjustment.
+Code answer when policy is
+decision-relevant; use not applicable for a fixed descriptive comparison.
+Valid as components of one evaluation, partial as substitutable methods, invalid if ranked under incompatible objectives.
+A direct ranking is invalid even if
+intervention, metric name, and answer behavior appear similar.
+
+All five fields match, systems
+differ
+Action unnamed but observable
+
+Same pair, different claim
+
+Same label, incompatible
+capability
+
+A common attack–defense harness can
+evaluate both roles; a paper-only scalar
+comparison cannot.
+
+Two poisoning studies both report
+attack success, but one assumes
+bounded corpus insertion and the other
+controls retrieved instructions at query
+time.
+
+Capability, budget, retrieval probability,
+and objective do not align.
+
+Table 18: Counterexamples delimiting the schema. Verdicts depend on the stated comparison and experimental
+controls; the five coordinates are diagnostic fields rather than a necessary-and-sufficient classifier.
+
+Boundary case
+
+Rule used in this paper
+
+Verdict consequence
+
+Example implication
+
+Noisy retrieval vs. distraction
+
+Retrieval imperfection alone is coded as
+relevance/noise; harmful influence on generation,
+confidence, or reasoning is coded as distraction.
+
+Same broad topic but different measured
+effect is partial.
+
+Query/OOD vs. evidence
+state
+
+Query ambiguity, distribution shift, and model
+uncertainty describe the need or belief state. Code
+them under origin unless the study labels the
+resulting retrieved evidence.
+Code by the source of contradiction, not by surface
+form. Naturally occurring or diagnostic
+contradiction is conflict; attacker-created
+contradiction is integrity/adversarial corruption.
+Code the component changed, then inspect the
+evaluation harness. Different interventions can be
+compared as alternatives if the remaining pipeline
+and target are controlled.
+
+Shared uncertainty language does not
+imply a common evidence state or policy.
+
+Metric targets must match the object being
+measured. Accuracy, citation support, attack
+success, calibration, and selective risk are separate
+families.
+Infer behavior only when action is
+decision-relevant and the protocol is unambiguous;
+otherwise use not applicable.
+
+Shared dataset but different metric family
+is partial; mutually incompatible targets
+are invalid for one-scalar ranking.
+
+Security capability missing
+
+Mark only decision-critical missing access, budget,
+objective, or target as unknown. A shared harness
+may intentionally vary capability.
+
+Unknown capability makes a cross-game
+rank under-specified; controlled
+capability variation can support a valid
+descriptive contrast.
+
+Benchmark vs. method
+
+Code benchmark if the reusable artifact is the main
+contribution; otherwise code the intervention.
+
+Tuple match but control
+mismatch
+
+After semantic coding, inspect corpus, data,
+retriever, generator, top-k, budget, baselines,
+decoding, and uncertainty.
+
+Benchmark-method comparison is partial
+unless the method is evaluated on the
+benchmark under aligned assumptions.
+A tuple match is insufficient for direct
+ranking when these factors confound the
+reported score.
+
+Random negatives and
+hard distractors should
+not be pooled into one
+score.
+An OOD detector is
+not automatically an
+insufficient-context
+detector.
+Faithfulness or sourcepreference methods are
+not poisoning defenses by
+default.
+A filter and a note-taking
+prompt can be compared
+after fixing retriever, generator, evidence states,
+budget, and action utility.
+A correct answer with unsupported citation should
+not pass a faithfulness
+comparison.
+An answer-only benchmark supplies answer for
+a policy claim, but a fixed
+latency comparison needs
+no action label.
+Black- and white-box
+variants of one attack can
+be compared inside the
+same harness without implying cross-paper transfer.
+RGB is benchmark-first;
+RAAT is training-first.
+
+Natural conflict vs.
+adversarial corruption
+Intervention mismatch
+
+Metric overlap
+
+Observable but unnamed
+action
+
+Natural-conflict and poisoning results are
+invalid as a direct ranking unless the
+threat model is redefined.
+Shared harness and end-to-end target can
+support valid comparison; unmatched
+pipelines support only a qualified
+comparison.
+
+Merely omitting the phrase “action
+policy” does not force
+under-specification.
+
+Two answer-only noise
+methods on different
+datasets and generators
+require a shared rerun or
+a qualified claim.
+
+Table 19: Boundary rules for applying the revised diagnostic schema. Verdicts are claim-specific and require both
+semantic and experimental-control checks.
+
+23
+
+Threat class
+
+Corpus
+
+Query
+
+Retr.
+
+Gen.
+
+Objective
+
+Boundary
+
+Dense-retriever poisoning
+(Zhong et al., 2023)
+RAG knowledge corruption
+(Zou et al., 2025; Xue et al.,
+2024)
+Backdoor-style RAG (Cheng
+et al., 2024; Chaudhari et al.,
+2024)
+Indirect prompt injection
+(Chaturvedi et al., 2025;
+Chang et al., 2026)
+Opinion/fairness
+manipulation (Chen et al.,
+2025b; Bagwe et al., 2025)
+Defense setting (Xiang et al.,
+2024; Yin et al., 2026;
+Choudhary et al., 2025;
+Zhang et al., 2025a)
+
+write
+
+train set
+
+white/gray
+
+no
+
+retrieve bad passages
+
+Not always end-to-end.
+
+write
+
+target topic
+
+black/gray
+
+black
+
+answer steering
+
+Stealth/dynamics vary.
+
+write
+
+trigger
+
+gray
+
+black
+
+latent behavior
+
+Normal queries may pass.
+
+write/share
+
+natural
+
+black
+
+black
+
+instruction hijack
+
+Must overcome retrieval.
+
+write
+
+group/topic
+
+black/gray
+
+black
+
+bias steering
+
+QA metrics miss social harm.
+
+bounded
+
+varies
+
+assumed
+
+black/gray
+
+detect/demote/trace
+
+Depends on budget/visibility.
+
+Table 20: Attacker-capability matrix for adversarial RAG. The same “attack success rate” can mean different things
+depending on corpus write access, query control, retriever visibility, generator access, and objective.
+
+24
+
+1231
+
+F
+
+Evaluation and Reporting
+
+25
+
+Required field
+
+What to report
+
+If omitted
+
+Example consequence
+
+Evidence-state definition
+
+Supported, irrelevant/distracting, insufficient,
+conflicting, stale/weak provenance, adversarially
+manipulated, or not evidence-conditioned.
+Benign retrieval, constructed stressor, natural
+conflict/drift, distribution shift, or attacker access,
+budget, objective, and target.
+Corpus/KB, retriever/context, context assembly,
+generator, system control, or evaluation artifact.
+Corpus snapshot, retriever, top-k, chunking,
+reranking/compression, and index drift controls.
+
+Papers with the same robustness
+label may test different evidence
+properties.
+Stressors are not portable.
+
+Noise training is ranked against
+sufficiency prediction.
+
+Answer correctness, support, attack success,
+privacy leakage, selective risk, calibration, cost,
+or action utility, including definition and
+aggregation.
+Answer, abstain, retrieve again, filter, verify,
+expose conflict, clarify, quarantine, or recover,
+plus stakes, preferences, coverage, and cost when
+actions compete.
+Dataset, generator, decoding, compute budget,
+baselines, seeds, uncertainty intervals, and
+significance procedure.
+Coverage, selective risk, confidence target,
+abstention reward, and re-retrieval cost.
+
+Different objectives collapse into
+one score.
+
+Attacker access, query control, retriever visibility,
+insertion budget, objective, and adaptive-defense
+assumptions.
+
+Security numbers are not
+comparable.
+
+Origin / capability
+Intervention boundary
+Retrieval setting
+Outcome and unit
+
+Policy and utility
+
+Model and comparison
+controls
+Uncertainty / abstention
+handling
+Security threat model
+
+Pipeline modules are treated as
+substitutable.
+Results cannot be reproduced or
+normalized.
+
+Natural conflict is compared
+with poisoning.
+A benchmark is ranked against
+a mitigation method.
+A filter looks better because its
+retriever retrieved easier negatives.
+Lower attack success hides
+clean-utility loss.
+
+Accuracy and confidence are
+over-interpreted.
+
+A calibrated answerer may still
+answer from insufficient evidence.
+
+Tuple-aligned papers can still be
+empirically confounded.
+
+A method appears better because it uses a stronger generator or a larger budget.
+Refusal is rewarded when reretrieval should be the correct
+action.
+Prompt injection defenses are
+claimed to protect against corpus poisoning.
+
+Abstention can hide retrieval failure.
+
+Table 21: Reporting checklist for robust RAG under unreliable evidence. The five diagnostic fields identify the
+comparison question; claim-specific controls are additionally required for empirical inference.
+
+Benchmark
+
+Risk focus
+
+Task / data
+
+Perturbation or threat
+
+Metrics
+
+Boundary
+
+RGB (Chen et al.,
+2024a)
+
+noise, rejection,
+integration,
+counterfactuality
+
+English/Chinese QA
+
+noisy passages, false
+evidence, negative evidence
+
+accuracy,
+ability-specific scores
+
+RAGTruth (Niu
+et al., 2024)
+
+hallucination /
+faithfulness
+
+QA, data-to-text,
+summarization
+
+naturally generated
+unsupported spans
+
+word-level
+hallucination labels
+
+Sufficient Context
+(Joren et al., 2025)
+
+answerability
+
+QA with context sufficiency
+labels
+
+insufficient retrieved
+evidence
+
+selective generation /
+abstention
+
+MagicMushroom
+(Zhang et al.,
+2025d)
+
+retrieval noise
+
+configurable RAG stress
+tests
+
+distracting, low-quality,
+inconsequential, irrelevant
+noise
+
+robustness under noise
+types
+
+URAG (Nguyen
+et al., 2026)
+
+uncertainty
+
+RAG as MCQA / conformal
+prediction
+
+irrelevant/noisy retrieval and
+uncertainty sets
+
+coverage, set size,
+calibration
+
+QueryRobust
+(Percin et al., 2025)
+
+query robustness
+
+QA with query
+perturbations
+
+wording variation at
+query–retrieval interface
+
+retrieval and end-task
+degradation
+
+PoisonArena (Chen
+et al., 2025a)
+
+adversarial poisoning
+
+RAG attack competition
+setting
+
+competing poisoning attacks
+
+attack success,
+retrieval effects
+
+SafeRAG (Liang
+et al., 2025)
+
+RAG security
+
+security benchmark for
+RAG
+
+poisoning / malicious
+retrieval contexts
+
+attack and defense
+metrics
+
+MTRAG-UN
+(Rosenthal et al.,
+2026)
+
+multi-turn
+unanswerability
+
+multi-turn RAG
+conversations
+
+unanswerable, underspecified,
+non-standalone questions
+
+abstention /
+clarification quality
+
+CRUMQs (Liu
+et al., 2025a)
+
+unanswerable
+multi-hop RAG
+
+realistic multi-hop queries
+
+unanswerable and
+uncheatable questions
+
+answerability and
+robustness
+
+Broad diagnostic benchmark
+but not adaptive
+attack-oriented.
+Strong annotation granularity;
+less focused on
+retrieval-side
+threat models.
+Captures answerability but not
+adversarial corruption.
+Fine-grained
+noise; limited
+conflict/security
+coverage.
+Good for uncertainty; less
+direct for freeform generation.
+Focuses
+on
+query perturbation, not corpus
+corruption.
+Strong security
+focus; benign uncertainty is secondary.
+Securityoriented; not a
+full
+evidence
+reliability suite.
+Covers
+interaction;
+less
+focused
+on
+adversarial
+evidence.
+Useful
+for
+abstention;
+not a broad
+attack/noise
+benchmark.
+
+Table 22: Benchmark-level comparison for robust RAG evaluation. The table makes explicit what each benchmark
+perturbs, what it measures, and which failure modes remain outside its scope.
+
+26
+
+Benchmark component
+
+Required annotation
+
+Metric suite
+
+Why it is needed
+
+Evidence reliability
+
+relevance, sufficiency, freshness,
+provenance, support span
+distractor type, conflicting claim
+pair, source agreement
+attacker access, insertion budget,
+trigger type, poisoned document ID
+answerability label, ambiguity type,
+clarification target
+number of retrievals, verifier calls,
+latency, final action trace
+
+retrieval recall, sufficient-context accuracy, support precision
+answer flip rate, conflict sensitivity,
+context-utilization score
+attack success, poisoned retrieval rate,
+stealth, defense bypass
+selective risk, abstention precision/recall, clarification accuracy
+cost-adjusted accuracy, action utility,
+coverage–risk curve
+
+Distinguishes merely related passages
+from answer-supporting evidence.
+Reveals whether models ignore harmful
+context or silently pick a source.
+Makes security results comparable across
+threat models.
+Evaluates robust action selection, not just
+answer generation.
+Prevents methods from hiding robustness
+gains behind unbounded computation.
+
+Distraction and conflict
+Adversarial corruption
+Unanswerability and ambiguity
+Cost and system action
+
+Table 23: A proposed benchmark blueprint for robust RAG under unreliable evidence. This is a research agenda
+rather than a validated leaderboard; existing benchmarks cover parts of the schema.
+
+Axis
+
+Typical variation across papers
+
+Why conclusions fail to transfer
+
+Minimum reporting requirement
+
+Retriever/generator setting
+
+BM25 vs dense vs hybrid retrieval; small vs
+frontier generators; frozen vs fine-tuned
+models
+Poisoned-document count, corpus write
+access, query control, retriever visibility,
+generator access
+
+A defense may work by compensating
+for one retriever or one model scale
+rather than solving the failure mode.
+Attack success rates are incomparable
+when one attacker edits a corpus and
+another only controls the query.
+
+Metric target
+
+EM/F1, faithfulness, citation support, attack
+success, calibration error, selective risk, cost
+
+Statistical and
+reproducibility evidence
+
+Single seed/model vs multiple seeds/models;
+code/data availability varies
+
+Improving answer accuracy can worsen
+citation faithfulness; improving
+abstention can reduce coverage; reducing
+attacks can lower utility.
+Small prompt or model changes can
+reverse robustness rankings, especially
+for LLM-as-judge or attack benchmarks.
+
+Retriever, index, top-k, reranker,
+generator, prompt, decoding, and
+context length.
+Capability matrix, insertion budget, target set, stealth objective,
+and whether malicious evidence
+is retrieved.
+Report utility, evidence support,
+risk, calibration, cost, and security
+as a Pareto surface.
+
+Long-context baseline
+
+RAG-only comparisons vs long-context
+LLMs with the same documents
+
+A robustness gain may reflect retrieval
+compression rather than evidence
+reliability control.
+
+Attribution vs answer
+accuracy
+
+Some tasks score only final answer; others
+require evidence-supported citations
+
+A model can answer correctly for the
+wrong reason, cite irrelevant evidence, or
+ignore retrieved support.
+
+Attack budget and access
+
+Seeds, confidence intervals or
+bootstrap tests where feasible, released prompts, data splits, and
+code or exact API settings.
+Include a long-context or fullcontext baseline when context
+length permits, and report latency/cost.
+Claim-level support labels, citation precision/recall, and answer
+correctness reported separately.
+
+Table 24: Evaluation-assumption matrix for robust RAG. The table summarizes why benchmark results often cannot
+be compared without aligning system setup, threat model, metric target, reproducibility evidence, and long-context
+baselines.
+
+Main claim
+
+Cited evidence basis
+
+What the evidence supports
+
+Boundary
+
+Irrelevant or noisy context can harm
+generation.
+Knowledge conflict differs from
+adversarial corruption.
+
+Irrelevant-context robustness, RAAT,
+RGB, and counterfactual-noise studies.
+Conflict and poisoning studies with
+different evidence origins and evaluation
+targets.
+Poisoning, backdoor, prompt-injection,
+traceback, and certification studies.
+
+Noise affects both retrieval quality
+and generator context use.
+Natural disagreement and
+attacker-created contradiction
+require different assumptions.
+Attack/defense results require
+corpus access, query control,
+retriever visibility, and budget.
+Confidence estimation, evidence
+sufficiency, retrieval triggering,
+and abstention optimize different
+quantities.
+Existing benchmarks cover pieces
+of the proposed schema.
+
+Does not imply one robustness
+score covers all noise types.
+Conflict-resolution
+results
+should not be read as poisoningdefense results.
+The paper does not rank attacks
+by real-world prevalence.
+
+RAG attacks require capability
+normalization.
+Calibration, abstention, and retrieval
+control are distinct.
+
+Sufficient-context, uncertainty,
+adaptive-retrieval, and calibration
+studies.
+
+Action-trace evaluation is a benchmark
+agenda.
+
+Benchmarks exposing subsets of answer,
+evidence, action, cost, and threat fields.
+
+Does not validate a single universal control policy.
+No new leaderboard or empirical system ranking is claimed.
+
+Table 25: Narrative claim-to-source ledger. Expanded and strict citation audits were model-assisted and are not
+human validation; this table records the intended evidence boundary rather than certifying every citation.
+
+27
+
+1232
+
+G
+
+Scoping-Map Audit Artifacts
+
+28
+
+Evidence layer
+
+Unit and size
+
+Structured coverage
+
+Supported use and provenance
+boundary
+
+Scoping corpus
+
+536 broadly included
+papers
+
+Metadata and broad relevance
+
+Map B
+
+342 paper rows
+
+Claim inventory
+
+289 claims from
+purposive fixed sections
+
+Reliability study
+
+80 model-stratified
+claims
+
+Literature family and
+intervention; free-text metrics;
+no structured evidence origin or
+policy
+Model-coded coordinates,
+evidence flags, and
+claim-specific controls
+Three human coders, one
+adjudicated label, and
+model-rule baselines
+
+Documentary recall pool; single
+model-assisted broad screen, not
+duplicated and not
+prevalence-estimating.
+Source-stratified landscape synthesis;
+adjudicated subsets, but not a
+five-coordinate map.
+
+V3 replication
+
+480 claims from 80
+paper-disjoint sources
+
+Four independent audit arms,
+three reference experts, and two
+adjudicators
+
+Source-linked hypothesis index; its
+verdict distribution and internal
+ablations are not validated results.
+Negative stress test; unequal and
+partly unrecoverable sampling
+precludes population performance
+estimates.
+Frozen-protocol prompt-ablation
+replication; 35 unresolved
+comparability references fail the 5%
+gate. De-identified ratings and
+complete analyses are released.
+
+Table 26: The released evidence layers answer different questions. Larger model-assisted layers do not validate
+claim-level verdicts; the human layers test an annotation procedure rather than literature prevalence. No layer is
+treated as an independently validated gold standard.
+
+1,904
+retrieved records
+
+1,445
+open PDFs
+
+1,399
+deduplicated
+
+536
+included
+
++26 venue-linked
+Venue-augmented
+Base scoping
+scoping set
+set
+
+250 +24 venue-linked
+274
+-6 exclusions Map A: 268
+base evidence
+double-coded
+adjudicated seed
+records
+candidate records
+IAA basis
+
+Venue + extension
+PDF collections
+
+416-74 boundary rows
+Map B: 342
++148 new, +20 enriched
+Source-blind
+candidate
+adjudicated
+citation audit
+expansion
+synthesis map
+
+Figure 1: Corpus lineage. The 416-row venue-expanded candidate map is second-coded and adjudicated into Map
+B (342 rows), the canonical synthesis evidence map. Map A (268 rows) is the double-coded adjudicated seed used
+for IAA and adjudication audit. The base and venue-augmented scoping sets are used for boundary checks, while a
+separate 300-paper source-blind citation audit over the venue and extension PDF collections decides which papers
+enter the main text, case studies, or appendix.
+
+29
+
+Stage
+
+Count
+
+Rule
+
+Initial retrieval
+
+1,904 records
+
+Open full-text corpus
+
+1,445 PDFs
+
+Deduplicated
+dates
+
+1,399 papers
+
+Keyword search over arXiv, ACL Anthology, OpenReview, USENIX,
+AAAI/ACM landing pages where open versions were available, plus curated robust/trustworthy RAG paper lists; search cutoff 2026-06-03.
+Downloaded only open PDFs; removed failed downloads, inaccessible
+files, and non-PDF artifacts.
+Deduplicated by normalized title and arXiv/proceedings identifiers; retained the most complete metadata record when preprint and proceedings
+versions overlapped.
+Included papers that study RAG robustness, reliability, uncertainty, calibration, faithfulness, attack/defense, or evaluation under unreliable evidence;
+excluded application-only RAG papers.
+Papers directly shaping the taxonomy, threat/failure model, intervention
+mechanisms, or evaluation framework.
+Core papers used as main narrative anchors; the remaining 12 core-pool
+papers stay in the broader scoping set.
+Core papers plus representative supporting work across all taxonomy
+branches before venue follow-up triage.
+Base scoping set plus 26 venue-linked additions after follow-up triage.
+
+candi-
+
+Relevance screening
+
+536 included papers
+
+Core pool
+
+112 papers
+
+Core reading set
+
+100 papers
+
+Base scoping set
+
+300 papers
+
+Venue-augmented
+scoping set
+Candidate evidence
+records
+Map A adjudicated
+seed
+Map-B candidate expansion
+Map B adjudicated synthesis map
+
+326 papers
+274 papers
+268 papers
+416 papers
+342 papers
+
+Base evidence map of 250 papers plus 24 venue-linked additions, doublecoded and adjudicated.
+Candidate evidence records retained after final adjudication; used for
+IAA/adjudication provenance.
+Map A plus 148 source-blind human-citation-audit additions and 20 enriched original rows; used for second-coding review.
+Map A plus 74 retained additions after second coding and final adjudication;
+frozen for current descriptive statistics. Post-freeze discoveries enter a
+recall log until a new version is coded.
+
+Table 27: Screening-flow summary. Search ends on 2026-06-03; coding and adjudication artifacts freeze on
+2026-06-15. The supplement provides query strings, source counts, rules, exclusions, hashes, and a post-freeze
+recall log.
+
+Map-B field group
+
+Coverage
+
+Coding / audit source
+
+Use and caveat
+
+Canonical identifiers and source
+flags
+
+342/342 title, year, URL,
+source stratum, Map-A
+membership, Map-B
+version, core-reading flag
+342/342 legacy
+literature-family tag,
+taxonomy categories,
+method family,
+intervention point,
+contribution note,
+limitation note
+Task metadata present;
+metric field is free text
+and missing for 13/342
+rows
+Not present as
+structured Map-B fields
+
+Deterministic merge from Map A, the
+venue/extension pools manifests,
+source-blind citation-audit decisions, and
+second-coding adjudication.
+Map-A adjudicated labels for original
+rows; second coding adjudicated labels
+for retained additions.
+
+Defines the canonical adjudicated row set
+and source strata.
+
+Map-A labels plus audit rationales and
+manifest metadata for retained additions;
+no controlled-coordinate reliability
+estimate.
+Fully instantiated only in worked
+comparison and pair-study artifacts.
+
+Used only as descriptive metadata, not as an
+adjudicated metric coordinate.
+
+Source/venue strata
+complete; author metadata
+incomplete for some
+additions
+94 retained rows with
+human citation-audit
+metadata
+
+Proceedings metadata and paper
+manifests.
+
+Map A: 274 candidates
+→ 268 adjudicated rows;
+Map-B additions: 148
+candidates → 74 retained
+additions
+
+Map A has two-source independent
+coding and final adjudication; Map-B
+additions have independent second
+coding and final adjudication.
+
+Core taxonomy fields
+
+Task / metric metadata
+
+Evidence assumption and action
+policy
+Author / venue metadata
+
+Human-audited rows retained in
+Map B
+Second-coding/adjudication
+boundary
+
+74 retained additions plus 20 enriched
+Map-A rows.
+
+Used for Map-B description. The legacy
+family tag includes calibration, benchmark,
+and survey roles and is not the normalized
+failure coordinate.
+
+Map B must not be described as a 342-row
+five-coordinate map or used to derive pair
+verdicts on these fields.
+Venue/source strata are complete; author
+normalization remains an artifact-release
+cleanup item.
+Citation-audit metadata supports sourcestratified synthesis; 74 excluded candidate
+additions remain in the release as boundary
+rows.
+Second-coding agreement is strong, and adjudication is now applied to the canonical
+342-row Map B.
+
+Table 28: Coding protocol and field coverage for the 342-row adjudicated Map B. The map supports literaturefamily/intervention landscape analysis; it does not implement the complete five-coordinate schema.
+
+30
+
+Artifact / set
+
+Count
+
+Count definition
+
+Use in this paper
+
+Map-A double-coded candidates
+
+274
+
+Candidate records coded by two human sources
+before final inclusion adjudication.
+
+Map A adjudicated seed
+
+268
+
+Venue-augmented scoping set
+
+326
+
+Included records after adjudication: 42
+venue/proceedings-linked, 222 arXiv-only or
+emerging preprints, 2 preprints with year tags, 1
+review-platform record, and 1
+other/uncategorized record.
+Original base scoping set plus 26 triaged
+venue-linked additions.
+
+Used for human-human agreement and
+adjudication; six records were excluded
+from Map A.
+Used as the IAA/adjudication provenance snapshot, not the current synthesis
+denominator.
+
+Source-blind citation audit
+
+300
+
+Human citation decisions over venue PDFs and
+extension PDFs.
+
+Map-B candidate expansion
+
+416
+
+Map B adjudicated synthesis
+map
+
+342
+
+Map A plus 148 candidate additions supported by
+the source-blind citation audit; 20 original rows
+enriched with citation-audit metadata.
+Map A plus 74 retained additions after second
+coding and final adjudication.
+
+Used for broader scoping and boundary
+checks; not all rows are evidence-map
+records.
+Determines which audited papers enter
+the main text, case studies, appendix,
+background, or exclusion set; distinct
+from the base scoping set.
+Pre-adjudication expansion candidate
+map used for second-coding review.
+Current evidence map for sourcestratified synthesis and Map-B crosstabs.
+
+Table 29: Reconciliation of reported corpus counts. The 342-row adjudicated Map B is the canonical synthesis map;
+Map A and the 274-candidate set are retained to report double-coding and adjudication provenance.
+
+31
+
+

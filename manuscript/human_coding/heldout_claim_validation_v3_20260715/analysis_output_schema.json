@@ -1,0 +1,246 @@
+{
+  "input_validation": {
+    "manifest": {
+      "basename": "manifest.json",
+      "schema_version": "heldout-v3-offline-input-manifest-v1",
+      "status_exact_whitelist": [
+        "VALID",
+        "COMPLETE",
+        "COMPLETE_VALID"
+      ],
+      "file_rule": "files lists exactly every used stage2/adjudication CSV with canonical root-relative path, lowercase SHA-256, and data-row count; all are recomputed"
+    },
+    "participant_index": {
+      "basename": "participant_index.csv",
+      "columns": [
+        "participant_id",
+        "role",
+        "arm",
+        "file_path"
+      ],
+      "cardinality": "24 unique auditors (6/arm), 3 unique gold, 2 unique adjudicators; identity/role/arm/file must match content"
+    },
+    "adjudicator_packet_registry": {
+      "required_basename": "adjudicator_packet_registry.json",
+      "schema_version": "coordinator-adjudicator-packet-registry-v1",
+      "packet_version": "adjudicator-packet-v1",
+      "manifest_binding": "manifest.adjudicator_packet_registry must bind the exact path, file SHA-256, and canonical registry_sha256 root",
+      "validation": "Rebuild both issued blank packets row by row and bind named role/participant, deterministic adjudication_id, claim_id, ordered disputed_outputs, blinded gold IDs, raw-material hash, registry row/root, and blank-packet SHA-256. Missing, invented-schema, incomplete, or detached registries fail closed."
+    },
+    "frozen_cohort": {
+      "schema_id": "heldout-v3-frozen-claims-v1",
+      "freeze_version": "v3.0.0-test-freeze",
+      "sha256": "36b2d0d2c29836e04be8be192f8542cb1acd736a5c5d4148498c7358574677ce",
+      "design": "480 unique claims, 80 sources, 6/source; only c2_decisive and c5_decisive, exactly 240 each"
+    },
+    "adjudication": "Both completed files retain the exact adjudicator-packet-v1 header; globally unique deterministic adjudication_id; canonical registry metadata; nonempty participant/claim/source/status; exact eligible-claim coverage.",
+    "status_evidence": "README prose is not scanned. Only exact top-level manifest status, structured root status-file fields, obvious invalidation filenames, and known legacy root path names are status evidence.",
+    "deidentification_key": "Every public-table entry point and both CLIs require at least 32 bytes.",
+    "limitation": "manifest authenticates package bytes but cannot by itself prove behavioral independence; other_adjudicator_response_seen is not asserted as verified"
+  },
+  "analysis_agreement.csv": {
+    "columns": [
+      "arm",
+      "output",
+      "status",
+      "complete_three_vote_claims",
+      "raw_pairwise_agreement",
+      "fleiss_kappa",
+      "reason"
+    ],
+    "interpretation": "Post hoc descriptive nominal agreement on claims with exactly three completed valid votes. Non-estimable kappa is explicit."
+  },
+  "analysis_claim_level.csv": [
+    "claim_id",
+    "source_key",
+    "primary_stratum",
+    "separate gold resolution, strict-majority labels, exact accuracy, and no-consensus fields for A/B/C/D"
+  ],
+  "analysis_confusion.csv": {
+    "columns": [
+      "row_type",
+      "arm",
+      "output",
+      "gold_label",
+      "arm_label",
+      "count",
+      "denominator",
+      "rate"
+    ],
+    "row_types": {
+      "class_distribution": "All claim-level arm aggregates, including missing and no_consensus.",
+      "resolved_gold_confusion": "Arm aggregate versus resolved gold; denominator is all claims with resolved gold."
+    }
+  },
+  "analysis_field_diagnostics.csv": [
+    "arm_or_role",
+    "field",
+    "completed_rows",
+    "nonempty_rows",
+    "nonempty_rate"
+  ],
+  "analysis_gold_resolution.csv": [
+    "claim_id",
+    "source_key",
+    "output",
+    "status",
+    "resolved_label",
+    "resolution_method"
+  ],
+  "analysis_individual_raters.csv": {
+    "columns": [
+      "participant_id",
+      "arm",
+      "output",
+      "completed_ratings",
+      "accuracy_denominator",
+      "correct",
+      "accuracy"
+    ],
+    "interpretation": "Private analysis table. Accuracy denominator includes completed valid individual ratings with resolved gold.",
+    "release_policy": "NEVER PUBLIC: contains original participant_id values and must remain directly under the private --output directory."
+  },
+  "analysis_missingness_patterns.csv": {
+    "columns": [
+      "source_key",
+      "primary_stratum",
+      "output",
+      "resolution_method",
+      "arm",
+      "claims",
+      "unresolved_gold_count",
+      "arm_missing_count"
+    ],
+    "interpretation": "Analysis-ready grouped unresolved-gold and arm-missingness rows."
+  },
+  "analysis_pairwise.csv": [
+    "family",
+    "outcome",
+    "contrast",
+    "stratum",
+    "claims",
+    "sources",
+    "difference",
+    "cr1_se",
+    "degrees_freedom",
+    "p_two_sided",
+    "ci95_low",
+    "ci95_high",
+    "holm_adjusted_p"
+  ],
+  "analysis_rater_sensitivity.csv": {
+    "columns": [
+      "analysis",
+      "status",
+      "arm",
+      "output",
+      "participant_id",
+      "n",
+      "estimate",
+      "minimum",
+      "median",
+      "maximum",
+      "standard_error",
+      "degrees_freedom",
+      "p_two_sided",
+      "permutations",
+      "reason"
+    ],
+    "interpretation": "Reviewer-requested post hoc participant summaries, conditional 924-label permutation, two-way clustered individual-rating OLS, and changed-aggregation leave-one-auditor-out rows.",
+    "release_policy": "NEVER PUBLIC in this form: leave-one-auditor-out rows contain original participant_id values."
+  },
+  "analysis_response_diagnostics.csv": {
+    "columns": [
+      "diagnostic",
+      "arm",
+      "stage",
+      "value",
+      "count",
+      "denominator",
+      "rate",
+      "n_valid",
+      "median_seconds",
+      "q1_seconds",
+      "q3_seconds",
+      "iqr_seconds",
+      "missing_count",
+      "invalid_count",
+      "negative_count"
+    ],
+    "interpretation": "Response-status, reason-code, unable/abstention, and row-level UTC elapsed-time diagnostics. Extraction ends at extraction_completed_utc; composition and total end at completed_utc. Timing is not labor cost."
+  },
+  "analysis_results.json": {
+    "adjudicator_sensitivity": "separate D-C estimates using each independent adjudicator on disputed claims",
+    "adjudicator_input_rule": "Before any claim map is constructed, each adjudicator file must contain exactly one row per complete-gold disagreement and no other claims; duplicate claim IDs are fatal regardless of adjudication_id, and legal row ordering cannot change results.",
+    "conditional_equivalence": "TOST only when superiority criterion does not pass",
+    "gold_rule": "fewer than three completed experts is unresolved_incomplete_gold with no adjudication; three unanimous experts resolve; three completed disagreements require two agreeing adjudicators",
+    "inference": "source-cluster CR1 with G-1 t reference only when at least two sources and one observation are available; otherwise not_estimable",
+    "missingness_bounds": "Claimwise preregistered D-minus-C bounds: unresolved gold contributes [-1,+1]; with resolved gold, known C/D accuracy is retained and only a missing arm ranges over [0,1]; two known arms contribute their fixed difference.",
+    "input_authentication_limitation": "manifest authenticates package bytes but cannot by itself prove behavioral independence",
+    "post_hoc_exploratory_rater_sensitivity": "Explicitly labeled participant, arm-label permutation, two-way CGM cluster, and leave-one-auditor-out sensitivities.",
+    "primary": "D-C comparability strict-majority exact accuracy; preregistered source-cluster logic unchanged",
+    "source_cluster_bootstrap": {
+      "replicates": 100000,
+      "seed": 2026071504
+    },
+    "zero_observation_rule": "skip CR1, bootstrap, and TOST; retain missingness rates and bounds; conclude inconclusive_nonconfirmatory_missingness"
+  },
+  "public_adjudications.csv": {
+    "optional": true,
+    "location": "--output/public_release/public_adjudications.csv",
+    "columns": [
+      "claim_id",
+      "source_key",
+      "release_participant_id",
+      "arm",
+      "role",
+      "response_status",
+      "missing_reason_code",
+      "adjudicated_evidence_support_label",
+      "adjudicated_comparability_label",
+      "disputed_outputs"
+    ]
+  },
+  "public_arm_ratings.csv": {
+    "optional": true,
+    "location": "--output/public_release/public_arm_ratings.csv",
+    "columns": [
+      "claim_id",
+      "source_key",
+      "release_participant_id",
+      "arm",
+      "role",
+      "response_status",
+      "missing_reason_code",
+      "evidence_support_label",
+      "comparability_label"
+    ]
+  },
+  "public_gold_ratings.csv": {
+    "optional": true,
+    "location": "--output/public_release/public_gold_ratings.csv",
+    "columns": [
+      "claim_id",
+      "source_key",
+      "release_participant_id",
+      "arm",
+      "role",
+      "response_status",
+      "missing_reason_code",
+      "evidence_support_label",
+      "comparability_label"
+    ]
+  },
+  "public_release_manifest.json": {
+    "optional": true,
+    "location": "--output/public_release/public_release_manifest.json",
+    "contents": "Schema version, basename, row count, and SHA-256 for an explicit allowlist of files located only in public_release. It includes the three HMAC-deidentified observation tables and safe copies of results, claim-level, gold-resolution, pairwise, agreement, confusion, response-diagnostic, and missingness-pattern outputs. It never inventories the private parent directory.",
+    "release_condition": "Written only when --deidentification-key-file names a non-empty key file."
+  },
+  "output_layout": {
+    "private_directory": "--output contains the complete analysis, including original-ID participant and rater-sensitivity tables.",
+    "public_directory": "--output/public_release contains only the explicit public allowlist and its manifest.",
+    "boundary": "Files in the private parent directory are not public merely because a public release was requested. analysis_individual_raters.csv, analysis_rater_sensitivity.csv, and every other original-ID table must never be copied to or published from public_release."
+  },
+  "status": "SCHEMA_ONLY_NO_COLLECTED_RESULTS"
+}

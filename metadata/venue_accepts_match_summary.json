@@ -10,8 +10,8 @@
     "failed": 11
   },
   "outputs": [
-    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_existing_matches.csv",
-    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_new_candidates.csv",
-    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_downloads.csv"
+    "metadata/venue_accepts_existing_matches.csv",
+    "metadata/venue_accepts_new_candidates.csv",
+    "metadata/venue_accepts_downloads.csv"
   ]
 }

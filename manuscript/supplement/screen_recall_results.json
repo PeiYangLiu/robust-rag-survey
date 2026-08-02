@@ -1,0 +1,48 @@
+{
+  "schema_version": "screen-recall-results-v1",
+  "judges": [
+    "recA_gpt5mini",
+    "recB_opus46",
+    "recC_gem31pro"
+  ],
+  "n_universe_windows": 6710,
+  "n_screened_windows": 1703,
+  "n_missed_windows": 5007,
+  "n_missed_sampled": 420,
+  "n_missed_coded": 420,
+  "n_source_papers_in_sample": 130,
+  "point_estimates": {
+    "missed_sample_n": 420,
+    "missed_eligible_rate": 0.3357,
+    "missed_share_transported": 0.0526,
+    "missed_share_reimplemented": 0.9474,
+    "frame_eligible_rate": 0.4439,
+    "frame_share_transported": 0.1262,
+    "estimated_universe_transported": 166.1,
+    "estimated_universe_reimplemented": 2074.4,
+    "recall_transported": 0.4977,
+    "recall_reimplemented": 0.2759,
+    "frame_reimplemented_share": 0.8738,
+    "universe_reimplemented_share": 0.9259
+  },
+  "cluster_bootstrap_ci95": {
+    "recall_transported": [
+      0.2603,
+      1.0
+    ],
+    "recall_reimplemented": [
+      0.2364,
+      0.3288
+    ],
+    "universe_reimplemented_share": [
+      0.8605,
+      0.9644
+    ],
+    "missed_eligible_rate": [
+      0.2672,
+      0.405
+    ]
+  },
+  "bootstrap_draws": 4000,
+  "estimand_note": "recall(class) is the share of eligible, classified juxtapositions of that class in the universe that the screen surfaced. The universe composition re-weights the frame's own composition by the missed set's, which is what the composition claim requires if it is to leave the frame."
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "provenance-number-trace-v1",
+  "what_this_is": "A deterministic, one-sided reference check on the provenance label. A value a citing paper prints for another system that occurs nowhere in that system's own paper cannot have been transported from it, so absence is sound evidence for re-implementation; presence is only consistent with transport because numerals collide by chance, which the placebo column measures.",
+  "n_windows_checked": 445,
+  "n_windows_with_majority_provenance": 730,
+  "systems_resolved_to_a_local_paper": 108,
+  "placebo_draws": 20,
+  "by_provenance_class": {
+    "unclear": {
+      "n_windows_checked": 21,
+      "trace_rate": 0.47619047619047616,
+      "placebo_rate": 0.45714285714285713,
+      "excess_over_placebo": 0.019047619047619035
+    },
+    "reimplemented": {
+      "n_windows_checked": 388,
+      "trace_rate": 0.6185567010309279,
+      "placebo_rate": 0.6296391752577319,
+      "excess_over_placebo": -0.011082474226804084
+    },
+    "transported": {
+      "n_windows_checked": 36,
+      "trace_rate": 0.6666666666666666,
+      "placebo_rate": 0.7069444444444444,
+      "excess_over_placebo": -0.040277777777777746
+    }
+  },
+  "transported_minus_reimplemented": {
+    "difference": 0.04810996563573877,
+    "p_two_sided": 0.5987,
+    "draws": 20000,
+    "n_a": 36,
+    "n_b": 388
+  },
+  "seed": 2026080411
+}

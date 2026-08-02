@@ -6,7 +6,7 @@
 \toprule
 \textbf{Artifact / claim source} & \textbf{Verification performed} & \textbf{What is coding- or metadata-assisted} & \textbf{How it is used in the paper} \\
 \midrule
-Main narrative claims and central citations & Author inspection of full paper text for papers used to support central claims, tables, and figures. & Initial prioritization and category suggestions were LLM-assisted. & Used for qualitative synthesis and case-study comparisons. \\
+Earlier-draft claim inventory & The release contains two full-text verifier records for each of 33 earlier-draft claims; all 66 records mark the claim fully supported. & The inventory does not cover every revised claim; public metadata withholds qualifications and does not establish personnel independence. & Retained as a provenance-limited historical check, not a complete human-verified tier for this version. \\
 Core reading set & 100 papers curated from the 112-paper core pool after full-text relevance checks for narrative fit. & Core-pool creation used relevance scores and pre-labels as triage signals. & Used as the main reading backbone; not claimed to be a reproducible top-100 ranking without author judgment. \\
 Map A, 268-paper adjudicated seed & Metadata and structured fields manually cleaned; venue-candidate triage completed; 274 candidate records independently double-coded and adjudicated into 268 included evidence-map papers. & Initial candidate discovery and pre-labeling were LLM-assisted, but final Map-A labels use human adjudication for coder disagreements. & Used for IAA/adjudication provenance, with the caveat that it is not the current synthesis denominator. \\
 Map-B candidate expansion, 416 rows & Map A merged with source-blind human citation audit over the venue/extension pools; 148 new candidate rows added and 20 original rows enriched. & Candidate additions use human citation-audit decisions and deterministic field completion before second coding. & Used as the candidate pool for second coding, not as the final synthesis denominator. \\
@@ -15,6 +15,6 @@ Human double-coding package & Two anonymized human sources independently coded a
 Venue metadata pass and triage & ACL Anthology title/abstract scan plus DBLP/OpenAlex query logs, title matching, and follow-up triage decisions. & Discovery is metadata-based; inclusion/exclusion decisions are author triage rather than independent double coding. & Used to update venue-linked coverage and quantify remaining systematic-review limits. \\
 \bottomrule
 \end{tabularx}
-\caption{Verification and annotation provenance. The table separates full-text author inspection, coding-assisted labels, metadata-derived venue candidates, and non-adjudicated consistency diagnostics.}
+\caption{Verification and annotation provenance. The table distinguishes released records from stronger claims of qualified or personnel-independent verification that the blind metadata cannot establish.}
 \label{tab:verification-provenance}
 \end{table*}

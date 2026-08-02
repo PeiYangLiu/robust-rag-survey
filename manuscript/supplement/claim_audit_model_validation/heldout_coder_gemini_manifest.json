@@ -1,0 +1,17 @@
+{
+  "coder_id": "model_gemini31pro",
+  "timestamp": "2026-07-14T02:53:25.804743",
+  "synthetic_model_coding_not_human": true,
+  "input_packet": "<HOME>/.copilot/session-state/cb11c4b6-4c46-4e55-98bd-907b084afcca/files/observed_action_claim_audit/observed_action_claim_blind_packet.csv",
+  "output_csv": "<HOME>/.copilot/session-state/cb11c4b6-4c46-4e55-98bd-907b084afcca/files/observed_action_claim_audit/heldout_coder_gemini.csv",
+  "input_hash": "918aaaf0c30f558309b301d0b98b84246a9ce3894e089386c9c4a2064369761f",
+  "output_hash": "0b7b8e654734304afc6ae321ec6e1803df4233ad7f4abc5ccee19821bf3542fd",
+  "unique_evidence_summary_ratio": 0.9883720930232558,
+  "unique_evidence_location_ratio": 1.0,
+  "unique_required_controls_ratio": 0.09302325581395349,
+  "self_check": {
+    "row_count_correct": true,
+    "no_verdict_fields": true,
+    "valid_invalid_words_avoided": true
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "agreement": {
+    "c1": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": 0.1313397354866706,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": 0.27539349362199167,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": 0.17664522513607125,
+      "fleiss_kappa": 0.18536551436321883,
+      "gwet_ac1": 0.46216194053105464,
+      "n_items": 704,
+      "observed": 0.5956439393939394
+    },
+    "c2": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": 0.040983346885328974,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": 0.24970611978982243,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": 0.1061785831609415,
+      "fleiss_kappa": 0.10811661537581062,
+      "gwet_ac1": 0.37801910128360844,
+      "n_items": 704,
+      "observed": 0.5388257575757576
+    },
+    "c3": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": -0.054342006223374026,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": -0.029026875715329522,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": -0.12413998986385617,
+      "fleiss_kappa": -0.10817866579910028,
+      "gwet_ac1": 0.7176136599155,
+      "n_items": 704,
+      "observed": 0.7495265151515151
+    },
+    "c4": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": 0.05824972624226815,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": 0.18732169066112553,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": 0.09382475034056638,
+      "fleiss_kappa": 0.08341867463408249,
+      "gwet_ac1": 0.6598226595119508,
+      "n_items": 704,
+      "observed": 0.7130681818181818
+    },
+    "c5": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": 0.0634292071543602,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": 0.160794376024694,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": 0.17902969954924527,
+      "fleiss_kappa": 0.09701456723658788,
+      "gwet_ac1": 0.3755398661448753,
+      "n_items": 704,
+      "observed": 0.5359848484848485
+    },
+    "eligible": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": 0.45144761212946916,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": 0.5002855883430288,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": 0.6048580542951218,
+      "fleiss_kappa": 0.5065970236597084,
+      "gwet_ac1": 0.5131158270872206,
+      "n_items": 1586,
+      "observed": 0.7549390500210172
+    },
+    "verdict": {
+      "cohen_kappa_coderA_gpt5mini__coderB_claudeopus46": 0.05346441355772493,
+      "cohen_kappa_coderA_gpt5mini__coderC_gemini31pro": 0.1328163184585611,
+      "cohen_kappa_coderB_claudeopus46__coderC_gemini31pro": 0.18701642489762207,
+      "fleiss_kappa": 0.06104436875189545,
+      "gwet_ac1": 0.2199240539345894,
+      "n_items": 704,
+      "observed": 0.44886363636363635
+    }
+  },
+  "agreement_decomposition": {
+    "coordinate_c1": {
+      "ci95": [
+        0.4101614758295643,
+        0.5311797557085493
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.18536551436321883,
+      "fleiss_kappa_ci95": [
+        0.05532792436473992,
+        0.29249316268207237
+      ],
+      "n_clusters": 103,
+      "point": 0.46216194053105464
+    },
+    "coordinate_c2": {
+      "ci95": [
+        0.30083373424658894,
+        0.44208488679867136
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.10811661537581062,
+      "fleiss_kappa_ci95": [
+        0.04052836098757403,
+        0.15738514383855712
+      ],
+      "n_clusters": 103,
+      "point": 0.37801910128360844
+    },
+    "coordinate_c3": {
+      "ci95": [
+        0.6603188737612168,
+        0.7979996048654375
+      ],
+      "draws": 2000,
+      "fleiss_kappa": -0.10817866579910028,
+      "fleiss_kappa_ci95": [
+        -0.13373916079846324,
+        -0.07400020113305061
+      ],
+      "n_clusters": 103,
+      "point": 0.7176136599155
+    },
+    "coordinate_c4": {
+      "ci95": [
+        0.6093535350124406,
+        0.7419494689178449
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.08341867463408249,
+      "fleiss_kappa_ci95": [
+        -0.054177212097025786,
+        0.21682009747368886
+      ],
+      "n_clusters": 103,
+      "point": 0.6598226595119508
+    },
+    "coordinate_c5": {
+      "ci95": [
+        0.31028327630204605,
+        0.4591960266767405
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.09701456723658788,
+      "fleiss_kappa_ci95": [
+        -0.002940711784762277,
+        0.1986914347274922
+      ],
+      "n_clusters": 103,
+      "point": 0.3755398661448753
+    },
+    "eligibility": {
+      "ci95": [
+        0.410084932320747,
+        0.64317139059217
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.5065970236597084,
+      "fleiss_kappa_ci95": [
+        0.4059871239567021,
+        0.6183695413335482
+      ],
+      "n_clusters": 169,
+      "point": 0.5131158270872206
+    },
+    "eligibility_matched": {
+      "ci95": [
+        0.6258146841004353,
+        0.7871363489615095
+      ],
+      "draws": 2000,
+      "fleiss_kappa": -0.13731825525040373,
+      "fleiss_kappa_ci95": [
+        -0.1649694501018336,
+        -0.09787234042553163
+      ],
+      "n_clusters": 103,
+      "point": 0.6934316292080146
+    },
+    "eligibility_matched_minus_verdict": {
+      "ci95": [
+        0.40212900920564065,
+        0.5735660051750924
+      ],
+      "draws": 2000,
+      "n_clusters": 103,
+      "point": 0.47350757527342524,
+      "share_above_zero": 1.0
+    },
+    "eligibility_matched_minus_verdict_kappa": {
+      "ci95": [
+        -0.2436386675952893,
+        -0.11027698750902096
+      ],
+      "draws": 2000,
+      "n_clusters": 103,
+      "point": -0.19836262400229918,
+      "share_above_zero": 0.0
+    },
+    "note": "Descriptive judgments (what is compared; how the number was obtained) versus the inferential judgment (does the comparison survive), on the same items, by the same judges, with intervals bootstrapped over source papers.",
+    "population_note": "Populations differ by construction and are named explicitly. 'eligibility' is over every held-out candidate, because that is the question the screen poses of the whole frame. 'verdict', 'provenance' and the coordinates are defined only where a majority of judges called the window eligible, so they are over the majority-eligible subset. A difference is only reported between statistics computed on the SAME items: 'provenance_minus_verdict' and 'eligibility_matched_minus_verdict' both use the majority-eligible subset, and 'eligibility_matched' is the eligibility statistic recomputed there so that the difference is a visible subtraction of two reported numbers. Conditioning on majority eligibility selects for windows whose eligibility labels already agreed, so 'eligibility_matched' is mechanically higher than 'eligibility'; both are reported and neither is presented as the other.",
+    "provenance": {
+      "ci95": [
+        0.7267093575707498,
+        0.8817116519690423
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.5486924676771469,
+      "fleiss_kappa_ci95": [
+        0.13089446328184656,
+        0.7048908811496516
+      ],
+      "n_clusters": 99,
+      "point": 0.7948266016750379
+    },
+    "provenance_minus_verdict": {
+      "ci95": [
+        0.49803960338387354,
+        0.6794154108859695
+      ],
+      "draws": 2000,
+      "n_clusters": 99,
+      "point": 0.5739489471704818,
+      "share_above_zero": 1.0
+    },
+    "provenance_minus_verdict_kappa": {
+      "ci95": [
+        0.10976628803056135,
+        0.6339862777193773
+      ],
+      "draws": 2000,
+      "n_clusters": 99,
+      "point": 0.4876386366503323,
+      "share_above_zero": 1.0
+    },
+    "verdict": {
+      "ci95": [
+        0.18037383973598362,
+        0.2613162126004364
+      ],
+      "draws": 2000,
+      "fleiss_kappa": 0.06104436875189545,
+      "fleiss_kappa_ci95": [
+        -0.008643521832498252,
+        0.10968703796716166
+      ],
+      "n_clusters": 103,
+      "point": 0.2199240539345894
+    }
+  },
+  "coordinate_violation": {
+    "c1": {
+      "ci95": [
+        0.01911895616743238,
+        0.044991603753850334
+      ],
+      "n_mismatch": 20,
+      "n_with_majority": 680,
+      "rate": 0.029411764705882353
+    },
+    "c2": {
+      "ci95": [
+        0.01911895616743238,
+        0.044991603753850334
+      ],
+      "n_mismatch": 20,
+      "n_with_majority": 680,
+      "rate": 0.029411764705882353
+    },
+    "c3": {
+      "ci95": [
+        0.9873865439975498,
+        0.9985309216904772
+      ],
+      "n_mismatch": 692,
+      "n_with_majority": 695,
+      "rate": 0.99568345323741
+    },
+    "c4": {
+      "ci95": [
+        0.017646806987300923,
+        0.04248392867380959
+      ],
+      "n_mismatch": 19,
+      "n_with_majority": 692,
+      "rate": 0.02745664739884393
+    },
+    "c5": {
+      "ci95": [
+        0.002250092113426444,
+        0.01476737454131298
+      ],
+      "n_mismatch": 4,
+      "n_with_majority": 692,
+      "rate": 0.005780346820809248
+    }
+  },
+  "evidence_quote_check": {
+    "checked": 1879,
+    "found_in_window": 1639,
+    "rate": 0.8722724853645556
+  },
+  "frame": {
+    "development_included": false,
+    "n_candidates": 1703,
+    "n_coded_by_all_judges": 1690,
+    "n_development": 133,
+    "n_eligible_majority": 704,
+    "n_eligible_unanimous": 449,
+    "n_heldout": 1586,
+    "n_papers_contributing_eligible": 103,
+    "papers": [
+      "aip2025",
+      "astuteRAG2025",
+      "calibRAG2025",
+      "certifiedRAG2024",
+      "crag2024",
+      "ctrla2025",
+      "faithfulRAG2025",
+      "poisonedRAG2024",
+      "poisoningRetrievalCorpora2023",
+      "ragComprehensive2025",
+      "ragTruth2024",
+      "rrag001",
+      "rrag004",
+      "rrag005",
+      "rrag009",
+      "rrag013",
+      "rrag016",
+      "rrag017",
+      "rrag020",
+      "rrag021",
+      "rrag023",
+      "rrag026",
+      "rrag027",
+      "rrag028",
+      "rrag031",
+      "rrag033",
+      "rrag034",
+      "rrag036",
+      "rrag039",
+      "rrag044",
+      "rrag047",
+      "rrag049",
+      "rrag050",
+      "rrag051",
+      "rrag052",
+      "rrag054",
+      "rrag055",
+      "rrag056",
+      "rrag057",
+      "rrag059",
+      "rrag060",
+      "rrag061",
+      "rrag063",
+      "rrag064",
+      "rrag066",
+      "rrag067",
+      "rrag068",
+      "rrag071",
+      "rrag072",
+      "rrag078",
+      "rrag079",
+      "rrag080",
+      "rrag082",
+      "rrag083",
+      "rrag084",
+      "rrag085",
+      "rrag088",
+      "rrag091",
+      "rrag092",
+      "rrag095",
+      "rrag097",
+      "rrag098",
+      "rrag099",
+      "rrag102",
+      "rrag104",
+      "rrag108",
+      "rrag109",
+      "rrag113",
+      "rrag122",
+      "rrag124",
+      "rrag126",
+      "rrag127",
+      "rrag130",
+      "rrag139",
+      "rrag140",
+      "rrag155",
+      "rrag161",
+      "rrag162",
+      "rrag166",
+      "rrag168",
+      "rrag172",
+      "rrag173",
+      "rrag176",
+      "rrag179",
+      "rrag180",
+      "rrag185",
+      "rrag186",
+      "rrag187",
+      "rrag195",
+      "rrag196",
+      "rrag197",
+      "rrag199",
+      "rrag200",
+      "rrag201",
+      "rrag204",
+      "rrag208",
+      "rrag209",
+      "rrag210",
+      "rrag212",
+      "rrag214",
+      "rrag215",
+      "rrag228",
+      "whenToRetrieve2024"
+    ]
+  },
+  "judges": {
+    "coderA_gpt5mini": [
+      "gpt-5-mini"
+    ],
+    "coderB_claudeopus46": [
+      "claude-opus-4.6"
+    ],
+    "coderC_gemini31pro": [
+      "gemini-3.1-pro-preview"
+    ]
+  },
+  "matched_number_recoverable_by_majority": 321,
+  "provenance": {
+    "agreement": {
+      "fleiss_kappa": 0.5486924676771469,
+      "gwet_ac1": 0.7948266016750379,
+      "observed": 0.8328267477203647
+    },
+    "composition_check": {
+      "equals_coded_by_all_judges": true,
+      "plus_no_majority": 4,
+      "plus_unclear": 44,
+      "transported_plus_reimplemented": 610
+    },
+    "counts": {
+      "reimplemented": 533,
+      "transported": 77,
+      "unclear": 44
+    },
+    "judges": [
+      "provA_gpt5mini",
+      "provB_claudeopus46",
+      "provC_gemini31pro"
+    ],
+    "n_assigned_a_class": 610,
+    "n_coded_by_all_judges": 658,
+    "n_unclassified": 48,
+    "no_majority": 4,
+    "not_surviving_rate": {
+      "no_majority": {
+        "ci95": [
+          0.6666666666666666,
+          0.6666666666666666
+        ],
+        "ci95_binomial_candidate_unit": [
+          0.15003898911025654,
+          0.8499610108897435
+        ],
+        "ci95_unit": "source paper (cluster bootstrap)",
+        "largest_paper_share": 1.0,
+        "leave_one_paper_out_range": [
+          NaN,
+          NaN
+        ],
+        "n": 4,
+        "n_not_surviving": 2,
+        "n_source_papers": 1,
+        "rate": 0.5
+      },
+      "reimplemented": {
+        "ci95": [
+          0.21791044776119403,
+          0.3384615384615385
+        ],
+        "ci95_binomial_candidate_unit": [
+          0.21467326254886301,
+          0.2879731973843261
+        ],
+        "ci95_unit": "source paper (cluster bootstrap)",
+        "largest_paper_share": 0.2878787878787879,
+        "leave_one_paper_out_range": [
+          0.2735562310030395,
+          0.293598233995585
+        ],
+        "n": 533,
+        "n_not_surviving": 133,
+        "n_source_papers": 84,
+        "rate": 0.24953095684803
+      },
+      "transported": {
+        "ci95": [
+          0.25,
+          0.8947368421052632
+        ],
+        "ci95_binomial_candidate_unit": [
+          0.5645808389412091,
+          0.7694062067315276
+        ],
+        "ci95_unit": "source paper (cluster bootstrap)",
+        "largest_paper_share": 0.7619047619047619,
+        "leave_one_paper_out_range": [
+          0.6666666666666666,
+          0.8524590163934426
+        ],
+        "n": 77,
+        "n_not_surviving": 52,
+        "n_source_papers": 9,
+        "rate": 0.6753246753246753
+      },
+      "unclear": {
+        "ci95": [
+          0.3939393939393939,
+          0.8260869565217391
+        ],
+        "ci95_binomial_candidate_unit": [
+          0.40066183195756144,
+          0.6829476586066985
+        ],
+        "ci95_unit": "source paper (cluster bootstrap)",
+        "largest_paper_share": 0.21621621621621623,
+        "leave_one_paper_out_range": [
+          0.5862068965517241,
+          0.6857142857142857
+        ],
+        "n": 44,
+        "n_not_surviving": 24,
+        "n_source_papers": 15,
+        "rate": 0.5454545454545454
+      }
+    },
+    "verdict_by_provenance": {
+      "no_majority": {
+        "no_majority": 1,
+        "survives": 1,
+        "undefined": 2
+      },
+      "reimplemented": {
+        "no_majority": 71,
+        "survives": 329,
+        "undefined": 133
+      },
+      "transported": {
+        "no_majority": 14,
+        "survives": 11,
+        "undefined": 52
+      },
+      "unclear": {
+        "no_majority": 7,
+        "survives": 13,
+        "undefined": 24
+      }
+    }
+  },
+  "quote_verified_sensitivity": {
+    "c1": {
+      "fleiss_kappa_all": 0.18536551436321883,
+      "fleiss_kappa_quote_verified": 0.25419772644878064,
+      "gwet_ac1_all": 0.46216194053105464,
+      "gwet_ac1_quote_verified": 0.5959942159599153,
+      "n_all": 704,
+      "n_quote_verified": 324
+    },
+    "c2": {
+      "fleiss_kappa_all": 0.10811661537581062,
+      "fleiss_kappa_quote_verified": 0.1150545574630665,
+      "gwet_ac1_all": 0.37801910128360844,
+      "gwet_ac1_quote_verified": 0.46903297801053173,
+      "n_all": 704,
+      "n_quote_verified": 324
+    },
+    "c3": {
+      "fleiss_kappa_all": -0.10817866579910028,
+      "fleiss_kappa_quote_verified": -0.01724042963371121,
+      "gwet_ac1_all": 0.7176136599155,
+      "gwet_ac1_quote_verified": 0.9601393869606929,
+      "n_all": 704,
+      "n_quote_verified": 324
+    },
+    "c4": {
+      "fleiss_kappa_all": 0.08341867463408249,
+      "fleiss_kappa_quote_verified": 0.33734513274336286,
+      "gwet_ac1_all": 0.6598226595119508,
+      "gwet_ac1_quote_verified": 0.8836074237572666,
+      "n_all": 704,
+      "n_quote_verified": 324
+    },
+    "c5": {
+      "fleiss_kappa_all": 0.09701456723658788,
+      "fleiss_kappa_quote_verified": 0.10461374498618241,
+      "gwet_ac1_all": 0.3755398661448753,
+      "gwet_ac1_quote_verified": 0.3830793379279725,
+      "n_all": 704,
+      "n_quote_verified": 324
+    },
+    "n_all_quotes_verified": 324,
+    "n_eligible": 704,
+    "narrows_label_space": {
+      "n_any_judge_recovered_matched_number": 580,
+      "n_eligible": 704,
+      "note": "a narrows verdict requires a matched operating point inside the window the judge was shown; the frame is a single passage, the ledger is two full texts",
+      "share": 0.8238636363636364
+    },
+    "share": 0.4602272727272727,
+    "verdict": {
+      "fleiss_kappa_all": 0.06104436875189545,
+      "fleiss_kappa_quote_verified": 0.08332199039415111,
+      "gwet_ac1_all": 0.2199240539345894,
+      "gwet_ac1_quote_verified": 0.31444675990221765,
+      "n_all": 704,
+      "n_quote_verified": 324
+    }
+  },
+  "schema_version": "cross-paper-census-v2",
+  "verdict_ci95": {
+    "narrows": [
+      0.00025078912833455735,
+      0.008001706892758103
+    ],
+    "survives": [
+      0.5085254538589715,
+      0.5818902729995042
+    ],
+    "undefined": [
+      0.2807271269041649,
+      0.34913349126894955
+    ]
+  },
+  "verdict_majority": {
+    "n": 704,
+    "narrows": 1,
+    "no_majority": 98,
+    "survives": 384,
+    "undefined": 221
+  },
+  "verdict_shares": {
+    "narrows": 0.0014204545454545455,
+    "survives": 0.5454545454545454,
+    "undefined": 0.31392045454545453
+  }
+}

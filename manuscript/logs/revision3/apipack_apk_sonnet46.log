@@ -1,0 +1,10 @@
+apk_sonnet46/instrument: 432 pending of 432
+  apk_sonnet46 50/432 parsed=49 0.95/s
+  apk_sonnet46 100/432 parsed=99 1.00/s
+  apk_sonnet46 150/432 parsed=149 0.99/s
+  apk_sonnet46 200/432 parsed=197 0.97/s
+  apk_sonnet46 250/432 parsed=246 0.97/s
+  apk_sonnet46 300/432 parsed=292 0.95/s
+  apk_sonnet46 350/432 parsed=342 0.99/s
+  apk_sonnet46 400/432 parsed=392 1.01/s
+done apk_sonnet46/instrument: 424/432 parsed

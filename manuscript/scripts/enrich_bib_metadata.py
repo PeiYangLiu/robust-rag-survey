@@ -2,7 +2,7 @@
 import json, re, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from pathlib import Path
 
-ROOT=Path('/home/v-peiyangliu/robust-rag-survey/manuscript')
+ROOT=Path(__file__).resolve().parents[1]  # <repo>/manuscript
 NS={'a':'http://www.w3.org/2005/Atom'}
 
 def read_url(url, timeout=30):

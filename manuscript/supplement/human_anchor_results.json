@@ -1,0 +1,608 @@
+{
+  "n_items": 80,
+  "n_sources": 9,
+  "human_coders": [
+    "A",
+    "B",
+    "C"
+  ],
+  "model_judges_present": [
+    "mA_gpt5mini",
+    "mB_claudeopus46",
+    "mC_gemini31pro",
+    "mD_claudeopus5",
+    "mE_gpt54",
+    "mF_gemini35flash",
+    "mG_claudesonnet5",
+    "mH_gpt4o",
+    "mI_gemini36flash"
+  ],
+  "panels": {
+    "human": {
+      "verdict": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.3490895001937234,
+        "fleiss_kappa_ci95": [
+          0.15898767034393269,
+          0.49310400778841446
+        ],
+        "observed_agreement": 0.6500000000000004,
+        "kappa_max": 0.4885703215807826,
+        "share_of_ceiling": 0.7145122918318796,
+        "gwet_ac1": 0.5735679837549712,
+        "pabak": 0.5333333333333338,
+        "modal_class_prevalence": 0.5958333333333333
+      },
+      "c1_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.14775457895017877,
+        "fleiss_kappa_ci95": [
+          0.003268369446798112,
+          0.28968436551026044
+        ],
+        "observed_agreement": 0.4458333333333334,
+        "kappa_max": 0.4425161531478614,
+        "share_of_ceiling": 0.33389646434173975,
+        "gwet_ac1": 0.33826044592787624,
+        "pabak": 0.30729166666666674,
+        "modal_class_prevalence": 0.5166666666666667
+      },
+      "c2_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.29333824070666176,
+        "fleiss_kappa_ci95": [
+          0.1180067950169876,
+          0.45439148318412775
+        ],
+        "observed_agreement": 0.6666666666666667,
+        "kappa_max": 0.5495031284504968,
+        "share_of_ceiling": 0.5338245144005359,
+        "gwet_ac1": 0.6221030359690991,
+        "pabak": 0.5833333333333335,
+        "modal_class_prevalence": 0.7041666666666667
+      },
+      "c3_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.3408360128617364,
+        "fleiss_kappa_ci95": [
+          0.13773775613341924,
+          0.47375857892612017
+        ],
+        "observed_agreement": 0.6583333333333339,
+        "kappa_max": 0.4935691318327974,
+        "share_of_ceiling": 0.690553745928339,
+        "gwet_ac1": 0.6074676878889427,
+        "pabak": 0.5729166666666674,
+        "modal_class_prevalence": 0.575
+      },
+      "c4_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.3578906552927491,
+        "fleiss_kappa_ci95": [
+          0.08613989637305702,
+          0.6096428838811109
+        ],
+        "observed_agreement": 0.7125000000000002,
+        "kappa_max": 0.7766576192322606,
+        "share_of_ceiling": 0.4608087868197703,
+        "gwet_ac1": 0.6762621572748159,
+        "pabak": 0.6406250000000003,
+        "modal_class_prevalence": 0.7041666666666667
+      },
+      "c5_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.5472125271200831,
+        "fleiss_kappa_ci95": [
+          -0.015063731170338608,
+          0.8047552933009374
+        ],
+        "observed_agreement": 0.8333333333333336,
+        "kappa_max": 0.6377700216960664,
+        "share_of_ceiling": 0.8580091702410886,
+        "gwet_ac1": 0.7957403349007428,
+        "pabak": 0.7500000000000004,
+        "modal_class_prevalence": 0.7791666666666667
+      }
+    },
+    "model_deployed": {
+      "verdict": {
+        "n": 79,
+        "raters": 3,
+        "fleiss_kappa": 0.20847047434656346,
+        "fleiss_kappa_ci95": [
+          0.018622711783818035,
+          0.3086971872425562
+        ],
+        "observed_agreement": 0.4177215189873414,
+        "kappa_max": 0.7074782187802519,
+        "share_of_ceiling": 0.29466698594054663,
+        "gwet_ac1": 0.22855323264170033,
+        "pabak": 0.22362869198312185,
+        "modal_class_prevalence": 0.3291139240506329
+      },
+      "c1_relation": {
+        "n": 79,
+        "raters": 3,
+        "fleiss_kappa": 0.07759512274780908,
+        "fleiss_kappa_ci95": [
+          -0.08116725209402863,
+          0.23070843511998845
+        ],
+        "observed_agreement": 0.39662447257383954,
+        "kappa_max": 0.41301507811224203,
+        "share_of_ceiling": 0.18787479406919289,
+        "gwet_ac1": 0.27866165781604163,
+        "pabak": 0.2457805907172994,
+        "modal_class_prevalence": 0.510548523206751
+      },
+      "c2_relation": {
+        "n": 79,
+        "raters": 3,
+        "fleiss_kappa": 0.08118889762894708,
+        "fleiss_kappa_ci95": [
+          -0.008249131670350546,
+          0.1583100443859938
+        ],
+        "observed_agreement": 0.41772151898734167,
+        "kappa_max": 0.42074952241824914,
+        "share_of_ceiling": 0.19296254256526682,
+        "gwet_ac1": 0.30810239052253,
+        "pabak": 0.2721518987341771,
+        "modal_class_prevalence": 0.510548523206751
+      },
+      "c3_relation": {
+        "n": 79,
+        "raters": 3,
+        "fleiss_kappa": 0.35564474365613685,
+        "fleiss_kappa_ci95": [
+          0.11498810467882624,
+          0.5310850439882695
+        ],
+        "observed_agreement": 0.8227848101265824,
+        "kappa_max": 0.5550880372863799,
+        "share_of_ceiling": 0.640699708454811,
+        "gwet_ac1": 0.8048987645287113,
+        "pabak": 0.7637130801687766,
+        "modal_class_prevalence": 0.8438818565400844
+      },
+      "c4_relation": {
+        "n": 79,
+        "raters": 3,
+        "fleiss_kappa": 0.3108723135271809,
+        "fleiss_kappa_ci95": [
+          0.1695052716950526,
+          0.4226910593095308
+        ],
+        "observed_agreement": 0.6118143459915613,
+        "kappa_max": 0.5355878634639698,
+        "share_of_ceiling": 0.5804319603446242,
+        "gwet_ac1": 0.548187902774612,
+        "pabak": 0.5147679324894516,
+        "modal_class_prevalence": 0.6160337552742616
+      },
+      "c5_relation": {
+        "n": 79,
+        "raters": 3,
+        "fleiss_kappa": 0.38371350364963525,
+        "fleiss_kappa_ci95": [
+          0.1542037969779158,
+          0.553582900192723
+        ],
+        "observed_agreement": 0.7594936708860761,
+        "kappa_max": 0.5458941605839415,
+        "share_of_ceiling": 0.7029082400133718,
+        "gwet_ac1": 0.7334924737122455,
+        "pabak": 0.6993670886075951,
+        "modal_class_prevalence": 0.7637130801687764
+      }
+    },
+    "model_frontier": {
+      "verdict": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": -0.10630061630927519,
+        "fleiss_kappa_ci95": [
+          -0.2008262744894247,
+          -0.05159489023177541
+        ],
+        "observed_agreement": 0.2458333333333333,
+        "kappa_max": 0.1198492334335048,
+        "share_of_ceiling": -0.8869528261793456,
+        "gwet_ac1": 0.02406877649138044,
+        "pabak": -0.0055555555555556095,
+        "modal_class_prevalence": 0.45416666666666666
+      },
+      "c1_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": -0.013237457100833447,
+        "fleiss_kappa_ci95": [
+          -0.11324115303491919,
+          0.05827405947381957
+        ],
+        "observed_agreement": 0.3541666666666665,
+        "kappa_max": 0.1501879392057526,
+        "share_of_ceiling": -0.08813928182807383,
+        "gwet_ac1": 0.23174622843158496,
+        "pabak": 0.19270833333333315,
+        "modal_class_prevalence": 0.5125
+      },
+      "c2_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": -0.04547011893690959,
+        "fleiss_kappa_ci95": [
+          -0.19058407470851524,
+          0.07294789143021402
+        ],
+        "observed_agreement": 0.25833333333333325,
+        "kappa_max": 0.13660613773187802,
+        "share_of_ceiling": -0.3328556073092081,
+        "gwet_ac1": 0.09843936308286456,
+        "pabak": 0.07291666666666657,
+        "modal_class_prevalence": 0.35
+      },
+      "c3_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": -0.15218434949591936,
+        "fleiss_kappa_ci95": [
+          -0.2335248807922729,
+          -0.09609362122960272
+        ],
+        "observed_agreement": 0.25,
+        "kappa_max": 0.0014402304368699539,
+        "share_of_ceiling": -105.66666666666266,
+        "gwet_ac1": 0.04217107888785423,
+        "pabak": 0.0,
+        "modal_class_prevalence": 0.4791666666666667
+      },
+      "c4_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": -0.0013392397239105423,
+        "fleiss_kappa_ci95": [
+          -0.08868031394125735,
+          0.03814501779359424
+        ],
+        "observed_agreement": 0.32499999999999984,
+        "kappa_max": 0.18409395281755436,
+        "share_of_ceiling": -0.007274762171236504,
+        "gwet_ac1": 0.18819034096840856,
+        "pabak": 0.15624999999999978,
+        "modal_class_prevalence": 0.45416666666666666
+      },
+      "c5_relation": {
+        "n": 80,
+        "raters": 3,
+        "fleiss_kappa": 0.3316564858066834,
+        "fleiss_kappa_ci95": [
+          0.144484629294756,
+          0.4866224315068491
+        ],
+        "observed_agreement": 0.7416666666666669,
+        "kappa_max": 0.482572763205174,
+        "share_of_ceiling": 0.6872673119880867,
+        "gwet_ac1": 0.7140331321828038,
+        "pabak": 0.6770833333333337,
+        "modal_class_prevalence": 0.7666666666666667
+      }
+    },
+    "model_all": {
+      "verdict": {
+        "n": 79,
+        "raters": 6,
+        "fleiss_kappa": 0.11224541782408812,
+        "fleiss_kappa_ci95": [
+          0.016820135052179244,
+          0.16644855226566335
+        ],
+        "observed_agreement": 0.3485232067510547,
+        "kappa_max": 0.4181297686774464,
+        "share_of_ceiling": 0.2684463681672865,
+        "gwet_ac1": 0.13755553373269153,
+        "pabak": 0.13136427566807293,
+        "modal_class_prevalence": 0.3227848101265823
+      },
+      "c1_relation": {
+        "n": 79,
+        "raters": 6,
+        "fleiss_kappa": 0.11751036216620238,
+        "fleiss_kappa_ci95": [
+          0.031220541681322583,
+          0.17938467568097183
+        ],
+        "observed_agreement": 0.42194092827004215,
+        "kappa_max": 0.3584235917646259,
+        "share_of_ceiling": 0.32785331341517987,
+        "gwet_ac1": 0.3087418533293237,
+        "pabak": 0.27742616033755274,
+        "modal_class_prevalence": 0.510548523206751
+      },
+      "c2_relation": {
+        "n": 79,
+        "raters": 6,
+        "fleiss_kappa": 0.09663267664962893,
+        "fleiss_kappa_ci95": [
+          0.012499840660811527,
+          0.1662693820874798
+        ],
+        "observed_agreement": 0.37383966244725714,
+        "kappa_max": 0.3449978167621298,
+        "share_of_ceiling": 0.28009648744025395,
+        "gwet_ac1": 0.2425921838238854,
+        "pabak": 0.2172995780590714,
+        "modal_class_prevalence": 0.43248945147679324
+      },
+      "c3_relation": {
+        "n": 79,
+        "raters": 6,
+        "fleiss_kappa": 0.08387030681759955,
+        "fleiss_kappa_ci95": [
+          0.006228694664100409,
+          0.14162070428510803
+        ],
+        "observed_agreement": 0.522362869198312,
+        "kappa_max": 0.21821441376837553,
+        "share_of_ceiling": 0.3843481526688883,
+        "gwet_ac1": 0.45077651791403384,
+        "pabak": 0.4029535864978899,
+        "modal_class_prevalence": 0.6603375527426161
+      },
+      "c4_relation": {
+        "n": 79,
+        "raters": 6,
+        "fleiss_kappa": 0.16652984246727312,
+        "fleiss_kappa_ci95": [
+          0.08409260642270346,
+          0.225556218031192
+        ],
+        "observed_agreement": 0.46497890295358635,
+        "kappa_max": 0.3768693143998224,
+        "share_of_ceiling": 0.44187689499867544,
+        "gwet_ac1": 0.3627059696744776,
+        "pabak": 0.33122362869198296,
+        "modal_class_prevalence": 0.5337552742616034
+      },
+      "c5_relation": {
+        "n": 79,
+        "raters": 6,
+        "fleiss_kappa": 0.41488194938393413,
+        "fleiss_kappa_ci95": [
+          0.2599686796515616,
+          0.5298355039202335
+        ],
+        "observed_agreement": 0.7729957805907169,
+        "kappa_max": 0.5562673519491548,
+        "share_of_ceiling": 0.7458319240383104,
+        "gwet_ac1": 0.7486136200646176,
+        "pabak": 0.7162447257383961,
+        "modal_class_prevalence": 0.7658227848101266
+      }
+    }
+  },
+  "accuracy_vs_human_consensus": {
+    "human": {
+      "verdict": {
+        "n": 78,
+        "correct": 69,
+        "accuracy": 0.8846153846153846,
+        "accuracy_ci95_cluster": [
+          0.8266666666666667,
+          0.9452054794520548
+        ],
+        "accuracy_ci95_wilson": [
+          0.7950279031382532,
+          0.9380955939585777
+        ],
+        "majority_class_baseline": 0.5375
+      }
+    },
+    "model_deployed": {
+      "verdict": {
+        "n": 66,
+        "correct": 26,
+        "accuracy": 0.3939393939393939,
+        "accuracy_ci95_cluster": [
+          0.2807017543859649,
+          0.49333333333333335
+        ],
+        "accuracy_ci95_wilson": [
+          0.2850282099029192,
+          0.5145181922413615
+        ],
+        "majority_class_baseline": 0.5375
+      }
+    },
+    "model_frontier": {
+      "verdict": {
+        "n": 59,
+        "correct": 25,
+        "accuracy": 0.423728813559322,
+        "accuracy_ci95_cluster": [
+          0.22641509433962265,
+          0.6346153846153846
+        ],
+        "accuracy_ci95_wilson": [
+          0.3061253228310244,
+          0.5506574452716337
+        ],
+        "majority_class_baseline": 0.5375
+      }
+    },
+    "model_all": {
+      "verdict": {
+        "n": 64,
+        "correct": 26,
+        "accuracy": 0.40625,
+        "accuracy_ci95_cluster": [
+          0.3108108108108108,
+          0.4864864864864865
+        ],
+        "accuracy_ci95_wilson": [
+          0.29456724435258885,
+          0.528550134954503
+        ],
+        "majority_class_baseline": 0.5375
+      }
+    }
+  },
+  "per_field": {},
+  "note": "Human coders and model judges saw the same 80 items and the same frozen v2 codebook. Human coders were additionally instructed to open the linked source, so if anything the human panel is the better-resourced instrument.",
+  "human_majority_vs_model_majority": {
+    "n": 65,
+    "agree": 24,
+    "rate": 0.36923076923076925
+  },
+  "human_minus_model_verdict_kappa": {
+    "n": 79,
+    "human_kappa": 0.35780847267199795,
+    "model_kappa": 0.20847047434656346,
+    "delta": 0.14933799832543448,
+    "delta_ci95": [
+      -0.0036953822714412277,
+      0.31622926179462185
+    ],
+    "interpretation": "A confidence interval covering zero means the human panel is not measurably more reliable than the deployed model panel on these items, so the low agreement is not attributable to the instrument class."
+  },
+  "human_minus_model_power": {
+    "n_items": 79,
+    "n_clusters": 9,
+    "bootstrap_se": 0.07993919351170467,
+    "minimum_detectable_delta_80pc_power": 0.22395644545448914,
+    "observed_delta": 0.14933799832543448,
+    "clusters_needed_for_observed_delta": 20.240861328570045,
+    "interpretation": "The design can detect a kappa difference of about 0.22 at 80% power over 9 source clusters. The observed 0.15 is below that, so this result bounds the human advantage rather than excluding one: it rules out a human panel that is more than about 0.22 kappa more reliable, and no more."
+  },
+  "threshold_spread": {
+    "human_A": {
+      "share_valid": 0.65,
+      "distribution": {
+        "valid": 52,
+        "under-specified": 2,
+        "partial": 21,
+        "invalid": 5
+      }
+    },
+    "human_B": {
+      "share_valid": 0.3625,
+      "distribution": {
+        "partial": 42,
+        "under-specified": 2,
+        "valid": 29,
+        "invalid": 7
+      }
+    },
+    "human_C": {
+      "share_valid": 0.775,
+      "distribution": {
+        "valid": 62,
+        "under-specified": 1,
+        "partial": 14,
+        "invalid": 3
+      }
+    },
+    "mA_gpt5mini": {
+      "developer": "OpenAI",
+      "n": 80,
+      "share_valid": 0.2375,
+      "distribution": {
+        "under-specified": 14,
+        "invalid": 34,
+        "valid": 19,
+        "partial": 13
+      }
+    },
+    "mB_claudeopus46": {
+      "developer": "Anthropic",
+      "n": 79,
+      "share_valid": 0.13924050632911392,
+      "distribution": {
+        "invalid": 16,
+        "partial": 37,
+        "under-specified": 15,
+        "valid": 11
+      }
+    },
+    "mC_gemini31pro": {
+      "developer": "Google",
+      "n": 80,
+      "share_valid": 0.2,
+      "distribution": {
+        "partial": 28,
+        "invalid": 20,
+        "valid": 16,
+        "under-specified": 16
+      }
+    },
+    "mD_claudeopus5": {
+      "developer": "Anthropic",
+      "n": 80,
+      "share_valid": 0.0,
+      "distribution": {
+        "under-specified": 32,
+        "invalid": 15,
+        "partial": 33
+      }
+    },
+    "mE_gpt54": {
+      "developer": "OpenAI",
+      "n": 80,
+      "share_valid": 0.3,
+      "distribution": {
+        "partial": 23,
+        "invalid": 19,
+        "valid": 24,
+        "under-specified": 14
+      }
+    },
+    "mF_gemini35flash": {
+      "developer": "Google",
+      "n": 80,
+      "share_valid": 0.4125,
+      "distribution": {
+        "under-specified": 11,
+        "invalid": 13,
+        "valid": 33,
+        "partial": 23
+      }
+    },
+    "mG_claudesonnet5": {
+      "developer": "Anthropic",
+      "n": 80,
+      "share_valid": 0.025,
+      "distribution": {
+        "under-specified": 43,
+        "partial": 26,
+        "invalid": 9,
+        "valid": 2
+      }
+    },
+    "mH_gpt4o": {
+      "developer": "OpenAI",
+      "n": 80,
+      "share_valid": 0.9,
+      "distribution": {
+        "valid": 72,
+        "partial": 8
+      }
+    },
+    "mI_gemini36flash": {
+      "developer": "Google",
+      "n": 80,
+      "share_valid": 0.4625,
+      "distribution": {
+        "under-specified": 6,
+        "invalid": 13,
+        "valid": 37,
+        "partial": 24
+      }
+    }
+  }
+}

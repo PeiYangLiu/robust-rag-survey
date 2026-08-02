@@ -4,7 +4,7 @@
   "candidate_count": 1138,
   "selected_count": 1067,
   "downloaded_count": 1175,
-  "root": "/home/v-peiyangliu/robust-rag-survey",
+  "root": ".",
   "notes": "Only open-access PDF URLs were used. Paywalled sources were intentionally excluded.",
   "targeted_list_added": 109
 }

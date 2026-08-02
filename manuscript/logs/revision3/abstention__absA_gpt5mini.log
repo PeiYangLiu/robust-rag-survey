@@ -1,0 +1,16 @@
+absA_gpt5mini: 702 pending of 704
+  absA_gpt5mini 50/702 parsed=38 0.19/s
+  absA_gpt5mini 100/702 parsed=76 0.19/s
+  absA_gpt5mini 150/702 parsed=114 0.18/s
+  absA_gpt5mini 200/702 parsed=150 0.18/s
+  absA_gpt5mini 250/702 parsed=189 0.18/s
+  absA_gpt5mini 300/702 parsed=230 0.19/s
+  absA_gpt5mini 350/702 parsed=269 0.19/s
+  absA_gpt5mini 400/702 parsed=310 0.19/s
+  absA_gpt5mini 450/702 parsed=347 0.19/s
+  absA_gpt5mini 500/702 parsed=386 0.19/s
+  absA_gpt5mini 550/702 parsed=431 0.19/s
+  absA_gpt5mini 600/702 parsed=467 0.20/s
+  absA_gpt5mini 650/702 parsed=508 0.20/s
+  absA_gpt5mini 700/702 parsed=547 0.20/s
+done absA_gpt5mini: 548/702 parsed

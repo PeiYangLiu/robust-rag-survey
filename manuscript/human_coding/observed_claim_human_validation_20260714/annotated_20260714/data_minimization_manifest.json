@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-15",
+  "purpose": "Keep only fields used by the claim-level analysis.",
+  "files_minimized": {
+    "annotator_A_claims_completed.csv": 80,
+    "annotator_B_claims_completed.csv": 80,
+    "annotator_C_claims_completed.csv": 80,
+    "adjudicated_consensus.csv": 80
+  },
+  "non_analysis_metadata_removed": true,
+  "removed_values_retained": false,
+  "collection_stage_templates_removed": true,
+  "sample_key": "sample_key.csv"
+}

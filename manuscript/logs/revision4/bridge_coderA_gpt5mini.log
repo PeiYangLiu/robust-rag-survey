@@ -1,0 +1,6 @@
+[coderA_gpt5mini] 0 done, 80 to run
+[coderA_gpt5mini] 20/80 ok=20
+[coderA_gpt5mini] 40/80 ok=40
+[coderA_gpt5mini] 60/80 ok=60
+[coderA_gpt5mini] 80/80 ok=80
+[coderA_gpt5mini] done in 280s parsed=80 failed=0 -> manuscript/supplement/population_bridge/coderA_gpt5mini.jsonl

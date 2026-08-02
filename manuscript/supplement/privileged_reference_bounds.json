@@ -1,0 +1,302 @@
+{
+  "characterization_no_majority_vs_established": {
+    "categorical": {
+      "deployed_reached_majority": {
+        "chi2": 0.0006637143668349235,
+        "cramers_v": 0.0019202348913536064,
+        "df": 1,
+        "established_commit_rate": 0.8837209302325582,
+        "established_counts": [
+          114,
+          15
+        ],
+        "fisher_p_value": 1.0,
+        "levels": [
+          "committed",
+          "abstained"
+        ],
+        "n": 180,
+        "no_majority_commit_rate": 0.8823529411764706,
+        "no_majority_counts": [
+          45,
+          6
+        ],
+        "p_value": 0.9794466493474465
+      },
+      "deployed_verdict_label": {
+        "chi2": 1.0739356942287326,
+        "cramers_v": 0.07724188897471272,
+        "df": 2,
+        "established_counts": [
+          15,
+          71,
+          43
+        ],
+        "levels": [
+          "none",
+          "survives",
+          "undefined"
+        ],
+        "n": 180,
+        "no_majority_counts": [
+          6,
+          24,
+          21
+        ],
+        "p_value": 0.584517915758142
+      },
+      "stratum": {
+        "chi2": 9.805426469739608,
+        "cramers_v": 0.23339792522332622,
+        "df": 2,
+        "established_counts": [
+          29,
+          64,
+          36
+        ],
+        "levels": [
+          "attribution",
+          "baseline",
+          "survey_table"
+        ],
+        "n": 180,
+        "no_majority_counts": [
+          11,
+          14,
+          26
+        ],
+        "p_value": 0.007426406126847489
+      }
+    },
+    "continuous": {
+      "coordinate_terms_mentioned": {
+        "cliffs_delta": -0.14120687034503723,
+        "established": {
+          "mean": 2.4728682170542635,
+          "median": 2,
+          "n": 129
+        },
+        "mannwhitney_u": 2825.0,
+        "n_established_used": 129,
+        "n_no_majority_used": 51,
+        "no_majority": {
+          "mean": 2.9607843137254903,
+          "median": 3,
+          "n": 51
+        },
+        "p_value": 0.13484791460320292
+      },
+      "n_determinable_coordinates": {
+        "cliffs_delta": 0.021431828545371637,
+        "established": {
+          "mean": 3.705426356589147,
+          "median": 4,
+          "n": 129
+        },
+        "mannwhitney_u": 3360.0,
+        "n_established_used": 129,
+        "n_no_majority_used": 51,
+        "no_majority": {
+          "mean": 3.764705882352941,
+          "median": 4,
+          "n": 51
+        },
+        "p_value": 0.8144985377303576
+      },
+      "n_verified_reference_votes": {
+        "cliffs_delta": 0.7926736586107311,
+        "established": {
+          "mean": 2.9767441860465116,
+          "median": 3,
+          "n": 129
+        },
+        "mannwhitney_u": 5897.0,
+        "n_established_used": 129,
+        "n_no_majority_used": 51,
+        "no_majority": {
+          "mean": 1.2941176470588236,
+          "median": 1,
+          "n": 51
+        },
+        "p_value": 1.0200997445478249e-17
+      },
+      "reference_vote_entropy_raw": {
+        "cliffs_delta": -0.3772609819121447,
+        "established": {
+          "mean": 0.5317440566015694,
+          "median": 0.8112781244591328,
+          "n": 129
+        },
+        "mannwhitney_u": 2048.5,
+        "n_established_used": 129,
+        "n_no_majority_used": 51,
+        "no_majority": {
+          "mean": 0.8828836393983305,
+          "median": 0.8112781244591328,
+          "n": 51
+        },
+        "p_value": 1.89927854503587e-05
+      },
+      "reference_vote_entropy_verified": {
+        "cliffs_delta": -0.15828375698575806,
+        "established": {
+          "mean": 0.2194983689441093,
+          "median": -0.0,
+          "n": 129
+        },
+        "mannwhitney_u": 2334.5,
+        "n_established_used": 129,
+        "n_no_majority_used": 43,
+        "no_majority": {
+          "mean": 0.378020639585197,
+          "median": -0.0,
+          "n": 43
+        },
+        "p_value": 0.04584529049908275
+      },
+      "window_length_chars": {
+        "cliffs_delta": -0.06763945888432893,
+        "established": {
+          "mean": 712.4418604651163,
+          "median": 552,
+          "n": 129
+        },
+        "mannwhitney_u": 3067.0,
+        "n_established_used": 129,
+        "n_no_majority_used": 51,
+        "no_majority": {
+          "mean": 798.8823529411765,
+          "median": 453,
+          "n": 51
+        },
+        "p_value": 0.4799847375877345
+      },
+      "window_length_words": {
+        "cliffs_delta": -0.0942392460860313,
+        "established": {
+          "mean": 100.2015503875969,
+          "median": 85,
+          "n": 129
+        },
+        "mannwhitney_u": 2979.5,
+        "n_established_used": 129,
+        "n_no_majority_used": 51,
+        "no_majority": {
+          "mean": 116.84313725490196,
+          "median": 70,
+          "n": 51
+        },
+        "p_value": 0.32490065326719997
+      }
+    },
+    "coordinate_lexicon_size": 40,
+    "groups": {
+      "established": 129,
+      "no_majority": 51
+    },
+    "pass": "verdict (comparability)",
+    "verified_entropy_available": true
+  },
+  "provenance": {
+    "accounting": {
+      "crosstab": {
+        "ref_maj_and_deployed_abstained": 1,
+        "ref_maj_and_deployed_committed": 170,
+        "ref_no_maj_and_deployed_abstained": 0,
+        "ref_no_maj_and_deployed_committed": 9
+      },
+      "n_correct_scored": 154,
+      "n_deployed_abstained": 1,
+      "n_deployed_committed": 179,
+      "n_reference_majority": 171,
+      "n_reference_no_majority": 9,
+      "n_scored": 170,
+      "n_total": 180
+    },
+    "accuracy": 0.9058823529411765,
+    "by_denominator": {
+      "deployed_committed": {
+        "best_case_accuracy": 0.9106145251396648,
+        "denominator": 179,
+        "n_extra_beyond_scored": 9,
+        "note": "only windows where the deployed panel produced a verdict (179 = 170 scored + 9 no-reference-majority but deployed-committed); the 1 deployed abstentions are excluded because the panel issued no verdict to score",
+        "worst_case_accuracy": 0.8603351955307262
+      },
+      "full_sample": {
+        "best_case_accuracy": 0.9111111111111111,
+        "denominator": 180,
+        "n_extra_beyond_scored": 10,
+        "note": "all 180 sampled windows; the 10 beyond the 170 scored are 9 with no reference majority plus 1 with a reference majority but no deployed verdict",
+        "worst_case_accuracy": 0.8555555555555555
+      },
+      "reviewer_scored_plus_all_no_majority": {
+        "best_case_accuracy": 0.9106145251396648,
+        "denominator": 179,
+        "n_extra_beyond_scored": 9,
+        "note": "the reviewer's implied denominator, scored + every no-reference-majority window (170 + 9 = 179); NOTE only 9 of these 9 no-majority windows carry a deployed verdict, so the count of windows where the deployed panel actually committed is 179, not 179",
+        "worst_case_accuracy": 0.8603351955307262
+      }
+    },
+    "n_correct": 154,
+    "n_scored": 170,
+    "reviewer_denominator_premise_holds": true,
+    "wilson_ci95": [
+      0.8525911072997718,
+      0.9412356411337337
+    ]
+  },
+  "question": "Reviewer Q6: bounds on deployed-panel accuracy if the excluded no-reference-majority windows are counted, and how those windows differ.",
+  "sample": {
+    "n_papers": 63,
+    "n_windows": 180
+  },
+  "schema_version": "privileged-reference-bounds-v1",
+  "verdict": {
+    "accounting": {
+      "crosstab": {
+        "ref_maj_and_deployed_abstained": 15,
+        "ref_maj_and_deployed_committed": 114,
+        "ref_no_maj_and_deployed_abstained": 6,
+        "ref_no_maj_and_deployed_committed": 45
+      },
+      "n_correct_scored": 93,
+      "n_deployed_abstained": 21,
+      "n_deployed_committed": 159,
+      "n_reference_majority": 129,
+      "n_reference_no_majority": 51,
+      "n_scored": 114,
+      "n_total": 180
+    },
+    "accuracy": 0.8157894736842105,
+    "by_denominator": {
+      "deployed_committed": {
+        "best_case_accuracy": 0.8679245283018868,
+        "denominator": 159,
+        "n_extra_beyond_scored": 45,
+        "note": "only windows where the deployed panel produced a verdict (159 = 114 scored + 45 no-reference-majority but deployed-committed); the 21 deployed abstentions are excluded because the panel issued no verdict to score",
+        "worst_case_accuracy": 0.5849056603773585
+      },
+      "full_sample": {
+        "best_case_accuracy": 0.8833333333333333,
+        "denominator": 180,
+        "n_extra_beyond_scored": 66,
+        "note": "all 180 sampled windows; the 66 beyond the 114 scored are 51 with no reference majority plus 15 with a reference majority but no deployed verdict",
+        "worst_case_accuracy": 0.5166666666666667
+      },
+      "reviewer_scored_plus_all_no_majority": {
+        "best_case_accuracy": 0.8727272727272727,
+        "denominator": 165,
+        "n_extra_beyond_scored": 51,
+        "note": "the reviewer's implied denominator, scored + every no-reference-majority window (114 + 51 = 165); NOTE only 45 of these 51 no-majority windows carry a deployed verdict, so the count of windows where the deployed panel actually committed is 159, not 165",
+        "worst_case_accuracy": 0.5636363636363636
+      }
+    },
+    "n_correct": 93,
+    "n_scored": 114,
+    "reviewer_denominator_premise_holds": false,
+    "wilson_ci95": [
+      0.7347507139632148,
+      0.8762396855060637
+    ]
+  }
+}

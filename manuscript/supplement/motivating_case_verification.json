@@ -1,0 +1,126 @@
+{
+  "checks": [
+    {
+      "cited_lines": [
+        366,
+        372
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "NQ",
+        "Contriever"
+      ],
+      "file": "poisoningRetrievalCorpora2023.txt",
+      "id": "corpus_poisoning_84_2",
+      "manuscript_statement": "Corpus poisoning places an adversarial passage in the top-20 for 84.2% of NQ queries with a single adversarial passage, using the pre-trained Contriever retriever.",
+      "passed": true,
+      "value": "84.2",
+      "value_located": true
+    },
+    {
+      "cited_lines": [
+        366,
+        372
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "NQ",
+        "Contriever"
+      ],
+      "file": "poisoningRetrievalCorpora2023.txt",
+      "id": "corpus_poisoning_99_4",
+      "manuscript_statement": "The same setting reaches 99.4% with fifty adversarial passages.",
+      "passed": true,
+      "value": "99.4",
+      "value_located": true
+    },
+    {
+      "cited_lines": [
+        333,
+        337
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "top-k"
+      ],
+      "file": "poisoningRetrievalCorpora2023.txt",
+      "id": "corpus_poisoning_metric_is_topk_retrieval",
+      "manuscript_statement": "Its success metric is retrieval, not answer manipulation: the percentage of queries for which at least one adversarial passage is retrieved in the top-k results.",
+      "passed": true,
+      "value": "percentage of queries for which at least one adver-",
+      "value_located": true
+    },
+    {
+      "cited_lines": [
+        466,
+        470
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "success rate"
+      ],
+      "file": "poisoningRetrievalCorpora2023.txt",
+      "id": "corpus_poisoning_topk_is_20",
+      "manuscript_statement": "The reported operating point is top-20.",
+      "passed": true,
+      "value": "top-20",
+      "value_located": true
+    },
+    {
+      "cited_lines": [
+        1061,
+        1064
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "Corpus Poisoning Attack",
+        "NQ"
+      ],
+      "file": "poisonedRAG2024.txt",
+      "id": "poisonedrag_baseline_0_01",
+      "manuscript_statement": "PoisonedRAG's Table 4 records the Corpus Poisoning Attack at 0.01 ASR on NQ.",
+      "passed": true,
+      "value": "0.01",
+      "value_located": true
+    },
+    {
+      "cited_lines": [
+        681,
+        684
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "NQ knowledge database",
+        "5 most similar texts"
+      ],
+      "file": "poisonedRAG2024.txt",
+      "id": "poisonedrag_default_retriever_and_topk",
+      "manuscript_statement": "PoisonedRAG's default setting is the NQ knowledge database, the Contriever retriever and five retrieved texts, so the two figures share a corpus and a retriever but not a retrieved-set size.",
+      "passed": true,
+      "value": "Contriever retriever",
+      "value_located": true
+    },
+    {
+      "cited_lines": [
+        1338,
+        1341
+      ],
+      "conditions_missing": [],
+      "conditions_required": [
+        "Corpus Poisoning Attack",
+        "respectively"
+      ],
+      "file": "poisonedRAG2024.txt",
+      "id": "poisonedrag_says_baseline_cannot_satisfy_generation",
+      "manuscript_statement": "PoisonedRAG itself states that Naive Attack, Corpus Poisoning Attack and GCG Attack \"are ineffective because they cannot achieve generation, generation, and retrieval condition, respectively\", so the condition the corpus-poisoning baseline fails is generation.",
+      "passed": true,
+      "value": "are ineffective because they cannot achieve generation,",
+      "value_located": true
+    }
+  ],
+  "n_checks": 7,
+  "n_failed": 0,
+  "n_passed": 7,
+  "note": "The two attacks share the NQ corpus and the pre-trained Contriever retriever. They do not share the retrieved-set size (top-20 for the retrieval metric, five retrieved texts in PoisonedRAG's default), the counted event (a passage entering the retrieved set versus a target question answered with the attacker's answer), or the unit (percentage of queries versus fraction of target questions). The introduction now states each of these inline.",
+  "schema_version": 1
+}

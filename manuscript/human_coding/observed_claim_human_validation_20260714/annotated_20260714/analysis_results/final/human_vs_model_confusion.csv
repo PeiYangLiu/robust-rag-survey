@@ -1,0 +1,17 @@
+﻿model_adjudicated_verdict,human_final_verdict,count
+valid,valid,21
+valid,partial,3
+valid,invalid,1
+valid,under-specified,1
+partial,valid,12
+partial,partial,13
+partial,invalid,0
+partial,under-specified,0
+invalid,valid,9
+invalid,partial,11
+invalid,invalid,5
+invalid,under-specified,0
+under-specified,valid,1
+under-specified,partial,2
+under-specified,invalid,0
+under-specified,under-specified,1

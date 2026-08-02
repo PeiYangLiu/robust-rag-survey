@@ -4,7 +4,7 @@
 \renewcommand{\arraystretch}{0.88}
 \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.16\linewidth}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}X}
 \toprule
-\textbf{Ordinary survey comparison} & \textbf{Five-coordinate diagnosis} & \textbf{Breaking coordinate(s)} & \textbf{Verdict} & \textbf{Changed recommendation} \\
+\textbf{Plausible broad grouping} & \textbf{Comparability diagnosis} & \textbf{Fields to normalise} & \textbf{Published-result verdict} & \textbf{Defensible comparison design} \\
 \midrule
 \citet{irrelevantContext2023}, \citet{raat2024}, \citet{chainOfNote2023}, \citet{sufficientContext2024}, and \citet{rgb2023} as ``noise robustness.'' & Shared broad failure label, but filtering/back-off, noise-aware training, generator evidence reading, sufficiency estimation, and ability benchmarking intervene at different points and reward different metrics/actions. & Intervention, metric, action. & Partial / under-specified & Do not pick one ``best noise method.'' Choose by evidence state: hard-negative filtering, training-through-noise, document reading, abstention/re-retrieval, or diagnostic benchmarking. \\
 \citet{ragTruth2024}, RAGAS/ARES \citep{ragas2024,ares2024}, \citet{faithfulRAG2025}, and \citet{astuteRAG2025} as a common faithfulness toolbox. & LLM-judge scores, span-level support labels, and fact/source conflict reasoning measure different units. A supported citation, correct answer, and resolved conflict are not equivalent. & Metric unit, failure subtype, action. & Partial & Report answer correctness, claim support, citation entailment, source disagreement, and action under conflict separately. \\
@@ -13,7 +13,6 @@
 \citet{selfRAG2023}, FLARE/DRAGIN \citep{flare2023active,venue200DRAGIN}, \citet{sufficientContext2024}, and \citet{calibRAG2025} as adaptive or uncertainty RAG. & Confidence, evidence sufficiency, retrieval trigger, critique policy, and abstention answer different control questions. Calibration can improve belief estimates without selecting the right action. & Failure subtype, metric target, action set. & Partial & Evaluate over a shared action set: answer, retrieve again, verify, clarify, abstain, or escalate, with coverage and cost. \\
 \bottomrule
 \end{tabularx}
-\caption{Five worked re-analyses. Each row shows how an ordinary survey grouping can imply a misleading comparison, which tuple coordinate breaks the comparison, and what recommendation changes after normalization.}
+\caption{Five representative comparison audits. Each row starts from a recurring literature grouping, identifies the fields that must be aligned, and states the comparison supported by the current evidence.}
 \label{tab:main-worked-examples}
 \end{table*}
-

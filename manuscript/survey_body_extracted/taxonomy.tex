@@ -1,0 +1,25 @@
+A RAG system is best read as an evidence-conditioned decision process: a query arrives, a
+retriever assembles a context, and a generator commits to an action on the basis of that
+context. Failures occur when the assembled evidence is incomplete, irrelevant, misleading,
+mutually contradictory, corrupted, or simply insufficient to support any answer
+(Appendix~\ref{app:background}). Sorting the literature by \emph{where} in this process a
+paper intervenes yields four failure surfaces, which we use as the top-level organisation of
+the survey and summarise in Figure~\ref{fig:survey_outline}.
+
+\textbf{Evidence-centric} work (\S\ref{sec:evidence}) treats the composition of the context
+as the object of study, asking which passages reach the generator and in what order.
+\textbf{Model-centric} work (\S\ref{sec:model}) holds the context fixed and asks how the
+generator uses it, which is where faithfulness, attribution and knowledge conflict live.
+\textbf{Adversarial} work (\S\ref{sec:adversarial}) replaces the assumption of benign noise
+with an adaptive attacker who chooses the evidence. \textbf{System-centric} work
+(\S\ref{sec:system}) steps outside the single forward pass and asks what the system should
+\emph{do}---retrieve again, verify, abstain, or answer---under uncertainty and cost.
+
+The four surfaces partition the literature, not the phenomena, and a single event routinely
+touches several at once. A poisoned passage is an evidence state, an adversary capability,
+and---if the system declines to answer because of it---a policy decision. That overlap is
+exactly why placing two papers on the same surface does not make their numbers comparable,
+and it motivates the reduction to five reporting coordinates in \S\ref{sec:coordinates}.
+Evaluation practice cuts across all four surfaces and is treated separately in
+Appendix~\ref{app:evaluation}; the rules used to assign a paper to a surface are in
+Appendix~\ref{sec:appendix-methods}.

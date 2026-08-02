@@ -1,0 +1,6 @@
+comparability/both_full/refB_gpt55: 90 pending of 90
+  comparability/both_full/refB_gpt55 20/90 parsed=0 0.22/s
+  comparability/both_full/refB_gpt55 40/90 parsed=0 0.25/s
+  comparability/both_full/refB_gpt55 60/90 parsed=0 0.26/s
+  comparability/both_full/refB_gpt55 80/90 parsed=0 0.25/s
+done comparability/both_full/refB_gpt55: 0/90 parsed

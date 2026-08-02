@@ -1,0 +1,282 @@
+{
+  "01-ai/Yi-1.5-9B-Chat": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/yi15-9b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 125,
+    "unrecoverable_after_normalisation": 125
+  },
+  "HuggingFaceH4/zephyr-7b-beta": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/zephyr-7b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 1404,
+    "unrecoverable_after_normalisation": 1404
+  },
+  "HuggingFaceTB/SmolLM3-3B": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/smollm3-3b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "NousResearch/Meta-Llama-3.1-8B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/llama31-8b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 1859,
+    "unrecoverable_after_normalisation": 1859
+  },
+  "Qwen/Qwen2.5-14B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/qwen25-14b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "Qwen/Qwen2.5-32B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/qwen25-32b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/qwen25-7b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "Qwen/Qwen3-14B": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/qwen3-14b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "Qwen/Qwen3-8B": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/qwen3-8b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "THUDM/glm-4-9b-chat": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/glm4-9b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "allenai/OLMo-2-0325-32B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/olmo2-32b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "allenai/OLMo-2-1124-13B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/olmo2-13b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "allenai/OLMo-2-1124-7B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/olmo2-7b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 214,
+    "unrecoverable_after_normalisation": 214
+  },
+  "claude-haiku-4.5": {
+    "cells_changed_by_normalisation": 200,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/claude-haiku-4_5.jsonl",
+    "recovered_cells_matching_target": 180,
+    "serving": "openai_compatible_api",
+    "share_changed": 0.0278,
+    "strict_parse_failures": 401,
+    "unrecoverable_after_normalisation": 201
+  },
+  "claude-sonnet-4.5": {
+    "cells_changed_by_normalisation": 2125,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/claude-sonnet-4_5.jsonl",
+    "recovered_cells_matching_target": 1933,
+    "serving": "openai_compatible_api",
+    "share_changed": 0.2951,
+    "strict_parse_failures": 2173,
+    "unrecoverable_after_normalisation": 48
+  },
+  "gemini-2.5-pro": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/gemini-2_5-pro.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "openai_compatible_api",
+    "share_changed": 0.0,
+    "strict_parse_failures": 11,
+    "unrecoverable_after_normalisation": 11
+  },
+  "gemini-3.5-flash": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/gemini-3_5-flash.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "openai_compatible_api",
+    "share_changed": 0.0,
+    "strict_parse_failures": 1340,
+    "unrecoverable_after_normalisation": 1340
+  },
+  "ibm-granite/granite-3.1-8b-instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/granite-31-8b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 6,
+    "unrecoverable_after_normalisation": 6
+  },
+  "ibm-granite/granite-3.3-8b-instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/granite-33-8b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 48,
+    "unrecoverable_after_normalisation": 48
+  },
+  "microsoft/Phi-4": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/phi4-14b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 3693,
+    "unrecoverable_after_normalisation": 3693
+  },
+  "microsoft/Phi-4-mini-instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/phi-4-mini.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "nvidia/Mistral-NeMo-Minitron-8B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/minitron-8b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "stabilityai/stablelm-2-12b-chat": {
+    "cells_changed_by_normalisation": 146,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/stablelm2-12b.jsonl",
+    "recovered_cells_matching_target": 65,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0203,
+    "strict_parse_failures": 3752,
+    "unrecoverable_after_normalisation": 3606
+  },
+  "tiiuae/Falcon3-10B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/falcon3-10b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 128,
+    "unrecoverable_after_normalisation": 128
+  },
+  "tiiuae/Falcon3-7B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v2/falcon3-7b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "unsloth/Llama-3.2-3B-Instruct": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/llama32-3b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 62,
+    "unrecoverable_after_normalisation": 62
+  },
+  "unsloth/Mistral-Nemo-Instruct-2407": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/mistral-nemo-12b.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  },
+  "unsloth/mistral-7b-instruct-v0.3": {
+    "cells_changed_by_normalisation": 0,
+    "n_records": 7200,
+    "raw_file": "manuscript/supplement/controlled_model_judge_raw_v3/mistral-7b-v03.jsonl",
+    "recovered_cells_matching_target": 0,
+    "serving": "local_checkpoint",
+    "share_changed": 0.0,
+    "strict_parse_failures": 0,
+    "unrecoverable_after_normalisation": 0
+  }
+}

@@ -1,0 +1,1148 @@
+{
+  "schema_version": "frame-coverage-audit-v1",
+  "snapshot_date": "2026-06-03",
+  "reviewer_prompt": "'259 full texts' from '1,904 records' will strike readers as thin; justify the query set or report recall against a known list (the reference lists of the six prior surveys compared to).",
+  "harvest": {
+    "ragSurvey2024": {
+      "resolved_id": "arXiv:2312.10997",
+      "status": "ok",
+      "reference_count_reported": 227,
+      "n_harvested": 227
+    },
+    "ragEvaluationSurvey2024": {
+      "resolved_id": "arXiv:2405.07437",
+      "status": "ok",
+      "reference_count_reported": 74,
+      "n_harvested": 74
+    },
+    "trustRAGCompass2024": {
+      "resolved_id": "arXiv:2409.10102",
+      "status": "ok",
+      "reference_count_reported": 192,
+      "n_harvested": 192
+    },
+    "securityRAGSurvey2026": {
+      "resolved_id": "arXiv:2604.08304",
+      "status": "ok",
+      "reference_count_reported": 121,
+      "n_harvested": 121
+    },
+    "xuKnowledgeConflicts2024": {
+      "resolved_id": "arXiv:2403.08319",
+      "status": "ok",
+      "reference_count_reported": 200,
+      "n_harvested": 200
+    },
+    "wenAbstentionSurvey2025": {
+      "resolved_id": "DOI:10.1162/tacl_a_00754",
+      "status": "ok",
+      "reference_count_reported": 179,
+      "n_harvested": 179
+    }
+  },
+  "harvest_total_references": 993,
+  "harvest_failures": 0,
+  "in_scope_filter": {
+    "rule": "title contains >=1 retrieval term AND >=1 robustness term (whole-word/phrase match on the punctuation-stripped, lower-cased title)",
+    "retrieval_terms": [
+      "retrieval",
+      "retriever",
+      "retrieve",
+      "retrieved",
+      "retrieving",
+      "retrieval augmented",
+      "retrieval augmented generation",
+      "retrieval augmented language models",
+      "rag",
+      "open domain question answering",
+      "open domain qa",
+      "knowledge intensive",
+      "dense passage",
+      "passage retrieval",
+      "document retrieval"
+    ],
+    "robustness_terms_query_set": [
+      "robustness",
+      "noisy",
+      "irrelevant",
+      "distractor",
+      "knowledge conflict",
+      "parametric knowledge",
+      "adversarial",
+      "poisoning",
+      "prompt injection",
+      "uncertainty",
+      "calibration",
+      "abstain",
+      "adaptive retrieval",
+      "faithfulness",
+      "hallucination",
+      "trustworthy",
+      "security",
+      "privacy",
+      "noise robustness",
+      "noisy context",
+      "irrelevant context",
+      "hard negative",
+      "context conflict",
+      "knowledge corruption",
+      "data poisoning",
+      "indirect prompt",
+      "unanswerable",
+      "selective generation",
+      "confidence estimation",
+      "uncertainty quantification",
+      "trust calibration",
+      "negative rejection",
+      "information integration",
+      "counterfactual robustness",
+      "context faithfulness",
+      "groundedness",
+      "citation",
+      "self correction",
+      "verification",
+      "fact checking",
+      "abstention"
+    ],
+    "robustness_terms_variants": [
+      "robust",
+      "noise",
+      "distraction",
+      "conflict",
+      "knowledge conflicts",
+      "conflicting",
+      "adversary",
+      "attack",
+      "attacks",
+      "poison",
+      "poisoned",
+      "injection",
+      "abstaining",
+      "faithful",
+      "unfaithful",
+      "hallucinate",
+      "hallucinated",
+      "hallucinations",
+      "trustworthiness",
+      "secure",
+      "grounded",
+      "counterfactual",
+      "corruption",
+      "corrupted",
+      "contradiction",
+      "contradictory",
+      "calibrated",
+      "confidence",
+      "selective prediction",
+      "rejection",
+      "factuality",
+      "misinformation",
+      "jailbreak",
+      "backdoor"
+    ],
+    "derivation": "The robustness axis is the union of the robustness/attack/conflict/noise/calibration/abstention query terms released in supplement/screening_frame_flow.json (arxiv_queries) plus morphological variants; the retrieval axis is the retrieval/RAG query terms plus 'rag' and 'retriever'. Applied to prior-survey reference titles, not to our frame.",
+    "caveat": "A title-keyword screen misses robust-RAG papers whose titles carry a named system but no scope keyword (e.g. 'Astute RAG'), so in-scope counts are conservative; unfiltered recall is reported alongside for exactly this reason."
+  },
+  "frame_stages": {
+    "retrieved_1904": {
+      "n": 1904,
+      "record_level_list_released": false,
+      "note": "Count only (search_protocol.json logs queries and the 1,904 total, not a per-record list). The 1,399 deduplicated release is the largest released per-record superset, so recall against it lower-bounds recall against the 1,904 retrieved records."
+    },
+    "open_pdf_1445": {
+      "n": 1445,
+      "record_level_list_released": false,
+      "note": "Count only; superset of the 1,399 deduplicated release."
+    },
+    "deduplicated_1399": {
+      "n": 1399,
+      "artifact": "supplement/all_reviewed_deduped.csv"
+    },
+    "screened_536": {
+      "n": 536,
+      "artifact": "supplement/all_reviewed_deduped.csv (decision in {core,include})"
+    },
+    "full_texts_259": {
+      "n": 259,
+      "artifact": "citation_audit/expanded_audit_manifest.csv (status=ready)"
+    },
+    "evidence_map_342": {
+      "n": 342,
+      "artifact": "supplement/evidence_map_venue_expanded_adjudicated.csv"
+    }
+  },
+  "matching": {
+    "channels_in_order": [
+      "arxiv",
+      "doi",
+      "acl",
+      "title_exact",
+      "title_tokensort",
+      "title_jaccard"
+    ],
+    "note": "arXiv ids are version-stripped; titles are lower-cased and punctuation-stripped; Jaccard fallback requires >=0.9 token overlap and >=4 tokens.",
+    "pooled_in_scope_channel_rollup_by_stage": {
+      "deduplicated_1399": {
+        "arxiv": 71,
+        "title_exact": 4
+      },
+      "screened_536": {
+        "arxiv": 58,
+        "title_exact": 4
+      },
+      "full_texts_259": {
+        "arxiv": 48,
+        "title_exact": 6
+      },
+      "evidence_map_342": {
+        "title_exact": 16,
+        "arxiv": 44,
+        "doi": 1
+      }
+    }
+  },
+  "per_survey": {
+    "ragSurvey2024": {
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "resolved_id": "arXiv:2312.10997",
+      "reference_count_reported": 227,
+      "n_references": 227,
+      "n_in_scope": 8,
+      "in_scope_recall": {
+        "n": 8,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 4,
+            "recall": 0.5,
+            "wilson95": [
+              0.2152,
+              0.7848
+            ],
+            "match_channels": {
+              "arxiv": 4
+            }
+          },
+          "screened_536": {
+            "n_matched": 3,
+            "recall": 0.375,
+            "wilson95": [
+              0.1368,
+              0.6943
+            ],
+            "match_channels": {
+              "arxiv": 3
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 2,
+            "recall": 0.25,
+            "wilson95": [
+              0.0715,
+              0.5907
+            ],
+            "match_channels": {
+              "arxiv": 2
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 5,
+            "recall": 0.625,
+            "wilson95": [
+              0.3057,
+              0.8632
+            ],
+            "match_channels": {
+              "title_exact": 4,
+              "arxiv": 1
+            }
+          }
+        }
+      },
+      "unfiltered_recall": {
+        "n": 227,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 12,
+            "recall": 0.05286343612334802,
+            "wilson95": [
+              0.0305,
+              0.0901
+            ],
+            "match_channels": {
+              "arxiv": 12
+            }
+          },
+          "screened_536": {
+            "n_matched": 9,
+            "recall": 0.039647577092511016,
+            "wilson95": [
+              0.021,
+              0.0736
+            ],
+            "match_channels": {
+              "arxiv": 9
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 10,
+            "recall": 0.04405286343612335,
+            "wilson95": [
+              0.0241,
+              0.0792
+            ],
+            "match_channels": {
+              "arxiv": 9,
+              "title_exact": 1
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 15,
+            "recall": 0.06607929515418502,
+            "wilson95": [
+              0.0405,
+              0.1062
+            ],
+            "match_channels": {
+              "arxiv": 5,
+              "title_exact": 10
+            }
+          }
+        }
+      },
+      "n_out_of_frame": 3
+    },
+    "ragEvaluationSurvey2024": {
+      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "resolved_id": "arXiv:2405.07437",
+      "reference_count_reported": 74,
+      "n_references": 74,
+      "n_in_scope": 2,
+      "in_scope_recall": {
+        "n": 2,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.6576
+            ],
+            "match_channels": {}
+          },
+          "screened_536": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.6576
+            ],
+            "match_channels": {}
+          },
+          "full_texts_259": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.6576
+            ],
+            "match_channels": {}
+          },
+          "evidence_map_342": {
+            "n_matched": 1,
+            "recall": 0.5,
+            "wilson95": [
+              0.0945,
+              0.9055
+            ],
+            "match_channels": {
+              "title_exact": 1
+            }
+          }
+        }
+      },
+      "unfiltered_recall": {
+        "n": 74,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 3,
+            "recall": 0.04054054054054054,
+            "wilson95": [
+              0.0139,
+              0.1125
+            ],
+            "match_channels": {
+              "arxiv": 3
+            }
+          },
+          "screened_536": {
+            "n_matched": 2,
+            "recall": 0.02702702702702703,
+            "wilson95": [
+              0.0074,
+              0.0933
+            ],
+            "match_channels": {
+              "arxiv": 2
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 4,
+            "recall": 0.05405405405405406,
+            "wilson95": [
+              0.0212,
+              0.1309
+            ],
+            "match_channels": {
+              "arxiv": 3,
+              "title_exact": 1
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 6,
+            "recall": 0.08108108108108109,
+            "wilson95": [
+              0.0377,
+              0.1658
+            ],
+            "match_channels": {
+              "title_exact": 5,
+              "arxiv": 1
+            }
+          }
+        }
+      },
+      "n_out_of_frame": 1
+    },
+    "trustRAGCompass2024": {
+      "title": "Trustworthiness in Retrieval-Augmented Generation Systems: A Survey",
+      "resolved_id": "arXiv:2409.10102",
+      "reference_count_reported": 192,
+      "n_references": 192,
+      "n_in_scope": 28,
+      "in_scope_recall": {
+        "n": 28,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 18,
+            "recall": 0.6428571428571429,
+            "wilson95": [
+              0.4583,
+              0.7929
+            ],
+            "match_channels": {
+              "arxiv": 16,
+              "title_exact": 2
+            }
+          },
+          "screened_536": {
+            "n_matched": 14,
+            "recall": 0.5,
+            "wilson95": [
+              0.3263,
+              0.6737
+            ],
+            "match_channels": {
+              "arxiv": 12,
+              "title_exact": 2
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 13,
+            "recall": 0.4642857142857143,
+            "wilson95": [
+              0.2953,
+              0.6419
+            ],
+            "match_channels": {
+              "arxiv": 10,
+              "title_exact": 3
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 14,
+            "recall": 0.5,
+            "wilson95": [
+              0.3263,
+              0.6737
+            ],
+            "match_channels": {
+              "title_exact": 5,
+              "arxiv": 9
+            }
+          }
+        }
+      },
+      "unfiltered_recall": {
+        "n": 192,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 33,
+            "recall": 0.171875,
+            "wilson95": [
+              0.1251,
+              0.2315
+            ],
+            "match_channels": {
+              "arxiv": 29,
+              "title_exact": 3,
+              "acl": 1
+            }
+          },
+          "screened_536": {
+            "n_matched": 24,
+            "recall": 0.125,
+            "wilson95": [
+              0.0855,
+              0.1793
+            ],
+            "match_channels": {
+              "arxiv": 20,
+              "title_exact": 3,
+              "acl": 1
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 22,
+            "recall": 0.11458333333333333,
+            "wilson95": [
+              0.0769,
+              0.1674
+            ],
+            "match_channels": {
+              "arxiv": 16,
+              "title_exact": 5,
+              "acl": 1
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 24,
+            "recall": 0.125,
+            "wilson95": [
+              0.0855,
+              0.1793
+            ],
+            "match_channels": {
+              "title_exact": 10,
+              "arxiv": 13,
+              "acl": 1
+            }
+          }
+        }
+      },
+      "n_out_of_frame": 10
+    },
+    "securityRAGSurvey2026": {
+      "title": "Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions",
+      "resolved_id": "arXiv:2604.08304",
+      "reference_count_reported": 121,
+      "n_references": 121,
+      "n_in_scope": 69,
+      "in_scope_recall": {
+        "n": 69,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 52,
+            "recall": 0.7536231884057971,
+            "wilson95": [
+              0.6404,
+              0.8401
+            ],
+            "match_channels": {
+              "arxiv": 50,
+              "title_exact": 2
+            }
+          },
+          "screened_536": {
+            "n_matched": 44,
+            "recall": 0.6376811594202898,
+            "wilson95": [
+              0.5198,
+              0.741
+            ],
+            "match_channels": {
+              "arxiv": 42,
+              "title_exact": 2
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 38,
+            "recall": 0.5507246376811594,
+            "wilson95": [
+              0.4338,
+              0.6623
+            ],
+            "match_channels": {
+              "arxiv": 35,
+              "title_exact": 3
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 40,
+            "recall": 0.5797101449275363,
+            "wilson95": [
+              0.4621,
+              0.6889
+            ],
+            "match_channels": {
+              "arxiv": 33,
+              "title_exact": 6,
+              "doi": 1
+            }
+          }
+        }
+      },
+      "unfiltered_recall": {
+        "n": 121,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 65,
+            "recall": 0.5371900826446281,
+            "wilson95": [
+              0.4486,
+              0.6235
+            ],
+            "match_channels": {
+              "arxiv": 61,
+              "title_exact": 3,
+              "title_jaccard": 1
+            }
+          },
+          "screened_536": {
+            "n_matched": 54,
+            "recall": 0.4462809917355372,
+            "wilson95": [
+              0.3607,
+              0.5351
+            ],
+            "match_channels": {
+              "arxiv": 51,
+              "title_exact": 3
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 46,
+            "recall": 0.38016528925619836,
+            "wilson95": [
+              0.2986,
+              0.4691
+            ],
+            "match_channels": {
+              "arxiv": 42,
+              "title_exact": 4
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 48,
+            "recall": 0.39669421487603307,
+            "wilson95": [
+              0.314,
+              0.4857
+            ],
+            "match_channels": {
+              "arxiv": 37,
+              "title_exact": 10,
+              "doi": 1
+            }
+          }
+        }
+      },
+      "n_out_of_frame": 16
+    },
+    "xuKnowledgeConflicts2024": {
+      "title": "Knowledge Conflicts for LLMs: A Survey",
+      "resolved_id": "arXiv:2403.08319",
+      "reference_count_reported": 200,
+      "n_references": 200,
+      "n_in_scope": 3,
+      "in_scope_recall": {
+        "n": 3,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 1,
+            "recall": 0.3333333333333333,
+            "wilson95": [
+              0.0615,
+              0.7923
+            ],
+            "match_channels": {
+              "arxiv": 1
+            }
+          },
+          "screened_536": {
+            "n_matched": 1,
+            "recall": 0.3333333333333333,
+            "wilson95": [
+              0.0615,
+              0.7923
+            ],
+            "match_channels": {
+              "arxiv": 1
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 1,
+            "recall": 0.3333333333333333,
+            "wilson95": [
+              0.0615,
+              0.7923
+            ],
+            "match_channels": {
+              "arxiv": 1
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 1,
+            "recall": 0.3333333333333333,
+            "wilson95": [
+              0.0615,
+              0.7923
+            ],
+            "match_channels": {
+              "arxiv": 1
+            }
+          }
+        }
+      },
+      "unfiltered_recall": {
+        "n": 200,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 6,
+            "recall": 0.03,
+            "wilson95": [
+              0.0138,
+              0.0639
+            ],
+            "match_channels": {
+              "arxiv": 6
+            }
+          },
+          "screened_536": {
+            "n_matched": 4,
+            "recall": 0.02,
+            "wilson95": [
+              0.0078,
+              0.0503
+            ],
+            "match_channels": {
+              "arxiv": 4
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 6,
+            "recall": 0.03,
+            "wilson95": [
+              0.0138,
+              0.0639
+            ],
+            "match_channels": {
+              "arxiv": 6
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 4,
+            "recall": 0.02,
+            "wilson95": [
+              0.0078,
+              0.0503
+            ],
+            "match_channels": {
+              "arxiv": 4
+            }
+          }
+        }
+      },
+      "n_out_of_frame": 2
+    },
+    "wenAbstentionSurvey2025": {
+      "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+      "resolved_id": "DOI:10.1162/tacl_a_00754",
+      "reference_count_reported": 179,
+      "n_references": 179,
+      "n_in_scope": 1,
+      "in_scope_recall": {
+        "n": 1,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.7935
+            ],
+            "match_channels": {}
+          },
+          "screened_536": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.7935
+            ],
+            "match_channels": {}
+          },
+          "full_texts_259": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.7935
+            ],
+            "match_channels": {}
+          },
+          "evidence_map_342": {
+            "n_matched": 0,
+            "recall": 0.0,
+            "wilson95": [
+              0.0,
+              0.7935
+            ],
+            "match_channels": {}
+          }
+        }
+      },
+      "unfiltered_recall": {
+        "n": 179,
+        "stages": {
+          "deduplicated_1399": {
+            "n_matched": 2,
+            "recall": 0.0111731843575419,
+            "wilson95": [
+              0.0031,
+              0.0398
+            ],
+            "match_channels": {
+              "arxiv": 2
+            }
+          },
+          "screened_536": {
+            "n_matched": 2,
+            "recall": 0.0111731843575419,
+            "wilson95": [
+              0.0031,
+              0.0398
+            ],
+            "match_channels": {
+              "arxiv": 2
+            }
+          },
+          "full_texts_259": {
+            "n_matched": 1,
+            "recall": 0.00558659217877095,
+            "wilson95": [
+              0.001,
+              0.031
+            ],
+            "match_channels": {
+              "arxiv": 1
+            }
+          },
+          "evidence_map_342": {
+            "n_matched": 1,
+            "recall": 0.00558659217877095,
+            "wilson95": [
+              0.001,
+              0.031
+            ],
+            "match_channels": {
+              "arxiv": 1
+            }
+          }
+        }
+      },
+      "n_out_of_frame": 1
+    }
+  },
+  "pooled": {
+    "n_unique_references": 878,
+    "dedup_rule": "canonical key = arXiv id, else DOI, else ACL id, else token-sorted normalised title",
+    "n_in_scope": 95,
+    "in_scope_recall": {
+      "n": 95,
+      "stages": {
+        "deduplicated_1399": {
+          "n_matched": 64,
+          "recall": 0.6736842105263158,
+          "wilson95": [
+            0.5743,
+            0.7596
+          ],
+          "match_channels": {
+            "arxiv": 61,
+            "title_exact": 3
+          }
+        },
+        "screened_536": {
+          "n_matched": 53,
+          "recall": 0.5578947368421052,
+          "wilson95": [
+            0.4577,
+            0.6536
+          ],
+          "match_channels": {
+            "arxiv": 50,
+            "title_exact": 3
+          }
+        },
+        "full_texts_259": {
+          "n_matched": 45,
+          "recall": 0.47368421052631576,
+          "wilson95": [
+            0.3763,
+            0.5731
+          ],
+          "match_channels": {
+            "arxiv": 40,
+            "title_exact": 5
+          }
+        },
+        "evidence_map_342": {
+          "n_matched": 51,
+          "recall": 0.5368421052631579,
+          "wilson95": [
+            0.4371,
+            0.6337
+          ],
+          "match_channels": {
+            "title_exact": 13,
+            "arxiv": 37,
+            "doi": 1
+          }
+        }
+      }
+    },
+    "unfiltered_recall": {
+      "n": 878,
+      "stages": {
+        "deduplicated_1399": {
+          "n_matched": 102,
+          "recall": 0.11617312072892938,
+          "wilson95": [
+            0.0966,
+            0.1391
+          ],
+          "match_channels": {
+            "arxiv": 96,
+            "title_exact": 4,
+            "acl": 1,
+            "title_jaccard": 1
+          }
+        },
+        "screened_536": {
+          "n_matched": 80,
+          "recall": 0.09111617312072894,
+          "wilson95": [
+            0.0738,
+            0.112
+          ],
+          "match_channels": {
+            "arxiv": 75,
+            "title_exact": 4,
+            "acl": 1
+          }
+        },
+        "full_texts_259": {
+          "n_matched": 69,
+          "recall": 0.0785876993166287,
+          "wilson95": [
+            0.0626,
+            0.0983
+          ],
+          "match_channels": {
+            "arxiv": 61,
+            "title_exact": 7,
+            "acl": 1
+          }
+        },
+        "evidence_map_342": {
+          "n_matched": 78,
+          "recall": 0.0888382687927107,
+          "wilson95": [
+            0.0718,
+            0.1095
+          ],
+          "match_channels": {
+            "arxiv": 52,
+            "title_exact": 24,
+            "acl": 1,
+            "doi": 1
+          }
+        }
+      }
+    },
+    "n_out_of_frame": 28,
+    "misses": {
+      "definition": "in-scope pooled references absent from every released stage (the 1,399 deduplicated release, the 536 screened set, the 259 full texts, and the 342-row Map B)",
+      "n": 28,
+      "by_year": {
+        "2020": 1,
+        "2021": 2,
+        "2022": 1,
+        "2023": 1,
+        "2024": 6,
+        "2025": 9,
+        "2026": 3,
+        "None": 5
+      },
+      "by_snapshot": {
+        "before_snapshot": 20,
+        "snapshot_year_ambiguous": 3,
+        "unknown_year": 5
+      },
+      "sample_titles": [
+        {
+          "title": "Challenges in Information-Seeking QA: Unanswerable Questions and Paragraph Retrieval",
+          "year": 2020,
+          "cited_by": [
+            "wenAbstentionSurvey2025"
+          ]
+        },
+        {
+          "title": "Attacking Open-domain Question Answering by Injecting Misinformation",
+          "year": 2021,
+          "cited_by": [
+            "trustRAGCompass2024",
+            "xuKnowledgeConflicts2024"
+          ]
+        },
+        {
+          "title": "Retrieval Augmentation Reduces Hallucination in Conversation",
+          "year": 2021,
+          "cited_by": [
+            "ragSurvey2024",
+            "xuKnowledgeConflicts2024"
+          ]
+        },
+        {
+          "title": "Defending Against Disinformation Attacks in Open-Domain Question Answering",
+          "year": 2022,
+          "cited_by": [
+            "trustRAGCompass2024"
+          ]
+        },
+        {
+          "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+          "year": 2023,
+          "cited_by": [
+            "ragSurvey2024"
+          ]
+        },
+        {
+          "title": "FoRAG: Factuality-optimized Retrieval Augmented Generation for Web-enhanced Long-form Question Answering",
+          "year": 2024,
+          "cited_by": [
+            "trustRAGCompass2024"
+          ]
+        },
+        {
+          "title": "HGOT: Hierarchical Graph of Thoughts for Retrieval-Augmented In-Context Learning in Factuality Evaluation",
+          "year": 2024,
+          "cited_by": [
+            "trustRAGCompass2024"
+          ]
+        },
+        {
+          "title": "Phantom: General trigger attacks on retrieval",
+          "year": 2024,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "The Power of Noise: Redefining Retrieval for RAG Systems",
+          "year": 2024,
+          "cited_by": [
+            "ragEvaluationSurvey2024",
+            "ragSurvey2024"
+          ]
+        },
+        {
+          "title": "Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal Retrieval-Augmented Generation",
+          "year": 2025,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "D-RAG: A Privacy-Preserving Framework for Decentralized RAG using Blockchain",
+          "year": 2025,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "External Data Extraction Attacks Against Retrieval-Augmented Large Language Models",
+          "year": 2025,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation",
+          "year": 2025,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval",
+          "year": 2025,
+          "cited_by": [
+            "securityRAGSurvey2026",
+            "trustRAGCompass2024"
+          ]
+        },
+        {
+          "title": "Privacy-Preserving Federated Embedding Learning for Localized Retrieval-Augmented Generation",
+          "year": 2025,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "Retrieval-Augmented Generation with Conflicting Evidence",
+          "year": 2025,
+          "cited_by": [
+            "trustRAGCompass2024"
+          ]
+        },
+        {
+          "title": "Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG",
+          "year": 2026,
+          "cited_by": [
+            "securityRAGSurvey2026",
+            "trustRAGCompass2024"
+          ]
+        },
+        {
+          "title": "Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems",
+          "year": 2026,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "2025. Rag-pull: Imperceptible attacks on rag systems for code generation",
+          "year": null,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        },
+        {
+          "title": "2026. Who Taught the Lie? Re-sponsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+          "year": null,
+          "cited_by": [
+            "securityRAGSurvey2026"
+          ]
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Reference lists are as resolved by Semantic Scholar's citation graph; S2 does not resolve every bibliography entry, so harvested counts are lower bounds on the true bibliographies. ragEvaluationSurvey2024 resolves to only 74 references, which is low for a survey and likely undercounts its bibliography.",
+    "The 1,904 retrieved and 1,445 open-PDF stages have no released per-record list; recall is reported against the 1,399 deduplicated release, a lower bound on retrieval recall.",
+    "Semantic Scholar year granularity is annual; papers dated 2026 cannot be split around the 2026-06-03 snapshot, so they are reported as a separate 'snapshot_year_ambiguous' bucket.",
+    "The in-scope screen is title-only and deterministic; it neither reads abstracts nor resolves named systems, so it under-counts in-scope work (unfiltered recall is reported alongside).",
+    "Frame stages are matched independently, not assumed nested: the 259 extracted full texts include a few foundational/core-reading papers (e.g. Lewis 2020 RAG, Self-RAG, CRAG) added outside the arXiv-retrieval dedup frame, so a reference can appear in the full texts without appearing in the 1,399 deduplicated release. 'Out of frame' therefore means absent from every released stage."
+  ]
+}

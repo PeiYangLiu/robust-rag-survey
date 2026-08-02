@@ -1,0 +1,368 @@
+\documentclass[11pt]{article}
+
+\usepackage[review]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{forest}
+\usepackage{tikz}
+\usepackage{titletoc}
+\usetikzlibrary{arrows.meta,calc,positioning,fit,backgrounds}
+\input{tables/controlled_model_judges_v2_macros}
+\input{tables/revision_macros}
+\input{tables/revision2_macros}
+\input{tables/revision3_macros}
+\input{tables/revision4_macros}
+\input{tables/revision4_human_macros}
+\input{tables/revision4_c3_macros}
+\input{tables/revision4_diag_macros}
+\input{tables/coverage_macros}
+\input{tables/revision4_instrument_macros}
+\input{tables/revision4_bridge_macros}
+\setlength{\emergencystretch}{3em}
+
+\title{When Are Robust RAG Results Comparable?\\A Survey with an Empirically Tested Taxonomy}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Robust retrieval-augmented generation (RAG) has produced a literature in which papers share
+labels---noise robustness, faithfulness, security, calibration---while answering different
+evaluation questions. Existing surveys organise this literature conceptually, but none tests
+whether its own categories can be recovered from published prose. We survey the field across
+four failure surfaces (evidence, model, adversary, system control) and reduce them to five
+\emph{reporting coordinates} that decide when two numbers are comparable: evidence state,
+origin and capability, intervention, outcome and unit, and policy. On constructed passages
+that state these coordinates, independent judges recover them with \InsFullCoord{} accuracy
+($\kappa$ \InsFullK{}). Applying the same instrument at scale, a deterministic screen over
+\FlowTexts{} full texts yields \FrameCandidates{} candidate cross-paper comparisons
+(\CensusEligible{} eligible, \ProvClassified{} classified by provenance), of which
+\ProvReimplemented{} re-implement baselines inside one harness rather than transporting
+published numbers---a structural property automated judges recover reliably (\DepPvAcc{}
+\DepPvCI{} accuracy). Deciding whether a quoted gap survives comparison is far harder: model
+panels reach only $\kappa$ \DecVerdictK{} against a ceiling of \KmaxVerdict{}, and the gap
+does not close with full paper text, an abstention option, \OwjNOpen{} open-weight models, or
+non-generative classifiers. On \HumN{} published claims annotated over \HumHours{}
+person-hours, human coders reach $\kappa$ \HumVerdictK{} \HumVerdictKCI{} (ceiling
+\HumVerdictKmax{}), no better than automated panels (\HumGapDelta{} \HumGapCI{}). The
+bottleneck is underspecified reporting, not evaluator quality. We release the screening frame,
+evidence map, human annotations, model codings, and verification tools.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Retrieval-augmented generation conditions a generator on evidence fetched at inference time
+\citep{lewis2020rag,dpr2020,realm2020}. Because that evidence is chosen by a retriever rather
+than by the model, a large literature now studies what happens when it is irrelevant,
+insufficient, conflicting, stale, weakly sourced, or deliberately malicious, and several
+recent surveys organise this work by mechanism \citep{ragSurvey2024,ragEvaluationSurvey2024,
+trustRAGCompass2024,securityRAGSurvey2026,xuKnowledgeConflicts2024,wenAbstentionSurvey2025}.
+Those taxonomies are useful for finding related work, but each is offered as a conceptual
+scheme: none reports whether its categories can in fact be recovered from the papers it
+classifies.
+
+Whether they can matters, because readers of this literature do not only browse it---they
+compare its numbers. Consider one juxtaposition. PoisonedRAG reports a ``97\% ASR by
+injecting 5 malicious texts for each target question'' on Natural Questions and, in its
+Table~4, sets that beside four baselines, the weakest of which---the corpus poisoning attack
+of \citet{poisoningRetrievalCorpora2023}---appears at $0.01$ \citep{poisonedRAG2024}. Read as
+a ranking, the message is that corpus poisoning barely works. Yet the corpus poisoning paper
+reports getting an adversarial passage into the retrieved set for $84.2\%$ of Natural
+Questions queries using a single injected passage.
+
+\input{figures/generated/fig_motivating_case_input}
+
+Both numbers are correct, and neither paper misreports anything. They share a corpus and a
+Contriever retriever, but they differ in the size of the retrieved set (top-20 versus five
+texts) and, decisively, in the event being counted. Corpus poisoning scores retrieval
+success---``the percentage of queries for which at least one adversarial passage is retrieved
+in the top-$k$ results'' \citep[l.~333--337]{poisoningRetrievalCorpora2023}---whereas
+PoisonedRAG scores end-to-end generation success, that is, whether the model emits the
+attacker's target string. PoisonedRAG says as much, noting that the weakest baselines ``are
+ineffective because they cannot achieve generation, generation, and retrieval condition,
+respectively'' [sic] \citep[l.~1338--1341]{poisonedRAG2024}; we reproduce the sentence as
+printed and, together with six further checks behind Figure~\ref{fig:motivating-case}, verify
+it against the source with a released tool (\MotivPassed{}/\MotivChecks{}). Inside
+PoisonedRAG's own harness the $0.01$ is exactly right; carried across the harness boundary it
+is a comparison between two different events. Cases like this are why we think a survey of
+this field should say when two published numbers answer the same question, instead of ranking
+them.
+
+\paragraph{Contributions.}
+\textbf{(i)} We survey robust RAG along four failure surfaces---evidence, model, adversary and
+system control---organised around the contrasts between papers rather than around a list of
+methods (\S\ref{sec:evidence}--\S\ref{sec:system}).
+\textbf{(ii)} We reduce those surfaces to five \emph{reporting coordinates} and an explicit
+three-way decision procedure that says when a quoted gap survives, narrows, or is undefined
+(\S\ref{sec:coordinates}).
+\textbf{(iii)} We then \emph{test the taxonomy as an instrument}: coordinates are recoverable
+from prose that states them (\InsFullCoord{} accuracy, $\kappa$ \InsFullK{}), and we
+characterise where recovery breaks down, including an arm on which a constant baseline beats
+every model judge (\S\ref{sec:tested}).
+\textbf{(iv)} We apply it at scale to \FrameCandidates{} candidate cross-paper comparisons
+screened from \FlowTexts{} full texts, finding that \ProvReimplemented{} of \ProvClassified{}
+classified pairs re-implement their baselines locally rather than transporting numbers, and
+that adjudicating whether a gap survives stays underdetermined for automated panels and human
+experts alike (\S\ref{sec:applied}).
+\textbf{(v)} We derive reporting guidelines from those measurements rather than from
+intuition (\S\ref{sec:practice}).
+
+\paragraph{Relation to prior audits.}
+Asking whether published numbers are comparable has precedent outside RAG.
+\citet{marie2021credibility} hand-coded 769 machine translation papers and found comparisons
+drawn across incomparable configurations to be routine, and \citet{bowman2021benchmarking},
+\citet{gehrmann2023cracked} and \citet{howcroft2020twenty,vanderlee2021human,clark2021human}
+document analogous problems in benchmarking and human evaluation. What is new here is the
+combination: no RAG survey has tested whether its own categories are extractable from paper
+text, and few audits report the point at which adjudication becomes underdetermined rather
+than merely difficult. Since our pipeline leans on LLM judges, whose reliability is itself
+contested \citep{zheng2023judging,panickssery2024selfpreference,wang2024fairevaluators}, we
+treat evaluator reliability as a quantity to be measured---with human expert panels and
+developer-independence checks---rather than as an assumption.
+
+\section{Scope, Protocol and Evidence Base}
+\label{sec:protocol}
+
+\input{survey_protocol_section}
+
+\input{figures/survey_outline}
+
+\section{The Four Failure Surfaces}
+\label{sec:taxonomy}
+
+\input{survey_body_extracted/taxonomy}
+
+\section{Evidence-Centric Robustness}
+\label{sec:evidence}
+
+\input{survey_body_extracted/evidence}
+
+\section{Model-Centric Robustness}
+\label{sec:model}
+
+\input{survey_body_extracted/model}
+
+\section{Adversarial Corruption and Security}
+\label{sec:adversarial}
+
+\input{survey_body_extracted/adversarial}
+
+\section{System-Centric Control}
+\label{sec:system}
+
+\input{survey_body_extracted/system}
+
+\section{From Four Surfaces to Five Reporting Coordinates}
+\label{sec:coordinates}
+\label{sec:estimands}
+
+\input{survey_coordinates_section}
+
+\section{Testing the Taxonomy}
+\label{sec:tested}
+\label{sec:instrument}
+
+\input{survey_tested_section}
+
+\section{The Taxonomy Applied at Scale}
+\label{sec:applied}
+\label{sec:census}
+
+\input{survey_applied_section}
+
+\section{What Follows for Practice}
+\label{sec:practice}
+
+\input{survey_practice_section}
+
+\section{Conclusion}
+
+\input{survey_conclusion_section}
+
+\section*{Limitations}
+\label{sec:limitations-anchor}
+
+\input{survey_limitations_section}
+
+\section*{Ethics Statement}
+
+\input{survey_ethics_section}
+
+\clearpage
+\bibliography{references,auto_references,venue_authoritative_references,venue_extra_references,venue_200_selected_references,multimodal_100_selected_references}
+
+\clearpage
+\appendix
+\startcontents[appendices]
+\section*{Appendix Table of Contents}
+\printcontents[appendices]{}{0}{\setcounter{tocdepth}{1}}
+
+\section*{What to Read in the Appendix}
+\input{appendix_reading_guide}
+\newpage
+
+\part*{Part I: Extended Survey}
+\label{app:part-survey}
+
+\input{appendix_extended_survey}
+
+\FloatBarrier
+\section{Evidence-Centric Robustness in Full}
+\label{app:evidence}
+\input{survey_appendix_deep/evidence}
+
+\FloatBarrier
+\section{Model-Centric Robustness in Full}
+\label{app:model}
+\input{survey_appendix_deep/model}
+
+\FloatBarrier
+\section{Adversarial Corruption and Security in Full}
+\label{app:adversarial}
+\input{survey_appendix_deep/adversarial}
+
+\FloatBarrier
+\section{System-Centric Control in Full}
+\label{app:system}
+\input{survey_appendix_deep/system}
+
+\FloatBarrier
+\section{Evaluation and Benchmarks}
+\label{app:evaluation}
+\input{survey_appendix_deep/evaluation}
+
+\FloatBarrier
+\section{Cross-Cutting Analysis}
+\label{app:crosscut}
+\input{tables/peer_reviewed_backbone}
+\input{tables/main_normalization_findings}
+\input{survey_appendix_deep/crosscut}
+
+\FloatBarrier
+\subsection{Evidence-Map Cross-Tabulations}
+\label{sec:map-statistics}
+These cross-tabulations diagnose where the released map is dense or sparse. They
+are preprint-heavy and are not used anywhere as field-wide prevalence estimates.
+\input{tables/corpus_statistics}
+
+\FloatBarrier
+\section{Background and Preliminaries}
+\label{app:background}
+\input{survey_appendix_deep/background}
+
+\FloatBarrier
+\section{Practical Guidelines}
+\label{app:guidelines}
+\input{survey_appendix_deep/guidelines}
+
+\FloatBarrier
+\section{Open Challenges and Future Directions}
+\label{app:challenges}
+\input{survey_appendix_deep/challenges}
+
+\FloatBarrier
+\section{Taxonomy Assignment Rules and Operational Pipeline}
+\label{sec:appendix-methods}
+\input{figures/robust_rag_taxonomy}
+\input{tables/taxonomy_rules}
+\input{figures/operational_pipeline_image}
+\input{tables/operational_pipeline}
+
+\part*{Part II: Testing and Applying the Taxonomy}
+\label{app:part-audit}
+
+\FloatBarrier
+\section{Comparability Case Ledger}
+\label{sec:appendix-cases}
+\label{sec:cases}
+\input{tables/main_cross_paper_cases}
+\input{tables/ledger_recoding}
+
+\FloatBarrier
+\section{Screening Frame, Census and Codebook Ablation}
+\label{sec:appendix-census}
+\input{figures/screening_frame_flow}
+\input{tables/frame_coverage}
+\input{tables/privileged_reference}
+\input{tables/privileged_reference_bounds}
+\input{tables/census_diagnostics}
+\input{tables/kappa_ceiling}
+\input{tables/disclosure_counterfactual}
+\input{tables/tier_control}
+\input{tables/frontier_pairs}
+\input{tables/codebook_ablation}
+\input{tables/provenance_validation}
+\input{tables/provenance_gate_sensitivity}
+\input{tables/nonllm_instrument}
+\input{tables/reference_independence}
+\input{tables/screen_recall}
+
+\FloatBarrier
+\section{Constructed Instrument Benchmark}
+\label{sec:appendix-instrument}
+\input{figures/worked_example}
+\input{tables/instrument_disclosure_v2}
+\input{tables/instrument_baselines_v2}
+
+\FloatBarrier
+\input{appendix_estimand_formalization}
+
+\FloatBarrier
+\section{Reviewer Heterogeneity and Assignment-Unit Simulation}
+\label{sec:appendix-sim}
+\input{tables/main_retrospective_remedies}
+\input{tables/open_weight_pool}
+\input{tables/sigma_r_anchors}
+\input{figures/remedy_calibration}
+\input{tables/reviewer_heterogeneity_anchor}
+\input{tables/main_assignment_mismatch_simulation}
+
+\FloatBarrier
+\section{Crossed Deployment-Panel Details}
+\label{sec:appendix-cmj}
+\input{tables/human_anchor}
+\input{tables/population_bridge}
+\input{tables/main_controlled_model_judges_v2}
+\input{tables/controlled_model_judges_strata_v2}
+
+\FloatBarrier
+\section{Framework Details and Positioning}
+\input{figures/generated/fig_instrument_input}
+\input{figures/generated/fig_interventions_input}
+\input{figures/two_layer_audit}
+\input{tables/main_prior_work_comparison}
+\input{tables/main_framework_overview}
+\input{tables/framework_decision_procedure}
+\input{tables/framework_counterexamples}
+
+\FloatBarrier
+\section{Reporting Checklist}
+\label{sec:appendix-eval}
+\input{tables/robust_rag_reporting_checklist}
+
+\FloatBarrier
+\section{Scoping-Map Audit Artifacts}
+\label{sec:audit-artifacts}
+\input{tables/main_evidence_layers}
+\input{figures/corpus_flow}
+\input{tables/review_protocol}
+\input{tables/source_strata_reconciliation}
+
+\FloatBarrier
+\end{document}

@@ -1,0 +1,41 @@
+Latexmk: Couldn't find aux file 'main.aux'
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex main' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+The top-level auxiliary file: main.aux
+I found no \citation commands---while reading file main.aux
+I found no \bibdata command---while reading file main.aux
+I found no \bibstyle command---while reading file main.aux
+(There were 3 error messages)
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  bibtex main: Bibtex errors: See file 'main.blg'
+
+EXIT=12

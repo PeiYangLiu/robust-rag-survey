@@ -1,0 +1,580 @@
+{
+  "config": {
+    "implementation": "numpy+scipy softmax regression (matches scikit-learn to machine precision)",
+    "logreg_C": 1.0,
+    "n_bootstrap": 2000,
+    "n_coordinate_terms_in_vocab": 61,
+    "n_folds": 5,
+    "structural_features": [
+      "log_n_chars",
+      "log_n_tokens",
+      "log_n_lines",
+      "log_n_numeric_tokens",
+      "numeric_density",
+      "log_n_external_systems",
+      "log_n_distinct_systems",
+      "n_comparison_cues",
+      "has_comparison_cue",
+      "n_attribution_cues",
+      "has_attribution_cue",
+      "has_citation_marker",
+      "log_n_coordinate_terms",
+      "coordinate_density",
+      "mean_tokens_per_line",
+      "short_numeric_line_frac"
+    ],
+    "tfidf_max_features": 2000,
+    "tfidf_min_df": 2
+  },
+  "design_note": "A non-LLM instrument (a plain statistical classifier trained on the evidence-privileged reference labels) is asked to predict those labels from the window text under grouped cross-validation by citing paper. If a supervised model with direct access to the answers cannot beat a constant-majority baseline, the deficit is a property of the text, not of the LLM instrument class. Provenance is run as a contrast: it is the target where the LLM panel pulls clearly ahead of the cheap statistical instrument, so it shows the comparison can detect an instrument-class gap when the text carries signal -- and finds none on the verdict.",
+  "interpretation": {
+    "caveats": [
+      "Intervals are paper-clustered bootstraps; with a rare minority class and clustering, delta-accuracy CIs are wide even for the LLM panel on provenance.",
+      "There is a little text signal on the verdict: structural and LLM instruments both beat the baseline on macro-F1 (they recover some 'undefined' windows), but not on accuracy.",
+      "The single 'narrows' reference label falls outside the deployed-scored set, so the verdict evaluation is effectively binary (survives vs undefined)."
+    ],
+    "headline": "A non-LLM statistical instrument, trained directly on the reference labels, does no better than the deployed LLM panel on the verdict and no better than a constant baseline on accuracy; the verdict ceiling is therefore in the text, not in the LLM instrument class.",
+    "provenance": {
+      "any_supervised_beats_baseline": false,
+      "baseline_accuracy": 0.794,
+      "llm_accuracy": 0.906,
+      "llm_minus_structural_accuracy": 0.124,
+      "n_papers": 61,
+      "n_windows": 170,
+      "statement": "On provenance (N=170, 61 papers) the LLM panel reaches 0.906 accuracy, a +0.124 point lead over the structural instrument (0.782); the statistical instruments do not beat the baseline. So the statistical instrument is a conservative lower bound on extractable signal, yet it matches the LLM panel on the verdict while trailing it here -- the LLM's extra capacity buys a provenance lead but no verdict lead.",
+      "structural_accuracy": 0.782
+    },
+    "verdict": {
+      "any_estimator_beats_baseline_on_accuracy": false,
+      "baseline_accuracy": 0.772,
+      "n_papers": 48,
+      "n_windows": 114,
+      "statement": "On the disputed verdict (N=114 windows, 48 citing papers) no instrument -- not the deployed LLM panel, not TF-IDF, not the structural model -- significantly beats the constant-majority baseline on accuracy: every 95% CI on the delta-accuracy includes 0. The non-LLM structural instrument matches the LLM panel (accuracy 0.833 vs 0.816; macro-F1 0.753 vs 0.782), and both beat the baseline on macro-F1 by a similar margin (structural +0.317, CI [0.055, 0.394]). Bag-of-words carries no cross-paper signal (delta-accuracy 0.0). Because a different instrument class reaches the same ceiling, the ceiling is a property of the text, not a special failure of the LLM instrument class.",
+      "structural_beats_baseline_on_macro_f1": true,
+      "structural_vs_llm_accuracy": [
+        0.833,
+        0.816
+      ],
+      "structural_vs_llm_macro_f1": [
+        0.753,
+        0.782
+      ],
+      "tfidf_delta_accuracy": 0.0
+    }
+  },
+  "reference_derivation": "Imported verbatim from scripts/revision3/analyze_privileged_reference.py: majority of quote-verified privileged adjudicators, established with >=2 verified votes.",
+  "schema_version": 1,
+  "seed": 20260802,
+  "targets": {
+    "provenance": {
+      "beats_baseline": {
+        "llm_panel_majority": {
+          "accuracy_beats_baseline": false,
+          "macro_f1_beats_baseline": false
+        },
+        "structural_logreg": {
+          "accuracy_beats_baseline": false,
+          "macro_f1_beats_baseline": false
+        },
+        "tfidf_logreg": {
+          "accuracy_beats_baseline": false,
+          "macro_f1_beats_baseline": false
+        }
+      },
+      "confusion_reference_by_predicted": {
+        "constant_majority": {
+          "reimplemented": {
+            "reimplemented": 135
+          },
+          "transported": {
+            "reimplemented": 35
+          }
+        },
+        "llm_panel_majority": {
+          "reimplemented": {
+            "reimplemented": 126,
+            "transported": 1,
+            "unclear": 8
+          },
+          "transported": {
+            "transported": 28,
+            "unclear": 7
+          }
+        },
+        "structural_logreg": {
+          "reimplemented": {
+            "reimplemented": 130,
+            "transported": 5
+          },
+          "transported": {
+            "reimplemented": 32,
+            "transported": 3
+          }
+        },
+        "tfidf_logreg": {
+          "reimplemented": {
+            "reimplemented": 135
+          },
+          "transported": {
+            "reimplemented": 35
+          }
+        }
+      },
+      "estimators": {
+        "constant_majority": {
+          "accuracy": 0.7941176470588235,
+          "accuracy_ci95": [
+            0.5388349514563107,
+            0.9935483870967742
+          ],
+          "delta_accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_accuracy_vs_baseline": 0.0,
+          "delta_macro_f1_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_macro_f1_vs_baseline": 0.0,
+          "macro_f1": 0.4426229508196721,
+          "macro_f1_ci95": [
+            0.3501577287066246,
+            0.4983818770226537
+          ]
+        },
+        "llm_panel_majority": {
+          "accuracy": 0.9058823529411765,
+          "accuracy_ci95": [
+            0.8571428571428571,
+            0.9621212121212122
+          ],
+          "delta_accuracy_ci95": [
+            -0.0854700854700855,
+            0.3348623853211009
+          ],
+          "delta_accuracy_vs_baseline": 0.11176470588235299,
+          "delta_macro_f1_ci95": [
+            -0.014806378132118436,
+            0.5746018813701583
+          ],
+          "delta_macro_f1_vs_baseline": 0.4776356698699831,
+          "macro_f1": 0.9202586206896552,
+          "macro_f1_ci95": [
+            0.48412698412698413,
+            0.9807017543859649
+          ]
+        },
+        "structural_logreg": {
+          "accuracy": 0.7823529411764706,
+          "accuracy_ci95": [
+            0.5450236966824644,
+            0.974025974025974
+          ],
+          "delta_accuracy_ci95": [
+            -0.06201550387596899,
+            0.021739130434782594
+          ],
+          "delta_accuracy_vs_baseline": -0.0117647058823529,
+          "delta_macro_f1_ci95": [
+            -0.014278937381404178,
+            0.19984246179698584
+          ],
+          "delta_macro_f1_vs_baseline": 0.06485492875123072,
+          "macro_f1": 0.5074778795709028,
+          "macro_f1_ci95": [
+            0.4085914085914086,
+            0.690625
+          ]
+        },
+        "tfidf_logreg": {
+          "accuracy": 0.7941176470588235,
+          "accuracy_ci95": [
+            0.5388349514563107,
+            0.9935483870967742
+          ],
+          "delta_accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_accuracy_vs_baseline": 0.0,
+          "delta_macro_f1_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_macro_f1_vs_baseline": 0.0,
+          "macro_f1": 0.4426229508196721,
+          "macro_f1_ci95": [
+            0.3501577287066246,
+            0.4983818770226537
+          ]
+        }
+      },
+      "label_distribution": {
+        "reimplemented": 135,
+        "transported": 35
+      },
+      "label_space": [
+        "transported",
+        "reimplemented",
+        "unclear"
+      ],
+      "majority_class": "reimplemented",
+      "majority_class_share": 0.7941176470588235,
+      "n_folds": 5,
+      "n_papers": 61,
+      "n_windows": 170,
+      "on_full_reference_set": {
+        "any_supervised_beats_baseline_accuracy": false,
+        "any_supervised_beats_baseline_macro_f1": false,
+        "estimators": {
+          "constant_majority": {
+            "accuracy": 0.7953216374269005,
+            "accuracy_ci95": [
+              0.5404411764705882,
+              0.9935483870967742
+            ],
+            "delta_accuracy_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_accuracy_vs_baseline": 0.0,
+            "delta_macro_f1_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_macro_f1_vs_baseline": 0.0,
+            "macro_f1": 0.44299674267100975,
+            "macro_f1_ci95": [
+              0.350835322195704,
+              0.4983818770226537
+            ]
+          },
+          "structural_logreg": {
+            "accuracy": 0.7602339181286549,
+            "accuracy_ci95": [
+              0.5342465753424658,
+              0.9470588235294117
+            ],
+            "delta_accuracy_ci95": [
+              -0.09322033898305082,
+              0.006024096385542244
+            ],
+            "delta_accuracy_vs_baseline": -0.03508771929824561,
+            "delta_macro_f1_ci95": [
+              -0.02281196331939994,
+              0.14368373664263334
+            ],
+            "delta_macro_f1_vs_baseline": 0.051341519139304015,
+            "macro_f1": 0.49433826181031376,
+            "macro_f1_ci95": [
+              0.40113240418118457,
+              0.632896983494593
+            ]
+          },
+          "tfidf_logreg": {
+            "accuracy": 0.7953216374269005,
+            "accuracy_ci95": [
+              0.5404411764705882,
+              0.9935483870967742
+            ],
+            "delta_accuracy_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_accuracy_vs_baseline": 0.0,
+            "delta_macro_f1_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_macro_f1_vs_baseline": 0.0,
+            "macro_f1": 0.44299674267100975,
+            "macro_f1_ci95": [
+              0.350835322195704,
+              0.4983818770226537
+            ]
+          }
+        },
+        "label_distribution": {
+          "reimplemented": 136,
+          "transported": 35
+        },
+        "n_papers": 61,
+        "n_windows": 171
+      },
+      "pass_name": "provenance",
+      "restrict_to_deployed_majority": true,
+      "summary": {
+        "any_supervised_beats_baseline_accuracy": false,
+        "any_supervised_beats_baseline_macro_f1": false,
+        "baseline_accuracy": 0.7941176470588235,
+        "baseline_macro_f1": 0.4426229508196721,
+        "best_supervised_delta_accuracy": 0.0,
+        "best_supervised_delta_accuracy_ci95": [
+          0.0,
+          0.0
+        ],
+        "best_supervised_delta_macro_f1": 0.06485492875123072,
+        "best_supervised_estimator_by_accuracy": "tfidf_logreg",
+        "llm_panel_accuracy_beats_baseline": false,
+        "llm_panel_delta_accuracy": 0.11176470588235299
+      },
+      "target": "provenance"
+    },
+    "verdict": {
+      "beats_baseline": {
+        "llm_panel_majority": {
+          "accuracy_beats_baseline": false,
+          "macro_f1_beats_baseline": true
+        },
+        "structural_logreg": {
+          "accuracy_beats_baseline": false,
+          "macro_f1_beats_baseline": true
+        },
+        "tfidf_logreg": {
+          "accuracy_beats_baseline": false,
+          "macro_f1_beats_baseline": false
+        }
+      },
+      "confusion_reference_by_predicted": {
+        "constant_majority": {
+          "survives": {
+            "survives": 88
+          },
+          "undefined": {
+            "survives": 26
+          }
+        },
+        "llm_panel_majority": {
+          "survives": {
+            "survives": 69,
+            "undefined": 19
+          },
+          "undefined": {
+            "survives": 2,
+            "undefined": 24
+          }
+        },
+        "structural_logreg": {
+          "survives": {
+            "survives": 80,
+            "undefined": 8
+          },
+          "undefined": {
+            "survives": 11,
+            "undefined": 15
+          }
+        },
+        "tfidf_logreg": {
+          "survives": {
+            "survives": 88
+          },
+          "undefined": {
+            "survives": 26
+          }
+        }
+      },
+      "estimators": {
+        "constant_majority": {
+          "accuracy": 0.7719298245614035,
+          "accuracy_ci95": [
+            0.60431654676259,
+            0.9333333333333333
+          ],
+          "delta_accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_accuracy_vs_baseline": 0.0,
+          "delta_macro_f1_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_macro_f1_vs_baseline": 0.0,
+          "macro_f1": 0.43564356435643564,
+          "macro_f1_ci95": [
+            0.3766816143497758,
+            0.4827586206896552
+          ]
+        },
+        "llm_panel_majority": {
+          "accuracy": 0.8157894736842105,
+          "accuracy_ci95": [
+            0.7474747474747475,
+            0.8947368421052632
+          ],
+          "delta_accuracy_ci95": [
+            -0.12745098039215685,
+            0.20000000000000007
+          ],
+          "delta_accuracy_vs_baseline": 0.04385964912280704,
+          "delta_macro_f1_ci95": [
+            0.13134838316046366,
+            0.44336412250850754
+          ],
+          "delta_macro_f1_vs_baseline": 0.3461447867510295,
+          "macro_f1": 0.7817883511074651,
+          "macro_f1_ci95": [
+            0.6117424242424242,
+            0.8470588235294118
+          ]
+        },
+        "structural_logreg": {
+          "accuracy": 0.8333333333333334,
+          "accuracy_ci95": [
+            0.7563025210084033,
+            0.9175257731958762
+          ],
+          "delta_accuracy_ci95": [
+            -0.04651162790697683,
+            0.16560509554140135
+          ],
+          "delta_accuracy_vs_baseline": 0.061403508771929904,
+          "delta_macro_f1_ci95": [
+            0.05481395122899052,
+            0.3939901035030456
+          ],
+          "delta_macro_f1_vs_baseline": 0.31740625892483204,
+          "macro_f1": 0.7530498232812677,
+          "macro_f1_ci95": [
+            0.5260416666666667,
+            0.8055964653902798
+          ]
+        },
+        "tfidf_logreg": {
+          "accuracy": 0.7719298245614035,
+          "accuracy_ci95": [
+            0.60431654676259,
+            0.9333333333333333
+          ],
+          "delta_accuracy_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_accuracy_vs_baseline": 0.0,
+          "delta_macro_f1_ci95": [
+            0.0,
+            0.0
+          ],
+          "delta_macro_f1_vs_baseline": 0.0,
+          "macro_f1": 0.43564356435643564,
+          "macro_f1_ci95": [
+            0.3766816143497758,
+            0.4827586206896552
+          ]
+        }
+      },
+      "label_distribution": {
+        "survives": 88,
+        "undefined": 26
+      },
+      "label_space": [
+        "survives",
+        "narrows",
+        "undefined"
+      ],
+      "majority_class": "survives",
+      "majority_class_share": 0.7719298245614035,
+      "n_folds": 5,
+      "n_papers": 48,
+      "n_windows": 114,
+      "on_full_reference_set": {
+        "any_supervised_beats_baseline_accuracy": false,
+        "any_supervised_beats_baseline_macro_f1": false,
+        "estimators": {
+          "constant_majority": {
+            "accuracy": 0.7596899224806202,
+            "accuracy_ci95": [
+              0.6065573770491803,
+              0.9158878504672897
+            ],
+            "delta_accuracy_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_accuracy_vs_baseline": 0.0,
+            "delta_macro_f1_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_macro_f1_vs_baseline": 0.0,
+            "macro_f1": 0.2878120411160059,
+            "macro_f1_ci95": [
+              0.25170068027210885,
+              0.31869918699186994
+            ]
+          },
+          "structural_logreg": {
+            "accuracy": 0.7441860465116279,
+            "accuracy_ci95": [
+              0.605,
+              0.8899082568807339
+            ],
+            "delta_accuracy_ci95": [
+              -0.06201550387596899,
+              0.01680672268907568
+            ],
+            "delta_accuracy_vs_baseline": -0.015503875968992276,
+            "delta_macro_f1_ci95": [
+              -0.006917176332468689,
+              0.1282959483541058
+            ],
+            "delta_macro_f1_vs_baseline": 0.09843134512738039,
+            "macro_f1": 0.3862433862433863,
+            "macro_f1_ci95": [
+              0.3069306930693069,
+              0.4236574658728727
+            ]
+          },
+          "tfidf_logreg": {
+            "accuracy": 0.7596899224806202,
+            "accuracy_ci95": [
+              0.6065573770491803,
+              0.9158878504672897
+            ],
+            "delta_accuracy_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_accuracy_vs_baseline": 0.0,
+            "delta_macro_f1_ci95": [
+              0.0,
+              0.0
+            ],
+            "delta_macro_f1_vs_baseline": 0.0,
+            "macro_f1": 0.2878120411160059,
+            "macro_f1_ci95": [
+              0.25170068027210885,
+              0.31869918699186994
+            ]
+          }
+        },
+        "label_distribution": {
+          "narrows": 1,
+          "survives": 98,
+          "undefined": 30
+        },
+        "n_papers": 52,
+        "n_windows": 129
+      },
+      "pass_name": "comparability",
+      "restrict_to_deployed_majority": true,
+      "summary": {
+        "any_supervised_beats_baseline_accuracy": false,
+        "any_supervised_beats_baseline_macro_f1": true,
+        "baseline_accuracy": 0.7719298245614035,
+        "baseline_macro_f1": 0.43564356435643564,
+        "best_supervised_delta_accuracy": 0.061403508771929904,
+        "best_supervised_delta_accuracy_ci95": [
+          -0.04651162790697683,
+          0.16560509554140135
+        ],
+        "best_supervised_delta_macro_f1": 0.31740625892483204,
+        "best_supervised_estimator_by_accuracy": "structural_logreg",
+        "llm_panel_accuracy_beats_baseline": false,
+        "llm_panel_delta_accuracy": 0.04385964912280704
+      },
+      "target": "verdict"
+    }
+  }
+}

@@ -1,0 +1,2083 @@
+{
+  "key": "trustRAGCompass2024",
+  "title": "Trustworthiness in Retrieval-Augmented Generation Systems: A Survey",
+  "resolved_id": "arXiv:2409.10102",
+  "status": "ok",
+  "reference_count_reported": 192,
+  "metadata": {
+    "paperId": "273c145ea080f277839b89628c255017fc0e1e7c",
+    "externalIds": {
+      "ArXiv": "2409.10102",
+      "DBLP": "journals/corr/abs-2409-10102",
+      "DOI": "10.48550/arXiv.2409.10102",
+      "CorpusId": 272689561
+    },
+    "title": "Trustworthiness in Retrieval-Augmented Generation Systems: A Survey",
+    "year": 2024,
+    "referenceCount": 192
+  },
+  "references": [
+    {
+      "paperId": "71c80eaba0b1ce6cf776987db17d8b7e9cc5b54a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-21447",
+        "ArXiv": "2602.21447",
+        "DOI": "10.48550/arXiv.2602.21447",
+        "CorpusId": 286011661
+      },
+      "title": "Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG",
+      "year": 2026
+    },
+    {
+      "paperId": "c3fc3364dd466a34d87b8b127fe7915e4cb490cd",
+      "externalIds": {
+        "DOI": "10.1145/3797887",
+        "CorpusId": 285614905
+      },
+      "title": "Augmenting Small Language Model for Better Medical Question Answering through Source Authentication",
+      "year": 2026
+    },
+    {
+      "paperId": "54fc75b6dbc48dcda85c73a7a2e4c9d7ef037399",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-03442",
+        "ArXiv": "2602.03442",
+        "DOI": "10.48550/arXiv.2602.03442",
+        "CorpusId": 285275776
+      },
+      "title": "A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces",
+      "year": 2026
+    },
+    {
+      "paperId": "689bca3ecc5f31563f5a388a78315c63f5167c3a",
+      "externalIds": {
+        "ArXiv": "2602.00911",
+        "CorpusId": 285269845
+      },
+      "title": "Synapse: Federated Tool Routing via Typed Compendium Artifacts",
+      "year": 2026
+    },
+    {
+      "paperId": "20c83ec2b77b0db02d356e816ee6d28a83c200a9",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-08699",
+        "ArXiv": "2601.08699",
+        "DOI": "10.48550/arXiv.2601.08699",
+        "CorpusId": 284705003
+      },
+      "title": "RAGShaper: Eliciting Sophisticated Agentic RAG Skills via Automated Data Synthesis",
+      "year": 2026
+    },
+    {
+      "paperId": "c90c668302a98821a1637945e2c13714faccc92d",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2510-25518",
+        "ArXiv": "2510.25518",
+        "DOI": "10.1109/FLLM67465.2025.11391155",
+        "CorpusId": 282578088
+      },
+      "title": "Retrieval Augmented Generation (RAG) for Fintech: Agentic Design and Evaluation",
+      "year": 2025
+    },
+    {
+      "paperId": "e3f3628a24ea0fc1f0a13d8403a8126a7dc695d0",
+      "externalIds": {
+        "ArXiv": "2512.00007",
+        "DBLP": "journals/corr/abs-2512-00007",
+        "DOI": "10.48550/arXiv.2512.00007",
+        "CorpusId": 283450610
+      },
+      "title": "Use of Retrieval-Augmented Large Language Model Agent for Long-Form COVID-19 Fact-Checking",
+      "year": 2025
+    },
+    {
+      "paperId": "80c7921964f622abe6c023a2df5d5a824f9c66d9",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2509-23519",
+        "ArXiv": "2509.23519",
+        "DOI": "10.48550/arXiv.2509.23519",
+        "CorpusId": 281675692
+      },
+      "title": "ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search",
+      "year": 2025
+    },
+    {
+      "paperId": "3083bee50b6260e0fbd763e27d1ff2916d1eeb77",
+      "externalIds": {
+        "ArXiv": "2509.22486",
+        "DBLP": "journals/corr/abs-2509-22486",
+        "DOI": "10.48550/arXiv.2509.22486",
+        "CorpusId": 281659229
+      },
+      "title": "Your RAG is Unfair: Exposing Fairness Vulnerabilities in Retrieval-Augmented Generation via Backdoor Attacks",
+      "year": 2025
+    },
+    {
+      "paperId": "4b56453cff8b1bf943d0d056ca6635bdd17d8e96",
+      "externalIds": {
+        "ArXiv": "2508.18724",
+        "DBLP": "journals/corr/abs-2508-18724",
+        "DOI": "10.48550/arXiv.2508.18724",
+        "CorpusId": 280869985
+      },
+      "title": "Bias Mitigation Agent: Optimizing Source Selection for Fair and Balanced Knowledge Retrieval",
+      "year": 2025
+    },
+    {
+      "paperId": "71f1df5503f99532d7bc9909a9d0dda15cf19c80",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2507-18857",
+        "ArXiv": "2507.18857",
+        "DOI": "10.48550/arXiv.2507.18857",
+        "CorpusId": 280046351
+      },
+      "title": "PrismRAG: Boosting RAG Factuality with Distractor Resilience and Strategized Reasoning",
+      "year": 2025
+    },
+    {
+      "paperId": "9b6c2cfe66fb2aa966a96b3e593e61fe5f7896e5",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2506-20978",
+        "ArXiv": "2506.20978",
+        "DOI": "10.1145/3726302.3730244",
+        "CorpusId": 280011519
+      },
+      "title": "Response Quality Assessment for Retrieval-Augmented Generation via Conditional Conformal Factuality",
+      "year": 2025
+    },
+    {
+      "paperId": "7886c1e31c63e19e30b8e35b23838bf3af207127",
+      "externalIds": {
+        "ArXiv": "2506.10175",
+        "DBLP": "journals/corr/abs-2506-10175",
+        "DOI": "10.48550/arXiv.2506.10175",
+        "CorpusId": 279319033
+      },
+      "title": "AURA: A Multi-Agent Intelligence Framework for Knowledge-Enhanced Cyber Threat Attribution",
+      "year": 2025
+    },
+    {
+      "paperId": "aea576d8b1660a82c40f943f25fddb4ff8113cdc",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-13079",
+        "ArXiv": "2504.13079",
+        "DOI": "10.48550/arXiv.2504.13079",
+        "CorpusId": 277857356
+      },
+      "title": "Retrieval-Augmented Generation with Conflicting Evidence",
+      "year": 2025
+    },
+    {
+      "paperId": "8de70eaa909fef2adb6d8e15bd7178b7d0fd9749",
+      "externalIds": {
+        "DBLP": "conf/nips/YangCSSQRZ25",
+        "ArXiv": "2504.00587",
+        "DOI": "10.48550/arXiv.2504.00587",
+        "CorpusId": 277468263
+      },
+      "title": "AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "1d12897dc46b40e3d00aaa7257caf1ddc397cd3d",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2503-21237",
+        "ArXiv": "2503.21237",
+        "DOI": "10.1145/3701716.3716885",
+        "CorpusId": 277349131
+      },
+      "title": "Bias-Aware Agent: Enhancing Fairness in AI-Driven Knowledge Retrieval",
+      "year": 2025
+    },
+    {
+      "paperId": "eb38fda0e19c0ebb393ab06ab5fbe5a9b450e378",
+      "externalIds": {
+        "DBLP": "conf/naacl/WangWCH25",
+        "ArXiv": "2503.21315",
+        "DOI": "10.48550/arXiv.2503.21315",
+        "CorpusId": 277349602
+      },
+      "title": "Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack",
+      "year": 2025
+    },
+    {
+      "paperId": "a38c4dbc2a0b228d18c3b94c067b078662a96fa7",
+      "externalIds": {
+        "ArXiv": "2503.15548",
+        "DBLP": "journals/corr/abs-2503-15548",
+        "DOI": "10.48550/arXiv.2503.15548",
+        "CorpusId": 277151020
+      },
+      "title": "Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval",
+      "year": 2025
+    },
+    {
+      "paperId": "8299d8626d25cc476d5a68e5398d856385f75c56",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ChoiKCJC25",
+        "ArXiv": "2502.20995",
+        "DOI": "10.48550/arXiv.2502.20995",
+        "CorpusId": 276725045
+      },
+      "title": "The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "10e500a1db7228ae3393f8d9cc384fca64105fec",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-05312",
+        "ArXiv": "2504.05312",
+        "DOI": "10.48550/arXiv.2504.05312",
+        "CorpusId": 277626616
+      },
+      "title": "Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "7e9717e111ee23ab26cf26bf4969ea9da48cf91e",
+      "externalIds": {
+        "DBLP": "conf/uss/GongC0CY00L25",
+        "ArXiv": "2502.01386",
+        "DOI": "10.48550/arXiv.2502.01386",
+        "CorpusId": 276107577
+      },
+      "title": "Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models",
+      "year": 2025
+    },
+    {
+      "paperId": "ba7952e7c4fb891c36980ca19f94251257da6eb7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2501-09136",
+        "ArXiv": "2501.09136",
+        "DOI": "10.48550/arXiv.2501.09136",
+        "CorpusId": 275570331
+      },
+      "title": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+      "year": 2025
+    },
+    {
+      "paperId": "d542b6e9c383b902a9b07a74d2e60faf8470e1a0",
+      "externalIds": {
+        "DBLP": "conf/ccs/ChenG0CLCZ0L25",
+        "ArXiv": "2501.02968",
+        "DOI": "10.1145/3719027.3765023",
+        "CorpusId": 275337175
+      },
+      "title": "FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models",
+      "year": 2025
+    },
+    {
+      "paperId": "1744b3fbd4a595a233257f0c2b2df3e3d8eeb95c",
+      "externalIds": {
+        "ArXiv": "2501.00879",
+        "CorpusId": 278886557
+      },
+      "title": "TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "f6c0cd7d2c2706e022a785c40890a155f12db212",
+      "externalIds": {
+        "ArXiv": "2501.00332",
+        "DBLP": "conf/acl/0002JRPYWHX0D025",
+        "DOI": "10.48550/arXiv.2501.00332",
+        "CorpusId": 275212408
+      },
+      "title": "MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "9be4bad72b4efe5fc84b28c032195e074b20f9dd",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2410-17112",
+        "ArXiv": "2410.17112",
+        "DOI": "10.5220/0013066600003838",
+        "CorpusId": 273507268
+      },
+      "title": "Enhancing Answer Attribution for Faithful Text Generation with Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "a7af50aa647b7e5092b4daf7728e37717c73c502",
+      "externalIds": {
+        "PubMedCentral": "12713515",
+        "DBLP": "journals/corr/abs-2410-07589",
+        "ArXiv": "2410.07589",
+        "DOI": "10.48550/arXiv.2410.07589",
+        "CorpusId": 273234268,
+        "PubMed": "41425602"
+      },
+      "title": "No Free Lunch: Retrieval-Augmented Generation Undermines Fairness in LLMs, Even for Vigilant Users",
+      "year": 2024
+    },
+    {
+      "paperId": "c3b54abed2679922a50338c3d186fac91b194cd0",
+      "externalIds": {
+        "ArXiv": "2409.19804",
+        "DBLP": "conf/coling/0002LWT025",
+        "DOI": "10.48550/arXiv.2409.19804",
+        "CorpusId": 272987023
+      },
+      "title": "Does RAG Introduce Unfairness in LLMs? Evaluating Fairness in Retrieval-Augmented Generation Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "46ff7e02fd4ff5fdfb9f85bc7071725b8089061f",
+      "externalIds": {
+        "DBLP": "conf/naacl/KrishnaKMSSUF25",
+        "ArXiv": "2409.12941",
+        "DOI": "10.48550/arXiv.2409.12941",
+        "CorpusId": 272753636
+      },
+      "title": "Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "b6948a9e8b3eec5a56a80c69727154fcd7ececce",
+      "externalIds": {
+        "DBLP": "conf/nips/ChenXXSL24",
+        "ArXiv": "2407.12784",
+        "DOI": "10.48550/arXiv.2407.12784",
+        "CorpusId": 271244867
+      },
+      "title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+      "year": 2024
+    },
+    {
+      "paperId": "ed16f6feda941164e6370638ebd98b81c13d2c4b",
+      "externalIds": {
+        "DBLP": "conf/sigir/SudhiBRT24",
+        "DOI": "10.1145/3626772.3657660",
+        "CorpusId": 271114654
+      },
+      "title": "RAG-Ex: A Generic Framework for Explaining Retrieval Augmented Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "388fedd2e549e6f51c107162830c38c8f32902e1",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-01796",
+        "ArXiv": "2407.01796",
+        "DOI": "10.48550/arXiv.2407.01796",
+        "CorpusId": 270878476
+      },
+      "title": "Ground Every Sentence: Improving Retrieval-Augmented LLMs with Interleaved Reference-Claim Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "b2a73efde20697bd87d377449874d7cf3f054849",
+      "externalIds": {
+        "DBLP": "conf/ijcnlp/SchumacherHGBKKCNVR25",
+        "ArXiv": "2406.19538",
+        "DOI": "10.18653/v1/2025.ijcnlp-long.166",
+        "CorpusId": 283055450
+      },
+      "title": "RASTeR: Robust, Agentic, and Structured Temporal Reasoning",
+      "year": 2024
+    },
+    {
+      "paperId": "50d65e1bf5cee30b24c3872afc6aabae87f44e66",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-19417",
+        "ACL": "2024.emnlp-main.96",
+        "ArXiv": "2406.19417",
+        "DOI": "10.48550/arXiv.2406.19417",
+        "CorpusId": 270845515
+      },
+      "title": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+      "year": 2024
+    },
+    {
+      "paperId": "1b0aba023d7aa5fb9853f9e942efb5c243dc1201",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-11005",
+        "ArXiv": "2407.11005",
+        "DOI": "10.48550/arXiv.2407.11005",
+        "CorpusId": 271218596
+      },
+      "title": "RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "dcdcf97a86050202d0a804202e56e5878c167951",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ZengZHRZLXLXT25",
+        "ArXiv": "2406.14773",
+        "DOI": "10.48550/arXiv.2406.14773",
+        "CorpusId": 270688277
+      },
+      "title": "Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data",
+      "year": 2024
+    },
+    {
+      "paperId": "bf996a2aba3616645a7436285beefa3e316a4878",
+      "externalIds": {
+        "DBLP": "conf/kdd/CaiTSSJXZG24",
+        "ArXiv": "2406.13779",
+        "DOI": "10.1145/3637528.3672065",
+        "CorpusId": 270619595
+      },
+      "title": "FoRAG: Factuality-optimized Retrieval Augmented Generation for Web-enhanced Long-form Question Answering",
+      "year": 2024
+    },
+    {
+      "paperId": "5bb2e6209519d30c34db02cef68de75788470eaa",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-10130",
+        "ArXiv": "2406.10130",
+        "DOI": "10.48550/arXiv.2406.10130",
+        "CorpusId": 270521813
+      },
+      "title": "The Devil is in the Neurons: Interpreting and Mitigating Social Biases in Pre-trained Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "7496a1bf64da767876595d8f53890f90afe35982",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-08824",
+        "ArXiv": "2406.08824",
+        "DOI": "10.1007/s12369-025-01301-x",
+        "CorpusId": 270440719
+      },
+      "title": "LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions",
+      "year": 2024
+    },
+    {
+      "paperId": "320b86d8a23da014d018db23a5f43b94368dd749",
+      "externalIds": {
+        "DBLP": "conf/uss/ShafranSS25",
+        "ArXiv": "2406.05870",
+        "DOI": "10.48550/arXiv.2406.05870",
+        "CorpusId": 270371648
+      },
+      "title": "Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents",
+      "year": 2024
+    },
+    {
+      "paperId": "d3288727eda4dfcc847f64cf6ef28c712db85d92",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-06574",
+        "ArXiv": "2406.06574",
+        "DOI": "10.48550/arXiv.2406.06574",
+        "CorpusId": 270379682
+      },
+      "title": "Towards Transparency: Exploring LLM Trainings Datasets through Visual Topic Modeling and Semantic Frame",
+      "year": 2024
+    },
+    {
+      "paperId": "1027d120189fd6cd9aec1af273cd9a5baaf645d7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-00083",
+        "ArXiv": "2406.00083",
+        "DOI": "10.48550/arXiv.2406.00083",
+        "CorpusId": 270219294
+      },
+      "title": "BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "21dc5aa608721f7e8a09e7dd9de8e48a71d9f0c9",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2405-20446",
+        "ArXiv": "2405.20446",
+        "DOI": "10.5220/0013108300003899",
+        "CorpusId": 270199828
+      },
+      "title": "Is My Data in Your Retrieval Database? Membership Inference Attacks Against Retrieval Augmented Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "3b81eca915a041b12eab31ffa62fca5bdabfbf17",
+      "externalIds": {
+        "ArXiv": "2405.15556",
+        "DBLP": "journals/corr/abs-2405-15556",
+        "DOI": "10.48550/arXiv.2405.15556",
+        "CorpusId": 270045527
+      },
+      "title": "Certifiably Robust RAG against Retrieval Corruption",
+      "year": 2024
+    },
+    {
+      "paperId": "d8d0d704446ffaf09b9722360ed76341934ec3a3",
+      "externalIds": {
+        "ArXiv": "2405.13401",
+        "DBLP": "journals/corr/abs-2405-13401",
+        "DOI": "10.48550/arXiv.2405.13401",
+        "CorpusId": 269983281
+      },
+      "title": "TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "0d67cd78dc688ea8d404593eadc3ba5d5bb86951",
+      "externalIds": {
+        "DBLP": "journals/dai/Sarker24",
+        "DOI": "10.1007/s44163-024-00129-0",
+        "CorpusId": 269957734
+      },
+      "title": "LLM potentiality and awareness: a position paper from the perspective of trustworthy and responsible AI modeling",
+      "year": 2024
+    },
+    {
+      "paperId": "022b5b58058e5af5745f4d783f64bb77b38ffdda",
+      "externalIds": {
+        "ArXiv": "2404.18534",
+        "DBLP": "conf/ijcai/Dong00025",
+        "DOI": "10.48550/arXiv.2404.18534",
+        "CorpusId": 269449779
+      },
+      "title": "Evaluating and Mitigating Linguistic Discrimination in Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "038cf7f6b8fc781d3b74fe2cfe6db2bf35908a37",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ChoJSHP24",
+        "ArXiv": "2404.13948",
+        "DOI": "10.48550/arXiv.2404.13948",
+        "CorpusId": 269293062
+      },
+      "title": "Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations",
+      "year": 2024
+    },
+    {
+      "paperId": "22e21f328e3c4aec3abe0006d974a1260d0ee996",
+      "externalIds": {
+        "DBLP": "conf/iclr/KimNMP0S0S24",
+        "ArXiv": "2404.13081",
+        "DOI": "10.48550/arXiv.2404.13081",
+        "CorpusId": 269293435
+      },
+      "title": "SuRe: Summarizing Retrievals using Answer Candidates for Open-domain QA of LLMs",
+      "year": 2024
+    },
+    {
+      "paperId": "d795fc5d6c04435baf7be0d7c12eed16d89e9b1d",
+      "externalIds": {
+        "DBLP": "journals/ai/LiDSWSW24",
+        "DOI": "10.1016/j.artint.2024.104143",
+        "CorpusId": 269426316
+      },
+      "title": "Mitigating social biases of pre-trained language models via contrastive self-debiasing with double data augmentation",
+      "year": 2024
+    },
+    {
+      "paperId": "8719833751cf1bfc779c944fc7954a337b2c0833",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2404-01019",
+        "ArXiv": "2404.01019",
+        "DOI": "10.48550/arXiv.2404.01019",
+        "CorpusId": 268819100
+      },
+      "title": "Source-Aware Training Enables Knowledge Attribution in Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "18f3affc62662c1255f951d09f747657f42a029e",
+      "externalIds": {
+        "DBLP": "journals/eswa/HabbalAA24",
+        "DOI": "10.1016/j.eswa.2023.122442",
+        "CorpusId": 265272008
+      },
+      "title": "Artificial Intelligence Trust, Risk and Security Management (AI TRiSM): Frameworks, applications, challenges and future research directions",
+      "year": 2024
+    },
+    {
+      "paperId": "9a875f10f742f1e4ac32e7458cfbbc7ee692bf93",
+      "externalIds": {
+        "ArXiv": "2403.19964",
+        "DBLP": "journals/corr/abs-2403-19964",
+        "DOI": "10.1109/CVPR52733.2024.01140",
+        "CorpusId": 268793876
+      },
+      "title": "FairRAG: Fair Human Generation via Fair Retrieval Augmentation",
+      "year": 2024
+    },
+    {
+      "paperId": "e5e8c6ac537e0f5b5db14170bc232d6f9e641bbc",
+      "externalIds": {
+        "ACL": "2024.naacl-long.389",
+        "DBLP": "conf/naacl/JeongBCHP24",
+        "ArXiv": "2403.14403",
+        "DOI": "10.48550/arXiv.2403.14403",
+        "CorpusId": 268553748
+      },
+      "title": "Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity",
+      "year": 2024
+    },
+    {
+      "paperId": "411b725522e2747e890ba5acfbf43d22f759c00a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2403-06448",
+        "ArXiv": "2403.06448",
+        "DOI": "10.48550/arXiv.2403.06448",
+        "CorpusId": 268351309
+      },
+      "title": "Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "1359b818543bfde35f0966b74612d18ae28ca41f",
+      "externalIds": {
+        "ArXiv": "2403.05156",
+        "DBLP": "journals/corr/abs-2403-05156",
+        "DOI": "10.1109/ICMC60390.2024.00008",
+        "CorpusId": 268297267
+      },
+      "title": "On Protecting the Data Privacy of Large Language Models (LLMs): A Survey",
+      "year": 2024
+    },
+    {
+      "paperId": "2f6de8291c9a803faa7f7a33c74f4a2a3debd83b",
+      "externalIds": {
+        "ArXiv": "2403.03792",
+        "DBLP": "conf/aisec-ws/PasquiniST24",
+        "DOI": "10.1145/3689932.3694764",
+        "CorpusId": 268253024
+      },
+      "title": "Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks",
+      "year": 2024
+    },
+    {
+      "paperId": "1cef01ab4db546659f42de237a54dd510f9906cb",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-18649",
+        "ArXiv": "2402.18649",
+        "DOI": "10.48550/arXiv.2402.18649",
+        "CorpusId": 268063870
+      },
+      "title": "A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "7b00cb1fe1773f964d123dab6d4812c7bc63de06",
+      "externalIds": {
+        "DBLP": "conf/iclr/QiZXKL25",
+        "ArXiv": "2402.17840",
+        "DOI": "10.48550/arXiv.2402.17840",
+        "CorpusId": 268041619
+      },
+      "title": "Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "31e27369f64c51ffbfd9bc8e3cbb20705edc6bff",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-16063",
+        "ArXiv": "2402.16063",
+        "DOI": "10.18653/v1/2024.acl-long.79",
+        "CorpusId": 267938283
+      },
+      "title": "Citation-Enhanced Generation for LLM-based Chatbots",
+      "year": 2024
+    },
+    {
+      "paperId": "ea89b058ce619ed16d4de633126b02a8179457c8",
+      "externalIds": {
+        "DBLP": "conf/acl/ZengZHLX000WYT24",
+        "ArXiv": "2402.16893",
+        "DOI": "10.48550/arXiv.2402.16893",
+        "CorpusId": 268032903
+      },
+      "title": "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)",
+      "year": 2024
+    },
+    {
+      "paperId": "8e91c1b6d22e8a09bff52a5dd6cd3b70a8a26fb2",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-12174",
+        "ArXiv": "2402.12174",
+        "DOI": "10.48550/arXiv.2402.12174",
+        "CorpusId": 267751485
+      },
+      "title": "BIDER: Bridging Knowledge Inconsistency for Efficient Retrieval-Augmented LLMs via Key Supporting Evidence",
+      "year": 2024
+    },
+    {
+      "paperId": "3b10497e5609d593b6a7035d7ed65890a3e6d13d",
+      "externalIds": {
+        "DBLP": "conf/www/0002ZJD24",
+        "ArXiv": "2402.10548",
+        "DOI": "10.1145/3589334.3645482",
+        "CorpusId": 267740386
+      },
+      "title": "Cognitive Personalized Search Integrating Large Language Models with an Efficient Memory Mechanism",
+      "year": 2024
+    },
+    {
+      "paperId": "587a3f2039302c6fe11c95e5266681197e14bb5d",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-09390",
+        "ACL": "2024.trustnlp-1.12",
+        "ArXiv": "2402.09390",
+        "DOI": "10.48550/arXiv.2402.09390",
+        "CorpusId": 267657836
+      },
+      "title": "HGOT: Hierarchical Graph of Thoughts for Retrieval-Augmented In-Context Learning in Factuality Evaluation",
+      "year": 2024
+    },
+    {
+      "paperId": "f4e06256ab07727ff4e0465deea83fcf45012354",
+      "externalIds": {
+        "ArXiv": "2402.07867",
+        "DBLP": "conf/uss/ZouGW025",
+        "CorpusId": 271854736
+      },
+      "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "fabaabcbca3c518c0b4fff2fea5dee8546181388",
+      "externalIds": {
+        "ArXiv": "2402.04315",
+        "DBLP": "journals/corr/abs-2402-04315",
+        "DOI": "10.48550/arXiv.2402.04315",
+        "CorpusId": 267522887
+      },
+      "title": "Training Language Models to Generate Text with Citations via Fine-grained Rewards",
+      "year": 2024
+    },
+    {
+      "paperId": "3d6197e4ab55a3a2785ce5934e48cfbe9fe9bf04",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-11641",
+        "ArXiv": "2401.11641",
+        "DOI": "10.48550/arXiv.2401.11641",
+        "CorpusId": 267069342
+      },
+      "title": "Revolutionizing Finance with LLMs: An Overview of Applications and Insights",
+      "year": 2024
+    },
+    {
+      "paperId": "fb4dc0178e5d7347b1615c48caf05347b6e5eb48",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-05561",
+        "ArXiv": "2401.05561",
+        "DOI": "10.48550/arXiv.2401.05561",
+        "CorpusId": 266933236
+      },
+      "title": "TrustLLM: Trustworthiness in Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "0714aa8805a29136dd8d6802af4ca30570376e8b",
+      "externalIds": {
+        "DOI": "10.1016/j.techsoc.2024.102457",
+        "CorpusId": 266762385
+      },
+      "title": "Data privacy: From transparency to fairness",
+      "year": 2024
+    },
+    {
+      "paperId": "36cbea6919cf01f3e5488b160726b01f422b4b93",
+      "externalIds": {
+        "DBLP": "conf/aaai/GhoshAJ0CS24",
+        "ArXiv": "2312.11541",
+        "DOI": "10.48550/arXiv.2312.11541",
+        "CorpusId": 266362506
+      },
+      "title": "CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare",
+      "year": 2023
+    },
+    {
+      "paperId": "69e2aa1723b46e4df0445e8ecb838636b0911cd7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2312-09075",
+        "ACL": "2024.emnlp-main.469",
+        "ArXiv": "2312.09075",
+        "DOI": "10.48550/arXiv.2312.09075",
+        "CorpusId": 266210156
+      },
+      "title": "Towards Verifiable Text Generation with Evolving Memory and Self-Reflection",
+      "year": 2023
+    },
+    {
+      "paperId": "b2ec73899bec2c8ca4c8d96dee39ff2612c9aa57",
+      "externalIds": {
+        "ArXiv": "2311.09533",
+        "ACL": "2024.naacl-long.346",
+        "DBLP": "conf/naacl/Ye0AP24",
+        "DOI": "10.48550/arXiv.2311.09533",
+        "CorpusId": 265220884
+      },
+      "title": "Effective Large Language Model Adaptation for Improved Grounding and Citation Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "3bddd0073728e6ebd8a139a93c85e1618187f58d",
+      "externalIds": {
+        "DBLP": "conf/naacl/LiZLYSQ24",
+        "ArXiv": "2311.07838",
+        "ACL": "2024.naacl-long.305",
+        "DOI": "10.48550/arXiv.2311.07838",
+        "CorpusId": 265157583
+      },
+      "title": "LLatrieval: LLM-Verified Retrieval for Verifiable Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "c86631196b800b174390bd569d5244a5f95146cd",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2311-08147",
+        "ArXiv": "2311.08147",
+        "DOI": "10.48550/arXiv.2311.08147",
+        "CorpusId": 265157546
+      },
+      "title": "RECALL: A Benchmark for LLMs Robustness against External Counterfactual Knowledge",
+      "year": 2023
+    },
+    {
+      "paperId": "1e909e2a8cdacdcdff125ebcc566f37cb869a1c8",
+      "externalIds": {
+        "ArXiv": "2311.05232",
+        "DBLP": "journals/tois/HuangYMZFWCPFQL25",
+        "DOI": "10.1145/3703155",
+        "CorpusId": 265067168
+      },
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "year": 2023
+    },
+    {
+      "paperId": "5d3bdae6cfb2239af70dfe8ae5cf1a4958330ac4",
+      "externalIds": {
+        "ArXiv": "2311.03731",
+        "DBLP": "journals/corr/abs-2311-03731",
+        "DOI": "10.48550/arXiv.2311.03731",
+        "CorpusId": 265043716
+      },
+      "title": "A Survey of Large Language Models Attribution",
+      "year": 2023
+    },
+    {
+      "paperId": "e3a49a110801fd961db887f8af1239cc79b55a5b",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-19156",
+        "ArXiv": "2310.19156",
+        "DOI": "10.48550/arXiv.2310.19156",
+        "CorpusId": 264828956
+      },
+      "title": "Poisoning Retrieval Corpora by Injecting Adversarial Passages",
+      "year": 2023
+    },
+    {
+      "paperId": "d824b7154ad6df729fef49030ee170466911414b",
+      "externalIds": {
+        "ArXiv": "2310.18347",
+        "DBLP": "conf/emnlp/YangLZW0L023",
+        "DOI": "10.48550/arXiv.2310.18347",
+        "CorpusId": 264590451
+      },
+      "title": "PRCA: Fitting Black-Box Large Language Models for Retrieval Question Answering via Pluggable Reward-Driven Contextual Adapter",
+      "year": 2023
+    },
+    {
+      "paperId": "a71236be6eaa57af7207288bb1153f067144e02a",
+      "externalIds": {
+        "ArXiv": "2310.14393",
+        "DBLP": "journals/corr/abs-2310-14393",
+        "DOI": "10.48550/arXiv.2310.14393",
+        "CorpusId": 264426669
+      },
+      "title": "Merging Generated and Retrieved Knowledge for Open-Domain QA",
+      "year": 2023
+    },
+    {
+      "paperId": "ddbd8fe782ac98e9c64dd98710687a962195dd9b",
+      "externalIds": {
+        "DBLP": "conf/iclr/AsaiWWSH24",
+        "ArXiv": "2310.11511",
+        "CorpusId": 264288947
+      },
+      "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+      "year": 2023
+    },
+    {
+      "paperId": "0786c88990235414611478099e43611542d973b0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-06117",
+        "ArXiv": "2310.06117",
+        "DOI": "10.48550/arXiv.2310.06117",
+        "CorpusId": 263830368
+      },
+      "title": "Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "8f72127459ade06831ec2990f7da4914cc1a6e22",
+      "externalIds": {
+        "ArXiv": "2310.05002",
+        "DBLP": "conf/emnlp/WangLSL23",
+        "DOI": "10.48550/arXiv.2310.05002",
+        "CorpusId": 263828724
+      },
+      "title": "Self-Knowledge Guided Retrieval Augmentation for Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "1266477120913d274346b044b4cc72ea893b1382",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2310-05029",
+        "ArXiv": "2310.05029",
+        "DOI": "10.48550/arXiv.2310.05029",
+        "CorpusId": 263831502
+      },
+      "title": "Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading",
+      "year": 2023
+    },
+    {
+      "paperId": "0630a18fe3fe4765132ad52a591f9776cf3284bf",
+      "externalIds": {
+        "DBLP": "conf/sigir-ap/HuoAC23",
+        "ArXiv": "2309.11392",
+        "DOI": "10.1145/3624918.3625336",
+        "CorpusId": 262063818
+      },
+      "title": "Retrieving Supporting Evidence for Generative Question Answering",
+      "year": 2023
+    },
+    {
+      "paperId": "e9a30a36c5d28fde8c7b159ed8adddf85f92ff1d",
+      "externalIds": {
+        "DOI": "10.3390/app131810258",
+        "CorpusId": 261851628
+      },
+      "title": "AI Fairness in Data Management and Analytics: A Review on Challenges, Methodologies and Applications",
+      "year": 2023
+    },
+    {
+      "paperId": "9d3da5c9c3cb7da3607fda51332e87b60de71e93",
+      "externalIds": {
+        "PubMedCentral": "10720782",
+        "DOI": "10.1097/JS9.0000000000000719",
+        "CorpusId": 261742952,
+        "PubMed": "37707542"
+      },
+      "title": "ChatGPT or LLM in next-generation drug discovery and development: pharmaceutical and biotechnology companies can make use of the artificial intelligence-based device for a faster way of drug discovery and development",
+      "year": 2023
+    },
+    {
+      "paperId": "ec14f2eda005b47d84f2be953a70ed5981fcc1aa",
+      "externalIds": {
+        "PubMedCentral": "10546443",
+        "DOI": "10.1259/bjr.20230023",
+        "CorpusId": 261696348,
+        "PubMed": "37698583"
+      },
+      "title": "AI pitfalls and what not to do: mitigating bias in AI",
+      "year": 2023
+    },
+    {
+      "paperId": "1ab91d6ac7afc1a0121487a9089fa70edc1634d4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-02705",
+        "ArXiv": "2309.02705",
+        "DOI": "10.48550/arXiv.2309.02705",
+        "CorpusId": 261557007
+      },
+      "title": "Certifying LLM Safety against Adversarial Prompting",
+      "year": 2023
+    },
+    {
+      "paperId": "28e2ecb4183ebc0eec504b12dddc677f8aef8745",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-01431",
+        "ArXiv": "2309.01431",
+        "DOI": "10.48550/arXiv.2309.01431",
+        "CorpusId": 261530434
+      },
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "7142e920b6b9355d9cbacc9450818f912eca138e",
+      "externalIds": {
+        "ArXiv": "2308.05374",
+        "DBLP": "journals/corr/abs-2308-05374",
+        "DOI": "10.48550/arXiv.2308.05374",
+        "CorpusId": 260775522
+      },
+      "title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment",
+      "year": 2023
+    },
+    {
+      "paperId": "7c5aa120a582bd192b2be4952953040b41d3d503",
+      "externalIds": {
+        "ArXiv": "2307.07171",
+        "DBLP": "journals/corr/abs-2307-07171",
+        "DOI": "10.48550/arXiv.2307.07171",
+        "CorpusId": 259924952
+      },
+      "title": "Certified Robustness for Large Language Models with Self-Denoising",
+      "year": 2023
+    },
+    {
+      "paperId": "b2c68b708a9f98996b18c8d21b53a815a2c46a8b",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2307-01881",
+        "ArXiv": "2307.01881",
+        "DOI": "10.48550/arXiv.2307.01881",
+        "CorpusId": 259342279
+      },
+      "title": "ProPILE: Probing Privacy Leakage in Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "a6d3794c23626060781da0f1ff2bcdf7457b6c43",
+      "externalIds": {
+        "DBLP": "conf/nips/WangCPXKZXXDSTA23",
+        "ArXiv": "2306.11698",
+        "DOI": "10.48550/arXiv.2306.11698",
+        "CorpusId": 259202782
+      },
+      "title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
+      "year": 2023
+    },
+    {
+      "paperId": "65b364176ba10404411facfee765869d35e16517",
+      "externalIds": {
+        "ArXiv": "2305.16253",
+        "DBLP": "journals/corr/abs-2305-16253",
+        "ACL": "2023.acl-long.759",
+        "DOI": "10.48550/arXiv.2305.16253",
+        "CorpusId": 258887496
+      },
+      "title": "Uncovering and Categorizing Social Biases in Text-to-SQL",
+      "year": 2023
+    },
+    {
+      "paperId": "e43c46f2c00df489e3a68b58bfcd3f87a84a3f59",
+      "externalIds": {
+        "DBLP": "conf/nips/LiuCGSZZLCH23",
+        "ArXiv": "2305.15377",
+        "DOI": "10.48550/arXiv.2305.15377",
+        "CorpusId": 258866038
+      },
+      "title": "Uncovering and Quantifying Social Biases in Code Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "a7977870b58e716cd93f571a3b75a610167a75bd",
+      "externalIds": {
+        "DBLP": "conf/emnlp/LuoZCGKWMG23",
+        "ArXiv": "2305.15225",
+        "DOI": "10.48550/arXiv.2305.15225",
+        "CorpusId": 258865283
+      },
+      "title": "SAIL: Search-Augmented Instruction Learning",
+      "year": 2023
+    },
+    {
+      "paperId": "7db7653c581d7823cb9c328f2d742ec70d7a0ce4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2305-14908",
+        "ArXiv": "2305.14908",
+        "DOI": "10.48550/arXiv.2305.14908",
+        "CorpusId": 258865339
+      },
+      "title": "PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions",
+      "year": 2023
+    },
+    {
+      "paperId": "d0e152aa3e6f13f5fa8ff56b4c4ac9ff397c80a3",
+      "externalIds": {
+        "ArXiv": "2305.14888",
+        "DBLP": "journals/corr/abs-2305-14888",
+        "DOI": "10.48550/arXiv.2305.14888",
+        "CorpusId": 258865437
+      },
+      "title": "Privacy Implications of Retrieval-Based Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "f743287be3ced6757de7ecb26d03815b22cd737b",
+      "externalIds": {
+        "ArXiv": "2305.14283",
+        "DBLP": "journals/corr/abs-2305-14283",
+        "DOI": "10.48550/arXiv.2305.14283",
+        "CorpusId": 258841283
+      },
+      "title": "Query Rewriting for Retrieval-Augmented Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "fef6471c4a2a0e7abc4a2261a6cf916e34091d12",
+      "externalIds": {
+        "ArXiv": "2305.13661",
+        "DBLP": "conf/emnlp/PanPCNKW23",
+        "DOI": "10.48550/arXiv.2305.13661",
+        "CorpusId": 258840876
+      },
+      "title": "On the Risk of Misinformation Pollution with Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "2f3822eb380b5e753a6d579f31dfc3ec4c4a0820",
+      "externalIds": {
+        "ArXiv": "2305.10601",
+        "DBLP": "journals/corr/abs-2305-10601",
+        "DOI": "10.48550/arXiv.2305.10601",
+        "CorpusId": 258762525
+      },
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "88884b8806262a4095036041e3567d450dba39f7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2305-06983",
+        "ArXiv": "2305.06983",
+        "DOI": "10.48550/arXiv.2305.06983",
+        "CorpusId": 258615731
+      },
+      "title": "Active Retrieval Augmented Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "66cca7a055ee9278d0439654f474cbfa4135aff0",
+      "externalIds": {
+        "ArXiv": "2305.01579",
+        "DBLP": "conf/naacl/HongKKMW24",
+        "DOI": "10.18653/v1/2024.findings-naacl.159",
+        "CorpusId": 258437010
+      },
+      "title": "Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise",
+      "year": 2023
+    },
+    {
+      "paperId": "83cebf919635504786fc220d569284842b0f0a09",
+      "externalIds": {
+        "DBLP": "journals/csur/GoyalDKR23",
+        "DOI": "10.1145/3593042",
+        "CorpusId": 260927597
+      },
+      "title": "A Survey of Adversarial Defenses and Robustness in NLP",
+      "year": 2023
+    },
+    {
+      "paperId": "53b04ccd2a001467d7ce168e9ce20b16a9466a69",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2304-07683",
+        "ArXiv": "2304.07683",
+        "DOI": "10.3390/sci6010003",
+        "CorpusId": 258180322
+      },
+      "title": "Fairness And Bias in Artificial Intelligence: A Brief Survey of Sources, Impacts, And Mitigation Strategies",
+      "year": 2023
+    },
+    {
+      "paperId": "025ca4c125d6ecabc816a56f160e5c992abc76d9",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2304-05197",
+        "ArXiv": "2304.05197",
+        "DOI": "10.48550/arXiv.2304.05197",
+        "CorpusId": 258060250
+      },
+      "title": "Multi-step Jailbreaking Privacy Attacks on ChatGPT",
+      "year": 2023
+    },
+    {
+      "paperId": "470d2f3f92877cba3ec9ce2662737d7d76b33331",
+      "externalIds": {
+        "ArXiv": "2304.04358",
+        "DBLP": "journals/corr/abs-2304-04358",
+        "DOI": "10.48550/arXiv.2304.04358",
+        "CorpusId": 258049316
+      },
+      "title": "WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus",
+      "year": 2023
+    },
+    {
+      "paperId": "e2352eb8e69d7cc0d98f9b13eae33f9c02310ad4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2304-02819",
+        "ArXiv": "2304.02819",
+        "PubMedCentral": "10382961",
+        "DOI": "10.1016/j.patter.2023.100779",
+        "CorpusId": 257985499,
+        "PubMed": "37521038"
+      },
+      "title": "GPT detectors are biased against non-native English writers",
+      "year": 2023
+    },
+    {
+      "paperId": "36709000a9272e941338244ef80ff5ab1dd2bba1",
+      "externalIds": {
+        "DBLP": "journals/fcsc/ZhaoZLTDHZMZLWDYCCJRLTL26",
+        "ArXiv": "2303.18223",
+        "DOI": "10.1007/s11704-026-60308-3",
+        "CorpusId": 257900969
+      },
+      "title": "A Survey of Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "e5c72b92c48d68594b290c84a8904da7c8335554",
+      "externalIds": {
+        "ArXiv": "2302.12813",
+        "DBLP": "journals/corr/abs-2302-12813",
+        "DOI": "10.48550/arXiv.2302.12813",
+        "CorpusId": 257205781
+      },
+      "title": "Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback",
+      "year": 2023
+    },
+    {
+      "paperId": "705e49afd92130f2bc1e0d4d0b1f6cb14e88803f",
+      "externalIds": {
+        "DBLP": "conf/ccs/AbdelnabiGMEHF23",
+        "ArXiv": "2302.12173",
+        "DOI": "10.1145/3605764.3623985",
+        "CorpusId": 258546941
+      },
+      "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "year": 2023
+    },
+    {
+      "paperId": "53d128ea815bcc0526856eb5a9c42cc977cb36a7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2302-04761",
+        "ArXiv": "2302.04761",
+        "DOI": "10.48550/arXiv.2302.04761",
+        "CorpusId": 256697342
+      },
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "year": 2023
+    },
+    {
+      "paperId": "bf8491bef353df126e2306ad2fe4b898697b906a",
+      "externalIds": {
+        "ArXiv": "2302.04023",
+        "DBLP": "conf/ijcnlp/BangCLDSWLJYCDXF23",
+        "ACL": "2023.ijcnlp-main.45",
+        "DOI": "10.18653/v1/2023.ijcnlp-main.45",
+        "CorpusId": 256662612
+      },
+      "title": "A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",
+      "year": 2023
+    },
+    {
+      "paperId": "3d68522abfadfc8ee6b7ec9edaaf91f1b2f38e5e",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2302-00093",
+        "ArXiv": "2302.00093",
+        "DOI": "10.48550/arXiv.2302.00093",
+        "CorpusId": 256459776
+      },
+      "title": "Large Language Models Can Be Easily Distracted by Irrelevant Context",
+      "year": 2023
+    },
+    {
+      "paperId": "07b14c24833400b79978b0a5f084803337e30a15",
+      "externalIds": {
+        "DBLP": "conf/naacl/ShiMYS0LZY24",
+        "ACL": "2024.naacl-long.463",
+        "ArXiv": "2301.12652",
+        "DOI": "10.48550/arXiv.2301.12652",
+        "CorpusId": 256389797
+      },
+      "title": "REPLUG: Retrieval-Augmented Black-Box Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "1c91b23d78944f7f237cb512029c2165972ae9d5",
+      "externalIds": {
+        "ACL": "2023.eacl-main.77",
+        "DBLP": "journals/corr/abs-2301-12868",
+        "ArXiv": "2301.12868",
+        "DOI": "10.48550/arXiv.2301.12868",
+        "CorpusId": 256389762
+      },
+      "title": "On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex",
+      "year": 2023
+    },
+    {
+      "paperId": "4abcd01b9341ffe3bcbb8b90439e4fd967d68533",
+      "externalIds": {
+        "DBLP": "conf/eacl/WellerKWLD24",
+        "ArXiv": "2212.10002",
+        "ACL": "2024.eacl-short.35",
+        "DOI": "10.48550/arXiv.2212.10002",
+        "CorpusId": 258685264
+      },
+      "title": "Defending Against Disinformation Attacks in Open-Domain Question Answering",
+      "year": 2022
+    },
+    {
+      "paperId": "f208ea909fa7f54fea82def9a92fd81dfc758c39",
+      "externalIds": {
+        "ArXiv": "2212.10509",
+        "DBLP": "journals/corr/abs-2212-10509",
+        "ACL": "2023.acl-long.557",
+        "DOI": "10.48550/arXiv.2212.10509",
+        "CorpusId": 254877499
+      },
+      "title": "Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions",
+      "year": 2022
+    },
+    {
+      "paperId": "81eb69b9b21489237a39e4e7e9ccd5604fe957b0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2211-02291",
+        "ArXiv": "2211.02291",
+        "DOI": "10.48550/arXiv.2211.02291",
+        "CorpusId": 253370627
+      },
+      "title": "SelecMix: Debiased Learning by Contradicting-pair Sampling",
+      "year": 2022
+    },
+    {
+      "paperId": "9cb5f39cc6b6645f18b922e312f8193f14d8359a",
+      "externalIds": {
+        "ArXiv": "2210.15042",
+        "DBLP": "journals/corr/abs-2210-15042",
+        "DOI": "10.1109/ICDMW58026.2022.00078",
+        "CorpusId": 253157818
+      },
+      "title": "EW-Tune: A Framework for Privately Fine-Tuning Large Language Models with Differential Privacy",
+      "year": 2022
+    },
+    {
+      "paperId": "66242baf48b0f6b828e7547ac39ffaa5e1b2cb3e",
+      "externalIds": {
+        "ArXiv": "2210.08726",
+        "DBLP": "conf/acl/GaoDPCCFZLLJG23",
+        "ACL": "2023.acl-long.910",
+        "DOI": "10.18653/v1/2023.acl-long.910",
+        "CorpusId": 254247260
+      },
+      "title": "RARR: Researching and Revising What Language Models Say, Using Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "e070ff286709db28312e08b52b05539debe88146",
+      "externalIds": {
+        "DBLP": "conf/emnlp/PressZMSSL23",
+        "ArXiv": "2210.03350",
+        "DOI": "10.48550/arXiv.2210.03350",
+        "CorpusId": 252762102
+      },
+      "title": "Measuring and Narrowing the Compositionality Gap in Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "e86009d9f9b1cdf083a48d087552bc4153784451",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2209-11755",
+        "ArXiv": "2209.11755",
+        "DOI": "10.48550/arXiv.2209.11755",
+        "CorpusId": 252519173
+      },
+      "title": "Promptagator: Few-shot Dense Retrieval From 8 Examples",
+      "year": 2022
+    },
+    {
+      "paperId": "b2542a738b75ee9b7ce1a13d8b78f9095d212412",
+      "externalIds": {
+        "ArXiv": "2209.10063",
+        "DBLP": "conf/iclr/0002IWXJ000023",
+        "CorpusId": 252408513
+      },
+      "title": "Generate rather than Retrieve: Large Language Models are Strong Context Generators",
+      "year": 2022
+    },
+    {
+      "paperId": "916be31cbf847faa65cad0549e153f0c25b9f424",
+      "externalIds": {
+        "ArXiv": "2208.03299",
+        "DBLP": "journals/jmlr/IzacardLLHPSDJRG23",
+        "CorpusId": 251371732
+      },
+      "title": "Few-shot Learning with Retrieval Augmented Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "660f9fa75c325a6c3850a76cd10edb84468beb85",
+      "externalIds": {
+        "DBLP": "journals/tkdd/WanZLZ23",
+        "DOI": "10.1145/3551390",
+        "CorpusId": 263879719
+      },
+      "title": "In-Processing Modeling Techniques for Machine Learning Fairness: A Survey",
+      "year": 2022
+    },
+    {
+      "paperId": "c406074e331fa11604059bdeb36433dc9d1e20de",
+      "externalIds": {
+        "ACL": "2022.naacl-main.194",
+        "DBLP": "journals/corr/abs-2207-06300",
+        "ArXiv": "2207.06300",
+        "DOI": "10.48550/arXiv.2207.06300",
+        "CorpusId": 250391085
+      },
+      "title": "Re2G: Retrieve, Rerank, Generate",
+      "year": 2022
+    },
+    {
+      "paperId": "7dc5e8b34ff1ade8f20733de7d8e66c315c1534e",
+      "externalIds": {
+        "DBLP": "journals/ais/ShinLAI24",
+        "DOI": "10.1007/s00146-022-01525-9",
+        "CorpusId": 250269862
+      },
+      "title": "Understanding user sensemaking in fairness and transparency in algorithms: algorithmic sensemaking in over-the-top platform",
+      "year": 2022
+    },
+    {
+      "paperId": "77d25889a59041629e8b2a81aad56544144c6878",
+      "externalIds": {
+        "DBLP": "conf/emnlp/0009SC22",
+        "ArXiv": "2205.12628",
+        "DOI": "10.48550/arXiv.2205.12628",
+        "CorpusId": 249063119
+      },
+      "title": "Are Large Pre-Trained Language Models Leaking Your Personal Information?",
+      "year": 2022
+    },
+    {
+      "paperId": "5f19ae1135a9500940978104ec15a5b8751bc7d2",
+      "externalIds": {
+        "DBLP": "conf/iclr/0002WSLCNCZ23",
+        "ArXiv": "2203.11171",
+        "CorpusId": 247595263
+      },
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "03013e291fb3192b286147f5bdb5770e434f91b2",
+      "externalIds": {
+        "ArXiv": "2203.07618",
+        "DBLP": "journals/corr/abs-2203-07618",
+        "DOI": "10.1145/3543507.3583199",
+        "CorpusId": 247450984
+      },
+      "title": "Do Language Models Plagiarize?",
+      "year": 2022
+    },
+    {
+      "paperId": "536dd3e54ad83e64d27217485db230ea09b19f51",
+      "externalIds": {
+        "ArXiv": "2202.09381",
+        "DBLP": "conf/aaai/DuBM22",
+        "DOI": "10.1609/aaai.v36i10.21302",
+        "CorpusId": 247011536
+      },
+      "title": "Synthetic Disinformation Attacks on Automated Fact Verification Systems",
+      "year": 2022
+    },
+    {
+      "paperId": "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+      "externalIds": {
+        "DBLP": "conf/nips/Wei0SBIXCLZ22",
+        "ArXiv": "2201.11903",
+        "DOI": "10.52202/068431-1800",
+        "CorpusId": 246411621
+      },
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "74b1615255e0d6e8214ffc023975f531b30a8f01",
+      "externalIds": {
+        "DOI": "10.4135/9781483365817.n136",
+        "CorpusId": 142615127
+      },
+      "title": "Attribution",
+      "year": 2021
+    },
+    {
+      "paperId": "2f3efe44083af91cef562c1a3451eee2f8601d22",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2112-09332",
+        "ArXiv": "2112.09332",
+        "CorpusId": 245329531
+      },
+      "title": "WebGPT: Browser-assisted question-answering with human feedback",
+      "year": 2021
+    },
+    {
+      "paperId": "002c256d30d6be4b23d365a8de8ae0e67e4c9641",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2112-04426",
+        "ArXiv": "2112.04426",
+        "CorpusId": 244954723
+      },
+      "title": "Improving language models by retrieving from trillions of tokens",
+      "year": 2021
+    },
+    {
+      "paperId": "cdcdc9fa9dfab2de6f3a13fee5c22039d0d0ff63",
+      "externalIds": {
+        "DBLP": "conf/aaai/PereiraSZL22",
+        "ArXiv": "2111.09744",
+        "DOI": "10.1609/aaai.v36i7.20769",
+        "CorpusId": 244345908
+      },
+      "title": "Covered Information Disentanglement: Model Transparency via Unbiased Permutation Importance",
+      "year": 2021
+    },
+    {
+      "paperId": "c743b3410ba6dcdca2eb09dbd21164701571f06d",
+      "externalIds": {
+        "DBLP": "conf/cikm/ZhouD0W21",
+        "ArXiv": "2111.12614",
+        "DOI": "10.1145/3459637.3482379",
+        "CorpusId": 240230721
+      },
+      "title": "PSSL: Self-supervised Learning for Personalized Search with Contrastive Sampling",
+      "year": 2021
+    },
+    {
+      "paperId": "11d5308ef2590e5946277c16b86d8c830a12b945",
+      "externalIds": {
+        "ACL": "2023.ijcnlp-main.35",
+        "DBLP": "conf/ijcnlp/PanCKW23",
+        "ArXiv": "2110.07803",
+        "DOI": "10.18653/v1/2023.ijcnlp-main.35",
+        "CorpusId": 239009447
+      },
+      "title": "Attacking Open-domain Question Answering by Injecting Misinformation",
+      "year": 2021
+    },
+    {
+      "paperId": "dc1f5140a89e721b86b26aff2e4c281491a88054",
+      "externalIds": {
+        "DBLP": "conf/ausdm/BasharNKSK21",
+        "ArXiv": "2110.15728",
+        "DOI": "10.1007/978-981-16-8531-6_7",
+        "CorpusId": 240288913
+      },
+      "title": "Deep Learning for Bias Detection: From Inception to Deployment",
+      "year": 2021
+    },
+    {
+      "paperId": "10b1544d5d0b31430ae11ee06526d45e4f65f241",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2109-15107",
+        "ArXiv": "2109.15107",
+        "DOI": "10.1145/3459637.3482078",
+        "CorpusId": 238227205
+      },
+      "title": "CrossAug: A Contrastive Data Augmentation Method for Debiasing Fact Verification Models",
+      "year": 2021
+    },
+    {
+      "paperId": "6c5b36407331b423f8a999e8fab554aa738940f6",
+      "externalIds": {
+        "ArXiv": "2111.12618",
+        "DBLP": "journals/corr/abs-2111-12618",
+        "DOI": "10.1145/3404835.3462918",
+        "CorpusId": 235792289
+      },
+      "title": "Group based Personalized Search by Integrating Search Behaviour and Friend Network",
+      "year": 2021
+    },
+    {
+      "paperId": "b8b56a7a04df76565885fd25c500ffe290f382bc",
+      "externalIds": {
+        "MAG": "3095444354",
+        "DBLP": "journals/ai/WaaNCN21",
+        "DOI": "10.1016/j.artint.2020.103404",
+        "CorpusId": 228946679
+      },
+      "title": "Evaluating XAI: A comparison of rule-based and example-based explanations",
+      "year": 2021
+    },
+    {
+      "paperId": "645bd6eadc247989abc5e0b0aa0be79ec8b11ea6",
+      "externalIds": {
+        "MAG": "3089430725",
+        "DBLP": "journals/corr/abs-2010-00133",
+        "ArXiv": "2010.00133",
+        "ACL": "2020.emnlp-main.154",
+        "DOI": "10.18653/v1/2020.emnlp-main.154",
+        "CorpusId": 222090785
+      },
+      "title": "CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models",
+      "year": 2020
+    },
+    {
+      "paperId": "9b090ead7797e67c7cc79cf1144a1113a579bf9d",
+      "externalIds": {
+        "MAG": "3034751553",
+        "DBLP": "conf/sigir/ZhouDW20",
+        "DOI": "10.1145/3397271.3401175",
+        "CorpusId": 220729675
+      },
+      "title": "Encoding History with Context-aware Representation Learning for Personalized Search",
+      "year": 2020
+    },
+    {
+      "paperId": "ea8c46e193d5121e440daf96edfd15a47151c293",
+      "externalIds": {
+        "ACL": "2021.eacl-main.74",
+        "ArXiv": "2007.01282",
+        "MAG": "3039017601",
+        "DBLP": "conf/eacl/IzacardG21",
+        "DOI": "10.18653/v1/2021.eacl-main.74",
+        "CorpusId": 220302360
+      },
+      "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
+      "year": 2020
+    },
+    {
+      "paperId": "b428a7466532e352906b290603f945ae07adf468",
+      "externalIds": {
+        "MAG": "3017357696",
+        "DBLP": "journals/dss/KimPS20",
+        "DOI": "10.1016/j.dss.2020.113302",
+        "CorpusId": 218829715
+      },
+      "title": "Transparency and accountability in AI decision support: Explaining and visualizing convolutional neural networks for text information",
+      "year": 2020
+    },
+    {
+      "paperId": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+      "externalIds": {
+        "DBLP": "conf/nips/LewisPPPKGKLYR020",
+        "MAG": "3027879771",
+        "ArXiv": "2005.11401",
+        "CorpusId": 218869575
+      },
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020
+    },
+    {
+      "paperId": "76a9f336481b39515d6cea2920696f11fb686451",
+      "externalIds": {
+        "ACL": "2020.acl-main.385",
+        "ArXiv": "2005.00928",
+        "DBLP": "journals/corr/abs-2005-00928",
+        "MAG": "3022265721",
+        "DOI": "10.18653/v1/2020.acl-main.385",
+        "CorpusId": 218487351
+      },
+      "title": "Quantifying Attention Flow in Transformers",
+      "year": 2020
+    },
+    {
+      "paperId": "3d61a34611c6171f203286119f76ec52f8016580",
+      "externalIds": {
+        "MAG": "3035281110",
+        "ArXiv": "2004.14243",
+        "ACL": "2020.acl-main.387",
+        "DBLP": "journals/corr/abs-2004-14243",
+        "DOI": "10.18653/v1/2020.acl-main.387",
+        "CorpusId": 216641945
+      },
+      "title": "Towards Transparent and Explainable Attention Models",
+      "year": 2020
+    },
+    {
+      "paperId": "c44120f765fc43994c5cfb4e12e4f62999efeae6",
+      "externalIds": {
+        "ArXiv": "2005.04611",
+        "DBLP": "conf/akbc/PetroniLPRWM020",
+        "MAG": "3033176962",
+        "DOI": "10.24432/C5201W",
+        "CorpusId": 212411919
+      },
+      "title": "How Context Affects Language Models' Factual Predictions",
+      "year": 2020
+    },
+    {
+      "paperId": "832fff14d2ed50eb7969c4c4b976c35776548f56",
+      "externalIds": {
+        "ArXiv": "2002.08909",
+        "MAG": "3034671305",
+        "DBLP": "conf/icml/GuuLTPC20",
+        "CorpusId": 211204736
+      },
+      "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+      "year": 2020
+    },
+    {
+      "paperId": "27cd5a3eb55d2df2a4c06e96247b79f215516a67",
+      "externalIds": {
+        "ArXiv": "2001.09784",
+        "DBLP": "journals/corr/abs-2001-09784",
+        "MAG": "3001325760",
+        "CorpusId": 210921184
+      },
+      "title": "Algorithmic Fairness",
+      "year": 2020
+    },
+    {
+      "paperId": "9eee3628698a909ea64c5b826ff35b8d2b29d302",
+      "externalIds": {
+        "MAG": "2998007616",
+        "DBLP": "conf/wsdm/ZhouDW20",
+        "DOI": "10.1145/3336191.3371794",
+        "CorpusId": 210882679
+      },
+      "title": "Enhancing Re-finding Behavior with External Memories for Personalized Search",
+      "year": 2020
+    },
+    {
+      "paperId": "7be8c119dbe065c52125ee7716601751f3116844",
+      "externalIds": {
+        "MAG": "2988841832",
+        "ArXiv": "1911.00172",
+        "DBLP": "journals/corr/abs-1911-00172",
+        "CorpusId": 207870430
+      },
+      "title": "Generalization through Memorization: Nearest Neighbor Language Models",
+      "year": 2019
+    },
+    {
+      "paperId": "207da6d2c07289bf72a2b5974bb3f011ebb5dd0d",
+      "externalIds": {
+        "MAG": "3034850762",
+        "ACL": "2020.acl-main.441",
+        "DBLP": "conf/acl/NieWDBWK20",
+        "ArXiv": "1910.14599",
+        "DOI": "10.18653/v1/2020.acl-main.441",
+        "CorpusId": 207756753
+      },
+      "title": "Adversarial NLI: A New Benchmark for Natural Language Understanding",
+      "year": 2019
+    },
+    {
+      "paperId": "6c4b76232bb72897685d19b3d264c6ee3005bc2b",
+      "externalIds": {
+        "MAG": "2981852735",
+        "DBLP": "journals/corr/abs-1910-10683",
+        "ArXiv": "1910.10683",
+        "CorpusId": 204838007
+      },
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "year": 2019
+    },
+    {
+      "paperId": "3e9960d3980c34a8eee5a5117bdbde309f4c83a5",
+      "externalIds": {
+        "MAG": "2960744125",
+        "CorpusId": 199002104
+      },
+      "title": "Measuring Algorithmic Fairness",
+      "year": 2019
+    },
+    {
+      "paperId": "0de0a44b859a3719d11834479112314b4caba669",
+      "externalIds": {
+        "ArXiv": "1906.05714",
+        "DBLP": "conf/acl/Vig19",
+        "MAG": "2949202705",
+        "ACL": "P19-3007",
+        "DOI": "10.18653/v1/P19-3007",
+        "CorpusId": 189762556
+      },
+      "title": "A Multiscale Visualization of Attention in the Transformer Model",
+      "year": 2019
+    },
+    {
+      "paperId": "01f0f10e7d121eef12b45df617af6273546af94f",
+      "externalIds": {
+        "ArXiv": "1906.00904",
+        "MAG": "2970338090",
+        "DBLP": "conf/nips/HaninR19",
+        "CorpusId": 173991223
+      },
+      "title": "Deep ReLU Networks Have Surprisingly Few Activation Patterns",
+      "year": 2019
+    },
+    {
+      "paperId": "fd4675526ee569196ad1698935b8f5a529b1f9ba",
+      "externalIds": {
+        "MAG": "2951328433",
+        "ArXiv": "1906.07132",
+        "ACL": "P19-1262",
+        "DBLP": "conf/acl/JiangB19",
+        "DOI": "10.18653/v1/P19-1262",
+        "CorpusId": 189927896
+      },
+      "title": "Avoiding Reasoning Shortcuts: Adversarial Evaluation, Training, and Model Development for Multi-Hop QA",
+      "year": 2019
+    },
+    {
+      "paperId": "6754f9a801774c1fa5fc5724f20487166265e974",
+      "externalIds": {
+        "MAG": "2945776595",
+        "DOI": "10.1080/1369118X.2019.1573912",
+        "CorpusId": 181511270
+      },
+      "title": "Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse",
+      "year": 2019
+    },
+    {
+      "paperId": "e59fb7b527177370c2adee65b4ec3446efc6388a",
+      "externalIds": {
+        "DBLP": "journals/ol/KimB20",
+        "MAG": "2944120742",
+        "DOI": "10.1007/s11590-019-01428-7",
+        "CorpusId": 164710554
+      },
+      "title": "Machine learning-based surrogate modeling for data-driven optimization: a comparison of subset selection for regression techniques",
+      "year": 2019
+    },
+    {
+      "paperId": "f4903392c7fef7f2b1a873eea8c1066a2bdc3d64",
+      "externalIds": {
+        "DBLP": "conf/icassp/LohiaRBSVP19",
+        "ArXiv": "1812.06135",
+        "MAG": "2905029197",
+        "DOI": "10.1109/ICASSP.2019.8682620",
+        "CorpusId": 56444963
+      },
+      "title": "Bias Mitigation Post-processing for Individual and Group Fairness",
+      "year": 2018
+    },
+    {
+      "paperId": "68ab57501a72a1db65877b97bad3959da7f15c4a",
+      "externalIds": {
+        "MAG": "2914930541",
+        "CorpusId": 86783865
+      },
+      "title": "Transparency and Algorithmic Governance",
+      "year": 2018
+    },
+    {
+      "paperId": "8c7d23bd50a2ff5d04422dd3b1e2afe89f1ae554",
+      "externalIds": {
+        "MAG": "2892104346",
+        "DOI": "10.1007/s13347-018-0330-6",
+        "CorpusId": 150215538
+      },
+      "title": "Transparency in Algorithmic and Human Decision-Making: Is There a Double Standard?",
+      "year": 2018
+    },
+    {
+      "paperId": "1117f92e449553ade4a1ad1fc005020128f40ea0",
+      "externalIds": {
+        "DBLP": "journals/giq/MatheusJM20",
+        "MAG": "2792949944",
+        "DOI": "10.1016/J.GIQ.2018.01.006",
+        "CorpusId": 43941335
+      },
+      "title": "Data science empowering the public: Data-driven dashboards for transparent and accountable decision-making in smart cities",
+      "year": 2018
+    },
+    {
+      "paperId": "dce6f9d4017b1785979e7520fd0834ef8cf02f4b",
+      "externalIds": {
+        "MAG": "2736601468",
+        "ArXiv": "1707.06347",
+        "DBLP": "journals/corr/SchulmanWDRK17",
+        "CorpusId": 28695052
+      },
+      "title": "Proximal Policy Optimization Algorithms",
+      "year": 2017
+    },
+    {
+      "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "externalIds": {
+        "MAG": "2963403868",
+        "DBLP": "journals/corr/VaswaniSPUJGKP17",
+        "ArXiv": "1706.03762",
+        "CorpusId": 13756489
+      },
+      "title": "Attention is All you Need",
+      "year": 2017
+    },
+    {
+      "paperId": "f302e136c41db5de1d624412f68c9174cf7ae8be",
+      "externalIds": {
+        "DBLP": "journals/corr/SundararajanTY17",
+        "MAG": "2949197630",
+        "ArXiv": "1703.01365",
+        "CorpusId": 16747630
+      },
+      "title": "Axiomatic Attribution for Deep Networks",
+      "year": 2017
+    },
+    {
+      "paperId": "47ced790a563344efae66588b5fb7fe6cca29ed3",
+      "externalIds": {
+        "MAG": "2155482025",
+        "DBLP": "journals/ftir/RobertsonZ09",
+        "DOI": "10.1561/1500000019",
+        "CorpusId": 207178704
+      },
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "year": 2009
+    },
+    {
+      "paperId": "c1547ab641f944e8417d5a2fd497f7ac55ac56a9",
+      "externalIds": {
+        "DOI": "10.1080/05568640809485227",
+        "CorpusId": 220329314
+      },
+      "title": "Trustworthiness",
+      "year": 2008
+    },
+    {
+      "paperId": "29b0f06d18949fc7f3a38bb0022571aa15725dc7",
+      "externalIds": {
+        "MAG": "2088492763",
+        "DBLP": "conf/focs/Yao86",
+        "DOI": "10.1109/SFCS.1986.25",
+        "CorpusId": 52818943
+      },
+      "title": "How to generate and exchange secrets",
+      "year": 1986
+    },
+    {
+      "paperId": "56e96c75d7c6fe9b35a6166b0b841ad672129035",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2508-03793",
+        "DOI": "10.48550/arXiv.2508.03793",
+        "CorpusId": 280536762
+      },
+      "title": "AttnTrace: Attention-based Context Traceback for Long-Context LLMs",
+      "year": 2025
+    },
+    {
+      "paperId": "5c204b2421d05b83d3c96a6c515cc03143073935",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-07867",
+        "DOI": "10.48550/arXiv.2402.07867",
+        "CorpusId": 267626957
+      },
+      "title": "PoisonedRAG: Knowledge Poisoning Attacks to Retrieval-Augmented Generation of Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "b575d7eb2d9edc9765db38d0149d1336f3596ebb",
+      "externalIds": {
+        "CorpusId": 258638310,
+        "PubMed": "37168339"
+      },
+      "title": "The role of ChatGPT in scientific communication: writing better scientific review articles.",
+      "year": 2023
+    },
+    {
+      "paperId": "69fb47e0ea1c30280d4450cbd9a1e992e7c9d503",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2304-14732",
+        "DOI": "10.48550/arXiv.2304.14732",
+        "CorpusId": 258418354
+      },
+      "title": "Search-in-the-Chain: Towards the Accurate, Credible and Traceable Content Generation for Complex Knowledge-intensive Tasks",
+      "year": 2023
+    },
+    {
+      "paperId": "f3a41a5bfec0d8ccb597d9313416130a2e0b2459",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2306-04528",
+        "DOI": "10.48550/arXiv.2306.04528",
+        "CorpusId": 271493049
+      },
+      "title": "PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts",
+      "year": 2023
+    },
+    {
+      "paperId": "71c72854f61fbd6ef8cb71dbea47ba8ea4d9c8a4",
+      "externalIds": {
+        "DBLP": "conf/acl/LiuCYD22",
+        "ACL": "2022.acl-long.488",
+        "DOI": "10.18653/v1/2022.acl-long.488",
+        "CorpusId": 248780027
+      },
+      "title": "MPII: Multi-Level Mutual Promotion for Inference and Interpretation",
+      "year": 2022
+    },
+    {
+      "paperId": "c69f9a5185b4c29525bedb2dcc79d20b42c14cc6",
+      "externalIds": {
+        "DBLP": "conf/acl-dialdoc/HonovichAHTKCSS22",
+        "ACL": "2022.naacl-main.287",
+        "DOI": "10.48550/arXiv.2204.04991",
+        "CorpusId": 247694170
+      },
+      "title": "TRUE: Re-evaluating Factual Consistency Evaluation",
+      "year": 2022
+    },
+    {
+      "paperId": "559541354eaf3e951433a3c5f71f64541897b604",
+      "externalIds": {
+        "DBLP": "conf/ltedi/BCC21",
+        "ACL": "2021.ltedi-1.5",
+        "CorpusId": 233365325
+      },
+      "title": "An Overview of Fairness in Data \u2013 Illuminating the Bias in Data Pipeline",
+      "year": 2021
+    },
+    {
+      "paperId": "e016ee7bfc73cb5b8a92f6c517389be837c035eb",
+      "externalIds": {
+        "DBLP": "journals/access/StepinACP21",
+        "DOI": "10.1109/ACCESS.2021.3051315",
+        "CorpusId": 231715716
+      },
+      "title": "A Survey of Contrastive and Counterfactual Explanation Generation Methods for Explainable Artificial Intelligence",
+      "year": 2021
+    },
+    {
+      "paperId": "c3b22c719fd3e519ce57e3f95b2f0c11966ab7e0",
+      "externalIds": {
+        "CorpusId": 267861141
+      },
+      "title": "Supplementary File-Data preprocessing to mitigate bias: A maximum entropy based approach",
+      "year": 2020
+    },
+    {
+      "paperId": "ef9bbc83dea84df3711de01de56f2b7f91bae068",
+      "externalIds": {
+        "DBLP": "series/lncs/MontavonBLSM19",
+        "MAG": "2973136764",
+        "DOI": "10.1007/978-3-030-28954-6_10",
+        "CorpusId": 202579539
+      },
+      "title": "Layer-Wise Relevance Propagation: An Overview",
+      "year": 2019
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "ICDM (Workshops)",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. Rearag: Knowledge-guided reasoning enhances factuality of large reasoning models with iterative retrieval augmented generation",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. Rag-critic: Leveraging automated critic-guided agentic workflow for retrieval augmented generation",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. AMulti-AgentRAGFrameworkforRegulatory Compliance Checking of Software Requirements",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "\u201cWhen llm-based code generation meets the software development process,\u201d",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2024. Activerag: Autonomously knowledge assimilation and accommodation through retrieval-augmented agents",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2024. From Pre-training Corpora to Large Language Models: What Factors Influence LLM Performance in Causal Discovery Tasks?",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. Privacy-enhancing paradigms within federated multi-agent systems",
+      "year": null
+    }
+  ]
+}

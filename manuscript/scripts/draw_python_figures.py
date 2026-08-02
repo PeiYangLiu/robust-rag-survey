@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import csv
 import textwrap
 from pathlib import Path
 
@@ -64,7 +65,7 @@ def draw_failure_intervention_matrix() -> None:
         "System\nControl",
         "Evaluation",
     ]
-    # Literature coverage, 0=sparse, 1=moderate, 2=dense.
+    # Schematic emphasis only; these values are not empirical Map-B counts.
     coverage = np.array(
         [
             [1, 0, 1, 2, 0, 0],
@@ -111,11 +112,11 @@ def draw_failure_intervention_matrix() -> None:
     for spine in ax.spines.values():
         spine.set_visible(False)
 
-    ax.set_title("Failure Mode × Intervention Matrix for Robust RAG", fontsize=27, weight="bold", color=NAVY, pad=52)
+    ax.set_title("Illustrative Literature-Family × Intervention Matrix", fontsize=27, weight="bold", color=NAVY, pad=52)
     fig.text(
         0.5,
         0.925,
-        "Darker cells indicate denser research coverage; light cells indicate under-explored opportunities.",
+        "Schematic only: shading and labels are illustrative, not data-derived coverage estimates.",
         ha="center",
         fontsize=15,
         color=GRAY,
@@ -382,10 +383,146 @@ def draw_operational_decision_flow() -> None:
     plt.close(fig)
 
 
+def draw_v3_quality_gate() -> None:
+    results_path = ROOT / "supplement" / "v3_quality_gate_results.csv"
+    errors_path = ROOT / "supplement" / "v3_quality_gate_critical_errors.csv"
+    with results_path.open(newline="", encoding="utf-8") as handle:
+        result_rows = list(csv.DictReader(handle))
+    with errors_path.open(newline="", encoding="utf-8") as handle:
+        error_rows = list(csv.DictReader(handle))
+
+    selected = [
+        row
+        for row in result_rows
+        if row["subset"] == "all"
+        and row["split"] in {"calibration", "formal"}
+    ]
+    order = {
+        ("calibration", "evidence"): 0,
+        ("calibration", "comparability"): 1,
+        ("calibration", "overall"): 2,
+        ("formal", "evidence"): 3,
+        ("formal", "comparability"): 4,
+        ("formal", "overall"): 5,
+    }
+    selected.sort(key=lambda row: order[(row["split"], row["dimension"])])
+    labels = [
+        f"{row['split'].title()}\n{row['dimension'].title()}"
+        for row in selected
+    ]
+    totals = np.array([float(row["rows"]) for row in selected])
+    p_share = np.array([float(row["p_preferred"]) for row in selected]) / totals
+    q_share = np.array([float(row["q_preferred"]) for row in selected]) / totals
+    tie_share = np.array([float(row["tie"]) for row in selected]) / totals
+
+    fig, (ax, error_ax) = plt.subplots(
+        1,
+        2,
+        figsize=(16, 7.5),
+        gridspec_kw={"width_ratios": [3.2, 1.25]},
+    )
+    y = np.arange(len(selected))
+    ax.barh(y, p_share, color=BLUE, label="P preferred")
+    ax.barh(y, q_share, left=p_share, color=BRICK, label="Q preferred")
+    ax.barh(
+        y,
+        tie_share,
+        left=p_share + q_share,
+        color="#D9E0E8",
+        label="Tie",
+    )
+    ax.set_yticks(y)
+    ax.set_yticklabels(labels, fontsize=11)
+    ax.invert_yaxis()
+    ax.set_xlim(0, 1)
+    ax.set_xlabel("Share of blinded assessments", fontsize=12, weight="bold")
+    ax.xaxis.set_major_formatter(
+        plt.FuncFormatter(lambda value, _position: f"{value:.0%}")
+    )
+    ax.grid(axis="x", color=LIGHT_GRID, linewidth=1)
+    ax.set_axisbelow(True)
+    ax.legend(
+        loc="lower center",
+        bbox_to_anchor=(0.5, 1.01),
+        ncol=3,
+        frameon=False,
+        fontsize=11,
+    )
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+    all_errors = {
+        row["split"]: row
+        for row in error_rows
+        if row["subset"] == "all"
+    }
+    error_labels = ["Calibration", "Formal"]
+    x = np.arange(2)
+    width = 0.34
+    p_errors = np.array(
+        [
+            float(all_errors[split]["p_critical_errors"])
+            / float(all_errors[split]["rows"])
+            for split in ("calibration", "formal")
+        ]
+    )
+    q_errors = np.array(
+        [
+            float(all_errors[split]["q_critical_errors"])
+            / float(all_errors[split]["rows"])
+            for split in ("calibration", "formal")
+        ]
+    )
+    error_ax.bar(x - width / 2, p_errors, width, color=BLUE, label="P")
+    error_ax.bar(x + width / 2, q_errors, width, color=BRICK, label="Q")
+    error_ax.set_xticks(x)
+    error_ax.set_xticklabels(error_labels, fontsize=11)
+    error_ax.set_ylabel("Critical-error rate", fontsize=12, weight="bold")
+    error_ax.yaxis.set_major_formatter(
+        plt.FuncFormatter(lambda value, _position: f"{value:.0%}")
+    )
+    error_ax.set_ylim(0, max(q_errors) * 1.25)
+    error_ax.grid(axis="y", color=LIGHT_GRID, linewidth=1)
+    error_ax.set_axisbelow(True)
+    error_ax.legend(frameon=False, loc="upper left")
+    for index, values in enumerate(zip(p_errors, q_errors)):
+        for offset, value in zip((-width / 2, width / 2), values):
+            error_ax.text(
+                index + offset,
+                value + 0.002,
+                f"{value:.1%}",
+                ha="center",
+                va="bottom",
+                fontsize=10,
+                color=NAVY,
+            )
+    for spine in error_ax.spines.values():
+        spine.set_visible(False)
+
+    fig.suptitle(
+        "Blinded Annotation-Quality Gate",
+        fontsize=22,
+        weight="bold",
+        color=NAVY,
+        y=0.98,
+    )
+    fig.text(
+        0.5,
+        0.015,
+        "P and Q were hidden behind balanced A/B positions; preference for P does not validate P.",
+        ha="center",
+        fontsize=11,
+        color=GRAY,
+    )
+    plt.subplots_adjust(left=0.18, right=0.98, top=0.84, bottom=0.13, wspace=0.25)
+    save(fig, "fig4_v3_quality_gate_py_4k")
+    plt.close(fig)
+
+
 def main() -> None:
     draw_operational_decision_flow()
     draw_failure_intervention_matrix()
-    draw_benchmark_landscape()
+    draw_v3_quality_gate()
 
 
 if __name__ == "__main__":

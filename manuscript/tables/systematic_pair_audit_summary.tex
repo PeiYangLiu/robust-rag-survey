@@ -6,14 +6,15 @@
 \toprule
 \textbf{Audit quantity} & \textbf{Observed distribution} & \textbf{Agreement / change} & \textbf{Interpretation} \\
 \midrule
-Sampling frame & 60 unseen paper pairs: 32 within-family pairs and 28 cross-family stress pairs. & 13 strata spanning adversarial, calibration, distraction, evaluation, conflict, modality, noise, survey/background, and cross-family contrasts. & Extends the five illustrative re-analyses into a stratified pair-comparison audit. \\
-Panel-gold verdicts & 36 partial, 24 invalid, 0 valid, 0 under-specified. & Gold Fleiss $\kappa=0.772$; 50/60 unanimous pairs. & The audit tests hard partial/invalid triage, not all possible verdict categories. \\
-Condition-level accuracy & Control 0.567; protocol 0.883. & Protocol--control = +0.317, clustered bootstrap 95\% CI [0.192, 0.439]. & Tuple-guided annotators are closer to panel gold on this hard-pair sample. \\
-Pair-level recommendation changes & Protocol corrects control on 19 pairs; control corrects protocol on 1; both correct on 34; both wrong same on 6. & 53/60 pair-level majority verdicts are correct under protocol vs. 35/60 under control. & The tuple changes many survey-style pair judgments from over-broad invalid/partial choices to panel-consistent verdicts. \\
-Coordinate error profile & Protocol wrong verdicts 21/180; control wrong verdicts 78/180. & Protocol misses fewer failure, assumption, intervention, and action coordinates; it sometimes over-tags assumptions. & The protocol improves traceability and reduces coordinate omissions, not just verdict agreement. \\
+Sampling frame & 60 paper pairs: 32 within-family and 28 cross-family stress pairs. & The construction produced 51 invalid, 5 partial, 4 packet-derived under-specified, and 0 valid panel labels. & This is a highly skewed rubric stress test, not a balanced external-validity sample. \\
+Packet-integrity audit & EV60-008, 025, 026, and 054 lacked source text needed by the panel. & All four under-specified labels are excluded rather than reassigned. & The study contains no genuine under-specified pair after quality control. \\
+Pair provenance & 39/60 pairs contain two papers retained in canonical Map~B. & The other 21 contain at least one of 24 candidates later excluded during Map-B adjudication. & The v1 pool is not a held-out sample from the final map. \\
+Documented-omission sensitivity & Observed-class macro recall $0.645\to0.669$; $\Delta=0.024$ $[-0.269,0.307]$. & Invalid recall $+0.147$ $[0.025,0.272]$; partial recall $-0.100$ $[-0.667,0.444]$. & Evidence is limited to panel alignment on invalid pairs; there is no general four-class gain. \\
+Map-aligned sensitivity & 38 pairs after provenance and omission filters; macro recall $0.609\to0.675$. & $\Delta=0.066$ $[-0.218,0.341]$; invalid recall $+0.232$, partial recall $-0.100$. & The same qualitative limitation remains on the final-map subset. \\
+Same-panel relabeling & Coordinate vs.\ plain-language labels agree on 297/300 individual records and 60/60 consensuses. & The same five adjudicators supplied both fields in the same rows. & This is label-translation consistency, not independent gold or a circularity check. \\
+Revised use & Original coordinate-error rows remain released for diagnosis. & The revised two-stage schema changes intervention and action boundary rules. & The v1 study does not validate the revised procedure. \\
 \bottomrule
 \end{tabularx}
-\caption{Systematic 60-pair comparison audit. The sample is stratified over Map-B comparison families and adjacent-survey-style grouping risks. It supports claims about hard partial/invalid pair triage, not field-level rates over all robust-RAG papers.}
+\caption{Quality-control audit of the v1 60-pair study. Corrected outputs and the crossed-bootstrap analysis script are released in the canonical supplement.}
 \label{tab:systematic-pair-audit-summary}
 \end{table*}
-

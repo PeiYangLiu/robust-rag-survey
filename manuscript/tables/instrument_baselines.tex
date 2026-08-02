@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrl@{}}
+\toprule
+Estimator & Exact & Range & $\kappa$ & vs.\ baseline \\
+\midrule
+Five coordinates (rule) & 0.880 & 0.79--0.97 & 0.820 & +0.45, $p<0.001$ \\
+Rule with C2/C5 ablated & 0.704 & 0.67--0.74 & 0.556 & +0.33, $p<0.001$ \\
+Judge verdict, five-coordinate prompt & 0.817 & 0.68--0.92 & 0.725 & +0.34, $p<0.001$ \\
+Judge verdict, C1/C4 prompt & 0.839 & 0.82--0.85 & 0.758 & +0.48, $p<0.001$ \\
+Judge verdict, no coordinates & 0.766 & 0.67--0.85 & 0.649 & +0.33, $p<0.001$ \\
+Majority class (undefined) & 0.339 & 0.34--0.34 & 0.000 & --- \\
+\bottomrule
+\end{tabular}
+\caption{The five coordinates do separate from the strongest trivial baseline once the reference is not an annotation. Every one of the 351 items every judge answered in every arm carries a verdict fixed when it was written, and the three verdict classes are balanced by construction, so the strongest constant predictor scores 0.339, within rounding of $1/3$. \emph{Range} is across the judges; \emph{vs.\ baseline} reports the \emph{weakest} judge's margin over the constant baseline and the \emph{largest} exact McNemar $p$ across judges, so the row is a claim about every judge and not about their average. What this does not show is that a verdict can be scored on real papers: Table~\ref{tab:instrument-disclosure} is the same instrument on passages that withhold what the schema asks for.}
+\label{tab:instrument-baselines}
+\end{table}

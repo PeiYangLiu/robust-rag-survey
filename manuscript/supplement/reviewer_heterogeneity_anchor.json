@@ -1,0 +1,271 @@
+{
+  "direct_estimate": {
+    "bootstrap_unit": "source_key cluster",
+    "caveat": "Three raters give an imprecise variance; the interval is the estimate, not the point.",
+    "coder_accuracy_against_adjudicated_reference": [
+      0.85,
+      0.775,
+      0.725
+    ],
+    "design": "three coders crossed with 80 adjudicated comparison claims",
+    "items": 80,
+    "raters": 3,
+    "sigma_r_bootstrap": {
+      "bootstrap_draws": 10000,
+      "p025": 0.0,
+      "p250": 0.2334,
+      "p500": 0.3246,
+      "p750": 0.4001,
+      "p975": 0.5312
+    },
+    "sigma_r_point": 0.2708,
+    "source": "manuscript/supplement/claim_rule_predictions.csv"
+  },
+  "partial_identification_note": "A reported pairwise agreement rate constrains total latent dispersion but not its split between rater and item components: for every reviewer heterogeneity on the grid there is an item dispersion that reproduces the reported agreement. Separating the two components requires the item-by-annotator assignment, which none of the nine audited papers reports.",
+  "published_agreement_anchors": [
+    {
+      "cite_key": "ragTruth2024",
+      "identified_region": [
+        {
+          "admissible_sigma_r_count": 0,
+          "admissible_sigma_r_max": null,
+          "admissible_sigma_r_min": null,
+          "assumed_positive_label_prevalence": 0.5,
+          "solutions": []
+        },
+        {
+          "admissible_sigma_r_count": 11,
+          "admissible_sigma_r_max": 1.2,
+          "admissible_sigma_r_min": 0.7,
+          "assumed_positive_label_prevalence": 0.7,
+          "solutions": [
+            {
+              "matching_sigma_item": 9.75,
+              "sigma_r": 0.7
+            },
+            {
+              "matching_sigma_item": 9.531,
+              "sigma_r": 0.75
+            },
+            {
+              "matching_sigma_item": 9.343,
+              "sigma_r": 0.8
+            },
+            {
+              "matching_sigma_item": 9.18,
+              "sigma_r": 0.85
+            },
+            {
+              "matching_sigma_item": 9.039,
+              "sigma_r": 0.9
+            },
+            {
+              "matching_sigma_item": 8.916,
+              "sigma_r": 0.95
+            },
+            {
+              "matching_sigma_item": 8.809,
+              "sigma_r": 1.0
+            },
+            {
+              "matching_sigma_item": 8.716,
+              "sigma_r": 1.05
+            },
+            {
+              "matching_sigma_item": 8.635,
+              "sigma_r": 1.1
+            },
+            {
+              "matching_sigma_item": 8.563,
+              "sigma_r": 1.15
+            },
+            {
+              "matching_sigma_item": 8.501,
+              "sigma_r": 1.2
+            }
+          ]
+        },
+        {
+          "admissible_sigma_r_count": 25,
+          "admissible_sigma_r_max": 1.2,
+          "admissible_sigma_r_min": 0.0,
+          "assumed_positive_label_prevalence": 0.9,
+          "solutions": [
+            {
+              "matching_sigma_item": 3.864,
+              "sigma_r": 0.0
+            },
+            {
+              "matching_sigma_item": 3.864,
+              "sigma_r": 0.05
+            },
+            {
+              "matching_sigma_item": 3.863,
+              "sigma_r": 0.1
+            },
+            {
+              "matching_sigma_item": 3.862,
+              "sigma_r": 0.15
+            },
+            {
+              "matching_sigma_item": 3.859,
+              "sigma_r": 0.2
+            },
+            {
+              "matching_sigma_item": 3.857,
+              "sigma_r": 0.25
+            },
+            {
+              "matching_sigma_item": 3.853,
+              "sigma_r": 0.3
+            },
+            {
+              "matching_sigma_item": 3.849,
+              "sigma_r": 0.35
+            },
+            {
+              "matching_sigma_item": 3.844,
+              "sigma_r": 0.4
+            },
+            {
+              "matching_sigma_item": 3.839,
+              "sigma_r": 0.45
+            },
+            {
+              "matching_sigma_item": 3.833,
+              "sigma_r": 0.5
+            },
+            {
+              "matching_sigma_item": 3.826,
+              "sigma_r": 0.55
+            },
+            {
+              "matching_sigma_item": 3.819,
+              "sigma_r": 0.6
+            },
+            {
+              "matching_sigma_item": 3.811,
+              "sigma_r": 0.65
+            },
+            {
+              "matching_sigma_item": 3.802,
+              "sigma_r": 0.7
+            },
+            {
+              "matching_sigma_item": 3.792,
+              "sigma_r": 0.75
+            },
+            {
+              "matching_sigma_item": 3.782,
+              "sigma_r": 0.8
+            },
+            {
+              "matching_sigma_item": 3.771,
+              "sigma_r": 0.85
+            },
+            {
+              "matching_sigma_item": 3.76,
+              "sigma_r": 0.9
+            },
+            {
+              "matching_sigma_item": 3.747,
+              "sigma_r": 0.95
+            },
+            {
+              "matching_sigma_item": 3.734,
+              "sigma_r": 1.0
+            },
+            {
+              "matching_sigma_item": 3.721,
+              "sigma_r": 1.05
+            },
+            {
+              "matching_sigma_item": 3.706,
+              "sigma_r": 1.1
+            },
+            {
+              "matching_sigma_item": 3.691,
+              "sigma_r": 1.15
+            },
+            {
+              "matching_sigma_item": 3.675,
+              "sigma_r": 1.2
+            }
+          ]
+        }
+      ],
+      "pairwise_agreement": 0.918,
+      "quotation": "each response is independently labeled by two annotators. The consistency rate of two annotators was 91.8% at the response level",
+      "raters_per_item": 2,
+      "source_file": "manuscript/citation_audit/expanded_texts/ragTruth2024.txt",
+      "source_lines": "366-369"
+    },
+    {
+      "cite_key": "rrag040",
+      "identified_region": [
+        {
+          "admissible_sigma_r_count": 0,
+          "admissible_sigma_r_max": null,
+          "admissible_sigma_r_min": null,
+          "assumed_positive_label_prevalence": 0.5,
+          "solutions": []
+        },
+        {
+          "admissible_sigma_r_count": 0,
+          "admissible_sigma_r_max": null,
+          "admissible_sigma_r_min": null,
+          "assumed_positive_label_prevalence": 0.7,
+          "solutions": []
+        },
+        {
+          "admissible_sigma_r_count": 0,
+          "admissible_sigma_r_max": null,
+          "admissible_sigma_r_min": null,
+          "assumed_positive_label_prevalence": 0.9,
+          "solutions": []
+        }
+      ],
+      "pairwise_agreement": 0.98,
+      "quotation": "determined by majority agreement. This yields 1.5K samples. ... achieving over 98% agreement",
+      "raters_per_item": 3,
+      "source_file": "manuscript/citation_audit/expanded_texts/rrag040.txt",
+      "source_lines": "341-343"
+    }
+  ],
+  "rater_sd_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0,
+    1.05,
+    1.1,
+    1.15,
+    1.2
+  ],
+  "recommended_simulation_grid": [
+    0.0,
+    0.23,
+    0.27,
+    0.53
+  ],
+  "schema_version": "reviewer-heterogeneity-anchor-v1",
+  "sigma_r_point_identified_by_published_reporting": false,
+  "widest_admissible_sigma_r_fraction_of_grid": 1.0
+}

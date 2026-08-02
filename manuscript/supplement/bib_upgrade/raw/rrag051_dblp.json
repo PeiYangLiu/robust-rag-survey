@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"GraphRAG* under* Fire*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"11.30"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"69931277",
+"text":"fire"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"3",
+"@id":"195075",
+"info":{"authors":{"author":[{"@pid":"168/4584","text":"Jiacheng Liang"},{"@pid":"52/3971-3","text":"Yuhui Wang 0003"},{"@pid":"216/3218","text":"Changjiang Li"},{"@pid":"264/2675","text":"Tanqiu Jiang"},{"@pid":"366/0768","text":"Rongyi Zhu"},{"@pid":"03/9437","text":"Neil Gong 0001"},{"@pid":"12/2633-6","text":"Ting Wang 0006"}]},"title":"GraphRAG Under Fire.","venue":"SP","pages":"195-212","year":"2026","type":"Conference and Workshop Papers","access":"closed","key":"conf/sp/LiangWLJZGW26","doi":"10.1109/SP63933.2026.00070","ee":"https://doi.org/10.1109/SP63933.2026.00070","url":"https://dblp.org/rec/conf/sp/LiangWLJZGW26"},
+"url":"URL#195075"
+},
+{
+"@score":"3",
+"@id":"750072",
+"info":{"authors":{"author":[{"@pid":"168/4584","text":"Jiacheng Liang"},{"@pid":"52/3971-3","text":"Yuhui Wang 0003"},{"@pid":"216/3218","text":"Changjiang Li"},{"@pid":"366/0768","text":"Rongyi Zhu"},{"@pid":"264/2675","text":"Tanqiu Jiang"},{"@pid":"03/9437","text":"Neil Gong 0001"},{"@pid":"12/2633-6","text":"Ting Wang 0006"}]},"title":"GraphRAG under Fire.","venue":"CoRR","volume":"abs/2501.14050","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2501-14050","doi":"10.48550/ARXIV.2501.14050","ee":"https://doi.org/10.48550/arXiv.2501.14050","url":"https://dblp.org/rec/journals/corr/abs-2501-14050"},
+"url":"URL#750072"
+}
+]
+}
+}
+}

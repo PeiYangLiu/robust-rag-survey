@@ -1,0 +1,46 @@
+{
+  "model_id": "model_claude_opus48",
+  "coder_id": "model_claude_opus48",
+  "synthetic_model_coding_not_human": true,
+  "timestamp": "2026-07-14T03:08:13.007352-07:00",
+  "task": "held-out independent model coding of published comparative claims (v2 codebook); structured evidence only, no verdicts",
+  "inputs": {
+    "codebook": {
+      "path": "<HOME>/.copilot/session-state/cb11c4b6-4c46-4e55-98bd-907b084afcca/files/observed_action_claim_audit/claim_audit_codebook_v2.md",
+      "sha256": "8d209e008b9fb96b3cffc502ab8c868a5d9fd7ffc7d6c6bba0a9fe3d61dabc8c"
+    },
+    "blind_packet": {
+      "path": "<HOME>/.copilot/session-state/cb11c4b6-4c46-4e55-98bd-907b084afcca/files/observed_action_claim_audit/observed_action_claim_blind_packet.csv",
+      "sha256": "918aaaf0c30f558309b301d0b98b84246a9ce3894e089386c9c4a2064369761f"
+    },
+    "source_text_dir": "<HOME>/.copilot/session-state/cb11c4b6-4c46-4e55-98bd-907b084afcca/files/action_claim_text/"
+  },
+  "output": {
+    "path": "<HOME>/.copilot/session-state/cb11c4b6-4c46-4e55-98bd-907b084afcca/files/observed_action_claim_audit/heldout_coder_claude.csv",
+    "sha256": "93aa6a8eb5cd70975876570a6700f51c6c82471d86e391a80527598651a96f61",
+    "rows": 86
+  },
+  "self_checks": {
+    "row_count": 86,
+    "row_count_expected": 86,
+    "row_count_ok": true,
+    "id_set_matches_packet": true,
+    "unique_ids": 86,
+    "no_duplicate_ids": true,
+    "enums_legal": true,
+    "no_intracell_newlines": true,
+    "no_verdict_tokens_in_evidence_summary": true,
+    "csv_rereadable": true,
+    "consumable_by_derive_verdicts_v2": true
+  },
+  "unique_ratios": {
+    "evidence_summary": 1.0,
+    "evidence_summary_threshold": 0.5,
+    "evidence_summary_ok": true,
+    "evidence_location": 0.6279,
+    "evidence_location_threshold": 0.4,
+    "evidence_location_ok": true,
+    "required_controls": 0.907
+  },
+  "notes": "Independent held-out model coding measures structured-decision stability only; not human expert validity. Source-linked adjudication still required."
+}

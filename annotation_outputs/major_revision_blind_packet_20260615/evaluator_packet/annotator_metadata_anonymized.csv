@@ -1,0 +1,18 @@
+participant_id,condition,anonymized_role,qualification_record_public
+coder_001,control,anonymous coder,withheld for blind source audit
+coder_002,control,anonymous coder,withheld for blind source audit
+coder_003,control,anonymous coder,withheld for blind source audit
+coder_004,control,anonymous coder,withheld for blind source audit
+coder_005,control,anonymous coder,withheld for blind source audit
+coder_006,control,anonymous coder,withheld for blind source audit
+coder_007,protocol,anonymous coder,withheld for blind source audit
+coder_008,protocol,anonymous coder,withheld for blind source audit
+coder_009,protocol,anonymous coder,withheld for blind source audit
+coder_010,protocol,anonymous coder,withheld for blind source audit
+coder_011,protocol,anonymous coder,withheld for blind source audit
+coder_012,protocol,anonymous coder,withheld for blind source audit
+gold_001,gold,anonymous adjudicator,withheld for blind source audit
+gold_002,gold,anonymous adjudicator,withheld for blind source audit
+gold_003,gold,anonymous adjudicator,withheld for blind source audit
+gold_004,gold,anonymous adjudicator,withheld for blind source audit
+gold_005,gold,anonymous adjudicator,withheld for blind source audit

@@ -1,0 +1,369 @@
+{
+  "composition_bias_correction": {
+    "corrected_frame_share_reimplemented": 0.8807051782461619,
+    "corrected_frame_share_transported": 0.11929482175383814,
+    "note": "The submitted version corrected the composition with a confusion matrix estimated on a constructed benchmark where every judge was perfect, so the matrix was the identity and the correction returned its input. This correction uses the confusion measured on real windows against the privileged reference, which is not the identity.",
+    "observed_frame_share_transported": 0.12622950819672132,
+    "sensitivity_transported": 1.0,
+    "specificity_transported": 0.9921259842519685
+  },
+  "deployed_judges": [
+    "coderA_gpt5mini",
+    "coderB_claudeopus46",
+    "coderC_gemini31pro"
+  ],
+  "deployed_vs_reference": {
+    "comparability__all": {
+      "accuracy": 0.8157894736842105,
+      "cluster_ci95": [
+        0.7443609022556391,
+        0.8905109489051095
+      ],
+      "confusion_reference_by_deployed": {
+        "survives": {
+          "survives": 69,
+          "undefined": 19
+        },
+        "undefined": {
+          "survives": 2,
+          "undefined": 24
+        }
+      },
+      "deployed_distribution": {
+        "survives": 71,
+        "undefined": 43
+      },
+      "majority_class_baseline": 0.7719298245614035,
+      "n_papers": 48,
+      "n_reference_items": 114,
+      "reference_distribution": {
+        "survives": 88,
+        "undefined": 26
+      },
+      "wilson_ci95": [
+        0.7347507139632148,
+        0.8762396855060638
+      ]
+    },
+    "comparability__loo": {
+      "accuracy": 0.8131868131868132,
+      "cluster_ci95": [
+        0.7307692307692307,
+        0.8985507246376812
+      ],
+      "confusion_reference_by_deployed": {
+        "narrows": {
+          "undefined": 1
+        },
+        "survives": {
+          "survives": 52,
+          "undefined": 15
+        },
+        "undefined": {
+          "survives": 1,
+          "undefined": 22
+        }
+      },
+      "deployed_distribution": {
+        "survives": 53,
+        "undefined": 38
+      },
+      "majority_class_baseline": 0.7362637362637363,
+      "n_papers": 41,
+      "n_reference_items": 91,
+      "reference_distribution": {
+        "narrows": 1,
+        "survives": 67,
+        "undefined": 23
+      },
+      "wilson_ci95": [
+        0.7210405380210166,
+        0.8799624485176002
+      ]
+    },
+    "provenance__all": {
+      "accuracy": 0.9058823529411765,
+      "cluster_ci95": [
+        0.8561643835616438,
+        0.9620253164556962
+      ],
+      "confusion_reference_by_deployed": {
+        "reimplemented": {
+          "reimplemented": 126,
+          "transported": 1,
+          "unclear": 8
+        },
+        "transported": {
+          "transported": 28,
+          "unclear": 7
+        }
+      },
+      "deployed_distribution": {
+        "reimplemented": 126,
+        "transported": 29,
+        "unclear": 15
+      },
+      "majority_class_baseline": 0.7941176470588235,
+      "n_papers": 61,
+      "n_reference_items": 170,
+      "reference_distribution": {
+        "reimplemented": 135,
+        "transported": 35
+      },
+      "wilson_ci95": [
+        0.8525911072997717,
+        0.9412356411337337
+      ]
+    },
+    "provenance__loo": {
+      "accuracy": 0.8930817610062893,
+      "cluster_ci95": [
+        0.8410596026490066,
+        0.9491525423728814
+      ],
+      "confusion_reference_by_deployed": {
+        "reimplemented": {
+          "reimplemented": 114,
+          "transported": 1,
+          "unclear": 8
+        },
+        "transported": {
+          "transported": 27,
+          "unclear": 7
+        },
+        "unclear": {
+          "reimplemented": 1,
+          "unclear": 1
+        }
+      },
+      "deployed_distribution": {
+        "reimplemented": 115,
+        "transported": 28,
+        "unclear": 16
+      },
+      "majority_class_baseline": 0.7735849056603774,
+      "n_papers": 60,
+      "n_reference_items": 159,
+      "reference_distribution": {
+        "reimplemented": 123,
+        "transported": 34,
+        "unclear": 2
+      },
+      "wilson_ci95": [
+        0.8354504920036855,
+        0.9321672934415703
+      ]
+    }
+  },
+  "design_note": "The reference is evidence-privileged, not human. Its adjudicators read the full text of both papers where the census read 45 lines, and every vote counted toward it is supported by a quote located mechanically in the document that adjudicator was shown. It is not a gold standard and no claim here should be read as one.",
+  "information_ladder": {
+    "comparability": {
+      "both_full": {
+        "fleiss_kappa": 0.16115725057370767,
+        "fleiss_kappa_ci95": [
+          0.04205210897055068,
+          0.32433783108445774
+        ],
+        "fleiss_kappa_on_common": 0.16115725057370767,
+        "label_distribution": {
+          "narrows": 4,
+          "survives": 138,
+          "undefined": 125
+        },
+        "n_common_items": 89,
+        "n_items": 89,
+        "n_papers": 38,
+        "observed": 0.569288389513109,
+        "observed_on_common": 0.569288389513109
+      },
+      "citing_full": {
+        "fleiss_kappa": 0.2909362831619937,
+        "fleiss_kappa_ci95": [
+          0.19603010238310517,
+          0.39606867127184076
+        ],
+        "fleiss_kappa_on_common": 0.24355839198377688,
+        "label_distribution": {
+          "narrows": 31,
+          "survives": 327,
+          "undefined": 179
+        },
+        "n_common_items": 89,
+        "n_items": 179,
+        "n_papers": 63,
+        "observed": 0.635009310986964,
+        "observed_on_common": 0.6441947565543076
+      },
+      "delta_both_minus_window": {
+        "ci95": [
+          0.005659471509160768,
+          0.26477904283361914
+        ],
+        "point": 0.11265824179432514
+      },
+      "delta_citing_minus_window": {
+        "ci95": [
+          0.08646772656205559,
+          0.36296970281279384
+        ],
+        "point": 0.19505938320439437
+      },
+      "window": {
+        "fleiss_kappa": 0.05540639492311444,
+        "fleiss_kappa_ci95": [
+          -0.06735321969696972,
+          0.13254924304085955
+        ],
+        "fleiss_kappa_on_common": 0.04849900877938253,
+        "label_distribution": {
+          "narrows": 59,
+          "survives": 254,
+          "undefined": 227
+        },
+        "n_common_items": 89,
+        "n_items": 180,
+        "n_papers": 63,
+        "observed": 0.44259259259259254,
+        "observed_on_common": 0.4344569288389512
+      }
+    },
+    "provenance": {
+      "both_full": {
+        "fleiss_kappa": 0.9695691816731251,
+        "fleiss_kappa_ci95": [
+          0.4960474308300325,
+          1.0
+        ],
+        "fleiss_kappa_on_common": 0.9668554067117798,
+        "label_distribution": {
+          "reimplemented": 229,
+          "transported": 36,
+          "unclear": 2
+        },
+        "n_common_items": 80,
+        "n_items": 89,
+        "n_papers": 38,
+        "observed": 0.9925093632958802,
+        "observed_on_common": 0.9916666666666668
+      },
+      "citing_full": {
+        "fleiss_kappa": 0.9241633897761015,
+        "fleiss_kappa_ci95": [
+          0.5143691064211937,
+          0.9599082333311943
+        ],
+        "fleiss_kappa_on_common": 1.0,
+        "label_distribution": {
+          "reimplemented": 424,
+          "transported": 110,
+          "unclear": 6
+        },
+        "n_common_items": 80,
+        "n_items": 180,
+        "n_papers": 63,
+        "observed": 0.9740740740740743,
+        "observed_on_common": 1.0
+      },
+      "delta_both_minus_window": {
+        "ci95": [
+          0.1124934105137273,
+          0.7990751445086701
+        ],
+        "point": 0.3641677058645696
+      },
+      "delta_citing_minus_window": {
+        "ci95": [
+          0.15356029729081755,
+          0.8676015901060069
+        ],
+        "point": 0.39731229915278976
+      },
+      "window": {
+        "fleiss_kappa": 0.6771765553254704,
+        "fleiss_kappa_ci95": [
+          0.20718816067653195,
+          0.7905202577388578
+        ],
+        "fleiss_kappa_on_common": 0.6026877008472102,
+        "label_distribution": {
+          "reimplemented": 355,
+          "transported": 90,
+          "unclear": 53
+        },
+        "n_common_items": 80,
+        "n_items": 166,
+        "n_papers": 59,
+        "observed": 0.8554216867469878,
+        "observed_on_common": 0.8583333333333336
+      }
+    }
+  },
+  "provenance_per_class_recall": {
+    "reimplemented": {
+      "n": 135,
+      "recall": 0.9333333333333333,
+      "wilson_ci95": [
+        0.878154672686985,
+        0.9645331022202172
+      ]
+    },
+    "transported": {
+      "n": 35,
+      "recall": 0.8,
+      "wilson_ci95": [
+        0.6410838693020249,
+        0.8995755352782363
+      ]
+    },
+    "unclear": {
+      "n": 0,
+      "recall": NaN,
+      "wilson_ci95": [
+        NaN,
+        NaN
+      ]
+    }
+  },
+  "reference_coverage": {
+    "comparability": {
+      "n_established": 129,
+      "n_established_loo": 102,
+      "n_no_majority": 51,
+      "reference_distribution": {
+        "narrows": 1,
+        "survives": 98,
+        "undefined": 30
+      },
+      "tier_distribution": {
+        "both_full": 90,
+        "citing_full": 90
+      }
+    },
+    "provenance": {
+      "n_established": 171,
+      "n_established_loo": 160,
+      "n_no_majority": 9,
+      "reference_distribution": {
+        "reimplemented": 136,
+        "transported": 35
+      },
+      "tier_distribution": {
+        "both_full": 90,
+        "citing_full": 90
+      }
+    }
+  },
+  "reference_judges": [
+    "refA_claudeopus5",
+    "refC_gemini31pro",
+    "refD_claudeopus48",
+    "refE_gpt55cli"
+  ],
+  "sample": {
+    "n_papers": 63,
+    "n_windows": 180,
+    "n_with_cited_text": 90
+  },
+  "schema_version": 1,
+  "shared_checkpoint_note": "refC_gemini31pro is the same checkpoint as the deployed Google judge, because it is that developer's strongest available. Every reference statistic is therefore recomputed with it removed (the '__loo' entries)."
+}

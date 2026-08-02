@@ -1,0 +1,3 @@
+level,records,agreements,agreement_rate,interpretation
+individual_judgment,300,297,0.99,"Within-panel label-translation consistency only; the same adjudicators produced both labels, so this is not independent validation."
+pair_consensus,60,60,1.0,"Within-panel label-translation consistency only; the same adjudicators produced both labels, so this is not independent validation."

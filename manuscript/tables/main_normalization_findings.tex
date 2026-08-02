@@ -4,7 +4,7 @@
 \renewcommand{\arraystretch}{0.82}
 \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
 \toprule
-\textbf{Case} & \textbf{Naive reading} & \textbf{Normalization coordinate that changes it} & \textbf{Revised conclusion} \\
+\textbf{Case} & \textbf{Naive reading} & \textbf{Normalisation coordinate that changes it} & \textbf{Revised conclusion} \\
 \midrule
 IrrelCtx \citep{irrelevantContext2023} vs. RAAT \citep{raat2024} & Both are ``noise-robust RAG'' methods. & IrrelCtx targets naturally retrieved irrelevant context and filtering/back-off; RAAT trains on constructed relevant/irrelevant/counterfactual mixtures. & They are complementary context-filtering vs. noise-training regimes, not one leaderboard. \\
 IrrelCtx \citep{irrelevantContext2023} vs. Chain-of-Note \citep{chainOfNote2023} & Both reduce distractor harm. & Intervention point differs: context filtering/fine-tuning vs. generator-side document reading. & A valid comparison must hold context state fixed and report whether the action is filter, answer, or unknown. \\
@@ -21,6 +21,6 @@ Lost-in-the-Middle \citep{liu2024lostmiddle} vs. long-context retrieval & More c
 ColPali/Table/Graph RAG \citep{colpali2025,tableRAG2024,venueAcc004} vs. passage RAG & Extension papers look like new application areas. & Evidence object changes: page image, table cell/schema, graph neighborhood, or tool memory. & They are retained as extension-layer stress tests of typed evidence states, not as broad co-equal survey scope. \\
 \bottomrule
 \end{tabularx}
-\caption{Concrete conclusions that change after five-coordinate normalization. Each row is grounded in released case-study or Map-B records and shows why a common citation-list comparison becomes invalid, partial, or more specific once failure, assumption, intervention, metric, and action are aligned.}
+\caption{Concrete conclusions that change after five-coordinate normalisation. Each row is grounded in released case-study or Map-B records and shows why a common citation-list comparison becomes invalid, partial, or more specific once failure, assumption, intervention, metric, and action are aligned.}
 \label{tab:main-normalization-findings}
 \end{table*}

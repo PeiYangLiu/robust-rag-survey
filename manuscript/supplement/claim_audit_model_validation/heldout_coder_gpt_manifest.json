@@ -1,0 +1,32 @@
+{
+  "input_hashes": {
+    "codebook_sha256": "8d209e008b9fb96b3cffc502ab8c868a5d9fd7ffc7d6c6bba0a9fe3d61dabc8c",
+    "blind_packet_sha256": "918aaaf0c30f558309b301d0b98b84246a9ce3894e089386c9c4a2064369761f",
+    "source_text_sha256": {
+      "do_not_abstain.txt": "4c2bc8ef9da86c2ba8a6d6c28fa192e32bd34ea7d1df9570b9921f20e91093cc",
+      "sufficient_context.txt": "9e42bd8a8b013792c1452bf277b43f8517654531a82b42b2b0fc2ef7c5f9619e",
+      "trust_or_abstain.txt": "25c0e7f24b8217fa06546736adfe5ad275fe0814e2b1c79eebfb3903eadd0e2a",
+      "wen_abstention_survey.txt": "ade36f15e12a401754c8cd42e5b9bb235396c9a322f6439b64dac088245c6621"
+    }
+  },
+  "output_hashes": {
+    "heldout_coder_gpt.csv": "dd3b4cd0d54d20d6a46c7bd889b0ad65efe272ac45262ebd635fe632b2675e7d"
+  },
+  "self_check": {
+    "row_count": 86,
+    "id_set_exact": true,
+    "no_duplicate_ids": true,
+    "csv_reread": true,
+    "enumerations_legal": true,
+    "no_verdict_field": true,
+    "summary_forbidden_verdict_words_absent": true
+  },
+  "unique_ratios": {
+    "evidence_summary": 1.0,
+    "evidence_location": 1.0,
+    "required_controls": 0.05813953488372093
+  },
+  "model_id": "model_gpt56",
+  "timestamp": "2026-07-14T02:48:21.378-07:00",
+  "synthetic_model_coding_not_human": true
+}

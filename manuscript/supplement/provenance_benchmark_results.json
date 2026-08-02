@@ -1,0 +1,533 @@
+{
+  "schema_version": "provenance-benchmark-results-v1",
+  "n_items": 280,
+  "deployed": {
+    "judges": [
+      "pbA_gpt5mini",
+      "pbB_opus46",
+      "pbC_gem31pro",
+      "pbG_opus48",
+      "pbH_gem25pro",
+      "pbI_gpt54"
+    ],
+    "n_scored_three_way": 238,
+    "constant_baseline_three_way": 0.3361,
+    "per_judge": {
+      "pbA_gpt5mini": {
+        "n": 238,
+        "accuracy": 0.8067,
+        "ci95": [
+          0.7563,
+          0.8571
+        ]
+      },
+      "pbB_opus46": {
+        "n": 238,
+        "accuracy": 0.9706,
+        "ci95": [
+          0.9496,
+          0.9916
+        ]
+      },
+      "pbC_gem31pro": {
+        "n": 238,
+        "accuracy": 0.9202,
+        "ci95": [
+          0.8866,
+          0.9538
+        ]
+      },
+      "pbG_opus48": {
+        "n": 238,
+        "accuracy": 0.979,
+        "ci95": [
+          0.958,
+          0.9958
+        ]
+      },
+      "pbH_gem25pro": {
+        "n": 238,
+        "accuracy": 0.6681,
+        "ci95": [
+          0.6092,
+          0.7269
+        ]
+      },
+      "pbI_gpt54": {
+        "n": 238,
+        "accuracy": 0.958,
+        "ci95": [
+          0.9328,
+          0.9832
+        ]
+      }
+    },
+    "panels": {
+      "census_three_judge_panel": {
+        "judges": [
+          "pbA_gpt5mini",
+          "pbB_opus46",
+          "pbC_gem31pro"
+        ],
+        "n_scored": 238,
+        "accuracy": 0.9454,
+        "ci95": [
+          0.916,
+          0.9706
+        ],
+        "constant_baseline": 0.3361,
+        "by_explicitness": {
+          "explicit": {
+            "n": 79,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "implicit": {
+            "n": 80,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "none": {
+            "n": 79,
+            "accuracy": 0.8354,
+            "ci95": [
+              0.7468,
+              0.9114
+            ]
+          }
+        },
+        "by_class": {
+          "reimplemented": {
+            "n": 80,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 0.9524,
+            "n_predicted": 84
+          },
+          "transported": {
+            "n": 79,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 0.9875,
+            "n_predicted": 80
+          },
+          "unclear": {
+            "n": 79,
+            "recall": 0.8354,
+            "ci95": [
+              0.7468,
+              0.9114
+            ],
+            "precision": 1.0,
+            "n_predicted": 66
+          }
+        },
+        "confusion_truth_by_prediction": {
+          "transported": {
+            "transported": 79
+          },
+          "unclear": {
+            "reimplemented": 4,
+            "unclear": 66,
+            "no_majority": 8,
+            "transported": 1
+          },
+          "reimplemented": {
+            "reimplemented": 80
+          }
+        }
+      },
+      "all_judges": {
+        "judges": [
+          "pbA_gpt5mini",
+          "pbB_opus46",
+          "pbC_gem31pro",
+          "pbG_opus48",
+          "pbH_gem25pro",
+          "pbI_gpt54"
+        ],
+        "n_scored": 238,
+        "accuracy": 0.958,
+        "ci95": [
+          0.9328,
+          0.9832
+        ],
+        "constant_baseline": 0.3361,
+        "by_explicitness": {
+          "explicit": {
+            "n": 79,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "implicit": {
+            "n": 80,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "none": {
+            "n": 79,
+            "accuracy": 0.8734,
+            "ci95": [
+              0.7975,
+              0.9367
+            ]
+          }
+        },
+        "by_class": {
+          "reimplemented": {
+            "n": 80,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 0.9524,
+            "n_predicted": 84
+          },
+          "transported": {
+            "n": 79,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 0.9875,
+            "n_predicted": 80
+          },
+          "unclear": {
+            "n": 79,
+            "recall": 0.8734,
+            "ci95": [
+              0.7975,
+              0.9367
+            ],
+            "precision": 1.0,
+            "n_predicted": 69
+          }
+        },
+        "confusion_truth_by_prediction": {
+          "transported": {
+            "transported": 79
+          },
+          "unclear": {
+            "no_majority": 5,
+            "unclear": 69,
+            "reimplemented": 4,
+            "transported": 1
+          },
+          "reimplemented": {
+            "reimplemented": 80
+          }
+        }
+      }
+    },
+    "confusion_truth_by_prediction_all_judges": {
+      "transported": {
+        "transported": 474
+      },
+      "unclear": {
+        "unclear": 308,
+        "transported": 52,
+        "reimplemented": 114
+      },
+      "reimplemented": {
+        "reimplemented": 480
+      }
+    },
+    "asserted_no_number_disposition": {
+      "unclear": 240
+    },
+    "n_asserted_no_number_items": 40
+  },
+  "fourway": {
+    "judges": [
+      "pbA_gpt5mini",
+      "pbB_opus46",
+      "pbC_gem31pro",
+      "pbG_opus48",
+      "pbH_gem25pro",
+      "pbI_gpt54"
+    ],
+    "n_scored_three_way": 239,
+    "constant_baseline_three_way": 0.3347,
+    "per_judge": {
+      "pbA_gpt5mini": {
+        "n": 239,
+        "accuracy": 0.8368,
+        "ci95": [
+          0.7908,
+          0.8828
+        ]
+      },
+      "pbB_opus46": {
+        "n": 239,
+        "accuracy": 0.9456,
+        "ci95": [
+          0.9163,
+          0.9707
+        ]
+      },
+      "pbC_gem31pro": {
+        "n": 239,
+        "accuracy": 0.8996,
+        "ci95": [
+          0.8577,
+          0.9331
+        ]
+      },
+      "pbG_opus48": {
+        "n": 239,
+        "accuracy": 0.9163,
+        "ci95": [
+          0.8787,
+          0.9498
+        ]
+      },
+      "pbH_gem25pro": {
+        "n": 239,
+        "accuracy": 0.6653,
+        "ci95": [
+          0.6025,
+          0.7238
+        ]
+      },
+      "pbI_gpt54": {
+        "n": 239,
+        "accuracy": 0.8494,
+        "ci95": [
+          0.8033,
+          0.8912
+        ]
+      }
+    },
+    "panels": {
+      "census_three_judge_panel": {
+        "judges": [
+          "pbA_gpt5mini",
+          "pbB_opus46",
+          "pbC_gem31pro"
+        ],
+        "n_scored": 239,
+        "accuracy": 0.9331,
+        "ci95": [
+          0.8996,
+          0.9623
+        ],
+        "constant_baseline": 0.3347,
+        "by_explicitness": {
+          "explicit": {
+            "n": 80,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "implicit": {
+            "n": 79,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "none": {
+            "n": 80,
+            "accuracy": 0.8,
+            "ci95": [
+              0.7125,
+              0.875
+            ]
+          }
+        },
+        "by_class": {
+          "reimplemented": {
+            "n": 79,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 0.908,
+            "n_predicted": 87
+          },
+          "transported": {
+            "n": 80,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 1.0,
+            "n_predicted": 80
+          },
+          "unclear": {
+            "n": 80,
+            "recall": 0.8,
+            "ci95": [
+              0.7125,
+              0.875
+            ],
+            "precision": 1.0,
+            "n_predicted": 64
+          }
+        },
+        "confusion_truth_by_prediction": {
+          "transported": {
+            "transported": 80
+          },
+          "unclear": {
+            "reimplemented": 8,
+            "unclear": 64,
+            "no_majority": 8
+          },
+          "reimplemented": {
+            "reimplemented": 79
+          }
+        }
+      },
+      "all_judges": {
+        "judges": [
+          "pbA_gpt5mini",
+          "pbB_opus46",
+          "pbC_gem31pro",
+          "pbG_opus48",
+          "pbH_gem25pro",
+          "pbI_gpt54"
+        ],
+        "n_scored": 239,
+        "accuracy": 0.8996,
+        "ci95": [
+          0.8577,
+          0.9331
+        ],
+        "constant_baseline": 0.3347,
+        "by_explicitness": {
+          "explicit": {
+            "n": 80,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "implicit": {
+            "n": 79,
+            "accuracy": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "none": {
+            "n": 80,
+            "accuracy": 0.7,
+            "ci95": [
+              0.6,
+              0.8
+            ]
+          }
+        },
+        "by_class": {
+          "reimplemented": {
+            "n": 79,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 0.8495,
+            "n_predicted": 93
+          },
+          "transported": {
+            "n": 80,
+            "recall": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ],
+            "precision": 1.0,
+            "n_predicted": 80
+          },
+          "unclear": {
+            "n": 80,
+            "recall": 0.7,
+            "ci95": [
+              0.6,
+              0.8
+            ],
+            "precision": 1.0,
+            "n_predicted": 56
+          }
+        },
+        "confusion_truth_by_prediction": {
+          "transported": {
+            "transported": 80
+          },
+          "unclear": {
+            "reimplemented": 14,
+            "unclear": 56,
+            "no_majority": 10
+          },
+          "reimplemented": {
+            "reimplemented": 79
+          }
+        }
+      }
+    },
+    "confusion_truth_by_prediction_all_judges": {
+      "transported": {
+        "transported": 480
+      },
+      "unclear": {
+        "unclear": 268,
+        "transported": 54,
+        "reimplemented": 158
+      },
+      "reimplemented": {
+        "reimplemented": 474
+      }
+    },
+    "asserted_no_number_disposition": {
+      "asserted_no_number": 234
+    },
+    "n_asserted_no_number_items": 39
+  },
+  "census_composition_bias_correction": {
+    "observed_counts": {
+      "transported": 77,
+      "reimplemented": 533
+    },
+    "observed_reimplemented_share": 0.8738,
+    "confusion_rates_used": {
+      "tt": 1.0,
+      "rt": 0.0,
+      "tr": 0.0,
+      "rr": 1.0
+    },
+    "corrected": {
+      "transported": 77.0,
+      "reimplemented": 533.0,
+      "reimplemented_share": 0.8738
+    },
+    "note": "A two-class matrix inversion using the panel's measured confusion on the constructed benchmark. It assumes the constructed items elicit the same error rates as real windows, which is exactly what a constructed benchmark cannot establish; it is reported to show the direction and rough size of the correction, not as an estimate."
+  }
+}

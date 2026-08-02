@@ -1,0 +1,62 @@
+{
+  "canonical_inputs": {
+    "responses": "annotation_outputs/major_revision_blind_packet_20260615/evaluator_packet/participant_responses.csv",
+    "gold_consensus": "annotation_outputs/major_revision_blind_packet_20260615/evaluator_packet/gold_panel_consensus.csv",
+    "gold_individual": "annotation_outputs/major_revision_blind_packet_20260615/evaluator_packet/gold_adjudications.csv",
+    "canonical_map": "manuscript/supplement/evidence_map_venue_expanded_adjudicated.csv"
+  },
+  "participants": {
+    "control": 6,
+    "protocol": 6
+  },
+  "reported_pairs": 60,
+  "documented_omissions_excluded_pairs": 56,
+  "both_papers_in_canonical_map_pairs": 39,
+  "canonical_map_and_documented_omissions_excluded_pairs": 38,
+  "excluded_packet_omissions": [
+    "EV60-008",
+    "EV60-025",
+    "EV60-026",
+    "EV60-054"
+  ],
+  "gold_distribution_reported": {
+    "invalid": 51,
+    "partial": 5,
+    "underspecified": 4
+  },
+  "gold_distribution_after_documented_omission_exclusions": {
+    "invalid": 51,
+    "partial": 5
+  },
+  "gold_distribution_canonical_map_after_documented_omission_exclusions": {
+    "invalid": 33,
+    "partial": 5
+  },
+  "reported_macro_gain_contribution_by_class": {
+    "invalid": 0.04901966666666666,
+    "partial": -0.03333333333333333,
+    "underspecified": 0.08333333333333333
+  },
+  "same_panel_plain_language_consistency": [
+    {
+      "level": "individual_judgment",
+      "records": 300,
+      "agreements": 297,
+      "agreement_rate": 0.99,
+      "interpretation": "Within-panel label-translation consistency only; the same adjudicators produced both labels, so this is not independent validation."
+    },
+    {
+      "level": "pair_consensus",
+      "records": 60,
+      "agreements": 60,
+      "agreement_rate": 1.0,
+      "interpretation": "Within-panel label-translation consistency only; the same adjudicators produced both labels, so this is not independent validation."
+    }
+  ],
+  "bootstrap": {
+    "method": "crossed pair-by-annotator nonparametric bootstrap",
+    "repetitions": 10000,
+    "seed": 20260713
+  },
+  "interpretation": "The four under-specified gold pairs are packet-integrity failures rather than validated instances of under-specification in the source papers. Once excluded, the present-class macro-recall difference is small; the remaining improvement is concentrated on invalid recall, while partial recall decreases. The plain-language labels were produced by the same adjudicators and measure within-panel consistency, not independent external validity."
+}

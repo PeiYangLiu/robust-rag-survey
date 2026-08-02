@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Practical* Poisoning* Attacks* against* Retrieval* Augmented* Generation*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"13.54"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"69988213",
+"text":"generation"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"7",
+"@id":"190834",
+"info":{"authors":{"author":[{"@pid":"73/10219","text":"Baolei Zhang"},{"@pid":"55/3804","text":"Yuxi Chen"},{"@pid":"195/1161","text":"Zhuqing Liu"},{"@pid":"181/9509","text":"Lihai Nie"},{"@pid":"29/3826-11","text":"Tong Li 0011"},{"@pid":"22/8078","text":"Zheli Liu"},{"@pid":"157/0863","text":"Minghong Fang"}]},"title":"Practical Poisoning Attacks against Retrieval-Augmented Generation.","venue":"SACMAT","pages":"33-44","year":"2026","type":"Conference and Workshop Papers","access":"closed","key":"conf/sacmat/ZhangCLNLLF26","doi":"10.1145/3750555.3811900","ee":"https://doi.org/10.1145/3750555.3811900","url":"https://dblp.org/rec/conf/sacmat/ZhangCLNLLF26"},
+"url":"URL#190834"
+},
+{
+"@score":"7",
+"@id":"779636",
+"info":{"authors":{"author":[{"@pid":"73/10219","text":"Baolei Zhang"},{"@pid":"55/3804","text":"Yuxi Chen"},{"@pid":"157/0863","text":"Minghong Fang"},{"@pid":"195/1161","text":"Zhuqing Liu"},{"@pid":"181/9509","text":"Lihai Nie"},{"@pid":"29/3826-11","text":"Tong Li 0011"},{"@pid":"22/8078","text":"Zheli Liu"}]},"title":"Practical Poisoning Attacks against Retrieval-Augmented Generation.","venue":"CoRR","volume":"abs/2504.03957","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2504-03957","doi":"10.48550/ARXIV.2504.03957","ee":"https://doi.org/10.48550/arXiv.2504.03957","url":"https://dblp.org/rec/journals/corr/abs-2504-03957"},
+"url":"URL#779636"
+}
+]
+}
+}
+}

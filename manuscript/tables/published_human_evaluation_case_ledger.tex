@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{l>{\raggedright\arraybackslash}Xrrrrrr}
+\toprule
+Study & Human role & $N_r$ & $r/i$ & Assign. & Agg. & Rater unc. & Resolution \\
+\midrule
+\citet{poisonedRAG2024} & author validation of an automatic attack-success metric & -- & -- & -- & -- & -- & -- \\
+\citet{irrelevantContext2023} & manual attribution of model errors to retrieved context & -- & -- & -- & -- & -- & -- \\
+\citet{rrag040} & human validation and filtering of generated benchmark contexts & -- & R & -- & R & R & R \\
+\citet{ragTruth2024} & span- and response-level hallucination annotation & -- & R & -- & P & R & R \\
+\citet{rrag096} & naturalness evaluation of successful adversarial examples & R & P & -- & P & R & -- \\
+\citet{rrag024} & validation of LLM-generated knowledge-conflict labels & R & P & -- & -- & R & -- \\
+\citet{rrag038} & validation and correction of a generated situated-faithfulness benchmark & -- & -- & -- & -- & -- & P \\
+\citet{sufficientContext2024} & gold labeling of context sufficiency for autorater evaluation & -- & -- & -- & -- & -- & -- \\
+\citet{rrag019} & professional construction of adversarial benchmark contexts & -- & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabularx}
+\caption{Case ledger for the published human-evaluation reporting audit. $N_r$ is the distinct annotator count and $r/i$ the number of raters per item; R/P/-- denote reported, partly reported, and not reported. The machine-readable audit links each judgment to full-text line ranges. No row assigns a prompt treatment to annotators, and no row is classified as a confirmed assignment-unit error.}
+\label{tab:published-human-evaluation-cases}
+\end{table*}

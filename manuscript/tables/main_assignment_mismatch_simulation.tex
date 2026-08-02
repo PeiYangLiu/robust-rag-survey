@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{1.2pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Setting & Source & Panel RI & Rater RI & SD/SE \\
+\midrule
+$\sigma=0.20$, $G=20$ & 7.6 (0.4) & 4.9 (0.3) & 3.7 (0.3) & 1.14 \\
+Homog., $G=80$ & 4.9 (0.3) & 4.5 (0.3) & 4.5 (0.3) & 0.99 \\
+$\sigma=0.20$, $G=80$ & 17.0 (0.5) & 5.3 (0.3) & 4.6 (0.3) & 1.44 \\
+$\sigma=0.20$, $G=160$ & 25.9 (0.6) & 4.9 (0.3) & 5.2 (0.3) & 1.77 \\
+\bottomrule
+\end{tabular}
+\caption{Oracle design benchmark, retained for reference. Entries are rejection percentages with Monte Carlo standard errors in parentheses, and SD/SE is the empirical standard deviation of the D$-$C contrast divided by the mean source-only standard error, so a value above one marks an optimistic standard error. Each row uses 5,000 replicates, 12 auditors (six per prompt), six claims per source, and balanced three-of-six panels; $G$ is the number of sources and rater ability follows 12 fixed normal quantiles on the logit scale around 75\% mean agreement. Source $t$ and Panel RI use the identical studentized panel-majority statistic; Panel RI refers it to all 924 six-versus-six assignments under a full-vote oracle with an arm-independent schedule, and Rater RI uses individual accuracy. Panel RI is not implementable retrospectively, which is why Table~\ref{tab:retrospective-remedies} replaces it with two analyses that are, and evaluates them at the estimated $\sigma_r$ rather than at an assumed one. The complete null-simulation sweep, including the $\sigma_r=0.10$, $\sigma_r=0.30$ and $G=40$ profiles and the raw-contrast randomisation sensitivity, is released as \texttt{supplement/assignment\_mismatch\_simulation.json}.}
+\label{tab:assignment-mismatch-simulation}
+\end{table}

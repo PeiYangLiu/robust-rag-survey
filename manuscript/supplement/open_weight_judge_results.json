@@ -1,0 +1,302 @@
+{
+  "abstention_open": {
+    "abstention_share": 0.33974358974358976,
+    "collapsed": {
+      "fleiss_kappa": 0.006793363915427884,
+      "gwet_ac1": 0.17214458413231484,
+      "label": "open judges, collapsed to deployed space",
+      "label_distribution": {
+        "narrows": 150,
+        "survives": 590,
+        "undefined": 664
+      },
+      "max_attainable_kappa": 0.3443189735453387,
+      "n_items": 234,
+      "n_judges": 6,
+      "observed": 0.4156695156695162
+    },
+    "deployed": {
+      "fleiss_kappa": 0.05163504150327515,
+      "gwet_ac1": 0.18610170843196275,
+      "label": "open judges, deployed codebook",
+      "label_distribution": {
+        "narrows": 178,
+        "survives": 659,
+        "undefined": 567
+      },
+      "max_attainable_kappa": 0.3737660103973603,
+      "n_items": 234,
+      "n_judges": 6,
+      "observed": 0.43048433048433116
+    },
+    "four_class": {
+      "fleiss_kappa": 0.002387532340197218,
+      "gwet_ac1": 0.1247419206081044,
+      "label": "open judges, abstention codebook",
+      "label_distribution": {
+        "narrows": 150,
+        "not_determinable_from_text": 477,
+        "survives": 590,
+        "undefined": 187
+      },
+      "max_attainable_kappa": 0.3473759414341636,
+      "n_items": 234,
+      "n_judges": 6,
+      "observed": 0.3227920227920228
+    },
+    "judges": [
+      "glm4-9b",
+      "internlm3-8b",
+      "olmo2-13b",
+      "phi4",
+      "qwen3-14b",
+      "qwen3-8b"
+    ],
+    "kappa_difference_collapsed_minus_deployed": -0.04484167758784727,
+    "n_items": 234
+  },
+  "capability_gradient": {
+    "glm4-9b": {
+      "developer": "Zhipu",
+      "not_determinable_coord_share": 0.6245901639344262,
+      "params_b": 9,
+      "survives_share": 0.3704918032786885
+    },
+    "internlm3-8b": {
+      "developer": "Shanghai AI Lab",
+      "not_determinable_coord_share": 0.10737704918032787,
+      "params_b": 8,
+      "survives_share": 0.7573770491803279
+    },
+    "mistral-small-24b": {
+      "developer": "Mistral",
+      "not_determinable_coord_share": 0.5983606557377049,
+      "params_b": 24,
+      "survives_share": 0.35081967213114756
+    },
+    "olmo2-13b": {
+      "developer": "AI2",
+      "not_determinable_coord_share": 0.4016393442622951,
+      "params_b": 13,
+      "survives_share": 0.23278688524590163
+    },
+    "phi4": {
+      "developer": "Microsoft",
+      "not_determinable_coord_share": 0.21967213114754097,
+      "params_b": 14,
+      "survives_share": 0.7868852459016393
+    },
+    "qwen25-72b": {
+      "developer": "Alibaba",
+      "not_determinable_coord_share": 0.45081967213114754,
+      "params_b": 72,
+      "survives_share": 0.6950819672131148
+    },
+    "qwen3-14b": {
+      "developer": "Alibaba",
+      "not_determinable_coord_share": 0.6409836065573771,
+      "params_b": 14,
+      "survives_share": 0.5016393442622951
+    },
+    "qwen3-32b": {
+      "developer": "Alibaba",
+      "not_determinable_coord_share": 0.5713114754098361,
+      "params_b": 32,
+      "survives_share": 0.4
+    },
+    "qwen3-8b": {
+      "developer": "Alibaba",
+      "not_determinable_coord_share": 0.5065573770491804,
+      "params_b": 8,
+      "survives_share": 0.26885245901639343
+    }
+  },
+  "census_verdict": {
+    "api_kappa_ci95": [
+      -0.030318027834902075,
+      0.1100064253424632
+    ],
+    "api_pool": {
+      "fleiss_kappa": 0.05200454319701015,
+      "gwet_ac1": 0.21273092702122812,
+      "label": "API judges only",
+      "label_distribution": {
+        "narrows": 116,
+        "survives": 481,
+        "undefined": 318
+      },
+      "max_attainable_kappa": 0.42263537994316913,
+      "n_items": 305,
+      "n_judges": 3,
+      "observed": 0.44371584699453454
+    },
+    "n_common_items": 305,
+    "n_papers": 76,
+    "open_c1_kappa": 0.07227007286430015,
+    "open_c2_kappa": 0.04743145350252796,
+    "open_c4_kappa": 0.19828941683581972,
+    "open_c5_kappa": 0.009500540768476904,
+    "open_kappa_ci95": [
+      0.05815353119654124,
+      0.1200851325258907
+    ],
+    "open_pool": {
+      "fleiss_kappa": 0.09163497879742427,
+      "gwet_ac1": 0.2236871839818665,
+      "label": "open-weight judges only",
+      "label_distribution": {
+        "narrows": 352,
+        "survives": 1331,
+        "undefined": 1062
+      },
+      "max_attainable_kappa": 0.4648981673491861,
+      "n_items": 305,
+      "n_judges": 9,
+      "observed": 0.456102003642987
+    },
+    "pooled": {
+      "fleiss_kappa": 0.10054709101177978,
+      "gwet_ac1": 0.23567306183793482,
+      "label": "API and open-weight judges pooled",
+      "label_distribution": {
+        "narrows": 468,
+        "survives": 1812,
+        "undefined": 1380
+      },
+      "max_attainable_kappa": 0.47688791735080355,
+      "n_items": 305,
+      "n_judges": 12,
+      "observed": 0.4635866865375051
+    }
+  },
+  "developers": {
+    "glm4-9b": "Zhipu",
+    "internlm3-8b": "Shanghai AI Lab",
+    "mistral-small-24b": "Mistral",
+    "olmo2-13b": "AI2",
+    "phi4": "Microsoft",
+    "qwen25-72b": "Alibaba",
+    "qwen3-14b": "Alibaba",
+    "qwen3-32b": "Alibaba",
+    "qwen3-8b": "Alibaba"
+  },
+  "excluded_below_coverage": {
+    "abstention": [],
+    "census": [
+      "ds-distill-qwen-32b"
+    ],
+    "instrument": [
+      "ds-distill-qwen-32b"
+    ]
+  },
+  "min_coverage": 0.5,
+  "n_open_judges": 9,
+  "open_judges_found": [
+    "glm4-9b",
+    "internlm3-8b",
+    "mistral-small-24b",
+    "olmo2-13b",
+    "phi4",
+    "qwen25-72b",
+    "qwen3-14b",
+    "qwen3-32b",
+    "qwen3-8b"
+  ],
+  "parse_coverage": {
+    "abstention": {
+      "glm4-9b": 0.9289772727272727,
+      "internlm3-8b": 0.9005681818181818,
+      "olmo2-13b": 0.6761363636363636,
+      "phi4": 0.9431818181818182,
+      "qwen3-14b": 0.8551136363636364,
+      "qwen3-8b": 0.9474431818181818
+    },
+    "census": {
+      "ds-distill-qwen-32b": 0.018465909090909092,
+      "glm4-9b": 0.921875,
+      "internlm3-8b": 0.9261363636363636,
+      "mistral-small-24b": 0.8110795454545454,
+      "olmo2-13b": 0.7201704545454546,
+      "phi4": 0.9360795454545454,
+      "qwen25-72b": 0.9644886363636364,
+      "qwen3-14b": 0.828125,
+      "qwen3-32b": 0.9616477272727273,
+      "qwen3-8b": 0.9375
+    },
+    "instrument": {
+      "ds-distill-qwen-32b": 0.023148148148148147,
+      "glm4-9b": 1.0,
+      "internlm3-8b": 0.9976851851851852,
+      "mistral-small-24b": 0.9976851851851852,
+      "olmo2-13b": 0.9814814814814815,
+      "phi4": 1.0,
+      "qwen25-72b": 1.0,
+      "qwen3-14b": 1.0,
+      "qwen3-32b": 1.0,
+      "qwen3-8b": 1.0
+    }
+  },
+  "schema_version": 1,
+  "sigma_r": {
+    "accuracy_by_judge": {
+      "apk_gem35flash": 0.8742138364779874,
+      "apk_gpt41": 0.7090909090909091,
+      "apk_gpt4o": 0.7220338983050848,
+      "apk_gpt5mini": 0.8011527377521613,
+      "apk_haiku45": 0.7492877492877493,
+      "apk_opus47": 0.8380681818181818,
+      "apk_sonnet46": 0.8130311614730878,
+      "glm4-9b": 0.6027777777777777,
+      "insB_opus46": 0.7861111111111111,
+      "insC_gem31pro": 0.8583333333333333,
+      "insG_opus48": 0.7638888888888888,
+      "insH_gem25pro": 0.8277777777777777,
+      "insI_gpt54": 0.8277777777777777,
+      "insJ_gpt55": 0.8888888888888888,
+      "internlm3-8b": 0.5543175487465181,
+      "mistral-small-24b": 0.7194444444444444,
+      "olmo2-13b": 0.559322033898305,
+      "phi4": 0.7861111111111111,
+      "qwen25-72b": 0.8138888888888889,
+      "qwen3-14b": 0.7944444444444444,
+      "qwen3-32b": 0.8,
+      "qwen3-8b": 0.7277777777777777
+    },
+    "ci_width_ratio_pooled": 1.8871760645240465,
+    "n_judges_api": 13,
+    "n_judges_open": 9,
+    "n_judges_total": 22,
+    "pool_by_judge": {
+      "apk_gem35flash": "api",
+      "apk_gpt41": "api",
+      "apk_gpt4o": "api",
+      "apk_gpt5mini": "api",
+      "apk_haiku45": "api",
+      "apk_opus47": "api",
+      "apk_sonnet46": "api",
+      "glm4-9b": "open",
+      "insB_opus46": "api",
+      "insC_gem31pro": "api",
+      "insG_opus48": "api",
+      "insH_gem25pro": "api",
+      "insI_gpt54": "api",
+      "insJ_gpt55": "api",
+      "internlm3-8b": "open",
+      "mistral-small-24b": "open",
+      "olmo2-13b": "open",
+      "phi4": "open",
+      "qwen25-72b": "open",
+      "qwen3-14b": "open",
+      "qwen3-32b": "open",
+      "qwen3-8b": "open"
+    },
+    "reference": "constructed benchmark truth verdict, fixed before any judge sees the item",
+    "sigma_r_api_only": 0.3663729138785795,
+    "sigma_r_open_only": 0.5090061623586721,
+    "sigma_r_pooled": 0.496191986074013,
+    "sigma_r_pooled_ci95": [
+      0.32599362041875424,
+      0.6152073576418104
+    ]
+  }
+}

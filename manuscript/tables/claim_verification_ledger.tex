@@ -4,16 +4,17 @@
 \renewcommand{\arraystretch}{0.9}
 \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.21\linewidth}X}
 \toprule
-\textbf{Main claim} & \textbf{Human-checked evidence basis} & \textbf{What the evidence supports} & \textbf{Boundary} \\
+\textbf{Main claim} & \textbf{Cited evidence basis} & \textbf{What the evidence supports} & \textbf{Boundary} \\
 \midrule
-Irrelevant or noisy context can harm generation. & Irrelevant-context robustness, RAAT, RGB, and counterfactual-noise papers were checked at method/evaluation level. & Noise affects both retrieval quality and generator context use. & Does not imply one robustness score covers all noise types. \\
-Knowledge conflict differs from adversarial corruption. & Conflict papers and poisoning papers were checked for source of contradiction and evaluation target. & Natural disagreement and attacker-created contradiction require different assumptions. & Conflict-resolution results should not be read as poisoning-defense results. \\
-RAG attacks require capability normalization. & Poisoning, backdoor, prompt-injection, traceback, and certification papers were checked for attacker access and metric target. & Attack/defense results are incomparable without corpus write access, query control, retriever visibility, and budget. & The paper does not rank attacks by real-world prevalence. \\
-Calibration, abstention, and retrieval control are distinct. & Sufficient-context, uncertainty, adaptive-retrieval, and calibration papers were checked for decision target. & Confidence estimation, evidence sufficiency, retrieval triggering, and abstention optimize different quantities. & Does not validate a single universal control policy. \\
-Action-trace evaluation is a benchmark agenda. & Existing benchmarks were checked for answer, evidence, action, cost, and threat fields. & Existing benchmarks cover pieces of the proposed schema. & No new leaderboard or empirical system ranking is claimed. \\
+Irrelevant or noisy context can harm generation. & Irrelevant-context robustness, RAAT, RGB, and counterfactual-noise studies. & Noise affects both retrieval quality and generator context use. & Does not imply one robustness score covers all noise types. \\
+Knowledge conflict differs from adversarial corruption. & Conflict and poisoning studies with different evidence origins and evaluation targets. & Natural disagreement and attacker-created contradiction require different assumptions. & Conflict-resolution results should not be read as poisoning-defense results. \\
+RAG attacks require capability normalisation. & Poisoning, backdoor, prompt-injection, traceback, and certification studies. & Attack/defense results require corpus access, query control, retriever visibility, and budget. & The paper does not rank attacks by real-world prevalence. \\
+Calibration, abstention, and retrieval control are distinct. & Sufficient-context, uncertainty, adaptive-retrieval, and calibration studies. & Confidence estimation, evidence sufficiency, retrieval triggering, and abstention optimise different quantities. & Does not validate a single universal control policy. \\
+Action-trace evaluation is a benchmark agenda. & Benchmarks exposing subsets of answer, evidence, action, cost, and threat fields. & Existing benchmarks cover pieces of the proposed schema. & No new leaderboard or empirical system ranking is claimed. \\
 \bottomrule
 \end{tabularx}
-\caption{Core-claim verification ledger. LLM-assisted citation audits were used only as internal triage; the claims above are stated at the level supported by human inspection of central cited papers.}
+\caption{Narrative claim-to-source ledger. Expanded and strict citation audits
+were model-assisted and deterministic; this table records the intended evidence
+boundary rather than certifying every citation.}
 \label{tab:claim-verification-ledger}
 \end{table*}
-

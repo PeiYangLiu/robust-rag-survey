@@ -1,0 +1,14 @@
+{
+  "disagreement_claim_count": 0,
+  "frozen_claims_sha256": "36b2d0d2c29836e04be8be192f8542cb1acd736a5c5d4148498c7358574677ce",
+  "gold_responses_sha256": "cd412f32850291e3e534caad8f5183b67a874bb0f4107afb51dce15165e88651",
+  "packet_count": 0,
+  "packet_version": "adjudicator-packet-v1",
+  "packets": [],
+  "public_role_roster_sha256": "4f667d008c5a5515314c309b18a7e658052e2966af31082254ac04f51b3048ae",
+  "registry_sha256": "5fcd23e0aa5ba6132039e8d5a6e615ad79b0a6bb66d84d9f030ea43937f0ca96",
+  "row_count": 0,
+  "rows": [],
+  "schema_version": "coordinator-adjudicator-packet-registry-v1",
+  "status": "NO_ADJUDICATOR_PACKETS_ISSUED"
+}

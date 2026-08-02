@@ -1,0 +1,41 @@
+
+\label{sec:evaluation}
+
+\input{figures/benchmark_landscape}
+\input{tables/benchmark_comparison}
+\input{tables/benchmark_blueprint}
+\input{tables/action_trace_pilot}
+\input{tables/action_trace_pilot_results}
+\input{tables/evaluation_assumption_matrix}
+
+Evaluation must reflect the full hierarchy. Standard exact match, F1, and retrieval recall remain useful but insufficient. A RAG system can retrieve relevant evidence and still answer from a distractor; it can answer correctly but be overconfident; it can refuse correctly but fail to explain what evidence is missing; it can pass benign noise tests but fail under poisoned corpora. Robust evaluation must therefore measure both failure resistance and action quality.
+
+We group robust RAG evaluation into six families:
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Noise robustness}: performance as irrelevant or misleading passages are injected, removed, reordered, or ranked higher.
+    \item \textbf{Distraction sensitivity}: whether answer or confidence changes when distractors are added while gold evidence remains available.
+    \item \textbf{Conflict sensitivity}: whether the system detects and resolves parametric--retrieved or retrieved--retrieved contradictions.
+    \item \textbf{Adversarial robustness}: attack success rate, poisoned retrieval rate, trigger robustness, defense bypass rate, and recovery after filtering.
+    \item \textbf{Uncertainty and selective prediction}: selective risk, abstention precision/recall, expected calibration error, and clarification quality.
+    \item \textbf{End-to-end action quality}: whether the system chooses the right policy among answer, retrieve, re-retrieve, filter, abstain, or ask.
+\end{enumerate}
+Benchmarking work such as RGB, RAGTruth, robustness-at-query-level analyses, poisoning benchmarks, and uncertainty benchmarks provides pieces of this landscape \citep{rgb2023,ragTruth2024,queryRobustness2025}. RGB is useful because it separates RAG abilities rather than reporting one score \citep{rgb2023}. RAGTruth contributes fine-grained hallucination annotations that support detection and attribution \citep{ragTruth2024}. Query-level robustness work shows that the query--retrieval interface is itself fragile \citep{queryRobustness2025}. PoisonArena-style benchmarks and LIAR-style attack evaluations stress adversarial settings rather than benign retrieval noise \citep{rrag023,rrag035}. URAG and uncertainty benchmarks evaluate whether systems know when their answers are reliable \citep{rrag001,rrag093}.
+
+The main gap is joint evaluation. Most benchmarks isolate one failure: noise, conflict, poisoning, or unanswerability. In plausible high-risk document-grounded settings, these failures can interact: a query may be ambiguous, retrieval may surface partially relevant evidence, a document may be stale, and one source may be malicious or misleading. A future benchmark should therefore cross product failure types: benign hard negatives, conflicting evidence, poisoned passages, query perturbations, and insufficient context. It should also report action metrics: when the system retrieves, when it filters, when it verifies, when it abstains, and whether these actions improve risk--cost tradeoffs.
+
+Table~\ref{tab:benchmark-blueprint} turns this observation into a proposed benchmark schema. We treat it as a research agenda, not as a validated benchmark contribution: no leaderboard or empirical re-ranking is claimed. The key design choice is to annotate not only answers but also evidence states and action traces. Without evidence annotations, a model can receive credit for an answer supported by parametric memory rather than retrieved evidence. Without action traces, a system that repeatedly retrieves, verifies, and self-consistently samples can look more robust while hiding its cost. Without attacker capability fields, security benchmark results become incomparable.
+
+To make the proposal concrete, we include a 12-item synthetic action-trace pilot with three toy policies (Table~\ref{tab:action-trace-pilot-results}). The pilot is not a benchmark release, but it demonstrates the diagnostic difference: an answer-only policy can receive some answer credit while failing action quality, whereas action-aware scoring distinguishes answer correctness, control behavior, and their joint success.
+
+Table~\ref{tab:evaluation-assumption-matrix} makes the comparison problem more explicit. Many reported gains depend on retriever choice, generator scale, context length, poisoning budget, and metric target. A method can improve EM while worsening citation support; a defense can reduce attack success while reducing answer utility; a retrieval policy can increase accuracy while hiding cost. We therefore treat robust-RAG evaluation as a multi-axis reporting problem rather than a leaderboard scalar.
+
+\paragraph{A concrete benchmark protocol.}
+An executable robust-RAG benchmark should instantiate the following template. Each item contains a user query, a gold answer or abstention/clarification target, a corpus snapshot with document IDs, a retrieved-context candidate set, and labels for supporting, distracting, conflicting, stale, poisoned, and insufficient evidence. The benchmark should define four splits: benign retrieval noise, knowledge conflict, adversarial corruption, and answerability uncertainty. For each split, systems must output both an answer and an action trace: whether they retrieved, filtered, verified, re-retrieved, abstained, or asked for clarification. The metric suite should report answer utility, evidence support precision, attack success or defense bypass where applicable, calibration/coverage, and cost-adjusted action utility. This protocol makes it possible to compare systems that answer directly against systems that spend additional computation on verification or abstention.
+
+\subsection{Metric Design}
+
+Robust RAG metrics should be diagnostic. For retrieval, recall and nDCG should be complemented by negative-utility metrics that penalise distracting evidence \citep{rrag058}. For generation, exact match should be complemented by faithfulness, citation support, and claim-level entailment. For attacks, attack success rate should be paired with stealth, retrieval rate, injected-document budget, and transferability. For calibration, expected calibration error should be paired with selective risk and coverage. For control, the unit of evaluation should be an action trace: retrieve, filter, verify, answer, abstain, or ask clarification. This makes it possible to distinguish a lucky correct answer from a robust decision process.
+
+\subsection{Benchmark Construction Principles}
+
+We identify four principles for future benchmark construction. First, benchmarks should include both benign and adversarial evidence unreliability. Second, they should provide source-level annotations: which passage supports which claim, which passage is distracting, which passage is poisoned, and which source conflicts with which. Third, they should include unanswerable and underspecified questions so that abstention and clarification can be evaluated. Fourth, they should report cost and latency, because robust RAG methods often trade reliability for additional computation. Benchmarks that omit these dimensions risk rewarding systems that answer more often rather than systems that answer more responsibly.

@@ -1,0 +1,35 @@
+Adversarial work removes the assumption that unreliable evidence arrives by accident and
+replaces it with an attacker who chooses the evidence (Appendix~\ref{app:adversarial}).
+Because RAG externalises knowledge into corpora, indices, prompt templates and tools, every
+one of these becomes an attack surface that a purely parametric model does not have.
+
+\paragraph{Poisoning turns small corpus edits into large output changes.}
+\citet{poisoningRetrievalCorpora2023} showed that a handful of crafted passages is enough to
+distort a dense retriever's neighbourhood structure, and PoisonedRAG carried the same idea
+through to the generated answer \citep{poisonedRAG2024}. Later work varies the trigger and the
+persistence model: BadRAG studies triggered retrieval \citep{badRAG2024}, while TrojanRAG and
+Phantom induce attacker-chosen behaviour through retrieved context alone, without touching
+model weights \citep{trojanRAG2024,phantom2024}. What these share is an amplification effect:
+retrieval converts a marginal perturbation of the corpus into a first-class input to the model.
+
+\paragraph{Injection and poisoning are different threats.}
+Indirect prompt injection plants \emph{executable instructions} rather than false evidence, and
+the payload must first clear a retrieval barrier before it can act \citep{rrag005}; AIP instead
+exploits prompts shared across users \citep{aip2025}. The distinction matters for defence
+design, because a filter tuned to detect implausible claims will not detect a plausible
+document that ends with an instruction. Treating templates, ingestion pipelines and retrieved
+text as untrusted boundaries is therefore a stronger design stance than treating the corpus as
+the only thing to sanitise.
+
+\paragraph{Defences are not comparable across threat models.}
+Proposed defences span certified aggregation \citep{certifiedRAG2024}, adversarial reranking
+\citep{rrag004}, attention-level filtering \citep{rrag015}, and post-hoc traceback of the
+responsible passage \citep{rrag128}, and each is evaluated against the threat its authors
+assumed. Two further sources of divergence are less visible. Papers differ in what the
+attacker is allowed to know and do, and they differ in the unit that the attack budget is
+counted in---documents injected into the corpus versus documents actually retrieved into the
+context---so nominally identical budgets can differ by an order of magnitude. Reporting
+adversary access and budget scope, coordinate C2 in \S\ref{sec:coordinates}, is what makes two
+attack success rates commensurable. Recent evaluation suites move this way, fixing
+corpus, retriever and injection budget before pitting attacks against one another
+\citep{rrag019,rrag023,rrag033}.

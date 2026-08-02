@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{0.9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.20\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.24\linewidth}X}
+\toprule
+\textbf{Boundary case} & \textbf{Five-coordinate diagnosis} & \textbf{Second-stage control check} & \textbf{Supported conclusion} \\
+\midrule
+Different interventions, shared harness & A retriever filter and a generator-side reader address the same evidence state, metric target, and answer policy; intervention differs. & Same corpus, retriever output before intervention, generator, budget, metric, and seeds. & A valid end-to-end comparison is possible. Intervention mismatch alone does not force \emph{partial}. \\
+All five fields match, systems differ & Two answer-only methods target benign retrieval noise and answer correctness at the generator. & Different datasets, retrievers, model scales, top-$k$, and compute budgets. & The papers are conceptually comparable but their reported numbers are not directly rankable without a shared rerun or adjustment. \\
+Action unnamed but observable & A QA benchmark never uses ``action policy'' but requires one answer for every item and gives no abstention channel. & Evaluation code and output schema confirm answer-only behavior. & Code \emph{answer} when policy is decision-relevant; use \emph{not applicable} for a fixed descriptive comparison. \\
+Same pair, different claim & An attack artifact and a defense share a threat model but optimise attack success and defended utility. & A common attack--defense harness can evaluate both roles; a paper-only scalar comparison cannot. & Valid as components of one evaluation, partial as substitutable methods, invalid if ranked under incompatible objectives. \\
+Same label, incompatible capability & Two poisoning studies both report attack success, but one assumes bounded corpus insertion and the other controls retrieved instructions at query time. & Capability, budget, retrieval probability, and objective do not align. & A direct ranking is invalid even if intervention, metric name, and answer behavior appear similar. \\
+\bottomrule
+\end{tabularx}
+\caption{Counterexamples delimiting the schema. Verdicts depend on the stated comparison and experimental controls; the five coordinates are diagnostic fields rather than a necessary-and-sufficient classifier.}
+\label{tab:framework-counterexamples}
+\end{table*}

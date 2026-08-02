@@ -1,0 +1,644 @@
+{
+  "current_candidate_state": {
+    "artifact": "candidate_claims_model_prescreen.csv",
+    "rows": 1582,
+    "sha256": "d54535c1fd8c838f5edb3433257430fd2004fa2299226c4fde26f75de745de37"
+  },
+  "prohibited_use": "Sampling eligibility votes are administrative inclusion decisions, not test outcomes, evidence-support labels, comparability labels, model labels, gold labels, or adjudications.",
+  "schema_version": "sampling-screen-v1",
+  "screening_complete": true,
+  "stages": [
+    {
+      "counts": {
+        "deterministic_candidates": 1568,
+        "human_sampling_fields_populated": 0,
+        "initialized_model_free_candidates": 1568,
+        "model_fields_populated": 0,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1568,
+          "sha256": "5b81de7888e417c4492fe6390c7a5e068031139bb78a757d488ec6ee38d78721"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "427166d88aadd554d1d60d2931a00d6f3e75b4a5f4c6727831e9576fb9e32ef6"
+        }
+      ],
+      "recorded_utc": "2026-07-15T10:19:39Z",
+      "screener_ids": [],
+      "stage": "initialize",
+      "stage_record_sha256": "9feb6c14e54755b306ee7c5df724c8ec0581e60746007bb3bde68f2d19119c76"
+    },
+    {
+      "counts": {
+        "candidates_per_initial_screener": 1568,
+        "initial_screeners": 2,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1568,
+          "sha256": "5b81de7888e417c4492fe6390c7a5e068031139bb78a757d488ec6ee38d78721"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "427166d88aadd554d1d60d2931a00d6f3e75b4a5f4c6727831e9576fb9e32ef6"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "initial_screener_1.csv",
+          "rows": 1568,
+          "sha256": "2234dc09c2fb92b911684a78f2337e5bdb550d262c972b525e184774a2305fc2"
+        },
+        {
+          "artifact": "initial_screener_2.csv",
+          "rows": 1568,
+          "sha256": "0b0d5ff9eec29a42401b985823ddf3583d4838d3cf532b8a19645db33c40c71a"
+        }
+      ],
+      "recorded_utc": "2026-07-15T10:30:53Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464"
+      ],
+      "stage": "build_initial",
+      "stage_record_sha256": "59dceeaae95d1ae9408e004c833d169dd4a15f04999ee136985c855b5e9d073f"
+    },
+    {
+      "counts": {
+        "initial_agreements": 1187,
+        "initial_disputes": 381,
+        "test_outcomes_generated": 0,
+        "tiebreak_rows": 381,
+        "vote_pair_eligible_c2_eligible_c2": 265,
+        "vote_pair_eligible_c2_eligible_c5": 64,
+        "vote_pair_eligible_c2_ineligible": 11,
+        "vote_pair_eligible_c5_eligible_c2": 51,
+        "vote_pair_eligible_c5_eligible_c5": 539,
+        "vote_pair_eligible_c5_ineligible": 6,
+        "vote_pair_ineligible_eligible_c2": 44,
+        "vote_pair_ineligible_eligible_c5": 205,
+        "vote_pair_ineligible_ineligible": 383
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1568,
+          "sha256": "5b81de7888e417c4492fe6390c7a5e068031139bb78a757d488ec6ee38d78721"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "427166d88aadd554d1d60d2931a00d6f3e75b4a5f4c6727831e9576fb9e32ef6"
+        },
+        {
+          "artifact": "completed_initial_screener_1.csv",
+          "rows": 1568,
+          "sha256": "b3d48c03080ce3b677152b2051fe39c53704e9527b96fb2199a7c35f2ac9a07b"
+        },
+        {
+          "artifact": "completed_initial_screener_2.csv",
+          "rows": 1568,
+          "sha256": "a47a6c66ef0b1ea187b5db0f26f2ca618a37edb9744d2e60734a0d0448d333a2"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "f6e68b3626a110a4ead3b90c58ded15db4df3a39ab15f1b7c95094b476ba1eb0"
+        },
+        {
+          "artifact": "tiebreak_disputes.csv",
+          "rows": 381,
+          "sha256": "e6eef91ad92c8aa6f7d200b9ef1e3722608915e22bc35310346e356b52900fbc"
+        }
+      ],
+      "recorded_utc": "2026-07-15T12:19:41Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "merge_initial",
+      "stage_record_sha256": "099cade5d3ab82b3506dbcac4691e9e2a7ff28ab7e6af1cc9ac3100ce2270939"
+    },
+    {
+      "counts": {
+        "final_eligible_c2": 371,
+        "final_eligible_c5": 545,
+        "final_ineligible": 652,
+        "test_outcomes_generated": 0,
+        "tiebreak_rows": 381,
+        "tiebreak_vote_eligible_c2": 106,
+        "tiebreak_vote_eligible_c5": 6,
+        "tiebreak_vote_ineligible": 269
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1568,
+          "sha256": "5b81de7888e417c4492fe6390c7a5e068031139bb78a757d488ec6ee38d78721"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "f6e68b3626a110a4ead3b90c58ded15db4df3a39ab15f1b7c95094b476ba1eb0"
+        },
+        {
+          "artifact": "completed_tiebreak_disputes.csv",
+          "rows": 381,
+          "sha256": "0c3c12552775e1e7d31ae99cbfbeb4ae28740d62d0f5ba6b948c672184015dba"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "fb5e0af85ef8de58fcc6b24534ee935049a1ca26e807f84884a3871a32b16da8"
+        }
+      ],
+      "recorded_utc": "2026-07-16T01:08:28Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "merge_tiebreak",
+      "stage_record_sha256": "78b6c81b1895757d83aace75358dd3bcb6d79d3eaff3c9ab9cf9c4fa6ae6c9c6"
+    },
+    {
+      "counts": {
+        "deficient_sources_removed": 3,
+        "new_replacement_candidates": 53,
+        "replacement_sources_added": 3,
+        "retained_candidate_rows_unchanged": 1522,
+        "retained_sources_unchanged": 77,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "source_sampling_frame.csv",
+          "rows": 342,
+          "sha256": "59fb91d0590d25d17c5fb2943477c493405d3f81e94064898742f16f4297bd59"
+        },
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1568,
+          "sha256": "5b81de7888e417c4492fe6390c7a5e068031139bb78a757d488ec6ee38d78721"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1568,
+          "sha256": "fb5e0af85ef8de58fcc6b24534ee935049a1ca26e807f84884a3871a32b16da8"
+        },
+        {
+          "artifact": "sampling_exclusion_replacement_ledger.csv",
+          "rows": 3,
+          "sha256": "571707e3f6268fd8b1b74d361fcf0fa84bcd331b17e8b22ac961d7b353c273dc"
+        },
+        {
+          "artifact": "sampling_screen_summary_parent.json",
+          "rows": 4,
+          "sha256": "4cdae929898251007e30ad0091fe8e5e8c9f17cfb0eea8537710a1172a118592"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "source_sampling_frame.csv",
+          "rows": 342,
+          "sha256": "d5a19a8b8608cbfb5df6c12228f2394720f652b4df6d782a6825c07af6833197"
+        },
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1575,
+          "sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "4ce341181f411e66bf308effd904ae32a87f56241094fd34b8483d623222f696"
+        }
+      ],
+      "recorded_utc": "2026-07-16T01:27:52Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "apply_replacements",
+      "stage_record_sha256": "d024db5ee08ec24600d40c76a43c207ce845f8afb953bbe9311e54ac9b47cc52"
+    },
+    {
+      "counts": {
+        "replacement_candidates_per_initial_screener": 53,
+        "retained_candidates_not_reissued": 1522,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1575,
+          "sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "4ce341181f411e66bf308effd904ae32a87f56241094fd34b8483d623222f696"
+        },
+        {
+          "artifact": "source_replacement_summary.json",
+          "rows": 1,
+          "sha256": "657304485145a1f1d983804081ac6c64fadc65c4bd4d097a07f87d7373353cac"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "replacement_initial_screener_1.csv",
+          "rows": 53,
+          "sha256": "bd4c093457536df9d10e49f27024ee8b17447c7eb058224bc65b75b94b7fc0fd"
+        },
+        {
+          "artifact": "replacement_initial_screener_2.csv",
+          "rows": 53,
+          "sha256": "642aa269b3c0015b925970a8e33c339ca077335480364f1def7f32706d6ef30c"
+        }
+      ],
+      "recorded_utc": "2026-07-16T01:42:26Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "build_replacement",
+      "stage_record_sha256": "f0ca719f314b8913bb4789e76ce0b3c1493e15a10c7ad16b9d1078ce099427ac"
+    },
+    {
+      "counts": {
+        "replacement_initial_agreements": 52,
+        "replacement_initial_disputes": 1,
+        "replacement_vote_pair_eligible_c2_eligible_c2": 15,
+        "replacement_vote_pair_eligible_c2_eligible_c5": 1,
+        "replacement_vote_pair_eligible_c5_eligible_c5": 8,
+        "replacement_vote_pair_ineligible_ineligible": 29,
+        "retained_candidates_unchanged": 1522,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1575,
+          "sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "4ce341181f411e66bf308effd904ae32a87f56241094fd34b8483d623222f696"
+        },
+        {
+          "artifact": "completed_replacement_initial_screener_1.csv",
+          "rows": 53,
+          "sha256": "c6d7bd678e5e225a9ff3e43dfcc72da1d76146e9d12e7f63877f443dc63552ff"
+        },
+        {
+          "artifact": "completed_replacement_initial_screener_2.csv",
+          "rows": 53,
+          "sha256": "4524342c87a5fba4bdfbc61793af2eb06d4aac3fdc35164e46d0d3e57cd054c6"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "72acb03c7ae4e8495002393c2d740c84b5f8f9c46ee74d2669349408e7fd78b1"
+        },
+        {
+          "artifact": "replacement_tiebreak_disputes.csv",
+          "rows": 1,
+          "sha256": "b10cc083264fb7e279d35bec54cc0b8ae21079c084b0c5ad904e851886ae3c3d"
+        }
+      ],
+      "recorded_utc": "2026-07-16T02:56:00Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "merge_replacement_initial",
+      "stage_record_sha256": "62b3b4efc989ea4f93f9c1f233ea7ed8f464ce8abb9d1d026662a33f4a6eafcd"
+    },
+    {
+      "counts": {
+        "replacement_tiebreak_rows": 1,
+        "replacement_tiebreak_vote_eligible_c5": 1,
+        "retained_candidates_unchanged": 1522,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1575,
+          "sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "72acb03c7ae4e8495002393c2d740c84b5f8f9c46ee74d2669349408e7fd78b1"
+        },
+        {
+          "artifact": "completed_replacement_tiebreak_disputes.csv",
+          "rows": 1,
+          "sha256": "1021a01cdd5d800fb38aa4a083742857bd63bc181ec2b6825882ffaf43390214"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "c7c02e48033e475a83d75deed062fd876219b5ab3aa710a87b7194f524dd5352"
+        }
+      ],
+      "recorded_utc": "2026-07-16T03:58:19Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "merge_replacement_tiebreak",
+      "stage_record_sha256": "10243656edce812bbb9193181247b11574f4daf6ad77f03614ac950501745eff"
+    },
+    {
+      "counts": {
+        "deficient_sources_removed": 1,
+        "new_replacement_candidates": 20,
+        "replacement_batch_number": 2,
+        "replacement_sources_added": 1,
+        "retained_candidate_rows_unchanged": 1562,
+        "retained_sources_unchanged": 79,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "source_sampling_frame.csv",
+          "rows": 342,
+          "sha256": "d5a19a8b8608cbfb5df6c12228f2394720f652b4df6d782a6825c07af6833197"
+        },
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1575,
+          "sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1575,
+          "sha256": "c7c02e48033e475a83d75deed062fd876219b5ab3aa710a87b7194f524dd5352"
+        },
+        {
+          "artifact": "sampling_exclusion_replacement_ledger.csv",
+          "rows": 4,
+          "sha256": "d34c93853b5cdc75ab4e14489e7ae0ad896d9b1627abf60c494237a4a6fe2992"
+        },
+        {
+          "artifact": "sampling_screen_summary_parent.json",
+          "rows": 8,
+          "sha256": "028012716621ae4d799c690d45bfa39215a924a6004b6b99820571a02f0976e4"
+        },
+        {
+          "artifact": "source_replacement_summary_parent.json",
+          "rows": 1,
+          "sha256": "657304485145a1f1d983804081ac6c64fadc65c4bd4d097a07f87d7373353cac"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "source_sampling_frame.csv",
+          "rows": 342,
+          "sha256": "c4d1cb1a6c8b58554c2313d112460f8ae0e5076e18e031bf355e9bc7d4669801"
+        },
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1582,
+          "sha256": "69582dd83bb696d5097a8683f94df1dc29f00412db2924243e78e4cdc495d732"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "7026e0614b989b19278791a48a6c8d0c3780a3f8e24648864c55a9bb181b5eb4"
+        }
+      ],
+      "recorded_utc": "2026-07-16T04:01:43Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "apply_replacements",
+      "stage_record_sha256": "ca714c8458551e1d5a6bbd0a15b60c1868dd2868e1c9cff11e8b3a37c3b06ea4"
+    },
+    {
+      "counts": {
+        "replacement_batch_number": 2,
+        "replacement_candidates_per_initial_screener": 20,
+        "retained_candidates_not_reissued": 1562,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1582,
+          "sha256": "69582dd83bb696d5097a8683f94df1dc29f00412db2924243e78e4cdc495d732"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "7026e0614b989b19278791a48a6c8d0c3780a3f8e24648864c55a9bb181b5eb4"
+        },
+        {
+          "artifact": "source_replacement_summary.json",
+          "rows": 1,
+          "sha256": "c287b6c6022c21c5948f1641424b1a58dd9467481457a7f111416043ce228dd8"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "replacement_initial_screener_1.csv",
+          "rows": 20,
+          "sha256": "0ea185832a8ba05d834ddfa9c86b5daf1270b6c2f940f967684bcbdcdb042590"
+        },
+        {
+          "artifact": "replacement_initial_screener_2.csv",
+          "rows": 20,
+          "sha256": "963e1f9ecc4200dbb5c00b32dc79dc7ee1ea0b773882bb50da6eeda773819d14"
+        }
+      ],
+      "recorded_utc": "2026-07-16T04:35:01Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "build_replacement",
+      "stage_record_sha256": "f4502f0e0cb20cc9dce8da7c7b6091cfa7343510c86f9093cbac9231108405e1"
+    },
+    {
+      "counts": {
+        "replacement_batch_number": 2,
+        "replacement_initial_agreements": 18,
+        "replacement_initial_disputes": 2,
+        "replacement_vote_pair_eligible_c2_eligible_c2": 2,
+        "replacement_vote_pair_eligible_c2_ineligible": 1,
+        "replacement_vote_pair_eligible_c5_eligible_c5": 2,
+        "replacement_vote_pair_ineligible_eligible_c5": 1,
+        "replacement_vote_pair_ineligible_ineligible": 14,
+        "retained_candidates_unchanged": 1562,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1582,
+          "sha256": "69582dd83bb696d5097a8683f94df1dc29f00412db2924243e78e4cdc495d732"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "7026e0614b989b19278791a48a6c8d0c3780a3f8e24648864c55a9bb181b5eb4"
+        },
+        {
+          "artifact": "completed_replacement_initial_screener_1.csv",
+          "rows": 20,
+          "sha256": "5886a7a9a3f54df7121c54f16bea938148050e81925169092a0cbcf5269136b4"
+        },
+        {
+          "artifact": "completed_replacement_initial_screener_2.csv",
+          "rows": 20,
+          "sha256": "a4809b4a852e18dc589a63e8fa815a4a1318988234e785d69e4bacd9351e38b1"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "22cb48cbd4019c23ef0eff13b2364125d5ba01cfb1b6af5a745ea1dd57c01635"
+        },
+        {
+          "artifact": "replacement_tiebreak_disputes.csv",
+          "rows": 2,
+          "sha256": "b9a37ab08955c52375d5fc02f41c5ed233164275302462839659e2c7d2fa8d86"
+        }
+      ],
+      "recorded_utc": "2026-07-18T04:56:03Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "merge_replacement_initial",
+      "stage_record_sha256": "898c3f5422895de7cfd7a0310693d4dffe8eb06bec2f904d839fb05f85195afc"
+    },
+    {
+      "counts": {
+        "replacement_batch_number": 2,
+        "replacement_tiebreak_rows": 2,
+        "replacement_tiebreak_vote_eligible_c2": 1,
+        "replacement_tiebreak_vote_eligible_c5": 1,
+        "retained_candidates_unchanged": 1562,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1582,
+          "sha256": "69582dd83bb696d5097a8683f94df1dc29f00412db2924243e78e4cdc495d732"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "22cb48cbd4019c23ef0eff13b2364125d5ba01cfb1b6af5a745ea1dd57c01635"
+        },
+        {
+          "artifact": "completed_replacement_tiebreak_disputes.csv",
+          "rows": 2,
+          "sha256": "67f81d66cbd3c1b2f51af0a2b4a3d960ef0a74fdf31ed6e00cc119317cf4f813"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "341d3904febecf0a8ede2a77c5db034ee80c2c4283ee3e55c5708546fd169b7c"
+        }
+      ],
+      "recorded_utc": "2026-07-18T05:07:44Z",
+      "screener_ids": [
+        "SMP-88914A687961",
+        "SMP-148C94C6E464",
+        "SMP-BAB8157E2BD8"
+      ],
+      "stage": "merge_replacement_tiebreak",
+      "stage_record_sha256": "3dfcf6c82ba97655bf07477bbe89f10c6e4581b9cf5baa5df7cc40d4355f242c"
+    },
+    {
+      "counts": {
+        "affected_candidates": 11,
+        "affected_frozen_claims": 1,
+        "correction_records": 12,
+        "parsed_cells_corrected": 33,
+        "test_outcomes_generated": 0
+      },
+      "inputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1582,
+          "sha256": "69582dd83bb696d5097a8683f94df1dc29f00412db2924243e78e4cdc495d732"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "341d3904febecf0a8ede2a77c5db034ee80c2c4283ee3e55c5708546fd169b7c"
+        },
+        {
+          "artifact": "frozen_test_claims.csv",
+          "rows": 480,
+          "sha256": "15373c2f907c7ea00864708bb4cb97fabf8c6b96665fa488b7149ba4a7bda3ad"
+        },
+        {
+          "artifact": "frozen_text_corrections.csv",
+          "rows": 12,
+          "sha256": "e3a3c4c2c478d5cc351e509d04fa971476033dab66021de3a0f97da905a819e5"
+        }
+      ],
+      "outputs": [
+        {
+          "artifact": "candidate_claims_deterministic.csv",
+          "rows": 1582,
+          "sha256": "e195e699e4e8ac84db9a25111163ca742144e186fc31e6f3e6526f4694549a3f"
+        },
+        {
+          "artifact": "candidate_claims_model_prescreen.csv",
+          "rows": 1582,
+          "sha256": "d54535c1fd8c838f5edb3433257430fd2004fa2299226c4fde26f75de745de37"
+        },
+        {
+          "artifact": "frozen_test_claims.csv",
+          "rows": 480,
+          "sha256": "36b2d0d2c29836e04be8be192f8542cb1acd736a5c5d4148498c7358574677ce"
+        }
+      ],
+      "recorded_utc": "2026-07-18T11:17:02Z",
+      "screener_ids": [],
+      "stage": "apply_pretest_text_corrections",
+      "stage_record_sha256": "758b52ab68ea8e3f45634538838ca5b26705a766813984166c9b6c4ad13a110a"
+    }
+  ],
+  "status": "human_sampling_screen_complete"
+}

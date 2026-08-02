@@ -1,0 +1,68 @@
+{
+  "abstention_mass_came_from": {
+    "narrows": 108,
+    "survives": 390,
+    "undefined": 308
+  },
+  "abstention_share": 0.42443391258557134,
+  "abstention_share_by_judge": {
+    "absA_gpt5mini": 0.4549763033175355,
+    "absB_claudeopus46": 0.5260663507109005,
+    "absC_gemini31pro": 0.292259083728278
+  },
+  "abstention_share_max": 0.5260663507109005,
+  "abstention_share_min": 0.292259083728278,
+  "design_note": "The abstention codebook is the deployed codebook with a fourth verdict value and an instruction to prefer it under uncertainty, and nothing else changed. Same judges, same windows, same context width, same item order.",
+  "fleiss_kappa_collapsed_to_deployed_space": 0.06391970844208851,
+  "fleiss_kappa_deployed_arm": 0.05759042498093076,
+  "fleiss_kappa_four_class": 0.12754611605959928,
+  "fleiss_kappa_four_class_ci95": [
+    0.01897445227157815,
+    0.23967812255947218
+  ],
+  "gwet_ac1_four_class": 0.23250513145993176,
+  "judges_abstention": [
+    "absA_gpt5mini",
+    "absB_claudeopus46",
+    "absC_gemini31pro"
+  ],
+  "judges_deployed": [
+    "coderA_gpt5mini",
+    "coderB_claudeopus46",
+    "coderC_gemini31pro"
+  ],
+  "kappa_difference": 0.006329283461157749,
+  "kappa_difference_ci95": [
+    -0.07310975320363759,
+    0.10828345630115768
+  ],
+  "kappa_difference_four_class": 0.06995569107866853,
+  "kappa_difference_four_class_ci95": [
+    -0.029036320802800743,
+    0.1854026190815275
+  ],
+  "label_distribution_abstention": {
+    "narrows": 105,
+    "not_determinable_from_text": 806,
+    "survives": 541,
+    "undefined": 447
+  },
+  "label_distribution_deployed": {
+    "narrows": 220,
+    "survives": 950,
+    "undefined": 729
+  },
+  "max_attainable_kappa_collapsed": 0.36315849016961776,
+  "max_attainable_kappa_deployed": 0.45994745416364524,
+  "max_attainable_kappa_four_class": 0.5432583926132774,
+  "n_items": 633,
+  "n_papers": 100,
+  "observed_collapsed": 0.5502896261190086,
+  "observed_deployed": 0.4449710373881001,
+  "observed_four_class": 0.40652975250131895,
+  "reading": "If judges use the abstention label heavily and agreement rises once it is collapsed away, the deployed instrument was forcing a commitment the passage did not support, and the census result is partly a prompt-design finding. If they use it and agreement does not rise, the disagreement is about which passages are silent, not about whether silence can be reported.",
+  "schema_version": 1,
+  "survives_share_abstention": 0.28488678251711425,
+  "survives_share_change": -0.21537651395471308,
+  "survives_share_deployed": 0.5002632964718273
+}

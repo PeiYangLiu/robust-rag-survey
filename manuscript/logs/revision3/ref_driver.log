@@ -1,0 +1,15 @@
+[start] 19:57:25 comparability__both_full__refA_claudeopus5
+[start] 19:57:25 comparability__both_full__refB_gpt55
+[start] 19:57:25 comparability__both_full__refC_gemini31pro
+[stage done] 20:03:03 both_full/comparability
+[start] 20:03:03 comparability__citing_full__refA_claudeopus5
+[start] 20:03:03 comparability__citing_full__refB_gpt55
+[start] 20:03:03 comparability__citing_full__refC_gemini31pro
+[stage done] 20:15:11 citing_full/comparability
+[start] 20:15:11 provenance__both_full__refA_claudeopus5
+[start] 20:15:11 provenance__both_full__refB_gpt55
+[start] 20:15:11 provenance__both_full__refC_gemini31pro
+[stage done] 20:20:47 both_full/provenance
+[start] 20:20:47 provenance__citing_full__refA_claudeopus5
+[start] 20:20:47 provenance__citing_full__refB_gpt55
+[start] 20:20:47 provenance__citing_full__refC_gemini31pro

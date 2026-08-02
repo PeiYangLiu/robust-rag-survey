@@ -25,7 +25,7 @@ from pathlib import Path
 from typing import Iterable
 
 
-ROOT = Path("/home/v-peiyangliu/robust-rag-survey")
+ROOT = Path(__file__).resolve().parents[1]  # repository root
 PDF_DIR = ROOT / "pdfs"
 META_DIR = ROOT / "metadata"
 LOG_DIR = ROOT / "logs"

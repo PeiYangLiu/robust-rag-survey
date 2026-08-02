@@ -1,0 +1,20 @@
+{
+  "description": "Append-only ledger-directed source replacement audit; no replacement vote or test outcome is stored here.",
+  "required_top_level_fields": {
+    "batches": "one or more ordered append-only RB-001..N replacement batch records; prior records are immutable",
+    "current_batch_id": "latest replacement batch identifier",
+    "prohibited_use": "replacement is pre-label sampling administration",
+    "schema_version": "stable-source-replacement-v1",
+    "status": "APPLIED_AWAITING_REPLACEMENT_SCREEN"
+  },
+  "batch_required_fields": {
+    "active_source_slots": "exactly 80 stable slots after this batch; each new replacement inherits its currently active deficient-source slot and all other slots are unchanged",
+    "batch_record_sha256": "SHA-256 of the batch object before this field is added",
+    "invariants": "hashes of all immediate-parent active rows not replaced in this batch; after the pre-test text correction these remain immutable historical preimage hashes and are verified by reversing frozen_text_corrections.csv",
+    "outputs": "frame, deterministic, human-screened, and sampling-summary hashes/counts at application time; a later final apply_pretest_text_corrections stage bridges these hashes to the current corrected artifacts",
+    "parent": "parent artifact and cumulative hashed-ledger anchors; RB-002+ also records prior_batch_id, prior full-summary SHA-256, and the new ledger-suffix hash/count/event IDs",
+    "recorded_utc": "coordinator-supplied UTC timestamp",
+    "replacements": "ledger event, deficient/replacement keys, stable slot, counts, text hash, and H3R namespace"
+  },
+  "status": "SCHEMA_ONLY_NO_REPLACEMENT_VOTES_OR_TEST_OUTCOMES"
+}

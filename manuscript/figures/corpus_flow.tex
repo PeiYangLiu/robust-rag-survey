@@ -1,43 +1,17 @@
+% Drawn by scripts/revision3/fig_appendix_flows.py; the .pptx is the editable
+% source and is released with the paper.
 \begin{figure*}[t]
 \centering
-\scriptsize
-\begin{tikzpicture}[
-    box/.style={draw, rounded corners, align=center, inner sep=3pt, minimum height=0.55cm},
-    map/.style={box, fill=blue!6},
-    audit/.style={box, fill=green!7},
-    final/.style={box, fill=orange!12, very thick},
-    arrow/.style={-{Latex[length=2mm]}, thick}
-]
-\node[box] (r) at (0,0) {1,904\\retrieved records};
-\node[box] (p) at (2.4,0) {1,445\\open PDFs};
-\node[box] (d) at (4.8,0) {1,399\\deduplicated};
-\node[box] (i) at (7.2,0) {536\\included};
-
-\node[audit] (s300) at (5.0,-1.35) {Base scoping\\set};
-\node[audit] (s326) at (7.6,-1.35) {Venue-augmented\\scoping set};
-
-\node[map] (m250) at (2.1,-2.8) {250\\base evidence\\records};
-\node[map] (m274) at (4.9,-2.8) {274\\double-coded\\candidate records};
-\node[map] (m268) at (7.7,-2.8) {Map A: 268\\adjudicated seed\\IAA basis};
-
-\node[audit] (pdfs) at (2.0,-4.25) {Venue + extension\\PDF collections};
-\node[audit] (b300) at (4.8,-4.25) {Source-blind\\citation audit};
-\node[audit] (m416) at (7.2,-4.25) {416\\candidate\\expansion};
-\node[final] (m342) at (9.6,-4.25) {Map B: 342\\adjudicated\\synthesis map};
-
-\draw[arrow] (r) -- (p);
-\draw[arrow] (p) -- (d);
-\draw[arrow] (d) -- (i);
-\draw[arrow] (i) -- (s300);
-\draw[arrow] (s300) -- node[above]{+26 venue-linked} (s326);
-\draw[arrow] (i) |- (m250);
-\draw[arrow] (m250) -- node[above]{+24 venue-linked} (m274);
-\draw[arrow] (m274) -- node[above]{-6 exclusions} (m268);
-\draw[arrow] (pdfs) -- (b300);
-\draw[arrow] (b300) -- node[above]{+148 new, +20 enriched} (m416);
-\draw[arrow] (m268) -- (m416);
-\draw[arrow] (m416) -- node[above]{-74 boundary rows} (m342);
-\end{tikzpicture}
-\caption{Corpus lineage. The 416-row venue-expanded candidate map is second-coded and adjudicated into Map B (342 rows), the canonical synthesis evidence map. Map A (268 rows) is the double-coded adjudicated seed used for IAA and adjudication audit. The base and venue-augmented scoping sets are used for boundary checks, while a separate 300-paper source-blind citation audit over the venue and extension PDF collections decides which papers enter the main text, case studies, or appendix.}
+\includegraphics[width=\textwidth]{figures/generated/fig_corpus_lineage.pdf}%
+\caption{Corpus lineage. Red deltas on the connectors are, in order, $+26$ and
+$+24$ venue-linked additions, $-6$ exclusions, $+148$ new and $+20$ enriched
+rows from the citation audit, and $-74$ boundary rows removed at adjudication.
+The 416-row venue-expanded candidate map is second-coded and adjudicated into
+Map~B (342 rows), the canonical synthesis evidence map. Map~A (268 rows) is the
+double-coded adjudicated seed used for IAA and adjudication audit; the base and
+venue-augmented scoping sets are used only for boundary checks, while a separate
+300-paper source-blind citation audit over the venue and extension PDF
+collections decides which papers enter the main text, case studies, or
+appendix.}
 \label{fig:corpus-flow}
 \end{figure*}

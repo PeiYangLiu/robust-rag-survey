@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\renewcommand{\arraystretch}{0.92}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.13\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.30\linewidth}X}
+\toprule
+\textbf{Field} & \textbf{Question} & \textbf{Representative values} & \textbf{Why it changes a comparison} \\
+\midrule
+Evidence state & What is observable at the decision boundary? & Supported; distracting; insufficient; conflicting; stale/weak provenance; adversarially manipulated; not evidence-conditioned. & Query ambiguity and model uncertainty are not silently mixed with properties of retrieved evidence. \\
+Origin / capability & How did that state arise, and what can an attacker observe or change? & Benign retrieval; constructed stressor; natural drift/conflict; distribution shift; attacker-created evidence with access, budget, and target. & Transfer depends on the data-generating process and the attacker's capability envelope. \\
+Intervention & What part of the system changes? & Corpus/index; retriever; reranker; context assembly; generator; verifier; system control; evaluation artifact. & Components may be alternatives in a shared harness or complementary stages in a pipeline. \\
+Outcome & What object and unit are measured? & Answer correctness; retrieval quality; claim support; attack success; privacy leakage; calibration; selective risk; cost. & Identically named datasets do not make different target quantities interchangeable. \\
+\textbf{Policy / utility} & What response is selected, under which costs and stakes? & Answer; verify; re-retrieve; expose conflict; clarify; quarantine; recover; abstain; coverage--risk utility. & A signal becomes operational only through an action set and a declared utility context. \\
+\midrule
+Control check & Does the experiment support the intended inference? & Dataset and corpus snapshot; retriever; top-$k$; generator; decoding; budget; baselines; uncertainty. & Tuple compatibility alone cannot remove experimental confounding. \\
+\bottomrule
+\end{tabularx}
+\caption{The diagnostic schema. The five fields identify whether two results address a compatible question; a claim-specific control check then determines whether their reported numbers support the intended inference. The fields are not assumed orthogonal or sufficient.}
+\label{tab:main-framework-overview}
+\end{table*}

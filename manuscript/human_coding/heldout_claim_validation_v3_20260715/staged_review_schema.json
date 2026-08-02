@@ -1,0 +1,53 @@
+{
+  "collection_receipt_schema_version": "coordinator-collection-receipt-v2",
+  "coordinator_artifacts": {
+    "adjudicator_packet_registry": "adjudicator_packet_registry.json (empty before gold; populated only from complete-gold disagreements)",
+    "collection_receipt": "coordinator_collection_receipt.json",
+    "correction_ledger": "review_extraction_corrections.csv",
+    "issuance_registry": "composition_packet_issuance_registry.json",
+    "issuance_rows": "composition_issuance_rows.csv",
+    "invalidated_composition_archive": "coordinator_invalidated_composition_archive/ (collected-only; absent from frozen/portable reviewer packages)",
+    "packet_registry": "coordinator_packet_registry.json",
+    "response_receipts": "coordinator_response_receipts.csv",
+    "text_correction_ledger": "frozen_text_corrections.csv"
+  },
+  "adjudicator_packet_registry_schema_version": "coordinator-adjudicator-packet-registry-v1",
+  "adjudicator_packet_version": "adjudicator-packet-v1",
+  "adjudicator_response_cardinality_rule": "Each adjudicator response file has exactly one row for every claim with exactly three completed independent gold records that disagree on at least one output, and no row for incomplete or non-disputed gold. Duplicate claim IDs are forbidden independently of adjudication_id.",
+  "adjudicator_trust_rule": "Deterministic adjudication_id binds packet version, anonymous participant, claim, and ordered disputed outputs. Blinded gold IDs, raw-material hash, issued blank-packet hash, ordered rows, and role are reconstructed from frozen claims, gold responses, and the public roster and must exactly match the coordinator registry.",
+  "correction_schema_version": "coordinator-extraction-correction-v2.1",
+  "extraction_hash_schema_version": "coordinator-extraction-row-v2",
+  "frozen_state_machine": {
+    "composition_issued_no_responses": "Exactly 27 active issuance chains cover 7,200 active rows; coordinator response receipts and all formal response files remain empty. Strict validation requires --composition-packets-root and verifies all four files for every issuance. Portable validation verifies only internal registry/row/correction hashes and explicitly reports participant packet bytes as not verified.",
+    "frozen_calibration_passed_before_composition_issuance": "Composition issuance registry, issuance rows, corrections, coordinator receipts, and all formal response files are empty."
+  },
+  "invalidated_composition_archive_schema_version": "coordinator-invalidated-composition-archive-v1",
+  "invalidated_composition_archive_rule": "Each correction copies the exact superseded composition into a coordinator-only path. The correction row and issuance-registry archive index contain the same relative path and SHA-256; issuance, collection, and strict collected validation require the file and rehash it.",
+  "issuance_registry_schema_version": "composition-issuance-registry-v2.1",
+  "packet_registry_schema_version": "coordinator-packet-registry-v2",
+  "packet_registry_text_roots": "frozen_claims_sha256 plus frozen_text_corrections_sha256/frozen-text-corrections-v1; both are coordinator-only trust anchors",
+  "participant_stage1_files": [
+    "extraction.csv",
+    "instructions_stage1.md",
+    "stage1_config.json"
+  ],
+  "participant_stage1_prohibitions": [
+    "composition fields",
+    "output labels or definitions",
+    "stage-2 instructions",
+    "participant-side trust-root code"
+  ],
+  "participant_stage2_files": [
+    "locked_extraction.csv",
+    "composition.csv",
+    "instructions_stage2.md",
+    "stage2_config.json"
+  ],
+  "participant_stage2_external_verification_rule": "Issued participant directories are external inputs and never enter package MANIFEST.sha256. Strict frozen validation requires the external root once any issuance exists; portable reviewer packages omit it and record an explicit external_input_skips entry.",
+  "pre_response_correction_rule": "The issued/no-response frozen state permits hash-valid monotonic correction chains while formal response and coordinator receipt ledgers remain empty. Strict mode verifies every issuance version and any coordinator archive; portable mode verifies internal chain anchors without claiming external packet/archive byte verification.",
+  "response_receipt_schema_version": "coordinator-final-response-receipt-v2",
+  "time_order_rule": "For each packet, issued_utc is nondecreasing by extraction version; a correction issued_utc equals its new issuance time. Active composition obeys issuance/extraction lock <= composition_started_utc <= completed_utc <= coordinator receipt.",
+  "status": "SCHEMA_ONLY_NO_FORMAL_RESPONSES",
+  "trust_boundary": "Coordinator reconstructs immutable rows, issues extraction hashes, and receipts final rows; participant configuration and hashes are never authoritative.",
+  "workflow_version": "v3.0.0-staged-review-v2"
+}

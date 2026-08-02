@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"SeCon* RAG* A Two* Stage* Semantic* Filtering* and* Conflict* Free* Framework* for* Trustworthy* RAG*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"279.33"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"4",
+"@dc":"2",
+"@oc":"4",
+"@id":"70794332",
+"text":"rag"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"17",
+"@id":"696214",
+"info":{"authors":{"author":[{"@pid":"306/1555","text":"Xiaonan Si"},{"@pid":"97/2262","text":"Meilin Zhu"},{"@pid":"348/9418","text":"Simeng Qin"},{"@pid":"175/8873","text":"Lijia Yu"},{"@pid":"76/4015","text":"Lijun Zhang"},{"@pid":"396/1719","text":"Shuaitong Liu"},{"@pid":"04/8388","text":"Xinfeng Li"},{"@pid":"261/3330","text":"Ranjie Duan"},{"@pid":"51/3710","text":"Yang Liu"},{"@pid":"57/5656","text":"Xiaojun Jia"}]},"title":"SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG.","venue":"NeurIPS","year":"2025","type":"Conference and Workshop Papers","access":"open","key":"conf/nips/SiZQYZLLDLJ25","ee":"http://papers.nips.cc/paper_files/paper/2025/hash/668563ef18fbfef0b66af491ea334d5f-Abstract-Conference.html","url":"https://dblp.org/rec/conf/nips/SiZQYZLLDLJ25"},
+"url":"URL#696214"
+},
+{
+"@score":"17",
+"@id":"860143",
+"info":{"authors":{"author":[{"@pid":"306/1555","text":"Xiaonan Si"},{"@pid":"97/2262","text":"Meilin Zhu"},{"@pid":"348/9418","text":"Simeng Qin"},{"@pid":"175/8873","text":"Lijia Yu"},{"@pid":"76/4015","text":"Lijun Zhang"},{"@pid":"396/1719","text":"Shuaitong Liu"},{"@pid":"04/8388","text":"Xinfeng Li"},{"@pid":"261/3330","text":"Ranjie Duan"},{"@pid":"51/3710","text":"Yang Liu"},{"@pid":"57/5656","text":"Xiaojun Jia"}]},"title":"SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG.","venue":"CoRR","volume":"abs/2510.09710","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2510-09710","doi":"10.48550/ARXIV.2510.09710","ee":"https://doi.org/10.48550/arXiv.2510.09710","url":"https://dblp.org/rec/journals/corr/abs-2510-09710"},
+"url":"URL#860143"
+}
+]
+}
+}
+}

@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Panel & Field & $N$ & $\kappa$ & $\kappa_{\max}$ & $AC_1$ \\
+\midrule
+Three human coders & verdict & 80 & 0.35 & 0.49 & 0.57 \\
+ & C1 & 80 & 0.15 & 0.44 & 0.34 \\
+ & C4 & 80 & 0.36 & 0.78 & 0.68 \\
+\addlinespace
+Deployed model panel (3) & verdict & 79 & 0.21 & 0.71 & 0.23 \\
+ & C1 & 79 & 0.08 & 0.41 & 0.28 \\
+ & C4 & 79 & 0.31 & 0.54 & 0.55 \\
+\addlinespace
+Second model panel (3) & verdict & 80 & -0.11 & 0.12 & 0.02 \\
+ & C1 & 80 & -0.01 & 0.15 & 0.23 \\
+ & C4 & 80 & -0.00 & 0.18 & 0.19 \\
+\addlinespace
+All model judges & verdict & 79 & 0.11 & 0.42 & 0.14 \\
+ & C1 & 79 & 0.12 & 0.36 & 0.31 \\
+ & C4 & 79 & 0.17 & 0.38 & 0.36 \\
+\bottomrule
+\end{tabular}
+\caption{Reliability on the same \HumN{} published comparative claims, under the same frozen codebook. The human panel is three independently recruited coders (\HumHours{} person-hours) who were additionally instructed to open each source; the model panels read the quotation and its context. The deployed panel is the census panel of \S\ref{sec:applied} (gpt-5-mini, claude-opus-4.6, gemini-3.1-pro-preview); the second panel is a disjoint checkpoint from each of the same three developers, so the comparison does not rest on one triple. $\kappa$ is Fleiss' $\kappa$ over the panel, $\kappa_{\max}$ the Umesh ceiling those raters' own marginals permit, $AC_1$ Gwet's prevalence-robust coefficient. The second panel's near-zero $\kappa$ should be read against its ceiling of \HumFrontVerdictKmax{}, not as noise: two of its checkpoints sit at opposite ends of the threshold range (\HumModSpreadLo\%--\HumModSpreadHi\% of claims called sound), so their marginals barely overlap and almost no $\kappa$ is attainable. That is the threshold heterogeneity of \S\ref{sec:practice} in its sharpest form. Intervals in \texttt{human\_anchor\_results.json} resample sources.}
+\label{tab:human-anchor}
+\end{table}

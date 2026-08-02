@@ -1,0 +1,222 @@
+{
+  "definitions": {
+    "classified": "windows the provenance panel assigned to reimplemented or transported (excludes unclear and no-majority)",
+    "provenance_class": "strict majority of three independent provenance judges (provA_gpt5mini, provB_claudeopus46, provC_gemini31pro)",
+    "reimplemented_share": "n_reimplemented / (n_reimplemented + n_transported)"
+  },
+  "frame": {
+    "n_any_judge_eligible": 1032,
+    "n_candidates": 1703,
+    "n_coded_by_all_deployed": 1690,
+    "n_development_heldout": 133,
+    "n_majority_eligible": 704,
+    "n_ordered_heldout": 1586,
+    "n_unanimous_eligible": 449
+  },
+  "gates": {
+    "a_unanimous": {
+      "composition_consistent": true,
+      "definition": "all three coders call the window eligible",
+      "n_classified": 381,
+      "n_gate_eligible": 449,
+      "n_missing_provenance": 40,
+      "n_no_majority": 2,
+      "n_provenance_coded": 409,
+      "n_reimplemented": 328,
+      "n_transported": 53,
+      "n_unclear": 26,
+      "reimplemented_share": 0.8608923884514436,
+      "reimplemented_share_incl_unclear": 0.8058968058968059,
+      "wilson_ci95": [
+        0.8225282325331633,
+        0.8920517424035808
+      ],
+      "wilson_ci95_incl_unclear": [
+        0.7646854715098547,
+        0.8413877342314865
+      ]
+    },
+    "b_majority": {
+      "composition_consistent": true,
+      "definition": "at least two of three coders call the window eligible (deployed setting)",
+      "n_classified": 610,
+      "n_gate_eligible": 704,
+      "n_missing_provenance": 46,
+      "n_no_majority": 4,
+      "n_provenance_coded": 658,
+      "n_reimplemented": 533,
+      "n_transported": 77,
+      "n_unclear": 44,
+      "reimplemented_share": 0.8737704918032787,
+      "reimplemented_share_incl_unclear": 0.8149847094801224,
+      "reproduces_published_874": true,
+      "wilson_ci95": [
+        0.8450551297674884,
+        0.8978076949018052
+      ],
+      "wilson_ci95_incl_unclear": [
+        0.7834150951006232,
+        0.8428756235437432
+      ]
+    },
+    "c_any_judge": {
+      "composition_consistent": true,
+      "coverage_note": "The provenance pass was only ever run on the majority-eligible ledger, so no window that fails the majority gate carries a provenance label. Every provenance-coded any-judge-eligible window is therefore also majority-eligible, and this row necessarily equals the majority gate. The re-implementation share over the windows that are any-judge-eligible but NOT majority-eligible cannot be computed from existing data and is not invented.",
+      "definition": "at least one of three coders calls the window eligible",
+      "n_classified": 610,
+      "n_gate_eligible": 1032,
+      "n_missing_provenance": 374,
+      "n_no_majority": 4,
+      "n_provenance_coded": 658,
+      "n_reimplemented": 533,
+      "n_transported": 77,
+      "n_unclear": 44,
+      "reimplemented_share": 0.8737704918032787,
+      "reimplemented_share_incl_unclear": 0.8149847094801224,
+      "wilson_ci95": [
+        0.8450551297674884,
+        0.8978076949018052
+      ],
+      "wilson_ci95_incl_unclear": [
+        0.7834150951006232,
+        0.8428756235437432
+      ]
+    },
+    "d_no_gate": {
+      "composition_consistent": true,
+      "coverage_note": "A true no-gate share over all 1,703 candidates is not computable: only the provenance-coded set carries labels. Of these, 29 are absent from the current candidate frame (they appear only in the codebook-development codings) and are excluded from the primary census by construction; restricting to the current frame reproduces the majority gate exactly.",
+      "definition": "every candidate all three provenance judges labelled, no eligibility gate",
+      "n_absent_from_current_frame": 29,
+      "n_classified": 639,
+      "n_gate_eligible": 687,
+      "n_in_current_frame": 658,
+      "n_missing_provenance": 0,
+      "n_no_majority": 4,
+      "n_provenance_coded": 687,
+      "n_reimplemented": 549,
+      "n_transported": 90,
+      "n_unclear": 44,
+      "reimplemented_share": 0.8591549295774648,
+      "reimplemented_share_incl_unclear": 0.8038067349926794,
+      "restricted_to_current_frame": {
+        "composition_consistent": true,
+        "n_classified": 610,
+        "n_no_majority": 4,
+        "n_provenance_coded": 658,
+        "n_reimplemented": 533,
+        "n_transported": 77,
+        "n_unclear": 44,
+        "reimplemented_share": 0.8737704918032787,
+        "reimplemented_share_incl_unclear": 0.8149847094801224,
+        "wilson_ci95": [
+          0.8450551297674884,
+          0.8978076949018052
+        ],
+        "wilson_ci95_incl_unclear": [
+          0.7834150951006232,
+          0.8428756235437432
+        ]
+      },
+      "wilson_ci95": [
+        0.8300324603973713,
+        0.8839849597621149
+      ],
+      "wilson_ci95_incl_unclear": [
+        0.7723602775293569,
+        0.8318548505315863
+      ]
+    }
+  },
+  "leave_one_out_majority_gate": {
+    "configs": [
+      {
+        "composition_consistent": true,
+        "dropped_judge": "coderA_gpt5mini",
+        "kept_judges": [
+          "coderB_claudeopus46",
+          "coderC_gemini31pro"
+        ],
+        "n_classified": 403,
+        "n_gate_eligible": 472,
+        "n_no_majority": 2,
+        "n_provenance_coded": 431,
+        "n_reimplemented": 350,
+        "n_transported": 53,
+        "n_unclear": 26,
+        "reimplemented_share": 0.8684863523573201,
+        "reimplemented_share_incl_unclear": 0.8158508158508159,
+        "wilson_ci95": [
+          0.8319833076880357,
+          0.8980307888585496
+        ],
+        "wilson_ci95_incl_unclear": [
+          0.7764249873090796,
+          0.8496703057278421
+        ]
+      },
+      {
+        "composition_consistent": true,
+        "dropped_judge": "coderB_claudeopus46",
+        "kept_judges": [
+          "coderA_gpt5mini",
+          "coderC_gemini31pro"
+        ],
+        "n_classified": 532,
+        "n_gate_eligible": 611,
+        "n_no_majority": 2,
+        "n_provenance_coded": 567,
+        "n_reimplemented": 464,
+        "n_transported": 68,
+        "n_unclear": 33,
+        "reimplemented_share": 0.8721804511278195,
+        "reimplemented_share_incl_unclear": 0.8212389380530973,
+        "wilson_ci95": [
+          0.8411162625815816,
+          0.8979083005237136
+        ],
+        "wilson_ci95_incl_unclear": [
+          0.7875084759246604,
+          0.8506306652543434
+        ]
+      },
+      {
+        "composition_consistent": true,
+        "dropped_judge": "coderC_gemini31pro",
+        "kept_judges": [
+          "coderA_gpt5mini",
+          "coderB_claudeopus46"
+        ],
+        "n_classified": 437,
+        "n_gate_eligible": 519,
+        "n_no_majority": 4,
+        "n_provenance_coded": 478,
+        "n_reimplemented": 375,
+        "n_transported": 62,
+        "n_unclear": 37,
+        "reimplemented_share": 0.8581235697940504,
+        "reimplemented_share_incl_unclear": 0.7911392405063291,
+        "wilson_ci95": [
+          0.8222823180950048,
+          0.8877234985902812
+        ],
+        "wilson_ci95_incl_unclear": [
+          0.7522767031799354,
+          0.8253207298266577
+        ]
+      }
+    ],
+    "note": "drop one coder in turn; majority of the remaining two = both agree eligible",
+    "share_max": 0.8721804511278195,
+    "share_min": 0.8581235697940504
+  },
+  "provenance": {
+    "judges": [
+      "provA_gpt5mini",
+      "provB_claudeopus46",
+      "provC_gemini31pro"
+    ],
+    "n_coded_by_all_provenance_judges": 687
+  },
+  "question": "Reviewer Q7: sensitivity of the 87.4% re-implementation share to the LLM eligibility gate (eligibility Fleiss kappa ~= 0.51).",
+  "schema_version": "provenance-gate-sensitivity-v1"
+}

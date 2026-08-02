@@ -1,0 +1,31 @@
+
+System-centric control treats RAG as a policy rather than a fixed pipeline. A robust system must decide whether to retrieve, how much to retrieve, whether to re-retrieve, whether to verify, whether to trust internal knowledge, and whether to answer at all. This layer is where evidence reliability becomes an action.
+
+\input{tables/control_eval_methods}
+\input{tables/action_control_lineage}
+
+\paragraph{Answerability and Sufficient Context}
+
+The most basic control question is whether the available evidence is sufficient. RGB's negative rejection task and counterfactual robustness task show that RAG systems often answer when they should reject unsupported or false evidence \citep{rgb2023}. Sufficient Context reframes the problem: rather than asking whether the model can answer, ask whether the retrieved context contains enough information to answer \citep{sufficientContext2024}. Unanswerability benchmarks extend this idea to underspecified and unsupported queries \citep{rrag111,rrag141}.
+
+This line of work separates two forms of uncertainty. \emph{Evidence uncertainty} asks whether the corpus and retrieved context support the answer. \emph{Model uncertainty} asks whether the generator can integrate the evidence correctly. A system can have high model confidence but low evidence sufficiency, which is dangerous. Conversely, a system may have adequate evidence but low model confidence, suggesting verification or decomposition rather than refusal.
+
+\paragraph{Adaptive Retrieval and Retrieval Budgets}
+
+Always retrieving is inefficient and can be harmful; never retrieving leaves the model dependent on stale parametric knowledge. Adaptive retrieval methods learn or infer when external evidence is needed. Self-RAG trains models to retrieve, generate, and critique with reflection tokens \citep{selfRAG2023}. Adapt-LLM-style methods use explicit retrieval tokens to signal when retrieval is needed \citep{whenToRetrieve2024}. CtrlA uses representation-level honesty and confidence directions to guide retrieval timing \citep{ctrla2025}. Corrective RAG uses a retrieval evaluator to trigger additional retrieval or web search when the initial evidence is weak \citep{crag2024}.
+
+Recent work also shows that retrieval can be over-used. Over-searching studies introduce metrics such as tokens-per-correctness and benchmarks that measure when search-augmented systems retrieve unnecessarily \citep{rrag006}. Adaptive retrieval without self-knowledge benchmarks many uncertainty-estimation methods and shows that retrieval policies must be evaluated for both accuracy and efficiency \citep{rrag034}. The emerging view is that retrieval is a budgeted decision: each retrieval step trades cost, latency, exposure to noise, and potential accuracy gain.
+
+\paragraph{Calibration, Abstention, and Interaction}
+
+Calibration asks whether confidence matches correctness. In RAG, confidence depends on both model uncertainty and evidence uncertainty. CalibRAG optimises for calibrated decision-making \citep{calibRAG2025}; UncertaintyRAG uses span-level uncertainty to improve retrieval training and robustness under distribution shift \citep{uncertaintyRAG2024}; noise-aware verbal confidence calibration targets overconfidence under irrelevant or counterfactual retrieval \citep{rrag007}. SABER-style trust-or-abstain approaches estimate whether parametric knowledge and contextual knowledge paths are reliable, then map them to trust and abstention decisions \citep{rrag002}.
+
+Abstention should not be treated as a single fallback string. A RAG system can refuse, ask a clarifying question, retrieve more, answer partially with caveats, or expose conflicting evidence. Multi-turn unanswerability benchmarks show that robust systems must distinguish between genuinely unanswerable questions, underspecified questions requiring clarification, and answerable questions requiring retrieval \citep{rrag141}. The next step is interactive calibration: a system should not only know when it is uncertain but also choose the user-facing action that best reduces risk.
+
+\paragraph{Policy Composition}
+
+Most control methods study one decision at a time: retrieve or not, abstain or answer, verify or skip. Deployed RAG systems need policy composition. For example, if a query is ambiguous, the system should ask clarification before retrieval; if retrieval is low-confidence, it should re-query or broaden the corpus; if evidence conflicts, it should verify sources and expose disagreement; if a document contains instructions, it should treat them as data rather than commands. These actions have dependencies. Abstention after one weak retrieval may be premature if re-retrieval is cheap; re-retrieval after detecting poisoning may be unsafe if the corpus itself is compromised. A full control policy should represent state: query ambiguity, retrieval confidence, evidence sufficiency, conflict level, adversarial risk, and user risk tolerance.
+
+\paragraph{Cost, Latency, and Deployment Constraints}
+
+Control policies are constrained by cost and latency. Multi-query retrieval, reranking, entailment verification, and self-consistency can improve reliability but increase token cost and response time. Over-searching work makes this explicit by measuring the cost of unnecessary search \citep{rrag006}. In organizational settings, retrieval may also be constrained by access control, privacy, and logging requirements. A useful research direction is risk-adaptive computation: cheap pipelines for low-risk queries, stronger verification for high-risk domains, and human review for cases with high uncertainty or high potential harm.

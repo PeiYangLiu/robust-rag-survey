@@ -1,0 +1,2373 @@
+{
+  "answer_key_status": "INSTRUCTOR_CONSTRUCTED_CALIBRATION_KEY_NOT_HUMAN_TEST_GOLD",
+  "calibration_answer_key_sha256": "c4e503b7024485eacdac43dce32aadbc1acd4b4ff341470c330c5d9aa863cac7",
+  "calibration_item_ids": [
+    "CAL-V3-I01",
+    "CAL-V3-I02",
+    "CAL-V3-I03",
+    "CAL-V3-I04",
+    "CAL-V3-I05",
+    "CAL-V3-I06",
+    "CAL-V3-I07",
+    "CAL-V3-I08",
+    "CAL-V3-I09",
+    "CAL-V3-I10"
+  ],
+  "calibration_items_sha256": "e41bcebf8261f6a000cc2f00bae1ef4bddfca0dbd5b54eebccfca224eeeb882a",
+  "calibration_materials_sha256": "ce7827437680caad48c07e625b48861efc024dc45c20ea2054701ca2e147ecff",
+  "calibration_responses_sha256": "c1af5216e7e4f067843bbd0e07b434dd07bf35bacb786dd6a506ee7b6f1e8155",
+  "calibration_set_sha256": "c197e2a7ba4d6ea71ff09b4986f1c827beaf080da0751c8a2d433f0de1272d71",
+  "calibration_version": "v3.0.1-calibration-freeze",
+  "instructor_constructed_key_is_test_gold": false,
+  "item_count": 10,
+  "label_distribution": {
+    "comparability": {
+      "comparable_with_declared_scope": 2,
+      "different_estimand": 1,
+      "missing_comparison_assumption": 2,
+      "not_a_comparability_claim": 2,
+      "same_estimand": 3
+    },
+    "evidence_support": {
+      "contradicted": 2,
+      "insufficient_source_evidence": 2,
+      "supported_after_narrowing": 3,
+      "supported_as_written": 3
+    }
+  },
+  "maximum_retraining_attempts": 1,
+  "minimum_correct_per_dimension": 8,
+  "participant_status_counts": {
+    "passed_round_1": 29
+  },
+  "participants": [
+    {
+      "assigned_arm": "",
+      "final_status": "passed_round_1",
+      "participant_id": "ADJ-0AB6A49DBE28",
+      "role": "adjudicator_1",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "abb01e68abc9df8a2ea05cc5711325843d97cdf07606dca01d5a1e5af9c88081",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_abbedc4966242cb4d6c0df24",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_6560b85f5ef3fd62cc56838a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_e983474041c055fcc25d0641",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_7aa7cf65f4887a2925063775",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_7c910826498cc733f3c36c29",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_c1fa83b33b10d25d3c201ef2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_ebd79d602414c465f931d269",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_4f0ec21444a62c8b7ce243eb",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_24f613336fdb931a2eb21066",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_10b9411c9a7cffbb898cd1a4",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "",
+      "final_status": "passed_round_1",
+      "participant_id": "ADJ-1271933CAC2B",
+      "role": "adjudicator_2",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "da57eec327ac687df31425392ca933cc8307eed50c7bfb7cc5346a169b7db928",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_e7b0388157e76e455e4d5992",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_01fa042f9bb5c4909bc65c0a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_4e4e33e98fdb3ba3b63ec6d1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_81e4db46efef18f52fcdbea5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_0319e2202761e255983ad535",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_152b9bcb1d04a22b7c73d732",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_5fcf716c9c81c3029f5dcaee",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_16fb9ca73879f39b696fcaa4",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_bd696d8192ac5329f09df728",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_3c4d9675866aed61f4092de0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "B",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-03B5306CED33",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "9f4884eef4fb4923554707805047b15aafafa59fda4ed6340200c947c200f162",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_ac1b1956cc2001ff23a59316",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_a89097e7f0435d714e6cf80f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_c3c9950e7d40fa1feac25755",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_6a098d7ff0e1bf913fcdd891",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_b5dfc600d6b7cd1cebd2efce",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_813eab003cbea6afec38a984",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_ab8956f640b8d1344f07f431",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_196fc96c9cf925c0b01e7e98",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_0c5851cebb0fd6f0adf2800c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_1d066a0bf351b7049eaecb68",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "D",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-0595B9766162",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "7a8b025648f664432dee5fd8d7059bdd5e54929a189be62850cee3cb5af965da",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_7e06bccd0346dc3b79698d20",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_268b2806c8ef579f6457caf8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_f429b58b01f90f7285843902",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_4f88090a9e5de179df4998c2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_1462ca6cb24ebd7919dcc74b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_0086387e1fcf1c97fa569d7b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_4c7ba59886539c299078ecc2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_173817e06fc3dffcea18e2a1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_de8ea8d4a55ea8de36f1d19a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_2184ca7f6b4f000909ffa639",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "C",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-059908871FA4",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "01790966e5131931e7ca07a112cb5a9ed01942a8363a32da37d50a018fe93cd0",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_f50782ab6d7d960a1e71bee6",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_e39ed473d4a421187bde7422",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_21dba3909a8e74be900e89c8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_67f5fb0196a574e97e91b90b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_6981691f0dd43a59dc709eda",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_d0ef338bd64836ea5f1617bf",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_151e440915bfc507c9c5bca0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_948954eb7c4100af4105f1db",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_cf722fa623f20164a93061d8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_2fe3c2d6c7adcf244f1fcc9c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "C",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-11F358E3BC0B",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "0a192a9d5a8e762c86e59fbf28277e48529c3890eb68909b408944a1b874fe0b",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_a910773bc26da3cdfba15cb9",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_20d706b00cd4e4e0e24cc1cc",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_afce6735629cd185e62e14ff",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_be0d50fe614fc543b11928cd",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_5dae26a80a5da75b5b7b13ba",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_d673e78b39d6cb4bfa46a60d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_b894a65c7a35e3c2a5222ac1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_9aa4d272da4cc8c659e2411f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_825fab831890f61113f2ba23",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_d708fe5aa67949525a9949ad",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "C",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-1B70092E51FB",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "bde14dee24a0a4843741093cc70aa490c79f9ee4d1c9f8b04776a636b4523f91",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_1ca54669aa29b04fac7a7646",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_ffd82aa0e5bd83a7ef8bfa0f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_55bca39d549d4364a3b05242",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_ac2015eedda55176d7990b00",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_73febb43e13af9a64925dff7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_c3732945425f1982de6fc830",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_a5bb6d01aa8afe2fefbb17fc",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_b8eda4ca2e2ced3109a7c096",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_3246418fdcafd1f809166a73",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_fcc06282f5509716042468dc",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "B",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-2BA65FB9B706",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "de6c3a92d719fb8318afa886d6a4c9cb881e7785358bab24944c16917322ff15",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_e30d9c05531fef499b248010",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_04c92e6eafe7c052a1416439",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_10c0a37eeb77a806a32a68c2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_99f18b68801cad2a7234545e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_d3c4c746ccba566453f17a40",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_a8e88bf9aef88d55b290ca5d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_a921a2917f9cd097874c9285",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_4b585c0d9e106f7077fda394",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_bd2fa5d26cdf81609d33fdea",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_0cbcf1f39749e0f284206847",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "A",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-35954094DE55",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "abe7e86f7e90ca17c0e072cd7823b23d632c3037f54ed9ba74c751696aff5ac5",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_62627682ecdac0fcd11773e1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_de8b80d06f269c3aa9140f3d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_d5331a1d2746495375116b70",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_dddd7168252c14b7094e9d71",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_3fe0db37e4804643ee596d57",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_4d2fe1a484c9847127bda9f8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_0605352aa1a8558b9fce876c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_9d764cf88fb9ddc58c847d2b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_df21d499b82471c3b4bb99b6",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_141be7d46b04d2f45ed12928",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "A",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-3F843EB39717",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "0c5b03f84a66aa037df311645906af742a1ff1ee6dd04f803f6328246d05f923",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_9fc1fcf9a7be7c47e11df47c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_86500bdff2c06a59ea8edf79",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_153ba9824d3ac3cf4945d00e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_5b9be75123e1073edf5b6482",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_e8879a9ebd1dcc240f1edac1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_311fff45ea57172b68464e4d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_c14e013ee8d71f325451305f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_5ff5394cc347e5810b28d192",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_a6a161c57dd8c174be25036a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_d4d8760bfba5d0fe53088771",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "D",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-470C0A030EF2",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "ad039206fbbb558f78f6f77bc8ada6b65c8d84d0fe6c2cdc35b83d3611b8da5d",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_8127eaa74ccff86ac022a939",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_a375ab58a521391116b7715b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_51197f527f49e4d7fb8bf095",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_e5106bf5785e4cc276c2a92c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_436ad65cf44316faa06ffb89",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_920dc84821b653ead1769562",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_43cd2454b31b950ba8fdde53",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_34ed26a09035e2623db9f9b5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_ed2fba8a287a8b14d1f2b6b9",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_7e51c5b070a9a00960fde0b7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "D",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-50CCFF6D446A",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "908496e6991b534449488e1fca8493a6599a701bd094d7359d226785c2dfbadf",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_22184f70799fe1946683783b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_a55162f4bd03c79998c26667",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_5bfe602210348009261309bd",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_0cc654a5416efa3226402ab7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_c208fbe2e9070dd91660a98c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_cd712d3ece0488c13e2154c0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_5bded7c55e1d42b45eb5e371",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_a6c12267b9d6422175e963ac",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_7cee6922071b2e024ed96db9",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_20115583949c17dddf0793e6",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "B",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-561BF71DC0B9",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "378956ec215a329921c12398578df0d22a2185ef6e3951d790ed0979f2d00526",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_df89f5a0ec40b01a19ffbf76",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_04124af15d0f14f3de29378a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_bfd93c8856d7b071a63f0117",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_9345a4f01bc15e58d9cda89c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_9e43fc696819135b2e46c86f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_f934f436ec86c4028b13b83b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_812acfce579464a7e39309c1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_a4a79f66e7bd19fab8aba4a2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_efcfed7f8dd15c8ed35920ab",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_024f8a7ece9628473b011d75",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "A",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-76CF7CA1F600",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "2fb74ea80f7a57d33b1f517d4f8b0994f3a4bc7ae8dcf5beba7e4a0bcc58e11a",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_619e85ef588420a183cbd091",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_3e1cc8425b63e4c7a09f6195",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_b738d918344cf0cf0b39f711",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_f651d384a91fd20310831bbe",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_2533606a10f663d19b4269fb",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_b6c41b800f610ba431735485",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_6de37e929297729af25daa95",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_a62f10b5e2e1d856571f7598",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_ffcc2bcd8a3135e7ca1fe147",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_3ea6a60c4de7ff1c40c8973c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "B",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-7B01DB2BC780",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "d8a4e87277d6e1083d0c1647e721feaa2bbfcac5b8a41c742f1055772d780917",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_e218da968d171f2dd40ed128",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_c4686458ee137553c708bcb3",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_67d9396ae9801f4663013497",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_c296ebe2a0c147c1c25c281b",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_056eeff84ed693903affe89d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_b80db2857fc8acad88f31ffd",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_50a2abf848254b4f21c2754c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_acd3b86d9401b6187ec1aaaf",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_b5da8ac6556a2d667408c1da",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_9e4c9bac2ace8cb140d71bc7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "D",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-8710FFBE96B0",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "b89658032ab3bccab185cbbc1c4188ad57086642f9dd25765ff577e68a7a979b",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_cfeee7ebd11b60438a777533",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_d314f5a32713b11e8e3401e2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_8e3cd10226cc6035c3545a19",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_039f17b17dea2fe8eea753b0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_68fc6687d7c8ac6dd921279e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_24a22530bd9de46b8efe98a7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_ecdc68b26476c713f1aac6a3",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_90fef2baafe47374bf0fc643",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_ada96973128703cf42df02a8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_65343e16d847d116acd91e0f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "D",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-A0FD61D0EC99",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "3cd36cd3c929ccdc2ea1cdd55e60763c0f4d9a4fba47767214e13dd046868196",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_9feda0b440a2d461c3aa6813",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_94c82f7906a93fbcc285dde7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_b049933b8df8ee3e527e4072",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_88a70f0659c521157f4716a4",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_0e567ddd65cbf40fa1478244",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_3261fa535ff73b4259e8615e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_58fb940c646ac8b9c80872d0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_4eecfe000dfdcd2c9aa03cea",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_72f9e1cfdcd9c4fab11f1553",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_7fffd1fddca1987041f3ad27",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "A",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-AFA6A08357E6",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "313c5fbf38bd2de094ea1062b1796007597d88298423854699769767c8530704",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_2c34ccc48a7bd18eef40e81e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_505d52ffa2a2f3b43c2ff3cf",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_b30db95dd750cb480d0104ff",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_d890f06087f000c3bba341c7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_330a81d2f6b39eb3a12d6da8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_fad741a70407626b59ec1288",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_882cdb3c426000c4e08a8d6a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_dcd679041694a02c2eb2e9e0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_f54be69f2a667e81cdf4dd50",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_054818ac21688d11b3694215",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "B",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-C83555A4FD2A",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "eadcbbe81ce1da95bf960b5dca01cb8830f50f52d7eca7a6e0daf802a3234820",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_58118f69df10fa0009b6bfbf",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_5a9da47252b055abba4cf16d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_91d5ab567ab198b6bdd6ae5d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_703c9bd66ce284d82f9c5ca3",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_e58ca0827aa0a7639bc66da4",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_a1043514449706ba5319347d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_89f754101e8274cd472cfb47",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_2f403c30b8b0a9a7b035ac06",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_faf4792a00d8bb4afe8bd8fd",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_5a02e63dbb462a4b2b67931a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "C",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-D725F0E01DF3",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "cfc6c9360329134a52cc8d635c7e50639d4f34cc4b9f71caa211c965a2aad745",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_ccdfbee5254173e60b814eff",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_718b43e682d566d42cd81067",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_9071ce7abdc71ff09939e732",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_1f88738654c8f80efb944d7f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_635ae969f964c28ea30f1947",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_c8ab894022bf310845599995",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_f33ff8d3b3a50c76f2e49b2f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_1f15778c8a89887338123efe",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_26450ad341e1a5cfac666702",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_ff083e244fe68345d2113b95",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "C",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-DE928A947958",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "e14f93afdac8a69d11e0112adfd14e77d40798118af4de4142c40a81ad72821f",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_695d4c435a2a11c99e701425",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_da59cffc6602a8f4a3c8ebda",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_98db16b85d05ba4b717e1f3d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_721dca02cb89239882d0d4c7",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_9f08a9641d98cb2b8f72bf39",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_a6f15e6c6608cdc2091b0a16",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_64d409d76b44db869fda3d43",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_c0114a9b3fa517f49be9f071",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_7241e40553b6b00dccb54e68",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_964a740d979bad7ec7e2f39e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "B",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-E9367A7435E2",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "da8b03712d414888facc595f2e4391f2494e2953f8ceff4af908a707a1b1d0e6",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_603360612f986588fe00345c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_fa02a0435c0cc00edaaeeadc",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_80cbe00c3edbf7d0e61f6f77",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_340f96b1732302f8a14ea4de",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_fc78f9cb617d6af8369601e4",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_c0bed6a0ecc95337e174d6d5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_56b98dc4f05dc83df945b921",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_363977486f6b75326edcb2e5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_0308aca0cecdff8661784fa1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_d61d7c8485e8194641f959d2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "D",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-ED82452BD6B7",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "7d2cdc7c9c6b138ec829b0c5c4c6230619c9e605b63fa4454c9f6b3bf030192c",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_09953cc37630fde02d55ac9f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_513225400187e40a984e16a6",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_ac401557a351e9c048a7c2bb",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_949f3356477c3814780cbfc1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_2a8a07b8cc90ec7aff3c98d3",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_7153d0f35a831ba4caaf9469",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_d98714ce37baf7934803234d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_126490f0b4a66c2179cf2493",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_277bb6706179bf08dd9dd47f",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_cf29cf28f9fecbd73369d12e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "C",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-EE91596AB320",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "2087abd80b6ddb65d3c201d6de062af23c5a3d68900c5cbd80a35fc70bfdb024",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_a49f75c5bd0e232093be2599",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_1bec4ff30d387154c1ce9c4e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_9b5cad23db3c5c0f83ace978",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_39aa523ce21a66b1cba088b2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_73f98394d383d3e098045be6",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_da745790592b78249059a1db",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_0c787dd3f0007647839c41e8",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_57dff5a581d57a912b3e4140",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_3573463712e1932c1ac2308e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_40cf7bdee8439678dc862cd9",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "A",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-F7B75E3FC744",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "2a1150ad2899af8aa37d3971455ea377dcfcaebf24ceb04eea780e5874c3e13e",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_5756ef4620c24d5fb16b2c8c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_ac36ad18ce147383d59da99c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_d06a895b86a1a8993c384faa",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_63fdf50ddea5f46a14004e30",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_fed1f9d76fcee4daa08f49ff",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_387f314a20ec04af4e209720",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_d28d3b4da19a9e44cfac8d36",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_cb14d8eaaddf7ad973657192",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_e78ddafbc85f36341f8d5224",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_4bbb542a92bfe47fc98021d5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "A",
+      "final_status": "passed_round_1",
+      "participant_id": "AUD-FC7BB4FB4260",
+      "role": "auditor",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "6fb56c31cbed0dc09068631058256eac0c3a94997092bc1cacdac8f8d9e3f6b5",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_3f87fa3c7f5ac07445891708",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_06da85edd000cbcf8da4e781",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_7a2f27ffd91c2b6ca4beabf3",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_761703b1dbe7556d22e07ecf",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_f0f404f9f71c7f6dc680a727",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_7cd3a63ced9b6a40da505e78",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_422bc76619bd06630aa6799d",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_84d44eda72ac903992881579",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_fd65d4968d36954723f7e337",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_39b52dfa73fcbb2e0c001135",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "",
+      "final_status": "passed_round_1",
+      "participant_id": "GLD-4ADE92ADCD85",
+      "role": "gold_expert",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "9038ff8467d404e128af00d1537c263a55746f79084982f9f25f1ebc35f06262",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_28617e64379ddaa0c28be09e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_8f4ae6c752bac12131eab185",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_78a52e4a188bc889ebf52b79",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_a2a86d9efe01d0017491ca32",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_7859f7372efda2ca47c08bc5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_9e7d86798e02a93d78e438ae",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_5a363b6b7f6f151e5a10b9d9",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_8b0782feae39f9f84a9cf0e2",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_1cc49d84b17a05283c6bfefb",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_ea7dc715a89bb5d5f9298b8a",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "",
+      "final_status": "passed_round_1",
+      "participant_id": "GLD-73C10C331694",
+      "role": "gold_expert",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "7ebacb35e49f47ca59f89b2b4d9558cada7a44358af147e39e2389e9b61747ea",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_9a153873a22188356bae0f5e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_8b72102e01b6998f7e0529d5",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_32dcdba6d214956717ca5e0e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_50ed0d7800b709cd55b99ef1",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_afc2ce6a0469d87ab973e253",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_b33532beea9617555b6084b4",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_5f65df1154f2d747c6b417ec",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_0d8b0eaa7c7cdca3b1aeb6db",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_0945d88d8589a458ffb3d99c",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_4bf41a7cc621e38f39a6a79e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    },
+    {
+      "assigned_arm": "",
+      "final_status": "passed_round_1",
+      "participant_id": "GLD-FE83BB2A1951",
+      "role": "gold_expert",
+      "rounds": [
+        {
+          "comparability_accuracy": 1.0,
+          "comparability_correct": 10,
+          "completed_packet_sha256": "479743e3731296f1ae3ad47c00fe13c3c07ba359ad90f83a5aec8065fccbf1f9",
+          "evidence_accuracy": 1.0,
+          "evidence_correct": 10,
+          "item_results": [
+            {
+              "calibration_item_id": "CAL-V3-I03",
+              "calibration_response_id": "cal_888c7cdeb28dc19a96acfe2e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I06",
+              "calibration_response_id": "cal_d886fb279f8cd3aec52212bc",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I10",
+              "calibration_response_id": "cal_3de63c3f867f95e1dec46128",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I07",
+              "calibration_response_id": "cal_823108ab9f5f3c0db5989c82",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I05",
+              "calibration_response_id": "cal_b9b3bd7798341296f529c507",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I04",
+              "calibration_response_id": "cal_48185716ea4d75051635dd6e",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I08",
+              "calibration_response_id": "cal_3ea5ef31b6ea8d91a5a465c0",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I01",
+              "calibration_response_id": "cal_9513a8b25ece4ea776155464",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I02",
+              "calibration_response_id": "cal_d55d9cb12bb7f15375b61400",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            },
+            {
+              "calibration_item_id": "CAL-V3-I09",
+              "calibration_response_id": "cal_e02f455dfa0cf052770aa0ae",
+              "comparability_correct": true,
+              "evidence_support_correct": true
+            }
+          ],
+          "outcome": "passed",
+          "passed": true,
+          "round": 1
+        }
+      ]
+    }
+  ],
+  "prior_unitemized_pass_claims_recognized": false,
+  "public_roster_sha256": "fc825c6bd5bd788c9bdbd03a8e1846f490bc6e0721ab3997fe33596d3563536c",
+  "response_rows": 290,
+  "schema_version": "frozen-calibration-summary-v2",
+  "status": "FROZEN_CALIBRATION_PASSED_BEFORE_TEST",
+  "test_labels_generated": 0,
+  "test_packet_release_eligible": true,
+  "test_response_files_read": 0
+}

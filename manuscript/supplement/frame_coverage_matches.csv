@@ -1,0 +1,994 @@
+survey,ref_title,ref_year,ref_arxiv,ref_doi,ref_acl,in_scope,match_deduplicated_1399,match_screened_536,match_full_texts_259,match_evidence_map_342,in_any_release
+ragSurvey2024,RAFT: Adapting Language Model to Domain Specific RAG,2024,2403.10131,10.48550/arxiv.2403.10131,,0,arxiv,arxiv,arxiv,arxiv,1
+ragSurvey2024,Retrieval-Augmented Data Augmentation for Low-Resource Domain Tasks,2024,2402.13482,10.48550/arxiv.2402.13482,,0,,,,,0
+ragSurvey2024,A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts,2024,2402.09727,10.48550/arxiv.2402.09727,,0,,,,,0
+ragSurvey2024,G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering,2024,2402.07630,10.48550/arxiv.2402.07630,,0,,,,,0
+ragSurvey2024,RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval,2024,2401.18059,10.48550/arxiv.2401.18059,,0,,,,,0
+ragSurvey2024,CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models,2024,2401.17043,10.1145/3701228,,0,,,,,0
+ragSurvey2024,Corrective Retrieval Augmented Generation,2024,2401.15884,10.48550/arxiv.2401.15884,,0,,,arxiv,,1
+ragSurvey2024,The Power of Noise: Redefining Retrieval for RAG Systems,2024,2401.14887,10.1145/3626772.3657834,,1,,,,,0
+ragSurvey2024,UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems,2024,2401.13256,10.48550/arxiv.2401.13256,,0,,,,,0
+ragSurvey2024,Bridging the Preference Gap between Retrievers and LLMs,2024,2401.06954,10.48550/arxiv.2401.06954,,0,,,,,0
+ragSurvey2024,HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate and Reliable Medical LLMs Responses,2023,2312.15883,,,0,,,,,0
+ragSurvey2024,"""Knowing When You Don't Know"": A Multilingual Relevance Assessment Dataset for Robust Retrieval-Augmented Generation",2023,2312.11361,,,1,,,,title_exact,1
+ragSurvey2024,Dense X Retrieval: What Retrieval Granularity Should We Use?,2023,2312.06648,10.48550/arxiv.2312.06648,2024.emnlp-main.845,0,,,,,0
+ragSurvey2024,Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs,2023,2312.05934,10.48550/arxiv.2312.05934,2024.emnlp-main.15,1,,,,,0
+ragSurvey2024,Context Tuning for Retrieval Augmented Generation,2023,2312.05708,10.48550/arxiv.2312.05708,2024.uncertainlp-1.2,0,,,,,0
+ragSurvey2024,PaperQA: Retrieval-Augmented Generative Agent for Scientific Research,2023,2312.07559,10.48550/arxiv.2312.07559,,0,,,,,0
+ragSurvey2024,IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions,2023,2311.18397,10.48550/arxiv.2311.18397,,0,,,,,0
+ragSurvey2024,ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems,2023,2311.09476,10.48550/arxiv.2311.09476,2024.naacl-long.20,0,,,,title_exact,1
+ragSurvey2024,Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models,2023,2311.09210,10.48550/arxiv.2311.09210,2024.emnlp-main.813,1,arxiv,arxiv,arxiv,arxiv,1
+ragSurvey2024,RECALL: A Benchmark for LLMs Robustness against External Counterfactual Knowledge,2023,2311.08147,10.48550/arxiv.2311.08147,,0,,,,,0
+ragSurvey2024,Learning to Filter Context for Retrieval-Augmented Generation,2023,2311.08377,10.48550/arxiv.2311.08377,,0,arxiv,arxiv,arxiv,arxiv,1
+ragSurvey2024,From Classification to Generation: Insights into Crosslingual Retrieval Augmented ICL,2023,2311.06595,10.48550/arxiv.2311.06595,,0,,,,,0
+ragSurvey2024,"Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications",2023,2311.05876,10.48550/arxiv.2311.05876,,0,,,,,0
+ragSurvey2024,Large Language Model based Long-tail Query Rewriting in Taobao Search,2023,2311.03758,10.1145/3589335.3648298,,0,,,,,0
+ragSurvey2024,Enhancing LLM Intelligence with ARM-RAG: Auxiliary Rationale Memory for Retrieval Augmented Generation,2023,2311.04177,10.48550/arxiv.2311.04177,,0,,,,,0
+ragSurvey2024,Divide & Conquer for Entailment-aware Multi-hop Evidence Retrieval,2023,2311.02616,10.48550/arxiv.2311.02616,,0,,,,,0
+ragSurvey2024,GAR-meets-RAG Paradigm for Zero-Shot Information Retrieval,2023,2310.20158,,,0,,,,,0
+ragSurvey2024,1-PAGER: One Pass Answer Generation and Evidence Retrieval,2023,2310.16568,10.48550/arxiv.2310.16568,,0,,,,,0
+ragSurvey2024,PRCA: Fitting Black-Box Large Language Models for Retrieval Question Answering via Pluggable Reward-Driven Contextual Adapter,2023,2310.18347,10.48550/arxiv.2310.18347,,0,,,,,0
+ragSurvey2024,Tree of Clarifications: Answering Ambiguous Questions with Retrieval-Augmented Large Language Models,2023,2310.14696,10.48550/arxiv.2310.14696,,0,arxiv,arxiv,,,1
+ragSurvey2024,Diversify Question Generation with Retrieval-Augmented Style Transfer,2023,2310.14503,10.48550/arxiv.2310.14503,,0,,,,,0
+ragSurvey2024,Dual-Feedback Knowledge Retrieval for Task-Oriented Dialogue Systems,2023,2310.14528,10.48550/arxiv.2310.14528,,0,,,,,0
+ragSurvey2024,Optimizing Retrieval-augmented Reader Models via Token Elimination,2023,2310.13682,10.48550/arxiv.2310.13682,,0,,,,,0
+ragSurvey2024,Open-source Large Language Models are Strong Zero-shot Query Likelihood Models for Document Ranking,2023,2310.13243,10.48550/arxiv.2310.13243,,0,,,,,0
+ragSurvey2024,FABULA: Intelligence Report Generation Using Retrieval-Augmented Narrative Construction,2023,2310.13848,10.1145/3625007.3627505,,0,,,,,0
+ragSurvey2024,Knowledge-Augmented Language Model Verification,2023,2310.12836,10.48550/arxiv.2310.12836,,0,,,,,0
+ragSurvey2024,Understanding Retrieval Augmentation for Long-Form Question Answering,2023,2310.12150,10.48550/arxiv.2310.12150,,0,,,,,0
+ragSurvey2024,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",2023,2310.11511,,,0,,,arxiv,title_exact,1
+ragSurvey2024,CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering,2023,2310.09536,10.48550/arxiv.2310.09536,,0,,,,,0
+ragSurvey2024,Large Language Models as Source Planner for Personalized Knowledge-grounded Dialogue,2023,2310.08840,10.48550/arxiv.2310.08840,,0,,,,,0
+ragSurvey2024,Retrieval-Generation Alignment for End-to-End Task-Oriented Dialogue System,2023,2310.08877,10.48550/arxiv.2310.08877,,0,,,,,0
+ragSurvey2024,MemGPT: Towards LLMs as Operating Systems,2023,2310.08560,10.48550/arxiv.2310.08560,,0,,,,,0
+ragSurvey2024,InstructRetro: Instruction Tuning post Retrieval-Augmented Pretraining,2023,2310.07713,10.48550/arxiv.2310.07713,,0,,,,,0
+ragSurvey2024,A Multi-Task Embedder For Retrieval Augmented LLMs,2023,2310.07554,10.18653/v1/2024.acl-long.194,,0,,,,,0
+ragSurvey2024,Language Models As Semantic Indexers,2023,2310.07815,10.48550/arxiv.2310.07815,,0,,,,,0
+ragSurvey2024,LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression,2023,2310.06839,10.48550/arxiv.2310.06839,,0,,,,,0
+ragSurvey2024,Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models,2023,2310.06117,10.48550/arxiv.2310.06117,,0,,,,,0
+ragSurvey2024,LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models,2023,2310.05736,10.48550/arxiv.2310.05736,,0,,,,,0
+ragSurvey2024,Retrieval-Generation Synergy Augmented Large Language Models,2023,2310.05149,10.1109/icassp48485.2024.10448015,,0,,,,,0
+ragSurvey2024,Self-Knowledge Guided Retrieval Augmentation for Large Language Models,2023,2310.05002,10.48550/arxiv.2310.05002,,0,,,,,0
+ragSurvey2024,Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading,2023,2310.05029,10.48550/arxiv.2310.05029,,0,,,,,0
+ragSurvey2024,RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation,2023,2310.04408,10.48550/arxiv.2310.04408,,0,arxiv,arxiv,arxiv,arxiv,1
+ragSurvey2024,Retrieval meets Long Context Large Language Models,2023,2310.03025,10.48550/arxiv.2310.03025,,0,,,,,0
+ragSurvey2024,Making Retrieval-Augmented Language Models Robust to Irrelevant Context,2023,2310.01558,10.48550/arxiv.2310.01558,,1,arxiv,arxiv,arxiv,title_exact,1
+ragSurvey2024,RA-DIT: Retrieval-Augmented Dual Instruction Tuning,2023,2310.01352,10.48550/arxiv.2310.01352,,0,,,,,0
+ragSurvey2024,Reasoning on Graphs: Faithful and Interpretable Large Language Model Reasoning,2023,2310.01061,10.48550/arxiv.2310.01061,,0,arxiv,,,,1
+ragSurvey2024,"LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples",2023,2310.01469,10.48550/arxiv.2310.01469,,0,,,,,0
+ragSurvey2024,Efficient Streaming Language Models with Attention Sinks,2023,2309.17453,10.48550/arxiv.2309.17453,,0,,,,,0
+ragSurvey2024,RAGAs: Automated Evaluation of Retrieval Augmented Generation,2023,2309.15217,10.48550/arxiv.2309.15217,2024.eacl-demo.16,0,,,,title_exact,1
+ragSurvey2024,AnglE-optimized Text Embeddings,2023,2309.12871,10.48550/arxiv.2309.12871,,0,,,,,0
+ragSurvey2024,Chain-of-Verification Reduces Hallucination in Large Language Models,2023,2309.11495,10.48550/arxiv.2309.11495,,0,,,,,0
+ragSurvey2024,Benchmarking Large Language Models in Retrieval-Augmented Generation,2023,2309.01431,10.48550/arxiv.2309.01431,,0,arxiv,arxiv,title_exact,title_exact,1
+ragSurvey2024,Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models,2023,2309.01219,10.1162/coli.a.16,,0,,,,,0
+ragSurvey2024,Modeling Uncertainty and Using Post-fusion as Fallback Improves Retrieval Augmented Generation with LLMs,2023,2308.12574,10.18653/v1/2024.knowllm-1.7,2024.knowllm-1.7,1,arxiv,arxiv,,title_exact,1
+ragSurvey2024,Knowledge Graph Prompting for Multi-Document Question Answering,2023,2308.11730,10.48550/arxiv.2308.11730,,0,,,,,0
+ragSurvey2024,RaLLe: A Framework for Developing and Evaluating Retrieval-Augmented Large Language Models,2023,2308.10633,10.48550/arxiv.2308.10633,,0,,,,,0
+ragSurvey2024,CMB: A Comprehensive Medical Benchmark in Chinese,2023,2308.08833,10.48550/arxiv.2308.08833,2024.naacl-long.343,0,,,,,0
+ragSurvey2024,KnowledGPT: Enhancing Large Language Models with Retrieval and Storage Access on Knowledge Bases,2023,2308.11761,10.48550/arxiv.2308.11761,,0,,,,,0
+ragSurvey2024,RAVEN: In-Context Learning with Retrieval Augmented Encoder-Decoder Language Models,2023,2308.07922,10.48550/arxiv.2308.07922,,0,,,,,0
+ragSurvey2024,Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation,2023,2307.11019,10.48550/arxiv.2307.11019,,0,arxiv,arxiv,arxiv,arxiv,1
+ragSurvey2024,Llama 2: Open Foundation and Fine-Tuned Chat Models,2023,2307.09288,,,0,,,,,0
+ragSurvey2024,"TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT",2023,2307.08674,10.48550/arxiv.2307.08674,,0,,,,,0
+ragSurvey2024,Learning to Retrieve In-Context Examples for Large Language Models,2023,2307.07164,10.48550/arxiv.2307.07164,2024.eacl-long.105,0,,,,,0
+ragSurvey2024,Copy is All You Need,2023,2307.06962,10.48550/arxiv.2307.06962,,0,,,,,0
+ragSurvey2024,Lost in the Middle: How Language Models Use Long Contexts,2023,2307.03172,10.1162/tacl_a_00638,2024.tacl-1.9,0,,,,title_exact,1
+ragSurvey2024,Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions,2023,2306.02224,10.48550/arxiv.2306.02224,,0,,,,,0
+ragSurvey2024,Structure-Aware Language Model Pretraining Improves Dense Retrieval on Structured Data,2023,2305.19912,10.48550/arxiv.2305.19912,,0,,,,,0
+ragSurvey2024,Knowledge Graph-Augmented Language Models for Knowledge-Grounded Dialogue Generation,2023,2305.18846,10.48550/arxiv.2305.18846,,0,,,,,0
+ragSurvey2024,Prompt-Guided Retrieval Augmentation for Non-Knowledge-Intensive Tasks,2023,2305.17653,10.48550/arxiv.2305.17653,,0,,,,,0
+ragSurvey2024,Augmentation-Adapted Retriever Improves Generalization of Language Models as Generic Plug-In,2023,2305.17331,10.48550/arxiv.2305.17331,2023.acl-long.136,0,,,,,0
+ragSurvey2024,Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy,2023,2305.15294,10.48550/arxiv.2305.15294,,0,,,,,0
+ragSurvey2024,Query Rewriting for Retrieval-Augmented Large Language Models,2023,2305.14283,10.48550/arxiv.2305.14283,,0,,,,,0
+ragSurvey2024,RET-LLM: Towards a General Read-Write Memory for Large Language Models,2023,2305.14322,10.48550/arxiv.2305.14322,,0,,,,,0
+ragSurvey2024,The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning,2023,2305.14045,10.48550/arxiv.2305.14045,,0,,,,,0
+ragSurvey2024,Active Retrieval Augmented Generation,2023,2305.06983,10.48550/arxiv.2305.06983,,0,,,,title_exact,1
+ragSurvey2024,Augmented Large Language Models with Parametric Knowledge Guiding,2023,2305.04757,10.48550/arxiv.2305.04757,,0,,,,,0
+ragSurvey2024,Recommender Systems with Generative Retrieval,2023,2305.05065,10.48550/arxiv.2305.05065,,0,,,,,0
+ragSurvey2024,Lift Yourself Up: Retrieval-augmented Text Generation with Self Memory,2023,2305.02437,10.48550/arxiv.2305.02437,,0,,,,,0
+ragSurvey2024,Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning,2023,,10.1109/icse48619.2023.00205,,0,,,,,0
+ragSurvey2024,Measuring Massive Multitask Chinese Understanding,2023,2304.12986,10.48550/arxiv.2304.12986,,0,,,,,0
+ragSurvey2024,Shall We Pretrain Autoregressive Language Models with Retrieval? A Comprehensive Study,2023,2304.06762,10.48550/arxiv.2304.06762,,0,,,,,0
+ragSurvey2024,InterGen: Diffusion-Based Multi-human Motion Generation Under Complex Interactions,2023,2304.05684,10.1007/s11263-024-02042-6,,0,,,,,0
+ragSurvey2024,Graph-ToolFormer: To Empower LLMs with Graph Reasoning Ability via Prompt Augmented by ChatGPT,2023,2304.11116,10.48550/arxiv.2304.11116,,0,,,,,0
+ragSurvey2024,Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System,2023,2303.14524,,,0,,,,,0
+ragSurvey2024,"Large Language Model Is Not a Good Few-shot Information Extractor, but a Good Reranker for Hard Samples!",2023,2303.08559,10.18653/v1/2023.findings-emnlp.710,,0,,,,,0
+ragSurvey2024,UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation,2023,2303.08518,10.48550/arxiv.2303.08518,,0,,,,,0
+ragSurvey2024,Query2doc: Query Expansion with Large Language Models,2023,2303.07678,10.48550/arxiv.2303.07678,,0,,,,,0
+ragSurvey2024,Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning,2023,2302.14115,10.1109/cvpr52729.2023.01032,,0,,,,,0
+ragSurvey2024,Toolformer: Language Models Can Teach Themselves to Use Tools,2023,2302.04761,10.48550/arxiv.2302.04761,,0,,,,,0
+ragSurvey2024,"A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",2023,2302.04023,10.18653/v1/2023.ijcnlp-main.45,2023.ijcnlp-main.45,0,,,,,0
+ragSurvey2024,Large Language Models Can Be Easily Distracted by Irrelevant Context,2023,2302.00093,10.48550/arxiv.2302.00093,,0,,,,,0
+ragSurvey2024,In-Context Retrieval-Augmented Language Models,2023,2302.00083,10.1162/tacl_a_00605,,0,,,,,0
+ragSurvey2024,REPLUG: Retrieval-Augmented Black-Box Language Models,2023,2301.12652,10.48550/arxiv.2301.12652,2024.naacl-long.463,0,,,,,0
+ragSurvey2024,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models,2023,2301.12597,10.48550/arxiv.2301.12597,,0,,,,,0
+ragSurvey2024,Using External Off-Policy Speech-To-Text Mappings in Contextual End-To-End Automated Speech Recognition,2023,2301.02736,10.48550/arxiv.2301.02736,,0,,,,,0
+ragSurvey2024,Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP,2022,2212.14024,10.48550/arxiv.2212.14024,,0,,,,,0
+ragSurvey2024,Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions,2022,2212.10509,10.48550/arxiv.2212.10509,2023.acl-long.557,0,,,,,0
+ragSurvey2024,Precise Zero-Shot Dense Retrieval without Relevance Labels,2022,2212.10496,10.18653/v1/2023.acl-long.99,2023.acl-long.99,0,,,,,0
+ragSurvey2024,Constitutional AI: Harmlessness from AI Feedback,2022,2212.08073,10.48550/arxiv.2212.08073,,0,,,,,0
+ragSurvey2024,Neural Machine Translation with Contrastive Translation Memories,2022,2212.03140,10.48550/arxiv.2212.03140,2022.emnlp-main.235,0,,,,,0
+ragSurvey2024,Large Language Models Struggle to Learn Long-Tail Knowledge,2022,2211.08411,,,0,,,,,0
+ragSurvey2024,Retrieval-Augmented Generative Question Answering for Event Argument Extraction,2022,2211.07067,10.48550/arxiv.2211.07067,2022.emnlp-main.307,0,,,,,0
+ragSurvey2024,Generating Synthetic Speech from SpokenVocab for Speech Translation,2022,2210.08174,10.48550/arxiv.2210.08174,2023.findings-eacl.147,0,,,,,0
+ragSurvey2024,Visualize Before You Write: Imagination-Guided Open-Ended Text Generation,2022,2210.03765,10.48550/arxiv.2210.03765,2023.findings-eacl.5,0,,,,,0
+ragSurvey2024,Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering,2022,2210.02627,10.1162/tacl_a_00530,2023.tacl-1.1,0,arxiv,,,,1
+ragSurvey2024,Recitation-Augmented Language Models,2022,2210.01296,10.48550/arxiv.2210.01296,,0,,,,,0
+ragSurvey2024,Zemi: Learning Zero-Shot Semi-Parametric Language Models from Multiple Tasks,2022,2210.00185,10.48550/arxiv.2210.00185,,0,,,,,0
+ragSurvey2024,Promptagator: Few-shot Dense Retrieval From 8 Examples,2022,2209.11755,10.48550/arxiv.2209.11755,,0,,,,,0
+ragSurvey2024,Generate rather than Retrieve: Large Language Models are Strong Context Generators,2022,2209.10063,,,0,,,,,0
+ragSurvey2024,Few-shot Learning with Retrieval Augmented Language Models,2022,2208.03299,,,0,,,,,0
+ragSurvey2024,Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models,2022,2206.04615,,,0,,,,,0
+ragSurvey2024,Training Language Models with Memory Augmentation,2022,2205.12674,10.48550/arxiv.2205.12674,2022.emnlp-main.382,0,,,,,0
+ragSurvey2024,Least-to-Most Prompting Enables Complex Reasoning in Large Language Models,2022,2205.10625,10.48550/arxiv.2205.10625,,0,,,,,0
+ragSurvey2024,EASE: Entity-Aware Contrastive Learning of Sentence Embedding,2022,2205.04260,10.48550/arxiv.2205.04260,2022.naacl-main.284,0,,,,,0
+ragSurvey2024,ASQA: Factoid Questions Meet Long-Form Answers,2022,2204.06092,10.48550/arxiv.2204.06092,2022.emnlp-main.566,0,,,,,0
+ragSurvey2024,Training Data is More Valuable than You Think: A Simple and Effective Method by Retrieving from Training Data,2022,2203.08773,10.48550/arxiv.2203.08773,2022.acl-long.226,0,,,,,0
+ragSurvey2024,Long Time No See! Open-Domain Conversation with Long-Term Persona Memory,2022,2203.05797,10.48550/arxiv.2203.05797,2022.findings-acl.207,0,,,,,0
+ragSurvey2024,Training language models to follow instructions with human feedback,2022,2203.02155,10.52202/068431-2011,,0,,,,,0
+ragSurvey2024,Chain of Thought Prompting Elicits Reasoning in Large Language Models,2022,2201.11903,10.52202/068431-1800,,0,,,,,0
+ragSurvey2024,Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval,2022,2201.12431,,,0,,,,,0
+ragSurvey2024,WebGPT: Browser-assisted question-answering with human feedback,2021,2112.09332,,,0,,,,,0
+ragSurvey2024,"QuALITY: Question Answering with Long Input Texts, Yes!",2021,2112.08608,10.18653/v1/2022.naacl-main.391,2022.naacl-main.391,0,,,,,0
+ragSurvey2024,ISEEQ: Information Seeking Question Generation using Dynamic Meta-Information Retrieval and Knowledge Graphs,2021,2112.07622,10.1609/aaai.v36i10.21312,,0,,,,,0
+ragSurvey2024,Improving language models by retrieving from trillions of tokens,2021,2112.04426,,,0,,,,,0
+ragSurvey2024,Training Verifiers to Solve Math Word Problems,2021,2110.14168,,,0,,,,,0
+ragSurvey2024,Open-Set Recognition: A Good Closed-Set Classifier is All You Need,2021,2110.06207,,,0,,,,,0
+ragSurvey2024,Simple Entity-Centric Questions Challenge Dense Retrievers,2021,2109.08535,10.18653/v1/2021.emnlp-main.496,2021.emnlp-main.496,0,,,,,0
+ragSurvey2024,Robust Retrieval Augmented Generation for Zero-shot Slot Filling,2021,2108.13934,10.18653/v1/2021.emnlp-main.148,2021.emnlp-main.148,1,arxiv,,,title_exact,1
+ragSurvey2024,♫ MuSiQue: Multihop Questions via Single-hop Question Composition,2021,2108.00573,10.1162/tacl_a_00475,2022.tacl-1.31,0,,,,,0
+ragSurvey2024,Neural Machine Translation with Monolingual Translation Memory,2021,2105.11269,10.18653/v1/2021.acl-long.567,2021.acl-long.567,0,,,,,0
+ragSurvey2024,A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers,2021,2105.03011,10.18653/v1/2021.naacl-main.365,2021.naacl-main.365,0,,,,,0
+ragSurvey2024,Retrieval Augmentation Reduces Hallucination in Conversation,2021,2104.07567,10.18653/v1/2021.findings-emnlp.320,,1,,,,,0
+ragSurvey2024,Document-Level Event Argument Extraction by Conditional Generation,2021,2104.05919,10.18653/v1/2021.naacl-main.69,2021.naacl-main.69,0,,,,,0
+ragSurvey2024,QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization,2021,2104.05938,10.18653/v1/2021.naacl-main.472,2021.naacl-main.472,0,,,,,0
+ragSurvey2024,Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies,2021,2101.02235,10.1162/tacl_a_00370,,0,,,,,0
+ragSurvey2024,Learning Dense Representations of Phrases at Scale,2020,2012.12624,10.18653/v1/2021.acl-long.518,2021.acl-long.518,0,,,,,0
+ragSurvey2024,WikiAsp: A Dataset for Multi-domain Aspect-based Summarization,2020,2011.07832,10.1162/tacl_a_00362,,0,,,,,0
+ragSurvey2024,Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps,2020,2011.01060,10.18653/v1/2020.coling-main.580,2020.coling-main.580,0,,,,,0
+ragSurvey2024,Explainable Automated Fact-Checking for Public Health Claims,2020,2010.09926,10.18653/v1/2020.emnlp-main.623,2020.emnlp-main.623,0,,,,,0
+ragSurvey2024,Measuring Massive Multitask Language Understanding,2020,2009.03300,,,0,,,,,0
+ragSurvey2024,COVID-QA: A Question Answering Dataset for COVID-19,2020,,,,0,,,,,0
+ragSurvey2024,Language Models are Few-Shot Learners,2020,2005.14165,,,0,,,,,0
+ragSurvey2024,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,2005.11401,,,0,,,arxiv,,1
+ragSurvey2024,ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT,2020,2004.12832,10.1145/3397271.3401075,,0,,,,,0
+ragSurvey2024,Coreferential Reasoning Learning for Language Representation,2020,2004.06870,10.18653/v1/2020.emnlp-main.582,2020.emnlp-main.582,0,,,,,0
+ragSurvey2024,Dense Passage Retrieval for Open-Domain Question Answering,2020,2004.04906,10.18653/v1/2020.emnlp-main.550,2020.emnlp-main.550,0,,,,,0
+ragSurvey2024,SCATTER: Selective Context Attentional Scene Text Recognizer,2020,2003.11288,10.1109/cvpr42600.2020.01198,,0,,,,,0
+ragSurvey2024,Scaling Laws for Neural Language Models,2020,2001.08361,,,0,,,,,0
+ragSurvey2024,PIQA: Reasoning about Physical Commonsense in Natural Language,2019,1911.11641,10.1609/aaai.v34i05.6239,,0,,,,,0
+ragSurvey2024,Multi-Sentence Argument Linking,2019,1911.03766,10.18653/v1/2020.acl-main.718,2020.acl-main.718,0,,,,,0
+ragSurvey2024,Generalization through Memorization: Nearest Neighbor Language Models,2019,1911.00172,,,0,,,,,0
+ragSurvey2024,Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,2019,1910.10683,,,0,,,,,0
+ragSurvey2024,CodeSearchNet Challenge: Evaluating the State of Semantic Code Search,2019,1909.09436,,,0,,,,,0
+ragSurvey2024,Language Models as Knowledge Bases?,2019,1909.01066,10.18653/v1/d19-1250,d19-1250,0,,,,,0
+ragSurvey2024,Natural Questions: A Benchmark for Question Answering Research,2019,,10.1162/tacl_a_00276,q19-1026,0,,,,,0
+ragSurvey2024,Graph Based Translation Memory for Neural Machine Translation,2019,,10.1609/aaai.v33i01.33017297,,0,,,,,0
+ragSurvey2024,ELI5: Long Form Question Answering,2019,1907.09190,10.18653/v1/p19-1346,p19-1346,0,,,,,0
+ragSurvey2024,ERNIE: Enhanced Language Representation with Informative Entities,2019,1905.07129,10.18653/v1/p19-1139,p19-1139,0,,,,,0
+ragSurvey2024,SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems,2019,1905.00537,,,0,,,,,0
+ragSurvey2024,BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions,2019,1905.10044,10.18653/v1/n19-1300,n19-1300,0,,,,,0
+ragSurvey2024,HellaSwag: Can a Machine Really Finish Your Sentence?,2019,1905.07830,10.18653/v1/p19-1472,p19-1472,0,,,,,0
+ragSurvey2024,Wizard of Wikipedia: Knowledge-Powered Conversational agents,2018,1811.01241,,,0,,,,,0
+ragSurvey2024,"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",2018,1809.09600,10.18653/v1/d18-1259,d18-1259,0,,,,,0
+ragSurvey2024,"Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",2018,1808.08745,10.18653/v1/d18-1206,d18-1206,0,,,,,0
+ragSurvey2024,CoQA: A Conversational Question Answering Challenge,2018,1808.07042,10.1162/tacl_a_00266,q19-1016,0,,,,,0
+ragSurvey2024,T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples,2018,,10.63317/2yu5nu76n7bu,l18-1544,0,,,,,0
+ragSurvey2024,"Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",2018,1803.05457,,,0,,,,,0
+ragSurvey2024,FEVER: a Large-scale Dataset for Fact Extraction and VERification,2018,1803.05355,10.18653/v1/n18-1074,n18-1074,0,,,,,0
+ragSurvey2024,Complex Sequential Question Answering: Towards Learning to Converse Over Linked Question Answer Pairs with a Knowledge Graph,2018,1801.10314,10.1609/aaai.v32i1.11332,,0,,,,,0
+ragSurvey2024,The NarrativeQA Reading Comprehension Challenge,2017,1712.07040,10.1162/tacl_a_00023,q18-1023,0,,,,,0
+ragSurvey2024,Zero-Shot Relation Extraction via Reading Comprehension,2017,1706.04115,10.18653/v1/k17-1034,k17-1034,0,,,,,0
+ragSurvey2024,Attention is All you Need,2017,1706.03762,,,0,,,,,0
+ragSurvey2024,TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension,2017,1705.03551,10.18653/v1/p17-1147,p17-1147,0,,,,,0
+ragSurvey2024,MS MARCO: A Human Generated MAchine Reading COmprehension Dataset,2016,1611.09268,,,0,,,,,0
+ragSurvey2024,Pointer Sentinel Mixture Models,2016,1609.07843,,,0,,,,,0
+ragSurvey2024,"SQuAD: 100,000+ Questions for Machine Comprehension of Text",2016,1606.05250,10.18653/v1/d16-1264,d16-1264,0,,,,,0
+ragSurvey2024,Conditional Generation and Snapshot Learning in Neural Dialogue Systems,2016,1606.03352,10.18653/v1/d16-1233,d16-1233,0,,,,,0
+ragSurvey2024,Neural Text Generation from Structured Data with Application to the Biography Domain,2016,,10.18653/v1/d16-1128,d16-1128,0,,,,,0
+ragSurvey2024,Ups and Downs: Modeling the Visual Evolution of Fashion Trends with One-Class Collaborative Filtering,2016,1602.01585,10.1145/2872427.2883037,,0,,,,,0
+ragSurvey2024,Sequence Level Training with Recurrent Neural Networks,2015,1511.06732,,,0,,,,,0
+ragSurvey2024,Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank,2013,,10.18653/v1/d13-1170,d13-1170,0,,,,,0
+ragSurvey2024,Semantic Parsing on Freebase from Question-Answer Pairs,2013,,10.18653/v1/d13-1160,d13-1160,0,,,,,0
+ragSurvey2024,The Probabilistic Relevance Framework: BM25 and Beyond,2009,,10.1561/1500000019,,0,,,,,0
+ragSurvey2024,Open-Domain Question-Answering,2007,,10.1561/1500000001,,0,,,,,0
+ragSurvey2024,The JRC-Acquis: A Multilingual Aligned Parallel Corpus with 20+ Languages,2006,cs/0609058,10.63317/4yka5iuvhztz,l06-1196,0,,,,,0
+ragSurvey2024,Learning Question Classifiers,2002,,10.3115/1072228.1072378,c02-1150,0,,,,,0
+ragSurvey2024,Building production-ready rag applications,2023,,,,0,,,,,0
+ragSurvey2024,Chain of Knowledge: A Framework for Grounding Large Language Models with Structured Knowledge Bases,2023,,10.48550/arxiv.2305.13269,,0,,,,,0
+ragSurvey2024,Retrieval-based Language Models and Applications,2023,,10.18653/v1/2023.acl-tutorials.6,2023.acl-tutorials.6,0,,,,,0
+ragSurvey2024,Retrieval-Augmented Multimodal Language Modeling,2023,2211.12561,10.48550/arxiv.2211.12561,,0,,,,,0
+ragSurvey2024,Gemini: A family of highly capable multimodal models,2023,,,,0,,,,,0
+ragSurvey2024,Vio-Lens: A Novel Dataset of Annotated Social Network Posts Leading to Different Forms of Communal Violence and its Evaluation,2023,,10.18653/v1/2023.banglalp-1.9,2023.banglalp-1.9,0,,,,,0
+ragSurvey2024,Retrieve-and-Sample: Document-level Event Argument Extraction via Hybrid Retrieval Augmentation,2023,,10.18653/v1/2023.acl-long.17,2023.acl-long.17,0,,,,,0
+ragSurvey2024,"Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks",2023,,,,0,,,,,0
+ragSurvey2024,Best practices for llm evaluation of rag applications,2023,,,,0,,,,,0
+ragSurvey2024,"Forget rag, the future is rag-fusion",2023,,,,0,,,,,0
+ragSurvey2024,Evaluating rag part i: How to evaluate document retrieval,2023,,,,0,,,,,0
+ragSurvey2024,VoyageAI,2023,,,,0,,,,,0
+ragSurvey2024,Flagembedding,2023,,,,0,,,,,0
+ragSurvey2024,Say goodbye to irrelevant search results: Cohere rerank is here,2023,,,,0,,,,,0
+ragSurvey2024,Advanced rag techniques: an illustrated overview,2023,,,,0,,,,,0
+ragSurvey2024,Lingua: Addressing Scenarios for Live Interpretation and Automatic Dubbing,2022,,,2022.amta-upg.14,0,,,,,0
+ragSurvey2024,When Not to Trust Language Models: Investigating Effectiveness and Limitations of Parametric and Non-Parametric Memories,2022,,10.48550/arxiv.2212.10511,,0,,,,,0
+ragSurvey2024,CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge,2019,1811.00937,10.18653/v1/n19-1421,n19-1421,0,,,,,0
+ragSurvey2024,Assessing Answer Relevance: Generate potential questions using an LLM and calculate the similarity between these questions and the original question,,,,,0,,,,,0
+ragSurvey2024,"Next, ARES fine-tunes lightweight language models using the synthetic dataset to train them to evaluate Context Relevance, Answer Faithfulness, and Answer Relevance",,,,,0,,,,,0
+ragSurvey2024,Perplexity distillation: This technique directly trains the model using the perplexity of generated tokens as an indicator,,,,,0,,,,,0
+ragSurvey2024,"Orlando, USA, September 2022",,,,,0,,,,,0
+ragSurvey2024,enhancing-rag-pipelines-in-haystack-45f14e2bc9f5,,,,,0,,,,,0
+ragSurvey2024,"EMDR2: By using the Expectation-Maximization algo-rithm, this method trains the model with retrieved documents as latent variables",,,,,0,,,,,0
+ragSurvey2024,"“Recursively split by character,”",,,,,0,,,,,0
+ragSurvey2024,"“Advanced rag 01: Small-to-big retrieval,”",,,,,0,,,,,0
+ragSurvey2024,"“Evaluating the ideal chunk size for a rag system using llamaindex,”",,,,,0,,,,,0
+ragSurvey2024,"“Voyage’s embedding models,”",,,,,0,,,,,0
+ragSurvey2024,the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),,,,,0,,,,,0
+ragSurvey2024,"“A survey of techniques for maximizing llm performance,”",,,,,0,,,,,0
+ragSurvey2024,"“Enhancing rag pipelines in haystack: Introducing diver-sityranker and lostinthemiddleranker,”",,,,,0,,,,,0
+ragEvaluationSurvey2024,DomainRAG: A Chinese Benchmark for Evaluating Domain-specific Retrieval-Augmented Generation,2024,2406.05654,10.48550/arxiv.2406.05654,,0,,,,,0
+ragEvaluationSurvey2024,A Survey on Retrieval-Augmented Text Generation for Large Language Models,2024,2404.10981,10.1145/3805774,,0,,,,,0
+ragEvaluationSurvey2024,Retrieval-Augmented Generation for AI-Generated Content: A Survey,2024,2402.19473,10.48550/arxiv.2402.19473,,0,,,,,0
+ragEvaluationSurvey2024,Let LLMs Take on the Latest Challenges! A Chinese Dynamic Question Answering Benchmark,2024,2402.19248,10.48550/arxiv.2402.19248,,0,,,,,0
+ragEvaluationSurvey2024,"Researchy Questions: A Dataset of Multi-Perspective, Decompositional Questions for LLM Web Agents",2024,2402.17896,10.48550/arxiv.2402.17896,,0,,,,,0
+ragEvaluationSurvey2024,Benchmarking Retrieval-Augmented Generation for Medicine,2024,2402.13178,10.48550/arxiv.2402.13178,,0,,,,title_exact,1
+ragEvaluationSurvey2024,FeB4RAG: Evaluating Federated Search in the Context of Retrieval Augmented Generation,2024,2402.11891,10.1145/3626772.3657853,,0,,,,,0
+ragEvaluationSurvey2024,CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models,2024,2401.17043,10.1145/3701228,,0,,,,,0
+ragEvaluationSurvey2024,MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries,2024,2401.15391,,,0,,,,,0
+ragEvaluationSurvey2024,The Power of Noise: Redefining Retrieval for RAG Systems,2024,2401.14887,10.1145/3626772.3657834,,1,,,,,0
+ragEvaluationSurvey2024,"RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture",2024,2401.08406,10.48550/arxiv.2401.08406,,0,,,,,0
+ragEvaluationSurvey2024,Seven Failure Points When Engineering a Retrieval Augmented Generation System,2024,2401.05856,10.1145/3644815.3644945,,0,,,,,0
+ragEvaluationSurvey2024,Retrieval-Augmented Generation for Large Language Models: A Survey,2023,2312.10997,,,0,arxiv,,arxiv,,1
+ragEvaluationSurvey2024,UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation,2023,2311.15296,10.18653/v1/2024.acl-long.288,,0,,,,,0
+ragEvaluationSurvey2024,ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems,2023,2311.09476,10.48550/arxiv.2311.09476,2024.naacl-long.20,0,,,,title_exact,1
+ragEvaluationSurvey2024,RECALL: A Benchmark for LLMs Robustness against External Counterfactual Knowledge,2023,2311.08147,10.48550/arxiv.2311.08147,,0,,,,,0
+ragEvaluationSurvey2024,"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",2023,2311.05232,10.1145/3703155,,0,,,,,0
+ragEvaluationSurvey2024,Evaluating Generative Ad Hoc Information Retrieval,2023,2311.04694,10.1145/3626772.3657849,,0,,,,,0
+ragEvaluationSurvey2024,Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves,2023,2311.04205,10.48550/arxiv.2311.04205,,0,,,,,0
+ragEvaluationSurvey2024,On the Opportunities of Green Computing: A Survey,2023,2311.00447,10.48550/arxiv.2311.00447,,0,,,,,0
+ragEvaluationSurvey2024,Merging Generated and Retrieved Knowledge for Open-Domain QA,2023,2310.14393,10.48550/arxiv.2310.14393,,0,arxiv,arxiv,arxiv,arxiv,1
+ragEvaluationSurvey2024,ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks,2023,2310.12516,10.18653/v1/2024.findings-naacl.85,,1,,,,title_exact,1
+ragEvaluationSurvey2024,"LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples",2023,2310.01469,10.48550/arxiv.2310.01469,,0,,,,,0
+ragEvaluationSurvey2024,RAGAs: Automated Evaluation of Retrieval Augmented Generation,2023,2309.15217,10.48550/arxiv.2309.15217,2024.eacl-demo.16,0,,,,title_exact,1
+ragEvaluationSurvey2024,Benchmarking Large Language Models in Retrieval-Augmented Generation,2023,2309.01431,10.48550/arxiv.2309.01431,,0,arxiv,arxiv,title_exact,title_exact,1
+ragEvaluationSurvey2024,Graph of Thoughts: Solving Elaborate Problems with Large Language Models,2023,2308.09687,10.1609/aaai.v38i16.29720,,0,,,,,0
+ragEvaluationSurvey2024,A Survey on Evaluation of Large Language Models,2023,2307.03109,10.1145/3641289,,0,,,,,0
+ragEvaluationSurvey2024,Resources for Brewing BEIR: Reproducible Reference Models and an Official Leaderboard,2023,2306.07471,10.48550/arxiv.2306.07471,,0,,,,,0
+ragEvaluationSurvey2024,Judging LLM-as-a-judge with MT-Bench and Chatbot Arena,2023,2306.05685,10.52202/075280-2020,,0,,,,,0
+ragEvaluationSurvey2024,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,2023,2305.10601,10.48550/arxiv.2305.10601,,0,,,,,0
+ragEvaluationSurvey2024,Learning to Reason and Memorize with Self-Notes,2023,2305.00833,10.48550/arxiv.2305.00833,,0,,,,,0
+ragEvaluationSurvey2024,A Survey for Efficient Open Domain Question Answering,2022,2211.07886,10.48550/arxiv.2211.07886,2023.acl-long.808,0,,,,,0
+ragEvaluationSurvey2024,FiD-Light: Efficient and Effective Retrieval-Augmented Text Generation,2022,2209.14290,10.1145/3539618.3591687,,0,,,,,0
+ragEvaluationSurvey2024,RealTime QA: What's the Answer Right Now?,2022,2207.13332,10.48550/arxiv.2207.13332,,0,,,,,0
+ragEvaluationSurvey2024,Emergent Abilities of Large Language Models,2022,2206.07682,10.48550/arxiv.2206.07682,,0,,,,,0
+ragEvaluationSurvey2024,Incorporating Dynamic Semantics into Pre-Trained Language Model for Aspect-based Sentiment Analysis,2022,2203.16369,10.18653/v1/2022.findings-acl.285,2022.findings-acl.285,0,,,,,0
+ragEvaluationSurvey2024,Training language models to follow instructions with human feedback,2022,2203.02155,10.52202/068431-2011,,0,,,,,0
+ragEvaluationSurvey2024,Chain of Thought Prompting Elicits Reasoning in Large Language Models,2022,2201.11903,10.52202/068431-1800,,0,,,,,0
+ragEvaluationSurvey2024,Understanding Jargon: Combining Extraction and Generation for Definition Modeling,2021,2111.07267,10.18653/v1/2022.emnlp-main.266,2022.emnlp-main.266,0,,,,,0
+ragEvaluationSurvey2024,LoRA: Low-Rank Adaptation of Large Language Models,2021,2106.09685,,,0,,,,,0
+ragEvaluationSurvey2024,EATN: An Efficient Adaptive Transfer Network for Aspect-Level Sentiment Analysis,2021,,10.1109/tkde.2021.3075238,,0,,,,,0
+ragEvaluationSurvey2024,Retrieving and Reading: A Comprehensive Survey on Open-domain Question Answering,2021,2101.00774,,,0,,,,,0
+ragEvaluationSurvey2024,KILT: a Benchmark for Knowledge Intensive Language Tasks,2020,2009.02252,10.18653/v1/2021.naacl-main.200,2021.naacl-main.200,0,,,,,0
+ragEvaluationSurvey2024,A Survey of Evaluation Metrics Used for NLG Systems,2020,2008.12009,10.1145/3485766,,0,,,,,0
+ragEvaluationSurvey2024,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,2005.11401,,,0,,,arxiv,,1
+ragEvaluationSurvey2024,ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT,2020,2004.12832,10.1145/3397271.3401075,,0,,,,,0
+ragEvaluationSurvey2024,ERASER: A Benchmark to Evaluate Rationalized NLP Models,2019,1911.03429,10.18653/v1/2020.acl-main.408,2020.acl-main.408,0,,,,,0
+ragEvaluationSurvey2024,MRQA 2019 Shared Task: Evaluating Generalization in Reading Comprehension,2019,1910.09753,10.18653/v1/d19-5801,d19-5801,0,,,,,0
+ragEvaluationSurvey2024,Natural Questions: A Benchmark for Question Answering Research,2019,,10.1162/tacl_a_00276,q19-1026,0,,,,,0
+ragEvaluationSurvey2024,Interactive Attention Transfer Network for Cross-Domain Sentiment Classification,2019,,10.1609/aaai.v33i01.33015773,,0,,,,,0
+ragEvaluationSurvey2024,SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems,2019,1905.00537,,,0,,,,,0
+ragEvaluationSurvey2024,BERTScore: Evaluating Text Generation with BERT,2019,1904.09675,,,0,,,,,0
+ragEvaluationSurvey2024,ReCoRD: Bridging the Gap between Human and Machine Commonsense Reading Comprehension,2018,1810.12885,,,0,,,,,0
+ragEvaluationSurvey2024,Wizard of Wikipedia: Knowledge-Powered Conversational agents,2018,1811.01241,,,0,,,,,0
+ragEvaluationSurvey2024,"HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",2018,1809.09600,10.18653/v1/d18-1259,d18-1259,0,,,,,0
+ragEvaluationSurvey2024,EventKG: A Multilingual Event-Centric Temporal Knowledge Graph,2018,1804.04526,10.1007/978-3-319-93417-4_18,,0,,,,,0
+ragEvaluationSurvey2024,FEVER: a Large-scale Dataset for Fact Extraction and VERification,2018,1803.05355,10.18653/v1/n18-1074,n18-1074,0,,,,,0
+ragEvaluationSurvey2024,Attention is All you Need,2017,1706.03762,,,0,,,,,0
+ragEvaluationSurvey2024,Billion-Scale Similarity Search with GPUs,2017,1702.08734,10.1109/tbdata.2019.2921572,,0,,,,,0
+ragEvaluationSurvey2024,Cosine similarity to determine similarity measure: Study case in online essay assessment,2016,,10.1109/citsm.2016.7577578,,0,,,,,0
+ragEvaluationSurvey2024,The Probabilistic Relevance Framework: BM25 and Beyond,2009,,10.1561/1500000019,,0,,,,,0
+ragEvaluationSurvey2024,ROUGE: A Package for Automatic Evaluation of Summaries,2004,,,w04-1013,0,,,,,0
+ragEvaluationSurvey2024,A Road Network Embedding Technique for K-Nearest Neighbor Search in Moving Object Databases,2002,,10.1145/585147.585167,,0,,,,,0
+ragEvaluationSurvey2024,Bleu: a Method for Automatic Evaluation of Machine Translation,2002,,10.3115/1073083.1073135,p02-1040,0,,,,,0
+ragEvaluationSurvey2024,Evaluating rag architectures on benchmark tasks,2023,,,,0,,,,,0
+ragEvaluationSurvey2024,Enhancing RAG Pipelines in Haystack: Introducing DiversityRanker and LostInTheMiddleRanker,2023,,,,0,,,,,0
+ragEvaluationSurvey2024,Best Practices for LLM Evaluation of RAG Applications,2023,,,,0,,,,,0
+ragEvaluationSurvey2024,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,2019,1810.04805,10.18653/v1/n19-1423,n19-1423,0,,,,,0
+ragEvaluationSurvey2024,Language Models are Unsupervised Multitask Learners,2019,,,,0,,,,,0
+ragEvaluationSurvey2024,"google,我,萨娜",2006,,10.1201/b18055-8,,0,,,,,0
+ragEvaluationSurvey2024,Using TF-IDF to Determine Word Relevance in Document Queries,2003,,,,0,,,,,0
+ragEvaluationSurvey2024,DuckDuckGo,,,,,0,,,,,0
+ragEvaluationSurvey2024,Web Search API | Microsoft Bing,,,,,0,,,,,0
+ragEvaluationSurvey2024,The faiss library (2024),,,,,0,,,,,0
+trustRAGCompass2024,Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG,2026,2602.21447,10.48550/arxiv.2602.21447,,1,,,,,0
+trustRAGCompass2024,Augmenting Small Language Model for Better Medical Question Answering through Source Authentication,2026,,10.1145/3797887,,0,,,,,0
+trustRAGCompass2024,A-RAG: Scaling Agentic Retrieval-Augmented Generation via Hierarchical Retrieval Interfaces,2026,2602.03442,10.48550/arxiv.2602.03442,,0,,,,,0
+trustRAGCompass2024,Synapse: Federated Tool Routing via Typed Compendium Artifacts,2026,2602.00911,,,0,,,,,0
+trustRAGCompass2024,RAGShaper: Eliciting Sophisticated Agentic RAG Skills via Automated Data Synthesis,2026,2601.08699,10.48550/arxiv.2601.08699,,0,arxiv,arxiv,,,1
+trustRAGCompass2024,Retrieval Augmented Generation (RAG) for Fintech: Agentic Design and Evaluation,2025,2510.25518,10.1109/fllm67465.2025.11391155,,0,,,,,0
+trustRAGCompass2024,Use of Retrieval-Augmented Large Language Model Agent for Long-Form COVID-19 Fact-Checking,2025,2512.00007,10.48550/arxiv.2512.00007,,1,arxiv,,,,1
+trustRAGCompass2024,ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search,2025,2509.23519,10.48550/arxiv.2509.23519,,1,arxiv,arxiv,arxiv,title_exact,1
+trustRAGCompass2024,Your RAG is Unfair: Exposing Fairness Vulnerabilities in Retrieval-Augmented Generation via Backdoor Attacks,2025,2509.22486,10.48550/arxiv.2509.22486,,1,title_exact,title_exact,title_exact,title_exact,1
+trustRAGCompass2024,Bias Mitigation Agent: Optimizing Source Selection for Fair and Balanced Knowledge Retrieval,2025,2508.18724,10.48550/arxiv.2508.18724,,0,,,,,0
+trustRAGCompass2024,PrismRAG: Boosting RAG Factuality with Distractor Resilience and Strategized Reasoning,2025,2507.18857,10.48550/arxiv.2507.18857,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,Response Quality Assessment for Retrieval-Augmented Generation via Conditional Conformal Factuality,2025,2506.20978,10.1145/3726302.3730244,,1,,,,,0
+trustRAGCompass2024,AURA: A Multi-Agent Intelligence Framework for Knowledge-Enhanced Cyber Threat Attribution,2025,2506.10175,10.48550/arxiv.2506.10175,,0,,,,,0
+trustRAGCompass2024,Retrieval-Augmented Generation with Conflicting Evidence,2025,2504.13079,10.48550/arxiv.2504.13079,,1,,,,,0
+trustRAGCompass2024,AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems,2025,2504.00587,10.48550/arxiv.2504.00587,,0,,,,,0
+trustRAGCompass2024,Bias-Aware Agent: Enhancing Fairness in AI-Driven Knowledge Retrieval,2025,2503.21237,10.1145/3701716.3716885,,0,,,,,0
+trustRAGCompass2024,Tricking Retrievers with Influential Tokens: An Efficient Black-Box Corpus Poisoning Attack,2025,2503.21315,10.48550/arxiv.2503.21315,,0,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval,2025,2503.15548,10.48550/arxiv.2503.15548,,1,,,,,0
+trustRAGCompass2024,The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems,2025,2502.20995,10.48550/arxiv.2502.20995,,1,title_exact,title_exact,title_exact,title_exact,1
+trustRAGCompass2024,Towards Adaptive Memory-Based Optimization for Enhanced Retrieval-Augmented Generation,2025,2504.05312,10.48550/arxiv.2504.05312,,0,arxiv,arxiv,,,1
+trustRAGCompass2024,Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models,2025,2502.01386,10.48550/arxiv.2502.01386,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG,2025,2501.09136,10.48550/arxiv.2501.09136,,0,arxiv,,,,1
+trustRAGCompass2024,FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models,2025,2501.02968,10.1145/3719027.3765023,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation,2025,2501.00879,,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation,2024,2501.00332,10.48550/arxiv.2501.00332,,0,,,,,0
+trustRAGCompass2024,Enhancing Answer Attribution for Faithful Text Generation with Large Language Models,2024,2410.17112,10.5220/0013066600003838,,0,,,,,0
+trustRAGCompass2024,"No Free Lunch: Retrieval-Augmented Generation Undermines Fairness in LLMs, Even for Vigilant Users",2024,2410.07589,10.48550/arxiv.2410.07589,,0,arxiv,,,,1
+trustRAGCompass2024,Does RAG Introduce Unfairness in LLMs? Evaluating Fairness in Retrieval-Augmented Generation Systems,2024,2409.19804,10.48550/arxiv.2409.19804,,0,arxiv,,,,1
+trustRAGCompass2024,"Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation",2024,2409.12941,10.48550/arxiv.2409.12941,,0,,,,,0
+trustRAGCompass2024,AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases,2024,2407.12784,10.48550/arxiv.2407.12784,,0,title_exact,title_exact,title_exact,title_exact,1
+trustRAGCompass2024,RAG-Ex: A Generic Framework for Explaining Retrieval Augmented Generation,2024,,10.1145/3626772.3657660,,0,,,,,0
+trustRAGCompass2024,Ground Every Sentence: Improving Retrieval-Augmented LLMs with Interleaved Reference-Claim Generation,2024,2407.01796,10.48550/arxiv.2407.01796,,0,,,,,0
+trustRAGCompass2024,"RASTeR: Robust, Agentic, and Structured Temporal Reasoning",2024,2406.19538,10.18653/v1/2025.ijcnlp-long.166,,0,,,,,0
+trustRAGCompass2024,Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models,2024,2406.19417,10.48550/arxiv.2406.19417,2024.emnlp-main.96,0,acl,acl,acl,acl,1
+trustRAGCompass2024,RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems,2024,2407.11005,10.48550/arxiv.2407.11005,,0,,,,,0
+trustRAGCompass2024,Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data,2024,2406.14773,10.48550/arxiv.2406.14773,,1,arxiv,,,,1
+trustRAGCompass2024,FoRAG: Factuality-optimized Retrieval Augmented Generation for Web-enhanced Long-form Question Answering,2024,2406.13779,10.1145/3637528.3672065,,1,,,,,0
+trustRAGCompass2024,The Devil is in the Neurons: Interpreting and Mitigating Social Biases in Pre-trained Language Models,2024,2406.10130,10.48550/arxiv.2406.10130,,0,,,,,0
+trustRAGCompass2024,"LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions",2024,2406.08824,10.1007/s12369-025-01301-x,,0,,,,,0
+trustRAGCompass2024,Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents,2024,2406.05870,10.48550/arxiv.2406.05870,,0,,,,,0
+trustRAGCompass2024,Towards Transparency: Exploring LLM Trainings Datasets through Visual Topic Modeling and Semantic Frame,2024,2406.06574,10.48550/arxiv.2406.06574,,0,,,,,0
+trustRAGCompass2024,BadRAG: Identifying Vulnerabilities in Retrieval Augmented Generation of Large Language Models,2024,2406.00083,10.48550/arxiv.2406.00083,,0,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,Is My Data in Your Retrieval Database? Membership Inference Attacks Against Retrieval Augmented Generation,2024,2405.20446,10.5220/0013108300003899,,1,arxiv,arxiv,,,1
+trustRAGCompass2024,Certifiably Robust RAG against Retrieval Corruption,2024,2405.15556,10.48550/arxiv.2405.15556,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models,2024,2405.13401,10.48550/arxiv.2405.13401,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,LLM potentiality and awareness: a position paper from the perspective of trustworthy and responsible AI modeling,2024,,10.1007/s44163-024-00129-0,,0,,,,,0
+trustRAGCompass2024,Evaluating and Mitigating Linguistic Discrimination in Large Language Models,2024,2404.18534,10.48550/arxiv.2404.18534,,0,,,,,0
+trustRAGCompass2024,Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations,2024,2404.13948,10.48550/arxiv.2404.13948,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,SuRe: Summarizing Retrievals using Answer Candidates for Open-domain QA of LLMs,2024,2404.13081,10.48550/arxiv.2404.13081,,0,,,,,0
+trustRAGCompass2024,Mitigating social biases of pre-trained language models via contrastive self-debiasing with double data augmentation,2024,,10.1016/j.artint.2024.104143,,0,,,,,0
+trustRAGCompass2024,Source-Aware Training Enables Knowledge Attribution in Language Models,2024,2404.01019,10.48550/arxiv.2404.01019,,0,,,,,0
+trustRAGCompass2024,"Artificial Intelligence Trust, Risk and Security Management (AI TRiSM): Frameworks, applications, challenges and future research directions",2024,,10.1016/j.eswa.2023.122442,,0,,,,,0
+trustRAGCompass2024,FairRAG: Fair Human Generation via Fair Retrieval Augmentation,2024,2403.19964,10.1109/cvpr52733.2024.01140,,0,arxiv,,,,1
+trustRAGCompass2024,Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity,2024,2403.14403,10.48550/arxiv.2403.14403,2024.naacl-long.389,0,,,,,0
+trustRAGCompass2024,Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models,2024,2403.06448,10.48550/arxiv.2403.06448,,0,,,,,0
+trustRAGCompass2024,On Protecting the Data Privacy of Large Language Models (LLMs): A Survey,2024,2403.05156,10.1109/icmc60390.2024.00008,,0,,,,,0
+trustRAGCompass2024,Neural Exec: Learning (and Learning from) Execution Triggers for Prompt Injection Attacks,2024,2403.03792,10.1145/3689932.3694764,,0,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems,2024,2402.18649,10.48550/arxiv.2402.18649,,0,,,,,0
+trustRAGCompass2024,Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems,2024,2402.17840,10.48550/arxiv.2402.17840,,0,arxiv,arxiv,,title_exact,1
+trustRAGCompass2024,Citation-Enhanced Generation for LLM-based Chatbots,2024,2402.16063,10.18653/v1/2024.acl-long.79,,0,,,,,0
+trustRAGCompass2024,The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG),2024,2402.16893,10.48550/arxiv.2402.16893,,1,arxiv,,,title_exact,1
+trustRAGCompass2024,BIDER: Bridging Knowledge Inconsistency for Efficient Retrieval-Augmented LLMs via Key Supporting Evidence,2024,2402.12174,10.48550/arxiv.2402.12174,,0,,,,,0
+trustRAGCompass2024,Cognitive Personalized Search Integrating Large Language Models with an Efficient Memory Mechanism,2024,2402.10548,10.1145/3589334.3645482,,0,,,,,0
+trustRAGCompass2024,HGOT: Hierarchical Graph of Thoughts for Retrieval-Augmented In-Context Learning in Factuality Evaluation,2024,2402.09390,10.48550/arxiv.2402.09390,2024.trustnlp-1.12,1,,,,,0
+trustRAGCompass2024,PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models,2024,2402.07867,,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,Training Language Models to Generate Text with Citations via Fine-grained Rewards,2024,2402.04315,10.48550/arxiv.2402.04315,,0,,,,,0
+trustRAGCompass2024,Revolutionizing Finance with LLMs: An Overview of Applications and Insights,2024,2401.11641,10.48550/arxiv.2401.11641,,0,,,,,0
+trustRAGCompass2024,TrustLLM: Trustworthiness in Large Language Models,2024,2401.05561,10.48550/arxiv.2401.05561,,0,,,,,0
+trustRAGCompass2024,Data privacy: From transparency to fairness,2024,,10.1016/j.techsoc.2024.102457,,0,,,,,0
+trustRAGCompass2024,CLIPSyntel: CLIP and LLM Synergy for Multimodal Question Summarization in Healthcare,2023,2312.11541,10.48550/arxiv.2312.11541,,0,,,,,0
+trustRAGCompass2024,Towards Verifiable Text Generation with Evolving Memory and Self-Reflection,2023,2312.09075,10.48550/arxiv.2312.09075,2024.emnlp-main.469,0,,,,,0
+trustRAGCompass2024,Effective Large Language Model Adaptation for Improved Grounding and Citation Generation,2023,2311.09533,10.48550/arxiv.2311.09533,2024.naacl-long.346,0,,,,,0
+trustRAGCompass2024,LLatrieval: LLM-Verified Retrieval for Verifiable Generation,2023,2311.07838,10.48550/arxiv.2311.07838,2024.naacl-long.305,0,,,,,0
+trustRAGCompass2024,RECALL: A Benchmark for LLMs Robustness against External Counterfactual Knowledge,2023,2311.08147,10.48550/arxiv.2311.08147,,0,,,,,0
+trustRAGCompass2024,"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",2023,2311.05232,10.1145/3703155,,0,,,,,0
+trustRAGCompass2024,A Survey of Large Language Models Attribution,2023,2311.03731,10.48550/arxiv.2311.03731,,0,,,,,0
+trustRAGCompass2024,Poisoning Retrieval Corpora by Injecting Adversarial Passages,2023,2310.19156,10.48550/arxiv.2310.19156,,1,arxiv,arxiv,title_exact,title_exact,1
+trustRAGCompass2024,PRCA: Fitting Black-Box Large Language Models for Retrieval Question Answering via Pluggable Reward-Driven Contextual Adapter,2023,2310.18347,10.48550/arxiv.2310.18347,,0,,,,,0
+trustRAGCompass2024,Merging Generated and Retrieved Knowledge for Open-Domain QA,2023,2310.14393,10.48550/arxiv.2310.14393,,0,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,"Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",2023,2310.11511,,,0,,,arxiv,title_exact,1
+trustRAGCompass2024,Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models,2023,2310.06117,10.48550/arxiv.2310.06117,,0,,,,,0
+trustRAGCompass2024,Self-Knowledge Guided Retrieval Augmentation for Large Language Models,2023,2310.05002,10.48550/arxiv.2310.05002,,0,,,,,0
+trustRAGCompass2024,Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading,2023,2310.05029,10.48550/arxiv.2310.05029,,0,,,,,0
+trustRAGCompass2024,Retrieving Supporting Evidence for Generative Question Answering,2023,2309.11392,10.1145/3624918.3625336,,0,,,,,0
+trustRAGCompass2024,"AI Fairness in Data Management and Analytics: A Review on Challenges, Methodologies and Applications",2023,,10.3390/app131810258,,0,,,,,0
+trustRAGCompass2024,ChatGPT or LLM in next-generation drug discovery and development: pharmaceutical and biotechnology companies can make use of the artificial intelligence-based device for a faster way of drug discovery and development,2023,,10.1097/js9.0000000000000719,,0,,,,,0
+trustRAGCompass2024,AI pitfalls and what not to do: mitigating bias in AI,2023,,10.1259/bjr.20230023,,0,,,,,0
+trustRAGCompass2024,Certifying LLM Safety against Adversarial Prompting,2023,2309.02705,10.48550/arxiv.2309.02705,,0,,,,,0
+trustRAGCompass2024,Benchmarking Large Language Models in Retrieval-Augmented Generation,2023,2309.01431,10.48550/arxiv.2309.01431,,0,arxiv,arxiv,title_exact,title_exact,1
+trustRAGCompass2024,Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment,2023,2308.05374,10.48550/arxiv.2308.05374,,0,,,,,0
+trustRAGCompass2024,Certified Robustness for Large Language Models with Self-Denoising,2023,2307.07171,10.48550/arxiv.2307.07171,,0,,,,,0
+trustRAGCompass2024,ProPILE: Probing Privacy Leakage in Large Language Models,2023,2307.01881,10.48550/arxiv.2307.01881,,0,,,,,0
+trustRAGCompass2024,DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models,2023,2306.11698,10.48550/arxiv.2306.11698,,0,,,,,0
+trustRAGCompass2024,Uncovering and Categorizing Social Biases in Text-to-SQL,2023,2305.16253,10.48550/arxiv.2305.16253,2023.acl-long.759,0,,,,,0
+trustRAGCompass2024,Uncovering and Quantifying Social Biases in Code Generation,2023,2305.15377,10.48550/arxiv.2305.15377,,0,,,,,0
+trustRAGCompass2024,SAIL: Search-Augmented Instruction Learning,2023,2305.15225,10.48550/arxiv.2305.15225,,0,,,,,0
+trustRAGCompass2024,PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions,2023,2305.14908,10.48550/arxiv.2305.14908,,0,,,,,0
+trustRAGCompass2024,Privacy Implications of Retrieval-Based Language Models,2023,2305.14888,10.48550/arxiv.2305.14888,,1,arxiv,,,,1
+trustRAGCompass2024,Query Rewriting for Retrieval-Augmented Large Language Models,2023,2305.14283,10.48550/arxiv.2305.14283,,0,,,,,0
+trustRAGCompass2024,On the Risk of Misinformation Pollution with Large Language Models,2023,2305.13661,10.48550/arxiv.2305.13661,,0,,,,,0
+trustRAGCompass2024,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,2023,2305.10601,10.48550/arxiv.2305.10601,,0,,,,,0
+trustRAGCompass2024,Active Retrieval Augmented Generation,2023,2305.06983,10.48550/arxiv.2305.06983,,0,,,,title_exact,1
+trustRAGCompass2024,Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise,2023,2305.01579,10.18653/v1/2024.findings-naacl.159,,1,arxiv,arxiv,arxiv,arxiv,1
+trustRAGCompass2024,A Survey of Adversarial Defenses and Robustness in NLP,2023,,10.1145/3593042,,0,,,,,0
+trustRAGCompass2024,"Fairness And Bias in Artificial Intelligence: A Brief Survey of Sources, Impacts, And Mitigation Strategies",2023,2304.07683,10.3390/sci6010003,,0,,,,,0
+trustRAGCompass2024,Multi-step Jailbreaking Privacy Attacks on ChatGPT,2023,2304.05197,10.48550/arxiv.2304.05197,,0,,,,,0
+trustRAGCompass2024,WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus,2023,2304.04358,10.48550/arxiv.2304.04358,,0,,,,,0
+trustRAGCompass2024,GPT detectors are biased against non-native English writers,2023,2304.02819,10.1016/j.patter.2023.100779,,0,,,,,0
+trustRAGCompass2024,A Survey of Large Language Models,2023,2303.18223,10.1007/s11704-026-60308-3,,0,,,,,0
+trustRAGCompass2024,Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback,2023,2302.12813,10.48550/arxiv.2302.12813,,0,,,,,0
+trustRAGCompass2024,Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,2023,2302.12173,10.1145/3605764.3623985,,0,,,,,0
+trustRAGCompass2024,Toolformer: Language Models Can Teach Themselves to Use Tools,2023,2302.04761,10.48550/arxiv.2302.04761,,0,,,,,0
+trustRAGCompass2024,"A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity",2023,2302.04023,10.18653/v1/2023.ijcnlp-main.45,2023.ijcnlp-main.45,0,,,,,0
+trustRAGCompass2024,Large Language Models Can Be Easily Distracted by Irrelevant Context,2023,2302.00093,10.48550/arxiv.2302.00093,,0,,,,,0
+trustRAGCompass2024,REPLUG: Retrieval-Augmented Black-Box Language Models,2023,2301.12652,10.48550/arxiv.2301.12652,2024.naacl-long.463,0,,,,,0
+trustRAGCompass2024,On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex,2023,2301.12868,10.48550/arxiv.2301.12868,2023.eacl-main.77,0,,,,,0
+trustRAGCompass2024,Defending Against Disinformation Attacks in Open-Domain Question Answering,2022,2212.10002,10.48550/arxiv.2212.10002,2024.eacl-short.35,1,,,,,0
+trustRAGCompass2024,Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions,2022,2212.10509,10.48550/arxiv.2212.10509,2023.acl-long.557,0,,,,,0
+trustRAGCompass2024,SelecMix: Debiased Learning by Contradicting-pair Sampling,2022,2211.02291,10.48550/arxiv.2211.02291,,0,,,,,0
+trustRAGCompass2024,EW-Tune: A Framework for Privately Fine-Tuning Large Language Models with Differential Privacy,2022,2210.15042,10.1109/icdmw58026.2022.00078,,0,,,,,0
+trustRAGCompass2024,"RARR: Researching and Revising What Language Models Say, Using Language Models",2022,2210.08726,10.18653/v1/2023.acl-long.910,2023.acl-long.910,0,,,,,0
+trustRAGCompass2024,Measuring and Narrowing the Compositionality Gap in Language Models,2022,2210.03350,10.48550/arxiv.2210.03350,,0,,,,,0
+trustRAGCompass2024,Promptagator: Few-shot Dense Retrieval From 8 Examples,2022,2209.11755,10.48550/arxiv.2209.11755,,0,,,,,0
+trustRAGCompass2024,Generate rather than Retrieve: Large Language Models are Strong Context Generators,2022,2209.10063,,,0,,,,,0
+trustRAGCompass2024,Few-shot Learning with Retrieval Augmented Language Models,2022,2208.03299,,,0,,,,,0
+trustRAGCompass2024,In-Processing Modeling Techniques for Machine Learning Fairness: A Survey,2022,,10.1145/3551390,,0,,,,,0
+trustRAGCompass2024,"Re2G: Retrieve, Rerank, Generate",2022,2207.06300,10.48550/arxiv.2207.06300,2022.naacl-main.194,0,,,,,0
+trustRAGCompass2024,Understanding user sensemaking in fairness and transparency in algorithms: algorithmic sensemaking in over-the-top platform,2022,,10.1007/s00146-022-01525-9,,0,,,,,0
+trustRAGCompass2024,Are Large Pre-Trained Language Models Leaking Your Personal Information?,2022,2205.12628,10.48550/arxiv.2205.12628,,0,,,,,0
+trustRAGCompass2024,Self-Consistency Improves Chain of Thought Reasoning in Language Models,2022,2203.11171,,,0,,,,,0
+trustRAGCompass2024,Do Language Models Plagiarize?,2022,2203.07618,10.1145/3543507.3583199,,0,,,,,0
+trustRAGCompass2024,Synthetic Disinformation Attacks on Automated Fact Verification Systems,2022,2202.09381,10.1609/aaai.v36i10.21302,,0,,,,,0
+trustRAGCompass2024,Chain of Thought Prompting Elicits Reasoning in Large Language Models,2022,2201.11903,10.52202/068431-1800,,0,,,,,0
+trustRAGCompass2024,Attribution,2021,,10.4135/9781483365817.n136,,0,,,,,0
+trustRAGCompass2024,WebGPT: Browser-assisted question-answering with human feedback,2021,2112.09332,,,0,,,,,0
+trustRAGCompass2024,Improving language models by retrieving from trillions of tokens,2021,2112.04426,,,0,,,,,0
+trustRAGCompass2024,Covered Information Disentanglement: Model Transparency via Unbiased Permutation Importance,2021,2111.09744,10.1609/aaai.v36i7.20769,,0,,,,,0
+trustRAGCompass2024,PSSL: Self-supervised Learning for Personalized Search with Contrastive Sampling,2021,2111.12614,10.1145/3459637.3482379,,0,,,,,0
+trustRAGCompass2024,Attacking Open-domain Question Answering by Injecting Misinformation,2021,2110.07803,10.18653/v1/2023.ijcnlp-main.35,2023.ijcnlp-main.35,1,,,,,0
+trustRAGCompass2024,Deep Learning for Bias Detection: From Inception to Deployment,2021,2110.15728,10.1007/978-981-16-8531-6_7,,0,,,,,0
+trustRAGCompass2024,CrossAug: A Contrastive Data Augmentation Method for Debiasing Fact Verification Models,2021,2109.15107,10.1145/3459637.3482078,,0,,,,,0
+trustRAGCompass2024,Group based Personalized Search by Integrating Search Behaviour and Friend Network,2021,2111.12618,10.1145/3404835.3462918,,0,,,,,0
+trustRAGCompass2024,Evaluating XAI: A comparison of rule-based and example-based explanations,2021,,10.1016/j.artint.2020.103404,,0,,,,,0
+trustRAGCompass2024,CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models,2020,2010.00133,10.18653/v1/2020.emnlp-main.154,2020.emnlp-main.154,0,,,,,0
+trustRAGCompass2024,Encoding History with Context-aware Representation Learning for Personalized Search,2020,,10.1145/3397271.3401175,,0,,,,,0
+trustRAGCompass2024,Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering,2020,2007.01282,10.18653/v1/2021.eacl-main.74,2021.eacl-main.74,0,,,,,0
+trustRAGCompass2024,Transparency and accountability in AI decision support: Explaining and visualizing convolutional neural networks for text information,2020,,10.1016/j.dss.2020.113302,,0,,,,,0
+trustRAGCompass2024,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,2005.11401,,,0,,,arxiv,,1
+trustRAGCompass2024,Quantifying Attention Flow in Transformers,2020,2005.00928,10.18653/v1/2020.acl-main.385,2020.acl-main.385,0,,,,,0
+trustRAGCompass2024,Towards Transparent and Explainable Attention Models,2020,2004.14243,10.18653/v1/2020.acl-main.387,2020.acl-main.387,0,,,,,0
+trustRAGCompass2024,How Context Affects Language Models' Factual Predictions,2020,2005.04611,10.24432/c5201w,,0,,,,,0
+trustRAGCompass2024,REALM: Retrieval-Augmented Language Model Pre-Training,2020,2002.08909,,,0,arxiv,,,,1
+trustRAGCompass2024,Algorithmic Fairness,2020,2001.09784,,,0,,,,,0
+trustRAGCompass2024,Enhancing Re-finding Behavior with External Memories for Personalized Search,2020,,10.1145/3336191.3371794,,0,,,,,0
+trustRAGCompass2024,Generalization through Memorization: Nearest Neighbor Language Models,2019,1911.00172,,,0,,,,,0
+trustRAGCompass2024,Adversarial NLI: A New Benchmark for Natural Language Understanding,2019,1910.14599,10.18653/v1/2020.acl-main.441,2020.acl-main.441,0,,,,,0
+trustRAGCompass2024,Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,2019,1910.10683,,,0,,,,,0
+trustRAGCompass2024,Measuring Algorithmic Fairness,2019,,,,0,,,,,0
+trustRAGCompass2024,A Multiscale Visualization of Attention in the Transformer Model,2019,1906.05714,10.18653/v1/p19-3007,p19-3007,0,,,,,0
+trustRAGCompass2024,Deep ReLU Networks Have Surprisingly Few Activation Patterns,2019,1906.00904,,,0,,,,,0
+trustRAGCompass2024,"Avoiding Reasoning Shortcuts: Adversarial Evaluation, Training, and Model Development for Multi-Hop QA",2019,1906.07132,10.18653/v1/p19-1262,p19-1262,0,,,,,0
+trustRAGCompass2024,"Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse",2019,,10.1080/1369118x.2019.1573912,,0,,,,,0
+trustRAGCompass2024,Machine learning-based surrogate modeling for data-driven optimization: a comparison of subset selection for regression techniques,2019,,10.1007/s11590-019-01428-7,,0,,,,,0
+trustRAGCompass2024,Bias Mitigation Post-processing for Individual and Group Fairness,2018,1812.06135,10.1109/icassp.2019.8682620,,0,,,,,0
+trustRAGCompass2024,Transparency and Algorithmic Governance,2018,,,,0,,,,,0
+trustRAGCompass2024,Transparency in Algorithmic and Human Decision-Making: Is There a Double Standard?,2018,,10.1007/s13347-018-0330-6,,0,,,,,0
+trustRAGCompass2024,Data science empowering the public: Data-driven dashboards for transparent and accountable decision-making in smart cities,2018,,10.1016/j.giq.2018.01.006,,0,,,,,0
+trustRAGCompass2024,Proximal Policy Optimization Algorithms,2017,1707.06347,,,0,,,,,0
+trustRAGCompass2024,Attention is All you Need,2017,1706.03762,,,0,,,,,0
+trustRAGCompass2024,Axiomatic Attribution for Deep Networks,2017,1703.01365,,,0,,,,,0
+trustRAGCompass2024,The Probabilistic Relevance Framework: BM25 and Beyond,2009,,10.1561/1500000019,,0,,,,,0
+trustRAGCompass2024,Trustworthiness,2008,,10.1080/05568640809485227,,0,,,,,0
+trustRAGCompass2024,How to generate and exchange secrets,1986,,10.1109/sfcs.1986.25,,0,,,,,0
+trustRAGCompass2024,AttnTrace: Attention-based Context Traceback for Long-Context LLMs,2025,,10.48550/arxiv.2508.03793,,0,,,,,0
+trustRAGCompass2024,PoisonedRAG: Knowledge Poisoning Attacks to Retrieval-Augmented Generation of Large Language Models,2024,,10.48550/arxiv.2402.07867,,1,,,,,0
+trustRAGCompass2024,The role of ChatGPT in scientific communication: writing better scientific review articles.,2023,,,,0,,,,,0
+trustRAGCompass2024,"Search-in-the-Chain: Towards the Accurate, Credible and Traceable Content Generation for Complex Knowledge-intensive Tasks",2023,,10.48550/arxiv.2304.14732,,0,,,,,0
+trustRAGCompass2024,PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts,2023,,10.48550/arxiv.2306.04528,,0,,,,,0
+trustRAGCompass2024,MPII: Multi-Level Mutual Promotion for Inference and Interpretation,2022,,10.18653/v1/2022.acl-long.488,2022.acl-long.488,0,,,,,0
+trustRAGCompass2024,TRUE: Re-evaluating Factual Consistency Evaluation,2022,,10.48550/arxiv.2204.04991,2022.naacl-main.287,0,,,,,0
+trustRAGCompass2024,An Overview of Fairness in Data – Illuminating the Bias in Data Pipeline,2021,,,2021.ltedi-1.5,0,,,,,0
+trustRAGCompass2024,A Survey of Contrastive and Counterfactual Explanation Generation Methods for Explainable Artificial Intelligence,2021,,10.1109/access.2021.3051315,,0,,,,,0
+trustRAGCompass2024,Supplementary File-Data preprocessing to mitigate bias: A maximum entropy based approach,2020,,,,0,,,,,0
+trustRAGCompass2024,Layer-Wise Relevance Propagation: An Overview,2019,,10.1007/978-3-030-28954-6_10,,0,,,,,0
+trustRAGCompass2024,ICDM (Workshops),,,,,0,,,,,0
+trustRAGCompass2024,2025. Rearag: Knowledge-guided reasoning enhances factuality of large reasoning models with iterative retrieval augmented generation,,,,,1,,,,,0
+trustRAGCompass2024,2025. Rag-critic: Leveraging automated critic-guided agentic workflow for retrieval augmented generation,,,,,0,,,,,0
+trustRAGCompass2024,2025. AMulti-AgentRAGFrameworkforRegulatory Compliance Checking of Software Requirements,,,,,0,,,,,0
+trustRAGCompass2024,"“When llm-based code generation meets the software development process,”",,,,,0,,,,,0
+trustRAGCompass2024,2024. Activerag: Autonomously knowledge assimilation and accommodation through retrieval-augmented agents,,,,,0,,,,,0
+trustRAGCompass2024,2024. From Pre-training Corpora to Large Language Models: What Factors Influence LLM Performance in Causal Discovery Tasks?,,,,,0,,,,,0
+trustRAGCompass2024,2025. Privacy-enhancing paradigms within federated multi-agent systems,,,,,0,,,,,0
+securityRAGSurvey2026,SJBP: A Platform to Launch a Novel Jailbreak Attack on Large Language Models Based on Content's Spatial Distribution,2026,,10.1145/3774905.3793104,,0,,,,,0
+securityRAGSurvey2026,RAGShield: Detecting Numerical Claim Manipulation in Government RAG Systems,2026,2604.00387,10.48550/arxiv.2604.00387,,0,,,,,0
+securityRAGSurvey2026,PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented Generation Systems,2026,2603.25164,10.48550/arxiv.2603.25164,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,SEAL-Tag: Self-Tag Evidence Aggregation with Probabilistic Circuits for PII-Safe Retrieval-Augmented Generation,2026,2603.17292,10.48550/arxiv.2603.17292,,0,arxiv,arxiv,,,1
+securityRAGSurvey2026,MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering,2026,2603.14265,10.48550/arxiv.2603.14265,,0,arxiv,,,,1
+securityRAGSurvey2026,The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey,2026,2603.11088,10.48550/arxiv.2603.11088,,0,,,,,0
+securityRAGSurvey2026,Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG,2026,2602.21447,10.48550/arxiv.2602.21447,,1,,,,,0
+securityRAGSurvey2026,Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation,2026,2602.09319,10.1145/3770855.3817524,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Retrieval Pivot Attacks in Hybrid RAG: Measuring and Mitigating Amplified Leakage from Vector Seeds to Graph Expansion,2026,2602.08668,10.48550/arxiv.2602.08668,,1,arxiv,arxiv,,,1
+securityRAGSurvey2026,MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs,2026,2602.06268,10.48550/arxiv.2602.06268,,0,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention,2026,2602.04711,10.48550/arxiv.2602.04711,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems,2026,2601.15678,10.48550/arxiv.2601.15678,,1,,,,,0
+securityRAGSurvey2026,SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation,2026,2601.11199,10.48550/arxiv.2601.11199,,1,arxiv,arxiv,,,1
+securityRAGSurvey2026,Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG,2026,2601.10923,10.1145/3774904.3792853,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems,2026,2601.07072,10.48550/arxiv.2601.07072,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems,2026,2601.03979,10.48550/arxiv.2601.03979,,1,arxiv,,,,1
+securityRAGSurvey2026,Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems,2026,2601.00274,10.48550/arxiv.2601.00274,,0,arxiv,,,,1
+securityRAGSurvey2026,MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval,2025,2512.16962,10.48550/arxiv.2512.16962,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks,2025,2512.08289,10.48550/arxiv.2512.08289,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Proof-Carrying Answers: A Systematic Protocol for Verifiable Retrieval-Augmented Generation with Cryptographic Provenance,2025,,10.1109/acsacw69556.2025.00050,,0,,,,,0
+securityRAGSurvey2026,EmoRAG: Evaluating RAG Robustness to Symbolic Perturbations,2025,2512.01335,10.1145/3770854.3780238,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Efficient Privacy-Preserving Retrieval Augmented Generation with Distance-Preserving Encryption,2025,2601.12331,10.1109/fllm67465.2025.11391120,,1,arxiv,,,,1
+securityRAGSurvey2026,Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation,2025,2511.19257,10.1145/3770854.3780277,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Rescuing the Unpoisoned: Efficient Defense Against Knowledge Corruption Attacks on RAG Systems,2025,2511.01268,10.1109/acsac67867.2025.00093,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Secure Retrieval-Augmented Generation Against Poisoning Attacks,2025,2510.25025,10.1109/bigdata66926.2025.11402647,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG,2025,2510.09710,10.48550/arxiv.2510.09710,,1,arxiv,arxiv,arxiv,title_exact,1
+securityRAGSurvey2026,External Data Extraction Attacks Against Retrieval-Augmented Large Language Models,2025,2510.02964,10.1109/tifs.2026.3705326,,1,,,,,0
+securityRAGSurvey2026,ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search,2025,2509.23519,10.48550/arxiv.2509.23519,,1,arxiv,arxiv,arxiv,title_exact,1
+securityRAGSurvey2026,RAG Security and Privacy: Formalizing the Threat Model and Attack Surface,2025,2509.20324,10.1109/icdmw69685.2025.00165,,1,arxiv,arxiv,,,1
+securityRAGSurvey2026,ImportSnare: Directed 'Code Manual' Hijacking in Retrieval-Augmented Code Generation,2025,2509.07941,10.1145/3719027.3765161,,0,arxiv,arxiv,arxiv,,1
+securityRAGSurvey2026,FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data,2025,2509.02473,10.1145/3770855.3817454,,0,,,,,0
+securityRAGSurvey2026,UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation,2025,2508.18652,10.48550/arxiv.2508.18652,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,SMA: Who Said That? Auditing Membership Leakage in Semi-Black-box RAG Controlling,2025,2508.09105,10.48550/arxiv.2508.09105,,0,,,,,0
+securityRAGSurvey2026,The Hidden Threat in Plain Text: Attacking RAG Data Loaders,2025,2507.05093,10.1145/3733799.3762976,,0,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation,2025,,10.1016/j.ipm.2025.104150,,1,,,,,0
+securityRAGSurvey2026,InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy,2025,2507.02974,10.48550/arxiv.2507.02974,,0,,,,,0
+securityRAGSurvey2026,Reliable Reasoning Path: Distilling Effective Guidance for LLM Reasoning With Knowledge Graphs,2025,2506.10508,10.1109/tkde.2026.3656900,,0,,,,,0
+securityRAGSurvey2026,Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG,2025,2506.04390,,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Adversarial threat vectors and risk mitigation for retrieval-augmented generation systems,2025,2506.00281,10.1117/12.3055931,,1,arxiv,,,,1
+securityRAGSurvey2026,"Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers",2025,2506.00054,10.48550/arxiv.2506.00054,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,The Silent Saboteur: Imperceptible Adversarial Attacks against Black-Box Retrieval-Augmented Generation Systems,2025,2505.18583,10.48550/arxiv.2505.18583,,1,title_exact,title_exact,title_exact,title_exact,1
+securityRAGSurvey2026,Silent Leaks: Implicit Knowledge Extraction Attack on RAG Systems through Benign Queries,2025,2505.15420,10.48550/arxiv.2505.15420,,1,arxiv,arxiv,,,1
+securityRAGSurvey2026,Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal Retrieval-Augmented Generation,2025,2505.13957,10.48550/arxiv.2505.13957,,1,,,,,0
+securityRAGSurvey2026,One Shot Dominance: Knowledge Poisoning Attack on Retrieval-Augmented Generation Systems,2025,2505.11548,10.48550/arxiv.2505.11548,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Securing Rag: A Risk Assessment and Mitigation Framework,2025,2505.08728,10.1109/sds66131.2025.00024,,0,,,,,0
+securityRAGSurvey2026,GRADA: Graph-based Reranking against Adversarial Documents Attack,2025,2505.07546,10.18653/v1/2025.emnlp-main.1132,,0,,,,,0
+securityRAGSurvey2026,Defending against Indirect Prompt Injection by Instruction Detection,2025,2505.06311,10.18653/v1/2025.findings-emnlp.1060,,0,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Hoist with His Own Petard: Inducing Guardrails to Facilitate Denial-of-Service Attacks on Retrieval-Augmented Generation of LLMs,2025,2504.21680,10.48550/arxiv.2504.21680,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Privacy-Preserving Federated Embedding Learning for Localized Retrieval-Augmented Generation,2025,2504.19101,10.48550/arxiv.2504.19101,,1,,,,,0
+securityRAGSurvey2026,MIRAGE: A Metric-Intensive Benchmark for Retrieval-Augmented Generation Evaluation,2025,2504.17137,10.48550/arxiv.2504.17137,,0,,,,title_exact,1
+securityRAGSurvey2026,Retrieval Augmented Generation Evaluation in the Era of Large Language Models: A Comprehensive Survey,2025,2504.14891,10.48550/arxiv.2504.14891,,0,,,,,0
+securityRAGSurvey2026,PR-Attack: Coordinated Prompt-RAG Attacks on Retrieval-Augmented Generation in Large Language Models via Bilevel Optimization,2025,2504.07717,10.1145/3726302.3730058,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Practical Poisoning Attacks against Retrieval-Augmented Generation,2025,2504.03957,10.1145/3750555.3811900,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Image,2025,2504.02132,10.48550/arxiv.2504.02132,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Integrating Access Control with Retrieval-Augmented Generation: A Proof of Concept for Managing Sensitive Patient Profiles,2025,,10.1145/3672608.3707848,,0,,,,,0
+securityRAGSurvey2026,Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval,2025,2503.15548,10.48550/arxiv.2503.15548,,1,,,,,0
+securityRAGSurvey2026,Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation,2025,2503.06254,10.48550/arxiv.2503.06254,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Memory Injection Attacks on LLM Agents via Query-Only Interaction,2025,2503.03704,,,0,,,,,0
+securityRAGSurvey2026,The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems,2025,2502.20995,10.48550/arxiv.2502.20995,,1,title_exact,title_exact,title_exact,title_exact,1
+securityRAGSurvey2026,MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks,2025,2502.17832,10.48550/arxiv.2502.17832,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals,2025,2502.16101,10.48550/arxiv.2502.16101,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,D-RAG: A Privacy-Preserving Framework for Decentralized RAG using Blockchain,2025,,10.5121/csit.2025.150417,,1,,,,,0
+securityRAGSurvey2026,Exploring the Security Threats of Knowledge Base Poisoning in Retrieval-Augmented Code Generation,2025,2502.03233,10.48550/arxiv.2502.03233,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models,2025,2502.01386,10.48550/arxiv.2502.01386,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Riddle Me This! Stealthy Membership Inference for Retrieval-Augmented Generation,2025,2502.00306,10.1145/3719027.3744840,,0,,,,,0
+securityRAGSurvey2026,Robust Fine-tuning for Retrieval Augmented Generation against Retrieval Defects,2025,2501.18365,10.1145/3726302.3730078,,1,,,,doi,1
+securityRAGSurvey2026,GraphRAG Under Fire,2025,2501.14050,10.1109/sp63933.2026.00070,,0,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems,2025,2501.03468,10.48550/arxiv.2501.03468,,0,arxiv,arxiv,,,1
+securityRAGSurvey2026,FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models,2025,2501.02968,10.1145/3719027.3765023,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation,2025,2501.00879,,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,GASLITEing the Retrieval: Exploring Vulnerabilities in Dense Embedding-based Search,2024,2412.20953,10.1145/3719027.3765095,,0,,,,,0
+securityRAGSurvey2026,RAG with Differential Privacy,2024,2412.19291,10.1109/cai64502.2025.00150,,1,arxiv,,,,1
+securityRAGSurvey2026,RemoteRAG: A Privacy-Preserving LLM Cloud RAG Service,2024,2412.12775,10.48550/arxiv.2412.12775,,1,arxiv,,,,1
+securityRAGSurvey2026,C-FedRAG: A Confidential Federated Retrieval-Augmented Generation System,2024,2412.13163,10.48550/arxiv.2412.13163,,0,,,,,0
+securityRAGSurvey2026,Privacy-Preserving Retrieval Augmented Generation with Differential Privacy,2024,2412.04697,10.48550/arxiv.2412.04697,,1,arxiv,,,,1
+securityRAGSurvey2026,RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis,2024,2411.18948,10.18653/v1/2025.findings-emnlp.698,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Data Extraction Attacks in Retrieval-Augmented Generation via Backdoors,2024,2411.01705,10.48550/arxiv.2411.01705,,1,arxiv,arxiv,,,1
+securityRAGSurvey2026,Retrieval-Augmented Generation with Estimation of Source Reliability,2024,2410.22954,10.48550/arxiv.2410.22954,,0,,,,,0
+securityRAGSurvey2026,Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models,2024,2410.07176,10.48550/arxiv.2410.07176,,1,arxiv,arxiv,title_exact,title_exact,1
+securityRAGSurvey2026,Trustworthiness in Retrieval-Augmented Generation Systems: A Survey,2024,2409.10102,10.48550/arxiv.2409.10102,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Rag and Roll: An End-to-End Evaluation of Indirect Prompt Manipulations in LLM-based Application Frameworks,2024,2408.05025,10.48550/arxiv.2408.05025,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework,2024,2408.01262,10.18653/v1/2025.acl-long.418,,0,,,,,0
+securityRAGSurvey2026,Retrieval-Augmented Generation for Natural Language Processing: A Survey,2024,2407.13193,10.48550/arxiv.2407.13193,,0,,,,,0
+securityRAGSurvey2026,AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases,2024,2407.12784,10.48550/arxiv.2407.12784,,0,title_exact,title_exact,title_exact,title_exact,1
+securityRAGSurvey2026,RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems,2024,2407.11005,10.48550/arxiv.2407.11005,,0,,,,,0
+securityRAGSurvey2026,Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data,2024,2406.14773,10.48550/arxiv.2406.14773,,1,arxiv,,,,1
+securityRAGSurvey2026,InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales,2024,2406.13629,,,0,,,,title_exact,1
+securityRAGSurvey2026,Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis,2024,2406.10794,10.48550/arxiv.2406.10794,2024.emnlp-main.401,0,,,,,0
+securityRAGSurvey2026,Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents,2024,2406.05870,10.48550/arxiv.2406.05870,,0,,,,,0
+securityRAGSurvey2026,Certifiably Robust RAG against Retrieval Corruption,2024,2405.15556,10.48550/arxiv.2405.15556,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models,2024,2405.13401,10.48550/arxiv.2405.13401,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Evaluation of Retrieval-Augmented Generation: A Survey,2024,2405.07437,10.1007/978-981-96-1024-2_8,,0,arxiv,arxiv,arxiv,,1
+securityRAGSurvey2026,Human-Imperceptible Retrieval Poisoning Attacks in LLM-Powered Applications,2024,2404.17196,10.1145/3663529.3663786,,1,,,,,0
+securityRAGSurvey2026,Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations,2024,2404.13948,10.48550/arxiv.2404.13948,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,On Large Language Models’ Hallucination with Regard to Known Facts,2024,2403.20009,10.48550/arxiv.2403.20009,2024.naacl-long.60,0,,,,,0
+securityRAGSurvey2026,Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications,2024,2403.02817,10.48550/arxiv.2403.02817,,0,,,,,0
+securityRAGSurvey2026,Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems,2024,2402.17840,10.48550/arxiv.2402.17840,,0,arxiv,arxiv,,title_exact,1
+securityRAGSurvey2026,The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG),2024,2402.16893,10.48550/arxiv.2402.16893,,1,arxiv,,,title_exact,1
+securityRAGSurvey2026,Pandora: Jailbreak GPTs by Retrieval Augmented Generation Poisoning,2024,2402.08416,10.48550/arxiv.2402.08416,,1,arxiv,arxiv,,,1
+securityRAGSurvey2026,Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models,2023,2312.14197,10.1145/3690624.3709179,,0,,,,,0
+securityRAGSurvey2026,Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection,2023,2307.16888,10.18653/v1/2024.naacl-long.337,2024.naacl-long.337,0,,,,,0
+securityRAGSurvey2026,Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise,2023,2305.01579,10.18653/v1/2024.findings-naacl.159,,1,arxiv,arxiv,arxiv,arxiv,1
+securityRAGSurvey2026,Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,2023,2302.12173,10.1145/3605764.3623985,,0,,,,,0
+securityRAGSurvey2026,Extracting Training Data from Large Language Models,2020,2012.07805,,,0,,,,,0
+securityRAGSurvey2026,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,2005.11401,,,0,,,arxiv,,1
+securityRAGSurvey2026,The protection of information in computer systems,1975,,10.1109/proc.1975.9939,,0,,,,,0
+securityRAGSurvey2026,A systemic evaluation of multimodal rag privacy,2026,,,,1,,,,,0
+securityRAGSurvey2026,S-RAG: A Novel Audit Framework for Detecting Unauthorized Use of Personal Data in RAG Systems,2025,,10.18653/v1/2025.acl-long.512,,0,,,,,0
+securityRAGSurvey2026,VAGUE-Gate: Plug-and-Play Local-Privacy Shield for Retrieval-Augmented Generation,2025,,10.18653/v1/2025.ijcnlp-long.194,,1,,,,,0
+securityRAGSurvey2026,Phantom: General trigger attacks on retrieval,2024,,,,1,,,,,0
+securityRAGSurvey2026,Association for Computational Linguistics,2001,,10.1016/b0-08-044854-2/05234-2,,0,,,,,0
+securityRAGSurvey2026,SecureRAG: End-to-End Secure Retrieval-Augmented Generation,,,,,1,,,,,0
+securityRAGSurvey2026,2025. Security and privacy challenges of large language models: A survey,,,,,0,,,,,0
+securityRAGSurvey2026,"2024. A survey on large language model (llm) security and privacy: The good, the bad, and the ugly",,,,,0,,,,,0
+securityRAGSurvey2026,2024. Confused-pilot: Confused deputy risks in rag-based llms,,,,,0,,,,,0
+securityRAGSurvey2026,2025. Machine against the { RAG } : Jamming,,,,,0,,,,,0
+securityRAGSurvey2026,2025. Rag-pull: Imperceptible attacks on rag systems for code generation,,,,,1,,,,,0
+securityRAGSurvey2026,1 others,,,,,0,,,,,0
+securityRAGSurvey2026,2026. Who Taught the Lie? Re-sponsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation,,,,,1,,,,,0
+securityRAGSurvey2026,"2024. A comprehensive survey of retrieval-augmented generation (rag): Evolution, current landscape and future directions",,,,,0,title_jaccard,,,,1
+securityRAGSurvey2026,2026. Privacy protection in rag: A novel method and evaluation framework,,,,,1,,,,,0
+xuKnowledgeConflicts2024,ConflictBank: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLM,2024,2408.12076,10.48550/arxiv.2408.12076,,0,,,,,0
+xuKnowledgeConflicts2024,"Preemptive Answer ""Attacks"" on Chain-of-Thought Reasoning",2024,2405.20902,10.48550/arxiv.2405.20902,,0,,,,,0
+xuKnowledgeConflicts2024,Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models,2024,2402.18154,10.48550/arxiv.2402.18154,,0,arxiv,arxiv,arxiv,arxiv,1
+xuKnowledgeConflicts2024,Evaluating Robustness of Generative Search Engine on Adversarial Factual Questions,2024,2403.12077,10.48550/arxiv.2403.12077,,0,,,,,0
+xuKnowledgeConflicts2024,Tug-of-War between Knowledge: Exploring and Resolving Knowledge Conflicts in Retrieval-Augmented Language Models,2024,2402.14409,10.48550/arxiv.2402.14409,2024.lrec-main.1466,1,arxiv,arxiv,arxiv,arxiv,1
+xuKnowledgeConflicts2024,Self-DC: When to Reason and When to Act? Self Divide-and-Conquer for Compositional Unknown Questions,2024,2402.13514,,,0,,,,,0
+xuKnowledgeConflicts2024,What Evidence Do Language Models Find Convincing?,2024,2402.11782,10.48550/arxiv.2402.11782,,0,,,,,0
+xuKnowledgeConflicts2024,Summing Up the Facts: Additive Mechanisms Behind Factual Recall in LLMs,2024,2402.07321,10.48550/arxiv.2402.07321,,0,,,,,0
+xuKnowledgeConflicts2024,"Better Call GPT, Comparing Large Language Models Against Lawyers",2024,2401.16212,10.48550/arxiv.2401.16212,,0,,,,,0
+xuKnowledgeConflicts2024,UniMS-RAG: A Unified Multi-source Retrieval-Augmented Generation for Personalized Dialogue Systems,2024,2401.13256,10.48550/arxiv.2401.13256,,0,,,,,0
+xuKnowledgeConflicts2024,Comparing GPT-4 and Open-Source Language Models in Misinformation Mitigation,2024,2401.06920,10.48550/arxiv.2401.06920,,0,,,,,0
+xuKnowledgeConflicts2024,Retrieval-Augmented Generation for Large Language Models: A Survey,2023,2312.10997,,,0,arxiv,,arxiv,,1
+xuKnowledgeConflicts2024,The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation,2023,2312.09085,10.48550/arxiv.2312.09085,,0,,,,,0
+xuKnowledgeConflicts2024,A Survey of the Evolution of Language Model-Based Dialogue Systems,2023,2311.16789,10.48550/arxiv.2311.16789,,0,,,,,0
+xuKnowledgeConflicts2024,"Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications",2023,2311.05876,10.48550/arxiv.2311.05876,,0,,,,,0
+xuKnowledgeConflicts2024,"A Survey of Large Language Models in Medicine: Progress, Application, and Challenge",2023,2311.05112,10.48550/arxiv.2311.05112,,0,,,,,0
+xuKnowledgeConflicts2024,SAC3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency,2023,2311.01740,10.48550/arxiv.2311.01740,,0,,,,,0
+xuKnowledgeConflicts2024,Predicting Question-Answering Performance of Large Language Models through Semantic Consistency,2023,2311.01152,10.48550/arxiv.2311.01152,2023.gem-1.12,0,,,,,0
+xuKnowledgeConflicts2024,Knowing What LLMs DO NOT Know: A Simple Yet Effective Self-Detection Method,2023,2310.17918,10.48550/arxiv.2310.17918,2024.naacl-long.390,0,,,,,0
+xuKnowledgeConflicts2024,Managing AI Risks in an Era of Rapid Progress,2023,2310.17688,10.48550/arxiv.2310.17688,,0,,,,,0
+xuKnowledgeConflicts2024,Improving Language Models Meaning Understanding and Consistency by Learning Conceptual Roles from Dictionary,2023,2310.15541,10.48550/arxiv.2310.15541,,0,,,,,0
+xuKnowledgeConflicts2024,Merging Generated and Retrieved Knowledge for Open-Domain QA,2023,2310.14393,10.48550/arxiv.2310.14393,,0,arxiv,arxiv,arxiv,arxiv,1
+xuKnowledgeConflicts2024,Towards Understanding Sycophancy in Language Models,2023,2310.13548,10.48550/arxiv.2310.13548,,0,,,,,0
+xuKnowledgeConflicts2024,Self-Consistency of Large Language Models under Ambiguity,2023,2310.13439,10.48550/arxiv.2310.13439,2023.blackboxnlp-1.7,0,,,,,0
+xuKnowledgeConflicts2024,A Comprehensive Evaluation of Large Language Models on Legal Judgment Prediction,2023,2310.11761,10.48550/arxiv.2310.11761,,0,,,,,0
+xuKnowledgeConflicts2024,Sociotechnical Safety Evaluation of Generative AI Systems,2023,2310.11986,10.48550/arxiv.2310.11986,,0,,,,,0
+xuKnowledgeConflicts2024,Emptying the Ocean with a Spoon: Should We Edit Models?,2023,2310.11958,10.48550/arxiv.2310.11958,,0,,,,,0
+xuKnowledgeConflicts2024,Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models,2023,2310.10378,10.48550/arxiv.2310.10378,,0,,,,,0
+xuKnowledgeConflicts2024,Improving Factual Consistency for Knowledge-Grounded Dialogue Systems via Knowledge Enhancement and Alignment,2023,2310.08372,10.48550/arxiv.2310.08372,,0,,,,,0
+xuKnowledgeConflicts2024,Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators,2023,2310.07289,10.48550/arxiv.2310.07289,,0,,,,,0
+xuKnowledgeConflicts2024,Do Large Language Models Know about Facts?,2023,2310.05177,10.48550/arxiv.2310.05177,,0,,,,,0
+xuKnowledgeConflicts2024,FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation,2023,2310.03214,10.48550/arxiv.2310.03214,,0,,,,,0
+xuKnowledgeConflicts2024,Large Language Models in Finance: A Survey,2023,2311.10723,10.1145/3604237.3626869,,0,,,,,0
+xuKnowledgeConflicts2024,Disinformation Detection: An Evolving Challenge in the Age of LLMs,2023,2309.15847,10.48550/arxiv.2309.15847,,0,,,,,0
+xuKnowledgeConflicts2024,Can LLM-Generated Misinformation Be Detected?,2023,2309.13788,10.48550/arxiv.2309.13788,,0,,,,,0
+xuKnowledgeConflicts2024,Explainability for Large Language Models: A Survey,2023,2309.01029,10.1145/3639372,,0,,,,,0
+xuKnowledgeConflicts2024,FactLLaMA: Optimizing Instruction-Following Language Models with External Knowledge for Automated Fact-Checking,2023,2309.00240,10.1109/apsipaasc58517.2023.10317251,,0,,,,,0
+xuKnowledgeConflicts2024,Incorporating neuro-inspired adaptability for continual learning in artificial intelligence,2023,2308.14991,10.1038/s42256-023-00747-w,,0,,,,,0
+xuKnowledgeConflicts2024,Identifying and Mitigating the Security Risks of Generative AI,2023,2308.14840,10.1561/3300000041,,0,,,,,0
+xuKnowledgeConflicts2024,Studying Large Language Model Generalization with Influence Functions,2023,2308.03296,10.48550/arxiv.2308.03296,,0,,,,,0
+xuKnowledgeConflicts2024,FacTool: Factuality Detection in Generative AI - A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios,2023,2307.13528,10.48550/arxiv.2307.13528,,0,,,,,0
+xuKnowledgeConflicts2024,Llama 2: Open Foundation and Fine-Tuned Chat Models,2023,2307.09288,,,0,,,,,0
+xuKnowledgeConflicts2024,On the application of Large Language Models for language teaching and assessment technology,2023,2307.08393,10.48550/arxiv.2307.08393,,0,,,,,0
+xuKnowledgeConflicts2024,Addressing the harms of AI-generated inauthentic content,2023,,10.1038/s42256-023-00690-w,,0,,,,,0
+xuKnowledgeConflicts2024,How AI can distort human beliefs,2023,,10.1126/science.adi0248,,0,,,,,0
+xuKnowledgeConflicts2024,ToolQA: A Dataset for LLM Question Answering with External Tools,2023,2306.13304,10.48550/arxiv.2306.13304,,0,,,,,0
+xuKnowledgeConflicts2024,Evaluating the Social Impact of Generative AI Systems in Systems and Society,2023,2306.05949,10.48550/arxiv.2306.05949,,0,,,,,0
+xuKnowledgeConflicts2024,Prompt Injection attack against LLM-integrated Applications,2023,2306.05499,10.48550/arxiv.2306.05499,,0,,,,,0
+xuKnowledgeConflicts2024,Inference-Time Intervention: Eliciting Truthful Answers from a Language Model,2023,2306.03341,10.52202/075280-1797,,0,,,,,0
+xuKnowledgeConflicts2024,Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding,2023,2306.02858,10.48550/arxiv.2306.02858,,0,,,,,0
+xuKnowledgeConflicts2024,Do Language Models Know When They’re Hallucinating References?,2023,2305.18248,10.48550/arxiv.2305.18248,2024.findings-eacl.62,0,,,,,0
+xuKnowledgeConflicts2024,Trusting Your Evidence: Hallucinate Less with Context-aware Decoding,2023,2305.14739,10.48550/arxiv.2305.14739,2024.naacl-short.69,0,,,,,0
+xuKnowledgeConflicts2024,MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions,2023,2305.14795,10.48550/arxiv.2305.14795,,0,,,,,0
+xuKnowledgeConflicts2024,Mitigating Temporal Misalignment by Discarding Outdated Facts,2023,2305.14824,10.48550/arxiv.2305.14824,,0,,,,,0
+xuKnowledgeConflicts2024,Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts,2023,2305.13300,,,0,arxiv,arxiv,arxiv,arxiv,1
+xuKnowledgeConflicts2024,"Editing Large Language Models: Problems, Methods, and Opportunities",2023,2305.13172,10.48550/arxiv.2305.13172,,0,,,,,0
+xuKnowledgeConflicts2024,AVeriTeC: A Dataset for Real-world Claim Verification with Evidence from the Web,2023,2305.13117,10.48550/arxiv.2305.13117,,0,,,,,0
+xuKnowledgeConflicts2024,Multimodal Automated Fact-Checking: A Survey,2023,2305.13507,10.48550/arxiv.2305.13507,,0,,,,,0
+xuKnowledgeConflicts2024,Separating form and meaning: Using self-consistency to quantify task understanding across multiple senses,2023,2305.11662,10.48550/arxiv.2305.11662,2023.gem-1.22,0,,,,,0
+xuKnowledgeConflicts2024,TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models,2023,2305.11171,10.48550/arxiv.2305.11171,,0,,,,,0
+xuKnowledgeConflicts2024,LIMA: Less Is More for Alignment,2023,2305.11206,10.52202/075280-2400,,0,,,,,0
+xuKnowledgeConflicts2024,Say What You Mean! Large Language Models Speak Too Positively about Negative Commonsense Knowledge,2023,2305.05976,10.48550/arxiv.2305.05976,2023.acl-long.550,0,,,,,0
+xuKnowledgeConflicts2024,Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting,2023,2305.04388,10.48550/arxiv.2305.04388,,0,,,,,0
+xuKnowledgeConflicts2024,Can LMs Generalize to Future Data? An Empirical Analysis on Text Summarization,2023,2305.01951,10.18653/v1/2023.emnlp-main.1007,,0,,,,,0
+xuKnowledgeConflicts2024,Can LMs Learn New Entities from Descriptions? Challenges in Propagating Injected Knowledge,2023,2305.01651,10.48550/arxiv.2305.01651,2023.acl-long.300,0,,,,,0
+xuKnowledgeConflicts2024,Synthetic Lies: Understanding AI-Generated Misinformation and Evaluating Algorithmic and Human Solutions,2023,,10.1145/3544548.3581318,,0,,,,,0
+xuKnowledgeConflicts2024,Language Model Behavior: A Comprehensive Survey,2023,2303.11504,10.1162/coli_a_00492,2024.cl-1.9,0,,,,,0
+xuKnowledgeConflicts2024,"AI as Agency Without Intelligence: on ChatGPT, Large Language Models, and Other Generative Models",2023,,10.1007/s13347-023-00621-y,,0,,,,,0
+xuKnowledgeConflicts2024,Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback,2023,2302.12813,10.48550/arxiv.2302.12813,,0,,,,,0
+xuKnowledgeConflicts2024,Dynamic Benchmarking of Masked Language Models on Temporal Concept Drift with Multiple Views,2023,2302.12297,10.48550/arxiv.2302.12297,2023.eacl-main.211,0,,,,,0
+xuKnowledgeConflicts2024,Poisoning Web-Scale Training Datasets is Practical,2023,2302.10149,10.1109/sp54263.2024.00179,,0,,,,,0
+xuKnowledgeConflicts2024,Toolformer: Language Models Can Teach Themselves to Use Tools,2023,2302.04761,10.48550/arxiv.2302.04761,,0,,,,,0
+xuKnowledgeConflicts2024,REPLUG: Retrieval-Augmented Black-Box Language Models,2023,2301.12652,10.48550/arxiv.2301.12652,2024.naacl-long.463,0,,,,,0
+xuKnowledgeConflicts2024,AI model GPT-3 (dis)informs us better than humans,2023,2301.11924,10.1126/sciadv.adh1850,,0,,,,,0
+xuKnowledgeConflicts2024,Generative Language Models and Automated Influence Operations: Emerging Threats and Potential Mitigations,2023,2301.04246,10.48550/arxiv.2301.04246,,0,,,,,0
+xuKnowledgeConflicts2024,Large language models encode clinical knowledge,2022,2212.13138,10.1038/s41586-023-06291-2,,0,,,,,0
+xuKnowledgeConflicts2024,When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories,2022,2212.10511,10.18653/v1/2023.acl-long.546,2023.acl-long.546,0,,,,,0
+xuKnowledgeConflicts2024,Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation,2022,2211.06687,10.1109/icassp49357.2023.10095969,,0,,,,,0
+xuKnowledgeConflicts2024,DisentQA: Disentangling Parametric and Contextual Knowledge with Counterfactual Question Answering,2022,2211.05655,10.48550/arxiv.2211.05655,2023.acl-long.559,0,,,,,0
+xuKnowledgeConflicts2024,Measuring Reliability of Large Language Models through Semantic Consistency,2022,2211.05853,10.48550/arxiv.2211.05853,,0,,,,,0
+xuKnowledgeConflicts2024,Large Language Models with Controllable Working Memory,2022,2211.05110,10.48550/arxiv.2211.05110,,0,,,,,0
+xuKnowledgeConflicts2024,Improving Temporal Generalization of Pre-trained Language Models with Lexical Semantic Change,2022,2210.17127,10.48550/arxiv.2210.17127,2022.emnlp-main.428,0,,,,,0
+xuKnowledgeConflicts2024,Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models,2022,2210.16433,10.48550/arxiv.2210.16433,,0,,,,,0
+xuKnowledgeConflicts2024,Contrastive Decoding: Open-ended Text Generation as Optimization,2022,2210.15097,10.48550/arxiv.2210.15097,2023.acl-long.687,0,,,,,0
+xuKnowledgeConflicts2024,Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence,2022,2210.13701,10.48550/arxiv.2210.13701,2022.emnlp-main.146,0,,,,,0
+xuKnowledgeConflicts2024,"RARR: Researching and Revising What Language Models Say, Using Language Models",2022,2210.08726,10.18653/v1/2023.acl-long.910,2023.acl-long.910,0,,,,,0
+xuKnowledgeConflicts2024,CDConv: A Benchmark for Contradiction Detection in Chinese Conversations,2022,2210.08511,10.48550/arxiv.2210.08511,2022.emnlp-main.2,0,,,,,0
+xuKnowledgeConflicts2024,Generate rather than Retrieve: Large Language Models are Strong Context Generators,2022,2209.10063,,,0,,,,,0
+xuKnowledgeConflicts2024,AudioLM: A Language Modeling Approach to Audio Generation,2022,2209.03143,10.1109/taslp.2023.3288409,,0,,,,,0
+xuKnowledgeConflicts2024,The Battlefront of Combating Misinformation and Coping with Media Bias,2022,,10.1145/3534678.3542615,2022.aacl-tutorials.5,0,,,,,0
+xuKnowledgeConflicts2024,RealTime QA: What's the Answer Right Now?,2022,2207.13332,10.48550/arxiv.2207.13332,,0,,,,,0
+xuKnowledgeConflicts2024,Topological Analysis of Contradictions in Text,2022,,10.1145/3477495.3531881,,0,,,,,0
+xuKnowledgeConflicts2024,Factuality Enhanced Language Models for Open-Ended Text Generation,2022,2206.04624,10.48550/arxiv.2206.04624,,0,,,,,0
+xuKnowledgeConflicts2024,Does Your Model Classify Entities Reasonably? Diagnosing and Mitigating Spurious Correlations in Entity Typing,2022,2205.12640,10.48550/arxiv.2205.12640,2022.emnlp-main.592,0,,,,,0
+xuKnowledgeConflicts2024,StreamingQA: A Benchmark for Adaptation to New Knowledge over Time in Question Answering Models,2022,2205.11388,,,0,,,,,0
+xuKnowledgeConflicts2024,TemporalWiki: A Lifelong Benchmark for Training and Evaluating Ever-Evolving Language Models,2022,2204.14211,10.48550/arxiv.2204.14211,2022.emnlp-main.418,0,,,,,0
+xuKnowledgeConflicts2024,Plug-and-Play Adaptation for Continuously-updated QA,2022,2204.12785,10.48550/arxiv.2204.12785,2022.findings-acl.37,0,,,,,0
+xuKnowledgeConflicts2024,PaLM: Scaling Language Modeling with Pathways,2022,2204.02311,,,0,,,,,0
+xuKnowledgeConflicts2024,How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis,2022,2203.16747,10.48550/arxiv.2203.16747,2022.findings-acl.136,0,,,,,0
+xuKnowledgeConflicts2024,Training language models to follow instructions with human feedback,2022,2203.02155,10.52202/068431-2011,,0,,,,,0
+xuKnowledgeConflicts2024,Synthetic Disinformation Attacks on Automated Fact Verification Systems,2022,2202.09381,10.1609/aaai.v36i10.21302,,0,,,,,0
+xuKnowledgeConflicts2024,Locating and Editing Factual Associations in GPT,2022,2202.05262,10.52202/068431-1262,,0,,,,,0
+xuKnowledgeConflicts2024,Prompting Visual-Language Models for Efficient Video Understanding,2021,2112.04478,10.1007/978-3-031-19833-5_7,,0,,,,,0
+xuKnowledgeConflicts2024,Ethical and social risks of harm from Language Models,2021,2112.04359,,,0,,,,,0
+xuKnowledgeConflicts2024,WikiContradiction: Detecting Self-Contradiction Articles on Wikipedia,2021,2111.08543,10.1109/bigdata52589.2021.9671319,,0,,,,,0
+xuKnowledgeConflicts2024,Time Waits for No One! Analysis and Challenges of Temporal Misalignment,2021,2111.07408,10.18653/v1/2022.naacl-main.435,2022.naacl-main.435,0,,,,,0
+xuKnowledgeConflicts2024,Fast Model Editing at Scale,2021,2110.11309,,,0,,,,,0
+xuKnowledgeConflicts2024,Attacking Open-domain Question Answering by Injecting Misinformation,2021,2110.07803,10.18653/v1/2023.ijcnlp-main.35,2023.ijcnlp-main.35,1,,,,,0
+xuKnowledgeConflicts2024,Towards Continual Knowledge Learning of Language Models,2021,2110.03215,,,0,,,,,0
+xuKnowledgeConflicts2024,SituatedQA: Incorporating Extra-Linguistic Contexts into QA,2021,2109.06157,10.18653/v1/2021.emnlp-main.586,2021.emnlp-main.586,0,,,,,0
+xuKnowledgeConflicts2024,Entity-Based Knowledge Conflicts in Question Answering,2021,2109.05052,10.18653/v1/2021.emnlp-main.565,2021.emnlp-main.565,0,,,,,0
+xuKnowledgeConflicts2024,TruthfulQA: Measuring How Models Mimic Human Falsehoods,2021,2109.07958,10.18653/v1/2022.acl-long.229,2022.acl-long.229,0,,,,,0
+xuKnowledgeConflicts2024,A Survey on Automated Fact-Checking,2021,2108.11896,10.1162/tacl_a_00454,2022.tacl-1.11,0,,,,,0
+xuKnowledgeConflicts2024,A Dataset for Answering Time-Sensitive Questions,2021,2108.06314,,,0,,,,,0
+xuKnowledgeConflicts2024,Time-Aware Language Models as Temporal Knowledge Bases,2021,2106.15110,10.1162/tacl_a_00459,2022.tacl-1.15,0,,,,,0
+xuKnowledgeConflicts2024,Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding,2021,2104.08455,10.18653/v1/2021.emnlp-main.168,2021.emnlp-main.168,0,,,,,0
+xuKnowledgeConflicts2024,Editing Factual Knowledge in Language Models,2021,2104.08164,10.18653/v1/2021.emnlp-main.522,2021.emnlp-main.522,0,,,,,0
+xuKnowledgeConflicts2024,Retrieval Augmentation Reduces Hallucination in Conversation,2021,2104.07567,10.18653/v1/2021.findings-emnlp.320,,1,,,,,0
+xuKnowledgeConflicts2024,On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜,2021,,10.1145/3442188.3445922,,0,,,,,0
+xuKnowledgeConflicts2024,Mind the Gap: Assessing Temporal Generalization in Neural Language Models,2021,2102.01951,,,0,,,,,0
+xuKnowledgeConflicts2024,Measuring and Improving Consistency in Pretrained Language Models,2021,2102.01017,10.1162/tacl_a_00410,,0,,,,,0
+xuKnowledgeConflicts2024,Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies,2021,2101.02235,10.1162/tacl_a_00370,,0,,,,,0
+xuKnowledgeConflicts2024,Automatic Detection of Machine Generated Text: A Critical Survey,2020,2011.01314,10.18653/v1/2020.coling-main.208,2020.coling-main.208,0,,,,,0
+xuKnowledgeConflicts2024,"Fake news, rumor, information pollution in social media and web: A contemporary survey of state-of-the-arts, challenges and opportunities",2020,,10.1016/j.eswa.2019.112986,,0,,,,,0
+xuKnowledgeConflicts2024,Does BERT Solve Commonsense Task via Commonsense Knowledge?,2020,,,,0,,,,,0
+xuKnowledgeConflicts2024,Language Models are Few-Shot Learners,2020,2005.14165,,,0,,,,,0
+xuKnowledgeConflicts2024,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,2020,2005.11401,,,0,,,arxiv,,1
+xuKnowledgeConflicts2024,SubjQA: A Dataset for Subjectivity and Review Comprehension,2020,2004.14283,10.18653/v1/2020.emnlp-main.442,2020.emnlp-main.442,0,,,,,0
+xuKnowledgeConflicts2024,The Cost of Training NLP Models: A Concise Overview,2020,2004.08900,,,0,,,,,0
+xuKnowledgeConflicts2024,Dense Passage Retrieval for Open-Domain Question Answering,2020,2004.04906,10.18653/v1/2020.emnlp-main.550,2020.emnlp-main.550,0,,,,,0
+xuKnowledgeConflicts2024,Editable Neural Networks,2020,2004.00345,,,0,,,,,0
+xuKnowledgeConflicts2024,A Primer in BERTology: What We Know About How BERT Works,2020,2002.12327,10.1162/tacl_a_00349,,0,,,,,0
+xuKnowledgeConflicts2024,REALM: Retrieval-Augmented Language Model Pre-Training,2020,2002.08909,,,0,arxiv,,,,1
+xuKnowledgeConflicts2024,How Much Knowledge Can You Pack into the Parameters of a Language Model?,2020,2002.08910,10.18653/v1/2020.emnlp-main.437,2020.emnlp-main.437,0,,,,,0
+xuKnowledgeConflicts2024,Scaling Laws for Neural Language Models,2020,2001.08361,,,0,,,,,0
+xuKnowledgeConflicts2024,How Decoding Strategies Affect the Verifiability of Generated Text,2019,1911.03587,10.18653/v1/2020.findings-emnlp.22,2020.findings-emnlp.22,0,,,,,0
+xuKnowledgeConflicts2024,DIALOGPT : Large-Scale Generative Pre-training for Conversational Response Generation,2019,1911.00536,10.18653/v1/2020.acl-demos.30,2020.acl-demos.30,0,,,,,0
+xuKnowledgeConflicts2024,A Continual Learning Survey: Defying Forgetting in Classification Tasks,2019,,10.1109/tpami.2021.3057446,,0,,,,,0
+xuKnowledgeConflicts2024,Language Models as Knowledge Bases?,2019,1909.01066,10.18653/v1/d19-1250,d19-1250,0,,,,,0
+xuKnowledgeConflicts2024,Natural Questions: A Benchmark for Question Answering Research,2019,,10.1162/tacl_a_00276,q19-1026,0,,,,,0
+xuKnowledgeConflicts2024,What Does BERT Learn about the Structure of Language?,2019,,10.18653/v1/p19-1356,p19-1356,0,,,,,0
+xuKnowledgeConflicts2024,Does it Make Sense? And Why? A Pilot Study for Sense Making and Explanation,2019,1906.00363,10.18653/v1/p19-1393,p19-1393,0,,,,,0
+xuKnowledgeConflicts2024,BERT Rediscovers the Classical NLP Pipeline,2019,1905.05950,10.18653/v1/p19-1452,p19-1452,0,,,,,0
+xuKnowledgeConflicts2024,BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions,2019,1905.10044,10.18653/v1/n19-1300,n19-1300,0,,,,,0
+xuKnowledgeConflicts2024,The Curious Case of Neural Text Degeneration,2019,1904.09751,,,0,,,,,0
+xuKnowledgeConflicts2024,Know What You Don’t Know: Unanswerable Questions for SQuAD,2018,1806.03822,10.18653/v1/p18-2124,p18-2124,0,,,,,0
+xuKnowledgeConflicts2024,T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples,2018,,10.63317/2yu5nu76n7bu,l18-1544,0,,,,,0
+xuKnowledgeConflicts2024,Hierarchical Neural Story Generation,2018,1805.04833,10.18653/v1/p18-1082,p18-1082,0,,,,,0
+xuKnowledgeConflicts2024,False Information on Web and Social Media: A Survey,2018,1804.08559,,,0,,,,,0
+xuKnowledgeConflicts2024,The NarrativeQA Reading Comprehension Challenge,2017,1712.07040,10.1162/tacl_a_00023,q18-1023,0,,,,,0
+xuKnowledgeConflicts2024,Fake News Detection on Social Media: A Data Mining Perspective,2017,1708.01967,10.1145/3137597.3137600,,0,,,,,0
+xuKnowledgeConflicts2024,TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension,2017,1705.03551,10.18653/v1/p17-1147,p17-1147,0,,,,,0
+xuKnowledgeConflicts2024,A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference,2017,1704.05426,10.18653/v1/n18-1101,n18-1101,0,,,,,0
+xuKnowledgeConflicts2024,Detection and Resolution of Rumours in Social Media,2017,1704.00656,10.1145/3161603,,0,,,,,0
+xuKnowledgeConflicts2024,Pointer Sentinel Mixture Models,2016,1609.07843,,,0,,,,,0
+xuKnowledgeConflicts2024,"SQuAD: 100,000+ Questions for Machine Comprehension of Text",2016,1606.05250,10.18653/v1/d16-1264,d16-1264,0,,,,,0
+xuKnowledgeConflicts2024,Teaching Machines to Read and Comprehend,2015,1506.03340,,,0,,,,,0
+xuKnowledgeConflicts2024,The Epistemology of Fact Checking,2013,,10.1080/08913811.2013.843872,,0,,,,,0
+xuKnowledgeConflicts2024,Confirmation Bias: A Ubiquitous Phenomenon in Many Guises,1998,,10.1037/1089-2680.2.2.175,,0,,,,,0
+xuKnowledgeConflicts2024,Blinded by Generated Contexts: How Language Models Merge Generated and Retrieved Contexts for Open-Domain QA?,2024,,10.48550/arxiv.2401.11911,,0,,,,,0
+xuKnowledgeConflicts2024,Studying Large Language Model Behaviors Under Realistic Knowledge Conflicts,2024,,10.48550/arxiv.2404.16032,,0,,,,,0
+xuKnowledgeConflicts2024,More than you've asked for: A Comprehensive Analysis of Novel Prompt Injection Threats to Application-Integrated Large Language Models,2023,,10.48550/arxiv.2302.12173,,0,,,,,0
+xuKnowledgeConflicts2024,"Methods for Measuring, Updating, and Visualizing Factual Beliefs in Language Models",2023,,10.18653/v1/2023.eacl-main.199,2023.eacl-main.199,0,,,,,0
+xuKnowledgeConflicts2024,Intuitive or Dependent? Investigating LLMs' Robustness to Conflicting Prompts,2023,,10.48550/arxiv.2309.17415,,0,,,,,0
+xuKnowledgeConflicts2024,merge conflicts!,2023,,,,0,,,,,0
+xuKnowledgeConflicts2024,When Not to Trust Language Models: Investigating Effectiveness and Limitations of Parametric and Non-Parametric Memories,2022,,10.48550/arxiv.2212.10511,,0,,,,,0
+xuKnowledgeConflicts2024,Towards Tracing Knowledge in Language Models Back to the Training Data,2022,,10.18653/v1/2022.findings-emnlp.180,,0,,,,,0
+xuKnowledgeConflicts2024,Cross-lingual Evidence Improves Monolingual Fake News Detection,2021,,10.18653/v1/2021.acl-srw.32,2021.acl-srw.32,0,,,,,0
+xuKnowledgeConflicts2024,Explanations for CommonsenseQA: New Dataset and Models,2021,,10.18653/v1/2021.acl-long.238,2021.acl-long.238,0,,,,,0
+xuKnowledgeConflicts2024,Analyzing the Forgetting Problem in Pretrain-Finetuning of Open-domain Dialogue Response Models,2021,,10.18653/v1/2021.eacl-main.95,2021.eacl-main.95,0,,,,,0
+xuKnowledgeConflicts2024,2022a. e-care: a new dataset for exploring explain-able causal reasoning,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Genai against humanity: Ne-farious applications of generative artificial intelligence and large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Improving language models by retrieving from tril-lions of tokens,,,,,0,,,,,0
+xuKnowledgeConflicts2024,Meeting of the Association for Computational Lin-guistics (Volume 2: Short Papers),,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Editing models with task arithmetic,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023a. Enhancing financial sentiment analysis via retrieval augmented large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Detecting misinformation with llm-predicted credibility signals and weak supervision,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Selfcheckgpt: Zero-resource black-box hal-lucination detection for generative large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023b. Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Survey of hallucination in natural language generation,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Musique: Multi-hop questions via single-hop question composition,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. The looming threat of fake and llm-generated linkedin profiles: Challenges and opportunities for detection and prevention,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Large language models challenge the future of higher education,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023f. Unveiling the pit-falls of knowledge editing for large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,"2023. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions",,,,,0,,,,,0
+xuKnowledgeConflicts2024,"2023a. Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing",,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. What large models cost you – there is no free ai lunch,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. The science of detecting llm-generated texts,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Analyzing the use of influence functions for instance-specific data filtering in neural machine translation,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Glm-130b: An open bilingual pre-trained model,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023a. Survey,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023b. Combating misinfor-mation in the age of llms: Opportunities and challenges,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Dis-cern and answer: Mitigating the impact of misinfor-mation in retrieval-augmented models with discrimi-nators,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. A linguistic investigation of machine learning based contradiction detection models: an empirical analysis and future perspectives,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Benchmarking and defending against indirect prompt injection attacks on large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Internet-augmented language models through few-shot prompting for open-domain question answering,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2023. Semantic consistency for assuring reliability of large language models,,,,,0,,,,,0
+xuKnowledgeConflicts2024,Volume 1: Long Papers,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Measuring causal effects of data statistics on language model’sfactual’predictions,,,,,0,,,,,0
+xuKnowledgeConflicts2024,2022. Training compute-optimal large language models,,,,,0,,,,,0
+wenAbstentionSurvey2025,Controllable Safety Alignment: Inference-Time Adaptation to Diverse Safety Requirements,2024,2410.08968,10.48550/arxiv.2410.08968,,0,,,,,0
+wenAbstentionSurvey2025,Trust or Escalate: LLM Judges with Provable Guarantees for Human Agreement,2024,2407.18370,10.48550/arxiv.2407.18370,,0,,,,,0
+wenAbstentionSurvey2025,I Could’ve Asked That: Reformulating Unanswerable Questions,2024,2407.17469,10.48550/arxiv.2407.17469,2024.emnlp-main.242,0,,,,,0
+wenAbstentionSurvey2025,The Art of Saying No: Contextual Noncompliance in Language Models,2024,2407.12043,10.48550/arxiv.2407.12043,,0,,,,,0
+wenAbstentionSurvey2025,"WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs",2024,2406.18495,10.48550/arxiv.2406.18495,,0,,,,,0
+wenAbstentionSurvey2025,Teaching LLMs to Abstain across Languages via Multilingual Feedback,2024,2406.15948,10.48550/arxiv.2406.15948,2024.emnlp-main.239,0,,,,,0
+wenAbstentionSurvey2025,SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal Behaviors,2024,2406.14598,10.48550/arxiv.2406.14598,,0,,,,,0
+wenAbstentionSurvey2025,LACIE: Listener-Aware Finetuning for Confidence Calibration in Large Language Models,2024,2405.21028,10.48550/arxiv.2405.21028,,0,,,,,0
+wenAbstentionSurvey2025,Laboratory-Scale AI: Open-Weight Models are Competitive with ChatGPT Even in Low-Resource Settings,2024,2405.16820,10.1145/3630106.3658966,,0,,,,,0
+wenAbstentionSurvey2025,"“As an AI language model, I cannot”: Investigating LLM Denials of User Requests",2024,,10.1145/3613904.3642135,,0,,,,,0
+wenAbstentionSurvey2025,Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?,2024,2405.05904,10.48550/arxiv.2405.05904,2024.emnlp-main.444,0,,,,,0
+wenAbstentionSurvey2025,FLAME: Factuality-Aware Alignment for Large Language Models,2024,2405.01525,10.48550/arxiv.2405.01525,,0,,,,,0
+wenAbstentionSurvey2025,"""I'm Not Sure, But..."": Examining the Impact of Large Language Models' Uncertainty Expression on User Reliance and Trust",2024,2405.00623,10.1145/3630106.3658941,,0,,,,,0
+wenAbstentionSurvey2025,The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions,2024,2404.13208,10.48550/arxiv.2404.13208,,0,,,,,0
+wenAbstentionSurvey2025,Characterizing LLM Abstention Behavior in Science QA with Context Perturbations,2024,2404.12452,10.48550/arxiv.2404.12452,,0,,,,,0
+wenAbstentionSurvey2025,Uncertainty-Based Abstention in LLMs Improves Safety and Reduces Hallucinations,2024,2404.10960,10.48550/arxiv.2404.10960,,0,,,,,0
+wenAbstentionSurvey2025,Foundational Challenges in Assuring Alignment and Safety of Large Language Models,2024,2404.09932,10.48550/arxiv.2404.09932,,0,,,,,0
+wenAbstentionSurvey2025,SafetyPrompts: a Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety,2024,2404.05399,10.48550/arxiv.2404.05399,,0,,,,,0
+wenAbstentionSurvey2025,JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models,2024,2404.01318,10.48550/arxiv.2404.01318,,0,,,,,0
+wenAbstentionSurvey2025,RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content,2024,2403.13031,10.48550/arxiv.2403.13031,,0,,,,,0
+wenAbstentionSurvey2025,Epistemology of Language Models: Do Language Models Have Holistic Knowledge?,2024,2403.12862,10.48550/arxiv.2403.12862,,0,,,,,0
+wenAbstentionSurvey2025,Knowledge Conflicts for LLMs: A Survey,2024,2403.08319,10.48550/arxiv.2403.08319,2024.emnlp-main.486,0,,,,,0
+wenAbstentionSurvey2025,Unfamiliar Finetuning Examples Control How Language Models Hallucinate,2024,2403.05612,10.48550/arxiv.2403.05612,,0,,,,,0
+wenAbstentionSurvey2025,AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks,2024,2403.04783,10.48550/arxiv.2403.04783,,0,,,,,0
+wenAbstentionSurvey2025,Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment,2024,2402.19085,10.48550/arxiv.2402.19085,2024.emnlp-main.85,0,,,,,0
+wenAbstentionSurvey2025,A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems,2024,2402.18013,10.1145/3771090,,0,,,,,0
+wenAbstentionSurvey2025,Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates,2024,2402.18540,10.48550/arxiv.2402.18540,,0,,,,,0
+wenAbstentionSurvey2025,Defending LLMs against Jailbreaking Attacks via Backtranslation,2024,2402.16459,10.48550/arxiv.2402.16459,,0,,,,,0
+wenAbstentionSurvey2025,Defending Large Language Models against Jailbreak Attacks via Semantic Smoothing,2024,2402.16192,10.48550/arxiv.2402.16192,,0,,,,,0
+wenAbstentionSurvey2025,Break the Breakout: Reinventing LM Defense Against Jailbreak Attacks with Self-Refinement,2024,2402.15180,10.48550/arxiv.2402.15180,,0,,,,,0
+wenAbstentionSurvey2025,Don’t Just Say “I don’t know”! Self-aligning Large Language Models for Responding to Unknown Questions with Explanations,2024,2402.15062,10.18653/v1/2024.emnlp-main.757,2024.emnlp-main.757,0,,,,,0
+wenAbstentionSurvey2025,Defending Jailbreak Prompts via In-Context Adversarial Game,2024,2402.13148,10.48550/arxiv.2402.13148,2024.emnlp-main.1121,0,,,,,0
+wenAbstentionSurvey2025,Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic,2024,2402.11746,10.48550/arxiv.2402.11746,,0,,,,,0
+wenAbstentionSurvey2025,A StrongREJECT for Empty Jailbreaks,2024,2402.10260,10.48550/arxiv.2402.10260,,0,,,,,0
+wenAbstentionSurvey2025,Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation,2024,2402.09267,10.48550/arxiv.2402.09267,,0,,,,,0
+wenAbstentionSurvey2025,Fight Back Against Jailbreaking via Prompt Adversarial Tuning,2024,2402.06255,10.52202/079017-2049,,0,,,,,0
+wenAbstentionSurvey2025,Calibrating Long-form Generations from Large Language Models,2024,2402.06544,10.48550/arxiv.2402.06544,,0,,,,,0
+wenAbstentionSurvey2025,SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models,2024,2402.05044,10.48550/arxiv.2402.05044,,0,,,,,0
+wenAbstentionSurvey2025,INSIDE: LLMs' Internal States Retain the Power of Hallucination Detection,2024,2402.03744,10.48550/arxiv.2402.03744,,0,,,,,0
+wenAbstentionSurvey2025,HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal,2024,2402.04249,10.48550/arxiv.2402.04249,,0,,,,,0
+wenAbstentionSurvey2025,Distinguishing the Knowable from the Unknowable with Language Models,2024,2402.03563,10.48550/arxiv.2402.03563,,0,,,,,0
+wenAbstentionSurvey2025,"Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",2024,2402.00367,10.48550/arxiv.2402.00367,,0,arxiv,arxiv,,,1
+wenAbstentionSurvey2025,Robust Prompt Optimization for Defending Language Models Against Jailbreaking Attacks,2024,2401.17263,10.48550/arxiv.2401.17263,,0,,,,,0
+wenAbstentionSurvey2025,Learning to Trust Your Feelings: Leveraging Self-awareness in LLMs for Hallucination Mitigation,2024,2401.15449,10.48550/arxiv.2401.15449,2024.knowledgenlp-1.4,0,,,,,0
+wenAbstentionSurvey2025,Can AI Assistants Know What They Don't Know?,2024,2401.13275,10.48550/arxiv.2401.13275,,0,,,,,0
+wenAbstentionSurvey2025,InferAligner: Inference-Time Alignment for Harmlessness through Cross-Model Guidance,2024,2401.11206,10.48550/arxiv.2401.11206,2024.emnlp-main.585,0,,,,,0
+wenAbstentionSurvey2025,Intention Analysis Makes LLMs A Good Jailbreak Defender,2024,2401.06561,,,0,,,,,0
+wenAbstentionSurvey2025,Relying on the Unreliable: The Impact of Language Models' Reluctance to Express Uncertainty,2024,2401.06730,10.48550/arxiv.2401.06730,,0,,,,,0
+wenAbstentionSurvey2025,The Art of Defending: A Systematic Evaluation and Analysis of LLM Defense Strategies on Safety and Over-Defensiveness,2023,2401.00287,10.48550/arxiv.2401.00287,,0,,,,,0
+wenAbstentionSurvey2025,The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation,2023,2312.09085,10.48550/arxiv.2312.09085,,0,,,,,0
+wenAbstentionSurvey2025,Self-Evaluation Improves Selective Generation in Large Language Models,2023,2312.09300,10.48550/arxiv.2312.09300,,0,,,,,0
+wenAbstentionSurvey2025,Alignment for Honesty,2023,2312.07000,10.48550/arxiv.2312.07000,,0,,,,,0
+wenAbstentionSurvey2025,Defending ChatGPT against jailbreak attack via self-reminders,2023,,10.1038/s42256-023-00765-8,,0,,,,,0
+wenAbstentionSurvey2025,GPQA: A Graduate-Level Google-Proof Q&A Benchmark,2023,2311.12022,,,0,,,,,0
+wenAbstentionSurvey2025,Token-Level Adversarial Prompt Detection Based on Perplexity Measures and Contextual Information,2023,2311.11509,10.48550/arxiv.2311.11509,,0,,,,,0
+wenAbstentionSurvey2025,R-Tuning: Instructing Large Language Models to Say ‘I Don’t Know’,2023,2311.09677,10.18653/v1/2024.naacl-long.394,2024.naacl-long.394,0,,,,,0
+wenAbstentionSurvey2025,Bergeron: Combating Adversarial Attacks through a Conscience-Based Alignment Framework,2023,2312.00029,10.48550/arxiv.2312.00029,,0,,,,,0
+wenAbstentionSurvey2025,Defending Large Language Models Against Jailbreaking Attacks Through Goal Prioritization,2023,2311.09096,10.48550/arxiv.2311.09096,,0,,,,,0
+wenAbstentionSurvey2025,Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling,2023,2311.08718,10.48550/arxiv.2311.08718,,0,,,,,0
+wenAbstentionSurvey2025,Safer-Instruct: Aligning Language Models with Automated Preference Data,2023,2311.08685,10.48550/arxiv.2311.08685,2024.naacl-long.422,0,,,,,0
+wenAbstentionSurvey2025,Llamas Know What GPTs Don't Show: Surrogate Models for Confidence Estimation,2023,2311.08877,10.48550/arxiv.2311.08877,,0,,,,,0
+wenAbstentionSurvey2025,Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation,2023,2311.03348,10.48550/arxiv.2311.03348,,0,,,,,0
+wenAbstentionSurvey2025,Learn to Refuse: Making Large Language Models More Controllable and Reliable through Knowledge Scope Limitation and Refusal Mechanism,2023,2311.01041,10.48550/arxiv.2311.01041,2024.emnlp-main.212,0,,,,,0
+wenAbstentionSurvey2025,Knowing What LLMs DO NOT Know: A Simple Yet Effective Self-Detection Method,2023,2310.17918,10.48550/arxiv.2310.17918,2024.naacl-long.390,0,,,,,0
+wenAbstentionSurvey2025,ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation,2023,2310.17389,10.48550/arxiv.2310.17389,,0,,,,,0
+wenAbstentionSurvey2025,SELF-GUARD: Empower the LLM to Safeguard Itself,2023,2310.15851,10.48550/arxiv.2310.15851,2024.naacl-long.92,0,,,,,0
+wenAbstentionSurvey2025,Safe RLHF: Safe Reinforcement Learning from Human Feedback,2023,2310.12773,10.48550/arxiv.2310.12773,,0,,,,,0
+wenAbstentionSurvey2025,Adaptation with Self-Evaluation to Improve Selective Prediction in LLMs,2023,2310.11689,10.48550/arxiv.2310.11689,,0,,,,,0
+wenAbstentionSurvey2025,The Curious Case of Hallucinatory Unanswerablity: Finding Truths in the Hidden States of Over-Confident Large Language Models,2023,2310.11877,10.48550/arxiv.2310.11877,,0,,,,,0
+wenAbstentionSurvey2025,Jailbreaking Black Box Large Language Models in Twenty Queries,2023,2310.08419,10.1109/satml64287.2025.00010,,0,,,,,0
+wenAbstentionSurvey2025,Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation,2023,2310.06987,10.48550/arxiv.2310.06987,,0,,,,,0
+wenAbstentionSurvey2025,"The Past, Present and Better Future of Feedback Learning in Large Language Models for Subjective Human Preferences and Values",2023,2310.07629,10.48550/arxiv.2310.07629,,0,,,,,0
+wenAbstentionSurvey2025,Jailbreak and Guard Aligned Language Models With Only Few In-Context Demonstrations,2023,2310.06387,10.1109/tpami.2026.3660147,,0,,,,,0
+wenAbstentionSurvey2025,SALMON: Self-Alignment with Instructable Reward Models,2023,2310.05910,,,0,,,,,0
+wenAbstentionSurvey2025,SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks,2023,2310.03684,10.48550/arxiv.2310.03684,,0,,,,,0
+wenAbstentionSurvey2025,"Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",2023,2310.03693,10.48550/arxiv.2310.03693,,0,,,,,0
+wenAbstentionSurvey2025,Low-Resource Languages Jailbreak GPT-4,2023,2310.02446,10.48550/arxiv.2310.02446,,0,,,,,0
+wenAbstentionSurvey2025,Jailbreaker in Jail: Moving Target Defense for Large Language Models,2023,2310.02417,10.1145/3605760.3623764,,0,,,,,0
+wenAbstentionSurvey2025,Resolving Knowledge Conflicts in Large Language Models,2023,2310.00935,10.48550/arxiv.2310.00935,,0,arxiv,arxiv,arxiv,arxiv,1
+wenAbstentionSurvey2025,Defending Pre-trained Language Models as Few-shot Learners against Backdoor Attacks,2023,2309.13256,10.48550/arxiv.2309.13256,,0,,,,,0
+wenAbstentionSurvey2025,GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts,2023,2309.10253,10.48550/arxiv.2309.10253,,0,,,,,0
+wenAbstentionSurvey2025,Defending Against Alignment-Breaking Attacks via Robustly Aligned LLM,2023,2309.14348,10.48550/arxiv.2309.14348,,0,,,,,0
+wenAbstentionSurvey2025,Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions,2023,2309.07875,10.48550/arxiv.2309.07875,,0,,,,,0
+wenAbstentionSurvey2025,Certifying LLM Safety against Adversarial Prompting,2023,2309.02705,10.48550/arxiv.2309.02705,,0,,,,,0
+wenAbstentionSurvey2025,Baseline Defenses for Adversarial Attacks Against Aligned Language Models,2023,2309.00614,10.48550/arxiv.2309.00614,,0,,,,,0
+wenAbstentionSurvey2025,"LLM Self Defense: By Self Examination, LLMs Know They Are Being Tricked",2023,2308.07308,10.48550/arxiv.2308.07308,,0,,,,,0
+wenAbstentionSurvey2025,GPT-4 Is Too Smart To Be Safe: Stealthy Chat with LLMs via Cipher,2023,2308.06463,10.48550/arxiv.2308.06463,,0,,,,,0
+wenAbstentionSurvey2025,"""Do Anything Now"": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",2023,2308.03825,10.1145/3658644.3670388,,0,,,,,0
+wenAbstentionSurvey2025,XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models,2023,2308.01263,10.48550/arxiv.2308.01263,2024.naacl-long.301,0,,,,,0
+wenAbstentionSurvey2025,Universal and Transferable Adversarial Attacks on Aligned Language Models,2023,2307.15043,,,0,,,,,0
+wenAbstentionSurvey2025,CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility,2023,2307.09705,10.48550/arxiv.2307.09705,,0,,,,,0
+wenAbstentionSurvey2025,Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models,2023,2307.08487,10.48550/arxiv.2307.08487,,0,,,,,0
+wenAbstentionSurvey2025,BeaverTails: Towards Improved Safety Alignment of LLM via a Human-Preference Dataset,2023,2307.04657,10.48550/arxiv.2307.04657,,0,,,,,0
+wenAbstentionSurvey2025,Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models,2023,2307.01379,10.18653/v1/2024.acl-long.276,,0,,,,,0
+wenAbstentionSurvey2025,Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs,2023,2306.13063,10.48550/arxiv.2306.13063,,0,,,,,0
+wenAbstentionSurvey2025,Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models,2023,2305.19187,10.48550/arxiv.2305.19187,,0,,,,,0
+wenAbstentionSurvey2025,Do Large Language Models Know What They Don't Know?,2023,2305.18153,10.48550/arxiv.2305.18153,,0,,,,,0
+wenAbstentionSurvey2025,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,2023,2305.18290,10.52202/075280-2338,,0,,,,,0
+wenAbstentionSurvey2025,Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback,2023,2305.14975,10.48550/arxiv.2305.14975,,0,,,,,0
+wenAbstentionSurvey2025,Getting MoRE out of Mixture of Language Model Reasoning Experts,2023,2305.14628,10.18653/v1/2023.findings-emnlp.552,,0,,,,,0
+wenAbstentionSurvey2025,Selectively Answering Ambiguous Questions,2023,2305.14613,10.48550/arxiv.2305.14613,,0,,,,,0
+wenAbstentionSurvey2025,Knowledge of Knowledge: Exploring Known-Unknowns Uncertainty with Large Language Models,2023,2305.13712,10.48550/arxiv.2305.13712,,0,,,,,0
+wenAbstentionSurvey2025,QLoRA: Efficient Finetuning of Quantized LLMs,2023,2305.14314,10.48550/arxiv.2305.14314,,0,,,,,0
+wenAbstentionSurvey2025,The Internal State of an LLM Knows When its Lying,2023,2304.13734,10.18653/v1/2023.findings-emnlp.68,,0,,,,,0
+wenAbstentionSurvey2025,On Uncertainty Calibration and Selective Generation in Probabilistic Neural Summarization: A Benchmark Study,2023,2304.08653,10.48550/arxiv.2304.08653,,0,,,,,0
+wenAbstentionSurvey2025,Context-faithful Prompting for Large Language Models,2023,2303.11315,10.48550/arxiv.2303.11315,,0,,,,,0
+wenAbstentionSurvey2025,GPT-4 Technical Report,2023,2303.08774,,,0,,,,,0
+wenAbstentionSurvey2025,Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback,2023,2303.05453,10.48550/arxiv.2303.05453,,0,,,,,0
+wenAbstentionSurvey2025,LLaMA: Open and Efficient Foundation Language Models,2023,2302.13971,,,0,,,,,0
+wenAbstentionSurvey2025,Navigating the Grey Area: How Expressions of Uncertainty and Overconfidence Affect Language Models,2023,2302.13439,10.18653/v1/2023.emnlp-main.335,,0,,,,,0
+wenAbstentionSurvey2025,Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation,2023,2302.09664,10.48550/arxiv.2302.09664,,0,,,,,0
+wenAbstentionSurvey2025,Benchmarking Large Language Models for News Summarization,2023,2301.13848,10.1162/tacl_a_00632,2024.tacl-1.3,0,,,,,0
+wenAbstentionSurvey2025,When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories,2022,2212.10511,10.18653/v1/2023.acl-long.546,2023.acl-long.546,0,,,,,0
+wenAbstentionSurvey2025,DisentQA: Disentangling Parametric and Contextual Knowledge with Counterfactual Question Answering,2022,2211.05655,10.48550/arxiv.2211.05655,2023.acl-long.559,0,,,,,0
+wenAbstentionSurvey2025,Scaling Laws for Reward Model Overoptimization,2022,2210.10760,,,0,,,,,0
+wenAbstentionSurvey2025,Uncertainty Quantification with Pre-trained Language Models: A Large-Scale Empirical Analysis,2022,2210.04714,10.48550/arxiv.2210.04714,,0,,,,,0
+wenAbstentionSurvey2025,Calibrating Sequence likelihood Improves Conditional Language Generation,2022,2210.00045,10.48550/arxiv.2210.00045,,0,,,,,0
+wenAbstentionSurvey2025,RealTime QA: What's the Answer Right Now?,2022,2207.13332,10.48550/arxiv.2207.13332,,0,,,,,0
+wenAbstentionSurvey2025,Language Models (Mostly) Know What They Know,2022,2207.05221,10.48550/arxiv.2207.05221,,0,,,,,0
+wenAbstentionSurvey2025,Teaching Models to Express Their Uncertainty in Words,2022,2205.14334,10.48550/arxiv.2205.14334,,0,,,,,0
+wenAbstentionSurvey2025,Reliable Visual Question Answering: Abstain Rather Than Answer Incorrectly,2022,2204.13631,10.48550/arxiv.2204.13631,,0,,,,,0
+wenAbstentionSurvey2025,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback,2022,2204.05862,10.48550/arxiv.2204.05862,,0,,,,,0
+wenAbstentionSurvey2025,PaLM: Scaling Language Modeling with Pathways,2022,2204.02311,,,0,,,,,0
+wenAbstentionSurvey2025,Training Compute-Optimal Large Language Models,2022,2203.15556,10.52202/068431-2176,,0,,,,,0
+wenAbstentionSurvey2025,ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection,2022,2203.09509,10.48550/arxiv.2203.09509,2022.acl-long.234,0,,,,,0
+wenAbstentionSurvey2025,Training language models to follow instructions with human feedback,2022,2203.02155,10.52202/068431-2011,,0,,,,,0
+wenAbstentionSurvey2025,"Investigating Selective Prediction Approaches Across Several Tasks in IID, OOD, and Adversarial Settings",2022,2203.00211,10.48550/arxiv.2203.00211,2022.findings-acl.158,0,,,,,0
+wenAbstentionSurvey2025,Survey of Hallucination in Natural Language Generation,2022,2202.03629,10.1145/3571730,,0,,,,,0
+wenAbstentionSurvey2025,Chain of Thought Prompting Elicits Reasoning in Large Language Models,2022,2201.11903,10.52202/068431-1800,,0,,,,,0
+wenAbstentionSurvey2025,BDDR: An Effective Defense Against Textual Backdoor Attacks,2021,,10.1016/j.cose.2021.102433,,0,,,,,0
+wenAbstentionSurvey2025,Simple Entity-Centric Questions Challenge Dense Retrievers,2021,2109.08535,10.18653/v1/2021.emnlp-main.496,2021.emnlp-main.496,0,,,,,0
+wenAbstentionSurvey2025,SituatedQA: Incorporating Extra-Linguistic Contexts into QA,2021,2109.06157,10.18653/v1/2021.emnlp-main.586,2021.emnlp-main.586,0,,,,,0
+wenAbstentionSurvey2025,Latent Hatred: A Benchmark for Understanding Implicit Hate Speech,2021,2109.05322,10.18653/v1/2021.emnlp-main.29,2021.emnlp-main.29,0,,,,,0
+wenAbstentionSurvey2025,Finetuned Language Models Are Zero-Shot Learners,2021,2109.01652,,,0,,,,,0
+wenAbstentionSurvey2025,♫ MuSiQue: Multihop Questions via Single-hop Question Composition,2021,2108.00573,10.1162/tacl_a_00475,2022.tacl-1.31,0,,,,,0
+wenAbstentionSurvey2025,LoRA: Low-Rank Adaptation of Large Language Models,2021,2106.09685,,,0,,,,,0
+wenAbstentionSurvey2025,Defending against Backdoor Attacks in Natural Language Generation,2021,2106.01810,10.1609/aaai.v37i4.25656,,0,,,,,0
+wenAbstentionSurvey2025,A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers,2021,2105.03011,10.18653/v1/2021.naacl-main.365,2021.naacl-main.365,0,,,,,0
+wenAbstentionSurvey2025,Detoxifying Language Models Risks Marginalizing Minority Voices,2021,2104.06390,10.18653/v1/2021.naacl-main.190,2021.naacl-main.190,0,,,,,0
+wenAbstentionSurvey2025,Reducing Conversational Agents’ Overconfidence Through Linguistic Calibration,2020,2012.14983,10.1162/tacl_a_00494,,0,,,,,0
+wenAbstentionSurvey2025,How Can We Know When Language Models Know? On the Calibration of Language Models for Question Answering,2020,2012.00955,10.1162/tacl_a_00407,,0,,,,,0
+wenAbstentionSurvey2025,ONION: A Simple and Effective Defense Against Textual Backdoor Attacks,2020,2011.10369,10.18653/v1/2021.emnlp-main.752,2021.emnlp-main.752,0,,,,,0
+wenAbstentionSurvey2025,Challenges in Information-Seeking QA: Unanswerable Questions and Paragraph Retrieval,2020,2010.11915,10.18653/v1/2021.acl-long.118,2021.acl-long.118,1,,,,,0
+wenAbstentionSurvey2025,RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models,2020,2009.11462,10.18653/v1/2020.findings-emnlp.301,2020.findings-emnlp.301,0,,,,,0
+wenAbstentionSurvey2025,Selective Question Answering under Domain Shift,2020,2006.09462,10.18653/v1/2020.acl-main.503,2020.acl-main.503,0,,,,,0
+wenAbstentionSurvey2025,Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness,2020,2006.10108,,,0,,,,,0
+wenAbstentionSurvey2025,AmbigQA: Answering Ambiguous Open-domain Questions,2020,2004.10645,10.18653/v1/2020.emnlp-main.466,2020.emnlp-main.466,0,,,,,0
+wenAbstentionSurvey2025,Calibration of Pre-trained Transformers,2020,2003.07892,10.18653/v1/2020.emnlp-main.21,2020.emnlp-main.21,0,,,,,0
+wenAbstentionSurvey2025,TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages,2020,2003.05002,10.1162/tacl_a_00317,,0,,,,,0
+wenAbstentionSurvey2025,BatchEnsemble: An Alternative Approach to Efficient Ensemble and Lifelong Learning,2020,2002.06715,,,0,,,,,0
+wenAbstentionSurvey2025,Scaling Laws for Neural Language Models,2020,2001.08361,,,0,,,,,0
+wenAbstentionSurvey2025,PubMedQA: A Dataset for Biomedical Research Question Answering,2019,1909.06146,10.18653/v1/d19-1259,d19-1259,0,,,,,0
+wenAbstentionSurvey2025,Build it Break it Fix it for Dialogue Safety: Robustness from Adversarial Human Attack,2019,1908.06083,10.18653/v1/d19-1461,d19-1461,0,,,,,0
+wenAbstentionSurvey2025,Natural Questions: A Benchmark for Question Answering Research,2019,,10.1162/tacl_a_00276,q19-1026,0,,,,,0
+wenAbstentionSurvey2025,Asking Clarifying Questions in Open-Domain Information-Seeking Conversations,2019,1907.06554,10.1145/3331184.3331265,,0,,,,,0
+wenAbstentionSurvey2025,CoQA: A Conversational Question Answering Challenge,2018,1808.07042,10.1162/tacl_a_00266,q19-1016,0,,,,,0
+wenAbstentionSurvey2025,QuAC: Question Answering in Context,2018,1808.07036,10.18653/v1/d18-1241,d18-1241,0,,,,,0
+wenAbstentionSurvey2025,Know What You Don’t Know: Unanswerable Questions for SQuAD,2018,1806.03822,10.18653/v1/p18-2124,p18-2124,0,,,,,0
+wenAbstentionSurvey2025,"Deep Learning Scaling is Predictable, Empirically",2017,1712.00409,,,0,,,,,0
+wenAbstentionSurvey2025,Proximal Policy Optimization Algorithms,2017,1707.06347,,,0,,,,,0
+wenAbstentionSurvey2025,On Calibration of Modern Neural Networks,2017,1706.04599,,,0,,,,,0
+wenAbstentionSurvey2025,Conference on Empirical Methods in Natural Language Processing EMNLP 2016,2016,,,,0,,,,,0
+wenAbstentionSurvey2025,Rethinking the Inception Architecture for Computer Vision,2015,1512.00567,10.1109/cvpr.2016.308,,0,,,,,0
+wenAbstentionSurvey2025,Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning,2015,1506.02142,,,0,,,,,0
+wenAbstentionSurvey2025,A benchmark study,1972,,10.1145/1480083.1480162,,0,,,,,0
+wenAbstentionSurvey2025,Do-Not-Answer: Evaluating Safeguards in LLMs,2024,,10.18653/v1/2024.findings-eacl.61,2024.findings-eacl.61,0,,,,,0
+wenAbstentionSurvey2025,Prompt-Driven LLM Safeguarding via Directed Representation Optimization,2024,,10.48550/arxiv.2401.18018,,0,,,,,0
+wenAbstentionSurvey2025,All Languages Matter: On the Multilingual Safety of LLMs,2024,,10.18653/v1/2024.findings-acl.349,,0,,,,,0
+wenAbstentionSurvey2025,MediQ: Question-asking LLMs for adaptive and reliable medical reasoning,2024,,,,0,,,,,0
+wenAbstentionSurvey2025,Selective-LAMA: Selective Prediction for Confidence-Aware Evaluation of Language Models,2023,,10.18653/v1/2023.findings-eacl.150,2023.findings-eacl.150,0,,,,,0
+wenAbstentionSurvey2025,Introducing claude,2023,,,,0,,,,,0
+wenAbstentionSurvey2025,Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality,2023,,,,0,,,,,0
+wenAbstentionSurvey2025,The Art of Abstention: Selective Prediction and Error Regularization for Natural Language Processing,2021,,10.18653/v1/2021.acl-long.84,2021.acl-long.84,0,,,,,0
+wenAbstentionSurvey2025,. Electra: Pre-training text encoders as discriminators rather than generators,2020,,,,0,,,,,0
+wenAbstentionSurvey2025,2022. Learning confidence for transformer-based neural machine translation,,,,,0,,,,,0
+wenAbstentionSurvey2025,Bhavya,,,,,0,,,,,0
+wenAbstentionSurvey2025,and Transparency,,,,,0,,,,,0
+wenAbstentionSurvey2025,2023. Universal and transferable,,,,,0,,,,,0
+wenAbstentionSurvey2025,of the Association for Computational Lin-guistics:,,,,,0,,,,,0

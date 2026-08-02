@@ -1,0 +1,23 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Model & Stratum & Ablated & Full & $\Delta$ agreement & $\Delta$ regret & Full-only & Ablated-only \\
+\midrule
+Qwen2.5-7B & All & 53.3\% & 51.2\% & -2.1 pp & +0.011 & 12 & 22 \\
+Qwen2.5-7B & C2 capability & 57.1\% & 53.3\% & -3.7 pp & +0.021 & 5 & 14 \\
+Qwen2.5-7B & C5 utility & 49.6\% & 49.2\% & -0.4 pp & +0.002 & 7 & 8 \\
+\addlinespace
+Phi-4-mini & All & 65.4\% & 68.8\% & +3.3 pp & -0.015 & 26 & 10 \\
+Phi-4-mini & C2 capability & 80.8\% & 87.5\% & +6.7 pp & -0.028 & 20 & 4 \\
+Phi-4-mini & C5 utility & 50.0\% & 50.0\% & +0.0 pp & -0.002 & 6 & 6 \\
+\addlinespace
+OLMo-2-7B & All & 37.5\% & 37.5\% & +0.0 pp & +0.000 & 0 & 0 \\
+OLMo-2-7B & C2 capability & 25.0\% & 25.0\% & +0.0 pp & +0.000 & 0 & 0 \\
+OLMo-2-7B & C5 utility & 50.0\% & 50.0\% & +0.0 pp & +0.000 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\caption{Controlled model-judge results by decisive coordinate. Full-only and ablated-only count discordant item outcomes. Exact item-level McNemar diagnostics are released but are not used for population inference because the benchmark contains dependent counterfactual pairs.}
+\label{tab:controlled-model-judges-strata}
+\end{table*}

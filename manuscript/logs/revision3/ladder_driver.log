@@ -1,0 +1,19 @@
+[start] 20:22:20 comparability__citing_full__coderA_gpt5mini
+[start] 20:22:20 comparability__citing_full__coderB_claudeopus46
+[start] 20:22:20 comparability__citing_full__coderC_gemini31pro
+[stage done] 20:44:49 citing_full/comparability
+[start] 20:44:49 comparability__both_full__coderA_gpt5mini
+[start] 20:44:49 comparability__both_full__coderB_claudeopus46
+[start] 20:44:49 comparability__both_full__coderC_gemini31pro
+[stage done] 21:02:29 both_full/comparability
+[start] 21:02:29 comparability__both_full__refA_claudeopus5
+[start] 21:02:29 comparability__both_full__refB_gpt41
+[start] 21:02:29 comparability__both_full__refC_gemini31pro
+[stage done] 21:07:30 both_full/comparability
+[start] 21:07:30 comparability__citing_full__refA_claudeopus5
+[start] 21:07:30 comparability__citing_full__refB_gpt41
+[start] 21:07:30 comparability__citing_full__refC_gemini31pro
+[stage done] 21:18:30 citing_full/comparability
+[start] 21:18:30 provenance__citing_full__coderA_gpt5mini
+[start] 21:18:30 provenance__citing_full__coderB_claudeopus46
+[start] 21:18:30 provenance__citing_full__coderC_gemini31pro

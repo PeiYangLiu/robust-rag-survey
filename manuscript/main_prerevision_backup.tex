@@ -1,0 +1,544 @@
+\documentclass[11pt]{article}
+
+\usepackage[review]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{forest}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,positioning}
+\setlength{\emergencystretch}{3em}
+\setlength{\linenumbersep}{6pt}
+
+\title{When Are Robust-RAG Results Comparable?\\
+A Two-Layer Estimand Audit}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Robust retrieval-augmented generation (RAG) papers often share labels such as
+noise robustness, faithfulness, security, or calibration while answering
+different decision questions. We introduce a two-layer estimand audit. The
+substantive layer aligns evidence state, origin/capability, intervention,
+outcome, and policy/utility; the measurement layer aligns items, reviewers,
+treatment assignment, references, and downstream loss. In a fixed audit of 39
+venue-linked robust-RAG papers with local full text, nine collect original
+human judgments. Only two report the number of distinct annotators, and none
+reports item--annotator assignment; because none randomizes reviewer prompts,
+we identify reporting gaps rather than a confirmed unit error. A
+consequence-defined 480-item test also finds no uniform advantage from adding
+explicit capability and utility prompts across three open models. Finally, in
+5,000 sharp-null simulations with moderate reviewer heterogeneity, a
+source-only test of panel-majority correctness rejects 17.0\% of the time. An
+oracle randomization test using the identical statistic rejects 5.3\%;
+doubling sources raises the former to 25.9\% while the latter remains 4.9\%.
+An unreliable development diagnostic and an unverifiable human collection are
+not used as validation. We release source-linked audits, model outputs, and
+the same-statistic simulation. More judged items cannot replace independently
+assigned reviewers.
+\end{abstract}
+
+\section{Introduction}
+
+Robust RAG studies operate under irrelevant, insufficient, conflicting, stale,
+weakly sourced, or malicious evidence. Two reported ``robustness'' gains may
+nevertheless concern different retrieval snapshots, attacker capabilities,
+interventions, outcome units, or deployment actions. Source verification is
+therefore necessary but insufficient: a cross-paper claim must also establish
+that both results answer a compatible decision question.
+
+Evaluating that compatibility creates a second estimand problem. If an audit
+prompt is assigned to six people but hundreds of their labels are analyzed
+only by item or source, the apparent sample size concerns repeated judgments,
+not treatment assignments. If a reference rubric repeats the concepts
+foregrounded by one prompt, agreement measures similarity to that
+construction rather than independent criterion validity. These consequences
+follow from crossed participant--item designs, clustering, and reference
+construction \citep{baayen2008crossed,barr2013maximal,abadie2023clustering}.
+We make them operational for robust-RAG claim review.
+
+This paper makes three contributions. First, it defines a two-layer audit:
+five substantive coordinates determine what system comparison is proposed,
+and five measurement objects determine what a claim-review experiment
+estimates. Representative robust-RAG boundary cases motivate the coordinates;
+the literature map is documentary context rather than a census. Second, a
+source-linked audit applies the measurement layer to nine published
+human-judgment studies, while a controlled 480-item experiment tests the two
+decision coordinates on three open models. Both are deliberately diagnostic:
+they expose reporting gaps and model dependence rather than validate the
+framework. Third, a parameterized null simulation compares source-only and
+assignment-aware references using the \emph{same} panel-majority statistic,
+isolating uncertainty from reviewer assignment.
+
+Our hard conclusion is narrow. When treatment is assigned to reviewers,
+adding items cannot justify item-only uncertainty for a reviewer-population
+effect. The substantive coordinates remain candidate disclosures, not a
+validated human instrument. We also distinguish public de-identification from
+private auditability: identity-bearing recruitment and consent records may
+remain access-controlled, but an empirical claim still needs an inspectable
+internal provenance path.
+
+\section{Positioning}
+\label{sec:related}
+
+\paragraph{RAG surveys and shared evaluation.}
+General surveys organize RAG architectures and applications, while evaluation,
+trustworthiness, security, conflict, and abstention surveys expose different
+failure surfaces \citep{ragSurvey2024,ragEvaluationSurvey2024,
+trustRAGCompass2024,securityRAGSurvey2026,xuKnowledgeConflicts2024,
+wenAbstentionSurvey2025}. Common-harness comparisons improve empirical
+control \citep{ragBestPractices2024,alushiRAGComparison2026}, but they do not
+resolve whether a quoted cross-paper result concerns the same evidence state,
+capability envelope, outcome, or action. Table~\ref{tab:main-prior-work-comparison}
+positions our claim-level comparison lens alongside these lines.
+
+\input{tables/main_prior_work_comparison}
+
+\paragraph{Human judgments as measurements.}
+Annotation research distinguishes reproducibility from truth
+\citep{artstein2008intercoder}. Majority voting can erase structured variation
+\citep{plank2022labelvariation,davani2022disagreements}, while annotator models
+retain rater and item effects \citep{passonneau2014annotation,
+paun2018bayesian}. Crossed participant--item designs require both sources of
+variation \citep{baayen2008crossed}, and clustering follows treatment
+assignment rather than row count \citep{abadie2023clustering}. We apply these
+established principles to claim-review experiments; the new contribution is
+the robust-RAG synthesis and executable design stress test.
+
+\input{survey_main_sections}
+
+\section{A Two-Layer Estimand Audit}
+\label{sec:estimands}
+
+The substantive layer records five coordinates for each side of a comparison:
+evidence state, origin/capability, intervention, outcome, and policy/utility,
+followed by claim-specific controls
+(Table~\ref{tab:main-framework-overview}). These coordinates specialize
+existing distinctions from evidence synthesis, selective prediction, and
+security evaluation \citep{richardson1995pico,chow1970reject,
+papernot2018sok}; they are prompts for inspection, not validated primitives.
+The measurement layer then asks how judgments about those coordinates were
+produced: which people, items, assignments, references, and downstream losses
+define the target. Passing one layer cannot repair failure in the other.
+
+\input{tables/main_framework_overview}
+
+\paragraph{Three targets.}
+A majority-label difference for two realized reviewer panels is a
+\emph{panel contrast}. A prompt effect over reviewers instead averages
+individual potential judgments over a defined participant and item
+population. A claim of better decisions requires a third target: expected
+downstream loss for accepting, narrowing, rejecting, or deferring a
+comparison. These targets coincide only under assumptions that should be
+stated rather than inherited from the aggregation rule. Appendix
+Section~\ref{sec:estimand-formalization} gives the notation.
+
+\paragraph{Assignment alignment.}
+Source resampling with reviewers fixed measures item variation conditional on
+the realized panel. If prompts are assigned to reviewers, reviewer-composition
+variation remains even as the number of claims grows. The analysis must
+therefore follow the assignment mechanism or explicitly model crossed
+reviewer and item effects. More labels per person improve conditional
+precision; they do not create new prompt assignments.
+
+\paragraph{Reference independence.}
+Blinding reference writers to arm responses prevents direct copying, but a
+rubric that paraphrases the tested prompt still incorporates the intervention.
+Adjudication then selects one hard target from a distribution of judgments.
+We use ``reference-relative agreement,'' reserving ``accuracy'' for an
+intervention-independent criterion and retaining disagreement whenever the
+task admits multiple defensible labels.
+
+\section{Published Human-Evaluation Reporting Audit}
+\label{sec:published-audit}
+
+To connect the measurement audit to published robust-RAG practice, we fixed a
+source-linked reporting audit. Of 39 venue- or proceedings-linked Map B papers
+with locally extracted full text, a deterministic human-judgment term screen
+flagged 19. Full-text eligibility review retained nine papers that collected
+original human judgments for benchmark construction, metric validation, error
+analysis, or output evaluation. The released ledger records the exact text
+lines supporting every coding decision.
+
+\input{tables/main_published_human_evaluation_audit}
+
+Only two of nine papers report the number of distinct annotators; two fully
+report raters per item, and none reports the item--annotator assignment.
+Four report an agreement or rater-uncertainty quantity, and two report
+compensation. None randomizes an audit prompt across annotators, so this audit
+finds no verifiable assignment-unit mismatch. We classify absent fields as
+reporting gaps rather than inferring that an unreported practice was absent or
+incorrect. The fixed screen is narrow and single-coded; it establishes
+concrete reporting cases, not field prevalence. The case ledger appears in
+Appendix Table~\ref{tab:published-human-evaluation-cases}.
+
+\paragraph{What the cases permit.}
+The ledger distinguishes incomplete reporting from a demonstrated error.
+FaithEval states that three Mechanical Turk workers judge each pair and that
+majority agreement controls inclusion \citep{rrag040}. RAGTruth states that
+two annotators label each response, a third reviews substantial differences,
+and vendor annotators receive \$25 per hour \citep{ragTruth2024}. ParamMute
+reports six senior researchers and a multiply annotated 100-item subset but
+not how those researchers were allocated to items \citep{rrag024}.
+PoisonedRAG identifies authors as the human evaluators but gives no
+reviewer-level multiplicity \citep{poisonedRAG2024}. These examples support
+specific transparency claims; they do not justify reconstructing hidden
+assignments or declaring any analysis invalid. They also show why releasing
+only a final majority label is insufficient for later assignment-aware
+reanalysis.
+
+\subsection{Development and provenance boundaries}
+
+In a separate development diagnostic, three coders reviewed 80 comparison
+claims and a fourth adjudicated them with model labels hidden. Only 39/80
+verdicts were unanimous, pairwise \(\kappa\) ranged from .258 to .525, and the
+full rule and its C2/C5 ablation each matched the adjudicated reference on
+40/80 claims. The sample overlaps codebook development and has a recoverable
+selection rule for only 16 items, so it demonstrates unreliability of this
+workflow rather than prompt utility (Appendix
+Table~\ref{tab:main-human-validation}).
+
+A later 480-claim protocol is retained only as a design case. One returned
+batch contained shared response payloads, and a later export could not be
+linked to controlled recruitment records, one-to-one pseudonym mappings, and
+separate response receipts available to the research team or an authorized
+auditor. Public identity disclosure is neither required nor desirable: a
+privacy-compatible package may release only de-identified ratings and
+aggregate provenance while keeping consent, qualification, payment or
+affiliation, and identity-linkage records access-controlled. Because the
+necessary internal audit trail was absent here, we exclude every response,
+contrast, reference statistic, participant attribute, and timing claim. The
+retained 80-claim diagnostic has a project-owner attestation that four
+distinct human contributors consented and were compensated; the release does
+not independently verify contributor-level records, and development overlap
+still prevents validation claims.
+
+\section{A Controlled Consequence Test}
+\label{sec:controlled-models}
+
+We next test the two least conventional coordinates without using a human
+reference. A deterministic benchmark contains 480 synthetic deployment
+decisions in 240 counterfactual pairs. In half, only whether deployment
+origin/access/budget falls inside the evaluated capability envelope changes
+(C2); in half, only error-versus-abstention costs change (C5). The target is
+the unique minimum of the displayed loss over \texttt{deploy\_A},
+\texttt{deploy\_B}, and \texttt{defer}. Three fixed open models see every item
+under crossed prompts: an ablation asks for evidence state, intervention,
+outcome, controls, and action, while the full prompt explicitly adds
+origin/capability and policy/utility checks. Decoding is greedy. Two
+format-only pilot runs were used to replace an ambiguous output schema and
+freeze single-token parsing; benchmark items, targets, and the substantive
+prompt contrast were unchanged. A subsequent audit found that the initial C2
+generator also changed defer cost. We fixed that cost within each pair and
+reran every reported model; the resulting experiment is diagnostic, not
+preregistered confirmatory evidence. In C5, defer is a displayed deterministic
+function of deployment losses and is never optimal; the exogenous
+manipulations are only error and abstention costs.
+
+\input{tables/main_controlled_model_judges}
+
+The full prompt is not uniformly better. Exact agreement changes from
+53.3\% to 51.2\% for Qwen2.5-7B, from 65.4\% to 68.8\% for Phi-4-mini, and
+remains 37.5\% for OLMo-2-7B. Mean regret likewise improves only for Phi
+(\(-.015\)) and worsens for Qwen (\(+.011\)); counterfactual-pair consistency
+is low for all three fixed models. Phi's gain is concentrated in the C2
+capability shift (\(+6.7\) points) and is zero on C5 exact agreement; Qwen
+instead loses 3.7 points on C2, and OLMo emits the same decisions under both
+prompts. Thus, explicitly naming a coordinate can change behavior without
+reliably improving it. These outcomes provide executable construct evidence
+that C2/C5 can alter a deployment target, but no general prompt advantage and
+no validation for human auditing or natural paper prose. Appendix
+Table~\ref{tab:controlled-model-judges-strata} gives the C2/C5 split.
+
+\section{Null Simulation of the Assignment Mismatch}
+\label{sec:simulation}
+
+\subsection{Design}
+
+We simulate the planned primary D--C contrast---12 of the 24 planned auditor
+slots---without using any excluded outcome. Reviewers are randomly divided six
+per prompt. Each source contributes six claims; each claim is rated by a
+balanced three-of-six panel in both arms.
+Baseline agreement is 75\%. Source and claim logit standard deviations are
+.15 and .35. Reviewer abilities are 12 fixed normal quantiles with
+\(\sigma_r\in\{0,.10,.20,.30\}\) on the logit scale. The true prompt effect is
+zero.
+
+For each scenario, 5,000 replicates compare three analyses. The first is a
+paired source \(t\) test on panel-majority correctness. The second refers that
+\emph{same studentized panel-majority statistic} to all
+\(\binom{12}{6}=924\) reviewer assignments. It is an oracle Fisher
+randomization benchmark: under the simulated sharp null we generate the
+complete reviewer--claim vote matrix and fix the panel schedule before arm
+assignment. The third randomization analysis uses individual reviewer
+accuracy, as in the earlier simulation.
+
+The oracle comparison isolates the reference distribution while holding the
+statistic fixed, but it is not an executable test for the excluded protocol:
+that collection observes only realized-panel votes and allocated panels after
+arm assignment. A prospective study could make the test implementable by
+fixing an arm-independent rating schedule before treatment. The simulation is
+a parameter sweep, not an estimate of reviewer heterogeneity. Appendix
+Section~\ref{sec:estimand-formalization} gives the corresponding variance
+characterization.
+
+\input{tables/main_assignment_mismatch_simulation}
+
+\subsection{Results}
+
+With homogeneous reviewers and 80 sources, source-only rejection is 4.9\%.
+At \(\sigma_r=.20\), it is 7.6\%, 10.3\%, 17.0\%, and 25.9\% for 20, 40, 80,
+and 160 sources. The same-statistic panel randomization benchmark remains
+between 4.5\% and 5.3\%, and reviewer-accuracy randomization between 3.7\% and
+5.2\%, in those rows. At 80 sources, source-only rejection increases from
+4.9\% to 8.0\%, 17.0\%, and 28.3\% as \(\sigma_r\) increases from 0 to .10,
+.20, and .30, whereas panel randomization remains 4.5--5.3\%
+(Appendix Table~\ref{tab:assignment-mismatch-simulation-full}).
+
+Holding the panel-majority statistic fixed isolates the problem: the
+anti-conservatism comes from using a source-only reference distribution, not
+from comparing majority scores with individual accuracy. Conditional item
+precision improves as items are added while the number of prompt assignments
+stays at twelve, so the source-only standard error becomes increasingly
+optimistic. This simulation does not prove that any published study has a
+particular false-positive rate; it gives a reproducible stress test for a
+declared assignment mechanism.
+
+\section{A Practical Pre-Collection Audit}
+\label{sec:practical-audit}
+
+The audit is most useful before labels exist. It converts familiar cautions
+about annotators, items, and references into five decisions that can be
+checked against a protocol. Appendix
+Table~\ref{tab:robust-rag-reporting-checklist} expands the corresponding
+reporting fields.
+
+\paragraph{1. Name the claim and decision.}
+The unit under review should be an atomic public statement, not an entire
+paper. Authors should state whether the reviewer is verifying source support,
+deciding cross-result comparability, or recommending a deployment action.
+Each task implies a different target: a quotation can be faithful while the
+cross-paper comparison is invalid, and two comparable results need not imply
+the same operational choice. Writing the downstream action and loss first
+prevents exact label agreement from becoming the default objective merely
+because it is easy to count.
+
+\paragraph{2. Draw the unit map.}
+The protocol should list the item, reviewer, treatment-assignment, scoring,
+reference, and intended generalization units in one place. If prompts are
+assigned to people, people remain the treatment units after majority voting.
+If every reviewer sees multiple prompts, order, learning, and carryover become
+part of the design. If claims are nested in papers, source dependence is an
+additional layer rather than a replacement for reviewer dependence. This map
+determines which randomization, mixed-effects, or cluster analysis can answer
+the stated question.
+
+\paragraph{3. Construct the target independently.}
+Reference writers should not be given a rubric that simply paraphrases the
+tested intervention. Whenever possible, the target should be generated from a
+predeclared consequence, such as deployment loss under matched capability and
+cost assumptions. When source ambiguity prevents a unique label, admissible
+sets or empirical reference distributions preserve more information than a
+forced adjudication. The protocol should freeze who resolves disputes, what
+remains unresolved, and which missingness rate stops interpretation.
+
+\paragraph{4. Power the randomized units.}
+Power calculations should vary the number and heterogeneity of reviewers, not
+only the number of claims. A useful stress test holds reviewers fixed while
+increasing items; if the proposed interval keeps shrinking, it is conditional
+on the panel. Between-reviewer designs need enough independently assigned
+people, whereas crossed designs trade participant efficiency for explicit
+period and carryover assumptions. Simulation should reproduce the actual
+panel construction, class balance, missing-reference rule, and planned test
+rather than approximate only the item count.
+
+\paragraph{5. Preserve the measurement path.}
+Reports should release pre-adjudication votes, class supports, abstentions,
+unresolved cases, aggregation rules, and aggregate participant provenance.
+Sensitivity to one reviewer or one reference policy is a property of the
+measurement, not an inconvenient secondary result. Hashes establish which
+bytes were analyzed but cannot establish that nominally distinct people acted
+independently. When that provenance cannot be verified, the affected outcome
+must be excluded rather than repaired through additional statistics.
+
+\subsection{A prospective human test}
+\label{sec:corrected}
+
+A corrected human experiment would either randomize enough independent
+participants between prompts or cross participants with prompts using
+counterbalancing and carryover controls. Its primary analysis would operate at
+the assignment unit and model participant, item, and reference-rater
+variation. Recruitment population, language proficiency, author/codebook
+involvement, compensation, and actual work time would be reported in
+aggregate. The protocol, exclusions, margins, and reference rule would be
+externally timestamped before outcomes.
+
+The consequence-defined benchmark in Section~\ref{sec:controlled-models}
+supplies an intervention-independent target for such a study, but not its
+human effect size. A prospective protocol should freeze the deployment-loss
+rule before annotation, use independently authored reference instructions,
+and retain unresolved judgments rather than forcing a gold label. The model
+results show why this remains necessary: an explicit C2/C5 prompt helps one
+fixed model, hurts another, and leaves a third unchanged.
+
+\section{Conclusion}
+
+Robust RAG is not a single leaderboard. A transportable comparison must match
+evidence state, origin/capability, intervention, outcome, and policy/utility;
+natural retrieval error and adaptive corruption are different games, and a
+confidence signal is not an action policy. These coordinates identify a
+narrower common claim when a full rerun is impossible, but the controlled
+model results and development diagnostic provide no general validation of the
+prompt itself.
+
+Measurement claims require a second map: item, reviewer, assignment,
+reference, and downstream decision. The published audit found concrete
+reporting gaps but no confirmed assignment-unit error. The simulation supplies
+the stronger design result. With prompts assigned to reviewers, a
+source-only reference can become anti-conservative as items accumulate; using
+the identical panel-majority statistic with its reviewer-assignment
+distribution restores null calibration in the simulated design. Majority
+aggregation does not create new treatment assignments.
+
+Public anonymity and scientific auditability are compatible. Direct
+identifiers, consent, and recruitment records should remain protected, while
+an authorized internal or institutional audit can verify the link from real
+participants to pseudonymous responses. When that path is unavailable, the
+affected collection should be excluded rather than repaired with additional
+statistics.
+
+\paragraph{Artifact availability.}
+The supplement releases the published-study ledger, controlled benchmark,
+three model outputs and analysis, same-statistic simulation, development
+labels, and exclusion trail. Every evidence-bearing table is linked to a
+machine-readable source. Excluded outcome exports are omitted from release
+packages; a privacy-safe invalidation receipt preserves the shared-payload
+finding and original return-manifest hash.
+
+\section*{Limitations}
+
+The simulation uses binary correctness, a common wrong-label state, balanced
+panels of three among six reviewers, and chosen variance parameters. It
+demonstrates a design failure mode rather than estimating prevalence. The
+same-statistic randomization benchmark assumes a simulated sharp null, a
+complete reviewer--claim vote matrix, and a panel schedule fixed before arm
+assignment; it cannot be applied retrospectively to realized-panel-only data.
+
+The nine-paper reporting audit is a single-coded, model-assisted pass over 39
+venue-linked local full texts, not a census or risk-of-bias assessment.
+Absence of a reported field is not evidence of an absent practice. The broader
+map is open-PDF based, has incomplete early search logs, and overrepresents
+English-language, openly accessible work. The controlled benchmark is
+templated arithmetic prose; three fixed open models do not define a model
+population or predict behavior on natural paper claims.
+Reporting codes reflect the versions available in the frozen local snapshot;
+later supplements or author records could resolve fields marked unreported.
+The audit also excludes adjacent IR, human--computer interaction, and
+domain-specific RAG venues unless a paper entered Map B, so its denominator
+must not be used to compare communities.
+
+The 80-claim diagnostic is purposive, overlaps development, and lacks a
+recoverable selection procedure for 64 items. The excluded 480-claim
+collection lacks the internal provenance needed for a human-study claim.
+Local hashes authenticate bytes, not behavioral independence or external
+preregistration. No consequence-based human effect size is estimated.
+
+\section*{Ethics Statement}
+
+For the retained 80-claim diagnostic, the project owner attests that all four
+contributors consented to paper use and public release of de-identified
+annotations, including rationales, were compensated, and did not use
+generative AI for annotation. The public provenance is that attestation rather
+than contributor-level consent or identity records. The project owner also
+reports an institutional determination that formal review was not required.
+
+We make no human-subject, recruitment, expertise, compensation, or
+independence claim for the excluded 480-claim collection. Its outcome rows do
+not enter the manuscript. The published-paper audit uses public scholarly
+documents and introduces no participant contact. LLMs assisted documentary
+discovery, extraction, and audit screening; those outputs are not human gold.
+The synthetic benchmark contains no participant data or third-party
+quotation. The reported open-model runs use deterministic decoding and release
+raw outputs. No attack payloads or poisoned corpora are released.
+
+\clearpage
+\bibliography{references,auto_references,venue_authoritative_references,venue_extra_references,venue_200_selected_references,multimodal_100_selected_references}
+
+\clearpage
+\appendix
+
+\input{appendix_extended_survey}
+
+\section{Unvalidated Model-Coded Claim Inventory}
+\label{sec:appendix-claim-audit}
+\input{tables/main_observed_claim_audit}
+\input{tables/observed_claim_audit_appendix}
+\input{tables/main_claim_audit_examples}
+
+\FloatBarrier
+\section{Development Diagnostic Details}
+\input{tables/main_human_validation}
+\input{tables/main_rule_reliability_clustered}
+\input{tables/rule_reliability_by_archetype_clustered}
+\input{tables/human_field_agreement}
+\input{tables/model_human_field_alignment}
+\input{tables/reference_label_sensitivity}
+
+\FloatBarrier
+\section{Published Human-Evaluation Audit Cases}
+\input{tables/published_human_evaluation_case_ledger}
+
+\FloatBarrier
+\input{appendix_estimand_formalization}
+
+\FloatBarrier
+\section{Assignment-Unit Simulation Details}
+\input{tables/assignment_mismatch_simulation_full}
+
+\FloatBarrier
+\section{Controlled Model-Judge Details}
+\input{tables/controlled_model_judges_strata}
+
+\FloatBarrier
+\section{Framework and Taxonomy Details}
+\input{tables/research_landscape_detailed}
+\input{tables/framework_decision_procedure}
+\input{tables/framework_counterexamples}
+\input{tables/taxonomy_rules}
+\input{tables/attacker_capability_matrix}
+
+\FloatBarrier
+\section{Evaluation and Reporting}
+\label{sec:appendix-eval}
+\input{tables/robust_rag_reporting_checklist}
+\input{tables/benchmark_comparison}
+\input{tables/benchmark_blueprint}
+\input{tables/evaluation_assumption_matrix}
+\input{tables/claim_verification_ledger}
+
+\FloatBarrier
+\section{Scoping-Map Audit Artifacts}
+\label{sec:audit-artifacts}
+\input{tables/main_evidence_layers}
+\input{figures/corpus_flow}
+\input{tables/review_protocol}
+\input{tables/map_b_coding_coverage}
+\input{tables/source_strata_reconciliation}
+
+\FloatBarrier
+\end{document}

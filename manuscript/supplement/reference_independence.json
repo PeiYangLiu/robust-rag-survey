@@ -1,0 +1,866 @@
+{
+  "crosscheck_against_published": {
+    "provenance": {
+      "all_four_matches_published": true,
+      "google_out_matches_published_loo": true,
+      "mine_all": {
+        "acc": 0.9058823529411765,
+        "n": 170
+      },
+      "mine_google_out": {
+        "acc": 0.8930817610062893,
+        "n": 159
+      },
+      "published_all": {
+        "acc": 0.9058823529411765,
+        "n": 170
+      },
+      "published_loo": {
+        "acc": 0.8930817610062893,
+        "n": 159
+      }
+    },
+    "verdict": {
+      "all_four_matches_published": true,
+      "google_out_matches_published_loo": true,
+      "mine_all": {
+        "acc": 0.8157894736842105,
+        "n": 114
+      },
+      "mine_google_out": {
+        "acc": 0.8131868131868132,
+        "n": 91
+      },
+      "published_all": {
+        "acc": 0.8157894736842105,
+        "n": 114
+      },
+      "published_loo": {
+        "acc": 0.8131868131868132,
+        "n": 91
+      }
+    }
+  },
+  "design_note": "The evidence-privileged reference is stress-tested for developer non-independence and self-preference. Accuracy is recomputed with each adjudicator, and each developer's adjudicators, removed; a per-deployed-judge test asks whether a judge agrees more with same-developer adjudicators than with different-developer ones. Removing an adjudicator shrinks the reference (fewer windows keep a quote-verified majority) but is not supposed to move the accuracy.",
+  "developer_map": {
+    "adjudicators": {
+      "refA_claudeopus5": "Anthropic",
+      "refC_gemini31pro": "Google",
+      "refD_claudeopus48": "Anthropic",
+      "refE_gpt55cli": "OpenAI"
+    },
+    "deployed": {
+      "comparability": {
+        "coderA_gpt5mini": "OpenAI",
+        "coderB_claudeopus46": "Anthropic",
+        "coderC_gemini31pro": "Google"
+      },
+      "provenance": {
+        "provA_gpt5mini": "OpenAI",
+        "provB_claudeopus46": "Anthropic",
+        "provC_gemini31pro": "Google"
+      }
+    },
+    "shared_checkpoint": {
+      "coderC_gemini31pro": "refC_gemini31pro",
+      "provC_gemini31pro": "refC_gemini31pro"
+    }
+  },
+  "interpretation": {
+    "headline": "Accuracy is robust to removing any adjudicator or any developer's adjudicators, no deployed judge shows significant self-preference toward its own developer, and no dropped reference window ever flips to a different label -- the reference is not carrying a developer-alignment artifact.",
+    "provenance": {
+      "all_four_accuracy": 0.9059,
+      "any_self_preference_ci_excludes_zero": false,
+      "largest_self_preference_delta": 0.0225,
+      "leave_developer_out_accuracy_min_max": [
+        0.876,
+        0.9053
+      ],
+      "leave_one_out_accuracy_min_max": [
+        0.8869,
+        0.9053
+      ],
+      "n": 170,
+      "reference_label_flips_under_any_drop": 0,
+      "statement": "Provenance accuracy is 0.9059 on the all-four reference (N=170); it stays within [0.8869, 0.9053] across the four leave-one-adjudicator-out variants and [0.876, 0.9053] across the three leave-developer-out variants -- including dropping both Anthropic adjudicators and dropping the shared-checkpoint Google adjudicator. No deployed judge's agreement with same-developer adjudicators is significantly above its agreement with different-developer adjudicators (largest delta 0.0225, every 95% CI includes 0). Under every drop, 0 established reference labels flip to a different label: drops only shrink coverage, never reverse a verdict."
+    },
+    "verdict": {
+      "all_four_accuracy": 0.8158,
+      "any_self_preference_ci_excludes_zero": false,
+      "largest_self_preference_delta": 0.0236,
+      "leave_developer_out_accuracy_min_max": [
+        0.7935,
+        0.84
+      ],
+      "leave_one_out_accuracy_min_max": [
+        0.7885,
+        0.8132
+      ],
+      "n": 114,
+      "reference_label_flips_under_any_drop": 0,
+      "statement": "Verdict accuracy is 0.8158 on the all-four reference (N=114); it stays within [0.7885, 0.8132] across the four leave-one-adjudicator-out variants and [0.7935, 0.84] across the three leave-developer-out variants -- including dropping both Anthropic adjudicators and dropping the shared-checkpoint Google adjudicator. No deployed judge's agreement with same-developer adjudicators is significantly above its agreement with different-developer adjudicators (largest delta 0.0236, every 95% CI includes 0). Under every drop, 0 established reference labels flip to a different label: drops only shrink coverage, never reverse a verdict."
+    }
+  },
+  "n_bootstrap": 4000,
+  "passes": {
+    "provenance": {
+      "all_four": {
+        "accuracy": 0.9058823529411765,
+        "cluster_ci95": [
+          0.8571428571428571,
+          0.9609375
+        ],
+        "majority_class_baseline": 0.7941176470588235,
+        "n": 170,
+        "n_papers": 61,
+        "reference_distribution": {
+          "reimplemented": 135,
+          "transported": 35
+        },
+        "wilson_ci95": [
+          0.8525911072997717,
+          0.9412356411337337
+        ]
+      },
+      "leave_developer_out": {
+        "Anthropic": {
+          "accuracy": 0.8760330578512396,
+          "cluster_ci95": [
+            0.8223684210526315,
+            0.9418604651162791
+          ],
+          "delta_accuracy_vs_all_four": -0.029849295089936834,
+          "dropped_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48"
+          ],
+          "majority_class_baseline": 0.7520661157024794,
+          "n": 121,
+          "n_papers": 52,
+          "reference_distribution": {
+            "reimplemented": 91,
+            "transported": 30
+          },
+          "wilson_ci95": [
+            0.8055084226897296,
+            0.9234160937194084
+          ]
+        },
+        "Google": {
+          "accuracy": 0.8930817610062893,
+          "cluster_ci95": [
+            0.8424242424242424,
+            0.948905109489051
+          ],
+          "delta_accuracy_vs_all_four": -0.01280059193488714,
+          "dropped_adjudicators": [
+            "refC_gemini31pro"
+          ],
+          "majority_class_baseline": 0.7735849056603774,
+          "n": 159,
+          "n_papers": 60,
+          "reference_distribution": {
+            "reimplemented": 123,
+            "transported": 34,
+            "unclear": 2
+          },
+          "wilson_ci95": [
+            0.8354504920036855,
+            0.9321672934415703
+          ]
+        },
+        "OpenAI": {
+          "accuracy": 0.9053254437869822,
+          "cluster_ci95": [
+            0.8544600938967136,
+            0.9607843137254902
+          ],
+          "delta_accuracy_vs_all_four": -0.0005569091541942628,
+          "dropped_adjudicators": [
+            "refE_gpt55cli"
+          ],
+          "majority_class_baseline": 0.7751479289940828,
+          "n": 169,
+          "n_papers": 60,
+          "reference_distribution": {
+            "reimplemented": 131,
+            "transported": 36,
+            "unclear": 2
+          },
+          "wilson_ci95": [
+            0.851751104357956,
+            0.9408827980247753
+          ]
+        }
+      },
+      "leave_developer_out_accuracy_range": [
+        0.8760330578512396,
+        0.9053254437869822,
+        0.02929238593574257
+      ],
+      "leave_one_out": {
+        "refA_claudeopus5": {
+          "accuracy": 0.8888888888888888,
+          "cluster_ci95": [
+            0.8383838383838383,
+            0.944
+          ],
+          "delta_accuracy_vs_all_four": -0.016993464052287632,
+          "majority_class_baseline": 0.7962962962962963,
+          "n": 162,
+          "n_papers": 60,
+          "reference_distribution": {
+            "reimplemented": 129,
+            "transported": 33
+          },
+          "wilson_ci95": [
+            0.8312096257063128,
+            0.9285521425187239
+          ]
+        },
+        "refC_gemini31pro": {
+          "accuracy": 0.8930817610062893,
+          "cluster_ci95": [
+            0.8424242424242424,
+            0.948905109489051
+          ],
+          "delta_accuracy_vs_all_four": -0.01280059193488714,
+          "majority_class_baseline": 0.7735849056603774,
+          "n": 159,
+          "n_papers": 60,
+          "reference_distribution": {
+            "reimplemented": 123,
+            "transported": 34,
+            "unclear": 2
+          },
+          "wilson_ci95": [
+            0.8354504920036855,
+            0.9321672934415703
+          ]
+        },
+        "refD_claudeopus48": {
+          "accuracy": 0.8869047619047619,
+          "cluster_ci95": [
+            0.8351063829787234,
+            0.943089430894309
+          ],
+          "delta_accuracy_vs_all_four": -0.01897759103641461,
+          "majority_class_baseline": 0.7797619047619048,
+          "n": 168,
+          "n_papers": 61,
+          "reference_distribution": {
+            "reimplemented": 131,
+            "transported": 35,
+            "unclear": 2
+          },
+          "wilson_ci95": [
+            0.8301195165473114,
+            0.9263917519835438
+          ]
+        },
+        "refE_gpt55cli": {
+          "accuracy": 0.9053254437869822,
+          "cluster_ci95": [
+            0.8544600938967136,
+            0.9607843137254902
+          ],
+          "delta_accuracy_vs_all_four": -0.0005569091541942628,
+          "majority_class_baseline": 0.7751479289940828,
+          "n": 169,
+          "n_papers": 60,
+          "reference_distribution": {
+            "reimplemented": 131,
+            "transported": 36,
+            "unclear": 2
+          },
+          "wilson_ci95": [
+            0.851751104357956,
+            0.9408827980247753
+          ]
+        }
+      },
+      "leave_one_out_accuracy_range": [
+        0.8869047619047619,
+        0.9053254437869822,
+        0.018420681882220347
+      ],
+      "majority_stability": {
+        "leave_developer_out": {
+          "Anthropic": {
+            "changed_label": 0,
+            "gained_majority": 2,
+            "kept_same_label": 119,
+            "lost_majority": 52,
+            "n_established_all_four": 171
+          },
+          "Google": {
+            "changed_label": 0,
+            "gained_majority": 4,
+            "kept_same_label": 156,
+            "lost_majority": 15,
+            "n_established_all_four": 171
+          },
+          "OpenAI": {
+            "changed_label": 0,
+            "gained_majority": 4,
+            "kept_same_label": 166,
+            "lost_majority": 5,
+            "n_established_all_four": 171
+          }
+        },
+        "leave_one_out": {
+          "refA_claudeopus5": {
+            "changed_label": 0,
+            "gained_majority": 4,
+            "kept_same_label": 158,
+            "lost_majority": 13,
+            "n_established_all_four": 171
+          },
+          "refC_gemini31pro": {
+            "changed_label": 0,
+            "gained_majority": 4,
+            "kept_same_label": 156,
+            "lost_majority": 15,
+            "n_established_all_four": 171
+          },
+          "refD_claudeopus48": {
+            "changed_label": 0,
+            "gained_majority": 4,
+            "kept_same_label": 164,
+            "lost_majority": 7,
+            "n_established_all_four": 171
+          },
+          "refE_gpt55cli": {
+            "changed_label": 0,
+            "gained_majority": 4,
+            "kept_same_label": 166,
+            "lost_majority": 5,
+            "n_established_all_four": 171
+          }
+        }
+      },
+      "self_preference_all_votes": {
+        "provA_gpt5mini": {
+          "agreement_different_developer": 0.8007590132827325,
+          "agreement_same_developer": 0.8011363636363636,
+          "developer": "OpenAI",
+          "difference_ci95": [
+            -0.020506296360186305,
+            0.019309556667241656
+          ],
+          "difference_same_minus_diff": 0.0003773503536311784,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refC_gemini31pro",
+            "refD_claudeopus48"
+          ],
+          "n_diff_pairs": 527,
+          "n_permutations": 12,
+          "n_same_pairs": 176,
+          "permutation_p_one_sided": 0.75,
+          "same_developer_adjudicators": [
+            "refE_gpt55cli"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "provB_claudeopus46": {
+          "agreement_different_developer": 0.9661016949152542,
+          "agreement_same_developer": 0.9801699716713881,
+          "developer": "Anthropic",
+          "difference_ci95": [
+            -0.0028248587570621764,
+            0.03389830508474578
+          ],
+          "difference_same_minus_diff": 0.014068276756133868,
+          "different_developer_adjudicators": [
+            "refC_gemini31pro",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 354,
+          "n_permutations": 12,
+          "n_same_pairs": 353,
+          "permutation_p_one_sided": 0.16666666666666666,
+          "same_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "provC_gemini31pro": {
+          "agreement_different_developer": 0.869140625,
+          "agreement_same_developer": 0.8771929824561403,
+          "developer": "Google",
+          "difference_ci95": [
+            -0.009445815058479523,
+            0.025561951754385914
+          ],
+          "difference_same_minus_diff": 0.008052357456140302,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 512,
+          "n_permutations": 12,
+          "n_same_pairs": 171,
+          "permutation_p_one_sided": 0.25,
+          "same_developer_adjudicators": [
+            "refC_gemini31pro"
+          ],
+          "shares_checkpoint_with": "refC_gemini31pro"
+        }
+      },
+      "self_preference_verified": {
+        "provA_gpt5mini": {
+          "agreement_different_developer": 0.799163179916318,
+          "agreement_same_developer": 0.8217054263565892,
+          "developer": "OpenAI",
+          "difference_ci95": [
+            -0.015163179916317993,
+            0.06100214502862611
+          ],
+          "difference_same_minus_diff": 0.02254224644027114,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refC_gemini31pro",
+            "refD_claudeopus48"
+          ],
+          "n_diff_pairs": 478,
+          "n_permutations": 12,
+          "n_same_pairs": 129,
+          "permutation_p_one_sided": 0.25,
+          "same_developer_adjudicators": [
+            "refE_gpt55cli"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "provB_claudeopus46": {
+          "agreement_different_developer": 0.9658703071672355,
+          "agreement_same_developer": 0.9811320754716981,
+          "developer": "Anthropic",
+          "difference_ci95": [
+            -0.0024943310657595807,
+            0.03865809178375845
+          ],
+          "difference_same_minus_diff": 0.015261768304462575,
+          "different_developer_adjudicators": [
+            "refC_gemini31pro",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 293,
+          "n_permutations": 12,
+          "n_same_pairs": 318,
+          "permutation_p_one_sided": 0.16666666666666666,
+          "same_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "provC_gemini31pro": {
+          "agreement_different_developer": 0.8634259259259259,
+          "agreement_same_developer": 0.8734177215189873,
+          "developer": "Google",
+          "difference_ci95": [
+            -0.010214838240315882,
+            0.03109122401847575
+          ],
+          "difference_same_minus_diff": 0.009991795593061403,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 432,
+          "n_permutations": 12,
+          "n_same_pairs": 158,
+          "permutation_p_one_sided": 0.5,
+          "same_developer_adjudicators": [
+            "refC_gemini31pro"
+          ],
+          "shares_checkpoint_with": "refC_gemini31pro"
+        }
+      }
+    },
+    "verdict": {
+      "all_four": {
+        "accuracy": 0.8157894736842105,
+        "cluster_ci95": [
+          0.7419354838709677,
+          0.8928571428571429
+        ],
+        "majority_class_baseline": 0.7719298245614035,
+        "n": 114,
+        "n_papers": 48,
+        "reference_distribution": {
+          "survives": 88,
+          "undefined": 26
+        },
+        "wilson_ci95": [
+          0.7347507139632148,
+          0.8762396855060638
+        ]
+      },
+      "leave_developer_out": {
+        "Anthropic": {
+          "accuracy": 0.84,
+          "cluster_ci95": [
+            0.7407407407407407,
+            0.9375
+          ],
+          "delta_accuracy_vs_all_four": 0.02421052631578946,
+          "dropped_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48"
+          ],
+          "majority_class_baseline": 0.78,
+          "n": 50,
+          "n_papers": 27,
+          "reference_distribution": {
+            "survives": 39,
+            "undefined": 11
+          },
+          "wilson_ci95": [
+            0.7148578393358205,
+            0.9166257932323494
+          ]
+        },
+        "Google": {
+          "accuracy": 0.8131868131868132,
+          "cluster_ci95": [
+            0.7311827956989247,
+            0.8987341772151899
+          ],
+          "delta_accuracy_vs_all_four": -0.0026026604973973244,
+          "dropped_adjudicators": [
+            "refC_gemini31pro"
+          ],
+          "majority_class_baseline": 0.7362637362637363,
+          "n": 91,
+          "n_papers": 41,
+          "reference_distribution": {
+            "narrows": 1,
+            "survives": 67,
+            "undefined": 23
+          },
+          "wilson_ci95": [
+            0.7210405380210166,
+            0.8799624485176002
+          ]
+        },
+        "OpenAI": {
+          "accuracy": 0.7934782608695652,
+          "cluster_ci95": [
+            0.7045454545454546,
+            0.8840579710144928
+          ],
+          "delta_accuracy_vs_all_four": -0.02231121281464532,
+          "dropped_adjudicators": [
+            "refE_gpt55cli"
+          ],
+          "majority_class_baseline": 0.8043478260869565,
+          "n": 92,
+          "n_papers": 45,
+          "reference_distribution": {
+            "survives": 74,
+            "undefined": 18
+          },
+          "wilson_ci95": [
+            0.6998218608398384,
+            0.8636086280471322
+          ]
+        }
+      },
+      "leave_developer_out_accuracy_range": [
+        0.7934782608695652,
+        0.84,
+        0.04652173913043478
+      ],
+      "leave_one_out": {
+        "refA_claudeopus5": {
+          "accuracy": 0.8028169014084507,
+          "cluster_ci95": [
+            0.703125,
+            0.9
+          ],
+          "delta_accuracy_vs_all_four": -0.012972572275759764,
+          "majority_class_baseline": 0.8309859154929577,
+          "n": 71,
+          "n_papers": 38,
+          "reference_distribution": {
+            "survives": 59,
+            "undefined": 12
+          },
+          "wilson_ci95": [
+            0.6958031829212447,
+            0.878744677002009
+          ]
+        },
+        "refC_gemini31pro": {
+          "accuracy": 0.8131868131868132,
+          "cluster_ci95": [
+            0.7311827956989247,
+            0.8987341772151899
+          ],
+          "delta_accuracy_vs_all_four": -0.0026026604973973244,
+          "majority_class_baseline": 0.7362637362637363,
+          "n": 91,
+          "n_papers": 41,
+          "reference_distribution": {
+            "narrows": 1,
+            "survives": 67,
+            "undefined": 23
+          },
+          "wilson_ci95": [
+            0.7210405380210166,
+            0.8799624485176002
+          ]
+        },
+        "refD_claudeopus48": {
+          "accuracy": 0.7884615384615384,
+          "cluster_ci95": [
+            0.7088607594936709,
+            0.8761904761904762
+          ],
+          "delta_accuracy_vs_all_four": -0.027327935222672073,
+          "majority_class_baseline": 0.7692307692307693,
+          "n": 104,
+          "n_papers": 45,
+          "reference_distribution": {
+            "narrows": 1,
+            "survives": 80,
+            "undefined": 23
+          },
+          "wilson_ci95": [
+            0.7004245425646232,
+            0.8559477529804297
+          ]
+        },
+        "refE_gpt55cli": {
+          "accuracy": 0.7934782608695652,
+          "cluster_ci95": [
+            0.7045454545454546,
+            0.8840579710144928
+          ],
+          "delta_accuracy_vs_all_four": -0.02231121281464532,
+          "majority_class_baseline": 0.8043478260869565,
+          "n": 92,
+          "n_papers": 45,
+          "reference_distribution": {
+            "survives": 74,
+            "undefined": 18
+          },
+          "wilson_ci95": [
+            0.6998218608398384,
+            0.8636086280471322
+          ]
+        }
+      },
+      "leave_one_out_accuracy_range": [
+        0.7884615384615384,
+        0.8131868131868132,
+        0.02472527472527475
+      ],
+      "majority_stability": {
+        "leave_developer_out": {
+          "Anthropic": {
+            "changed_label": 0,
+            "gained_majority": 1,
+            "kept_same_label": 62,
+            "lost_majority": 67,
+            "n_established_all_four": 129
+          },
+          "Google": {
+            "changed_label": 0,
+            "gained_majority": 3,
+            "kept_same_label": 99,
+            "lost_majority": 30,
+            "n_established_all_four": 129
+          },
+          "OpenAI": {
+            "changed_label": 0,
+            "gained_majority": 3,
+            "kept_same_label": 100,
+            "lost_majority": 29,
+            "n_established_all_four": 129
+          }
+        },
+        "leave_one_out": {
+          "refA_claudeopus5": {
+            "changed_label": 0,
+            "gained_majority": 2,
+            "kept_same_label": 82,
+            "lost_majority": 47,
+            "n_established_all_four": 129
+          },
+          "refC_gemini31pro": {
+            "changed_label": 0,
+            "gained_majority": 3,
+            "kept_same_label": 99,
+            "lost_majority": 30,
+            "n_established_all_four": 129
+          },
+          "refD_claudeopus48": {
+            "changed_label": 0,
+            "gained_majority": 2,
+            "kept_same_label": 117,
+            "lost_majority": 12,
+            "n_established_all_four": 129
+          },
+          "refE_gpt55cli": {
+            "changed_label": 0,
+            "gained_majority": 3,
+            "kept_same_label": 100,
+            "lost_majority": 29,
+            "n_established_all_four": 129
+          }
+        }
+      },
+      "self_preference_all_votes": {
+        "coderA_gpt5mini": {
+          "agreement_different_developer": 0.3574074074074074,
+          "agreement_same_developer": 0.29608938547486036,
+          "developer": "OpenAI",
+          "difference_ci95": [
+            -0.12101179391682187,
+            -0.0019975031210986427
+          ],
+          "difference_same_minus_diff": -0.06131802193254704,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refC_gemini31pro",
+            "refD_claudeopus48"
+          ],
+          "n_diff_pairs": 540,
+          "n_permutations": 12,
+          "n_same_pairs": 179,
+          "permutation_p_one_sided": 1.0,
+          "same_developer_adjudicators": [
+            "refE_gpt55cli"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "coderB_claudeopus46": {
+          "agreement_different_developer": 0.649025069637883,
+          "agreement_same_developer": 0.5916666666666667,
+          "developer": "Anthropic",
+          "difference_ci95": [
+            -0.11770639354438239,
+            0.003899721448467952
+          ],
+          "difference_same_minus_diff": -0.057358402971216305,
+          "different_developer_adjudicators": [
+            "refC_gemini31pro",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 359,
+          "n_permutations": 12,
+          "n_same_pairs": 360,
+          "permutation_p_one_sided": 1.0,
+          "same_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "coderC_gemini31pro": {
+          "agreement_different_developer": 0.62152133580705,
+          "agreement_same_developer": 0.6666666666666666,
+          "developer": "Google",
+          "difference_ci95": [
+            -0.015241635687732402,
+            0.10441146155431869
+          ],
+          "difference_same_minus_diff": 0.045145330859616584,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 539,
+          "n_permutations": 12,
+          "n_same_pairs": 180,
+          "permutation_p_one_sided": 0.5,
+          "same_developer_adjudicators": [
+            "refC_gemini31pro"
+          ],
+          "shares_checkpoint_with": "refC_gemini31pro"
+        }
+      },
+      "self_preference_verified": {
+        "coderA_gpt5mini": {
+          "agreement_different_developer": 0.30973451327433627,
+          "agreement_same_developer": 0.3333333333333333,
+          "developer": "OpenAI",
+          "difference_ci95": [
+            -0.05294117647058827,
+            0.10250366645715481
+          ],
+          "difference_same_minus_diff": 0.02359882005899705,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refC_gemini31pro",
+            "refD_claudeopus48"
+          ],
+          "n_diff_pairs": 339,
+          "n_permutations": 12,
+          "n_same_pairs": 111,
+          "permutation_p_one_sided": 0.5,
+          "same_developer_adjudicators": [
+            "refE_gpt55cli"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "coderB_claudeopus46": {
+          "agreement_different_developer": 0.6475770925110133,
+          "agreement_same_developer": 0.6636771300448431,
+          "developer": "Anthropic",
+          "difference_ci95": [
+            -0.05198636553909941,
+            0.08269059024113012
+          ],
+          "difference_same_minus_diff": 0.016100037533829825,
+          "different_developer_adjudicators": [
+            "refC_gemini31pro",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 227,
+          "n_permutations": 12,
+          "n_same_pairs": 223,
+          "permutation_p_one_sided": 0.3333333333333333,
+          "same_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48"
+          ],
+          "shares_checkpoint_with": null
+        },
+        "coderC_gemini31pro": {
+          "agreement_different_developer": 0.7005988023952096,
+          "agreement_same_developer": 0.7155172413793104,
+          "developer": "Google",
+          "difference_ci95": [
+            -0.05666439754935326,
+            0.08660975609756094
+          ],
+          "difference_same_minus_diff": 0.014918438984100835,
+          "different_developer_adjudicators": [
+            "refA_claudeopus5",
+            "refD_claudeopus48",
+            "refE_gpt55cli"
+          ],
+          "n_diff_pairs": 334,
+          "n_permutations": 12,
+          "n_same_pairs": 116,
+          "permutation_p_one_sided": 0.5,
+          "same_developer_adjudicators": [
+            "refC_gemini31pro"
+          ],
+          "shares_checkpoint_with": "refC_gemini31pro"
+        }
+      }
+    }
+  },
+  "reference_derivation": "Imported verbatim from scripts/revision3/analyze_privileged_reference.py: majority of quote-verified privileged adjudicators, >=2 verified votes.",
+  "schema_version": 1,
+  "seed": 20260802
+}

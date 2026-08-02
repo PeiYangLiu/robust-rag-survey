@@ -1,0 +1,316 @@
+{
+  "rrag001": {
+    "type": "misc",
+    "fields": {
+      "title": "URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models",
+      "author": "Vinh Nguyen and Cuong Dang and Jiahao Zhang and Hoa Tran and Minh Tran and Trinh Chau and Thai Le and Lu Cheng and Suhang Wang",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.19281v1"
+    }
+  },
+  "rrag002": {
+    "type": "misc",
+    "fields": {
+      "title": "Trust or Abstain? A Self-Aware RAG Approach",
+      "author": "Xi Zhu and Ziqi Wang and Kai Mei and Wujiang Xu and Minghao Guo and Bangji Yang and Jiajun Fan and Dimitris N. Metaxas",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2605.18792v1"
+    }
+  },
+  "rrag003": {
+    "type": "misc",
+    "fields": {
+      "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+      "author": "Muhan Gao and Zih-Ching Chen and Kuan-Hao Huang",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2605.10828v1"
+    }
+  },
+  "rrag004": {
+    "type": "misc",
+    "fields": {
+      "title": "ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning",
+      "author": "Xiangyu Yin and Yi Qi and Chih-Hong Cheng",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.22934v2"
+    }
+  },
+  "rrag005": {
+    "type": "misc",
+    "fields": {
+      "title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+      "author": "Hongyan Chang and Ergute Bao and Xinjian Luo and Ting Yu",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.07072v1"
+    }
+  },
+  "rrag006": {
+    "type": "misc",
+    "fields": {
+      "title": "Over-Searching in Search-Augmented Large Language Models",
+      "author": "Roy Xie and Deepak Gopinath and David Qiu and Dong Lin and Haitian Sun and Saloni Potdar and Bhuwan Dhingra",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.05503v2"
+    }
+  },
+  "rrag007": {
+    "type": "misc",
+    "fields": {
+      "title": "NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems",
+      "author": "Jiayu Liu and Rui Wang and Qing Zong and Yumeng Wang and Cheng Qian and Qingcheng Zeng and Tianshi Zheng and Haochen Shi and Dadi Guo and Baixuan Xu and Chunyang Li and Yangqiu Song",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.11004v2"
+    }
+  },
+  "rrag008": {
+    "type": "misc",
+    "fields": {
+      "title": "CoRect: Context-Aware Logit Contrast for Hidden State Rectification to Resolve Knowledge Conflicts",
+      "author": "Xuhua Ma and Richong Zhang and Zhijie Nie",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.08221v1"
+    }
+  },
+  "rrag013": {
+    "type": "misc",
+    "fields": {
+      "title": "TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation",
+      "author": "Huichi Zhou and Kin-Hei Lee and Zhonghao Zhan and Yue Chen and Zhenhao Li and Zhaoyang Wang and Hamed Haddadi and Emine Yilmaz",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2501.00879v3"
+    }
+  },
+  "rrag015": {
+    "type": "misc",
+    "fields": {
+      "title": "Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG",
+      "author": "Sarthak Choudhary and Nils Palumbo and Ashish Hooda and Krishnamurthy Dj Dvijotham and Somesh Jha",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.04390v2"
+    }
+  },
+  "rrag017": {
+    "type": "inproceedings",
+    "fields": {
+      "title": "SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG",
+      "author": "Xiaonan Si and Meilin Zhu and Simeng Qin and Lijia Yu and Lijun Zhang and Shuaitong Liu and Xinfeng Li and Ranjie Duan and Yang Liu and Xiaojun Jia",
+      "booktitle": "Advances in Neural Information Processing Systems",
+      "year": "2025",
+      "url": "https://openreview.net/forum?id=tTwZhy8JqY"
+    }
+  },
+  "rrag023": {
+    "type": "misc",
+    "fields": {
+      "title": "PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation",
+      "author": "Liuji Chen and Xiaofang Yang and Yuanzhuo Lu and Jinghao Zhang and Xin Sun and Qiang Liu and Shu Wu and Jing Dong and Liang Wang",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.12574v4"
+    }
+  },
+  "rrag032": {
+    "type": "misc",
+    "fields": {
+      "title": "CUB: Benchmarking Context Utilisation Techniques for Language Models",
+      "author": "Lovisa Hagstr\u00f6m and Youna Kim and Haeun Yu and Sang-goo Lee and Richard Johansson and Hyunsoo Cho and Isabelle Augenstein",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.16518v3"
+    }
+  },
+  "rrag034": {
+    "type": "misc",
+    "fields": {
+      "title": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home",
+      "author": "Viktor Moskvoretskii and Maria Lysyuk and Mikhail Salnikov and Nikolay Ivanov and Sergey Pletenev and Daria Galimzianova and Nikita Krayko and Vasily Konovalov and Irina Nikishina and Alexander Panchenko",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2501.12835v2"
+    }
+  },
+  "rrag035": {
+    "type": "misc",
+    "fields": {
+      "author": "Zhen Tan and Chengshuai Zhao and Raha Moraffah and Yifan Li and Song Wang and Jundong Li and Tianlong Chen and Huan Liu",
+      "key": "GluepizzaandeatrocksExploitingVulnerabil",
+      "title": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+      "year": "2024",
+      "url": "https://aclanthology.org/2024.emnlp-main.96/"
+    }
+  },
+  "rrag039": {
+    "type": "misc",
+    "fields": {
+      "title": "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG",
+      "author": "Bowen Jin and Jinsung Yoon and Jiawei Han and Sercan O. Arik",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2410.05983v1"
+    }
+  },
+  "rrag044": {
+    "type": "misc",
+    "fields": {
+      "title": "Learning to Filter Context for Retrieval-Augmented Generation",
+      "author": "Zhiruo Wang and Jun Araki and Zhengbao Jiang and Md Rizwan Parvez and Graham Neubig",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.08377v1"
+    }
+  },
+  "rrag046": {
+    "type": "misc",
+    "fields": {
+      "title": "Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+      "author": "Jian Xie and Kai Zhang and Jiangjie Chen and Renze Lou and Yu Su",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2305.13300v4"
+    }
+  },
+  "rrag049": {
+    "type": "misc",
+    "fields": {
+      "author": "Runpeng Geng and Yanting Wang and Ying Chen and Jinyuan Jia",
+      "key": "UniCRAGUniversalKnowledgeCorruptionAttac",
+      "title": "UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2508.18652"
+    }
+  },
+  "rrag051": {
+    "type": "misc",
+    "fields": {
+      "author": "Liang, Jiacheng and Wang, Yuhui and Li, Changjiang and Jiang, Tanqiu and Zhu, Rongyi and Gong, Neil and Wang, Ting",
+      "key": "GraphRAGunderFire",
+      "title": "GraphRAG under Fire",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2501.14050"
+    }
+  },
+  "rrag057": {
+    "type": "misc",
+    "fields": {
+      "author": "Baolei Zhang and Yuxi Chen and Zhuqing Liu and Lihai Nie and Tong Li and Zheli Liu and Minghong Fang",
+      "key": "PracticalPoisoningAttacksagainstRetrieva",
+      "title": "Practical Poisoning Attacks against Retrieval-Augmented Generation",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2504.03957"
+    }
+  },
+  "rrag058": {
+    "type": "misc",
+    "fields": {
+      "title": "Redefining Retrieval Evaluation in the Era of LLMs",
+      "author": "Giovanni Trappolini and Florin Cuconasu and Simone Filice and Yoelle Maarek and Fabrizio Silvestri",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.21440v1"
+    }
+  },
+  "rrag091": {
+    "type": "misc",
+    "fields": {
+      "author": "Ding, Hanxing and Tao, Shuchang and Pang, Liang and Wei, Zihao and Chen, Liwei and Xu, Kun and Shen, Huawei and Cheng, Xueqi",
+      "key": "OntheDiminishingReturnsofComplexRobustRA",
+      "title": "On the Diminishing Returns of Complex Robust RAG Training in the Era of Powerful LLMs",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.11400"
+    }
+  },
+  "rrag093": {
+    "type": "misc",
+    "fields": {
+      "title": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+      "author": "Jingxi Qiu and Zeyu Han and Cheng Huang",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2605.03534v1"
+    }
+  },
+  "rrag110": {
+    "type": "misc",
+    "fields": {
+      "title": "Who's Who: Large Language Models Meet Knowledge Conflicts in Practice",
+      "author": "Quang Hieu Pham and Hoang Ngo and Anh Tuan Luu and Dat Quoc Nguyen",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2410.15737v1"
+    }
+  },
+  "rrag111": {
+    "type": "misc",
+    "fields": {
+      "title": "Unanswerability Evaluation for Retrieval Augmented Generation",
+      "author": "Xiangyu Peng and Prafulla Kumar Choubey and Caiming Xiong and Chien-Sheng Wu",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2412.12300v3"
+    }
+  },
+  "rrag112": {
+    "type": "misc",
+    "fields": {
+      "title": "Studying Large Language Model Behaviors Under Context-Memory Conflicts With Real Documents",
+      "author": "Evgenii Kortukov and Alexander Rubinstein and Elisa Nguyen and Seong Joon Oh",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.16032v2"
+    }
+  },
+  "rrag115": {
+    "type": "misc",
+    "fields": {
+      "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+      "author": "Tianjun Zhang and Shishir G. Patil and Naman Jain and Sheng Shen and Matei Zaharia and Ion Stoica and Joseph E. Gonzalez",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2403.10131v2"
+    }
+  },
+  "rrag127": {
+    "type": "misc",
+    "fields": {
+      "author": "Jiayi Wen and Tianxin Chen and Zhirun Zheng and Cheng Huang",
+      "key": "AFewWordsCanDistortGraphsKnowledgePoison",
+      "title": "A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2508.04276"
+    }
+  },
+  "rrag128": {
+    "type": "misc",
+    "fields": {
+      "author": "Baolei Zhang and Haoran Xin and Minghong Fang and Zhuqing Liu and Biao Yi and Tong Li and Zheli Liu",
+      "key": "TracebackofPoisonedTextsinPoisoningAttac",
+      "title": "Traceback of Poisoned Texts in Poisoning Attacks to Retrieval-Augmented Generation",
+      "year": "2025",
+      "url": "https://openreview.net/forum?id=bwnWs4us0x"
+    }
+  },
+  "rrag132": {
+    "type": "misc",
+    "fields": {
+      "title": "Whose Facts Win? LLM Source Preferences under Knowledge Conflicts",
+      "author": "Jakob Schuster and Vagrant Gautam and Katja Markert",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.03746v3"
+    }
+  },
+  "rrag141": {
+    "type": "misc",
+    "fields": {
+      "title": "MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations",
+      "author": "Sara Rosenthal and Yannis Katsis and Vraj Shah and Lihong He and Lucian Popa and Marina Danilevsky",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.23184v1"
+    }
+  },
+  "rrag175": {
+    "type": "misc",
+    "fields": {
+      "title": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space",
+      "author": "Xingfu Zhou and Pengfei Wang",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2512.14448v1"
+    }
+  },
+  "rrag206": {
+    "type": "misc",
+    "fields": {
+      "title": "Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge",
+      "author": "Yi Sui and Chaozhuo Li and Chen Zhang and Dawei song and Qiuchi Li",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.06240v2"
+    }
+  }
+}

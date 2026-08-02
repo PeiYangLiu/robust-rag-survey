@@ -1,0 +1,126 @@
+{
+  "fields": {
+    "c1": {
+      "chance_agreement": 0.503634982638889,
+      "fleiss_kappa": 0.18536551436321883,
+      "gwet_ac1": 0.4621619405310509,
+      "kappa_as_share_of_attainable": 0.2562535199659334,
+      "label_counts": {
+        "match": 1331,
+        "mismatch": 99,
+        "not_determinable": 682
+      },
+      "majority_label": "match",
+      "majority_label_share": 0.6302083333333334,
+      "max_attainable_kappa": 0.7233676805214677,
+      "n_items": 704,
+      "near_constant": false,
+      "observed_agreement": 0.5956439393939366,
+      "pabak": 0.39346590909090484
+    },
+    "c2": {
+      "chance_agreement": 0.48292091726928377,
+      "fleiss_kappa": 0.10811661537581062,
+      "gwet_ac1": 0.3780191012836058,
+      "kappa_as_share_of_attainable": 0.17726491424866817,
+      "label_counts": {
+        "match": 1244,
+        "mismatch": 95,
+        "not_determinable": 773
+      },
+      "majority_label": "match",
+      "majority_label_share": 0.5890151515151515,
+      "max_attainable_kappa": 0.609915480646915,
+      "n_items": 704,
+      "near_constant": false,
+      "observed_agreement": 0.5388257575757556,
+      "pabak": 0.30823863636363336
+    },
+    "c3": {
+      "chance_agreement": 0.7739773444674013,
+      "fleiss_kappa": -0.10817866579910028,
+      "gwet_ac1": 0.7176136599154973,
+      "kappa_as_share_of_attainable": -0.2590298493283431,
+      "label_counts": {
+        "match": 14,
+        "mismatch": 1840,
+        "not_determinable": 258
+      },
+      "majority_label": "mismatch",
+      "majority_label_share": 0.8712121212121212,
+      "max_attainable_kappa": 0.4176301151377126,
+      "n_items": 704,
+      "near_constant": true,
+      "observed_agreement": 0.7495265151515127,
+      "pabak": 0.6242897727272689
+    },
+    "c4": {
+      "chance_agreement": 0.6869543266471534,
+      "fleiss_kappa": 0.08341867463408249,
+      "gwet_ac1": 0.659822659511947,
+      "kappa_as_share_of_attainable": 0.15887100953918887,
+      "label_counts": {
+        "match": 1719,
+        "mismatch": 70,
+        "not_determinable": 323
+      },
+      "majority_label": "match",
+      "majority_label_share": 0.8139204545454546,
+      "max_attainable_kappa": 0.5250717225001679,
+      "n_items": 704,
+      "near_constant": false,
+      "observed_agreement": 0.7130681818181785,
+      "pabak": 0.5696022727272678
+    },
+    "c5": {
+      "chance_agreement": 0.4861321847738751,
+      "fleiss_kappa": 0.09701456723658788,
+      "gwet_ac1": 0.37553986614487245,
+      "kappa_as_share_of_attainable": 0.1896109211524853,
+      "label_counts": {
+        "match": 967,
+        "mismatch": 35,
+        "not_determinable": 1110
+      },
+      "majority_label": "not_determinable",
+      "majority_label_share": 0.5255681818181818,
+      "max_attainable_kappa": 0.5116507353422363,
+      "n_items": 704,
+      "near_constant": false,
+      "observed_agreement": 0.5359848484848464,
+      "pabak": 0.3039772727272696
+    },
+    "verdict": {
+      "chance_agreement": 0.4130325807793847,
+      "fleiss_kappa": 0.06104436875189545,
+      "gwet_ac1": 0.21992405393458883,
+      "kappa_as_share_of_attainable": 0.13145466538797507,
+      "label_counts": {
+        "narrows": 243,
+        "survives": 1070,
+        "undefined": 799
+      },
+      "majority_label": "survives",
+      "majority_label_share": 0.5066287878787878,
+      "max_attainable_kappa": 0.46437582547358974,
+      "n_items": 704,
+      "near_constant": false,
+      "observed_agreement": 0.44886363636363596,
+      "pabak": 0.17329545454545392
+    }
+  },
+  "kappa_is_a_prevalence_artefact_for": [
+    "c3",
+    "verdict"
+  ],
+  "kappa_is_interpretable_for": [
+    "c1",
+    "c2",
+    "c4",
+    "c5"
+  ],
+  "n_eligible": 704,
+  "near_constant_threshold": 0.85,
+  "reading": "A low kappa is evidence of disagreement only where kappa had room to be high. For the fields listed as prevalence artefacts, the marginals cap kappa near zero regardless of how the judges behave, so the caption must not read their rows as disagreement. The submitted version made this argument for C3 alone; it applies identically wherever the majority-label share is above 0.85.",
+  "schema_version": 1
+}

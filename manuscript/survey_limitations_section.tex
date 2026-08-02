@@ -1,0 +1,13 @@
+\paragraph{Corpus coverage and search bounds.}
+Our empirical evaluations operate over a defined screening frame rather than the entire literature; reference-based recall auditing (\S\ref{sec:protocol}) establishes that \CovRecallTextsPct\% of in-scope references from six prior surveys reach our indexed full texts. The corpus emphasizes open-access English publications; papers presenting extended arguments outside standardized results sections may be under-represented in windowed screening (\S\ref{sec:applied}). All composition statistics are reported strictly for the screening frame or the re-weighted universe of \RecUniverse{} windows.
+
+\paragraph{Evaluation models and human annotation panel.}
+Corpus-scale annotations in \S\ref{sec:tested} and \S\ref{sec:applied} utilize LLM panels evaluated against an evidence-privileged reference (adjudicators examining full paper texts with verbatim quote verification). To anchor automated models, \HumN{} published comparative claims were annotated by three independent NLP/RAG researchers over \HumHours{} person-hours (Appendix~\ref{sec:appendix-cmj}). Human agreement bounds confirm that verdict underdetermination reflects source prose ambiguity rather than evaluator artifact.
+
+\paragraph{Synthetic benchmark and variance estimation.}
+Synthetic benchmark items (\S\ref{sec:tested}) measure coordinate extractability under explicit prose specifications rather than arbitrary unstructured text. Diagnostic interventions (\S\ref{sec:applied}) confirm that providing full paper text increases agreement without achieving complete inter-rater reproducibility. The estimated rater variance parameter ($\hat\sigma_r=\OwjSigPooled{}$ \OwjSigPooledCI{}) indicates that empirical evaluations must treat raters as random assignment units to maintain valid Type-I error control (Appendix~\ref{sec:appendix-sim}).
+
+
+
+
+

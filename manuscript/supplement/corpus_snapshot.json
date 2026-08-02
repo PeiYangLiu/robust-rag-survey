@@ -1,0 +1,22 @@
+{
+  "snapshot_name": "map_b_20260615",
+  "search_cutoff": "2026-06-03",
+  "coding_and_artifact_freeze": "2026-06-15",
+  "canonical_map": "manuscript/supplement/evidence_map_venue_expanded_adjudicated.csv",
+  "rows": 342,
+  "sha256": "6607ac44cab2ddad91bdeee491c9e7f7414fdb35cdcc65fb9d8ea360a9c375f9",
+  "source_strata": {
+    "venue_or_proceedings_linked": 126,
+    "arxiv_or_preprint": 207,
+    "workshop_or_challenge": 5,
+    "other_or_unclear": 4
+  },
+  "coordinate_coverage": {
+    "failure_or_risk_type": "342/342; adjudicated legacy literature-family tag, not the normalized framework failure coordinate",
+    "intervention_point": "342/342; adjudicated map taxonomy",
+    "metrics_reported_or_relevant": "329/342; free text, not reliability-tested as a controlled coordinate",
+    "evidence_assumption": "not encoded as a structured Map-B field",
+    "action_policy": "not encoded as a structured Map-B field"
+  },
+  "update_policy": "Post-cutoff discoveries are logged in post_freeze_recall_audit.csv. Corpus counts change only in a new version after screening, coding, and adjudication."
+}

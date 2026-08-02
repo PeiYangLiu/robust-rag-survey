@@ -1,0 +1,23 @@
+coderC_gemini31pro[direct]: 1703 pending of 1703
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 100, "total": 1703, "per_second": 1.034}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 200, "total": 1703, "per_second": 1.076}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 300, "total": 1703, "per_second": 1.097}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 400, "total": 1703, "per_second": 1.092}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 500, "total": 1703, "per_second": 1.091}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 600, "total": 1703, "per_second": 1.091}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 700, "total": 1703, "per_second": 1.096}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 800, "total": 1703, "per_second": 1.109}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 900, "total": 1703, "per_second": 1.126}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1000, "total": 1703, "per_second": 1.147}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1100, "total": 1703, "per_second": 1.151}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1200, "total": 1703, "per_second": 1.166}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1300, "total": 1703, "per_second": 1.171}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1400, "total": 1703, "per_second": 1.159}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1500, "total": 1703, "per_second": 1.145}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1600, "total": 1703, "per_second": 1.135}
+{"judge": "coderC_gemini31pro", "arm": "direct", "done": 1700, "total": 1703, "per_second": 1.125}
+coderC_gemini31pro[direct]: wrote manuscript/supplement/cross_paper_coding_arms/direct/coderC_gemini31pro.jsonl
+[19:50:57] coderC_gemini31pro/direct attempt 1 -> 1682 parsed rows
+coderC_gemini31pro[direct]: 21 pending of 1703
+coderC_gemini31pro[direct]: wrote manuscript/supplement/cross_paper_coding_arms/direct/coderC_gemini31pro.jsonl
+[19:51:44] coderC_gemini31pro/direct attempt 2 -> 1701 parsed rows

@@ -7,10 +7,10 @@
 \textbf{Adjacent survey line} & \textbf{Typical organizing unit} & \textbf{Missing decision field for comparison} & \textbf{What this paper adds} \\
 \midrule
 General RAG surveys \citep{ragSurvey2024} & Retriever/generator architectures, augmentation stages, applications, and broad challenges. & Whether a robustness result tests relevance, sufficiency, consistency, provenance, or integrity; whether the required action is answer, retrieve, filter, verify, or abstain. & A five-coordinate comparison tuple that separates evidence state from module location and final action. \\
-Comprehensive RAG/frontier surveys \citep{ragComprehensive2025} & Enhancements, optimization modules, and robustness frontiers. & Whether two methods are substitutes or composable pipeline interventions under the same evidence assumption. & A decision rule that labels comparisons as valid, partial, invalid, or under-specified. \\
+Comprehensive RAG/frontier surveys \citep{ragComprehensive2025} & Enhancements, optimisation modules, and robustness frontiers. & Whether two methods are substitutes or composable pipeline interventions under the same evidence assumption. & A decision rule that labels comparisons as valid, partial, invalid, or under-specified. \\
 RAG evaluation surveys \citep{ragEvaluationSurvey2024} & Datasets, metrics, automatic evaluation, and benchmark design. & Whether answer accuracy, citation support, evidence sufficiency, calibration, action quality, utility loss, and cost are measuring the same target. & A survey reading guide that separates metric targets and treats action labels as necessary context for interpreting benchmark claims. \\
 Trustworthiness surveys \citep{trustRAGCompass2024,trustworthyRAGSurvey2025} & Factuality, safety, privacy, fairness, explainability, accountability, and user trust. & Which immediate evidence failure causes the trustworthy-AI risk and which control action should be rewarded. & Evidence-reliability dimensions that connect broad trust axes to concrete RAG failure states. \\
-Security-focused RAG surveys \citep{securityRAGSurvey2026} & Attack surfaces, poisoning, prompt injection, privacy leakage, and defenses. & Corpus write access, query control, retriever visibility, generator access, insertion budget, retrieved malicious evidence, and attack objective. & Threat-model normalization before comparing attack success, prevention, detection, traceback, or recovery. \\
+Security-focused RAG surveys \citep{securityRAGSurvey2026} & Attack surfaces, poisoning, prompt injection, privacy leakage, and defenses. & Corpus write access, query control, retriever visibility, generator access, insertion budget, retrieved malicious evidence, and attack objective. & Threat-model normalisation before comparing attack success, prevention, detection, traceback, or recovery. \\
 Faithfulness and hallucination-oriented work & Unsupported claims, attribution, citation quality, and factual consistency. & Whether the system had sufficient evidence, used the evidence, cited supporting spans, or should have refused. & A separation between answer correctness, evidence support, citation faithfulness, confidence, and action policy. \\
 \bottomrule
 \end{tabularx}
@@ -18,6 +18,7 @@ Faithfulness and hallucination-oriented work & Unsupported claims, attribution, 
 \label{tab:prior-survey-delta-main}
 \end{table*}
 
+\iffalse
 \begin{table*}[t]
 \centering
 \scriptsize
@@ -36,3 +37,4 @@ Treating multimodal, graph, table, agentic, and medical RAG as ordinary text RAG
 \caption{Concrete survey deltas. Each row gives an example of a comparison or synthesis shortcut that adjacent surveys may leave underspecified, and the practical consequence of applying our comparability lens.}
 \label{tab:prior-survey-concrete-delta}
 \end{table*}
+\fi

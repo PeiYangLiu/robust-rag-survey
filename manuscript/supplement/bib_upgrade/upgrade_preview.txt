@@ -1,0 +1,272 @@
+########## rrag006  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag006,
+  title = {Over-Searching in Search-Augmented Large Language Models},
+  author = {Roy Xie and Deepak Gopinath and David Qiu and Dong Lin and Haitian Sun and Saloni Potdar and Bhuwan Dhingra},
+  year = {2026},
+  url = {https://arxiv.org/abs/2601.05503v2},}
+---- NEW ----
+@inproceedings{rrag006,
+  title = {Over-Searching in Search-Augmented Large Language Models},
+  author = {Roy Xie and Deepak Gopinath and David Qiu and Dong Lin and Haitian Sun and Saloni Potdar and Bhuwan Dhingra},
+  booktitle = {Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)},
+  year = {2026},
+  doi = {10.18653/v1/2026.eacl-long.361},
+  url = {https://aclanthology.org/2026.eacl-long.361/},}
+
+########## rrag032  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag032,
+  title = {CUB: Benchmarking Context Utilisation Techniques for Language Models},
+  author = {Lovisa Hagström and Youna Kim and Haeun Yu and Sang-goo Lee and Richard Johansson and Hyunsoo Cho and Isabelle Augenstein},
+  year = {2025},
+  url = {https://arxiv.org/abs/2505.16518v3},}
+---- NEW ----
+@inproceedings{rrag032,
+  title = {CUB: Benchmarking Context Utilisation Techniques for Language Models},
+  author = {Lovisa Hagström and Youna Kim and Haeun Yu and Sang-goo Lee and Richard Johansson and Hyunsoo Cho and Isabelle Augenstein},
+  booktitle = {Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)},
+  year = {2026},
+  doi = {10.18653/v1/2026.acl-long.1151},
+  url = {https://aclanthology.org/2026.acl-long.1151/},}
+
+########## rrag034  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag034,
+  title = {Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home},
+  author = {Viktor Moskvoretskii and Maria Lysyuk and Mikhail Salnikov and Nikolay Ivanov and Sergey Pletenev and Daria Galimzianova and Nikita Krayko and Vasily Konovalov and Irina Nikishina and Alexander Panchenko},
+  year = {2025},
+  url = {https://arxiv.org/abs/2501.12835v2},}
+---- NEW ----
+@inproceedings{rrag034,
+  title = {Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home},
+  author = {Viktor Moskvoretskii and Maria Lysyuk and Mikhail Salnikov and Nikolay Ivanov and Sergey Pletenev and Daria Galimzianova and Nikita Krayko and Vasily Konovalov and Irina Nikishina and Alexander Panchenko},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year = {2025},
+  doi = {10.18653/v1/2025.acl-long.319},
+  url = {https://aclanthology.org/2025.acl-long.319/},}
+
+########## rrag035  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag035,
+  author = {Zhen Tan and Chengshuai Zhao and Raha Moraffah and Yifan Li and Song Wang and Jundong Li and Tianlong Chen and Huan Liu},
+  key = {GluepizzaandeatrocksExploitingVulnerabil},
+  title = {Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models},
+  year = {2024},
+  url = {https://aclanthology.org/2024.emnlp-main.96/},}
+---- NEW ----
+@inproceedings{rrag035,
+  title = {Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models},
+  author = {Zhen Tan and Chengshuai Zhao and Raha Moraffah and Yifan Li and Song Wang and Jundong Li and Tianlong Chen and Huan Liu},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  year = {2024},
+  doi = {10.18653/v1/2024.emnlp-main.96},
+  url = {https://aclanthology.org/2024.emnlp-main.96/},}
+
+########## rrag058  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag058,
+  title = {Redefining Retrieval Evaluation in the Era of LLMs},
+  author = {Giovanni Trappolini and Florin Cuconasu and Simone Filice and Yoelle Maarek and Fabrizio Silvestri},
+  year = {2025},
+  url = {https://arxiv.org/abs/2510.21440v1},}
+---- NEW ----
+@inproceedings{rrag058,
+  title = {Redefining Retrieval Evaluation in the Era of LLMs},
+  author = {Giovanni Trappolini and Florin Cuconasu and Simone Filice and Yoelle Maarek and Fabrizio Silvestri},
+  booktitle = {Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)},
+  year = {2026},
+  doi = {10.18653/v1/2026.eacl-long.391},
+  url = {https://aclanthology.org/2026.eacl-long.391/},}
+
+########## rrag110  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag110,
+  title = {Who's Who: Large Language Models Meet Knowledge Conflicts in Practice},
+  author = {Quang Hieu Pham and Hoang Ngo and Anh Tuan Luu and Dat Quoc Nguyen},
+  year = {2024},
+  url = {https://arxiv.org/abs/2410.15737v1},}
+---- NEW ----
+@inproceedings{rrag110,
+  title = {Who's Who: Large Language Models Meet Knowledge Conflicts in Practice},
+  author = {Quang Hieu Pham and Hoang Ngo and Anh Tuan Luu and Dat Quoc Nguyen},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2024},
+  year = {2024},
+  doi = {10.18653/v1/2024.findings-emnlp.593},
+  url = {https://aclanthology.org/2024.findings-emnlp.593/},}
+
+########## rrag111  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag111,
+  title = {Unanswerability Evaluation for Retrieval Augmented Generation},
+  author = {Xiangyu Peng and Prafulla Kumar Choubey and Caiming Xiong and Chien-Sheng Wu},
+  year = {2024},
+  url = {https://arxiv.org/abs/2412.12300v3},}
+---- NEW ----
+@inproceedings{rrag111,
+  title = {Unanswerability Evaluation for Retrieval Augmented Generation},
+  author = {Xiangyu Peng and Prafulla Kumar Choubey and Caiming Xiong and Chien-Sheng Wu},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year = {2025},
+  doi = {10.18653/v1/2025.acl-long.415},
+  url = {https://aclanthology.org/2025.acl-long.415/},}
+
+########## rrag132  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag132,
+  title = {Whose Facts Win? LLM Source Preferences under Knowledge Conflicts},
+  author = {Jakob Schuster and Vagrant Gautam and Katja Markert},
+  year = {2026},
+  url = {https://arxiv.org/abs/2601.03746v3},}
+---- NEW ----
+@inproceedings{rrag132,
+  title = {Whose Facts Win? LLM Source Preferences under Knowledge Conflicts},
+  author = {Jakob Schuster and Vagrant Gautam and Katja Markert},
+  booktitle = {Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)},
+  year = {2026},
+  doi = {10.18653/v1/2026.acl-long.1357},
+  url = {https://aclanthology.org/2026.acl-long.1357/},}
+
+########## rrag141  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag141,
+  title = {MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations},
+  author = {Sara Rosenthal and Yannis Katsis and Vraj Shah and Lihong He and Lucian Popa and Marina Danilevsky},
+  year = {2026},
+  url = {https://arxiv.org/abs/2602.23184v1},}
+---- NEW ----
+@inproceedings{rrag141,
+  title = {MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations},
+  author = {Sara Rosenthal and Yannis Katsis and Vraj Shah and Lihong He and Lucian Popa and Marina Danilevsky},
+  booktitle = {Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026},
+  year = {2026},
+  doi = {10.18653/v1/2026.findings-acl.503},
+  url = {https://aclanthology.org/2026.findings-acl.503/},}
+
+########## rrag206  (source: DBLP + ACL Anthology .bib)
+---- OLD ----
+@misc{rrag206,
+  title = {Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge},
+  author = {Yi Sui and Chaozhuo Li and Chen Zhang and Dawei song and Qiuchi Li},
+  year = {2025},
+  url = {https://arxiv.org/abs/2506.06240v2},}
+---- NEW ----
+@inproceedings{rrag206,
+  title = {Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge},
+  author = {Yi Sui and Chaozhuo Li and Chen Zhang and Dawei song and Qiuchi Li},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year = {2025},
+  doi = {10.18653/v1/2025.emnlp-main.549},
+  url = {https://aclanthology.org/2025.emnlp-main.549/},}
+
+########## rrag051  (source: DBLP + Crossref)
+---- OLD ----
+@misc{rrag051,
+  author = {Liang, Jiacheng and Wang, Yuhui and Li, Changjiang and Jiang, Tanqiu and Zhu, Rongyi and Gong, Neil and Wang, Ting},
+  key = {GraphRAGunderFire},
+  title = {GraphRAG under Fire},
+  year = {2025},
+  url = {https://arxiv.org/abs/2501.14050},}
+---- NEW ----
+@inproceedings{rrag051,
+  title = {GraphRAG under Fire},
+  author = {Liang, Jiacheng and Wang, Yuhui and Li, Changjiang and Jiang, Tanqiu and Zhu, Rongyi and Gong, Neil and Wang, Ting},
+  booktitle = {2026 IEEE Symposium on Security and Privacy (SP)},
+  year = {2026},
+  doi = {10.1109/SP63933.2026.00070},
+  url = {https://doi.org/10.1109/SP63933.2026.00070},}
+
+########## rrag057  (source: DBLP + Crossref)
+---- OLD ----
+@misc{rrag057,
+  author = {Baolei Zhang and Yuxi Chen and Zhuqing Liu and Lihai Nie and Tong Li and Zheli Liu and Minghong Fang},
+  key = {PracticalPoisoningAttacksagainstRetrieva},
+  title = {Practical Poisoning Attacks against Retrieval-Augmented Generation},
+  year = {2025},
+  url = {https://arxiv.org/abs/2504.03957},}
+---- NEW ----
+@inproceedings{rrag057,
+  title = {Practical Poisoning Attacks against Retrieval-Augmented Generation},
+  author = {Baolei Zhang and Yuxi Chen and Zhuqing Liu and Lihai Nie and Tong Li and Zheli Liu and Minghong Fang},
+  booktitle = {Proceedings of the 31st ACM Symposium on Access Control Models and Technologies},
+  year = {2026},
+  doi = {10.1145/3750555.3811900},
+  url = {https://doi.org/10.1145/3750555.3811900},}
+
+########## rrag091  (source: DBLP + Crossref)
+---- OLD ----
+@misc{rrag091,
+  author = {Ding, Hanxing and Tao, Shuchang and Pang, Liang and Wei, Zihao and Chen, Liwei and Xu, Kun and Shen, Huawei and Cheng, Xueqi},
+  key = {OntheDiminishingReturnsofComplexRobustRA},
+  title = {On the Diminishing Returns of Complex Robust RAG Training in the Era of Powerful LLMs},
+  year = {2025},
+  url = {https://arxiv.org/abs/2502.11400},}
+---- NEW ----
+@inproceedings{rrag091,
+  title = {On the Diminishing Returns of Complex Robust RAG Training in the Era of Powerful LLMs},
+  author = {Ding, Hanxing and Tao, Shuchang and Pang, Liang and Wei, Zihao and Chen, Liwei and Xu, Kun and Shen, Huawei and Cheng, Xueqi},
+  booktitle = {Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region},
+  year = {2025},
+  doi = {10.1145/3767695.3769518},
+  url = {https://doi.org/10.1145/3767695.3769518},}
+
+########## rrag039  (source: DBLP (ICLR, OpenReview))
+---- OLD ----
+@misc{rrag039,
+  title = {Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG},
+  author = {Bowen Jin and Jinsung Yoon and Jiawei Han and Sercan O. Arik},
+  year = {2024},
+  url = {https://arxiv.org/abs/2410.05983v1},}
+---- NEW ----
+@inproceedings{rrag039,
+  title = {Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG},
+  author = {Bowen Jin and Jinsung Yoon and Jiawei Han and Sercan O. Arik},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2025},
+  url = {https://openreview.net/forum?id=oU3tpaR8fm},}
+
+########## rrag046  (source: DBLP (ICLR, OpenReview))
+---- OLD ----
+@misc{rrag046,
+  title = {Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts},
+  author = {Jian Xie and Kai Zhang and Jiangjie Chen and Renze Lou and Yu Su},
+  year = {2023},
+  url = {https://arxiv.org/abs/2305.13300v4},}
+---- NEW ----
+@inproceedings{rrag046,
+  title = {Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts},
+  author = {Jian Xie and Kai Zhang and Jiangjie Chen and Renze Lou and Yu Su},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year = {2024},
+  url = {https://openreview.net/forum?id=auKAUJZMO6},}
+
+########## rrag015  (source: arXiv comment: 'Accepted at ICML 2026')
+---- OLD ----
+@misc{rrag015,
+  title = {Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG},
+  author = {Sarthak Choudhary and Nils Palumbo and Ashish Hooda and Krishnamurthy Dj Dvijotham and Somesh Jha},
+  year = {2025},
+  url = {https://arxiv.org/abs/2506.04390v2},}
+---- NEW ----
+@inproceedings{rrag015,
+  title = {Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG},
+  author = {Sarthak Choudhary and Nils Palumbo and Ashish Hooda and Krishnamurthy Dj Dvijotham and Somesh Jha},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2026},
+  url = {https://arxiv.org/abs/2506.04390},}
+
+########## rrag023  (source: arXiv comment: 'Accepted by KDD 2026')
+---- OLD ----
+@misc{rrag023,
+  title = {PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation},
+  author = {Liuji Chen and Xiaofang Yang and Yuanzhuo Lu and Jinghao Zhang and Xin Sun and Qiang Liu and Shu Wu and Jing Dong and Liang Wang},
+  year = {2025},
+  url = {https://arxiv.org/abs/2505.12574v4},}
+---- NEW ----
+@inproceedings{rrag023,
+  title = {PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation},
+  author = {Liuji Chen and Xiaofang Yang and Yuanzhuo Lu and Jinghao Zhang and Xin Sun and Qiang Liu and Shu Wu and Jing Dong and Liang Wang},
+  booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
+  year = {2026},
+  url = {https://arxiv.org/abs/2505.12574},}
+

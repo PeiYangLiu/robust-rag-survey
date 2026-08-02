@@ -1,6 +1,9 @@
-Overleaf package for the Robust RAG scoping map paper.
+Self-contained Overleaf source for When Are Robust-RAG Results Comparable?
+Release: eacl27-two-layer-estimand-audit-2026.07.26
 
 Compile entry point: main.tex
-Recommended compiler: pdfLaTeX + BibTeX
-Included: ACL style/bst, bibliography files, tables, figures, appendix_extended_survey.tex, and supplement CSV/JSON audit artifacts.
-Excluded: local build artifacts, citation-audit scripts/logs, human-coding raw work directories, and old figure drafts.
+Compiler: pdfLaTeX + BibTeX
+
+This directory is generated deterministically by
+manuscript/scripts/build_submission_sources.py. Do not edit it directly.
+Build artifacts (AUX, BBL, logs, and PDF) are intentionally excluded.

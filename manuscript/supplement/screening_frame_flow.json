@@ -1,0 +1,400 @@
+{
+  "arxiv_queries": [
+    {
+      "max_results": 320,
+      "query": "all:\"retrieval augmented generation\""
+    },
+    {
+      "max_results": 320,
+      "query": "all:\"retrieval-augmented generation\""
+    },
+    {
+      "max_results": 220,
+      "query": "all:\"retrieval augmented\" AND all:\"large language model\""
+    },
+    {
+      "max_results": 220,
+      "query": "all:\"retrieval-augmented\" AND all:\"large language models\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval augmented\" AND all:robustness"
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:noisy"
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:irrelevant"
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval augmented\" AND all:distractor"
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval augmented\" AND all:\"knowledge conflict\""
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval augmented\" AND all:\"parametric knowledge\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:adversarial"
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:poisoning"
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval augmented\" AND all:\"prompt injection\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:uncertainty"
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:calibration"
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval augmented\" AND all:abstain"
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:\"adaptive retrieval\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:faithfulness"
+    },
+    {
+      "max_results": 160,
+      "query": "all:\"retrieval augmented\" AND all:hallucination"
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval augmented\" AND all:trustworthy"
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval augmented\" AND all:security"
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval augmented\" AND all:privacy"
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"open-domain question answering\" AND all:\"retrieval augmented\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"noise robustness\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"noisy context\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"irrelevant context\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"hard negative\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"context conflict\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"knowledge corruption\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"data poisoning\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"indirect prompt\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"unanswerable\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"selective generation\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"confidence estimation\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"uncertainty quantification\""
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"trust calibration\""
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"negative rejection\""
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"information integration\""
+    },
+    {
+      "max_results": 80,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"counterfactual robustness\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"context faithfulness\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"groundedness\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"citation\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"self correction\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"verification\""
+    },
+    {
+      "max_results": 100,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"fact checking\""
+    },
+    {
+      "max_results": 160,
+      "query": "all:\"retrieval-augmented generation\" AND all:\"open-domain question answering\""
+    },
+    {
+      "max_results": 160,
+      "query": "all:\"retrieval augmented language models\" AND all:robustness"
+    },
+    {
+      "max_results": 140,
+      "query": "all:\"retrieval augmented language models\" AND all:faithfulness"
+    },
+    {
+      "max_results": 140,
+      "query": "all:\"retrieval augmented language models\" AND all:adversarial"
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"knowledge conflict\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"calibration\""
+    },
+    {
+      "max_results": 120,
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"abstention\""
+    },
+    {
+      "max_results": 160,
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"uncertainty\""
+    },
+    {
+      "max_results": 140,
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"poisoning\""
+    },
+    {
+      "max_results": 140,
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"prompt injection\""
+    }
+  ],
+  "deduplication_rule": "normalised title plus arXiv or DOI identifier; the first retained record wins and the rule is released with all_reviewed_deduped.csv",
+  "exclusion_criteria": [
+    "no open PDF at the snapshot date",
+    "extraction failure or unusable line structure",
+    "duplicate title or identifier after normalisation",
+    "screened out as off-topic in the released relevance pass"
+  ],
+  "inclusion_criteria": [
+    "topic: retrieval-augmented generation with a robustness, security, conflict, calibration, abstention or faithfulness dimension, as matched by the released query set",
+    "an open PDF retrievable at the snapshot date",
+    "English full text",
+    "PDF-to-text extraction yielding a usable line structure, which is what the window screen indexes"
+  ],
+  "n_arxiv_queries": 55,
+  "n_reviewed_deduplicated": 1399,
+  "relevance_screen_decisions": {
+    "background": 289,
+    "core": 112,
+    "exclude": 574,
+    "include": 424
+  },
+  "reproducibility": {
+    "consequence": "The frame is reconstructible by a third party from the release, because the 259 extracted texts and the screen are both released and the screen is deterministic over them. What is not reconstructible is the population those 259 were drawn from, so the frame supports composition statements about itself and about the re-weighted window universe, and supports no statement about the robust-RAG literature as a whole.",
+    "documented_but_not_re_executable": [
+      "Initial retrieval (arXiv API, ACL Anthology, OpenReview, USENIX, AAAI/ACM, curated lists): the query set is released and the snapshot date is fixed, but per-query hit counts were not logged and live indices drift, so a rerun returns a different ordering and a different tail."
+    ],
+    "fully_reproducible_from_release": [
+      "Full-text extraction for the census frame",
+      "Deterministic screen over extracted texts",
+      "Title normalization and deduplication",
+      "Open-PDF filtering"
+    ]
+  },
+  "schema_version": 1,
+  "screened_corpus": {
+    "arxiv_year_distribution": {
+      "2020": 1,
+      "2023": 11,
+      "2024": 51,
+      "2025": 119,
+      "2026": 61
+    },
+    "median_text_kb": 73.833984375,
+    "n_core_designated": 100,
+    "n_full_texts": 259,
+    "n_with_arxiv_identifier": 243
+  },
+  "snapshot_date": "2026-06-03",
+  "sources": [
+    "arXiv API",
+    "ACL Anthology",
+    "OpenReview",
+    "USENIX Security",
+    "AAAI/ACM open landing pages",
+    "curated robust/trustworthy RAG lists"
+  ],
+  "stages": [
+    {
+      "actor": "Collection scripts plus manually added open sources",
+      "evidence": "search_protocol.json and source files",
+      "input_n": null,
+      "limitation": "Per-source hit logs are incomplete for some initial manual sources",
+      "output_n": 1904,
+      "stage": "Initial retrieval"
+    },
+    {
+      "actor": "Deterministic download/file checks",
+      "evidence": "pdfs directory and corpus flow",
+      "input_n": 1904,
+      "limitation": "Open-PDF restriction creates access and venue bias",
+      "output_n": 1445,
+      "stage": "Open-PDF filtering"
+    },
+    {
+      "actor": "Deterministic title/identifier rules",
+      "evidence": "all_reviewed_deduped.csv and search_protocol.json",
+      "input_n": 1445,
+      "limitation": "Rules are released but some source-level provenance is legacy",
+      "output_n": 1399,
+      "stage": "Title normalization and deduplication"
+    },
+    {
+      "actor": "Claude Opus 4.7 model-assisted single pass",
+      "evidence": "all_reviewed_deduped.csv fields model reviewed_at decision and rationale",
+      "input_n": 1399,
+      "limitation": "Not human screening and not independently duplicated",
+      "output_n": 536,
+      "stage": "Broad relevance screening"
+    },
+    {
+      "actor": "Two anonymized human-source files",
+      "evidence": "human_coding/human_round2_evidence274_results and final adjudication file",
+      "input_n": 274,
+      "limitation": "File-level separation is verifiable but public qualifications/personnel independence are not",
+      "output_n": 268,
+      "stage": "Map-A candidate coding"
+    },
+    {
+      "actor": "Source-blind citation audit followed by independent second coding",
+      "evidence": "map_b_148_adjudication_changes.csv and coding packages",
+      "input_n": 148,
+      "limitation": "Not all 416 candidate/legacy rows were independently double-coded",
+      "output_n": 74,
+      "stage": "Map-B addition coding"
+    },
+    {
+      "actor": "LLM-assisted extraction with exact-quote/page verification",
+      "evidence": "observed_comparison_claim_audit.csv and observed_claim_audit_corrections.csv",
+      "input_n": 291,
+      "limitation": "Not human annotation or external gold",
+      "output_n": 289,
+      "stage": "Observed claim extraction"
+    },
+    {
+      "actor": "Three independent human coders",
+      "evidence": "observed_claim_human_validation_20260714/annotated_20260714",
+      "input_n": 80,
+      "limitation": "Model labels hidden and no generative AI used; pre-adjudication verdict agreement remains fair-to-moderate",
+      "output_n": 80,
+      "stage": "Human claim validation"
+    },
+    {
+      "actor": "Deterministic PDF-to-text extraction with a per-file readiness check",
+      "evidence": "citation_audit/expanded_audit_manifest.csv (status=ready) and citation_audit/expanded_texts/",
+      "input_n": 536,
+      "limitation": "A paper enters the census frame only if an open PDF was retrievable and extracted to text with a usable line structure. Papers behind a paywall, PDFs whose two-column tables did not linearise, and non-English texts are absent. This is an access filter, not a relevance judgment, and it is the reason every composition figure is stated for the frame.",
+      "output_n": 259,
+      "stage": "Full-text extraction for the census frame"
+    },
+    {
+      "actor": "build_cross_paper_frame.py, released gazetteer and cue lists",
+      "evidence": "supplement/cross_paper_frame_candidates.jsonl and cross_paper_frame_summary.json",
+      "input_n": 259,
+      "limitation": "Fully reproducible from the released texts: re-running the script reproduces the candidate set byte for byte.",
+      "output_n": 1703,
+      "stage": "Deterministic screen over extracted texts"
+    }
+  ],
+  "venue_followup": [
+    {
+      "artifact": "venue_systematic_queries.csv and venue_systematic_summary.json",
+      "limitation": "Metadata filter is not a manual full-proceedings screen",
+      "query_or_scan": "Complete 2020-2026 target-venue bib scan with RAG and robustness term filter",
+      "reported_hits": "12924 scanned",
+      "rerunnable": "yes",
+      "retained_or_relevant": "30 robust-RAG candidates",
+      "snapshot_date": "2026-06-03",
+      "source": "ACL Anthology bib",
+      "stage": "Venue follow-up",
+      "status": "reproducible"
+    },
+    {
+      "artifact": "venue_systematic_queries.csv",
+      "limitation": "Five queries returned HTTP 500 and historical results can drift",
+      "query_or_scan": "15 exact query strings with URLs and top-200 cap",
+      "reported_hits": "reported per successful query",
+      "rerunnable": "yes with live API",
+      "retained_or_relevant": "14 unique venue candidates across successful queries",
+      "snapshot_date": "2026-06-03",
+      "source": "DBLP",
+      "stage": "Venue follow-up",
+      "status": "partial"
+    },
+    {
+      "artifact": "venue_systematic_queries.csv",
+      "limitation": "Top-200 metadata cap and live index drift limit recall",
+      "query_or_scan": "15 exact query strings with URLs year filter and top-200 cap",
+      "reported_hits": "reported per query",
+      "rerunnable": "yes with live API",
+      "retained_or_relevant": "8 unique venue candidates",
+      "snapshot_date": "2026-06-03",
+      "source": "OpenAlex",
+      "stage": "Venue follow-up",
+      "status": "partial"
+    }
+  ]
+}

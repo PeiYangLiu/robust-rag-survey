@@ -1,0 +1,6 @@
+comparability/both_full/refE_gpt55cli: 90 pending of 90
+  comparability/both_full/refE_gpt55cli 20/90 parsed=19 0.07/s
+  comparability/both_full/refE_gpt55cli 40/90 parsed=39 0.08/s
+  comparability/both_full/refE_gpt55cli 60/90 parsed=59 0.08/s
+  comparability/both_full/refE_gpt55cli 80/90 parsed=79 0.08/s
+done comparability/both_full/refE_gpt55cli: 89/90 parsed

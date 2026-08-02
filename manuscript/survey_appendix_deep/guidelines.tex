@@ -1,0 +1,20 @@
+
+The literature suggests different design priorities for different risk regimes, but the evidence base is strongest for text QA and document-grounded RAG. This section therefore gives design checklists and reporting guidance rather than validated deployment prescriptions for enterprise, medical, legal, or agentic systems.
+
+\paragraph{For Benchmark Builders}
+
+Benchmark builders should avoid treating robustness as a single score. A useful benchmark should specify: (1) the corpus construction process; (2) the retriever and generator assumptions; (3) the failure type being tested; (4) whether failures are benign or adversarial; (5) the required system action; and (6) the cost budget. For noisy retrieval, benchmarks should vary the type and placement of distractors, not only the number of negative passages. For conflict, benchmarks should distinguish parametric--retrieved conflict from retrieved--retrieved conflict. For adversarial evaluation, benchmarks should report attacker knowledge, insertion budget, trigger type, and whether malicious evidence is actually retrieved. For uncertainty, benchmarks should include answerable, unanswerable, ambiguous, and underspecified questions.
+
+Benchmarks should also provide evidence-level annotations. Without knowing which passage supports which claim, it is difficult to evaluate faithfulness or citation. Without knowing which passage is distracting, it is difficult to measure negative utility. Without knowing which document is poisoned, it is difficult to evaluate defense recall and false positives. The most useful future benchmarks will resemble diagnostic test suites rather than single leaderboard datasets.
+
+\paragraph{For Method Designers}
+
+Method designers should state the intervention point. A method that filters retrieved passages should not be compared directly to a method that fine-tunes the generator unless the comparison controls for retriever, generator, corpus, and cost. A method that improves calibration should specify whether it calibrates answer correctness, evidence sufficiency, retrieval usefulness, or abstention. A method that handles knowledge conflict should specify whether it assumes retrieved evidence is more trustworthy than parametric memory.
+
+Methods should also report failure cases. A filter may remove useful multi-hop evidence. A conflict resolver may over-trust internal knowledge when the model is outdated. A poisoning defense may fail against paraphrased or multimodal attacks. An abstention method may over-refuse when retrieval returns all-negative contexts. Reporting these failures is not merely a negative result; it clarifies the method's operating region and helps later work combine complementary methods.
+
+\paragraph{For System Builders}
+
+System builders should start with risk assessment. If the corpus is closed, curated, and static, benign noise and calibration may dominate. If the corpus is open-web or user-editable, adversarial corruption becomes central. If the domain has high failure cost, answerability, provenance, and escalation should be first-class. If the system uses tools or persistent memory, retrieved instructions and memory poisoning require special controls. These recommendations are extrapolations from the surveyed text-RAG evidence and should be validated in the target domain.
+
+A practical robust RAG stack should include at least four components. First, corpus governance: source tracking, ingestion filters, and update logs. Second, retrieval diagnostics: not just top-$k$ scores, but diversity, provenance, and conflict signals. Third, generation safeguards: evidence separation from instructions, claim-level support checks, and conflict-aware prompting or reasoning. Fourth, control policies: calibrated abstention, clarification, re-retrieval, and escalation. The exact implementation can be lightweight or heavy depending on risk, but the architecture should preserve these functions.

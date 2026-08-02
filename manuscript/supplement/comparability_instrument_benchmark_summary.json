@@ -1,0 +1,53 @@
+{
+  "schema_version": "comparability-instrument-v1",
+  "seed": 2026073110,
+  "n_items": 360,
+  "verdict_counts": {
+    "survives": 120,
+    "undefined": 120,
+    "narrows": 120
+  },
+  "majority_class_baseline": 0.3333333333333333,
+  "disclosure_counts": {
+    "full": 300,
+    "partial": 60
+  },
+  "domain_counts": {
+    "noise": 90,
+    "security": 90,
+    "calibration": 90,
+    "faithfulness": 90
+  },
+  "repair_sentence_by_verdict": {
+    "survives": 48,
+    "narrows": 120,
+    "undefined": 0
+  },
+  "coordinate_truth_counts": {
+    "c1": {
+      "match": 240,
+      "mismatch": 98,
+      "not_determinable": 22
+    },
+    "c2": {
+      "match": 236,
+      "mismatch": 103,
+      "not_determinable": 21
+    },
+    "c3": {
+      "mismatch": 280,
+      "match": 80
+    },
+    "c4": {
+      "match": 278,
+      "mismatch": 66,
+      "not_determinable": 16
+    },
+    "c5": {
+      "match": 237,
+      "mismatch": 101,
+      "not_determinable": 22
+    }
+  },
+  "file_sha256": "3454879fc63409c4239163120615f3cf784e6e370c37f5c9066ee5879213f2ac"
+}

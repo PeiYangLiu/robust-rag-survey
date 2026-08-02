@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Estimator & Exact & Range & Weakest judge \\
+\midrule
+Five coordinates (rule) & 0.861 & 0.80--0.92 & +0.46 \\
+Rule with C2/C5 ablated & 0.738 & 0.70--0.78 & +0.37 \\
+Two coordinates (rule, C1/C4 prompt) & 0.832 & 0.80--0.87 & +0.47 \\
+Judge verdict, five-coordinate prompt & 0.824 & 0.76--0.89 & +0.43 \\
+Judge verdict, C1/C4 prompt & 0.832 & 0.80--0.87 & +0.46 \\
+Judge verdict, no coordinates & 0.796 & 0.74--0.86 & +0.40 \\
+Majority class (narrows) & 0.336 & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Every estimator arm, on the 357 non-degenerate items, scored against the constant baseline of that population (0.336; the three verdict classes are equinumerous inside every disclosure arm, so this baseline is not an artefact of pooling). \emph{Range} is across judges and \emph{weakest judge} is the smallest judge margin over that baseline. The degenerate withholding arm, whose reference verdict never varies and whose constant baseline is therefore $1.00$, is excluded here and reported separately in Table~\ref{tab:instrument-disclosure-v2}.}
+\label{tab:instrument-baselines-v2}
+\end{table}

@@ -1,0 +1,23 @@
+{
+"result":{
+"query":"NAACL* Noise* AwAre* Verbal* Confidence* Calibration* for* Robust* LLMs* in RAG* Systems*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"164.22"
+},
+"completions":{
+"@total":"0",
+"@computed":"0",
+"@sent":"0"
+},
+"hits":{
+"@total":"0",
+"@computed":"0",
+"@sent":"0",
+"@first":"0"}
+}
+}

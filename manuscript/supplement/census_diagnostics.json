@@ -1,0 +1,303 @@
+{
+  "composed_rule": {
+    "contradiction_examples": [
+      {
+        "candidate_id": "014e4797ef304c04",
+        "cite_key": "rrag098",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      },
+      {
+        "candidate_id": "03a6176566ed8c36",
+        "cite_key": "rrag088",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      },
+      {
+        "candidate_id": "08f9f9384d79686d",
+        "cite_key": "rrag033",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      },
+      {
+        "candidate_id": "0f338b488e452793",
+        "cite_key": "rrag033",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      },
+      {
+        "candidate_id": "130dcd62e4370d53",
+        "cite_key": "rrag033",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      },
+      {
+        "candidate_id": "14ec06b2a66df19f",
+        "cite_key": "rrag061",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      },
+      {
+        "candidate_id": "158e2bc686e7c10e",
+        "cite_key": "rrag095",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "match"
+        }
+      },
+      {
+        "candidate_id": "17e70901539f37e6",
+        "cite_key": "rrag033",
+        "majority_coordinates": {
+          "c1": "match",
+          "c2": "match",
+          "c4": "match",
+          "c5": "not_determinable"
+        }
+      }
+    ],
+    "fleiss_kappa_composed_verdict": 0.08567393593211153,
+    "fleiss_kappa_composed_verdict_ci95": [
+      0.010930911945997974,
+      0.14580044506152878
+    ],
+    "fleiss_kappa_stated_verdict": 0.06104436875189545,
+    "fleiss_kappa_stated_verdict_ci95": [
+      -0.012605774682073443,
+      0.10920333168952652
+    ],
+    "interpretation_note": "If composed kappa exceeds stated kappa, judges agree more on the coordinates than on the verdict they report, and part of the census failure is rule execution rather than coordinate reading.",
+    "kappa_composed_minus_stated": 0.024629567180216083,
+    "kappa_composed_minus_stated_ci95": [
+      0.004215274807342323,
+      0.05421856923655517
+    ],
+    "majority_agreement_rate": 0.8926654740608229,
+    "majority_composed_distribution": {
+      "narrows": 67,
+      "no_majority": 120,
+      "survives": 277,
+      "undefined": 240
+    },
+    "majority_stated_distribution": {
+      "narrows": 1,
+      "no_majority": 98,
+      "survives": 384,
+      "undefined": 221
+    },
+    "majority_stated_equals_composed": 499,
+    "n_eligible": 704,
+    "n_majority_survives": 337,
+    "n_majority_survives_contradicted_by_own_coordinates": 60,
+    "n_with_both_majorities": 559,
+    "observed_composed": 0.41477272727272774,
+    "observed_stated": 0.44886363636363596,
+    "per_judge_rule_fidelity": {
+      "coderA_gpt5mini": {
+        "agree": 704,
+        "n": 704,
+        "rate": 1.0,
+        "survives_contradicted": 0
+      },
+      "coderB_claudeopus46": {
+        "agree": 542,
+        "n": 704,
+        "rate": 0.7698863636363636,
+        "survives_contradicted": 162
+      },
+      "coderC_gemini31pro": {
+        "agree": 651,
+        "n": 704,
+        "rate": 0.9247159090909091,
+        "survives_contradicted": 53
+      }
+    },
+    "pooled_judge_level_rule_fidelity": 0.8982007575757576,
+    "share_of_survives_contradicted": 0.17804154302670624
+  },
+  "frame": {
+    "accounting_note": "The development pass declared 133 candidates. 104 of them are also among the 1690 candidates all three judges returned a parseable coding for, so the held-out set is 1690 - 104 = 1586. The remaining 29 development candidates were not coded by all three judges in the deployed pass, so they never entered the coded set to be removed from it. The submitted version printed 1690, 133 and 1586 without the middle number, which is why they could not be reconciled by a reader.",
+    "n_coded_by_all_judges": 1690,
+    "n_development_pass": 133,
+    "n_development_pass_also_coded": 104,
+    "n_eligible_majority": 704,
+    "n_heldout": 1586
+  },
+  "judges": [
+    "coderA_gpt5mini",
+    "coderB_claudeopus46",
+    "coderC_gemini31pro"
+  ],
+  "label_space": {
+    "census_stated_verdict_label_counts": {
+      "narrows": 243,
+      "survives": 1070,
+      "undefined": 799
+    },
+    "kappa_binary_ci95": [
+      -0.038829787234042526,
+      0.09973981778985538
+    ],
+    "kappa_binary_survives_vs_not": 0.04528674188745593,
+    "kappa_three_class": 0.06104436875189545,
+    "kappa_three_class_dropping_items_with_any_narrows": 0.1559533575530295,
+    "n_after_dropping_narrows_items": 462,
+    "n_items_any_judge_said_narrows": 242,
+    "note": "The constructed benchmark is a balanced three-class problem. The census is not: narrows requires a matched operating point inside one window and is essentially unreachable there. Binarising the census removes the class-count difference between the two settings; the residual gap is what the disclosure regime has to explain."
+  },
+  "quote_forensics": {
+    "classes": {
+      "absent_from_source_document": 21,
+      "elision_of_shown": 76,
+      "empty": 233,
+      "recovered_by_normalisation": 80,
+      "reserialised_from_elsewhere": 4,
+      "reserialised_from_shown": 59,
+      "verbatim_in_shown": 1639
+    },
+    "examples": [
+      {
+        "candidate_id": "158e2bc686e7c10e",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "Adaptive-RAG (uncal.) 0.1516 100.0 0.0 [...] BalanceRAG 0.0894 71.8 94.2"
+      },
+      {
+        "candidate_id": "15cdea9c7d8c32d8",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "Self-Ask (Press et al., 2023) 3.13 41.45 2.57 24.90 3.33 23.65 2.77 18.65 [...] MICRO-ACT (ours) 22.30 (\u21916.90)"
+      },
+      {
+        "candidate_id": "168af0bf10edd6a3",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "EM F1 Acc LLMC RC [...] DRAGIN 0.396 [...] FLARE 0.358"
+      },
+      {
+        "candidate_id": "1f87ba07d9c129a1",
+        "class": "absent_from_source_document",
+        "judge": "coderB_claudeopus46",
+        "quote_prefix": "Fid ... 0.27\u22120.01 ... REPLUG ... 0.85\u22120.01"
+      },
+      {
+        "candidate_id": "3b3f80a2049ca20a",
+        "class": "absent_from_source_document",
+        "judge": "coderA_gpt5mini",
+        "quote_prefix": "CRAG LLaMA2-7B -/ - -/ - -/ - 3.034/0.471 (Acc) -/ - 1.514/0.173 (Acc) 0.045/- (Acc) Self-CRAG LLaMA2-7B -/ - -/ - -/ - 3.204/0.533 (Acc) -/ - 2.083/0.439 (Acc)"
+      },
+      {
+        "candidate_id": "3b6320f64b0ddc93",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "Performance \u2013 Acc (%) \u2191 [...] REPLUG 0.51 0.86 0.73 0.70 0.36 0.67 0.38 0.71 Self-RAG 0.51 0.83"
+      },
+      {
+        "candidate_id": "5e764643c8d15083",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "BadRAG Phantom 0.62 0.64 0.84 0.85 0.72 0.74 0.77 0.70 0.76 0.81 ... [rows omitted] ... 0.99 0.99 1.00 1.00 0.99 1.00 1.00 1.00 1.00 0.98 1.00 1.00 1.00 1.00 0."
+      },
+      {
+        "candidate_id": "5fb4e9287aa33054",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "Table 5: Robustness evaluation of CoN and DeepSeek-R1. ... Qwen2.5-72B 78.5 ... + Chain-of-Note 74.0"
+      },
+      {
+        "candidate_id": "6e494b60e2ff69a5",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "PoisonedRAG 5.53 1.34 [...] POISONCRAFT 37.65 37.64 [...] TABLE V COMPARISON OF POISONCRAFT AND BASELINE METHODS ON THE HOTPOTQA DATASET OVER ASR-R (A-R) AND AS"
+      },
+      {
+        "candidate_id": "73a993be4a8611b0",
+        "class": "absent_from_source_document",
+        "judge": "coderB_claudeopus46",
+        "quote_prefix": "AstuteRAG ... ACC ... 0.94 ... TrustRAG ... 0.86"
+      },
+      {
+        "candidate_id": "7752d52dcc53d265",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "The key limitation is the 40% non-answer rate: users receive no information for these queries, which is acceptable when safety dominates but problematic for cov"
+      },
+      {
+        "candidate_id": "77daf474d3626921",
+        "class": "absent_from_source_document",
+        "judge": "coderC_gemini31pro",
+        "quote_prefix": "Prediction Uncertainty \u2013 SS \u2193 ... RAPTOR 2.68 ... REPLUG 2.24"
+      }
+    ],
+    "n_codings_checked": 2112,
+    "n_nonempty": 1879,
+    "note": "'recovered_by_normalisation' is verbatim after Unicode, ligature and de-hyphenation normalisation, so it is a PDF-extraction artefact rather than judge behaviour. 'elision_of_shown' marks an omission with an ellipsis and every retained fragment is verbatim. 'reserialised_from_shown' uses only tokens present in the passage but reorders them, which is what reading an extracted table produces. 'elsewhere_in_same_paper' is cross-window bleed. Only 'absent_from_source_document' is consistent with fabrication.",
+    "per_judge": {
+      "coderA_gpt5mini": {
+        "absent_from_source_document": 2,
+        "elision_of_shown": 4,
+        "empty": 2,
+        "recovered_by_normalisation": 16,
+        "reserialised_from_shown": 17,
+        "verbatim_in_shown": 663
+      },
+      "coderB_claudeopus46": {
+        "absent_from_source_document": 7,
+        "elision_of_shown": 40,
+        "empty": 162,
+        "recovered_by_normalisation": 42,
+        "reserialised_from_elsewhere": 1,
+        "reserialised_from_shown": 19,
+        "verbatim_in_shown": 433
+      },
+      "coderC_gemini31pro": {
+        "absent_from_source_document": 12,
+        "elision_of_shown": 32,
+        "empty": 69,
+        "recovered_by_normalisation": 22,
+        "reserialised_from_elsewhere": 3,
+        "reserialised_from_shown": 23,
+        "verbatim_in_shown": 543
+      }
+    },
+    "share_absent_from_source_document": 0.011176157530601383,
+    "share_empty": 0.1103219696969697,
+    "share_supported_by_shown_passage": 0.9866950505588079,
+    "shares": {
+      "absent_from_source_document": 0.009943181818181818,
+      "elision_of_shown": 0.03598484848484849,
+      "empty": 0.1103219696969697,
+      "recovered_by_normalisation": 0.03787878787878788,
+      "reserialised_from_elsewhere": 0.001893939393939394,
+      "reserialised_from_shown": 0.02793560606060606,
+      "verbatim_in_shown": 0.7760416666666666
+    }
+  },
+  "schema_version": 1
+}

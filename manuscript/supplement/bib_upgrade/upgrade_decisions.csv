@@ -1,0 +1,35 @@
+key,decision,venue,pub_year,doi,url,source
+rrag001,kept @misc,,,,,DBLP+S2: venue=arXiv.org/CoRR (preprint only); no peer-reviewed venue
+rrag002,kept @misc,,,,,DBLP: CoRR (preprint only); no peer-reviewed venue
+rrag003,kept @misc,,,,,DBLP: CoRR (preprint only); no peer-reviewed venue
+rrag004,kept @misc,,,,,DBLP: CoRR (preprint only); no peer-reviewed venue
+rrag005,kept @misc,,,,,DBLP: CoRR (preprint only); no peer-reviewed venue
+rrag006,upgraded->@inproceedings,Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers),2026,10.18653/v1/2026.eacl-long.361,https://aclanthology.org/2026.eacl-long.361/,DBLP + ACL Anthology .bib
+rrag007,kept @misc,,,,,DBLP: no hits; arXiv: no acceptance comment; S2: no venue -> unverifiable
+rrag008,kept @misc,,,,,DBLP: CoRR (preprint only); no peer-reviewed venue
+rrag013,kept @misc,,,,,DBLP: no hits; arXiv: no acceptance comment -> unverifiable
+rrag015,upgraded->@inproceedings,International Conference on Machine Learning (ICML),2026,,https://arxiv.org/abs/2506.04390,arXiv comment: 'Accepted at ICML 2026'
+rrag017,unchanged (already @inproceedings),Advances in Neural Information Processing Systems,2025,,https://openreview.net/forum?id=tTwZhy8JqY,Pre-existing @inproceedings; DBLP confirms NeurIPS 2025 (raw/rrag017_dblp.json)
+rrag023,upgraded->@inproceedings,ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD),2026,,https://arxiv.org/abs/2505.12574,arXiv comment: 'Accepted by KDD 2026'
+rrag032,upgraded->@inproceedings,Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers),2026,10.18653/v1/2026.acl-long.1151,https://aclanthology.org/2026.acl-long.1151/,DBLP + ACL Anthology .bib
+rrag034,upgraded->@inproceedings,Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),2025,10.18653/v1/2025.acl-long.319,https://aclanthology.org/2025.acl-long.319/,DBLP + ACL Anthology .bib
+rrag035,upgraded->@inproceedings,Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing,2024,10.18653/v1/2024.emnlp-main.96,https://aclanthology.org/2024.emnlp-main.96/,DBLP + ACL Anthology .bib
+rrag039,upgraded->@inproceedings,International Conference on Learning Representations (ICLR),2025,,https://openreview.net/forum?id=oU3tpaR8fm,"DBLP (ICLR, OpenReview)"
+rrag044,kept @misc,,,,,DBLP: CoRR (preprint only); arXiv: no acceptance comment
+rrag046,upgraded->@inproceedings,International Conference on Learning Representations (ICLR),2024,,https://openreview.net/forum?id=auKAUJZMO6,"DBLP (ICLR, OpenReview)"
+rrag049,kept @misc,,,,,DBLP: CoRR (preprint only); arXiv comment is page count only
+rrag051,upgraded->@inproceedings,2026 IEEE Symposium on Security and Privacy (SP),2026,10.1109/SP63933.2026.00070,https://doi.org/10.1109/SP63933.2026.00070,DBLP + Crossref
+rrag057,upgraded->@inproceedings,Proceedings of the 31st ACM Symposium on Access Control Models and Technologies,2026,10.1145/3750555.3811900,https://doi.org/10.1145/3750555.3811900,DBLP + Crossref
+rrag058,upgraded->@inproceedings,Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers),2026,10.18653/v1/2026.eacl-long.391,https://aclanthology.org/2026.eacl-long.391/,DBLP + ACL Anthology .bib
+rrag091,upgraded->@inproceedings,Proceedings of the 2025 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region,2025,10.1145/3767695.3769518,https://doi.org/10.1145/3767695.3769518,DBLP + Crossref
+rrag093,kept @misc,,,,,DBLP: CoRR (preprint only); no peer-reviewed venue
+rrag110,upgraded->@inproceedings,Findings of the Association for Computational Linguistics: EMNLP 2024,2024,10.18653/v1/2024.findings-emnlp.593,https://aclanthology.org/2024.findings-emnlp.593/,DBLP + ACL Anthology .bib
+rrag111,upgraded->@inproceedings,Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),2025,10.18653/v1/2025.acl-long.415,https://aclanthology.org/2025.acl-long.415/,DBLP + ACL Anthology .bib
+rrag112,kept @misc,,,,,DBLP: no hits (variant retry also 0); arXiv: no comment; S2: empty venue -> unverifiable
+rrag115,kept @misc,,,,,DBLP: CoRR only (variant retry also CoRR); arXiv: no acceptance comment -> preprint per sources
+rrag127,kept @misc,,,,,DBLP: CoRR (preprint only); arXiv: no acceptance comment
+rrag128,kept @misc,,,,,DBLP: no hits; OpenReview API 403 challenge (cannot read venue) -> unverifiable
+rrag132,upgraded->@inproceedings,Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers),2026,10.18653/v1/2026.acl-long.1357,https://aclanthology.org/2026.acl-long.1357/,DBLP + ACL Anthology .bib
+rrag141,upgraded->@inproceedings,Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026,2026,10.18653/v1/2026.findings-acl.503,https://aclanthology.org/2026.findings-acl.503/,DBLP + ACL Anthology .bib
+rrag175,kept @misc,,,,,DBLP: CoRR (preprint only); arXiv: no acceptance comment
+rrag206,upgraded->@inproceedings,Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing,2025,10.18653/v1/2025.emnlp-main.549,https://aclanthology.org/2025.emnlp-main.549/,DBLP + ACL Anthology .bib

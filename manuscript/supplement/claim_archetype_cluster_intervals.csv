@@ -1,0 +1,7 @@
+human_adjudicated_archetype,n,source_clusters,full_exact_accuracy,full_exact_ci_low,full_exact_ci_high,full_minus_baseline_exact,difference_ci_low,difference_ci_high,bootstrap_repetitions,resampling_unit,interpretation
+A_self_baseline,12,7,0.3333333333333333,0.1111111111111111,0.625,0.0,0.0,0.0,50000,source_key_within_archetype,exploratory_small_stratum
+B_shared_harness,22,5,0.5,0.2857142857142857,0.7368421052631579,-0.045454545454545414,-0.15000000000000002,0.0,50000,source_key_within_archetype,exploratory_small_stratum
+C_cross_source_synthesis,19,6,0.47368421052631576,0.21739130434782608,0.7142857142857143,0.0,-0.17647058823529416,0.21428571428571427,50000,source_key_within_archetype,exploratory_small_stratum
+D_causal_mechanistic,14,5,0.5,0.15384615384615385,0.8461538461538461,0.0,0.0,0.0,50000,source_key_within_archetype,exploratory_small_stratum
+E_field_meta,5,2,0.6,0.0,0.75,0.0,0.0,0.0,50000,source_key_within_archetype,exploratory_small_stratum
+F_policy_utility,8,5,0.75,0.5555555555555556,1.0,0.125,-0.33333333333333326,0.6666666666666666,50000,source_key_within_archetype,exploratory_small_stratum

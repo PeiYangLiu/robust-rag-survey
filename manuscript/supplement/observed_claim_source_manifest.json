@@ -1,0 +1,78 @@
+{
+  "component_freeze_version": "observed-claim-audit-2026.07.14",
+  "candidate_pool_note": "Each slice was frozen before its own adjudication; the threat slice was added adaptively after the first two slices.",
+  "sources": [
+    {
+      "source_key": "ragComprehensive2025",
+      "url": "https://arxiv.org/abs/2506.00054",
+      "version": "arXiv:2506.00054v1, 28 May 2025",
+      "pdf_sha256": "a85e25a72c29602a881174cf0689ddca6cc0368367f1d8db095f4452916e27fa",
+      "candidate_count": 42,
+      "scope": "Sections 5.1-5.3"
+    },
+    {
+      "source_key": "trustRAGCompass2024",
+      "url": "https://arxiv.org/abs/2409.10102",
+      "version": "arXiv:2409.10102v2, 16 May 2026",
+      "pdf_sha256": "5eb72e370dc791b4d52953c427784e38757f60260d26dab59ea83ce2d44d5c01",
+      "candidate_count": 60,
+      "scope": "Section 4.2.2 plus the fixed robustness/security narrative"
+    },
+    {
+      "source_key": "securityRAGSurvey2026",
+      "url": "https://arxiv.org/abs/2604.08304v2",
+      "version": "arXiv:2604.08304v2, 27 May 2026",
+      "pdf_sha256": "793a5b16c1eb3a6fe6851e8728b5ec1877f632c0b8f7c92ea9982ffe3b36dc15",
+      "candidate_count": 42,
+      "scope": "Sections 2.1, 3-4, and 5.2-5.3"
+    },
+    {
+      "source_key": "alushi2026comparison",
+      "url": "https://aclanthology.org/2026.eacl-srw.17/",
+      "version": "EACL SRW 2026",
+      "pdf_sha256": "589ce4224bbea2ff413582d167a427d287478a6bfb70e50284d3c5adcaeeac25",
+      "candidate_count": 40,
+      "scope": "Sections 5.4-6 after one logged atomicity split"
+    },
+    {
+      "source_key": "wen2025abstention",
+      "url": "https://aclanthology.org/2025.tacl-1.26/",
+      "version": "TACL 13, 2025",
+      "pdf_sha256": "dd3b988b603367b1d626852c14d2e661ff965d7526aea49218fb0d4ae1b7cdce",
+      "candidate_count": 18,
+      "scope": "Sections 4.2 and 5"
+    },
+    {
+      "source_key": "joren2025sufficient",
+      "url": "https://openreview.net/forum?id=Jjr2Odj8DJ",
+      "version": "ICLR 2025",
+      "pdf_sha256": "3be47b8cff286f84fc19329091581427279a69c06fe9795a4aa8a24b58066f77",
+      "candidate_count": 18,
+      "scope": "Section 5.1 and Appendix B.1 results"
+    },
+    {
+      "source_key": "liu2025donotabstain",
+      "url": "https://aclanthology.org/2025.acl-long.840/",
+      "version": "ACL 2025",
+      "pdf_sha256": "065b67e21dc618c8ea56107e613914f32e48631ff65bbfa640d611d60d6d7b57",
+      "candidate_count": 10,
+      "scope": "Sections 5.2-7 comparison statements"
+    },
+    {
+      "source_key": "zhu2026trustabstain",
+      "url": "https://arxiv.org/abs/2605.18792v1",
+      "version": "arXiv:2605.18792v1",
+      "pdf_sha256": "9195a19156908c1891ae314ffbd44525fca019fb311e00b17c209ffbb6a32962",
+      "candidate_count": 40,
+      "scope": "Sections 4.1-4.4"
+    },
+    {
+      "source_key": "trustworthyRAGSurvey2025",
+      "url": "https://arxiv.org/abs/2502.06872",
+      "version": "2025 snapshot",
+      "pdf_sha256": "c41245ec8edce054d200caacc071fad985ae546afad7a56b04534750afe5d234",
+      "candidate_count": 21,
+      "scope": "Threat-model, attack, defense, and evaluation passages in Sections 4-5"
+    }
+  ]
+}

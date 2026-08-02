@@ -1,0 +1,232 @@
+{
+  "by_disclosure_level": {
+    "0": {
+      "n_papers": 9,
+      "n_windows": 44,
+      "verdict_distribution": {
+        "narrows": 8,
+        "survives": 23,
+        "undefined": 101
+      },
+      "verdict_fleiss_kappa": 0.1040723981900453,
+      "verdict_kappa_ci95": [
+        -0.13677811550151953,
+        0.33304721030042933
+      ],
+      "verdict_observed": 0.659090909090909
+    },
+    "1": {
+      "n_papers": 9,
+      "n_windows": 23,
+      "verdict_distribution": {
+        "narrows": 6,
+        "survives": 43,
+        "undefined": 20
+      },
+      "verdict_fleiss_kappa": -0.11470113085621979,
+      "verdict_kappa_ci95": [
+        -0.3196480938416421,
+        0.09003831417624497
+      ],
+      "verdict_observed": 0.4202898550724637
+    },
+    "2": {
+      "n_papers": 25,
+      "n_windows": 157,
+      "verdict_distribution": {
+        "narrows": 55,
+        "survives": 248,
+        "undefined": 168
+      },
+      "verdict_fleiss_kappa": 0.03675012394645524,
+      "verdict_kappa_ci95": [
+        -0.1330679315602237,
+        0.08628119372266528
+      ],
+      "verdict_observed": 0.4394904458598729
+    },
+    "3": {
+      "n_papers": 60,
+      "n_windows": 253,
+      "verdict_distribution": {
+        "narrows": 82,
+        "survives": 428,
+        "undefined": 249
+      },
+      "verdict_fleiss_kappa": -0.023169798748812413,
+      "verdict_kappa_ci95": [
+        -0.12523034760832244,
+        0.04638147269075745
+      ],
+      "verdict_observed": 0.4242424242424234
+    },
+    "4": {
+      "n_papers": 57,
+      "n_windows": 227,
+      "verdict_distribution": {
+        "narrows": 92,
+        "survives": 328,
+        "undefined": 261
+      },
+      "verdict_fleiss_kappa": 0.07930842084179804,
+      "verdict_kappa_ci95": [
+        -0.07262397049221653,
+        0.1788335192429829
+      ],
+      "verdict_observed": 0.44493392070484533
+    }
+  },
+  "coordinate_disclosure_rate": {
+    "c1": 0.7911931818181818,
+    "c2": 0.7386363636363636,
+    "c4": 0.9105113636363636,
+    "c5": 0.40625
+  },
+  "disclosure_level_distribution": {
+    "0": 44,
+    "1": 23,
+    "2": 157,
+    "3": 253,
+    "4": 227
+  },
+  "exposure_note": "Disclosure is a deterministic property of the passage the judges were shown, computed from a released lexicon before any label is consulted. It is not a model output and not an audit outcome.",
+  "high_vs_low": {
+    "definition": "high = at least 3 of C1,C2,C4,C5 disclosed; low = at most 2",
+    "difference": -0.08257189265613239,
+    "difference_ci95": [
+      -0.26799290654057983,
+      0.05351839365016892
+    ],
+    "kappa_high": 0.03143383445243318,
+    "kappa_low": 0.11400572710856557,
+    "n_high": 480,
+    "n_low": 224,
+    "share_above_zero": 0.128
+  },
+  "lexicon": {
+    "c1": [
+      "top-?\\s?\\d+",
+      "\\bk\\s*=\\s*\\d+",
+      "retriev(?:er|al)",
+      "\\bBM25\\b",
+      "\\bContriever\\b",
+      "\\bDPR\\b",
+      "\\bColBERT\\b",
+      "\\bANCE\\b",
+      "gold passage",
+      "corpus",
+      "snapshot",
+      "knowledge base",
+      "\\bNQ\\b",
+      "Natural Questions",
+      "HotpotQA",
+      "TriviaQA",
+      "MS ?MARCO",
+      "PopQA",
+      "\\bWebQ",
+      "distractor",
+      "noise ratio",
+      "irrelevant",
+      "conflict",
+      "\\bstale\\b",
+      "passages? (?:are|were) retrieved"
+    ],
+    "c2": [
+      "attacker",
+      "adversar",
+      "threat model",
+      "inject",
+      "poison",
+      "budget",
+      "capabilit",
+      "white-?box",
+      "black-?box",
+      "access to",
+      "per (?:target )?quer",
+      "target question",
+      "triggered",
+      "trigger",
+      "malicious (?:text|passage|document)",
+      "corpus write",
+      "persist",
+      "natural(?:ly)? occurring",
+      "retrieval (?:error|failure)"
+    ],
+    "c4": [
+      "exact match",
+      "\\bEM\\b",
+      "\\bF1\\b",
+      "accurac",
+      "attack success",
+      "\\bASR\\b",
+      "recall@?\\d*",
+      "precision",
+      "hit rate",
+      "success rate",
+      "per (?:question|response|span|query)",
+      "certified",
+      "calibration",
+      "\\bECE\\b",
+      "leakage",
+      "selective risk",
+      "we (?:report|measure)",
+      "metric"
+    ],
+    "c5": [
+      "abstain",
+      "abstention",
+      "refus",
+      "reject",
+      "defer",
+      "decline",
+      "fall ?back",
+      "re-?retriev",
+      "quarantin",
+      "flag",
+      "human review",
+      "cost",
+      "threshold",
+      "trade-?off",
+      "utility",
+      "risk",
+      "answer or",
+      "action"
+    ]
+  },
+  "n_eligible": 704,
+  "per_coordinate": {
+    "c1": {
+      "kappa_when_disclosed": 0.1729120003524981,
+      "kappa_when_not_disclosed": 0.1976306958314802,
+      "n_disclosed": 557,
+      "n_not_disclosed": 147,
+      "not_determinable_share_when_disclosed": 0.296229802513465,
+      "not_determinable_share_when_not_disclosed": 0.42403628117913833
+    },
+    "c2": {
+      "kappa_when_disclosed": 0.0829369725648711,
+      "kappa_when_not_disclosed": 0.10444714840836827,
+      "n_disclosed": 520,
+      "n_not_disclosed": 184,
+      "not_determinable_share_when_disclosed": 0.316025641025641,
+      "not_determinable_share_when_not_disclosed": 0.5072463768115942
+    },
+    "c4": {
+      "kappa_when_disclosed": 0.035708630245447216,
+      "kappa_when_not_disclosed": 0.17418516769012765,
+      "n_disclosed": 641,
+      "n_not_disclosed": 63,
+      "not_determinable_share_when_disclosed": 0.13000520020800832,
+      "not_determinable_share_when_not_disclosed": 0.3862433862433862
+    },
+    "c5": {
+      "kappa_when_disclosed": 0.09797500501236371,
+      "kappa_when_not_disclosed": 0.05475307256669854,
+      "n_disclosed": 286,
+      "n_not_disclosed": 418,
+      "not_determinable_share_when_disclosed": 0.4184149184149184,
+      "not_determinable_share_when_not_disclosed": 0.5988835725677831
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,60 @@
+\section{Substantive Comparability in Robust RAG}
+\label{sec:robust-rag-landscape}
+
+We use the literature map as a source of boundary cases, not as prevalence
+evidence. Five \emph{operating questions} organise discovery: how evidence is
+constructed, how a model uses it, how deliberate corruption changes the game,
+how signals become actions, and how those actions are evaluated. They are a
+different cut of the same literature from the four failure surfaces of
+\S\ref{sec:taxonomy}, and both are different again from the five
+\emph{reporting coordinates} of \S\ref{sec:coordinates}, which describe not a
+literature but a single proposed contrast. The boundary cases below are what
+made the coordinates necessary.
+
+\paragraph{Evidence availability is not evidence use.}
+Irrelevant-context studies test whether retrieved distractors redirect a
+generator \citep{irrelevantContext2023}; noise-aware training changes the
+generator's training distribution \citep{raat2024}; RGB supplies diagnostic
+stress conditions \citep{rgb2023}; and Chain-of-Note changes how retrieved
+documents are read \citep{chainOfNote2023}. A filter, a trained reader, and a
+benchmark may share a harness, but their native scores do not rank
+interchangeable interventions. Insufficient evidence creates another
+boundary: when no passage can support an answer, re-retrieval or abstention
+can dominate better distractor resistance \citep{sufficientContext2024}.
+
+\paragraph{Support, authority, conflict, and attack are distinct.}
+RAGTruth annotates unsupported spans, while evaluators estimate claim or
+response support \citep{ragTruth2024,ragas2024,ares2024}; knowledge-conflict
+methods instead study competition between parametric memory and retrieved
+evidence \citep{tugOfWar2024,faithfulRAG2025,astuteRAG2025}. A response can be
+correct but unsupported, or faithful to a weak source. Provenance and timestamp
+determine which source should govern \citep{kilt2021,freshllms2024,
+realtimeQA2023}. Deliberate corruption changes the game again: corpus
+poisoning, indirect prompt injection, and backdoors differ in corpus write
+access, query knowledge, retriever visibility, insertion budget, persistence,
+and objective \citep{poisonedRAG2024,aip2025,phantom2024}, and their defenses
+prevent, detect, certify, trace, quarantine, or recover under different
+assumptions \citep{certifiedRAG2024,rrag017,rrag128}. An attack-success
+comparison is transportable only within a matched capability envelope.
+
+\paragraph{A signal is not a policy.}
+Calibration predicts a property of a score \citep{guo2017calibration};
+selective prediction trades coverage against risk
+\citep{geifman2017selective}; sufficient-context classification
+asks whether available passages can support an answer; adaptive retrieval
+chooses whether to search, verify, answer, or abstain
+\citep{calibRAG2025,sufficientContext2024,whenToRetrieve2024}. Self-RAG, CRAG,
+and CtrlA expose this policy layer explicitly
+\citep{selfRAG2023,crag2024,ctrla2025}. Comparing them requires a common
+action set, budget, and loss: accuracy alone cannot price extra retrieval,
+coverage, or refusal.
+
+\paragraph{Comparison ladder.}
+The strongest contrast reruns alternatives with the same corpus snapshot,
+retriever, generator, evidence state, capability envelope, action set, and
+outcome. When that is impossible, synthesis should retain only the common
+scope supported by both studies. If a decision-critical field is absent, the
+comparison is under-specified rather than evidence that either method is
+better. Appendix~\ref{sec:extended-survey} gives paper-level contrasts and the
+documentary-map boundary; the next section turns these recurring boundaries
+into a claim-level audit.

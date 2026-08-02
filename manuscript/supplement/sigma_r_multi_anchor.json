@@ -1,0 +1,237 @@
+{
+  "anchors": {
+    "census_verdict_panel": {
+      "boot_items_bias": 0.017641397661978586,
+      "boot_items_ci95": [
+        0.3190782665660468,
+        0.4904513925381902
+      ],
+      "boot_items_draws": 4000,
+      "boot_items_mean": 0.40041861863715744,
+      "boot_parametric_bias": -0.00396680488082346,
+      "boot_parametric_ci95": [
+        0.19086682361991394,
+        0.6122597414498059
+      ],
+      "boot_parametric_draws": 400,
+      "boot_parametric_mean": 0.3788104160943554,
+      "boot_reviewers_bias": -0.03262542341856334,
+      "boot_reviewers_ci95": [
+        0.18458922007594056,
+        0.5078728656410046
+      ],
+      "boot_reviewers_draws": 4000,
+      "boot_reviewers_mean": 0.3501517975566155,
+      "bootstrap_draws": 4000,
+      "bootstrap_items_ci50": [
+        0.3708220919987913,
+        0.427424290000457
+      ],
+      "bootstrap_items_ci95": [
+        0.3190782665660468,
+        0.4904513925381902
+      ],
+      "bootstrap_reviewers_ci95": [
+        0.18458922007594056,
+        0.5078728656410046
+      ],
+      "crossing_density": 0.9023809523809524,
+      "design": "fully crossed: every judge codes every frame window; reference is a leave-one-out majority of the other judges",
+      "estimand_caveat": "The reference here is a leave-one-out majority of judges who agree on this task at kappa 0.06, so it is close to noise, and the same section shows the judges hold different thresholds rather than differing in ability around a shared one. This estimate therefore mixes threshold dispersion into what the simulation treats as ability variance. The constructed-benchmark anchor, whose reference is fixed before any judge sees the item, is the one to read as an ability estimate.",
+      "median_items_per_reviewer": 761,
+      "min_items_per_reviewer": 727,
+      "mu_logit": 0.5893366307116413,
+      "n_items": 840,
+      "n_judgments": 6822,
+      "n_reviewers": 9,
+      "parametric_check": {
+        "bias": -0.008658934318121647,
+        "mean_estimate": 0.3741182866570572,
+        "q025": 0.19054664233882818,
+        "q975": 0.6177533669458664,
+        "replicates": 400,
+        "sd_estimate": 0.10421742428840466,
+        "share_exactly_zero": 0.0,
+        "truth": 0.38277722097517886
+      },
+      "reference_source": "leave-one-out majority of the other judges",
+      "reviewer_accuracies": [
+        0.4608,
+        0.5716,
+        0.6061,
+        0.6151,
+        0.6484,
+        0.6619,
+        0.7162,
+        0.7175,
+        0.7562
+      ],
+      "reviewer_kind": "model",
+      "sigma_r": 0.38277722097517886,
+      "task": "cross-paper comparability verdict on published text"
+    },
+    "instrument_benchmark": {
+      "boot_items_bias": 0.002754699501299085,
+      "boot_items_ci95": [
+        0.28961709356935844,
+        0.47848940300204373
+      ],
+      "boot_items_draws": 4000,
+      "boot_items_mean": 0.38217611412245367,
+      "boot_parametric_bias": -0.028393660186358582,
+      "boot_parametric_ci95": [
+        0.09270997660760676,
+        0.6674412072125793
+      ],
+      "boot_parametric_draws": 400,
+      "boot_parametric_mean": 0.351027754434796,
+      "boot_reviewers_bias": -0.045444336773782845,
+      "boot_reviewers_ci95": [
+        0.11980928221117072,
+        0.4783199151305426
+      ],
+      "boot_reviewers_draws": 4000,
+      "boot_reviewers_mean": 0.33397707784737174,
+      "bootstrap_draws": 4000,
+      "bootstrap_items_ci50": [
+        0.34991923209072595,
+        0.4131996513467912
+      ],
+      "bootstrap_items_ci95": [
+        0.28961709356935844,
+        0.47848940300204373
+      ],
+      "bootstrap_reviewers_ci95": [
+        0.11980928221117072,
+        0.4783199151305426
+      ],
+      "crossing_density": 1.0,
+      "design": "fully crossed: every judge answers every constructed item; the reference verdict is fixed when the item is written",
+      "median_items_per_reviewer": 432,
+      "min_items_per_reviewer": 432,
+      "mu_logit": 1.087528442666377,
+      "n_items": 432,
+      "n_judgments": 2592,
+      "n_reviewers": 6,
+      "parametric_check": {
+        "bias": -0.01518019873574461,
+        "mean_estimate": 0.36424121588541,
+        "q025": 0.12126991829460664,
+        "q975": 0.6558881192083198,
+        "replicates": 400,
+        "sd_estimate": 0.13937646612210233,
+        "share_exactly_zero": 0.0,
+        "truth": 0.3794214146211546
+      },
+      "reference_source": "verdict fixed by construction",
+      "reviewer_accuracies": [
+        0.6597,
+        0.6667,
+        0.7153,
+        0.7755,
+        0.794,
+        0.8403
+      ],
+      "reviewer_kind": "model",
+      "sigma_r": 0.3794214146211546,
+      "task": "cross-paper comparability verdict, constructed reference"
+    },
+    "model_panel_checkpoints": {
+      "boot_items_bias": 0.005244257999256763,
+      "boot_items_ci95": [
+        0.5104382688776832,
+        0.5843344046147443
+      ],
+      "boot_items_draws": 4000,
+      "boot_items_mean": 0.5460705134184727,
+      "boot_parametric_bias": 0.00019990625345644997,
+      "boot_parametric_ci95": [
+        0.3986031056653561,
+        0.6965901039891633
+      ],
+      "boot_parametric_draws": 400,
+      "boot_parametric_mean": 0.5410261616726724,
+      "boot_reviewers_bias": -0.029578384593270557,
+      "boot_reviewers_ci95": [
+        0.31093462352167217,
+        0.7501142614914532
+      ],
+      "boot_reviewers_draws": 4000,
+      "boot_reviewers_mean": 0.5112478708259454,
+      "bootstrap_draws": 4000,
+      "bootstrap_items_ci50": [
+        0.5334521271858736,
+        0.5581177897623344
+      ],
+      "bootstrap_items_ci95": [
+        0.5104382688776832,
+        0.5843344046147443
+      ],
+      "bootstrap_reviewers_ci95": [
+        0.31093462352167217,
+        0.7501142614914532
+      ],
+      "crossing_density": 1.0,
+      "design": "fully crossed: every model answers every benchmark item (arm=ablated, paraphrase=p1)",
+      "median_items_per_reviewer": 600,
+      "min_items_per_reviewer": 600,
+      "mu_logit": 0.09751946398441605,
+      "n_items": 600,
+      "n_judgments": 16800,
+      "n_reviewers": 28,
+      "parametric_check": {
+        "bias": -0.004859033592448436,
+        "mean_estimate": 0.5359672218267675,
+        "q025": 0.39658816889985515,
+        "q975": 0.6938438967264839,
+        "replicates": 400,
+        "sd_estimate": 0.07401801029899965,
+        "share_exactly_zero": 0.0,
+        "truth": 0.5408262554192159
+      },
+      "reference_source": "deterministic minimum of displayed losses",
+      "reviewer_accuracies": [
+        0.1367,
+        0.3517,
+        0.4033,
+        0.4217,
+        0.4267,
+        0.4283,
+        0.4317,
+        0.4383,
+        0.4433,
+        0.5017,
+        0.525,
+        0.525,
+        0.5317,
+        0.5333,
+        0.57,
+        0.57,
+        0.5717,
+        0.5767,
+        0.5867,
+        0.6017,
+        0.605,
+        0.6067,
+        0.6083,
+        0.6333,
+        0.6367,
+        0.6467,
+        0.67,
+        0.7533
+      ],
+      "reviewer_kind": "model",
+      "sigma_r": 0.5408262554192159,
+      "task": "deployment decision under a displayed loss rule"
+    }
+  },
+  "estimator": "moment estimator on logit accuracies, binomial component removed",
+  "schema_version": "sigma-r-multi-anchor-v1",
+  "summary": {
+    "n_anchors": 3,
+    "sigma_r_human_max": null,
+    "sigma_r_human_min": null,
+    "sigma_r_max": 0.5408262554192159,
+    "sigma_r_min": 0.3794214146211546
+  }
+}

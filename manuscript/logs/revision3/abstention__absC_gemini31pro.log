@@ -1,0 +1,10 @@
+absC_gemini31pro: 423 pending of 704
+  absC_gemini31pro 50/423 parsed=49 0.48/s
+  absC_gemini31pro 100/423 parsed=99 0.48/s
+  absC_gemini31pro 150/423 parsed=148 0.45/s
+  absC_gemini31pro 200/423 parsed=198 0.47/s
+  absC_gemini31pro 250/423 parsed=247 0.47/s
+  absC_gemini31pro 300/423 parsed=296 0.48/s
+  absC_gemini31pro 350/423 parsed=345 0.48/s
+  absC_gemini31pro 400/423 parsed=395 0.49/s
+done absC_gemini31pro: 418/423 parsed

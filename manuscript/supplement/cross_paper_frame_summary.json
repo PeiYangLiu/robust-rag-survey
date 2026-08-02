@@ -1,0 +1,234 @@
+{
+  "candidates_per_file_top20": [
+    [
+      "rrag033.txt",
+      248
+    ],
+    [
+      "ragComprehensive2025.txt",
+      107
+    ],
+    [
+      "rrag001.txt",
+      90
+    ],
+    [
+      "rrag034.txt",
+      73
+    ],
+    [
+      "rrag080.txt",
+      39
+    ],
+    [
+      "rrag027.txt",
+      38
+    ],
+    [
+      "poisoningRetrievalCorpora2023.txt",
+      34
+    ],
+    [
+      "rrag023.txt",
+      32
+    ],
+    [
+      "rrag113.txt",
+      32
+    ],
+    [
+      "rrag019.txt",
+      30
+    ],
+    [
+      "rrag072.txt",
+      29
+    ],
+    [
+      "rrag038.txt",
+      28
+    ],
+    [
+      "rrag197.txt",
+      27
+    ],
+    [
+      "rrag059.txt",
+      25
+    ],
+    [
+      "rrag098.txt",
+      23
+    ],
+    [
+      "rrag017.txt",
+      21
+    ],
+    [
+      "rrag055.txt",
+      19
+    ],
+    [
+      "rrag020.txt",
+      18
+    ],
+    [
+      "rrag054.txt",
+      18
+    ],
+    [
+      "rrag084.txt",
+      18
+    ]
+  ],
+  "n_attribution_only": 274,
+  "n_attribution_stratum": 460,
+  "n_baseline_stratum": 965,
+  "n_candidates": 1703,
+  "n_files_screened": 259,
+  "n_files_with_candidates": 171,
+  "n_survey_table_only": 449,
+  "n_survey_table_stratum": 546,
+  "schema_version": "cross-paper-frame-v1",
+  "screen": {
+    "attribution_cues": [
+      "as\\s+reported\\s+(?:in|by)",
+      "reported\\s+(?:in|by)\\s+(?:the\\s+)?(?:original|their|its)",
+      "cited\\s+from",
+      "taken\\s+from",
+      "copied\\s+from",
+      "quoted\\s+from",
+      "originally\\s+reported",
+      "reported\\s+results",
+      "results?\\s+are\\s+(?:taken|cited|copied|quoted)",
+      "numbers?\\s+are\\s+(?:taken|cited|from)",
+      "according\\s+to\\s+\\w+\\s+et\\s+al",
+      "et\\s+al\\.?\\s*\\(?\\d{4}\\)?\\s+(?:report|reports|reported|achieve|achieves|achieved|obtain|obtains)",
+      "\\w+\\s+et\\s+al\\.?,?\\s*\\(?\\d{4}\\)?",
+      "in\\s+their\\s+(?:paper|work|setup|experiments)",
+      "their\\s+reported",
+      "the\\s+original\\s+paper",
+      "as\\s+published",
+      "we\\s+(?:quote|reuse|reproduce|copy)\\s+",
+      "from\\s+the\\s+respective\\s+papers",
+      "scores?\\s+(?:are|were)\\s+(?:those|taken)",
+      "survey",
+      "we\\s+compile"
+    ],
+    "comparison_cues": [
+      "outperform\\w*",
+      "compared\\s+(?:to|with)",
+      "comparison\\s+with",
+      "whereas",
+      "versus",
+      "\\bvs\\.?\\b",
+      "improves?\\s+(?:over|upon)",
+      "reduces?\\s+\\w*\\s*from",
+      "higher\\s+than",
+      "lower\\s+than",
+      "better\\s+than",
+      "worse\\s+than",
+      "surpass\\w*",
+      "exceeds?",
+      "baselines?",
+      "state[- ]of[- ]the[- ]art",
+      "prior\\s+work",
+      "achiev\\w+\\s+only",
+      "in\\s+contrast",
+      "by\\s+\\d+(?:\\.\\d+)?\\s*(?:%|points?|pp)"
+    ],
+    "gazetteer": [
+      "PoisonedRAG",
+      "Phantom",
+      "BadRAG",
+      "AgentPoison",
+      "GARAG",
+      "AIP",
+      "Corpus Poisoning",
+      "Prompt Injection",
+      "GASLITE",
+      "Jamming",
+      "RobustRAG",
+      "CertifiedRAG",
+      "AstuteRAG",
+      "InstructRAG",
+      "TrustRAG",
+      "Self-RAG",
+      "SelfRAG",
+      "CRAG",
+      "Self-CRAG",
+      "CtrlA",
+      "FLARE",
+      "DRAGIN",
+      "Adaptive-RAG",
+      "Chain-of-Note",
+      "CoN",
+      "RAAT",
+      "RGB",
+      "RECALL",
+      "ClashEval",
+      "FaithEval",
+      "RAGTruth",
+      "RAGAS",
+      "ARES",
+      "RAGChecker",
+      "LongRAG",
+      "REPLUG",
+      "Atlas",
+      "RETRO",
+      "FiD",
+      "REALM",
+      "kNN-LM",
+      "DPR",
+      "Contriever",
+      "BM25",
+      "ColBERT",
+      "SPLADE",
+      "RQ-RAG",
+      "SearChain",
+      "IRCoT",
+      "ReAct",
+      "Toolformer",
+      "Self-Ask",
+      "Chain-of-Verification",
+      "CoVe",
+      "RARR",
+      "Verify-and-Edit",
+      "Sufficient Context",
+      "ParamMute",
+      "Astute",
+      "SEER",
+      "SKR",
+      "Speculative RAG",
+      "Blended RAG",
+      "GraphRAG",
+      "HippoRAG",
+      "RAPTOR",
+      "Self-Reflective",
+      "Corrective Retrieval",
+      "MuRAG",
+      "Atlas-11B"
+    ],
+    "gazetteer_size": 70,
+    "head_lines_for_own_systems": 40,
+    "min_numbers": 2,
+    "number_pattern": "(?<![\\w.])(?:\\d{1,3}(?:\\.\\d{1,2})?\\s*%|0?\\.\\d{2,3}|\\d{1,3}\\.\\d{1,2})(?![\\w])",
+    "stride_lines": 6,
+    "survey_min_numbers": 4,
+    "survey_window_lines": 26,
+    "window_lines": 12
+  },
+  "survey_title_cues": [
+    "\\bsurvey\\b",
+    "\\ba review of\\b",
+    "systematic review",
+    "\\breview\\b",
+    "comprehensive (?:study|review|analysis|survey)",
+    "\\btaxonomy\\b",
+    "empirical study",
+    "\\bbenchmark(?:ing)?\\b",
+    "\\bcompass\\b",
+    "\\bcomparison\\b"
+  ],
+  "text_dir": "manuscript/citation_audit/expanded_texts"
+}

@@ -1,0 +1,28 @@
+{
+  "n_eligible_items": 704,
+  "stated_verdict_distribution": {
+    "undefined": 221,
+    "survives": 384,
+    "no_majority": 98,
+    "narrows": 1
+  },
+  "composed_without_c3": {
+    "undefined": 419,
+    "survives": 285
+  },
+  "composed_with_c3_gating": {
+    "undefined": 704
+  },
+  "n_items_with_a_composed_verdict": 704,
+  "n_verdicts_changed_by_adding_c3": 285,
+  "share_changed": 0.40482954545454547,
+  "survives_without_c3": 285,
+  "survives_with_c3": 0,
+  "share_of_survives_destroyed": 1.0,
+  "c3_majority_label_counts": {
+    "mismatch": 692,
+    "no_majority": 9,
+    "not_determinable": 3
+  },
+  "note": "Adding C3 to the rule is not a hypothesis this data can reject or confirm; it is a design choice whose consequence is reported here so a reader who disagrees can see what disagreeing would cost."
+}

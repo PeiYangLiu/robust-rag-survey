@@ -1178,4 +1178,4 @@ Selected 1067 candidates; target 1100 PDFs.
 [1066/1067] downloading (5) RA-MTR: A Retrieval Augmented Multi-Task Reader based Approach for Inspirational Quote Extraction fr
 [1067/1067] downloading (5) Unraveling and Mitigating Retriever Inconsistencies in Retrieval-Augmented Large Language Models
 Done. Downloaded/available PDFs: 1066
-Metadata written to /home/v-peiyangliu/robust-rag-survey/metadata
+Metadata written to metadata

@@ -1,0 +1,10 @@
+[mH_gpt4o] 0 done, 80 to run
+[mH_gpt4o] 10/80 parsed=10 failed=0
+[mH_gpt4o] 20/80 parsed=20 failed=0
+[mH_gpt4o] 30/80 parsed=30 failed=0
+[mH_gpt4o] 40/80 parsed=40 failed=0
+[mH_gpt4o] 50/80 parsed=50 failed=0
+[mH_gpt4o] 60/80 parsed=60 failed=0
+[mH_gpt4o] 70/80 parsed=70 failed=0
+[mH_gpt4o] 80/80 parsed=80 failed=0
+[mH_gpt4o] finished in 48s parsed=80 failed=0 -> manuscript/supplement/human_matched_panel/mH_gpt4o.jsonl

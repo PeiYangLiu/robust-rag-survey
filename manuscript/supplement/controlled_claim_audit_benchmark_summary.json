@@ -1,0 +1,39 @@
+{
+  "benchmark_sha256": "7e5f6887321a45d9ccde44c1dfb7dc716ef522208b119767a827b32d7e492d17",
+  "counterfactual_controls": {
+    "c2_defer_cost_fixed_within_pair": true,
+    "c2_out_of_envelope_penalty": 0.5,
+    "c5_capability_fixed_within_pair": true
+  },
+  "design_status": "Post-outcome correction removed an initial C2/defer-cost confound; all reported models were rerun on this benchmark.",
+  "human_labels_used": false,
+  "items": 480,
+  "pairs": 240,
+  "schema_version": "controlled-claim-audit-summary-v1",
+  "seed": 2026072602,
+  "source_paper_text_used": false,
+  "strata": {
+    "c2_capability": 240,
+    "c5_utility": 240
+  },
+  "target_decisions": {
+    "defer": 120,
+    "deploy_A": 180,
+    "deploy_B": 180
+  },
+  "target_definition": "unique minimum of the displayed deployment-loss rule",
+  "template_families": {
+    "customer_support": 40,
+    "cybersecurity": 40,
+    "education": 40,
+    "enterprise_search": 40,
+    "financial_analysis": 40,
+    "legal_qa": 40,
+    "medical_qa": 40,
+    "news_verification": 40,
+    "public_policy": 40,
+    "scientific_qa": 40,
+    "software_support": 40,
+    "technical_manuals": 40
+  }
+}

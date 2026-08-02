@@ -1,0 +1,125 @@
+{
+  "schema_version": "comparability-instrument-v2",
+  "seed": 2026080401,
+  "n_items": 432,
+  "n_specifications": 216,
+  "design": "presentation (canonical | naturalistic) x disclosure (full | partial_balanced | partial_forcing); presentation is paired within specification",
+  "cells": {
+    "canonical/full": {
+      "n": 90,
+      "verdict_counts": {
+        "narrows": 30,
+        "undefined": 30,
+        "survives": 30
+      },
+      "constant_baseline": 0.3333333333333333
+    },
+    "canonical/partial_balanced": {
+      "n": 90,
+      "verdict_counts": {
+        "narrows": 30,
+        "survives": 30,
+        "undefined": 30
+      },
+      "constant_baseline": 0.3333333333333333
+    },
+    "canonical/partial_forcing": {
+      "n": 36,
+      "verdict_counts": {
+        "undefined": 36
+      },
+      "constant_baseline": 1.0
+    },
+    "naturalistic/full": {
+      "n": 90,
+      "verdict_counts": {
+        "narrows": 30,
+        "undefined": 30,
+        "survives": 30
+      },
+      "constant_baseline": 0.3333333333333333
+    },
+    "naturalistic/partial_balanced": {
+      "n": 90,
+      "verdict_counts": {
+        "narrows": 30,
+        "survives": 30,
+        "undefined": 30
+      },
+      "constant_baseline": 0.3333333333333333
+    },
+    "naturalistic/partial_forcing": {
+      "n": 36,
+      "verdict_counts": {
+        "undefined": 36
+      },
+      "constant_baseline": 1.0
+    }
+  },
+  "stratum_constant_baselines": {
+    "full": 0.3333333333333333,
+    "partial_balanced": 0.3333333333333333,
+    "partial_forcing": 1.0
+  },
+  "pooled_constant_baseline_not_used_as_a_reference": 0.4444444444444444,
+  "verdict_counts": {
+    "narrows": 120,
+    "undefined": 192,
+    "survives": 120
+  },
+  "disclosure_counts": {
+    "full": 180,
+    "partial_forcing": 72,
+    "partial_balanced": 180
+  },
+  "presentation_counts": {
+    "canonical": 216,
+    "naturalistic": 216
+  },
+  "domain_counts": {
+    "calibration": 102,
+    "noise": 114,
+    "faithfulness": 102,
+    "security": 114
+  },
+  "withheld_coordinate_counts": {
+    "c5": 64,
+    "c1": 54,
+    "c4": 22,
+    "c3": 60,
+    "c2": 52
+  },
+  "repair_sentence_by_verdict": {
+    "survives": 48,
+    "narrows": 120,
+    "undefined": 0
+  },
+  "coordinate_truth_counts": {
+    "c1": {
+      "match": 288,
+      "mismatch": 90,
+      "not_determinable": 54
+    },
+    "c2": {
+      "match": 316,
+      "mismatch": 64,
+      "not_determinable": 52
+    },
+    "c3": {
+      "mismatch": 288,
+      "match": 84,
+      "not_determinable": 60
+    },
+    "c4": {
+      "match": 326,
+      "mismatch": 84,
+      "not_determinable": 22
+    },
+    "c5": {
+      "mismatch": 64,
+      "match": 304,
+      "not_determinable": 64
+    }
+  },
+  "file_sha256": "d555b9ef84ed66148c9236c4191722092c428742bc47f0b800b3c5f65ea727e6"
+}

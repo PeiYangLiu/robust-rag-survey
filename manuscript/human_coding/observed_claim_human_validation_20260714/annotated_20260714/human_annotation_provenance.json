@@ -1,0 +1,34 @@
+{
+  "confirmed_at": "2026-07-14",
+  "independent_coders": 3,
+  "separate_adjudicators": 1,
+  "all_four_people_distinct": true,
+  "all_participants_human": true,
+  "generative_ai_used_for_annotation_or_adjudication": false,
+  "participant_background": {
+    "coders": "All three had NLP, RAG, or experimental-methodology research backgrounds.",
+    "adjudicator": "More senior than the three coders in relevant research experience."
+  },
+  "recruitment": "Targeted invitation through the authors' professional collaborator network.",
+  "compensation": "All four participants were compensated under a pre-agreed arrangement.",
+  "work_time_hours": {
+    "coder_a": 60,
+    "coder_b": 60,
+    "coder_c": 60,
+    "adjudicator": 30,
+    "total_person_hours": 210
+  },
+  "training": "Participants read the frozen v2 codebook, completed a pilot, and aligned boundary rules without seeing model labels.",
+  "annotation_materials": "Published-Claim Comparability Audit Codebook v2 (2026-07-14), exact quotations, source links, sections, and page locations.",
+  "adjudication_protocol": "The adjudicator independently checked all 80 source claims before consulting the three coder labels and rationales and issuing final labels.",
+  "consent": {
+    "explicit": true,
+    "scope": "Paper analysis and public release of de-identified annotations."
+  },
+  "ethics_review": {
+    "formal_review_required": false,
+    "status": "Project owner reports an institutional determination of exemption or non-human-subjects status.",
+    "determination_document_released": false
+  },
+  "source": "Project-owner confirmation in the Copilot CLI session on 2026-07-14"
+}

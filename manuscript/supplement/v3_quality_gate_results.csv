@@ -1,0 +1,10 @@
+split,subset,dimension,rows,p_preferred,q_preferred,tie,both_inadequate,p_minus_q_score,cluster_ci95_low,cluster_ci95_high,exact_sign_p_two_sided
+calibration,all,evidence,290,38,23,229,0,0.051724,-0.013793,0.113793,0.0721774
+calibration,all,comparability,290,52,43,195,0,0.031034,-0.044828,0.103448,0.4119101
+calibration,all,overall,290,69,48,173,0,0.072414,-0.010345,0.148276,0.0639959
+formal,all,evidence,480,146,7,327,0,0.289583,0.233333,0.345833,6.228868e-35
+formal,all,comparability,480,92,37,351,0,0.114583,0.056250,0.170833,1.397145e-06
+formal,all,overall,480,196,39,245,0,0.327083,0.258333,0.393750,2.317724e-26
+formal,panel_resolved,evidence,453,140,7,306,0,0.293598,0.235033,0.353201,3.001754e-33
+formal,panel_resolved,comparability,453,84,34,335,0,0.110375,0.052747,0.167770,4.724471e-06
+formal,panel_resolved,overall,453,184,36,233,0,0.326711,0.255411,0.396930,4.052682e-25

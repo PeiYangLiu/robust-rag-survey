@@ -870,4 +870,4 @@ Selected 1100 candidates; target 760 PDFs.
 [759/1100] downloading (19) REAR: A Relevance-Aware Retrieval-Augmented Framework for Open-Domain Question Answering
 [760/1100] downloading (19) PrefRAG: Preference-Driven Multi-Source Retrieval Augmented Generation
 Done. Downloaded/available PDFs: 760
-Metadata written to /home/v-peiyangliu/robust-rag-survey/metadata
+Metadata written to metadata

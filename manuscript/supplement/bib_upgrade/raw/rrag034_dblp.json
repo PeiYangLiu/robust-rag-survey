@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Adaptive* Retrieval* Without* Self* Knowledge* Bringing* Uncertainty* Back* Home*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"29.78"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"70110814",
+"text":"home"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"9",
+"@id":"549044",
+"info":{"authors":{"author":[{"@pid":"347/9485","text":"Viktor Moskvoretskii"},{"@pid":"400/5106","text":"Maria Marina"},{"@pid":"267/5694","text":"Mikhail Salnikov"},{"@pid":"73/62-1","text":"Nikolay Ivanov 0001"},{"@pid":"342/5957","text":"Sergey Pletenev"},{"@pid":"389/9821","text":"Daria Galimzianova"},{"@pid":"390/3257","text":"Nikita Krayko"},{"@pid":"184/8947","text":"Vasily Konovalov"},{"@pid":"232/5811","text":"Irina Nikishina"},{"@pid":"60/9162","text":"Alexander Panchenko"}]},"title":"Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home.","venue":"ACL","pages":"6355-6384","year":"2025","type":"Conference and Workshop Papers","access":"open","key":"conf/acl/MoskvoretskiiMS25","doi":"10.18653/V1/2025.ACL-LONG.319","ee":"https://doi.org/10.18653/v1/2025.acl-long.319","url":"https://dblp.org/rec/conf/acl/MoskvoretskiiMS25"},
+"url":"URL#549044"
+},
+{
+"@score":"9",
+"@id":"749453",
+"info":{"authors":{"author":[{"@pid":"347/9485","text":"Viktor Moskvoretskii"},{"@pid":"319/9449","text":"Maria Lysyuk"},{"@pid":"267/5694","text":"Mikhail Salnikov"},{"@pid":"73/62-1","text":"Nikolay Ivanov 0001"},{"@pid":"342/5957","text":"Sergey Pletenev"},{"@pid":"389/9821","text":"Daria Galimzianova"},{"@pid":"390/3257","text":"Nikita Krayko"},{"@pid":"184/8947","text":"Vasily Konovalov"},{"@pid":"232/5811","text":"Irina Nikishina"},{"@pid":"60/9162","text":"Alexander Panchenko"}]},"title":"Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home.","venue":"CoRR","volume":"abs/2501.12835","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2501-12835","doi":"10.48550/ARXIV.2501.12835","ee":"https://doi.org/10.48550/arXiv.2501.12835","url":"https://dblp.org/rec/journals/corr/abs-2501-12835"},
+"url":"URL#749453"
+}
+]
+}
+}
+}

@@ -1,0 +1,20 @@
+coderB_claudeopus46[direct]: 1703 pending of 1703
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 100, "total": 1703, "per_second": 2.104}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 200, "total": 1703, "per_second": 2.226}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 300, "total": 1703, "per_second": 2.282}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 400, "total": 1703, "per_second": 2.286}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 500, "total": 1703, "per_second": 2.266}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 600, "total": 1703, "per_second": 2.268}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 700, "total": 1703, "per_second": 2.281}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 800, "total": 1703, "per_second": 2.295}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 900, "total": 1703, "per_second": 2.303}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1000, "total": 1703, "per_second": 2.321}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1100, "total": 1703, "per_second": 2.304}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1200, "total": 1703, "per_second": 2.306}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1300, "total": 1703, "per_second": 2.286}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1400, "total": 1703, "per_second": 2.285}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1500, "total": 1703, "per_second": 2.298}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1600, "total": 1703, "per_second": 2.306}
+{"judge": "coderB_claudeopus46", "arm": "direct", "done": 1700, "total": 1703, "per_second": 2.302}
+coderB_claudeopus46[direct]: wrote manuscript/supplement/cross_paper_coding_arms/direct/coderB_claudeopus46.jsonl
+[19:37:55] coderB_claudeopus46/direct attempt 1 -> 1701 parsed rows

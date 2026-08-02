@@ -1,6 +1,6 @@
 {
-  "manuscript": "/home/v-peiyangliu/robust-rag-survey/manuscript/main.tex",
-  "pdf": "/home/v-peiyangliu/robust-rag-survey/manuscript/main.pdf",
+  "manuscript": "manuscript/main.tex",
+  "pdf": "manuscript/main.pdf",
   "pages": null,
   "unique_cite_keys": 259,
   "bibitems": 259,

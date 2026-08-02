@@ -1,0 +1,13 @@
+{
+  "annotators": [
+    "A",
+    "B",
+    "C"
+  ],
+  "n_claims": 80,
+  "balanced_core_n": 16,
+  "fully_unanimous_verdict": 39,
+  "needs_adjudication": 79,
+  "bootstrap_iterations": 2000,
+  "model_labels_used_in_pre_adjudication_metrics": false
+}

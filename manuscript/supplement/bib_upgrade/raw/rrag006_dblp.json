@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Over* Searching* in Search* Augmented* Large* Language* Models*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"63.73"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"70504118",
+"text":"models"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"9",
+"@id":"206195",
+"info":{"authors":{"author":[{"@pid":"371/4346","text":"Roy Xie"},{"@pid":"188/6539","text":"Deepak Gopinath"},{"@pid":"143/0771","text":"David Qiu"},{"@pid":"54/208","text":"Dong Lin"},{"@pid":"185/6000","text":"Haitian Sun"},{"@pid":"194/3158","text":"Saloni Potdar"},{"@pid":"180/5692","text":"Bhuwan Dhingra"}]},"title":"Over-Searching in Search-Augmented Large Language Models.","venue":"CoRR","volume":"abs/2601.05503","year":"2026","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2601-05503","doi":"10.48550/ARXIV.2601.05503","ee":"https://doi.org/10.48550/arXiv.2601.05503","url":"https://dblp.org/rec/journals/corr/abs-2601-05503"},
+"url":"URL#206195"
+},
+{
+"@score":"8",
+"@id":"163746",
+"info":{"authors":{"author":[{"@pid":"371/4346","text":"Roy Xie"},{"@pid":"188/6539","text":"Deepak Gopinath"},{"@pid":"143/0771","text":"David Qiu"},{"@pid":"54/208","text":"Dong Lin"},{"@pid":"185/6000","text":"Haitian Sun"},{"@pid":"194/3158","text":"Saloni Potdar"},{"@pid":"180/5692","text":"Bhuwan Dhingra"}]},"title":"Over-Searching in Retrieval-Augmented Large Language Models.","venue":"EACL","pages":"7714-7739","year":"2026","type":"Conference and Workshop Papers","access":"open","key":"conf/eacl/XieGQLSPD26","doi":"10.18653/V1/2026.EACL-LONG.361","ee":"https://doi.org/10.18653/v1/2026.eacl-long.361","url":"https://dblp.org/rec/conf/eacl/XieGQLSPD26"},
+"url":"URL#163746"
+}
+]
+}
+}
+}

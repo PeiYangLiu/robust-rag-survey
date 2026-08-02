@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\footnotesize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Quantity & Value \\
+\midrule
+Crossed design & 3 coders $\times$ 80 claims \\
+Coder accuracy vs.\ adjudicated & 0.850, 0.775, 0.725 \\
+$\hat\sigma_r$ (moment estimate) & 0.271 \\
+Reviewer bootstrap 95\% & [0.000, 0.347] \\
+Item bootstrap 95\% & [0.000, 0.522] \\
+Parametric bootstrap 95\% & [0.000, 0.732] \\
+Parametric bias of $\hat\sigma_r$ & $-0.044$ \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Identification from published reporting}} \\
+Widest admissible $\sigma_r$ set & 100\% of the grid \\
+Point identified by reporting? & no \\
+\bottomrule
+\end{tabular}
+\caption{Reviewer heterogeneity is estimable only from a crossed reviewer-by-item design, and three coders do not estimate it. All three resampling schemes are shown because they disagree about the width and not about the conclusion: every interval contains zero, so this design alone cannot distinguish a badly miscalibrated panel from a homogeneous one. The reviewer bootstrap is the scheme reported for all seven designs in Table~\ref{tab:sigma-r-anchors}, because the reviewer is the unit the parameter is about; the item bootstrap resamples the wrong unit and is shown only for comparison. A parametric bootstrap puts the estimator's bias at $-0.044$ here, against at most $0.012$ in every large design, which is what two degrees of freedom costs. The published agreement rates located in the audited papers place no usable restriction on $\sigma_r$: at the label prevalence those papers imply, every value on a $0$--$1.2$ grid reproduces the reported agreement for some item dispersion. Separating the two components requires the item-by-annotator assignment, which none of the nine audited papers reports.}
+\label{tab:reviewer-heterogeneity-anchor}
+\end{table}

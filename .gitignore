@@ -37,7 +37,55 @@ manuscript/*.lot
 manuscript/*.bcf
 manuscript/*.run.xml
 
+# ---- Access-controlled human-study records (never release) ----
+manuscript/human_coding/heldout_claim_validation_v3_20260715/participant_metadata_private.csv
+manuscript/human_coding/heldout_claim_validation_v3_20260715/private_records/
+manuscript/human_coding/heldout_claim_validation_v3_20260715/README.md
+/files/*
+!/files/v3_invalidated_shared_answer_run_20260719/
+/files/v3_invalidated_shared_answer_run_20260719/*
+!/files/v3_invalidated_shared_answer_run_20260719/invalidation_report.json
+
 # ---- Python ----
 __pycache__/
 *.pyc
 *.pyo
+
+# ---- Local Amulet project state ----
+.amltconfig
+configs/amlt_controlled_model_judges.yaml
+
+# ---- Python virtualenvs (never release) ----
+.venv*/
+/files/
+
+# ---- Third-party public corpora re-downloaded for sigma_r anchors ----
+# (civil_comments, wikipedia detox, MultiPref, DynaSent: fetch from source)
+manuscript/supplement/sigma_anchors/
+
+# ---- Raw per-decision model-judge dumps (regenerable; analysis-level
+#      summaries and the released JSON/CSV results are kept) ----
+manuscript/supplement/controlled_model_judge_raw_v2/
+manuscript/supplement/controlled_model_judge_raw_v3/
+manuscript/supplement/cross_paper_coding/
+manuscript/supplement/cross_paper_coding_arms/
+manuscript/supplement/open_weight_judges/
+manuscript/supplement/open_judge_prompts/
+manuscript/supplement/comparability_instrument_runs/
+manuscript/supplement/comparability_instrument_runs_v2/
+manuscript/supplement/privileged_reference_runs/
+manuscript/supplement/api_pack_runs/
+manuscript/supplement/screen_recall_runs/
+manuscript/supplement/abstention_verdict_runs/
+
+# ---- De-identified export the README marks as omitted from releases ----
+manuscript/supplement/v3_human_reanalysis_20260725/
+
+# ---- Scratch and root-level LaTeX build junk ----
+/tmp/
+/main.aux
+/main.log
+/main.fls
+/main.fdb_latexmk
+/w.out
+manuscript/figures/texput.log

@@ -1,0 +1,123 @@
+{
+  "census": {
+    "binary": {
+      "chance_agreement": 0.5000878816574839,
+      "fleiss_kappa": 0.04528674188745593,
+      "gwet_ac1": 0.0456222900445738,
+      "kappa_share_of_attainable": 0.12203327565038359,
+      "label_counts": {
+        "not_survives": 1042,
+        "survives": 1070
+      },
+      "label_space": "survives|not_survives",
+      "max_attainable_kappa": 0.37110158394173676,
+      "n_items": 704,
+      "n_judges": 3,
+      "observed_agreement": 0.5227272727272703
+    },
+    "n_papers": 103,
+    "narrows_reachability": {
+      "n_items_any_judge_said_narrows": 242,
+      "share": 0.34375
+    },
+    "three_class": {
+      "chance_agreement": 0.4130325807793847,
+      "fleiss_kappa": 0.06104436875189545,
+      "gwet_ac1": 0.21992405393458883,
+      "kappa_share_of_attainable": 0.13145466538797507,
+      "label_counts": {
+        "narrows": 243,
+        "survives": 1070,
+        "undefined": 799
+      },
+      "label_space": "survives|narrows|undefined",
+      "max_attainable_kappa": 0.46437582547358974,
+      "n_items": 704,
+      "n_judges": 3,
+      "observed_agreement": 0.44886363636363596
+    }
+  },
+  "constructed_full_disclosure": {
+    "binary": {
+      "chance_agreement": 0.6422222222222222,
+      "fleiss_kappa": 0.8550724637681157,
+      "gwet_ac1": 0.9192618223760095,
+      "kappa_share_of_attainable": 0.969483568075117,
+      "label_counts": {
+        "not_survives": 828,
+        "survives": 252
+      },
+      "label_space": "survives|not_survives",
+      "max_attainable_kappa": 0.8819875776397517,
+      "n_items": 180,
+      "n_judges": 6,
+      "observed_agreement": 0.9481481481481483
+    },
+    "judges": [
+      "insB_opus46",
+      "insC_gem31pro",
+      "insG_opus48",
+      "insH_gem25pro",
+      "insI_gpt54",
+      "insJ_gpt55"
+    ],
+    "reference_reachable_binary": {
+      "chance_agreement": 0.5458371913580247,
+      "fleiss_kappa": 0.8348609825091957,
+      "gwet_ac1": 0.8625963910348392,
+      "kappa_share_of_attainable": 0.9633023925977477,
+      "label_counts": {
+        "not_survives": 469,
+        "survives": 251
+      },
+      "label_space": "survives|not_survives",
+      "max_attainable_kappa": 0.866665534025943,
+      "n_items": 120,
+      "n_judges": 6,
+      "observed_agreement": 0.9250000000000003
+    },
+    "reference_reachable_three_class": {
+      "chance_agreement": 0.39444830246913576,
+      "fleiss_kappa": 0.8761459999108048,
+      "gwet_ac1": 0.8924305764979628,
+      "kappa_share_of_attainable": 0.9734962445934181,
+      "label_counts": {
+        "narrows": 109,
+        "survives": 251,
+        "undefined": 360
+      },
+      "label_space": "survives|undefined only",
+      "max_attainable_kappa": 0.899999362890946,
+      "n_items": 120,
+      "n_judges": 6,
+      "observed_agreement": 0.9250000000000003
+    },
+    "three_class": {
+      "chance_agreement": 0.35180555555555554,
+      "fleiss_kappa": 0.742875508892222,
+      "gwet_ac1": 0.7534162128840037,
+      "kappa_share_of_attainable": 0.9155003960918934,
+      "label_counts": {
+        "narrows": 369,
+        "survives": 252,
+        "undefined": 459
+      },
+      "label_space": "survives|narrows|undefined",
+      "max_attainable_kappa": 0.8114420398542961,
+      "n_items": 180,
+      "n_judges": 6,
+      "observed_agreement": 0.8333333333333339
+    }
+  },
+  "gaps": {
+    "attainable_ceiling_census_binary": 0.37110158394173676,
+    "attainable_ceiling_constructed_binary": 0.8819875776397517,
+    "binary_kappa_gap": 0.8097857218806598,
+    "observed_agreement_gap_binary": 0.42542087542087803,
+    "reachable_binary_kappa_gap": 0.7895742406217398,
+    "three_class_kappa_gap": 0.6818311401403265
+  },
+  "note": "Every constructed row uses the five-coordinate arm on the fully-disclosed stratum, which is the cell the manuscript's kappa 0.74 comes from. Every census row uses the deployed three judges on the majority-eligible windows, which is the cell the kappa 0.06 comes from.",
+  "reading": "Matching the label space does not close the gap, and the census ceiling shows why the raw kappa contrast overstates it: the deployed judges' own marginals cap kappa at 0.37 on the binary space, so the census number should be read against that ceiling rather than against 1.0. The gap that survives matching is the quantity the disclosure account has to explain, and the manuscript now reports it instead of the unmatched one.",
+  "schema_version": 1
+}

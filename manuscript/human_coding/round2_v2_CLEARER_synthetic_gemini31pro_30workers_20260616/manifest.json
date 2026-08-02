@@ -1,0 +1,43 @@
+{
+  "arm_response_count": 768,
+  "coordinate_gold_consensus_counts": {
+    "invalid": 16,
+    "partial": 22,
+    "under-specified": 10
+  },
+  "coordinate_gold_count": 336,
+  "endpoint": "http://127.0.0.1:4141/v1/chat/completions",
+  "files": {
+    "annotator_metadata_anonymized": "annotator_metadata_anonymized.csv",
+    "coordinate_gold_consensus_synthetic_model": "coordinate_gold_consensus_synthetic_model.csv",
+    "coordinate_gold_individual_synthetic_model": "coordinate_gold_individual_synthetic_model.csv",
+    "coordinator_hidden_pair_key_synthetic_heuristic": "coordinator_hidden_pair_key_synthetic_heuristic.csv",
+    "independent_gold_consensus_synthetic_model": "independent_gold_consensus_synthetic_model.csv",
+    "independent_gold_individual_synthetic_model": "independent_gold_individual_synthetic_model.csv",
+    "paper_pairs_for_annotation": "paper_pairs_for_annotation.csv",
+    "paper_pairs_with_context_for_model": "paper_pairs_with_context_for_model.csv",
+    "participant_responses_synthetic_model": "participant_responses_synthetic_model.csv",
+    "raw_model_annotations": "raw_model_annotations.jsonl"
+  },
+  "generated_at_utc": "2026-06-16T03:24:01Z",
+  "independent_gold_consensus_counts": {
+    "invalid": 30,
+    "partial": 17,
+    "under-specified": 1
+  },
+  "independent_gold_count": 336,
+  "model": "gemini-3.1-pro-preview",
+  "pair_count": 48,
+  "participant_counts": {
+    "control": 8,
+    "coordinate_gold": 7,
+    "independent_gold": 7,
+    "protocol": 8
+  },
+  "protocol": "manuscript/human_coding/annotation_protocol_round2_v2_CLEARER_20260615.md",
+  "raw_annotation_count": 1440,
+  "source": "manuscript/human_coding/human_round2_evidence274_results/adjudicated_evidence274_round2_final_full.csv",
+  "synthetic_not_human": true,
+  "warning": "Model-generated synthetic annotations. Do not report as human annotation or human-verified evidence.",
+  "workers": 30
+}

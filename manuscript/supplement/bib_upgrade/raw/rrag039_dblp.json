@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Long* Context* LLMs* Meet* RAG* Overcoming* Challenges* for* Long* Inputs* in RAG*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"151.07"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"4",
+"@dc":"2",
+"@oc":"4",
+"@id":"70794332",
+"text":"rag"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"16",
+"@id":"639141",
+"info":{"authors":{"author":[{"@pid":"235/8066","text":"Bowen Jin"},{"@pid":"173/5409","text":"Jinsung Yoon"},{"@pid":"h/JiaweiHan","text":"Jiawei Han 0001"},{"@pid":"78/10697","text":"Sercan Ö. Arik"}]},"title":"Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG.","venue":"ICLR","year":"2025","type":"Conference and Workshop Papers","access":"open","key":"conf/iclr/JinY0A25","ee":"https://openreview.net/forum?id=oU3tpaR8fm","url":"https://dblp.org/rec/conf/iclr/JinY0A25"},
+"url":"URL#639141"
+},
+{
+"@score":"16",
+"@id":"1453318",
+"info":{"authors":{"author":[{"@pid":"235/8066","text":"Bowen Jin"},{"@pid":"173/5409","text":"Jinsung Yoon"},{"@pid":"h/JiaweiHan","text":"Jiawei Han 0001"},{"@pid":"78/10697","text":"Sercan Ö. Arik"}]},"title":"Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG.","venue":"CoRR","volume":"abs/2410.05983","year":"2024","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2410-05983","doi":"10.48550/ARXIV.2410.05983","ee":"https://doi.org/10.48550/arXiv.2410.05983","url":"https://dblp.org/rec/journals/corr/abs-2410-05983"},
+"url":"URL#1453318"
+}
+]
+}
+}
+}

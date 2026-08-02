@@ -1,0 +1,99 @@
+{
+  "status": "source_cluster_and_reference_sensitivity",
+  "sample": {
+    "claims": 80,
+    "sources": 9,
+    "source_sizes": {
+      "alushi2026comparison": 12,
+      "joren2025sufficient": 12,
+      "liu2025donotabstain": 8,
+      "ragComprehensive2025": 12,
+      "securityRAGSurvey2026": 7,
+      "trustRAGCompass2024": 6,
+      "trustworthyRAGSurvey2025": 5,
+      "wen2025abstention": 7,
+      "zhu2026trustabstain": 11
+    },
+    "probability_sample": false,
+    "paper_disjoint_from_codebook_development": false
+  },
+  "full_vs_evidence_control": {
+    "paired_exact_test": {
+      "first_only_correct": 3,
+      "second_only_correct": 3,
+      "discordant": 6,
+      "two_sided_exact_p": 1.0
+    },
+    "cluster_bootstrap": {
+      "exact_accuracy": {
+        "point_estimate": 0.0,
+        "ci_low": -0.0641025641025641,
+        "ci_high": 0.0789473684210526
+      },
+      "cohen_kappa": {
+        "point_estimate": 0.01883060261321262,
+        "ci_low": -0.07752712031558182,
+        "ci_high": 0.14483412528880937
+      },
+      "macro_f1": {
+        "point_estimate": 0.019525423540150022,
+        "ci_low": -0.03592444409105856,
+        "ci_high": 0.11324596047136554
+      }
+    },
+    "loso_exact_difference_range": [
+      -0.0273972602739726,
+      0.01470588235294118
+    ],
+    "reference_exact_difference_range": [
+      -0.03749999999999998,
+      0.02499999999999991
+    ],
+    "equivalence_test": "not_performed_no_prespecified_margin",
+    "interpretation": "underpowered_and_inconclusive; no detectable difference does not establish equivalence or absence of a practically meaningful effect"
+  },
+  "model_human_field_alignment": {
+    "archetype": {
+      "raw_agreement": 0.7375,
+      "cohen_kappa": 0.6700706991358996,
+      "gwet_ac1": 0.688074416532056
+    },
+    "c1_relation": {
+      "raw_agreement": 0.575,
+      "cohen_kappa": 0.0007347538574578663,
+      "gwet_ac1": 0.5316401205337924
+    },
+    "c2_relation": {
+      "raw_agreement": 0.725,
+      "cohen_kappa": 0.3586005830903789,
+      "gwet_ac1": 0.6792418443593949
+    },
+    "c3_relation": {
+      "raw_agreement": 0.675,
+      "cohen_kappa": 0.3017791205102384,
+      "gwet_ac1": 0.5889937262263499
+    },
+    "c4_relation": {
+      "raw_agreement": 0.7625,
+      "cohen_kappa": 0.33186813186813174,
+      "gwet_ac1": 0.7394304326397668
+    },
+    "c5_relation": {
+      "raw_agreement": 0.8875,
+      "cohen_kappa": 0.705159705159705,
+      "gwet_ac1": 0.8609971523722186
+    },
+    "controls_status": {
+      "raw_agreement": 0.5625,
+      "cohen_kappa": 0.35632183908045983,
+      "gwet_ac1": 0.47389435610775776
+    }
+  },
+  "bootstrap": {
+    "method": "nonparametric source-cluster bootstrap",
+    "repetitions": 50000,
+    "seed": 20260714,
+    "clusters": 9,
+    "caveat": "nine purposively selected sources yield unstable intervals"
+  }
+}

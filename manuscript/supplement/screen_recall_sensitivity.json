@@ -1,0 +1,45 @@
+{
+  "interpretation": "The re-weighting from 0.874 inside the frame to 0.926 over the universe is driven by 7 eligible sampled windows the panel called transported. Reassigning all 7 to re-implemented moves the figure to 0.961; doubling their count moves it to 0.888. The direction of the re-weighting is stable under both perturbations but its magnitude is not, which is why the frame figure and the universe figure are both reported and neither is claimed for the literature.",
+  "n_missed_classified_eligible": 133,
+  "n_missed_reimplemented_and_eligible": 126,
+  "n_missed_sampled": 420,
+  "n_missed_transported_and_eligible": 7,
+  "n_missed_with_majority_transported": 13,
+  "observed_missed_share_transported": 0.05263157894736842,
+  "paper_cluster_bootstrap": {
+    "ci95": [
+      0.8631314915605293,
+      0.9608495106720601
+    ],
+    "draws": 4000,
+    "median": 0.9282250527810881
+  },
+  "published_ci95": [
+    0.8605,
+    0.9644
+  ],
+  "published_missed_share_transported": 0.0526,
+  "published_universe_reimplemented_share": 0.9259,
+  "recall_transported_ci95": [
+    0.2603,
+    1.0
+  ],
+  "schema_version": 1,
+  "sensitivity": {
+    "all_transported_items_reassigned_to_reimplemented": 0.9608495106720601,
+    "exhaustive_leave_k_out": {
+      "0": 0.9245456026430086,
+      "1": 0.9297318752185872,
+      "2": 0.9349181477941662,
+      "3": 0.9401044203697448,
+      "4": 0.9452906929453238,
+      "5": 0.9504769655209026,
+      "6": 0.9556632380964812,
+      "7": 0.9608495106720601
+    },
+    "frame_share_unchanged": 0.8738,
+    "leave_one_out_max": 0.9294961355560609,
+    "leave_one_out_min": 0.9294961355560609,
+    "transported_count_doubled": 0.8882416946139567
+  }
+}

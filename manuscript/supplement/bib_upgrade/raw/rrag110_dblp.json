@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Who* s Who* Large* Language* Models* Meet* Knowledge* Conflicts* in Practice*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"214.23"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"70741488",
+"text":"practice"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"13",
+"@id":"1203225",
+"info":{"authors":{"author":[{"@pid":"81/8316","text":"Quang Pham"},{"@pid":"351/3212","text":"Hoang Ngo"},{"@pid":"81/8329","text":"Anh Tuan Luu"},{"@pid":"23/9125","text":"Dat Quoc Nguyen"}]},"title":"Who&apos;s Who: Large Language Models Meet Knowledge Conflicts in Practice.","venue":"EMNLP","pages":"10142-10151","year":"2024","type":"Conference and Workshop Papers","access":"open","key":"conf/emnlp/PhamNLN24","doi":"10.18653/V1/2024.FINDINGS-EMNLP.593","ee":"https://doi.org/10.18653/v1/2024.findings-emnlp.593","url":"https://dblp.org/rec/conf/emnlp/PhamNLN24"},
+"url":"URL#1203225"
+},
+{
+"@score":"13",
+"@id":"1458863",
+"info":{"authors":{"author":[{"@pid":"217/2424","text":"Quang Hieu Pham"},{"@pid":"351/3212","text":"Hoang Ngo"},{"@pid":"81/8329","text":"Anh Tuan Luu"},{"@pid":"23/9125","text":"Dat Quoc Nguyen"}]},"title":"Who&apos;s Who: Large Language Models Meet Knowledge Conflicts in Practice.","venue":"CoRR","volume":"abs/2410.15737","year":"2024","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2410-15737","doi":"10.48550/ARXIV.2410.15737","ee":"https://doi.org/10.48550/arXiv.2410.15737","url":"https://dblp.org/rec/journals/corr/abs-2410-15737"},
+"url":"URL#1458863"
+}
+]
+}
+}
+}

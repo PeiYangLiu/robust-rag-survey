@@ -1,0 +1,263 @@
+{
+  "benchmark_file": "controlled_claim_audit_benchmark.jsonl",
+  "benchmark_sha256": "7e5f6887321a45d9ccde44c1dfb7dc716ef522208b119767a827b32d7e492d17",
+  "interpretation": "Fixed-model construct evidence on synthetic numerical decisions; no human-study or natural-paper claim.",
+  "model_summaries": [
+    {
+      "counterfactual_pairs": [
+        {
+          "both_counterfactuals_correct": 22,
+          "condition": "ablated",
+          "model": "Qwen/Qwen2.5-7B-Instruct",
+          "pair_accuracy": 0.09166666666666666,
+          "pairs": 240
+        },
+        {
+          "both_counterfactuals_correct": 9,
+          "condition": "full",
+          "model": "Qwen/Qwen2.5-7B-Instruct",
+          "pair_accuracy": 0.0375,
+          "pairs": 240
+        }
+      ],
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "model_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "model_revision_requested": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "torch_version": "2.7.1+cu126",
+      "transformers_version": "4.57.1"
+    },
+    {
+      "counterfactual_pairs": [
+        {
+          "both_counterfactuals_correct": 75,
+          "condition": "ablated",
+          "model": "microsoft/Phi-4-mini-instruct",
+          "pair_accuracy": 0.3125,
+          "pairs": 240
+        },
+        {
+          "both_counterfactuals_correct": 91,
+          "condition": "full",
+          "model": "microsoft/Phi-4-mini-instruct",
+          "pair_accuracy": 0.37916666666666665,
+          "pairs": 240
+        }
+      ],
+      "model": "microsoft/Phi-4-mini-instruct",
+      "model_commit": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "model_revision_requested": "cfbefacb99257ffa30c83adab238a50856ac3083",
+      "torch_version": "2.7.1+cu126",
+      "transformers_version": "4.57.1"
+    },
+    {
+      "counterfactual_pairs": [
+        {
+          "both_counterfactuals_correct": 0,
+          "condition": "ablated",
+          "model": "allenai/OLMo-2-1124-7B-Instruct",
+          "pair_accuracy": 0.0,
+          "pairs": 240
+        },
+        {
+          "both_counterfactuals_correct": 0,
+          "condition": "full",
+          "model": "allenai/OLMo-2-1124-7B-Instruct",
+          "pair_accuracy": 0.0,
+          "pairs": 240
+        }
+      ],
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "model_commit": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+      "model_revision_requested": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+      "torch_version": "2.7.1+cu126",
+      "transformers_version": "4.57.1"
+    }
+  ],
+  "models": [
+    "Qwen/Qwen2.5-7B-Instruct",
+    "allenai/OLMo-2-1124-7B-Instruct",
+    "microsoft/Phi-4-mini-instruct"
+  ],
+  "raw_inputs": [
+    {
+      "file": "qwen2.5-7b.jsonl",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "sha256": "27a469b9cb8c90ab601b6de2837366394f72a3f43042981a56373cac41a1e4d0"
+    },
+    {
+      "file": "phi-4-mini.jsonl",
+      "model": "microsoft/Phi-4-mini-instruct",
+      "sha256": "a02bdf529069f7cbcf036f3d4335bf1819b77e88320724f32ef890c6371b6b70"
+    },
+    {
+      "file": "olmo-2-7b.jsonl",
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "sha256": "863607de55ff46e0be4d5e7c252d956d3ebca4ea92994f1ba0fc00e52decef53"
+    }
+  ],
+  "rows": [
+    {
+      "ablated_accuracy": 0.5333333333333333,
+      "ablated_mean_regret": 0.12724739583333336,
+      "ablated_only_correct": 22,
+      "ablated_pair_accuracy": 0.09166666666666666,
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.5125,
+      "full_mean_regret": 0.1387082291666667,
+      "full_minus_ablated_accuracy": -0.02083333333333337,
+      "full_minus_ablated_regret": 0.011460833333333337,
+      "full_only_correct": 12,
+      "full_pair_accuracy": 0.0375,
+      "full_parse_failures": 0,
+      "items": 480,
+      "mcnemar_exact_p": 0.12144948495551944,
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "stratum": "all"
+    },
+    {
+      "ablated_accuracy": 0.5708333333333333,
+      "ablated_mean_regret": 0.15661666666666668,
+      "ablated_only_correct": 14,
+      "ablated_pair_accuracy": "",
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.5333333333333333,
+      "full_mean_regret": 0.17751666666666668,
+      "full_minus_ablated_accuracy": -0.03749999999999998,
+      "full_minus_ablated_regret": 0.020900000000000002,
+      "full_only_correct": 5,
+      "full_pair_accuracy": "",
+      "full_parse_failures": 0,
+      "items": 240,
+      "mcnemar_exact_p": 0.063568115234375,
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "stratum": "c2_capability"
+    },
+    {
+      "ablated_accuracy": 0.49583333333333335,
+      "ablated_mean_regret": 0.09787812500000001,
+      "ablated_only_correct": 8,
+      "ablated_pair_accuracy": "",
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.49166666666666664,
+      "full_mean_regret": 0.09989979166666667,
+      "full_minus_ablated_accuracy": -0.004166666666666707,
+      "full_minus_ablated_regret": 0.0020216666666666577,
+      "full_only_correct": 7,
+      "full_pair_accuracy": "",
+      "full_parse_failures": 0,
+      "items": 240,
+      "mcnemar_exact_p": 1.0,
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "stratum": "c5_utility"
+    },
+    {
+      "ablated_accuracy": 0.6541666666666667,
+      "ablated_mean_regret": 0.07935568750000001,
+      "ablated_only_correct": 10,
+      "ablated_pair_accuracy": 0.3125,
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.6875,
+      "full_mean_regret": 0.06438212500000001,
+      "full_minus_ablated_accuracy": 0.033333333333333326,
+      "full_minus_ablated_regret": -0.014973562499999996,
+      "full_only_correct": 26,
+      "full_pair_accuracy": 0.37916666666666665,
+      "full_parse_failures": 0,
+      "items": 480,
+      "mcnemar_exact_p": 0.011330984183587134,
+      "model": "microsoft/Phi-4-mini-instruct",
+      "stratum": "all"
+    },
+    {
+      "ablated_accuracy": 0.8083333333333333,
+      "ablated_mean_regret": 0.07283333333333333,
+      "ablated_only_correct": 4,
+      "ablated_pair_accuracy": "",
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.875,
+      "full_mean_regret": 0.04472500000000001,
+      "full_minus_ablated_accuracy": 0.06666666666666665,
+      "full_minus_ablated_regret": -0.028108333333333325,
+      "full_only_correct": 20,
+      "full_pair_accuracy": "",
+      "full_parse_failures": 0,
+      "items": 240,
+      "mcnemar_exact_p": 0.001543879508972168,
+      "model": "microsoft/Phi-4-mini-instruct",
+      "stratum": "c2_capability"
+    },
+    {
+      "ablated_accuracy": 0.5,
+      "ablated_mean_regret": 0.08587804166666667,
+      "ablated_only_correct": 6,
+      "ablated_pair_accuracy": "",
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.5,
+      "full_mean_regret": 0.08403925000000001,
+      "full_minus_ablated_accuracy": 0.0,
+      "full_minus_ablated_regret": -0.0018387916666666587,
+      "full_only_correct": 6,
+      "full_pair_accuracy": "",
+      "full_parse_failures": 0,
+      "items": 240,
+      "mcnemar_exact_p": 1.0,
+      "model": "microsoft/Phi-4-mini-instruct",
+      "stratum": "c5_utility"
+    },
+    {
+      "ablated_accuracy": 0.375,
+      "ablated_mean_regret": 0.15394914583333333,
+      "ablated_only_correct": 0,
+      "ablated_pair_accuracy": 0.0,
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.375,
+      "full_mean_regret": 0.15394914583333333,
+      "full_minus_ablated_accuracy": 0.0,
+      "full_minus_ablated_regret": 0.0,
+      "full_only_correct": 0,
+      "full_pair_accuracy": 0.0,
+      "full_parse_failures": 0,
+      "items": 480,
+      "mcnemar_exact_p": 1.0,
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "stratum": "all"
+    },
+    {
+      "ablated_accuracy": 0.25,
+      "ablated_mean_regret": 0.21180833333333335,
+      "ablated_only_correct": 0,
+      "ablated_pair_accuracy": "",
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.25,
+      "full_mean_regret": 0.21180833333333335,
+      "full_minus_ablated_accuracy": 0.0,
+      "full_minus_ablated_regret": 0.0,
+      "full_only_correct": 0,
+      "full_pair_accuracy": "",
+      "full_parse_failures": 0,
+      "items": 240,
+      "mcnemar_exact_p": 1.0,
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "stratum": "c2_capability"
+    },
+    {
+      "ablated_accuracy": 0.5,
+      "ablated_mean_regret": 0.09608995833333335,
+      "ablated_only_correct": 0,
+      "ablated_pair_accuracy": "",
+      "ablated_parse_failures": 0,
+      "full_accuracy": 0.5,
+      "full_mean_regret": 0.09608995833333335,
+      "full_minus_ablated_accuracy": 0.0,
+      "full_minus_ablated_regret": 0.0,
+      "full_only_correct": 0,
+      "full_pair_accuracy": "",
+      "full_parse_failures": 0,
+      "items": 240,
+      "mcnemar_exact_p": 1.0,
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "stratum": "c5_utility"
+    }
+  ],
+  "schema_version": "controlled-model-judge-analysis-v2"
+}

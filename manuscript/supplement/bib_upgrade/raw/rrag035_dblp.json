@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Glue* pizza* and* eat* rocks* Exploiting* Vulnerabilities* in Retrieval* Augmented* Generative* Models*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"197.91"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"70504118",
+"text":"models"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"14",
+"@id":"1203531",
+"info":{"authors":{"author":[{"@pid":"13/10345-1","text":"Zhen Tan 0001"},{"@pid":"299/4933","text":"Chengshuai Zhao"},{"@pid":"200/2411","text":"Raha Moraffah"},{"@pid":"43/5611","text":"Yifan Li"},{"@pid":"62/3151-13","text":"Song Wang 0013"},{"@pid":"144/7997","text":"Jundong Li"},{"@pid":"68/10575-1","text":"Tianlong Chen 0001"},{"@pid":"92/309-1","text":"Huan Liu 0001"}]},"title":"Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models.","venue":"EMNLP","pages":"1610-1626","year":"2024","type":"Conference and Workshop Papers","access":"open","key":"conf/emnlp/TanZMLWLCL24","doi":"10.18653/V1/2024.EMNLP-MAIN.96","ee":"https://doi.org/10.18653/v1/2024.emnlp-main.96","url":"https://dblp.org/rec/conf/emnlp/TanZMLWLCL24"},
+"url":"URL#1203531"
+},
+{
+"@score":"14",
+"@id":"1419376",
+"info":{"authors":{"author":[{"@pid":"13/10345-1","text":"Zhen Tan 0001"},{"@pid":"299/4933","text":"Chengshuai Zhao"},{"@pid":"200/2411","text":"Raha Moraffah"},{"@pid":"43/5611","text":"Yifan Li"},{"@pid":"62/3151-13","text":"Song Wang 0013"},{"@pid":"144/7997","text":"Jundong Li"},{"@pid":"68/10575-1","text":"Tianlong Chen 0001"},{"@pid":"92/309-1","text":"Huan Liu 0001"}]},"title":"&quot;Glue pizza and eat rocks&quot; - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models.","venue":"CoRR","volume":"abs/2406.19417","year":"2024","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2406-19417","doi":"10.48550/ARXIV.2406.19417","ee":"https://doi.org/10.48550/arXiv.2406.19417","url":"https://dblp.org/rec/journals/corr/abs-2406-19417"},
+"url":"URL#1419376"
+}
+]
+}
+}
+}

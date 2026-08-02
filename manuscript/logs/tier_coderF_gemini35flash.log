@@ -1,0 +1,40 @@
+coderF_gemini35flash: 1703 pending of 1703
+{"judge": "coderF_gemini35flash", "done": 50, "total": 1703, "per_second": 0.38}
+{"judge": "coderF_gemini35flash", "done": 100, "total": 1703, "per_second": 0.37}
+{"judge": "coderF_gemini35flash", "done": 150, "total": 1703, "per_second": 0.39}
+{"judge": "coderF_gemini35flash", "done": 200, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 250, "total": 1703, "per_second": 0.41}
+{"judge": "coderF_gemini35flash", "done": 300, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 350, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 400, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 450, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 500, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 550, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 600, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 650, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 700, "total": 1703, "per_second": 0.41}
+{"judge": "coderF_gemini35flash", "done": 750, "total": 1703, "per_second": 0.4}
+{"judge": "coderF_gemini35flash", "done": 800, "total": 1703, "per_second": 0.41}
+{"judge": "coderF_gemini35flash", "done": 850, "total": 1703, "per_second": 0.41}
+{"judge": "coderF_gemini35flash", "done": 900, "total": 1703, "per_second": 0.41}
+{"judge": "coderF_gemini35flash", "done": 950, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1000, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1050, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1100, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1150, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1200, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1250, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1300, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1350, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1400, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1450, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1500, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1550, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1600, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1650, "total": 1703, "per_second": 0.42}
+{"judge": "coderF_gemini35flash", "done": 1700, "total": 1703, "per_second": 0.42}
+coderF_gemini35flash: wrote supplement/cross_paper_coding/coderF_gemini35flash.jsonl
+[01:07:11] coderF_gemini35flash attempt 1 -> 1684 rows
+coderF_gemini35flash: 19 pending of 1703
+coderF_gemini35flash: wrote supplement/cross_paper_coding/coderF_gemini35flash.jsonl
+[01:09:10] coderF_gemini35flash attempt 2 -> 1703 rows

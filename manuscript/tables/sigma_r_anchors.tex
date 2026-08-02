@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}lcrrcc@{}}
+\toprule
+Crossed design & Rev. & $R$ & Items & $\hat\sigma_r$ & Boot. \\
+\midrule
+Ours: census judges (this task) & model & 9 & 840 & 0.38 & [0.18, 0.51] \\
+Ours: constructed benchmark & model & 6 & 432 & 0.38 & [0.12, 0.48] \\
+Ours: model panel & model & 28 & 600 & 0.54 & [0.31, 0.75] \\
+DynaSent (sentiment) & human & 674 & 122,117 & 0.78 & [0.74, 0.81] \\
+GoEmotions (neutral) & human & 76 & 56,958 & 0.46 & [0.37, 0.54] \\
+LeWiDi (offensiveness) & human & 116 & 8,377 & 0.45 & [0.37, 0.53] \\
+MultiPref (quality) & human & 160 & 6,502 & 0.31 & [0.24, 0.37] \\
+Wiki Detox (toxicity) & human & 3,944 & 159,686 & 0.55 & [0.53, 0.56] \\
+\bottomrule
+\end{tabular}
+\caption{Between-reviewer heterogeneity estimated with one moment estimator on every crossed reviewer-by-item design we could obtain. $R$ is the number of reviewers retained ($\geq 30$ judgments for the public corpora). The first two rows are the estimate this paper needs and the literature does not supply: between-reviewer heterogeneity on cross-paper comparability adjudication itself, once on the real corpus against a leave-one-out majority of the other judges and once on the constructed benchmark against a reference fixed before any reviewer saw the item. Public human corpora are scored against a leave-one-out majority of the other annotators; the model panel is scored against the deterministic minimum of a displayed loss rule, which no reviewer supplies. The last column is the 2.5--97.5 percentile interval of a reviewer bootstrap (resampling reviewers with replacement, $B \geq 2{,}000$ draws), which targets the correct unit of replication for a between-reviewer variance parameter. An item bootstrap and a parametric bootstrap are reported in the supplement JSON for comparison.}
+\label{tab:sigma-r-anchors}
+\end{table}

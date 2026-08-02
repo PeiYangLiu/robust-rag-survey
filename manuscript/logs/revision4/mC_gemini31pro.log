@@ -1,0 +1,10 @@
+[mC_gemini31pro] 0 done, 80 to run
+[mC_gemini31pro] 10/80 parsed=10 failed=0
+[mC_gemini31pro] 20/80 parsed=20 failed=0
+[mC_gemini31pro] 30/80 parsed=30 failed=0
+[mC_gemini31pro] 40/80 parsed=40 failed=0
+[mC_gemini31pro] 50/80 parsed=50 failed=0
+[mC_gemini31pro] 60/80 parsed=60 failed=0
+[mC_gemini31pro] 70/80 parsed=70 failed=0
+[mC_gemini31pro] 80/80 parsed=80 failed=0
+[mC_gemini31pro] finished in 191s parsed=80 failed=0 -> manuscript/supplement/human_matched_panel/mC_gemini31pro.jsonl

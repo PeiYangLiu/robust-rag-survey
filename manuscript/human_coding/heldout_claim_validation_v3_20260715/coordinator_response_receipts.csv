@@ -1,0 +1,1 @@
+receipt_id,issuance_id,packet_id,participant_id,participant_role,assigned_arm,extraction_response_id,extraction_snapshot_sha256,canonical_response_file,final_row_sha256,received_utc,record_sha256

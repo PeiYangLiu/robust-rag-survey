@@ -1,0 +1,10 @@
+[mI_gemini36flash] 0 done, 80 to run
+[mI_gemini36flash] 10/80 parsed=10 failed=0
+[mI_gemini36flash] 20/80 parsed=20 failed=0
+[mI_gemini36flash] 30/80 parsed=30 failed=0
+[mI_gemini36flash] 40/80 parsed=40 failed=0
+[mI_gemini36flash] 50/80 parsed=50 failed=0
+[mI_gemini36flash] 60/80 parsed=60 failed=0
+[mI_gemini36flash] 70/80 parsed=70 failed=0
+[mI_gemini36flash] 80/80 parsed=80 failed=0
+[mI_gemini36flash] finished in 169s parsed=80 failed=0 -> manuscript/supplement/human_matched_panel/mI_gemini36flash.jsonl

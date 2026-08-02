@@ -1,0 +1,167 @@
+{
+  "baseline_all_scenarios_meet_target": false,
+  "baseline_design": {
+    "claims": 360,
+    "sources": 60
+  },
+  "chosen_design": {
+    "all_superiority_scenarios_meet_target": true,
+    "claims": 480,
+    "reason": "Exceeds the conservative approximate minimum and permits complete 20-block 3-of-6 auditor balance.",
+    "sources": 80,
+    "worst_superiority_power": 0.810658
+  },
+  "conditional_equivalence_planning": {
+    "claims_needed_for_0.80_in_worst_scenario": 528,
+    "interpretation": "Equivalence is a conditional TOST branch. Failure is inconclusive and is never interpreted as non-equivalence.",
+    "power_at_that_design": 0.803366,
+    "sources_needed_for_0.80_in_worst_scenario": 88,
+    "true_difference": 0.0,
+    "within_480_claim_80_source_cap": false,
+    "worst_scenario_chosen_design_power": 0.751731
+  },
+  "conservative_minimum_superiority_design": {
+    "approximate_power": 0.800832,
+    "claims": 468,
+    "discordance": 0.35,
+    "source_icc": 0.15,
+    "sources": 78
+  },
+  "generated_by": "power_analysis.py",
+  "limitations": [
+    "The source ICC is assumed to apply to the paired correctness-difference variable.",
+    "Clusters are assumed equal at six claims per source.",
+    "The approximation does not model crossed auditor or gold-expert effects.",
+    "Resolved gold labels and complete C/D ratings are assumed; missingness reduces power.",
+    "Normal and design-effect approximations may differ from finite-sample cluster inference.",
+    "Power calculations are prospective assumptions, not observed validation results."
+  ],
+  "method": {
+    "design_effect": "1 + (claims_per_source - 1) * source_icc",
+    "name": "normal approximation with equal-cluster design effect",
+    "paired_variable": "Y=1 if the D strict-majority arm label alone is exactly correct, -1 if the C strict-majority arm label alone is exactly correct, and 0 otherwise",
+    "test": "two-sided clustered paired accuracy difference",
+    "variance": "discordance - difference^2"
+  },
+  "parameters": {
+    "alpha": 0.05,
+    "claims_per_source": 6,
+    "discordance_scenarios": [
+      0.25,
+      0.3,
+      0.35
+    ],
+    "equivalence_margin": 0.1,
+    "minimum_meaningful_difference": 0.1,
+    "power_target": 0.8,
+    "source_icc_scenarios": [
+      0.05,
+      0.1,
+      0.15
+    ]
+  },
+  "random_seed": null,
+  "random_seed_note": "The calculation is deterministic and uses no RNG.",
+  "scenarios": [
+    {
+      "baseline_meets_0.80": true,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.25,
+      "minimum_claims_at_six_per_source": 240,
+      "minimum_sources": 40,
+      "power_360_claims_60_sources": 0.933727,
+      "power_480_claims_80_sources": 0.979327,
+      "power_at_minimum": 0.80743,
+      "source_icc": 0.05
+    },
+    {
+      "baseline_meets_0.80": true,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.25,
+      "minimum_claims_at_six_per_source": 288,
+      "minimum_sources": 48,
+      "power_360_claims_60_sources": 0.885379,
+      "power_480_claims_80_sources": 0.954631,
+      "power_at_minimum": 0.80743,
+      "source_icc": 0.1
+    },
+    {
+      "baseline_meets_0.80": true,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.25,
+      "minimum_claims_at_six_per_source": 330,
+      "minimum_sources": 55,
+      "power_360_claims_60_sources": 0.833412,
+      "power_480_claims_80_sources": 0.922291,
+      "power_at_minimum": 0.800413,
+      "source_icc": 0.15
+    },
+    {
+      "baseline_meets_0.80": true,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.3,
+      "minimum_claims_at_six_per_source": 288,
+      "minimum_sources": 48,
+      "power_360_claims_60_sources": 0.88325,
+      "power_480_claims_80_sources": 0.953415,
+      "power_at_minimum": 0.804746,
+      "source_icc": 0.05
+    },
+    {
+      "baseline_meets_0.80": true,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.3,
+      "minimum_claims_at_six_per_source": 342,
+      "minimum_sources": 57,
+      "power_360_claims_60_sources": 0.820381,
+      "power_480_claims_80_sources": 0.913378,
+      "power_at_minimum": 0.800659,
+      "source_icc": 0.1
+    },
+    {
+      "baseline_meets_0.80": false,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.3,
+      "minimum_claims_at_six_per_source": 402,
+      "minimum_sources": 67,
+      "power_360_claims_60_sources": 0.759104,
+      "power_480_claims_80_sources": 0.86767,
+      "power_at_minimum": 0.803586,
+      "source_icc": 0.15
+    },
+    {
+      "baseline_meets_0.80": true,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.35,
+      "minimum_claims_at_six_per_source": 336,
+      "minimum_sources": 56,
+      "power_360_claims_60_sources": 0.829062,
+      "power_480_claims_80_sources": 0.919349,
+      "power_at_minimum": 0.802832,
+      "source_icc": 0.05
+    },
+    {
+      "baseline_meets_0.80": false,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.35,
+      "minimum_claims_at_six_per_source": 402,
+      "minimum_sources": 67,
+      "power_360_claims_60_sources": 0.757063,
+      "power_480_claims_80_sources": 0.866047,
+      "power_at_minimum": 0.801667,
+      "source_icc": 0.1
+    },
+    {
+      "baseline_meets_0.80": false,
+      "chosen_design_meets_0.80": true,
+      "discordance": 0.35,
+      "minimum_claims_at_six_per_source": 468,
+      "minimum_sources": 78,
+      "power_360_claims_60_sources": 0.691396,
+      "power_480_claims_80_sources": 0.810658,
+      "power_at_minimum": 0.800832,
+      "source_icc": 0.15
+    }
+  ],
+  "status": "PROSPECTIVE_POWER_APPROXIMATION_NOT_EMPIRICAL_RESULTS"
+}

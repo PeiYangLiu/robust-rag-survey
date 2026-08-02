@@ -1,0 +1,38 @@
+\paragraph{Scope.}
+We survey work in which a retrieval-augmented generator has to behave sensibly when the
+evidence it receives is imperfect. The relevant conditions are irrelevant retrieval,
+insufficient context, conflicts between sources or between a source and the model's own
+parameters, stale or weakly attributed material, and deliberately corrupted passages. Two
+neighbouring literatures fall outside this scope: retrieval studies that never generate an
+answer, and generation studies that never retrieve. Neither exhibits the interaction we care
+about, namely a generator committing to an answer on the basis of evidence it did not choose
+and cannot fully trust.
+
+\paragraph{Search and screening.}
+We ran \FlowQueries{} arXiv queries together with five venue and repository sources at
+snapshot \FlowSnapshot{}, returning \FlowRetrieved{} records. Of these, \FlowOpenPDF{} had
+open PDFs, \FlowDedup{} survived deduplication, \FlowScreened{} passed relevance screening,
+and \FlowTexts{} full texts were extracted and indexed into overlapping windows. The
+screening rules and the scripts that apply them are released, and the PRISMA flow is
+reproduced as Appendix Figure~\ref{fig:screening-frame-flow}. One stage is documented but not
+re-executable: per-query hit counts were not logged at the snapshot date and live indices
+drift, so everything from the \FlowTexts{} extracted texts downward can be re-run, while the
+population those texts were drawn from cannot be reconstructed exactly. We therefore keep two
+activities apart throughout. The narrative synthesis of
+\S\ref{sec:evidence}--\S\ref{sec:system} draws on the broader literature and cites it
+directly; every number we report is stated for the screening frame, never for the field.
+
+\paragraph{Frame coverage and audit.}
+Because a frame that missed most of the field would make even frame-local numbers hard to
+read, we audited it against outside evidence. We took the bibliographies of \CovNSurveys{}
+prior surveys (\S\ref{sec:coordinates}), title-screened them for robust-RAG scope, and
+matched \CovPooledInScope{} unique references against our index. Recall is moderate rather
+than high: \CovRecallTextsPct\% \CovRecallTextsCI{} of those references reach our
+\FlowTexts{} full texts. The misses follow a systematic pattern---they name a specific system
+architecture in the title without using any scope term---which is why
+Sections~\ref{sec:evidence}--\ref{sec:system} cite the wider literature rather than the frame
+alone (Appendix Table~\ref{tab:frame-coverage}). The narrative rests on a released
+\MapRows{}-row evidence map recording, for each paper, the failure surface it addresses, the
+intervention it makes, the benchmarks it uses, and the metrics it reports. Because that map
+is preprint-heavy, we re-check every empirical claim on the peer-reviewed stratum alone
+(\MapPeerReviewed{} rows; Appendix Table~\ref{tab:peer-reviewed-backbone}).

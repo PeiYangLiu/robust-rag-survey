@@ -1,0 +1,100 @@
+{
+  "schema_version": "screen-recall-pool-v1",
+  "seed": 2026080431,
+  "universe_definition": "every window under the screen's own windowing that names a gazetteer system absent from the paper's title/abstract region and contains at least one result-formatted number; this drops the screen's second-numeral requirement and all three surface strata, which are exactly the conditions the reviewer identifies as selecting for baseline tables",
+  "n_universe_windows": 6710,
+  "n_screened_windows": 1703,
+  "n_missed_windows": 5007,
+  "screen_coverage_of_universe": 0.25380029806259313,
+  "sample_size": 420,
+  "sampling_fraction_of_missed": 0.08388256440982625,
+  "missed_numeral_counts": {
+    "1": 1341,
+    "4": 223,
+    "5": 2916,
+    "2": 308,
+    "3": 219
+  },
+  "missed_per_file_top20": [
+    [
+      "rrag001.txt",
+      191
+    ],
+    [
+      "rrag033.txt",
+      186
+    ],
+    [
+      "rrag057.txt",
+      165
+    ],
+    [
+      "rrag098.txt",
+      157
+    ],
+    [
+      "ragComprehensive2025.txt",
+      136
+    ],
+    [
+      "rrag017.txt",
+      105
+    ],
+    [
+      "rrag018.txt",
+      101
+    ],
+    [
+      "rrag084.txt",
+      94
+    ],
+    [
+      "rrag021.txt",
+      90
+    ],
+    [
+      "rrag016.txt",
+      89
+    ],
+    [
+      "rrag104.txt",
+      86
+    ],
+    [
+      "rrag027.txt",
+      81
+    ],
+    [
+      "rrag034.txt",
+      74
+    ],
+    [
+      "rrag134.txt",
+      73
+    ],
+    [
+      "poisonedRAG2024.txt",
+      71
+    ],
+    [
+      "rrag007.txt",
+      63
+    ],
+    [
+      "rrag063.txt",
+      62
+    ],
+    [
+      "rrag197.txt",
+      61
+    ],
+    [
+      "rrag200.txt",
+      58
+    ],
+    [
+      "rrag208.txt",
+      56
+    ]
+  ]
+}

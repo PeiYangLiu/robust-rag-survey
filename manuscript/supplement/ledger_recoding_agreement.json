@@ -1,0 +1,390 @@
+{
+  "judges": {
+    "recB_opus46": [
+      "Anthropic",
+      "claude-opus-4.6"
+    ],
+    "recC_gem31pro": [
+      "Google",
+      "gemini-3.1-pro-preview"
+    ],
+    "recG_opus48": [
+      "Anthropic",
+      "claude-opus-4.8"
+    ],
+    "recH_gem25pro": [
+      "Google",
+      "gemini-2.5-pro"
+    ],
+    "recI_gpt54": [
+      "OpenAI",
+      "gpt-5.4"
+    ],
+    "recJ_gpt55": [
+      "OpenAI",
+      "gpt-5.5"
+    ]
+  },
+  "cross_paper": {
+    "n_cases": 12,
+    "case_ids": [
+      "CALIB-03",
+      "FAITH-02",
+      "NOISE-01",
+      "NOISE-02",
+      "NOISE-03",
+      "NOISE-04",
+      "NOISE-05",
+      "SEC-01",
+      "SEC-02",
+      "SEC-03",
+      "SEC-04",
+      "SEC-05"
+    ],
+    "per_judge": {
+      "recB_opus46": {
+        "exact": 0.5833333333333334,
+        "kappa": 0.24050632911392408
+      },
+      "recC_gem31pro": {
+        "exact": 0.4166666666666667,
+        "kappa": -9.516197353929914e-17
+      },
+      "recG_opus48": {
+        "exact": 0.6666666666666666,
+        "kappa": 0.3924050632911391
+      },
+      "recH_gem25pro": {
+        "exact": 0.5833333333333334,
+        "kappa": 0.24050632911392408
+      },
+      "recI_gpt54": {
+        "exact": 0.6666666666666666,
+        "kappa": 0.3513513513513513
+      },
+      "recJ_gpt55": {
+        "exact": 0.5833333333333334,
+        "kappa": 0.18918918918918928
+      }
+    },
+    "mean_judge_exact": 0.5833333333333334,
+    "mean_judge_exact_ci95": [
+      0.513888888888889,
+      0.6388888888888888
+    ],
+    "mean_judge_kappa": 0.2356597103432546,
+    "majority_exact": 0.5833333333333334,
+    "majority_kappa": 0.3181818181818182,
+    "panel_fleiss_kappa": 0.5196094385679415,
+    "panel_unanimous_share": 0.5,
+    "binary_majority_exact": 1.0,
+    "binary_majority_kappa": 1.0,
+    "binary_panel_fleiss_kappa": 0.5225668449197867,
+    "binary_panel_unanimous_share": 0.6666666666666666,
+    "our_marginal": {
+      "narrows": 3,
+      "undefined": 7,
+      "survives": 2
+    },
+    "majority_marginal": {
+      "undefined": 7,
+      "tied": 2,
+      "survives": 2,
+      "narrows": 1
+    }
+  },
+  "all_cases": {
+    "n_cases": 15,
+    "case_ids": [
+      "CALIB-01",
+      "CALIB-02",
+      "CALIB-03",
+      "FAITH-01",
+      "FAITH-02",
+      "NOISE-01",
+      "NOISE-02",
+      "NOISE-03",
+      "NOISE-04",
+      "NOISE-05",
+      "SEC-01",
+      "SEC-02",
+      "SEC-03",
+      "SEC-04",
+      "SEC-05"
+    ],
+    "per_judge": {
+      "recB_opus46": {
+        "exact": 0.6,
+        "kappa": 0.3478260869565218
+      },
+      "recC_gem31pro": {
+        "exact": 0.4,
+        "kappa": 0.021739130434782747
+      },
+      "recG_opus48": {
+        "exact": 0.6666666666666666,
+        "kappa": 0.45652173913043476
+      },
+      "recH_gem25pro": {
+        "exact": 0.6,
+        "kappa": 0.3478260869565218
+      },
+      "recI_gpt54": {
+        "exact": 0.6,
+        "kappa": 0.3181818181818181
+      },
+      "recJ_gpt55": {
+        "exact": 0.5333333333333333,
+        "kappa": 0.20454545454545453
+      }
+    },
+    "mean_judge_exact": 0.5666666666666667,
+    "mean_judge_exact_ci95": [
+      0.48888888888888893,
+      0.6222222222222222
+    ],
+    "mean_judge_kappa": 0.2827733860342556,
+    "majority_exact": 0.5333333333333333,
+    "majority_kappa": 0.3137254901960784,
+    "panel_fleiss_kappa": 0.5526838966202778,
+    "panel_unanimous_share": 0.5333333333333333,
+    "binary_majority_exact": 0.9333333333333333,
+    "binary_majority_kappa": 0.8148148148148149,
+    "binary_panel_fleiss_kappa": 0.5673076923076923,
+    "binary_panel_unanimous_share": 0.6666666666666666,
+    "our_marginal": {
+      "survives": 4,
+      "narrows": 4,
+      "undefined": 7
+    },
+    "majority_marginal": {
+      "tied": 3,
+      "survives": 3,
+      "undefined": 8,
+      "narrows": 1
+    }
+  },
+  "stated": {
+    "n_cases": 8,
+    "case_ids": [
+      "FAITH-02",
+      "NOISE-01",
+      "NOISE-02",
+      "NOISE-05",
+      "SEC-01",
+      "SEC-03",
+      "SEC-04",
+      "SEC-05"
+    ],
+    "per_judge": {
+      "recB_opus46": {
+        "exact": 0.5,
+        "kappa": 0.2
+      },
+      "recC_gem31pro": {
+        "exact": 0.25,
+        "kappa": -0.14285714285714285
+      },
+      "recG_opus48": {
+        "exact": 0.625,
+        "kappa": 0.4
+      },
+      "recH_gem25pro": {
+        "exact": 0.625,
+        "kappa": 0.3684210526315789
+      },
+      "recI_gpt54": {
+        "exact": 0.625,
+        "kappa": 0.3684210526315789
+      },
+      "recJ_gpt55": {
+        "exact": 0.5,
+        "kappa": 0.15789473684210525
+      }
+    },
+    "mean_judge_exact": 0.5208333333333334,
+    "mean_judge_exact_ci95": [
+      0.3958333333333333,
+      0.6041666666666666
+    ],
+    "mean_judge_kappa": 0.22531328320802005,
+    "majority_exact": 0.5,
+    "majority_kappa": 0.30434782608695654,
+    "panel_fleiss_kappa": 0.47397260273972625,
+    "panel_unanimous_share": 0.375,
+    "binary_majority_exact": 1.0,
+    "binary_majority_kappa": 1.0,
+    "binary_panel_fleiss_kappa": 0.4352941176470588,
+    "binary_panel_unanimous_share": 0.5,
+    "our_marginal": {
+      "undefined": 4,
+      "survives": 2,
+      "narrows": 2
+    },
+    "majority_marginal": {
+      "tied": 2,
+      "survives": 2,
+      "undefined": 3,
+      "narrows": 1
+    }
+  },
+  "per_case": {
+    "CALIB-01": {
+      "ours": "survives",
+      "class": "within_harness_control",
+      "type": "DIRECT",
+      "votes": {
+        "survives": 3,
+        "undefined": 3
+      },
+      "agree_with_us": 3,
+      "n_judges": 6
+    },
+    "CALIB-02": {
+      "ours": "survives",
+      "class": "within_harness_control",
+      "type": "DIRECT",
+      "votes": {
+        "survives": 6
+      },
+      "agree_with_us": 6,
+      "n_judges": 6
+    },
+    "CALIB-03": {
+      "ours": "narrows",
+      "class": "cross_paper",
+      "type": "SURVEY-INVITED",
+      "votes": {
+        "undefined": 6
+      },
+      "agree_with_us": 0,
+      "n_judges": 6
+    },
+    "FAITH-01": {
+      "ours": "narrows",
+      "class": "within_harness_control",
+      "type": "SURVEY-INVITED",
+      "votes": {
+        "undefined": 6
+      },
+      "agree_with_us": 0,
+      "n_judges": 6
+    },
+    "FAITH-02": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "STATED-TRANSPORTED",
+      "votes": {
+        "survives": 3,
+        "undefined": 3
+      },
+      "agree_with_us": 3,
+      "n_judges": 6
+    },
+    "NOISE-01": {
+      "ours": "survives",
+      "class": "cross_paper",
+      "type": "STATED-REIMPLEMENTED",
+      "votes": {
+        "survives": 6
+      },
+      "agree_with_us": 6,
+      "n_judges": 6
+    },
+    "NOISE-02": {
+      "ours": "narrows",
+      "class": "cross_paper",
+      "type": "STATED-REIMPLEMENTED",
+      "votes": {
+        "undefined": 6
+      },
+      "agree_with_us": 0,
+      "n_judges": 6
+    },
+    "NOISE-03": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "SURVEY-INVITED",
+      "votes": {
+        "undefined": 6
+      },
+      "agree_with_us": 6,
+      "n_judges": 6
+    },
+    "NOISE-04": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "SURVEY-INVITED",
+      "votes": {
+        "undefined": 6
+      },
+      "agree_with_us": 6,
+      "n_judges": 6
+    },
+    "NOISE-05": {
+      "ours": "survives",
+      "class": "cross_paper",
+      "type": "STATED-REIMPLEMENTED",
+      "votes": {
+        "survives": 4,
+        "undefined": 2
+      },
+      "agree_with_us": 4,
+      "n_judges": 6
+    },
+    "SEC-01": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "STATED-TRANSPORTED-BASELINE",
+      "votes": {
+        "undefined": 5,
+        "survives": 1
+      },
+      "agree_with_us": 5,
+      "n_judges": 6
+    },
+    "SEC-02": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "SURVEY-INVITED",
+      "votes": {
+        "undefined": 5,
+        "narrows": 1
+      },
+      "agree_with_us": 5,
+      "n_judges": 6
+    },
+    "SEC-03": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "STATED-NO-NUMBER",
+      "votes": {
+        "narrows": 5,
+        "undefined": 1
+      },
+      "agree_with_us": 1,
+      "n_judges": 6
+    },
+    "SEC-04": {
+      "ours": "undefined",
+      "class": "cross_paper",
+      "type": "STATED-TRANSPORTED",
+      "votes": {
+        "undefined": 6
+      },
+      "agree_with_us": 6,
+      "n_judges": 6
+    },
+    "SEC-05": {
+      "ours": "narrows",
+      "class": "cross_paper",
+      "type": "STATED-REIMPLEMENTED",
+      "votes": {
+        "undefined": 3,
+        "survives": 3
+      },
+      "agree_with_us": 0,
+      "n_judges": 6
+    }
+  }
+}

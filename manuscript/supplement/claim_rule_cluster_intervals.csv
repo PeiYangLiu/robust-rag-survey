@@ -1,0 +1,16 @@
+comparison,comparison_label,metric,point_estimate,ci_low,ci_high,clusters,bootstrap_repetitions,seed,resampling_unit
+three_field_model,Three-field taxonomy,exact_accuracy,0.3,0.18181818181818182,0.41333333333333333,9,50000,20260714,source_key
+three_field_model,Three-field taxonomy,cohen_kappa,-0.0033594624860022876,-0.10649399231404118,0.10902907764706435,9,50000,20260714,source_key
+three_field_model,Three-field taxonomy,macro_f1,0.17962962962962964,0.10797747658183103,0.2558273423653781,9,50000,20260714,source_key
+evidence_control_baseline,Evidence+controls (C2/C5 ablated),exact_accuracy,0.5,0.3888888888888889,0.5930232558139535,9,50000,20260714,source_key
+evidence_control_baseline,Evidence+controls (C2/C5 ablated),cohen_kappa,0.2537313432835821,0.07859650539607961,0.3834490387173701,9,50000,20260714,source_key
+evidence_control_baseline,Evidence+controls (C2/C5 ablated),macro_f1,0.4169973544973545,0.2474086539825075,0.5558292861462995,9,50000,20260714,source_key
+five_coordinate_model,Five coordinates,exact_accuracy,0.55,0.4935064935064935,0.6119402985074627,9,50000,20260714,source_key
+five_coordinate_model,Five coordinates,cohen_kappa,0.3154266698359877,0.21749795584627954,0.3932980601214161,9,50000,20260714,source_key
+five_coordinate_model,Five coordinates,macro_f1,0.38192721257237383,0.299438004917457,0.44882382382382385,9,50000,20260714,source_key
+full_schema_model,Five coordinates + controls,exact_accuracy,0.5,0.421875,0.5747126436781609,9,50000,20260714,source_key
+full_schema_model,Five coordinates + controls,cohen_kappa,0.2725619458967947,0.13926670609107034,0.3640542907180385,9,50000,20260714,source_key
+full_schema_model,Five coordinates + controls,macro_f1,0.4365227780375045,0.291038298978933,0.5471889001300766,9,50000,20260714,source_key
+full_minus_evidence_control,Full minus C2/C5 ablation,exact_accuracy,0.0,-0.0641025641025641,0.0789473684210526,9,50000,20260714,source_key
+full_minus_evidence_control,Full minus C2/C5 ablation,cohen_kappa,0.01883060261321262,-0.07752712031558182,0.14483412528880937,9,50000,20260714,source_key
+full_minus_evidence_control,Full minus C2/C5 ablation,macro_f1,0.019525423540150022,-0.03592444409105856,0.11324596047136554,9,50000,20260714,source_key

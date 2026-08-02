@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}{\linewidth}{Xccc}
+\toprule
+\textbf{Rule} & \textbf{Exact [95\% CI]} &
+\textbf{$\kappa$ [95\% CI]} & \textbf{Macro-F1 [95\% CI]} \\
+\midrule
+Three-field taxonomy & 0.300 [0.182, 0.413] & -0.003 [-0.106, 0.109] & 0.180 [0.108, 0.256] \\
+Evidence+controls (C2/C5 ablated) & 0.500 [0.389, 0.593] & 0.254 [0.079, 0.383] & 0.417 [0.247, 0.556] \\
+Five coordinates & 0.550 [0.494, 0.612] & 0.315 [0.217, 0.393] & 0.382 [0.299, 0.449] \\
+Five coordinates + controls & 0.500 [0.422, 0.575] & 0.273 [0.139, 0.364] & 0.437 [0.291, 0.547] \\
+\bottomrule
+\end{tabularx}
+\caption{Agreement with adjudicated human verdicts on the 80-claim sample.
+Intervals use 50,000 source-cluster bootstrap resamples
+over nine sources. The resampling respects within-source dependence but cannot
+make a non-probability, development-overlapping sample representative. All
+rows still reuse the same model-coded fields.}
+\label{tab:main-rule-reliability}
+\end{table*}

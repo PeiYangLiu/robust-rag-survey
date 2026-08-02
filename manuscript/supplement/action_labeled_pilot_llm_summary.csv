@@ -1,0 +1,3 @@
+model,n,answer_accuracy,action_accuracy,joint_answer_action_accuracy,unsafe_action_rate
+gpt-4o,60,0.8333,0.8333,0.8333,0.0
+claude-sonnet-4.6,60,0.8333,0.8333,0.8333,0.0

@@ -1,0 +1,545 @@
+{
+  "rrag001": {
+    "bibtitle": "URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models",
+    "candidates": [
+      {
+        "htitle": "URAG: A Benchmark for Uncertainty Quantification in Retrieval-Augmented Large Language Models.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2603.19281",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag002": {
+    "bibtitle": "Trust or Abstain? A Self-Aware RAG Approach",
+    "candidates": [
+      {
+        "htitle": "Trust or Abstain? A Self-Aware RAG Approach.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2605.18792",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag003": {
+    "bibtitle": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+    "candidates": [
+      {
+        "htitle": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2605.10828",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag004": {
+    "bibtitle": "ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning",
+    "candidates": [
+      {
+        "htitle": "ProGRank: Probe-Gradient Reranking to Defend Dense-Retriever RAG from Corpus Poisoning.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2603.22934",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag005": {
+    "bibtitle": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+    "candidates": [
+      {
+        "htitle": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2601.07072",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag006": {
+    "bibtitle": "Over-Searching in Search-Augmented Large Language Models",
+    "candidates": [
+      {
+        "htitle": "Over-Searching in Search-Augmented Large Language Models.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2601.05503",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Over-Searching in Retrieval-Augmented Large Language Models.",
+        "ratio": 0.904,
+        "type": "Conference and Workshop Papers",
+        "venue": "EACL",
+        "year": "2026",
+        "doi": "10.18653/V1/2026.EACL-LONG.361",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag007": {
+    "bibtitle": "NAACL: Noise-AwAre Verbal Confidence Calibration for Robust LLMs in RAG Systems",
+    "candidates": []
+  },
+  "rrag008": {
+    "bibtitle": "CoRect: Context-Aware Logit Contrast for Hidden State Rectification to Resolve Knowledge Conflicts",
+    "candidates": [
+      {
+        "htitle": "CoRect: Context-Aware Logit Contrast for Hidden State Rectification to Resolve Knowledge Conflicts.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2602.08221",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag013": {
+    "bibtitle": "TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation",
+    "candidates": []
+  },
+  "rrag015": {
+    "bibtitle": "Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG",
+    "candidates": []
+  },
+  "rrag017": {
+    "bibtitle": "SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG",
+    "candidates": [
+      {
+        "htitle": "SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "NeurIPS",
+        "year": "2025",
+        "doi": "",
+        "surname_ok": true
+      },
+      {
+        "htitle": "SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2510.09710",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag023": {
+    "bibtitle": "PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation",
+    "candidates": [
+      {
+        "htitle": "PoisonArena: Uncovering Competing Poisoning Attacks in Retrieval-Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2505.12574",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag032": {
+    "bibtitle": "CUB: Benchmarking Context Utilisation Techniques for Language Models",
+    "candidates": [
+      {
+        "htitle": "CUB: Benchmarking Context Utilisation Techniques for Language Models.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ACL",
+        "year": "2026",
+        "doi": "10.18653/V1/2026.ACL-LONG.1151",
+        "surname_ok": true
+      },
+      {
+        "htitle": "CUB: Benchmarking Context Utilisation Techniques for Language Models.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2505.16518",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag034": {
+    "bibtitle": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home",
+    "candidates": [
+      {
+        "htitle": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ACL",
+        "year": "2025",
+        "doi": "10.18653/V1/2025.ACL-LONG.319",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Adaptive Retrieval Without Self-Knowledge? Bringing Uncertainty Back Home.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2501.12835",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag035": {
+    "bibtitle": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models",
+    "candidates": [
+      {
+        "htitle": "Glue pizza and eat rocks - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "EMNLP",
+        "year": "2024",
+        "doi": "10.18653/V1/2024.EMNLP-MAIN.96",
+        "surname_ok": true
+      },
+      {
+        "htitle": "&quot;Glue pizza and eat rocks&quot; - Exploiting Vulnerabilities in Retrieval-Augmented Generative Models.",
+        "ratio": 0.948,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2024",
+        "doi": "10.48550/ARXIV.2406.19417",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag039": {
+    "bibtitle": "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG",
+    "candidates": [
+      {
+        "htitle": "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ICLR",
+        "year": "2025",
+        "doi": "",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2024",
+        "doi": "10.48550/ARXIV.2410.05983",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag044": {
+    "bibtitle": "Learning to Filter Context for Retrieval-Augmented Generation",
+    "candidates": [
+      {
+        "htitle": "Learning to Filter Context for Retrieval-Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2023",
+        "doi": "10.48550/ARXIV.2311.08377",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag046": {
+    "bibtitle": "Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+    "candidates": [
+      {
+        "htitle": "Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ICLR",
+        "year": "2024",
+        "doi": "",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag049": {
+    "bibtitle": "UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation",
+    "candidates": [
+      {
+        "htitle": "UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2508.18652",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag051": {
+    "bibtitle": "GraphRAG under Fire",
+    "candidates": [
+      {
+        "htitle": "GraphRAG Under Fire.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "SP",
+        "year": "2026",
+        "doi": "10.1109/SP63933.2026.00070",
+        "surname_ok": true
+      },
+      {
+        "htitle": "GraphRAG under Fire.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2501.14050",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag057": {
+    "bibtitle": "Practical Poisoning Attacks against Retrieval-Augmented Generation",
+    "candidates": [
+      {
+        "htitle": "Practical Poisoning Attacks against Retrieval-Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "SACMAT",
+        "year": "2026",
+        "doi": "10.1145/3750555.3811900",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Practical Poisoning Attacks against Retrieval-Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2504.03957",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag058": {
+    "bibtitle": "Redefining Retrieval Evaluation in the Era of LLMs",
+    "candidates": [
+      {
+        "htitle": "Redefining Retrieval Evaluation in the Era of LLMs.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "EACL",
+        "year": "2026",
+        "doi": "10.18653/V1/2026.EACL-LONG.391",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Redefining Retrieval Evaluation in the Era of LLMs.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2510.21440",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag091": {
+    "bibtitle": "On the Diminishing Returns of Complex Robust RAG Training in the Era of Powerful LLMs",
+    "candidates": [
+      {
+        "htitle": "On the Diminishing Returns of Complex Robust RAG Training in the Era of Powerful LLMs.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "SIGIR-AP",
+        "year": "2025",
+        "doi": "10.1145/3767695.3769518",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag093": {
+    "bibtitle": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation",
+    "candidates": [
+      {
+        "htitle": "SURE-RAG: Sufficiency and Uncertainty-Aware Evidence Verification for Selective Retrieval-Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2605.03534",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag110": {
+    "bibtitle": "Who's Who: Large Language Models Meet Knowledge Conflicts in Practice",
+    "candidates": [
+      {
+        "htitle": "Who&apos;s Who: Large Language Models Meet Knowledge Conflicts in Practice.",
+        "ratio": 0.965,
+        "type": "Conference and Workshop Papers",
+        "venue": "EMNLP",
+        "year": "2024",
+        "doi": "10.18653/V1/2024.FINDINGS-EMNLP.593",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Who&apos;s Who: Large Language Models Meet Knowledge Conflicts in Practice.",
+        "ratio": 0.965,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2024",
+        "doi": "10.48550/ARXIV.2410.15737",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag111": {
+    "bibtitle": "Unanswerability Evaluation for Retrieval Augmented Generation",
+    "candidates": [
+      {
+        "htitle": "Unanswerability Evaluation for Retrieval Augmented Generation.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ACL",
+        "year": "2025",
+        "doi": "10.18653/V1/2025.ACL-LONG.415",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag112": {
+    "bibtitle": "Studying Large Language Model Behaviors Under Context-Memory Conflicts With Real Documents",
+    "candidates": []
+  },
+  "rrag115": {
+    "bibtitle": "RAFT: Adapting Language Model to Domain Specific RAG",
+    "candidates": [
+      {
+        "htitle": "RAFT: Adapting Language Model to Domain Specific RAG.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2024",
+        "doi": "10.48550/ARXIV.2403.10131",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag127": {
+    "bibtitle": "A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models",
+    "candidates": [
+      {
+        "htitle": "A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2508.04276",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag128": {
+    "bibtitle": "Traceback of Poisoned Texts in Poisoning Attacks to Retrieval-Augmented Generation",
+    "candidates": []
+  },
+  "rrag132": {
+    "bibtitle": "Whose Facts Win? LLM Source Preferences under Knowledge Conflicts",
+    "candidates": [
+      {
+        "htitle": "Whose Facts Win? LLM Source Preferences under Knowledge Conflicts.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ACL",
+        "year": "2026",
+        "doi": "10.18653/V1/2026.ACL-LONG.1357",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Whose Facts Win? LLM Source Preferences under Knowledge Conflicts.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2601.03746",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag141": {
+    "bibtitle": "MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations",
+    "candidates": [
+      {
+        "htitle": "MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "ACL",
+        "year": "2026",
+        "doi": "10.18653/V1/2026.FINDINGS-ACL.503",
+        "surname_ok": true
+      },
+      {
+        "htitle": "MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2026",
+        "doi": "10.48550/ARXIV.2602.23184",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag175": {
+    "bibtitle": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space",
+    "candidates": [
+      {
+        "htitle": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2512.14448",
+        "surname_ok": true
+      }
+    ]
+  },
+  "rrag206": {
+    "bibtitle": "Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge",
+    "candidates": [
+      {
+        "htitle": "Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge.",
+        "ratio": 1.0,
+        "type": "Conference and Workshop Papers",
+        "venue": "EMNLP",
+        "year": "2025",
+        "doi": "10.18653/V1/2025.EMNLP-MAIN.549",
+        "surname_ok": true
+      },
+      {
+        "htitle": "Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge.",
+        "ratio": 1.0,
+        "type": "Informal and Other Publications",
+        "venue": "CoRR",
+        "year": "2025",
+        "doi": "10.48550/ARXIV.2506.06240",
+        "surname_ok": true
+      }
+    ]
+  }
+}

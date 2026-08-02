@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"MTRAG* UN A Benchmark* for* Open* Challenges* in Multi* Turn* RAG* Conversations*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"346.40"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"69701677",
+"text":"conversations"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"12",
+"@id":"150231",
+"info":{"authors":{"author":[{"@pid":"15/8158","text":"Sara Rosenthal"},{"@pid":"75/4070","text":"Yannis Katsis"},{"@pid":"174/9539","text":"Vraj Shah"},{"@pid":"35/850","text":"Lihong He 0001"},{"@pid":"p/LucianPopa","text":"Lucian Popa 0001"},{"@pid":"22/8355","text":"Marina Danilevsky"}]},"title":"MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations.","venue":"ACL","pages":"10363-10369","year":"2026","type":"Conference and Workshop Papers","access":"open","key":"conf/acl/RosenthalKSHPD26","doi":"10.18653/V1/2026.FINDINGS-ACL.503","ee":"https://doi.org/10.18653/v1/2026.findings-acl.503","url":"https://dblp.org/rec/conf/acl/RosenthalKSHPD26"},
+"url":"URL#150231"
+},
+{
+"@score":"12",
+"@id":"228987",
+"info":{"authors":{"author":[{"@pid":"15/8158","text":"Sara Rosenthal"},{"@pid":"75/4070","text":"Yannis Katsis"},{"@pid":"174/9539","text":"Vraj Shah"},{"@pid":"35/850","text":"Lihong He 0001"},{"@pid":"p/LucianPopa","text":"Lucian Popa 0001"},{"@pid":"22/8355","text":"Marina Danilevsky"}]},"title":"MTRAG-UN: A Benchmark for Open Challenges in Multi-Turn RAG Conversations.","venue":"CoRR","volume":"abs/2602.23184","year":"2026","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2602-23184","doi":"10.48550/ARXIV.2602.23184","ee":"https://doi.org/10.48550/arXiv.2602.23184","url":"https://dblp.org/rec/journals/corr/abs-2602-23184"},
+"url":"URL#228987"
+}
+]
+}
+}
+}

@@ -1,0 +1,10 @@
+apk_gpt4o/instrument: 432 pending of 432
+  apk_gpt4o 50/432 parsed=44 0.83/s
+  apk_gpt4o 100/432 parsed=94 1.01/s
+  apk_gpt4o 150/432 parsed=144 1.07/s
+  apk_gpt4o 200/432 parsed=192 1.07/s
+  apk_gpt4o 250/432 parsed=241 1.09/s
+  apk_gpt4o 300/432 parsed=291 1.09/s
+  apk_gpt4o 350/432 parsed=337 1.09/s
+  apk_gpt4o 400/432 parsed=350 0.92/s
+done apk_gpt4o/instrument: 350/432 parsed

@@ -1,0 +1,4 @@
+split,subset,rows,p_critical_errors,q_critical_errors,p_only,q_only,both,neither,paired_exact_mcnemar_p
+calibration,all,290,15,26,15,26,0,249,0.1172752
+formal,all,480,2,48,2,48,0,430,2.266631e-12
+formal,panel_resolved,453,2,45,2,45,0,406,1.604405e-11

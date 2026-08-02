@@ -1,0 +1,10 @@
+[mB_claudeopus46] 0 done, 80 to run
+[mB_claudeopus46] 10/80 parsed=10 failed=0
+[mB_claudeopus46] 20/80 parsed=20 failed=0
+[mB_claudeopus46] 30/80 parsed=30 failed=0
+[mB_claudeopus46] 40/80 parsed=40 failed=0
+[mB_claudeopus46] 50/80 parsed=50 failed=0
+[mB_claudeopus46] 60/80 parsed=60 failed=0
+[mB_claudeopus46] 70/80 parsed=70 failed=0
+[mB_claudeopus46] 80/80 parsed=80 failed=0
+[mB_claudeopus46] finished in 66s parsed=80 failed=0 -> manuscript/supplement/human_matched_panel/mB_claudeopus46.jsonl

@@ -1,0 +1,240 @@
+description: |
+  Controlled crossed-prompt experiment, version 2, on 600 consequence-defined
+  robust-RAG deployment decisions (300 counterfactual pairs). Every model
+  answers every item under three arms (ablated / length-matched placebo / full)
+  crossed with four hand-written paraphrases per arm, i.e. 7,200 greedy
+  decisions per model. Ten instruction-tuned open models from five developers
+  are covered so that the arm contrast is estimated over a model population
+  rather than three fixed checkpoints.
+
+target:
+  service: singularity
+  name: <SINGULARITY_VC>   # set to your virtual cluster
+  workspace_name: <AML_WORKSPACE>   # set to your AzureML workspace
+
+environment:
+  image: amlt-sing/acpt-torch2.7.1-py3.10-cuda12.6-ubuntu22.04
+  setup:
+    - python -m pip install --user "transformers==4.57.1" "accelerate==1.11.0" sentencepiece safetensors hf-transfer
+
+code:
+  local_dir: $CONFIG_DIR/../manuscript
+  ignore:
+    - "*"
+    - "!scripts/"
+    - "scripts/*"
+    - "!scripts/run_controlled_model_judges_v2.py"
+    - "!supplement/"
+    - "supplement/*"
+    - "!supplement/controlled_claim_audit_benchmark_v2.jsonl"
+
+env_defaults:
+  HF_HOME: /scratch/hf_cache
+  HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+  HF_HUB_ENABLE_HF_TRANSFER: "1"
+  TOKENIZERS_PARALLELISM: "false"
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  - name: qwen25-7b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model Qwen/Qwen2.5-7B-Instruct
+        --revision a09a35458c702b33eeacc393d103063234e8bc28
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/qwen25-7b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/qwen25-7b-summary.json"
+        --batch-size 24 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: qwen25-14b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model Qwen/Qwen2.5-14B-Instruct
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/qwen25-14b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/qwen25-14b-summary.json"
+        --batch-size 16 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: qwen25-32b
+    identity: managed
+    sku: 80G2-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model Qwen/Qwen2.5-32B-Instruct
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/qwen25-32b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/qwen25-32b-summary.json"
+        --batch-size 12 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: qwen3-8b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model Qwen/Qwen3-8B
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/qwen3-8b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/qwen3-8b-summary.json"
+        --batch-size 24 --disable-thinking --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: phi-4-mini
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model microsoft/Phi-4-mini-instruct
+        --revision cfbefacb99257ffa30c83adab238a50856ac3083
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/phi-4-mini.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/phi-4-mini-summary.json"
+        --batch-size 24 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: phi-4
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model microsoft/phi-4
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/phi-4.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/phi-4-summary.json"
+        --batch-size 16 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: olmo2-7b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model allenai/OLMo-2-1124-7B-Instruct
+        --revision 470b1fba1ae01581f270116362ee4aa1b97f4c84
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/olmo2-7b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/olmo2-7b-summary.json"
+        --batch-size 24 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: olmo2-13b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model allenai/OLMo-2-1124-13B-Instruct
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/olmo2-13b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/olmo2-13b-summary.json"
+        --batch-size 16 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: granite-31-8b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model ibm-granite/granite-3.1-8b-instruct
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/granite-31-8b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/granite-31-8b-summary.json"
+        --batch-size 24 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"
+
+  - name: falcon3-7b
+    identity: managed
+    sku: 80G1-A100
+    sla_tier: standard
+    command:
+      - >-
+        python scripts/run_controlled_model_judges_v2.py
+        --model tiiuae/Falcon3-7B-Instruct
+        --benchmark supplement/controlled_claim_audit_benchmark_v2.jsonl
+        --output "$$AMLT_OUTPUT_DIR/falcon3-7b.jsonl"
+        --summary "$$AMLT_OUTPUT_DIR/falcon3-7b-summary.json"
+        --batch-size 24 --progress
+    submit_args:
+      env:
+        HF_HOME: /scratch/hf_cache
+        HUGGINGFACE_HUB_CACHE: /scratch/hf_cache/hub
+        HF_HUB_ENABLE_HF_TRANSFER: "1"
+        TOKENIZERS_PARALLELISM: "false"
+        PYTHONUNBUFFERED: "1"

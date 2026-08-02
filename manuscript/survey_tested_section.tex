@@ -1,0 +1,49 @@
+A taxonomy that cannot be applied by anyone other than its authors is a description of the
+authors' intuitions. We therefore treat the coordinates of \S\ref{sec:coordinates} as an
+instrument and measure it: can independent coders recover the coordinates from prose, what does
+excluding C3 actually cost, and are five coordinates doing work that two would not? The coders
+in this section are LLM judges from several providers; \S\ref{sec:applied} adds a human expert
+panel.\footnote{Throughout, $\kappa$ is Fleiss' $\kappa$ over the panel, $\kappa_{\max}$ the
+largest value attainable given the raters' marginals \citep{umesh1989maxkappa,sim2005kappa},
+$AC_1$ is Gwet's prevalence-robust statistic, and ``observed'' is raw pairwise agreement. Under
+skewed labels $\kappa$ is deflated by construction, so we report all four. Intervals are
+percentile bootstrap over the stated cluster unit.}
+
+\paragraph{Coordinates are recoverable when they are stated.}
+We wrote \InsTwoItems{} short passages in the style of an experimental-setup paragraph, each
+generated from a ground-truth specification of whether two settings agree on C1, C2, C4 and C5
+and of which of them the text actually discloses; the correct verdict then follows
+deterministically from the rule in \S\ref{sec:coordinates}. Disclosure varies across three
+regimes---everything stated; something withheld but the verdict still fixed by what remains
+(baseline \InsBalBase{}); and something withheld so that the correct answer is
+\emph{underspecified} (a degenerate arm, baseline \InsForceBase{})---crossed with a
+checklist-versus-prose presentation factor (Appendix~\ref{sec:appendix-instrument}). On the
+\InsFullN{} fully disclosing passages, \InsTwoJudges{} judges recover coordinate labels with
+\InsFullCoord{} accuracy and agree on the verdict at $\kappa$ \InsFullK{}. Over all
+\InsTwoScored{} items the composed rule reaches \InsTwoRule{} against a constant baseline of
+\InsTwoBase{}, and writing the same content as natural prose rather than as a checklist costs
+almost nothing (\InsCanonCoord{} to \InsNatCoord{}). The instrument is therefore sound; what
+follows is about the text it is applied to.
+
+\paragraph{What excluding C3 costs.}
+Since dropping C3 is a definitional choice, we report its consequences rather than defend it.
+Across \CensusEligible{} eligible windows, majority vote marks C3 a mismatch on
+\CthreeMismatchCount{} instances (\CThreeMismatchMaj\% of majority-classified items). Gating on
+C3 would flip \CthreeGateChanged{} of \CthreeGateN{} composite verdicts and cut surviving
+comparisons from \CthreeSurvWithout{} to \CthreeSurvWith{}, which is to say it would abolish
+cross-paper comparison rather than discipline it. One statistic needs care here: inter-judge
+$\kappa$ on C3 is near zero, but \PrevCThree\% of its labels fall in a single class, and under
+that skew $\kappa$ is uninformative. Raw agreement is \ObsCThree{}, Gwet's $AC_1$ is $0.72$, and
+$\kappa_{\max}$ is only \KmaxCThree{}: this is the prevalence paradox \citep{sim2005kappa}, not
+an inability to read intervention descriptions.
+
+\paragraph{Five coordinates versus two.}
+On non-degenerate items the five-coordinate rule reaches \InsFiveAcc{} against \InsBestTwoAcc{}
+for the best two-coordinate estimator (paired difference \InsFiveVsTwoDiff{}, exact McNemar
+$p=\InsFiveVsTwoP$). On the degenerate arm ($N=\InsForceN$) five coordinates give \InsForceFive{}
+and two give \InsForceTwo{}, yet both lose to a constant predictor that always answers
+``underspecified'' (\InsForceBase{} by construction)---the clearest single sign that the
+bottleneck is the source text rather than the schema. On real corpus data a reduced C1/C4
+codebook performs comparably (\AblCFourDelta{} difference, \AblCFourCI{}). We read this as C1 and
+C4 being the minimal pair a comparison cannot do without, while C2 and C5 earn their place by
+naming the ambiguity that remains.

@@ -1,0 +1,6 @@
+provenance/both_full/refB_gpt55: 90 pending of 90
+  provenance/both_full/refB_gpt55 20/90 parsed=0 0.22/s
+  provenance/both_full/refB_gpt55 40/90 parsed=0 0.25/s
+  provenance/both_full/refB_gpt55 60/90 parsed=0 0.27/s
+  provenance/both_full/refB_gpt55 80/90 parsed=0 0.26/s
+done provenance/both_full/refB_gpt55: 0/90 parsed

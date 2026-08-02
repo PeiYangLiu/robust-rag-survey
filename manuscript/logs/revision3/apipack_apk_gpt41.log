@@ -1,0 +1,10 @@
+apk_gpt41/instrument: 432 pending of 432
+  apk_gpt41 50/432 parsed=50 1.03/s
+  apk_gpt41 100/432 parsed=98 1.07/s
+  apk_gpt41 150/432 parsed=148 1.06/s
+  apk_gpt41 200/432 parsed=194 1.02/s
+  apk_gpt41 250/432 parsed=240 1.00/s
+  apk_gpt41 300/432 parsed=287 1.01/s
+  apk_gpt41 350/432 parsed=324 0.95/s
+  apk_gpt41 400/432 parsed=324 0.81/s
+done apk_gpt41/instrument: 324/432 parsed

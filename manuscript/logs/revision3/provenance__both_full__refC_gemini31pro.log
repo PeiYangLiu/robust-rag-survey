@@ -1,0 +1,6 @@
+provenance/both_full/refC_gemini31pro: 90 pending of 90
+  provenance/both_full/refC_gemini31pro 20/90 parsed=16 0.34/s
+  provenance/both_full/refC_gemini31pro 40/90 parsed=36 0.34/s
+  provenance/both_full/refC_gemini31pro 60/90 parsed=53 0.35/s
+  provenance/both_full/refC_gemini31pro 80/90 parsed=72 0.37/s
+done provenance/both_full/refC_gemini31pro: 82/90 parsed

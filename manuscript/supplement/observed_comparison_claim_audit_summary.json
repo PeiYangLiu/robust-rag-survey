@@ -1,0 +1,217 @@
+{
+  "adjudication_status": "source_verified_model_adjudication_not_human",
+  "balanced_packet": {
+    "key_sha256": "790a22d5429e339b95e83939758971b6fa58dc2be8361d89908ab15abc41c838",
+    "n": 16,
+    "packet_sha256": "4a3da3f4397ba37f109759b36604cf1cf9fd96c8e457a2cff275881540b3d8ca",
+    "per_class": 4,
+    "seed": 20260714,
+    "status": "completed_as_16_claim_core_within_80_claim_human_validation"
+  },
+  "by_slice": {
+    "action_policy": {
+      "c5_action_applicable": 40,
+      "controls_decisive": 17,
+      "evidence_state_decisive": 1,
+      "full_verdict": {
+        "invalid": 13,
+        "partial": 33,
+        "under-specified": 4,
+        "valid": 34
+      },
+      "n": 84,
+      "origin_decisive": 0,
+      "policy_decisive": 9
+    },
+    "general": {
+      "c5_action_applicable": 1,
+      "controls_decisive": 3,
+      "evidence_state_decisive": 0,
+      "full_verdict": {
+        "invalid": 13,
+        "partial": 57,
+        "valid": 79
+      },
+      "n": 149,
+      "origin_decisive": 0,
+      "policy_decisive": 0
+    },
+    "threat_model": {
+      "c5_action_applicable": 3,
+      "controls_decisive": 3,
+      "evidence_state_decisive": 0,
+      "full_verdict": {
+        "partial": 44,
+        "valid": 12
+      },
+      "n": 56,
+      "origin_decisive": 7,
+      "policy_decisive": 3
+    }
+  },
+  "by_source_full_verdict": {
+    "alushi2026comparison": {
+      "invalid": 6,
+      "partial": 9,
+      "valid": 25
+    },
+    "joren2025sufficient": {
+      "invalid": 5,
+      "partial": 6,
+      "under-specified": 1,
+      "valid": 6
+    },
+    "liu2025donotabstain": {
+      "invalid": 1,
+      "partial": 5,
+      "under-specified": 2,
+      "valid": 2
+    },
+    "ragComprehensive2025": {
+      "invalid": 7,
+      "partial": 18,
+      "valid": 17
+    },
+    "securityRAGSurvey2026": {
+      "partial": 36,
+      "valid": 6
+    },
+    "trustRAGCompass2024": {
+      "partial": 26,
+      "valid": 34
+    },
+    "trustworthyRAGSurvey2025": {
+      "partial": 12,
+      "valid": 9
+    },
+    "wen2025abstention": {
+      "invalid": 3,
+      "partial": 12,
+      "under-specified": 1
+    },
+    "zhu2026trustabstain": {
+      "invalid": 4,
+      "partial": 10,
+      "valid": 26
+    }
+  },
+  "candidate_pool_frozen_before_adjudication": true,
+  "coordinate_coverage": {
+    "c1_non_unknown": 289,
+    "c2_non_unknown": 289,
+    "c3_non_unknown": 289,
+    "c4_non_unknown": 289,
+    "c5_action_applicable": 44,
+    "c5_non_unknown_or_na": 289,
+    "utility_required": 22
+  },
+  "decisive_counts": {
+    "evidence_state": 1,
+    "intervention_difference_permitted": 120,
+    "origin_capability": 7,
+    "origin_or_policy": 19,
+    "policy_utility": 12,
+    "second_stage_controls": 23
+  },
+  "distributions": {
+    "archetype_included": {
+      "A_self_baseline": 31,
+      "B_shared_harness": 101,
+      "C_cross_source_synthesis": 63,
+      "D_causal_mechanistic": 57,
+      "E_field_meta": 28,
+      "F_policy_utility": 9
+    },
+    "claim_strength_included": {
+      "causal": 57,
+      "descriptive": 81,
+      "directional": 92,
+      "field_absence_or_incommensurability": 25,
+      "normative_policy": 4,
+      "rank_or_superlative": 30
+    },
+    "fim_verdict_included": {
+      "invalid": 47,
+      "partial": 195,
+      "valid": 47
+    },
+    "five_coordinate_verdict_included": {
+      "invalid": 26,
+      "partial": 118,
+      "valid": 145
+    },
+    "full_verdict_included": {
+      "invalid": 26,
+      "partial": 134,
+      "under-specified": 4,
+      "valid": 125
+    },
+    "slice": {
+      "action_policy": 84,
+      "general": 149,
+      "threat_model": 56
+    },
+    "source": {
+      "alushi2026comparison": 40,
+      "joren2025sufficient": 18,
+      "liu2025donotabstain": 10,
+      "ragComprehensive2025": 42,
+      "securityRAGSurvey2026": 42,
+      "trustRAGCompass2024": 60,
+      "trustworthyRAGSurvey2025": 21,
+      "wen2025abstention": 16,
+      "zhu2026trustabstain": 40
+    }
+  },
+  "headline_use": "prohibited_unvalidated_model_verdict_distribution_and_rule_transitions",
+  "human_validation": {
+    "adjudicated_distribution": {
+      "invalid": 6,
+      "partial": 29,
+      "under-specified": 2,
+      "valid": 43
+    },
+    "balanced_core_n": 16,
+    "cohen_kappa": 0.2725619458967948,
+    "exact_agreement": 0.5,
+    "macro_f1": 0.4365227780375045,
+    "n": 80,
+    "population_inference": "not_supported_model_stratified_sample",
+    "status": "completed_negative_reliability_study"
+  },
+  "input_sha256": {
+    "action_policy_adjudicated": "8a33b4cf4f71b4c1359d852357fa3aec2115299d63cdec7d74b9f30695dce70b",
+    "action_policy_candidates": "77530bc4241241db68690ee08d2767f7052b3a6a8da551b51a77ccb38b21f417",
+    "general_adjudicated": "557920781a9104cc08da6deb71999424736b76826ac63ea66e35d206a377d55c",
+    "general_candidates": "63ff4287ad6af90cb727fe78c9c7dd79b0f44eb934f28fe7b8fae6f71dc7447d",
+    "threat_model_adjudicated": "ec1d06382dd34ea0b0fbe53581b66cee77f0cab1593e4e1416a71ef82840f98c",
+    "threat_model_candidates": "bc7ae4bb1212ad28bdae8aa27e42b10df854017e19f440eadbc4bdd2d679110d"
+  },
+  "n_candidates": 291,
+  "n_excluded_not_comparative": 2,
+  "n_included_comparative_claims": 289,
+  "n_sources": 9,
+  "not_external_gold": true,
+  "output_sha256": "b66f8fa11ee371efdda47ac3a0e5cec7ae39ba43c88b78069e90cb074bbc93e1",
+  "transitions": {
+    "fim_to_five": {
+      "invalid->invalid": 16,
+      "invalid->partial": 31,
+      "partial->invalid": 9,
+      "partial->partial": 66,
+      "partial->valid": 120,
+      "valid->invalid": 1,
+      "valid->partial": 21,
+      "valid->valid": 25
+    },
+    "five_to_full": {
+      "invalid->invalid": 26,
+      "partial->partial": 115,
+      "partial->under-specified": 3,
+      "valid->partial": 19,
+      "valid->under-specified": 1,
+      "valid->valid": 125
+    }
+  },
+  "version": "2026-07-14"
+}

@@ -1,0 +1,10 @@
+[mE_gpt56sol] 0 done, 80 to run
+[mE_gpt56sol] 10/80 parsed=0 failed=10
+[mE_gpt56sol] 20/80 parsed=0 failed=20
+[mE_gpt56sol] 30/80 parsed=0 failed=30
+[mE_gpt56sol] 40/80 parsed=0 failed=40
+[mE_gpt56sol] 50/80 parsed=0 failed=50
+[mE_gpt56sol] 60/80 parsed=0 failed=60
+[mE_gpt56sol] 70/80 parsed=0 failed=70
+[mE_gpt56sol] 80/80 parsed=0 failed=80
+[mE_gpt56sol] finished in 293s parsed=0 failed=80 -> manuscript/supplement/human_matched_panel/mE_gpt56sol.jsonl

@@ -1,0 +1,119 @@
+coderD_gpt41: 1703 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 1703, "per_second": 1.0}
+{"judge": "coderD_gpt41", "done": 100, "total": 1703, "per_second": 0.99}
+{"judge": "coderD_gpt41", "done": 150, "total": 1703, "per_second": 0.99}
+{"judge": "coderD_gpt41", "done": 200, "total": 1703, "per_second": 1.02}
+{"judge": "coderD_gpt41", "done": 250, "total": 1703, "per_second": 1.01}
+{"judge": "coderD_gpt41", "done": 300, "total": 1703, "per_second": 0.99}
+{"judge": "coderD_gpt41", "done": 350, "total": 1703, "per_second": 1.0}
+{"judge": "coderD_gpt41", "done": 400, "total": 1703, "per_second": 1.0}
+{"judge": "coderD_gpt41", "done": 450, "total": 1703, "per_second": 1.0}
+{"judge": "coderD_gpt41", "done": 500, "total": 1703, "per_second": 1.0}
+{"judge": "coderD_gpt41", "done": 550, "total": 1703, "per_second": 0.94}
+{"judge": "coderD_gpt41", "done": 600, "total": 1703, "per_second": 0.82}
+{"judge": "coderD_gpt41", "done": 650, "total": 1703, "per_second": 0.76}
+{"judge": "coderD_gpt41", "done": 700, "total": 1703, "per_second": 0.71}
+{"judge": "coderD_gpt41", "done": 750, "total": 1703, "per_second": 0.67}
+{"judge": "coderD_gpt41", "done": 800, "total": 1703, "per_second": 0.64}
+{"judge": "coderD_gpt41", "done": 850, "total": 1703, "per_second": 0.62}
+{"judge": "coderD_gpt41", "done": 900, "total": 1703, "per_second": 0.6}
+{"judge": "coderD_gpt41", "done": 950, "total": 1703, "per_second": 0.58}
+{"judge": "coderD_gpt41", "done": 1000, "total": 1703, "per_second": 0.56}
+{"judge": "coderD_gpt41", "done": 1050, "total": 1703, "per_second": 0.55}
+[00:33:44] coderD_gpt41 attempt 1 -> 535 rows
+coderD_gpt41: 1176 pending of 1703
+coderD_gpt41: 1176 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 1176, "per_second": 0.34}
+{"judge": "coderD_gpt41", "done": 100, "total": 1176, "per_second": 0.36}
+{"judge": "coderD_gpt41", "done": 150, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 200, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 250, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 300, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 350, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 400, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 50, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 450, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 500, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 550, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 600, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 650, "total": 1176, "per_second": 0.37}
+{"judge": "coderD_gpt41", "done": 700, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 750, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 800, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 100, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 850, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 900, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 950, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 1000, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 1050, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 1100, "total": 1176, "per_second": 0.38}
+{"judge": "coderD_gpt41", "done": 1150, "total": 1176, "per_second": 0.38}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+[01:25:47] coderD_gpt41 attempt 2 -> 1901 rows
+{"judge": "coderD_gpt41", "done": 150, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 200, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 250, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 300, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 350, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 400, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 450, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 500, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 550, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 600, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 650, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 700, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 750, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 800, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 850, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 900, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 950, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 1000, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 1050, "total": 1176, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 1100, "total": 1176, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 1150, "total": 1176, "per_second": 0.05}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+coderD_gpt41: kept 1059, dropped 667
+coderD_gpt41: 638 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 100, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 150, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 200, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 250, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 300, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 350, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 400, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 450, "total": 638, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 500, "total": 638, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 550, "total": 638, "per_second": 0.06}
+{"judge": "coderD_gpt41", "done": 600, "total": 638, "per_second": 0.06}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+coderD_gpt41: kept 1408, dropped 64
+coderD_gpt41: 287 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 287, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 100, "total": 287, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 150, "total": 287, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 200, "total": 287, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 250, "total": 287, "per_second": 0.05}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+coderD_gpt41: kept 1413, dropped 101
+coderD_gpt41: 284 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 284, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 100, "total": 284, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 150, "total": 284, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 200, "total": 284, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 250, "total": 284, "per_second": 0.05}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+coderD_gpt41: kept 1413, dropped 180
+coderD_gpt41: 281 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 281, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 100, "total": 281, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 150, "total": 281, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 200, "total": 281, "per_second": 0.05}
+{"judge": "coderD_gpt41", "done": 250, "total": 281, "per_second": 0.05}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+coderD_gpt41: kept 1571, dropped 221
+coderD_gpt41: 132 pending of 1703
+{"judge": "coderD_gpt41", "done": 50, "total": 132, "per_second": 0.25}
+{"judge": "coderD_gpt41", "done": 100, "total": 132, "per_second": 0.25}
+coderD_gpt41: wrote supplement/cross_paper_coding/coderD_gpt41.jsonl
+coderD_gpt41: kept 1703, dropped 66

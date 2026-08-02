@@ -1,0 +1,25 @@
+{
+  "description": "Schema for the administrative sampling-screen audit chain; it contains no test outcome.",
+  "required_top_level_fields": {
+    "current_candidate_state": {
+      "artifact": "candidate_claims_model_prescreen.csv",
+      "rows": "nonnegative integer",
+      "sha256": "64-character lowercase SHA-256"
+    },
+    "prohibited_use": "Sampling votes are not model, human test, gold, evidence-support, comparability, or adjudication labels.",
+    "schema_version": "sampling-screen-v1 (retained for compatibility; replacement stages are hash-linked extensions)",
+    "screening_complete": "boolean; true only after all active-source initial/replacement agreements and any tiebreak responses are merged",
+    "stages": "ordered nonempty list: initial screening followed by zero or more hash-linked apply/build/merge replacement cycles; a cycle may omit merge_replacement_tiebreak when initial replacement votes agree; the frozen package ends with one apply_pretest_text_corrections stage anchored to the reversible correction ledger",
+    "status": "initialized_model_free_awaiting_initial_packets, initial_packets_built_awaiting_responses, awaiting_tiebreak, awaiting_replacement_screen, replacement_packets_built_awaiting_responses, awaiting_replacement_tiebreak, or human_sampling_screen_complete"
+  },
+  "stage_required_fields": {
+    "counts": "integer-valued administrative counts including test_outcomes_generated=0",
+    "inputs": "list of artifact name, row count, and SHA-256; RB-002+ apply stages include source_replacement_summary_parent.json",
+    "outputs": "list of artifact name, row count, and SHA-256",
+    "recorded_utc": "nonempty coordinator-supplied UTC timestamp",
+    "screener_ids": "anonymous IDs only",
+    "stage": "initialize, build_initial, merge_initial, merge_tiebreak, a repeatable apply_replacements/build_replacement/merge_replacement_initial/[merge_replacement_tiebreak] cycle, or the single final apply_pretest_text_corrections administrative stage",
+    "stage_record_sha256": "SHA-256 of the stage object before this field is added"
+  },
+  "status": "SCHEMA_ONLY_NO_TEST_OUTCOMES"
+}

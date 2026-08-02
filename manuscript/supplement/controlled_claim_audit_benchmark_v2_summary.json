@@ -1,0 +1,64 @@
+{
+  "benchmark_sha256": "1886acad2e84844ce5e0a8a00d83980920181d7d40cb722453dc00b8a2f3888a",
+  "design_changes_from_v1": [
+    "c5_utility deferral price is exogenous and optimal on a designed share of items",
+    "c2_capability adds an asymmetric sub-type in which only one system leaves its envelope",
+    "probe_competence stratum displays all three action losses and defines the validity gate"
+  ],
+  "human_labels_used": false,
+  "items": 600,
+  "minimum_margin": 0.02,
+  "pairs": 300,
+  "schema_version": "controlled-claim-audit-summary-v2",
+  "seed": 2026072701,
+  "source_paper_text_used": false,
+  "strata": {
+    "c2_capability": 240,
+    "c5_utility": 240,
+    "probe_competence": 120
+  },
+  "subtypes": {
+    "action_set_shift": 120,
+    "asymmetric_envelope_exit": 120,
+    "cost_regime_shift": 120,
+    "displayed_loss_argmin": 120,
+    "symmetric_envelope_exit": 120
+  },
+  "target_decisions": {
+    "defer": 165,
+    "deploy_A": 220,
+    "deploy_B": 215
+  },
+  "target_decisions_by_stratum": {
+    "c2_capability": {
+      "defer": 60,
+      "deploy_A": 90,
+      "deploy_B": 90
+    },
+    "c5_utility": {
+      "defer": 65,
+      "deploy_A": 90,
+      "deploy_B": 85
+    },
+    "probe_competence": {
+      "defer": 40,
+      "deploy_A": 40,
+      "deploy_B": 40
+    }
+  },
+  "target_definition": "unique minimum of the displayed deployment-loss rule",
+  "template_families": {
+    "customer_support": 50,
+    "cybersecurity": 50,
+    "education": 50,
+    "enterprise_search": 50,
+    "financial_analysis": 50,
+    "legal_qa": 50,
+    "medical_qa": 50,
+    "news_verification": 50,
+    "public_policy": 50,
+    "scientific_qa": 50,
+    "software_support": 50,
+    "technical_manuals": 50
+  }
+}

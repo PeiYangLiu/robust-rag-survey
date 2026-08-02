@@ -1,0 +1,1091 @@
+{
+  "batches": [
+    {
+      "active_source_slots": [
+        {
+          "ledger_event_id": "SR-001",
+          "replaces_source_key": "rgb2023",
+          "slot": 1,
+          "source_key": "rrag175"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 2,
+          "source_key": "raat2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 3,
+          "source_key": "astuteRAG2025"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 4,
+          "source_key": "rrag130"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 5,
+          "source_key": "poisoningRetrievalCorpora2023"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 6,
+          "source_key": "rrag035"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 7,
+          "source_key": "rrag162"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 8,
+          "source_key": "ctrla2025"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 9,
+          "source_key": "rrag048"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 10,
+          "source_key": "rrag083"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 11,
+          "source_key": "rrag113"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 12,
+          "source_key": "rrag041"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 13,
+          "source_key": "rrag068"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 14,
+          "source_key": "rrag038"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 15,
+          "source_key": "rrag120"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 16,
+          "source_key": "rrag053"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 17,
+          "source_key": "rrag089"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 18,
+          "source_key": "ragTruth2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 19,
+          "source_key": "rrag128"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 20,
+          "source_key": "rrag121"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 21,
+          "source_key": "rrag070"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 22,
+          "source_key": "rrag176"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 23,
+          "source_key": "rrag067"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 24,
+          "source_key": "aip2025"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 25,
+          "source_key": "rrag096"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 26,
+          "source_key": "rrag129"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 27,
+          "source_key": "irrelevantContext2023"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 28,
+          "source_key": "rrag024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 29,
+          "source_key": "rrag212"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 30,
+          "source_key": "rrag126"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 31,
+          "source_key": "rrag223"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 32,
+          "source_key": "rrag086"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 33,
+          "source_key": "rrag097"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 34,
+          "source_key": "rrag039"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 35,
+          "source_key": "rrag017"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 36,
+          "source_key": "rrag107"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 37,
+          "source_key": "rrag124"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 38,
+          "source_key": "rrag040"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 39,
+          "source_key": "rrag185"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 40,
+          "source_key": "rrag139"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 41,
+          "source_key": "rrag021"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 42,
+          "source_key": "rrag034"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 43,
+          "source_key": "rrag045"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 44,
+          "source_key": "rrag163"
+        },
+        {
+          "ledger_event_id": "SR-002",
+          "replaces_source_key": "rrag149",
+          "slot": 45,
+          "source_key": "rrag161"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 46,
+          "source_key": "rrag026"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 47,
+          "source_key": "rrag138"
+        },
+        {
+          "ledger_event_id": "SR-003",
+          "replaces_source_key": "rrag010",
+          "slot": 48,
+          "source_key": "rrag142"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 49,
+          "source_key": "rrag214"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 50,
+          "source_key": "rrag217"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 51,
+          "source_key": "phantom2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 52,
+          "source_key": "rrag155"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 53,
+          "source_key": "rrag077"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 54,
+          "source_key": "rrag036"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 55,
+          "source_key": "rrag069"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 56,
+          "source_key": "rrag011"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 57,
+          "source_key": "rrag059"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 58,
+          "source_key": "rrag022"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 59,
+          "source_key": "rrag160"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 60,
+          "source_key": "rrag203"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 61,
+          "source_key": "rrag055"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 62,
+          "source_key": "rrag098"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 63,
+          "source_key": "rrag023"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 64,
+          "source_key": "rrag064"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 65,
+          "source_key": "rrag015"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 66,
+          "source_key": "rrag213"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 67,
+          "source_key": "rrag029"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 68,
+          "source_key": "rrag063"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 69,
+          "source_key": "rrag108"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 70,
+          "source_key": "rrag146"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 71,
+          "source_key": "certifiedRAG2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 72,
+          "source_key": "rrag183"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 73,
+          "source_key": "rrag172"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 74,
+          "source_key": "rrag009"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 75,
+          "source_key": "rrag189"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 76,
+          "source_key": "rrag095"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 77,
+          "source_key": "rrag028"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 78,
+          "source_key": "rrag084"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 79,
+          "source_key": "rrag079"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 80,
+          "source_key": "rrag147"
+        }
+      ],
+      "batch_id": "RB-001",
+      "batch_record_sha256": "be352d5197c327c7ee9c0584f3dcd786f72e1d3ba9bec750e8ebde33ae6e010e",
+      "invariants": {
+        "candidate_ids_raw_hashes_human_fields_unchanged": true,
+        "retained_deterministic_rows": 1522,
+        "retained_deterministic_rows_sha256": "ec1f84070b9a1ff181eebf2104e7b4e983a742f6bfc9cd9725aa6fa3ac3aaa00",
+        "retained_human_rows": 1522,
+        "retained_human_rows_sha256": "69bdf201ca12839dd952b0e65938ffb36f62f651632f8966efc78810c6dd1951",
+        "retained_source_frame_rows_sha256": "d7647099224f6423866d015693012f44373f29091b809db6664d0c08f7331f40",
+        "retained_sources": 77
+      },
+      "outputs": {
+        "candidate_claims_deterministic_rows": 1575,
+        "candidate_claims_deterministic_sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c",
+        "candidate_claims_model_prescreen_after_apply_sha256": "4ce341181f411e66bf308effd904ae32a87f56241094fd34b8483d623222f696",
+        "candidate_claims_model_prescreen_rows": 1575,
+        "sampling_screen_summary_after_apply_sha256": "95eebdd59b53093187b58dede878b578ea91d69d490bfec1ee03ebec308fbe95",
+        "source_sampling_frame_rows": 342,
+        "source_sampling_frame_sha256": "d5a19a8b8608cbfb5df6c12228f2394720f652b4df6d782a6825c07af6833197"
+      },
+      "parent": {
+        "candidate_claims_deterministic_rows": 1568,
+        "candidate_claims_deterministic_sha256": "5b81de7888e417c4492fe6390c7a5e068031139bb78a757d488ec6ee38d78721",
+        "candidate_claims_model_prescreen_rows": 1568,
+        "candidate_claims_model_prescreen_sha256": "fb5e0af85ef8de58fcc6b24534ee935049a1ca26e807f84884a3871a32b16da8",
+        "sampling_exclusion_replacement_ledger_rows": 3,
+        "sampling_exclusion_replacement_ledger_sha256": "571707e3f6268fd8b1b74d361fcf0fa84bcd331b17e8b22ac961d7b353c273dc",
+        "sampling_screen_summary_sha256": "4cdae929898251007e30ad0091fe8e5e8c9f17cfb0eea8537710a1172a118592",
+        "source_sampling_frame_rows": 342,
+        "source_sampling_frame_sha256": "59fb91d0590d25d17c5fb2943477c493405d3f81e94064898742f16f4297bd59"
+      },
+      "recorded_utc": "2026-07-16T01:27:52Z",
+      "replacements": [
+        {
+          "deficient_source_key": "rgb2023",
+          "ledger_event_id": "SR-001",
+          "new_candidates": 13,
+          "new_id_prefix": "H3R-001-",
+          "removed_candidates": 14,
+          "replacement_source_key": "rrag175",
+          "replacement_source_text_sha256": "da83f01b1c1d56c5c4175b29f4f438d04293b959d1327c4512eae6e2aed1e28c",
+          "source_slot": 1
+        },
+        {
+          "deficient_source_key": "rrag149",
+          "ledger_event_id": "SR-002",
+          "new_candidates": 20,
+          "new_id_prefix": "H3R-002-",
+          "removed_candidates": 16,
+          "replacement_source_key": "rrag161",
+          "replacement_source_text_sha256": "806472eaec351d32004ae9863ce01eb3305a43315da808242a792b2353e4d335",
+          "source_slot": 45
+        },
+        {
+          "deficient_source_key": "rrag010",
+          "ledger_event_id": "SR-003",
+          "new_candidates": 20,
+          "new_id_prefix": "H3R-003-",
+          "removed_candidates": 16,
+          "replacement_source_key": "rrag142",
+          "replacement_source_text_sha256": "c94abb6ca0443c4e694ad7bdda036475fc724208631bcd2eb3a8dd1257d8dff4",
+          "source_slot": 48
+        }
+      ]
+    },
+    {
+      "active_source_slots": [
+        {
+          "ledger_event_id": "SR-004",
+          "replaces_source_key": "rrag175",
+          "slot": 1,
+          "source_key": "rrag137"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 2,
+          "source_key": "raat2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 3,
+          "source_key": "astuteRAG2025"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 4,
+          "source_key": "rrag130"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 5,
+          "source_key": "poisoningRetrievalCorpora2023"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 6,
+          "source_key": "rrag035"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 7,
+          "source_key": "rrag162"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 8,
+          "source_key": "ctrla2025"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 9,
+          "source_key": "rrag048"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 10,
+          "source_key": "rrag083"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 11,
+          "source_key": "rrag113"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 12,
+          "source_key": "rrag041"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 13,
+          "source_key": "rrag068"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 14,
+          "source_key": "rrag038"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 15,
+          "source_key": "rrag120"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 16,
+          "source_key": "rrag053"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 17,
+          "source_key": "rrag089"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 18,
+          "source_key": "ragTruth2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 19,
+          "source_key": "rrag128"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 20,
+          "source_key": "rrag121"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 21,
+          "source_key": "rrag070"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 22,
+          "source_key": "rrag176"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 23,
+          "source_key": "rrag067"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 24,
+          "source_key": "aip2025"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 25,
+          "source_key": "rrag096"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 26,
+          "source_key": "rrag129"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 27,
+          "source_key": "irrelevantContext2023"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 28,
+          "source_key": "rrag024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 29,
+          "source_key": "rrag212"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 30,
+          "source_key": "rrag126"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 31,
+          "source_key": "rrag223"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 32,
+          "source_key": "rrag086"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 33,
+          "source_key": "rrag097"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 34,
+          "source_key": "rrag039"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 35,
+          "source_key": "rrag017"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 36,
+          "source_key": "rrag107"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 37,
+          "source_key": "rrag124"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 38,
+          "source_key": "rrag040"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 39,
+          "source_key": "rrag185"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 40,
+          "source_key": "rrag139"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 41,
+          "source_key": "rrag021"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 42,
+          "source_key": "rrag034"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 43,
+          "source_key": "rrag045"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 44,
+          "source_key": "rrag163"
+        },
+        {
+          "ledger_event_id": "SR-002",
+          "replaces_source_key": "rrag149",
+          "slot": 45,
+          "source_key": "rrag161"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 46,
+          "source_key": "rrag026"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 47,
+          "source_key": "rrag138"
+        },
+        {
+          "ledger_event_id": "SR-003",
+          "replaces_source_key": "rrag010",
+          "slot": 48,
+          "source_key": "rrag142"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 49,
+          "source_key": "rrag214"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 50,
+          "source_key": "rrag217"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 51,
+          "source_key": "phantom2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 52,
+          "source_key": "rrag155"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 53,
+          "source_key": "rrag077"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 54,
+          "source_key": "rrag036"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 55,
+          "source_key": "rrag069"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 56,
+          "source_key": "rrag011"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 57,
+          "source_key": "rrag059"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 58,
+          "source_key": "rrag022"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 59,
+          "source_key": "rrag160"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 60,
+          "source_key": "rrag203"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 61,
+          "source_key": "rrag055"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 62,
+          "source_key": "rrag098"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 63,
+          "source_key": "rrag023"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 64,
+          "source_key": "rrag064"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 65,
+          "source_key": "rrag015"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 66,
+          "source_key": "rrag213"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 67,
+          "source_key": "rrag029"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 68,
+          "source_key": "rrag063"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 69,
+          "source_key": "rrag108"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 70,
+          "source_key": "rrag146"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 71,
+          "source_key": "certifiedRAG2024"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 72,
+          "source_key": "rrag183"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 73,
+          "source_key": "rrag172"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 74,
+          "source_key": "rrag009"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 75,
+          "source_key": "rrag189"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 76,
+          "source_key": "rrag095"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 77,
+          "source_key": "rrag028"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 78,
+          "source_key": "rrag084"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 79,
+          "source_key": "rrag079"
+        },
+        {
+          "ledger_event_id": "",
+          "replaces_source_key": "",
+          "slot": 80,
+          "source_key": "rrag147"
+        }
+      ],
+      "batch_id": "RB-002",
+      "batch_record_sha256": "51fd65470f98bde369c880bc3969ccf32450aefab5434d583e7e83698fbc28fa",
+      "invariants": {
+        "candidate_ids_raw_hashes_human_fields_unchanged": true,
+        "retained_deterministic_rows": 1562,
+        "retained_deterministic_rows_sha256": "0d3a285e24f9ee2780070f9bc9f29e5090f01d738d051e9f2bebd69682c3c05d",
+        "retained_human_rows": 1562,
+        "retained_human_rows_sha256": "fa984e4eff26647594c7c7636c72ba27e10d7eb2d9f679c9c977d81be4a664e7",
+        "retained_source_frame_rows_sha256": "92f6406406c5618a476d563d494c00d16e0c9e2aeeb97f0d13903d8956352b6a",
+        "retained_sources": 79
+      },
+      "outputs": {
+        "candidate_claims_deterministic_rows": 1582,
+        "candidate_claims_deterministic_sha256": "69582dd83bb696d5097a8683f94df1dc29f00412db2924243e78e4cdc495d732",
+        "candidate_claims_model_prescreen_after_apply_sha256": "7026e0614b989b19278791a48a6c8d0c3780a3f8e24648864c55a9bb181b5eb4",
+        "candidate_claims_model_prescreen_rows": 1582,
+        "sampling_screen_summary_after_apply_sha256": "851614a1f5d741063978514dd600ce96247a29881c3839e2ec7f80c730008401",
+        "source_sampling_frame_rows": 342,
+        "source_sampling_frame_sha256": "c4d1cb1a6c8b58554c2313d112460f8ae0e5076e18e031bf355e9bc7d4669801"
+      },
+      "parent": {
+        "candidate_claims_deterministic_rows": 1575,
+        "candidate_claims_deterministic_sha256": "1798abe4cb821c3e8f16d92b8bbfd8a205f5fc568f26cb648a7547c22f9deb1c",
+        "candidate_claims_model_prescreen_rows": 1575,
+        "candidate_claims_model_prescreen_sha256": "c7c02e48033e475a83d75deed062fd876219b5ab3aa710a87b7194f524dd5352",
+        "new_ledger_event_ids": [
+          "SR-004"
+        ],
+        "new_sampling_exclusion_replacement_ledger_rows": 1,
+        "new_sampling_exclusion_replacement_ledger_sha256": "3c18c275d13aaa601bc70a160f1505529aaf667f58d6dd82a7f27f51c613040c",
+        "prior_batch_id": "RB-001",
+        "prior_source_replacement_summary_sha256": "657304485145a1f1d983804081ac6c64fadc65c4bd4d097a07f87d7373353cac",
+        "sampling_exclusion_replacement_ledger_rows": 4,
+        "sampling_exclusion_replacement_ledger_sha256": "d34c93853b5cdc75ab4e14489e7ae0ad896d9b1627abf60c494237a4a6fe2992",
+        "sampling_screen_summary_sha256": "028012716621ae4d799c690d45bfa39215a924a6004b6b99820571a02f0976e4",
+        "source_sampling_frame_rows": 342,
+        "source_sampling_frame_sha256": "d5a19a8b8608cbfb5df6c12228f2394720f652b4df6d782a6825c07af6833197"
+      },
+      "recorded_utc": "2026-07-16T04:01:43Z",
+      "replacements": [
+        {
+          "deficient_source_key": "rrag175",
+          "ledger_event_id": "SR-004",
+          "new_candidates": 20,
+          "new_id_prefix": "H3R-004-",
+          "removed_candidates": 13,
+          "replacement_source_key": "rrag137",
+          "replacement_source_text_sha256": "9c94da157da189532f847488193dd0865c3d5bd2d03c706b3ff547ae397dc803",
+          "source_slot": 1
+        }
+      ]
+    }
+  ],
+  "current_batch_id": "RB-002",
+  "prohibited_use": "Source replacement is pre-label sampling administration. It preserves retained human screening votes and creates no replacement vote, test outcome, gold label, evidence-support label, or comparability label.",
+  "schema_version": "stable-source-replacement-v1",
+  "status": "APPLIED_AWAITING_REPLACEMENT_SCREEN"
+}

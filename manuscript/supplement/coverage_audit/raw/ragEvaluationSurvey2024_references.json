@@ -1,0 +1,817 @@
+{
+  "key": "ragEvaluationSurvey2024",
+  "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+  "resolved_id": "arXiv:2405.07437",
+  "status": "ok",
+  "reference_count_reported": 74,
+  "metadata": {
+    "paperId": "3c6a6c8de005ef5722a54847747f65922e79d622",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2405-07437",
+      "ArXiv": "2405.07437",
+      "DOI": "10.1007/978-981-96-1024-2_8",
+      "CorpusId": 269758033
+    },
+    "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+    "year": 2024,
+    "referenceCount": 74
+  },
+  "references": [
+    {
+      "paperId": "d1c163e6f6e4b26e94ea8f639cd441326a68afd3",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2406-05654",
+        "ArXiv": "2406.05654",
+        "DOI": "10.48550/arXiv.2406.05654",
+        "CorpusId": 270370889
+      },
+      "title": "DomainRAG: A Chinese Benchmark for Evaluating Domain-specific Retrieval-Augmented Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "94034fd2ed4b6cf41113abb7adc9ae469313c958",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2404-10981",
+        "ArXiv": "2404.10981",
+        "DOI": "10.1145/3805774",
+        "CorpusId": 269188036
+      },
+      "title": "A Survey on Retrieval-Augmented Text Generation for Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "ab15463babf98fffc6f683fe2026de0725b5e1a9",
+      "externalIds": {
+        "DBLP": "journals/dase/ZhaoZYWGFYZJC26",
+        "ArXiv": "2402.19473",
+        "DOI": "10.48550/arXiv.2402.19473",
+        "CorpusId": 268091298
+      },
+      "title": "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+      "year": 2024
+    },
+    {
+      "paperId": "5c761ee41bc70fe2c65f9cedb06ebd7ec6705b43",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-19248",
+        "ArXiv": "2402.19248",
+        "DOI": "10.48550/arXiv.2402.19248",
+        "CorpusId": 268063789
+      },
+      "title": "Let LLMs Take on the Latest Challenges! A Chinese Dynamic Question Answering Benchmark",
+      "year": 2024
+    },
+    {
+      "paperId": "9eec63a1477872ef32c1c4de54d49affc7051c4a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-17896",
+        "ArXiv": "2402.17896",
+        "DOI": "10.48550/arXiv.2402.17896",
+        "CorpusId": 268041467
+      },
+      "title": "Researchy Questions: A Dataset of Multi-Perspective, Decompositional Questions for LLM Web Agents",
+      "year": 2024
+    },
+    {
+      "paperId": "b798cf6af813638fab09a8af6ad0f3df6c241485",
+      "externalIds": {
+        "DBLP": "conf/acl/Xiong0LZ24",
+        "ArXiv": "2402.13178",
+        "DOI": "10.48550/arXiv.2402.13178",
+        "CorpusId": 267760025
+      },
+      "title": "Benchmarking Retrieval-Augmented Generation for Medicine",
+      "year": 2024
+    },
+    {
+      "paperId": "32b9f9e2654b7280671a2be355cbd04c1b7cc2ea",
+      "externalIds": {
+        "DBLP": "conf/sigir/WangKZZ24",
+        "ArXiv": "2402.11891",
+        "DOI": "10.1145/3626772.3657853",
+        "CorpusId": 267750506
+      },
+      "title": "FeB4RAG: Evaluating Federated Search in the Context of Retrieval Augmented Generation",
+      "year": 2024
+    },
+    {
+      "paperId": "e2050c0aa8aa27235c0708b5a5ff741dfd11e2a9",
+      "externalIds": {
+        "ArXiv": "2401.17043",
+        "DBLP": "journals/tois/LyuLNXTWWLXC25",
+        "DOI": "10.1145/3701228",
+        "CorpusId": 267320876
+      },
+      "title": "CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "4e71624e90960cb003e311a0fe3b8be4c2863239",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2401-15391",
+        "ArXiv": "2401.15391",
+        "CorpusId": 267312593
+      },
+      "title": "MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries",
+      "year": 2024
+    },
+    {
+      "paperId": "77179e5ff669452b9bea479a4236a6e2009ee422",
+      "externalIds": {
+        "DBLP": "conf/sigir/CuconasuTSFCMTS24",
+        "ArXiv": "2401.14887",
+        "DOI": "10.1145/3626772.3657834",
+        "CorpusId": 267301416
+      },
+      "title": "The Power of Noise: Redefining Retrieval for RAG Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "fef0393e997ec51b184e39c712be63197d99fd46",
+      "externalIds": {
+        "ArXiv": "2401.08406",
+        "DBLP": "journals/corr/abs-2401-08406",
+        "DOI": "10.48550/arXiv.2401.08406",
+        "CorpusId": 267027552
+      },
+      "title": "RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture",
+      "year": 2024
+    },
+    {
+      "paperId": "ba454ba8c594dfb86c25dff2e265c8a2686aa037",
+      "externalIds": {
+        "DBLP": "conf/cain/BarnettKTB024",
+        "ArXiv": "2401.05856",
+        "DOI": "10.1145/3644815.3644945",
+        "CorpusId": 266933076
+      },
+      "title": "Seven Failure Points When Engineering a Retrieval Augmented Generation System",
+      "year": 2024
+    },
+    {
+      "paperId": "46f9f7b8f88f72e12cbdb21e3311f995eb6e65c5",
+      "externalIds": {
+        "ArXiv": "2312.10997",
+        "DBLP": "journals/corr/abs-2312-10997",
+        "CorpusId": 266359151
+      },
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "year": 2023
+    },
+    {
+      "paperId": "1146d40d3d01427a008a20530269667b8989750c",
+      "externalIds": {
+        "ArXiv": "2311.15296",
+        "DBLP": "conf/acl/LiangSNLXTWHPWD24",
+        "DOI": "10.18653/v1/2024.acl-long.288",
+        "CorpusId": 265456112
+      },
+      "title": "UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "4df2b1e7d54fe5ad81dc2ed6774b93ef7891b3c8",
+      "externalIds": {
+        "ArXiv": "2311.09476",
+        "DBLP": "conf/naacl/Saad-FalconKPZ24",
+        "ACL": "2024.naacl-long.20",
+        "DOI": "10.48550/arXiv.2311.09476",
+        "CorpusId": 265221210
+      },
+      "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+      "year": 2023
+    },
+    {
+      "paperId": "c86631196b800b174390bd569d5244a5f95146cd",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2311-08147",
+        "ArXiv": "2311.08147",
+        "DOI": "10.48550/arXiv.2311.08147",
+        "CorpusId": 265157546
+      },
+      "title": "RECALL: A Benchmark for LLMs Robustness against External Counterfactual Knowledge",
+      "year": 2023
+    },
+    {
+      "paperId": "1e909e2a8cdacdcdff125ebcc566f37cb869a1c8",
+      "externalIds": {
+        "ArXiv": "2311.05232",
+        "DBLP": "journals/tois/HuangYMZFWCPFQL25",
+        "DOI": "10.1145/3703155",
+        "CorpusId": 265067168
+      },
+      "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+      "year": 2023
+    },
+    {
+      "paperId": "0de69d234c2e808b11db54d1efc94be53f438831",
+      "externalIds": {
+        "ArXiv": "2311.04694",
+        "DBLP": "conf/sigir/GienappSDBWKSFZ24",
+        "DOI": "10.1145/3626772.3657849",
+        "CorpusId": 265050661
+      },
+      "title": "Evaluating Generative Ad Hoc Information Retrieval",
+      "year": 2023
+    },
+    {
+      "paperId": "5aa834e8088818e6ba138d5a1b7b66f69d619555",
+      "externalIds": {
+        "ArXiv": "2311.04205",
+        "DBLP": "journals/corr/abs-2311-04205",
+        "DOI": "10.48550/arXiv.2311.04205",
+        "CorpusId": 265043536
+      },
+      "title": "Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves",
+      "year": 2023
+    },
+    {
+      "paperId": "f3f58877e404dc8b26b8d387b8c4e7b8ec58d567",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2311-00447",
+        "ArXiv": "2311.00447",
+        "DOI": "10.48550/arXiv.2311.00447",
+        "CorpusId": 264833344
+      },
+      "title": "On the Opportunities of Green Computing: A Survey",
+      "year": 2023
+    },
+    {
+      "paperId": "a71236be6eaa57af7207288bb1153f067144e02a",
+      "externalIds": {
+        "ArXiv": "2310.14393",
+        "DBLP": "journals/corr/abs-2310-14393",
+        "DOI": "10.48550/arXiv.2310.14393",
+        "CorpusId": 264426669
+      },
+      "title": "Merging Generated and Retrieved Knowledge for Open-Domain QA",
+      "year": 2023
+    },
+    {
+      "paperId": "56ff9de0931bd1accb9d4e3f109afcbf31f7df25",
+      "externalIds": {
+        "ArXiv": "2310.12516",
+        "DBLP": "conf/naacl/YuCLRG24",
+        "DOI": "10.18653/v1/2024.findings-naacl.85",
+        "CorpusId": 264305857
+      },
+      "title": "ReEval: Automatic Hallucination Evaluation for Retrieval-Augmented Large Language Models via Transferable Adversarial Attacks",
+      "year": 2023
+    },
+    {
+      "paperId": "dd4d82299b4209db539d639f836fcee663cf72b3",
+      "externalIds": {
+        "ArXiv": "2310.01469",
+        "DBLP": "journals/corr/abs-2310-01469",
+        "DOI": "10.48550/arXiv.2310.01469",
+        "CorpusId": 263608740
+      },
+      "title": "LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples",
+      "year": 2023
+    },
+    {
+      "paperId": "f5e9e5bbe22f0263be1f1ce88c66978a2b927772",
+      "externalIds": {
+        "DBLP": "conf/eacl/ESJAS24",
+        "ArXiv": "2309.15217",
+        "ACL": "2024.eacl-demo.16",
+        "DOI": "10.48550/arXiv.2309.15217",
+        "CorpusId": 263152733
+      },
+      "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "28e2ecb4183ebc0eec504b12dddc677f8aef8745",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2309-01431",
+        "ArXiv": "2309.01431",
+        "DOI": "10.48550/arXiv.2309.01431",
+        "CorpusId": 261530434
+      },
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "year": 2023
+    },
+    {
+      "paperId": "aade40af0d85b0b4fe15c97f6222d5c2e4d6d9b3",
+      "externalIds": {
+        "DBLP": "conf/aaai/BestaBKGPGGLNNH24",
+        "ArXiv": "2308.09687",
+        "DOI": "10.1609/aaai.v38i16.29720",
+        "CorpusId": 261030303
+      },
+      "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "888728745dbb769e29ed475d4f7661eebe1a71cf",
+      "externalIds": {
+        "DBLP": "journals/tist/ChangWWWYZCYWWYZCYYX24",
+        "ArXiv": "2307.03109",
+        "DOI": "10.1145/3641289",
+        "CorpusId": 259360395
+      },
+      "title": "A Survey on Evaluation of Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "bda7b805cee90412e7043a333a809d0e78852eb3",
+      "externalIds": {
+        "ArXiv": "2306.07471",
+        "DBLP": "journals/corr/abs-2306-07471",
+        "DOI": "10.48550/arXiv.2306.07471",
+        "CorpusId": 259145189
+      },
+      "title": "Resources for Brewing BEIR: Reproducible Reference Models and an Official Leaderboard",
+      "year": 2023
+    },
+    {
+      "paperId": "a0a79dad89857a96f8f71b14238e5237cbfc4787",
+      "externalIds": {
+        "ArXiv": "2306.05685",
+        "DBLP": "journals/corr/abs-2306-05685",
+        "DOI": "10.52202/075280-2020",
+        "CorpusId": 259129398
+      },
+      "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+      "year": 2023
+    },
+    {
+      "paperId": "2f3822eb380b5e753a6d579f31dfc3ec4c4a0820",
+      "externalIds": {
+        "ArXiv": "2305.10601",
+        "DBLP": "journals/corr/abs-2305-10601",
+        "DOI": "10.48550/arXiv.2305.10601",
+        "CorpusId": 258762525
+      },
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "1db6836f61695e558608bb57166feca6876edabf",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2305-00833",
+        "ArXiv": "2305.00833",
+        "DOI": "10.48550/arXiv.2305.00833",
+        "CorpusId": 258426780
+      },
+      "title": "Learning to Reason and Memorize with Self-Notes",
+      "year": 2023
+    },
+    {
+      "paperId": "bceebd434d7502dcd87004ec7313c2eea2c512fc",
+      "externalIds": {
+        "DBLP": "conf/acl/ZhangCXCCCF23",
+        "ACL": "2023.acl-long.808",
+        "ArXiv": "2211.07886",
+        "DOI": "10.48550/arXiv.2211.07886",
+        "CorpusId": 253523033
+      },
+      "title": "A Survey for Efficient Open Domain Question Answering",
+      "year": 2022
+    },
+    {
+      "paperId": "fc74fe92fb9e34d3ae1237bf9a6e718c723f4f3e",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2209-14290",
+        "ArXiv": "2209.14290",
+        "DOI": "10.1145/3539618.3591687",
+        "CorpusId": 252568176
+      },
+      "title": "FiD-Light: Efficient and Effective Retrieval-Augmented Text Generation",
+      "year": 2022
+    },
+    {
+      "paperId": "dc5518e1db565a8c52084f27353461df474403d8",
+      "externalIds": {
+        "ArXiv": "2207.13332",
+        "DBLP": "conf/nips/KasaiST0A0RS0I23",
+        "DOI": "10.48550/arXiv.2207.13332",
+        "CorpusId": 251105205
+      },
+      "title": "RealTime QA: What's the Answer Right Now?",
+      "year": 2022
+    },
+    {
+      "paperId": "dac3a172b504f4e33c029655e9befb3386e5f63a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2206-07682",
+        "ArXiv": "2206.07682",
+        "DOI": "10.48550/arXiv.2206.07682",
+        "CorpusId": 249674500
+      },
+      "title": "Emergent Abilities of Large Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "9281cff1b7fd4743400fdba0c7a38add4ff4b09d",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2203-16369",
+        "ACL": "2022.findings-acl.285",
+        "ArXiv": "2203.16369",
+        "DOI": "10.18653/v1/2022.findings-acl.285",
+        "CorpusId": 247793069
+      },
+      "title": "Incorporating Dynamic Semantics into Pre-Trained Language Model for Aspect-based Sentiment Analysis",
+      "year": 2022
+    },
+    {
+      "paperId": "d766bffc357127e0dc86dd69561d5aeb520d6f4c",
+      "externalIds": {
+        "ArXiv": "2203.02155",
+        "DBLP": "journals/corr/abs-2203-02155",
+        "DOI": "10.52202/068431-2011",
+        "CorpusId": 246426909
+      },
+      "title": "Training language models to follow instructions with human feedback",
+      "year": 2022
+    },
+    {
+      "paperId": "1b6e810ce0afd0dd093f789d2b2742d047e316d5",
+      "externalIds": {
+        "DBLP": "conf/nips/Wei0SBIXCLZ22",
+        "ArXiv": "2201.11903",
+        "DOI": "10.52202/068431-1800",
+        "CorpusId": 246411621
+      },
+      "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
+      "year": 2022
+    },
+    {
+      "paperId": "b359105b2f6553c4699a2e988e459b8e4dce0ae4",
+      "externalIds": {
+        "DBLP": "conf/emnlp/0009SCXH22",
+        "ArXiv": "2111.07267",
+        "ACL": "2022.emnlp-main.266",
+        "DOI": "10.18653/v1/2022.emnlp-main.266",
+        "CorpusId": 248666079
+      },
+      "title": "Understanding Jargon: Combining Extraction and Generation for Definition Modeling",
+      "year": 2021
+    },
+    {
+      "paperId": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+      "externalIds": {
+        "DBLP": "conf/iclr/HuSWALWWC22",
+        "ArXiv": "2106.09685",
+        "CorpusId": 235458009
+      },
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "year": 2021
+    },
+    {
+      "paperId": "f70f7cb8a15edb08753aa9860c7749c1722a751a",
+      "externalIds": {
+        "MAG": "3159117141",
+        "DBLP": "journals/tkde/ZhangLQXCZC23",
+        "DOI": "10.1109/TKDE.2021.3075238",
+        "CorpusId": 235544863
+      },
+      "title": "EATN: An Efficient Adaptive Transfer Network for Aspect-Level Sentiment Analysis",
+      "year": 2021
+    },
+    {
+      "paperId": "db9296eaa252231e24d066e8413bf29fb058ee45",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2101-00774",
+        "ArXiv": "2101.00774",
+        "CorpusId": 230433817
+      },
+      "title": "Retrieving and Reading: A Comprehensive Survey on Open-domain Question Answering",
+      "year": 2021
+    },
+    {
+      "paperId": "3af229f3da1bd24378fd8d76c88fd393b4464058",
+      "externalIds": {
+        "MAG": "3083182073",
+        "DBLP": "journals/corr/abs-2009-02252",
+        "ArXiv": "2009.02252",
+        "ACL": "2021.naacl-main.200",
+        "DOI": "10.18653/V1/2021.NAACL-MAIN.200",
+        "CorpusId": 221507798
+      },
+      "title": "KILT: a Benchmark for Knowledge Intensive Language Tasks",
+      "year": 2020
+    },
+    {
+      "paperId": "c6d38e105562ae0a5d9b21fb4333212f36a3e041",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2008-12009",
+        "ArXiv": "2008.12009",
+        "MAG": "3080855795",
+        "DOI": "10.1145/3485766",
+        "CorpusId": 221340941
+      },
+      "title": "A Survey of Evaluation Metrics Used for NLG Systems",
+      "year": 2020
+    },
+    {
+      "paperId": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+      "externalIds": {
+        "DBLP": "conf/nips/LewisPPPKGKLYR020",
+        "MAG": "3027879771",
+        "ArXiv": "2005.11401",
+        "CorpusId": 218869575
+      },
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020
+    },
+    {
+      "paperId": "60b8ad6177230ad5402af409a6edb5af441baeb4",
+      "externalIds": {
+        "MAG": "3021397474",
+        "DBLP": "conf/sigir/KhattabZ20",
+        "ArXiv": "2004.12832",
+        "DOI": "10.1145/3397271.3401075",
+        "CorpusId": 216553223
+      },
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+      "year": 2020
+    },
+    {
+      "paperId": "087dd95e13efd47aef2a6582e6801b39fc0f83d8",
+      "externalIds": {
+        "DBLP": "conf/acl/DeYoungJRLXSW20",
+        "ACL": "2020.acl-main.408",
+        "ArXiv": "1911.03429",
+        "MAG": "3035503910",
+        "DOI": "10.18653/v1/2020.acl-main.408",
+        "CorpusId": 207847663
+      },
+      "title": "ERASER: A Benchmark to Evaluate Rationalized NLP Models",
+      "year": 2019
+    },
+    {
+      "paperId": "acf5a74ccb14b01430dab2d200d9aabc5ee9dc16",
+      "externalIds": {
+        "ACL": "D19-5801",
+        "DBLP": "conf/acl-mrqa/FischTJSCC19",
+        "MAG": "2988421999",
+        "ArXiv": "1910.09753",
+        "DOI": "10.18653/v1/D19-5801",
+        "CorpusId": 204823992
+      },
+      "title": "MRQA 2019 Shared Task: Evaluating Generalization in Reading Comprehension",
+      "year": 2019
+    },
+    {
+      "paperId": "17dbd7b72029181327732e4d11b52a08ed4630d0",
+      "externalIds": {
+        "ACL": "Q19-1026",
+        "MAG": "2912924812",
+        "DBLP": "journals/tacl/KwiatkowskiPRCP19",
+        "DOI": "10.1162/tacl_a_00276",
+        "CorpusId": 86611921
+      },
+      "title": "Natural Questions: A Benchmark for Question Answering Research",
+      "year": 2019
+    },
+    {
+      "paperId": "3c914230ca499edb9104a9a38fa74a01d37b6926",
+      "externalIds": {
+        "DBLP": "conf/aaai/ZhangZLZZC19",
+        "MAG": "2789132801",
+        "DOI": "10.1609/AAAI.V33I01.33015773",
+        "CorpusId": 13822774
+      },
+      "title": "Interactive Attention Transfer Network for Cross-Domain Sentiment Classification",
+      "year": 2019
+    },
+    {
+      "paperId": "d9f6ada77448664b71128bb19df15765336974a6",
+      "externalIds": {
+        "MAG": "2943552823",
+        "ArXiv": "1905.00537",
+        "DBLP": "conf/nips/WangPNSMHLB19",
+        "CorpusId": 143424870
+      },
+      "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+      "year": 2019
+    },
+    {
+      "paperId": "295065d942abca0711300b2b4c39829551060578",
+      "externalIds": {
+        "MAG": "2936695845",
+        "ArXiv": "1904.09675",
+        "DBLP": "journals/corr/abs-1904-09675",
+        "CorpusId": 127986044
+      },
+      "title": "BERTScore: Evaluating Text Generation with BERT",
+      "year": 2019
+    },
+    {
+      "paperId": "a5b66ee341cb990f7f70a124b5fab3316d3b7e27",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-1810-12885",
+        "MAG": "2898662126",
+        "ArXiv": "1810.12885",
+        "CorpusId": 53116244
+      },
+      "title": "ReCoRD: Bridging the Gap between Human and Machine Commonsense Reading Comprehension",
+      "year": 2018
+    },
+    {
+      "paperId": "227458886343b86bd15adf58c769be326b4b058a",
+      "externalIds": {
+        "MAG": "2898875342",
+        "DBLP": "conf/iclr/DinanRSFAW19",
+        "ArXiv": "1811.01241",
+        "CorpusId": 53218829
+      },
+      "title": "Wizard of Wikipedia: Knowledge-Powered Conversational agents",
+      "year": 2018
+    },
+    {
+      "paperId": "22655979df781d222eaf812b0d325fa9adf11594",
+      "externalIds": {
+        "ACL": "D18-1259",
+        "DBLP": "journals/corr/abs-1809-09600",
+        "MAG": "2952862139",
+        "ArXiv": "1809.09600",
+        "DOI": "10.18653/v1/D18-1259",
+        "CorpusId": 52822214
+      },
+      "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+      "year": 2018
+    },
+    {
+      "paperId": "78c8f2a8a5d6a9be351875908f765424534c64c7",
+      "externalIds": {
+        "MAG": "2962924456",
+        "ArXiv": "1804.04526",
+        "DBLP": "conf/esws/GottschalkD18",
+        "DOI": "10.1007/978-3-319-93417-4_18",
+        "CorpusId": 4803246
+      },
+      "title": "EventKG: A Multilingual Event-Centric Temporal Knowledge Graph",
+      "year": 2018
+    },
+    {
+      "paperId": "b1d24e8e08435b7c52335485a0d635abf9bc604c",
+      "externalIds": {
+        "MAG": "2789566302",
+        "ACL": "N18-1074",
+        "ArXiv": "1803.05355",
+        "DBLP": "conf/naacl/ThorneVCM18",
+        "DOI": "10.18653/v1/N18-1074",
+        "CorpusId": 4711425
+      },
+      "title": "FEVER: a Large-scale Dataset for Fact Extraction and VERification",
+      "year": 2018
+    },
+    {
+      "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+      "externalIds": {
+        "MAG": "2963403868",
+        "DBLP": "journals/corr/VaswaniSPUJGKP17",
+        "ArXiv": "1706.03762",
+        "CorpusId": 13756489
+      },
+      "title": "Attention is All you Need",
+      "year": 2017
+    },
+    {
+      "paperId": "2cbb8de53759e75411bc528518947a3094fbce3a",
+      "externalIds": {
+        "MAG": "2998702515",
+        "DBLP": "journals/tbd/JohnsonDJ21",
+        "ArXiv": "1702.08734",
+        "DOI": "10.1109/tbdata.2019.2921572",
+        "CorpusId": 926364
+      },
+      "title": "Billion-Scale Similarity Search with GPUs",
+      "year": 2017
+    },
+    {
+      "paperId": "3dbd3f34aa6dd9eb694c1a677e7291c36ba093d2",
+      "externalIds": {
+        "MAG": "2524168323",
+        "DOI": "10.1109/CITSM.2016.7577578",
+        "CorpusId": 38769225
+      },
+      "title": "Cosine similarity to determine similarity measure: Study case in online essay assessment",
+      "year": 2016
+    },
+    {
+      "paperId": "47ced790a563344efae66588b5fb7fe6cca29ed3",
+      "externalIds": {
+        "MAG": "2155482025",
+        "DBLP": "journals/ftir/RobertsonZ09",
+        "DOI": "10.1561/1500000019",
+        "CorpusId": 207178704
+      },
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "year": 2009
+    },
+    {
+      "paperId": "60b05f32c32519a809f21642ef1eb3eaf3848008",
+      "externalIds": {
+        "MAG": "2154652894",
+        "ACL": "W04-1013",
+        "CorpusId": 964287
+      },
+      "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
+      "year": 2004
+    },
+    {
+      "paperId": "c82947983c4c1a2a4acc82a4c16f700649a7c4d3",
+      "externalIds": {
+        "MAG": "2060029502",
+        "DBLP": "journals/geoinformatica/ShahabiKS03",
+        "DOI": "10.1145/585147.585167",
+        "CorpusId": 268080822
+      },
+      "title": "A Road Network Embedding Technique for K-Nearest Neighbor Search in Moving Object Databases",
+      "year": 2002
+    },
+    {
+      "paperId": "d7da009f457917aa381619facfa5ffae9329a6e9",
+      "externalIds": {
+        "DBLP": "conf/acl/PapineniRWZ02",
+        "MAG": "2101105183",
+        "ACL": "P02-1040",
+        "DOI": "10.3115/1073083.1073135",
+        "CorpusId": 11080756
+      },
+      "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
+      "year": 2002
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Evaluating rag architectures on benchmark tasks",
+      "year": 2023
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Enhancing RAG Pipelines in Haystack: Introducing DiversityRanker and LostInTheMiddleRanker",
+      "year": 2023
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Best Practices for LLM Evaluation of RAG Applications",
+      "year": 2023
+    },
+    {
+      "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+      "externalIds": {
+        "MAG": "2951055169",
+        "ACL": "N19-1423",
+        "DBLP": "journals/corr/abs-1810-04805",
+        "ArXiv": "1810.04805",
+        "DOI": "10.18653/v1/N19-1423",
+        "CorpusId": 52967399
+      },
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "year": 2019
+    },
+    {
+      "paperId": "9405cc0d6169988371b2755e573cc28650d14dfe",
+      "externalIds": {
+        "MAG": "2955855238",
+        "CorpusId": 160025533
+      },
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "year": 2019
+    },
+    {
+      "paperId": "6a630ac89d7c0a57eb7bf4cb30dd5946bcf3ccce",
+      "externalIds": {
+        "MAG": "2525491769",
+        "DOI": "10.1201/b18055-8",
+        "CorpusId": 208945385
+      },
+      "title": "google,\u6211,\u8428\u5a1c",
+      "year": 2006
+    },
+    {
+      "paperId": "b3bf6373ff41a115197cb5b30e57830c16130c2c",
+      "externalIds": {
+        "MAG": "2924560712",
+        "CorpusId": 14638345
+      },
+      "title": "Using TF-IDF to Determine Word Relevance in Document Queries",
+      "year": 2003
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "DuckDuckGo",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Web Search API | Microsoft Bing",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "The faiss library (2024)",
+      "year": null
+    }
+  ]
+}

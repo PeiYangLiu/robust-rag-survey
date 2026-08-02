@@ -7,13 +7,14 @@
 \textbf{Map-B field group} & \textbf{Coverage} & \textbf{Coding / audit source} & \textbf{Use and caveat} \\
 \midrule
 Canonical identifiers and source flags & 342/342 title, year, URL, source stratum, Map-A membership, Map-B version, core-reading flag & Deterministic merge from Map A, the venue/extension pools manifests, source-blind citation-audit decisions, and second-coding adjudication. & Defines the canonical adjudicated row set and source strata. \\
-Core taxonomy fields & 342/342 failure type, taxonomy categories, method family, intervention point, contribution note, limitation note & Map-A adjudicated labels for original rows; second coding adjudicated labels for retained additions. & Used for Map-B synthesis and sensitivity counts. \\
-Task / metric metadata & High coverage after adjudication & Map-A labels plus human-audit rationales and manifest metadata for retained additions. & Missing rows are not imputed for metric-level claims. \\
-Author / venue metadata & Source/venue strata complete; author metadata incomplete for some additions & Proceedings metadata and paper manifests. & Venue/source strata are complete; author normalization remains an artifact-release cleanup item. \\
+Core taxonomy fields & 342/342 legacy literature-family tag, taxonomy categories, method family, intervention point, contribution note, limitation note & Map-A adjudicated labels for original rows; second coding adjudicated labels for retained additions. & Used for Map-B description. The legacy family tag includes calibration, benchmark, and survey roles and is not the normalised failure coordinate. \\
+Task / metric metadata & Task metadata present; metric field is free text and missing for 13/342 rows & Map-A labels plus audit rationales and manifest metadata for retained additions; no controlled-coordinate reliability estimate. & Used only as descriptive metadata, not as an adjudicated metric coordinate. \\
+Evidence assumption and action policy & \textbf{Not present as structured Map-B fields} & Fully instantiated only in worked comparison and pair-study artifacts. & Map~B must not be described as a 342-row five-coordinate map or used to derive pair verdicts on these fields. \\
+Author / venue metadata & Source/venue strata complete; author metadata incomplete for some additions & Proceedings metadata and paper manifests. & Venue/source strata are complete; author normalisation remains an artifact-release cleanup item. \\
 Human-audited rows retained in Map B & 94 retained rows with human citation-audit metadata & 74 retained additions plus 20 enriched Map-A rows. & Citation-audit metadata supports source-stratified synthesis; 74 excluded candidate additions remain in the release as boundary rows. \\
 Second-coding/adjudication boundary & Map A: 274 candidates $\rightarrow$ 268 adjudicated rows; Map-B additions: 148 candidates $\rightarrow$ 74 retained additions & Map A has two-source independent coding and final adjudication; Map-B additions have independent second coding and final adjudication. & Second-coding agreement is strong, and adjudication is now applied to the canonical 342-row Map B. \\
 \bottomrule
 \end{tabularx}
-\caption{Coding protocol and field coverage for the 342-row adjudicated Map B. The table separates Map-A adjudicated IAA, source-blind citation-audit metadata, and the second-coding/adjudication pass over the 148 candidate additions.}
+\caption{Coding protocol and field coverage for the 342-row adjudicated Map B. The map supports literature-family/intervention landscape analysis; it does not implement the complete five-coordinate schema.}
 \label{tab:map-b-coding-coverage}
 \end{table*}

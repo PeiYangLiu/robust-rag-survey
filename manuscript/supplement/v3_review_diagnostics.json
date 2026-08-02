@@ -1,0 +1,319 @@
+{
+  "adjudicator_agreement": {
+    "adjudicator_agreement_rate": 0.8087431693989071,
+    "adjudicators_agree": 148,
+    "adjudicators_disagree": 35,
+    "disputed_comparability_claims": 183
+  },
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 2026072501,
+    "unit": "source"
+  },
+  "estimand_audit": [
+    {
+      "aggregation_unit": "claim_level_panel_majority",
+      "arm_c_score": 0.7617977528089888,
+      "arm_d_score": 0.7932584269662921,
+      "claims_or_ratings": 445,
+      "d_minus_c": 0.03146067415730336,
+      "estimand": "panel_hard_final",
+      "interpretation": "Conditional on the realized C/D panels; no participant-randomization inference.",
+      "p_two_sided": "",
+      "permutation_assignments": "",
+      "reference_rule": "final_adjudicated_hard_label"
+    },
+    {
+      "aggregation_unit": "claim_level_panel_majority",
+      "arm_c_score": 0.7430555555555556,
+      "arm_d_score": 0.7430555555555556,
+      "claims_or_ratings": 480,
+      "d_minus_c": 0.0,
+      "estimand": "panel_expert_distribution",
+      "interpretation": "Conditional on the realized C/D panels; no participant-randomization inference.",
+      "p_two_sided": "",
+      "permutation_assignments": "",
+      "reference_rule": "empirical_three_expert_distribution"
+    },
+    {
+      "aggregation_unit": "claim_level_panel_majority",
+      "arm_c_score": 0.8916666666666667,
+      "arm_d_score": 0.9020833333333333,
+      "claims_or_ratings": 480,
+      "d_minus_c": 0.01041666666666663,
+      "estimand": "panel_expert_admissible_set",
+      "interpretation": "Conditional on the realized C/D panels; no participant-randomization inference.",
+      "p_two_sided": "",
+      "permutation_assignments": "",
+      "reference_rule": "any_observed_expert_label"
+    },
+    {
+      "aggregation_unit": "participant_mean",
+      "arm_c_score": 0.7588799093396146,
+      "arm_d_score": 0.7558887692007502,
+      "claims_or_ratings": 2670,
+      "d_minus_c": -0.0029911401388643677,
+      "estimand": "participant_hard_final",
+      "interpretation": "Post hoc finite-roster randomization-aligned contrast; reference-relative, not criterion validity.",
+      "null_interval_95_high": 0.02896830264195925,
+      "null_interval_95_low": -0.028968302641959265,
+      "p_two_sided": 0.854978354978355,
+      "permutation_assignments": 924,
+      "reference_rule": "final_adjudicated_hard_label"
+    },
+    {
+      "aggregation_unit": "participant_mean",
+      "arm_c_score": 0.7340277777777778,
+      "arm_d_score": 0.7148148148148148,
+      "claims_or_ratings": 2880,
+      "d_minus_c": -0.019212962962963043,
+      "estimand": "participant_expert_distribution",
+      "interpretation": "Post hoc finite-roster randomization-aligned contrast; reference-relative, not criterion validity.",
+      "null_interval_95_high": 0.025231481481481577,
+      "null_interval_95_low": -0.025231481481481577,
+      "p_two_sided": 0.16883116883116883,
+      "permutation_assignments": 924,
+      "reference_rule": "empirical_three_expert_distribution"
+    },
+    {
+      "aggregation_unit": "participant_mean",
+      "arm_c_score": 0.8944444444444444,
+      "arm_d_score": 0.8756944444444444,
+      "claims_or_ratings": 2880,
+      "d_minus_c": -0.018749999999999933,
+      "estimand": "participant_expert_admissible_set",
+      "interpretation": "Post hoc finite-roster randomization-aligned contrast; reference-relative, not criterion validity.",
+      "null_interval_95_high": 0.029861111111111116,
+      "null_interval_95_low": -0.029861111111111116,
+      "p_two_sided": 0.2922077922077922,
+      "permutation_assignments": 924,
+      "reference_rule": "any_observed_expert_label"
+    }
+  ],
+  "interpretation": "Agreement with the reference is not criterion validity because the reference rubric incorporates capability and policy concepts.",
+  "participant_randomization_unit_analysis": {
+    "arm_C_maximum": 0.8036529680365296,
+    "arm_C_minimum": 0.7104072398190046,
+    "arm_D_maximum": 0.7747747747747747,
+    "arm_D_minimum": 0.7366071428571429,
+    "assignments": 924,
+    "auditors": 12,
+    "auditors_per_arm": 6,
+    "estimate": -0.0029911401388643677,
+    "exact_conditional_p_two_sided": 0.854978354978355
+  },
+  "reference_reliability": [
+    {
+      "claims": 480,
+      "claims_with_any_label": "",
+      "class_label": "ALL",
+      "fleiss_kappa": 0.21872725588534947,
+      "output": "evidence_support",
+      "positive_agreement": "",
+      "rating_prevalence": "",
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9430555555555555,
+      "unanimous_claims": 439
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 477,
+      "class_label": "supported_as_written",
+      "fleiss_kappa": 0.21115921115921077,
+      "output": "evidence_support",
+      "positive_agreement": 0.9704184704184704,
+      "rating_prevalence": 0.9625,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9430555555555555,
+      "unanimous_claims": 436
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 12,
+      "class_label": "supported_after_narrowing",
+      "fleiss_kappa": 0.19157894736841757,
+      "output": "evidence_support",
+      "positive_agreement": 0.2,
+      "rating_prevalence": 0.010416666666666666,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9833333333333333,
+      "unanimous_claims": 0
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 2,
+      "class_label": "contradicted",
+      "fleiss_kappa": 0.7493036211699119,
+      "output": "evidence_support",
+      "positive_agreement": 0.75,
+      "rating_prevalence": 0.002777777777777778,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9986111111111111,
+      "unanimous_claims": 1
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 30,
+      "class_label": "insufficient_source_evidence",
+      "fleiss_kappa": 0.1800711743772224,
+      "output": "evidence_support",
+      "positive_agreement": 0.2,
+      "rating_prevalence": 0.024305555555555556,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9611111111111111,
+      "unanimous_claims": 2
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": "",
+      "class_label": "ALL",
+      "fleiss_kappa": 0.49158823366734566,
+      "output": "comparability",
+      "positive_agreement": "",
+      "rating_prevalence": "",
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.7340277777777777,
+      "unanimous_claims": 297
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 392,
+      "class_label": "same_estimand",
+      "fleiss_kappa": 0.498220298220298,
+      "output": "comparability",
+      "positive_agreement": 0.8275132275132275,
+      "rating_prevalence": 0.65625,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.7736111111111111,
+      "unanimous_claims": 229
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 53,
+      "class_label": "comparable_with_declared_scope",
+      "fleiss_kappa": 0.288881572855689,
+      "output": "comparability",
+      "positive_agreement": 0.323943661971831,
+      "rating_prevalence": 0.049305555555555554,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9333333333333333,
+      "unanimous_claims": 5
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 17,
+      "class_label": "different_estimand",
+      "fleiss_kappa": 0.49008498583569604,
+      "output": "comparability",
+      "positive_agreement": 0.5,
+      "rating_prevalence": 0.019444444444444445,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9805555555555555,
+      "unanimous_claims": 3
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 156,
+      "class_label": "missing_comparison_assumption",
+      "fleiss_kappa": 0.454620575678281,
+      "output": "comparability",
+      "positive_agreement": 0.5583941605839416,
+      "rating_prevalence": 0.19027777777777777,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.8319444444444445,
+      "unanimous_claims": 35
+    },
+    {
+      "claims": 480,
+      "claims_with_any_label": 62,
+      "class_label": "not_a_comparability_claim",
+      "fleiss_kappa": 0.6686484738426327,
+      "output": "comparability",
+      "positive_agreement": 0.6967213114754098,
+      "rating_prevalence": 0.08472222222222223,
+      "ratings": 1440,
+      "raw_pairwise_agreement": 0.9486111111111111,
+      "unanimous_claims": 25
+    }
+  ],
+  "reference_sensitivity": [
+    {
+      "analysis": "final_resolved_reference",
+      "claims": 445,
+      "d_minus_c": 0.03146067415730337,
+      "description": "Final reference; unanimous experts or two agreeing adjudicators."
+    },
+    {
+      "analysis": "three_experts_unanimous",
+      "claims": 297,
+      "d_minus_c": -0.003367003367003367,
+      "description": "Claims on which all three reference experts agreed before adjudication."
+    },
+    {
+      "analysis": "three_experts_majority",
+      "claims": 463,
+      "d_minus_c": -0.008639308855291577,
+      "description": "Pre-adjudication two-of-three expert majority; all-different claims omitted."
+    },
+    {
+      "analysis": "compatible_with_any_expert",
+      "claims": 480,
+      "d_minus_c": 0.010416666666666666,
+      "description": "Prediction counted compatible when any reference expert selected it."
+    },
+    {
+      "analysis": "adjudicator_1_composite",
+      "claims": 480,
+      "d_minus_c": 0.0375,
+      "description": "Unanimous expert labels plus this adjudicator on every disputed claim."
+    },
+    {
+      "analysis": "adjudicator_2_composite",
+      "claims": 480,
+      "d_minus_c": 0.0125,
+      "description": "Unanimous expert labels plus this adjudicator on every disputed claim."
+    },
+    {
+      "analysis": "final_reference_both_arms_consensus",
+      "claims": 418,
+      "d_minus_c": 0.014354066985645933,
+      "description": "Final reference, excluding claims with no consensus in C or D."
+    },
+    {
+      "analysis": "final_reference_half_credit_no_consensus",
+      "claims": 445,
+      "d_minus_c": 0.019101123595505618,
+      "description": "Final reference, scoring a no-consensus panel as 0.5."
+    },
+    {
+      "analysis": "adjudicator_agreement_subset",
+      "claims": 148,
+      "d_minus_c": 0.10135135135135136,
+      "description": "Only disputed claims on which both adjudicators agreed."
+    }
+  ],
+  "sampling_mismatch": [
+    {
+      "affected_sources": 14,
+      "not_a_comparability_claim": 21,
+      "rate": 0.09545454545454546,
+      "resolved_claims": 220,
+      "sampling_stratum": "c2_decisive"
+    },
+    {
+      "affected_sources": 21,
+      "not_a_comparability_claim": 28,
+      "rate": 0.12444444444444444,
+      "resolved_claims": 225,
+      "sampling_stratum": "c5_decisive"
+    },
+    {
+      "affected_sources": 32,
+      "not_a_comparability_claim": 49,
+      "rate": 0.1101123595505618,
+      "resolved_claims": 445,
+      "sampling_stratum": "all"
+    }
+  ],
+  "schema_version": "v3-review-diagnostics-v2"
+}

@@ -1,0 +1,10 @@
+apk_gpt5mini/instrument: 432 pending of 432
+  apk_gpt5mini 50/432 parsed=49 0.26/s
+  apk_gpt5mini 100/432 parsed=98 0.27/s
+  apk_gpt5mini 150/432 parsed=147 0.28/s
+  apk_gpt5mini 200/432 parsed=195 0.27/s
+  apk_gpt5mini 250/432 parsed=242 0.27/s
+  apk_gpt5mini 300/432 parsed=291 0.28/s
+  apk_gpt5mini 350/432 parsed=336 0.28/s
+  apk_gpt5mini 400/432 parsed=384 0.28/s
+done apk_gpt5mini/instrument: 415/432 parsed

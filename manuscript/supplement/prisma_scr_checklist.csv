@@ -1,0 +1,23 @@
+item,topic,status,evidence_or_location,remaining_gap
+1,Title,partial,Title and abstract identify an evidence audit and the body identifies a scoping review,Title does not use the exact phrase scoping review
+2,Structured summary,partial,Abstract reports scope method and principal claim-audit counts,ACL abstract is unstructured
+3,Rationale,yes,Introduction and related-work positioning,
+4,Objectives,yes,Introduction states the comparison-claim question,
+5,Protocol and registration,no,Post hoc protocol and frozen artifacts are released,Review was not preregistered
+6,Eligibility criteria,yes,search_protocol.json and review protocol table,
+7,Information sources,partial,search_source_ledger.csv,Some initial manual-source dates and hit counts are unrecoverable
+8,Search,partial,Exact arXiv and venue-follow-up queries are released,Initial OpenReview USENIX AAAI ACM executions are incomplete
+9,Selection of sources,partial,screening_provenance.csv,Broad 1399-to-536 screen was model-assisted and not duplicated
+10,Data charting process,yes,Map coding protocols and observed_claim_audit_protocol.md,
+11,Data items,yes,Taxonomy codebook and observed claim codebook,
+12,Critical appraisal,partial,Source strata control checks and claim-level evidence flags,No formal study-level risk-of-bias instrument
+13,Synthesis methods,yes,Deterministic scripts and descriptive source-stratified analyses,
+14,Selection results,yes,Corpus flow and review_protocol table,
+15,Source characteristics,yes,Map tables and source manifest,
+16,Critical appraisal results,partial,Peer-review sensitivity and claim-level control verdicts,Study quality is not used as an exclusion weight
+17,Individual source results,yes,Evidence map and observed_comparison_claim_audit.csv,
+18,Synthesis results,yes,Main claim-audit table and source-stratified supplement,
+19,Summary of evidence,yes,Discussion and research agenda,
+20,Limitations,yes,Limitations section and protocol limitations,
+21,Conclusions,yes,Conclusion distinguishes diagnostic schema from validated classifier,
+22,Funding,no,Not reported in anonymous manuscript,Add applicable funding disclosure at camera ready

@@ -1,0 +1,84 @@
+\section{Formal Estimand Definitions}
+\label{sec:estimand-formalization}
+
+Let reviewer \(r\) receive prompt \(T_r\in\{0,1\}\), rate item \(i\), and emit
+label \(Y_{ri}(T_r)\). Let \(Z_i\) denote a constructed reference and
+\(s(Y,Z)\) a reference-relative score.
+
+\paragraph{Realized-panel contrast.}
+\[
+\begin{aligned}
+\Delta_{\mathrm{panel}}
+= \frac{1}{I}\sum_i \bigl[&
+s\!\left(M_{r\in\mathcal R_1}Y_{ri}(1),Z_i\right)\\[-2pt]
+&-s\!\left(M_{r\in\mathcal R_0}Y_{ri}(0),Z_i\right)
+\bigr],
+\end{aligned}
+\]
+where \(M\) is a majority rule and \(\mathcal R_t\) is the realized reviewer
+panel. This quantity is descriptive for those panels and that reference.
+
+\paragraph{Reviewer-population contrast.}
+\[
+\Delta_{\mathrm{rater}}
+=
+\mathbb E_{r,i,Z}\!\left[
+s(Y_{ri}(1),Z_i)-s(Y_{ri}(0),Z_i)
+\right].
+\]
+This target requires treatment assignment and uncertainty at the reviewer
+level, plus a defined reviewer population and reference distribution.
+
+\paragraph{Consequence contrast.}
+\[
+\Delta_{\mathrm{loss}}
+=
+\mathbb E\!\left[
+L\{a(Y(1)),\theta\}-L\{a(Y(0)),\theta\}
+\right],
+\]
+where \(a(\cdot)\) is the accept, narrow, reject, or defer decision and
+\(\theta\) is the deployment state.
+
+\paragraph{Variance decomposition.}
+Let \(\mathcal R\) be the realized reviewer composition and \(\mathcal Z\) the
+realized reference process. Then
+\[
+\begin{aligned}
+\mathrm{Var}(\widehat\Delta)
+={}&
+\mathbb E\!\left[
+\mathrm{Var}(\widehat\Delta\mid\mathcal R,\mathcal Z)
+\right]\\
+&+
+\mathrm{Var}\!\left[
+\mathbb E(\widehat\Delta\mid\mathcal R,\mathcal Z)
+\right].
+\end{aligned}
+\]
+Source resampling with reviewers and references fixed estimates the first
+term. Reviewer assignment and reference construction contribute to the
+second.
+
+\paragraph{Assignment asymptotics for panel majorities.}
+For three conditionally independent votes with correctness probabilities
+\(p_1,p_2,p_3\), majority correctness has expectation
+\[
+m(p_1,p_2,p_3)
+=p_1p_2+p_1p_3+p_2p_3-2p_1p_2p_3.
+\]
+Let \(Z\) be a six-versus-six reviewer assignment and
+\(\mu(Z)=\mathbb E(\widehat\Delta\mid Z)\) the expected difference between
+the two scheduled panel-majority scores. With \(I\) conditionally independent
+items (or \(G\) independent source clusters of bounded size),
+\[
+\mathrm{Var}(\widehat\Delta)
+=O(I^{-1})+\mathrm{Var}_{Z}\{\mu(Z)\}.
+\]
+The source-only standard error targets the first term. If reviewer profiles
+are heterogeneous, the nonlinear function \(m\) generally makes
+\(\mu(Z)\) nonconstant, so the second term does not vanish when more items are
+added to the same twelve assignments. Conditional item precision can
+therefore converge to zero while uncertainty over reviewer assignment remains.
+This characterization explains the direction of the simulation; it does not
+supply a population model for reviewer abilities.

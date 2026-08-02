@@ -1,0 +1,5 @@
+pair_id,reported_gold_verdict,exclusion_reason,analysis_action
+EV60-008,underspecified,Gold rationale says Paper A was represented only by its title.,Exclude from inferential metrics; do not relabel without a new blinded panel using a complete packet.
+EV60-025,underspecified,Gold rationale says both papers lacked text snippets.,Exclude from inferential metrics; do not relabel without a new blinded panel using a complete packet.
+EV60-026,underspecified,Gold rationale says Paper A lacked an abstract or full-text excerpt.,Exclude from inferential metrics; do not relabel without a new blinded panel using a complete packet.
+EV60-054,underspecified,Gold rationale says Paper A was represented only by its title.,Exclude from inferential metrics; do not relabel without a new blinded panel using a complete packet.

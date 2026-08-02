@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Subset & $N$ & Accuracy & 95\% CI \\
+\midrule
+Panel majority, all items & 238 & 0.945 & [0.92, 0.97] \\
+\quad passage declares provenance & 79 & 1.000 & [1.00, 1.00] \\
+\quad provenance only from structure & 80 & 1.000 & [1.00, 1.00] \\
+\midrule
+\quad recall, reimplemented & 80 & 1.000 & [1.00, 1.00] \\
+\quad recall, transported & 79 & 1.000 & [1.00, 1.00] \\
+\quad recall, unclear & 79 & 0.835 & [0.75, 0.91] \\
+\midrule
+Constant baseline & 238 & 0.336 & --- \\
+\bottomrule
+\end{tabular}
+\caption{The provenance label scored against a reference, not against agreement. Items are constructed excerpts whose provenance is fixed when the item is written; the prompt, the three judges and the majority rule are byte-identical to the ones that produced the census labels. The three reference classes are equinumerous, so the constant baseline is $1/3$. The \emph{implicit} rows carry no declaration sentence at all, so a classifier that keyed on a re-implementation or attribution phrase would score at baseline there. The stratum that asserts a relation while supplying no number for the other side is not scorable under a three-option prompt and is reported separately: the deployed prompt sends 100\% of those judgments to \emph{unclear}, while the same prompt with a fourth option recovers them at 100\%, so the category is codable and the deployed instrument simply cannot express it.}
+\label{tab:provenance-validation}
+\end{table}

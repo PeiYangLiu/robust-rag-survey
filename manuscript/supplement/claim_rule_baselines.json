@@ -1,0 +1,248 @@
+{
+  "adjudicated_marginal": {
+    "invalid": 0.075,
+    "partial": 0.3625,
+    "under-specified": 0.025,
+    "valid": 0.5375
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 2026072707,
+    "unit": "source_key cluster"
+  },
+  "coder_disagreement": [
+    {
+      "claims_with_any_disagreement": 41,
+      "field": "verdict",
+      "share": 0.5125
+    }
+  ],
+  "contrasts": [
+    {
+      "ci95": [
+        -0.0658,
+        0.0794
+      ],
+      "difference": 0.0,
+      "discordant_left_only": 3,
+      "discordant_right_only": 3,
+      "left": "Five coordinates + controls",
+      "mcnemar_exact_p": 1.0,
+      "right": "Evidence+controls (C2/C5 ablated)"
+    },
+    {
+      "ci95": [
+        -0.029,
+        0.1579
+      ],
+      "difference": 0.05,
+      "discordant_left_only": 9,
+      "discordant_right_only": 5,
+      "left": "Five coordinates",
+      "mcnemar_exact_p": 0.424,
+      "right": "Evidence+controls (C2/C5 ablated)"
+    },
+    {
+      "ci95": [
+        -0.1625,
+        0.0968
+      ],
+      "difference": -0.0375,
+      "discordant_left_only": 19,
+      "discordant_right_only": 22,
+      "left": "Five coordinates + controls",
+      "mcnemar_exact_p": 0.7552,
+      "right": "Majority class (valid)"
+    },
+    {
+      "ci95": [
+        -0.0986,
+        0.1375
+      ],
+      "difference": 0.0125,
+      "discordant_left_only": 19,
+      "discordant_right_only": 18,
+      "left": "Five coordinates",
+      "mcnemar_exact_p": 1.0,
+      "right": "Majority class (valid)"
+    }
+  ],
+  "estimators": [
+    {
+      "ci95": [
+        0.1818,
+        0.4154
+      ],
+      "cohen_kappa": -0.0034,
+      "estimator": "three_field_model",
+      "exact_accuracy": 0.3,
+      "kind": "rule",
+      "label": "Three-field taxonomy"
+    },
+    {
+      "ci95": [
+        0.3902,
+        0.5942
+      ],
+      "cohen_kappa": 0.2537,
+      "estimator": "evidence_control_baseline",
+      "exact_accuracy": 0.5,
+      "kind": "rule",
+      "label": "Evidence+controls (C2/C5 ablated)"
+    },
+    {
+      "ci95": [
+        0.4937,
+        0.6094
+      ],
+      "cohen_kappa": 0.3154,
+      "estimator": "five_coordinate_model",
+      "exact_accuracy": 0.55,
+      "kind": "rule",
+      "label": "Five coordinates"
+    },
+    {
+      "ci95": [
+        0.4197,
+        0.5714
+      ],
+      "cohen_kappa": 0.2726,
+      "estimator": "full_schema_model",
+      "exact_accuracy": 0.5,
+      "kind": "rule",
+      "label": "Five coordinates + controls"
+    },
+    {
+      "ci95": [
+        0.4321,
+        0.6463
+      ],
+      "cohen_kappa": 0.0,
+      "estimator": "majority_class_baseline",
+      "exact_accuracy": 0.5375,
+      "kind": "baseline",
+      "label": "Majority class (valid)"
+    },
+    {
+      "ci95": [
+        0.3549,
+        0.519
+      ],
+      "cohen_kappa": 0.0,
+      "estimator": "marginal_random_baseline",
+      "exact_accuracy": 0.4266,
+      "kind": "baseline",
+      "label": "Random draw from adjudicated marginal"
+    },
+    {
+      "ci95": null,
+      "cohen_kappa": 0.0,
+      "estimator": "uniform_random_baseline",
+      "exact_accuracy": 0.25,
+      "kind": "baseline",
+      "label": "Uniform over 4 verdicts"
+    }
+  ],
+  "full_rule_error_taxonomy": [
+    {
+      "adjudicated": "valid",
+      "count": 21,
+      "predicted": "valid",
+      "share_of_errors": null
+    },
+    {
+      "adjudicated": "partial",
+      "count": 13,
+      "predicted": "partial",
+      "share_of_errors": null
+    },
+    {
+      "adjudicated": "valid",
+      "count": 12,
+      "predicted": "partial",
+      "share_of_errors": 0.3
+    },
+    {
+      "adjudicated": "partial",
+      "count": 11,
+      "predicted": "invalid",
+      "share_of_errors": 0.275
+    },
+    {
+      "adjudicated": "valid",
+      "count": 9,
+      "predicted": "invalid",
+      "share_of_errors": 0.225
+    },
+    {
+      "adjudicated": "invalid",
+      "count": 5,
+      "predicted": "invalid",
+      "share_of_errors": null
+    },
+    {
+      "adjudicated": "partial",
+      "count": 3,
+      "predicted": "valid",
+      "share_of_errors": 0.075
+    },
+    {
+      "adjudicated": "partial",
+      "count": 2,
+      "predicted": "under-specified",
+      "share_of_errors": 0.05
+    },
+    {
+      "adjudicated": "under-specified",
+      "count": 1,
+      "predicted": "valid",
+      "share_of_errors": 0.025
+    },
+    {
+      "adjudicated": "invalid",
+      "count": 1,
+      "predicted": "valid",
+      "share_of_errors": 0.025
+    },
+    {
+      "adjudicated": "valid",
+      "count": 1,
+      "predicted": "under-specified",
+      "share_of_errors": 0.025
+    },
+    {
+      "adjudicated": "under-specified",
+      "count": 1,
+      "predicted": "under-specified",
+      "share_of_errors": null
+    }
+  ],
+  "interpretation": "No rule variant separates from the strongest trivial baseline (Majority class (valid), 0.537), and the full rule does not separate from its own C2/C5 ablation. The development diagnostic therefore supplies no evidence that the coordinates work as a classifier.",
+  "items": 80,
+  "modal_verdict": "valid",
+  "rule_beats_strongest_trivial_baseline": {
+    "evidence_control_baseline": false,
+    "five_coordinate_model": true,
+    "full_schema_model": false,
+    "three_field_model": false
+  },
+  "schema_version": "claim-rule-baselines-v1",
+  "source": "manuscript/supplement/claim_rule_predictions.csv",
+  "strongest_trivial_baseline": {
+    "ci95": [
+      0.4321,
+      0.6463
+    ],
+    "cohen_kappa": 0.0,
+    "estimator": "majority_class_baseline",
+    "exact_accuracy": 0.5375,
+    "kind": "baseline",
+    "label": "Majority class (valid)"
+  },
+  "verdict_classes": [
+    "invalid",
+    "partial",
+    "under-specified",
+    "valid"
+  ]
+}

@@ -230,7 +230,7 @@
     }
   ],
   "outputs": [
-    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_raw.csv",
-    "/home/v-peiyangliu/robust-rag-survey/metadata/venue_accepts_rag_related.csv"
+    "metadata/venue_accepts_raw.csv",
+    "metadata/venue_accepts_rag_related.csv"
   ]
 }

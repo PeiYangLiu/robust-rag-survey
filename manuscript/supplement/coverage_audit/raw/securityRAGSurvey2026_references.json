@@ -1,0 +1,1280 @@
+{
+  "key": "securityRAGSurvey2026",
+  "title": "Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions",
+  "resolved_id": "arXiv:2604.08304",
+  "status": "ok",
+  "reference_count_reported": 121,
+  "metadata": {
+    "paperId": "c86436c4dd86c430660038321482d6e97c810b5d",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2604-08304",
+      "ArXiv": "2604.08304",
+      "DOI": "10.48550/arXiv.2604.08304",
+      "CorpusId": 287256564
+    },
+    "title": "Securing Retrieval-Augmented Generation: A Taxonomy of Attacks, Defenses, and Future Directions",
+    "year": 2026,
+    "referenceCount": 121
+  },
+  "references": [
+    {
+      "paperId": "caedfdb7a9d435c872a2a10f047c586e1255b123",
+      "externalIds": {
+        "DBLP": "conf/www/MouQXNSCQCR26",
+        "DOI": "10.1145/3774905.3793104",
+        "CorpusId": 288778640
+      },
+      "title": "SJBP: A Platform to Launch a Novel Jailbreak Attack on Large Language Models Based on Content's Spatial Distribution",
+      "year": 2026
+    },
+    {
+      "paperId": "d9efb33fc69e55486b0926938dbce0c1b0de71b2",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2604-00387",
+        "ArXiv": "2604.00387",
+        "DOI": "10.48550/arXiv.2604.00387",
+        "CorpusId": 287199974
+      },
+      "title": "RAGShield: Detecting Numerical Claim Manipulation in Government RAG Systems",
+      "year": 2026
+    },
+    {
+      "paperId": "63f6b63c1fa113768d60a6a383654dd109468187",
+      "externalIds": {
+        "ArXiv": "2603.25164",
+        "DBLP": "journals/corr/abs-2603-25164",
+        "DOI": "10.48550/arXiv.2603.25164",
+        "CorpusId": 286789837
+      },
+      "title": "PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented Generation Systems",
+      "year": 2026
+    },
+    {
+      "paperId": "efa807c72aa5e71fc570762d3f19650cba113c94",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2603-17292",
+        "ArXiv": "2603.17292",
+        "DOI": "10.48550/arXiv.2603.17292",
+        "CorpusId": 286638790
+      },
+      "title": "SEAL-Tag: Self-Tag Evidence Aggregation with Probabilistic Circuits for PII-Safe Retrieval-Augmented Generation",
+      "year": 2026
+    },
+    {
+      "paperId": "26e2dfdae43eed1a4160f5d62b6f7ff52ee6dcc7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2603-14265",
+        "ArXiv": "2603.14265",
+        "DOI": "10.48550/arXiv.2603.14265",
+        "CorpusId": 286572514
+      },
+      "title": "MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering",
+      "year": 2026
+    },
+    {
+      "paperId": "94c189f236921d08c8709a8d27fd431b5c0a61ea",
+      "externalIds": {
+        "ArXiv": "2603.11088",
+        "DBLP": "journals/corr/abs-2603-11088",
+        "DOI": "10.48550/arXiv.2603.11088",
+        "CorpusId": 286489267
+      },
+      "title": "The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey",
+      "year": 2026
+    },
+    {
+      "paperId": "71c80eaba0b1ce6cf776987db17d8b7e9cc5b54a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-21447",
+        "ArXiv": "2602.21447",
+        "DOI": "10.48550/arXiv.2602.21447",
+        "CorpusId": 286011661
+      },
+      "title": "Adversarial Intent is a Latent Variable: Stateful Trust Inference for Securing Multimodal Agentic RAG",
+      "year": 2026
+    },
+    {
+      "paperId": "e0e8d5eab36868b810c744da4f631a2efdc09c48",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-09319",
+        "ArXiv": "2602.09319",
+        "DOI": "10.1145/3770855.3817524",
+        "CorpusId": 285462357
+      },
+      "title": "Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation",
+      "year": 2026
+    },
+    {
+      "paperId": "04ba338942f6a20071b05cd0a869db71e70415ea",
+      "externalIds": {
+        "ArXiv": "2602.08668",
+        "DBLP": "journals/corr/abs-2602-08668",
+        "DOI": "10.48550/arXiv.2602.08668",
+        "CorpusId": 285452358
+      },
+      "title": "Retrieval Pivot Attacks in Hybrid RAG: Measuring and Mitigating Amplified Leakage from Vector Seeds to Graph Expansion",
+      "year": 2026
+    },
+    {
+      "paperId": "86aa57b899c911e29d574992f50c03b5bb266ed6",
+      "externalIds": {
+        "ArXiv": "2602.06268",
+        "DBLP": "journals/corr/abs-2602-06268",
+        "DOI": "10.48550/arXiv.2602.06268",
+        "CorpusId": 285401694
+      },
+      "title": "MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs",
+      "year": 2026
+    },
+    {
+      "paperId": "d867a620c2052b7edaf4afcbda338b4d2cb4ec96",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-04711",
+        "ArXiv": "2602.04711",
+        "DOI": "10.48550/arXiv.2602.04711",
+        "CorpusId": 285285422
+      },
+      "title": "Addressing Corpus Knowledge Poisoning Attacks on RAG Using Sparse Attention",
+      "year": 2026
+    },
+    {
+      "paperId": "10afb80b63d91c0506c055a7866ac70665a25429",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-15678",
+        "ArXiv": "2601.15678",
+        "DOI": "10.48550/arXiv.2601.15678",
+        "CorpusId": 284935764
+      },
+      "title": "Connect the Dots: Knowledge Graph-Guided Crawler Attack on Retrieval-Augmented Generation Systems",
+      "year": 2026
+    },
+    {
+      "paperId": "970b68c0d7422d9d8efda0006bfb57d6abd7244a",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-11199",
+        "ArXiv": "2601.11199",
+        "DOI": "10.48550/arXiv.2601.11199",
+        "CorpusId": 284860954
+      },
+      "title": "SD-RAG: A Prompt-Injection-Resilient Framework for Selective Disclosure in Retrieval-Augmented Generation",
+      "year": 2026
+    },
+    {
+      "paperId": "8d69e536fd4c9a8f5bf28321c60bd116cc0ebcaf",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-10923",
+        "ArXiv": "2601.10923",
+        "DOI": "10.1145/3774904.3792853",
+        "CorpusId": 284861024
+      },
+      "title": "Hidden-in-Plain-Text: A Benchmark for Social-Web Indirect Prompt Injection in RAG",
+      "year": 2026
+    },
+    {
+      "paperId": "81eb760ebbe224ae52cd7aea8f7f2865e4134908",
+      "externalIds": {
+        "ArXiv": "2601.07072",
+        "DBLP": "journals/corr/abs-2601-07072",
+        "DOI": "10.48550/arXiv.2601.07072",
+        "CorpusId": 284648930
+      },
+      "title": "Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems",
+      "year": 2026
+    },
+    {
+      "paperId": "775996d14b567edeb99fb1d7b22f87bf5ae90b7f",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-03979",
+        "ArXiv": "2601.03979",
+        "DOI": "10.48550/arXiv.2601.03979",
+        "CorpusId": 284532889
+      },
+      "title": "SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems",
+      "year": 2026
+    },
+    {
+      "paperId": "2dc755acb857ec94dd1e6583002000398f90f1be",
+      "externalIds": {
+        "ArXiv": "2601.00274",
+        "DBLP": "journals/corr/abs-2601-00274",
+        "DOI": "10.48550/arXiv.2601.00274",
+        "CorpusId": 284475516
+      },
+      "title": "Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems",
+      "year": 2026
+    },
+    {
+      "paperId": "b1d80b2eda7e175e235185bdc7df4e8233f36ef4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2512-16962",
+        "ArXiv": "2512.16962",
+        "DOI": "10.48550/arXiv.2512.16962",
+        "CorpusId": 284058140
+      },
+      "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
+      "year": 2025
+    },
+    {
+      "paperId": "fb49b5335b4ad83a19362dd9012a72d8a64e7e93",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2512-08289",
+        "ArXiv": "2512.08289",
+        "DOI": "10.48550/arXiv.2512.08289",
+        "CorpusId": 283712139
+      },
+      "title": "MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks",
+      "year": 2025
+    },
+    {
+      "paperId": "dc26dc9f4491a0aacb1977bca8b5f198dffa94e6",
+      "externalIds": {
+        "DBLP": "conf/acsac/ShuklaJ25",
+        "DOI": "10.1109/ACSACW69556.2025.00050",
+        "CorpusId": 286450635
+      },
+      "title": "Proof-Carrying Answers: A Systematic Protocol for Verifiable Retrieval-Augmented Generation with Cryptographic Provenance",
+      "year": 2025
+    },
+    {
+      "paperId": "3f4771430302415dfa1626c3237607b816271912",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2512-01335",
+        "ArXiv": "2512.01335",
+        "DOI": "10.1145/3770854.3780238",
+        "CorpusId": 282379945
+      },
+      "title": "EmoRAG: Evaluating RAG Robustness to Symbolic Perturbations",
+      "year": 2025
+    },
+    {
+      "paperId": "beb40f14b81befd576408046eceea1b4314e3861",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-12331",
+        "ArXiv": "2601.12331",
+        "DOI": "10.1109/FLLM67465.2025.11391120",
+        "CorpusId": 284911316
+      },
+      "title": "Efficient Privacy-Preserving Retrieval Augmented Generation with Distance-Preserving Encryption",
+      "year": 2025
+    },
+    {
+      "paperId": "00b693dc9c82b2b51b732c15011f55b3a6713ffc",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2511-19257",
+        "ArXiv": "2511.19257",
+        "DOI": "10.1145/3770854.3780277",
+        "CorpusId": 283243663
+      },
+      "title": "Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "e03d8be84cfab8817957a430ca4b0dc5069d1b88",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2511-01268",
+        "ArXiv": "2511.01268",
+        "DOI": "10.1109/ACSAC67867.2025.00093",
+        "CorpusId": 282738760
+      },
+      "title": "Rescuing the Unpoisoned: Efficient Defense Against Knowledge Corruption Attacks on RAG Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "8f5432ec80d42614143a31cf4537cc3f311459d4",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2510-25025",
+        "ArXiv": "2510.25025",
+        "DOI": "10.1109/BigData66926.2025.11402647",
+        "CorpusId": 282573953
+      },
+      "title": "Secure Retrieval-Augmented Generation Against Poisoning Attacks",
+      "year": 2025
+    },
+    {
+      "paperId": "069e17826ddbb11c3dd5772e12802febef656cb7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2510-09710",
+        "ArXiv": "2510.09710",
+        "DOI": "10.48550/arXiv.2510.09710",
+        "CorpusId": 282057767
+      },
+      "title": "SeCon-RAG: A Two-Stage Semantic Filtering and Conflict-Free Framework for Trustworthy RAG",
+      "year": 2025
+    },
+    {
+      "paperId": "1d71dc396ceb238256a5ec9e79886dabce9ed88e",
+      "externalIds": {
+        "ArXiv": "2510.02964",
+        "DBLP": "journals/corr/abs-2510-02964",
+        "DOI": "10.1109/TIFS.2026.3705326",
+        "CorpusId": 281829421
+      },
+      "title": "External Data Extraction Attacks Against Retrieval-Augmented Large Language Models",
+      "year": 2025
+    },
+    {
+      "paperId": "80c7921964f622abe6c023a2df5d5a824f9c66d9",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2509-23519",
+        "ArXiv": "2509.23519",
+        "DOI": "10.48550/arXiv.2509.23519",
+        "CorpusId": 281675692
+      },
+      "title": "ReliabilityRAG: Effective and Provably Robust Defense for RAG-based Web-Search",
+      "year": 2025
+    },
+    {
+      "paperId": "d41e12709c702b8568544ca3c6778d6116ac7e39",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2509-20324",
+        "ArXiv": "2509.20324",
+        "DOI": "10.1109/ICDMW69685.2025.00165",
+        "CorpusId": 281505402
+      },
+      "title": "RAG Security and Privacy: Formalizing the Threat Model and Attack Surface",
+      "year": 2025
+    },
+    {
+      "paperId": "0858d2acc2abf2f36da75f8758b033c5786ff9a0",
+      "externalIds": {
+        "ArXiv": "2509.07941",
+        "DBLP": "journals/corr/abs-2509-07941",
+        "DOI": "10.1145/3719027.3765161",
+        "CorpusId": 281218064
+      },
+      "title": "ImportSnare: Directed 'Code Manual' Hijacking in Retrieval-Augmented Code Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "61f18d20ee4050500319ae16ca35257385195f08",
+      "externalIds": {
+        "ArXiv": "2509.02473",
+        "DBLP": "journals/corr/abs-2509-02473",
+        "DOI": "10.1145/3770855.3817454",
+        "CorpusId": 281079349
+      },
+      "title": "FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data",
+      "year": 2025
+    },
+    {
+      "paperId": "af01eb4a9161aaf8d9c505549d534207fb719b9e",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2508-18652",
+        "ArXiv": "2508.18652",
+        "DOI": "10.48550/arXiv.2508.18652",
+        "CorpusId": 280869933
+      },
+      "title": "UniC-RAG: Universal Knowledge Corruption Attacks to Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "af7b49a4fbe51c3b10556a0340ad4176733387cb",
+      "externalIds": {
+        "ArXiv": "2508.09105",
+        "DBLP": "journals/corr/abs-2508-09105",
+        "DOI": "10.48550/arXiv.2508.09105",
+        "CorpusId": 280635558
+      },
+      "title": "SMA: Who Said That? Auditing Membership Leakage in Semi-Black-box RAG Controlling",
+      "year": 2025
+    },
+    {
+      "paperId": "efc9e041827682dd2fb59885a61770e03ad23fe7",
+      "externalIds": {
+        "ArXiv": "2507.05093",
+        "DBLP": "journals/corr/abs-2507-05093",
+        "DOI": "10.1145/3733799.3762976",
+        "CorpusId": 280115370
+      },
+      "title": "The Hidden Threat in Plain Text: Attacking RAG Data Loaders",
+      "year": 2025
+    },
+    {
+      "paperId": "f4a79f6316aa979f5fb2c227e6d49a3e7f9df28a",
+      "externalIds": {
+        "DBLP": "journals/ipm/HeTZZS25",
+        "DOI": "10.1016/j.ipm.2025.104150",
+        "CorpusId": 277456665
+      },
+      "title": "Mitigating privacy risks in Retrieval-Augmented Generation via locally private entity perturbation",
+      "year": 2025
+    },
+    {
+      "paperId": "dba7b0d5b23206133c3726bbc74cde012bf5d970",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2507-02974",
+        "ArXiv": "2507.02974",
+        "DOI": "10.48550/arXiv.2507.02974",
+        "CorpusId": 280148751
+      },
+      "title": "InvisibleInk: High-Utility and Low-Cost Text Generation with Differential Privacy",
+      "year": 2025
+    },
+    {
+      "paperId": "937026a7f229377ab51452557a75aa4648c0cf40",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2506-10508",
+        "ArXiv": "2506.10508",
+        "DOI": "10.1109/TKDE.2026.3656900",
+        "CorpusId": 279318794
+      },
+      "title": "Reliable Reasoning Path: Distilling Effective Guidance for LLM Reasoning With Knowledge Graphs",
+      "year": 2025
+    },
+    {
+      "paperId": "4e74beab34960e76b4aae5f25cb5948d7fd241a3",
+      "externalIds": {
+        "ArXiv": "2506.04390",
+        "CorpusId": 288649691
+      },
+      "title": "Through the Stealth Lens: Attention-Aware Defenses Against Poisoning in RAG",
+      "year": 2025
+    },
+    {
+      "paperId": "fc626e7c712bd21ca760e49c0a1e201077fe2124",
+      "externalIds": {
+        "ArXiv": "2506.00281",
+        "DBLP": "journals/corr/abs-2506-00281",
+        "DOI": "10.1117/12.3055931",
+        "CorpusId": 278988584
+      },
+      "title": "Adversarial threat vectors and risk mitigation for retrieval-augmented generation systems",
+      "year": 2025
+    },
+    {
+      "paperId": "45ed289c810d1d7025a2597c66b0e21c592c02a7",
+      "externalIds": {
+        "ArXiv": "2506.00054",
+        "DBLP": "journals/corr/abs-2506-00054",
+        "DOI": "10.48550/arXiv.2506.00054",
+        "CorpusId": 279074984
+      },
+      "title": "Retrieval-Augmented Generation: A Comprehensive Survey of Architectures, Enhancements, and Robustness Frontiers",
+      "year": 2025
+    },
+    {
+      "paperId": "168d20578266093d139f7fcfdc355b94f37ef179",
+      "externalIds": {
+        "ArXiv": "2505.18583",
+        "DBLP": "journals/corr/abs-2505-18583",
+        "DOI": "10.48550/arXiv.2505.18583",
+        "CorpusId": 278905965
+      },
+      "title": "The Silent Saboteur: Imperceptible Adversarial Attacks against Black-Box Retrieval-Augmented Generation Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "3a7e5dd0b6cf4934876e60531fff22716421104e",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2505-15420",
+        "ArXiv": "2505.15420",
+        "DOI": "10.48550/arXiv.2505.15420",
+        "CorpusId": 278782197
+      },
+      "title": "Silent Leaks: Implicit Knowledge Extraction Attack on RAG Systems through Benign Queries",
+      "year": 2025
+    },
+    {
+      "paperId": "974b67239d162a4df465e247b71551303880149d",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ZhangZRZLTLC25",
+        "ArXiv": "2505.13957",
+        "DOI": "10.48550/arXiv.2505.13957",
+        "CorpusId": 278768965
+      },
+      "title": "Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "75f4fe7dd72ab8bdbcbb11a4a57ac9e2487b5d94",
+      "externalIds": {
+        "ArXiv": "2505.11548",
+        "DBLP": "conf/emnlp/ChangLJWHJLW25",
+        "DOI": "10.48550/arXiv.2505.11548",
+        "CorpusId": 278739858
+      },
+      "title": "One Shot Dominance: Knowledge Poisoning Attack on Retrieval-Augmented Generation Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "68d2d650ea44f8502dcff008f1bd852f7a6a5b21",
+      "externalIds": {
+        "DBLP": "conf/sds2/AmmannOLL25",
+        "ArXiv": "2505.08728",
+        "DOI": "10.1109/SDS66131.2025.00024",
+        "CorpusId": 278534428
+      },
+      "title": "Securing Rag: A Risk Assessment and Mitigation Framework",
+      "year": 2025
+    },
+    {
+      "paperId": "defa1f4d5de269fc4e05abfcc3feeafabb7e3a9f",
+      "externalIds": {
+        "ArXiv": "2505.07546",
+        "DBLP": "conf/emnlp/ZhengGHHMSX25",
+        "DOI": "10.18653/v1/2025.emnlp-main.1132",
+        "CorpusId": 278502066
+      },
+      "title": "GRADA: Graph-based Reranking against Adversarial Documents Attack",
+      "year": 2025
+    },
+    {
+      "paperId": "3835926e08ef43b543ee380600e4f271df589b84",
+      "externalIds": {
+        "ArXiv": "2505.06311",
+        "DBLP": "conf/emnlp/WenWYTXLDW25",
+        "DOI": "10.18653/v1/2025.findings-emnlp.1060",
+        "CorpusId": 278502145
+      },
+      "title": "Defending against Indirect Prompt Injection by Instruction Detection",
+      "year": 2025
+    },
+    {
+      "paperId": "549e494b7383404416838e1bec6bfbc53265ee75",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-21680",
+        "ArXiv": "2504.21680",
+        "DOI": "10.48550/arXiv.2504.21680",
+        "CorpusId": 278208217
+      },
+      "title": "Hoist with His Own Petard: Inducing Guardrails to Facilitate Denial-of-Service Attacks on Retrieval-Augmented Generation of LLMs",
+      "year": 2025
+    },
+    {
+      "paperId": "4eb4edc7d0bea4216b1004c6605dd4f8850b69ed",
+      "externalIds": {
+        "ArXiv": "2504.19101",
+        "DBLP": "journals/corr/abs-2504-19101",
+        "DOI": "10.48550/arXiv.2504.19101",
+        "CorpusId": 278165545
+      },
+      "title": "Privacy-Preserving Federated Embedding Learning for Localized Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "1f3332443c19238a2799f9f9c7878c97b76b4ad2",
+      "externalIds": {
+        "DBLP": "conf/naacl/ParkMPL25",
+        "ArXiv": "2504.17137",
+        "DOI": "10.48550/arXiv.2504.17137",
+        "CorpusId": 278033562
+      },
+      "title": "MIRAGE: A Metric-Intensive Benchmark for Retrieval-Augmented Generation Evaluation",
+      "year": 2025
+    },
+    {
+      "paperId": "79e57387a664a5d7b128b2790a8f38f827e09124",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-14891",
+        "ArXiv": "2504.14891",
+        "DOI": "10.48550/arXiv.2504.14891",
+        "CorpusId": 277955205
+      },
+      "title": "Retrieval Augmented Generation Evaluation in the Era of Large Language Models: A Comprehensive Survey",
+      "year": 2025
+    },
+    {
+      "paperId": "403bd2292154cf84bfaebe440ebd642b623839f1",
+      "externalIds": {
+        "DBLP": "conf/sigir/JiaoWY25",
+        "ArXiv": "2504.07717",
+        "DOI": "10.1145/3726302.3730058",
+        "CorpusId": 277667367
+      },
+      "title": "PR-Attack: Coordinated Prompt-RAG Attacks on Retrieval-Augmented Generation in Large Language Models via Bilevel Optimization",
+      "year": 2025
+    },
+    {
+      "paperId": "72047a3141cffe6c4564258212c5d648cad1e36f",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-03957",
+        "ArXiv": "2504.03957",
+        "DOI": "10.1145/3750555.3811900",
+        "CorpusId": 277621857
+      },
+      "title": "Practical Poisoning Attacks against Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "cad8af4100bfd4fcb4f8bf3a50ee19a509ac04e3",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-02132",
+        "ArXiv": "2504.02132",
+        "DOI": "10.48550/arXiv.2504.02132",
+        "CorpusId": 277510109
+      },
+      "title": "One Pic is All it Takes: Poisoning Visual Document Retrieval Augmented Generation with a Single Image",
+      "year": 2025
+    },
+    {
+      "paperId": "cb665b552ff4b2e7cf00d5c19f21b7e6b89c8ed8",
+      "externalIds": {
+        "DBLP": "conf/sac/ChenTSPZ25",
+        "DOI": "10.1145/3672608.3707848",
+        "CorpusId": 278603299
+      },
+      "title": "Integrating Access Control with Retrieval-Augmented Generation: A Proof of Concept for Managing Sensitive Patient Profiles",
+      "year": 2025
+    },
+    {
+      "paperId": "a38c4dbc2a0b228d18c3b94c067b078662a96fa7",
+      "externalIds": {
+        "ArXiv": "2503.15548",
+        "DBLP": "journals/corr/abs-2503-15548",
+        "DOI": "10.48550/arXiv.2503.15548",
+        "CorpusId": 277151020
+      },
+      "title": "Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval",
+      "year": 2025
+    },
+    {
+      "paperId": "ab8f3f2e77eb894b13b1e058c5c3b23640dd4dca",
+      "externalIds": {
+        "ArXiv": "2503.06254",
+        "DBLP": "journals/corr/abs-2503-06254",
+        "DOI": "10.48550/arXiv.2503.06254",
+        "CorpusId": 276902519
+      },
+      "title": "Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "5bea28ba3a73de9da9bc1cd73dd8f0bda8a2084e",
+      "externalIds": {
+        "ArXiv": "2503.03704",
+        "CorpusId": 276782132
+      },
+      "title": "Memory Injection Attacks on LLM Agents via Query-Only Interaction",
+      "year": 2025
+    },
+    {
+      "paperId": "8299d8626d25cc476d5a68e5398d856385f75c56",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ChoiKCJC25",
+        "ArXiv": "2502.20995",
+        "DOI": "10.48550/arXiv.2502.20995",
+        "CorpusId": 276725045
+      },
+      "title": "The RAG Paradox: A Black-Box Attack Exploiting Unintentional Vulnerabilities in Retrieval-Augmented Generation Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "96cd145b56f4a9073b778037419e328a1bf74e17",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2502-17832",
+        "ArXiv": "2502.17832",
+        "DOI": "10.48550/arXiv.2502.17832",
+        "CorpusId": 276581020
+      },
+      "title": "MM-PoisonRAG: Disrupting Multimodal RAG with Local and Global Poisoning Attacks",
+      "year": 2025
+    },
+    {
+      "paperId": "a5e85f729fa022c77c2c4b838efc910df83a3a9d",
+      "externalIds": {
+        "DBLP": "conf/nips/ZengGMZY25",
+        "ArXiv": "2502.16101",
+        "DOI": "10.48550/arXiv.2502.16101",
+        "CorpusId": 276575912
+      },
+      "title": "Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the Robustness of RAG Against Misleading Retrievals",
+      "year": 2025
+    },
+    {
+      "paperId": "8d74c46b13d757db06fa56329ba379fe9ef44fba",
+      "externalIds": {
+        "DOI": "10.5121/csit.2025.150417",
+        "CorpusId": 276622158
+      },
+      "title": "D-RAG: A Privacy-Preserving Framework for Decentralized RAG using Blockchain",
+      "year": 2025
+    },
+    {
+      "paperId": "dd0d22c63ffddc2b3407fe455f1f7e28d2d5d4bb",
+      "externalIds": {
+        "ArXiv": "2502.03233",
+        "DBLP": "journals/corr/abs-2502-03233",
+        "DOI": "10.48550/arXiv.2502.03233",
+        "CorpusId": 276116851
+      },
+      "title": "Exploring the Security Threats of Knowledge Base Poisoning in Retrieval-Augmented Code Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "7e9717e111ee23ab26cf26bf4969ea9da48cf91e",
+      "externalIds": {
+        "DBLP": "conf/uss/GongC0CY00L25",
+        "ArXiv": "2502.01386",
+        "DOI": "10.48550/arXiv.2502.01386",
+        "CorpusId": 276107577
+      },
+      "title": "Topic-FlipRAG: Topic-Orientated Adversarial Opinion Manipulation Attacks to Retrieval-Augmented Generation Models",
+      "year": 2025
+    },
+    {
+      "paperId": "be43884bfae5c6c6add21640a41b1d19197cbee5",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2502-00306",
+        "ArXiv": "2502.00306",
+        "DOI": "10.1145/3719027.3744840",
+        "CorpusId": 276095244
+      },
+      "title": "Riddle Me This! Stealthy Membership Inference for Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "71b45d00f0239eb098462f2a8d94e41b9d2040bc",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2501-18365",
+        "ArXiv": "2501.18365",
+        "DOI": "10.1145/3726302.3730078",
+        "CorpusId": 275993994
+      },
+      "title": "Robust Fine-tuning for Retrieval Augmented Generation against Retrieval Defects",
+      "year": 2025
+    },
+    {
+      "paperId": "564878c6c53862bb9cbae8c99dfe90525b882863",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2501-14050",
+        "ArXiv": "2501.14050",
+        "DOI": "10.1109/SP63933.2026.00070",
+        "CorpusId": 275906750
+      },
+      "title": "GraphRAG Under Fire",
+      "year": 2025
+    },
+    {
+      "paperId": "bb7047071062aea5d846005ff6dcd7782d29103e",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2501-03468",
+        "ArXiv": "2501.03468",
+        "DOI": "10.48550/arXiv.2501.03468",
+        "CorpusId": 275342782
+      },
+      "title": "MTRAG: A Multi-Turn Conversational Benchmark for Evaluating Retrieval-Augmented Generation Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "d542b6e9c383b902a9b07a74d2e60faf8470e1a0",
+      "externalIds": {
+        "DBLP": "conf/ccs/ChenG0CLCZ0L25",
+        "ArXiv": "2501.02968",
+        "DOI": "10.1145/3719027.3765023",
+        "CorpusId": 275337175
+      },
+      "title": "FlippedRAG: Black-Box Opinion Manipulation Adversarial Attacks to Retrieval-Augmented Generation Models",
+      "year": 2025
+    },
+    {
+      "paperId": "1744b3fbd4a595a233257f0c2b2df3e3d8eeb95c",
+      "externalIds": {
+        "ArXiv": "2501.00879",
+        "CorpusId": 278886557
+      },
+      "title": "TrustRAG: Enhancing Robustness and Trustworthiness in Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": "529a806ea4f9dac1b10248c05ce4d98a7ea38862",
+      "externalIds": {
+        "ArXiv": "2412.20953",
+        "DBLP": "journals/corr/abs-2412-20953",
+        "DOI": "10.1145/3719027.3765095",
+        "CorpusId": 275133232
+      },
+      "title": "GASLITEing the Retrieval: Exploring Vulnerabilities in Dense Embedding-based Search",
+      "year": 2024
+    },
+    {
+      "paperId": "483f24770bb43288e544eb60ed325177aa031c0f",
+      "externalIds": {
+        "ArXiv": "2412.19291",
+        "DBLP": "conf/ieeecai/Grislain25",
+        "DOI": "10.1109/CAI64502.2025.00150",
+        "CorpusId": 275119364
+      },
+      "title": "RAG with Differential Privacy",
+      "year": 2024
+    },
+    {
+      "paperId": "a89978394b3b03ef512d1445d18ef09f741277f4",
+      "externalIds": {
+        "ArXiv": "2412.12775",
+        "DBLP": "journals/corr/abs-2412-12775",
+        "DOI": "10.48550/arXiv.2412.12775",
+        "CorpusId": 274789640
+      },
+      "title": "RemoteRAG: A Privacy-Preserving LLM Cloud RAG Service",
+      "year": 2024
+    },
+    {
+      "paperId": "33ed66220f8f2db504ebf4b9a43e69f8aab59775",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2412-13163",
+        "ArXiv": "2412.13163",
+        "DOI": "10.48550/arXiv.2412.13163",
+        "CorpusId": 274789195
+      },
+      "title": "C-FedRAG: A Confidential Federated Retrieval-Augmented Generation System",
+      "year": 2024
+    },
+    {
+      "paperId": "25de0fd6ae2a87e41ede1d678ad9df7f52e022a7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2412-04697",
+        "ArXiv": "2412.04697",
+        "DOI": "10.48550/arXiv.2412.04697",
+        "CorpusId": 274581388
+      },
+      "title": "Privacy-Preserving Retrieval Augmented Generation with Differential Privacy",
+      "year": 2024
+    },
+    {
+      "paperId": "12ffa0e3dce0f21a6e411368dadec4efac4bd56f",
+      "externalIds": {
+        "ArXiv": "2411.18948",
+        "DBLP": "conf/emnlp/TanLLSCD25",
+        "DOI": "10.18653/v1/2025.findings-emnlp.698",
+        "CorpusId": 274422458
+      },
+      "title": "RevPRAG: Revealing Poisoning Attacks in Retrieval-Augmented Generation through LLM Activation Analysis",
+      "year": 2024
+    },
+    {
+      "paperId": "9832eb62e0b3d826d21445fc1fd2fcf6ced7d41a",
+      "externalIds": {
+        "ArXiv": "2411.01705",
+        "DBLP": "journals/corr/abs-2411-01705",
+        "DOI": "10.48550/arXiv.2411.01705",
+        "CorpusId": 273812370
+      },
+      "title": "Data Extraction Attacks in Retrieval-Augmented Generation via Backdoors",
+      "year": 2024
+    },
+    {
+      "paperId": "06f5e2bc1552020103829b8d71b8d1afdf43397a",
+      "externalIds": {
+        "DBLP": "conf/emnlp/HwangPPKPO25",
+        "ArXiv": "2410.22954",
+        "DOI": "10.48550/arXiv.2410.22954",
+        "CorpusId": 273696089
+      },
+      "title": "Retrieval-Augmented Generation with Estimation of Source Reliability",
+      "year": 2024
+    },
+    {
+      "paperId": "fe2dd4ac8bb14c622a890482384c9e1136479bf6",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2410-07176",
+        "ArXiv": "2410.07176",
+        "DOI": "10.48550/arXiv.2410.07176",
+        "CorpusId": 273233415
+      },
+      "title": "Astute RAG: Overcoming Imperfect Retrieval Augmentation and Knowledge Conflicts for Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "273c145ea080f277839b89628c255017fc0e1e7c",
+      "externalIds": {
+        "ArXiv": "2409.10102",
+        "DBLP": "journals/corr/abs-2409-10102",
+        "DOI": "10.48550/arXiv.2409.10102",
+        "CorpusId": 272689561
+      },
+      "title": "Trustworthiness in Retrieval-Augmented Generation Systems: A Survey",
+      "year": 2024
+    },
+    {
+      "paperId": "b2e0ad150cff50c033b323e6e415ad7464d88328",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2408-05025",
+        "ArXiv": "2408.05025",
+        "DOI": "10.48550/arXiv.2408.05025",
+        "CorpusId": 271843426
+      },
+      "title": "Rag and Roll: An End-to-End Evaluation of Indirect Prompt Manipulations in LLM-based Application Frameworks",
+      "year": 2024
+    },
+    {
+      "paperId": "e3e13a31a839912aa8d0b62bbcd9906ff49512c9",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2408-01262",
+        "ArXiv": "2408.01262",
+        "DOI": "10.18653/v1/2025.acl-long.418",
+        "CorpusId": 271693372
+      },
+      "title": "RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework",
+      "year": 2024
+    },
+    {
+      "paperId": "d4a5c2ab2b459426869e1a3ab1550897b005303e",
+      "externalIds": {
+        "ArXiv": "2407.13193",
+        "DBLP": "journals/corr/abs-2407-13193",
+        "DOI": "10.48550/arXiv.2407.13193",
+        "CorpusId": 271270644
+      },
+      "title": "Retrieval-Augmented Generation for Natural Language Processing: A Survey",
+      "year": 2024
+    },
+    {
+      "paperId": "b6948a9e8b3eec5a56a80c69727154fcd7ececce",
+      "externalIds": {
+        "DBLP": "conf/nips/ChenXXSL24",
+        "ArXiv": "2407.12784",
+        "DOI": "10.48550/arXiv.2407.12784",
+        "CorpusId": 271244867
+      },
+      "title": "AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases",
+      "year": 2024
+    },
+    {
+      "paperId": "1b0aba023d7aa5fb9853f9e942efb5c243dc1201",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-11005",
+        "ArXiv": "2407.11005",
+        "DOI": "10.48550/arXiv.2407.11005",
+        "CorpusId": 271218596
+      },
+      "title": "RAGBench: Explainable Benchmark for Retrieval-Augmented Generation Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "dcdcf97a86050202d0a804202e56e5878c167951",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ZengZHRZLXLXT25",
+        "ArXiv": "2406.14773",
+        "DOI": "10.48550/arXiv.2406.14773",
+        "CorpusId": 270688277
+      },
+      "title": "Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data",
+      "year": 2024
+    },
+    {
+      "paperId": "e8a9b5a32836af499dcb9ccdee1008638309a6cc",
+      "externalIds": {
+        "DBLP": "conf/iclr/WeiC025",
+        "ArXiv": "2406.13629",
+        "CorpusId": 271909559
+      },
+      "title": "InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales",
+      "year": 2024
+    },
+    {
+      "paperId": "3c6893a23391a2922f070c5aec8b279064815ed3",
+      "externalIds": {
+        "ACL": "2024.emnlp-main.401",
+        "DBLP": "journals/corr/abs-2406-10794",
+        "ArXiv": "2406.10794",
+        "DOI": "10.48550/arXiv.2406.10794",
+        "CorpusId": 270560863
+      },
+      "title": "Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis",
+      "year": 2024
+    },
+    {
+      "paperId": "320b86d8a23da014d018db23a5f43b94368dd749",
+      "externalIds": {
+        "DBLP": "conf/uss/ShafranSS25",
+        "ArXiv": "2406.05870",
+        "DOI": "10.48550/arXiv.2406.05870",
+        "CorpusId": 270371648
+      },
+      "title": "Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents",
+      "year": 2024
+    },
+    {
+      "paperId": "3b81eca915a041b12eab31ffa62fca5bdabfbf17",
+      "externalIds": {
+        "ArXiv": "2405.15556",
+        "DBLP": "journals/corr/abs-2405-15556",
+        "DOI": "10.48550/arXiv.2405.15556",
+        "CorpusId": 270045527
+      },
+      "title": "Certifiably Robust RAG against Retrieval Corruption",
+      "year": 2024
+    },
+    {
+      "paperId": "d8d0d704446ffaf09b9722360ed76341934ec3a3",
+      "externalIds": {
+        "ArXiv": "2405.13401",
+        "DBLP": "journals/corr/abs-2405-13401",
+        "DOI": "10.48550/arXiv.2405.13401",
+        "CorpusId": 269983281
+      },
+      "title": "TrojanRAG: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
+      "year": 2024
+    },
+    {
+      "paperId": "3c6a6c8de005ef5722a54847747f65922e79d622",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2405-07437",
+        "ArXiv": "2405.07437",
+        "DOI": "10.1007/978-981-96-1024-2_8",
+        "CorpusId": 269758033
+      },
+      "title": "Evaluation of Retrieval-Augmented Generation: A Survey",
+      "year": 2024
+    },
+    {
+      "paperId": "42f66425ba1b156de2518ccba7e2dbde087fb556",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2404-17196",
+        "ArXiv": "2404.17196",
+        "DOI": "10.1145/3663529.3663786",
+        "CorpusId": 269430456
+      },
+      "title": "Human-Imperceptible Retrieval Poisoning Attacks in LLM-Powered Applications",
+      "year": 2024
+    },
+    {
+      "paperId": "038cf7f6b8fc781d3b74fe2cfe6db2bf35908a37",
+      "externalIds": {
+        "DBLP": "conf/emnlp/ChoJSHP24",
+        "ArXiv": "2404.13948",
+        "DOI": "10.48550/arXiv.2404.13948",
+        "CorpusId": 269293062
+      },
+      "title": "Typos that Broke the RAG's Back: Genetic Attack on RAG Pipeline by Simulating Documents in the Wild via Low-level Perturbations",
+      "year": 2024
+    },
+    {
+      "paperId": "d48c56dbce88580736c037797666060cb3b03bf7",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2403-20009",
+        "ACL": "2024.naacl-long.60",
+        "ArXiv": "2403.20009",
+        "DOI": "10.48550/arXiv.2403.20009",
+        "CorpusId": 268793934
+      },
+      "title": "On Large Language Models\u2019 Hallucination with Regard to Known Facts",
+      "year": 2024
+    },
+    {
+      "paperId": "e6ad241ce87fe608241e9004f4c9d199b6bfebc7",
+      "externalIds": {
+        "ArXiv": "2403.02817",
+        "DBLP": "journals/corr/abs-2403-02817",
+        "DOI": "10.48550/arXiv.2403.02817",
+        "CorpusId": 268249027
+      },
+      "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
+      "year": 2024
+    },
+    {
+      "paperId": "7b00cb1fe1773f964d123dab6d4812c7bc63de06",
+      "externalIds": {
+        "DBLP": "conf/iclr/QiZXKL25",
+        "ArXiv": "2402.17840",
+        "DOI": "10.48550/arXiv.2402.17840",
+        "CorpusId": 268041619
+      },
+      "title": "Follow My Instruction and Spill the Beans: Scalable Data Extraction from Retrieval-Augmented Generation Systems",
+      "year": 2024
+    },
+    {
+      "paperId": "ea89b058ce619ed16d4de633126b02a8179457c8",
+      "externalIds": {
+        "DBLP": "conf/acl/ZengZHLX000WYT24",
+        "ArXiv": "2402.16893",
+        "DOI": "10.48550/arXiv.2402.16893",
+        "CorpusId": 268032903
+      },
+      "title": "The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)",
+      "year": 2024
+    },
+    {
+      "paperId": "a2a4ddbed34916cfa345e957cf060da99685e37b",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2402-08416",
+        "ArXiv": "2402.08416",
+        "DOI": "10.48550/arXiv.2402.08416",
+        "CorpusId": 267636904
+      },
+      "title": "Pandora: Jailbreak GPTs by Retrieval Augmented Generation Poisoning",
+      "year": 2024
+    },
+    {
+      "paperId": "6d465be006615460d41060f9f5068d51fc1f46b1",
+      "externalIds": {
+        "DBLP": "conf/kdd/YiX0KS0W25",
+        "ArXiv": "2312.14197",
+        "DOI": "10.1145/3690624.3709179",
+        "CorpusId": 266521508
+      },
+      "title": "Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models",
+      "year": 2023
+    },
+    {
+      "paperId": "37665dd5ae7245f087d663785c17eef068578676",
+      "externalIds": {
+        "DBLP": "conf/naacl/YanYLCTWSRJ24",
+        "ACL": "2024.naacl-long.337",
+        "ArXiv": "2307.16888",
+        "DOI": "10.18653/v1/2024.naacl-long.337",
+        "CorpusId": 260334112
+      },
+      "title": "Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection",
+      "year": 2023
+    },
+    {
+      "paperId": "66cca7a055ee9278d0439654f474cbfa4135aff0",
+      "externalIds": {
+        "ArXiv": "2305.01579",
+        "DBLP": "conf/naacl/HongKKMW24",
+        "DOI": "10.18653/v1/2024.findings-naacl.159",
+        "CorpusId": 258437010
+      },
+      "title": "Why So Gullible? Enhancing the Robustness of Retrieval-Augmented Models against Counterfactual Noise",
+      "year": 2023
+    },
+    {
+      "paperId": "705e49afd92130f2bc1e0d4d0b1f6cb14e88803f",
+      "externalIds": {
+        "DBLP": "conf/ccs/AbdelnabiGMEHF23",
+        "ArXiv": "2302.12173",
+        "DOI": "10.1145/3605764.3623985",
+        "CorpusId": 258546941
+      },
+      "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "year": 2023
+    },
+    {
+      "paperId": "df7d26339adf4eb0c07160947b9d2973c24911ba",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2012-07805",
+        "MAG": "3112689365",
+        "ArXiv": "2012.07805",
+        "CorpusId": 229156229
+      },
+      "title": "Extracting Training Data from Large Language Models",
+      "year": 2020
+    },
+    {
+      "paperId": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+      "externalIds": {
+        "DBLP": "conf/nips/LewisPPPKGKLYR020",
+        "MAG": "3027879771",
+        "ArXiv": "2005.11401",
+        "CorpusId": 218869575
+      },
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "year": 2020
+    },
+    {
+      "paperId": "855e1285cd90b2aabbe7c1db502e6fdc2a6e569f",
+      "externalIds": {
+        "MAG": "270302135",
+        "DBLP": "journals/pieee/SaltzerS75",
+        "DOI": "10.1109/PROC.1975.9939",
+        "CorpusId": 269166
+      },
+      "title": "The protection of information in computer systems",
+      "year": 1975
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "A systemic evaluation of multimodal rag privacy",
+      "year": 2026
+    },
+    {
+      "paperId": "ae1318123b0c7de73bcc6f4e2db8b53d9d33fcc4",
+      "externalIds": {
+        "DBLP": "conf/acl/ZengLCH025",
+        "DOI": "10.18653/v1/2025.acl-long.512",
+        "CorpusId": 280034882
+      },
+      "title": "S-RAG: A Novel Audit Framework for Detecting Unauthorized Use of Personal Data in RAG Systems",
+      "year": 2025
+    },
+    {
+      "paperId": "6b2f2ae37068b6408cfa7f741cd8b0ec73130034",
+      "externalIds": {
+        "DBLP": "conf/ijcnlp/HemmatMMRF25",
+        "DOI": "10.18653/v1/2025.ijcnlp-long.194",
+        "CorpusId": 285727533
+      },
+      "title": "VAGUE-Gate: Plug-and-Play Local-Privacy Shield for Retrieval-Augmented Generation",
+      "year": 2025
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "Phantom: General trigger attacks on retrieval",
+      "year": 2024
+    },
+    {
+      "paperId": "f7d95e8a91d7683e74ee642f20906e7751e47dfe",
+      "externalIds": {
+        "DOI": "10.1016/b0-08-044854-2/05234-2",
+        "CorpusId": 280583837
+      },
+      "title": "Association for Computational Linguistics",
+      "year": 2001
+    },
+    {
+      "paperId": "91e2ed54fd2f8b0d0781511e674f837f0d55a5de",
+      "externalIds": {
+        "CorpusId": 283081575
+      },
+      "title": "SecureRAG: End-to-End Secure Retrieval-Augmented Generation",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. Security and privacy challenges of large language models: A survey",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2024. A survey on large language model (llm) security and privacy: The good, the bad, and the ugly",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2024. Confused-pilot: Confused deputy risks in rag-based llms",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. Machine against the { RAG } : Jamming",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2025. Rag-pull: Imperceptible attacks on rag systems for code generation",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "1 others",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2026. Who Taught the Lie? Re-sponsibility Attribution for Poisoned Knowledge in Retrieval-Augmented Generation",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2024. A comprehensive survey of retrieval-augmented generation (rag): Evolution, current landscape and future directions",
+      "year": null
+    },
+    {
+      "paperId": null,
+      "externalIds": null,
+      "title": "2026. Privacy protection in rag: A novel method and evaluation framework",
+      "year": null
+    }
+  ]
+}

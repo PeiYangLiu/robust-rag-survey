@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Panel & $J$ & \multicolumn{2}{c}{Common items} & All & Own \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-5}\cmidrule(lr){6-6}
+ & & $AC_1$ & $\kappa$ & $\kappa$ & $\kappa$ \\
+\midrule
+Submitted panel (1 mini, 2 front.) & 3 & 0.29 & 0.14 & 0.33 & 0.07 \\
+Small tier only, 3 developers & 3 & 0.16 & 0.00 & 0.29 & 0.00 \\
+Frontier only, 3 developers & 3 & 0.54 & 0.31 & 0.51 & 0.25 \\
+Frontier only, 3 dev.\ $\times$ 2 checkpoints & 6 & 0.47 & 0.22 & 0.38 & 0.23 \\
+\quad same dev.\ (Anthropic) & 2 & 0.56 & 0.35 & 0.51 & 0.49 \\
+\quad same dev.\ (Google) & 2 & 0.54 & 0.29 & 0.38 & 0.24 \\
+\quad same dev.\ (OpenAI) & 2 & 0.53 & 0.20 & 0.50 & 0.21 \\
+\quad across dev.\ (pair A) & 2 & 0.56 & 0.32 & 0.53 & 0.37 \\
+\quad across dev.\ (pair B) & 2 & 0.37 & 0.07 & 0.15 & 0.24 \\
+\bottomrule
+\end{tabular}
+\caption{Upgrading the judges helps and does not rescue the verdict, on a population that is identical for every row. The same \FrameCandidates{}-window frame is coded by a fully crossed pool of nine judges---a small and two frontier checkpoints from each of three developers---from which these panels are drawn. Because $\kappa$ is prevalence sensitive, comparing panels each scored on its own majority-eligible subset would confound capability with item composition, so \emph{Common items} fixes one population of 843 windows that a majority of the whole nine-judge pool called eligible, and \emph{All} drops nothing at all: it scores every one of the 1,680 commonly coded windows, carrying ineligibility as its own category. \emph{Own} is each panel's $\kappa$ recomputed on the majority-eligible subset of \emph{that panel}, which is the population a reader who ran only that panel would see; it is reported because it is what a smaller pool can obtain, and it is the column that must \emph{not} be compared across rows. Conclusions are unchanged across the three: an all-frontier panel of three developers multiplies verdict $\kappa$ several-fold over the submitted panel and still reaches only \emph{fair}. The three \emph{same dev.} rows are the reference level, two frontier checkpoints from one developer where nothing differs but the checkpoint; they bound what \emph{correlated} judges reach, not what the task affords, and Table~\ref{tab:frontier-pairs} shows that one cross-developer pair beats two of them.}
+\label{tab:tier-control}
+\end{table}

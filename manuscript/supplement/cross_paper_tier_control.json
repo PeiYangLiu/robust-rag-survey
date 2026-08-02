@@ -1,0 +1,2060 @@
+{
+  "coverage": {
+    "coderA_gpt5mini": 0.9947152084556665,
+    "coderI_gpt54": 1.0,
+    "coderJ_gpt55": 1.0,
+    "coderE_haiku45": 0.994128009395185,
+    "coderB_claudeopus46": 0.997651203758074,
+    "coderG_opus48": 1.0,
+    "coderF_gemini35flash": 1.0,
+    "coderC_gemini31pro": 1.0,
+    "coderH_gemini25pro": 1.0
+  },
+  "judge_meta": {
+    "coderA_gpt5mini": [
+      "OpenAI",
+      "small",
+      "gpt-5-mini"
+    ],
+    "coderI_gpt54": [
+      "OpenAI",
+      "frontier",
+      "gpt-5.4"
+    ],
+    "coderJ_gpt55": [
+      "OpenAI",
+      "frontier",
+      "gpt-5.5"
+    ],
+    "coderE_haiku45": [
+      "Anthropic",
+      "small",
+      "claude-haiku-4.5"
+    ],
+    "coderB_claudeopus46": [
+      "Anthropic",
+      "frontier",
+      "claude-opus-4.6"
+    ],
+    "coderG_opus48": [
+      "Anthropic",
+      "frontier",
+      "claude-opus-4.8"
+    ],
+    "coderF_gemini35flash": [
+      "Google",
+      "small",
+      "gemini-3.5-flash"
+    ],
+    "coderC_gemini31pro": [
+      "Google",
+      "frontier",
+      "gemini-3.1-pro-preview"
+    ],
+    "coderH_gemini25pro": [
+      "Google",
+      "frontier",
+      "gemini-2.5-pro"
+    ]
+  },
+  "pool": {
+    "judges": [
+      "coderA_gpt5mini",
+      "coderI_gpt54",
+      "coderJ_gpt55",
+      "coderE_haiku45",
+      "coderB_claudeopus46",
+      "coderG_opus48",
+      "coderF_gemini35flash",
+      "coderC_gemini31pro",
+      "coderH_gemini25pro"
+    ],
+    "n_common": 1680,
+    "n_pool_eligible": 843,
+    "rule": "majority of the nine-judge pool called the window eligible"
+  },
+  "submitted": {
+    "members": [
+      "coderA_gpt5mini",
+      "coderB_claudeopus46",
+      "coderC_gemini31pro"
+    ],
+    "models": [
+      "gpt-5-mini",
+      "claude-opus-4.6",
+      "gemini-3.1-pro-preview"
+    ],
+    "developers": [
+      "Anthropic",
+      "Google",
+      "OpenAI"
+    ],
+    "tiers": [
+      "frontier",
+      "small"
+    ],
+    "n_common": 1690,
+    "n_majority_eligible": 756,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.5134574774428862,
+      "ci95": [
+        0.4111777904403196,
+        0.6337479581969419
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.5087420042643911,
+      "ci95": [
+        0.4083154923528373,
+        0.6122785544031483
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.2851670463081331,
+      "ci95": [
+        0.23698389839958062,
+        0.32679574466610345
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.1424357452109818,
+      "ci95": [
+        0.07842252346865528,
+        0.18257154407646767
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.22878776600697306,
+      "ci95": [
+        0.18891633852894313,
+        0.27231934101018657
+      ],
+      "n_clusters": 107,
+      "n_items": 756,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.06599169839589475,
+      "ci95": [
+        -0.0030480884594240813,
+        0.11738844824686792
+      ],
+      "n_clusters": 107,
+      "n_items": 756,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.4698781717541433,
+      "ci95": [
+        0.3781862779928002,
+        0.5768231662346075
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.3272702981040779,
+      "ci95": [
+        0.2633813222145001,
+        0.39430792606894033
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.25879249706916024,
+      "ci95": [
+        0.1683445213432224,
+        0.33789106894809173
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.2046927180262158,
+      "ci95": [
+        0.13671587356232054,
+        0.2556462104437813
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.11047699010619735,
+      "ci95": [
+        0.06915367901804519,
+        0.17361760190144926
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.20206647245507048,
+      "ci95": [
+        0.12612396396930547,
+        0.2885791548924439
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.15796359432544416,
+      "ci95": [
+        0.06804484582704985,
+        0.23708279233177346
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "frontier": {
+    "members": [
+      "coderI_gpt54",
+      "coderB_claudeopus46",
+      "coderC_gemini31pro"
+    ],
+    "models": [
+      "gpt-5.4",
+      "claude-opus-4.6",
+      "gemini-3.1-pro-preview"
+    ],
+    "developers": [
+      "Anthropic",
+      "Google",
+      "OpenAI"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1699,
+    "n_majority_eligible": 716,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.6482377992171646,
+      "ci95": [
+        0.5642541737870043,
+        0.7494280234820376
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.6307007592539022,
+      "ci95": [
+        0.5612835943322231,
+        0.7100472550004354
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.5360149467112313,
+      "ci95": [
+        0.48554613191414137,
+        0.5739835841509794
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.3136135162184554,
+      "ci95": [
+        0.22357655048349662,
+        0.36384053515280956
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.5224840729888659,
+      "ci95": [
+        0.4733478483959215,
+        0.5699961800999805
+      ],
+      "n_clusters": 102,
+      "n_items": 716,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.2540739992545118,
+      "ci95": [
+        0.16562994314052515,
+        0.29813023309832376
+      ],
+      "n_clusters": 102,
+      "n_items": 716,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.6533536933075753,
+      "ci95": [
+        0.5848406375670026,
+        0.7357531231590778
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.5058340421560013,
+      "ci95": [
+        0.45241808609494705,
+        0.5716703566844964
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.3134607022502412,
+      "ci95": [
+        0.23302023159146118,
+        0.3746731398593669
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.30756733771165834,
+      "ci95": [
+        0.20949176216627724,
+        0.3743735758229808
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.19659668502329042,
+      "ci95": [
+        0.15710636321412932,
+        0.26421246718801955
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.27606332568992187,
+      "ci95": [
+        0.20412203008575813,
+        0.3716455331024524
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.27167661665546167,
+      "ci95": [
+        0.17976298282919914,
+        0.3635486267303432
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "small": {
+    "members": [
+      "coderA_gpt5mini",
+      "coderE_haiku45",
+      "coderF_gemini35flash"
+    ],
+    "models": [
+      "gpt-5-mini",
+      "claude-haiku-4.5",
+      "gemini-3.5-flash"
+    ],
+    "developers": [
+      "Anthropic",
+      "Google",
+      "OpenAI"
+    ],
+    "tiers": [
+      "small"
+    ],
+    "n_common": 1684,
+    "n_majority_eligible": 944,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.5364349169183511,
+      "ci95": [
+        0.4818001884731617,
+        0.6076503200931148
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.528578431862972,
+      "ci95": [
+        0.4404880654477501,
+        0.6034481181689282
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.1596923569299681,
+      "ci95": [
+        0.13276143256825507,
+        0.2027797912990742
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.0031867083651663315,
+      "ci95": [
+        -0.05076882410947088,
+        0.05008441848844938
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.14981862300742357,
+      "ci95": [
+        0.12167382114033279,
+        0.18325634334909036
+      ],
+      "n_clusters": 115,
+      "n_items": 944,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.003001995908071219,
+      "ci95": [
+        -0.0474894486108674,
+        0.04915605605295718
+      ],
+      "n_clusters": 115,
+      "n_items": 944,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.3849512236002557,
+      "ci95": [
+        0.29768165264484747,
+        0.48812207534050306
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.286431849982492,
+      "ci95": [
+        0.21896894681727963,
+        0.3468951646396606
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.11968025890372953,
+      "ci95": [
+        0.022606613893196896,
+        0.21111142424793963
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.04851277888864477,
+      "ci95": [
+        -0.014317006228232593,
+        0.1134423829424675
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.017074898603520246,
+      "ci95": [
+        -0.015392095641678047,
+        0.07014381056676364
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.1465769275778724,
+      "ci95": [
+        0.04460769908903802,
+        0.24917683508658256
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": -0.11497338499565513,
+      "ci95": [
+        -0.1847247114346694,
+        -0.035806472641837415
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "frontier_cross_dev": {
+    "members": [
+      "coderB_claudeopus46",
+      "coderG_opus48",
+      "coderC_gemini31pro",
+      "coderH_gemini25pro",
+      "coderI_gpt54",
+      "coderJ_gpt55"
+    ],
+    "models": [
+      "claude-opus-4.6",
+      "claude-opus-4.8",
+      "gemini-3.1-pro-preview",
+      "gemini-2.5-pro",
+      "gpt-5.4",
+      "gpt-5.5"
+    ],
+    "developers": [
+      "Anthropic",
+      "Google",
+      "OpenAI"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1699,
+    "n_majority_eligible": 1025,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.5223975573475382,
+      "ci95": [
+        0.4245888913034664,
+        0.6348195474144384
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.51693647751929,
+      "ci95": [
+        0.42257023223755275,
+        0.6123906518010239
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.4682645894425333,
+      "ci95": [
+        0.4216219168505441,
+        0.5153442099580466
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.22033855161002155,
+      "ci95": [
+        0.16409594024327298,
+        0.2598184671154434
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.4990180752873517,
+      "ci95": [
+        0.4467327365246528,
+        0.5414044513074954
+      ],
+      "n_clusters": 119,
+      "n_items": 1025,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.23102888771695443,
+      "ci95": [
+        0.18259907257833866,
+        0.2658352601112578
+      ],
+      "n_clusters": 119,
+      "n_items": 1025,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.5297201422695784,
+      "ci95": [
+        0.4481802874120053,
+        0.6190719191405567
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.38270585147914377,
+      "ci95": [
+        0.31478434290754437,
+        0.45176533849451755
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.27823651408657085,
+      "ci95": [
+        0.19969981896492356,
+        0.3442281399069343
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.24710917924215933,
+      "ci95": [
+        0.17888766804549647,
+        0.2873984125748357
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.12453935725583919,
+      "ci95": [
+        0.09172950556645856,
+        0.1620888999637249
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.2370438223026427,
+      "ci95": [
+        0.159349324353739,
+        0.32929587955854506
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.19315738532130483,
+      "ci95": [
+        0.12457392972594357,
+        0.2643545638667677
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "same_dev_tier": {
+    "members": [
+      "coderB_claudeopus46",
+      "coderG_opus48"
+    ],
+    "models": [
+      "claude-opus-4.6",
+      "claude-opus-4.8"
+    ],
+    "developers": [
+      "Anthropic"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1699,
+    "n_majority_eligible": 368,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.6725333227389205,
+      "ci95": [
+        0.6026651779083044,
+        0.7545892424518095
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.5645685306003856,
+      "ci95": [
+        0.48139740938785724,
+        0.657392026578073
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.5571154886457859,
+      "ci95": [
+        0.48528865564994395,
+        0.6121950566530525
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.3543797978184001,
+      "ci95": [
+        0.25035490605427985,
+        0.4312839184657449
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.7702575238353747,
+      "ci95": [
+        0.6712704690982646,
+        0.8574902517267937
+      ],
+      "n_clusters": 77,
+      "n_items": 368,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.4901256011485828,
+      "ci95": [
+        0.35714285714285715,
+        0.5762433159965407
+      ],
+      "n_clusters": 77,
+      "n_items": 368,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.7309029882825645,
+      "ci95": [
+        0.6784660876154411,
+        0.7847570718567428
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.5110792999115119,
+      "ci95": [
+        0.4404357988461711,
+        0.5910435149978877
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.3933896038444903,
+      "ci95": [
+        0.2914519776606351,
+        0.4555346784029952
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.3737881148658348,
+      "ci95": [
+        0.259278784121731,
+        0.4606954291507169
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.3500620988393241,
+      "ci95": [
+        0.2301286538880629,
+        0.43292928215069393
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.36279036611921156,
+      "ci95": [
+        0.26815342423636235,
+        0.44022571543732375
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.29723606513217116,
+      "ci95": [
+        0.17697455730565723,
+        0.36975618730293386
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "same_dev_tier_google": {
+    "members": [
+      "coderC_gemini31pro",
+      "coderH_gemini25pro"
+    ],
+    "models": [
+      "gemini-3.1-pro-preview",
+      "gemini-2.5-pro"
+    ],
+    "developers": [
+      "Google"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1703,
+    "n_majority_eligible": 721,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.504383703664161,
+      "ci95": [
+        0.4408340617135217,
+        0.5913963571645702
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.49553805699218845,
+      "ci95": [
+        0.41351429376706644,
+        0.5812092027822364
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.5367289879907343,
+      "ci95": [
+        0.2647340597623453,
+        0.5808637046721487
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.2945656891975551,
+      "ci95": [
+        0.1888721300486007,
+        0.3654768036131689
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.5532092807955822,
+      "ci95": [
+        0.4578810403172859,
+        0.6109459819895192
+      ],
+      "n_clusters": 106,
+      "n_items": 721,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.2394257002931657,
+      "ci95": [
+        0.11132659032015386,
+        0.3261141421194441
+      ],
+      "n_clusters": 106,
+      "n_items": 721,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.49671931297591276,
+      "ci95": [
+        0.4482668494367433,
+        0.5665145036717447
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.3819755594899693,
+      "ci95": [
+        0.3298652709114906,
+        0.4383907694508771
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.2613028947975072,
+      "ci95": [
+        0.14663806851684041,
+        0.3295754734165052
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.2026410479064336,
+      "ci95": [
+        0.05989986576098895,
+        0.3011484343729795
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.06693359865243707,
+      "ci95": [
+        -0.0039399807112895655,
+        0.12167120442016074
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.34762444491898964,
+      "ci95": [
+        0.2362060200224133,
+        0.4676100574445599
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.04046756530876401,
+      "ci95": [
+        -0.08672069652668796,
+        0.18449065548688987
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "same_dev_tier_openai": {
+    "members": [
+      "coderI_gpt54",
+      "coderJ_gpt55"
+    ],
+    "models": [
+      "gpt-5.4",
+      "gpt-5.5"
+    ],
+    "developers": [
+      "OpenAI"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1703,
+    "n_majority_eligible": 776,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.7104303562119157,
+      "ci95": [
+        0.6539525847601165,
+        0.7808910329538569
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.7086115688144999,
+      "ci95": [
+        0.6332776474969368,
+        0.7764472052670367
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.5292470938441746,
+      "ci95": [
+        0.44069833608432984,
+        0.6365778061042173
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.19571692950274788,
+      "ci95": [
+        0.10775350138562498,
+        0.3110853384991841
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.5113042383021601,
+      "ci95": [
+        0.4106147977118446,
+        0.6350055879796349
+      ],
+      "n_clusters": 103,
+      "n_items": 776,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.20584394960652155,
+      "ci95": [
+        0.10198138948626186,
+        0.33903068019218735
+      ],
+      "n_clusters": 103,
+      "n_items": 776,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.6026251836618371,
+      "ci95": [
+        0.5093574328314991,
+        0.6948307398910751
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.49897469540927314,
+      "ci95": [
+        0.4038923506933601,
+        0.59323758172169
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.4097036996484831,
+      "ci95": [
+        0.274206583427923,
+        0.5015872830683973
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.2826169791190366,
+      "ci95": [
+        0.18538037501663537,
+        0.34807805132121633
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.17193765326204782,
+      "ci95": [
+        -0.02045265369218016,
+        0.28819995660923603
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.3425918103420265,
+      "ci95": [
+        0.16177036561898633,
+        0.46853458188615615
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.21835883171070944,
+      "ci95": [
+        0.11151829805824491,
+        0.3529442424532703
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "cross_dev_frontier_pair_a": {
+    "members": [
+      "coderB_claudeopus46",
+      "coderC_gemini31pro"
+    ],
+    "models": [
+      "claude-opus-4.6",
+      "gemini-3.1-pro-preview"
+    ],
+    "developers": [
+      "Anthropic",
+      "Google"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1699,
+    "n_majority_eligible": 516,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.6363240299523486,
+      "ci95": [
+        0.5401652862307235,
+        0.7482877557153301
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.6052608245899217,
+      "ci95": [
+        0.5231509145960014,
+        0.7022866502740834
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.563476917294803,
+      "ci95": [
+        0.3839924383327744,
+        0.6385108545034642
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.315701959962817,
+      "ci95": [
+        0.21730389449940576,
+        0.40018054538331826
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.7656185289258406,
+      "ci95": [
+        0.6105634474211078,
+        0.8573970307043772
+      ],
+      "n_clusters": 92,
+      "n_items": 516,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.3689057291541764,
+      "ci95": [
+        0.24819753086419766,
+        0.480392645373462
+      ],
+      "n_clusters": 92,
+      "n_items": 516,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.6981830712221921,
+      "ci95": [
+        0.6322103361356316,
+        0.7750774717128527
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.5341319686774637,
+      "ci95": [
+        0.46889247770397685,
+        0.6223678591946364
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.31931919474896686,
+      "ci95": [
+        0.2099385410431964,
+        0.4213499447452417
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.2741514731290352,
+      "ci95": [
+        0.1722427515502943,
+        0.36649596493882836
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": 0.23463460458807903,
+      "ci95": [
+        0.16516358219217345,
+        0.32512724253690956
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": 0.30546164330437386,
+      "ci95": [
+        0.1985657705392457,
+        0.4465167813120353
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.25967129170796166,
+      "ci95": [
+        0.12114021450239892,
+        0.3998813037842229
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "cross_dev_frontier_pair_b": {
+    "members": [
+      "coderG_opus48",
+      "coderH_gemini25pro"
+    ],
+    "models": [
+      "claude-opus-4.8",
+      "gemini-2.5-pro"
+    ],
+    "developers": [
+      "Anthropic",
+      "Google"
+    ],
+    "tiers": [
+      "frontier"
+    ],
+    "n_common": 1703,
+    "n_majority_eligible": 425,
+    "n_pool_eligible": 843,
+    "n_all_items": 1680,
+    "eligibility_ac1": {
+      "point": 0.16720298441462977,
+      "ci95": [
+        -0.026334873376102238,
+        0.3824881430134987
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "eligibility_kappa": {
+      "point": 0.15653869358774872,
+      "ci95": [
+        -0.030527310220525534,
+        0.3643491662422363
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_ac1": {
+      "point": 0.37379319293821284,
+      "ci95": [
+        0.2887000563475152,
+        0.47336095140998674
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_kappa": {
+      "point": 0.06935308741348152,
+      "ci95": [
+        -0.044402985074626845,
+        0.19347680728060254
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "verdict_ac1_own": {
+      "point": 0.4789625317405624,
+      "ci95": [
+        0.3647540450633451,
+        0.5726200789788557
+      ],
+      "n_clusters": 80,
+      "n_items": 425,
+      "draws": 2000
+    },
+    "verdict_kappa_own": {
+      "point": 0.23839675049280226,
+      "ci95": [
+        0.03638913130877342,
+        0.3708095712259739
+      ],
+      "n_clusters": 80,
+      "n_items": 425,
+      "draws": 2000
+    },
+    "verdict_ac1_allitems": {
+      "point": 0.35271361300065074,
+      "ci95": [
+        0.2552178506604349,
+        0.46705584897600794
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "verdict_kappa_allitems": {
+      "point": 0.14655229930600025,
+      "ci95": [
+        0.02872644423612798,
+        0.2799922252195701
+      ],
+      "n_clusters": 171,
+      "n_items": 1680,
+      "draws": 2000
+    },
+    "coordinate_c1_kappa": {
+      "point": 0.07163124377331957,
+      "ci95": [
+        -0.0690045301536901,
+        0.21317494736975198
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c2_kappa": {
+      "point": 0.1099959497772378,
+      "ci95": [
+        0.007280297212962642,
+        0.2180819530772824
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c3_kappa": {
+      "point": -0.1867289873118606,
+      "ci95": [
+        -0.29497322278704474,
+        -0.053495849688263326
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c4_kappa": {
+      "point": -0.026971933537627484,
+      "ci95": [
+        -0.1903975905084438,
+        0.15444043416407613
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    },
+    "coordinate_c5_kappa": {
+      "point": 0.05769111345711993,
+      "ci95": [
+        -0.041547938885722675,
+        0.14597061822647356
+      ],
+      "n_clusters": 107,
+      "n_items": 843,
+      "draws": 2000
+    }
+  },
+  "pairwise": {
+    "coderA_gpt5mini|coderB_claudeopus46": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 564,
+      "verdict_kappa": 0.02314483089634368,
+      "verdict_ac1": 0.13109612455344005,
+      "verdict_kappa_own": -0.10400111854216679,
+      "eligibility_kappa": 0.4240284152796011
+    },
+    "coderA_gpt5mini|coderC_gemini31pro": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 654,
+      "verdict_kappa": 0.061474371572718234,
+      "verdict_ac1": 0.15800652587238825,
+      "verdict_kappa_own": -0.010140186561216907,
+      "eligibility_kappa": 0.48627115571607404
+    },
+    "coderA_gpt5mini|coderE_haiku45": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 700,
+      "verdict_kappa": 0.0026586322777160743,
+      "verdict_ac1": 0.06666646010748302,
+      "verdict_kappa_own": -0.03960009497266354,
+      "eligibility_kappa": 0.431943283347434
+    },
+    "coderA_gpt5mini|coderF_gemini35flash": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 797,
+      "verdict_kappa": -0.133370487621302,
+      "verdict_ac1": -0.00013638546080282265,
+      "verdict_kappa_own": -0.13039314989684428,
+      "eligibility_kappa": 0.6483352065818458
+    },
+    "coderA_gpt5mini|coderG_opus48": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 402,
+      "verdict_kappa": 0.013095008207009803,
+      "verdict_ac1": 0.18798869533613105,
+      "verdict_kappa_own": -0.025729087839804484,
+      "eligibility_kappa": 0.219511067294628
+    },
+    "coderA_gpt5mini|coderH_gemini25pro": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 864,
+      "verdict_kappa": 0.06167062236439791,
+      "verdict_ac1": 0.18259788387310513,
+      "verdict_kappa_own": 0.0946464225066145,
+      "eligibility_kappa": 0.5147893065348575
+    },
+    "coderA_gpt5mini|coderI_gpt54": {
+      "same_developer": true,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 722,
+      "verdict_kappa": 0.08662300328957123,
+      "verdict_ac1": 0.2291206545604074,
+      "verdict_kappa_own": 0.1078367587656273,
+      "eligibility_kappa": 0.5838647959183673
+    },
+    "coderA_gpt5mini|coderJ_gpt55": {
+      "same_developer": true,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 873,
+      "verdict_kappa": 0.04208781504891629,
+      "verdict_ac1": 0.3179829635032388,
+      "verdict_kappa_own": 0.0425124586402653,
+      "eligibility_kappa": 0.6966814626928767
+    },
+    "coderB_claudeopus46|coderC_gemini31pro": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 511,
+      "verdict_kappa": 0.315701959962817,
+      "verdict_ac1": 0.563476917294803,
+      "verdict_kappa_own": 0.3789522143449036,
+      "eligibility_kappa": 0.6052608245899217
+    },
+    "coderB_claudeopus46|coderE_haiku45": {
+      "same_developer": true,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 508,
+      "verdict_kappa": 0.23155812918552854,
+      "verdict_ac1": 0.4553550030421957,
+      "verdict_kappa_own": 0.21484195565355055,
+      "eligibility_kappa": 0.44869196757553415
+    },
+    "coderB_claudeopus46|coderF_gemini35flash": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 553,
+      "verdict_kappa": 0.17140653205989703,
+      "verdict_ac1": 0.5293504395733949,
+      "verdict_kappa_own": 0.39887440169716426,
+      "eligibility_kappa": 0.5415051329304745
+    },
+    "coderB_claudeopus46|coderG_opus48": {
+      "same_developer": true,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 367,
+      "verdict_kappa": 0.3543797978184001,
+      "verdict_ac1": 0.5571154886457859,
+      "verdict_kappa_own": 0.4950375848567933,
+      "eligibility_kappa": 0.5645685306003856
+    },
+    "coderB_claudeopus46|coderH_gemini25pro": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 572,
+      "verdict_kappa": 0.19918269609110636,
+      "verdict_ac1": 0.4651607611117472,
+      "verdict_kappa_own": 0.17012964133600023,
+      "eligibility_kappa": 0.32597554492291336
+    },
+    "coderB_claudeopus46|coderI_gpt54": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 539,
+      "verdict_kappa": 0.29309248590788806,
+      "verdict_ac1": 0.51590733608967,
+      "verdict_kappa_own": 0.17954523940248795,
+      "eligibility_kappa": 0.6137269979792199
+    },
+    "coderB_claudeopus46|coderJ_gpt55": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 584,
+      "verdict_kappa": 0.002722348916761653,
+      "verdict_ac1": 0.3463883164657945,
+      "verdict_kappa_own": -0.22585299201394082,
+      "eligibility_kappa": 0.4926871275753323
+    },
+    "coderC_gemini31pro|coderE_haiku45": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 600,
+      "verdict_kappa": 0.28531603517623316,
+      "verdict_ac1": 0.5113174974756379,
+      "verdict_kappa_own": 0.283986384239074,
+      "eligibility_kappa": 0.5227272727272727
+    },
+    "coderC_gemini31pro|coderF_gemini35flash": {
+      "same_developer": true,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 675,
+      "verdict_kappa": 0.36682828085503383,
+      "verdict_ac1": 0.6656182533312285,
+      "verdict_kappa_own": 0.4615825626818315,
+      "eligibility_kappa": 0.6852284776249057
+    },
+    "coderC_gemini31pro|coderG_opus48": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 369,
+      "verdict_kappa": 0.19492084749507055,
+      "verdict_ac1": 0.4448629088760453,
+      "verdict_kappa_own": 0.5622491820903268,
+      "eligibility_kappa": 0.42700156985871274
+    },
+    "coderC_gemini31pro|coderH_gemini25pro": {
+      "same_developer": true,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 709,
+      "verdict_kappa": 0.2945656891975551,
+      "verdict_ac1": 0.5367289879907343,
+      "verdict_kappa_own": 0.23924373281011863,
+      "eligibility_kappa": 0.49553805699218845
+    },
+    "coderC_gemini31pro|coderI_gpt54": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 623,
+      "verdict_kappa": 0.31519563214166807,
+      "verdict_ac1": 0.5321005700024024,
+      "verdict_kappa_own": 0.2981213219263966,
+      "eligibility_kappa": 0.6696601038425608
+    },
+    "coderC_gemini31pro|coderJ_gpt55": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 705,
+      "verdict_kappa": 0.02733158082771842,
+      "verdict_ac1": 0.3409239159870859,
+      "verdict_kappa_own": -0.09661461883976419,
+      "eligibility_kappa": 0.6295412623519039
+    },
+    "coderE_haiku45|coderF_gemini35flash": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 665,
+      "verdict_kappa": 0.03646543240814871,
+      "verdict_ac1": 0.42366034052229995,
+      "verdict_kappa_own": 0.16901090326687354,
+      "eligibility_kappa": 0.5039963889846999
+    },
+    "coderE_haiku45|coderG_opus48": {
+      "same_developer": true,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 375,
+      "verdict_kappa": 0.13471124323672393,
+      "verdict_ac1": 0.34625919020086726,
+      "verdict_kappa_own": 0.34783115037926743,
+      "eligibility_kappa": 0.3014646708514404
+    },
+    "coderE_haiku45|coderH_gemini25pro": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 781,
+      "verdict_kappa": 0.13441810313539734,
+      "verdict_ac1": 0.3708511659830985,
+      "verdict_kappa_own": 0.1523049092383507,
+      "eligibility_kappa": 0.4993682211591132
+    },
+    "coderE_haiku45|coderI_gpt54": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 626,
+      "verdict_kappa": 0.13071275367101134,
+      "verdict_ac1": 0.34739315304714363,
+      "verdict_kappa_own": 0.14397609136307726,
+      "eligibility_kappa": 0.5224957126468677
+    },
+    "coderE_haiku45|coderJ_gpt55": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 724,
+      "verdict_kappa": -0.022292207070938114,
+      "verdict_ac1": 0.24682540408433626,
+      "verdict_kappa_own": -0.12408918915733051,
+      "eligibility_kappa": 0.5126896572963514
+    },
+    "coderF_gemini35flash|coderG_opus48": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 393,
+      "verdict_kappa": -0.03170382319457901,
+      "verdict_ac1": 0.3076837424328915,
+      "verdict_kappa_own": 0.418073804490353,
+      "eligibility_kappa": 0.33155076244248843
+    },
+    "coderF_gemini35flash|coderH_gemini25pro": {
+      "same_developer": true,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 830,
+      "verdict_kappa": 0.15348735614399933,
+      "verdict_ac1": 0.48879676715935155,
+      "verdict_kappa_own": 0.17001616851619772,
+      "eligibility_kappa": 0.601228432108027
+    },
+    "coderF_gemini35flash|coderI_gpt54": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 723,
+      "verdict_kappa": 0.09833899584748965,
+      "verdict_ac1": 0.41158422216623275,
+      "verdict_kappa_own": 0.13413349409622644,
+      "eligibility_kappa": 0.7368890073137174
+    },
+    "coderF_gemini35flash|coderJ_gpt55": {
+      "same_developer": false,
+      "same_tier": false,
+      "n_items": 843,
+      "n_items_own": 845,
+      "verdict_kappa": -0.23031664137582195,
+      "verdict_ac1": 0.13181335994643115,
+      "verdict_kappa_own": -0.25951569174328687,
+      "eligibility_kappa": 0.7866422523104608
+    },
+    "coderG_opus48|coderH_gemini25pro": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 421,
+      "verdict_kappa": 0.06935308741348152,
+      "verdict_ac1": 0.37379319293821284,
+      "verdict_kappa_own": 0.23635297826098983,
+      "eligibility_kappa": 0.15653869358774872
+    },
+    "coderG_opus48|coderI_gpt54": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 393,
+      "verdict_kappa": 0.24856392197273894,
+      "verdict_ac1": 0.504783980715345,
+      "verdict_kappa_own": 0.3026306616896821,
+      "eligibility_kappa": 0.43166072228359026
+    },
+    "coderG_opus48|coderJ_gpt55": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 412,
+      "verdict_kappa": 0.11249873230662263,
+      "verdict_ac1": 0.5036240838502397,
+      "verdict_kappa_own": -0.06717821165173772,
+      "eligibility_kappa": 0.26331784566131966
+    },
+    "coderH_gemini25pro|coderI_gpt54": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 749,
+      "verdict_kappa": 0.22150596854881455,
+      "verdict_ac1": 0.4728215647466516,
+      "verdict_kappa_own": 0.2532337710101427,
+      "eligibility_kappa": 0.5246445219536201
+    },
+    "coderH_gemini25pro|coderJ_gpt55": {
+      "same_developer": false,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 905,
+      "verdict_kappa": 0.06588093079480195,
+      "verdict_ac1": 0.41818081160383097,
+      "verdict_kappa_own": 0.04744452884550759,
+      "eligibility_kappa": 0.6441803383407219
+    },
+    "coderI_gpt54|coderJ_gpt55": {
+      "same_developer": true,
+      "same_tier": true,
+      "n_items": 843,
+      "n_items_own": 765,
+      "verdict_kappa": 0.19571692950274788,
+      "verdict_ac1": 0.5292470938441746,
+      "verdict_kappa_own": 0.21056504226779957,
+      "eligibility_kappa": 0.7086115688144999
+    }
+  },
+  "pair_type_means": {
+    "diff dev, diff tier": {
+      "mean_kappa": 0.05793871510742993,
+      "n_pairs": 12,
+      "values": [
+        0.02314483089634368,
+        0.061474371572718234,
+        0.013095008207009803,
+        0.06167062236439791,
+        0.17140653205989703,
+        0.28531603517623316,
+        0.13441810313539734,
+        0.13071275367101134,
+        -0.022292207070938114,
+        -0.03170382319457901,
+        0.09833899584748965,
+        -0.23031664137582195
+      ]
+    },
+    "diff dev, same tier": {
+      "mean_kappa": 0.13144691796293684,
+      "n_pairs": 15,
+      "values": [
+        0.0026586322777160743,
+        -0.133370487621302,
+        0.315701959962817,
+        0.19918269609110636,
+        0.29309248590788806,
+        0.002722348916761653,
+        0.19492084749507055,
+        0.31519563214166807,
+        0.02733158082771842,
+        0.03646543240814871,
+        0.06935308741348152,
+        0.24856392197273894,
+        0.11249873230662263,
+        0.22150596854881455,
+        0.06588093079480195
+      ]
+    },
+    "same dev, diff tier": {
+      "mean_kappa": 0.16921597129329555,
+      "n_pairs": 6,
+      "values": [
+        0.08662300328957123,
+        0.04208781504891629,
+        0.23155812918552854,
+        0.36682828085503383,
+        0.13471124323672393,
+        0.15348735614399933
+      ]
+    },
+    "same dev, same tier": {
+      "mean_kappa": 0.2815541388395677,
+      "n_pairs": 3,
+      "values": [
+        0.3543797978184001,
+        0.2945656891975551,
+        0.19571692950274788
+      ]
+    }
+  },
+  "tier_composition": {
+    "frontier-frontier / cross-dev": {
+      "mean_kappa": 0.17216251603162414,
+      "min_kappa": 0.002722348916761653,
+      "max_kappa": 0.315701959962817,
+      "n_pairs": 12
+    },
+    "frontier-frontier / same-dev": {
+      "mean_kappa": 0.2815541388395677,
+      "min_kappa": 0.19571692950274788,
+      "max_kappa": 0.3543797978184001,
+      "n_pairs": 3
+    },
+    "mixed / cross-dev": {
+      "mean_kappa": 0.05793871510742993,
+      "min_kappa": -0.23031664137582195,
+      "max_kappa": 0.28531603517623316,
+      "n_pairs": 12
+    },
+    "mixed / same-dev": {
+      "mean_kappa": 0.16921597129329555,
+      "min_kappa": 0.04208781504891629,
+      "max_kappa": 0.36682828085503383,
+      "n_pairs": 6
+    },
+    "small-small / cross-dev": {
+      "mean_kappa": -0.0314154743118124,
+      "min_kappa": -0.133370487621302,
+      "max_kappa": 0.03646543240814871,
+      "n_pairs": 3
+    }
+  },
+  "factor_tests": {
+    "developer_partition_exact": {
+      "difference": 0.10788542155934139,
+      "n_randomisations": 280,
+      "p_exact_two_sided": 0.0035714285714285713,
+      "smallest_attainable_p": 0.0035714285714285713,
+      "randomisation_unit": "judge"
+    },
+    "frontier_pairing_exact": {
+      "difference": 0.10939162280794357,
+      "n_randomisations": 15,
+      "p_exact_two_sided": 0.06666666666666667,
+      "smallest_attainable_p": 0.06666666666666667,
+      "randomisation_unit": "judge"
+    },
+    "tier_label_exact": {
+      "difference": 0.061433654272990204,
+      "n_randomisations": 84,
+      "p_exact_two_sided": 0.19047619047619047,
+      "smallest_attainable_p": 0.011904761904761904,
+      "randomisation_unit": "judge"
+    },
+    "developer_bootstrap": {
+      "ci95": [
+        -0.022704875533913885,
+        0.2566636743319505
+      ],
+      "share_above_zero": 0.943577430972389,
+      "draws": 4998,
+      "unit": "judge"
+    },
+    "frontier_pairing_bootstrap": {
+      "ci95": [
+        -0.014729794266738538,
+        0.2684600100988041
+      ],
+      "share_above_zero": 0.9564827276805743,
+      "draws": 4458,
+      "unit": "judge"
+    }
+  },
+  "frontier_pair_summary": {
+    "all": {
+      "n": 15,
+      "mean": 0.19404084059321286,
+      "min": 0.002722348916761653,
+      "max": 0.3543797978184001
+    },
+    "same_developer": {
+      "n": 3,
+      "mean": 0.2815541388395677,
+      "values": [
+        0.19571692950274788,
+        0.2945656891975551,
+        0.3543797978184001
+      ]
+    },
+    "cross_developer": {
+      "n": 12,
+      "mean": 0.17216251603162414,
+      "min": 0.002722348916761653,
+      "max": 0.315701959962817,
+      "n_exceeding_worst_same_dev": 6
+    }
+  },
+  "verdict_marginals": {
+    "per_judge": {
+      "coderA_gpt5mini": {
+        "model": "gpt-5-mini",
+        "developer": "OpenAI",
+        "tier": "small",
+        "n": 843,
+        "undefined": 0.501779359430605,
+        "survives": 0.18623962040332148,
+        "narrows": 0.31198102016607354
+      },
+      "coderI_gpt54": {
+        "model": "gpt-5.4",
+        "developer": "OpenAI",
+        "tier": "frontier",
+        "n": 843,
+        "undefined": 0.5812574139976275,
+        "survives": 0.3997627520759193,
+        "narrows": 0.018979833926453145
+      },
+      "coderJ_gpt55": {
+        "model": "gpt-5.5",
+        "developer": "OpenAI",
+        "tier": "frontier",
+        "n": 843,
+        "undefined": 0.7793594306049823,
+        "survives": 0.17793594306049823,
+        "narrows": 0.042704626334519574
+      },
+      "coderE_haiku45": {
+        "model": "claude-haiku-4.5",
+        "developer": "Anthropic",
+        "tier": "small",
+        "n": 843,
+        "undefined": 0.34638196915776986,
+        "survives": 0.5729537366548043,
+        "narrows": 0.08066429418742586
+      },
+      "coderB_claudeopus46": {
+        "model": "claude-opus-4.6",
+        "developer": "Anthropic",
+        "tier": "frontier",
+        "n": 843,
+        "undefined": 0.43534994068801897,
+        "survives": 0.5622775800711743,
+        "narrows": 0.002372479240806643
+      },
+      "coderG_opus48": {
+        "model": "claude-opus-4.8",
+        "developer": "Anthropic",
+        "tier": "frontier",
+        "n": 843,
+        "undefined": 0.6227758007117438,
+        "survives": 0.35231316725978645,
+        "narrows": 0.02491103202846975
+      },
+      "coderF_gemini35flash": {
+        "model": "gemini-3.5-flash",
+        "developer": "Google",
+        "tier": "small",
+        "n": 843,
+        "survives": 0.7817319098457889,
+        "undefined": 0.2158956109134045,
+        "narrows": 0.002372479240806643
+      },
+      "coderC_gemini31pro": {
+        "model": "gemini-3.1-pro-preview",
+        "developer": "Google",
+        "tier": "frontier",
+        "n": 843,
+        "survives": 0.6263345195729537,
+        "undefined": 0.37247924080664296,
+        "narrows": 0.0011862396204033216
+      },
+      "coderH_gemini25pro": {
+        "model": "gemini-2.5-pro",
+        "developer": "Google",
+        "tier": "frontier",
+        "n": 843,
+        "undefined": 0.5041518386714117,
+        "survives": 0.49347568208778175,
+        "narrows": 0.002372479240806643
+      }
+    },
+    "survives_share_min": 0.17793594306049823,
+    "survives_share_max": 0.7817319098457889,
+    "n_items": 843
+  }
+}

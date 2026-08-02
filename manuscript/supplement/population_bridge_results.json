@@ -1,0 +1,98 @@
+{
+  "design": "Same three deployed judges, same census codebook, two item populations: published comparative claims and 45-line screen windows.",
+  "claims": {
+    "verdict": {
+      "n": 80,
+      "fleiss_kappa": 0.3248945147679342,
+      "observed_agreement": 0.9833333333333334,
+      "kappa_max": 0.3248945147679342,
+      "gwet_ac1": 0.9829114600021361,
+      "modal_share": 0.9875,
+      "fleiss_kappa_ci95": [
+        0.30593607305935977,
+        0.32616487455197285
+      ],
+      "share_of_ceiling": 1.0
+    },
+    "c1": {
+      "n": 80,
+      "fleiss_kappa": 0.1857506361323144,
+      "observed_agreement": 0.9666666666666668,
+      "kappa_max": 0.28753180661577715,
+      "gwet_ac1": 0.9659701175094381,
+      "modal_share": 0.9791666666666666,
+      "share_of_ceiling": 0.6460176991150379
+    },
+    "c2": {
+      "n": 80,
+      "fleiss_kappa": 0.18297872340425378,
+      "observed_agreement": 0.9666666666666668,
+      "kappa_max": 0.1829787234042565,
+      "gwet_ac1": 0.9652488687782806,
+      "modal_share": 0.9791666666666666,
+      "share_of_ceiling": 0.9999999999999851
+    },
+    "c3": {
+      "n": 80,
+      "fleiss_kappa": 0.523336643495531,
+      "observed_agreement": 0.9333333333333333,
+      "kappa_max": 0.7616683217477654,
+      "gwet_ac1": 0.9283207645785112,
+      "modal_share": 0.925,
+      "share_of_ceiling": 0.6870925684485004
+    },
+    "c4": {
+      "n": 80,
+      "fleiss_kappa": 0.41356139279169035,
+      "observed_agreement": 0.9666666666666668,
+      "kappa_max": 0.5601710445937688,
+      "gwet_ac1": 0.9656916176759646,
+      "modal_share": 0.9708333333333333,
+      "share_of_ceiling": 0.7382769901853844
+    },
+    "c5": {
+      "n": 80,
+      "fleiss_kappa": 0.7457627118644045,
+      "observed_agreement": 0.9916666666666666,
+      "kappa_max": 0.7457627118644078,
+      "gwet_ac1": 0.9913842619184376,
+      "modal_share": 0.9833333333333333,
+      "share_of_ceiling": 0.9999999999999956
+    }
+  },
+  "census_windows": {
+    "verdict": {
+      "n": 704,
+      "fleiss_kappa": 0.06104436875189545,
+      "observed_agreement": 0.44886363636363596,
+      "kappa_max": 0.46437582547358974,
+      "gwet_ac1": 0.21992405393458883,
+      "modal_share": 0.5066287878787878,
+      "share_of_ceiling": 0.13145466538797507
+    },
+    "n_rows": 704
+  },
+  "eligibility_on_claims": {
+    "coderA_gpt5mini": 0.075,
+    "coderB_claudeopus46": 0.05,
+    "coderC_gemini31pro": 0.075
+  },
+  "commensurability": {
+    "n_claims": 80,
+    "per_judge_eligible_share": {
+      "coderA_gpt5mini": 0.075,
+      "coderB_claudeopus46": 0.05,
+      "coderC_gemini31pro": 0.075
+    },
+    "eligible_share_min": 0.05,
+    "eligible_share_max": 0.075,
+    "n_eligible_any_judge": 8,
+    "n_eligible_unanimous": 2,
+    "claims_observed_agreement": 0.9833333333333334,
+    "claims_modal_share": 0.9875,
+    "claims_share_of_ceiling": 1.0,
+    "windows_observed_agreement": 0.44886363636363596,
+    "windows_modal_share": 0.5066287878787878,
+    "reading": "Between 5% and 8% of the human-coded claims are eligible under the census rule, which requires a number credited to a different paper. The two populations therefore barely intersect: the claims run agrees at 0.98 only because judges call almost every claim ineligible and default to one label, which is a degenerate agreement and not a lower census difficulty. We conclude that the human anchor licenses a statement about adjudicating published comparative claims, and that transferring it to the census number is not supported. No kappa is compared across the two populations."
+  }
+}

@@ -1,0 +1,10 @@
+apk_opus47/instrument: 432 pending of 432
+  apk_opus47 50/432 parsed=48 1.02/s
+  apk_opus47 100/432 parsed=98 1.12/s
+  apk_opus47 150/432 parsed=148 1.15/s
+  apk_opus47 200/432 parsed=198 1.14/s
+  apk_opus47 250/432 parsed=248 1.13/s
+  apk_opus47 300/432 parsed=293 1.10/s
+  apk_opus47 350/432 parsed=342 1.10/s
+  apk_opus47 400/432 parsed=392 1.11/s
+done apk_opus47/instrument: 424/432 parsed

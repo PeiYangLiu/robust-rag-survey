@@ -1,0 +1,6 @@
+provenance/both_full/refB_gpt41: 90 pending of 90
+  provenance/both_full/refB_gpt41 20/90 parsed=11 0.29/s
+  provenance/both_full/refB_gpt41 40/90 parsed=11 0.28/s
+  provenance/both_full/refB_gpt41 60/90 parsed=11 0.26/s
+  provenance/both_full/refB_gpt41 80/90 parsed=11 0.25/s
+done provenance/both_full/refB_gpt41: 11/90 parsed

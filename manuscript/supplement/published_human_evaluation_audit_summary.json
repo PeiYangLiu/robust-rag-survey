@@ -1,0 +1,93 @@
+{
+  "annotator_treatment_studies": 0,
+  "confirmed_assignment_unit_mismatches": 0,
+  "included_cite_keys": [
+    "poisonedRAG2024",
+    "irrelevantContext2023",
+    "rrag040",
+    "ragTruth2024",
+    "rrag096",
+    "rrag024",
+    "rrag038",
+    "sufficientContext2024",
+    "rrag019"
+  ],
+  "included_human_judgment_studies": 9,
+  "interpretation": "Missing fields are reporting gaps, not evidence that an unreported design choice was absent or incorrect.",
+  "reporting_counts": {
+    "aggregation_rule": {
+      "not_applicable": 0,
+      "not_reported": 6,
+      "partly_reported": 2,
+      "reported": 1
+    },
+    "compensation": {
+      "not_applicable": 1,
+      "not_reported": 6,
+      "partly_reported": 0,
+      "reported": 2
+    },
+    "item_assignment": {
+      "not_applicable": 0,
+      "not_reported": 9,
+      "partly_reported": 0,
+      "reported": 0
+    },
+    "rater_uncertainty": {
+      "not_applicable": 0,
+      "not_reported": 5,
+      "partly_reported": 0,
+      "reported": 4
+    },
+    "raters_per_item": {
+      "not_applicable": 0,
+      "not_reported": 5,
+      "partly_reported": 2,
+      "reported": 2
+    },
+    "recruitment_or_qualification": {
+      "not_applicable": 0,
+      "not_reported": 3,
+      "partly_reported": 1,
+      "reported": 5
+    },
+    "reference_resolution": {
+      "not_applicable": 0,
+      "not_reported": 6,
+      "partly_reported": 1,
+      "reported": 2
+    },
+    "total_annotator_count": {
+      "not_applicable": 0,
+      "not_reported": 7,
+      "partly_reported": 0,
+      "reported": 2
+    }
+  },
+  "schema_version": "published-robust-rag-human-evaluation-audit-summary-v1",
+  "screen_manifest": "published_human_evaluation_screen_manifest.csv",
+  "screen_manifest_sha256": "e69c687c8ee600208bb96d39accdea40328c61842ee375dc77cea371e8525e8b",
+  "term_screened_candidates": 19,
+  "term_screened_cite_keys": [
+    "aip2025",
+    "ctrla2025",
+    "irrelevantContext2023",
+    "poisonedRAG2024",
+    "ragTruth2024",
+    "rrag017",
+    "rrag019",
+    "rrag024",
+    "rrag038",
+    "rrag040",
+    "rrag053",
+    "rrag083",
+    "rrag089",
+    "rrag096",
+    "rrag128",
+    "rrag162",
+    "rrag176",
+    "rrag212",
+    "sufficientContext2024"
+  ],
+  "venue_linked_full_texts": 39
+}

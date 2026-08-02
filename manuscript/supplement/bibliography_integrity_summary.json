@@ -1,0 +1,14 @@
+{
+  "used_entries": 104,
+  "used_keys_sha256": "b677bf26465b5993ca74b48a79bb858640ac532e8ff00d7b3315c8da19231191",
+  "aux_key_sets_match": true,
+  "duplicate_keys": {},
+  "structural_status": {
+    "ok": 104
+  },
+  "verification": {
+    "not_run": 104
+  },
+  "online_failures": [],
+  "report": "bibliography_integrity_report.csv"
+}

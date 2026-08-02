@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Frontier pair & Dev. & $\kappa$ & $AC_1$ & Elig.\ $\kappa$ \\
+\midrule
+opus-4.6 vs opus-4.8 & same & 0.35 & 0.56 & 0.56 \\
+opus-4.6 vs gem-3.1p & cross & 0.32 & 0.56 & 0.61 \\
+gem-3.1p vs gpt-5.4 & cross & 0.32 & 0.53 & 0.67 \\
+gem-3.1p vs gem-2.5p & same & 0.29 & 0.54 & 0.50 \\
+opus-4.6 vs gpt-5.4 & cross & 0.29 & 0.52 & 0.61 \\
+opus-4.8 vs gpt-5.4 & cross & 0.25 & 0.50 & 0.43 \\
+gem-2.5p vs gpt-5.4 & cross & 0.22 & 0.47 & 0.52 \\
+opus-4.6 vs gem-2.5p & cross & 0.20 & 0.47 & 0.33 \\
+gpt-5.4 vs gpt-5.5 & same & 0.20 & 0.53 & 0.71 \\
+gem-3.1p vs opus-4.8 & cross & 0.19 & 0.44 & 0.43 \\
+opus-4.8 vs gpt-5.5 & cross & 0.11 & 0.50 & 0.26 \\
+opus-4.8 vs gem-2.5p & cross & 0.07 & 0.37 & 0.16 \\
+gem-2.5p vs gpt-5.5 & cross & 0.07 & 0.42 & 0.64 \\
+gem-3.1p vs gpt-5.5 & cross & 0.03 & 0.34 & 0.63 \\
+opus-4.6 vs gpt-5.5 & cross & 0.00 & 0.35 & 0.49 \\
+\bottomrule
+\end{tabular}
+\caption{Every frontier-frontier judge pair, on the common item population, ordered by verdict $\kappa$. The averaged same-developer advantage is +0.11; its exact randomisation over the 15 ways of matching six checkpoints into three disjoint pairs gives $p=0.07$, against a smallest attainable value of 0.07. The contrast is also not uniform: 6 cross-developer pairs agree better than the weakest same-developer pair, so sharing a developer is reported as residual structure and not as an effect.}
+\label{tab:frontier-pairs}
+\end{table}

@@ -1,0 +1,51 @@
+judges: ['coderA_gpt5mini', 'coderB_claudeopus46', 'coderC_gemini31pro']
+candidates coded by all judges: 1690 of 1703
+development pass covered: 133; held out: 1586
+
+eligible (>=2/3): 704  unanimous: 449
+papers contributing: 103
+verdict (majority): {'undefined': 221, 'survives': 384, 'narrows': 1} no_majority=98
+
+agreement:
+  eligible   observed=0.755 Fleiss k=0.507 Gwet AC1=0.513 (n=1586)
+  c1         observed=0.596 Fleiss k=0.185 Gwet AC1=0.462 (n=704)
+  c2         observed=0.539 Fleiss k=0.108 Gwet AC1=0.378 (n=704)
+  c3         observed=0.750 Fleiss k=-0.108 Gwet AC1=0.718 (n=704)
+  c4         observed=0.713 Fleiss k=0.083 Gwet AC1=0.660 (n=704)
+  c5         observed=0.536 Fleiss k=0.097 Gwet AC1=0.376 (n=704)
+  verdict    observed=0.449 Fleiss k=0.061 Gwet AC1=0.220 (n=704)
+
+coordinate mismatch rate (majority):
+  c1: 20/680 = 0.029 CI[0.019, 0.045]
+  c2: 20/680 = 0.029 CI[0.019, 0.045]
+  c3: 692/695 = 0.996 CI[0.987, 0.999]
+  c4: 19/692 = 0.027 CI[0.018, 0.042]
+  c5: 4/692 = 0.006 CI[0.002, 0.015]
+
+evidence quotes found verbatim in window: 1639/1879
+
+provenance (majority of independent judges):
+  counts: {'reimplemented': 533, 'unclear': 44, 'transported': 77}, no_majority=4
+  agreement observed=0.833 Fleiss k=0.549 Gwet AC1=0.795
+  no_majority      2/4 = 0.500  paper-clustered CI[0.667, 0.667]  papers=1 largest=1.00 LOO[nan, nan]
+  reimplemented    133/533 = 0.250  paper-clustered CI[0.218, 0.338]  papers=84 largest=0.29 LOO[0.274, 0.294]
+  transported      52/77 = 0.675  paper-clustered CI[0.250, 0.895]  papers=9 largest=0.76 LOO[0.667, 0.852]
+  unclear          24/44 = 0.545  paper-clustered CI[0.394, 0.826]  papers=15 largest=0.22 LOO[0.586, 0.686]
+
+descriptive vs inferential agreement (paper-clustered):
+  provenance           AC1=0.795  CI[0.727, 0.882]  papers=99  kappa=+0.549
+  eligibility          AC1=0.513  CI[0.410, 0.643]  papers=169  kappa=+0.507
+  eligibility_matched  AC1=0.693  CI[0.626, 0.787]  papers=103  kappa=-0.137
+  verdict              AC1=0.220  CI[0.180, 0.261]  papers=103  kappa=+0.061
+  coordinate c1        AC1=0.462  kappa=+0.185
+  coordinate c2        AC1=0.378  kappa=+0.108
+  coordinate c3        AC1=0.718  kappa=-0.108
+  coordinate c4        AC1=0.660  kappa=+0.083
+  coordinate c5        AC1=0.376  kappa=+0.097
+  provenance_minus_verdict           +0.574  CI[+0.498, +0.679]  P(>0)=1.000 (2000 draws)
+  eligibility_matched_minus_verdict  +0.474  CI[+0.402, +0.574]  P(>0)=1.000 (2000 draws)
+  provenance_minus_verdict_kappa     +0.488  CI[+0.110, +0.634]  P(>0)=1.000 (2000 draws)
+  eligibility_matched_minus_verdict_kappa -0.198  CI[-0.244, -0.110]  P(>0)=0.000 (2000 draws)
+
+wrote manuscript/supplement/cross_paper_census.json
+wrote manuscript/supplement/cross_paper_census_ledger.csv

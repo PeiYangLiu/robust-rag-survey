@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"CUB* Benchmarking* Context* Utilisation* Techniques* for* Language* Models*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"109.44"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"70504118",
+"text":"models"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"8",
+"@id":"148425",
+"info":{"authors":{"author":[{"@pid":"294/2054","text":"Lovisa Hagström"},{"@pid":"340/0327","text":"Youna Kim"},{"@pid":"305/0149","text":"Haeun Yu"},{"@pid":"67/5511","text":"Sang-goo Lee"},{"@pid":"56/3767","text":"Richard Johansson"},{"@pid":"86/125","text":"Hyunsoo Cho"},{"@pid":"93/11424","text":"Isabelle Augenstein"}]},"title":"CUB: Benchmarking Context Utilisation Techniques for Language Models.","venue":"ACL","pages":"25101-25133","year":"2026","type":"Conference and Workshop Papers","access":"open","key":"conf/acl/HagstromKYLJCA26","doi":"10.18653/V1/2026.ACL-LONG.1151","ee":"https://doi.org/10.18653/v1/2026.acl-long.1151","url":"https://dblp.org/rec/conf/acl/HagstromKYLJCA26"},
+"url":"URL#148425"
+},
+{
+"@score":"8",
+"@id":"797893",
+"info":{"authors":{"author":[{"@pid":"294/2054","text":"Lovisa Hagström"},{"@pid":"340/0327","text":"Youna Kim"},{"@pid":"305/0149","text":"Haeun Yu"},{"@pid":"67/5511","text":"Sang-goo Lee"},{"@pid":"56/3767","text":"Richard Johansson"},{"@pid":"86/125","text":"Hyunsoo Cho"},{"@pid":"93/11424","text":"Isabelle Augenstein"}]},"title":"CUB: Benchmarking Context Utilisation Techniques for Language Models.","venue":"CoRR","volume":"abs/2505.16518","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2505-16518","doi":"10.48550/ARXIV.2505.16518","ee":"https://doi.org/10.48550/arXiv.2505.16518","url":"https://dblp.org/rec/journals/corr/abs-2505-16518"},
+"url":"URL#797893"
+}
+]
+}
+}
+}

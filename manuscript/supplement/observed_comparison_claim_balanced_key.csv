@@ -1,0 +1,17 @@
+balanced_id,candidate_id,verdict_full,source_key,audit_slice
+V001,RAGC-001,invalid,ragComprehensive2025,general
+V002,OAC2-D-001,under-specified,liu2025donotabstain,action_policy
+V003,OAC2-S-001,invalid,joren2025sufficient,action_policy
+V004,OAC2-D-005,under-specified,liu2025donotabstain,action_policy
+V005,OAC2-W-018,invalid,wen2025abstention,action_policy
+V006,RAGC-026,invalid,ragComprehensive2025,general
+V007,OTC-SEC-002,valid,securityRAGSurvey2026,threat_model
+V008,ALU-010,valid,alushi2026comparison,general
+V009,OAC2-T-036,valid,zhu2026trustabstain,action_policy
+V010,OAC2-W-012,under-specified,wen2025abstention,action_policy
+V011,OAC2-D-006,partial,liu2025donotabstain,action_policy
+V012,OAC2-S-008,partial,joren2025sufficient,action_policy
+V013,SEC-006,partial,securityRAGSurvey2026,general
+V014,OAC2-W-007,partial,wen2025abstention,action_policy
+V015,OAC2-S-014,under-specified,joren2025sufficient,action_policy
+V016,RAGC-039,valid,ragComprehensive2025,general

@@ -1,0 +1,158 @@
+{
+  "coverage": {
+    "five/coderB_claudeopus46": 0.997651203758074,
+    "five/coderC_gemini31pro": 1.0,
+    "five/coderI_gpt54": 1.0,
+    "c1c4/coderB_claudeopus46": 0.9970640046975925,
+    "c1c4/coderC_gemini31pro": 0.998825601879037,
+    "c1c4/coderI_gpt54": 1.0,
+    "direct/coderB_claudeopus46": 0.998825601879037,
+    "direct/coderC_gemini31pro": 0.998825601879037,
+    "direct/coderI_gpt54": 0.9970640046975925
+  },
+  "n_items": 832,
+  "judges": {
+    "coderB_claudeopus46": [
+      "Anthropic",
+      "claude-opus-4.6"
+    ],
+    "coderC_gemini31pro": [
+      "Google",
+      "gemini-3.1-pro-preview"
+    ],
+    "coderI_gpt54": [
+      "OpenAI",
+      "gpt-5.4"
+    ]
+  },
+  "item_population": "windows a majority of the nine-judge pool called eligible, intersected with windows every arm and judge coded",
+  "arms": {
+    "five": {
+      "verdict_kappa": 0.3138450723293639,
+      "verdict_ac1": 0.5363610535897821,
+      "unanimous_share": 0.48197115384615385,
+      "per_judge_marginal": {
+        "coderB_claudeopus46": {
+          "undefined": 362,
+          "survives": 468,
+          "narrows": 2
+        },
+        "coderC_gemini31pro": {
+          "survives": 523,
+          "undefined": 308,
+          "narrows": 1
+        },
+        "coderI_gpt54": {
+          "undefined": 481,
+          "survives": 335,
+          "narrows": 16
+        }
+      },
+      "survives_share_by_judge": {
+        "coderB_claudeopus46": 0.5625,
+        "coderC_gemini31pro": 0.6286057692307693,
+        "coderI_gpt54": 0.4026442307692308
+      },
+      "pair_coderB_claudeopus46__coderC_gemini31pro": 0.3134584940945028,
+      "pair_coderB_claudeopus46__coderI_gpt54": 0.2934752610192808,
+      "pair_coderC_gemini31pro__coderI_gpt54": 0.3178402776891203
+    },
+    "c1c4": {
+      "verdict_kappa": 0.341518500843438,
+      "verdict_ac1": 0.5572900089820567,
+      "unanimous_share": 0.5132211538461539,
+      "per_judge_marginal": {
+        "coderB_claudeopus46": {
+          "undefined": 369,
+          "survives": 463
+        },
+        "coderC_gemini31pro": {
+          "survives": 513,
+          "undefined": 316,
+          "narrows": 3
+        },
+        "coderI_gpt54": {
+          "survives": 454,
+          "undefined": 339,
+          "narrows": 39
+        }
+      },
+      "survives_share_by_judge": {
+        "coderB_claudeopus46": 0.5564903846153846,
+        "coderC_gemini31pro": 0.6165865384615384,
+        "coderI_gpt54": 0.5456730769230769
+      },
+      "pair_coderB_claudeopus46__coderC_gemini31pro": 0.31813707513848394,
+      "pair_coderB_claudeopus46__coderI_gpt54": 0.29947755507563034,
+      "pair_coderC_gemini31pro__coderI_gpt54": 0.40462061071205074
+    },
+    "direct": {
+      "verdict_kappa": 0.3096358358868508,
+      "verdict_ac1": 0.5819134820781597,
+      "unanimous_share": 0.53125,
+      "per_judge_marginal": {
+        "coderB_claudeopus46": {
+          "survives": 536,
+          "undefined": 295,
+          "narrows": 1
+        },
+        "coderC_gemini31pro": {
+          "survives": 606,
+          "undefined": 222,
+          "narrows": 4
+        },
+        "coderI_gpt54": {
+          "survives": 516,
+          "undefined": 244,
+          "narrows": 72
+        }
+      },
+      "survives_share_by_judge": {
+        "coderB_claudeopus46": 0.6442307692307693,
+        "coderC_gemini31pro": 0.7283653846153846,
+        "coderI_gpt54": 0.6201923076923077
+      },
+      "pair_coderB_claudeopus46__coderC_gemini31pro": 0.33852338949305943,
+      "pair_coderB_claudeopus46__coderI_gpt54": 0.24006141946891782,
+      "pair_coderC_gemini31pro__coderI_gpt54": 0.3509898374615409
+    }
+  },
+  "contrasts": {
+    "c1c4_minus_five": {
+      "difference": 0.02767342851407406,
+      "ci95": [
+        -0.05030792947066015,
+        0.12346813184628425
+      ],
+      "share_above_zero": 0.7415,
+      "draws": 2000,
+      "n_clusters": 106
+    },
+    "direct_minus_five": {
+      "difference": -0.004209236442513142,
+      "ci95": [
+        -0.10357302563796078,
+        0.11264800571497735
+      ],
+      "share_above_zero": 0.5115,
+      "draws": 2000,
+      "n_clusters": 106
+    },
+    "direct_minus_c1c4": {
+      "difference": -0.0318826649565872,
+      "ci95": [
+        -0.0961963208922609,
+        0.05327342777682076
+      ],
+      "share_above_zero": 0.238,
+      "draws": 2000,
+      "n_clusters": 106
+    }
+  },
+  "c3_label_distribution": {
+    "not_determinable": 516,
+    "mismatch": 1950,
+    "match": 30
+  },
+  "c3_mismatch_share": 0.78125
+}

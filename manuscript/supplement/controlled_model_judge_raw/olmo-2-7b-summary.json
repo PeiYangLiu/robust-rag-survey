@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    "ablated",
+    "full"
+  ],
+  "decoding": {
+    "batch_size": 16,
+    "do_sample": false,
+    "max_input_tokens": 1024,
+    "max_new_tokens": 48
+  },
+  "items": 480,
+  "model": "allenai/OLMo-2-1124-7B-Instruct",
+  "model_commit": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+  "model_revision_requested": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+  "order_seed": 2026072603,
+  "parse_failures": 0,
+  "records": 960,
+  "schema_version": "controlled-model-judge-summary-v1"
+}

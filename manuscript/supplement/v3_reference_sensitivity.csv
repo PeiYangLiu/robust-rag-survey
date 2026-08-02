@@ -1,0 +1,10 @@
+analysis,claims,d_minus_c,description
+final_resolved_reference,445,0.03146067415730337,Final reference; unanimous experts or two agreeing adjudicators.
+three_experts_unanimous,297,-0.003367003367003367,Claims on which all three reference experts agreed before adjudication.
+three_experts_majority,463,-0.008639308855291577,Pre-adjudication two-of-three expert majority; all-different claims omitted.
+compatible_with_any_expert,480,0.010416666666666666,Prediction counted compatible when any reference expert selected it.
+adjudicator_1_composite,480,0.0375,Unanimous expert labels plus this adjudicator on every disputed claim.
+adjudicator_2_composite,480,0.0125,Unanimous expert labels plus this adjudicator on every disputed claim.
+final_reference_both_arms_consensus,418,0.014354066985645933,"Final reference, excluding claims with no consensus in C or D."
+final_reference_half_credit_no_consensus,445,0.019101123595505618,"Final reference, scoring a no-consensus panel as 0.5."
+adjudicator_agreement_subset,148,0.10135135135135136,Only disputed claims on which both adjudicators agreed.

@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrr}
+\toprule
+Output & Reference class & Rating prevalence & Claims with class & Unanimous class & Positive agreement & Binary $\kappa$ \\
+\midrule
+Support & Supported as written & 96.2\% & 477 & 436 & 0.970 & 0.211 \\
+ & Supported after narrowing & 1.0\% & 12 & 0 & 0.200 & 0.192 \\
+ & Contradicted & 0.3\% & 2 & 1 & 0.750 & 0.749 \\
+ & Insufficient evidence & 2.4\% & 30 & 2 & 0.200 & 0.180 \\
+\addlinespace
+Comparability & Same estimand & 65.6\% & 392 & 229 & 0.828 & 0.498 \\
+ & Scoped & 4.9\% & 53 & 5 & 0.324 & 0.289 \\
+ & Different estimand & 1.9\% & 17 & 3 & 0.500 & 0.490 \\
+ & Missing assumption & 19.0\% & 156 & 35 & 0.558 & 0.455 \\
+ & Not comparison & 8.5\% & 62 & 25 & 0.697 & 0.669 \\
+\bottomrule
+\end{tabular}
+\caption{Pre-adjudication class-specific reliability of the three-expert reference panel. Positive agreement conditions on a pair containing the class; binary $\kappa$ treats each class against all other labels. Rare classes have few positive ratings, so high overall negative agreement should not be read as reliable positive identification.}
+\label{tab:v3-reference-class-reliability}
+\end{table*}

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-07-14T12:15:56.414330+00:00",
+  "n_corrections": 23,
+  "n_atomicity_splits": 1,
+  "inputs": {
+    "observed_claim_candidates.csv": "e3da90c14d06f64bf1487ecf002664ee15aaeaacfe878431e6d9d0cb0996464b",
+    "observed_claim_adjudicated_structured.csv": "903678f6ddf25d3ee7a4b4987e9cab914f7709b5be02382d2b33fd8a7f65b265",
+    "observed_action_claim_candidates.csv": "77530bc4241241db68690ee08d2767f7052b3a6a8da551b51a77ccb38b21f417",
+    "observed_action_claim_adjudicated_structured.csv": "912d51241ee77e8c27dfb6fa54f5b89c15f9f39d47a135cd09b350e5b7155433",
+    "observed_threat_claim_candidates.csv": "bc7ae4bb1212ad28bdae8aa27e42b10df854017e19f440eadbc4bdd2d679110d",
+    "observed_threat_claim_adjudicated_structured.csv": "e7dc956dfd277b65e19a7c47546d17613f17f8a96fc267cc1c43f1c12663eef2"
+  },
+  "outputs": {
+    "observed_claim_candidates_corrected.csv": "63ff4287ad6af90cb727fe78c9c7dd79b0f44eb934f28fe7b8fae6f71dc7447d",
+    "observed_claim_adjudicated_structured_corrected.csv": "557920781a9104cc08da6deb71999424736b76826ac63ea66e35d206a377d55c",
+    "observed_action_claim_candidates_corrected.csv": "77530bc4241241db68690ee08d2767f7052b3a6a8da551b51a77ccb38b21f417",
+    "observed_action_claim_adjudicated_structured_corrected.csv": "8a33b4cf4f71b4c1359d852357fa3aec2115299d63cdec7d74b9f30695dce70b",
+    "observed_threat_claim_candidates_corrected.csv": "bc7ae4bb1212ad28bdae8aa27e42b10df854017e19f440eadbc4bdd2d679110d",
+    "observed_threat_claim_adjudicated_structured_corrected.csv": "ec1d06382dd34ea0b0fbe53581b66cee77f0cab1593e4e1416a71ef82840f98c",
+    "observed_claim_audit_corrections.csv": "406a856b6ebcfcd0e6bd92bd670ddd77f6e1812d9b05e3d01dc2fb773d1d8bc2"
+  },
+  "post_adjudication_challenge_applied": true,
+  "synthetic_model_adjudication_not_human": true
+}

@@ -1,0 +1,10 @@
+apk_haiku45/instrument: 432 pending of 432
+  apk_haiku45 50/432 parsed=40 0.69/s
+  apk_haiku45 100/432 parsed=90 0.82/s
+  apk_haiku45 150/432 parsed=139 0.90/s
+  apk_haiku45 200/432 parsed=188 0.94/s
+  apk_haiku45 250/432 parsed=238 0.96/s
+  apk_haiku45 300/432 parsed=288 0.99/s
+  apk_haiku45 350/432 parsed=338 1.01/s
+  apk_haiku45 400/432 parsed=388 1.02/s
+done apk_haiku45/instrument: 420/432 parsed

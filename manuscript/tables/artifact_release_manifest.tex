@@ -6,20 +6,19 @@
 \toprule
 \textbf{Artifact group} & \textbf{Representative files} & \textbf{Rows} & \textbf{Purpose} \\
 \midrule
-Evidence map and protocol & Adjudicated venue-expanded map, candidate expansion map, original adjudicated map, corpus-flow figure, canonical corpus table, search protocol, codebook, exclusion log & 342 adjudicated rows & Reproduce the canonical Map-B corpus, original Map-A adjudicated snapshot, coding fields, and inclusion/exclusion decisions. \\
-Venue and source audit & \texttt{venue\_systematic\_queries.csv}, \texttt{venue\_systematic\_candidates.csv}, \texttt{venue\_triage\_decisions.csv} & 31 query rows / 51 candidates & Audit venue-linked recall risk and document triage decisions. \\
-Venue-linked PDF collection & Venue-200 manifest, summary, builder script & 200 PDFs & Document the local venue-backed PDF collection used for follow-up coding; PDFs are local due to size. \\
-Multimodal/scenario RAG collection & Multimodal-RAG-100 manifest, summary, builder script & 100 PDFs & Cover vision/multimodal, graph/KG, table/structured, agent/memory/tool, code/symbolic, domain-specific, and long-context RAG scenarios. PDFs are local due to size. \\
-Human citation audit & Source-blind citation annotations, recommended/main-cite summaries, adjudication template & 300 papers & Records human decisions for which venue-linked and extension papers should be cited in the main text, case studies, appendix, background, or excluded. \\
-Deep comparative cases & \texttt{deep\_comparative\_case\_studies.csv}; main normalization findings table & 26 worksheet rows / 13 main cases & Compare assumptions, datasets, models, metrics, failure modes, and artifact availability for concrete normalization cases. \\
-Expert-use validation & 12-pair pilot responses; 60-pair participant responses; 60-pair gold adjudications; disagreement/error summaries & 720 participant judgments / 192 gold labels & Reproduce the protocol-usability stress tests, expanded 60-pair validation, gold agreement, and coordinate-error analysis. \\
-Map-B second-coding packet/results & Annotator packet, coordinator packet, second-coder completed labels, joint summary, disagreement CSV, adjudication worksheet, analysis script & 148 rows & Reports independent second coding over Map-B additions and queues disagreements for adjudication. \\
-Expanded expert-validation packet & Protocol/control annotator packets, gold packet, coordinator packet, 60-pair pool, expertise template, analysis plan & 60 candidate pairs & Documents the design used for the completed 60-pair validation and supports future replications. \\
-Action-labeled pilot & 60-item action-labeled pilot, three policy predictions, summary metrics, blueprint examples & 60 items / 180 predictions & Demonstrate answer/action/joint/unsafe metrics for action-control evaluation without claiming a deployed LLM leaderboard. \\
-Expansion protocols & Venue-complete protocol; validation expansion protocol & protocol docs & Specify future manual venue-complete census and larger gold-adjudicated validation designs; these are agendas, not completed procedures in this paper. \\
-Release manifest & \texttt{artifact\_release\_manifest.csv/json} & 303 artifacts & Provide versioned paths, row counts, and checksums for public release. \\
+Observed claim audit & \texttt{observed\_comparison\_claim\_audit.csv}; summary; source manifest & 291 candidates / 289 included & Provides exact claims, pages, all five coordinates, controls, three verdict stages, and decisive-field ablations. \\
+Claim rules and corrections & Codebook; protocol; component files; correction ledger; deterministic build/verdict scripts & 23 logged corrections & Rebuilds final labels and preserves post-adjudication challenges, appendix-table fixes, and the atomicity split. \\
+Human validation & Three completed response files; separate adjudication; pairwise agreement; final consensus and summary & 240 judgments / 80 consensus labels & Provides the project-owner-attested development diagnostic, including negative reliability and model-over-rejection results. \\
+Published reporting audit & Frozen 39-paper key/hash screen; nine-case coding ledger; generated summary and tables & 39 screened / 9 included & Supports source-linked reporting claims without redistributing third-party full text or alleging hidden design errors. \\
+Controlled consequence test & 480-item benchmark; three raw model outputs; fixed-model summary & 2,880 item-condition outputs & Tests C2/C5 prompts on consequence-defined decisions; does not validate human use or natural-paper judgments. \\
+Model-only development & Raw structured outputs and manifests for four coders; agreement JSON; majority table & 86 held-out claims & Retains codebook-development provenance and the degenerate model output; human results supersede it as validation evidence. \\
+Scoping map & Adjudicated Map B; snapshot; codebook; exclusions & 342 adjudicated rows & Supports literature-family/intervention synthesis; origin and policy are not structured Map-B fields. \\
+Search and screening provenance & Source ledger; venue queries; screening provenance; PRISMA-ScR crosswalk & 9 source-ledger rows & Separates rerunnable searches from unrecoverable initial logs and records who or what screened each stage. \\
+Human map-coding provenance & Map-A double-coding files; Map-B second-coding packet; adjudication changes; IAA outputs & 274 Map-A / 148 additions & Supports file-level workflow separation while preserving the qualification and personnel-independence caveat. \\
+Legacy and synthetic studies & V1 60-pair stress test; R17; round-2 candidates; explicitly marked model dry runs & provenance only & Retained for audit history but excluded from current claim-audit evidence. \\
+Release and licenses & README; release version; canonical/full manifests; MIT license; CC BY 4.0 data terms & 158 canonical paths & Identifies canonical, legacy, excluded, and model-only artifacts with row counts, hashes, and reuse boundaries. \\
 \bottomrule
 \end{tabularx}
-\caption{Release artifact manifest. The complete machine-readable manifest is provided as CSV/JSON in the supplement.}
+\caption{Release artifact status. The root README is authoritative for canonical versus superseded paths; the machine-readable inventory supplies paths and checksums.}
 \label{tab:artifact-release-manifest}
 \end{table*}

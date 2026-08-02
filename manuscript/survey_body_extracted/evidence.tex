@@ -1,0 +1,37 @@
+Evidence-centric work takes the context window itself as the object of study: what the
+retriever puts in front of the generator, in what order, and at what budget
+(Appendix~\ref{app:evidence}). The stakes are higher here than in classical retrieval,
+because the retrieved set is not a ranked list a user inspects but a prompt a model reads,
+and a single misleading passage can move the answer, the stated confidence, and the citations
+all at once.
+
+\paragraph{Noise is not one condition.}
+The most consequential distinction in this literature is between failing to fetch the right
+evidence and failing to ignore the wrong evidence. \citet{irrelevantContext2023} separate the
+two explicitly, and \citet{raat2024} show that the second is far harder than it looks: clearly
+off-topic passages are discarded easily, whereas semantically close counterfactuals and hard
+negatives are not. RGB makes the same point by construction, scoring noise robustness,
+negative rejection and counterfactual handling as three separate abilities rather than one
+\citep{rgb2023}. The practical consequence is that a single robustness-under-noise number is
+uninterpretable on its own, because two papers reporting it may be stressing different
+abilities.
+
+\paragraph{Context construction has negative marginal utility.}
+Adding passages is not monotone. \citet{cuconasu2024powerofnoise} find that topically related
+but wrong passages hurt generation while purely random text can occasionally stabilise it, and
+\citet{liu2024lostmiddle} show that the same passage helps or hurts depending on where it sits
+in the prompt. Longer contexts do not resolve this: hard negatives and misleading content
+continue to degrade reasoning as the window grows \citep{rrag039,rrag003}. Benchmarks such as
+CUB \citep{rrag032} and UDCG \citep{rrag058} follow this observation to its conclusion and score
+retrieval by downstream utility rather than by relevance, treating the retriever as an active
+constructor of the model's input rather than as a passive supplier of documents.
+
+\paragraph{Mitigations trade one failure for another.}
+Evidence-side defences---filtering \citep{rrag044}, compression and reordering \citep{rrag039},
+utility-aware reranking \citep{rrag058}, and noise-aware training \citep{raat2024}---all buy
+precision with recall, so a defence that improves accuracy under distraction may lose answers
+that a noisier pipeline would have found. Interventions on the query and index side, such as
+rephrasing \citep{queryRobustness2025} or chunking and graph construction
+\citep{rrag141,rrag051}, add failure surfaces of their own. None of these results transfers
+across papers unless the corpus snapshot, retriever, and top-$k$ are stated, which is the
+content of coordinate C1 in \S\ref{sec:coordinates}.

@@ -1,0 +1,141 @@
+{
+  "anchor_envelope_sigma_r": [
+    0.11980928221117072,
+    0.7501142614914532
+  ],
+  "anchors": {
+    "census_verdict_panel": {
+      "ci95_reviewer_bootstrap": [
+        0.18458922007594056,
+        0.5078728656410046
+      ],
+      "ci_width_ratio": 2.7513679587142965,
+      "design_consequence": {
+        "lower": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.0452,
+          "reviewer_permutation_type_I": 0.0456,
+          "sigma_r_on_grid": 0.2,
+          "sigma_r_requested": 0.18458922007594056,
+          "source_level_type_I": 0.17
+        },
+        "point": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.38277722097517886,
+          "source_level_type_I": 0.2826
+        },
+        "upper": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.5078728656410046,
+          "source_level_type_I": 0.2826
+        }
+      },
+      "n_reviewers": 9,
+      "reviewer_kind": "model",
+      "sigma_r": 0.38277722097517886,
+      "task": "cross-paper comparability verdict on published text"
+    },
+    "instrument_benchmark": {
+      "ci95_reviewer_bootstrap": [
+        0.11980928221117072,
+        0.4783199151305426
+      ],
+      "ci_width_ratio": 3.9923443851994405,
+      "design_consequence": {
+        "lower": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.0496,
+          "reviewer_permutation_type_I": 0.0446,
+          "sigma_r_on_grid": 0.1,
+          "sigma_r_requested": 0.11980928221117072,
+          "source_level_type_I": 0.0804
+        },
+        "point": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.3794214146211546,
+          "source_level_type_I": 0.2826
+        },
+        "upper": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.4783199151305426,
+          "source_level_type_I": 0.2826
+        }
+      },
+      "n_reviewers": 6,
+      "reviewer_kind": "model",
+      "sigma_r": 0.3794214146211546,
+      "task": "cross-paper comparability verdict, constructed reference"
+    },
+    "model_panel_checkpoints": {
+      "ci95_reviewer_bootstrap": [
+        0.31093462352167217,
+        0.7501142614914532
+      ],
+      "ci_width_ratio": 2.412450093191922,
+      "design_consequence": {
+        "lower": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.31093462352167217,
+          "source_level_type_I": 0.2826
+        },
+        "point": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.5408262554192159,
+          "source_level_type_I": 0.2826
+        },
+        "upper": {
+          "n_reviewers": 12,
+          "n_sources": 80,
+          "raw_panel_permutation_type_I": 0.045,
+          "reviewer_permutation_type_I": 0.0476,
+          "sigma_r_on_grid": 0.3,
+          "sigma_r_requested": 0.7501142614914532,
+          "source_level_type_I": 0.2826
+        }
+      },
+      "n_reviewers": 28,
+      "reviewer_kind": "model",
+      "sigma_r": 0.5408262554192159,
+      "task": "deployment decision under a displayed loss rule"
+    }
+  },
+  "grid_rater_logit_sd": [
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "n_sources_used": 80,
+  "reading": "sigma_r is estimated from six and nine model judges, so its own interval spans roughly a factor of 4.0. The manuscript therefore reports the interval and the conclusion that holds across all of it: a source-level analysis is correctly calibrated only at sigma_r = 0, and at every value inside the anchored envelope it rejects a true null well above nominal, while both reviewer-level analyses hold the nominal level throughout. No point value of sigma_r is offered as a design constant, and the twelve-reviewer power figure is stated as an illustration at one point of that envelope rather than as a recommendation derived from a measured parameter.",
+  "schema_version": 1,
+  "source_level_type_I_across_envelope": {
+    "max": 0.2826,
+    "min": 0.0804
+  }
+}

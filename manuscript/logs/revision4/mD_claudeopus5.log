@@ -1,0 +1,10 @@
+[mD_claudeopus5] 0 done, 80 to run
+[mD_claudeopus5] 10/80 parsed=10 failed=0
+[mD_claudeopus5] 20/80 parsed=20 failed=0
+[mD_claudeopus5] 30/80 parsed=30 failed=0
+[mD_claudeopus5] 40/80 parsed=40 failed=0
+[mD_claudeopus5] 50/80 parsed=50 failed=0
+[mD_claudeopus5] 60/80 parsed=60 failed=0
+[mD_claudeopus5] 70/80 parsed=70 failed=0
+[mD_claudeopus5] 80/80 parsed=80 failed=0
+[mD_claudeopus5] finished in 107s parsed=80 failed=0 -> manuscript/supplement/human_matched_panel/mD_claudeopus5.jsonl

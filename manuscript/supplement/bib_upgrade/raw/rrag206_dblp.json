@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Bridging* External* and* Parametric* Knowledge* Mitigating* Hallucination* of LLMs* with* Shared* Private* Semantic* Synergy* in Dual* Stream* Knowledge*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"204.06"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"4",
+"@dc":"2",
+"@oc":"4",
+"@id":"70282282",
+"text":"knowledge"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"21",
+"@id":"597696",
+"info":{"authors":{"author":[{"@pid":"90/2336","text":"Yi Sui"},{"@pid":"169/7349","text":"Chaozhuo Li"},{"@pid":"94/4084-13","text":"Chen Zhang 0013"},{"@pid":"47/6784-1","text":"Dawei Song 0001"},{"@pid":"166/3079","text":"Qiuchi Li"}]},"title":"Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge.","venue":"EMNLP","pages":"10834-10858","year":"2025","type":"Conference and Workshop Papers","access":"open","key":"conf/emnlp/SuiLZSL25","doi":"10.18653/V1/2025.EMNLP-MAIN.549","ee":"https://doi.org/10.18653/v1/2025.emnlp-main.549","url":"https://dblp.org/rec/conf/emnlp/SuiLZSL25"},
+"url":"URL#597696"
+},
+{
+"@score":"21",
+"@id":"806983",
+"info":{"authors":{"author":[{"@pid":"90/2336","text":"Yi Sui"},{"@pid":"169/7349","text":"Chaozhuo Li"},{"@pid":"94/4084-13","text":"Chen Zhang 0013"},{"@pid":"47/6784-1","text":"Dawei Song 0001"},{"@pid":"166/3079","text":"Qiuchi Li"}]},"title":"Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge.","venue":"CoRR","volume":"abs/2506.06240","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2506-06240","doi":"10.48550/ARXIV.2506.06240","ee":"https://doi.org/10.48550/arXiv.2506.06240","url":"https://dblp.org/rec/journals/corr/abs-2506-06240"},
+"url":"URL#806983"
+}
+]
+}
+}
+}

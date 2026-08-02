@@ -1,0 +1,20 @@
+coderI_gpt54[c1c4]: 1703 pending of 1703
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 100, "total": 1703, "per_second": 0.447}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 200, "total": 1703, "per_second": 0.464}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 300, "total": 1703, "per_second": 0.474}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 400, "total": 1703, "per_second": 0.463}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 500, "total": 1703, "per_second": 0.468}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 600, "total": 1703, "per_second": 0.464}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 700, "total": 1703, "per_second": 0.444}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 800, "total": 1703, "per_second": 0.441}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 900, "total": 1703, "per_second": 0.443}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1000, "total": 1703, "per_second": 0.45}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1100, "total": 1703, "per_second": 0.454}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1200, "total": 1703, "per_second": 0.458}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1300, "total": 1703, "per_second": 0.462}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1400, "total": 1703, "per_second": 0.463}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1500, "total": 1703, "per_second": 0.466}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1600, "total": 1703, "per_second": 0.466}
+{"judge": "coderI_gpt54", "arm": "c1c4", "done": 1700, "total": 1703, "per_second": 0.466}
+coderI_gpt54[c1c4]: wrote manuscript/supplement/cross_paper_coding_arms/c1c4/coderI_gpt54.jsonl
+[20:26:35] coderI_gpt54/c1c4 attempt 1 -> 1703 parsed rows

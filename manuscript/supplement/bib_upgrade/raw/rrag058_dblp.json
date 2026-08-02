@@ -1,0 +1,44 @@
+{
+"result":{
+"query":"Redefining* Retrieval* Evaluation* in the* Era* of LLMs*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"121.00"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"2",
+"@dc":"2",
+"@oc":"2",
+"@id":"70373528",
+"text":"llms"
+}
+},
+"hits":{
+"@total":"2",
+"@computed":"2",
+"@sent":"2",
+"@first":"0",
+"hit":[{
+"@score":"8",
+"@id":"163677",
+"info":{"authors":{"author":[{"@pid":"257/3318","text":"Giovanni Trappolini"},{"@pid":"353/0713","text":"Florin Cuconasu"},{"@pid":"99/11030","text":"Simone Filice"},{"@pid":"m/YoelleSMaarek","text":"Yoelle Maarek"},{"@pid":"s/FabrizioSilvestri","text":"Fabrizio Silvestri"}]},"title":"Redefining Retrieval Evaluation in the Era of LLMs.","venue":"EACL","pages":"8359-8375","year":"2026","type":"Conference and Workshop Papers","access":"open","key":"conf/eacl/TrappoliniCFMS26","doi":"10.18653/V1/2026.EACL-LONG.391","ee":"https://doi.org/10.18653/v1/2026.eacl-long.391","url":"https://dblp.org/rec/conf/eacl/TrappoliniCFMS26"},
+"url":"URL#163677"
+},
+{
+"@score":"8",
+"@id":"866539",
+"info":{"authors":{"author":[{"@pid":"257/3318","text":"Giovanni Trappolini"},{"@pid":"353/0713","text":"Florin Cuconasu"},{"@pid":"99/11030","text":"Simone Filice"},{"@pid":"m/YoelleSMaarek","text":"Yoelle Maarek"},{"@pid":"s/FabrizioSilvestri","text":"Fabrizio Silvestri"}]},"title":"Redefining Retrieval Evaluation in the Era of LLMs.","venue":"CoRR","volume":"abs/2510.21440","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2510-21440","doi":"10.48550/ARXIV.2510.21440","ee":"https://doi.org/10.48550/arXiv.2510.21440","url":"https://dblp.org/rec/journals/corr/abs-2510-21440"},
+"url":"URL#866539"
+}
+]
+}
+}
+}

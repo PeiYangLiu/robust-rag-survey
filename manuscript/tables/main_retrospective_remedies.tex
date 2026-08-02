@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Setting & Panel/src & Votes/src & Rev.\ $t$ & Rev.\ RI \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Size: no prompt effect, $\alpha=.05$}} \\
+$\sigma_r=0.00$, $G=80$ & 4.7 & 5.1 & 4.7 & 4.3 \\
+$\sigma_r=0.27$, $G=80$$\;\ast$ & 24.2 & 32.9 & 4.6 & 4.3 \\
+$\sigma_r=0.78$, $G=80$ & 62.6 & 70.1 & 5.1 & 5.0 \\
+$\sigma_r=0.27$, $G=160$ & 36.7 & 46.5 & 4.4 & 4.3 \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Power: true prompt effect $0.4$ logits}} \\
+$\sigma_r=0.27$, $G=80$ & 78.8 & 89.0 & 52.8 & 51.6 \\
+$\sigma_r=0.78$, $G=80$ & 69.6 & 77.0 & 11.4 & 11.4 \\
+\bottomrule
+\end{tabular}
+\caption{Rejection percentages over 5,000 replicates with twelve reviewers, six per prompt, six claims per source $G$, and balanced three-of-six panels. Reviewer abilities are redrawn every replicate, so the target is a reviewer-population effect rather than a realized-panel contrast. $\sigma_r$ is the between-reviewer ability standard deviation on the logit scale; the starred row is the value estimated from the crossed three-coder diagnostic ($\hat\sigma_r=0.27$, Appendix Table~\ref{tab:reviewer-heterogeneity-anchor}). \emph{Panel/src} is the status-quo paired source $t$ test on panel-majority correctness; \emph{Votes/src} keeps the source-level standard error but uses individual votes; \emph{Rev.\ $t$} is a two-sample $t$ test on the twelve individual reviewer accuracies; \emph{Rev.\ RI} refers the same contrast to all 924 arm assignments. The last two are executable retrospectively from released pre-aggregation votes with reviewer identifiers, and retain power. The complete grid over both reviewer-ability profiles (fixed quantiles and resampled), all heterogeneities and all source counts is released as \texttt{supplement/retrospective\_remedy\_simulation.json}.}
+\label{tab:retrospective-remedies}
+\end{table}

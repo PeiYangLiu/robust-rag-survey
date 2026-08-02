@@ -38,9 +38,9 @@
     "target_survey_300_rows": 300
   },
   "outputs": {
-    "all_reviewed_deduped": "/home/v-peiyangliu/robust-rag-survey/reviews/all_reviewed_deduped.csv",
-    "target_core_100": "/home/v-peiyangliu/robust-rag-survey/reviews/target_core_100.csv",
-    "target_survey_300": "/home/v-peiyangliu/robust-rag-survey/reviews/target_survey_300.csv",
-    "selected_for_survey": "/home/v-peiyangliu/robust-rag-survey/reviews/selected_for_survey.csv"
+    "all_reviewed_deduped": "reviews/all_reviewed_deduped.csv",
+    "target_core_100": "reviews/target_core_100.csv",
+    "target_survey_300": "reviews/target_survey_300.csv",
+    "selected_for_survey": "reviews/selected_for_survey.csv"
   }
 }
