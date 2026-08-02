@@ -1,14 +1,39 @@
 {
-  "used_entries": 104,
-  "used_keys_sha256": "b677bf26465b5993ca74b48a79bb858640ac532e8ff00d7b3315c8da19231191",
+  "used_entries": 146,
+  "used_keys_sha256": "73aa75d3a0b5c6aa9c3c38fdb0c68c1ab8c4a540fda99147a4be34bf7a195d55",
   "aux_key_sets_match": true,
   "duplicate_keys": {},
   "structural_status": {
-    "ok": 104
+    "ok": 146
   },
   "verification": {
-    "not_run": 104
+    "official_metadata": 127,
+    "official_host_challenge": 13,
+    "official_doi_resolves": 1,
+    "reachable_source": 5
   },
-  "online_failures": [],
-  "report": "bibliography_integrity_report.csv"
+  "online_failures": [
+    {
+      "key": "umesh1989maxkappa",
+      "error": "title_mismatch",
+      "url": ""
+    }
+  ],
+  "report": "bibliography_integrity_report.csv",
+  "aux": "main_survey.aux",
+  "manual_followup": {
+    "openreview_403_resolved_via_dblp": 15,
+    "resolved_at_source_pdf": [
+      "geifman2017selective",
+      "rrag128"
+    ],
+    "corrected_entries": [
+      {
+        "key": "umesh1989maxkappa",
+        "was": "A Note on Adjusting for Chance Agreement, Psychometrika 54(1):123-129, doi 10.1007/BF02294453",
+        "now": "Interjudge Agreement and the Maximum Value of Kappa, Educational and Psychological Measurement 49(4):835-850, doi 10.1177/001316448904900407",
+        "evidence": "crossref: the recorded DOI resolves to Satorra (1989), a different article"
+      }
+    ]
+  }
 }

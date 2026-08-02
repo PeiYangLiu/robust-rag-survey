@@ -258,10 +258,15 @@ def verify_non_arxiv(item: dict[str, str]) -> dict[str, str]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--online", action="store_true")
+    parser.add_argument(
+        "--aux",
+        default="main.aux",
+        help="aux file whose citations are verified (default: main.aux)",
+    )
     args = parser.parse_args()
 
     manuscript = Path(__file__).resolve().parents[1]
-    aux_text = (manuscript / "main.aux").read_text()
+    aux_text = (manuscript / args.aux).read_text()
     cited = {
         key.strip()
         for group in re.findall(r"\\citation\{([^}]+)\}", aux_text)
@@ -270,12 +275,12 @@ def main() -> None:
     }
     used = set(re.findall(r"\\bibcite\{([^}]+)\}", aux_text))
     if not used:
-        raise SystemExit("main.aux contains no bibliography entries")
+        raise SystemExit(f"{args.aux} contains no bibliography entries")
     if cited != used:
         missing = sorted(cited - used)
         unexpected = sorted(used - cited)
         raise SystemExit(
-            "main.aux citation/bibcite mismatch: "
+            f"{args.aux} citation/bibcite mismatch: "
             f"missing_bibcite={missing[:10]}, uncited_bibcite={unexpected[:10]}"
         )
     all_entries = [
