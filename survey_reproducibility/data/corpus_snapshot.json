@@ -1,0 +1,714 @@
+{
+  "snapshot_name": "map_b_20260615_dedup335_c1_c5_v31_full_audit",
+  "core_search_cutoff": "2026-06-03",
+  "core_coding_and_artifact_freeze": "2026-06-15",
+  "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
+  "packaged_literature_map_path": "survey_resources/literature_map.csv",
+  "packaged_literature_map_sha256": "d73538bae835bf897e7c4a60f61781fc7d6f91de1fdf2f9d77c28f58ae8b5084",
+  "packaged_citation_index_path": "survey_resources/citation_index.csv",
+  "packaged_citation_index_sha256": "b6b7eda250a35b43fccd184554f6655aebfe5bc59294163bb31b0d4070930b47",
+  "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
+  "packaged_coverage_decisions_sha256": "8c79443fdf715a38cdb2d63eedf8188d4fd1500f6e4c5db719e6d686fb5d39fa",
+  "packaged_coverage_decisions_breakdown": {
+    "total_decision_rows": 476,
+    "included_and_cited_in_main_text": 389,
+    "excluded_duplicate_merged": 7,
+    "excluded_round2_adjudication": 6,
+    "excluded_map_b_adjudication": 74
+  },
+  "upstream_raw_map_rows": 342,
+  "upstream_raw_map_sha256": "6607ac44cab2ddad91bdeee491c9e7f7414fdb35cdcc65fb9d8ea360a9c375f9",
+  "deduplicated_core_map_rows": 335,
+  "deduplicated_core_primary_rag_studies_total": 330,
+  "deduplicated_core_primary_rag_full_text_pdf_verified": 326,
+  "deduplicated_core_primary_rag_metadata_abstract_only_acm": 4,
+  "metadata_abstract_only_cite_keys": [
+    "venue044",
+    "venue045",
+    "venue049",
+    "venue050"
+  ],
+  "post_round2_pdf_verified_cite_keys": [
+    "aip2025",
+    "venue006",
+    "venue011",
+    "venue012",
+    "venue015",
+    "venue018",
+    "venue019",
+    "venue020",
+    "venue021",
+    "venue024",
+    "venue026",
+    "venue028",
+    "venue032",
+    "venue035",
+    "venue039",
+    "venue051"
+  ],
+  "deduplicated_core_survey_overview_rows": 5,
+  "merged_duplicate_pairs_7": {
+    "rrag056": "rrag013",
+    "rrag014": "rrag128",
+    "venue025": "rrag170",
+    "venueExpanded119": "rrag226",
+    "venueExpanded122": "venue015",
+    "venueExpanded026": "venueExpanded025",
+    "venueExpanded008": "venue021"
+  },
+  "canonical_bib_key_aliases_8": {
+    "venueExpanded083": "ares2024",
+    "venueExpanded123": "calibRAG2025",
+    "venueExpanded106": "liu2024lostmiddle",
+    "venueExpanded132": "ragBestPractices2024",
+    "venueExpanded115": "ragas2024",
+    "venueExpanded133": "selfRAG2023",
+    "venueExpanded096": "venue200SpillBeans",
+    "rrag046": "xie2024chameleon"
+  },
+  "supplementary_external_works_total": 54,
+  "supplementary_selection_rules": {
+    "Rule_S1_foundational_ml_ir_eval_theory": 23,
+    "Rule_S2_adjacent_prior_survey": 5,
+    "Rule_S3_canonical_and_post_freeze_primary_rag": 26
+  },
+  "cited_references_total": 389,
+  "total_primary_rag_studies_all_cited": 356,
+  "total_foundational_or_survey_na_all_cited": 33,
+  "search_and_screening_funnel_exact_accounting": {
+    "stage_1a_initial_open_source_retrieval": {
+      "arxiv_boolean_queries_count": 55,
+      "initial_retrieved_records": 1904,
+      "open_pdf_verified_records": 1445,
+      "excluded_no_open_pdf_or_parse_error": 459,
+      "title_and_id_deduplicated_candidates": 1399,
+      "excluded_exact_or_id_duplicates": 46,
+      "broad_relevance_screen_off_topic_excluded": 574,
+      "broad_relevance_screen_general_background_excluded": 289,
+      "broad_relevance_screen_in_scope_retained": 536,
+      "disposition_of_536_in_scope_candidates": {
+        "selected_into_base_evidence_map_a": 250,
+        "selected_as_foundational_narrative_anchors_in_survey300": 50,
+        "deprioritized_domain_or_secondary_variants_excluded_from_core_map": 236
+      }
+    },
+    "stage_1b_venue_pass_and_map_a_round2_adjudication": {
+      "acl_anthology_entries_scanned_2020_2026": 12924,
+      "dblp_and_openalex_structured_queries": 30,
+      "unique_venue_candidates_triaged": 51,
+      "already_in_base_250_map": 13,
+      "excluded_at_venue_triage": 14,
+      "new_venue_extension_candidates_added": 24,
+      "map_a_candidate_pool_double_coded": 274,
+      "map_a_excluded_at_round2_adjudication": 6,
+      "map_a_included_after_round2_adjudication": 268
+    },
+    "stage_1c_map_b_conference_expansion_adjudication": {
+      "published_conference_collection_screened": 200,
+      "recommended_unique_titles": 168,
+      "matched_to_existing_map_a_records": 20,
+      "new_map_b_expansion_candidates_double_coded": 148,
+      "map_b_excluded_at_adjudication": 74,
+      "map_b_included_after_adjudication": 74
+    },
+    "stage_1d_consolidation_and_deduplication": {
+      "raw_combined_map_b_records_268_plus_74": 342,
+      "cross_stratum_duplicate_pairs_merged": 7,
+      "deduplicated_unique_core_map_b_records": 335
+    }
+  },
+  "inter_annotator_agreement_by_stage": {
+    "note_on_scope": "Kappa values below measure agreement on the Round-2 (N=274) and Map-B (N=148) adjudication schemas prior to consensus adjudication; C1-C5 protocol coordinates were deterministically mapped and audited from those adjudicated fields plus full-text metric verification.",
+    "round2_map_a_274_double_coding": {
+      "screen_in_scope_kappa": 0.921,
+      "primary_failure_type_kappa": 0.961,
+      "method_family_kappa": 0.862,
+      "intervention_point_kappa": 0.921,
+      "evaluation_type_kappa": 0.929,
+      "evidence_strength_kappa": 0.948,
+      "relevance_level_weighted_kappa": 0.802,
+      "is_core_candidate_kappa": 0.803,
+      "include_in_evidence_map_kappa": 0.853,
+      "secondary_failure_types_mean_jaccard": 0.832
+    },
+    "map_b_148_second_coding_c02_vs_c03": {
+      "include_in_map_kappa": 0.769,
+      "primary_failure_type_kappa": 0.719,
+      "method_family_kappa": 0.762,
+      "intervention_point_kappa": 0.724
+    }
+  },
+  "c1_c5_primary_precedence_codebook": {
+    "C1_precedence": "adversarially_manipulated > conflicting_evidence > noisy_or_distracting > insufficient_or_uncertain > clean_or_heterogeneous_mix (multi-regime studies also recorded in C1_all_applicable)",
+    "C2_capability_precedence": "memory_or_pipeline_orchestration_access > white_box_gradient_or_weight_access (when exclusively white-box) > query_only_or_prompt_interface > black_box_corpus_write_bounded_m > benign_stochastic_channel (studies evaluating both black-box and white-box such as PoisonedRAG are recorded in C2_capability_all_applicable)",
+    "C3_precedence": "Primary architectural locus modified; multi-locus pipelines recorded in C3_all_applicable",
+    "C4_precedence": "certified_robustness_bound > retrieval_ranking_and_exposure > empirical_attack_success_and_robust_acc > selective_risk_and_calibration_ece (restricted strictly to studies reporting ECE, Brier, AUROC, AURC, conformal coverage, or selective risk-coverage) > span_faithfulness_and_attribution_f1 > end_to_end_task_em_and_f1 (all co-reported metrics recorded in C4_all_applicable)",
+    "C5_precedence": "multi_pass_verification_or_aggregation > adaptive_re_retrieval_and_routing > selective_abstention_or_clarification (restricted to system-level abstention/clarification policies) > single_pass_grounded_answering"
+  },
+  "coordinate_distributions_core_full_text_verified_326": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 117,
+      "noisy_or_distracting": 47,
+      "insufficient_or_uncertain": 58,
+      "conflicting_evidence": 57,
+      "clean_or_heterogeneous_mix": 47
+    },
+    "representation_modality": {
+      "unstructured_text": 291,
+      "structured_graph_or_table": 17,
+      "multimodal_vision_or_video": 18
+    },
+    "C2_disturbance_origin": {
+      "adversarial_corpus_poisoning": 79,
+      "benign_retrieval_imperfection": 150,
+      "adversarial_prompt_injection": 26,
+      "parametric_contextual_conflict": 51,
+      "adversarial_backdoor_trigger": 6,
+      "inter_document_source_conflict": 6,
+      "adversarial_privacy_extraction": 5,
+      "query_perturbation_or_drift": 3
+    },
+    "C2_capability_and_budget": {
+      "black_box_corpus_write_bounded_m": 66,
+      "benign_stochastic_channel": 209,
+      "white_box_gradient_or_weight_access": 17,
+      "query_only_or_prompt_interface": 24,
+      "memory_or_pipeline_orchestration_access": 10
+    },
+    "C3_intervention_stage": {
+      "corpus_and_index_security": 67,
+      "multi_stage_joint_pipeline": 34,
+      "generator_reading_and_representations": 78,
+      "closed_loop_system_control": 41,
+      "context_filtering_and_compression": 45,
+      "query_and_retriever_optimization": 13,
+      "evaluation_protocol_and_benchmark": 48
+    },
+    "C4_outcome_metric": {
+      "empirical_attack_success_and_robust_acc": 106,
+      "certified_robustness_bound": 5,
+      "end_to_end_task_em_and_f1": 131,
+      "selective_risk_and_calibration_ece": 35,
+      "span_faithfulness_and_attribution_f1": 43,
+      "retrieval_ranking_and_exposure": 6
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 246,
+      "multi_pass_verification_or_aggregation": 19,
+      "selective_abstention_or_clarification": 39,
+      "adaptive_re_retrieval_and_routing": 22
+    }
+  },
+  "coordinate_distributions_core_primary_rag_330": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 118,
+      "noisy_or_distracting": 49,
+      "insufficient_or_uncertain": 58,
+      "conflicting_evidence": 57,
+      "clean_or_heterogeneous_mix": 48
+    },
+    "representation_modality": {
+      "unstructured_text": 295,
+      "structured_graph_or_table": 17,
+      "multimodal_vision_or_video": 18
+    },
+    "C2_disturbance_origin": {
+      "adversarial_corpus_poisoning": 79,
+      "benign_retrieval_imperfection": 153,
+      "adversarial_prompt_injection": 26,
+      "parametric_contextual_conflict": 51,
+      "adversarial_backdoor_trigger": 7,
+      "inter_document_source_conflict": 6,
+      "adversarial_privacy_extraction": 5,
+      "query_perturbation_or_drift": 3
+    },
+    "C2_capability_and_budget": {
+      "black_box_corpus_write_bounded_m": 67,
+      "benign_stochastic_channel": 212,
+      "white_box_gradient_or_weight_access": 17,
+      "query_only_or_prompt_interface": 24,
+      "memory_or_pipeline_orchestration_access": 10
+    },
+    "C3_intervention_stage": {
+      "corpus_and_index_security": 68,
+      "multi_stage_joint_pipeline": 35,
+      "generator_reading_and_representations": 79,
+      "closed_loop_system_control": 41,
+      "context_filtering_and_compression": 45,
+      "query_and_retriever_optimization": 13,
+      "evaluation_protocol_and_benchmark": 49
+    },
+    "C4_outcome_metric": {
+      "empirical_attack_success_and_robust_acc": 107,
+      "certified_robustness_bound": 5,
+      "end_to_end_task_em_and_f1": 134,
+      "selective_risk_and_calibration_ece": 35,
+      "span_faithfulness_and_attribution_f1": 43,
+      "retrieval_ranking_and_exposure": 6
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 250,
+      "multi_pass_verification_or_aggregation": 19,
+      "selective_abstention_or_clarification": 39,
+      "adaptive_re_retrieval_and_routing": 22
+    }
+  },
+  "multilabel_actual_coverage_core_primary_rag_330": {
+    "C1_all_applicable_counts": {
+      "adversarially_manipulated": 145,
+      "insufficient_or_uncertain": 73,
+      "noisy_or_distracting": 105,
+      "conflicting_evidence": 86,
+      "clean_or_heterogeneous_mix": 48
+    },
+    "C2_capability_all_applicable_counts": {
+      "black_box_corpus_write_bounded_m": 86,
+      "white_box_gradient_or_weight_access": 56,
+      "benign_stochastic_channel": 212,
+      "query_only_or_prompt_interface": 24,
+      "memory_or_pipeline_orchestration_access": 10
+    },
+    "C4_all_applicable_counts": {
+      "empirical_attack_success_and_robust_acc": 117,
+      "end_to_end_task_em_and_f1": 280,
+      "certified_robustness_bound": 7,
+      "selective_risk_and_calibration_ece": 56,
+      "efficiency_tokens_or_latency": 29,
+      "span_faithfulness_and_attribution_f1": 56,
+      "retrieval_ranking_and_exposure": 6
+    },
+    "C5_all_applicable_counts": {
+      "single_pass_grounded_answering": 250,
+      "multi_pass_verification_or_aggregation": 26,
+      "selective_abstention_or_clarification": 39,
+      "selective_abstention_or_gating": 28,
+      "adaptive_re_retrieval_and_routing": 24
+    }
+  },
+  "coordinate_distributions_all_primary_rag_356_sensitivity": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 120,
+      "noisy_or_distracting": 59,
+      "insufficient_or_uncertain": 66,
+      "conflicting_evidence": 61,
+      "clean_or_heterogeneous_mix": 50
+    },
+    "representation_modality": {
+      "unstructured_text": 317,
+      "structured_graph_or_table": 19,
+      "multimodal_vision_or_video": 20
+    },
+    "C2_disturbance_origin": {
+      "adversarial_corpus_poisoning": 79,
+      "benign_retrieval_imperfection": 170,
+      "adversarial_prompt_injection": 27,
+      "parametric_contextual_conflict": 52,
+      "adversarial_backdoor_trigger": 7,
+      "inter_document_source_conflict": 9,
+      "adversarial_privacy_extraction": 6,
+      "query_perturbation_or_drift": 6
+    },
+    "C3_intervention_stage": {
+      "corpus_and_index_security": 69,
+      "multi_stage_joint_pipeline": 35,
+      "generator_reading_and_representations": 82,
+      "closed_loop_system_control": 49,
+      "context_filtering_and_compression": 50,
+      "query_and_retriever_optimization": 14,
+      "evaluation_protocol_and_benchmark": 57
+    },
+    "C4_outcome_metric": {
+      "empirical_attack_success_and_robust_acc": 109,
+      "certified_robustness_bound": 5,
+      "end_to_end_task_em_and_f1": 150,
+      "selective_risk_and_calibration_ece": 36,
+      "span_faithfulness_and_attribution_f1": 49,
+      "retrieval_ranking_and_exposure": 7
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 263,
+      "multi_pass_verification_or_aggregation": 24,
+      "selective_abstention_or_clarification": 40,
+      "adaptive_re_retrieval_and_routing": 29
+    }
+  },
+  "arxiv_55_boolean_queries": [
+    {
+      "query": "all:\"retrieval augmented generation\"",
+      "max_results": 320
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\"",
+      "max_results": 320
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"large language model\"",
+      "max_results": 220
+    },
+    {
+      "query": "all:\"retrieval-augmented\" AND all:\"large language models\"",
+      "max_results": 220
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:robustness",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:noisy",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:irrelevant",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:distractor",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"knowledge conflict\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"parametric knowledge\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:adversarial",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:poisoning",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"prompt injection\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:uncertainty",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:calibration",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:abstain",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:\"adaptive retrieval\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:faithfulness",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:hallucination",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:trustworthy",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:security",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval augmented\" AND all:privacy",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"open-domain question answering\" AND all:\"retrieval augmented\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"noise robustness\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"noisy context\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"irrelevant context\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"hard negative\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"context conflict\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"knowledge corruption\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"data poisoning\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"indirect prompt\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"unanswerable\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"selective generation\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"confidence estimation\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"uncertainty quantification\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"trust calibration\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"negative rejection\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"information integration\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"counterfactual robustness\"",
+      "max_results": 80
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"context faithfulness\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"groundedness\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"citation\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"self correction\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"verification\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"fact checking\"",
+      "max_results": 100
+    },
+    {
+      "query": "all:\"retrieval-augmented generation\" AND all:\"open-domain question answering\"",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"retrieval augmented language models\" AND all:robustness",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"retrieval augmented language models\" AND all:faithfulness",
+      "max_results": 140
+    },
+    {
+      "query": "all:\"retrieval augmented language models\" AND all:adversarial",
+      "max_results": 140
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"knowledge conflict\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"calibration\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"abstention\"",
+      "max_results": 120
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"uncertainty\"",
+      "max_results": 160
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"poisoning\"",
+      "max_results": 140
+    },
+    {
+      "query": "all:\"large language models\" AND all:\"retrieval\" AND all:\"prompt injection\"",
+      "max_results": 140
+    }
+  ],
+  "venue_30_systematic_queries": [
+    {
+      "source": "",
+      "venue": "",
+      "query": "local scan: title/abstract contains RAG terms and robustness terms"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented generation"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented generation"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval-augmented generation"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval-augmented generation"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented language model"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented language model"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented question answering"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented question answering"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmentation noisy context"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmentation noisy context"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "irrelevant context retrieval augmented"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "irrelevant context retrieval augmented"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented knowledge conflict"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented knowledge conflict"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented uncertainty"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented uncertainty"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented calibration"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented calibration"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented abstention"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented abstention"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented poisoning"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented poisoning"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented prompt injection"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval augmented prompt injection"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval corpus poisoning"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "retrieval corpus poisoning"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "adversarial retrieval question answering"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "adversarial retrieval question answering"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "faithfulness retrieval augmented generation"
+    },
+    {
+      "source": "",
+      "venue": "",
+      "query": "faithfulness retrieval augmented generation"
+    }
+  ]
+}

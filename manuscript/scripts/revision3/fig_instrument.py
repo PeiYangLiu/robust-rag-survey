@@ -137,7 +137,7 @@ def build() -> Path:
 
     cur += bgh + 0.18
     d.text(px, cur, pw, 0.44,
-           [("C3 always differs \u2014 that is what a comparison is for \u2014 so it is "
+           [("C3 always differs, which is what a comparison is for, so it is "
              "recorded and never decisive.", {"size": 6.0, "bold": True, "color": NAVY})])
 
     # ======================================== panel 3: what is recovered
@@ -177,8 +177,8 @@ def build() -> Path:
                        color=GREY, align=PP_ALIGN.LEFT)
         d.box(gx + 0.05, gy + 0.96, gw - 0.10, 0.22, fill=fill, line=None)
         d.text(gx, gy + 0.96, gw, 0.22,
-               "recovered \u2014 and validated on real windows" if ok else
-               "not recovered \u2014 barely beats a constant",
+               "recovered, and validated on real windows" if ok else
+               "not recovered, barely beats a constant",
                size=5.8, bold=True, color=NAVY if ok else RED)
         cur += block_h + GAP
 

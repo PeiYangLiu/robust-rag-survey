@@ -152,7 +152,7 @@ def build() -> Path:
 
     gx, gy, gw, gh = d.group(px, cur, pw, 0.70, "What may be reported", fill=WHITE)
     d.text(gx + 0.04, gy - 0.02, gw - 0.08, gh,
-           [("These two attacks cannot be ranked by these two numbers \u2014 and "
+           [("These two attacks cannot be ranked by these two numbers, and "
              "the benchmarked paper said so.",
              {"size": 6.0, "align": PP_ALIGN.LEFT})], align=PP_ALIGN.LEFT)
 

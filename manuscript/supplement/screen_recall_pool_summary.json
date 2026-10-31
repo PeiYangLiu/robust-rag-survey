@@ -1,7 +1,7 @@
 {
   "schema_version": "screen-recall-pool-v1",
   "seed": 2026080431,
-  "universe_definition": "every window under the screen's own windowing that names a gazetteer system absent from the paper's title/abstract region and contains at least one result-formatted number; this drops the screen's second-numeral requirement and all three surface strata, which are exactly the conditions the reviewer identifies as selecting for baseline tables",
+  "universe_definition": "every window under the screen's own windowing that names a gazetteer system absent from the paper's title/abstract region and contains at least one result-formatted number; this drops the screen's second-numeral requirement and all three surface strata, which are exactly the conditions that select for baseline tables",
   "n_universe_windows": 6710,
   "n_screened_windows": 1703,
   "n_missed_windows": 5007,

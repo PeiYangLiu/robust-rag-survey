@@ -1,0 +1,873 @@
+{
+  "groups": [
+    {
+      "family": "Evidence\\\\construction",
+      "label": "sec:evidence",
+      "color": "rrmapEv",
+      "hex": "705C8D",
+      "section": "evidence",
+      "rows": [
+        {
+          "title": "Noise & distraction",
+          "subsection": "Retrieval Noise and Distracting Evidence",
+          "anchor": "sec:map11-evidence-0",
+          "works": [
+            {
+              "alias": "Irrelevant context",
+              "key": "irrelevantContext2023",
+              "bibliography": {
+                "bibitem_label": "{Yoran et~al.(2024)Yoran, Wolfson, Ram, and\n  Berant}",
+                "entry": "Ori Yoran, Tomer Wolfson, Ori Ram, and Jonathan Berant. 2024.\n\\newblock Making retrieval-augmented language models robust to irrelevant\n  context.\n\\newblock In \\emph{International Conference on Learning Representations},\n  volume 2024, pages 29862--29883."
+              }
+            },
+            {
+              "alias": "RGB",
+              "key": "rgb2023",
+              "bibliography": {
+                "bibitem_label": "{Chen et~al.(2024{\\natexlab{a}})Chen, Lin, Han, and Sun}",
+                "entry": "Jiawei Chen, Hongyu Lin, Xianpei Han, and Le~Sun. 2024{\\natexlab{a}}.\n\\newblock Benchmarking large language models in retrieval-augmented generation.\n\\newblock In \\emph{Proceedings of the AAAI conference on artificial\n  intelligence}, volume~38, pages 17754--17762."
+              }
+            },
+            {
+              "alias": "Power of Noise",
+              "key": "cuconasu2024powerofnoise",
+              "bibliography": {
+                "bibitem_label": "{Cuconasu et~al.(2024)Cuconasu, Trappolini, Siciliano, Filice,\n  Campagnano, Maarek, Tonellotto, and Silvestri}",
+                "entry": "Florin Cuconasu, Giovanni Trappolini, Federico Siciliano, Simone Filice, Cesare\n  Campagnano, Yoelle Maarek, Nicola Tonellotto, and Fabrizio Silvestri. 2024.\n\\newblock The power of noise: Redefining retrieval for rag systems.\n\\newblock In \\emph{Proceedings of the 47th international ACM SIGIR conference\n  on research and development in information retrieval}, pages 719--729."
+              }
+            },
+            {
+              "alias": "Robust RALMs",
+              "key": "rrag037",
+              "bibliography": {
+                "bibitem_label": "{Park and Lee(2024)}",
+                "entry": "Seong-Il Park and Jay-Yoon Lee. 2024.\n\\newblock Toward robust ralms: Revealing the impact of imperfect retrieval on\n  retrieval-augmented language models."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Filtering & compression",
+          "subsection": "Filtering, Reranking, and Compression",
+          "anchor": "sec:map11-evidence-1",
+          "works": [
+            {
+              "alias": "FILCO",
+              "key": "rrag044",
+              "bibliography": {
+                "bibitem_label": "{Wang et~al.(2023{\\natexlab{b}})Wang, Araki, Jiang, Parvez, and\n  Neubig}",
+                "entry": "Zhiruo Wang, Jun Araki, Zhengbao Jiang, Md~Rizwan Parvez, and Graham Neubig.\n  2023.\n\\newblock Learning to filter context for retrieval-augmented generation."
+              }
+            },
+            {
+              "alias": "RECOMP",
+              "key": "rrag226",
+              "bibliography": {
+                "bibitem_label": "{Xu et~al.(2024{\\natexlab{a}})Xu, Shi, and Choi}",
+                "entry": "Fangyuan Xu, Weijia Shi, and Eunsol Choi. 2024{\\natexlab{a}}.\n\\newblock Recomp: Improving retrieval-augmented lms with context compression\n  and selective augmentation."
+              }
+            },
+            {
+              "alias": "Discern-and-Answer",
+              "key": "rrag043",
+              "bibliography": {
+                "bibitem_label": "{Hong et~al.(2024)Hong, Kim, Kang, Myaeng, and Whang}",
+                "entry": "Giwon Hong, Jeonghwan Kim, Junmo Kang, Sung-Hyon Myaeng, and Joyce~Jiyoung\n  Whang. 2024.\n\\newblock Why so gullible? enhancing the robustness of retrieval-augmented\n  models against counterfactual noise."
+              }
+            },
+            {
+              "alias": "UDCG",
+              "key": "rrag058",
+              "bibliography": {
+                "bibitem_label": "{Trappolini et~al.(2026)Trappolini, Cuconasu, Filice, Maarek, and\n  Silvestri}",
+                "entry": "Giovanni Trappolini, Florin Cuconasu, Simone Filice, Yoelle Maarek, and\n  Fabrizio Silvestri. 2026.\n\\newblock Redefining retrieval evaluation in the era of llms.\n\\newblock In \\emph{Proceedings of the 19th Conference of the European Chapter\n  of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages 8359--8375."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Budget & order",
+          "subsection": "Context Order, Length, and Query Formulation",
+          "anchor": "sec:map11-evidence-2",
+          "works": [
+            {
+              "alias": "LDAR",
+              "key": "rrag131",
+              "bibliography": {
+                "bibitem_label": "{Shim et~al.(2026)Shim, Kim, Cho, and Lee}",
+                "entry": "Seongwoong Shim, Myunsoo Kim, Jae Cho, and Byung-Jun Lee. 2026.\n\\newblock Beyond rag vs. long-context: Learning distraction-aware retrieval for\n  efficient knowledge grounding."
+              }
+            },
+            {
+              "alias": "Lost in the Middle",
+              "key": "liu2024lostmiddle",
+              "bibliography": {
+                "bibitem_label": "{Liu et~al.(2024{\\natexlab{a}})Liu, Lin, Hewitt, Paranjape,\n  Bevilacqua, Petroni, and Liang}",
+                "entry": "Nelson~F Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua,\n  Fabio Petroni, and Percy Liang. 2024.\n\\newblock Lost in the middle: How language models use long contexts.\n\\newblock \\emph{Transactions of the association for computational linguistics},\n  12:157--173."
+              }
+            },
+            {
+              "alias": "Lost in the Evidence",
+              "key": "rrag143",
+              "bibliography": {
+                "bibitem_label": "{Gab{\\'\\i}n et~al.(2026)Gab{\\'\\i}n, Perez, and Parapar}",
+                "entry": "Jorge Gab{\\'\\i}n, Anxo Perez, and Javier Parapar. 2026.\n\\newblock Lost in the evidence? reproducing document position and context size\n  effects in rag."
+              }
+            },
+            {
+              "alias": "Long-context RAG",
+              "key": "rrag039",
+              "bibliography": {
+                "bibitem_label": "{Jin et~al.(2025{\\natexlab{a}})Jin, Yoon, Han, and Arik}",
+                "entry": "Bowen Jin, Jinsung Yoon, Jiawei Han, and Sercan Arik. 2025.\n\\newblock Long-context llms meet rag: Overcoming challenges for long inputs in\n  rag.\n\\newblock In \\emph{International Conference on Learning Representations},\n  volume 2025, pages 37784--37822."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Query & pipeline",
+          "subsection": "Context Order, Length, and Query Formulation",
+          "anchor": "sec:map11-evidence-3",
+          "works": [
+            {
+              "alias": "Query robustness",
+              "key": "queryRobustness2025",
+              "bibliography": {
+                "bibitem_label": "{Per{\\c{c}}in et~al.(2025)Per{\\c{c}}in, Su, Syed, Howard, Kuvshinov,\n  Schwinn, and Scholl}",
+                "entry": "Sezen Per{\\c{c}}in, Xin Su, Qutub~Sha Syed, Phillip Howard, Aleksei Kuvshinov,\n  Leo Schwinn, and Kay-Ulrich Scholl. 2025.\n\\newblock Investigating the robustness of retrieval-augmented generation at the\n  query level.\n\\newblock In \\emph{Proceedings of the Fourth Workshop on Generation, Evaluation\n  and Metrics (GEM$^2$)}, pages 439--457."
+              }
+            },
+            {
+              "alias": "RAG best practices",
+              "key": "ragBestPractices2024",
+              "bibliography": {
+                "bibitem_label": "{Wang et~al.(2024{\\natexlab{b}})Wang, Wang, Gao, Zhang, Wu, Xu, Shi,\n  Wang, Li, Qian et~al.}",
+                "entry": "Xiaohua Wang, Zhenghua Wang, Xuan Gao, Feiran Zhang, Yixin Wu, Zhibo Xu,\n  Tianyuan Shi, Zhengyuan Wang, Shizheng Li, Qi~Qian, and 1 others.\n  2024{\\natexlab{b}}.\n\\newblock Searching for best practices in retrieval-augmented generation.\n\\newblock In \\emph{Proceedings of the 2024 conference on empirical methods in\n  natural language processing}, pages 17716--17736."
+              }
+            },
+            {
+              "alias": "Denoising-first IR",
+              "key": "rrag073",
+              "bibliography": {
+                "bibitem_label": "{Dai et~al.(2026)Dai, Sun, Cao, Rao, Yang, Liu, and Xiong}",
+                "entry": "Lu~Dai, Liang Sun, Fanpu Cao, Ziyang Rao, Cehao Yang, Hao Liu, and Hui Xiong.\n  2026.\n\\newblock Llm-oriented information retrieval: A denoising-first perspective."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Provenance & time",
+          "subsection": "Provenance and Temporal Relevance",
+          "anchor": "sec:map11-evidence-4",
+          "works": [
+            {
+              "alias": "RA-RAG",
+              "key": "sourceReliabilityRAG2025",
+              "bibliography": {
+                "bibitem_label": "{Hwang et~al.(2025)Hwang, Park, Park, Kim, Park, and\n  Ok}",
+                "entry": "Jeongyeon Hwang, Junyoung Park, Hyejin Park, Dongwoo Kim, Sangdon Park, and\n  Jungseul Ok. 2025.\n\\newblock Retrieval-augmented generation with estimation of source reliability.\n\\newblock In \\emph{Proceedings of the 2025 conference on empirical methods in\n  natural language processing}, pages 34279--34303."
+              }
+            },
+            {
+              "alias": "KILT",
+              "key": "kilt2021",
+              "bibliography": {
+                "bibitem_label": "{Petroni et~al.(2021)Petroni, Piktus, Fan, Lewis, Yazdani, De~Cao,\n  Thorne, Jernite, Karpukhin, Maillard et~al.}",
+                "entry": "Fabio Petroni, Aleksandra Piktus, Angela Fan, Patrick Lewis, Majid Yazdani,\n  Nicola De~Cao, James Thorne, Yacine Jernite, Vladimir Karpukhin, Jean\n  Maillard, and 1 others. 2021.\n\\newblock Kilt: a benchmark for knowledge intensive language tasks.\n\\newblock In \\emph{Proceedings of the 2021 Conference of the North American\n  Chapter of the Association for Computational Linguistics: Human Language\n  Technologies}, pages 2523--2544."
+              }
+            },
+            {
+              "alias": "FreshLLMs",
+              "key": "freshllms2024",
+              "bibliography": {
+                "bibitem_label": "{Vu et~al.(2024)Vu, Iyyer, Wang, Constant, Wei, Wei, Tar, Sung, Zhou,\n  Le et~al.}",
+                "entry": "Tu~Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris\n  Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, and 1 others. 2024.\n\\newblock Freshllms: Refreshing large language models with search engine\n  augmentation.\n\\newblock In \\emph{Findings of the Association for Computational Linguistics:\n  ACL 2024}, pages 13697--13720."
+              }
+            },
+            {
+              "alias": "RealTime QA",
+              "key": "realtimeQA2023",
+              "bibliography": {
+                "bibitem_label": "{Kasai et~al.(2023)Kasai, Sakaguchi, Le~Bras, Asai, Yu, Radev, Smith,\n  Choi, Inui et~al.}",
+                "entry": "Jungo Kasai, Keisuke Sakaguchi, Ronan Le~Bras, Akari Asai, Xinyan Yu, Dragomir\n  Radev, Noah~A Smith, Yejin Choi, Kentaro Inui, and 1 others. 2023.\n\\newblock Realtime qa: What's the answer right now?\n\\newblock In \\emph{Advances in neural information processing systems},\n  volume~36, pages 49025--49043."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Evidence\\\\use",
+      "label": "sec:model",
+      "color": "rrmapMd",
+      "hex": "476F95",
+      "section": "model",
+      "rows": [
+        {
+          "title": "Learning under noise",
+          "subsection": "Learning to Use Evidence under Noise",
+          "anchor": "sec:map11-model-0",
+          "works": [
+            {
+              "alias": "RAFT",
+              "key": "rrag115",
+              "bibliography": {
+                "bibitem_label": "{Zhang et~al.(2024{\\natexlab{b}})Zhang, Patil, Jain, Shen, Zaharia,\n  Stoica, and Gonzalez}",
+                "entry": "Tianjun Zhang, Shishir~G. Patil, Naman Jain, Sheng Shen, Matei Zaharia, Ion\n  Stoica, and Joseph~E. Gonzalez. 2024.\n\\newblock \\href {https://doi.org/10.48550/ARXIV.2403.10131} {{RAFT:} adapting\n  language model to domain specific {RAG}}.\n\\newblock \\emph{CoRR}, arXiv:2403.10131."
+              }
+            },
+            {
+              "alias": "RAAT",
+              "key": "raat2024",
+              "bibliography": {
+                "bibitem_label": "{Fang et~al.(2024{\\natexlab{a}})Fang, Bai, Ni, Yang, Chen, and\n  Xu}",
+                "entry": "Feiteng Fang, Yuelin Bai, Shiwen Ni, Min Yang, Xiaojun Chen, and Ruifeng Xu.\n  2024.\n\\newblock Enhancing noise robustness of retrieval-augmented language models\n  with adaptive adversarial training.\n\\newblock In \\emph{Proceedings of the 62nd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 10028--10039."
+              }
+            },
+            {
+              "alias": "Chain-of-Note",
+              "key": "chainOfNote2023",
+              "bibliography": {
+                "bibitem_label": "{Yu et~al.(2024{\\natexlab{b}})Yu, Zhang, Pan, Cao, Ma, Li, Wang, and\n  Yu}",
+                "entry": "Wenhao Yu, Hongming Zhang, Xiaoman Pan, Peixin Cao, Kaixin Ma, Jian Li, Hongwei\n  Wang, and Dong Yu. 2024{\\natexlab{b}}.\n\\newblock Chain-of-note: Enhancing robustness in retrieval-augmented language\n  models."
+              }
+            },
+            {
+              "alias": "Context-DPO",
+              "key": "rrag042",
+              "bibliography": {
+                "bibitem_label": "{Bi et~al.(2025{\\natexlab{a}})Bi, Huang, Wang, Yang, Zhang, Huang,\n  Mei, Fang, Li, Wei et~al.}",
+                "entry": "Baolong Bi, Shaohan Huang, Yiwei Wang, Tianchi Yang, Zihan Zhang, Haizhen\n  Huang, Lingrui Mei, Junfeng Fang, Zehao Li, Furu Wei, and 1 others. 2025.\n\\newblock Context-dpo: Aligning language models for context-faithfulness."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Memory--context conflict",
+          "subsection": "Parametric--Context Knowledge Conflicts",
+          "anchor": "sec:map11-model-1",
+          "works": [
+            {
+              "alias": "Tug-of-War",
+              "key": "tugOfWar2024",
+              "bibliography": {
+                "bibitem_label": "{Jin et~al.(2024{\\natexlab{a}})Jin, Cao, Chen, Liu, Jiang, Xu, Qiuxia,\n  and Zhao}",
+                "entry": "Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Xiaojian Jiang, Jiexin Xu,\n  Li~Qiuxia, and Jun Zhao. 2024.\n\\newblock Tug-of-war between knowledge: Exploring and resolving knowledge\n  conflicts in retrieval-augmented language models."
+              }
+            },
+            {
+              "alias": "FaithfulRAG",
+              "key": "faithfulRAG2025",
+              "bibliography": {
+                "bibitem_label": "{Zhang et~al.(2025{\\natexlab{f}})Zhang, Xiang, Xiao, Wang, Li, Wang,\n  and Su}",
+                "entry": "Qinggang Zhang, Zhishang Xiang, Yilin Xiao, Le~Wang, Junhui Li, Xinrun Wang,\n  and Jinsong Su. 2025{\\natexlab{c}}.\n\\newblock Faithfulrag: Fact-level conflict modeling for context-faithful\n  retrieval-augmented generation.\n\\newblock In \\emph{Proceedings of the 63rd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 21863--21882."
+              }
+            },
+            {
+              "alias": "Astute RAG",
+              "key": "astuteRAG2025",
+              "bibliography": {
+                "bibitem_label": "{Wang et~al.(2025{\\natexlab{b}})Wang, Wan, Sun, Chen, and\n  Arik}",
+                "entry": "Fei Wang, Xingchen Wan, Ruoxi Sun, Jiefeng Chen, and Sercan~O Arik.\n  2025{\\natexlab{b}}.\n\\newblock \\href {https://doi.org/10.18653/v1/2025.acl-long.1476} {Astute {RAG}:\n  Overcoming imperfect retrieval augmentation and knowledge conflicts for large\n  language models}.\n\\newblock In \\emph{Proceedings of the 63rd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 30553--30571,\n  Vienna, Austria. Association for Computational Linguistics."
+              }
+            },
+            {
+              "alias": "CoReCt",
+              "key": "rrag008",
+              "bibliography": {
+                "bibitem_label": "{Ma et~al.(2026)Ma, Zhang, and Nie}",
+                "entry": "Xuhua Ma, Richong Zhang, and Zhijie Nie. 2026.\n\\newblock Corect: Context-aware logit contrast for hidden state rectification\n  to resolve knowledge conflicts."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Source conflicts",
+          "subsection": "Conflicts between Retrieved Sources",
+          "anchor": "sec:map11-model-2",
+          "works": [
+            {
+              "alias": "ConflictBank",
+              "key": "conflictBank2024",
+              "bibliography": {
+                "bibitem_label": "{Su et~al.(2024{\\natexlab{b}})Su, Zhang, Qu, Zhu, Li, Sun, Li, Zhang,\n  and Cheng}",
+                "entry": "Zhaochen Su, Jun Zhang, Xiaoye Qu, Tong Zhu, Yanshu Li, Jiashuo Sun, Juntao Li,\n  Min Zhang, and Yu~Cheng. 2024.\n\\newblock Conflictbank: A benchmark for evaluating the influence of knowledge\n  conflicts in llm.\n\\newblock In \\emph{arXiv preprint arXiv:2408.12076}."
+              }
+            },
+            {
+              "alias": "MAGIC",
+              "key": "rrag029",
+              "bibliography": {
+                "bibitem_label": "{Lee et~al.(2025)Lee, Lee, and Kim}",
+                "entry": "Jungyeon Lee, Kangmin Lee, and Taeuk Kim. 2025.\n\\newblock Magic: A multi-hop and graph-based benchmark for inter-context\n  conflicts in retrieval-augmented generation."
+              }
+            },
+            {
+              "alias": "Whose Facts Win?",
+              "key": "rrag132",
+              "bibliography": {
+                "bibitem_label": "{Schuster et~al.(2026)Schuster, Gautam, and Markert}",
+                "entry": "Jakob Schuster, Vagrant Gautam, and Katja Markert. 2026.\n\\newblock Whose facts win? llm source preferences under knowledge conflicts.\n\\newblock In \\emph{Proceedings of the 64th Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 29430--29459."
+              }
+            },
+            {
+              "alias": "Who\u2019s Who",
+              "key": "rrag110",
+              "bibliography": {
+                "bibitem_label": "{Pham et~al.(2024)Pham, Ngo, Tuan, and Nguyen}",
+                "entry": "Quang~Hieu Pham, Hoang Ngo, Luu~Anh Tuan, and Dat~Quoc Nguyen. 2024.\n\\newblock Who\u2019s who: Large language models meet knowledge conflicts in\n  practice.\n\\newblock In \\emph{Findings of the Association for Computational Linguistics:\n  EMNLP 2024}, pages 10142--10151."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Internal integration",
+          "subsection": "Internal Mechanisms for Knowledge Integration",
+          "anchor": "sec:map11-model-3",
+          "works": [
+            {
+              "alias": "ParamMute",
+              "key": "rrag024",
+              "bibliography": {
+                "bibitem_label": "{Huang et~al.(2026)Huang, Liu, Yan, Zhao, Yi, Chen, Liu, Sun, Xiao, Yu\n  et~al.}",
+                "entry": "Pengcheng Huang, Zhenghao Liu, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen,\n  Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge~Yu, and 1 others. 2026.\n\\newblock Parammute: Suppressing knowledge-critical ffns for faithful\n  retrieval-augmented generation.\n\\newblock In \\emph{Advances in Neural Information Processing Systems},\n  volume~38, pages 100378--100410."
+              }
+            },
+            {
+              "alias": "Parenting",
+              "key": "rrag214",
+              "bibliography": {
+                "bibitem_label": "{Xu et~al.(2025{\\natexlab{d}})Xu, Zhang, Jiang, Feng, Xiao, Ma, Zhu,\n  Chu, Zhao, and Wang}",
+                "entry": "Yongxin Xu, Ruizhe Zhang, Xinke Jiang, Yujie Feng, Yuzhen Xiao, Xinyu Ma,\n  Runchuan Zhu, Xu~Chu, Junfeng Zhao, and Yasha Wang. 2025.\n\\newblock Parenting: Optimizing knowledge selection of retrieval-augmented\n  language models with parameter decoupling and tailored tuning."
+              }
+            },
+            {
+              "alias": "Latent probing",
+              "key": "rrag088",
+              "bibliography": {
+                "bibitem_label": "{Gao et~al.(2026{\\natexlab{b}})Gao, Zhang, Bi, Zeng, Yuan, Chen, Wei,\n  Liu, Xu, Wang et~al.}",
+                "entry": "Linfeng Gao, Qinggang Zhang, Baolong Bi, Bo~Zeng, Zheng Yuan, Zerui Chen,\n  Zhimin Wei, Shenghua Liu, Linlong Xu, Longyue Wang, and 1 others.\n  2026{\\natexlab{a}}.\n\\newblock Beyond black-box interventions: Latent probing for faithful\n  retrieval-augmented generation."
+              }
+            },
+            {
+              "alias": "Dual-stream knowledge",
+              "key": "rrag206",
+              "bibliography": {
+                "bibitem_label": "{Sui et~al.(2025)Sui, Li, Zhang, Song, and Li}",
+                "entry": "Yi~Sui, Chaozhuo Li, Chen Zhang, Dawei Song, and Qiuchi Li. 2025.\n\\newblock Bridging external and parametric knowledge: Mitigating hallucination\n  of llms with shared-private semantic synergy in dual-stream knowledge.\n\\newblock In \\emph{Proceedings of the 2025 Conference on Empirical Methods in\n  Natural Language Processing}, pages 10845--10869."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Grounding & evaluation",
+          "subsection": "Grounded Generation and Attribution",
+          "anchor": "sec:map11-model-4",
+          "works": [
+            {
+              "alias": "ALCE",
+              "key": "alce2023",
+              "bibliography": {
+                "bibitem_label": "{Gao et~al.(2023{\\natexlab{a}})Gao, Yen, Yu, and Chen}",
+                "entry": "Tianyu Gao, Howard Yen, Jiatong Yu, and Danqi Chen. 2023{\\natexlab{a}}.\n\\newblock Enabling large language models to generate text with citations.\n\\newblock In \\emph{Proceedings of the 2023 Conference on Empirical Methods in\n  Natural Language Processing}, pages 6465--6488."
+              }
+            },
+            {
+              "alias": "RAGTruth",
+              "key": "ragTruth2024",
+              "bibliography": {
+                "bibitem_label": "{Niu et~al.(2024)Niu, Wu, Zhu, Xu, Shum, Zhong, Song, and\n  Zhang}",
+                "entry": "Cheng Niu, Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Randy Zhong, Juntong\n  Song, and Tong Zhang. 2024.\n\\newblock Ragtruth: A hallucination corpus for developing trustworthy\n  retrieval-augmented language models.\n\\newblock In \\emph{Proceedings of the 62nd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 10862--10878."
+              }
+            },
+            {
+              "alias": "RAGAS",
+              "key": "ragas2024",
+              "bibliography": {
+                "bibitem_label": "{Es et~al.(2024)Es, James, Anke, and Schockaert}",
+                "entry": "Shahul Es, Jithin James, Luis~Espinosa Anke, and Steven Schockaert. 2024.\n\\newblock Ragas: Automated evaluation of retrieval augmented generation.\n\\newblock In \\emph{Proceedings of the 18th conference of the european chapter\n  of the association for computational linguistics: system demonstrations},\n  pages 150--158."
+              }
+            },
+            {
+              "alias": "ARES",
+              "key": "ares2024",
+              "bibliography": {
+                "bibitem_label": "{Saad-Falcon et~al.(2024)Saad-Falcon, Khattab, Potts, and\n  Zaharia}",
+                "entry": "Jon Saad-Falcon, Omar Khattab, Christopher Potts, and Matei Zaharia. 2024.\n\\newblock Ares: An automated evaluation framework for retrieval-augmented\n  generation systems.\n\\newblock In \\emph{Proceedings of the 2024 Conference of the North American\n  Chapter of the Association for Computational Linguistics: Human Language\n  Technologies (Volume 1: Long Papers)}, pages 338--354."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Adversarial\\\\setting",
+      "label": "sec:adversarial",
+      "color": "rrmapAt",
+      "hex": "A15E55",
+      "section": "adversarial",
+      "rows": [
+        {
+          "title": "Poisoning & backdoors",
+          "subsection": "Corpus Poisoning: From Retrieval to Answer Steering",
+          "anchor": "sec:map11-adversarial-0",
+          "works": [
+            {
+              "alias": "Retrieval poisoning",
+              "key": "poisoningRetrievalCorpora2023",
+              "bibliography": {
+                "bibitem_label": "{Zhong et~al.(2023)Zhong, Huang, Wettig, and\n  Chen}",
+                "entry": "Zexuan Zhong, Ziqing Huang, Alexander Wettig, and Danqi Chen. 2023.\n\\newblock Poisoning retrieval corpora by injecting adversarial passages."
+              }
+            },
+            {
+              "alias": "PoisonedRAG",
+              "key": "poisonedRAG2024",
+              "bibliography": {
+                "bibitem_label": "{Zou et~al.(2025)Zou, Geng, Wang, and Jia}",
+                "entry": "Wei Zou, Runpeng Geng, Binghui Wang, and Jinyuan Jia. 2025.\n\\newblock {PoisonedRAG}: Knowledge corruption attacks to {Retrieval-Augmented}\n  generation of large language models.\n\\newblock In \\emph{34th USENIX Security Symposium (USENIX Security 25)}, pages\n  3827--3844.\n\n\\end{thebibliography}"
+              }
+            },
+            {
+              "alias": "BadRAG",
+              "key": "badRAG2024",
+              "bibliography": {
+                "bibitem_label": "{Xue et~al.(2024)Xue, Zheng, Hu, Liu, Chen, and Lou}",
+                "entry": "Jiaqi Xue, Mengxin Zheng, Yebowen Hu, Fei Liu, Xun Chen, and Qian Lou. 2024.\n\\newblock \\href {https://arxiv.org/abs/2406.00083} {Badrag: Identifying\n  vulnerabilities in retrieval augmented generation of large language models}.\n\\newblock \\emph{Preprint}, arXiv:2406.00083."
+              }
+            },
+            {
+              "alias": "TrojanRAG",
+              "key": "trojanRAG2024",
+              "bibliography": {
+                "bibitem_label": "{Cheng et~al.(2024{\\natexlab{a}})Cheng, Ding, Ju, Wu, Du, Yi, Zhang,\n  and Liu}",
+                "entry": "Pengzhou Cheng, Yidong Ding, Tianjie Ju, Zongru Wu, Wei Du, Ping Yi, Zhuosheng\n  Zhang, and Gongshen Liu. 2024.\n\\newblock Trojanrag: Retrieval-augmented generation can be backdoor driver in\n  large language models."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Attack generalization",
+          "subsection": "Attack Generalisation, Budgets, and Transfer",
+          "anchor": "sec:map11-adversarial-1",
+          "works": [
+            {
+              "alias": "LIAR",
+              "key": "rrag035",
+              "bibliography": {
+                "bibitem_label": "{Tan et~al.(2024{\\natexlab{c}})Tan, Zhao, Moraffah, Li, Wang, Li,\n  Chen, and Liu}",
+                "entry": "Zhen Tan, Chengshuai Zhao, Raha Moraffah, Yifan Li, Song Wang, Jundong Li,\n  Tianlong Chen, and Huan Liu. 2024.\n\\newblock Glue pizza and eat rocks-exploiting vulnerabilities in\n  retrieval-augmented generative models.\n\\newblock In \\emph{Proceedings of the 2024 Conference on Empirical Methods in\n  Natural Language Processing}, pages 1610--1626."
+              }
+            },
+            {
+              "alias": "MIRAGE",
+              "key": "rrag028",
+              "bibliography": {
+                "bibitem_label": "{Chen et~al.(2025{\\natexlab{f}})Chen, He, Wang, Shao, Zheng, Liu, Li,\n  Qin, Chen, Chu et~al.}",
+                "entry": "Tailun Chen, Yu~He, Yan Wang, Shuo Shao, Haolun Zheng, Zhihao Liu, Jinfeng Li,\n  Zhizhen Qin, Yuefeng Chen, Zhixuan Chu, and 1 others. 2025{\\natexlab{b}}.\n\\newblock Mirage: Misleading retrieval-augmented generation via black-box and\n  query-agnostic poisoning attacks."
+              }
+            },
+            {
+              "alias": "CorruptRAG",
+              "key": "rrag057",
+              "bibliography": {
+                "bibitem_label": "{Zhang et~al.(2026{\\natexlab{a}})Zhang, Chen, Liu, Nie, Li, Liu, and\n  Fang}",
+                "entry": "Baolei Zhang, Yuxi Chen, Zhuqing Liu, Lihai Nie, Tong Li, Zheli Liu, and\n  Minghong Fang. 2026.\n\\newblock Practical poisoning attacks against retrieval-augmented generation.\n\\newblock In \\emph{Proceedings of the 31st ACM Symposium on Access Control\n  Models and Technologies}, pages 33--44."
+              }
+            },
+            {
+              "alias": "Joint-GCG",
+              "key": "rrag050",
+              "bibliography": {
+                "bibitem_label": "{Wang et~al.(2026{\\natexlab{a}})Wang, Zhang, Wang, Li, Huang, Wang,\n  and Wang}",
+                "entry": "Haowei Wang, Rupeng Zhang, Junjie Wang, Mingyang Li, Yuekai Huang, Dandan Wang,\n  and Qing Wang. 2026.\n\\newblock Joint-gcg: Unified gradient-based poisoning attacks on\n  retrieval-augmented generation systems."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Injection & persistence",
+          "subsection": "Indirect Prompt Injection and Data Leakage",
+          "anchor": "sec:map11-adversarial-2",
+          "works": [
+            {
+              "alias": "AIP",
+              "key": "aip2025",
+              "bibliography": {
+                "bibitem_label": "{Chaturvedi et~al.(2025)Chaturvedi, Bagwe, Zhang, and Yuan}",
+                "entry": "Saket~Sanjeev Chaturvedi, Gaurav Bagwe, Lan~Emily Zhang, and Xiaoyong Yuan.\n  2025.\n\\newblock Aip: Subverting retrieval-augmented generation via adversarial\n  instructional prompt."
+              }
+            },
+            {
+              "alias": "AgentPoison",
+              "key": "rrag053",
+              "bibliography": {
+                "bibitem_label": "{Chen et~al.(2024{\\natexlab{f}})Chen, Xiang, Xiao, Song, and\n  Li}",
+                "entry": "Zhaorun Chen, Zhen Xiang, Chaowei Xiao, Dawn Song, and Bo~Li.\n  2024{\\natexlab{d}}.\n\\newblock Agentpoison: Red-teaming llm agents via poisoning memory or knowledge\n  bases.\n\\newblock In \\emph{Advances in Neural Information Processing Systems},\n  volume~37, pages 130185--130213."
+              }
+            },
+            {
+              "alias": "AdversarialCoT",
+              "key": "rrag010",
+              "bibliography": {
+                "bibitem_label": "{Song et~al.(2026{\\natexlab{a}})Song, Liu, Zhang, Guo, de~Rijke, Fan,\n  and Cheng}",
+                "entry": "Hongru Song, Yu-An Liu, Ruqing Zhang, Jiafeng Guo, Maarten de~Rijke, Yixing\n  Fan, and Xueqi Cheng. 2026.\n\\newblock Adversarialcot: Single-document retrieval poisoning for llm\n  reasoning."
+              }
+            },
+            {
+              "alias": "Spill the Beans",
+              "key": "venue200SpillBeans",
+              "bibliography": {
+                "bibitem_label": "{Qi et~al.(2025)Qi, Zhang, Xing, Kakade, and\n  Lakkaraju}",
+                "entry": "Zhenting Qi, Hanlin Zhang, Eric~P Xing, Sham Kakade, and Hima Lakkaraju. 2025.\n\\newblock Follow my instruction and spill the beans: Scalable data extraction\n  from retrieval-augmented generation systems.\n\\newblock In \\emph{International Conference on Learning Representations},\n  volume 2025, pages 48733--48755."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Detection & filtering",
+          "subsection": "Defence Families and Their Assumptions",
+          "anchor": "sec:map11-adversarial-3",
+          "works": [
+            {
+              "alias": "CleanBase",
+              "key": "rrag009",
+              "bibliography": {
+                "bibitem_label": "{Jin et~al.(2026)Jin, Wang, Zou, Jia, and Gong}",
+                "entry": "Weifei Jin, Xilong Wang, Wei Zou, Jinyuan Jia, and Neil Gong. 2026.\n\\newblock Cleanbase: Detecting malicious documents in rag knowledge databases."
+              }
+            },
+            {
+              "alias": "ProGRank",
+              "key": "rrag004",
+              "bibliography": {
+                "bibitem_label": "{Yin et~al.(2026)Yin, Qi, and Cheng}",
+                "entry": "Xiangyu Yin, Yi~Qi, and Chih-Hong Cheng. 2026.\n\\newblock Progrank: Probe-gradient reranking to defend dense-retriever rag from\n  corpus poisoning."
+              }
+            },
+            {
+              "alias": "SeCon-RAG",
+              "key": "rrag017",
+              "bibliography": {
+                "bibitem_label": "{Si et~al.(2026)Si, Zhu, Qin, Yu, Zhang, Liu, Li, Duan, Liu, and\n  Jia}",
+                "entry": "Xiaonan Si, Meilin Zhu, Simeng Qin, Lijia Yu, Lijun Zhang, Shuaitong Liu,\n  Xinfeng Li, Ranjie Duan, Yang Liu, and Xiaojun Jia. 2026.\n\\newblock Secon-rag: A two-stage semantic filtering and conflict-free framework\n  for trustworthy rag.\n\\newblock In \\emph{Advances in Neural Information Processing Systems},\n  volume~38, pages 70652--70681."
+              }
+            },
+            {
+              "alias": "TrustRAG",
+              "key": "rrag013",
+              "bibliography": {
+                "bibitem_label": "{Zhou et~al.(2025{\\natexlab{a}})Zhou, Lee, Zhan, Chen, Li, Wang,\n  Haddadi, and Yilmaz}",
+                "entry": "Huichi Zhou, Kin-Hei Lee, Zhonghao Zhan, Yue Chen, Zhenhao Li, Zhaoyang Wang,\n  Hamed Haddadi, and Emine Yilmaz. 2025.\n\\newblock Trustrag: Enhancing robustness and trustworthiness in\n  retrieval-augmented generation."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Isolation & traceback",
+          "subsection": "Defence Families and Their Assumptions",
+          "anchor": "sec:map11-adversarial-4",
+          "works": [
+            {
+              "alias": "SDAG",
+              "key": "rrag011",
+              "bibliography": {
+                "bibitem_label": "{Dekel et~al.(2026)Dekel, Tennenholtz, and Kurland}",
+                "entry": "Sagie Dekel, Moshe Tennenholtz, and Oren Kurland. 2026.\n\\newblock Addressing corpus knowledge poisoning attacks on rag using sparse\n  attention."
+              }
+            },
+            {
+              "alias": "RobustRAG",
+              "key": "certifiedRAG2024",
+              "bibliography": {
+                "bibitem_label": "{Xiang et~al.(2024)Xiang, Wu, Zhong, Wagner, Chen, and\n  Mittal}",
+                "entry": "Chong Xiang, Tong Wu, Zexuan Zhong, David Wagner, Danqi Chen, and Prateek\n  Mittal. 2024.\n\\newblock Certifiably robust rag against retrieval corruption."
+              }
+            },
+            {
+              "alias": "Traceback",
+              "key": "rrag128",
+              "bibliography": {
+                "bibitem_label": "{Zhang et~al.(2025{\\natexlab{b}})Zhang, Xin, Fang, Liu, Yi, Li, and\n  Liu}",
+                "entry": "Baolei Zhang, Haoran Xin, Minghong Fang, Zhuqing Liu, Biao Yi, Tong Li, and\n  Zheli Liu. 2025{\\natexlab{a}}.\n\\newblock Traceback of poisoning attacks to retrieval-augmented generation."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "family": "Adaptive\\\\control",
+      "label": "sec:system",
+      "color": "rrmapCt",
+      "hex": "667F56",
+      "section": "system",
+      "rows": [
+        {
+          "title": "Retrieve & correct",
+          "subsection": "Adaptive and Corrective Retrieval",
+          "anchor": "sec:map11-system-0",
+          "works": [
+            {
+              "alias": "Self-RAG",
+              "key": "selfRAG2023",
+              "bibliography": {
+                "bibitem_label": "{Asai et~al.(2024)Asai, Wu, Wang, Sil, and Hajishirzi}",
+                "entry": "Akari Asai, Zeqiu Wu, Yizhong Wang, Avi Sil, and Hannaneh Hajishirzi. 2024.\n\\newblock Self-rag: Learning to retrieve, generate, and critique through\n  self-reflection.\n\\newblock In \\emph{International conference on learning representations},\n  volume 2024, pages 9112--9141."
+              }
+            },
+            {
+              "alias": "CRAG",
+              "key": "crag2024",
+              "bibliography": {
+                "bibitem_label": "{Yan et~al.(2024)Yan, Gu, Zhu, and Ling}",
+                "entry": "Shi-Qi Yan, Jia-Chen Gu, Yun Zhu, and Zhen-Hua Ling. 2024.\n\\newblock Corrective retrieval augmented generation."
+              }
+            },
+            {
+              "alias": "CtrlA",
+              "key": "ctrla2025",
+              "bibliography": {
+                "bibitem_label": "{Huanshuo et~al.(2025)Huanshuo, Zhang, Guo, Wang, Dong, Li, Lee,\n  Zhang, and Liu}",
+                "entry": "Liu Huanshuo, Hao Zhang, Zhijiang Guo, Jing Wang, Kuicai Dong, Xiangyang Li,\n  Yi~Quan Lee, Cong Zhang, and Yong Liu. 2025.\n\\newblock Ctrla: Adaptive retrieval-augmented generation via inherent control.\n\\newblock In \\emph{Findings of the Association for Computational Linguistics:\n  ACL 2025}, pages 12592--12618."
+              }
+            },
+            {
+              "alias": "When to Retrieve",
+              "key": "whenToRetrieve2024",
+              "bibliography": {
+                "bibitem_label": "{Labruna et~al.(2025)Labruna, Campos, and Azkune}",
+                "entry": "Tiziano Labruna, Jon~Ander Campos, and Gorka Azkune. 2025.\n\\newblock When to retrieve: Teaching llms to utilize information retrieval\n  effectively."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Sufficiency & answerability",
+          "subsection": "Evidence Sufficiency and Answerability",
+          "anchor": "sec:map11-system-1",
+          "works": [
+            {
+              "alias": "Sufficient Context",
+              "key": "sufficientContext2024",
+              "bibliography": {
+                "bibitem_label": "{Joren et~al.(2025)Joren, Zhang, Ferng, Juan, Taly, and\n  Rashtchian}",
+                "entry": "Hailey Joren, Jianyi Zhang, Chun-Sung Ferng, Da-Cheng Juan, Ankur Taly, and\n  Cyrus Rashtchian. 2025.\n\\newblock Sufficient context: A new lens on retrieval augmented generation\n  systems.\n\\newblock In \\emph{International Conference on Learning Representations},\n  volume 2025, pages 20310--20334."
+              }
+            },
+            {
+              "alias": "MTRAG-UN",
+              "key": "rrag141",
+              "bibliography": {
+                "bibitem_label": "{Rosenthal et~al.(2026)Rosenthal, Katsis, Shah, He, Popa, and\n  Danilevsky}",
+                "entry": "Sara Rosenthal, Yannis Katsis, Vraj Shah, Lihong He, Lucian Popa, and Marina\n  Danilevsky. 2026.\n\\newblock Mtrag-un: A benchmark for open challenges in multi-turn rag\n  conversations.\n\\newblock In \\emph{Findings of the Association for Computational Linguistics:\n  ACL 2026}, pages 10363--10369."
+              }
+            },
+            {
+              "alias": "CRUMQs",
+              "key": "rrag193",
+              "bibliography": {
+                "bibitem_label": "{Liu et~al.(2026{\\natexlab{a}})Liu, Li, Cohan, Walden, and\n  Yang}",
+                "entry": "Gabrielle Kaili-May Liu, Bryan Li, Arman Cohan, William~Gantt Walden, and\n  Eugene Yang. 2026{\\natexlab{a}}.\n\\newblock Investigating retrieval-augmented generation systems on unanswerable,\n  uncheatable, realistic, multi-hop queries."
+              }
+            },
+            {
+              "alias": "Unanswerability eval.",
+              "key": "rrag111",
+              "bibliography": {
+                "bibitem_label": "{Peng et~al.(2025)Peng, Choubey, Xiong, and Wu}",
+                "entry": "Xiangyu Peng, Prafulla~Kumar Choubey, Caiming Xiong, and Chien-Sheng Wu. 2025.\n\\newblock Unanswerability evaluation for retrieval augmented generation.\n\\newblock In \\emph{Proceedings of the 63rd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 8452--8472."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Uncertainty & calibration",
+          "subsection": "Uncertainty, Calibration, and Selective Answering",
+          "anchor": "sec:map11-system-2",
+          "works": [
+            {
+              "alias": "CalibRAG",
+              "key": "calibRAG2025",
+              "bibliography": {
+                "bibitem_label": "{Jang et~al.(2026)Jang, Cho, Lee, Lee, and Lee}",
+                "entry": "Chaeyun Jang, Deukhwan Cho, Seanie Lee, Hyungi Lee, and Juho Lee. 2026.\n\\newblock Reliable decision-making via calibration-oriented retrieval-augmented\n  generation.\n\\newblock In \\emph{Advances in Neural Information Processing Systems},\n  volume~38, pages 84605--84640."
+              }
+            },
+            {
+              "alias": "UncertaintyRAG",
+              "key": "uncertaintyRAG2024",
+              "bibliography": {
+                "bibitem_label": "{Li et~al.(2024{\\natexlab{e}})Li, Xiong, Ye, Zheng, Wu, Lu, Wan,\n  Liang, Li, Sun et~al.}",
+                "entry": "Zixuan Li, Jing Xiong, Fanghua Ye, Chuanyang Zheng, Xun Wu, Jianqiao Lu,\n  Zhongwei Wan, Xiaodan Liang, Chengming Li, Zhenan Sun, and 1 others. 2024.\n\\newblock Uncertaintyrag: Span-level uncertainty enhanced long-context modeling\n  for retrieval-augmented generation."
+              }
+            },
+            {
+              "alias": "URAG",
+              "key": "rrag001",
+              "bibliography": {
+                "bibitem_label": "{Nguyen et~al.(2026)Nguyen, Dang, Zhang, Tran, Tran, Chau, Le, Cheng,\n  and Wang}",
+                "entry": "Vinh Nguyen, Cuong Dang, Jiahao Zhang, Hoa Tran, Minh Tran, Trinh Chau, Thai\n  Le, Lu~Cheng, and Suhang Wang. 2026.\n\\newblock Urag: A benchmark for uncertainty quantification in\n  retrieval-augmented large language models."
+              }
+            },
+            {
+              "alias": "Noise-aware calib.",
+              "key": "rrag007",
+              "bibliography": {
+                "bibitem_label": "{Liu et~al.(2026{\\natexlab{d}})Liu, Wang, Zong, Zeng, Zheng, Shi, Guo,\n  Xu, Li, and Song}",
+                "entry": "Jiayu Liu, Rui Wang, Qing Zong, Qingcheng Zeng, Tianshi Zheng, Haochen Shi,\n  Dadi Guo, Baixuan Xu, Chunyang Li, and Yangqiu Song. 2026{\\natexlab{b}}.\n\\newblock Noise-aware verbal confidence calibration for robust large language\n  models in rag systems."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Select, trust or defer",
+          "subsection": "Joint Source Selection and Selective Verification",
+          "anchor": "sec:map11-system-3",
+          "works": [
+            {
+              "alias": "SABER",
+              "key": "rrag002",
+              "bibliography": {
+                "bibitem_label": "{Zhu et~al.(2026)Zhu, Wang, Mei, Xu, Guo, Yang, Fan, and\n  Metaxas}",
+                "entry": "Xi~Zhu, Ziqi Wang, Kai Mei, Wujiang Xu, Minghao Guo, Bangji Yang, Jiajun Fan,\n  and Dimitris~N Metaxas. 2026.\n\\newblock Trust or abstain? a self-aware rag approach."
+              }
+            },
+            {
+              "alias": "BRIDGE",
+              "key": "rrag092",
+              "bibliography": {
+                "bibitem_label": "{Dai et~al.(2025{\\natexlab{b}})Dai, Hu, Hua, Li, Chen, Jin, Hu, and\n  Qi}",
+                "entry": "Xinbang Dai, Huikang Hu, Yuncheng Hua, Jiaqi Li, Yongrui Chen, Rihui Jin, Nan\n  Hu, and Guilin Qi. 2025.\n\\newblock After retrieval, before generation: Enhancing the trustworthiness of\n  large language models in rag."
+              }
+            },
+            {
+              "alias": "SURE-RAG",
+              "key": "rrag093",
+              "bibliography": {
+                "bibitem_label": "{Qiu et~al.(2026)Qiu, Han, and Huang}",
+                "entry": "Jingxi Qiu, Zeyu Han, and Cheng Huang. 2026.\n\\newblock Sure-rag: Sufficiency and uncertainty-aware evidence verification for\n  selective retrieval-augmented generation."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Verification & interaction",
+          "subsection": "Verification, Interaction, and Cost",
+          "anchor": "sec:map11-system-4",
+          "works": [
+            {
+              "alias": "MAIN-RAG",
+              "key": "mainRAG2025",
+              "bibliography": {
+                "bibitem_label": "{Chang et~al.(2025{\\natexlab{a}})Chang, Jiang, Rakesh, Pan, Yeh, Wang,\n  Hu, Xu, Zheng, Das et~al.}",
+                "entry": "Chia-Yuan Chang, Zhimeng Jiang, Vineeth Rakesh, Menghai Pan, Chin-Chia~Michael\n  Yeh, Guanchu Wang, Mingzhi Hu, Zhichao Xu, Yan Zheng, Mahashweta Das, and 1\n  others. 2025.\n\\newblock Main-rag: Multi-agent filtering retrieval-augmented generation.\n\\newblock In \\emph{Proceedings of the 63rd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 2607--2622."
+              }
+            },
+            {
+              "alias": "MADAM-RAG",
+              "key": "madamRAG2025",
+              "bibliography": {
+                "bibitem_label": "{Wang et~al.(2025{\\natexlab{c}})Wang, Prasad, Stengel-Eskin, and\n  Bansal}",
+                "entry": "Han Wang, Archiki Prasad, Elias Stengel-Eskin, and Mohit Bansal.\n  2025{\\natexlab{c}}.\n\\newblock Retrieval-augmented generation with conflicting evidence."
+              }
+            },
+            {
+              "alias": "DRAG",
+              "key": "drag2025",
+              "bibliography": {
+                "bibitem_label": "{Hu et~al.(2025)Hu, Zhang, Jiang, Zhang, Wei, and Qing}",
+                "entry": "Wentao Hu, Wengyu Zhang, Yiyang Jiang, Chen~Jason Zhang, Xiaoyong Wei, and\n  Li~Qing. 2025.\n\\newblock Removal of hallucination on hallucination: Debate-augmented rag.\n\\newblock In \\emph{Proceedings of the 63rd Annual Meeting of the Association\n  for Computational Linguistics (Volume 1: Long Papers)}, pages 15839--15853."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "distinct_papers": 76,
+  "strands": 20,
+  "old_papers": 21,
+  "retained_old_keys": [
+    "rrag226",
+    "rrag131",
+    "liu2024lostmiddle",
+    "sourceReliabilityRAG2025",
+    "rrag115",
+    "raat2024",
+    "rrag042",
+    "astuteRAG2025",
+    "alce2023",
+    "ragTruth2024",
+    "poisonedRAG2024",
+    "rrag053",
+    "rrag013",
+    "certifiedRAG2024",
+    "rrag128",
+    "selfRAG2023",
+    "crag2024",
+    "sufficientContext2024",
+    "rrag093",
+    "rrag002",
+    "rrag092"
+  ],
+  "newly_added_keys": [
+    "aip2025",
+    "ares2024",
+    "badRAG2024",
+    "calibRAG2025",
+    "chainOfNote2023",
+    "conflictBank2024",
+    "ctrla2025",
+    "cuconasu2024powerofnoise",
+    "drag2025",
+    "faithfulRAG2025",
+    "freshllms2024",
+    "irrelevantContext2023",
+    "kilt2021",
+    "madamRAG2025",
+    "mainRAG2025",
+    "poisoningRetrievalCorpora2023",
+    "queryRobustness2025",
+    "ragBestPractices2024",
+    "ragas2024",
+    "realtimeQA2023",
+    "rgb2023",
+    "rrag001",
+    "rrag004",
+    "rrag007",
+    "rrag008",
+    "rrag009",
+    "rrag010",
+    "rrag011",
+    "rrag017",
+    "rrag024",
+    "rrag028",
+    "rrag029",
+    "rrag035",
+    "rrag037",
+    "rrag039",
+    "rrag043",
+    "rrag044",
+    "rrag050",
+    "rrag057",
+    "rrag058",
+    "rrag073",
+    "rrag088",
+    "rrag110",
+    "rrag111",
+    "rrag132",
+    "rrag141",
+    "rrag143",
+    "rrag193",
+    "rrag206",
+    "rrag214",
+    "trojanRAG2024",
+    "tugOfWar2024",
+    "uncertaintyRAG2024",
+    "venue200SpillBeans",
+    "whenToRetrieve2024"
+  ],
+  "all_already_cited_in_respective_body_section": true,
+  "note": "Short descriptive labels are used where a paper has no established method acronym; study/resource papers are not claimed to be interventions."
+}

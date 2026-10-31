@@ -749,7 +749,7 @@ def write_table(path: Path, per_survey: dict, pool) -> None:
         "\\bottomrule",
         "\\end{tabular}}",
         "\\caption{Coverage of the six prior surveys' reference lists against our "
-        "frame, the reviewer's requested recall-against-a-known-list check. "
+        "frame, a recall-against-a-known-list check. "
         "\\emph{Refs} is the bibliography Semantic Scholar resolves for each "
         "survey; \\emph{In-sc.}\\ keeps titles naming both a retrieval and a "
         "robustness concept (keyword lists released in "

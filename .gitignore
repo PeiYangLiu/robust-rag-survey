@@ -118,3 +118,6 @@ REVIEW_EACL2027_20260615.md
 references/exemplars/*.pdf
 manuscript/SUBMISSION_METADATA.md
 manuscript/ARR_CHECKLIST.md
+
+# Local Overleaf revision transaction workspace (paper sources excluded from git)
+/revision_survey_20261026/

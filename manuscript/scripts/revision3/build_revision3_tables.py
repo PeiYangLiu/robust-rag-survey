@@ -271,8 +271,8 @@ Pooled & both & {f(sg.get('sigma_r_pooled'))} & {ci(sg.get('sigma_r_pooled_ci95'
 {body}
 \bottomrule
 \end{{tabular}}
-\caption{{Widening the reviewer pool. The submitted version estimated
-$\sigma_r$ from six API-served judges, giving an interval spanning a factor of
+\caption{{Widening the reviewer pool. Estimating
+$\sigma_r$ from the six API-served judges alone gives an interval spanning a factor of
 four. Adding {i(d.get('n_open_judges'))} open-weight checkpoints, run under
 greedy decoding in one harness on byte-identical prompts, brings the pool to
 {i(sg.get('n_judges_total'))} and the interval to a factor of
@@ -341,7 +341,7 @@ counts windows with a quote-verified majority; those without one are reported,
 not dropped. ``Base'' is the majority-class rate. The last column removes the one
 adjudicator sharing a checkpoint with the deployed panel. Measured sensitivity
 {sens} and specificity {spec} for the transported class make the composition
-correction non-trivial, unlike the identity map the submitted version used: it
+correction non-trivial rather than an identity map: applying it
 moves the re-implemented share to {share}. This is not human gold.}}
 \label{{tab:privileged-reference}}
 \end{{table*}}
@@ -443,14 +443,14 @@ $\Delta$ (composed $-$ stated) & & {f(cr.get('kappa_composed_minus_stated'), sig
 {q_rows}
 \bottomrule
 \end{{tabular}}}}
-\caption{{Two diagnostics the submitted version did not run, both over data it
-had already released. \emph{{Top:}} the decision rule of \S\ref{{sec:estimands}}
+\caption{{Two forensic diagnostics over the released census data.
+\emph{{Top:}} the decision rule of \S\ref{{sec:estimands}}
 composed mechanically from each judge's own coordinate labels, beside the
 verdict that judge stated. Composing the rule does not make the panel
 reproducible, so the census failure is not the panel failing to execute its
 instrument. \emph{{Bottom:}} every evidence quote classified against the passage
-its author was shown. The submitted version reported a single located rate,
-which pools an extraction artefact with a fabrication; separating them shows
+its author was shown. A single pooled located rate would conflate an extraction
+artefact with a fabrication; separating them shows
 {f(qf.get('share_supported_by_shown_passage'), 3)} of non-empty quotes are
 supported by the passage shown and
 {f(qf.get('share_absent_from_source_document'), 3)} are absent from the source

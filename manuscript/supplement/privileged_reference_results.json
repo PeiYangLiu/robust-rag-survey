@@ -2,7 +2,7 @@
   "composition_bias_correction": {
     "corrected_frame_share_reimplemented": 0.8807051782461619,
     "corrected_frame_share_transported": 0.11929482175383814,
-    "note": "The submitted version corrected the composition with a confusion matrix estimated on a constructed benchmark where every judge was perfect, so the matrix was the identity and the correction returned its input. This correction uses the confusion measured on real windows against the privileged reference, which is not the identity.",
+    "note": "Correcting the composition with a confusion matrix estimated on a constructed benchmark where every judge was perfect would make the matrix the identity, so the correction would return its input. This correction uses the confusion measured on real windows against the privileged reference, which is not the identity.",
     "observed_frame_share_transported": 0.12622950819672132,
     "sensitivity_transported": 1.0,
     "specificity_transported": 0.9921259842519685

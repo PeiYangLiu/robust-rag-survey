@@ -1,0 +1,77 @@
+perspective,strand,short_name,bib_key,prior_figure,already_in_corresponding_body
+evidence,Noise & distraction,Irrelevant context,irrelevantContext2023,False,True
+evidence,Noise & distraction,RGB,rgb2023,False,True
+evidence,Noise & distraction,Power of Noise,cuconasu2024powerofnoise,False,True
+evidence,Noise & distraction,Robust RALMs,rrag037,False,True
+evidence,Filtering & compression,FILCO,rrag044,False,True
+evidence,Filtering & compression,RECOMP,rrag226,True,True
+evidence,Filtering & compression,Discern-and-Answer,rrag043,False,True
+evidence,Filtering & compression,UDCG,rrag058,False,True
+evidence,Budget & order,LDAR,rrag131,True,True
+evidence,Budget & order,Lost in the Middle,liu2024lostmiddle,True,True
+evidence,Budget & order,Lost in the Evidence,rrag143,False,True
+evidence,Budget & order,Long-context RAG,rrag039,False,True
+evidence,Query & pipeline,Query robustness,queryRobustness2025,False,True
+evidence,Query & pipeline,RAG best practices,ragBestPractices2024,False,True
+evidence,Query & pipeline,Denoising-first IR,rrag073,False,True
+evidence,Provenance & time,RA-RAG,sourceReliabilityRAG2025,True,True
+evidence,Provenance & time,KILT,kilt2021,False,True
+evidence,Provenance & time,FreshLLMs,freshllms2024,False,True
+evidence,Provenance & time,RealTime QA,realtimeQA2023,False,True
+model,Learning under noise,RAFT,rrag115,True,True
+model,Learning under noise,RAAT,raat2024,True,True
+model,Learning under noise,Chain-of-Note,chainOfNote2023,False,True
+model,Learning under noise,Context-DPO,rrag042,True,True
+model,Memory--context conflict,Tug-of-War,tugOfWar2024,False,True
+model,Memory--context conflict,FaithfulRAG,faithfulRAG2025,False,True
+model,Memory--context conflict,Astute RAG,astuteRAG2025,True,True
+model,Memory--context conflict,CoReCt,rrag008,False,True
+model,Source conflicts,ConflictBank,conflictBank2024,False,True
+model,Source conflicts,MAGIC,rrag029,False,True
+model,Source conflicts,Whose Facts Win?,rrag132,False,True
+model,Source conflicts,Who’s Who,rrag110,False,True
+model,Internal integration,ParamMute,rrag024,False,True
+model,Internal integration,Parenting,rrag214,False,True
+model,Internal integration,Latent probing,rrag088,False,True
+model,Internal integration,Dual-stream knowledge,rrag206,False,True
+model,Grounding & evaluation,ALCE,alce2023,True,True
+model,Grounding & evaluation,RAGTruth,ragTruth2024,True,True
+model,Grounding & evaluation,RAGAS,ragas2024,False,True
+model,Grounding & evaluation,ARES,ares2024,False,True
+adversarial,Poisoning & backdoors,Retrieval poisoning,poisoningRetrievalCorpora2023,False,True
+adversarial,Poisoning & backdoors,PoisonedRAG,poisonedRAG2024,True,True
+adversarial,Poisoning & backdoors,BadRAG,badRAG2024,False,True
+adversarial,Poisoning & backdoors,TrojanRAG,trojanRAG2024,False,True
+adversarial,Attack generalisation,LIAR,rrag035,False,True
+adversarial,Attack generalisation,MIRAGE,rrag028,False,True
+adversarial,Attack generalisation,CorruptRAG,rrag057,False,True
+adversarial,Attack generalisation,Joint-GCG,rrag050,False,True
+adversarial,Injection & persistence,AIP,aip2025,False,True
+adversarial,Injection & persistence,AgentPoison,rrag053,True,True
+adversarial,Injection & persistence,AdversarialCoT,rrag010,False,True
+adversarial,Injection & persistence,Spill the Beans,venue200SpillBeans,False,True
+adversarial,Detection & filtering,CleanBase,rrag009,False,True
+adversarial,Detection & filtering,ProGRank,rrag004,False,True
+adversarial,Detection & filtering,SeCon-RAG,rrag017,False,True
+adversarial,Detection & filtering,TrustRAG,rrag013,True,True
+adversarial,Isolation & traceback,SDAG,rrag011,False,True
+adversarial,Isolation & traceback,RobustRAG,certifiedRAG2024,True,True
+adversarial,Isolation & traceback,Traceback,rrag128,True,True
+system,Retrieve & correct,Self-RAG,selfRAG2023,True,True
+system,Retrieve & correct,CRAG,crag2024,True,True
+system,Retrieve & correct,CtrlA,ctrla2025,False,True
+system,Retrieve & correct,When to Retrieve,whenToRetrieve2024,False,True
+system,Sufficiency & answerability,Sufficient Context,sufficientContext2024,True,True
+system,Sufficiency & answerability,MTRAG-UN,rrag141,False,True
+system,Sufficiency & answerability,CRUMQs,rrag193,False,True
+system,Sufficiency & answerability,Unanswerability eval.,rrag111,False,True
+system,Uncertainty & calibration,CalibRAG,calibRAG2025,False,True
+system,Uncertainty & calibration,UncertaintyRAG,uncertaintyRAG2024,False,True
+system,Uncertainty & calibration,URAG,rrag001,False,True
+system,Uncertainty & calibration,Noise-aware calib.,rrag007,False,True
+system,"Select, trust or defer",SABER,rrag002,True,True
+system,"Select, trust or defer",BRIDGE,rrag092,True,True
+system,"Select, trust or defer",SURE-RAG,rrag093,True,True
+system,Verification & interaction,MAIN-RAG,mainRAG2025,False,True
+system,Verification & interaction,MADAM-RAG,madamRAG2025,False,True
+system,Verification & interaction,DRAG,drag2025,False,True

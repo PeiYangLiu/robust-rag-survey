@@ -217,6 +217,6 @@
     ],
     "n_coded_by_all_provenance_judges": 687
   },
-  "question": "Reviewer Q7: sensitivity of the 87.4% re-implementation share to the LLM eligibility gate (eligibility Fleiss kappa ~= 0.51).",
+  "question": "Sensitivity of the 87.4% re-implementation share to the LLM eligibility gate (eligibility Fleiss kappa ~= 0.51).",
   "schema_version": "provenance-gate-sensitivity-v1"
 }

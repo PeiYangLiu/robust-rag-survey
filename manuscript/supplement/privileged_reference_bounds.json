@@ -233,7 +233,7 @@
         "best_case_accuracy": 0.9106145251396648,
         "denominator": 179,
         "n_extra_beyond_scored": 9,
-        "note": "the reviewer's implied denominator, scored + every no-reference-majority window (170 + 9 = 179); NOTE only 9 of these 9 no-majority windows carry a deployed verdict, so the count of windows where the deployed panel actually committed is 179, not 179",
+        "note": "all-no-majority denominator, scored + every no-reference-majority window (170 + 9 = 179); NOTE only 9 of these 9 no-majority windows carry a deployed verdict, so the count of windows where the deployed panel actually committed is 179, not 179",
         "worst_case_accuracy": 0.8603351955307262
       }
     },
@@ -245,7 +245,7 @@
       0.9412356411337337
     ]
   },
-  "question": "Reviewer Q6: bounds on deployed-panel accuracy if the excluded no-reference-majority windows are counted, and how those windows differ.",
+  "question": "Bounds on deployed-panel accuracy if the excluded no-reference-majority windows are counted, and how those windows differ.",
   "sample": {
     "n_papers": 63,
     "n_windows": 180
@@ -287,7 +287,7 @@
         "best_case_accuracy": 0.8727272727272727,
         "denominator": 165,
         "n_extra_beyond_scored": 51,
-        "note": "the reviewer's implied denominator, scored + every no-reference-majority window (114 + 51 = 165); NOTE only 45 of these 51 no-majority windows carry a deployed verdict, so the count of windows where the deployed panel actually committed is 159, not 165",
+        "note": "all-no-majority denominator, scored + every no-reference-majority window (114 + 51 = 165); NOTE only 45 of these 51 no-majority windows carry a deployed verdict, so the count of windows where the deployed panel actually committed is 159, not 165",
         "worst_case_accuracy": 0.5636363636363636
       }
     },

@@ -142,7 +142,7 @@
     "share_of_survives_contradicted": 0.17804154302670624
   },
   "frame": {
-    "accounting_note": "The development pass declared 133 candidates. 104 of them are also among the 1690 candidates all three judges returned a parseable coding for, so the held-out set is 1690 - 104 = 1586. The remaining 29 development candidates were not coded by all three judges in the deployed pass, so they never entered the coded set to be removed from it. The submitted version printed 1690, 133 and 1586 without the middle number, which is why they could not be reconciled by a reader.",
+    "accounting_note": "The development pass declared 133 candidates. 104 of them are also among the 1690 candidates all three judges returned a parseable coding for, so the held-out set is 1690 - 104 = 1586. The remaining 29 development candidates were not coded by all three judges in the deployed pass, so they never entered the coded set to be removed from it. Reporting 1690, 133 and 1586 without the middle number would leave them unreconcilable by a reader.",
     "n_coded_by_all_judges": 1690,
     "n_development_pass": 133,
     "n_development_pass_also_coded": 104,

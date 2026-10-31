@@ -121,6 +121,6 @@
   ],
   "n_eligible": 704,
   "near_constant_threshold": 0.85,
-  "reading": "A low kappa is evidence of disagreement only where kappa had room to be high. For the fields listed as prevalence artefacts, the marginals cap kappa near zero regardless of how the judges behave, so the caption must not read their rows as disagreement. The submitted version made this argument for C3 alone; it applies identically wherever the majority-label share is above 0.85.",
+  "reading": "A low kappa is evidence of disagreement only where kappa had room to be high. For the fields listed as prevalence artefacts, the marginals cap kappa near zero regardless of how the judges behave, so the caption must not read their rows as disagreement. The paper states this argument for C3; it applies identically wherever the majority-label share is above 0.85.",
   "schema_version": 1
 }

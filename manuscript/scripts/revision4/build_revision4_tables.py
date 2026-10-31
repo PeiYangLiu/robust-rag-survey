@@ -80,11 +80,12 @@ def build_gate_table(gate: dict) -> str:
         *loo_rows,
         "\\bottomrule",
         "\\end{tabular}",
-        "\\caption{Reviewer Q7: the re-implementation share is stable under the "
+        "\\caption{The re-implementation share is stable under the "
         "eligibility gate. \\emph{Class.}\\ is the number of windows the "
         "provenance panel assigned to re-implemented or transported (its "
         "denominator); \\emph{Share} is re-implemented over that count with a "
-        "Wilson interval. The majority row reproduces the published "
+        "Wilson interval. The majority row is the gate deployed in "
+        "\\S\\ref{sec:applied} and reproduces its "
         f"{g['b_majority']['n_reimplemented']}/{g['b_majority']['n_classified']} "
         f"$=\\,{f3(g['b_majority']['reimplemented_share'])}$ exactly. Tightening the "
         "gate to unanimous or dropping any one coder moves the share by at most "
@@ -163,7 +164,7 @@ def build_bounds_table(b: dict) -> str:
         "Setting & $N$ & Worst & Best \\\\",
         "\\midrule",
         *bd_rows("Verdict", vd),
-        f"\\quad reviewer $114{{+}}51$ & {vd['by_denominator']['reviewer_scored_plus_all_no_majority']['denominator']} & "
+        f"\\quad over all no-majority ($114{{+}}51$) & {vd['by_denominator']['reviewer_scored_plus_all_no_majority']['denominator']} & "
         f"{f2(vd['by_denominator']['reviewer_scored_plus_all_no_majority']['worst_case_accuracy'])} & "
         f"{f2(vd['by_denominator']['reviewer_scored_plus_all_no_majority']['best_case_accuracy'])} \\\\",
         *bd_rows("Provenance", pv),
@@ -177,17 +178,17 @@ def build_bounds_table(b: dict) -> str:
         *char_rows,
         "\\bottomrule",
         "\\end{tabular}",
-        "\\caption{Reviewer Q6: bounds and characterisation for the excluded "
+        "\\caption{Bounds and characterisation for the excluded "
         "privileged-reference windows. \\emph{Top:} the deployed panel is scored "
         f"only where the reference reached a quote-verified majority (verdict "
         f"{vd['n_correct']}/{vd['n_scored']}$=\\,${f2(vd['accuracy'])}, Wilson "
         f"{ci_txt(vd['wilson_ci95'])}; provenance {pv['n_correct']}/{pv['n_scored']}"
         f"$=\\,${f2(pv['accuracy'])}, {ci_txt(pv['wilson_ci95'])}). Worst case counts "
-        "the panel wrong on every folded-in window, best case right. The "
-        "reviewer's $114{+}51{=}165$ denominator overstates the panel's "
-        "committed set: only "
-        f"{vd['accounting']['crosstab']['ref_no_maj_and_deployed_committed']} of the "
-        f"{vd['accounting']['n_reference_no_majority']} no-reference-majority "
+        "the panel wrong on every folded-in window, best case right. Folding "
+        "in all 51 no-majority windows ($114{+}51{=}165$) overstates the "
+        "panel's committed set: only "
+        f"{vd['accounting']['crosstab']['ref_no_maj_and_deployed_committed']} of those "
+        f"{vd['accounting']['n_reference_no_majority']} "
         f"windows carry a deployed verdict, so the deployed-committed total is "
         f"{vd['accounting']['n_deployed_committed']}, not 165. \\emph{{Bottom:}} the "
         "no-majority windows differ from the rest mainly in having fewer "

@@ -77,7 +77,7 @@ PANELS = {
 }
 
 PANEL_LABEL = {
-    "submitted": "Submitted panel (1 mini, 2 front.)",
+    "submitted": "Deployed panel (1 mini, 2 front.)",
     "frontier": "Frontier only, 3 developers",
     "small": "Small tier only, 3 developers",
     "frontier_cross_dev": "Frontier only, 3 dev.\\ $\\times$ 2 checkpoints",

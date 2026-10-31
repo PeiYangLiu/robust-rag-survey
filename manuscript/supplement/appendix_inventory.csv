@@ -30,17 +30,17 @@ tables/operational_pipeline.tex,table,tab:operational-pipeline,hand-written,An o
 tables/main_cross_paper_cases.tex,table,tab:cross-paper-cases,hand-written,Worked cross-paper comparisons.
 tables/ledger_recoding.tex,table,tab:ledger-recoding,hand-written,The ledger holds up on the distinction it is used for and not on the three-way label.
 figures/screening_frame_flow.tex,figure,fig:screening-frame-flow,hand-written,Sampling frame for the census.
-tables/frame_coverage.tex,table,tab:frame-coverage,generated,"Coverage of the six prior surveys' reference lists against our frame, the reviewer's requested recall-against-a-known-list check."
+tables/frame_coverage.tex,table,tab:frame-coverage,generated,"Coverage of the six prior surveys' reference lists against our frame, a recall-against-a-known-list check."
 tables/privileged_reference.tex,table,tab:privileged-reference,generated,"The deployed panel scored on \emph{real} frame windows against a privileged-information reference, whose adjudicators read both papers' full texts rather than a 45-line window and whose every counted vote carries a quote located mechanically in the document that adjudicator was shown."
-tables/privileged_reference_bounds.tex,table,tab:privileged-reference-bounds,generated,Reviewer Q6: bounds and characterisation for the excluded privileged-reference windows.
-tables/census_diagnostics.tex,table,tab:census-diagnostics,generated,"Two diagnostics the submitted version did not run, both over data it had already released."
+tables/privileged_reference_bounds.tex,table,tab:privileged-reference-bounds,generated,Bounds and characterisation for the excluded privileged-reference windows.
+tables/census_diagnostics.tex,table,tab:census-diagnostics,generated,"Two forensic diagnostics over the released census data."
 tables/kappa_ceiling.tex,table,tab:kappa-ceiling,generated,How much room $\kappa$ had.
 tables/disclosure_counterfactual.tex,table,tab:disclosure-counterfactual,generated,The disclosure counterfactual on published text.
 tables/tier_control.tex,table,tab:tier-control,hand-written,"Upgrading the judges helps and does not rescue the verdict, on a population that is identical for every row."
 tables/frontier_pairs.tex,table,tab:frontier-pairs,hand-written,"Every frontier-frontier judge pair, on the common item population, ordered by verdict $\kappa$."
 tables/codebook_ablation.tex,table,tab:codebook-ablation,hand-written,The verdict does not become reliable when the instrument is simplified.
 tables/provenance_validation.tex,table,tab:provenance-validation,hand-written,"The provenance label scored against a reference, not against agreement."
-tables/provenance_gate_sensitivity.tex,table,tab:provenance-gate-sensitivity,generated,Reviewer Q7: the re-implementation share is stable under the eligibility gate.
+tables/provenance_gate_sensitivity.tex,table,tab:provenance-gate-sensitivity,generated,The re-implementation share is stable under the eligibility gate.
 tables/nonllm_instrument.tex,table,tab:nonllm-instrument,generated,A non-LLM instrument on the same task.
 tables/reference_independence.tex,table,tab:reference-independence,generated,Developer-independence of the evidence-privileged reference.
 tables/screen_recall.tex,table,tab:screen-recall,hand-written,What the screen misses.
