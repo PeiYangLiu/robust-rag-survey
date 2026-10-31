@@ -1,0 +1,32 @@
+api,query,years,reported_hit_count,retrieved_top_n,venue_matched_relevant_candidates,query_url,error
+ACL Anthology bib,local scan: title/abstract contains RAG terms and robustness terms,2020-2026,12924,all matching ACL Anthology bib entries,30,https://aclanthology.org/anthology+abstracts.bib.gz,
+DBLP,retrieval augmented generation,2020-2026,2727,200,6,https://dblp.org/search/publ/api?q=retrieval+augmented+generation&format=json&h=200,
+OpenAlex,retrieval augmented generation,2020-2026,111757,200,2,https://api.openalex.org/works?search=retrieval+augmented+generation&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval-augmented generation,2020-2026,2727,200,6,https://dblp.org/search/publ/api?q=retrieval-augmented+generation&format=json&h=200,
+OpenAlex,retrieval-augmented generation,2020-2026,111757,200,2,https://api.openalex.org/works?search=retrieval-augmented+generation&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented language model,2020-2026,,,,,<HTTPError 500: 'Internal Server Error'>
+OpenAlex,retrieval augmented language model,2020-2026,104665,200,2,https://api.openalex.org/works?search=retrieval+augmented+language+model&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented question answering,2020-2026,,,,,<HTTPError 500: 'Internal Server Error'>
+OpenAlex,retrieval augmented question answering,2020-2026,62940,200,0,https://api.openalex.org/works?search=retrieval+augmented+question+answering&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmentation noisy context,2020-2026,,,,,<HTTPError 500: 'Internal Server Error'>
+OpenAlex,retrieval augmentation noisy context,2020-2026,14316,200,0,https://api.openalex.org/works?search=retrieval+augmentation+noisy+context&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,irrelevant context retrieval augmented,2020-2026,2,200,1,https://dblp.org/search/publ/api?q=irrelevant+context+retrieval+augmented&format=json&h=200,
+OpenAlex,irrelevant context retrieval augmented,2020-2026,23415,200,2,https://api.openalex.org/works?search=irrelevant+context+retrieval+augmented&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented knowledge conflict,2020-2026,,,,,<HTTPError 500: 'Internal Server Error'>
+OpenAlex,retrieval augmented knowledge conflict,2020-2026,36461,200,1,https://api.openalex.org/works?search=retrieval+augmented+knowledge+conflict&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented uncertainty,2020-2026,,,,,<HTTPError 500: 'Internal Server Error'>
+OpenAlex,retrieval augmented uncertainty,2020-2026,33918,200,0,https://api.openalex.org/works?search=retrieval+augmented+uncertainty&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented calibration,2020-2026,4,200,2,https://dblp.org/search/publ/api?q=retrieval+augmented+calibration&format=json&h=200,
+OpenAlex,retrieval augmented calibration,2020-2026,16014,200,1,https://api.openalex.org/works?search=retrieval+augmented+calibration&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented abstention,2020-2026,1,200,0,https://dblp.org/search/publ/api?q=retrieval+augmented+abstention&format=json&h=200,
+OpenAlex,retrieval augmented abstention,2020-2026,942,200,1,https://api.openalex.org/works?search=retrieval+augmented+abstention&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented poisoning,2020-2026,43,200,3,https://dblp.org/search/publ/api?q=retrieval+augmented+poisoning&format=json&h=200,
+OpenAlex,retrieval augmented poisoning,2020-2026,3944,200,0,https://api.openalex.org/works?search=retrieval+augmented+poisoning&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval augmented prompt injection,2020-2026,4,200,0,https://dblp.org/search/publ/api?q=retrieval+augmented+prompt+injection&format=json&h=200,
+OpenAlex,retrieval augmented prompt injection,2020-2026,8476,200,0,https://api.openalex.org/works?search=retrieval+augmented+prompt+injection&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,retrieval corpus poisoning,2020-2026,6,200,1,https://dblp.org/search/publ/api?q=retrieval+corpus+poisoning&format=json&h=200,
+OpenAlex,retrieval corpus poisoning,2020-2026,2119,200,0,https://api.openalex.org/works?search=retrieval+corpus+poisoning&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,adversarial retrieval question answering,2020-2026,0,200,0,https://dblp.org/search/publ/api?q=adversarial+retrieval+question+answering&format=json&h=200,
+OpenAlex,adversarial retrieval question answering,2020-2026,23002,200,0,https://api.openalex.org/works?search=adversarial+retrieval+question+answering&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,
+DBLP,faithfulness retrieval augmented generation,2020-2026,8,200,1,https://dblp.org/search/publ/api?q=faithfulness+retrieval+augmented+generation&format=json&h=200,
+OpenAlex,faithfulness retrieval augmented generation,2020-2026,10157,200,2,https://api.openalex.org/works?search=faithfulness+retrieval+augmented+generation&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200,

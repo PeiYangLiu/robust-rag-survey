@@ -143,7 +143,7 @@ arrow(a, 'b_out_arr', 657, 296, 669, 296, 'teal', 1.4)
 
 a.rect('b_out_card', 671, 206, 106, 258, 'tl', 'teal', 1.0, .04)
 doc_mini_icon(a, 'b_out_ico', 717, 222, 15, 20, 'teal', 'white')
-txt(a, 'b_out_eq', 675, 254, 98, 'ΔP_S ≥ γ_resp', 11.5, True, 'ink', 'center')
+txt(a, 'b_out_eq', 675, 246, 98, 'ΔP_S ≥\nγ_resp(1−P_G)', 9.5, True, 'ink', 'center')
 a.line('b_out_div', (683, 286), (765, 286), 'tl_border', 0.8)
 txt(a, 'b_out_l1', 675, 298, 98, 'Counterfactual\nplasticity', 10, True, 'teal_dark', 'center')
 txt(a, 'b_out_l2', 675, 336, 98, 'Bound E[L_T] ≤ ε_upd\n& shift mass to z*.', 9.0, False, 'slate', 'center')

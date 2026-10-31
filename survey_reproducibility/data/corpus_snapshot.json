@@ -4,9 +4,9 @@
   "core_coding_and_artifact_freeze": "2026-06-15",
   "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
-  "packaged_literature_map_sha256": "6f1f04fd5407becd293f272010fb9d701311f33707950768c5188a8076912583",
+  "packaged_literature_map_sha256": "44e51de92c55ff69c4e6573f3d833a25cadcd95b7cff02684ffd7a3b2c33c1fa",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "b241f49549978df2f2924e5517f0d6969f462791b567266ff98d693916e45b21",
+  "packaged_citation_index_sha256": "05b75658dfbade29e4ec395c9eb7ba8a79bbbf5176af79dc4579e0cc655d4eda",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
   "packaged_coverage_decisions_sha256": "8c79443fdf715a38cdb2d63eedf8188d4fd1500f6e4c5db719e6d686fb5d39fa",
   "packaged_coverage_decisions_breakdown": {
@@ -70,11 +70,13 @@
   "supplementary_selection_rules": {
     "Rule_S1_foundational_ml_ir_eval_theory": 23,
     "Rule_S2_adjacent_prior_survey": 5,
-    "Rule_S3_canonical_and_post_freeze_primary_rag": 26
+    "Rule_S3_canonical_and_post_freeze_primary_rag": 26,
+    "primary_rag_studies_supplementary_25": 25,
+    "foundational_adjacent_and_survey_references_29": 29
   },
   "cited_references_total": 389,
-  "total_primary_rag_studies_all_cited": 356,
-  "total_foundational_or_survey_na_all_cited": 33,
+  "total_primary_rag_studies_all_cited": 355,
+  "total_foundational_or_survey_na_all_cited": 34,
   "search_and_screening_funnel_exact_accounting": {
     "stage_1a_initial_open_source_retrieval": {
       "arxiv_boolean_queries_count": 55,
@@ -556,164 +558,388 @@
   ],
   "venue_30_systematic_queries": [
     {
-      "source": "",
-      "venue": "",
-      "query": "local scan: title/abstract contains RAG terms and robustness terms"
+      "source": "ACL Anthology bib",
+      "venue": "ACL Anthology (ACL/EMNLP/NAACL/EACL/COLING/TACL/Findings)",
+      "api": "ACL Anthology bib",
+      "query": "local scan: title/abstract contains RAG terms and robustness terms",
+      "years": "2020-2026",
+      "reported_hit_count": "12924",
+      "retrieved_top_n": "all matching ACL Anthology bib entries",
+      "venue_matched_relevant_candidates": "30",
+      "query_url": "https://aclanthology.org/anthology+abstracts.bib.gz",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented generation"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented generation",
+      "years": "2020-2026",
+      "reported_hit_count": "2727",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "6",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval+augmented+generation&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented generation"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented generation",
+      "years": "2020-2026",
+      "reported_hit_count": "111757",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "2",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+generation&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval-augmented generation"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval-augmented generation",
+      "years": "2020-2026",
+      "reported_hit_count": "2727",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "6",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval-augmented+generation&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval-augmented generation"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval-augmented generation",
+      "years": "2020-2026",
+      "reported_hit_count": "111757",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "2",
+      "query_url": "https://api.openalex.org/works?search=retrieval-augmented+generation&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented language model"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented language model",
+      "years": "2020-2026",
+      "reported_hit_count": "",
+      "retrieved_top_n": "",
+      "venue_matched_relevant_candidates": "",
+      "query_url": "",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented language model"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented language model",
+      "years": "2020-2026",
+      "reported_hit_count": "104665",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "2",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+language+model&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented question answering"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented question answering",
+      "years": "2020-2026",
+      "reported_hit_count": "",
+      "retrieved_top_n": "",
+      "venue_matched_relevant_candidates": "",
+      "query_url": "",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented question answering"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented question answering",
+      "years": "2020-2026",
+      "reported_hit_count": "62940",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+question+answering&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmentation noisy context"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmentation noisy context",
+      "years": "2020-2026",
+      "reported_hit_count": "",
+      "retrieved_top_n": "",
+      "venue_matched_relevant_candidates": "",
+      "query_url": "",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmentation noisy context"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmentation noisy context",
+      "years": "2020-2026",
+      "reported_hit_count": "14316",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmentation+noisy+context&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "irrelevant context retrieval augmented"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "irrelevant context retrieval augmented",
+      "years": "2020-2026",
+      "reported_hit_count": "2",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "1",
+      "query_url": "https://dblp.org/search/publ/api?q=irrelevant+context+retrieval+augmented&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "irrelevant context retrieval augmented"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "irrelevant context retrieval augmented",
+      "years": "2020-2026",
+      "reported_hit_count": "23415",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "2",
+      "query_url": "https://api.openalex.org/works?search=irrelevant+context+retrieval+augmented&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented knowledge conflict"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented knowledge conflict",
+      "years": "2020-2026",
+      "reported_hit_count": "",
+      "retrieved_top_n": "",
+      "venue_matched_relevant_candidates": "",
+      "query_url": "",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented knowledge conflict"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented knowledge conflict",
+      "years": "2020-2026",
+      "reported_hit_count": "36461",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "1",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+knowledge+conflict&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented uncertainty"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented uncertainty",
+      "years": "2020-2026",
+      "reported_hit_count": "",
+      "retrieved_top_n": "",
+      "venue_matched_relevant_candidates": "",
+      "query_url": "",
+      "error": "<HTTPError 500: 'Internal Server Error'>"
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented uncertainty"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented uncertainty",
+      "years": "2020-2026",
+      "reported_hit_count": "33918",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+uncertainty&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented calibration"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented calibration",
+      "years": "2020-2026",
+      "reported_hit_count": "4",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "2",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval+augmented+calibration&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented calibration"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented calibration",
+      "years": "2020-2026",
+      "reported_hit_count": "16014",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "1",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+calibration&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented abstention"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented abstention",
+      "years": "2020-2026",
+      "reported_hit_count": "1",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval+augmented+abstention&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented abstention"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented abstention",
+      "years": "2020-2026",
+      "reported_hit_count": "942",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "1",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+abstention&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented poisoning"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented poisoning",
+      "years": "2020-2026",
+      "reported_hit_count": "43",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "3",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval+augmented+poisoning&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented poisoning"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented poisoning",
+      "years": "2020-2026",
+      "reported_hit_count": "3944",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+poisoning&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented prompt injection"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval augmented prompt injection",
+      "years": "2020-2026",
+      "reported_hit_count": "4",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval+augmented+prompt+injection&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval augmented prompt injection"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval augmented prompt injection",
+      "years": "2020-2026",
+      "reported_hit_count": "8476",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=retrieval+augmented+prompt+injection&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval corpus poisoning"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "retrieval corpus poisoning",
+      "years": "2020-2026",
+      "reported_hit_count": "6",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "1",
+      "query_url": "https://dblp.org/search/publ/api?q=retrieval+corpus+poisoning&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "retrieval corpus poisoning"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "retrieval corpus poisoning",
+      "years": "2020-2026",
+      "reported_hit_count": "2119",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=retrieval+corpus+poisoning&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "adversarial retrieval question answering"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "adversarial retrieval question answering",
+      "years": "2020-2026",
+      "reported_hit_count": "0",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://dblp.org/search/publ/api?q=adversarial+retrieval+question+answering&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "adversarial retrieval question answering"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "adversarial retrieval question answering",
+      "years": "2020-2026",
+      "reported_hit_count": "23002",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "0",
+      "query_url": "https://api.openalex.org/works?search=adversarial+retrieval+question+answering&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "faithfulness retrieval augmented generation"
+      "source": "DBLP",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "DBLP",
+      "query": "faithfulness retrieval augmented generation",
+      "years": "2020-2026",
+      "reported_hit_count": "8",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "1",
+      "query_url": "https://dblp.org/search/publ/api?q=faithfulness+retrieval+augmented+generation&format=json&h=200",
+      "error": ""
     },
     {
-      "source": "",
-      "venue": "",
-      "query": "faithfulness retrieval augmented generation"
+      "source": "OpenAlex",
+      "venue": "DBLP/OpenAlex Multi-Venue Index (ICLR/NeurIPS/ICML/SIGIR/KDD/WWW/USENIX/CCS/AAAI)",
+      "api": "OpenAlex",
+      "query": "faithfulness retrieval augmented generation",
+      "years": "2020-2026",
+      "reported_hit_count": "10157",
+      "retrieved_top_n": "200",
+      "venue_matched_relevant_candidates": "2",
+      "query_url": "https://api.openalex.org/works?search=faithfulness+retrieval+augmented+generation&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-12-31&per-page=200",
+      "error": ""
     }
   ],
   "taxonomy_mapping_summary": {
     "all_389_mapped_to_4_pillars_and_20_strands": true,
-    "figure2_representative_works_count": 76,
-    "zero_invalid_metric_tags_in_literature_map": true
-  }
+    "figure2_representative_works_total": 76,
+    "figure2_primary_rag_studies": 75,
+    "figure2_foundational_provenance_benchmarks": 1,
+    "figure2_foundational_key": "kilt2021",
+    "zero_invalid_metric_tags_in_literature_map": true,
+    "zero_spurious_adversarial_or_calibration_multilabels": true
+  },
+  "packaged_venue_queries_sha256": "1542880efea6f9eaaea607a38a6c78d8cc81bf5d3105aeef46465661b0e8d590",
+  "packaged_claim_evidence_matrix_sha256": "89f43fdab31a1dc0e3486ed93084b2d3d3df2970e9b9382d0a1291f8981e92e0",
+  "venue_31_systematic_queries_note": "31 records total: 1 full ACL Anthology bib scan + 15 DBLP API queries (top-200 cap) + 15 OpenAlex API queries (top-200 cap)."
 }

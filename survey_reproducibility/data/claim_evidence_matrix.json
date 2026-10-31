@@ -1,0 +1,209 @@
+[
+  {
+    "table_or_sec": "Table 6 (Row 1)",
+    "method_or_tension": "RGB Stress Test (rgb2023)",
+    "source_location": "Chen et al. (AAAI 2024), §3–§4, Tables 1–4",
+    "experimental_setup": "RGB English/Chinese splits; synthetic noise ratios 0.0–0.8, negative rejection, information integration, counterfactuals",
+    "metric_and_denominator": "Lenient substring accuracy / EM across all test queries",
+    "verified_finding": "Reader accuracy degrades monotonically as hard-negative noise ratio increases; models struggle with negative rejection and counterfactual resistance",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 2)",
+    "method_or_tension": "FILCO (rrag044)",
+    "source_location": "Wang et al. (ICML 2023), §4.1, §5–§6, Tables 2 & 5",
+    "experimental_setup": "KILT QA (NQ, TQA, HotpotQA, ELI5) & FEVER; DPR top-5 passages filtered for FLAN-T5-XL and Llama-2-7B readers (compared against full-context and FiD baselines)",
+    "metric_and_denominator": "Exact Match (EM), F1, and prompt token reduction ratio",
+    "verified_finding": "Sentence-level context filtering via STRINC/LEXICAL/CXMI cuts prompt tokens by ~2–3x while improving EM over unfiltered top-k passages",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 3)",
+    "method_or_tension": "RECOMP (rrag226)",
+    "source_location": "Xu et al. (ICLR 2024, arXiv:2310.04408v1), §4–§5, Table 2",
+    "experimental_setup": "NQ, TriviaQA, HotpotQA; MS-MARCO Contriever top-5 Wikipedia passages compressed via extractive dual-encoder or distilled abstractive T5-Large with null gate",
+    "metric_and_denominator": "Exact Match (EM), F1, and retrieved passage token count (660->37 on NQ, 677->38 on TQA, 684->75 on HotpotQA)",
+    "verified_finding": "Compresses retrieved passage tokens by 9–18x (to 5%–11% of top-5 tokens) with a modest EM trade-off on extractive compression",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 4)",
+    "method_or_tension": "RankRAG (venueExpanded120)",
+    "source_location": "Yu et al. (NeurIPS 2024), §3 & §4.3, Tables 1–3, AppendixOverhead Analysis",
+    "experimental_setup": "KILT OpenQA, Multi-hop QA, FaithDial, Biomedical QA; unified instruction-tuned Llama-3-8B/70B backbone",
+    "metric_and_denominator": "Exact Match (EM), token F1, and two-stage retrieve-rerank-generate latency",
+    "verified_finding": "Unifies ranking and generation weights in one LLM, executing O(N) candidate relevance-scoring passes followed by 1x top-k generation pass",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 5)",
+    "method_or_tension": "LongRAG (venueExpanded105)",
+    "source_location": "Zhao et al. (EMNLP 2024), §3–§4, Table 1",
+    "experimental_setup": "LongBench Multi-Hop QA (HotpotQA, 2WikiMultiHopQA, MuSiQue); dual-perspective CoT chunk filter (I_d) + global extractor (I_g)",
+    "metric_and_denominator": "Token F1 on LongBench multi-hop splits",
+    "verified_finding": "Combining local CoT-filtered chunks with LLM-extracted global context improves multi-hop F1 over standard chunking and long-context baselines",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 6)",
+    "method_or_tension": "RAAT (raat2024)",
+    "source_location": "Fang et al. (ACL 2024), §3–§4, Table 2",
+    "experimental_setup": "RAG-Bench (NQ, TQA, WebQ); Llama-2-7B trained with min-max adversarial noise across irrelevant, relevant hard-negative, and counterfactual strata",
+    "metric_and_denominator": "Strict Exact Match (EM) across Golden Only vs. 3 noise strata in 1x decoding call",
+    "verified_finding": "Bounds EM degradation between Golden Only (83.07) and Counterfactual Noise (82.10) in a single decoding call",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 7)",
+    "method_or_tension": "Chain-of-Note (chainOfNote2023)",
+    "source_location": "Yu et al. (EMNLP 2024), §3–§4, Tables 1–3",
+    "experimental_setup": "Noisy NQ, TriviaQA, WebQ, RealTimeQA; DPR top-k + Llama-2-7B emitting reading notes prior to answer",
+    "metric_and_denominator": "Exact Match (EM), F1, and unknown-rejection rate",
+    "verified_finding": "Intermediate passage-level relevance notes improve noise robustness and unanswerable rejection within 1x decoding call at the cost of extra output tokens",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 8)",
+    "method_or_tension": "FaithfulRAG (faithfulRAG2025)",
+    "source_location": "Zhang et al. (ACL 2025), §3–§4, Table 1",
+    "experimental_setup": "FaithEval, RealtimeQA, NQ-Swap, ConFiQA; Llama-3.1, Qwen-2.5, GLM-4 backbones",
+    "metric_and_denominator": "Substring / conflict-resolution accuracy across counterfactual splits",
+    "verified_finding": "Self-knowledge elicitation and atomic fact alignment outperform full-context and CoT prompting under parametric-context conflicts",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 9)",
+    "method_or_tension": "Astute RAG (astuteRAG2025)",
+    "source_location": "Wang et al. (ACL 2025), §3–§4, Tables 1–2",
+    "experimental_setup": "NQ, TriviaQA, BioASQ, PopQA; Gemini and Claude backbones with iterative internal-external passage clustering",
+    "metric_and_denominator": "String accuracy across noisy and conflicting retrieval",
+    "verified_finding": "Iterative source-reliability-weighted consolidation reconciles internal and external knowledge without weight fine-tuning",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 10)",
+    "method_or_tension": "ParamMute (rrag024) & CoRect (rrag008)",
+    "source_location": "ParamMute §3–§4 (CoFaithfulQA/ConFiQA); CoRect §3.2 & Limitations (2 forward passes)",
+    "experimental_setup": "White-box open-weight LLMs on counterfactual context adherence splits",
+    "metric_and_denominator": "Context Adherence Rate (ConR) and Memorization Rate (MR); 1x decoding call (ParamMute) vs. 2x decoding calls (CoRect)",
+    "verified_finding": "ParamMute suppresses FFN neurons in 1x decoding call; CoRect contrasts full-context and null-context states across 2x decoding calls",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 11)",
+    "method_or_tension": "PoisonedRAG (poisonedRAG2024) & CorruptRAG (rrag057)",
+    "source_location": "Zou et al. (USENIX Security 2025), Tables 1 & 4; CorruptRAG §4",
+    "experimental_setup": "NQ, HotpotQA, MS-MARCO; m<=k (e.g., m=5 in top-5) vs. single-passage m=1 injection",
+    "metric_and_denominator": "Empirical Attack Success Rate (ASR) over target queries",
+    "verified_finding": "Coupling retrieval promotion with generation steering achieves high empirical ASR",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 12)",
+    "method_or_tension": "TrustRAG (rrag013)",
+    "source_location": "Zhou et al. (2025), §3–§4, Table 2",
+    "experimental_setup": "Poisoned NQ, HotpotQA, MS-MARCO; Stage-1 k-means filtering + Stage-2 self-assessment",
+    "metric_and_denominator": "Empirical ASR and clean QA accuracy",
+    "verified_finding": "Two-stage filtering lowers empirical poisoning ASR while preserving clean accuracy, without formal worst-case certificates",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 13)",
+    "method_or_tension": "RobustRAG (certifiedRAG2024)",
+    "source_location": "Xiang et al. (ICML 2024), Theorems 1–2, Tables I–III",
+    "experimental_setup": "RQA, NQ, Biography; G=ceil(k/omega) isolated passage groups with keyword (alpha,beta) or decoding (eta) aggregation",
+    "metric_and_denominator": "Query-specific Certifiable Accuracy (cacc), empirical ASR, and relative latency (1.16–3.65x)",
+    "verified_finding": "Provides formal query-specific worst-case certifiable accuracy bounds across G=ceil(k/omega) isolated decoding calls",
+    "evidence_tier": "formal_theorem_or_bound"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 14)",
+    "method_or_tension": "Self-RAG (selfRAG2023)",
+    "source_location": "Asai et al. (ICLR 2024), §3–§4, Table 2",
+    "experimental_setup": "PopQA, TriviaQA, PubHealth, ASQA; Contriever + Self-RAG-7B/13B with reflection tokens",
+    "metric_and_denominator": "Lenient inclusion accuracy, PubHealth accuracy, and citation precision/recall",
+    "verified_finding": "Interleaved reflection tokens enable on-demand retrieval and segment-level support critique",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 15)",
+    "method_or_tension": "CRAG (crag2024)",
+    "source_location": "Yan et al. (2024), §3–§4, Table 1",
+    "experimental_setup": "PopQA, Biography, PubHealth, Arc-Challenge; lightweight T5 evaluator routing strip refinement and web search",
+    "metric_and_denominator": "Accuracy and FactScore across RAG and Self-CRAG pairings",
+    "verified_finding": "Post-retrieval evaluator routing repairs low-quality initial retrieval across both standard RAG and Self-RAG",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 16)",
+    "method_or_tension": "CtrlA (ctrla2025)",
+    "source_location": "Liu et al. (ICLR 2025), §3.2.3, §3.3, Table 1",
+    "experimental_setup": "TriviaQA, PopQA, HotpotQA, 2WikiMQA, FreshQA; honesty steering + online token-level confidence probing during generation",
+    "metric_and_denominator": "QA accuracy and adaptive segment trigger efficiency",
+    "verified_finding": "Monitors token-level confidence representation directions online during decoding to trigger segment-level search and regeneration",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 6 (Row 17)",
+    "method_or_tension": "Sufficient Context (sufficientContext2024)",
+    "source_location": "Joren et al. (ICLR 2025), §3–§5, Figure 4",
+    "experimental_setup": "HotpotQA, MuSiQue, FreshQA; Gemini-1.5-Pro sufficient-context autorater + model confidence thresholding",
+    "metric_and_denominator": "Selective accuracy vs. coverage on answered subset",
+    "verified_finding": "Pairing sufficiency classification with confidence lowers selective hallucination rate across coverage levels",
+    "evidence_tier": "direct_empirical_finding"
+  },
+  {
+    "table_or_sec": "Table 7 (Row 1)",
+    "method_or_tension": "Topical recall vs. set utility",
+    "source_location": "Yoran et al. (ICLR 2024); Cuconasu et al. (SIGIR 2024); Liu et al. (CoRM-RAG 2026)",
+    "experimental_setup": "OpenQA (NQ, TQA) and multi-hop QA under hard negatives vs. random noise",
+    "metric_and_denominator": "EM/F1 degradation under hard negatives; counterfactual doc-query utility",
+    "verified_finding": "Empirical regularity: hard negatives degrade readers more than random text; Open hypothesis: extending doc-query counterfactual utility to joint subset optimization with local multi-hop complementarity",
+    "evidence_tier": "cross_study_mechanistic_synthesis"
+  },
+  {
+    "table_or_sec": "Table 7 (Row 2)",
+    "method_or_tension": "Context adherence vs. factuality",
+    "source_location": "Context-DPO (rrag042), ParamMute (rrag024), Parenting (rrag214), PoisonedRAG (poisonedRAG2024)",
+    "experimental_setup": "Single-hop counterfactual adherence (ConFiQA) vs. noise/poisoning splits",
+    "metric_and_denominator": "Context Adherence Rate vs. ASR and noise invariance",
+    "verified_finding": "Empirical: Context-DPO/ParamMute raise single-hop context adherence while Parenting shows gradient conflict with noise invariance; Mechanistic inference: unconditional FFN muting risks impairing unretrieved multi-hop bridges",
+    "evidence_tier": "cross_study_mechanistic_synthesis"
+  },
+  {
+    "table_or_sec": "Table 7 (Row 3)",
+    "method_or_tension": "Upstream pruning vs. sufficiency",
+    "source_location": "FILCO (rrag044), RECOMP (rrag226), Zhao et al. financial RAG audit (venueExpanded073)",
+    "experimental_setup": "Single-hop (NQ, TQA) and multi-hop (HotpotQA) compression vs. premise loss",
+    "metric_and_denominator": "Token compression (2–3x in FILCO, 9–18x in RECOMP) vs. EM drop",
+    "verified_finding": "Empirical: aggressive compression reduces passage tokens (9–18x in RECOMP Table 2) with extractive/abstractive EM drop on multi-hop spans; Design direction: soft reliability tokens + parallel KV",
+    "evidence_tier": "cross_study_mechanistic_synthesis"
+  },
+  {
+    "table_or_sec": "Table 7 (Row 4)",
+    "method_or_tension": "Iterative verification vs. budget",
+    "source_location": "Self-RAG (selfRAG2023), CRAG (crag2024), DRAG (drag2025), Adaptive Stopping (rrag006)",
+    "experimental_setup": "Multi-step search and multi-agent debate under token/call budgets",
+    "metric_and_denominator": "Accuracy gain vs. O(T*M) or O(ceil(k/omega)) decoding calls",
+    "verified_finding": "Empirical: iterative loops repair initial retrieval misses but waste budget on true corpus gaps; Normative direction: dual-calibrated CPOMDP VoI routing",
+    "evidence_tier": "cross_study_mechanistic_synthesis"
+  },
+  {
+    "table_or_sec": "Table 7 (Row 5)",
+    "method_or_tension": "Selective refusal vs. coverage",
+    "source_location": "Geifman & El-Yaniv (2017), URAG (rrag001), BalanceRAG (rrag095), NeuroSym-Cal (liu2026neurosym)",
+    "experimental_setup": "i.i.d. conformal calibration vs. multi-turn adaptive retrieval and code calibration",
+    "metric_and_denominator": "Marginal set coverage (1-alpha) vs. singleton selective risk (<= alpha_r)",
+    "verified_finding": "Theoretical/empirical: i.i.d. selective risk control (BalanceRAG) differs from marginal set coverage (URAG); Open hypothesis: transferring neuro-symbolic confidence scoring to covariate-shift RAG",
+    "evidence_tier": "open_testable_hypothesis"
+  },
+  {
+    "table_or_sec": "Table 7 (Row 6)",
+    "method_or_tension": "Multimodal & agentic scaling",
+    "source_location": "Capabilities: ColPali, TableRAG, G-Retriever, ChatQA 1/2, CoE; Attacks: Poisoned-MRAG (rrag229), LogicPoison (rrag127), AgentPoison (rrag053), MemoryGraft (rrag188)",
+    "experimental_setup": "Visual, tabular, graph, and conversational memory RAG vs. cross-modal/graph/memory poisoning",
+    "metric_and_denominator": "Multimodal/graph QA F1 vs. cross-modal/subgraph/memory ASR",
+    "verified_finding": "Empirical: cross-modal triggers, GraphRAG subgraph cascades, and agent memory poisoning compromise extended pipelines; Open hypothesis: automated end-to-end multi-turn lineage revocation",
+    "evidence_tier": "open_testable_hypothesis"
+  }
+]

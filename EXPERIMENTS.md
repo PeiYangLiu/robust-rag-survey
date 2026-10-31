@@ -1,150 +1,33 @@
-# Experiments: code, order of execution, and what each stage produces
+# Reproducibility Pipeline and Artifact Mapping for the 10-Section Systematic Survey
 
-This repository distributes the **experiment code and data only**. The LaTeX
-sources, figures, tables and compiled PDF of the paper are deliberately not
-included.
+This document maps every section, table, and figure of the current 10-section manuscript (**Robust Retrieval-Augmented Generation (RAG): A Systematic Survey of Concepts, Taxonomy, Methods, and Evaluation**) to the reproducible scripts and structured datasets in this repository.
 
-This file maps every empirical claim in the paper to the script that produces it
-and the artifact it writes. The canonical artifact inventory is in `README.md`;
-this file is the *execution* view.
+> **Note on repository structure.** All canonical datasets, taxonomic mappings, source-verification matrices, and verification scripts for the current 10-section systematic survey reside in `survey_reproducibility/`. Root-level directories such as `expert_validation*`, `annotation_outputs*`, and `blind_review_deliverables*` are archived historical artifacts from an earlier exploratory draft and are **not** used as empirical claims in the current survey manuscript.
 
-Everything is run from the repository root. Paths in released JSON/CSV are
-repository-relative, so a clone can re-run the pipeline without editing paths.
+## 1. End-to-End Verification of All Survey Artifacts
 
-## 0. Prerequisites
+From the repository root, run:
 
 ```bash
-python3 -m venv .venv && . .venv/bin/activate
-pip install numpy scipy pandas statsmodels matplotlib requests
+python3 survey_reproducibility/verify_survey_artifacts.py
 ```
 
-API-served judges read credentials from the environment; nothing is stored in
-the repository:
+This script deterministically verifies:
+1. **SHA-256 integrity** of `literature_map.csv` (335 core records), `citation_index.csv` (389 total cited works), `coverage_decisions.csv` (476 inclusion/consolidation/exclusion records), `venue_systematic_queries.csv` (31 venue query logs), and `claim_evidence_matrix.csv` (23 source-verified table rows).
+2. **Exact corpus stratification** (§2.2):
+   - **355 primary RAG studies and benchmarks** (`330` in the frozen core map: `326` full-text-PDF verified + `4` ACM metadata/abstract records; plus `25` supplementary primary RAG studies).
+   - **34 foundational, adjacent-transferable, and prior-survey references** (`5` prior surveys in the core map + `29` supplementary foundational retrieval, calibration, selective prediction, transferable reasoning/calibration, and survey works).
+   - **76 representative works in Figure 2** (`75` primary RAG studies + `1` foundational provenance benchmark `kilt2021`) spanning the 4 intervention pillars and 20 mechanism strands.
+3. **Field-level semantic audit**: confirms zero invalid metric tags in `literature_map.csv`, zero spurious `selective_risk_and_calibration_ece` tags on non-calibration works (e.g., RECOMP `rrag226`), zero spurious `adversarially_manipulated` tags on non-adversarial works (e.g., `venueExpanded025`), and explicit `taxonomy_pillar` and `mechanism_strand` assignments across all 389 records.
+4. **Formal mathematical verification** (§3.2–§3.3 & §7.5): verifies that the slack-normalized responsiveness criterion in Equation (3) and the non-negative shifted CPOMDP dual loss in Equations (4) and (9) are free of algebraic counterexamples across the 5 paired diagnostic scenarios.
 
-```bash
-export JUDGE_API_KEY=...        # provider key
-export JUDGE_BASE_URL=...       # provider endpoint
-```
+## 2. Mapping Between Manuscript Sections/Tables and Repository Artifacts
 
-Open-weight judges were run on a GPU cluster through Amulet. The submitted
-configs in `configs/amlt_*.yaml` have the cluster and workspace names replaced
-by `<SINGULARITY_VC>` / `<AML_WORKSPACE>` placeholders; set them to your own
-before submitting.
-
-## 1. Corpus construction (inputs to everything else)
-
-| Step | Script | Output |
-| --- | --- | --- |
-| Harvest arXiv + venue candidates | `scripts/collect_papers.py`, `scripts/collect_openreview_pmlr_accepted.py` | `metadata/`, `pdfs/` (git-ignored) |
-| Venue matching and download | `scripts/match_and_download_venue_accepts.py` | `metadata/venue_accepts_*.csv` |
-| Build the venue-expanded evidence map | `scripts/build_venue_expanded_evidence_map.py` | `manuscript/supplement/evidence_map_venue_expanded_adjudicated.csv` |
-
-PDFs and extracted texts are deliberately git-ignored (third-party content,
-several GB). Re-run the collectors to regenerate them.
-
-## 2. §9 Testing the taxonomy — constructed instrument benchmark
-
-Answers: *can independent coders recover the five coordinates from prose?*
-
-```bash
-python3 manuscript/scripts/build_comparability_instrument_benchmark_v2.py
-bash    manuscript/scripts/run_comparability_instrument_v2.sh      # judge panel
-python3 manuscript/scripts/analyze_comparability_instrument_v2.py
-```
-
-Produces the 432 constructed passages, the per-judge decisions, and
-`manuscript/supplement/comparability_instrument_results_v2.json`, which backs the
-0.95 coordinate accuracy / kappa 0.74 numbers and Appendix Tables
-`instrument_disclosure_v2` and `instrument_baselines_v2`.
-
-## 3. §10 Applied at scale — screening frame and census
-
-Answers: *how often are cross-paper numbers juxtaposed, and does the gap survive?*
-
-```bash
-python3 manuscript/scripts/build_cross_paper_frame.py     # 259 texts -> 1,703 candidates
-python3 manuscript/scripts/code_cross_paper_frame.py      # 3-judge coding
-python3 manuscript/scripts/analyze_cross_paper_census.py  # eligibility, verdicts, kappa
-```
-
-Codebook ablation (the C1/C4 reduced arm):
-
-```bash
-bash    manuscript/scripts/run_codebook_ablation.sh
-python3 manuscript/scripts/analyze_codebook_ablation.py
-```
-
-## 4. §10 Provenance — transported vs. re-implemented
-
-```bash
-python3 manuscript/scripts/build_provenance_benchmark.py
-python3 manuscript/scripts/classify_number_provenance.py
-bash    manuscript/scripts/run_provenance_benchmark.sh
-python3 manuscript/scripts/analyze_provenance_benchmark.py
-python3 manuscript/scripts/verify_provenance_number_trace.py
-```
-
-Backs the 533-of-610 re-implementation share and the 0.91 [0.86, 0.96]
-provenance accuracy.
-
-## 5. §10 Evaluator panels and diagnostic interventions
-
-| Arm | Script |
+| Manuscript Section / Table / Figure | Repository Artifact & Script |
 | --- | --- |
-| Crossed deployment panel (API + open models) | `manuscript/scripts/run_controlled_model_judges_v2.py`, `analyze_controlled_model_judges_v2.py` |
-| Open-weight pool (9 checkpoints) | `manuscript/scripts/orchestrate_gpu_model_judges.py`, `dispatch_model_judge_runs.py` |
-| Non-generative structural classifier | `manuscript/scripts/run_action_labeled_llm_baseline.py`, `analyze_claim_rule_baselines.py` |
-| Evidence-privileged reference | `manuscript/scripts/derive_observed_claim_verdicts.py` |
-| Screen recall re-weighting | `manuscript/scripts/run_screen_recall.sh`, `analyze_screen_recall.py` |
-
-Raw per-decision dumps are git-ignored (≈370 MB); the analysis-level JSON/CSV
-they reduce to are committed.
-
-## 6. §10 Human expert panel
-
-80 published claims, three annotators, 210 person-hours, senior adjudication.
-
-- Instruments and annotations: `manuscript/human_coding/`
-- Analysis: `manuscript/scripts/analyze_published_human_evaluation_audit.py`
-- Result: `manuscript/supplement/human_anchor_results.json`
-
-Consent forms and participant identities are access-controlled and excluded by
-`.gitignore`; only labels, rationales and adjudicated consensus are released.
-
-## 7. Appendix Q — reviewer heterogeneity and remedy simulation
-
-```bash
-python3 manuscript/scripts/estimate_sigma_r_multi_anchor.py    # sigma_r from crossed designs
-python3 manuscript/scripts/simulate_retrospective_remedies.py  # size/power of 4 analyses
-python3 manuscript/scripts/simulate_assignment_unit_mismatch.py
-```
-
-The public corpora used as sigma_r anchors (civil_comments, Wikipedia Detox,
-MultiPref, DynaSent) are **not** redistributed here; the scripts download them
-from their original sources into `manuscript/supplement/sigma_anchors/`.
-
-## 8. Figures and tables
-
-```bash
-python3 manuscript/scripts/draw_python_figures.py
-python3 manuscript/scripts/build_revision_tables.py
-```
-
-## 9. Self-checks
-
-```bash
-bash manuscript/scripts/verify_all.sh
-```
-
-Three checks run in the authoring tree, 117 provenance assertions plus quotation
-and prose/artifact consistency. Two of them read the paper sources, which are not
-distributed here:
-
-| Check | Runs from this repository? | Needs |
-| --- | --- | --- |
-| `verify_cross_paper_cases.py` — re-opens every ledger quotation at its cited line range and re-derives every rendered numeral | Yes, after regenerating the extracted texts (step 1) | `manuscript/supplement/cross_paper_comparability_cases.json` (included) + `manuscript/citation_audit/expanded_texts/` |
-| `verify_manuscript_quotations.py` — matches every quotation in the paper verbatim against its source | No | paper `.tex` sources |
-| `verify_prose_artifact_consistency.py` — compares every number the prose asserts about our artifacts to the artifact | No | paper `.tex` sources |
-
-The artifacts those last two check against *are* included, so their numbers can
-be re-derived directly from `manuscript/supplement/`.
+| **§2.2 Survey Scope and Literature Coverage** | `survey_reproducibility/PROTOCOL_AND_TAXONOMY.md`, `survey_reproducibility/data/corpus_snapshot.json`, `survey_reproducibility/data/venue_systematic_queries.csv`, `survey_reproducibility/data/coverage_decisions.csv` |
+| **§3 Conceptual Framework, Definition 1 (Properties 1–3), Figure 1, & Table 1 (`concept_cases`)** | `survey_reproducibility/scripts/render_figures.py`, `survey_reproducibility/verify_survey_artifacts.py` |
+| **§3.5 Four-Pillar Technical Taxonomy & Figure 2 (`survey_map`, 76 works across 20 strands)** | `survey_reproducibility/scripts/select_figure2_76_works.py`, `survey_reproducibility/data/research_map_76_works.json`, `survey_reproducibility/data/research_map_76_works.csv` |
+| **§4–§7 Technical Synthesis (Pillars I–IV) & Tables 2–4** | `survey_reproducibility/data/literature_map.csv`, `survey_reproducibility/data/citation_index.csv` |
+| **§8 Evaluation Benchmarks, C1–C5 Protocol Dimensions, & Table 6 (`comparability_audit`)** | `survey_reproducibility/data/claim_evidence_matrix.csv`, `survey_reproducibility/data/claim_evidence_matrix.json` |
+| **§9 Cross-Layer Interactions, Figure 3 (`evidence_lifecycle`), & Table 7 (`tradeoffs`)** | `survey_reproducibility/data/claim_evidence_matrix.csv`, `survey_reproducibility/scripts/render_figures.py` |
