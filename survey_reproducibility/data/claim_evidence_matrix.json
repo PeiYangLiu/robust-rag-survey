@@ -22,8 +22,8 @@
     "method_or_tension": "RECOMP (rrag226)",
     "source_location": "Xu et al. (ICLR 2024, arXiv:2310.04408v1), §4–§5, Table 2",
     "experimental_setup": "NQ, TriviaQA, HotpotQA; MS-MARCO Contriever top-5 Wikipedia passages compressed via extractive dual-encoder or distilled abstractive T5-Large with null gate",
-    "metric_and_denominator": "Exact Match (EM), F1, and retrieved passage token count (660->37 on NQ, 677->38 on TQA, 684->75 on HotpotQA)",
-    "verified_finding": "Compresses retrieved passage tokens by 9–18x (to 5%–11% of top-5 tokens) with a modest EM trade-off on extractive compression",
+    "metric_and_denominator": "Exact Match (EM) and retrieved passage tokens on Flan-UL2 (Table 2, CIs not reported): NQ 660->37 tokens (39.39->36.57 EM, -2.82 pp extractive; 56 tokens, 37.04 EM abstractive); TQA 677->38 tokens (62.37->58.99 EM, -3.38 pp); HotpotQA 684->75 tokens (32.80->30.40 EM, -2.40 pp)",
+    "verified_finding": "Compresses retrieved passage tokens by 9–18x (to 5%–11% of top-5 tokens) with a -2.40 to -3.38 pp extractive EM change on Flan-UL2; null gate abstains from prepending context when utility is negative",
     "evidence_tier": "direct_empirical_finding"
   },
   {
@@ -48,9 +48,9 @@
     "table_or_sec": "Table 6 (Row 6)",
     "method_or_tension": "RAAT (raat2024)",
     "source_location": "Fang et al. (ACL 2024), §3–§4, Table 2",
-    "experimental_setup": "RAG-Bench (NQ, TQA, WebQ); Llama-2-7B trained with min-max adversarial noise across irrelevant, relevant hard-negative, and counterfactual strata",
+    "experimental_setup": "RAG-Bench (NQ, TQA, WebQ); Llama-2-7B on test queries pre-filtered to contain >=2 gold contexts in top-k (§4.1), paired with irrelevant, relevant hard-negative, and counterfactual noise",
     "metric_and_denominator": "Strict Exact Match (EM) across Golden Only vs. 3 noise strata in 1x decoding call",
-    "verified_finding": "Bounds EM degradation between Golden Only (83.07) and Counterfactual Noise (82.10) in a single decoding call",
+    "verified_finding": "On gold-present reader splits, bounds EM drop from Golden Only (83.07) to Counterfactual Noise (82.10, -0.97 pp vs. -16.19 pp unadapted); does not evaluate retrieval omissions where gold is absent",
     "evidence_tier": "direct_empirical_finding"
   },
   {
@@ -110,10 +110,10 @@
   {
     "table_or_sec": "Table 6 (Row 13)",
     "method_or_tension": "RobustRAG (certifiedRAG2024)",
-    "source_location": "Xiang et al. (ICML 2024), Theorems 1–2, Tables I–III",
-    "experimental_setup": "RQA, NQ, Biography; G=ceil(k/omega) isolated passage groups with keyword (alpha,beta) or decoding (eta) aggregation",
-    "metric_and_denominator": "Query-specific Certifiable Accuracy (cacc), empirical ASR, and relative latency (1.16–3.65x)",
-    "verified_finding": "Provides formal query-specific worst-case certifiable accuracy bounds across G=ceil(k/omega) isolated decoding calls",
+    "source_location": "Xiang et al. (ICML 2024, arXiv:2405.15556v2), Definition 1, Algorithms 3–4, Tables I–III, Appendix Grouping Analysis",
+    "experimental_setup": "RQA, NQ, Biography; G=ceil(k/omega) isolated passage groups with Secure Keyword Aggregation (G isolated calls + 1 final synthesis call = G+1 LLM calls) or Secure Decoding Aggregation",
+    "metric_and_denominator": "Worst-case task-metric lower bound min_{C'} M(y_hat_{C'}, y*) >= tau (Certifiable Accuracy cacc for tau=1 on QA), empirical ASR, and online latency (1.16–3.65x); offline certification enumerates worst-case group shifts",
+    "verified_finding": "Certifies that all outputs reachable under <=k' poisoned passages achieve task evaluation score >= tau (without requiring identical keyword sets or token strings across perturbations)",
     "evidence_tier": "formal_theorem_or_bound"
   },
   {

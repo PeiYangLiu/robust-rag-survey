@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic verification script for all quantitative, taxonomic, and formal diagnostic artifacts of the Robust RAG Systematic Survey."""
+"""Deterministic verification script for all quantitative, taxonomic, and formal CPOMDP/warrant artifacts of the Robust RAG Systematic Survey."""
 import csv, hashlib, json
 from pathlib import Path
 
@@ -32,11 +32,18 @@ assert sum(1 for r in lit_rows if r['study_type'] == 'survey_or_overview') == 5
 assert not any(r['metrics_reported_or_relevant'].strip().lower() in {'high', 'medium', 'low'} for r in lit_rows)
 assert all(r.get('taxonomy_pillar') and r.get('mechanism_strand') for r in lit_rows)
 
-# Verify W3 fixes on RECOMP (rrag226), KG dialogue (venueExpanded025), and CRPS (liu2026contrasts)
+# Verify exact 4 metadata/abstract-only ACM records
+meta_only_keys = sorted(r['cite_key'] for r in lit_rows if 'metadata_and_abstract' in r['verification_status'])
+assert meta_only_keys == ['venue044', 'venue045', 'venue049', 'venue050'], meta_only_keys
+
+# Verify W3 fixes on RECOMP (rrag226), KG dialogue (venueExpanded025), ALDEN (rrag160), and CRPS (liu2026contrasts)
 recomp_lm = next(r for r in lit_rows if r['cite_key'] == 'rrag226')
 assert 'selective_risk_and_calibration_ece' not in recomp_lm['C4_all_applicable']
 kg_lm = next(r for r in lit_rows if r['cite_key'] == 'venueExpanded025')
 assert 'adversarially_manipulated' not in kg_lm['C1_all_applicable']
+alden_lm = next(r for r in lit_rows if r['cite_key'] == 'rrag160')
+assert alden_lm['C2_capability_and_budget'] == 'query_only_or_prompt_interface'
+assert alden_lm['C2_capability_all_applicable'] == 'query_only_or_prompt_interface'
 crps_ci = next(r for r in cit_rows if r['cite_key'] == 'liu2026contrasts')
 assert crps_ci['study_type'] == 'foundational_or_survey'
 
@@ -52,22 +59,30 @@ assert all(q.get('source') and q.get('venue') and q.get('query') for q in snap['
 assert map76['distinct_papers'] == 76 and map76['strands'] == 20 and len(map76['groups']) == 4
 assert len(cov76) == 76
 
-# Verify formal mathematical properties (Eqs. 2-5 and 9) have zero counterexamples across the 5 paired scenarios & 4 archetypes
-# 1. Slack-normalized Eq. (3): P_S(Z*|q',D') - P_G(Z*|q') >= gamma_resp * (1 - P_G(Z*|q'))
+# Verify formal mathematical properties (Eqs. 2-5 and 9):
+# 1. Slack-normalized Eq. (3): P_S(Z*|q',D') - P_0(q') >= gamma_resp * (1 - P_0(q'))
 gamma_resp = 0.5
-for p_g in [0.0, 0.2, 0.8, 0.95, 1.0]:
+for p_0 in [0.0, 0.2, 0.8, 0.95, 1.0]:
     p_s_ideal = 1.0
-    assert (p_s_ideal - p_g) >= gamma_resp * (1.0 - p_g) - 1e-12
+    assert (p_s_ideal - p_0) >= gamma_resp * (1.0 - p_0) - 1e-12
 
-# 2. Non-negative shifted CPOMDP terminal loss Eq. (4) & VoI Eq. (9):
-# l_T(z, ans) = (1 + lambda_r) * L_T(Y_T, z) >= 0, l_T(z, abs) = mu_r > 0
-# Answering preferred iff E[L_T] <= mu_r / (1 + lambda_r) = alpha_r. Since l_T >= 0 and C_op >= 0, V_{t+1}^* >= 0 everywhere.
+# 2. Population Constrained POMDP Lagrangian Dual (Eqs. 4, 5, and 9) on the W1 two-class test case:
+# Class A (prob 0.5, risk 0.0), Class B (prob 0.5, risk 0.15); target alpha_r = 0.10, tau_cov = 1.0.
+# Dual terminal losses: l_T(z, ans) = (1 + lambda_r) * L_T(Y_T, z) >= 0, l_T(z, abs) = c_abs + lambda_r * alpha_r + nu_r > 0
+# Effective acceptance cutoff: tau_thr*(lambda_r, nu_r) = (c_abs + lambda_r * alpha_r + nu_r) / (1 + lambda_r)
+# Because Class A has risk 0.0 < alpha_r = 0.10, positive coverage multiplier nu_r > 0 sets tau_thr* = 0.15 (or 0.20),
+# answering both A and B to achieve Coverage = 1.0 >= 1.0 and population SelectiveRisk = 0.075 <= 0.10!
+classes = [(0.5, 0.0), (0.5, 0.15)]
 alpha_r = 0.10
-lam_r = 2.0
-mu_r = alpha_r * (1.0 + lam_r)  # 0.30
-for err_prob in [0.0, 0.03, 0.10, 0.25]:
-    term_risk = min((1.0 + lam_r) * err_prob, mu_r)
-    assert term_risk >= 0.0
+tau_cov = 1.0
+c_abs = 0.10
+lam_r = 0.0
+nu_r = 0.05  # gives tau_thr* = (0.10 + 0.05) / 1.0 = 0.15
+tau_thr_star = (c_abs + lam_r * alpha_r + nu_r) / (1.0 + lam_r)
+answered_prob = sum(p for p, r_q in classes if r_q <= tau_thr_star)
+pop_sel_risk = sum(p * r_q for p, r_q in classes if r_q <= tau_thr_star) / answered_prob
+assert answered_prob >= tau_cov - 1e-12, f"Coverage failed: {answered_prob}"
+assert pop_sel_risk <= alpha_r + 1e-12, f"Selective risk failed: {pop_sel_risk}"
 
 summary = {
     'status': 'PASS',
@@ -76,6 +91,7 @@ summary = {
     'core_primary_rag_studies': 330,
     'core_full_text_pdf_verified_studies': 326,
     'core_metadata_only_acm_studies': 4,
+    'core_metadata_only_keys': meta_only_keys,
     'core_prior_surveys_na': 5,
     'supplementary_primary_rag_studies': 25,
     'supplementary_foundational_adjacent_or_survey_na': 29,
@@ -90,7 +106,12 @@ summary = {
     'all_389_mapped_to_4_pillars_and_20_strands': True,
     'zero_invalid_metric_tags_in_literature_map': True,
     'zero_spurious_adversarial_or_calibration_multilabels': True,
-    'formal_eq3_and_eq9_counterexample_free_verified': True,
+    'alden_c2_query_only_verified': True,
+    'population_cpomdp_dual_risk_coverage_verified': {
+        'tau_thr_star': tau_thr_star,
+        'achieved_coverage': answered_prob,
+        'achieved_selective_risk': pop_sel_risk,
+    },
     'sha256_verified': True,
 }
 print(json.dumps(summary, indent=2))

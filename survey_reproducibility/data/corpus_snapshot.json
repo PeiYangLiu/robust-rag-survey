@@ -4,9 +4,9 @@
   "core_coding_and_artifact_freeze": "2026-06-15",
   "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
-  "packaged_literature_map_sha256": "44e51de92c55ff69c4e6573f3d833a25cadcd95b7cff02684ffd7a3b2c33c1fa",
+  "packaged_literature_map_sha256": "f6143bb4b8023a008cd0e82394e888569fbd77cbbe62095e90cd7bc597bee5be",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "05b75658dfbade29e4ec395c9eb7ba8a79bbbf5176af79dc4579e0cc655d4eda",
+  "packaged_citation_index_sha256": "077f25d7321cde1b63580bd171dca580dac8f1d5b41995fe2d468ee7748014a4",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
   "packaged_coverage_decisions_sha256": "8c79443fdf715a38cdb2d63eedf8188d4fd1500f6e4c5db719e6d686fb5d39fa",
   "packaged_coverage_decisions_breakdown": {
@@ -940,6 +940,6 @@
     "zero_spurious_adversarial_or_calibration_multilabels": true
   },
   "packaged_venue_queries_sha256": "1542880efea6f9eaaea607a38a6c78d8cc81bf5d3105aeef46465661b0e8d590",
-  "packaged_claim_evidence_matrix_sha256": "89f43fdab31a1dc0e3486ed93084b2d3d3df2970e9b9382d0a1291f8981e92e0",
+  "packaged_claim_evidence_matrix_sha256": "a7a5b4bce93fb76b179e2400237926e8fed15d4476d823109043a7b3bc87c403",
   "venue_31_systematic_queries_note": "31 records total: 1 full ACL Anthology bib scan + 15 DBLP API queries (top-200 cap) + 15 OpenAlex API queries (top-200 cap)."
 }
