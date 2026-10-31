@@ -24,7 +24,11 @@ cov76 = list(csv.DictReader((data / 'research_map_76_works.csv').open()))
 assert len(lit_rows) == 335, len(lit_rows)
 assert sum(1 for r in lit_rows if r['study_type'] == 'primary_rag_study') == 330
 assert sum(1 for r in lit_rows if r['study_type'] == 'survey_or_overview') == 5
+assert not any(r['metrics_reported_or_relevant'].strip().lower() in {'high', 'medium', 'low'} for r in lit_rows)
+assert all(r.get('taxonomy_pillar') and r.get('mechanism_strand') for r in lit_rows)
 assert len(cit_rows) == 389, len(cit_rows)
+assert all(r.get('taxonomy_pillar') and r.get('mechanism_strand') for r in cit_rows)
+assert sum(1 for r in cit_rows if r.get('is_figure2_representative_76') == 'true') == 76
 assert len(cov_rows) == 476, len(cov_rows)
 assert map76['distinct_papers'] == 76 and map76['strands'] == 20 and len(map76['groups']) == 4
 assert len(cov76) == 76
@@ -37,12 +41,16 @@ summary = {
     'core_full_text_pdf_verified_studies': 326,
     'core_metadata_only_acm_studies': 4,
     'core_prior_surveys_na': 5,
+    'supplementary_primary_rag_studies': 26,
+    'supplementary_foundational_or_survey_na': 28,
     'total_primary_rag_studies_all_cited': 356,
     'total_foundational_or_survey_na_all_cited': 33,
     'coverage_decision_log_rows': len(cov_rows),
     'figure2_taxonomy_pillars': len(map76['groups']),
     'figure2_mechanism_strands': map76['strands'],
     'figure2_representative_works': map76['distinct_papers'],
+    'all_389_mapped_to_4_pillars_and_20_strands': True,
+    'zero_invalid_metric_tags_in_literature_map': True,
     'sha256_verified': True,
 }
 print(json.dumps(summary, indent=2))

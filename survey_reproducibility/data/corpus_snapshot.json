@@ -4,9 +4,9 @@
   "core_coding_and_artifact_freeze": "2026-06-15",
   "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
-  "packaged_literature_map_sha256": "d73538bae835bf897e7c4a60f61781fc7d6f91de1fdf2f9d77c28f58ae8b5084",
+  "packaged_literature_map_sha256": "6f1f04fd5407becd293f272010fb9d701311f33707950768c5188a8076912583",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "b6b7eda250a35b43fccd184554f6655aebfe5bc59294163bb31b0d4070930b47",
+  "packaged_citation_index_sha256": "b241f49549978df2f2924e5517f0d6969f462791b567266ff98d693916e45b21",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
   "packaged_coverage_decisions_sha256": "8c79443fdf715a38cdb2d63eedf8188d4fd1500f6e4c5db719e6d686fb5d39fa",
   "packaged_coverage_decisions_breakdown": {
@@ -710,5 +710,10 @@
       "venue": "",
       "query": "faithfulness retrieval augmented generation"
     }
-  ]
+  ],
+  "taxonomy_mapping_summary": {
+    "all_389_mapped_to_4_pillars_and_20_strands": true,
+    "figure2_representative_works_count": 76,
+    "zero_invalid_metric_tags_in_literature_map": true
+  }
 }

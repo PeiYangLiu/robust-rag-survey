@@ -158,7 +158,7 @@ txt(a, 'b_exc_s', 453, 540, 318, '(ignoring retrieved updates to keep outputs ar
 folded_doc(a, 'c_miss_doc', 814, 204, 96, 146, 'purple', 'pl_soft', 11, dash=True)
 a.circle('c_q_circ', 862, 248, 12.5, 'white', 'purple', 1.1)
 txt(a, 'c_q_mark', 852, 239, 20, '?', 13.5, True, 'purple', 'center')
-txt(a, 'c_miss_lbl', 820, 274, 84, 'Ref. warrant\nW_T^ref = empty', 9.6, True, 'purple_dark', 'center')
+txt(a, 'c_miss_lbl', 820, 274, 84, 'Local warrant\nW_T^loc = empty', 9.6, True, 'purple_dark', 'center')
 txt(a, 'c_miss_sub', 812, 362, 100, 'Missing premise /\nunresolved\nconflict', 9.5, False, 'muted', 'center')
 
 arrow(a, 'c_in_arr', 912, 276, 922, 276, 'purple', 1.3)
