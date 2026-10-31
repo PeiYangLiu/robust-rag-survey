@@ -22,8 +22,8 @@
     "method_or_tension": "RECOMP (rrag226)",
     "source_location": "Xu et al. (ICLR 2024, arXiv:2310.04408v1), §4–§5, Table 2",
     "experimental_setup": "NQ, TriviaQA, HotpotQA; MS-MARCO Contriever top-5 Wikipedia passages compressed via extractive dual-encoder or distilled abstractive T5-Large with null gate",
-    "metric_and_denominator": "Exact Match (EM) and retrieved passage tokens on Flan-UL2 (Table 2, CIs not reported): NQ 660->37 tokens (39.39->36.57 EM, -2.82 pp extractive; 56 tokens, 37.04 EM abstractive); TQA 677->38 tokens (62.37->58.99 EM, -3.38 pp); HotpotQA 684->75 tokens (32.80->30.40 EM, -2.40 pp)",
-    "verified_finding": "Compresses retrieved passage tokens by 9–18x (to 5%–11% of top-5 tokens) with a -2.40 to -3.38 pp extractive EM change on Flan-UL2; null gate abstains from prepending context when utility is negative",
+    "metric_and_denominator": "Exact Match (EM) and retrieved passage tokens on Flan-UL2 (RECOMP v1 Table 2, CIs not reported): Extractive (Ours): NQ 660->37 tok (39.39->36.57 EM, -2.82 pp), TQA 677->38 tok (62.37->58.99 EM, -3.38 pp), HotpotQA 684->75 tok (32.80->30.40 EM, -2.40 pp); Abstractive (Ours, T5-Large): NQ 660->36 tok (37.04 EM, -2.35 pp), TQA 677->37 tok (58.77 EM, -3.60 pp), HotpotQA 684->54 tok (28.98 EM, -3.82 pp); Abstractive (GPT-3.5): NQ 56 tok (37.12 EM)",
+    "verified_finding": "Trained extractive/abstractive compressors cut passage tokens by 9–18x (to 36–75 tokens) with a -2.35 to -3.82 pp EM trade-off on Flan-UL2 (and larger -3.82 pp abstractive drop on multi-hop HotpotQA); paired with xRAG (Cheng et al. NeurIPS 2024, §6.1, Table 11: 175.1->1 token, Mistral-7B Resilience 74.1%->82.3% [+8.2 pp], Boost 29.5%->22.2% [-7.3 pp])",
     "evidence_tier": "direct_empirical_finding"
   },
   {
@@ -113,7 +113,7 @@
     "source_location": "Xiang et al. (ICML 2024, arXiv:2405.15556v2), Definition 1, Algorithms 3–4, Tables I–III, Appendix Grouping Analysis",
     "experimental_setup": "RQA, NQ, Biography; G=ceil(k/omega) isolated passage groups with Secure Keyword Aggregation (G isolated calls + 1 final synthesis call = G+1 LLM calls) or Secure Decoding Aggregation",
     "metric_and_denominator": "Worst-case task-metric lower bound min_{C'} M(y_hat_{C'}, y*) >= tau (Certifiable Accuracy cacc for tau=1 on QA), empirical ASR, and online latency (1.16–3.65x); offline certification enumerates worst-case group shifts",
-    "verified_finding": "Certifies that all outputs reachable under <=k' poisoned passages achieve task evaluation score >= tau (without requiring identical keyword sets or token strings across perturbations)",
+    "verified_finding": "Certifies that all outputs reachable under <=k' poisoned passages achieve task evaluation score >= tau (without requiring identical keyword sets or token strings); current protocol evaluates single-hop QA, while cross-group multi-hop reasoning is unvalidated and requires query decomposition",
     "evidence_tier": "formal_theorem_or_bound"
   },
   {
@@ -167,7 +167,7 @@
     "source_location": "Context-DPO (rrag042), ParamMute (rrag024), Parenting (rrag214), PoisonedRAG (poisonedRAG2024)",
     "experimental_setup": "Single-hop counterfactual adherence (ConFiQA) vs. noise/poisoning splits",
     "metric_and_denominator": "Context Adherence Rate vs. ASR and noise invariance",
-    "verified_finding": "Empirical: Context-DPO/ParamMute raise single-hop context adherence while Parenting shows gradient conflict with noise invariance; Mechanistic inference: unconditional FFN muting risks impairing unretrieved multi-hop bridges",
+    "verified_finding": "Empirical: Context-DPO/ParamMute raise single-hop counterfactual adherence, while Parenting (Fig. 2, §4) identifies adherence-specific, robustness-specific, and shared entangled parameter subspaces whose unselective joint tuning trades off adherence against noise robustness; Mechanistic hypothesis: zeroing parametric FFN neurons can impair unretrieved multi-hop bridges",
     "evidence_tier": "cross_study_mechanistic_synthesis"
   },
   {

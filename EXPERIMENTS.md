@@ -13,12 +13,12 @@ python3 survey_reproducibility/verify_survey_artifacts.py
 ```
 
 This script deterministically verifies:
-1. **SHA-256 integrity** of `literature_map.csv` (335 core records), `citation_index.csv` (389 total cited works), `coverage_decisions.csv` (476 inclusion/consolidation/exclusion records), `venue_systematic_queries.csv` (31 venue query logs), and `claim_evidence_matrix.csv` (23 source-verified table rows).
+1. **SHA-256 integrity** of `literature_map.csv` (336 core records), `citation_index.csv` (390 total cited works), `coverage_decisions.csv` (476 inclusion/consolidation/exclusion records), `venue_systematic_queries.csv` (31 venue query logs), and `claim_evidence_matrix.csv` (23 source-verified table rows).
 2. **Exact corpus stratification** (§2.2):
-   - **355 primary RAG studies and benchmarks** (`330` in the frozen core map: `326` full-text-PDF verified + `4` ACM metadata/abstract records; plus `25` supplementary primary RAG studies).
+   - **356 primary RAG studies and benchmarks** (`331` in the frozen core map: `327` full-text-PDF verified + `4` ACM metadata/abstract records; plus `25` supplementary primary RAG studies).
    - **34 foundational, adjacent-transferable, and prior-survey references** (`5` prior surveys in the core map + `29` supplementary foundational retrieval, calibration, selective prediction, transferable reasoning/calibration, and survey works).
    - **76 representative works in Figure 2** (`75` primary RAG studies + `1` foundational provenance benchmark `kilt2021`) spanning the 4 intervention pillars and 20 mechanism strands.
-3. **Field-level semantic audit**: confirms zero invalid metric tags in `literature_map.csv`, zero spurious `selective_risk_and_calibration_ece` tags on non-calibration works (e.g., RECOMP `rrag226`), zero spurious `adversarially_manipulated` tags on non-adversarial works (e.g., `venueExpanded025`), and explicit `taxonomy_pillar` and `mechanism_strand` assignments across all 389 records.
+3. **Field-level semantic audit**: confirms zero invalid metric tags in `literature_map.csv`, zero spurious `selective_risk_and_calibration_ece` tags on non-calibration works (e.g., RECOMP `rrag226`), zero spurious `adversarially_manipulated` tags on non-adversarial works (e.g., `venueExpanded025`), and explicit `taxonomy_pillar` and `mechanism_strand` assignments across all 390 records.
 4. **Formal mathematical verification** (§3.2–§3.3 & §7.5): verifies that the slack-normalized responsiveness criterion in Equation (3) and the non-negative shifted CPOMDP dual loss in Equations (4) and (9) are free of algebraic counterexamples across the 5 paired diagnostic scenarios.
 
 ## 2. Mapping Between Manuscript Sections/Tables and Repository Artifacts

@@ -4,23 +4,25 @@
   "core_coding_and_artifact_freeze": "2026-06-15",
   "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
-  "packaged_literature_map_sha256": "f6143bb4b8023a008cd0e82394e888569fbd77cbbe62095e90cd7bc597bee5be",
+  "packaged_literature_map_sha256": "0ee790023907e1648382191dc3c7efec217c4fc3d80591376b2e96ffb0d305e9",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "077f25d7321cde1b63580bd171dca580dac8f1d5b41995fe2d468ee7748014a4",
+  "packaged_citation_index_sha256": "63e50575fb27106f36968bc39cb16fc11ff5088fe70419623467331f692f91e0",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
-  "packaged_coverage_decisions_sha256": "8c79443fdf715a38cdb2d63eedf8188d4fd1500f6e4c5db719e6d686fb5d39fa",
+  "packaged_coverage_decisions_sha256": "58b6c0be83204b1327d4e364fb1ad6599752a8853cf307f336ba1ffc1c2ad979",
   "packaged_coverage_decisions_breakdown": {
-    "total_decision_rows": 476,
-    "included_and_cited_in_main_text": 389,
-    "excluded_duplicate_merged": 7,
+    "total_rows": 476,
+    "cited_in_main_text": 390,
+    "cited_primary_rag_studies": 356,
+    "cited_foundational_adjacent_or_survey": 34,
+    "excluded_duplicate_merged": 11,
     "excluded_round2_adjudication": 6,
-    "excluded_map_b_adjudication": 74
+    "excluded_map_b_adjudication": 69
   },
   "upstream_raw_map_rows": 342,
   "upstream_raw_map_sha256": "6607ac44cab2ddad91bdeee491c9e7f7414fdb35cdcc65fb9d8ea360a9c375f9",
-  "deduplicated_core_map_rows": 335,
-  "deduplicated_core_primary_rag_studies_total": 330,
-  "deduplicated_core_primary_rag_full_text_pdf_verified": 326,
+  "deduplicated_core_map_rows": 336,
+  "deduplicated_core_primary_rag_studies_total": 331,
+  "deduplicated_core_primary_rag_full_text_pdf_verified": 327,
   "deduplicated_core_primary_rag_metadata_abstract_only_acm": 4,
   "metadata_abstract_only_cite_keys": [
     "venue044",
@@ -74,8 +76,8 @@
     "primary_rag_studies_supplementary_25": 25,
     "foundational_adjacent_and_survey_references_29": 29
   },
-  "cited_references_total": 389,
-  "total_primary_rag_studies_all_cited": 355,
+  "cited_references_total": 390,
+  "total_primary_rag_studies_all_cited": 356,
   "total_foundational_or_survey_na_all_cited": 34,
   "search_and_screening_funnel_exact_accounting": {
     "stage_1a_initial_open_source_retrieval": {
@@ -940,6 +942,6 @@
     "zero_spurious_adversarial_or_calibration_multilabels": true
   },
   "packaged_venue_queries_sha256": "1542880efea6f9eaaea607a38a6c78d8cc81bf5d3105aeef46465661b0e8d590",
-  "packaged_claim_evidence_matrix_sha256": "a7a5b4bce93fb76b179e2400237926e8fed15d4476d823109043a7b3bc87c403",
+  "packaged_claim_evidence_matrix_sha256": "47dd5de09af745a3302fae76e4ca77090252e06dfe7567afa386b93fb014b0c3",
   "venue_31_systematic_queries_note": "31 records total: 1 full ACL Anthology bib scan + 15 DBLP API queries (top-200 cap) + 15 OpenAlex API queries (top-200 cap)."
 }

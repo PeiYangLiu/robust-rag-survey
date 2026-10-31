@@ -21,8 +21,8 @@
 1. **Version Consolidation**: When an arXiv preprint has a corresponding peer-reviewed conference or journal publication, both records are merged into a single canonical bibliography entry carrying the peer-reviewed venue metadata.
 2. **Homonymous Study Disambiguation**: Distinct papers sharing identical or similar system names (e.g., *LongRAG* by Zhao et al., EMNLP 2024 on dual-perspective LongBench multi-hop QA vs. *LongRAG* by Jiang et al., 2024 on 4K-token retrieval units; *MIRAGE* metric-sensitivity benchmark vs. *MIRAGE* surrogate black-box poisoning attack) are disambiguated by author list, venue, task setup, and evaluation metric.
 3. **Inclusion and Exclusion Criteria**:
-   - **Included ($N = 389$ unique works)**:
-     - **$335$ Primary Robust RAG Studies & Benchmarks**: Papers that directly formalize, diagnose, attack, defend, mitigate, or benchmark RAG pipelines under query variations ($\Omega_q$), retrieval noise ($\Omega_{	ext{ret}}$), knowledge conflicts ($\Omega_{	ext{conf}}$), evidential insufficiency ($\Omega_{	ext{gap}}$), or adversarial manipulation ($\Omega_{	ext{adv}}$).
+   - **Included ($N = 390$ unique works)**:
+     - **$336$ Primary Robust RAG Studies & Benchmarks**: Papers that directly formalize, diagnose, attack, defend, mitigate, or benchmark RAG pipelines under query variations ($\Omega_q$), retrieval noise ($\Omega_{	ext{ret}}$), knowledge conflicts ($\Omega_{	ext{conf}}$), evidential insufficiency ($\Omega_{	ext{gap}}$), or adversarial manipulation ($\Omega_{	ext{adv}}$).
      - **$26$ Structural & Ecosystem Extensions**: GraphRAG, tabular RAG, multimodal (vision, video, 3D) RAG, and persistent agentic RAG works analyzing grounding and robustness across rich modalities.
      - **$28$ Foundational & Survey References**: Classical retrieval (DPR, REALM, FiD, BEIR, KILT), statistical selective prediction and calibration (Chow, 1970; Geifman & El-Yaniv, 2017; Guo et al., 2017), and prior RAG/conflict/abstention/security surveys.
    - **Excluded**: Domain-specific RAG deployment descriptions that neither evaluate robustness under imperfect evidence nor propose a mechanism addressing $\Omega$.
