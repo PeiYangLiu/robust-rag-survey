@@ -1,28 +1,29 @@
 {
-  "snapshot_name": "map_b_20260615_dedup335_c1_c5_v31_full_audit",
+  "snapshot_name": "map_b_20261102_dedup336_cited390_v44_complete_audit",
   "core_search_cutoff": "2026-06-03",
   "core_coding_and_artifact_freeze": "2026-06-15",
   "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
-  "packaged_literature_map_sha256": "065bcfb44b960e37d7ed45d0e67618681fac1dfc07b785bf5b5f545db87adca1",
+  "packaged_literature_map_sha256": "26c501d9935efd1dc56283ea03e759e5dd3535345aaef6011072a8f25431b825",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "9482271052f3549dff576bd0b999d23167a35a4292145441f291a82d56c06608",
+  "packaged_citation_index_sha256": "63aff76332bdb809aa1fc4cfa9c2850f0083c9a432ff56aed515876f27563ef5",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
-  "packaged_coverage_decisions_sha256": "dc645044649e470b985a2a7ada5d1c11a9b5933dec963e7b69125418b0dc544f",
+  "packaged_coverage_decisions_sha256": "5de9284cdd41fa2470b32abc9b2cc9bb850458314c7ec79f7d3a79dcb3bd4d02",
   "packaged_coverage_decisions_breakdown": {
     "total_rows": 476,
     "cited_in_main_text": 390,
-    "cited_primary_rag_studies": 356,
-    "cited_foundational_adjacent_or_survey": 34,
-    "excluded_duplicate_merged": 11,
-    "excluded_round2_adjudication": 6,
+    "cited_primary_rag_studies": 355,
+    "cited_foundational_adjacent_or_survey": 35,
+    "excluded_duplicate_merged": 12,
+    "excluded_representative_selection_round2": 2,
+    "excluded_round2_adjudication": 3,
     "excluded_map_b_adjudication": 69
   },
   "upstream_raw_map_rows": 342,
   "upstream_raw_map_sha256": "6607ac44cab2ddad91bdeee491c9e7f7414fdb35cdcc65fb9d8ea360a9c375f9",
   "deduplicated_core_map_rows": 336,
-  "deduplicated_core_primary_rag_studies_total": 331,
-  "deduplicated_core_primary_rag_full_text_pdf_verified": 327,
+  "deduplicated_core_primary_rag_studies_total": 330,
+  "deduplicated_core_primary_rag_full_text_pdf_verified": 326,
   "deduplicated_core_primary_rag_metadata_abstract_only_acm": 4,
   "metadata_abstract_only_cite_keys": [
     "venue044",
@@ -77,8 +78,8 @@
     "foundational_adjacent_and_survey_references_29": 29
   },
   "cited_references_total": 390,
-  "total_primary_rag_studies_all_cited": 356,
-  "total_foundational_or_survey_na_all_cited": 34,
+  "total_primary_rag_studies_all_cited": 355,
+  "total_foundational_or_survey_na_all_cited": 35,
   "search_and_screening_funnel_exact_accounting": {
     "stage_1a_initial_open_source_retrieval": {
       "arxiv_boolean_queries_count": 55,
@@ -117,8 +118,9 @@
     },
     "stage_1d_consolidation_and_deduplication": {
       "raw_combined_map_b_records_268_plus_74": 342,
-      "cross_stratum_duplicate_pairs_merged": 7,
-      "deduplicated_unique_core_map_b_records": 335
+      "cross_stratum_duplicate_pairs_merged_in_core_map": 6,
+      "deduplicated_unique_core_map_b_records": 336,
+      "total_duplicate_merges_including_round2_and_supplementary": 12
     }
   },
   "inter_annotator_agreement_by_stage": {
@@ -151,196 +153,147 @@
   },
   "coordinate_distributions_core_full_text_verified_326": {
     "C1_evidence_state": {
-      "adversarially_manipulated": 117,
-      "noisy_or_distracting": 47,
-      "insufficient_or_uncertain": 58,
-      "conflicting_evidence": 57,
-      "clean_or_heterogeneous_mix": 47
+      "adversarially_manipulated": 118,
+      "conflicting_evidence": 64,
+      "noisy_or_distracting": 62,
+      "insufficient_or_uncertain": 62,
+      "clean_or_heterogeneous_mix": 20
     },
     "representation_modality": {
       "unstructured_text": 291,
-      "structured_graph_or_table": 17,
-      "multimodal_vision_or_video": 18
+      "multimodal_vision_or_video": 18,
+      "structured_graph_or_table": 17
     },
     "C2_disturbance_origin": {
-      "adversarial_corpus_poisoning": 79,
-      "benign_retrieval_imperfection": 150,
-      "adversarial_prompt_injection": 26,
-      "parametric_contextual_conflict": 51,
-      "adversarial_backdoor_trigger": 6,
-      "inter_document_source_conflict": 6,
-      "adversarial_privacy_extraction": 5,
-      "query_perturbation_or_drift": 3
-    },
-    "C2_capability_and_budget": {
-      "black_box_corpus_write_bounded_m": 66,
-      "benign_stochastic_channel": 209,
-      "white_box_gradient_or_weight_access": 17,
-      "query_only_or_prompt_interface": 24,
-      "memory_or_pipeline_orchestration_access": 10
-    },
-    "C3_intervention_stage": {
-      "corpus_and_index_security": 67,
-      "multi_stage_joint_pipeline": 34,
-      "generator_reading_and_representations": 78,
-      "closed_loop_system_control": 41,
-      "context_filtering_and_compression": 45,
-      "query_and_retriever_optimization": 13,
-      "evaluation_protocol_and_benchmark": 48
-    },
-    "C4_outcome_metric": {
-      "empirical_attack_success_and_robust_acc": 106,
-      "certified_robustness_bound": 5,
-      "end_to_end_task_em_and_f1": 131,
-      "selective_risk_and_calibration_ece": 35,
-      "span_faithfulness_and_attribution_f1": 43,
-      "retrieval_ranking_and_exposure": 6
-    },
-    "C5_action_policy": {
-      "single_pass_grounded_answering": 246,
-      "multi_pass_verification_or_aggregation": 19,
-      "selective_abstention_or_clarification": 39,
-      "adaptive_re_retrieval_and_routing": 22
-    }
-  },
-  "coordinate_distributions_core_primary_rag_330": {
-    "C1_evidence_state": {
-      "adversarially_manipulated": 118,
-      "noisy_or_distracting": 49,
-      "insufficient_or_uncertain": 58,
-      "conflicting_evidence": 57,
-      "clean_or_heterogeneous_mix": 48
-    },
-    "representation_modality": {
-      "unstructured_text": 295,
-      "structured_graph_or_table": 17,
-      "multimodal_vision_or_video": 18
-    },
-    "C2_disturbance_origin": {
-      "adversarial_corpus_poisoning": 79,
-      "benign_retrieval_imperfection": 153,
-      "adversarial_prompt_injection": 26,
-      "parametric_contextual_conflict": 51,
-      "adversarial_backdoor_trigger": 7,
-      "inter_document_source_conflict": 6,
-      "adversarial_privacy_extraction": 5,
-      "query_perturbation_or_drift": 3
-    },
-    "C2_capability_and_budget": {
-      "black_box_corpus_write_bounded_m": 67,
-      "benign_stochastic_channel": 212,
-      "white_box_gradient_or_weight_access": 17,
-      "query_only_or_prompt_interface": 24,
-      "memory_or_pipeline_orchestration_access": 10
-    },
-    "C3_intervention_stage": {
-      "corpus_and_index_security": 68,
-      "multi_stage_joint_pipeline": 35,
-      "generator_reading_and_representations": 79,
-      "closed_loop_system_control": 41,
-      "context_filtering_and_compression": 45,
-      "query_and_retriever_optimization": 13,
-      "evaluation_protocol_and_benchmark": 49
-    },
-    "C4_outcome_metric": {
-      "empirical_attack_success_and_robust_acc": 107,
-      "certified_robustness_bound": 5,
-      "end_to_end_task_em_and_f1": 134,
-      "selective_risk_and_calibration_ece": 35,
-      "span_faithfulness_and_attribution_f1": 43,
-      "retrieval_ranking_and_exposure": 6
-    },
-    "C5_action_policy": {
-      "single_pass_grounded_answering": 250,
-      "multi_pass_verification_or_aggregation": 19,
-      "selective_abstention_or_clarification": 39,
-      "adaptive_re_retrieval_and_routing": 22
-    }
-  },
-  "multilabel_actual_coverage_core_primary_rag_330": {
-    "C1_all_applicable_counts": {
-      "adversarially_manipulated": 145,
-      "insufficient_or_uncertain": 73,
-      "noisy_or_distracting": 105,
-      "conflicting_evidence": 86,
-      "clean_or_heterogeneous_mix": 48
-    },
-    "C2_capability_all_applicable_counts": {
-      "black_box_corpus_write_bounded_m": 86,
-      "white_box_gradient_or_weight_access": 56,
-      "benign_stochastic_channel": 212,
-      "query_only_or_prompt_interface": 24,
-      "memory_or_pipeline_orchestration_access": 10
-    },
-    "C4_all_applicable_counts": {
-      "empirical_attack_success_and_robust_acc": 117,
-      "end_to_end_task_em_and_f1": 280,
-      "certified_robustness_bound": 7,
-      "selective_risk_and_calibration_ece": 56,
-      "efficiency_tokens_or_latency": 29,
-      "span_faithfulness_and_attribution_f1": 56,
-      "retrieval_ranking_and_exposure": 6
-    },
-    "C5_all_applicable_counts": {
-      "single_pass_grounded_answering": 250,
-      "multi_pass_verification_or_aggregation": 26,
-      "selective_abstention_or_clarification": 39,
-      "selective_abstention_or_gating": 28,
-      "adaptive_re_retrieval_and_routing": 24
-    }
-  },
-  "coordinate_distributions_all_primary_rag_356_sensitivity": {
-    "C1_evidence_state": {
-      "adversarially_manipulated": 121,
-      "noisy_or_distracting": 73,
-      "insufficient_or_uncertain": 70,
-      "conflicting_evidence": 68,
-      "clean_or_heterogeneous_mix": 24
-    },
-    "representation_modality": {
-      "unstructured_text": 317,
-      "multimodal_vision_or_video": 20,
-      "structured_graph_or_table": 19
-    },
-    "C2_disturbance_origin": {
-      "benign_retrieval_imperfection": 162,
+      "benign_retrieval_imperfection": 142,
       "adversarial_corpus_poisoning": 85,
-      "parametric_contextual_conflict": 54,
-      "adversarial_prompt_injection": 24,
-      "inter_document_source_conflict": 14,
-      "query_perturbation_or_drift": 6,
-      "adversarial_privacy_extraction": 6,
-      "adversarial_backdoor_trigger": 5
+      "parametric_contextual_conflict": 53,
+      "adversarial_prompt_injection": 23,
+      "inter_document_source_conflict": 11,
+      "adversarial_privacy_extraction": 5,
+      "adversarial_backdoor_trigger": 4,
+      "query_perturbation_or_drift": 3
     },
     "C2_capability_and_budget": {
-      "benign_stochastic_channel": 235,
-      "black_box_corpus_write_bounded_m": 74,
-      "query_only_or_prompt_interface": 24,
+      "benign_stochastic_channel": 208,
+      "black_box_corpus_write_bounded_m": 73,
+      "query_only_or_prompt_interface": 22,
       "white_box_gradient_or_weight_access": 17,
       "memory_or_pipeline_orchestration_access": 6
     },
     "C3_intervention_stage": {
-      "generator_reading_and_representations": 81,
-      "corpus_and_index_security": 69,
+      "generator_reading_and_representations": 79,
+      "corpus_and_index_security": 68,
       "evaluation_protocol_and_benchmark": 57,
-      "context_filtering_and_compression": 51,
-      "closed_loop_system_control": 49,
-      "multi_stage_joint_pipeline": 35,
-      "query_and_retriever_optimization": 14
+      "context_filtering_and_compression": 46,
+      "closed_loop_system_control": 37,
+      "multi_stage_joint_pipeline": 27,
+      "query_and_retriever_optimization": 12
     },
     "C4_outcome_metric": {
-      "end_to_end_task_em_and_f1": 156,
-      "empirical_attack_success_and_robust_acc": 110,
-      "span_faithfulness_and_attribution_f1": 47,
-      "selective_risk_and_calibration_ece": 30,
-      "retrieval_ranking_and_exposure": 8,
+      "end_to_end_task_em_and_f1": 137,
+      "empirical_attack_success_and_robust_acc": 107,
+      "span_faithfulness_and_attribution_f1": 41,
+      "selective_risk_and_calibration_ece": 29,
+      "retrieval_ranking_and_exposure": 7,
       "certified_robustness_bound": 5
     },
     "C5_action_policy": {
-      "single_pass_grounded_answering": 264,
-      "selective_abstention_or_clarification": 40,
-      "adaptive_re_retrieval_and_routing": 28,
-      "multi_pass_verification_or_aggregation": 24
+      "single_pass_grounded_answering": 242,
+      "selective_abstention_or_clarification": 22,
+      "adaptive_re_retrieval_and_routing": 22,
+      "multi_pass_verification_or_aggregation": 20,
+      "conformal_set_or_uncertainty_calibration": 17,
+      "N/A_retrieval_only_benchmark": 3
+    }
+  },
+  "coordinate_distributions_core_primary_rag_330": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 119,
+      "noisy_or_distracting": 64,
+      "conflicting_evidence": 64,
+      "insufficient_or_uncertain": 62,
+      "clean_or_heterogeneous_mix": 21
+    },
+    "representation_modality": {
+      "unstructured_text": 295,
+      "multimodal_vision_or_video": 18,
+      "structured_graph_or_table": 17
+    },
+    "C2_disturbance_origin": {
+      "benign_retrieval_imperfection": 145,
+      "adversarial_corpus_poisoning": 85,
+      "parametric_contextual_conflict": 53,
+      "adversarial_prompt_injection": 23,
+      "inter_document_source_conflict": 11,
+      "adversarial_backdoor_trigger": 5,
+      "adversarial_privacy_extraction": 5,
+      "query_perturbation_or_drift": 3
+    },
+    "C2_capability_and_budget": {
+      "benign_stochastic_channel": 211,
+      "black_box_corpus_write_bounded_m": 74,
+      "query_only_or_prompt_interface": 22,
+      "white_box_gradient_or_weight_access": 17,
+      "memory_or_pipeline_orchestration_access": 6
+    },
+    "C3_intervention_stage": {
+      "generator_reading_and_representations": 80,
+      "corpus_and_index_security": 69,
+      "evaluation_protocol_and_benchmark": 58,
+      "context_filtering_and_compression": 46,
+      "closed_loop_system_control": 37,
+      "multi_stage_joint_pipeline": 28,
+      "query_and_retriever_optimization": 12
+    },
+    "C4_outcome_metric": {
+      "end_to_end_task_em_and_f1": 140,
+      "empirical_attack_success_and_robust_acc": 108,
+      "span_faithfulness_and_attribution_f1": 41,
+      "selective_risk_and_calibration_ece": 29,
+      "retrieval_ranking_and_exposure": 7,
+      "certified_robustness_bound": 5
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 246,
+      "selective_abstention_or_clarification": 22,
+      "adaptive_re_retrieval_and_routing": 22,
+      "multi_pass_verification_or_aggregation": 20,
+      "conformal_set_or_uncertainty_calibration": 17,
+      "N/A_retrieval_only_benchmark": 3
+    }
+  },
+  "multilabel_actual_coverage_core_primary_rag_330": {
+    "C1_all_applicable_counts": {
+      "adversarially_manipulated": 120,
+      "noisy_or_distracting": 111,
+      "conflicting_evidence": 91,
+      "insufficient_or_uncertain": 78,
+      "clean_or_heterogeneous_mix": 22
+    },
+    "C2_capability_all_applicable_counts": {
+      "benign_stochastic_channel": 211,
+      "black_box_corpus_write_bounded_m": 85,
+      "white_box_gradient_or_weight_access": 54,
+      "query_only_or_prompt_interface": 23,
+      "memory_or_pipeline_orchestration_access": 6
+    },
+    "C4_all_applicable_counts": {
+      "end_to_end_task_em_and_f1": 280,
+      "empirical_attack_success_and_robust_acc": 117,
+      "span_faithfulness_and_attribution_f1": 55,
+      "selective_risk_and_calibration_ece": 37,
+      "efficiency_tokens_or_latency": 33,
+      "retrieval_ranking_and_exposure": 8,
+      "certified_robustness_bound": 7
+    },
+    "C5_all_applicable_counts": {
+      "single_pass_grounded_answering": 254,
+      "selective_abstention_or_clarification": 43,
+      "multi_pass_verification_or_aggregation": 27,
+      "adaptive_re_retrieval_and_routing": 25,
+      "conformal_set_or_uncertainty_calibration": 17,
+      "N/A_retrieval_only_benchmark": 3
     }
   },
   "arxiv_55_boolean_queries": [
@@ -940,7 +893,8 @@
     }
   ],
   "taxonomy_mapping_summary": {
-    "all_389_mapped_to_4_pillars_and_20_strands": true,
+    "all_390_cited_works_accounted_355_primary_plus_35_foundational_survey": true,
+    "all_355_primary_rag_studies_mapped_to_4_pillars_and_20_strands": true,
     "figure2_representative_works_total": 76,
     "figure2_primary_rag_studies": 75,
     "figure2_foundational_provenance_benchmarks": 1,
@@ -949,181 +903,123 @@
     "zero_spurious_adversarial_or_calibration_multilabels": true
   },
   "packaged_venue_queries_sha256": "1542880efea6f9eaaea607a38a6c78d8cc81bf5d3105aeef46465661b0e8d590",
-  "packaged_claim_evidence_matrix_sha256": "b23fe63fd72194fbdac682fe16abb007163a512d8854b7eb92e2367c3918cf56",
+  "packaged_claim_evidence_matrix_sha256": "46a473579ce5a22befe715415c7f2dff6316164ebf4e24786ec2e4a857ad61a1",
   "venue_31_systematic_queries_note": "31 records total: 1 full ACL Anthology bib scan + 15 DBLP API queries (top-200 cap) + 15 OpenAlex API queries (top-200 cap).",
-  "coordinate_distributions_core_full_text_verified_327": {
-    "C1_evidence_state": {
-      "adversarially_manipulated": 118,
-      "conflicting_evidence": 64,
-      "noisy_or_distracting": 62,
-      "insufficient_or_uncertain": 62,
-      "clean_or_heterogeneous_mix": 21
-    },
-    "representation_modality": {
-      "unstructured_text": 292,
-      "multimodal_vision_or_video": 18,
-      "structured_graph_or_table": 17
-    },
-    "C2_disturbance_origin": {
-      "benign_retrieval_imperfection": 143,
-      "adversarial_corpus_poisoning": 85,
-      "parametric_contextual_conflict": 53,
-      "adversarial_prompt_injection": 23,
-      "inter_document_source_conflict": 11,
-      "adversarial_privacy_extraction": 5,
-      "adversarial_backdoor_trigger": 4,
-      "query_perturbation_or_drift": 3
-    },
-    "C2_capability_and_budget": {
-      "benign_stochastic_channel": 209,
-      "black_box_corpus_write_bounded_m": 73,
-      "query_only_or_prompt_interface": 22,
-      "white_box_gradient_or_weight_access": 17,
-      "memory_or_pipeline_orchestration_access": 6
-    },
-    "C3_intervention_stage": {
-      "generator_reading_and_representations": 78,
-      "corpus_and_index_security": 67,
-      "evaluation_protocol_and_benchmark": 48,
-      "context_filtering_and_compression": 46,
-      "closed_loop_system_control": 41,
-      "multi_stage_joint_pipeline": 34,
-      "query_and_retriever_optimization": 13
-    },
-    "C4_outcome_metric": {
-      "end_to_end_task_em_and_f1": 138,
-      "empirical_attack_success_and_robust_acc": 107,
-      "span_faithfulness_and_attribution_f1": 41,
-      "selective_risk_and_calibration_ece": 29,
-      "retrieval_ranking_and_exposure": 7,
-      "certified_robustness_bound": 5
-    },
-    "C5_action_policy": {
-      "single_pass_grounded_answering": 247,
-      "selective_abstention_or_clarification": 39,
-      "adaptive_re_retrieval_and_routing": 22,
-      "multi_pass_verification_or_aggregation": 19
-    }
-  },
-  "coordinate_distributions_core_primary_rag_331": {
-    "C1_evidence_state": {
-      "adversarially_manipulated": 119,
-      "noisy_or_distracting": 64,
-      "conflicting_evidence": 64,
-      "insufficient_or_uncertain": 62,
-      "clean_or_heterogeneous_mix": 22
-    },
-    "representation_modality": {
-      "unstructured_text": 296,
-      "multimodal_vision_or_video": 18,
-      "structured_graph_or_table": 17
-    },
-    "C2_disturbance_origin": {
-      "benign_retrieval_imperfection": 146,
-      "adversarial_corpus_poisoning": 85,
-      "parametric_contextual_conflict": 53,
-      "adversarial_prompt_injection": 23,
-      "inter_document_source_conflict": 11,
-      "adversarial_backdoor_trigger": 5,
-      "adversarial_privacy_extraction": 5,
-      "query_perturbation_or_drift": 3
-    },
-    "C2_capability_and_budget": {
-      "benign_stochastic_channel": 212,
-      "black_box_corpus_write_bounded_m": 74,
-      "query_only_or_prompt_interface": 22,
-      "white_box_gradient_or_weight_access": 17,
-      "memory_or_pipeline_orchestration_access": 6
-    },
-    "C3_intervention_stage": {
-      "generator_reading_and_representations": 79,
-      "corpus_and_index_security": 68,
-      "evaluation_protocol_and_benchmark": 49,
-      "context_filtering_and_compression": 46,
-      "closed_loop_system_control": 41,
-      "multi_stage_joint_pipeline": 35,
-      "query_and_retriever_optimization": 13
-    },
-    "C4_outcome_metric": {
-      "end_to_end_task_em_and_f1": 141,
-      "empirical_attack_success_and_robust_acc": 108,
-      "span_faithfulness_and_attribution_f1": 41,
-      "selective_risk_and_calibration_ece": 29,
-      "retrieval_ranking_and_exposure": 7,
-      "certified_robustness_bound": 5
-    },
-    "C5_action_policy": {
-      "single_pass_grounded_answering": 251,
-      "selective_abstention_or_clarification": 39,
-      "adaptive_re_retrieval_and_routing": 22,
-      "multi_pass_verification_or_aggregation": 19
-    }
-  },
-  "multilabel_actual_coverage_core_primary_rag_331": {
-    "C1_all_applicable_counts": {
-      "adversarially_manipulated": 120,
-      "noisy_or_distracting": 111,
-      "conflicting_evidence": 91,
-      "insufficient_or_uncertain": 78,
-      "clean_or_heterogeneous_mix": 23
-    },
-    "C2_capability_all_applicable_counts": {
-      "benign_stochastic_channel": 212,
-      "black_box_corpus_write_bounded_m": 85,
-      "white_box_gradient_or_weight_access": 54,
-      "query_only_or_prompt_interface": 23,
-      "memory_or_pipeline_orchestration_access": 6
-    },
-    "C4_all_applicable_counts": {
-      "end_to_end_task_em_and_f1": 281,
-      "empirical_attack_success_and_robust_acc": 117,
-      "span_faithfulness_and_attribution_f1": 55,
-      "selective_risk_and_calibration_ece": 37,
-      "efficiency_tokens_or_latency": 33,
-      "retrieval_ranking_and_exposure": 8,
-      "certified_robustness_bound": 7
-    },
-    "C5_all_applicable_counts": {
-      "single_pass_grounded_answering": 251,
-      "selective_abstention_or_clarification": 39,
-      "selective_abstention_or_gating": 28,
-      "multi_pass_verification_or_aggregation": 26,
-      "adaptive_re_retrieval_and_routing": 24
-    }
-  },
   "c1_c5_semantic_audit_and_precedence_protocol": {
     "canonical_source_file": "survey_reproducibility/data/literature_map.csv (336 core records) + deterministic sync via scripts/sync_canonical_data.py to citation_index.csv (390) and coverage_decisions.csv (476)",
-    "three_field_c1_invariant": "For all 331 core primary studies, set(C1_all_applicable) == {C1_evidence_state} union set(C1_secondary_regimes) and C1_evidence_state not in set(C1_secondary_regimes) (0 omissions out of 336 rows).",
+    "three_field_c1_invariant": "For all 330 core primary studies, set(C1_all_applicable) == {C1_evidence_state} union set(C1_secondary_regimes) and C1_evidence_state not in set(C1_secondary_regimes) (0 omissions out of 336 rows; 6 core foundational/survey rows including BEIR venueExpanded087 marked N/A_foundational_or_survey).",
     "primary_vs_secondary_adjudication_rule": "Step 1 (Strand-Anchored Primary): C1_evidence_state records the primary perturbation regime targeted by the study core thesis and mechanism strand (Strand 3.x -> adversarially_manipulated; Strand 2.2-2.4 -> conflicting_evidence; Strand 1.1-1.4 & 2.1 -> noisy_or_distracting; Strand 4.1-4.5 -> insufficient_or_uncertain; general cross-pipeline evaluation suites -> clean_or_heterogeneous_mix), while C1_secondary_regimes records auxiliary evaluation splits. Step 2 (Multi-Stressor Benchmark Tie-Breaking): Benchmarks spanning multiple stressors without a single method locus are adjudicated by severity precedence (adversarially_manipulated > conflicting_evidence > noisy_or_distracting > insufficient_or_uncertain > clean_or_heterogeneous_mix).",
     "multi_regime_secondary_higher_severity_count": 41,
-    "c1_distribution_under_unconditional_severity_precedence_331": {
+    "c1_distribution_under_unconditional_severity_precedence_330": {
       "adversarially_manipulated": 120,
       "conflicting_evidence": 84,
       "noisy_or_distracting": 73,
       "insufficient_or_uncertain": 43,
-      "clean_or_heterogeneous_mix": 11
+      "clean_or_heterogeneous_mix": 10
+    },
+    "c1_distribution_under_reverse_benign_first_precedence_330": {
+      "adversarially_manipulated": 105,
+      "insufficient_or_uncertain": 77,
+      "noisy_or_distracting": 77,
+      "conflicting_evidence": 49,
+      "clean_or_heterogeneous_mix": 22
+    },
+    "four_level_validation_and_alternative_coding_sensitivity": {
+      "level_1_search_coverage_and_candidate_pool_audit": {
+        "core_systematic_window": "2020-05-01 to 2026-06-03 (55 arXiv Boolean queries + 30 DBLP/OpenAlex API queries + 12,924 ACL Anthology entries + ML/IR/Security proceedings -> 336 deduplicated core records: 330 primary RAG studies [326 full-text PDF + 4 ACM abstract-verified] + 6 foundational/survey)",
+        "targeted_post_freeze_and_snowball_window": "2026-06-04 to 2026-10-26 governed by anti-selective Rules S1-S3 (54 supplementary works: 25 primary RAG studies + 29 foundational/adjacent/survey -> 390 total cited works: 355 primary RAG studies + 35 foundational/adjacent/survey)",
+        "note_on_nested_drift_vs_external_recall": "Nested C1-C5 drift <= 2.13 pp across 326/330/355 measures consistency across expansion strata and does not replace external recall against unindexed pre-2024 or long-tail papers truncated by submittedDate (80-320) or API (top-200) caps."
+      },
+      "level_2_upstream_screening_reliability": {
+        "map_a_274_double_coded_inclusion_kappa": 0.853,
+        "map_b_148_blind_second_coding_intercoder_kappa": {
+          "include_in_map": 0.769,
+          "primary_failure_type": 0.719,
+          "method_family": 0.762,
+          "intervention_point": 0.724
+        }
+      },
+      "level_3_stratified_80_study_direct_protocol_to_c1_c5_recoding_audit": {
+        "sample_design": "N = 80 primary RAG studies stratified across all 4 pillars and 20 mechanism strands (4 studies per strand), archived with dual-coder raw labels and confusion matrices in data/stratified_80_protocol_recoding_audit.csv and .json.",
+        "cohens_kappa_by_dimension": {
+          "C1_all_applicable_exact_set_match_rate": 1.0,
+          "C1_primary_direct_split_vs_strand_anchored_kappa": 0.842,
+          "representation_modality_kappa": 0.964,
+          "C2_disturbance_origin_kappa": 0.892,
+          "C3_intervention_stage_kappa": 0.91,
+          "C4_outcome_metric_kappa": 0.928,
+          "C5_action_policy_kappa": 0.956
+        }
+      },
+      "level_4_domain_coverage_gap_invariance_across_alternative_coding_rules": {
+        "gap_1_open_loop_single_pass_dominance_c5": {
+          "core_330_share": "246/330 (74.55%)",
+          "all_primary_355_share": "264/355 (74.37%)",
+          "counterfactual_401_share": "300/401 (74.81%)",
+          "counterfactual_426_share": "318/426 (74.65%)",
+          "invariant_to_c1_coding_rule": true
+        },
+        "gap_2_formal_worst_case_certificate_scarcity_c4": {
+          "core_330_share": "5/330 (1.52%)",
+          "all_primary_355_share": "5/355 (1.41%)",
+          "invariant_to_c1_coding_rule": true
+        },
+        "gap_3_cross_regime_isolation_under_strand_independent_multilabel_union": {
+          "adversarial_and_conflict_joint_studies_core_330": "7/330 (2.12%)",
+          "adversarial_and_insufficiency_joint_studies_core_330": "2/330 (0.61%)",
+          "adversarial_and_conflict_and_insufficiency_joint_studies_core_330": "0/330 (0.00%)",
+          "benchmarks_evaluating_properties_1_2_3_under_shared_warrant_and_budget": "0/355 (0.00%)"
+        }
+      }
+    },
+    "independent_human_coding_vs_heuristic_error_audit": {
+      "map_b_148_blind_second_coding_intercoder_kappa": {
+        "include_in_map": 0.769,
+        "primary_failure_type": 0.719,
+        "method_family": 0.762,
+        "intervention_point": 0.724
+      },
+      "map_b_148_dual_human_coders_overturned_initial_heuristic_rate": {
+        "primary_failure_type": "27/148 (18.2%)",
+        "method_family": "50/148 (33.8%)",
+        "intervention_point": "62/148 (41.9%)",
+        "include_in_map_clean_capability_exclusions": "72/148 (48.6%)"
+      }
     },
     "source_located_reclassifications_applied": {
+      "foundational_retrieval_benchmark_reclassified_beir": "venueExpanded087 (BEIR -> foundational_or_survey, C4=retrieval_ranking_and_exposure, C5=N/A_retrieval_only_benchmark)",
+      "conformal_uq_benchmark_reclassified_urag": "rrag001 (URAG -> C3=evaluation_protocol_and_benchmark, C5=conformal_set_or_uncertainty_calibration)",
       "c1_benchmark_and_modality_reclassifications": 26,
       "c2_cross_file_reconciliations_and_updates": 15,
-      "c4_metric_denominator_alignments": 10,
-      "missing_metric_descriptions_populated": 12,
+      "c3_benchmark_and_forensic_locus_updates": 12,
+      "c4_metric_denominator_alignments": 11,
+      "c5_conformal_uq_vs_abstention_and_retrieval_na_updates": 29,
+      "missing_metric_descriptions_populated": 15,
       "cross_file_discrepancies_remaining": 0
     },
     "sensitivity_analysis_max_coordinate_drift_pp": {
-      "max_drift_pp_across_327_331_356": 2.12,
+      "max_drift_pp_across_326_330_355": 2.13,
       "max_drift_pp_by_dimension": {
-        "C1_evidence_state": 2.1,
+        "C1_evidence_state": 2.11,
         "representation_modality": 0.38,
-        "C2_disturbance_origin": 2.12,
-        "C2_capability_and_budget": 2.1,
-        "C3_intervention_stage": 1.38,
-        "C4_outcome_metric": 1.82,
-        "C5_action_policy": 1.67
+        "C2_disturbance_origin": 2.13,
+        "C2_capability_and_budget": 2.11,
+        "C3_intervention_stage": 1.46,
+        "C4_outcome_metric": 1.84,
+        "C5_action_policy": 0.55
       },
-      "pre_2024_temporal_share_core_336": "14/336 (4.17%)",
-      "pre_2024_temporal_share_all_cited_390": "46/390 (11.79%, after foundational and venue snowballing remediation)",
-      "residual_paywall_accessibility_rate_core_331": "4/331 (1.21%, ACM metadata/abstract records venue044, venue045, venue049, venue050; 327/331 = 98.79% full-text PDF verified)",
+      "counterfactual_inclusion_of_71_excluded_secondary_variants_max_drift_pp": 3.45,
+      "excluded_secondary_variants_negative_or_counterexample_count": 0,
+      "representative_selection_rules": {
+        "Rule_R1_same_strand_and_c1_c5_cell": "Excludes incremental variants occupying the same (Pillar, Strand, C1-C5) cell as an included canonical anchor (69 Stage-1a + 2 Round-2 code-RAG variants rrag194 ImportSnare & rrag196 VenomRACG).",
+        "Rule_R2_mandatory_retention_of_counterexamples_and_negative_results": "Mandatorily retains any study reporting negative results, failure boundaries, or empirical counterexamples (0 counterexamples excluded across all 71 secondary variants).",
+        "Rule_R3_denominator_eligibility": "Restricts C1-C5 percentages to descriptive sample composition of the audited corpus (never population prevalence); mechanistic conclusions rely on within-study paired controls and formal propositions."
+      },
+      "pre_2024_temporal_share_core_336_by_year_in_map": "14/336 (4.17%)",
+      "pre_2024_temporal_share_all_cited_390_by_year_in_map": "38/390 (9.74%, 14 core + 24 supplementary by first-release year_in_map)",
+      "pre_2024_temporal_share_core_336_by_bib_pub_year": "9/336 (2.68%)",
+      "pre_2024_temporal_share_all_cited_390_by_bib_pub_year": "33/390 (8.46%, where 5 late-2023 preprints appeared in 2024 proceedings)",
+      "residual_paywall_accessibility_rate_core_330": "4/330 (1.21%, ACM metadata/abstract records venue044, venue045, venue049, venue050; 326/330 = 98.79% full-text PDF verified)",
       "disposition_of_236_stage1a_deprioritized_candidates": {
         "scope_exclusion_routine_domain_deployment_without_omega_stressor": 167,
         "representative_selection_secondary_variants_of_covered_strands": 69
@@ -1132,8 +1028,183 @@
         "deduplicated_against_open_arxiv_or_proceedings_versions_in_stage1b_1c": 312,
         "out_of_scope_non_rag_or_broken_metadata_stubs": 143,
         "retained_as_metadata_abstract_only_acm_records_in_core_map": 4
-      }
+      },
+      "counterfactual_inclusion_of_71_excluded_secondary_variants_row_computed_max_drift_pp_330_vs_401": 2.77,
+      "counterfactual_inclusion_of_71_excluded_secondary_variants_row_computed_max_drift_pp_355_vs_426": 2.82
     }
   },
-  "packaged_paired_diagnostic_reanalysis_sha256": "5f7e364a7ae41d2abe861769331ada41f22ec5cecd004bd294ae588bf7161e94"
+  "packaged_paired_diagnostic_reanalysis_sha256": "9bb1c60ce322720b09a82d2eebf39a4df54979ee4677d61f3ad66f35c293397f",
+  "deduplicated_core_survey_or_foundational_rows": 6,
+  "coordinate_distributions_all_primary_rag_355_sensitivity": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 121,
+      "noisy_or_distracting": 73,
+      "insufficient_or_uncertain": 70,
+      "conflicting_evidence": 68,
+      "clean_or_heterogeneous_mix": 23
+    },
+    "representation_modality": {
+      "unstructured_text": 316,
+      "multimodal_vision_or_video": 20,
+      "structured_graph_or_table": 19
+    },
+    "C2_disturbance_origin": {
+      "benign_retrieval_imperfection": 161,
+      "adversarial_corpus_poisoning": 85,
+      "parametric_contextual_conflict": 54,
+      "adversarial_prompt_injection": 24,
+      "inter_document_source_conflict": 14,
+      "query_perturbation_or_drift": 6,
+      "adversarial_privacy_extraction": 6,
+      "adversarial_backdoor_trigger": 5
+    },
+    "C2_capability_and_budget": {
+      "benign_stochastic_channel": 234,
+      "black_box_corpus_write_bounded_m": 74,
+      "query_only_or_prompt_interface": 24,
+      "white_box_gradient_or_weight_access": 17,
+      "memory_or_pipeline_orchestration_access": 6
+    },
+    "C3_intervention_stage": {
+      "generator_reading_and_representations": 82,
+      "corpus_and_index_security": 70,
+      "evaluation_protocol_and_benchmark": 66,
+      "context_filtering_and_compression": 51,
+      "closed_loop_system_control": 45,
+      "multi_stage_joint_pipeline": 28,
+      "query_and_retriever_optimization": 13
+    },
+    "C4_outcome_metric": {
+      "end_to_end_task_em_and_f1": 155,
+      "empirical_attack_success_and_robust_acc": 110,
+      "span_faithfulness_and_attribution_f1": 47,
+      "selective_risk_and_calibration_ece": 30,
+      "retrieval_ranking_and_exposure": 8,
+      "certified_robustness_bound": 5
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 264,
+      "adaptive_re_retrieval_and_routing": 25,
+      "multi_pass_verification_or_aggregation": 22,
+      "selective_abstention_or_clarification": 22,
+      "conformal_set_or_uncertainty_calibration": 18,
+      "N/A_retrieval_only_benchmark": 4
+    }
+  },
+  "coordinate_distributions_full_eligible_core_401": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 153,
+      "conflicting_evidence": 79,
+      "noisy_or_distracting": 74,
+      "insufficient_or_uncertain": 73,
+      "clean_or_heterogeneous_mix": 22
+    },
+    "representation_modality": {
+      "unstructured_text": 363,
+      "structured_graph_or_table": 20,
+      "multimodal_vision_or_video": 18
+    },
+    "C2_disturbance_origin": {
+      "benign_retrieval_imperfection": 167,
+      "adversarial_corpus_poisoning": 111,
+      "parametric_contextual_conflict": 65,
+      "adversarial_prompt_injection": 28,
+      "inter_document_source_conflict": 14,
+      "adversarial_backdoor_trigger": 8,
+      "adversarial_privacy_extraction": 5,
+      "query_perturbation_or_drift": 3
+    },
+    "C2_capability_and_budget": {
+      "benign_stochastic_channel": 248,
+      "black_box_corpus_write_bounded_m": 96,
+      "white_box_gradient_or_weight_access": 25,
+      "query_only_or_prompt_interface": 25,
+      "memory_or_pipeline_orchestration_access": 7
+    },
+    "C3_intervention_stage": {
+      "generator_reading_and_representations": 96,
+      "corpus_and_index_security": 87,
+      "evaluation_protocol_and_benchmark": 72,
+      "context_filtering_and_compression": 52,
+      "closed_loop_system_control": 45,
+      "multi_stage_joint_pipeline": 33,
+      "query_and_retriever_optimization": 16
+    },
+    "C4_outcome_metric": {
+      "end_to_end_task_em_and_f1": 159,
+      "empirical_attack_success_and_robust_acc": 141,
+      "span_faithfulness_and_attribution_f1": 51,
+      "selective_risk_and_calibration_ece": 37,
+      "retrieval_ranking_and_exposure": 8,
+      "certified_robustness_bound": 5
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 300,
+      "adaptive_re_retrieval_and_routing": 27,
+      "selective_abstention_or_clarification": 26,
+      "multi_pass_verification_or_aggregation": 25,
+      "conformal_set_or_uncertainty_calibration": 20,
+      "N/A_retrieval_only_benchmark": 3
+    }
+  },
+  "coordinate_distributions_full_eligible_all_426": {
+    "C1_evidence_state": {
+      "adversarially_manipulated": 155,
+      "conflicting_evidence": 83,
+      "noisy_or_distracting": 83,
+      "insufficient_or_uncertain": 81,
+      "clean_or_heterogeneous_mix": 24
+    },
+    "representation_modality": {
+      "unstructured_text": 384,
+      "structured_graph_or_table": 22,
+      "multimodal_vision_or_video": 20
+    },
+    "C2_disturbance_origin": {
+      "benign_retrieval_imperfection": 183,
+      "adversarial_corpus_poisoning": 111,
+      "parametric_contextual_conflict": 66,
+      "adversarial_prompt_injection": 29,
+      "inter_document_source_conflict": 17,
+      "adversarial_backdoor_trigger": 8,
+      "query_perturbation_or_drift": 6,
+      "adversarial_privacy_extraction": 6
+    },
+    "C2_capability_and_budget": {
+      "benign_stochastic_channel": 271,
+      "black_box_corpus_write_bounded_m": 96,
+      "query_only_or_prompt_interface": 27,
+      "white_box_gradient_or_weight_access": 25,
+      "memory_or_pipeline_orchestration_access": 7
+    },
+    "C3_intervention_stage": {
+      "generator_reading_and_representations": 98,
+      "corpus_and_index_security": 88,
+      "evaluation_protocol_and_benchmark": 80,
+      "context_filtering_and_compression": 57,
+      "closed_loop_system_control": 53,
+      "multi_stage_joint_pipeline": 33,
+      "query_and_retriever_optimization": 17
+    },
+    "C4_outcome_metric": {
+      "end_to_end_task_em_and_f1": 174,
+      "empirical_attack_success_and_robust_acc": 143,
+      "span_faithfulness_and_attribution_f1": 57,
+      "selective_risk_and_calibration_ece": 38,
+      "retrieval_ranking_and_exposure": 9,
+      "certified_robustness_bound": 5
+    },
+    "C5_action_policy": {
+      "single_pass_grounded_answering": 318,
+      "adaptive_re_retrieval_and_routing": 30,
+      "multi_pass_verification_or_aggregation": 27,
+      "selective_abstention_or_clarification": 26,
+      "conformal_set_or_uncertainty_calibration": 21,
+      "N/A_retrieval_only_benchmark": 4
+    }
+  },
+  "packaged_stratified_80_recoding_audit_sha256": "c6404d3a2e16f2af283b6524fd96ae0593aebd6d23f1ad1174d0d4e7c11bc722",
+  "packaged_secondary_variants_71_sha256": "1d7a94a216fcd223df6f4c3be33dc5398359b8a2aa170fa4183fa1d531897cb9",
+  "packaged_warrant_micro_benchmark_sha256": "ed9a7bd33ddbd3650e7cc3cb52be345ad6d7f19ab64675d87ba140a76ed79a48",
+  "packaged_open_coding_temporal_audit_sha256": "83cb2fff77f775ea8fd8d9b5a4393ed9ad011080f27761c54179c462be12fa6e"
 }

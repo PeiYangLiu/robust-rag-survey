@@ -48,10 +48,10 @@ if 'sourceReliabilityRAG2025' in uses:
 if 'rrag007' in uses:
     entries['rrag007'] = entries['rrag007'].replace('Naacl: Noise-aware verbal confidence calibration for llms in rag systems', 'Noise-AwAre Verbal Confidence Calibration for Robust Large Language Models in RAG Systems')
 
-bib_out = '% Strictly filtered to the 389 unique works cited in the manuscript; zero uncited or duplicate entries.\n\n' + '\n\n'.join(entries[k] for k in sorted(uses)) + '\n'
+bib_out = '% Strictly filtered to the 390 unique works cited in the manuscript; zero uncited or duplicate entries.\n\n' + '\n\n'.join(entries[k] for k in sorted(uses)) + '\n'
 (src / 'references.bib').write_text(bib_out)
 written_keys = re.findall(r'(?m)^@\w+\s*\{\s*([^,\s]+)', (src / 'references.bib').read_text())
-assert set(written_keys) == set(uses) and len(written_keys) == len(uses) == 389
+assert set(written_keys) == set(uses) and len(written_keys) == len(uses) == 390
 
 report = {
     'cited_keys': len(uses),

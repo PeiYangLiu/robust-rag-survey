@@ -403,10 +403,10 @@ a = Art(P, '04_empirical_audit')
 drawings.append(a)
 
 title(a, 'f4_title', 22, 10, 840, 'Quantitative Synthesis: Deduplicated Corpus Coordinates and Source-Linked Benchmarks', 'ink', 19.0)
-txt(a, 'f4_sub', 22, 39, 840, 'Synthesizing 389 unique cited works (330 core primary RAG studies: 326 full-text PDF + 4 metadata ACM) across C1 to C5', 10.8, False, 'muted')
+txt(a, 'f4_sub', 22, 39, 840, 'Synthesizing 390 unique cited works (330 core primary RAG studies: 326 full-text PDF + 4 metadata ACM) across C1 to C5', 10.8, False, 'muted')
 a.rect('f4_badge', 874, 12, 304, 42, 'bg_chip', 'bl_border', 0.9, .10)
-txt(a, 'f4_b_t1', 882, 17, 288, '389 Unique Cited · 330 Core Primary', 10.0, True, 'blue_dark', 'center')
-txt(a, 'f4_b_t2', 882, 33, 288, '326 Full-Text PDF · 4 ACM Meta · 33 N/A', 8.8, False, 'slate', 'center')
+txt(a, 'f4_b_t1', 882, 17, 288, '390 Unique Cited · 330 Core Primary', 10.0, True, 'blue_dark', 'center')
+txt(a, 'f4_b_t2', 882, 33, 288, '326 Full-Text PDF · 4 ACM Meta · 35 N/A', 8.8, False, 'slate', 'center')
 a.line('f4_head_rule', (22, 62), (1178, 62), 'line', 0.85)
 
 # ─── Panel (a): Top-Left (x=22..590, y=72..358) — Temporal Trajectory & C3 Stage Distribution (N = 330) ───
@@ -428,7 +428,7 @@ for fn, fy, fnum, flbl, ffill, fstrk in year_steps:
     txt(a, fn + '_n', 40, fy + 8, 54, fnum, 9.5, True, 'ink')
     txt(a, fn + '_l', 94, fy + 8, 88, flbl, 8.6, False, 'slate')
 
-txt(a, 'p4a_fsub', 34, 290, 152, '+59 Suppl./Found. = 389', 8.5, True, 'muted', 'center')
+txt(a, 'p4a_fsub', 34, 290, 152, '+60 Suppl./Found. = 390', 8.5, True, 'muted', 'center')
 
 txt(a, 'p4a_sh', 200, 112, 376, 'Distribution by Pipeline Intervention Stage (C3, N = 330)', 10, True, 'ink')
 stages = [

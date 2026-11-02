@@ -1,29 +1,175 @@
 {
-  "protocol_version": "v40_coupled_transition_reanalysis",
+  "protocol_version": "v44_w1_w4_sec5_complete_audit",
+  "analysis_scope_and_positioning": "Conceptual and cross-study protocol-comparability synthesis: formalizes mathematical conditions (Proposition 1), operational estimator vs. proxy boundaries, and 4 traceable re-analyses of published benchmark tables without claiming new end-to-end model training or universal leaderboard aggregation.",
+  "formal_proposition_1": {
+    "statement": "Proposition 1 (Joint Feasibility System of Static Recall-Miss Abstention, Conditional Reduction, Selective-Risk Counterexample, and Three-Way Recovery Separation)",
+    "part_i_full_joint_system_and_conditional_reduction": {
+      "full_five_constraint_system": [
+        "(1) Unconditional task risk across Omega_inv (including unperturbed baseline (q, C) at p_miss=0): r_0 <= eps_task and (1 - p_miss)*r_0 + p_miss*c_abs <= eps_task",
+        "(2) Semantic distributional stability: D_TV(P_S(Phi_T | q, C), P_S(Phi_T | q', C')) <= delta_stab",
+        "(3) Answered-subset selective risk: R_sel(Pi_abs) = r_0 <= alpha_r (for p_miss < 1)",
+        "(4) Coverage: 1 - p_miss >= tau_cov_r",
+        "(5) Safety & budget compliance: P_S(tau_{1:T} notin B_T) <= eta_sec and c_phys(Pi_abs) <= B"
+      ],
+      "explicit_simplification_assumptions": [
+        "(A1) Baseline non-abstention: P_S(abs | q, C) = 0",
+        "(A2) Conditional reader distribution invariance on successful retrievals: P_S(Phi_T | q', D_1, W_T^loc != empty) = P_S(Phi_T | q, C), so P_S' = (1 - p_miss)*P_S + p_miss*delta_abs and D_TV(P_S, P_S') = p_miss",
+        "(A3) Safety and budget bounds (5) hold"
+      ],
+      "exact_iff_condition_under_A1_A3": "Under (A1)-(A3), static abstention Pi_abs satisfies both Eq. (2) and Eq. (5) across Omega_inv(q, C) (which contains the identity transition (q, C) at p_miss = 0) iff r_0 <= alpha_r, r_0 <= eps_task, and p_miss <= p_tol(r_0) := min(tau_task(r_0, c_abs, eps_task), delta_stab, 1 - tau_cov_r), where tau_task = (eps_task - r_0)/(c_abs - r_0) if c_abs > r_0 and 1 if c_abs <= r_0 (if one evaluated only a single perturbed transition at fixed p_miss > 0 without requiring (q, C) in Omega_inv, the branch c_abs < r_0 would allow r_0 > eps_task whenever p_miss >= (r_0 - eps_task)/(r_0 - c_abs)).",
+      "selective_risk_violation_counterexample_when_r0_exceeds_alpha_r": {
+        "parameters": {
+          "p_miss": 0.05,
+          "r_0": 0.2,
+          "c_abs": 0.2,
+          "eps_task": 0.25,
+          "delta_stab": 0.1,
+          "tau_cov_r": 0.9,
+          "alpha_r": 0.1,
+          "eta_sec": 0.0
+        },
+        "baseline_distribution_correct_error_abs": [
+          0.8,
+          0.2,
+          0.0
+        ],
+        "perturbed_distribution_correct_error_abs": [
+          0.76,
+          0.19,
+          0.05
+        ],
+        "results": {
+          "E_L_task": 0.2,
+          "D_TV": 0.05,
+          "coverage": 0.95,
+          "selective_risk": 0.2,
+          "naive_p_tol_without_r0_prerequisite": 0.1,
+          "p_miss_le_naive_p_tol": true,
+          "satisfies_eq2_and_coverage": true,
+          "satisfies_eq5_selective_risk": false,
+          "reason": "Selective risk r_0 = 0.20 > alpha_r = 0.10 violates Eq. (5), proving r_0 <= alpha_r is a necessary prerequisite."
+        }
+      },
+      "reviewer_counterexample_parameters": {
+        "p_miss": 0.05,
+        "r_0": 0.0,
+        "c_abs": 0.2,
+        "eps_task": 0.02,
+        "delta_stab": 0.1,
+        "tau_cov_r": 0.9,
+        "alpha_r": 0.1,
+        "eta_sec": 0.0
+      },
+      "reviewer_counterexample_results": {
+        "E_L_task": 0.01,
+        "D_TV": 0.05,
+        "coverage": 0.95,
+        "selective_risk": 0.0,
+        "p_tol": 0.1,
+        "satisfies_eq2_and_eq5_without_reretrieval": true
+      }
+    },
+    "part_ii_conditional_necessity_of_voi_recovery": {
+      "three_non_equivalent_statements": {
+        "1_static_inadmissibility": "When r_0 <= min(alpha_r, eps_task) and p_miss > p_tol(r_0), static abstention Pi_abs violates at least one constraint in Eq. (2) or Eq. (5).",
+        "2_constraint_feasible_recovery_existence": "A re-retrieval action with recovery probability p_rec restores joint satisfaction of Eqs. (2) and (5) iff it is budget-feasible (c_phys(Pi_abs) + p_miss*c_phys(a_1) <= B) and reachability-capable (p_miss*(1 - p_rec) <= p_tol(r_0), i.e., p_rec >= 1 - p_tol(r_0)/p_miss).",
+        "3_bellman_voi_strict_optimality": "In the Lagrangian dual Bellman objective (Eqs. 4 and 9) with dimensionless normalized cost C_op(a_1) = mu_cost^T (c_phys(a_1)/B), re-retrieval strictly improves the dual value over immediate refusal iff VoI(a_1) = p_rec*(c_abs + lam_r*alpha_r + nu_r - (1+lam_r)*r_0) > C_op(a_1)."
+      },
+      "high_miss_regime_example": {
+        "p_miss": 0.32,
+        "r_0": 0.0,
+        "c_abs": 0.2,
+        "eps_task": 0.02,
+        "delta_stab": 0.1,
+        "tau_cov_r": 0.9,
+        "p_tol": 0.1,
+        "static_E_L_task": 0.064,
+        "static_coverage": 0.68,
+        "p_rec": 0.75,
+        "C_op": 0.02,
+        "post_recovery_miss": 0.08,
+        "post_recovery_coverage": 0.92,
+        "satisfies_after_recovery": true
+      }
+    },
+    "part_iii_gold_present_denominator_bias": {
+      "identity": "E_S[L_T | Omega_inv] = (1 - p_miss)*R_gold + p_miss*R_miss; pre-filtering to gold-present queries (p_miss -> 0, as in RAAT §4.1) biases estimated risk by -p_miss*(R_miss - R_gold).",
+      "raat_vs_unfiltered_example": {
+        "p_miss": 0.25,
+        "R_gold": 0.179,
+        "R_miss": 0.7,
+        "conditional_gold_risk": 0.179,
+        "true_end_to_end_risk": 0.30925,
+        "omitted_risk_bias": 0.13025
+      }
+    }
+  },
+  "five_confound_comparability_audit_vs_c1_x_c3_baseline": {
+    "baseline_taxonomy": "Simple 2-axis classification: Failure Type (C1) x Intervention Stage (C3)",
+    "table_6_rows_grouped_as_comparable_by_c1_x_c3": 14,
+    "total_table_6_rows": 17,
+    "five_confounds_detected_by_coupled_framework": [
+      {
+        "confound_id": "Confound_1_Denominator_Prefiltering",
+        "affected_comparisons": "RAAT (§4.1, >=2 gold passages filter, p_miss=0) vs. Chain-of-Note Table 2 (unfiltered DPR recall 64.2-89.9%) and RGB Table 1",
+        "detected_by_c1_x_c3": false,
+        "detected_by_coupled_framework": true,
+        "governing_element": "Proposition 1(iii) & C1 local vs. global warrant (W_T^loc vs. W_T^ref)"
+      },
+      {
+        "confound_id": "Confound_2_Token_Budget_Confounding",
+        "affected_comparisons": "RECOMP Extractive (75 tok, 30.40 EM on HotpotQA) vs. Distilled T5-Large Abstractive (64 tok, 28.20 EM) vs. GPT-3.5 Teacher (107 tok, 31.60 EM)",
+        "detected_by_c1_x_c3": false,
+        "detected_by_coupled_framework": true,
+        "governing_element": "Section 5.4 & C5 token-compression budget control"
+      },
+      {
+        "confound_id": "Confound_3_Stipulated_Swap_vs_Provenance_Warrant",
+        "affected_comparisons": "NQ-Swap / ConFiQA fiat entity substitution (CoRect, Context-DPO) vs. authority-weighted conflict resolution (RA-RAG, Astute RAG)",
+        "detected_by_c1_x_c3": false,
+        "detected_by_coupled_framework": true,
+        "governing_element": "Section 5.1-5.2 & Eq. (3) provenance condition rho(d') > rho(d_0)"
+      },
+      {
+        "confound_id": "Confound_4_Empirical_Curve_vs_Formal_Guarantee",
+        "affected_comparisons": "Sufficient Context Fig. 4 (empirical acc.-cov. curve) vs. URAG (marginal conformal set coverage 1-alpha) vs. BalanceRAG (SGT FWER-calibrated selective risk <= alpha_r); TrustRAG (empirical ASR) vs. RobustRAG (generation-phase certificate A(P_k, k'))",
+        "detected_by_c1_x_c3": false,
+        "detected_by_coupled_framework": true,
+        "governing_element": "W1-W3 & C4/C5 guarantee-type stratification"
+      },
+      {
+        "confound_id": "Confound_5_Hidden_Multi_Call_Cost",
+        "affected_comparisons": "Sufficient Context proprietary P(Correct) (1x autorater + 1x reader) vs. open-model P(True) (ceil(|C|/1600) FLAMe chunk calls + 20 samples + 5 eval queries); RobustRAG G+1 keyword calls vs. G decoding streams",
+        "detected_by_c1_x_c3": false,
+        "detected_by_coupled_framework": true,
+        "governing_element": "W2 & C5 disambiguated call/prefill cost units"
+      }
+    ]
+  },
   "operational_estimator_taxonomy": [
     {
       "formal_quantity": "Property 1 End-to-End Task Risk: sup_{Omega_inv} E_S[L_T(Phi_T(Y_T), Z*) | q', C'] <= eps_task (Eq. 2a)",
-      "direct_operational_estimator": "Worst-case task-score lower bound min_{C'} M(y_hat_{C'}, y*) >= tau (Certifiable Accuracy cacc at tau=1 in RobustRAG) over bounded corruption |C' Delta C| <= k'; or empirical maximum loss across K paired perturbations (q', C') in Omega_inv_hat with refusal scored at L_T(abs, Z*) = c_abs > 0.",
+      "direct_operational_estimator": "Generation-phase worst-case task-score lower bound min_{P_k' in A(P_k, k')} M(y_hat_{P_k'}, y*) >= tau (Certifiable Accuracy cacc at tau=1 in RobustRAG, lifted to corpus edits |C' Delta C| <= m under frozen retriever theta_R and preserved benign rank order); or empirical maximum loss across K paired perturbations (q', C') in Omega_inv_hat with refusal scored at L_T(abs, Z*) = c_abs > 0.",
       "directional_proxy_metrics": "Dataset-mean EM/F1 under synthetic noise ratios (RGB, RECOMP, Chain-of-Note), conditional gold-present EM drop (RAAT), Resilience Rate P(Y_RAG=z* | y_theta=z*) (xRAG), and RAD = 100*|ARA-Add|/|ARA| (Park & Lee). These average over finite test sets or condition on closed-book/gold-present subsets rather than bounding the full-pipeline supremum.",
       "untested_when_using_proxy_alone": "Retriever recall misses (when pre-filtered to gold-present queries in RAAT), worst-case adversarial perturbations (when averaging over benign noise), and semantic distribution drift among distinct error classes."
     },
     {
       "formal_quantity": "Property 1 Semantic Distributional Invariance: sup_{Omega_inv} D_TV(P_S(Phi_T | q, C), P_S(Phi_T | q', C')) <= delta_stab (Eq. 2b)",
-      "direct_operational_estimator": "Plug-in L1/2 distance 0.5 * sum_{z in Z_hat} |P_hat_M(z | q, C) - P_hat_M(z | q', C')| over M decoding draws clustered into semantic equivalence classes Z_hat via normalized alias match or bidirectional NLI entailment, with finite-sample concentration bound O(sqrt(|Z_hat|/M)).",
-      "directional_proxy_metrics": "Single-draw answer flip rate 1 - A->A (Park & Lee Table 8) or self-consistency agreement rate.",
-      "untested_when_using_proxy_alone": "Pointwise accuracy and binary correct/incorrect transition rates (Resilience/Boost, EM drop) do NOT identify D_TV: e.g., over (z*, wrong_A, wrong_B), P=(0.80, 0.20, 0.00) and Q=(0.80, 0.00, 0.20) have identical accuracy 0.80 and error 0.20, yet D_TV(P, Q) = 0.20 > 0."
+      "direct_operational_estimator": "Two-sample plug-in TV distance 0.5 * sum_{z in Z_sem} |P_hat_M(z | q, C) - Q_hat_M^{(k)}(z | q_k', C_k')| over a pre-fixed or split-sample semantic partition Z_sem = {z*, Z_0, e_1, ..., e_J, e_other, abs} (C_sem = |Z_sem|) keeping distinct non-entailing errors e_1 != e_2 separate. Across two independent M-draw samples (2M independent draws total, each with bounded-difference sensitivity c_i = 1/M so sum c_i^2 = 2/M and two-sided McDiarmid tail 2*exp(-M*t^2)) and K = |Omega_hat_K| tested perturbations, simultaneous 1 - delta estimation error is bounded by eps_stat(M, C_sem, K, delta) + 2*eps_bar_NLI where eps_stat = sqrt((C_sem-1)/M) + sqrt(ln(2K/delta)/M) and eps_bar_NLI is the Clopper-Pearson upper bound on per-draw NLI misclustering probability P(phi_hat_NLI(Y) != phi*(Y)) (requiring M >= (sqrt(C_sem-1) + sqrt(ln(2K/delta)))^2 / eps_0^2; whereas post-hoc sample-adaptive NLI clustering on the pooled 2M evaluation draws is an exploratory drift diagnostic).",
+      "directional_proxy_metrics": "Coarse 4-label behavioral TV over {z*, Z_0, other-error, abs} (which satisfies D_TV(g_# P, g_# Q) <= D_TV(P, Q) by the data-processing inequality), small-M pilot draws (M in [10, 20]), single-draw flip rate 1 - A->A (Park & Lee Table 8), or self-consistency agreement.",
+      "untested_when_using_proxy_alone": "Pointwise accuracy and coarse error collapsing hide semantic drift across distinct error modes: over (z*, e_1, e_2), P=(0.80, 0.20, 0.00) and Q=(0.80, 0.00, 0.20) have fine-grained D_TV(P, Q) = 0.20 > 0, whereas merging e_1, e_2 into other-error collapses both to (0.80, 0.20) with coarse TV = 0."
     },
     {
       "formal_quantity": "Property 2 Counterfactual Update Risk & Plasticity: E[L_T | Omega_upd] <= eps_upd, P_S(Z* | q', D') - P_0(q') >= gamma_resp*(1 - P_0(q')), P_S(Z_0 | Omega_upd^conf) <= delta_prior (Eq. 3)",
-      "direct_operational_estimator": "Paired corpus-state transition (q, C_0) -> (q, C_1) where authoritative evidence shifts W_T^ref from Z_0 to Z* != Z_0 (instantiated on counterfactual entity-swap benchmarks ConFiQA, NQ-Swap, FaithEval, CoFaithfulQA, Parenting SQuAD2.0-Eval): Context Adherence Rate ConR / R_Ad estimates P_S(Z* | q', D'), Memorization Rate MemR estimates P_S(Z_0 | Omega_upd^conf), and M-draw sampling estimates probability gain Delta P_S(Z*) with Clopper-Pearson / bootstrap CIs.",
+      "direct_operational_estimator": "Paired corpus-state transition (q, C_0) -> (q, C_1) where authoritative, corroborated evidence under closed-form query-time reliability rho(d', t_q) > rho(d_0, t_q) (where temporal supersession closes t_end(d_0) so rho(d_0, t_q)=0 < rho(d', t_q)) shifts W_T^ref from Z_0 to Z* != Z_0: Context Adherence Rate ConR / R_Ad estimates P_S(Z* | q', D') and Memorization Rate MemR estimates P_S(Z_0 | Omega_upd^conf), while separating stipulated fiat entity swaps (NQ-Swap, ConFiQA) from provenance-verified updates.",
       "directional_proxy_metrics": "xRAG Boost Rate P(Y_RAG=z* | y_theta!=z*) on a static corpus. Boost Rate measures whether retrieval corrects closed-book ignorance on a static fact, which motivates external context reliance but does NOT construct a paired authoritative state transition Z_0 -> Z* overriding an existing belief.",
-      "untested_when_using_proxy_alone": "Static closed-book-to-RAG comparisons do not test whether the system overrides a high-confidence stale parametric prior (Z_0 -> Z*) or whether provenance weights rho(d) reject low-authority misinformation."
+      "untested_when_using_proxy_alone": "Static closed-book-to-RAG comparisons do not test whether the system overrides a high-confidence stale parametric prior (Z_0 -> Z*), and stipulated entity-swap benchmarks without provenance controls do not test whether the reader rejects low-authority misinformation."
     },
     {
       "formal_quantity": "Property 3 Admissible Risk-Coverage Control & VoI Routing: E[L_T | a_T=ans] <= alpha_r, P(a_T=ans) >= tau_cov,r under budget B (Eqs. 4, 5, 9)",
-      "direct_operational_estimator": "Empirical selective risk R_hat_sel(tau) = sum_{i in ans(tau)} L_T(Y_i, z_i*) / |ans(tau)| and coverage Cov_hat(tau) = |ans(tau)| / N_cal calibrated on held-out split D_cal,r via dual multipliers (lambda_r, nu_r) or Clopper-Pearson UCB threshold tau_hat_UCB(alpha_r, delta) (BalanceRAG, Geifman & El-Yaniv, Sufficient Context Fig. 4).",
-      "directional_proxy_metrics": "Marginal split-conformal set coverage P(Y* in Gamma_alpha) >= 1 - alpha (URAG), uncalibrated verbalized confidence ECE/AUROC, or standalone unanswerable F1.",
-      "untested_when_using_proxy_alone": "Marginal set coverage over multi-answer sets does not bound singleton error on accepted answers; and lowering selective risk via abstention on retrieval misses (W_T^loc=empty != W_T^ref={z*}) still incurs refusal loss c_abs in Property 1 end-to-end risk Eq. (2a) unless VoI-routed re-retrieval recovers z*."
+      "direct_operational_estimator": "Simultaneous FWER-calibrated threshold selection over grid/lattice Lambda on exchangeable calibration split D_cal,r \\ D_init,r using one-sided exact binomial p-values p_lambda^{bin} = P(Bin(M_lambda, alpha_r) <= K_lambda) for R_hat_lambda <= alpha_r (and 1 otherwise) on binary 0-1 losses, or randomized Bernoulli rounding B_i ~ Bernoulli(L_{T,i}) and one-sided truncated Hoeffding-Bentkus p-values p_lambda^{HB} = min(exp(-M_lambda*KL_Ber(R_hat_lambda || alpha_r)), e*P(Bin(M_lambda, alpha_r) <= ceil(M_lambda*R_hat_lambda)), 1) for M_lambda >= 1 and R_hat_lambda <= alpha_r (and p_lambda^{HB} = 1 whenever M_lambda = 0 or R_hat_lambda > alpha_r) on continuous losses L_T in [0, 1], paired with Sequential Graphical Testing (SGT in BalanceRAG; Bretz et al. 2009) or RCPS/LTT correction (Bates et al. 2021; Angelopoulos et al. 2025) at level 1 - delta.",
+      "directional_proxy_metrics": "Empirical selective accuracy-coverage curves without finite-sample alpha_r calibration (Sufficient Context Fig. 4), marginal split-conformal set coverage P(Y* in Gamma_alpha) >= 1 - alpha (URAG), or standalone uncalibrated ECE/AUROC.",
+      "untested_when_using_proxy_alone": "Empirical selective accuracy-coverage curves and marginal multi-answer set coverage do not certify finite-sample singleton error <= alpha_r; and under Proposition 1, static abstention on solvable recall misses violates Eq. (2) or Eq. (5) whenever r_0 > min(alpha_r, eps_task) or p_miss > p_tol(r_0)."
     }
   ],
   "paired_empirical_reanalyses": [
@@ -31,23 +177,25 @@
       "case_id": "Pair_1_Pillar_I_Compression",
       "compared_methods": "RECOMP (Extractive 75-tok vs. Abstractive T5-Large 64-tok, v1 Table 2) vs. xRAG (1-tok bridge, Table 11 & Table 3)",
       "single_metric_illusion": "On single-hop NQ, RECOMP Abstractive (37.04 EM at 36 tok), RECOMP Extractive (36.57 EM at 37 tok), and xRAG (39.10 EM at 1 tok) appear similarly effective at extreme compression (9-18x to 175x), and xRAG improves Resilience Rate from 74.1% to 82.3% (+8.2 pp).",
-      "coupled_framework_diagnosis": "Evaluating Property 1 and Property 2 proxies jointly with multi-hop Omega_gap exposes distinct failure mechanisms: (1) in RECOMP Table 2, moving from 75-token extractive selection to 64-token T5-Large abstractive compression slightly helps single-hop NQ (36.57 -> 37.04 EM, -2.82 vs. -2.35 pp) but nearly doubles the multi-hop HotpotQA loss from -2.40 pp (32.80 -> 30.40 EM) to -4.60 pp (32.80 -> 28.20 EM) due to dropped bridge premises; (2) in xRAG Table 11, collapsing 175.1 tokens into 1 embedding token raises Resilience (+8.2 pp) by attenuating context influence, which simultaneously depresses Boost Rate from 29.5% to 22.2% (-7.3 pp) and lags on multi-hop HotpotQA.",
+      "coupled_framework_diagnosis": "Audit of compression granularity, token-budget confounding, and original-study dual-axis metrics: (1) in RECOMP Table 2, 75-token extractive selection (30.40 EM, -2.40 pp) vs. 64-token distilled T5-Large abstractive compression (28.20 EM, -4.60 pp; GPT-3.5 teacher 107 tok / 31.60 EM) on HotpotQA is not token-budget-matched (confounding compression paradigm with an 11-token reduction and student distillation), so the larger multi-hop drop is consistent with bridge-entity omission as a mechanistic hypothesis rather than an isolated causal proof; (2) as originally diagnosed by xRAG (§6.1, Table 11), collapsing 175.1 tokens into 1 embedding token raises Resilience (+8.2 pp) while depressing Boost Rate from 29.5% to 22.2% (-7.3 pp).",
       "property_status": {
-        "Property_1_Stability": "Proxy tested (EM drop / Resilience)",
-        "Property_2_Responsiveness": "Directional proxy only in xRAG (Boost -7.3 pp); paired Z_0->Z* untested",
-        "Property_3_Control": "Null-gate tested in RECOMP; sequential VoI untested"
-      }
+        "Property_1_Stability": "Directional proxy only (single-draw EM drop / Resilience; fine-grained D_TV untested)",
+        "Property_2_Responsiveness": "Directional proxy only in xRAG (static Boost -7.3 pp; provenance-warranted Z_0->Z* untested)",
+        "Property_3_Control": "Partial proxy (null-gate tested in RECOMP; calibrated alpha_r and VoI untested)"
+      },
+      "evidence_grade": "cross_study_protocol_audit_and_plausible_mechanism_hypothesis"
     },
     {
       "case_id": "Pair_2_Pillar_II_Adherence_vs_Noise",
       "compared_methods": "Base LLaMA2-7B-Chat vs. Prompt / CAD / IRCAN vs. RAAT vs. Parenting (Parenting Table 1, p. 8, on SQuAD2.0-Eval, RGB, and KNOT)",
       "single_metric_illusion": "Evaluated on context adherence (R_Ad) alone on RGB, IRCAN (72.50%) and CAD (70.00%) outperform Base (68.00%) and appear superior to RAAT (49.50%); evaluated on noise robustness (R_Ro) alone on RGB, RAAT (41.00%) outperforms Base (29.50%), IRCAN (20.00%), and CAD (16.00%).",
-      "coupled_framework_diagnosis": "Coupling Property 1 (R_Ro under noisy distractors) with Property 2 (R_Ad under counterfactual context updates Z_0 -> Z*) on identical backbones proves that single-axis methods trade one property against the other: CAD and IRCAN raise R_Ad (+2.0 to +4.5 pp on RGB; +1.52 to +8.97 pp on SQuAD) by inducing blind context compliance that collapses R_Ro (-13.50 and -9.50 pp on RGB; -7.60 and -2.90 pp on SQuAD), whereas noise-only adversarial training in RAAT raises R_Ro (+11.50 pp on RGB; +24.33 pp on SQuAD) by inducing parametric stubbornness that drops R_Ad below the unadapted base model (-18.50 pp on RGB; -4.95 pp on SQuAD). Subspace-decoupled tuning in Parenting jointly improves both (RGB: 79.50% R_Ad [+11.50 pp], 45.50% R_Ro [+16.00 pp]; SQuAD: 69.24% R_Ad [+25.04 pp], 44.85% R_Ro [+28.45 pp]).",
+      "coupled_framework_diagnosis": "Synthesizing the original dual-axis evaluation of Parenting (Table 1) with our provenance-warrant boundary (Sec. 5.1): Parenting Table 1 directly demonstrates on identical LLaMA2-7B-Chat backbones that single-axis adherence methods (CAD: 70.00% R_Ad / 16.00% R_Ro; IRCAN: 72.50% / 20.00%) collapse R_Ro relative to Base (68.00% / 29.50%), whereas noise-only RAAT (49.50% / 41.00%) drops below Base on R_Ad, and subspace-decoupled Parenting improves both (79.50% / 45.50%). Our framework adds the provenance boundary separating fiat entity-swap compliance on SQuAD2.0-Eval from authority-warranted responsiveness (rho(d') > rho(d_0) in Eq. 3).",
       "property_status": {
-        "Property_1_Stability": "Directly tested on R_Ro noise splits",
-        "Property_2_Responsiveness": "Directly tested on paired counterfactual R_Ad splits",
+        "Property_1_Stability": "Partial empirical proxy: single-draw noise accuracy R_Ro tested on RGB; semantic distribution drift D_TV and privilege boundary B_T untested",
+        "Property_2_Responsiveness": "Proxy only: stipulated counterfactual entity-swap compliance R_Ad tested on SQuAD2.0-Eval/RGB; provenance-warranted update (rho(d') > rho(d_0) in Eq. 3) untested",
         "Property_3_Control": "Untested (forced answering)"
-      }
+      },
+      "evidence_grade": "within_study_dual_metric_synthesis_with_provenance_boundary_audit"
     },
     {
       "case_id": "Pair_3_Cross_Study_Comparability_Audit",
@@ -55,21 +203,23 @@
       "single_metric_illusion": "Surface comparison suggests RAAT nearly eliminates counterfactual noise degradation (-0.97 pp EM), whereas RGB and Chain-of-Note still suffer 15-25 pp degradation at high noise ratios.",
       "coupled_framework_diagnosis": "C1-C5 protocol alignment corrects three non-comparable experimental denominators: (1) RAAT (§4.1) pre-filters test queries to those with >=2 gold passages in top-k (conditioning on retrieval recall = 1) and compares against unadapted LLaMA2-7B (51.80 -> 38.37 EM, -13.43 pp) and golden-only fine-tuned RALM_golden (74.03 -> 65.40 EM, -8.63 pp); (2) Chain-of-Note evaluates both unfiltered DPR top-k (Table 2, where retrieval recall is 64.2-89.9%) and controlled noise ratios up to 100% (Table 3, where gold support is completely absent at 100% noise); and (3) RGB scores lenient substring match on recent news entities.",
       "property_status": {
-        "Property_1_Stability": "Conditional reader stability (RAAT) vs. end-to-end stability (CoN Table 2)",
+        "Property_1_Stability": "Proxy comparison: conditional gold-present EM stability (RAAT) vs. unfiltered end-to-end EM stability (CoN Table 2)",
         "Property_2_Responsiveness": "Untested",
-        "Property_3_Control": "Unknown rejection tested in CoN at 100% noise; untested in RAAT"
-      }
+        "Property_3_Control": "Partial proxy: unknown rejection tested in CoN at 100% noise; untested in RAAT"
+      },
+      "evidence_grade": "cross_study_denominator_comparability_audit"
     },
     {
       "case_id": "Pair_4_Abstention_vs_Recovery_Scoring",
       "compared_methods": "Static Sufficiency Abstention (Sufficient Context / Park & Lee Unans Prompt) vs. VoI-Routed Corrective Search (CRAG / CtrlA) under Paraphrase Recall Miss (W_T^loc = empty != W_T^ref = {z*})",
       "single_metric_illusion": "On queries where initial retrieval misses the gold passage (32% of NQ in Park & Lee Table 3), abstaining reduces answered-subset hallucination rate and improves conditional selective accuracy (Property 3 Eq. 5).",
-      "coupled_framework_diagnosis": "Under our joint Property 1 + Property 3 scoring rule, when W_T^ref(q', E_ref') = {z*} != empty (solvable query in Omega_inv whose initial retrieval D_1 missed z*), terminal abstention satisfies selective risk E[L_T | a_T=ans] <= alpha_r only by shrinking coverage P(a_T=ans) and incurring full refusal penalty L_T(abs, z*) = c_abs in end-to-end task risk E[L_T] (Eq. 2a). Satisfying Eq. (2a) and Eq. (5) simultaneously requires positive-VoI re-retrieval (Eq. 9: VoI(re-retrieve) > C_op) to recover z* into D_2, reserving terminal abstention for true corpus gaps (W_T^ref = empty) or exhausted budget B.",
+      "coupled_framework_diagnosis": "Under Proposition 1 (with baseline P_S(abs|q,C)=0 and invariant conditional answer distribution P_ans), static abstention on solvable recall misses (W_T^loc = empty != W_T^ref = {z*}) satisfies Eqs. (2) and (5) iff r_0 <= min(alpha_r, eps_task) and p_miss <= p_tol(r_0) = min(tau_task(r_0, c_abs, eps_task), delta_stab, 1 - tau_cov,r) (if r_0=0.20 > alpha_r=0.10, Eq. 5 is violated even when p_miss=0.05 <= 0.10; whereas for r_0=0, p_miss=0.05, c_abs=0.20 => E[L_T]=0.01 <= 0.02, D_TV=0.05 <= 0.10, Cov=0.95 >= 0.90, R_sel=0 <= 0.10). When r_0 <= min(alpha_r, eps_task) and p_miss > p_tol(r_0), we distinguish (a) static constraint violation, (b) existence of a budget-feasible, reachability-capable recovery policy (p_rec >= 1 - p_tol(r_0)/p_miss), and (c) strict single-step optimality in the dual Bellman objective (VoI > C_op in Eq. 9). Moreover, Sufficient Context Fig. 4 improves empirical selective accuracy-coverage curves without calibrating a finite-sample risk bound alpha_r.",
       "property_status": {
-        "Property_1_Stability": "Violated by static abstention on solvable recall misses (loss = c_abs); satisfied via recovery",
+        "Property_1_Stability": "Feasible under static abstention iff r_0 <= min(alpha_r, eps_task) and p_miss <= p_tol(r_0) (under A1-A3)",
         "Property_2_Responsiveness": "N/A (warrant invariant)",
-        "Property_3_Control": "Coupled selective risk <= alpha_r and coverage >= tau_cov,r under budget B"
-      }
+        "Property_3_Control": "Separates empirical acc.-cov. curves (Sufficient Context) from SGT/HB FWER-calibrated risk <= alpha_r (BalanceRAG) and normative Bellman VoI routing"
+      },
+      "evidence_grade": "formal_proposition_and_protocol_guarantee_stratification"
     }
   ]
 }
