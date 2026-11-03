@@ -9,7 +9,7 @@ Given a task specification $\mathcal{T}$, a perturbation regime $\Omega = \Omega
 2. **Property 2 (Justified Responsiveness):** Bounded update risk and counterfactual probability gain toward authoritative, corroborated updates ($\rho(d') > \rho(d_0)$) when prior beliefs are outdated.
 3. **Property 3 (Graceful Degradation and Recovery):** Budget-feasible Constrained POMDP sequential control (re-retrieval, verification, clarification, or calibrated abstention) when support is absent or unresolved, paired with lineage-guided state recovery in stateful workflows.
 
-Across **390 unique cited works** ($355$ primary RAG studies and $35$ foundational, adjacent-benchmark, and survey references), technical interventions are organized into **4 pillars and 20 mechanism strands**:
+Across **386 unique cited works** ($355$ primary RAG studies and $31$ foundational, adjacent-benchmark, and survey references), technical interventions are organized into **4 pillars and 20 mechanism strands**:
 - **Section 1:** Introduction
 - **Section 2:** Background and Systematic Survey Scope
 - **Section 3:** Conceptual Framework and Taxonomy of Robust RAG (Definition 1, Properties 1 to 3, Proposition 1, and Figure 2 Research Map of 76 representative works)
@@ -25,12 +25,12 @@ Across **390 unique cited works** ($355$ primary RAG studies and $35$ foundation
 
 | Artifact | Path | Description |
 | --- | --- | --- |
-| **Complete 390-Work Citation Index** | `survey_reproducibility/data/citation_index.csv` | Structured index of all 390 unique works cited in the survey ($355$ primary RAG studies and $35$ foundational, adjacent-benchmark, and survey references). |
+| **Complete 386-Work Citation Index** | `survey_reproducibility/data/citation_index.csv` | Structured index of all 386 unique works cited in the survey ($355$ primary RAG studies and $31$ foundational, adjacent-benchmark, and survey references). |
 | **Core Literature Map** | `survey_reproducibility/data/literature_map.csv` | Structured mapping of core studies across the 4 intervention pillars and 20 mechanism strands. |
 | **Figure 2 Taxonomy Map Manifest (76 Works)** | `survey_reproducibility/data/research_map_76_works.csv`, `.json` | Structured manifest of the 76 representative works organized across the 4 pillars and 20 mechanism strands in Figure 2. |
 | **Taxonomy and Scope Documentation** | `survey_reproducibility/PROTOCOL_AND_TAXONOMY.md` | Documentation of the literature collection scope, four-pillar taxonomy, and evaluation benchmark and metric categories. |
 | **Figure Generation Scripts** | `survey_reproducibility/figures/`, `survey_reproducibility/scripts/render_figures.py` | Scripts for constructing the native vector figures (Figure 1 Concept Overview, Figure 2 Research Map, and Figure 3 Cross-Stage Lifecycle Recovery). |
-| **Artifact Verification Script** | `survey_reproducibility/verify_survey_artifacts.py` | Deterministic script verifying the 390 cited works, 4-pillar / 20-strand taxonomy mapping, 76-work Figure 2 manifest, and formal mathematical properties. |
+| **Artifact Verification Script** | `survey_reproducibility/verify_survey_artifacts.py` | Deterministic script verifying the 386 cited works, 4-pillar / 20-strand taxonomy mapping, 76-work Figure 2 manifest, and formal mathematical properties. |
 
 ## 3. Quick Verification
 

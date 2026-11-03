@@ -23,13 +23,13 @@ cit_rows = list(csv.DictReader((data / 'citation_index.csv').open()))
 map76_rows = list(csv.DictReader((data / 'research_map_76_works.csv').open()))
 
 # 1. Verify corpus counts (390 total cited works: 355 primary RAG studies + 35 foundational/adjacent/survey works)
-assert len(cit_rows) == 390, len(cit_rows)
+assert len(cit_rows) == 386, len(cit_rows)
 assert len(lit_rows) == 336, len(lit_rows)
 assert len(map76_rows) == 76, len(map76_rows)
 
 prim_355 = [r for r in cit_rows if r['study_type'].startswith('primary_rag_study')]
 found_35 = [r for r in cit_rows if not r['study_type'].startswith('primary_rag_study')]
-assert len(prim_355) == 355 and len(found_35) == 35
+assert len(prim_355) == 355 and len(found_35) == 31
 
 # 2. Verify all 20 mechanism strands across the 4 pillars are populated
 strand_codes = {re.match(r'(Strand \d+\.\d+)', r['mechanism_strand']).group(1) for r in lit_rows if r['study_type'] == 'primary_rag_study'}
@@ -42,8 +42,8 @@ cit_by_key = {r['cite_key']: r for r in cit_rows}
 pdf390_bytes = (data / 'pdf_fulltext_verification_390.csv').read_bytes()
 assert hashlib.sha256(pdf390_bytes).hexdigest() == snap['packaged_pdf_fulltext_verification_390_sha256']
 pdf390_rows = list(csv.DictReader((data / 'pdf_fulltext_verification_390.csv').open()))
-assert len(pdf390_rows) == 390 and all(r['title_verified_in_pdf'] == 'True' and r['author_verified_in_pdf'] == 'True' for r in pdf390_rows)
-for k_stat in ['canonne2020discrete', 'bentkus2004hoeffding', 'angelopoulos2024crc', 'bates2021rcps', 'angelopoulos2025ltt']:
+assert len(pdf390_rows) == 386 and all(r['title_verified_in_pdf'] == 'True' and r['author_verified_in_pdf'] == 'True' for r in pdf390_rows)
+for k_stat in ['bentkus2004hoeffding', 'bates2021rcps', 'angelopoulos2025ltt']:
     assert k_stat in cit_by_key, k_stat
 
 # 4. Verify formal mathematical properties (Section 3: Definition 1, Proposition 1, TV concentration, and one-sided FWER p-values)

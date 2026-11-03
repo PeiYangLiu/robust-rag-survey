@@ -6,9 +6,9 @@
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
   "packaged_literature_map_sha256": "36887dc56b1342c508f3710dffc09688773886928fb4f26e6b079c641e58bf25",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "d55f8ac2c49a49837d2ab7371528560075bf31a6e52ea116777e98ab6f6e3696",
+  "packaged_citation_index_sha256": "fd672b9d8267b08472a5fa06cc0ec79ef7eb9481c6d0023d5349b3f2423e73a3",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
-  "packaged_coverage_decisions_sha256": "36a53aa766279daebc0b80d26a3b963f8eaaa734c8166d6e01ea0e10715e044b",
+  "packaged_coverage_decisions_sha256": "526b2720a2d814bc4141988e2d1e055b5bf85f13f7628aeff7d4d785d86d0663",
   "packaged_coverage_decisions_breakdown": {
     "total_rows": 476,
     "cited_in_main_text": 390,
@@ -1207,5 +1207,5 @@
   "packaged_secondary_variants_71_sha256": "1d7a94a216fcd223df6f4c3be33dc5398359b8a2aa170fa4183fa1d531897cb9",
   "packaged_warrant_micro_benchmark_sha256": "ed9a7bd33ddbd3650e7cc3cb52be345ad6d7f19ab64675d87ba140a76ed79a48",
   "packaged_open_coding_temporal_audit_sha256": "83cb2fff77f775ea8fd8d9b5a4393ed9ad011080f27761c54179c462be12fa6e",
-  "packaged_pdf_fulltext_verification_390_sha256": "f4bba2267341481bbaad927081d0740acac3e581542a5a479feff4438099036b"
+  "packaged_pdf_fulltext_verification_390_sha256": "99fc76d1f8151355e6229d573e260704245c84f52cd737bc00c5058c5ba32a85"
 }

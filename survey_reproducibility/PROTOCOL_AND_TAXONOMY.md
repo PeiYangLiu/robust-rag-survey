@@ -1,9 +1,9 @@
 # Literature Scope, Four-Pillar Taxonomy, and Evaluation Framework
 
 ## 1. Literature Scope and Venue Coverage
-- **Synthesized Corpus (390 Unique Cited Works):**
+- **Synthesized Corpus (386 Unique Cited Works):**
   - **355 Primary RAG Studies and Benchmarks** spanning query reformulation, context filtering and compression, positional bias mitigation, source provenance, noise-resilient reading, knowledge conflict resolution, white-box representation steering, adversarial poisoning and prompt injection, uncertainty calibration, and closed-loop adaptive control.
-  - **35 Foundational, Adjacent-Benchmark, and Survey References** covering dense retrieval foundations, statistical concentration and multiple-testing theory, distribution-free risk control, transferable reasoning and code calibration, zero-shot IR benchmarking, and prior RAG surveys.
+  - **31 Foundational, Adjacent-Benchmark, and Survey References** covering dense retrieval foundations, statistical concentration and multiple-testing theory, distribution-free risk control, transferable reasoning and code calibration, zero-shot IR benchmarking, and prior RAG surveys.
 - **Covered Venues and Digital Libraries:**
   - **Natural Language Processing:** ACL, EMNLP, NAACL, EACL, TACL, COLING.
   - **Machine Learning:** ICLR, NeurIPS, ICML, AAAI.
