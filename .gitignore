@@ -111,8 +111,7 @@ manuscript/survey_appendix_deep/
 manuscript/reviews/
 overleaf_package/
 nlpcc/
-REVIEW_EACL2027.md
-REVIEW_EACL2027_20260615.md
+REVIEW_*.md
 
 # ---- Third-party paper PDF kept locally only (copyright) ----
 references/exemplars/*.pdf

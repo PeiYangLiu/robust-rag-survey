@@ -4,11 +4,11 @@
   "core_coding_and_artifact_freeze": "2026-06-15",
   "supplementary_post_freeze_window": "2026-06-16 to 2026-10-26 (governed by Rules S1, S2, S3)",
   "packaged_literature_map_path": "survey_resources/literature_map.csv",
-  "packaged_literature_map_sha256": "26c501d9935efd1dc56283ea03e759e5dd3535345aaef6011072a8f25431b825",
+  "packaged_literature_map_sha256": "36887dc56b1342c508f3710dffc09688773886928fb4f26e6b079c641e58bf25",
   "packaged_citation_index_path": "survey_resources/citation_index.csv",
-  "packaged_citation_index_sha256": "63aff76332bdb809aa1fc4cfa9c2850f0083c9a432ff56aed515876f27563ef5",
+  "packaged_citation_index_sha256": "d55f8ac2c49a49837d2ab7371528560075bf31a6e52ea116777e98ab6f6e3696",
   "packaged_coverage_decisions_path": "survey_resources/coverage_decisions.csv",
-  "packaged_coverage_decisions_sha256": "5de9284cdd41fa2470b32abc9b2cc9bb850458314c7ec79f7d3a79dcb3bd4d02",
+  "packaged_coverage_decisions_sha256": "36a53aa766279daebc0b80d26a3b963f8eaaa734c8166d6e01ea0e10715e044b",
   "packaged_coverage_decisions_breakdown": {
     "total_rows": 476,
     "cited_in_main_text": 390,
@@ -1206,5 +1206,6 @@
   "packaged_stratified_80_recoding_audit_sha256": "c6404d3a2e16f2af283b6524fd96ae0593aebd6d23f1ad1174d0d4e7c11bc722",
   "packaged_secondary_variants_71_sha256": "1d7a94a216fcd223df6f4c3be33dc5398359b8a2aa170fa4183fa1d531897cb9",
   "packaged_warrant_micro_benchmark_sha256": "ed9a7bd33ddbd3650e7cc3cb52be345ad6d7f19ab64675d87ba140a76ed79a48",
-  "packaged_open_coding_temporal_audit_sha256": "83cb2fff77f775ea8fd8d9b5a4393ed9ad011080f27761c54179c462be12fa6e"
+  "packaged_open_coding_temporal_audit_sha256": "83cb2fff77f775ea8fd8d9b5a4393ed9ad011080f27761c54179c462be12fa6e",
+  "packaged_pdf_fulltext_verification_390_sha256": "f4bba2267341481bbaad927081d0740acac3e581542a5a479feff4438099036b"
 }

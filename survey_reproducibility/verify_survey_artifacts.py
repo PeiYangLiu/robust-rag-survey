@@ -39,7 +39,11 @@ assert len(map76_strands) == 20, sorted(map76_strands)
 
 # 3. Verify foundational statistical and risk-control citations are indexed
 cit_by_key = {r['cite_key']: r for r in cit_rows}
-for k_stat in ['hoeffding1963probability', 'mcdiarmid1989bounded', 'bentkus2004hoeffding', 'bretz2009graphical', 'bates2021rcps', 'angelopoulos2025ltt']:
+pdf390_bytes = (data / 'pdf_fulltext_verification_390.csv').read_bytes()
+assert hashlib.sha256(pdf390_bytes).hexdigest() == snap['packaged_pdf_fulltext_verification_390_sha256']
+pdf390_rows = list(csv.DictReader((data / 'pdf_fulltext_verification_390.csv').open()))
+assert len(pdf390_rows) == 390 and all(r['title_verified_in_pdf'] == 'True' and r['author_verified_in_pdf'] == 'True' for r in pdf390_rows)
+for k_stat in ['canonne2020discrete', 'bentkus2004hoeffding', 'angelopoulos2024crc', 'bates2021rcps', 'angelopoulos2025ltt']:
     assert k_stat in cit_by_key, k_stat
 
 # 4. Verify formal mathematical properties (Section 3: Definition 1, Proposition 1, TV concentration, and one-sided FWER p-values)
