@@ -121,3 +121,34 @@ manuscript/ARR_CHECKLIST.md
 
 # Local Overleaf revision transaction workspace (paper sources excluded from git)
 /revision_survey_20261026/
+
+# ---- Archived historical / exploratory directories excluded from clean survey repo ----
+/annotation_outputs/
+/blind_review_deliverables/
+/citation_annotation_batch_B_20260606/
+/configs/
+/exemplar/
+/expert_gold_adjudication_20260605/
+/expert_gold_adjudication_blind_review_packet_20260605/
+/expert_validation/
+/expert_validation_60pair_annotation_20260607/
+/expert_validation_60pair_blind_acceptance_package_20260607/
+/expert_validation_60pair_blind_review_packet_20260607/
+/expert_validation_blind_batch_A_20260605/
+/human_citation_annotation_20260606/
+/logs/
+/manuscript/
+/map_b_148_blind_review_package_20260607/
+/map_b_148_second_coding_results_C02_C03_20260606_unzipped/
+/metadata/
+/references/
+/reviews/
+/scripts/
+/scripts_local_run.sh
+survey_reproducibility/scripts/sync_canonical_data.py
+survey_reproducibility/data/stratified_80_protocol_recoding_audit.*
+survey_reproducibility/data/secondary_variants_71_sensitivity.*
+survey_reproducibility/data/warrant_micro_benchmark_audit.*
+survey_reproducibility/data/open_coding_and_temporal_audit.json
+survey_reproducibility/data/paired_diagnostic_reanalysis.*
+survey_reproducibility/data/claim_evidence_matrix.*

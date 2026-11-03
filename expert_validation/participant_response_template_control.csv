@@ -1,2 +1,0 @@
-participant_id,condition,pair_id,verdict,confidence_1_5,decision_time_seconds,usefulness_1_5,rationale,error_type
-E01,control,P01,,,,,,
